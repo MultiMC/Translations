@@ -1543,13 +1543,13 @@ msgstr ""
 "Le binaire java spécifiée n'a pas fonctionné. Vous devez utiliser la "
 "fonction d'auto-détection, ou définir le chemin vers l'exécutable java."
 
-#: src/logic/minecraft/InstanceVersion.cpp:333
+#: src/logic/minecraft/InstanceVersion.cpp:341
 #, fuzzy
 msgctxt "InstanceVersion|"
 msgid "Name"
 msgstr "Nom"
 
-#: src/logic/minecraft/InstanceVersion.cpp:335
+#: src/logic/minecraft/InstanceVersion.cpp:343
 #, fuzzy
 msgctxt "InstanceVersion|"
 msgid "Version"
@@ -2157,42 +2157,42 @@ msgctxt "MCModInfoFrame|"
 msgid "No description provided in mcmod.info"
 msgstr "Aucune description disponible dans mcmod.info"
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:365
+#: src/logic/minecraft/MinecraftVersionList.cpp:360
 msgctxt "MCVListLoadTask|"
 msgid "Loading instance version list..."
 msgstr "Chargement de la liste des versions des instances..."
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:390
+#: src/logic/minecraft/MinecraftVersionList.cpp:385
 #, qt-format
 msgctxt "MCVListLoadTask|"
 msgid "Error parsing version list JSON: %1"
 msgstr ""
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:437
+#: src/logic/minecraft/MinecraftVersionList.cpp:432
 #, fuzzy
 msgctxt "MCVListVersionUpdateTask|"
 msgid "The download version file is not valid."
 msgstr "Impossible de télécharger les fichiers d'information de la version."
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:447
+#: src/logic/minecraft/MinecraftVersionList.cpp:442
 #, fuzzy, qt-format
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Couldn't process version file: %1"
 msgstr "Impossible de démarrer le profiler: %1"
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:479
+#: src/logic/minecraft/MinecraftVersionList.cpp:474
 #, fuzzy, qt-format
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Can't open %1 for writing."
 msgstr "Impossible d'ouvrir %1 pour l'écriture."
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:485
+#: src/logic/minecraft/MinecraftVersionList.cpp:480
 #, fuzzy, qt-format
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Failed to write into %1. Written %2 out of %3."
 msgstr "Impossible d'écrire dans %1. Écrit %2 sur %3."
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:493
+#: src/logic/minecraft/MinecraftVersionList.cpp:488
 #, fuzzy, qt-format
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Can't commit changes to %1"
@@ -2269,7 +2269,7 @@ msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC"
 msgstr "Vérifier les mises à jour pour MultiMC"
 
-#: src/gui/MainWindow.ui:241 src/gui/MainWindow.cpp:255
+#: src/gui/MainWindow.ui:241 src/gui/MainWindow.cpp:256
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "Options"
@@ -2377,12 +2377,7 @@ msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "Éditer les notes de l'instance sélectionnée."
 
-#: src/gui/MainWindow.ui:390
-msgctxt "MainWindow|"
-msgid "Edit Mods"
-msgstr "Éditer les mods"
-
-#: src/gui/MainWindow.ui:393
+#: src/gui/MainWindow.ui:390 src/gui/MainWindow.ui:393
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Edit Instance"
@@ -2450,7 +2445,7 @@ msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Copier l'instance sélectionnée."
 
-#: src/gui/MainWindow.ui:466 src/gui/MainWindow.cpp:234
+#: src/gui/MainWindow.ui:466 src/gui/MainWindow.cpp:235
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "Gérer les comptes"
@@ -2460,7 +2455,7 @@ msgctxt "MainWindow|"
 msgid "Manage your Mojang or Minecraft accounts."
 msgstr "Gérer vos comptes Mojang ou Minecraft."
 
-#: src/gui/MainWindow.ui:474 src/gui/MainWindow.cpp:1199
+#: src/gui/MainWindow.ui:474 src/gui/MainWindow.cpp:1200
 msgctxt "MainWindow|"
 msgid "Play Offline"
 msgstr "Jouer Hors ligne"
@@ -2496,120 +2491,120 @@ msgctxt "MainWindow|"
 msgid "Change the settings specific to the instance"
 msgstr "Changer les options de l'instance sélectionnée."
 
-#: src/gui/MainWindow.cpp:223
+#: src/gui/MainWindow.cpp:224
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "Aucune instance sélectionnée"
 
-#: src/gui/MainWindow.cpp:242
+#: src/gui/MainWindow.cpp:243
 msgctxt "MainWindow|"
 msgid "Accounts"
 msgstr "Comptes"
 
-#: src/gui/MainWindow.cpp:371
+#: src/gui/MainWindow.cpp:372
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "renommer"
 
-#: src/gui/MainWindow.cpp:374
+#: src/gui/MainWindow.cpp:375
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Copy instance"
 msgstr "Copier une instance"
 
-#: src/gui/MainWindow.cpp:389
+#: src/gui/MainWindow.cpp:390
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "MultiMC"
 msgstr "MultiMC"
 
-#: src/gui/MainWindow.cpp:392
+#: src/gui/MainWindow.cpp:393
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Renommer l'instance"
 
-#: src/gui/MainWindow.cpp:416 src/gui/MainWindow.cpp:1332
+#: src/gui/MainWindow.cpp:417 src/gui/MainWindow.cpp:1333
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Lancer"
 
-#: src/gui/MainWindow.cpp:419
+#: src/gui/MainWindow.cpp:420
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr ""
 
-#: src/gui/MainWindow.cpp:428
+#: src/gui/MainWindow.cpp:429
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
 "Le Profiler n'est pas configuré correctement. Allez dans Paramètres, "
 "\"Outils externes\"."
 
-#: src/gui/MainWindow.cpp:436
+#: src/gui/MainWindow.cpp:437
 msgctxt "MainWindow|"
 msgid "Tools"
 msgstr "Outils"
 
-#: src/gui/MainWindow.cpp:445
+#: src/gui/MainWindow.cpp:446
 msgctxt "MainWindow|"
 msgid "Tool not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
 "L'outil n'est pas configuré correctement. Allez dans Paramètres, \"Outils "
 "externes\"."
 
-#: src/gui/MainWindow.cpp:471
+#: src/gui/MainWindow.cpp:472
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Pas de comptes ajoutés!"
 
-#: src/gui/MainWindow.cpp:508
+#: src/gui/MainWindow.cpp:509
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Pas de compte par défaut"
 
-#: src/gui/MainWindow.cpp:602
+#: src/gui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Chargement des nouvelles ..."
 
-#: src/gui/MainWindow.cpp:615
+#: src/gui/MainWindow.cpp:616
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Pas de nouvelles disponibles."
 
-#: src/gui/MainWindow.cpp:774 src/gui/MainWindow.cpp:781
-#: src/gui/MainWindow.cpp:788 src/gui/MainWindow.cpp:800
-#: src/gui/MainWindow.cpp:808 src/gui/MainWindow.cpp:845
-#: src/gui/MainWindow.cpp:852 src/gui/MainWindow.cpp:859
-#: src/gui/MainWindow.cpp:1308 src/gui/MainWindow.cpp:1342
+#: src/gui/MainWindow.cpp:775 src/gui/MainWindow.cpp:782
+#: src/gui/MainWindow.cpp:789 src/gui/MainWindow.cpp:801
+#: src/gui/MainWindow.cpp:809 src/gui/MainWindow.cpp:846
+#: src/gui/MainWindow.cpp:853 src/gui/MainWindow.cpp:860
+#: src/gui/MainWindow.cpp:1309 src/gui/MainWindow.cpp:1343
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Erreur"
 
-#: src/gui/MainWindow.cpp:762 src/gui/MainWindow.cpp:833
+#: src/gui/MainWindow.cpp:763 src/gui/MainWindow.cpp:834
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to create instance %1: "
 msgstr "Impossible de créer une instance %1: "
 
-#: src/gui/MainWindow.cpp:773 src/gui/MainWindow.cpp:844
+#: src/gui/MainWindow.cpp:774 src/gui/MainWindow.cpp:845
 msgctxt "MainWindow|"
 msgid "An instance with the given directory name already exists."
 msgstr "Une instance avec le nom de répertoire donné existe déjà."
 
-#: src/gui/MainWindow.cpp:780 src/gui/MainWindow.cpp:851
+#: src/gui/MainWindow.cpp:781 src/gui/MainWindow.cpp:852
 msgctxt "MainWindow|"
 msgid "Failed to create the instance directory."
 msgstr "Impossible de créer le répertoire de l'instance."
 
-#: src/gui/MainWindow.cpp:787 src/gui/MainWindow.cpp:858
+#: src/gui/MainWindow.cpp:788 src/gui/MainWindow.cpp:859
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Unknown instance loader error %1"
 msgstr "Erreur de chargement d'une instance inconnu %1"
 
-#: src/gui/MainWindow.cpp:809
+#: src/gui/MainWindow.cpp:810
 #, fuzzy
 msgctxt "MainWindow|"
 msgid ""
@@ -2621,22 +2616,22 @@ msgstr ""
 "si vous avez au moins un compte ajouté. \n"
 "S'il vous plaît ajouter votre compte Mojang ou Minecraft."
 
-#: src/gui/MainWindow.cpp:918
+#: src/gui/MainWindow.cpp:919
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "Nom du groupe"
 
-#: src/gui/MainWindow.cpp:918
+#: src/gui/MainWindow.cpp:919
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "Entrez le nom du nouveau groupe."
 
-#: src/gui/MainWindow.cpp:1043
+#: src/gui/MainWindow.cpp:1044
 msgctxt "MainWindow|"
 msgid "CAREFUL"
 msgstr "ATTENTION"
 
-#: src/gui/MainWindow.cpp:1043
+#: src/gui/MainWindow.cpp:1044
 msgctxt "MainWindow|"
 msgid ""
 "This is permanent! Are you sure?\n"
@@ -2645,22 +2640,22 @@ msgstr ""
 "Etes-vous sûr de vouloir supprimer cette instance définitivement?\n"
 "Instance en question: "
 
-#: src/gui/MainWindow.cpp:1060
+#: src/gui/MainWindow.cpp:1061
 msgctxt "MainWindow|"
 msgid "Instance name"
 msgstr "Nom de l'instance"
 
-#: src/gui/MainWindow.cpp:1060
+#: src/gui/MainWindow.cpp:1061
 msgctxt "MainWindow|"
 msgid "Enter a new instance name."
 msgstr "Entrez le nouveau nom de l'instance."
 
-#: src/gui/MainWindow.cpp:1148
+#: src/gui/MainWindow.cpp:1149
 msgctxt "MainWindow|"
 msgid "No Accounts"
 msgstr "Pas de compte"
 
-#: src/gui/MainWindow.cpp:1149
+#: src/gui/MainWindow.cpp:1150
 msgctxt "MainWindow|"
 msgid ""
 "In order to play Minecraft, you must have at least one Mojang or Minecraft "
@@ -2671,12 +2666,12 @@ msgstr ""
 "Minecraft connecté à MultiMC. Voulez vous ouvrir le gestionnaire de compte "
 "pour ajouter un compte maintenant?"
 
-#: src/gui/MainWindow.cpp:1163
+#: src/gui/MainWindow.cpp:1164
 msgctxt "MainWindow|"
 msgid "Which account would you like to use?"
 msgstr "Quel compte voulez-vous utiliser?"
 
-#: src/gui/MainWindow.cpp:1185
+#: src/gui/MainWindow.cpp:1186
 msgctxt "MainWindow|"
 msgid ""
 "Your account is currently not logged in. Please enter your password to log "
@@ -2685,28 +2680,28 @@ msgstr ""
 "Votre compte n'est actuellement pas connecté. S'il vous plaît, entrez votre "
 "mot de passe pour vous connecter à nouveau."
 
-#: src/gui/MainWindow.cpp:1232
+#: src/gui/MainWindow.cpp:1233
 msgctxt "MainWindow|"
 msgid "Player name"
 msgstr "Nom du joueur"
 
-#: src/gui/MainWindow.cpp:1233
+#: src/gui/MainWindow.cpp:1234
 msgctxt "MainWindow|"
 msgid "Choose your offline mode player name."
 msgstr "Choisissez votre nom de joueur en mode hors ligne."
 
-#: src/gui/MainWindow.cpp:1309
+#: src/gui/MainWindow.cpp:1310
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't start profiler: %1"
 msgstr "Impossible de démarrer le profiler: %1"
 
-#: src/gui/MainWindow.cpp:1318
+#: src/gui/MainWindow.cpp:1319
 msgctxt "MainWindow|"
 msgid "Waiting for profiler..."
 msgstr "En attente du profiler..."
 
-#: src/gui/MainWindow.cpp:1327
+#: src/gui/MainWindow.cpp:1328
 #, qt-format
 msgctxt "MainWindow|"
 msgid ""
@@ -2722,34 +2717,34 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/gui/MainWindow.cpp:1330
+#: src/gui/MainWindow.cpp:1331
 msgctxt "MainWindow|"
 msgid "Waiting"
 msgstr "Attente"
 
-#: src/gui/MainWindow.cpp:1341
+#: src/gui/MainWindow.cpp:1342
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't start the profiler: %1"
 msgstr "Impossible de démarrer le profiler: %1"
 
-#: src/gui/MainWindow.cpp:1359
+#: src/gui/MainWindow.cpp:1360
 msgctxt "MainWindow|"
 msgid "Error updating instance"
 msgstr "Erreur de mise à jour de l'instance"
 
-#: src/gui/MainWindow.cpp:1427
+#: src/gui/MainWindow.cpp:1428
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "Renommer l'instance"
 
-#: src/gui/MainWindow.cpp:1490
+#: src/gui/MainWindow.cpp:1491
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Java detection forced"
 msgstr "Test de Java echec"
 
-#: src/gui/MainWindow.cpp:1491
+#: src/gui/MainWindow.cpp:1492
 msgctxt "MainWindow|"
 msgid ""
 "Because of graphics performance issues caused by Intel drivers on Windows, "
@@ -2758,17 +2753,17 @@ msgid ""
 "'javaw.exe' executable."
 msgstr ""
 
-#: src/gui/MainWindow.cpp:1508
+#: src/gui/MainWindow.cpp:1509
 msgctxt "MainWindow|"
 msgid "Select a Java version"
 msgstr "Sélectionner une version de Java"
 
-#: src/gui/MainWindow.cpp:1518
+#: src/gui/MainWindow.cpp:1519
 msgctxt "MainWindow|"
 msgid "Invalid version selected"
 msgstr "La version sélectionnée est invalide"
 
-#: src/gui/MainWindow.cpp:1519
+#: src/gui/MainWindow.cpp:1520
 msgctxt "MainWindow|"
 msgid ""
 "You didn't select a valid Java version, so MultiMC will select the default. "
@@ -2778,13 +2773,13 @@ msgstr ""
 "la version par défaut. Vous pouvez le modifier dans la boîte de dialogue des "
 "réglages."
 
-#: src/gui/MainWindow.cpp:1543
+#: src/gui/MainWindow.cpp:1544
 msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr ""
 
-#: src/gui/MainWindow.cpp:1546
+#: src/gui/MainWindow.cpp:1547
 msgctxt "MainWindow|"
 msgid ""
 "You have now three options: <br/> - ignore this warning <br/> - change the "
@@ -2953,17 +2948,17 @@ msgctxt "MinecraftVersionList|"
 msgid "Error reading the version list."
 msgstr "Recharger la liste des versions."
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:188
+#: src/logic/minecraft/MinecraftVersionList.cpp:183
 msgctxt "MinecraftVersionList|"
 msgid "Error parsing version list JSON: jsonDoc is not an object"
 msgstr ""
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:202
+#: src/logic/minecraft/MinecraftVersionList.cpp:197
 msgctxt "MinecraftVersionList|"
 msgid "Error parsing version list JSON: couldn't determine latest versions"
 msgstr ""
 
-#: src/logic/minecraft/MinecraftVersionList.cpp:208
+#: src/logic/minecraft/MinecraftVersionList.cpp:203
 msgctxt "MinecraftVersionList|"
 msgid ""
 "Error parsing version list JSON: version list object is missing 'versions' "
@@ -3252,7 +3247,7 @@ msgctxt "NewInstanceDialog|"
 msgid "..."
 msgstr "..."
 
-#: src/gui/dialogs/NewInstanceDialog.cpp:103
+#: src/gui/dialogs/NewInstanceDialog.cpp:94
 msgctxt "NewInstanceDialog|"
 msgid "Change Minecraft version"
 msgstr "Changer la version de minecraft"
@@ -3688,7 +3683,7 @@ msgctxt "QObject|"
 msgid "Recommended"
 msgstr ""
 
-#: src/logic/tools/JVisualVM.cpp:64 src/logic/tools/JProfiler.cpp:63
+#: src/logic/tools/JProfiler.cpp:63 src/logic/tools/JVisualVM.cpp:64
 msgctxt "QObject|"
 msgid "Empty path"
 msgstr "Chemin vide"
@@ -3718,8 +3713,8 @@ msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
 msgstr "Le chemin ne semble pas être celui de MCEdit"
 
-#: src/logic/minecraft/VersionFile.cpp:452
-#: src/logic/minecraft/VersionFile.cpp:476
+#: src/logic/minecraft/VersionFile.cpp:450
+#: src/logic/minecraft/VersionFile.cpp:474
 #, qt-format
 msgctxt "QObject|"
 msgid "Error resolving library dependencies between %1 and %2 in %3."
@@ -3787,7 +3782,7 @@ msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "Impossible de traiter la version du fichier %1: %2 à %3."
 
-#: src/logic/minecraft/VersionBuilder.cpp:317
+#: src/logic/minecraft/VersionBuilder.cpp:322
 #, fuzzy, qt-format
 msgctxt "QObject|"
 msgid "Invalid order file version, expected %1"
@@ -3862,6 +3857,12 @@ msgid ""
 "The <a href=\"%1\">link to the uploaded log</a> has been opened in the "
 "default browser and placed in your clipboard."
 msgstr ""
+
+#: src/logic/MMCJson.h:24
+#, fuzzy, qt-format
+msgctxt "QObject|"
+msgid "Error opening %1: %2"
+msgstr "Impossible d'ouvrir %1 pour l'écriture."
 
 #: src/depends/quazip/quagzipfile.cpp:36
 msgctxt "QuaGzipFile|"
@@ -4421,6 +4422,10 @@ msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
 
+#~ msgctxt "MainWindow|"
+#~ msgid "Edit Mods"
+#~ msgstr "Éditer les mods"
+
 #, fuzzy
 #~ msgctxt "MainWindow|"
 #~ msgid "Update"
@@ -4701,11 +4706,6 @@ msgstr "..."
 #~ msgctxt "QuickModDownloadTask|"
 #~ msgid "Failure downloading QuickMods"
 #~ msgstr "Le téléchargement de Forge a échoué"
-
-#, fuzzy
-#~ msgctxt "QuickModFilesUpdater|"
-#~ msgid "Error opening %1 for writing: %2"
-#~ msgstr "Impossible d'ouvrir %1 pour l'écriture."
 
 #, fuzzy
 #~ msgctxt "QuickModForgeDownloadTask|"
