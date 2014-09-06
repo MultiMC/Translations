@@ -21,6 +21,8 @@ do
 	lrelease-qt5 $lang.ts -qm $OUTPUT/$lang.qm
 done
 
+ls $OUTPUT/ | grep -v index > $OUTPUT/index
+
 echo "Removing intermediate files..."
 rm *.ts
 
