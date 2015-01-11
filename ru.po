@@ -1,17 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-12-10 15:30-0400\n"
-"Last-Translator: Vitaly <vitaliilesik@gmail.com>\n"
+"PO-Revision-Date: 2015-01-11 17:51-0400\n"
+"Last-Translator: Alex Sieberer <robotbrain@robotbrain.info>\n"
 "Language-Team: Russian "
-"<http://weblate.robotbrain.info/projects/multimc5/multimc5/ru/>\n"
+"<http://weblate.robotbrain.info/projects/multimc/multimc/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 1.10-dev\n"
+"X-Generator: Weblate 2.2-dev\n"
 "X-Qt-Contexts: true\n"
 
 #: src/gui/dialogs/AboutDialog.ui:20
@@ -47,12 +47,12 @@ msgstr "Платформа:"
 #: src/gui/dialogs/AboutDialog.ui:147
 msgctxt "AboutDialog|"
 msgid "Build Number:"
-msgstr "Номер билда:"
+msgstr "Номер сборки:"
 
 #: src/gui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
 msgid "Channel:"
-msgstr ""
+msgstr "Канал:"
 
 #: src/gui/dialogs/AboutDialog.ui:170
 msgctxt "AboutDialog|"
@@ -100,12 +100,22 @@ msgid ""
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
 "family:'Sans Serif'; font-size:9pt;\"><br /></p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR"
+"/REC-html40/strict.dtd\">↵\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\""
+">↵\n"
+"p, li { white-space: pre-wrap; }↵\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:11pt; font-weight:400; font-style:normal;\">↵\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Sans Serif'; font-size:9pt;\"><br /></p></body></html>"
 
 #. Hey, Translator, feel free to put credit to you here
 #: src/gui/dialogs/AboutDialog.ui:259
 msgctxt "AboutDialog|"
 msgid "No Language file loaded."
-msgstr ""
+msgstr "Не загружен языковой файл."
 
 #: src/gui/dialogs/AboutDialog.ui:278
 msgctxt "AboutDialog|"
@@ -755,7 +765,7 @@ msgstr "Номер билда"
 #: src/gui/dialogs/AboutDialog.cpp:97
 msgctxt "AboutDialog|"
 msgid "Channel"
-msgstr ""
+msgstr "Канал"
 
 #: src/gui/pages/global/AccountListPage.ui:14
 msgctxt "AccountListPage|"
@@ -765,7 +775,7 @@ msgstr "Управление Профилями"
 #: src/gui/pages/global/AccountListPage.ui:36
 msgctxt "AccountListPage|"
 msgid "Tab 1"
-msgstr ""
+msgstr "Счет 1"
 
 #: src/gui/pages/global/AccountListPage.ui:42
 msgctxt "AccountListPage|"
@@ -895,22 +905,22 @@ msgstr ""
 #: src/logic/auth/flows/AuthenticateTask.cpp:190
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Sending request..."
-msgstr ""
+msgstr "Аутентификация: отправка запроса"
 
 #: src/logic/auth/flows/AuthenticateTask.cpp:192
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
-msgstr ""
+msgstr "Идентификация: Ответ обрабатывается"
 
 #: src/logic/tools/BaseExternalTool.cpp:48
 msgctxt "BaseExternalTool|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/logic/tools/BaseExternalTool.cpp:48
 msgctxt "BaseExternalTool|"
 msgid "Choose which world to open:"
-msgstr ""
+msgstr "Выберите мир который вы хотите открыть:"
 
 #: src/logic/tools/BaseProfiler.cpp:29
 msgctxt "BaseProfiler|"
@@ -920,32 +930,32 @@ msgstr ""
 #: src/gui/ConsoleWindow.cpp:62
 msgctxt "ConsoleWindow|"
 msgid "Console window for "
-msgstr ""
+msgstr "Окно консоли"
 
 #: src/gui/ConsoleWindow.cpp:90
 msgctxt "ConsoleWindow|"
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 #: src/gui/ConsoleWindow.cpp:98
 msgctxt "ConsoleWindow|"
 msgid "Kill Minecraft"
-msgstr ""
+msgstr "Выключить Minecraft"
 
 #: src/gui/ConsoleWindow.cpp:103 src/gui/ConsoleWindow.cpp:165
 msgctxt "ConsoleWindow|"
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: src/gui/ConsoleWindow.cpp:167
 msgctxt "ConsoleWindow|"
 msgid "Hide"
-msgstr ""
+msgstr "Свернуть"
 
 #: src/gui/ConsoleWindow.cpp:225
 msgctxt "ConsoleWindow|"
 msgid "Kill Minecraft?"
-msgstr ""
+msgstr "Выключить Minecraft?"
 
 #: src/gui/ConsoleWindow.cpp:226
 msgctxt "ConsoleWindow|"
@@ -953,52 +963,54 @@ msgid ""
 "This can cause the instance to get corrupted and should only be used if "
 "Minecraft is frozen for some reason"
 msgstr ""
+"Эта опция может повредить игру и может быть использована если Minecraft "
+"заморожен по неизвестной причине"
 
 #: src/gui/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr ""
+msgstr "Скопировать экземпляр"
 
 #: src/gui/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: src/logic/updater/DownloadUpdateTask.cpp:83
 msgctxt "DownloadUpdateTask|"
 msgid "Finding information about the current version..."
-msgstr ""
+msgstr "Ищем информацию о текущей версии..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:104
 msgctxt "DownloadUpdateTask|"
 msgid "Loading version information..."
-msgstr ""
+msgstr "Загружаем информацию о версии..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:154
 msgctxt "DownloadUpdateTask|"
 msgid "Failed to download version info files."
-msgstr ""
+msgstr "Не удалось загрузить информационные файлы этой версии."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:159
 msgctxt "DownloadUpdateTask|"
 msgid "Reading file list for new version..."
-msgstr ""
+msgstr "Смотрим файл-лист для новой версии..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:174
 msgctxt "DownloadUpdateTask|"
 msgid "Reading file list for current version..."
-msgstr ""
+msgstr "Смотрим файл-лист для текущей версии..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:264
 msgctxt "DownloadUpdateTask|"
 msgid "Failed to process update lists..."
-msgstr ""
+msgstr "Не удалось обработать список для обновлений..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:276
 #, qt-format
 msgctxt "DownloadUpdateTask|"
 msgid "Downloading %1 update files."
-msgstr ""
+msgstr "Скачиваем %1 файлов для обновления."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:290
 msgctxt "DownloadUpdateTask|"
@@ -4008,9 +4020,9 @@ msgstr ""
 #: src/logic/auth/YggdrasilTask.cpp:228
 msgctxt "YggdrasilTask|"
 msgid "Failed to authenticate."
-msgstr ""
+msgstr "Не удачная авторизация."
 
 #: src/logic/auth/YggdrasilTask.cpp:230
 msgctxt "YggdrasilTask|"
 msgid "..."
-msgstr ""
+msgstr "..."
