@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-01-11 17:51-0400\n"
-"Last-Translator: Alex Sieberer <robotbrain@robotbrain.info>\n"
+"PO-Revision-Date: 2015-01-15 04:04-0400\n"
+"Last-Translator: AspektRus <anarhist.rus@rambler.ru>\n"
 "Language-Team: Russian "
 "<http://weblate.robotbrain.info/projects/multimc/multimc/ru/>\n"
 "Language: ru\n"
@@ -27,7 +27,7 @@ msgstr "MultiMC 5"
 #: src/gui/dialogs/AboutDialog.ui:111
 msgctxt "AboutDialog|"
 msgid "About"
-msgstr "О Программе"
+msgstr "О программе:"
 
 #: src/gui/dialogs/AboutDialog.ui:117
 msgctxt "AboutDialog|"
@@ -61,9 +61,9 @@ msgid ""
 "Minecraft easier by allowing you to have multiple instances of Minecraft at "
 "once.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>MultiMC это пользовательский лаунчер, который упрощает "
-"управление Майнкрафтом позволяя вам иметь несколько экземпляров Майнкрафта "
-"одновременно.</p></body></html>"
+"<html><head/><body><p>MultiMC - это пользовательский лаунчер, который "
+"упрощает управление Майнкрафтом позволяя вам иметь несколько сборок "
+"Майнкрафта одновременно.</p></body></html>"
 
 #: src/gui/dialogs/AboutDialog.ui:189
 msgctxt "AboutDialog|"
@@ -77,9 +77,6 @@ msgid ""
 "style=\" text-decoration: underline; color:#0000ff;\">http://github.com/"
 "MultiMC/MultiMC5</span></a></p></body></html>"
 msgstr ""
-"<html><head/><body><p><a href=\"http://github.com/MultiMC/MultiMC5\"><span "
-"style=\" text-decoration: underline; color:#0000ff;\""
-">http://github.com/MultiMC/MultiMC5</span></a></p></body></html>"
 
 #: src/gui/dialogs/AboutDialog.ui:236
 msgctxt "AboutDialog|"
@@ -115,7 +112,7 @@ msgstr ""
 #: src/gui/dialogs/AboutDialog.ui:259
 msgctxt "AboutDialog|"
 msgid "No Language file loaded."
-msgstr "Не загружен языковой файл."
+msgstr "Языковой файл не загружён."
 
 #: src/gui/dialogs/AboutDialog.ui:278
 msgctxt "AboutDialog|"
@@ -861,7 +858,7 @@ msgstr "Использовать как стандартный?"
 #: src/gui/dialogs/AccountSelectDialog.ui:39
 msgctxt "AccountSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr "Испоользовать как стандартный ддля текущего экземпляра?"
+msgstr "Использовать как стандартный для текущей сборки?"
 
 #: src/logic/assets/AssetsMigrateTask.cpp:19
 msgctxt "AssetsMigrateTask|"
@@ -896,16 +893,19 @@ msgstr ""
 "вероятнее всего не премиум."
 
 #: src/logic/auth/flows/AuthenticateTask.cpp:153
+#, fuzzy
 msgctxt "AuthenticateTask|"
 msgid ""
 "Authentication server specified a selected profile that wasn't in the "
 "available profiles list."
 msgstr ""
+"Указанный сервер аутентификации выбранного профиля, отсутствует в списке "
+"доступных профилей."
 
 #: src/logic/auth/flows/AuthenticateTask.cpp:190
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Sending request..."
-msgstr "Аутентификация: отправка запроса"
+msgstr "Идентификация: Отправка запроса..."
 
 #: src/logic/auth/flows/AuthenticateTask.cpp:192
 msgctxt "AuthenticateTask|"
@@ -930,7 +930,7 @@ msgstr ""
 #: src/gui/ConsoleWindow.cpp:62
 msgctxt "ConsoleWindow|"
 msgid "Console window for "
-msgstr "Окно консоли"
+msgstr "Окно консоли "
 
 #: src/gui/ConsoleWindow.cpp:90
 msgctxt "ConsoleWindow|"
@@ -940,7 +940,7 @@ msgstr "Помощь"
 #: src/gui/ConsoleWindow.cpp:98
 msgctxt "ConsoleWindow|"
 msgid "Kill Minecraft"
-msgstr "Выключить Minecraft"
+msgstr "Закрыть Minecraft"
 
 #: src/gui/ConsoleWindow.cpp:103 src/gui/ConsoleWindow.cpp:165
 msgctxt "ConsoleWindow|"
@@ -953,9 +953,10 @@ msgid "Hide"
 msgstr "Свернуть"
 
 #: src/gui/ConsoleWindow.cpp:225
+#, fuzzy
 msgctxt "ConsoleWindow|"
 msgid "Kill Minecraft?"
-msgstr "Выключить Minecraft?"
+msgstr "Закрыть принудительно Minecraft?"
 
 #: src/gui/ConsoleWindow.cpp:226
 msgctxt "ConsoleWindow|"
@@ -969,7 +970,7 @@ msgstr ""
 #: src/gui/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr "Скопировать экземпляр"
+msgstr "Скопировать сборку"
 
 #: src/gui/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
@@ -1010,27 +1011,29 @@ msgstr "Не удалось обработать список для обнов�
 #, qt-format
 msgctxt "DownloadUpdateTask|"
 msgid "Downloading %1 update files."
-msgstr "Скачиваем %1 файлов для обновления."
+msgstr "Скачиваем %1 файла(ов) для обновления."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:290
+#, fuzzy
 msgctxt "DownloadUpdateTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr ""
+msgstr "Обработка списков файлов - выяснение способа установки обновления ..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:506
+#, fuzzy
 msgctxt "DownloadUpdateTask|"
 msgid "Failed to write update script file."
-msgstr ""
+msgstr "Не удалось записать обновления файла сценария."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:537
 msgctxt "DownloadUpdateTask|"
 msgid "Failed to download update files."
-msgstr ""
+msgstr "Не удалось загрузить файлы обновлений."
 
 #: src/gui/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Edit Account"
-msgstr ""
+msgstr "Изменить учетную запись"
 
 #: src/gui/dialogs/EditAccountDialog.ui:20
 msgctxt "EditAccountDialog|"
@@ -1040,27 +1043,27 @@ msgstr ""
 #: src/gui/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email / Username"
-msgstr ""
+msgstr "Электронная почта / Имя пользователя"
 
 #: src/gui/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:14
 msgctxt "ExternalToolsPage|"
 msgid "Form"
-msgstr ""
+msgstr "Форма"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:36
 msgctxt "ExternalToolsPage|"
 msgid "Tab 1"
-msgstr ""
+msgstr "Вкладка 1"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:42
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler"
-msgstr ""
+msgstr "JProfiler"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:53
 #: src/gui/pages/global/ExternalToolsPage.ui:90
@@ -1068,14 +1071,14 @@ msgstr ""
 #: src/gui/pages/global/ExternalToolsPage.ui:169
 msgctxt "ExternalToolsPage|"
 msgid "..."
-msgstr ""
+msgstr "…"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:62
 #: src/gui/pages/global/ExternalToolsPage.ui:99
 #: src/gui/pages/global/ExternalToolsPage.ui:136
 msgctxt "ExternalToolsPage|"
 msgid "Check"
-msgstr ""
+msgstr "Проверить"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:69
 msgctxt "ExternalToolsPage|"
@@ -1089,7 +1092,7 @@ msgstr ""
 #: src/gui/pages/global/ExternalToolsPage.ui:79
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM"
-msgstr ""
+msgstr "JVisualVM"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:106
 msgctxt "ExternalToolsPage|"
@@ -1102,7 +1105,7 @@ msgstr ""
 #: src/gui/pages/global/ExternalToolsPage.ui:116
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:143
 msgctxt "ExternalToolsPage|"
@@ -1113,24 +1116,25 @@ msgid ""
 msgstr ""
 
 #: src/gui/pages/global/ExternalToolsPage.ui:153
+#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr ""
+msgstr "Внешние редакторы (оставьте пустым для значения по умолчанию)"
 
 #: src/gui/pages/global/ExternalToolsPage.ui:162
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr ""
+msgstr "Текстовый редактор:"
 
 #: src/gui/pages/global/ExternalToolsPage.h:36
 msgctxt "ExternalToolsPage|"
 msgid "External Tools"
-msgstr ""
+msgstr "Внешние инструменты"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:88
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Directory"
-msgstr ""
+msgstr "JProfiler Каталог"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:96
 #: src/gui/pages/global/ExternalToolsPage.cpp:112
@@ -1140,7 +1144,7 @@ msgstr ""
 #: src/gui/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:97
 #: src/gui/pages/global/ExternalToolsPage.cpp:113
@@ -1150,47 +1154,54 @@ msgid ""
 "Error while checking JProfiler install:\n"
 "%1"
 msgstr ""
+"Ошибка при проверке установки JProfiler: \n"
+"% 1"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:117
 #: src/gui/pages/global/ExternalToolsPage.cpp:156
 #: src/gui/pages/global/ExternalToolsPage.cpp:200
 msgctxt "ExternalToolsPage|"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:117
+#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr ""
+msgstr "Установка JProfiler кажется прошла удачно"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "JVisualVM исполняемые файлы"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:136
 #: src/gui/pages/global/ExternalToolsPage.cpp:152
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "ExternalToolsPage|"
 msgid ""
 "Error while checking JVisualVM install:\n"
 "%1"
 msgstr ""
+"Ошибка при проверке установки JVisualVM: \n"
+"% 1"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:156
+#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr ""
+msgstr "Установка JVisualVM кажется прошла удачно"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:168
+#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr ""
+msgstr "MCEdit приложение"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:170
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Directory"
-msgstr ""
+msgstr "MCEdit Каталог"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:180
 #: src/gui/pages/global/ExternalToolsPage.cpp:196
@@ -1200,220 +1211,233 @@ msgid ""
 "Error while checking MCEdit install:\n"
 "%1"
 msgstr ""
+"Ошибка при проверке установки MCEdit: \n"
+"% 1"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:200
+#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
-msgstr ""
+msgstr "Установка MCEdit кажется прошла удачно"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:207
 msgctxt "ExternalToolsPage|"
 msgid "JSON Editor"
-msgstr ""
+msgstr "JSON редактор"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:229
+#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "Invalid"
-msgstr ""
+msgstr "Недействительный"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:230
+#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
-msgstr ""
+msgstr "Выбран файл, который кажется, не может быть исполняемым"
 
 #: src/logic/forge/ForgeInstaller.cpp:336
 msgctxt "ForgeInstallTask|"
 msgid "Installing forge..."
-msgstr ""
+msgstr "Установка forge…"
 
 #: src/logic/forge/ForgeInstaller.cpp:340
 msgctxt "ForgeInstallTask|"
 msgid "Unknown error occured"
-msgstr ""
+msgstr "Произошла неизвестная ошибка"
 
 #: src/logic/forge/ForgeInstaller.cpp:353
 msgctxt "ForgeInstallTask|"
 msgid "Failure to install forge"
-msgstr ""
+msgstr "Установка forge прошла неудачно"
 
 #: src/logic/forge/ForgeInstaller.cpp:370
 msgctxt "ForgeInstallTask|"
 msgid "Failure to download forge"
-msgstr ""
+msgstr "Скачивание forge прошло неудачно"
 
 #: src/logic/forge/ForgeInstaller.cpp:403
 msgctxt "ForgeInstallTask|"
 msgid "Failed to load the version description file for reasons unknown."
-msgstr ""
+msgstr "Не удалось загрузить файл с описанием версии по неизвестным причинам."
 
 #: src/logic/forge/ForgeVersionList.cpp:162
 msgctxt "ForgeListLoadTask|"
 msgid "Fetching Forge version lists..."
-msgstr ""
+msgstr "Загрузка версий Forge…"
 
 #: src/gui/dialogs/IconPickerDialog.ui:14
+#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Pick icon"
-msgstr ""
+msgstr "Выберите иконку"
 
 #: src/gui/dialogs/IconPickerDialog.cpp:64
+#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
-msgstr ""
+msgstr "Добавить иконку"
 
 #: src/gui/dialogs/IconPickerDialog.cpp:66
+#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
-msgstr ""
+msgstr "Убрать иконку"
 
 #. The title of the select icons open file dialog
 #: src/gui/dialogs/IconPickerDialog.cpp:103
+#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
-msgstr ""
+msgstr "Выберите иконки"
 
 #. The type of icon files
 #: src/gui/dialogs/IconPickerDialog.cpp:106
+#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Icons"
-msgstr ""
+msgstr "Иконки"
 
 #: src/gui/pages/InstanceSettingsPage.ui:14
 msgctxt "InstanceSettingsPage|"
 msgid "Form"
-msgstr ""
+msgstr "Форма"
 
 #: src/gui/pages/InstanceSettingsPage.ui:39
 msgctxt "InstanceSettingsPage|"
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: src/gui/pages/InstanceSettingsPage.ui:48
 msgctxt "InstanceSettingsPage|"
 msgid "Java installation"
-msgstr ""
+msgstr "Установка Java"
 
 #: src/gui/pages/InstanceSettingsPage.ui:63
 msgctxt "InstanceSettingsPage|"
 msgid "Auto-detect..."
-msgstr ""
+msgstr "Автоматическое определение ..."
 
 #: src/gui/pages/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
 msgid "Browse..."
-msgstr ""
+msgstr "Обзор ..."
 
 #: src/gui/pages/InstanceSettingsPage.ui:77
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
-msgstr ""
+msgstr "Текст"
 
 #: src/gui/pages/InstanceSettingsPage.ui:90
 msgctxt "InstanceSettingsPage|"
 msgid "Memory"
-msgstr ""
+msgstr "Память"
 
 #: src/gui/pages/InstanceSettingsPage.ui:102
 msgctxt "InstanceSettingsPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr ""
+msgstr "Максимальный разрешённый объем памяти Minecraft ."
 
 #: src/gui/pages/InstanceSettingsPage.ui:105
 #: src/gui/pages/InstanceSettingsPage.ui:141
 #: src/gui/pages/InstanceSettingsPage.ui:163
 msgctxt "InstanceSettingsPage|"
 msgid " MB"
-msgstr ""
+msgstr " MB"
 
 #: src/gui/pages/InstanceSettingsPage.ui:124
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
-msgstr ""
+msgstr "Минимальное выделение памяти:"
 
 #: src/gui/pages/InstanceSettingsPage.ui:131
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
-msgstr ""
+msgstr "Максимальное выделение памяти:"
 
 #: src/gui/pages/InstanceSettingsPage.ui:138
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr ""
+msgstr "Объем памяти для запуска Minecraft."
 
 #: src/gui/pages/InstanceSettingsPage.ui:160
+#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr ""
+msgstr "Объем доступной памяти для хранения загружаемых классов Java."
 
 #: src/gui/pages/InstanceSettingsPage.ui:182
 msgctxt "InstanceSettingsPage|"
 msgid "PermGen:"
-msgstr ""
+msgstr "PermGen:"
 
 #: src/gui/pages/InstanceSettingsPage.ui:195
 msgctxt "InstanceSettingsPage|"
 msgid "Java arguments"
-msgstr ""
+msgstr "Java аргументы"
 
 #: src/gui/pages/InstanceSettingsPage.ui:227
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr ""
+msgstr "Игра в окне"
 
 #: src/gui/pages/InstanceSettingsPage.ui:236
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
-msgstr ""
+msgstr "Окно игры"
 
 #: src/gui/pages/InstanceSettingsPage.ui:248
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
-msgstr ""
+msgstr "Запуск Minecraft в полноэкранном режиме?"
 
 #: src/gui/pages/InstanceSettingsPage.ui:257
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
-msgstr ""
+msgstr "Высота окна:"
 
 #: src/gui/pages/InstanceSettingsPage.ui:264
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
-msgstr ""
+msgstr "Ширина окна:"
 
 #: src/gui/pages/InstanceSettingsPage.ui:308
 msgctxt "InstanceSettingsPage|"
 msgid "Console Settings"
-msgstr ""
+msgstr "Настройки консоли"
 
 #: src/gui/pages/InstanceSettingsPage.ui:320
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
-msgstr ""
+msgstr "Показать окно консоли во время игры?"
 
 #: src/gui/pages/InstanceSettingsPage.ui:327
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
-msgstr ""
+msgstr "Автоматически закрывать консоль при  выходе из игры?"
 
 #: src/gui/pages/InstanceSettingsPage.ui:351
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
-msgstr ""
+msgstr "Пользовательские команды"
 
 #: src/gui/pages/InstanceSettingsPage.ui:360
 msgctxt "InstanceSettingsPage|"
 msgid "Custom Commands"
-msgstr ""
+msgstr "Специальные команды"
 
 #: src/gui/pages/InstanceSettingsPage.ui:375
+#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Post-exit command:"
-msgstr ""
+msgstr "Команды после выхода :"
 
 #: src/gui/pages/InstanceSettingsPage.ui:382
+#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Pre-launch command:"
-msgstr ""
+msgstr "Команды перед входом :"
 
 #: src/gui/pages/InstanceSettingsPage.ui:398
 msgctxt "InstanceSettingsPage|"
@@ -1426,27 +1450,29 @@ msgstr ""
 #: src/gui/pages/InstanceSettingsPage.h:40
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:168
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
-msgstr ""
+msgstr "Выберите версию Java"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:181
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
-msgstr ""
+msgstr "Найти Java исполняемый файл"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:207
+#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java test success"
-msgstr ""
+msgstr "Успешный тест Java"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:212
+#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java test failure"
-msgstr ""
+msgstr "Java тест провалился"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:213
 msgctxt "InstanceSettingsPage|"
@@ -1458,18 +1484,18 @@ msgstr ""
 #: src/logic/minecraft/InstanceVersion.cpp:341
 msgctxt "InstanceVersion|"
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: src/logic/minecraft/InstanceVersion.cpp:343
 msgctxt "InstanceVersion|"
 msgid "Version"
-msgstr ""
+msgstr "Версия"
 
 #: src/logic/tools/JProfiler.cpp:24
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "JProfiler|"
 msgid "Listening on port: %1"
-msgstr ""
+msgstr "Прослушка на порта: %1"
 
 #: src/logic/tools/JProfiler.cpp:31
 msgctxt "JProfiler|"
