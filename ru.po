@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-01-15 06:25-0400\n"
+"PO-Revision-Date: 2015-01-16 04:09-0400\n"
 "Last-Translator: AspektRus <anarhist.rus@rambler.ru>\n"
 "Language-Team: Russian "
 "<http://weblate.robotbrain.info/projects/multimc/multimc/ru/>\n"
@@ -772,7 +772,7 @@ msgstr "Управление Профилями"
 #: src/gui/pages/global/AccountListPage.ui:36
 msgctxt "AccountListPage|"
 msgid "Tab 1"
-msgstr "Счет 1"
+msgstr "Вкладка 1"
 
 #: src/gui/pages/global/AccountListPage.ui:42
 msgctxt "AccountListPage|"
@@ -781,8 +781,8 @@ msgid ""
 "Add&quot; button to add your Mojang or Minecraft account.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Добро пожаловать! Если вы впервые здесь, вы можете "
-"нажать кнопку &quot;Добавить&quot;, для того, чтобы добавить ваш аккаунт "
-"Mojang или Minecraft.</p></body></html>"
+"нажать кнопку &quot;Добавить&quot;, для того, чтобы добавить вашу учётную "
+"запись Mojang или Minecraft.</p></body></html>"
 
 #: src/gui/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
@@ -801,9 +801,9 @@ msgid ""
 "account. The active account is the account that is used to log in (unless it "
 "is overridden in an instance-specific setting).</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Установить текущий аккаунт активным. Активный аккаунт -"
-" аккаунт который используется для входа (если не перезаписан в настройках "
-"экземпляра).</p></body></html>"
+"<html><head/><body><p>Установить текущую учётную запись активной. Активная "
+"учётная запись используется для входа (если не перезаписан в настройках "
+"сборки).</p></body></html>"
 
 #: src/gui/pages/global/AccountListPage.ui:89
 msgctxt "AccountListPage|"
@@ -817,9 +817,9 @@ msgid ""
 "account every time you launch an instance that doesn't have its own default "
 "set."
 msgstr ""
-"Стандартный аккаунт не установлен. MultiMC будет просить вас выбрать аккаунт "
-"каждый раз, когда вы запускаете экземпляр, который не имеет установленного "
-"стандартного аккаунта."
+"Учётная запись по умолчанию не выбрана. MultiMC будет просить вас выбрать "
+"учётную запись каждый раз, когда вы запускаете сборку, которая не имеет "
+"учётную запись."
 
 #: src/gui/pages/global/AccountListPage.ui:99
 msgctxt "AccountListPage|"
@@ -837,18 +837,18 @@ msgid ""
 "Please enter your Mojang or Minecraft account username and password to add "
 "your account."
 msgstr ""
-"Пожалуйста введите ваши логин и пароль аккаунта Mojang или Minecraft чтобы "
-"добавить аккаунт."
+"Пожалуйста введите ваши имя и пароль учётной записи Mojang или Minecraft "
+"чтобы добавить."
 
 #: src/gui/dialogs/AccountSelectDialog.ui:14
 msgctxt "AccountSelectDialog|"
 msgid "Select an Account"
-msgstr "Выберите Аккаунт"
+msgstr "Выберите учётную запись"
 
 #: src/gui/dialogs/AccountSelectDialog.ui:20
 msgctxt "AccountSelectDialog|"
 msgid "Select an account."
-msgstr "Выберите аккаунт."
+msgstr "Выберите учётную запись."
 
 #: src/gui/dialogs/AccountSelectDialog.ui:32
 msgctxt "AccountSelectDialog|"
@@ -889,7 +889,7 @@ msgid ""
 "Authentication server didn't specify a currently selected profile. The "
 "account exists, but likely isn't premium."
 msgstr ""
-"Сервер аутентификации не указал выбраный профиль. Аккаунт существует, но "
+"Сервер входа отклонил выбранный профиль. Учётная запись существует, но "
 "вероятнее всего не премиум."
 
 #: src/logic/auth/flows/AuthenticateTask.cpp:153
@@ -920,12 +920,13 @@ msgstr "MCEdit"
 #: src/logic/tools/BaseExternalTool.cpp:48
 msgctxt "BaseExternalTool|"
 msgid "Choose which world to open:"
-msgstr "Выберите мир который вы хотите открыть:"
+msgstr "Выберите мир, который вы хотите открыть:"
 
 #: src/logic/tools/BaseProfiler.cpp:29
+#, fuzzy
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
-msgstr ""
+msgstr "Profiler прервано"
 
 #: src/gui/ConsoleWindow.cpp:62
 msgctxt "ConsoleWindow|"
@@ -945,18 +946,17 @@ msgstr "Закрыть Minecraft"
 #: src/gui/ConsoleWindow.cpp:103 src/gui/ConsoleWindow.cpp:165
 msgctxt "ConsoleWindow|"
 msgid "Close"
-msgstr "Закрыть"
+msgstr "Закрыть консоль"
 
 #: src/gui/ConsoleWindow.cpp:167
 msgctxt "ConsoleWindow|"
 msgid "Hide"
-msgstr "Свернуть"
+msgstr "Свернуть  консоль в трей"
 
 #: src/gui/ConsoleWindow.cpp:225
-#, fuzzy
 msgctxt "ConsoleWindow|"
 msgid "Kill Minecraft?"
-msgstr "Закрыть принудительно Minecraft?"
+msgstr "Закрыть (принудительно) Minecraft?"
 
 #: src/gui/ConsoleWindow.cpp:226
 msgctxt "ConsoleWindow|"
@@ -964,8 +964,8 @@ msgid ""
 "This can cause the instance to get corrupted and should only be used if "
 "Minecraft is frozen for some reason"
 msgstr ""
-"Эта опция может повредить игру и может быть использована если Minecraft "
-"заморожен по неизвестной причине"
+"Эта опция может нарушить работоспособность игры, используйте только в случае "
+"зависания клиента Minecraft!"
 
 #: src/gui/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -990,22 +990,22 @@ msgstr "Загружаем информацию о версии..."
 #: src/logic/updater/DownloadUpdateTask.cpp:154
 msgctxt "DownloadUpdateTask|"
 msgid "Failed to download version info files."
-msgstr "Не удалось загрузить информационные файлы этой версии."
+msgstr "Не удалось загрузить информацию о версии файлов."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:159
 msgctxt "DownloadUpdateTask|"
 msgid "Reading file list for new version..."
-msgstr "Смотрим файл-лист для новой версии..."
+msgstr "Чтение списка файлов для новой версии..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:174
 msgctxt "DownloadUpdateTask|"
 msgid "Reading file list for current version..."
-msgstr "Смотрим файл-лист для текущей версии..."
+msgstr "Чтение списка файлов для текущей версии..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:264
 msgctxt "DownloadUpdateTask|"
 msgid "Failed to process update lists..."
-msgstr "Не удалось обработать список для обновлений..."
+msgstr "Не удалось обработать список обновлений..."
 
 #: src/logic/updater/DownloadUpdateTask.cpp:276
 #, qt-format
@@ -1036,9 +1036,10 @@ msgid "Edit Account"
 msgstr "Изменить учетную запись"
 
 #: src/gui/dialogs/EditAccountDialog.ui:20
+#, fuzzy
 msgctxt "EditAccountDialog|"
 msgid "Message label placeholder."
-msgstr ""
+msgstr "Сообщение помечено заглушкой."
 
 #: src/gui/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
@@ -1116,7 +1117,6 @@ msgid ""
 msgstr ""
 
 #: src/gui/pages/global/ExternalToolsPage.ui:153
-#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
 msgstr "Внешние редакторы (оставьте пустым для значения по умолчанию)"
@@ -1268,33 +1268,28 @@ msgid "Fetching Forge version lists..."
 msgstr "Загрузка версий Forge…"
 
 #: src/gui/dialogs/IconPickerDialog.ui:14
-#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Pick icon"
 msgstr "Выберите иконку"
 
 #: src/gui/dialogs/IconPickerDialog.cpp:64
-#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
 msgstr "Добавить иконку"
 
 #: src/gui/dialogs/IconPickerDialog.cpp:66
-#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
 msgstr "Убрать иконку"
 
 #. The title of the select icons open file dialog
 #: src/gui/dialogs/IconPickerDialog.cpp:103
-#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
 msgstr "Выберите иконки"
 
 #. The type of icon files
 #: src/gui/dialogs/IconPickerDialog.cpp:106
-#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Icons"
 msgstr "Иконки"
@@ -1428,16 +1423,14 @@ msgid "Custom Commands"
 msgstr "Специальные команды"
 
 #: src/gui/pages/InstanceSettingsPage.ui:375
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Post-exit command:"
-msgstr "Команды после выхода :"
+msgstr "Команды после выхода:"
 
 #: src/gui/pages/InstanceSettingsPage.ui:382
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Pre-launch command:"
-msgstr "Команды перед входом :"
+msgstr "Команды перед входом:"
 
 #: src/gui/pages/InstanceSettingsPage.ui:398
 msgctxt "InstanceSettingsPage|"
@@ -1480,6 +1473,8 @@ msgid ""
 "The specified java binary didn't work. You should use the auto-detect "
 "feature, or set the path to the java executable."
 msgstr ""
+"Указанная версия Java  не работает. Используйте автоматическое обнаружение, "
+"или установите путь к Java  файлу вручную."
 
 #: src/logic/minecraft/InstanceVersion.cpp:341
 msgctxt "InstanceVersion|"
@@ -1609,16 +1604,14 @@ msgid "Custom Commands"
 msgstr "Специальные команды"
 
 #: src/gui/pages/global/JavaPage.ui:244
-#, fuzzy
 msgctxt "JavaPage|"
 msgid "Post-exit command:"
 msgstr "Команды после выхода:"
 
 #: src/gui/pages/global/JavaPage.ui:251
-#, fuzzy
 msgctxt "JavaPage|"
 msgid "Pre-launch command:"
-msgstr "Команды перед выходом:"
+msgstr "Команды перед входом:"
 
 #: src/gui/pages/global/JavaPage.ui:273
 msgctxt "JavaPage|"
@@ -1660,6 +1653,8 @@ msgid ""
 "The specified java binary didn't work. You should use the auto-detect "
 "feature, or set the path to the java executable."
 msgstr ""
+"Указанная версия Java  не работает. Используйте автоматическое обнаружение, "
+"или установите путь к Java  файлу вручную."
 
 #: src/logic/liteloader/LiteLoaderVersionList.cpp:104
 msgctxt "LLListLoadTask|"
@@ -1695,13 +1690,11 @@ msgid "Loading LWJGL version list..."
 msgstr "Загрузка списка версий LWJGL..."
 
 #: src/logic/LegacyInstance.cpp:56
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Loader mods"
 msgstr "Список модов"
 
 #: src/logic/LegacyInstance.cpp:58
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Core mods"
 msgstr "Ядро модов"
@@ -1735,25 +1728,21 @@ msgid "Tab 1"
 msgstr "Вкладка 1"
 
 #: src/gui/pages/LegacyJarModPage.ui:56
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Selection"
-msgstr "Выбор"
+msgstr "Настройка"
 
 #: src/gui/pages/LegacyJarModPage.ui:66
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "&Remove"
 msgstr "&Убрать"
 
 #: src/gui/pages/LegacyJarModPage.ui:73
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Move &Up"
 msgstr "Передвинуть &вверх"
 
 #: src/gui/pages/LegacyJarModPage.ui:80
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Move &Down"
 msgstr "Передвинуть &вниз"
@@ -1764,7 +1753,6 @@ msgid "Install"
 msgstr "Установка"
 
 #: src/gui/pages/LegacyJarModPage.ui:100
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "&Add jar mod"
 msgstr "&Добавить jar-файл модификации"
@@ -1775,13 +1763,11 @@ msgid "Install Forge"
 msgstr "Установить Forge"
 
 #: src/gui/pages/LegacyJarModPage.ui:127
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "&View Folder"
 msgstr "&Просмотр папки"
 
 #: src/gui/pages/LegacyJarModPage.h:40
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Jar Mods"
 msgstr "Jar-файлы модификаций"
@@ -1793,7 +1779,6 @@ msgstr "Выберите версию Forge"
 
 #. Title of jar mod selection dialog
 #: src/gui/pages/LegacyJarModPage.cpp:141
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Select Jar Mods"
 msgstr "Выберите Jar-файлы модов"
@@ -1821,60 +1806,61 @@ msgid "Failed creating FML library folder inside the instance."
 msgstr "Не удалось создать папку библиотеки FML в каталоге сборки."
 
 #: src/logic/LegacyUpdate.cpp:167
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr ""
+msgstr "Не удалось скопировать Forge / FML библиотеку: %1."
 
 #: src/logic/LegacyUpdate.cpp:206
 msgctxt "LegacyUpdate|"
 msgid "Downloading new LWJGL..."
-msgstr ""
+msgstr "Загрузка новой версии LWJGL..."
 
 #: src/logic/LegacyUpdate.cpp:272
 msgctxt "LegacyUpdate|"
 msgid "Installing new LWJGL..."
-msgstr ""
+msgstr "Установка новой версии LWJGL…"
 
 #: src/logic/LegacyUpdate.cpp:348
 msgctxt "LegacyUpdate|"
 msgid "Installing new LWJGL - extracting "
-msgstr ""
+msgstr "Установка новой версии LWJGL - извлечение "
 
 #: src/logic/LegacyUpdate.cpp:378
 msgctxt "LegacyUpdate|"
 msgid "Checking for jar updates..."
-msgstr ""
+msgstr "Проверка обновлений Jar-файлов…"
 
 #: src/logic/LegacyUpdate.cpp:388
 msgctxt "LegacyUpdate|"
 msgid "Downloading new minecraft.jar ..."
-msgstr ""
+msgstr "Загрузка новой версии файла minecraft.jar..."
 
 #: src/logic/LegacyUpdate.cpp:421
 msgctxt "LegacyUpdate|"
 msgid "Installing mods: Adding "
-msgstr ""
+msgstr "Установка модов: Добавление "
 
 #: src/logic/LegacyUpdate.cpp:507
 msgctxt "LegacyUpdate|"
 msgid "Installing mods: Backing up minecraft.jar ..."
-msgstr ""
+msgstr "Установка модов: Резервное копирование файла minecraft.jar..."
 
 #: src/logic/LegacyUpdate.cpp:532
 msgctxt "LegacyUpdate|"
 msgid "Installing mods: Opening minecraft.jar ..."
-msgstr ""
+msgstr "Установка модов: Открытие файла minecraft.jar…"
 
 #: src/logic/LegacyUpdate.cpp:546
 msgctxt "LegacyUpdate|"
 msgid "Installing mods: Adding mod files..."
-msgstr ""
+msgstr "Установка модов: добавление файлов модификаций..."
 
 #: src/gui/pages/LegacyUpgradePage.ui:14 src/gui/pages/LegacyUpgradePage.h:39
+#, fuzzy
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade"
-msgstr ""
+msgstr "Улучшение"
 
 #: src/gui/pages/LegacyUpgradePage.ui:32
 msgctxt "LegacyUpgradePage|"
@@ -1911,86 +1897,90 @@ msgid ""
 msgstr ""
 
 #: src/gui/pages/LegacyUpgradePage.ui:50
+#, fuzzy
 msgctxt "LegacyUpgradePage|"
 msgid "Start the upgrade! (Not Yet Implemented, Coming Soon™)"
-msgstr ""
+msgstr "Запуск улучшения! (Функция еще не реализована, ожидайте™)"
 
 #: src/logic/liteloader/LiteLoaderInstaller.cpp:112
+#, fuzzy
 msgctxt "LiteLoaderInstallTask|"
 msgid ""
 "For reasons unknown, the LiteLoader installation failed. Check your MultiMC "
 "log files for details."
 msgstr ""
+"По неизвестным причинам, установка LiteLoader не удалась. Проверьте файл "
+"журнала MultiMC для подробностей."
 
 #: src/logic/liteloader/LiteLoaderInstaller.cpp:129
 msgctxt "LiteLoaderInstallTask|"
 msgid "Failed to load the version description file for reasons unknown."
-msgstr ""
+msgstr "Не удалось загрузить файл с описанием версии (причина неизвестна)."
 
 #: src/gui/pages/LogPage.ui:14
 msgctxt "LogPage|"
 msgid "Log"
-msgstr ""
+msgstr "Журнал"
 
 #: src/gui/pages/LogPage.ui:36
 msgctxt "LogPage|"
 msgid "Tab 1"
-msgstr ""
+msgstr "Вкладка 1"
 
 #: src/gui/pages/LogPage.ui:45
 msgctxt "LogPage|"
 msgid "Search:"
-msgstr ""
+msgstr "Поиск:"
 
 #: src/gui/pages/LogPage.ui:62
 msgctxt "LogPage|"
 msgid "Find next"
-msgstr ""
+msgstr "Искать дальше"
 
 #: src/gui/pages/LogPage.ui:93
 msgctxt "LogPage|"
 msgid "Keep updating"
-msgstr ""
+msgstr "Автопрокрутка"
 
 #: src/gui/pages/LogPage.ui:116
 msgctxt "LogPage|"
 msgid "Copy the whole log into the clipboard"
-msgstr ""
+msgstr "Копировать весь журнал в буфер обмена"
 
 #: src/gui/pages/LogPage.ui:119
 msgctxt "LogPage|"
 msgid "&Copy"
-msgstr ""
+msgstr "&Копировать"
 
 #: src/gui/pages/LogPage.ui:126
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr ""
+msgstr "Загрузить журнал на сайт paste.ee - он будет храниться в течение месяца"
 
 #: src/gui/pages/LogPage.ui:129
 msgctxt "LogPage|"
 msgid "Upload"
-msgstr ""
+msgstr "Загрузить"
 
 #: src/gui/pages/LogPage.ui:136
 msgctxt "LogPage|"
 msgid "Clear the log"
-msgstr ""
+msgstr "Очистить журнал"
 
 #: src/gui/pages/LogPage.ui:139
 msgctxt "LogPage|"
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
 #: src/gui/pages/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr ""
+msgstr "Minecraft журнал"
 
 #: src/gui/dialogs/LoginDialog.ui:20
 msgctxt "LoginDialog|"
 msgid "Add Account"
-msgstr ""
+msgstr "Добавить учётную запись"
 
 #: src/gui/dialogs/LoginDialog.ui:26
 msgctxt "LoginDialog|"
@@ -2000,295 +1990,295 @@ msgstr ""
 #: src/gui/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
 msgid "Email / Username"
-msgstr ""
+msgstr "Электронная почта / Имя пользователя"
 
 #: src/gui/dialogs/LoginDialog.ui:49
 msgctxt "LoginDialog|"
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: src/gui/widgets/MCModInfoFrame.ui:26
 msgctxt "MCModInfoFrame|"
 msgid "Frame"
-msgstr ""
+msgstr "Рамка"
 
 #: src/gui/widgets/MCModInfoFrame.ui:32 src/gui/widgets/MCModInfoFrame.cpp:54
 msgctxt "MCModInfoFrame|"
 msgid "Select a mod to view title and authors..."
-msgstr ""
+msgstr "Выберите модификацию для просмотра названия и авторов…"
 
 #: src/gui/widgets/MCModInfoFrame.ui:51 src/gui/widgets/MCModInfoFrame.cpp:55
 msgctxt "MCModInfoFrame|"
 msgid "Select a mod to view description..."
-msgstr ""
+msgstr "Выберите модификацию для просмотра описания ..."
 
 #: src/gui/widgets/MCModInfoFrame.cpp:44
 msgctxt "MCModInfoFrame|"
 msgid "No description provided in mcmod.info"
-msgstr ""
+msgstr "Автор не дал описание модификации (отсутствует файл mcmod.info)"
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:360
 msgctxt "MCVListLoadTask|"
 msgid "Loading instance version list..."
-msgstr ""
+msgstr "Загрузка списка версий сборки…"
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:385
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "MCVListLoadTask|"
 msgid "Error parsing version list JSON: %1"
-msgstr ""
+msgstr "Ошибочный список версий JSON: %1"
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:432
 msgctxt "MCVListVersionUpdateTask|"
 msgid "The download version file is not valid."
-msgstr ""
+msgstr "Файлы версий не загрузились."
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:442
 #, qt-format
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Couldn't process version file: %1"
-msgstr ""
+msgstr "Не удалось обработать версию файла: %1"
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:474
 #, qt-format
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Can't open %1 for writing."
-msgstr ""
+msgstr "Не удается открыть файл %1 для записи."
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:480
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Failed to write into %1. Written %2 out of %3."
-msgstr ""
+msgstr "Не удалось записать в %1. Написано %2 из %3."
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:488
 #, qt-format
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Can't commit changes to %1"
-msgstr ""
+msgstr "Нельзя внести изменения в %1"
 
 #: src/gui/MainWindow.ui:14
 msgctxt "MainWindow|"
 msgid "MultiMC 5"
-msgstr ""
+msgstr "MultiMC 5"
 
 #: src/gui/MainWindow.ui:44
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Главная панель инструментов"
 
 #: src/gui/MainWindow.ui:86
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
-msgstr ""
+msgstr "Панель инструментов сборки"
 
 #: src/gui/MainWindow.ui:126
 msgctxt "MainWindow|"
 msgid "News Toolbar"
-msgstr ""
+msgstr "Новостная панель"
 
 #: src/gui/MainWindow.ui:161
 msgctxt "MainWindow|"
 msgid "Add Instance"
-msgstr ""
+msgstr "Добавить сборку"
 
 #: src/gui/MainWindow.ui:164 src/gui/MainWindow.ui:167
 #: src/gui/MainWindow.ui:461
 msgctxt "MainWindow|"
 msgid "Add a new instance."
-msgstr ""
+msgstr "Добавить новую сборку."
 
 #: src/gui/MainWindow.ui:177
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
-msgstr ""
+msgstr "Открыть папку сборки"
 
 #: src/gui/MainWindow.ui:180 src/gui/MainWindow.ui:183
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
-msgstr ""
+msgstr "Открыть папку сборки в файловом менеджере."
 
 #: src/gui/MainWindow.ui:193
 msgctxt "MainWindow|"
 msgid "Refresh"
-msgstr ""
+msgstr "Обновить"
 
 #: src/gui/MainWindow.ui:196 src/gui/MainWindow.ui:199
 msgctxt "MainWindow|"
 msgid "Reload the instance list."
-msgstr ""
+msgstr "Обновить список сборок."
 
 #: src/gui/MainWindow.ui:209
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
-msgstr ""
+msgstr "Открыть основную папку модов"
 
 #: src/gui/MainWindow.ui:212 src/gui/MainWindow.ui:215
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
-msgstr ""
+msgstr "Открыть основную папку модов в файловом менеджере."
 
 #: src/gui/MainWindow.ui:225
 msgctxt "MainWindow|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Проверить наличие обновлений"
 
 #: src/gui/MainWindow.ui:228 src/gui/MainWindow.ui:231
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC"
-msgstr ""
+msgstr "Проверка наличия обновлений MultiMC"
 
 #: src/gui/MainWindow.ui:241 src/gui/MainWindow.cpp:256
 msgctxt "MainWindow|"
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: src/gui/MainWindow.ui:244 src/gui/MainWindow.ui:247
 msgctxt "MainWindow|"
 msgid "Change settings."
-msgstr ""
+msgstr "Изменение настроек."
 
 #: src/gui/MainWindow.ui:260
 msgctxt "MainWindow|"
 msgid "Report a Bug"
-msgstr ""
+msgstr "Сообщить об ошибках"
 
 #: src/gui/MainWindow.ui:263 src/gui/MainWindow.ui:266
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
-msgstr ""
+msgstr "Открыть баг-трекер и сообщить об ошибке в MultiMC."
 
 #: src/gui/MainWindow.ui:276
 msgctxt "MainWindow|"
 msgid "Support us on Patreon!"
-msgstr ""
+msgstr "Поддержите нас на Patreon!"
 
 #: src/gui/MainWindow.ui:279 src/gui/MainWindow.ui:282
 msgctxt "MainWindow|"
 msgid "Open the MultiMC Patreon page."
-msgstr ""
+msgstr "Открыть страницу Patreon MultiMC."
 
 #: src/gui/MainWindow.ui:292
 msgctxt "MainWindow|"
 msgid "More News"
-msgstr ""
+msgstr "Больше новостей"
 
 #: src/gui/MainWindow.ui:295
 msgctxt "MainWindow|"
 msgid "More news..."
-msgstr ""
+msgstr "Больше новостей…"
 
 #: src/gui/MainWindow.ui:298 src/gui/MainWindow.ui:301
 msgctxt "MainWindow|"
 msgid "Open the MultiMC development blog to read more news about MultiMC."
-msgstr ""
+msgstr "Открыть Блог разработчиков MultiMC и читать больше новостей о MultiMC."
 
 #: src/gui/MainWindow.ui:311 src/gui/MainWindow.ui:317
 msgctxt "MainWindow|"
 msgid "About MultiMC"
-msgstr ""
+msgstr "О MultiMC"
 
 #: src/gui/MainWindow.ui:314
 msgctxt "MainWindow|"
 msgid "View information about MultiMC."
-msgstr ""
+msgstr "Просмотр информации о MultiMC."
 
 #: src/gui/MainWindow.ui:325
 msgctxt "MainWindow|"
 msgid "Play"
-msgstr ""
+msgstr "Играть"
 
 #: src/gui/MainWindow.ui:328 src/gui/MainWindow.ui:331
 #: src/gui/MainWindow.ui:480
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
-msgstr ""
+msgstr "Запустить выбранную сборку."
 
 #: src/gui/MainWindow.ui:336
 msgctxt "MainWindow|"
 msgid "Instance Name"
-msgstr ""
+msgstr "Имя сборки"
 
 #: src/gui/MainWindow.ui:339 src/gui/MainWindow.ui:342
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
-msgstr ""
+msgstr "Переименовать выбранную сборку."
 
 #: src/gui/MainWindow.ui:347
 msgctxt "MainWindow|"
 msgid "Change Group"
-msgstr ""
+msgstr "Выбрать группу"
 
 #: src/gui/MainWindow.ui:350 src/gui/MainWindow.ui:353
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
-msgstr ""
+msgstr "Изменить группу выбранной сборки."
 
 #: src/gui/MainWindow.ui:365
 msgctxt "MainWindow|"
 msgid "Change Icon"
-msgstr ""
+msgstr "Выбрать иконку"
 
 #: src/gui/MainWindow.ui:368 src/gui/MainWindow.ui:371
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
-msgstr ""
+msgstr "Изменить значок выбранной сборки."
 
 #: src/gui/MainWindow.ui:379
 msgctxt "MainWindow|"
 msgid "Edit Notes"
-msgstr ""
+msgstr "Редактировать заметки"
 
 #: src/gui/MainWindow.ui:382 src/gui/MainWindow.ui:385
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
-msgstr ""
+msgstr "Редактировать заметки для выбранной сборки."
 
 #: src/gui/MainWindow.ui:390 src/gui/MainWindow.ui:393
 #| msgid "Edit Mods"
 msgctxt "MainWindow|"
 msgid "Edit Instance"
-msgstr ""
+msgstr "Редактировать сборку"
 
 #: src/gui/MainWindow.ui:396 src/gui/MainWindow.ui:399
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
-msgstr ""
+msgstr "Изменение настроек сборки, модов и версий."
 
 #: src/gui/MainWindow.ui:404
 msgctxt "MainWindow|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Папка сборки"
 
 #: src/gui/MainWindow.ui:407 src/gui/MainWindow.ui:410
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
-msgstr ""
+msgstr "Откройте корневую папку выбранной сборки в файловом менеджере."
 
 #: src/gui/MainWindow.ui:415
 msgctxt "MainWindow|"
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: src/gui/MainWindow.ui:418 src/gui/MainWindow.ui:421
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
-msgstr ""
+msgstr "Удалить выбранную сборку."
 
 #: src/gui/MainWindow.ui:426
 msgctxt "MainWindow|"
 msgid "Config Folder"
-msgstr ""
+msgstr "Папка конфигураций"
 
 #: src/gui/MainWindow.ui:429
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder"
-msgstr ""
+msgstr "Открыть папку конфигураций сборок"
 
 #: src/gui/MainWindow.ui:442
 msgctxt "MainWindow|"
 msgid "Meow"
-msgstr ""
+msgstr "Мяяяу!"
 
 #: src/gui/MainWindow.ui:445
 msgctxt "MainWindow|"
@@ -2296,41 +2286,43 @@ msgid ""
 "<html><head/><body><p align=\"center\">It's a fluffy kitty :3</p></body></"
 "html>"
 msgstr ""
+"<html><head/><body><p align=\"center\">Это пушистый котенок "
+":3</p></body></html>"
 
 #: src/gui/MainWindow.ui:455
 msgctxt "MainWindow|"
 msgid "Copy Instance"
-msgstr ""
+msgstr "Копировать сборку"
 
 #: src/gui/MainWindow.ui:458
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
-msgstr ""
+msgstr "Копировать выбранную сборку."
 
 #: src/gui/MainWindow.ui:466 src/gui/MainWindow.cpp:235
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
-msgstr ""
+msgstr "Управление учетными записями"
 
 #: src/gui/MainWindow.ui:469
 msgctxt "MainWindow|"
 msgid "Manage your Mojang or Minecraft accounts."
-msgstr ""
+msgstr "Управление учетными записями Mojang или Minecraft."
 
 #: src/gui/MainWindow.ui:474 src/gui/MainWindow.cpp:1200
 msgctxt "MainWindow|"
 msgid "Play Offline"
-msgstr ""
+msgstr "Играть в автономном режиме"
 
 #: src/gui/MainWindow.ui:477
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
-msgstr ""
+msgstr "Запуск выбранной сборки в автономном режиме."
 
 #: src/gui/MainWindow.ui:485
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
-msgstr ""
+msgstr "Управление скриншотами"
 
 #: src/gui/MainWindow.ui:488
 msgctxt "MainWindow|"
@@ -2338,91 +2330,98 @@ msgid ""
 "<html><head/><body><p>View and upload screenshots for this instance</p></"
 "body></html>"
 msgstr ""
+"<html><head/><body><p>Просмотр и загрузка скриншотов для этой "
+"сборки</p></body></html>"
 
 #: src/gui/MainWindow.ui:493
 msgctxt "MainWindow|"
 msgid "Instance Settings"
-msgstr ""
+msgstr "Настройки сборки"
 
 #: src/gui/MainWindow.ui:496
 msgctxt "MainWindow|"
 msgid "Change the settings specific to the instance"
-msgstr ""
+msgstr "Изменить параметры, специфичные для сборки"
 
 #: src/gui/MainWindow.cpp:224
 msgctxt "MainWindow|"
 msgid "No instance selected"
-msgstr ""
+msgstr "Не выбрана сборка"
 
 #: src/gui/MainWindow.cpp:243
 msgctxt "MainWindow|"
 msgid "Accounts"
-msgstr ""
+msgstr "Учётные записи"
 
 #: src/gui/MainWindow.cpp:372
 msgctxt "MainWindow|"
 msgid "Rename"
-msgstr ""
+msgstr "Переименовать"
 
 #: src/gui/MainWindow.cpp:375
 msgctxt "MainWindow|"
 msgid "Copy instance"
-msgstr ""
+msgstr "Копировать сборку"
 
 #: src/gui/MainWindow.cpp:390
 msgctxt "MainWindow|"
 msgid "MultiMC"
-msgstr ""
+msgstr "MultiMC"
 
 #: src/gui/MainWindow.cpp:393
 msgctxt "MainWindow|"
 msgid "Create instance"
-msgstr ""
+msgstr "Создать сборку"
 
 #: src/gui/MainWindow.cpp:417 src/gui/MainWindow.cpp:1333
 msgctxt "MainWindow|"
 msgid "Launch"
-msgstr ""
+msgstr "Запуск"
 
 #: src/gui/MainWindow.cpp:420
 msgctxt "MainWindow|"
 msgid "Profilers"
-msgstr ""
+msgstr "Профили"
 
 #: src/gui/MainWindow.cpp:429
+#, fuzzy
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
+"Profiler установлен не правильно. Перейдите в \"Настройки\" - \"Внешние "
+"инструменты\"."
 
 #: src/gui/MainWindow.cpp:437
 msgctxt "MainWindow|"
 msgid "Tools"
-msgstr ""
+msgstr "Инструменты"
 
 #: src/gui/MainWindow.cpp:446
 msgctxt "MainWindow|"
 msgid "Tool not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
+"Инструмент настроен не правильно. Перейдите в \"Настройки\" - \"Внешние "
+"инструменты\"."
 
 #: src/gui/MainWindow.cpp:472
 msgctxt "MainWindow|"
 msgid "No accounts added!"
-msgstr ""
+msgstr "Не добавлена учётная запись!"
 
 #: src/gui/MainWindow.cpp:509
 msgctxt "MainWindow|"
 msgid "No Default Account"
-msgstr ""
+msgstr "Нет учётной записи по умолчанию"
 
 #: src/gui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Loading news..."
-msgstr ""
+msgstr "Загрузка новостей…"
 
 #: src/gui/MainWindow.cpp:616
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr ""
+msgstr "Нет новостей."
 
 #: src/gui/MainWindow.cpp:775 src/gui/MainWindow.cpp:782
 #: src/gui/MainWindow.cpp:789 src/gui/MainWindow.cpp:801
@@ -2431,18 +2430,19 @@ msgstr ""
 #: src/gui/MainWindow.cpp:1309 src/gui/MainWindow.cpp:1343
 msgctxt "MainWindow|"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: src/gui/MainWindow.cpp:763 src/gui/MainWindow.cpp:834
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to create instance %1: "
-msgstr ""
+msgstr "Не удалось создать сборку %1: "
 
 #: src/gui/MainWindow.cpp:774 src/gui/MainWindow.cpp:845
+#, fuzzy
 msgctxt "MainWindow|"
 msgid "An instance with the given directory name already exists."
-msgstr ""
+msgstr "Имя каталога сборки, уже существует."
 
 #: src/gui/MainWindow.cpp:781 src/gui/MainWindow.cpp:852
 msgctxt "MainWindow|"
@@ -2466,17 +2466,18 @@ msgstr ""
 #: src/gui/MainWindow.cpp:919
 msgctxt "MainWindow|"
 msgid "Group name"
-msgstr ""
+msgstr "Имя группы"
 
 #: src/gui/MainWindow.cpp:919
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
-msgstr ""
+msgstr "Введите название новой группы."
 
 #: src/gui/MainWindow.cpp:1044
+#, fuzzy
 msgctxt "MainWindow|"
 msgid "CAREFUL"
-msgstr ""
+msgstr "ОСТОРОЖНО"
 
 #: src/gui/MainWindow.cpp:1044
 msgctxt "MainWindow|"
@@ -2488,17 +2489,17 @@ msgstr ""
 #: src/gui/MainWindow.cpp:1061
 msgctxt "MainWindow|"
 msgid "Instance name"
-msgstr ""
+msgstr "Имя сборки"
 
 #: src/gui/MainWindow.cpp:1061
 msgctxt "MainWindow|"
 msgid "Enter a new instance name."
-msgstr ""
+msgstr "Введите имя сборки."
 
 #: src/gui/MainWindow.cpp:1149
 msgctxt "MainWindow|"
 msgid "No Accounts"
-msgstr ""
+msgstr "Нет учётной записи"
 
 #: src/gui/MainWindow.cpp:1150
 msgctxt "MainWindow|"
@@ -2531,15 +2532,16 @@ msgid "Choose your offline mode player name."
 msgstr ""
 
 #: src/gui/MainWindow.cpp:1310
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't start profiler: %1"
-msgstr ""
+msgstr "Не удалось запустить profiler: %1"
 
 #: src/gui/MainWindow.cpp:1319
+#, fuzzy
 msgctxt "MainWindow|"
 msgid "Waiting for profiler..."
-msgstr ""
+msgstr "Ожидание Profiler..."
 
 #: src/gui/MainWindow.cpp:1328
 #, qt-format
@@ -2561,7 +2563,7 @@ msgstr ""
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't start the profiler: %1"
-msgstr ""
+msgstr "Не удалось запустить profiler: %1"
 
 #: src/gui/MainWindow.cpp:1360
 msgctxt "MainWindow|"
