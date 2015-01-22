@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-01-22 10:04-0400\n"
-"Last-Translator: Kirill <adviser1989@yandex.ru>\n"
+"PO-Revision-Date: 2015-01-22 10:21-0400\n"
+"Last-Translator: AspektRus <anarhist.rus@rambler.ru>\n"
 "Language-Team: Russian "
 "<http://weblate.robotbrain.info/projects/multimc/multimc/ru/>\n"
 "Language: ru\n"
@@ -1403,7 +1403,7 @@ msgstr "MCEdit Каталог"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:180
 #: src/gui/pages/global/ExternalToolsPage.cpp:196
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ExternalToolsPage|"
 msgid ""
 "Error while checking MCEdit install:\n"
@@ -1650,6 +1650,7 @@ msgid "Find Java executable"
 msgstr "Найти Java исполняемый файл"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:207
+#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java test success"
 msgstr "Успешная проверка Java"
@@ -1851,13 +1852,11 @@ msgid "Loading LiteLoader version list..."
 msgstr "Получение списка версий LiteLoader ..."
 
 #: src/logic/liteloader/LiteLoaderVersionList.cpp:171
-#, fuzzy
 msgctxt "LLListLoadTask|"
 msgid "This is a lightweight loader for mods that don't change game mechanics."
 msgstr "Это легкий загрузчик модов, которые не изменяют игровую механику."
 
 #: src/gui/dialogs/LwjglSelectDialog.ui:14
-#, fuzzy
 msgctxt "LWJGLSelectDialog|"
 msgid "Manage Lwjgl Versions"
 msgstr "Управление версиями LWJGL"
@@ -2577,7 +2576,7 @@ msgstr "Профили"
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
-"Profiler установлен не правильно. Перейдите в \"Настройки\" - \"Внешние "
+"Профиль установлен не правильно. Перейдите в \"Настройки\" - \"Внешние "
 "инструменты\"."
 
 #: src/gui/MainWindow.cpp:437
@@ -2636,13 +2635,13 @@ msgstr "Имя каталога сборки, уже существует."
 #: src/gui/MainWindow.cpp:781 src/gui/MainWindow.cpp:852
 msgctxt "MainWindow|"
 msgid "Failed to create the instance directory."
-msgstr ""
+msgstr "Не удалось создать каталог сборки."
 
 #: src/gui/MainWindow.cpp:788 src/gui/MainWindow.cpp:859
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "MainWindow|"
 msgid "Unknown instance loader error %1"
-msgstr ""
+msgstr "Неизвестный загрузчик сборки ошибка %1"
 
 #: src/gui/MainWindow.cpp:810
 msgctxt "MainWindow|"
@@ -2651,6 +2650,9 @@ msgid ""
 "least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
+"MultiMC не можете скачать Minecraft или обновлене сборки, нужно иметь хотя "
+"бы одну учетную запись.\n"
+"Пожалуйста добавьте учётную запись Mojang или Minecraft."
 
 #: src/gui/MainWindow.cpp:919
 msgctxt "MainWindow|"
