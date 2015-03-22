@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-03-05 00:31-0400\n"
+"PO-Revision-Date: 2015-03-22 04:33-0400\n"
 "Last-Translator: Puteulanus <mj@puteulanus.com>\n"
 "Language-Team: Chinese "
 "<http://weblate.robotbrain.info/projects/multimc/multimc/zh/>\n"
@@ -836,12 +836,12 @@ msgstr ""
 #: src/gui/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
 msgid "&Add"
-msgstr ""
+msgstr "&添加"
 
 #: src/gui/pages/global/AccountListPage.ui:66
 msgctxt "AccountListPage|"
 msgid "&Remove"
-msgstr ""
+msgstr "&删除"
 
 #: src/gui/pages/global/AccountListPage.ui:86
 msgctxt "AccountListPage|"
@@ -856,7 +856,7 @@ msgstr ""
 #: src/gui/pages/global/AccountListPage.ui:89
 msgctxt "AccountListPage|"
 msgid "&Set Default"
-msgstr ""
+msgstr "&设为默认"
 
 #: src/gui/pages/global/AccountListPage.ui:96
 msgctxt "AccountListPage|"
@@ -869,7 +869,7 @@ msgstr "设置为“无默认账户”。这会导致在每次启动某个MC版�
 #: src/gui/pages/global/AccountListPage.ui:99
 msgctxt "AccountListPage|"
 msgid "&No Default"
-msgstr ""
+msgstr "&没有默认"
 
 #: src/gui/pages/global/AccountListPage.h:41
 msgctxt "AccountListPage|"
@@ -1178,7 +1178,7 @@ msgstr "外部工具"
 #: src/gui/pages/global/ExternalToolsPage.cpp:88
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Directory"
-msgstr ""
+msgstr "JProfiler目录"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:96
 #: src/gui/pages/global/ExternalToolsPage.cpp:112
@@ -1198,6 +1198,8 @@ msgid ""
 "Error while checking JProfiler install:\n"
 "%1"
 msgstr ""
+"在检查JProfiler的安装时出现错误：\n"
+"%1"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:117
 #: src/gui/pages/global/ExternalToolsPage.cpp:156
@@ -1209,7 +1211,7 @@ msgstr ""
 #: src/gui/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr ""
+msgstr "JProfiler的安装没有问题"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
@@ -1224,21 +1226,23 @@ msgid ""
 "Error while checking JVisualVM install:\n"
 "%1"
 msgstr ""
+"在检查JVisualVM的安装时出现错误：\n"
+"%1"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:156
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr ""
+msgstr "JVisualVMde的安装没有问题"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:168
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr ""
+msgstr "MCEdit软件"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:170
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Directory"
-msgstr ""
+msgstr "MCEdit路径"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:180
 #: src/gui/pages/global/ExternalToolsPage.cpp:196
@@ -1248,16 +1252,18 @@ msgid ""
 "Error while checking MCEdit install:\n"
 "%1"
 msgstr ""
+"在检查MCEdit的安装时出现错误：\n"
+"%1"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:200
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
-msgstr ""
+msgstr "MCEdit的安装没有问题"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:207
 msgctxt "ExternalToolsPage|"
 msgid "JSON Editor"
-msgstr ""
+msgstr "JSON编辑器"
 
 #: src/gui/pages/global/ExternalToolsPage.cpp:229
 msgctxt "ExternalToolsPage|"
@@ -1392,7 +1398,7 @@ msgstr "Minecraft开始运行时占用的内存大小。"
 #: src/gui/pages/InstanceSettingsPage.ui:160
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr ""
+msgstr "可用于储存加载的Java类的内存总量。"
 
 #: src/gui/pages/InstanceSettingsPage.ui:182
 msgctxt "InstanceSettingsPage|"
@@ -1471,16 +1477,18 @@ msgid ""
 "runs after it exits. Both will be run in MultiMC's working directory with "
 "INST_ID, INST_DIR, and INST_NAME as environment variables."
 msgstr ""
+"Pre-launch command 在MC启动前运行，post-exit command z在MC退出之后运行。 "
+"它们都在MultiMC的工作目录中运行，且可以使用 INST_ID, INST_DIR, 和 INST_NAME 这些环境变量。"
 
 #: src/gui/pages/InstanceSettingsPage.h:40
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:168
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
-msgstr ""
+msgstr "选择一个Java版本"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:181
 msgctxt "InstanceSettingsPage|"
@@ -1490,35 +1498,35 @@ msgstr ""
 #: src/gui/pages/InstanceSettingsPage.cpp:207
 msgctxt "InstanceSettingsPage|"
 msgid "Java test success"
-msgstr ""
+msgstr "Java测试通过"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:212
 msgctxt "InstanceSettingsPage|"
 msgid "Java test failure"
-msgstr ""
+msgstr "Java测试没有通过"
 
 #: src/gui/pages/InstanceSettingsPage.cpp:213
 msgctxt "InstanceSettingsPage|"
 msgid ""
 "The specified java binary didn't work. You should use the auto-detect "
 "feature, or set the path to the java executable."
-msgstr ""
+msgstr "指定的Java可执行文件不工作。你应该使用自动检测功能，或者设置一个有效的Java可执行文件路径。"
 
 #: src/logic/minecraft/InstanceVersion.cpp:341
 msgctxt "InstanceVersion|"
 msgid "Name"
-msgstr ""
+msgstr "名字"
 
 #: src/logic/minecraft/InstanceVersion.cpp:343
 msgctxt "InstanceVersion|"
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: src/logic/tools/JProfiler.cpp:24
 #, qt-format
 msgctxt "JProfiler|"
 msgid "Listening on port: %1"
-msgstr ""
+msgstr "监听端口：%1"
 
 #: src/logic/tools/JProfiler.cpp:31
 msgctxt "JProfiler|"
@@ -1538,12 +1546,12 @@ msgstr ""
 #: src/logic/java/JavaVersionList.cpp:175
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr ""
+msgstr "正在检测Java的安装情况..."
 
 #: src/gui/pages/global/JavaPage.ui:20
 msgctxt "JavaPage|"
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: src/gui/pages/global/JavaPage.ui:46
 msgctxt "JavaPage|"
@@ -1553,12 +1561,12 @@ msgstr ""
 #: src/gui/pages/global/JavaPage.ui:52
 msgctxt "JavaPage|"
 msgid "Memory"
-msgstr ""
+msgstr "内存"
 
 #: src/gui/pages/global/JavaPage.ui:58
 msgctxt "JavaPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr ""
+msgstr "Minecraft最大可以使用的内存总量。"
 
 #: src/gui/pages/global/JavaPage.ui:61 src/gui/pages/global/JavaPage.ui:97
 #: src/gui/pages/global/JavaPage.ui:126
@@ -1569,17 +1577,17 @@ msgstr ""
 #: src/gui/pages/global/JavaPage.ui:80
 msgctxt "JavaPage|"
 msgid "Minimum memory allocation:"
-msgstr ""
+msgstr "最小分配内存："
 
 #: src/gui/pages/global/JavaPage.ui:87
 msgctxt "JavaPage|"
 msgid "Maximum memory allocation:"
-msgstr ""
+msgstr "最大分配内存："
 
 #: src/gui/pages/global/JavaPage.ui:94
 msgctxt "JavaPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr ""
+msgstr "Minecraft启动时分配的内存总量。"
 
 #: src/gui/pages/global/JavaPage.ui:116
 msgctxt "JavaPage|"
