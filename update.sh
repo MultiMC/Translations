@@ -8,6 +8,10 @@ TEMPLATE_PO="$ROOT/template.pot"
 TEMPLATE_TS="$ROOT/template.ts"
 BASE_LST_FILE="$ROOT/base_lst_file"
 
+LCONVERT_BIN=${LCONVERT_BIN:-lconvert-qt5}
+LRELEASE_BIN=${LRELEASE_BIN:-lrelease-qt5}
+LUPDATE_BIN=${LUPDATE_BIN:-lupdate-qt5}
+
 ###############################################################################
 
 echo "Updating sources..."
@@ -21,6 +25,9 @@ then
 else
 	echo "    Cloning repo from scratch"
 	git clone https://github.com/MultiMC/MultiMC5.git $SRC
+	cd $SRC
+	git reset --hard origin/stable
+	cd $ROOT
 fi
 
 ###############################################################################
@@ -38,16 +45,16 @@ echo "Updating po template..."
 if [ -f $TEMPLATE_PO ]
 then
 	echo "    Converting .pot to .ts"
-	lconvert-qt5 -locations relative $TEMPLATE_PO -o $TEMPLATE_TS
+	$LCONVERT_BIN -locations relative $TEMPLATE_PO -o $TEMPLATE_TS
 fi
 
 echo "    Updating .ts"
 cd $SRC
-lupdate-qt5 "@$BASE_LST_FILE" -ts $TEMPLATE_TS
+$LUPDATE_BIN "@$BASE_LST_FILE" -ts $TEMPLATE_TS
 cd $ROOT
 
 echo "    Converting .ts to .pot"
-lconvert-qt5 -locations relative $TEMPLATE_TS -o $TEMPLATE_PO
+$LCONVERT_BIN -locations relative $TEMPLATE_TS -o $TEMPLATE_PO
 
 echo "    Removing .ts"
 rm $TEMPLATE_TS
