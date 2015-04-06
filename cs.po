@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-04-06 10:03-0400\n"
+"PO-Revision-Date: 2015-04-06 10:20-0400\n"
 "Last-Translator: Petr Mrázek <peterix@gmail.com>\n"
 "Language-Team: Czech "
 "<http://weblate.robotbrain.info/projects/multimc/multimc/cs/>\n"
@@ -1650,7 +1650,7 @@ msgstr "Použít jako hlavní, pouze pro tuto relaci?"
 #: src/logic/assets/AssetsMigrateTask.cpp:19
 msgctxt "AssetsMigrateTask|"
 msgid "Migrating legacy assets..."
-msgstr ""
+msgstr "Převádění herních souborů ze starého formátu..."
 
 #: src/logic/auth/flows/AuthenticateTask.cpp:86
 msgctxt "AuthenticateTask|"
@@ -4032,16 +4032,15 @@ msgid "Instance Directory"
 msgstr "Složka instance"
 
 #: src/gui/pages/global/MultiMCPage.cpp:130
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid ""
 "You're trying to specify an instance folder which's path contains at least "
 "one '!'. Java is known to cause problems if that is the case, your instances "
 "(probably) won't start!"
 msgstr ""
-"Snažíte se určit instance složky, jehož cesta obsahuje alespoň jeden '! \". "
-"Java je známá, že má problémy, pokud tomu tak je, vaše instance se"
-"(pravděpodobně) nespustí!"
+"Cesta ke složce s instancemi obsahuje alespoň jeden vykřičník. Java je známá "
+"tím, že má vykřičníky v cestách problémy. Vaše instance se (pravděpodobně) "
+"nespustí!"
 
 #: src/gui/pages/global/MultiMCPage.cpp:135
 msgctxt "MultiMCPage|"
@@ -4074,17 +4073,17 @@ msgstr "Angličtina"
 #: src/gui/pages/global/MultiMCPage.cpp:433
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Something/ERROR] Děsivá chyba!"
 
 #: src/gui/pages/global/MultiMCPage.cpp:441
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Neškodná zpráva..."
 
 #: src/gui/pages/global/MultiMCPage.cpp:450
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Something/WARN] Méně děsivé varování."
 
 #: src/gui/dialogs/NewInstanceDialog.ui:17
 msgctxt "NewInstanceDialog|"
@@ -4115,7 +4114,7 @@ msgstr "…"
 #: src/gui/dialogs/NewInstanceDialog.cpp:59
 msgctxt "NewInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Žádná skupina"
 
 #: src/gui/dialogs/NewInstanceDialog.cpp:115
 msgctxt "NewInstanceDialog|"
@@ -4232,40 +4231,36 @@ msgid "Getting the version files from Mojang..."
 msgstr "Získání verzí souborů z Mojang..."
 
 #: src/logic/OneSixUpdate.cpp:88
-#, fuzzy
 msgctxt "OneSixUpdate|"
 msgid "Updating assets index..."
-msgstr "Aktualizace majetku index ..."
+msgstr "Aktualizace indexu herních souborů ..."
 
 #: src/logic/OneSixUpdate.cpp:94
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixUpdate|"
 msgid "Asset index for %1"
-msgstr "Asset index for %1"
+msgstr "Index herních souborů pro %1"
 
 #: src/logic/OneSixUpdate.cpp:120
-#, fuzzy
 msgctxt "OneSixUpdate|"
 msgid "Failed to read the assets index!"
-msgstr "Nepodařilo se přečíst assets index!"
+msgstr "Nepodařilo se přečíst index herních souborů!"
 
 #: src/logic/OneSixUpdate.cpp:139
-#, fuzzy
 msgctxt "OneSixUpdate|"
 msgid "Getting the assets files from Mojang..."
-msgstr "Získání assets  souborů od Mojang ..."
+msgstr "Získání herních souborů ..."
 
 #: src/logic/OneSixUpdate.cpp:140
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixUpdate|"
 msgid "Assets for %1"
-msgstr "Assets pro %1"
+msgstr "Herní soubory pro %1"
 
 #: src/logic/OneSixUpdate.cpp:156
-#, fuzzy
 msgctxt "OneSixUpdate|"
 msgid "Failed to download the assets index!"
-msgstr "Nepodařilo se stáhnout assets index!"
+msgstr "Nepodařilo se stáhnout index herních souborů!"
 
 #: src/logic/OneSixUpdate.cpp:166
 msgctxt "OneSixUpdate|"
@@ -4289,7 +4284,7 @@ msgid "Libraries for instance %1"
 msgstr "Knihovny pro instance %1"
 
 #: src/logic/OneSixUpdate.cpp:263
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixUpdate|"
 msgid ""
 "Some libraries marked as 'local' are missing their jar files:\n"
@@ -4298,8 +4293,8 @@ msgid ""
 "You'll have to correct this problem manually. If this is an externally "
 "tracked instance, make sure to run it at least once outside of MultiMC."
 msgstr ""
-"Některé knihovny, které jsou označeny jako \"místní\" postrádají jejich jar "
-"soubory: ↵\n"
+"Některé knihovny, které jsou označeny jako \"local\" - tedy místní, "
+"postrádají své jar soubory: ↵\n"
 "%1↵\n"
 "↵\n"
 "Budete muset tento problém opravit ručně. Jedná-li se o externally tracked "
@@ -4320,10 +4315,9 @@ msgstr ""
 "Zkuste to prosím znovu."
 
 #: src/logic/OneSixUpdate.cpp:337
-#, fuzzy
 msgctxt "OneSixUpdate|"
 msgid "Creating stripped jar: Opening minecraft.jar ..."
-msgstr "Vytvoření stripped jar: Otevírání minecraft.jar..."
+msgstr "Vytvoření stripped jar: Otevírání minecraft.jar ..."
 
 #: src/logic/OneSixUpdate.cpp:347
 #, fuzzy
@@ -4432,6 +4426,8 @@ msgid ""
 "The file (%1) is too big. You may want to open it in a viewer optimized for "
 "large files."
 msgstr ""
+"Soubor (%1) je příliš velký. Budete ho muset otevřít v prohlížeči, který je "
+"na takovéto soubory uzpůsoben."
 
 #: src/gui/pages/OtherLogsPage.cpp:130
 #, qt-format
@@ -4448,7 +4444,7 @@ msgstr "Nelze smazat %1: %2"
 #: src/logic/net/PasteUpload.cpp:27
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
-msgstr ""
+msgstr "Nahrávám na paste.ee"
 
 #: src/logic/net/PasteUpload.cpp:58
 msgctxt "PasteUpload|"
@@ -4462,10 +4458,9 @@ msgid "Please wait..."
 msgstr "Prosím čekejte..."
 
 #: src/gui/dialogs/ProgressDialog.ui:32
-#, fuzzy
 msgctxt "ProgressDialog|"
 msgid "Task Status..."
-msgstr "Task Status..."
+msgstr "Stav úkolu..."
 
 #: src/gui/dialogs/ProgressDialog.ui:58
 msgctxt "ProgressDialog|"
@@ -4534,14 +4529,13 @@ msgid "Password:"
 msgstr "Heslo:"
 
 #: src/gui/pages/global/ProxyPage.ui:163
-#, fuzzy
 msgctxt "ProxyPage|"
 msgid ""
 "Note: Proxy username and password are stored in plain text inside MultiMC's "
 "configuration file!"
 msgstr ""
-"Poznámka: Proxy uživatelské jméno a heslo jsou uloženy ve formátu prostého "
-"textu uvnitř konfiguračního souboru MultiMC!"
+"Poznámka: uživatelské jméno a heslo pro proxy server jsou uloženy ve formátu "
+"prostého textu uvnitř konfiguračního souboru MultiMC!"
 
 #: src/gui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -4590,28 +4584,29 @@ msgstr "Cesta se nezdá být cesta MCEdit"
 
 #: src/logic/minecraft/VersionFile.cpp:450
 #: src/logic/minecraft/VersionFile.cpp:474
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Error resolving library dependencies between %1 and %2 in %3."
-msgstr "Chyba řešení knihovny závislostí mezi %1 a %2 v %3."
+msgstr "Chyba řešení závislostí mezi knihovnami %1 a %2 v %3."
 
 #: src/logic/minecraft/VersionBuildError.h:19
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The base version file of this instance was meant for a newer (%1) version of "
 "the vanilla launcher than this version of MultiMC supports (%2)."
 msgstr ""
-"Základní verze souboru instance byla určena pro novější (%1) verzi vanilla "
-"launcheru než tato verze MultiMC podporuje (%2)."
+"Základní soubor verze této instance byl určen pro novější verzi (%1) vanilla "
+"spouštěče než tato verze MultiMC podporuje (%2)."
 
 #: src/logic/minecraft/VersionBuildError.h:36
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The patch %1 is for a different version of Minecraft (%2) than that of the "
 "instance (%3)."
-msgstr "Cesta %1 je pro jinou verzi Minecraft (%2), než je instance (%3)."
+msgstr ""
+"Patch %1 je pro jinou verzi Minecraftu (%2), než je obsahuje instance (%3)."
 
 #: src/logic/minecraft/VersionBuildError.h:53
 #, qt-format
@@ -4639,10 +4634,10 @@ msgid "Unable to open the version file %1: %2."
 msgstr "Nelze otevřít verzi souboru %1: %2."
 
 #: src/logic/minecraft/VersionBuilder.cpp:260
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1: %2 at %3."
-msgstr "Nelze zpracovat verzi souboru %1: %2 na %3."
+msgstr "Nelze zpracovat souboru s verzí %1: %2 na %3."
 
 #: src/logic/minecraft/VersionBuilder.cpp:281
 #, qt-format
@@ -4689,7 +4684,6 @@ msgid "JVM arguments warning"
 msgstr "JVM argumenty varování"
 
 #: src/logic/NagUtils.cpp:27
-#, fuzzy
 msgctxt "QObject|"
 msgid ""
 "You tried to manually set a JVM memory option (using  \"-XX:PermSize\", \"-"
@@ -4698,11 +4692,11 @@ msgid ""
 "Your manual settings will be overridden by the dedicated options.\n"
 "This message will be displayed until you remove them from the JVM arguments."
 msgstr ""
-"Pokusili jste se ručně nastavit možnost paměti JVM (použitím \"-XX:PermSize"
-"\", \"-Xmx\" nebo \"-Xms\") - zde jsou vyhrazené specializované boxy pro "
-"tyto v nastavení (tabulka Java, ve skupině Memory nahoře).↵\n"
-"Vaše manuální nastavení budou přepsána specializovanýma možnostma.↵\n"
-"Tato zpráva se zobrazí, dokud je odstraníte z JVM argumentů."
+"Pokusili jste se ručně nastavit možnost paměti JVM (použitím \"-XX:PermSize\""
+", \"-Xmx\" nebo \"-Xms\") - pro tyto vlastnosti existují v MultiMC nastavení "
+"vyhrazené ovládací prvky (tabulka Java, ve skupině Paměť nahoře).↵\n"
+"Vaše manuální nastavení nebudou použita.↵\n"
+"Tato zpráva se bude zobrazovat, dokud je odstraníte z JVM argumentů."
 
 #: src/gui/dialogs/ModEditDialogCommon.cpp:36
 msgctxt "QObject|"
@@ -4874,16 +4868,16 @@ msgid "Upload finished"
 msgstr "Nahrávání dokončeno"
 
 #: src/gui/pages/ScreenshotsPage.cpp:317
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
 "The <a href=\"%1\">link  to the uploaded album</a> has been opened in the "
 "default browser and placed in your clipboard.<br/>Delete hash: %2 (save this "
 "if you want to be able to edit/delete the album)"
 msgstr ""
-"<a Href=\"%1\"> odkaz nahraného albu </a> byl otevřen ve výchozím prohlížeči "
-"a uložena do schránky(clipboard) <br/> Vymazat hash:. %2 (s výjimkou, pokud "
-"chcete být schopni upravit / smazat album)"
+"<a Href=\"%1\"> odkaz na nahrané album</a> byl otevřen ve výchozím "
+"prohlížeči a uložen do schránky(clipboard) <br/> Vymazat hash:. %2 (s "
+"výjimkou, pokud chcete být schopni upravit / smazat album)"
 
 #: src/gui/pages/ScreenshotsPage.cpp:328
 msgctxt "ScreenshotsPage|"
