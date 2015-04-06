@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-04-03 13:19-0400\n"
-"Last-Translator: Michal Dolenský <the777misa@gmail.com>\n"
+"PO-Revision-Date: 2015-04-06 10:03-0400\n"
+"Last-Translator: Petr Mrázek <peterix@gmail.com>\n"
 "Language-Team: Czech "
 "<http://weblate.robotbrain.info/projects/multimc/multimc/cs/>\n"
 "Language: cs\n"
@@ -1724,10 +1724,9 @@ msgid "Type"
 msgstr "Typ"
 
 #: src/logic/BaseVersionList.cpp:98
-#, fuzzy
 msgctxt "BaseVersionList|"
 msgid "The name of the version."
-msgstr "Změnit verzi Minecraftu"
+msgstr "Název verze."
 
 #: src/logic/BaseVersionList.cpp:101
 #, fuzzy
@@ -1792,7 +1791,7 @@ msgstr "Group"
 #: src/gui/dialogs/CopyInstanceDialog.cpp:59
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Žádná skupina"
 
 #: src/logic/updater/DownloadUpdateTask.cpp:83
 msgctxt "DownloadUpdateTask|"
@@ -2101,16 +2100,14 @@ msgid "Type"
 msgstr "Typ"
 
 #: src/logic/forge/ForgeVersionList.cpp:118
-#, fuzzy
 msgctxt "ForgeVersionList|"
 msgid "The name of the version."
-msgstr "Změnit verzi Minecraftu"
+msgstr "Název verze."
 
 #: src/logic/forge/ForgeVersionList.cpp:121
-#, fuzzy
 msgctxt "ForgeVersionList|"
 msgid "Minecraft version"
-msgstr "Změnit verzi Minecraftu"
+msgstr "Verze Minecraftu"
 
 #: src/logic/forge/ForgeVersionList.cpp:124
 #, fuzzy
@@ -2208,10 +2205,9 @@ msgid "The amount of memory Minecraft is started with."
 msgstr "Množství paměti Minecraft se kterým začne."
 
 #: src/gui/pages/InstanceSettingsPage.ui:160
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "Velikost paměti k dispozici pro uložení načtených Java classes"
+msgstr "Velikost paměti k dispozici pro uložení načtených Java tříd."
 
 #: src/gui/pages/InstanceSettingsPage.ui:182
 msgctxt "InstanceSettingsPage|"
@@ -2527,29 +2523,27 @@ msgstr "Verze"
 #: src/logic/java/JavaVersionList.cpp:105
 msgctxt "JavaVersionList|"
 msgid "Arch"
-msgstr ""
+msgstr "Architektura"
 
 #: src/logic/java/JavaVersionList.cpp:108
 msgctxt "JavaVersionList|"
 msgid "Path"
-msgstr ""
+msgstr "Cesta"
 
 #: src/logic/java/JavaVersionList.cpp:118
-#, fuzzy
 msgctxt "JavaVersionList|"
 msgid "The name of the version."
-msgstr "Změnit verzi Minecraftu"
+msgstr "Název verze."
 
 #: src/logic/java/JavaVersionList.cpp:121
 msgctxt "JavaVersionList|"
 msgid "The architecture this version is for."
-msgstr ""
+msgstr "Architektura procesoru pro kterou je verze určena."
 
 #: src/logic/java/JavaVersionList.cpp:124
-#, fuzzy
 msgctxt "JavaVersionList|"
 msgid "Path to this Java version."
-msgstr "Vyber verzi Javy"
+msgstr "Cesta k této verzi Javy."
 
 #: src/logic/liteloader/LiteLoaderVersionList.cpp:104
 msgctxt "LLListLoadTask|"
@@ -2588,10 +2582,9 @@ msgid "Version"
 msgstr "Verze"
 
 #: src/logic/LwjglVersionList.cpp:63
-#, fuzzy
 msgctxt "LWJGLVersionList|"
 msgid "LWJGL version name."
-msgstr "Načítání verzí LWJGL…"
+msgstr "Název verze LWJGL."
 
 #: src/logic/LegacyInstance.cpp:56
 msgctxt "LegacyInstance|"
@@ -2610,10 +2603,10 @@ msgid "Edit Instance (%1)"
 msgstr "Upravit instanci (%1)"
 
 #: src/logic/LegacyInstance.cpp:292
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LegacyInstance|"
 msgid "Legacy : %1 (broken)"
-msgstr "Odkaz:% 1 (rozbitý)"
+msgstr "Legacy:% 1 (rozbitý)"
 
 #: src/logic/LegacyInstance.cpp:294
 #, qt-format
@@ -3546,7 +3539,6 @@ msgid "Java detection forced"
 msgstr "Detekce Java byla vynucena"
 
 #: src/gui/MainWindow.cpp:1505
-#, fuzzy
 msgctxt "MainWindow|"
 msgid ""
 "Because of graphics performance issues caused by Intel drivers on Windows, "
@@ -3554,10 +3546,10 @@ msgid ""
 "you have custom java versions set for your instances, make sure you use the "
 "'javaw.exe' executable."
 msgstr ""
-"Jelikož grafický výkon má problémy které jsou způsobené ovladačemi Intel na "
-"Windowsu, MultiMC muse vynutit detekci java. Vyberte verzi Javy.<br/><br/"
-">Máte-li vlastní java verzi stanovenou pro případy, ujistěte se, že "
-"používáte \"javaw.exe\" spustitelný soubor."
+"Detekce Javy byla vynucena z důvodu problémů s výkonem grafických karet a "
+"ovladačů od firmy Intel. Vyberte verzi Javy.<br/><br/>Máte-li vlastní verzi "
+"Javy, ujistěte se, že používáte spustitelný soubor \"javaw.exe\" a ne \"java."
+"exe\"."
 
 #: src/gui/MainWindow.cpp:1522
 msgctxt "MainWindow|"
@@ -3641,17 +3633,17 @@ msgstr "Šířka okna:"
 
 #. Message displayed on instance exit
 #: src/logic/MinecraftProcess.cpp:303
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MinecraftProcess|"
 msgid "Minecraft exited with exitcode %1."
-msgstr "Minecraft skončil s exitcode %1."
+msgstr "Minecraft skončil s chybovým kódem %1."
 
 #. Message displayed on instance crashed
 #: src/logic/MinecraftProcess.cpp:308
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MinecraftProcess|"
 msgid "Minecraft crashed with exitcode %1."
-msgstr "Minecraft spadl s exitcode %1."
+msgstr "Minecraft spadl s chybovým kódem %1."
 
 #. Message displayed after the instance exits due to kill request
 #: src/logic/MinecraftProcess.cpp:314
@@ -3671,13 +3663,13 @@ msgid "The command failed to start"
 msgstr "Příkaz se nepodařilo spustit"
 
 #: src/logic/MinecraftProcess.cpp:368
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MinecraftProcess|"
 msgid ""
 "Pre-Launch command failed with code %1.\n"
 "\n"
 msgstr ""
-"Příkaz před spuštěním se nezdařil s kódem %1.↵\n"
+"Příkaz před spuštěním se nezdařil s chybovým kódem %1.↵\n"
 "↵\n"
 "\n"
 
@@ -3698,13 +3690,13 @@ msgid "Running Post-Launch command: %1"
 msgstr "Spuštění příkazu po spuštění: %1"
 
 #: src/logic/MinecraftProcess.cpp:410
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MinecraftProcess|"
 msgid ""
 "Post-Launch command failed with code %1.\n"
 "\n"
 msgstr ""
-"Příkaz po spuštění se nezdařila s kódem%1.↵\n"
+"Příkaz po spuštění se nezdařil s chybovým kódem %1.↵\n"
 "↵\n"
 "\n"
 
@@ -3741,10 +3733,9 @@ msgid "Error reading the version list."
 msgstr "Chyba při čtení seznamu verzí."
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:183
-#, fuzzy
 msgctxt "MinecraftVersionList|"
 msgid "Error parsing version list JSON: jsonDoc is not an object"
-msgstr "Chyba při analýze verze JSON: jsonDoc není objekt"
+msgstr "Chyba čtení seznamu verzí. JSON: jsonDoc není objekt"
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:197
 msgctxt "MinecraftVersionList|"
@@ -3785,10 +3776,9 @@ msgid "&View Folder"
 msgstr "&Zobrazit Složku"
 
 #: src/gui/pages/ModFolderPage.cpp:125
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "Select Loader Mods"
-msgstr "Vybrat spouštěč modů"
+msgstr "Vybrat mody"
 
 #: src/logic/ModList.cpp:470
 #, fuzzy
@@ -3805,34 +3795,32 @@ msgstr "Verze"
 #: src/logic/ModList.cpp:481
 msgctxt "ModList|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Je mod zapnut?"
 
 #: src/logic/ModList.cpp:483
 msgctxt "ModList|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "Název modu."
 
 #: src/logic/ModList.cpp:485
 msgctxt "ModList|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "Verze modu."
 
 #: src/logic/auth/MojangAccountList.cpp:186
 msgctxt "MojangAccountList|"
 msgid "Active?"
-msgstr ""
+msgstr "Aktivní?"
 
 #: src/logic/auth/MojangAccountList.cpp:189
-#, fuzzy
 msgctxt "MojangAccountList|"
 msgid "Name"
 msgstr "Název"
 
 #: src/logic/auth/MojangAccountList.cpp:199
-#, fuzzy
 msgctxt "MojangAccountList|"
 msgid "The name of the version."
-msgstr "Změnit verzi Minecraftu"
+msgstr "Název verze."
 
 #: src/gui/pages/global/MultiMCPage.ui:20
 msgctxt "MultiMCPage|"
@@ -3840,7 +3828,6 @@ msgid "Settings"
 msgstr "Nastavení"
 
 #: src/gui/pages/global/MultiMCPage.ui:49
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Features"
 msgstr "Vlastnosti"
@@ -3856,10 +3843,9 @@ msgid "Check for updates when MultiMC starts?"
 msgstr "Zkontrolovat aktualizace při spuštění MultiMC?"
 
 #: src/gui/pages/global/MultiMCPage.ui:68
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Up&date Channel:"
-msgstr "Update Channel:"
+msgstr "Aktualizační kanál:"
 
 #: src/gui/pages/global/MultiMCPage.ui:85
 msgctxt "MultiMCPage|"
@@ -3872,10 +3858,9 @@ msgid "FTB"
 msgstr "FTB"
 
 #: src/gui/pages/global/MultiMCPage.ui:104
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Launcher:"
-msgstr "Launcher:"
+msgstr "Spouštěč:"
 
 #: src/gui/pages/global/MultiMCPage.ui:173
 msgctxt "MultiMCPage|"
@@ -3883,52 +3868,44 @@ msgid "I&nstances:"
 msgstr "I&nstance:"
 
 #: src/gui/pages/global/MultiMCPage.ui:193
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Mods:"
 msgstr "Mody:"
 
 #: src/gui/pages/global/MultiMCPage.ui:216
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "LW&JGL:"
 msgstr "LWJGL:"
 
 #: src/gui/pages/global/MultiMCPage.ui:236
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Icons:"
 msgstr "Ikony:"
 
 #: src/gui/pages/global/MultiMCPage.ui:304
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "By &last launched"
-msgstr "Podle posledního zahájení"
+msgstr "Podle posledního spuštění"
 
 #: src/gui/pages/global/MultiMCPage.ui:314
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "By &name"
 msgstr "Podle názvu"
 
 #: src/gui/pages/global/MultiMCPage.ui:360
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Simple (Dark Icons)"
-msgstr "Jednoduchý (Světlé ikony)"
+msgstr "Jednoduchý (Tmavé ikony)"
 
 #: src/gui/pages/global/MultiMCPage.ui:370
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Simple (Blue Icons)"
-msgstr "Jednoduchý (Světlé ikony)"
+msgstr "Jednoduchý (Modré ikony)"
 
 #: src/gui/pages/global/MultiMCPage.ui:375
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Simple (Colored Icons)"
-msgstr "Jednoduchý (Světlé ikony)"
+msgstr "Jednoduchý (Barevné ikony)"
 
 #: src/gui/pages/global/MultiMCPage.ui:380
 msgctxt "MultiMCPage|"
@@ -3965,10 +3942,9 @@ msgid "Automatically close console when the game quits?"
 msgstr "Automaticky zavřít konzoli po ukončení hry?"
 
 #: src/gui/pages/global/MultiMCPage.ui:445
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Console font"
-msgstr "Okno konzole pro "
+msgstr "Písmo konzole"
 
 #: src/gui/pages/global/MultiMCPage.ui:124
 msgctxt "MultiMCPage|"
@@ -3986,10 +3962,9 @@ msgid "..."
 msgstr "…"
 
 #: src/gui/pages/global/MultiMCPage.ui:157
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Track FTB instances"
-msgstr "Sledovat instance FTB"
+msgstr "Sledovat FTB instance"
 
 #: src/gui/pages/global/MultiMCPage.ui:167
 msgctxt "MultiMCPage|"
@@ -4012,10 +3987,9 @@ msgid "Reset hidden notifications"
 msgstr "Obnovit skrytá oznámení"
 
 #: src/gui/pages/global/MultiMCPage.ui:298
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Instance view sorting mode"
-msgstr "Zobrazit instance podle"
+msgstr "Řadit instance podle"
 
 #: src/gui/pages/global/MultiMCPage.ui:327
 msgctxt "MultiMCPage|"
