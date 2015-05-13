@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-04-25 04:43-0400\n"
+"PO-Revision-Date: 2015-05-13 11:04-0400\n"
 "Last-Translator: Gskartwii <agoldstar101@gmail.com>\n"
 "Language-Team: Finnish "
 "<http://weblate.robotbrain.info/projects/multimc/multimc/fi/>\n"
@@ -2367,7 +2367,7 @@ msgstr "Muuta kuvake"
 #: src/gui/MainWindow.ui:367 src/gui/MainWindow.ui:370
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
-msgstr "Muuta valitun peliversion kuvake"
+msgstr "Muuta valitun peliversion kuvake."
 
 #: src/gui/MainWindow.ui:378
 msgctxt "MainWindow|"
@@ -2377,7 +2377,7 @@ msgstr "Muokkaa muistiinpanoja"
 #: src/gui/MainWindow.ui:381 src/gui/MainWindow.ui:384
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
-msgstr "Muokkaa valitun peliversion muistiinpanoja"
+msgstr "Muokkaa valitun peliversion muistiinpanoja."
 
 #: src/gui/MainWindow.ui:389 src/gui/MainWindow.ui:392
 msgctxt "MainWindow|"
@@ -2564,7 +2564,7 @@ msgstr "Ladataan uutisia..."
 #: src/gui/MainWindow.cpp:617
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr "Uutisia ei ole saatavilla"
+msgstr "Uutisia ei ole saatavilla."
 
 #: src/gui/MainWindow.cpp:777 src/gui/MainWindow.cpp:784
 #: src/gui/MainWindow.cpp:791 src/gui/MainWindow.cpp:803
@@ -2640,7 +2640,7 @@ msgstr "Peliversion nimi"
 #: src/gui/MainWindow.cpp:1064
 msgctxt "MainWindow|"
 msgid "Enter a new instance name."
-msgstr "Anna uusi peliversion nimi"
+msgstr "Anna uusi peliversion nimi."
 
 #: src/gui/MainWindow.cpp:1152
 msgctxt "MainWindow|"
@@ -2780,11 +2780,14 @@ msgid ""
 "instance dir in the settings <br/> - move this installation of MultiMC5 to a "
 "different folder"
 msgstr ""
+"Sinulla on kolme vaihtoehtoa: <br/> - sivuuta tämä varoitus <br/> - muuta "
+"peliversion kansio asetuksista <br/> - siirrä MultiMC5:n asennus toiseen "
+"kansioon"
 
 #: src/gui/pages/global/MinecraftPage.ui:20
 msgctxt "MinecraftPage|"
 msgid "Settings"
-msgstr ""
+msgstr "Asetukset"
 
 #: src/gui/pages/global/MinecraftPage.ui:49
 #: src/gui/pages/global/MinecraftPage.h:41
@@ -2795,63 +2798,63 @@ msgstr ""
 #: src/gui/pages/global/MinecraftPage.ui:55
 msgctxt "MinecraftPage|"
 msgid "Minecraft Version Updates"
-msgstr ""
+msgstr "Minecraftin versiopäivitykset"
 
 #: src/gui/pages/global/MinecraftPage.ui:61
 msgctxt "MinecraftPage|"
 msgid "Automatically update to latest version revision"
-msgstr ""
+msgstr "Päivitä uusimpaan versioon automaattisesti"
 
 #: src/gui/pages/global/MinecraftPage.ui:71
 msgctxt "MinecraftPage|"
 msgid "Window Size"
-msgstr ""
+msgstr "Ikkunan koko"
 
 #: src/gui/pages/global/MinecraftPage.ui:77
 msgctxt "MinecraftPage|"
 msgid "Start Minecraft maximized?"
-msgstr ""
+msgstr "Aloita Minecraft suurennettuna?"
 
 #: src/gui/pages/global/MinecraftPage.ui:86
 msgctxt "MinecraftPage|"
 msgid "Window hei&ght:"
-msgstr ""
+msgstr "Ikkunan kork&eus:"
 
 #: src/gui/pages/global/MinecraftPage.ui:96
 msgctxt "MinecraftPage|"
 msgid "W&indow width:"
-msgstr ""
+msgstr "I&kkunan leveys:"
 
 #. Message displayed on instance exit
 #: src/logic/MinecraftProcess.cpp:303
 #, qt-format
 msgctxt "MinecraftProcess|"
 msgid "Minecraft exited with exitcode %1."
-msgstr ""
+msgstr "Minecraft poistui koodilla %1."
 
 #. Message displayed on instance crashed
 #: src/logic/MinecraftProcess.cpp:308
 #, qt-format
 msgctxt "MinecraftProcess|"
 msgid "Minecraft crashed with exitcode %1."
-msgstr ""
+msgstr "Minecraft kaatui koodilla %1."
 
 #. Message displayed after the instance exits due to kill request
 #: src/logic/MinecraftProcess.cpp:314
 msgctxt "MinecraftProcess|"
 msgid "Minecraft was killed by user."
-msgstr ""
+msgstr "Käyttäjä tappoi Minecraft-prosessin."
 
 #: src/logic/MinecraftProcess.cpp:347
 #, qt-format
 msgctxt "MinecraftProcess|"
 msgid "Running Pre-Launch command: %1"
-msgstr ""
+msgstr "Suoritetaan käynnistystä edeltävä komento: %1"
 
 #: src/logic/MinecraftProcess.cpp:351
 msgctxt "MinecraftProcess|"
 msgid "The command failed to start"
-msgstr ""
+msgstr "Komennon käynnistäminen epäonnistui"
 
 #: src/logic/MinecraftProcess.cpp:368
 #, qt-format
@@ -2860,6 +2863,8 @@ msgid ""
 "Pre-Launch command failed with code %1.\n"
 "\n"
 msgstr ""
+"Käynnistystä edeltävä komento epäonnistui koodilla %1.\n"
+"\n"
 
 #: src/logic/MinecraftProcess.cpp:379
 msgctxt "MinecraftProcess|"
@@ -2867,12 +2872,14 @@ msgid ""
 "Pre-Launch command ran successfully.\n"
 "\n"
 msgstr ""
+"Käynnistystä edeltävä komenton suoritettiin onnistuneesti.\n"
+"\n"
 
 #: src/logic/MinecraftProcess.cpp:391
 #, qt-format
 msgctxt "MinecraftProcess|"
 msgid "Running Post-Launch command: %1"
-msgstr ""
+msgstr "Suoritetaan sulkemisen jälkeen suoritettava komento: %1"
 
 #: src/logic/MinecraftProcess.cpp:410
 #, qt-format
@@ -2881,6 +2888,8 @@ msgid ""
 "Post-Launch command failed with code %1.\n"
 "\n"
 msgstr ""
+"Sulkemisen jälkeen suoritettava komento epäonnistui koodilla %1.\n"
+"\n"
 
 #: src/logic/MinecraftProcess.cpp:419
 msgctxt "MinecraftProcess|"
@@ -2888,6 +2897,8 @@ msgid ""
 "Post-Launch command ran successfully.\n"
 "\n"
 msgstr ""
+"Sulkemisen jälkeen suoritettava komento suoritettiin onnistuneesti.\n"
+"\n"
 
 #: src/logic/MinecraftProcess.cpp:528
 #, qt-format
@@ -2896,27 +2907,32 @@ msgid ""
 "The java binary \"%1\" couldn't be found. You may have to set up java if "
 "Minecraft fails to launch."
 msgstr ""
+"Java-suoritettavaa \"%1\" ei löytynyt. Saatat joutua muuttamaan Javan "
+"asetuksia jos Minecraft ei käynnisty."
 
 #. Error message displayed if instace can't start
 #: src/logic/MinecraftProcess.cpp:538
 msgctxt "MinecraftProcess|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Minecraftin käynnistäminen epäonnistui!"
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:101
 msgctxt "MinecraftVersionList|"
 msgid "Error reading the version list."
-msgstr ""
+msgstr "Versiolistaa luettaessa tapahtui virhe."
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:183
 msgctxt "MinecraftVersionList|"
 msgid "Error parsing version list JSON: jsonDoc is not an object"
 msgstr ""
+"Versiolistan JSON-koodausta lukiessa tapahtui virhe: jsonDoc ei ole objekti"
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:197
 msgctxt "MinecraftVersionList|"
 msgid "Error parsing version list JSON: couldn't determine latest versions"
 msgstr ""
+"Versiolistan JSON-koodausta lukiessa tapahtui virhe: ei voitu havaita "
+"uusimpia versioita"
 
 #: src/logic/minecraft/MinecraftVersionList.cpp:203
 msgctxt "MinecraftVersionList|"
@@ -2924,41 +2940,43 @@ msgid ""
 "Error parsing version list JSON: version list object is missing 'versions' "
 "array"
 msgstr ""
+"Versiolistan JSON-koodausta lukiessa tapahtui virhe: versiolistaobjektissa "
+"ei ole 'versions'-taulukkoa"
 
 #: src/gui/pages/ModFolderPage.ui:14
 msgctxt "ModFolderPage|"
 msgid "Mods"
-msgstr ""
+msgstr "Modit"
 
 #: src/gui/pages/ModFolderPage.ui:36
 msgctxt "ModFolderPage|"
 msgid "Tab 1"
-msgstr ""
+msgstr "Välilehti 1"
 
 #: src/gui/pages/ModFolderPage.ui:60
 msgctxt "ModFolderPage|"
 msgid "&Add"
-msgstr ""
+msgstr "&Lisää"
 
 #: src/gui/pages/ModFolderPage.ui:67
 msgctxt "ModFolderPage|"
 msgid "&Remove"
-msgstr ""
+msgstr "&Poista"
 
 #: src/gui/pages/ModFolderPage.ui:87
 msgctxt "ModFolderPage|"
 msgid "&View Folder"
-msgstr ""
+msgstr "&Näytä kansio"
 
 #: src/gui/pages/ModFolderPage.cpp:125
 msgctxt "ModFolderPage|"
 msgid "Select Loader Mods"
-msgstr ""
+msgstr "Valitse latainmodit"
 
 #: src/logic/ModList.cpp:470
 msgctxt "ModList|"
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: src/logic/ModList.cpp:472
 msgctxt "ModList|"
@@ -2968,52 +2986,52 @@ msgstr "Versio"
 #: src/logic/ModList.cpp:481
 msgctxt "ModList|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Onko modi käytössä?"
 
 #: src/logic/ModList.cpp:483
 msgctxt "ModList|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "Modin nimi."
 
 #: src/logic/ModList.cpp:485
 msgctxt "ModList|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "Modin versio."
 
 #: src/logic/auth/MojangAccountList.cpp:186
 msgctxt "MojangAccountList|"
 msgid "Active?"
-msgstr ""
+msgstr "Aktiivinen?"
 
 #: src/logic/auth/MojangAccountList.cpp:189
 msgctxt "MojangAccountList|"
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: src/logic/auth/MojangAccountList.cpp:199
 msgctxt "MojangAccountList|"
 msgid "The name of the version."
-msgstr ""
+msgstr "Version nimi."
 
 #: src/gui/pages/global/MultiMCPage.ui:20
 msgctxt "MultiMCPage|"
 msgid "Settings"
-msgstr ""
+msgstr "Asetukset"
 
 #: src/gui/pages/global/MultiMCPage.ui:49
 msgctxt "MultiMCPage|"
 msgid "Features"
-msgstr ""
+msgstr "Ominaisuudet"
 
 #: src/gui/pages/global/MultiMCPage.ui:55
 msgctxt "MultiMCPage|"
 msgid "Update Settings"
-msgstr ""
+msgstr "Päivitysasetukset"
 
 #: src/gui/pages/global/MultiMCPage.ui:61
 msgctxt "MultiMCPage|"
 msgid "Check for updates when MultiMC starts?"
-msgstr ""
+msgstr "Tarkista päivitykset kun MultiMC avataan?"
 
 #: src/gui/pages/global/MultiMCPage.ui:68
 msgctxt "MultiMCPage|"
@@ -3023,62 +3041,62 @@ msgstr "Ve&rsiokanava:"
 #: src/gui/pages/global/MultiMCPage.ui:85
 msgctxt "MultiMCPage|"
 msgid "No channel selected."
-msgstr ""
+msgstr "Kanavaa ei ole valittu."
 
 #: src/gui/pages/global/MultiMCPage.ui:98
 msgctxt "MultiMCPage|"
 msgid "FTB"
-msgstr ""
+msgstr "FTB"
 
 #: src/gui/pages/global/MultiMCPage.ui:104
 msgctxt "MultiMCPage|"
 msgid "&Launcher:"
-msgstr ""
+msgstr "&Latain:"
 
 #: src/gui/pages/global/MultiMCPage.ui:173
 msgctxt "MultiMCPage|"
 msgid "I&nstances:"
-msgstr ""
+msgstr "P&eliversiot:"
 
 #: src/gui/pages/global/MultiMCPage.ui:193
 msgctxt "MultiMCPage|"
 msgid "&Mods:"
-msgstr ""
+msgstr "&Modit:"
 
 #: src/gui/pages/global/MultiMCPage.ui:216
 msgctxt "MultiMCPage|"
 msgid "LW&JGL:"
-msgstr ""
+msgstr "LW&JGL:"
 
 #: src/gui/pages/global/MultiMCPage.ui:236
 msgctxt "MultiMCPage|"
 msgid "&Icons:"
-msgstr ""
+msgstr "&Kuvakkeet:"
 
 #: src/gui/pages/global/MultiMCPage.ui:304
 msgctxt "MultiMCPage|"
 msgid "By &last launched"
-msgstr ""
+msgstr "&Vime käynnistyskerran mukaan"
 
 #: src/gui/pages/global/MultiMCPage.ui:314
 msgctxt "MultiMCPage|"
 msgid "By &name"
-msgstr ""
+msgstr "&Nimen mukaan"
 
 #: src/gui/pages/global/MultiMCPage.ui:360
 msgctxt "MultiMCPage|"
 msgid "Simple (Dark Icons)"
-msgstr ""
+msgstr "Yksinkertainen (Tummat kuvakkeet)"
 
 #: src/gui/pages/global/MultiMCPage.ui:370
 msgctxt "MultiMCPage|"
 msgid "Simple (Blue Icons)"
-msgstr ""
+msgstr "Yksinkertainen (Siniset kuvakkeet)"
 
 #: src/gui/pages/global/MultiMCPage.ui:375
 msgctxt "MultiMCPage|"
 msgid "Simple (Colored Icons)"
-msgstr ""
+msgstr "Yksinkertainen (Värilliset kuvakkeet)"
 
 #: src/gui/pages/global/MultiMCPage.ui:380
 msgctxt "MultiMCPage|"
@@ -3093,32 +3111,32 @@ msgstr ""
 #: src/gui/pages/global/MultiMCPage.ui:410
 msgctxt "MultiMCPage|"
 msgid "Console"
-msgstr ""
+msgstr "Konsoli"
 
 #: src/gui/pages/global/MultiMCPage.ui:416
 msgctxt "MultiMCPage|"
 msgid "Console Settings"
-msgstr ""
+msgstr "Konsolin asetukset"
 
 #: src/gui/pages/global/MultiMCPage.ui:422
 msgctxt "MultiMCPage|"
 msgid "Show console while the game is running?"
-msgstr ""
+msgstr "Näytä konsoli kun peli on käynnissä?"
 
 #: src/gui/pages/global/MultiMCPage.ui:429
 msgctxt "MultiMCPage|"
 msgid "Automatically close console when the game quits?"
-msgstr ""
+msgstr "Sulje konsoli automaattisesti peli sulkeutuessa?"
 
 #: src/gui/pages/global/MultiMCPage.ui:445
 msgctxt "MultiMCPage|"
 msgid "Console font"
-msgstr ""
+msgstr "Konsolin fontti"
 
 #: src/gui/pages/global/MultiMCPage.ui:124
 msgctxt "MultiMCPage|"
 msgid "Files:"
-msgstr ""
+msgstr "Tiedostot:"
 
 #: src/gui/pages/global/MultiMCPage.ui:137
 #: src/gui/pages/global/MultiMCPage.ui:150
@@ -3133,52 +3151,52 @@ msgstr ""
 #: src/gui/pages/global/MultiMCPage.ui:157
 msgctxt "MultiMCPage|"
 msgid "Track FTB instances"
-msgstr ""
+msgstr "Seuraa FTB-peliversioita"
 
 #: src/gui/pages/global/MultiMCPage.ui:167
 msgctxt "MultiMCPage|"
 msgid "Folders"
-msgstr ""
+msgstr "Kansiot"
 
 #: src/gui/pages/global/MultiMCPage.ui:270
 msgctxt "MultiMCPage|"
 msgid "User Interface"
-msgstr ""
+msgstr "Käyttöliittymä"
 
 #: src/gui/pages/global/MultiMCPage.ui:276
 msgctxt "MultiMCPage|"
 msgid "MultiMC notifications"
-msgstr ""
+msgstr "MultiMC-ilmoitukset"
 
 #: src/gui/pages/global/MultiMCPage.ui:282
 msgctxt "MultiMCPage|"
 msgid "Reset hidden notifications"
-msgstr ""
+msgstr "Aseta oletukset piiloilmoituksiin"
 
 #: src/gui/pages/global/MultiMCPage.ui:298
 msgctxt "MultiMCPage|"
 msgid "Instance view sorting mode"
-msgstr ""
+msgstr "Peliversionäkymän lajittelu"
 
 #: src/gui/pages/global/MultiMCPage.ui:327
 msgctxt "MultiMCPage|"
 msgid "Language (needs restart):"
-msgstr ""
+msgstr "Kieli (vaatii uudelleenkäynnistyksen):"
 
 #: src/gui/pages/global/MultiMCPage.ui:339
 msgctxt "MultiMCPage|"
 msgid "Icon Theme (needs restart, work in progress)"
-msgstr ""
+msgstr "Kuvaketeema (vaatii uudelleenkäynnistyksen, työn alla)"
 
 #: src/gui/pages/global/MultiMCPage.ui:355
 msgctxt "MultiMCPage|"
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 #: src/gui/pages/global/MultiMCPage.ui:365
 msgctxt "MultiMCPage|"
 msgid "Simple (Light Icons)"
-msgstr ""
+msgstr "Yksinkertainen (Vaaleat kuvakkeet)"
 
 #: src/gui/pages/global/MultiMCPage.h:42
 msgctxt "MultiMCPage|"
@@ -3188,17 +3206,17 @@ msgstr ""
 #: src/gui/pages/global/MultiMCPage.cpp:95
 msgctxt "MultiMCPage|"
 msgid "FTB Launcher Directory"
-msgstr ""
+msgstr "FTB-lataimen hakemisto"
 
 #: src/gui/pages/global/MultiMCPage.cpp:108
 msgctxt "MultiMCPage|"
 msgid "FTB Directory"
-msgstr ""
+msgstr "FTB-hakemisto"
 
 #: src/gui/pages/global/MultiMCPage.cpp:120
 msgctxt "MultiMCPage|"
 msgid "Instance Directory"
-msgstr ""
+msgstr "Peliversiohakemisto"
 
 #: src/gui/pages/global/MultiMCPage.cpp:130
 msgctxt "MultiMCPage|"
@@ -3207,6 +3225,9 @@ msgid ""
 "one '!'. Java is known to cause problems if that is the case, your instances "
 "(probably) won't start!"
 msgstr ""
+"Yrität valita peliversionkansion jonka ploku sisältää '!'-merkin. Tämän "
+"tunnetaan aiheuttavan ongelmia Javan kanssa, eivätkä peliversiosi "
+"(todennäköisesti) käynnisty!"
 
 #: src/gui/pages/global/MultiMCPage.cpp:135
 msgctxt "MultiMCPage|"
@@ -3214,61 +3235,63 @@ msgid ""
 "Do you really want to use this path? Selecting \"No\" will close this and "
 "not alter your instance path."
 msgstr ""
+"Haluatko todella käyttää tätä polkua? Jos valitset \"Ei\", tämä sulkeutuu "
+"eikä vaikuta peliversioidesi polkuun."
 
 #: src/gui/pages/global/MultiMCPage.cpp:153
 msgctxt "MultiMCPage|"
 msgid "Icons Directory"
-msgstr ""
+msgstr "Kuvakkeiden kansio"
 
 #: src/gui/pages/global/MultiMCPage.cpp:165
 msgctxt "MultiMCPage|"
 msgid "Mods Directory"
-msgstr ""
+msgstr "Modien kansio"
 
 #: src/gui/pages/global/MultiMCPage.cpp:177
 msgctxt "MultiMCPage|"
 msgid "LWJGL Directory"
-msgstr ""
+msgstr "LWJGL:n kansio"
 
 #: src/gui/pages/global/MultiMCPage.cpp:338
 msgctxt "MultiMCPage|"
 msgid "English"
-msgstr ""
+msgstr "Englanti"
 
 #: src/gui/pages/global/MultiMCPage.cpp:433
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Jotain/VIRHE] Pelottava virhe!"
 
 #: src/gui/pages/global/MultiMCPage.cpp:441
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Testi/TIETO] Harmiton viesti..."
 
 #: src/gui/pages/global/MultiMCPage.cpp:450
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Jotain/VARO] Ei yhtä pelottava varoitus."
 
 #: src/gui/dialogs/NewInstanceDialog.ui:17
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
-msgstr ""
+msgstr "Uusi peliversio"
 
 #: src/gui/dialogs/NewInstanceDialog.ui:74
 msgctxt "NewInstanceDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: src/gui/dialogs/NewInstanceDialog.ui:104
 msgctxt "NewInstanceDialog|"
 msgid "Version:"
-msgstr ""
+msgstr "Versio:"
 
 #: src/gui/dialogs/NewInstanceDialog.ui:114
 msgctxt "NewInstanceDialog|"
 msgid "Group:"
-msgstr ""
+msgstr "Ryhmä:"
 
 #: src/gui/dialogs/NewInstanceDialog.ui:90
 msgctxt "NewInstanceDialog|"
@@ -3278,91 +3301,91 @@ msgstr ""
 #: src/gui/dialogs/NewInstanceDialog.cpp:59
 msgctxt "NewInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Ei ryhmää"
 
 #: src/gui/dialogs/NewInstanceDialog.cpp:115
 msgctxt "NewInstanceDialog|"
 msgid "Change Minecraft version"
-msgstr ""
+msgstr "Muuta Minecraftin versio"
 
 #: src/logic/news/NewsEntry.cpp:24 src/logic/news/NewsEntry.cpp:60
 msgctxt "NewsEntry|"
 msgid "Untitled"
-msgstr ""
+msgstr "Nimetön"
 
 #: src/logic/news/NewsEntry.cpp:25 src/logic/news/NewsEntry.cpp:61
 msgctxt "NewsEntry|"
 msgid "No content."
-msgstr ""
+msgstr "Ei sisältöä."
 
 #: src/logic/news/NewsEntry.cpp:27 src/logic/news/NewsEntry.cpp:63
 msgctxt "NewsEntry|"
 msgid "Unknown Author"
-msgstr ""
+msgstr "Tuntematon tekijä"
 
 #: src/gui/pages/NotesPage.ui:14
 msgctxt "NotesPage|"
 msgid "Form"
-msgstr ""
+msgstr "Lomake"
 
 #: src/gui/pages/NotesPage.ui:36
 msgctxt "NotesPage|"
 msgid "Tab 1"
-msgstr ""
+msgstr "Välilehti 1"
 
 #: src/gui/pages/NotesPage.h:39
 msgctxt "NotesPage|"
 msgid "Notes"
-msgstr ""
+msgstr "Muistiinpanot"
 
 #: src/gui/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
 msgid "Dialog"
-msgstr ""
+msgstr "Ikkuna"
 
 #: src/gui/dialogs/NotificationDialog.ui:22
 #: src/gui/dialogs/NotificationDialog.ui:29
 msgctxt "NotificationDialog|"
 msgid "TextLabel"
-msgstr ""
+msgstr "Tekstinimike"
 
 #: src/gui/dialogs/NotificationDialog.ui:65
 #: src/gui/dialogs/NotificationDialog.cpp:28
 msgctxt "NotificationDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "Älä näytä uudelleen"
 
 #: src/gui/dialogs/NotificationDialog.ui:75
 #: src/gui/dialogs/NotificationDialog.cpp:29
 msgctxt "NotificationDialog|"
 msgid "Close"
-msgstr ""
+msgstr "Sulje"
 
 #: src/logic/OneSixInstance.cpp:68
 msgctxt "OneSixInstance|"
 msgid "Loader mods"
-msgstr ""
+msgstr "Latainmodit"
 
 #: src/logic/OneSixInstance.cpp:70
 msgctxt "OneSixInstance|"
 msgid "Core mods"
-msgstr ""
+msgstr "Ydinmodit"
 
 #: src/logic/OneSixInstance.cpp:82
 #, qt-format
 msgctxt "OneSixInstance|"
 msgid "Edit Instance (%1)"
-msgstr ""
+msgstr "Muuta peliversiota (%1)"
 
 #: src/logic/OneSixInstance.cpp:465
 msgctxt "OneSixInstance|"
 msgid "custom"
-msgstr ""
+msgstr "oma"
 
 #: src/logic/OneSixInstance.cpp:469
 msgctxt "OneSixInstance|"
 msgid "broken"
-msgstr ""
+msgstr "rikki"
 
 #: src/logic/OneSixInstance.cpp:474
 #, qt-format
@@ -3379,22 +3402,22 @@ msgstr ""
 #: src/logic/OneSixUpdate.cpp:47
 msgctxt "OneSixUpdate|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr ""
+msgstr "Ei voitu luoda kansiota Minecraft-suoritettaville."
 
 #: src/logic/OneSixUpdate.cpp:57
 msgctxt "OneSixUpdate|"
 msgid "The specified Minecraft version is invalid. Choose a different one."
-msgstr ""
+msgstr "Valittu Minecraftin versio ei kelpaa. Valitse jokin muu."
 
 #: src/logic/OneSixUpdate.cpp:77
 msgctxt "OneSixUpdate|"
 msgid "Getting the version files from Mojang..."
-msgstr ""
+msgstr "Haetaan versiotiedostoja Mojangilta..."
 
 #: src/logic/OneSixUpdate.cpp:88
 msgctxt "OneSixUpdate|"
 msgid "Updating assets index..."
-msgstr ""
+msgstr "Päivitetään aputiedostoindeksiä..."
 
 #: src/logic/OneSixUpdate.cpp:94
 #, qt-format
