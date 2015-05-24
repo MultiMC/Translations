@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-05-10 07:50-0400\n"
-"Last-Translator: Jiří Sejkora <Sejseloid@gmail.com>\n"
-"Language-Team: Czech <http://weblate.robotbrain.info/projects/multimc/"
-"multimc/cs/>\n"
+"PO-Revision-Date: 2015-05-24 03:33-0400\n"
+"Last-Translator: Michal Dolenský <the777misa@gmail.com>\n"
+"Language-Team: Czech "
+"<http://weblate.robotbrain.info/projects/multimc/multimc/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1727,7 +1727,7 @@ msgid "The command failed to start"
 msgstr "Příkaz se nepodařilo spustit"
 
 #: src/logic/BaseProcess.cpp:314
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "BaseProcess|"
 msgid ""
 "Pre-Launch command failed with code %1.\n"
@@ -1738,13 +1738,12 @@ msgstr ""
 "\n"
 
 #: src/logic/BaseProcess.cpp:325
-#, fuzzy
 msgctxt "BaseProcess|"
 msgid ""
 "Pre-Launch command ran successfully.\n"
 "\n"
 msgstr ""
-"Příkaz před spuštěním běžel successfully.↵\n"
+"Příkaz před spuštěním byl spuštěn úspěšně.↵\n"
 "↵\n"
 "\n"
 
@@ -1755,7 +1754,7 @@ msgid "Running Post-Launch command: %1"
 msgstr "Spuštění příkazu po spuštění: %1"
 
 #: src/logic/BaseProcess.cpp:356
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "BaseProcess|"
 msgid ""
 "Post-Launch command failed with code %1.\n"
@@ -1822,7 +1821,7 @@ msgstr ""
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr "Kopírovat instanci"
+msgstr "Duplikovat instanci"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
@@ -1860,38 +1859,35 @@ msgid "Password"
 msgstr "Heslo"
 
 #: src/application/dialogs/ExportInstanceDialog.ui:14
-#, fuzzy
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr "Editovat instanci"
+msgstr "Eportovat instanci"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:341
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr ""
+msgstr "Exportovat %1"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:350
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
-msgstr ""
+msgstr "Přepsat?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:351
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "Tento soubor již existuje. Chcete jej přepsat?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:361
-#, fuzzy
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "Chyba"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:361
-#, fuzzy
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr "Nepodařilo se vytvořit instanci %1: "
+msgstr "Nepodařilo se exportovat instanci"
 
 #: src/application/pages/global/ExternalToolsPage.ui:14
 msgctxt "ExternalToolsPage|"
@@ -2084,10 +2080,9 @@ msgid "The file chosen does not seem to be an executable"
 msgstr "Soubor zvolený se nezdá být spustitelný"
 
 #: src/logic/forge/ForgeInstaller.cpp:339
-#, fuzzy
 msgctxt "ForgeInstallTask|"
 msgid "Installing Forge..."
-msgstr "Instaluji forge…"
+msgstr "Instalace Forge…"
 
 #: src/logic/forge/ForgeInstaller.cpp:343
 msgctxt "ForgeInstallTask|"
@@ -2098,7 +2093,7 @@ msgstr "Došlo k neznámé chybě"
 #, fuzzy
 msgctxt "ForgeInstallTask|"
 msgid "Failure to install Forge"
-msgstr "Selhání instalace forge"
+msgstr "Instalace Forge selhala"
 
 #: src/logic/forge/ForgeInstaller.cpp:388
 #, fuzzy, qt-format
@@ -2106,7 +2101,9 @@ msgctxt "ForgeInstallTask|"
 msgid ""
 "Failure to download Forge:\n"
 "%1"
-msgstr "Stahování forge selhalo"
+msgstr ""
+"Stažení Forge selhalo:\n"
+"%1"
 
 #: src/logic/forge/ForgeInstaller.cpp:421
 msgctxt "ForgeInstallTask|"
@@ -2143,10 +2140,9 @@ msgid "Reading file list for current version..."
 msgstr "Čtení seznamu souborů pro aktuální verzi ..."
 
 #: src/logic/updater/DownloadTask.cpp:127
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr "Zpracování seznamů souborů - zjišťuji jak nainstalovat aktualizaci ..."
+msgstr "Zpracování seznamů souborů - zjišťuji jak nainstalovat aktualizaci..."
 
 #: src/logic/updater/DownloadTask.cpp:135
 #, fuzzy
@@ -2161,7 +2157,7 @@ msgid "Failed to write update script file."
 msgstr "Zapsání do aktualizačního souboru skriptu se nezdařilo."
 
 #: src/logic/updater/DownloadTask.cpp:151
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
 msgstr "Stahování %1 aktualizačních souborů."
@@ -2170,7 +2166,7 @@ msgstr "Stahování %1 aktualizačních souborů."
 #, fuzzy, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "Stahování aktualizačních souborů se nezdařilo."
+msgstr "Nepodařilo se stáhnout aktualizační soubory: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -2180,12 +2176,12 @@ msgstr "Vyberte ikonu"
 #: src/application/dialogs/IconPickerDialog.cpp:64
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
-msgstr "Přidat Ikonu"
+msgstr "Přidat ikonu"
 
 #: src/application/dialogs/IconPickerDialog.cpp:66
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
-msgstr "Smazat Ikonu"
+msgstr "Smazat ikonu"
 
 #. The title of the select icons open file dialog
 #: src/application/dialogs/IconPickerDialog.cpp:103
@@ -2211,7 +2207,7 @@ msgstr "Spouštěč modů"
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "%1 (*.zip *.jar *.litemod)"
-msgstr ""
+msgstr "%1 (*.zip *.jar *.litemod)"
 
 #: src/application/InstancePageProvider.h:38
 #: src/application/InstancePageProvider.h:56
@@ -2221,7 +2217,7 @@ msgid "Core mods"
 msgstr "Core mody"
 
 #: src/application/InstancePageProvider.h:69
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
 msgstr "Upravit instanci (%1)"
@@ -2424,42 +2420,42 @@ msgid "Profiler aborted"
 msgstr "Profiler přerušen"
 
 #: src/application/JavaCommon.cpp:28
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "JavaCommon::TestCheck|"
 msgid ""
 "Java test succeeded!<br />Platform reported: %1<br />Java version reported: "
 "%2<br />"
 msgstr ""
+"Java test uspěl!<br/>Platforma hlášena: %1<br/>Verze Javy hlášena: %2<br/>"
 
 #: src/application/JavaCommon.cpp:34
 #, qt-format
 msgctxt "JavaCommon::TestCheck|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr ""
+msgstr "<br />Varování:<br /><font color=\"orange\">%1</font>"
 
 #: src/application/JavaCommon.cpp:36
-#, fuzzy
 msgctxt "JavaCommon::TestCheck|"
 msgid "Java test success"
 msgstr "Test Javy byl úspěšný"
 
 #: src/application/JavaCommon.cpp:45
+#, fuzzy
 msgctxt "JavaCommon::TestCheck|"
 msgid ""
 "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr ""
+msgstr "Zadaná java binary nefungoval s argumenty, které jste uvedl: <br />"
 
 #: src/application/JavaCommon.cpp:46
 #, qt-format
 msgctxt "JavaCommon::TestCheck|"
 msgid "<font color=\"red\">%1</font>"
-msgstr ""
+msgstr "<font color=\"red\">%1</font>"
 
 #: src/application/JavaCommon.cpp:47 src/application/JavaCommon.cpp:57
-#, fuzzy
 msgctxt "JavaCommon::TestCheck|"
 msgid "Java test failure"
-msgstr "Java test selhal"
+msgstr "Test Javy selhal"
 
 #: src/application/JavaCommon.cpp:54
 #, fuzzy
@@ -2468,8 +2464,8 @@ msgid ""
 "The specified java binary didn't work.<br />You should use the auto-detect "
 "feature, or set the path to the java executable.<br />"
 msgstr ""
-"Zadaná java nefunguje. Měli byste použít funkci automatické detekce, nebo "
-"nastavit cestu k programu java."
+"Zadaná java binary  nefunguje.<br /> Měli byste použít funkci automatické "
+"detekce, nebo nastavit cestu k programu java. <br />"
 
 #: src/logic/java/JavaVersionList.cpp:158
 msgctxt "JavaListLoadTask|"
@@ -2632,7 +2628,6 @@ msgid "Legacy : %1"
 msgstr "Odkaz : %1"
 
 #: src/application/pages/LegacyJarModPage.ui:14
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "LegacyJarModPage"
 msgstr "LegacyJarModPage"
@@ -2686,13 +2681,12 @@ msgstr "Jar Módy"
 #, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Select jar mods"
-msgstr "Vyber Jar Mody"
+msgstr "Vyber jar mody"
 
 #: src/application/pages/LegacyJarModPage.cpp:103
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr "Minecraft jar mody (*.zip *.jar)"
+msgstr "Minecraft .jar mody (*.zip *.jar)"
 
 #: src/logic/minecraft/LegacyUpdate.cpp:61
 msgctxt "LegacyUpdate|"
@@ -2727,6 +2721,8 @@ msgid ""
 "Game update failed: it was impossible to fetch the required FML libraries. "
 "Reason: %1"
 msgstr ""
+"Aktualizace hry se nezdařila: nebylo možné načíst požadované FML knihovny. "
+"Důvod: %1"
 
 #: src/logic/minecraft/LegacyUpdate.cpp:186
 msgctxt "LegacyUpdate|"
@@ -2744,10 +2740,10 @@ msgid "Installing new LWJGL - extracting "
 msgstr "Instalace nového LWJGL - rozbalování "
 
 #: src/logic/minecraft/LegacyUpdate.cpp:344
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Bad stuff happened while trying to get the lwjgl libs: %1"
-msgstr ""
+msgstr "Špatné věci se staly při pokusu získat lwjgl libs: %1"
 
 #: src/logic/minecraft/LegacyUpdate.cpp:356
 msgctxt "LegacyUpdate|"
@@ -2763,13 +2759,13 @@ msgstr "Stahování nového minecraft.jar …"
 #, fuzzy, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Failed to download the minecraft jar: %1."
-msgstr "Stahování aktualizačních souborů se nezdařilo."
+msgstr "Stahování aktualizačních souborů se nezdařilo: %1."
 
 #: src/logic/minecraft/LegacyUpdate.cpp:457
 #, fuzzy
 msgctxt "LegacyUpdate|"
 msgid "Failed to create the custom Minecraft jar file."
-msgstr "Nepodařilo se vytvořit složku pr Minecraft binární soubory."
+msgstr "Nepodařilo se vytvořit vlastní soubor Minecraft jar."
 
 #: src/logic/minecraft/LegacyUpdate.cpp:426
 msgctxt "LegacyUpdate|"
@@ -2956,12 +2952,13 @@ msgstr "Smazat"
 #: src/application/pages/LogPage.ui:135
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr ""
+msgstr "Přejde na konec logu"
 
 #: src/application/pages/LogPage.ui:138
+#, fuzzy
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr ""
+msgstr "Konec logu"
 
 #: src/application/pages/LogPage.h:40
 msgctxt "LogPage|"
@@ -2989,16 +2986,14 @@ msgid "Password"
 msgstr "Heslo"
 
 #: src/logic/tools/MCEditTool.cpp:40
-#, fuzzy
 msgctxt "MCEditTool|"
 msgid "MCEdit"
 msgstr "MCEdit"
 
 #: src/logic/tools/MCEditTool.cpp:40
-#, fuzzy
 msgctxt "MCEditTool|"
 msgid "Choose which world to open:"
-msgstr "Vyberte který svět chcete otevřít:"
+msgstr "Vyberte, který svět chcete otevřít:"
 
 #: src/application/widgets/MCModInfoFrame.ui:26
 msgctxt "MCModInfoFrame|"
@@ -3348,10 +3343,9 @@ msgid "Change the settings specific to the instance"
 msgstr "Změní nastavení určené instance"
 
 #: src/application/MainWindow.cpp:298
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Export Instance"
-msgstr "Editovat instanci"
+msgstr "Exportovat instanci"
 
 #: src/application/MainWindow.cpp:513
 msgctxt "MainWindow|"
@@ -3446,32 +3440,30 @@ msgstr "Chyba"
 #: src/application/MainWindow.cpp:1092
 msgctxt "MainWindow|"
 msgid "Modpack download"
-msgstr ""
+msgstr "Stáhnout Modpack"
 
 #: src/application/MainWindow.cpp:1110
 msgctxt "MainWindow|"
 msgid "Failed to extract modpack"
-msgstr ""
+msgstr "Nepodařilo se extrahovat modpack"
 
 #: src/application/MainWindow.cpp:1116
 msgctxt "MainWindow|"
 msgid "Archive does not contain instance.cfg"
-msgstr ""
+msgstr "Archiv neobsahuje instance.cfg"
 
 #: src/application/MainWindow.cpp:1121
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Unable to copy instance"
-msgstr "Kopírovat instanci"
+msgstr "Nelze zkopírovat instanci"
 
 #: src/application/MainWindow.cpp:1126
 #, fuzzy, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to load instance %1: "
-msgstr "Nepodařilo se vytvořit instanci %1: "
+msgstr "Nepodařilo se načíst instanci %1: "
 
 #: src/application/MainWindow.cpp:1130
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Unkown error"
 msgstr "Neznámá chyba"
@@ -3480,7 +3472,7 @@ msgstr "Neznámá chyba"
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Not an instance"
-msgstr "Kopírovat instanci"
+msgstr "Není instance"
 
 #: src/application/MainWindow.cpp:1156 src/application/MainWindow.cpp:1255
 #, qt-format
@@ -3529,10 +3521,10 @@ msgstr "Zadejte nový název skupiny."
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
-msgstr "OPATRNĚ"
+msgstr "OPATRNĚ!"
 
 #: src/application/MainWindow.cpp:1473
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "MainWindow|"
 msgid ""
 "About to delete: %1\n"
@@ -3540,6 +3532,10 @@ msgid ""
 "instances!\n"
 "Are you sure?"
 msgstr ""
+"Chystáte se smazat: %1\n"
+"Toto je trvalé a budou zcela vymazána všechna data, dokonce i sledované "
+"instance!\n"
+"Jste si jistí?"
 
 #: src/application/MainWindow.cpp:1763
 #, fuzzy, qt-format
@@ -3562,9 +3558,8 @@ msgid ""
 "You have now two options: <br/> - change the instance folder in the settings "
 "<br/> - move this installation of MultiMC5 to a different folder"
 msgstr ""
-"Nyní máte tři možnosti: <br/> - toto varování ignorovat <br/> - změnit "
-"složku instance v nastavení <br/> - přesunout instalaci MultiMC 5 do jiné "
-"složky"
+"Nyní máte dvě možnosti: <br/> - změnit složku instance v nastavení <br/> - "
+"přesunout tuto instalaci MultiMC5 do jiné složky"
 
 #: src/application/MainWindow.cpp:1978
 msgctxt "MainWindow|"
@@ -3575,19 +3570,19 @@ msgid ""
 msgstr ""
 
 #: src/application/MainWindow.cpp:1985
-#, fuzzy
 msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains 'Rar$' - that means you haven't extracted the "
 "MultiMC zip!"
 msgstr ""
-"Vaše složka instance obsahuje '! \"a je známo, že způsobuje Javě problémy!"
+"Vaše složka instance obsahuje 'Rar$' - to znamená že jste neextrahovaly "
+"MultiMC zip!"
 
 #: src/application/MainWindow.cpp:1994
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
-msgstr ""
+msgstr "Naše složka instance je v dočasné složce: '%1'!"
 
 #: src/application/MainWindow.cpp:1498
 msgctxt "MainWindow|"
@@ -3639,10 +3634,9 @@ msgid "Choose your offline mode player name."
 msgstr "Zvolte si svoje jméno do offline modu."
 
 #: src/application/MainWindow.cpp:1728
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Couldn't load the instance profile."
-msgstr "Obnovit list instancí."
+msgstr "Nelze načíst profil instance."
 
 #: src/application/MainWindow.cpp:1754
 #, qt-format
@@ -3757,22 +3751,20 @@ msgstr ""
 "se Minecraft nespustí."
 
 #: src/logic/minecraft/MinecraftProcess.cpp:203
-#, fuzzy
 msgctxt "MinecraftProcess|"
 msgid "Checking Java version..."
-msgstr "Vyber verzi Javy"
+msgstr "Kontrola verze Java..."
 
 #: src/logic/minecraft/MinecraftProcess.cpp:218
-#, fuzzy
 msgctxt "MinecraftProcess|"
 msgid "Could not start java:"
-msgstr "Nelze spustit profiler: %1"
+msgstr "Nelze spustit javu:"
 
 #: src/logic/minecraft/MinecraftProcess.cpp:231
 #, qt-format
 msgctxt "MinecraftProcess|"
 msgid "Java version is %1!\n"
-msgstr ""
+msgstr "Verze Javy je %1!↵\n"
 
 #. Error message displayed if instace can't start
 #: src/logic/minecraft/MinecraftProcess.cpp:246
@@ -3781,21 +3773,21 @@ msgid "Could not launch minecraft!"
 msgstr "Nelze spustit Minecraft!"
 
 #: src/logic/minecraft/MinecraftProcess.cpp:254
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MinecraftProcess|"
 msgid ""
 "Minecraft process ID: %1\n"
 "\n"
-msgstr "Minecraft %1"
+msgstr ""
+"Minecraft proces ID: %1\n"
+"\n"
 
 #: src/logic/minecraft/MinecraftProfile.cpp:330
-#, fuzzy
 msgctxt "MinecraftProfile|"
 msgid "Name"
 msgstr "Název"
 
 #: src/logic/minecraft/MinecraftProfile.cpp:332
-#, fuzzy
 msgctxt "MinecraftProfile|"
 msgid "Version"
 msgstr "Verze"
@@ -3851,15 +3843,15 @@ msgstr "&Zobrazit Složku"
 #, qt-format
 msgctxt "ModFolderPage|"
 msgid "%1 (*.zip *.jar)"
-msgstr ""
+msgstr "%1 (*.zip *.jar)"
 
 #: src/application/pages/ModFolderPage.cpp:136
-#, fuzzy, qt-format
+#, qt-format
 msgctxt ""
 "ModFolderPage|Select whatever type of files the page contains. Example: "
 "'Loader Mods'"
 msgid "Select %1"
-msgstr "Vybrat Ikony"
+msgstr "Vybrat %1"
 
 #: src/logic/minecraft/ModList.cpp:470
 msgctxt "ModList|"
@@ -3972,9 +3964,10 @@ msgid "By &name"
 msgstr "Podle názvu"
 
 #: src/application/pages/global/MultiMCPage.ui:339
+#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Icon Theme"
-msgstr ""
+msgstr "Téma icon"
 
 #: src/application/pages/global/MultiMCPage.ui:360
 msgctxt "MultiMCPage|"
@@ -4148,7 +4141,7 @@ msgstr "Angličtina"
 #: src/application/pages/global/MultiMCPage.cpp:426
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr "[Something/ERROR] Děsivá chyba!"
+msgstr "[Něco/ERROR] Děsivá chyba!"
 
 #: src/application/pages/global/MultiMCPage.cpp:434
 msgctxt "MultiMCPage|"
@@ -4158,15 +4151,17 @@ msgstr "[Test/INFO] Neškodná zpráva..."
 #: src/application/pages/global/MultiMCPage.cpp:443
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr "[Something/WARN] Méně děsivé varování."
+msgstr "[Něco/WARN] Méně děsivé varování."
 
 #: src/logic/net/NetJob.cpp:94
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "NetJob|"
 msgid ""
 "Job '%1' failed to process:\n"
 "%2"
 msgstr ""
+"Úloha '%1' se nepodařila zpracovat: ↵\n"
+"%2"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 msgctxt "NewInstanceDialog|"
@@ -4179,15 +4174,14 @@ msgid "Name"
 msgstr "Jméno"
 
 #: src/application/dialogs/NewInstanceDialog.ui:90
-#, fuzzy
 msgctxt "NewInstanceDialog|"
 msgid "&Group:"
-msgstr "Skupina:"
+msgstr "&Skupina:"
 
 #: src/application/dialogs/NewInstanceDialog.ui:130
 msgctxt "NewInstanceDialog|"
 msgid "http://"
-msgstr ""
+msgstr "http://"
 
 #: src/application/dialogs/NewInstanceDialog.ui:151
 msgctxt "NewInstanceDialog|"
@@ -4198,7 +4192,7 @@ msgstr ""
 #, fuzzy
 msgctxt "NewInstanceDialog|"
 msgid "Vani&lla Minecraft (select version):"
-msgstr "Změnit verzi Minecraftu"
+msgstr ""
 
 #: src/application/dialogs/NewInstanceDialog.ui:120
 #: src/application/dialogs/NewInstanceDialog.ui:144
@@ -4217,15 +4211,14 @@ msgid "Change Minecraft version"
 msgstr "Změnit verzi Minecraftu"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:195
-#, fuzzy
 msgctxt "NewInstanceDialog|"
 msgid "Choose modpack"
-msgstr "Core mody"
+msgstr "Vyberte modpack"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:195
 msgctxt "NewInstanceDialog|"
 msgid "Zip (*.zip)"
-msgstr ""
+msgstr "Zip (*.zip)"
 
 #: src/logic/news/NewsChecker.cpp:101
 #, qt-format
@@ -4234,6 +4227,8 @@ msgid ""
 "Failed to load news RSS feed:\n"
 "%1"
 msgstr ""
+"Nepodařilo se načíst zprávy RSS feed:\n"
+"%1"
 
 #: src/logic/news/NewsEntry.cpp:24 src/logic/news/NewsEntry.cpp:60
 msgctxt "NewsEntry|"
@@ -4289,10 +4284,9 @@ msgid "Close"
 msgstr "Zavřít"
 
 #: src/logic/NullInstance.h:32
-#, fuzzy
 msgctxt "NullInstance|"
 msgid "Unknown instance type"
-msgstr "Neznámá chyba zavaděče instance %1"
+msgstr "Neznámý typ instance"
 
 #: src/logic/minecraft/OneSixInstance.cpp:340
 msgctxt "OneSixInstance|"
@@ -4359,7 +4353,9 @@ msgctxt "OneSixUpdate|"
 msgid ""
 "Failed to download the assets index:\n"
 "%1"
-msgstr "Nepodařilo se stáhnout index herních souborů!"
+msgstr ""
+"Nepodařilo se stáhnout index aktiv:\n"
+"%1"
 
 #: src/logic/minecraft/OneSixUpdate.cpp:173
 #, fuzzy, qt-format
@@ -4367,22 +4363,23 @@ msgctxt "OneSixUpdate|"
 msgid ""
 "Failed to download assets:\n"
 "%1"
-msgstr "Nepodařilo se stáhnout assets!"
+msgstr ""
+"Nepodařilo se stáhnout assets:\n"
+"%1"
 
 #: src/logic/minecraft/OneSixUpdate.cpp:312
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixUpdate|"
 msgid "Couldn't remove stale jar file: %1"
-msgstr "Nelze odstranit soubor"
+msgstr "Nelze odstranit zastaralý jar soubor: %1"
 
 #: src/logic/minecraft/OneSixUpdate.cpp:328
-#, fuzzy
 msgctxt "OneSixUpdate|"
 msgid "Failed to create the custom Minecraft jar file."
-msgstr "Nepodařilo se vytvořit složku pr Minecraft binární soubory."
+msgstr "Nepodařilo se vytvořit vlastní Minecraft jar soubor."
 
 #: src/logic/minecraft/OneSixUpdate.cpp:347
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixUpdate|"
 msgid ""
 "Failed to download the following files:\n"
@@ -4391,9 +4388,10 @@ msgid ""
 "Reason:%2\n"
 "Please try again."
 msgstr ""
-"Nepodařilo se stáhnout následující soubory: ↵\n"
-"%1↵\n"
-"↵\n"
+"Nepodařilo se stáhnout následující soubory:\n"
+"%1\n"
+"\n"
+"Důvod:%2\n"
 "Zkuste to prosím znovu."
 
 #: src/logic/minecraft/OneSixUpdate.cpp:445
@@ -4439,7 +4437,6 @@ msgstr ""
 "instance, ujistěte se, že jej můžete spustit alespoň jednou mimo MultiMC."
 
 #: src/logic/minecraft/OneSixUpdate.cpp:368
-#, fuzzy
 msgctxt "OneSixUpdate|"
 msgid "Checking for FML libraries..."
 msgstr "Kontrola knihoven FML..."
@@ -4767,7 +4764,6 @@ msgid "Snapshot"
 msgstr "Snapshot"
 
 #: src/logic/minecraft/MinecraftVersion.cpp:30
-#, fuzzy
 msgctxt "QObject|"
 msgid "Regular release"
 msgstr "Pravidelné vydání"
@@ -4820,15 +4816,14 @@ msgid "The mod author didn't provide a website link for this mod."
 msgstr "Mod autor neposkytl odkaz na webové stránky pro tento mod."
 
 #: src/application/GuiUtil.cpp:23 src/application/GuiUtil.cpp:32
-#, fuzzy
 msgctxt "QObject|"
 msgid "Upload failed"
-msgstr "Nahrávání dokončeno"
+msgstr "Nahrávání selhalo"
 
 #: src/application/GuiUtil.cpp:24
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr ""
+msgstr "Soubor logu je příliš velký. Budete muset nahrát ručně."
 
 #: src/application/GuiUtil.cpp:41
 msgctxt "QObject|"
@@ -4852,7 +4847,7 @@ msgid "Error opening %1: %2"
 msgstr "Chyba při otevírání %1: %2"
 
 #: src/application/dialogs/AboutDialog.cpp:29
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "QObject|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN' 'http://www.w3.org/TR/REC-"
@@ -4873,6 +4868,25 @@ msgid ""
 "p><p>Rootbear75 &lt;<a href='https://twitter.com/rootbear75'>@rootbear75</"
 "a>&gt; (build server)</p><h3>Patreon Patrons</h3>%1</body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN' 'http://www.w3.org/TR/REC-"
+"html40/strict.dtd'><html><head><meta name='qrichtext' content='1' /><style "
+"type='text/css'>p { white-space: pre-wrap; margin-top:2px; margin-bottom:2px;"
+" }</style></head><body style=' font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;'><h3>Vývojáři MultiMC</h3><p>Andrew Okin &lt;<"
+"a href='mailto:forkk@forkk.net'>forkk@forkk.net</a>&gt;</p><p>Petr Mrázek "
+"&lt;<a href='mailto:peterix@gmail.com'>peterix@gmail.com</a>&gt;</p><p>Sky "
+"Welch &lt;<a "
+"href='mailto:multimc@bunnies.io'>multimc@bunnies.io</a>&gt;</p><p>Jan "
+"(02JanDal) &lt;<a "
+"href='mailto:02jandal@gmail.com'>02jandal@gmail.com</a>&gt;</p><h3>Dále "
+"děkujeme</h3><p>Orochimarufan &lt;<a href='mailto:orochimarufan.x3@gmail.com'"
+">orochimarufan.x3@gmail.com</a>&gt;</p><p>TakSuyu &lt;<a "
+"href='mailto:taksuyu@gmail.com'>taksuyu@gmail.com</a>&gt;</p><p>Kilobyte "
+"&lt;<a href='mailto:stiepen22@gmx.de'>stiepen22@gmx.de</a>&gt;</p><p>"
+"Robotbrain &lt;<a "
+"href='https://twitter.com/skylordelros'>@skylordelros</a>&gt;</p><p>"
+"Rootbear75 &lt;<a href='https://twitter.com/rootbear75'>@rootbear75</a>&gt; ("
+"build server)</p><h3>Patreon Patroni</h3>%1</body></html>"
 
 #: src/application/dialogs/AboutDialog.cpp:61
 msgctxt "QObject|"
@@ -4882,25 +4896,23 @@ msgstr "<p>Načítání...</p>"
 #: src/logic/minecraft/LwjglVersionList.h:50
 msgctxt "QObject|"
 msgid "Upstream"
-msgstr ""
+msgstr "Proti proudu"
 
 #: src/logic/ftb/FTBProfileStrategy.cpp:28
-#, fuzzy
 msgctxt "QObject|"
 msgid "Minecraft (tracked)"
-msgstr "Minecraft %1 (%2)"
+msgstr "Minecraft (sledován)"
 
 #: src/logic/ftb/FTBProfileStrategy.cpp:64
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (FTB pack)"
-msgstr ""
+msgstr "%1 (FTB pack)"
 
 #: src/logic/ftb/FTBProfileStrategy.cpp:67
-#, fuzzy
 msgctxt "QObject|"
 msgid "Unknown"
-msgstr "Neznámá chyba"
+msgstr "Neznámý"
 
 #: src/logic/auth/flows/RefreshTask.cpp:75
 msgctxt "RefreshTask|"
@@ -5037,12 +5049,14 @@ msgid "Session"
 msgstr "Relace"
 
 #: src/logic/status/StatusChecker.cpp:109
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "StatusChecker|"
 msgid ""
 "Failed to load status JSON:\n"
 "%1"
-msgstr "Nepodařilo se stáhnout assets!"
+msgstr ""
+"Nepodařilo se načíst stav JSON:\n"
+"%1"
 
 #: src/application/pages/TexturePackPage.h:9
 #, fuzzy
@@ -5185,10 +5199,9 @@ msgid "Change version of the selected package."
 msgstr "Verze modu."
 
 #: src/application/pages/VersionPage.ui:80
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr ".Změnit ikonu vybrané instance."
+msgstr "Změnit ikonu vybrané instance."
 
 #: src/application/pages/VersionPage.ui:90
 msgctxt "VersionPage|"
@@ -5465,14 +5478,12 @@ msgid "Filesystem path to this version"
 msgstr "Cesta k této verzi Javy."
 
 #: src/application/VersionProxyModel.cpp:174
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Recommended"
 msgstr "Doporučeno"
 
 #: src/application/VersionProxyModel.cpp:181
 #: src/application/VersionProxyModel.cpp:186
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Latest"
 msgstr "Nejnovější"
@@ -5493,7 +5504,6 @@ msgid "&Refresh"
 msgstr "&Obnovit"
 
 #: src/application/dialogs/VersionSelectDialog.cpp:130
-#, fuzzy
 msgctxt "VersionSelectDialog|"
 msgid "Error"
 msgstr "Chyba"
