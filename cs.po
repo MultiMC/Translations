@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-05-24 03:33-0400\n"
-"Last-Translator: Jiří Sejkora <Sejseloid@gmail.com>\n"
+"PO-Revision-Date: 2015-05-24 03:40-0400\n"
+"Last-Translator: Michal Dolenský <the777misa@gmail.com>\n"
 "Language-Team: Czech "
 "<http://weblate.robotbrain.info/projects/multimc/multimc/cs/>\n"
 "Language: cs\n"
@@ -5121,14 +5121,14 @@ msgid "No %1 updates found. You are running the latest version."
 msgstr "Nebyly nalezeny žádné %1 aktualizace. Používáte nejnovější verzi."
 
 #: src/application/dialogs/UpdateDialog.cpp:120
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid ""
 "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch "
 "changelog... Error: %1</span></p>"
 msgstr ""
 "<p align=\"center\" <span style=\"font-size:22pt;\">Nepodařilo se načíst "
-"seznam změn ...</span></p>"
+"seznam změn... Chyba: %1 </span></p>"
 
 #: src/logic/auth/flows/ValidateTask.cpp:56
 msgctxt "ValidateTask|"
@@ -5186,74 +5186,72 @@ msgid "Install"
 msgstr "Instalovat"
 
 #: src/application/pages/VersionPage.ui:14
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Package Versions"
-msgstr "Spravovat Lwjgl verze"
+msgstr "verze balíčku"
 
 #: src/application/pages/VersionPage.ui:70
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
-msgstr "Verze modu."
+msgstr "Změna verze vybraného balíčku."
 
 #: src/application/pages/VersionPage.ui:80
+#, fuzzy
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr "Změnit ikonu vybrané instance."
+msgstr "Make the selected package apply sooner."
 
 #: src/application/pages/VersionPage.ui:90
+#, fuzzy
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr ""
+msgstr "Make the selected package apply later."
 
 #: src/application/pages/VersionPage.ui:100
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
-msgstr "Přejmenovat vybranou instanci."
+msgstr "Remove selected package from the instance."
 
 #: src/application/pages/VersionPage.ui:113
 #: src/application/pages/VersionPage.ui:136
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Edit"
-msgstr "MCEdit"
+msgstr "Upravit"
 
 #: src/application/pages/VersionPage.ui:123
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Customize selected package."
-msgstr "Kopíruje vybranou instanci."
+msgstr "Customize selected package."
 
 #: src/application/pages/VersionPage.ui:126
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Customize"
-msgstr "vlastní"
+msgstr "Upravit"
 
 #: src/application/pages/VersionPage.ui:133
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Edit selected package."
-msgstr "Kopíruje vybranou instanci."
+msgstr "Edit selected package."
 
 #: src/application/pages/VersionPage.ui:143
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
-msgstr "Přejmenovat vybranou instanci."
+msgstr "Revert the selected package to default."
 
 #: src/application/pages/VersionPage.ui:146
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Revert"
-msgstr "Vrátit?"
+msgstr "Vrátit"
 
 #: src/application/pages/VersionPage.ui:166
+#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
-msgstr ""
+msgstr "Install the Minecraft Forge package."
 
 #: src/application/pages/VersionPage.ui:169
 msgctxt "VersionPage|"
@@ -5264,7 +5262,7 @@ msgstr "Nainstalovat Forge"
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
-msgstr "Nainstalovat  LiteLoader"
+msgstr "Install the LiteLoader package."
 
 #: src/application/pages/VersionPage.ui:179
 msgctxt "VersionPage|"
@@ -5323,22 +5321,19 @@ msgid "Couldn't remove file"
 msgstr "Nelze odstranit soubor"
 
 #: src/application/pages/VersionPage.cpp:123
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
-msgstr "Obnovit list instancí."
+msgstr ""
 
 #: src/application/pages/VersionPage.cpp:148
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Select jar mods"
-msgstr "Vyber Jar Mody"
+msgstr "Vyber Jar mody"
 
 #: src/application/pages/VersionPage.cpp:148
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr "Minecraft jar mody (*.zip *.jar)"
+msgstr "Minecraft .jar mody (*.zip *.jar)"
 
 #: src/application/pages/VersionPage.cpp:197
 msgctxt "VersionPage|"
@@ -5371,13 +5366,11 @@ msgstr ""
 "zahrnuje věci  jako instalace Forge a jim podobných."
 
 #: src/application/pages/VersionPage.cpp:262
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
-msgstr "Načítání verzí LiteLoader…"
+msgstr ""
 
 #: src/application/pages/VersionPage.cpp:326
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Chyba při aktualizaci instance"
@@ -5408,13 +5401,11 @@ msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Žádné verze LiteLoader v současné době není k dispozici pro Minecraft "
 
 #: src/application/VersionProxyModel.cpp:99
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Version"
 msgstr "Verze"
 
 #: src/application/VersionProxyModel.cpp:101
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
 msgstr "Minecraft"
@@ -5425,7 +5416,6 @@ msgid "Branch"
 msgstr ""
 
 #: src/application/VersionProxyModel.cpp:105
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Type"
 msgstr "Typ"
@@ -5433,10 +5423,9 @@ msgstr "Typ"
 #: src/application/VersionProxyModel.cpp:107
 msgctxt "VersionProxyModel|"
 msgid "Architecture"
-msgstr ""
+msgstr "Architektura"
 
 #: src/application/VersionProxyModel.cpp:109
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Path"
 msgstr "Cesta"
@@ -5448,16 +5437,14 @@ msgid "The name of the version."
 msgstr "Název verze."
 
 #: src/application/VersionProxyModel.cpp:119
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Minecraft version"
 msgstr "Verze Minecraftu"
 
 #: src/application/VersionProxyModel.cpp:121
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "The version's branch"
-msgstr "Typ verze."
+msgstr ""
 
 #: src/application/VersionProxyModel.cpp:123
 #, fuzzy
@@ -5468,13 +5455,12 @@ msgstr "Typ verze."
 #: src/application/VersionProxyModel.cpp:125
 msgctxt "VersionProxyModel|"
 msgid "CPU Architecture"
-msgstr ""
+msgstr "Architektura CPU"
 
 #: src/application/VersionProxyModel.cpp:127
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Filesystem path to this version"
-msgstr "Cesta k této verzi Javy."
+msgstr ""
 
 #: src/application/VersionProxyModel.cpp:174
 msgctxt "VersionProxyModel|"
