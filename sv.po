@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-29 19:31-0400\n"
-"PO-Revision-Date: 2016-03-25 20:15+0200\n"
+"PO-Revision-Date: 2016-03-26 14:27+0200\n"
 "Last-Translator: Jan Dalheimer <jan@dalheimer.de>\n"
 "Language-Team: Swedish "
 "<http://translate.multimc.org/projects/multimc/multimc5/sv/>\n"
@@ -362,52 +362,50 @@ msgid "Profiler aborted"
 msgstr "Prestationsverktyg avbrytet"
 
 #: src/logic/launch/steps/CheckJava.cpp:35
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "CheckJava|"
 msgid ""
 "The java binary \"%1\" couldn't be found. Please fix the java path override "
 "in the instance's settings or disable it."
 msgstr ""
-"Java-programmet \"%1\" kunde inte hittas. Du måste troligen ställa in vilket "
-"Java som ska användas."
+"Java-programmet \"%1\" kunde inte hittas. Ändra filnamns överskrivningen i "
+"instansinställningarna eller ta bort överskrivningen för att använda "
+"inställningen som gäller för hela MultiMC."
 
 #: src/logic/launch/steps/CheckJava.cpp:41
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "CheckJava|"
 msgid ""
 "The java binary \"%1\" couldn't be found. Please set up java in the settings."
 msgstr ""
-"Java-programmet \"%1\" kunde inte hittas. Du måste troligen ställa in vilket "
-"Java som ska användas."
+"Java-programmet \"%1\" kunde inte hittas. Kontrollera och välj rätt "
+"inställningar för Java."
 
 #: src/logic/launch/steps/CheckJava.cpp:45
 msgctxt "CheckJava|"
 msgid "Java path is not valid."
-msgstr ""
+msgstr "Filnamnet till Java-programmet är ogiltig."
 
 #: src/logic/launch/steps/CheckJava.cpp:63
-#, fuzzy
 msgctxt "CheckJava|"
 msgid "Checking Java version..."
-msgstr "Välj en Java-version"
+msgstr "Kontrollerar Java-versionen..."
 
 #: src/logic/launch/steps/CheckJava.cpp:78
-#, fuzzy
 msgctxt "CheckJava|"
 msgid "Could not start java:"
-msgstr "Kunde inte starta prestationsverktyget: %1"
+msgstr "Kunde inte starta Java:"
 
 #: src/logic/launch/steps/CheckJava.cpp:81
-#, fuzzy
 msgctxt "CheckJava|"
 msgid "Could not start java!"
-msgstr "Kunde inte starta prestationsverktyget: %1"
+msgstr "Kunde inte starta Java!"
 
 #: src/logic/launch/steps/CheckJava.cpp:86
 #, qt-format
 msgctxt "CheckJava|"
 msgid "Java version is %1!\n"
-msgstr ""
+msgstr "Version av Java som används är %1!\n"
 
 #: src/application/ConsoleWindow.cpp:62
 msgctxt "ConsoleWindow|"
@@ -459,26 +457,24 @@ msgid "Name"
 msgstr "Namn"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:90
-#, fuzzy
 msgctxt "CopyInstanceDialog|"
 msgid "&Group"
-msgstr "Gruppnamn"
+msgstr "&Grupp"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:115
-#, fuzzy
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
-msgstr "Kopiera Instans"
+msgstr "Kopiera sparade världar"
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Ingen grupp"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Login"
-msgstr ""
+msgstr "Logga in"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
@@ -491,40 +487,35 @@ msgid "Password"
 msgstr "Lösenord"
 
 #: src/application/dialogs/ExportInstanceDialog.ui:14
-#, fuzzy
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr "Ändra instansen"
+msgstr "Exportera instansen"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:388
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr ""
+msgstr "Exportera %1"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:397
-#, fuzzy
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
 msgstr "Skriva över?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:398
-#, fuzzy
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr "Det existerar redan en version med namnet %1 i %1. Skriv över?"
+msgstr "Det existerar redan en fil med samma namn. Vill du skriva över den?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:410
-#, fuzzy
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "Fel"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:410
-#, fuzzy
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr "Misslyckades as skapa instansen %1: "
+msgstr "Misslyckades as exportera instansen"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
@@ -684,7 +675,6 @@ msgid "The file chosen does not seem to be an executable"
 msgstr "Den valda filen verkar inte vara ett program"
 
 #: src/logic/minecraft/forge/ForgeInstaller.cpp:342
-#, fuzzy
 msgctxt "ForgeInstallTask|"
 msgid "Installing Forge..."
 msgstr "Installerar Forge..."
@@ -695,18 +685,19 @@ msgid "Unknown error occured"
 msgstr "Ett okänt fel uppstod"
 
 #: src/logic/minecraft/forge/ForgeInstaller.cpp:359
-#, fuzzy
 msgctxt "ForgeInstallTask|"
 msgid "Failure to install Forge"
 msgstr "Fel vid installationen av Forge"
 
 #: src/logic/minecraft/forge/ForgeInstaller.cpp:389
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ForgeInstallTask|"
 msgid ""
 "Failure to download Forge:\n"
 "%1"
-msgstr "Ett fel uppstod vid nedladdning av Forge"
+msgstr ""
+"Ett fel uppstod vid nedladdning av Forge:\n"
+"%1"
 
 #: src/logic/minecraft/forge/ForgeInstaller.cpp:422
 msgctxt "ForgeInstallTask|"
@@ -719,53 +710,47 @@ msgid "Fetching Forge version lists..."
 msgstr "Hämtar lista över Forge-versioner..."
 
 #: src/logic/updater/DownloadTask.cpp:44
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
 msgstr "Laddar versionsinformation..."
 
 #: src/logic/updater/DownloadTask.cpp:84
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
 msgstr "Ett fel uppstod vid nedladdning av versionsinformation."
 
 #: src/logic/updater/DownloadTask.cpp:92
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
 msgstr "Läser listan över filer för den nya versionen..."
 
 #: src/logic/updater/DownloadTask.cpp:105
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
 msgstr "Läser listan över filer för den nuvarande versionen..."
 
 #: src/logic/updater/DownloadTask.cpp:120
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
 msgstr ""
 "Bearbetar listor över filer - undersöker hur uppdateringen ska installeras..."
 
 #: src/logic/updater/DownloadTask.cpp:128
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
 msgstr "Ett fel uppstod vid bearbetningen av uppdateringslistor..."
 
 #: src/logic/updater/DownloadTask.cpp:137
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
 msgstr "Laddar ned %1 uppdaterings-filer."
 
 #: src/logic/updater/DownloadTask.cpp:151
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "Ett fel uppstod vid nedladdning av uppdateringsfiler."
+msgstr "Ett fel uppstod vid nedladdning av uppdateringsfiler: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -796,7 +781,6 @@ msgstr "Ikoner"
 
 #: src/application/InstancePageProvider.h:36
 #: src/application/InstancePageProvider.h:53
-#, fuzzy
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
 msgstr "Loader-moddar"
@@ -806,11 +790,10 @@ msgstr "Loader-moddar"
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "%1 (*.zip *.jar *.litemod)"
-msgstr ""
+msgstr "%1 (*.zip *.jar *.litemod)"
 
 #: src/application/InstancePageProvider.h:39
 #: src/application/InstancePageProvider.h:56
-#, fuzzy
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
 msgstr "Core-moddar"
@@ -819,10 +802,10 @@ msgstr "Core-moddar"
 #: src/application/InstancePageProvider.h:59
 msgctxt "InstancePageProvider|"
 msgid "Worlds"
-msgstr ""
+msgstr "Världar"
 
 #: src/application/InstancePageProvider.h:73
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
 msgstr "Redigera instans (%1)"
@@ -868,13 +851,11 @@ msgid "The amount of memory available to store loaded Java classes."
 msgstr "Mängden minne som är tillgängligt för att spara lästa Java-klasser."
 
 #: src/application/pages/InstanceSettingsPage.ui:45
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java ins&tallation"
 msgstr "Java-installation"
 
 #: src/application/pages/InstanceSettingsPage.ui:87
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
 msgstr "Minne"
@@ -910,13 +891,11 @@ msgid "Window width:"
 msgstr "Fönstrets bredd:"
 
 #: src/application/pages/InstanceSettingsPage.ui:305
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
 msgstr "Konsol-Inställningar"
 
 #: src/application/pages/InstanceSettingsPage.ui:357
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Cus&tom Commands"
 msgstr "Egna Kommandon"
@@ -947,10 +926,9 @@ msgid "Pre-launch command:"
 msgstr "Kommando innan start:"
 
 #: src/application/pages/InstanceSettingsPage.ui:389
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Wrapper command:"
-msgstr "Kommando innan start:"
+msgstr "Wrapper-kommando:"
 
 #: src/application/pages/InstanceSettingsPage.ui:402
 msgctxt "InstanceSettingsPage|"
@@ -975,6 +953,26 @@ msgid ""
 "\">INST_JAVA_ARGS - command-line parameters used for launch</li></ul></"
 "body></html>"
 msgstr ""
+"<html><head/><body><p><i>Kommando innan start</i> körs innan instansen "
+"startas och <i>kommando efter stängning</i> körs efter att instansen körts "
+"klart.</p><p>Båda kommer att köras ifrån den folder där MultiMC är "
+"installerad med följande extra variabler:</p><ul style=\"margin-top: 0px; "
+"margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"
+"\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">INST_NAME - Instansens "
+"namn</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">INST_ID - Instansen "
+"ID</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">INST_DIR - hela "
+"sökvägen till instansen</li><li style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">"
+"INST_MC_DIR - hela sökvägen till instansens <i>minecraft</i>-mapp</li><li "
+"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">INST_JAVA - sökvägen till "
+"Java-programmet som använts</li><li style=\" margin-top:0px; margin-"
+"bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\">INST_JAVA_ARGS - kommandoradsparametrar som "
+"använts</li></ul></body></html>"
 
 #: src/application/pages/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
@@ -1018,16 +1016,15 @@ msgctxt "JavaCommon::TestCheck|"
 msgid ""
 "Java test succeeded!<br />Platform reported: %1<br />Java version reported: "
 "%2<br />"
-msgstr ""
+msgstr "Java testet lyckades!<br />Platform: %1<br />Version: %2<br />"
 
 #: src/application/JavaCommon.cpp:34
 #, qt-format
 msgctxt "JavaCommon::TestCheck|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr ""
+msgstr "<br />Varningar:<br /><font color=\"orange\">%1</font>"
 
 #: src/application/JavaCommon.cpp:36
-#, fuzzy
 msgctxt "JavaCommon::TestCheck|"
 msgid "Java test success"
 msgstr "Java testet lyckades"
@@ -1037,28 +1034,29 @@ msgctxt "JavaCommon::TestCheck|"
 msgid ""
 "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr ""
+"Det angivna Java-programmet fungerade inte med de parametrar som du angett:<"
+"br />"
 
 #: src/application/JavaCommon.cpp:46
 #, qt-format
 msgctxt "JavaCommon::TestCheck|"
 msgid "<font color=\"red\">%1</font>"
-msgstr ""
+msgstr "<font color=\"red\">%1</font>"
 
 #: src/application/JavaCommon.cpp:47 src/application/JavaCommon.cpp:57
-#, fuzzy
 msgctxt "JavaCommon::TestCheck|"
 msgid "Java test failure"
 msgstr "Java tested misslyckades"
 
 #: src/application/JavaCommon.cpp:54
-#, fuzzy
 msgctxt "JavaCommon::TestCheck|"
 msgid ""
 "The specified java binary didn't work.<br />You should use the auto-detect "
 "feature, or set the path to the java executable.<br />"
 msgstr ""
-"Det utvalda Java programmet fungerade inte. Du borde använda den automatiska "
-"detektionen, eller välja korrekt fil-adress till Java programmet."
+"Det utvalda Java programmet fungerade inte.<br />Du borde använda den "
+"automatiska detektionen, eller välja korrekt sökväg till Java-programmet.<br "
+"/>"
 
 #: src/logic/java/JavaInstallList.cpp:126
 msgctxt "JavaListLoadTask|"
@@ -1116,13 +1114,11 @@ msgid "Test"
 msgstr "Testa"
 
 #: src/application/pages/global/JavaPage.ui:257
-#, fuzzy
 msgctxt "JavaPage|"
 msgid "Wrapper command:"
-msgstr "Kommando innan start:"
+msgstr "Wrapper-kommando:"
 
 #: src/application/pages/global/JavaPage.ui:276
-#, fuzzy
 msgctxt "JavaPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1131,9 +1127,11 @@ msgid ""
 "variables.</p><p>Wrapper command allows running java using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
-"\"Kommando innan start\" körs innan instansen startas och \"Kommando efter "
-"stängning\" körs efter att den avslutats. Båda körs i MultiMC's folder med "
-"variablerna INST_ID, INST_DIR och INST_NAME satta."
+"<html><head/><body><p><i>Kommando innan start</i> körs innan instansen "
+"startas och <i>Kommando efter stängning</i> körs efter att den avslutats. "
+"Båda körs i MultiMC's folder med variablerna INST_ID, INST_DIR och INST_NAME "
+"satta.</p><p>Wrapper-kommandot möjliggör att köra Java med ett extra "
+"kommando \"framför\", t.ex. 'optirun' på Linux.</p></body></html>"
 
 #: src/application/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
@@ -1182,31 +1180,26 @@ msgstr ""
 "Detta är en lättviktig hanterare för moddar som inte ändrar spelets mekanik."
 
 #: src/logic/minecraft/legacy/LwjglVersionList.cpp:60
-#, fuzzy
 msgctxt "LWJGLVersionList|"
 msgid "Version"
 msgstr "Version"
 
 #: src/logic/minecraft/legacy/LwjglVersionList.cpp:63
-#, fuzzy
 msgctxt "LWJGLVersionList|"
 msgid "LWJGL version name."
-msgstr "Hämtar lista över LWJGL-versioner..."
+msgstr "LWJGL version."
 
 #: src/application/LaunchInteraction.cpp:33
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "No instance specified"
 msgstr "Ingen instans utvald"
 
 #: src/application/LaunchInteraction.cpp:46
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "No Accounts"
 msgstr "Inga Konton"
 
 #: src/application/LaunchInteraction.cpp:47
-#, fuzzy
 msgctxt "LaunchController|"
 msgid ""
 "In order to play Minecraft, you must have at least one Mojang or Minecraft "
@@ -1218,7 +1211,6 @@ msgstr ""
 "ett konto nu?"
 
 #: src/application/LaunchInteraction.cpp:61
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
 msgstr "Vilket konto skulle du vilja använda?"
@@ -1226,10 +1218,9 @@ msgstr "Vilket konto skulle du vilja använda?"
 #: src/application/LaunchInteraction.cpp:77
 msgctxt "LaunchController|"
 msgid "No account selected for launch"
-msgstr ""
+msgstr "Inget konto har valts"
 
 #: src/application/LaunchInteraction.cpp:86
-#, fuzzy
 msgctxt "LaunchController|"
 msgid ""
 "Your account is currently not logged in. Please enter your password to log "
@@ -1239,7 +1230,6 @@ msgstr ""
 "in igen."
 
 #: src/application/LaunchInteraction.cpp:102
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Play Offline"
 msgstr "Spela Offline"
@@ -1247,55 +1237,49 @@ msgstr "Spela Offline"
 #: src/application/LaunchInteraction.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Fick obestämd sessions-status under inloggningssekvensen."
 
 #: src/application/LaunchInteraction.cpp:162
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Player name"
 msgstr "Spelarens Namn"
 
 #: src/application/LaunchInteraction.cpp:163
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
 msgstr "Välj vilket spelarnamn du vill använda för att spela ofline."
 
 #: src/application/LaunchInteraction.cpp:185
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Failed to launch."
-msgstr "Ett fel uppstod vid authentikationen."
+msgstr "Kunde inte starta."
 
 #: src/application/LaunchInteraction.cpp:195
 #: src/application/LaunchInteraction.cpp:232
 #: src/application/LaunchInteraction.cpp:254
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "Fel"
 
 #: src/application/LaunchInteraction.cpp:195
 #: src/application/LaunchInteraction.cpp:196
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr "Ladda om instanslistan."
+msgstr "Kunde inte läsa instansens profilinformation."
 
 #: src/application/LaunchInteraction.cpp:203
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr "Kunde inte starta prestationsverktyget: %1"
+msgstr "Kunde inte initiera en programstartare."
 
 #: src/application/LaunchInteraction.cpp:232
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "Kunde inte starta prestationsverktyget: %1"
 
 #: src/application/LaunchInteraction.cpp:240
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchController|"
 msgid ""
 "The game launch is delayed until you press the button. This is the right "
@@ -1304,24 +1288,22 @@ msgid ""
 "%1"
 msgstr ""
 "Uppstarten av Minecraft väntar tills du trycker på knappen. Det är nu du bör "
-"ställa in prestationsverktyget, eftersom dess server köra nu.\n"
+"ställa in prestationsverktyget, eftersom dess server körs nu.\n"
 "\n"
 "%1"
 
 #: src/application/LaunchInteraction.cpp:243
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Waiting"
 msgstr "Väntar"
 
 #: src/application/LaunchInteraction.cpp:245
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "Starta"
 
 #: src/application/LaunchInteraction.cpp:253
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "Kunde inte starta prestationsverktyget: %1"
@@ -1329,58 +1311,54 @@ msgstr "Kunde inte starta prestationsverktyget: %1"
 #: src/logic/launch/steps/LaunchMinecraft.cpp:40
 msgctxt "LaunchMinecraft|"
 msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr ""
+msgstr "Kunde inte skapa \"server-resource-packs\" foldern"
 
 #: src/logic/launch/steps/LaunchMinecraft.cpp:56
 #, qt-format
 msgctxt "LaunchMinecraft|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Wrapper-kommandot \"%1\" kunde inte hittas."
 
 #. Error message displayed if instace can't start
 #: src/logic/launch/steps/LaunchMinecraft.cpp:78
-#, fuzzy
 msgctxt "LaunchMinecraft|"
 msgid "Could not launch minecraft!"
 msgstr "Kunde inte starta Minecraft!"
 
 #: src/logic/launch/steps/LaunchMinecraft.cpp:108
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchMinecraft|"
 msgid ""
 "Minecraft process ID: %1\n"
 "\n"
-msgstr "Minecraft %1"
+msgstr ""
+"Minecraft program-ID: %1\n"
+"\n"
 
 #: src/logic/minecraft/ftb/LegacyFTBInstance.cpp:26
-#, fuzzy
 msgctxt "LegacyFTBInstance|"
 msgid "Legacy FTB"
-msgstr "Legacy: %1"
+msgstr "Legacy FTB"
 
 #: src/logic/minecraft/legacy/LegacyInstance.cpp:198
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Installing mods: Backing up minecraft.jar ..."
 msgstr "Installerar moddar: Skapar backup av minecraft.jar..."
 
 #: src/logic/minecraft/legacy/LegacyInstance.cpp:222
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Installing mods: Opening minecraft.jar ..."
 msgstr "Installerar moddar: Öppnar minecraft.jar..."
 
 #: src/logic/minecraft/legacy/LegacyInstance.cpp:229
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Failed to create the custom Minecraft jar file."
-msgstr "Ett fel uppstod vid skapandet av mappen för Minecraft."
+msgstr "Ett fel uppstod vid skapandet av den anpassade Minecraft-JAR filen."
 
 #: src/logic/minecraft/legacy/LegacyInstance.cpp:458
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Legacy"
-msgstr "Legacy: %1"
+msgstr "Legacy"
 
 #: src/application/pages/LegacyJarModPage.ui:53
 msgctxt "LegacyJarModPage|"
@@ -1423,16 +1401,14 @@ msgid "Jar Mods"
 msgstr "Jarmoddar"
 
 #: src/application/pages/LegacyJarModPage.cpp:102
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Select jar mods"
 msgstr "Välj Jarmoddar"
 
 #: src/application/pages/LegacyJarModPage.cpp:102
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr "Minecraft jar moddar (*.zip *.jar)"
+msgstr "Minecraft.jar moddar (*.zip *.jar)"
 
 #: src/logic/minecraft/legacy/LegacyUpdate.cpp:62
 msgctxt "LegacyUpdate|"
@@ -1467,6 +1443,8 @@ msgid ""
 "Game update failed: it was impossible to fetch the required FML libraries. "
 "Reason: %1"
 msgstr ""
+"Uppdatering av spelet misslyckades: det var inte möjligt att hämta de "
+"nödvändiga FML-biblioteken. Anledning: %1"
 
 #: src/logic/minecraft/legacy/LegacyUpdate.cpp:187
 msgctxt "LegacyUpdate|"
@@ -1487,7 +1465,7 @@ msgstr "Installerar nytt LWJGL - extraherar "
 #, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Bad stuff happened while trying to get the lwjgl libs: %1"
-msgstr ""
+msgstr "Hemska saker hände vid försök att hämta LWJGL-biblioteken: %1"
 
 #: src/logic/minecraft/legacy/LegacyUpdate.cpp:357
 msgctxt "LegacyUpdate|"
@@ -1500,10 +1478,10 @@ msgid "Downloading new minecraft.jar ..."
 msgstr "Laddar ner ny minecraft.jar..."
 
 #: src/logic/minecraft/legacy/LegacyUpdate.cpp:394
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Failed to download the minecraft jar: %1."
-msgstr "Ett fel uppstod vid nedladdning av uppdateringsfiler."
+msgstr "Misslyckades att hämta Minecraft JAR:en: %1."
 
 #: src/application/pages/LegacyUpgradePage.h:38
 msgctxt "LegacyUpgradePage|"
@@ -1600,10 +1578,9 @@ msgid "Search:"
 msgstr "Sök:"
 
 #: src/application/pages/LogPage.ui:122
-#, fuzzy
 msgctxt "LogPage|"
 msgid "Find"
-msgstr "Hitta nästa"
+msgstr "Hitta"
 
 #: src/application/pages/LogPage.ui:60
 msgctxt "LogPage|"
@@ -1643,12 +1620,12 @@ msgstr "Töm"
 #: src/application/pages/LogPage.ui:132
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr ""
+msgstr "Skrolla till botten"
 
 #: src/application/pages/LogPage.ui:135
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr ""
+msgstr "Botten"
 
 #: src/application/pages/LogPage.h:41
 msgctxt "LogPage|"
@@ -1659,18 +1636,18 @@ msgstr "Minecraft Loggen"
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr ""
+msgstr "MultiMC: Uppladdning av loggfilen triggades: %1"
 
 #: src/application/pages/LogPage.cpp:82
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr ""
+msgstr "MultiMC: Loggfilen laddas upp till: %1"
 
 #: src/application/pages/LogPage.cpp:86
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr ""
+msgstr "MultiMC: Misslyckades att ladda upp loggfilen!"
 
 #: src/application/pages/LogPage.cpp:179
 #, qt-format
@@ -1681,38 +1658,41 @@ msgid ""
 "You may have to fix your mods because the game is still loggging to files "
 "and likely wasting harddrive space at an alarming rate!"
 msgstr ""
+"MultiMC slutade att bevaka spelets loggfil för att dess längd blev större än "
+"%1 rader.\n"
+"Du kan bli tvungen att fixa de moddar du använder eftersom spelet "
+"fortfarande skriver loggfiler till din hårddisk och antagligen fyller den "
+"med data snabbt!"
 
 #. Message displayed on instance exit
 #: src/logic/launch/LoggedProcess.cpp:60
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1."
-msgstr "Minecraft avslutades med koden %1."
+msgstr "Programmet avslutades med koden %1."
 
 #. Message displayed on instance crashed
 #: src/logic/launch/LoggedProcess.cpp:67
 msgctxt "LoggedProcess|"
 msgid "Process crashed."
-msgstr ""
+msgstr "Programmet krashade."
 
 #: src/logic/launch/LoggedProcess.cpp:69
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1."
-msgstr "Minecraft kraschade med koden %1."
+msgstr "Programmet kraschade med koden %1."
 
 #. Message displayed after the instance exits due to kill request
 #: src/logic/launch/LoggedProcess.cpp:76
-#, fuzzy
 msgctxt "LoggedProcess|"
 msgid "Process was killed by user."
-msgstr "Minecraft dödades av användaren."
+msgstr "Programmet dödades av användaren."
 
 #: src/logic/launch/LoggedProcess.cpp:87
-#, fuzzy
 msgctxt "LoggedProcess|"
 msgid "The process failed to start."
-msgstr "Kommandot misslyckades att starta"
+msgstr "Programmet misslyckades att starta."
 
 #: src/application/dialogs/LoginDialog.ui:20
 msgctxt "LoginDialog|"
@@ -1730,13 +1710,11 @@ msgid "Password"
 msgstr "Lösenord"
 
 #: src/logic/tools/MCEditTool.cpp:40
-#, fuzzy
 msgctxt "MCEditTool|"
 msgid "MCEdit"
 msgstr "MCEdit"
 
 #: src/logic/tools/MCEditTool.cpp:40
-#, fuzzy
 msgctxt "MCEditTool|"
 msgid "Choose which world to open:"
 msgstr "Välj vilken värld du vill öppna:"
@@ -2015,22 +1993,22 @@ msgstr ""
 #: src/application/MainWindow.cpp:362
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: src/application/MainWindow.cpp:363
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit"
-msgstr ""
+msgstr "Gå till MultiMC's subreddit"
 
 #: src/application/MainWindow.cpp:364
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: src/application/MainWindow.cpp:365
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat"
-msgstr ""
+msgstr "Gå till MultiMC's discord-chat"
 
 #: src/application/MainWindow.cpp:366
 msgctxt "MainWindow|"
@@ -2087,22 +2065,21 @@ msgid "Change the settings specific to the instance"
 msgstr "Ändra inställningar som är specifika för den här instansen"
 
 #: src/application/MainWindow.cpp:379
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Export Instance"
-msgstr "Ändra instansen"
+msgstr "Exportera instansen"
 
 #: src/application/MainWindow.cpp:390
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
-msgstr ""
+msgstr "MultiMC 5 - Version %1"
 
 #: src/application/MainWindow.cpp:393
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
-msgstr ""
+msgstr " på %1"
 
 #: src/application/MainWindow.cpp:476
 msgctxt "MainWindow|"
@@ -2197,12 +2174,13 @@ msgid ""
 "Couldn't create folder for update downloads:\n"
 "%1"
 msgstr ""
+"Kunde inte skapa mappen för att ladda ned uppdateringar:\n"
+"%1"
 
 #: src/application/MainWindow.cpp:1033
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Modpack download"
-msgstr "Kopiera nedladdningslänk"
+msgstr "Ladda ned modpack"
 
 #: src/application/MainWindow.cpp:1038
 #, qt-format
@@ -2211,40 +2189,39 @@ msgid ""
 "Downloading modpack:\n"
 "%1"
 msgstr ""
+"Laddar ned modpack:\n"
+"%1"
 
 #: src/application/MainWindow.cpp:1051
 msgctxt "MainWindow|"
 msgid "Failed to extract modpack"
-msgstr ""
+msgstr "Misslyckades att extrahera modpack"
 
 #: src/application/MainWindow.cpp:1057
 msgctxt "MainWindow|"
 msgid "Archive does not contain instance.cfg"
-msgstr ""
+msgstr "Arkivet innehåller ingen instance.cfg"
 
 #: src/application/MainWindow.cpp:1062
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Unable to copy instance"
-msgstr "Kopiera Instans"
+msgstr "Misslyckades att kopiera instansen"
 
 #: src/application/MainWindow.cpp:1067
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to load instance %1: "
-msgstr "Misslyckades as skapa instansen %1: "
+msgstr "Misslyckades as läsa instansen %1: "
 
 #: src/application/MainWindow.cpp:1071
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Unkown error"
 msgstr "Okänt fel"
 
 #: src/application/MainWindow.cpp:1075
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Not an instance"
-msgstr "Kopiera Instans"
+msgstr "Inte en instans"
 
 #: src/application/MainWindow.cpp:1122 src/application/MainWindow.cpp:1231
 #, qt-format
@@ -2290,10 +2267,9 @@ msgid "Enter a new group name."
 msgstr "Ange ett nytt gruppnamn."
 
 #: src/application/MainWindow.cpp:1443
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
-msgstr "FÖRSIKTIGT"
+msgstr "FÖRSIKTIGT!"
 
 #: src/application/MainWindow.cpp:1443
 #, qt-format
@@ -2304,17 +2280,19 @@ msgid ""
 "instances!\n"
 "Are you sure?"
 msgstr ""
+"Du är på väg att ta bort %1\n"
+"Detta är permanent och vill helt radera all data, även för externa instanser "
+"(t.ex. FTB)!\n"
+"Är du säker på att du vill fortsätta?"
 
 #: src/application/MainWindow.cpp:1686
-#, fuzzy
 msgctxt "MainWindow|"
 msgid ""
 "You have now two options: <br/> - change the instance folder in the settings "
 "<br/> - move this installation of MultiMC5 to a different folder"
 msgstr ""
-"Du har tre optioner:<br/> - ignorera denna warning <br/> - ändra "
-"instansmappen i inställningarna <br/> - flytta denna installation av MultiMC "
-"till en annan map"
+"Du har två valmöjligheter:<br/> - ändra instansmappen i inställningarna <br/>"
+" - flytta denna installation av MultiMC till en annan map"
 
 #: src/application/MainWindow.cpp:1692
 msgctxt "MainWindow|"
@@ -2323,21 +2301,24 @@ msgid ""
 "the operating system <br/> - close MultiMC now and extract it to a real "
 "location, not a temporary folder"
 msgstr ""
+"Detta är ett problem: <br/> - MultiMC kommer troligen att raderas utan "
+"varning av operativsystemet <br/> - stäng MultiMC nu och extrahera det till "
+"en ordentlig mapp, inte en temporär mapp"
 
 #: src/application/MainWindow.cpp:1699
-#, fuzzy
 msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains 'Rar$' - that means you haven't extracted the "
 "MultiMC zip!"
 msgstr ""
-"Namnet på din instansmapp innehåller '!', och det är ger problem med Java!"
+"Namnet på din instansmapp innehåller 'Rar$' - det betyder att du inte har "
+"extraherat MultiMC-arkivet!"
 
 #: src/application/MainWindow.cpp:1707
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
-msgstr ""
+msgstr "Din instansmapp befinner sig i en temporär folder: '%1'!"
 
 #: src/application/MainWindow.cpp:1469
 msgctxt "MainWindow|"
@@ -2345,10 +2326,9 @@ msgid "Instance name"
 msgstr "Instansnamn"
 
 #: src/application/MainWindow.cpp:495 src/application/MainWindow.cpp:818
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Profiles"
-msgstr "Prestationsverktyg"
+msgstr "Profiler"
 
 #: src/application/MainWindow.cpp:1469
 msgctxt "MainWindow|"
@@ -2433,28 +2413,27 @@ msgstr ""
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1 min %2 s"
 
 #: src/logic/minecraft/MinecraftInstance.cpp:341
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1 h %2 min"
 
 #: src/logic/minecraft/MinecraftInstance.cpp:343
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1 d %2 h %3 min"
 
 #: src/logic/minecraft/MinecraftInstance.cpp:351
-#, fuzzy
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "trasig"
 
 #: src/logic/minecraft/MinecraftInstance.cpp:355
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
@@ -2463,7 +2442,7 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
-msgstr ""
+msgstr ", har %1 spelats"
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -2481,25 +2460,21 @@ msgid "Start Minecraft maximized?"
 msgstr "Start Minecraft i stort fönster?"
 
 #: src/application/pages/global/MinecraftPage.ui:63
-#, fuzzy
 msgctxt "MinecraftPage|"
 msgid "Window hei&ght:"
 msgstr "Fönstrets höjd:"
 
 #: src/application/pages/global/MinecraftPage.ui:73
-#, fuzzy
 msgctxt "MinecraftPage|"
 msgid "W&indow width:"
 msgstr "Fönstrets bredd:"
 
 #: src/logic/minecraft/MinecraftProfile.cpp:337
-#, fuzzy
 msgctxt "MinecraftProfile|"
 msgid "Name"
 msgstr "Namn"
 
 #: src/logic/minecraft/MinecraftProfile.cpp:339
-#, fuzzy
 msgctxt "MinecraftProfile|"
 msgid "Version"
 msgstr "Version"
@@ -2551,21 +2526,19 @@ msgid "%1 (*.zip *.jar)"
 msgstr ""
 
 #: src/application/pages/ModFolderPage.cpp:134
-#, fuzzy, qt-format
+#, qt-format
 msgctxt ""
 "ModFolderPage|Select whatever type of files the page contains. Example: "
 "'Loader Mods'"
 msgid "Select %1"
-msgstr "Välj Ikoner"
+msgstr "Välj %1"
 
 #: src/logic/minecraft/ModList.cpp:475
-#, fuzzy
 msgctxt "ModList|"
 msgid "Name"
 msgstr "Namn"
 
 #: src/logic/minecraft/ModList.cpp:477
-#, fuzzy
 msgctxt "ModList|"
 msgid "Version"
 msgstr "Version"
@@ -2573,17 +2546,17 @@ msgstr "Version"
 #: src/logic/minecraft/ModList.cpp:486
 msgctxt "ModList|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Är modden aktiverad?"
 
 #: src/logic/minecraft/ModList.cpp:488
 msgctxt "ModList|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "Moddens namn."
 
 #: src/logic/minecraft/ModList.cpp:490
 msgctxt "ModList|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "Moddens version."
 
 #: src/logic/launch/steps/ModMinecraftJar.cpp:40
 #, qt-format
@@ -2592,26 +2565,25 @@ msgid ""
 "jar modding failed because: %1.\n"
 "\n"
 msgstr ""
+"Jar-modding misslyckades: %1.\n"
+"\n"
 
 #: src/logic/minecraft/auth/MojangAccountList.cpp:186
 msgctxt "MojangAccountList|"
 msgid "Active?"
-msgstr ""
+msgstr "Aktiv?"
 
 #: src/logic/minecraft/auth/MojangAccountList.cpp:189
-#, fuzzy
 msgctxt "MojangAccountList|"
 msgid "Name"
 msgstr "Namn"
 
 #: src/logic/minecraft/auth/MojangAccountList.cpp:199
-#, fuzzy
 msgctxt "MojangAccountList|"
 msgid "The name of the version."
-msgstr "Ändra versionen av Minecraft"
+msgstr "Versionens namn."
 
 #: src/application/MultiMC.cpp:538
-#, fuzzy
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "Inställningar"
@@ -2623,6 +2595,9 @@ msgid ""
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
 msgstr ""
+"Både uppdateringen och dess återställning misslyckades.\n"
+"Du måste reparera MultiMC manuellt.\n"
+"Var god och meddela oss varför och hur detta hände."
 
 #: src/application/MultiMC.cpp:895
 #, qt-format
@@ -2631,6 +2606,8 @@ msgid ""
 "Couldn't replace file %1. Changes were reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Kunde inte ersätta filen %1. Ändringarna återställdes.\n"
+"Läs MultiMC's loggfil för mer information."
 
 #: src/application/MultiMC.cpp:899
 #, qt-format
@@ -2639,17 +2616,19 @@ msgid ""
 "Couldn't remove file %1. Changes were reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Kunde inte ta bort filen %1. Ändringarna återställdes.\n"
+"Läs MultiMC's loggfil för mer information."
 
 #: src/application/MultiMC.cpp:903
 msgctxt "MultiMC|"
 msgid "The new version didn't start and the update was rolled back."
 msgstr ""
+"Uppdateringen återställdes eftersom den nya versionen inte kunde starta."
 
 #: src/application/MultiMC.cpp:909
-#, fuzzy
 msgctxt "MultiMC|"
 msgid "Update failed!"
-msgstr "Uppladdning avslutad"
+msgstr "Uppladdning misslyckades!"
 
 #: src/application/pages/global/MultiMCPage.ui:42
 msgctxt "MultiMCPage|"
@@ -2667,7 +2646,6 @@ msgid "Check for updates when MultiMC starts?"
 msgstr "Sök efter uppdateringar när MultiMC startats?"
 
 #: src/application/pages/global/MultiMCPage.ui:61
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Up&date Channel:"
 msgstr "Uppdateringskanal:"
@@ -2678,37 +2656,31 @@ msgid "No channel selected."
 msgstr "Ingen instans utvald."
 
 #: src/application/pages/global/MultiMCPage.ui:97
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Launcher:"
-msgstr "Startare:"
+msgstr "Programstartare:"
 
 #: src/application/pages/global/MultiMCPage.ui:166
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "I&nstances:"
 msgstr "Instanser:"
 
 #: src/application/pages/global/MultiMCPage.ui:186
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Mods:"
 msgstr "Moddar:"
 
 #: src/application/pages/global/MultiMCPage.ui:229
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Icons:"
 msgstr "Ikoner:"
 
 #: src/application/pages/global/MultiMCPage.ui:297
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "By &last launched"
 msgstr "Efter senast startade"
 
 #: src/application/pages/global/MultiMCPage.ui:307
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "By &name"
 msgstr "Efter namn"
@@ -2716,46 +2688,39 @@ msgstr "Efter namn"
 #: src/application/pages/global/MultiMCPage.ui:332
 msgctxt "MultiMCPage|"
 msgid "Icon Theme"
-msgstr ""
+msgstr "Ikontema"
 
 #: src/application/pages/global/MultiMCPage.ui:353
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Simple (Dark Icons)"
-msgstr "Simple (ljusa ikoner)"
+msgstr "Simple (mörka ikoner)"
 
 #: src/application/pages/global/MultiMCPage.ui:363
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Simple (Blue Icons)"
-msgstr "Simple (ljusa ikoner)"
+msgstr "Simple (blå ikoner)"
 
 #: src/application/pages/global/MultiMCPage.ui:368
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Simple (Colored Icons)"
-msgstr "Simple (ljusa ikoner)"
+msgstr "Simple (färgade ikoner)"
 
 #: src/application/pages/global/MultiMCPage.ui:403
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Console"
-msgstr "Konsol-Inställningar"
+msgstr "Konsol"
 
 #: src/application/pages/global/MultiMCPage.ui:409
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Console Settings"
 msgstr "Konsol-Inställningar"
 
 #: src/application/pages/global/MultiMCPage.ui:415
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Show console while the game is running?"
 msgstr "Vissa konsolen under tiden som spelet är igång?"
 
 #: src/application/pages/global/MultiMCPage.ui:422
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "Stäng konsolen automatiskt när spelet avslutas?"
@@ -2763,23 +2728,22 @@ msgstr "Stäng konsolen automatiskt när spelet avslutas?"
 #: src/application/pages/global/MultiMCPage.ui:432
 msgctxt "MultiMCPage|"
 msgid "History limit"
-msgstr ""
+msgstr "Begränsa antalet logg-rader som sparas"
 
 #: src/application/pages/global/MultiMCPage.ui:438
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "Stoppa loggning om den blir för stor"
 
 #: src/application/pages/global/MultiMCPage.ui:451
 msgctxt "MultiMCPage|"
 msgid " lines"
-msgstr ""
+msgstr " rader"
 
 #: src/application/pages/global/MultiMCPage.ui:479
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Console font"
-msgstr "Konsolfönster för "
+msgstr "Konsolens typsnitt"
 
 #: src/application/pages/global/MultiMCPage.ui:117
 msgctxt "MultiMCPage|"
@@ -2894,17 +2858,17 @@ msgstr "Engelska"
 #: src/application/pages/global/MultiMCPage.cpp:442
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Någonting/ERROR] Ett läskigt fel!"
 
 #: src/application/pages/global/MultiMCPage.cpp:451
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Ett ofarligt meddelande..."
 
 #: src/application/pages/global/MultiMCPage.cpp:460
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Någonting/WARN] En inte helt så läskig varning."
 
 #: src/logic/net/NetJob.cpp:93
 #, qt-format
@@ -2913,6 +2877,8 @@ msgid ""
 "Job '%1' failed to process:\n"
 "%2"
 msgstr ""
+"Jobb '%1' misslyckades:\n"
+"%2"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 msgctxt "NewInstanceDialog|"
@@ -2925,26 +2891,24 @@ msgid "Name"
 msgstr "Namn"
 
 #: src/application/dialogs/NewInstanceDialog.ui:86
-#, fuzzy
 msgctxt "NewInstanceDialog|"
 msgid "&Group:"
-msgstr "Gruppnamn"
+msgstr "&Grupp:"
 
 #: src/application/dialogs/NewInstanceDialog.ui:147
 msgctxt "NewInstanceDialog|"
 msgid "Impor&t Modpack (local file or link):"
-msgstr ""
+msgstr "Importera modpack (lokal fil eller länk):"
 
 #: src/application/dialogs/NewInstanceDialog.ui:154
-#, fuzzy
 msgctxt "NewInstanceDialog|"
 msgid "Vani&lla Minecraft (select version):"
-msgstr "Ändra versionen av Minecraft"
+msgstr "Standard Minecraft (välj version):"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:92
 msgctxt "NewInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Ingen grupp"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:196
 msgctxt "NewInstanceDialog|"
@@ -2952,10 +2916,9 @@ msgid "Change Minecraft version"
 msgstr "Ändra versionen av Minecraft"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:226
-#, fuzzy
 msgctxt "NewInstanceDialog|"
 msgid "Choose modpack"
-msgstr "Core-moddar"
+msgstr "Välj modpack"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:226
 msgctxt "NewInstanceDialog|"
@@ -2969,6 +2932,8 @@ msgid ""
 "Failed to load news RSS feed:\n"
 "%1"
 msgstr ""
+"Misslyckades att hämta RSS-flödet:\n"
+"%1"
 
 #: src/logic/news/NewsEntry.cpp:24 src/logic/news/NewsEntry.cpp:60
 msgctxt "NewsEntry|"
@@ -2991,7 +2956,6 @@ msgid "Notes"
 msgstr "Noteringar"
 
 #: src/application/dialogs/NotificationDialog.ui:14
-#, fuzzy
 msgctxt "NotificationDialog|"
 msgid "Notification"
 msgstr "MultiMC-notifikationer"
@@ -3009,10 +2973,9 @@ msgid "Close"
 msgstr "Stäng"
 
 #: src/logic/NullInstance.h:33
-#, fuzzy
 msgctxt "NullInstance|"
 msgid "Unknown instance type"
-msgstr "Okänt fel vid läsning av %1"
+msgstr "Okänd instanstyp"
 
 #: src/logic/minecraft/ftb/OneSixFTBInstance.cpp:135
 msgctxt "OneSixFTBInstance|"
@@ -3020,16 +2983,15 @@ msgid "OneSix FTB"
 msgstr ""
 
 #: src/logic/minecraft/onesix/OneSixInstance.cpp:345
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixInstance|"
 msgid "Couldn't remove stale jar file: %1"
-msgstr "Kunde inte ta bort filen"
+msgstr "Kunde inte ta bort gammal JAR-fil: %1"
 
 #: src/logic/minecraft/onesix/OneSixInstance.cpp:361
-#, fuzzy
 msgctxt "OneSixInstance|"
 msgid "Failed to create the custom Minecraft jar file."
-msgstr "Ett fel uppstod vid skapandet av mappen för Minecraft."
+msgstr "Misslyckades att skapa den anpassade Minecraft JAR-filen."
 
 #: src/logic/minecraft/onesix/OneSixInstance.cpp:601
 msgctxt "OneSixInstance|"
@@ -3079,23 +3041,27 @@ msgid "Assets for %1"
 msgstr "Assets för %1"
 
 #: src/logic/minecraft/onesix/OneSixUpdate.cpp:160
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixUpdate|"
 msgid ""
 "Failed to download the assets index:\n"
 "%1"
-msgstr "Ett fel uppstod vid nedladdningen av asset-indexet!"
+msgstr ""
+"Ett fel uppstod vid nedladdningen av resurslistan:\n"
+"%1"
 
 #: src/logic/minecraft/onesix/OneSixUpdate.cpp:170
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixUpdate|"
 msgid ""
 "Failed to download assets:\n"
 "%1"
-msgstr "Ett fel uppstod vid nedladdningen av assets!"
+msgstr ""
+"Ett fel uppstod vid nedladdningen av resurser:\n"
+"%1"
 
 #: src/logic/minecraft/onesix/OneSixUpdate.cpp:310
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OneSixUpdate|"
 msgid ""
 "Failed to download the following files:\n"
@@ -3107,6 +3073,7 @@ msgstr ""
 "Misslyckades att ladda ner de följande filerna:\n"
 "%1\n"
 "\n"
+"Anledning: %2\n"
 "Var god och försök igen."
 
 #: src/logic/minecraft/onesix/OneSixUpdate.cpp:408
@@ -3117,6 +3084,10 @@ msgid ""
 "Reason:\n"
 "%1"
 msgstr ""
+"Misslyckades att uppdatera spelet: det var inte möjligt att hämta några FML-"
+"bibliotek:\n"
+"Anledning:\n"
+"%1"
 
 #: src/logic/minecraft/onesix/OneSixUpdate.cpp:175
 msgctxt "OneSixUpdate|"
@@ -3202,10 +3173,9 @@ msgid "Upload"
 msgstr "Ladda upp"
 
 #: src/application/pages/OtherLogsPage.ui:91
-#, fuzzy
 msgctxt "OtherLogsPage|"
 msgid "Clean"
-msgstr "Töm"
+msgstr "Rensa"
 
 #: src/application/pages/OtherLogsPage.ui:51
 #: src/application/pages/OtherLogsPage.ui:88
@@ -3244,12 +3214,14 @@ msgid ""
 "The file (%1) is too big. You may want to open it in a viewer optimized for "
 "large files."
 msgstr ""
+"Filen (%1) är för stor. Du bör öppna den i ett program som är anpassat till "
+"att öppna stora filer."
 
 #: src/application/pages/OtherLogsPage.cpp:136
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
-msgstr ""
+msgstr "Filen (%1) är inte läsbar."
 
 #: src/application/pages/OtherLogsPage.cpp:172
 #, qt-format
@@ -3264,63 +3236,64 @@ msgid "Unable to delete %1: %2"
 msgstr "Kunde inte ta bort %1: %2"
 
 #: src/application/pages/OtherLogsPage.cpp:195
-#, fuzzy
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
-msgstr "Töm"
+msgstr "Rensa"
 
 #: src/application/pages/OtherLogsPage.cpp:198
-#, fuzzy
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr "Vill du verkligen ta bort %1?"
+msgstr "Vill du verkligen ta bort alla loggfiler?"
 
 #: src/application/pages/OtherLogsPage.cpp:203
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OtherLogsPage|"
 msgid ""
 "Do you really want to these files?\n"
 "%1"
-msgstr "Vill du verkligen ta bort %1?"
+msgstr ""
+"Vill du verkligen ta bort dessa filer?\n"
+"%1"
 
 #: src/application/pages/OtherLogsPage.cpp:230
-#, fuzzy
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
-msgstr "Kunde inte ta bort filen"
+msgstr "Kunde inte ta bort en del filer!"
 
 #: src/application/pages/OtherLogsPage.cpp:235
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OtherLogsPage|"
 msgid ""
 "Couldn't delete some files:\n"
 "%1"
-msgstr "Kunde inte ta bort filen"
+msgstr ""
+"Kunde inte ta bort en del filer:\n"
+"%1"
 
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
-msgstr ""
+msgstr "paste.ee API-nyckel"
 
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "No key - &2MB upload limit"
-msgstr ""
+msgstr "Ingen API-nyckel - max 2 MB"
 
 #: src/application/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr ""
+msgstr "MultiMC's API-nyckel - max 12 MB"
 
 #: src/application/pages/global/PasteEEPage.ui:65
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr ""
+msgstr "Din egna nyckel - max 12 MB:"
 
 #: src/application/pages/global/PasteEEPage.ui:78
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
-msgstr ""
+msgstr "Klistra in din egna API-nyckel här!"
 
 #: src/application/pages/global/PasteEEPage.ui:92
 msgctxt "PasteEEPage|"
@@ -3332,17 +3305,22 @@ msgid ""
 "account, you can add your API key here and have your uploaded logs paired "
 "with your account.</p></body></html>"
 msgstr ""
+"<html><head/><body><p>MultiMC använder <a href=\"https://paste.ee\"><span "
+"style=\" text-decoration: underline; color:#2980b9;\">paste.ee</span></a> "
+"för att ladda upp loggfiler. Om du har ett <a href=\"https://paste.ee\"><"
+"span style=\" text-decoration: underline; color:#2980b9;\""
+">paste.ee</span></a> konto kan du lägga in din API-nyckel här så att dina "
+"uppladdade loggfiler paras ihop med dit konto.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
-#, fuzzy
 msgctxt "PasteEEPage|"
 msgid "Log Upload"
-msgstr "Ladda upp"
+msgstr "Uppladdning av loggfil"
 
 #: src/logic/net/PasteUpload.cpp:43
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
-msgstr ""
+msgstr "Skickar till paste.ee"
 
 #: src/logic/net/PasteUpload.cpp:72
 msgctxt "PasteUpload|"
@@ -3351,13 +3329,13 @@ msgid ""
 msgstr "paste.ee gav ett felmeddelande. Konsultera loggen för mer information"
 
 #: src/logic/launch/steps/PostLaunchCommand.cpp:31
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
 msgstr "Kör \"Kommando efter stänging\": %1"
 
 #: src/logic/launch/steps/PostLaunchCommand.cpp:39
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "PostLaunchCommand|"
 msgid ""
 "Post-Launch command failed with code %1.\n"
@@ -3367,7 +3345,6 @@ msgstr ""
 "\n"
 
 #: src/logic/launch/steps/PostLaunchCommand.cpp:62
-#, fuzzy
 msgctxt "PostLaunchCommand|"
 msgid ""
 "Post-Launch command ran successfully.\n"
@@ -3377,13 +3354,13 @@ msgstr ""
 "\n"
 
 #: src/logic/launch/steps/PreLaunchCommand.cpp:32
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Running Pre-Launch command: %1"
 msgstr "Kör \"Kommando före start\": %1"
 
 #: src/logic/launch/steps/PreLaunchCommand.cpp:40
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "PreLaunchCommand|"
 msgid ""
 "Pre-Launch command failed with code %1.\n"
@@ -3393,7 +3370,6 @@ msgstr ""
 "\n"
 
 #: src/logic/launch/steps/PreLaunchCommand.cpp:63
-#, fuzzy
 msgctxt "PreLaunchCommand|"
 msgid ""
 "Pre-Launch command ran successfully.\n"
@@ -3553,12 +3529,14 @@ msgid "load id %1 does not match internal id %2"
 msgstr "Load-ID %1 matchar inte den interna ID:n %2"
 
 #: src/logic/minecraft/onesix/OneSixProfileStrategy.cpp:217
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "%1 has the same order as the following components:\n"
 "%2"
-msgstr "%1 har samma ordning som %2"
+msgstr ""
+"%1 har samma ordningsföljd som följande komponenter:\n"
+"%2"
 
 #: src/logic/minecraft/ProfileUtils.cpp:107
 #: src/logic/minecraft/ProfileUtils.cpp:140
@@ -3568,10 +3546,10 @@ msgid "Unable to open the version file %1: %2."
 msgstr "Kunde inte öppna versions filen %1: %2."
 
 #: src/logic/minecraft/ProfileUtils.cpp:128
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Kunde inte bearbeta versions filen %1: %2 vid %3."
+msgstr "Kunde inte bearbeta versions filen %1: %2 (linje %3, kolumn %4)."
 
 #: src/logic/minecraft/ProfileUtils.cpp:149
 #, qt-format
@@ -3609,7 +3587,7 @@ msgstr "Beta"
 #, qt-format
 msgctxt "QObject|"
 msgid "Can't apply incomplete/builtin Minecraft version %1"
-msgstr ""
+msgstr "Kunde inte applicera ofullständig/inbyggd Minecraft version %1"
 
 #: src/logic/minecraft/MinecraftVersion.cpp:101
 msgctxt "QObject|"
@@ -3617,6 +3595,8 @@ msgid ""
 "The patch file doesn't exist locally. It's possible it just needs to be "
 "downloaded."
 msgstr ""
+"Patch-filen existerar inte lokalt. Det är möjligt att den måste laddas ned "
+"först."
 
 #: src/logic/minecraft/MinecraftVersion.cpp:119
 #, qt-format
@@ -3625,33 +3605,35 @@ msgid ""
 "The patch file couldn't be read:\n"
 "%1"
 msgstr ""
+"Patch-filen kunde inte läsas:\n"
+"%1"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:240
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
+msgstr "Versions-filen innehåller element som inte stöds: '-libraries'"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:244
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
+msgstr "Versions-filen innehåller element som inte stöds: '-tweakers'"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:248
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr ""
+msgstr "Versions-filen innehåller element som inte stöds: '-minecraftArguments'"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:332
 #, qt-format
 msgctxt "QObject|"
 msgid "Can't write incomplete/builtin Minecraft version %1"
-msgstr ""
+msgstr "Kunde inte skriva ofullständig/inbyggd Minecraft version %1"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:348
 #, qt-format
 msgctxt "QObject|"
 msgid "Unhandled object type while processing %1"
-msgstr ""
+msgstr "Objekttyp som inte togs omhand: %1"
 
 #: src/logic/minecraft/MinecraftVersion.cpp:171
 #, qt-format
@@ -3690,15 +3672,14 @@ msgid "The mod author didn't provide a website link for this mod."
 msgstr "Mod-utvecklaren har inte utgett en webside-länk för denna mod."
 
 #: src/application/GuiUtil.cpp:29 src/application/GuiUtil.cpp:38
-#, fuzzy
 msgctxt "QObject|"
 msgid "Upload failed"
-msgstr "Uppladdning avslutad"
+msgstr "Uppladdning misslyckades"
 
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr ""
+msgstr "Loggfilen är för stor. Du måste ladda upp den manuellt."
 
 #: src/application/GuiUtil.cpp:48
 msgctxt "QObject|"
@@ -3737,35 +3718,51 @@ msgid ""
 "p><p>Rootbear75 &lt;<a href='https://twitter.com/rootbear75'>@rootbear75</"
 "a>&gt; (build server)</p><h3>Patreon Patrons</h3>%1</body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN' 'http://www.w3.org/TR/REC-"
+"html40/strict.dtd'><html><head><meta name='qrichtext' content='1' /><style "
+"type='text/css'>p { white-space: pre-wrap; margin-top:2px; margin-bottom:2px;"
+" }</style></head><body style=' font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;'><h3>MultiMC Utvecklare</h3><p>Andrew Okin "
+"&lt;<a href='mailto:forkk@forkk.net'>forkk@forkk.net</a>&gt;</p><p>Petr "
+"Mrázek &lt;<a "
+"href='mailto:peterix@gmail.com'>peterix@gmail.com</a>&gt;</p><p>Sky Welch "
+"&lt;<a href='mailto:multimc@bunnies.io'>multimc@bunnies.io</a>&gt;</p><p>Jan "
+"(02JanDal) &lt;<a "
+"href='mailto:02jandal@gmail.com'>02jandal@gmail.com</a>&gt;</p><h3>Med tack "
+"till</h3><p>Orochimarufan &lt;<a href='mailto:orochimarufan.x3@gmail.com'>oro"
+"chimarufan.x3@gmail.com</a>&gt;</p><p>TakSuyu &lt;<a "
+"href='mailto:taksuyu@gmail.com'>taksuyu@gmail.com</a>&gt;</p><p>Kilobyte "
+"&lt;<a href='mailto:stiepen22@gmx.de'>stiepen22@gmx.de</a>&gt;</p><p>"
+"Robotbrain &lt;<a "
+"href='https://twitter.com/skylordelros'>@skylordelros</a>&gt;</p><p>"
+"Rootbear75 &lt;<a href='https://twitter.com/rootbear75'>@rootbear75</a>&gt; "
+"(server)</p><h3>Patreon Patrons</h3>%1</body></html>"
 
 #: src/application/dialogs/AboutDialog.cpp:60
-#, fuzzy
 msgctxt "QObject|"
 msgid "<p>Loading...</p>"
-msgstr "Hämtar nyheter..."
+msgstr "<p>Laddar...</p>"
 
 #: src/logic/minecraft/legacy/LwjglVersionList.h:52
 msgctxt "QObject|"
 msgid "Upstream"
-msgstr ""
+msgstr "Källa"
 
 #: src/logic/minecraft/ftb/FTBProfileStrategy.cpp:31
-#, fuzzy
 msgctxt "QObject|"
 msgid "Minecraft (tracked)"
-msgstr "Minecraft %1 (%2)"
+msgstr "Minecraft (extern)"
 
 #: src/logic/minecraft/ftb/FTBProfileStrategy.cpp:68
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (FTB pack)"
-msgstr ""
+msgstr "%1 (FTB-instans)"
 
 #: src/logic/minecraft/ftb/FTBProfileStrategy.cpp:71
-#, fuzzy
 msgctxt "QObject|"
 msgid "Unknown"
-msgstr "Okänt fel"
+msgstr "Okänt"
 
 #: src/application/dialogs/UpdateDialog.cpp:173
 #, qt-format
@@ -3773,23 +3770,25 @@ msgctxt "QObject|"
 msgid ""
 "<p>There are no code changes between your current version and latest %1.</p>"
 msgstr ""
+"<p>Det finns inga ändringar mellan den version du använder och senaste "
+"%1.</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:177
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
+msgstr "<p>Följande ändringar har lagts till sedan den version du använder:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:184
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr ""
+msgstr "<p>Uppdateringen tar bort %1 ändringar och lägger till följande %2:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:187
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
+msgstr "<p>Du kan <a href=\"%1\">se dessa ändringar på Github</a>.</p>"
 
 #: src/logic/minecraft/MojangVersionFormat.cpp:56
 #, qt-format
@@ -3798,6 +3797,8 @@ msgid ""
 "The 'minimumLauncherVersion' value of this version (%1) is higher than "
 "supported by MultiMC (%2). It might not work properly!"
 msgstr ""
+"Den angivna 'minimumLauncherVersion' för denna version (%1) är högre en vad "
+"som stöds av MultiMC (%2). Risken finns att den inte kommer fungera korrekt!"
 
 #: src/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3924,12 +3925,14 @@ msgid "Session"
 msgstr "Session"
 
 #: src/logic/status/StatusChecker.cpp:109
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "StatusChecker|"
 msgid ""
 "Failed to load status JSON:\n"
 "%1"
-msgstr "Ett fel uppstod vid nedladdningen av assets!"
+msgstr ""
+"Misslyckades att läsa status informationen som JSON:\n"
+"%1"
 
 #: src/application/pages/TexturePackPage.h:9
 msgctxt "TexturePackPage|"
@@ -3937,14 +3940,14 @@ msgid "Texture packs"
 msgstr "Texturpacket"
 
 #: src/logic/launch/steps/Update.cpp:46
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "Update|"
 msgid ""
 "Instance update failed because: %1.\n"
 "\n"
 msgstr ""
-"Kunde inte uppdatera modden:\n"
-"%1"
+"Kunde inte uppdatera instansen: %1.\n"
+"\n"
 
 #: src/application/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
@@ -3952,7 +3955,6 @@ msgid "MultiMC Update"
 msgstr "MultiMC Uppdatering"
 
 #: src/application/dialogs/UpdateDialog.ui:46
-#, fuzzy
 msgctxt "UpdateDialog|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -3967,10 +3969,10 @@ msgid ""
 "style=\" font-family:'Bitstream Vera Sans'; font-size:22pt;\">Loading "
 "changelog...</span></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">↵\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">↵\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR"
+"/REC-html40/strict.dtd\">↵\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\""
+">↵\n"
 "p, li { white-space: pre-wrap; }↵\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
 "size:11pt; font-weight:400; font-style:normal;\">↵\n"
@@ -4001,20 +4003,19 @@ msgid "No %1 updates found. You are running the latest version."
 msgstr "Inga %1 uppdateringar hittade. Du använder den senaste versionen."
 
 #: src/application/dialogs/UpdateDialog.cpp:25
-#, fuzzy
 msgctxt "UpdateDialog|"
 msgid "Close"
 msgstr "Stäng"
 
 #: src/application/dialogs/UpdateDialog.cpp:215
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid ""
 "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch "
 "changelog... Error: %1</span></p>"
 msgstr ""
 "<p align=\"center\" <span style=\"font-size:22pt;\">Hämtning av ändringslog "
-"misslyckades...</span></p>"
+"misslyckades... Felmeddelande: %1</span></p>"
 
 #: src/logic/minecraft/auth/flows/ValidateTask.cpp:55
 msgctxt "ValidateTask|"
@@ -4067,69 +4068,60 @@ msgid "Install"
 msgstr "Installera"
 
 #: src/application/pages/VersionPage.ui:67
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
-msgstr "Byt instansens ikon."
+msgstr "Byt det utvalda pakets versions."
 
 #: src/application/pages/VersionPage.ui:77
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr "Byt instansens ikon."
+msgstr "Låt det utvalda paketet appliceras tidigare."
 
 #: src/application/pages/VersionPage.ui:87
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr ""
+msgstr "Låt det utvalda paketet appliceras senare."
 
 #: src/application/pages/VersionPage.ui:97
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
-msgstr "Byt instansens namn."
+msgstr "Ta bort utvalda paket från instansen."
 
 #: src/application/pages/VersionPage.ui:110
 #: src/application/pages/VersionPage.ui:133
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Edit"
-msgstr "MCEdit"
+msgstr "Ändra"
 
 #: src/application/pages/VersionPage.ui:120
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Customize selected package."
-msgstr "Kopiera den utvalda Instansen."
+msgstr "Anpassa det utvalda paketet."
 
 #: src/application/pages/VersionPage.ui:123
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Customize"
-msgstr "egen"
+msgstr "Anpassa"
 
 #: src/application/pages/VersionPage.ui:130
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Edit selected package."
-msgstr "Kopiera den utvalda Instansen."
+msgstr "Ändra det utvalda paketet."
 
 #: src/application/pages/VersionPage.ui:140
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
-msgstr "Byt instansens namn."
+msgstr "Återställ det utvalda paketet till sitt ursprungstillstånd."
 
 #: src/application/pages/VersionPage.ui:143
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Revert"
-msgstr "Återställ?"
+msgstr "Återställ"
 
 #: src/application/pages/VersionPage.ui:163
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
-msgstr ""
+msgstr "Installera paketet för Minecraft Forge."
 
 #: src/application/pages/VersionPage.ui:166
 msgctxt "VersionPage|"
@@ -4137,10 +4129,9 @@ msgid "Install Forge"
 msgstr "Installera Forge"
 
 #: src/application/pages/VersionPage.ui:173
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
-msgstr "Installera LiteLoader"
+msgstr "Installera LiteLoader."
 
 #: src/application/pages/VersionPage.ui:176
 msgctxt "VersionPage|"
@@ -4148,26 +4139,24 @@ msgid "Install LiteLoader"
 msgstr "Installera LiteLoader"
 
 #: src/application/pages/VersionPage.ui:183
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install normal mods."
-msgstr "Installera Forge"
+msgstr "Installera vanliga moddar."
 
 #: src/application/pages/VersionPage.ui:186
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install mods"
-msgstr "Installera"
+msgstr "Installera moddar"
 
 #: src/application/pages/VersionPage.ui:196
 msgctxt "VersionPage|"
 msgid "Advanced"
-msgstr ""
+msgstr "Avancerat"
 
 #: src/application/pages/VersionPage.ui:206
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
-msgstr ""
+msgstr "Lägg till en mod i Minecrafts JAR-fil."
 
 #: src/application/pages/VersionPage.ui:209
 msgctxt "VersionPage|"
@@ -4177,7 +4166,7 @@ msgstr "Lägg till Jar-mod"
 #: src/application/pages/VersionPage.ui:216
 msgctxt "VersionPage|"
 msgid "Reset apply order of packages."
-msgstr ""
+msgstr "Nollställ appliceringsordning för paket."
 
 #: src/application/pages/VersionPage.ui:219
 msgctxt "VersionPage|"
@@ -4187,7 +4176,7 @@ msgstr "Nollställ ordning"
 #: src/application/pages/VersionPage.ui:226
 msgctxt "VersionPage|"
 msgid "Reload all packages."
-msgstr ""
+msgstr "Ladda om alla paket."
 
 #: src/application/pages/VersionPage.ui:229
 msgctxt "VersionPage|"
@@ -4211,33 +4200,31 @@ msgid "Couldn't remove file"
 msgstr "Kunde inte ta bort filen"
 
 #: src/application/pages/VersionPage.cpp:220
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
-msgstr "Ladda om instanslistan."
+msgstr "Kunde inte ladda instansens profilinformation."
 
 #: src/application/pages/VersionPage.cpp:159
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
-msgstr ""
+msgstr "%1 kan ha problem."
 
 #: src/application/pages/VersionPage.cpp:162
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
-msgstr ""
+msgstr "%1 har problem!"
 
 #: src/application/pages/VersionPage.cpp:176
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Error: "
-msgstr "Fel"
+msgstr "Fel: "
 
 #: src/application/pages/VersionPage.cpp:180
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr ""
+msgstr "Varning: "
 
 #: src/application/pages/VersionPage.cpp:263
 msgctxt "VersionPage|"
@@ -4248,25 +4235,28 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+"Detta kommer lägga till moddar direkt i Minecrafts JAR-fil.\n"
+"Om du inte VET säkert att detta är vad som MÅSTE göras så bör du använda "
+"mods-mappen (Loader-moddar).\n"
+"\n"
+"Vill du fortsätta?"
 
 #: src/application/pages/VersionPage.cpp:267
 msgctxt "VersionPage|"
 msgid "I understand, continue."
-msgstr ""
+msgstr "Jag förstår, fortsätt."
 
 #: src/application/pages/VersionPage.cpp:267
 msgctxt "VersionPage|"
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: src/application/pages/VersionPage.cpp:274
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Välj Jarmoddar"
 
 #: src/application/pages/VersionPage.cpp:274
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft jar moddar (*.zip *.jar)"
@@ -4303,13 +4293,11 @@ msgstr ""
 "inkluderar saker som Forge eller liknande."
 
 #: src/application/pages/VersionPage.cpp:397
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
-msgstr "Hämtar lista över LiteLoader-versioner..."
+msgstr "Misslyckades att ladda ner eller läsa listan över LiteLoader versioner!"
 
 #: src/application/pages/VersionPage.cpp:461
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Ett fel inträffade vid uppdateringen av instansen"
@@ -4327,7 +4315,7 @@ msgstr "Inga Forge versioner är för tillfället tillgängliga för Minecraft "
 #: src/application/pages/VersionPage.cpp:380
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
-msgstr ""
+msgstr "Misslyckades att hämta eller läsa listorna över Forge-versioner!"
 
 #: src/application/pages/VersionPage.cpp:392
 msgctxt "VersionPage|"
@@ -4341,13 +4329,11 @@ msgstr ""
 "Inga LiteLoader versioner är för tillfället tillgängliga för Minecraft "
 
 #: src/application/VersionProxyModel.cpp:99
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Version"
 msgstr "Version"
 
 #: src/application/VersionProxyModel.cpp:101
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
 msgstr "Minecraft"
@@ -4355,10 +4341,9 @@ msgstr "Minecraft"
 #: src/application/VersionProxyModel.cpp:103
 msgctxt "VersionProxyModel|"
 msgid "Branch"
-msgstr ""
+msgstr "Gren"
 
 #: src/application/VersionProxyModel.cpp:105
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Type"
 msgstr "Typ"
@@ -4366,57 +4351,50 @@ msgstr "Typ"
 #: src/application/VersionProxyModel.cpp:107
 msgctxt "VersionProxyModel|"
 msgid "Architecture"
-msgstr ""
+msgstr "Arkitektur"
 
 #: src/application/VersionProxyModel.cpp:109
 msgctxt "VersionProxyModel|"
 msgid "Path"
-msgstr ""
+msgstr "Sökväg"
 
 #: src/application/VersionProxyModel.cpp:117
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "The name of the version."
-msgstr "Ändra versionen av Minecraft"
+msgstr "Versionens namn."
 
 #: src/application/VersionProxyModel.cpp:119
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Minecraft version"
-msgstr "Ändra versionen av Minecraft"
+msgstr "Minecrafts version"
 
 #: src/application/VersionProxyModel.cpp:121
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "The version's branch"
-msgstr "Versions Typ"
+msgstr "Versionens gren"
 
 #: src/application/VersionProxyModel.cpp:123
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "The version's type"
-msgstr "Versions Typ"
+msgstr "Versionens typ"
 
 #: src/application/VersionProxyModel.cpp:125
 msgctxt "VersionProxyModel|"
 msgid "CPU Architecture"
-msgstr ""
+msgstr "CPU-arkitektur"
 
 #: src/application/VersionProxyModel.cpp:127
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Filesystem path to this version"
-msgstr "Välj en Java-version"
+msgstr "Sökväg till denna version"
 
 #: src/application/VersionProxyModel.cpp:174
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Recommended"
-msgstr "Rekommenderade"
+msgstr "Rekommenderad"
 
 #: src/application/VersionProxyModel.cpp:181
 #: src/application/VersionProxyModel.cpp:186
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Latest"
 msgstr "Senaste"
@@ -4437,23 +4415,21 @@ msgid "&Refresh"
 msgstr "&Ladda om"
 
 #: src/application/dialogs/VersionSelectDialog.cpp:127
-#, fuzzy
 msgctxt "VersionSelectDialog|"
 msgid "Error"
 msgstr "Fel"
 
 #: src/application/dialogs/VersionSelectDialog.cpp:128
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "VersionSelectDialog|"
 msgid ""
 "List update failed:\n"
 "%1"
 msgstr ""
-"Kunde inte uppdatera modden:\n"
+"Misslyckades att uppdatera listan:\n"
 "%1"
 
 #: src/logic/minecraft/WorldList.cpp:200
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Name"
 msgstr "Namn"
@@ -4461,62 +4437,54 @@ msgstr "Namn"
 #: src/logic/minecraft/WorldList.cpp:202
 msgctxt "WorldList|"
 msgid "Last Played"
-msgstr ""
+msgstr "Senast spelad"
 
 #: src/logic/minecraft/WorldList.cpp:211
-#, fuzzy
 msgctxt "WorldList|"
 msgid "The name of the world."
-msgstr "Ändra versionen av Minecraft"
+msgstr "Den sparade världens namn."
 
 #: src/logic/minecraft/WorldList.cpp:213
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
-msgstr ""
+msgstr "Tid och datum då världen senast användes."
 
 #: src/application/pages/WorldListPage.ui:41
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Add"
-msgstr "&Lägg till"
+msgstr "Lägg till"
 
 #: src/application/pages/WorldListPage.ui:51
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "Byt Namn"
 
 #: src/application/pages/WorldListPage.ui:58
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "&Kopiera"
 
 #: src/application/pages/WorldListPage.ui:65
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "&Remove"
-msgstr "Ta bort Konto"
+msgstr "Ta bort"
 
 #: src/application/pages/WorldListPage.ui:82
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
-msgstr ""
+msgstr "Kopiera terräng-frö"
 
 #: src/application/pages/WorldListPage.ui:102
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Refresh"
-msgstr "Ladda om"
+msgstr "Uppdatera"
 
 #: src/application/pages/WorldListPage.ui:109
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "&View Folder"
-msgstr "&Öppna folder"
+msgstr "&Öppna mapp"
 
 #: src/application/pages/WorldListPage.cpp:110
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "Är du säker?"
@@ -4529,12 +4497,15 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+"Detta kommer att radera den utvalda världen permanent.\n"
+"Denna värld kommer att vara bort för alltid (EN MYCKET LÅNG TID).\n"
+"\n"
+"Vill du fortsätta?"
 
 #: src/application/pages/WorldListPage.cpp:200
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
-msgstr "Kommandot misslyckades att starta"
+msgstr "Misslyckades att köra MCEdit!"
 
 #: src/application/pages/WorldListPage.cpp:200
 msgctxt "WorldListPage|"
@@ -4542,11 +4513,13 @@ msgid ""
 "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr ""
+"Misslyckades att köra MCEDIT.\n"
+"Det kan vara nödvändigt att installera om det."
 
 #: src/application/pages/WorldListPage.cpp:205
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
-msgstr ""
+msgstr "Inget MCEdit hittat!"
 
 #: src/application/pages/WorldListPage.cpp:205
 msgctxt "WorldListPage|"
@@ -4554,22 +4527,23 @@ msgid ""
 "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr ""
+"Du har inget MCEdit angivet, eller så finns inte det angivna MCEdit kvar.\n"
+"Du kan lägga till/ändra det i de globala inställningarna."
 
 #: src/application/pages/WorldListPage.cpp:225
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
-msgstr ""
+msgstr "Välj en Minecraft-värld (ZIP-format)"
 
 #: src/application/pages/WorldListPage.cpp:226
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr "Minecraft jar moddar (*.zip *.jar)"
+msgstr "Minecraft Värld (*.zip)"
 
 #: src/application/pages/WorldListPage.cpp:247
 msgctxt "WorldListPage|"
 msgid "Copy World"
-msgstr ""
+msgstr "Kopiera värld"
 
 #: src/application/pages/WorldListPage.cpp:247
 msgctxt "WorldListPage|"
@@ -4577,24 +4551,24 @@ msgid ""
 "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr ""
+"Att ändra en värld samtidigt som Minecraft körs kan potentiellt skada den.\n"
+"Vill du fortsätta?"
 
 #: src/application/pages/WorldListPage.cpp:271
 #: src/application/pages/WorldListPage.cpp:294
 msgctxt "WorldListPage|"
 msgid "World name"
-msgstr ""
+msgstr "Världens namn"
 
 #: src/application/pages/WorldListPage.cpp:271
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
-msgstr "Välj ett nytt namn för instansen."
+msgstr "Välj ett nytt namn för kopian."
 
 #: src/application/pages/WorldListPage.cpp:294
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
-msgstr "Ange ett nytt gruppnamn."
+msgstr "Ange ett nytt namn."
 
 #: src/logic/minecraft/auth/YggdrasilTask.cpp:115
 msgctxt "YggdrasilTask|"
