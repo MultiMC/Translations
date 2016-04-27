@@ -1589,18 +1589,18 @@ msgstr "Minecraft日志"
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr ""
+msgstr "MultiMC: 日志上传触发: %1"
 
 #: src/application/pages/LogPage.cpp:82
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr ""
+msgstr "MultiMC: 日志已上传到: %1"
 
 #: src/application/pages/LogPage.cpp:86
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr ""
+msgstr "MultiMC: 日志上传触发: %1"
 
 #: src/application/pages/LogPage.cpp:179
 #, qt-format
@@ -3453,12 +3453,14 @@ msgid "load id %1 does not match internal id %2"
 msgstr "加载ID%1与内部ID%2不匹配"
 
 #: src/logic/minecraft/onesix/OneSixProfileStrategy.cpp:217
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "%1 has the same order as the following components:\n"
 "%2"
-msgstr "%1有如同%2的相同顺序"
+msgstr ""
+"%1有与如下组件相同的顺序\n"
+"%2"
 
 #: src/logic/minecraft/ProfileUtils.cpp:107
 #: src/logic/minecraft/ProfileUtils.cpp:140
@@ -3468,10 +3470,10 @@ msgid "Unable to open the version file %1: %2."
 msgstr "无法打开版本文件%1：%2"
 
 #: src/logic/minecraft/ProfileUtils.cpp:128
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "无法处理版本文件%1：%2在%3。"
+msgstr "无法处理版本文件%1：%2在%3行%4列。"
 
 #: src/logic/minecraft/ProfileUtils.cpp:149
 #, qt-format
@@ -3516,7 +3518,7 @@ msgctxt "QObject|"
 msgid ""
 "The patch file doesn't exist locally. It's possible it just needs to be "
 "downloaded."
-msgstr ""
+msgstr "补丁文件在本地不存在，可能需要下载。"
 
 #: src/logic/minecraft/MinecraftVersion.cpp:119
 #, qt-format
@@ -3525,21 +3527,23 @@ msgid ""
 "The patch file couldn't be read:\n"
 "%1"
 msgstr ""
+"补丁文件无法读取；\n"
+"%1"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:240
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
+msgstr "版本文件包含不支持的元素“-libraries”"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:244
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
+msgstr "版本文件包含不支持的元素“-tweakers”"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:248
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr ""
+msgstr "版本文件包含不支持的元素“-minecraftArguments”"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:332
 #, qt-format
@@ -3551,7 +3555,7 @@ msgstr "Can't  incomplete/builtin Minecraft version %1"
 #, qt-format
 msgctxt "QObject|"
 msgid "Unhandled object type while processing %1"
-msgstr ""
+msgstr "在处理%1时遇到无法处理的对象类型"
 
 #: src/logic/minecraft/MinecraftVersion.cpp:171
 #, qt-format
@@ -3712,6 +3716,8 @@ msgid ""
 "The 'minimumLauncherVersion' value of this version (%1) is higher than "
 "supported by MultiMC (%2). It might not work properly!"
 msgstr ""
+"该版本（%1）的“最低启动器版本（minimumLauncherVersion）”比MultiMC支持的版本"
+"（%2）高。可能无法正常工作！"
 
 #: src/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -4119,24 +4125,23 @@ msgstr "无法加载实例配置文件。"
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
-msgstr ""
+msgstr "%1可能有问题。"
 
 #: src/application/pages/VersionPage.cpp:162
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
-msgstr ""
+msgstr "%1有问题！"
 
 #: src/application/pages/VersionPage.cpp:176
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Error: "
-msgstr "错误"
+msgstr "错误："
 
 #: src/application/pages/VersionPage.cpp:180
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr ""
+msgstr "警告："
 
 #: src/application/pages/VersionPage.cpp:263
 msgctxt "VersionPage|"
