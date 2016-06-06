@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-03-26 15:21+0200\n"
+"PO-Revision-Date: 2016-06-06 10:22+0200\n"
 "Last-Translator: Jan Dalheimer <jan@dalheimer.de>\n"
 "Language-Team: German "
 "<http://translate.multimc.org/projects/multimc/multimc5/de/>\n"
@@ -1237,7 +1237,7 @@ msgstr "Offline spielen"
 #: src/application/LaunchInteraction.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Ein unbekannter sessions-status würde wärend der Loginsekvens erhalten."
 
 #: src/application/LaunchInteraction.cpp:162
 msgctxt "LaunchController|"
@@ -1312,7 +1312,7 @@ msgstr "Konnte den Profiler nicht starten: %1"
 #: src/logic/launch/steps/LaunchMinecraft.cpp:40
 msgctxt "LaunchMinecraft|"
 msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr ""
+msgstr "Konnte das \"server-resource-packs\"-Verzeichnis nicht erstellen"
 
 #: src/logic/launch/steps/LaunchMinecraft.cpp:56
 #, qt-format
@@ -1634,18 +1634,18 @@ msgstr "Minecraft Log"
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr ""
+msgstr "MultiMC: Hochladen der Logdatei würde gestartet: %1"
 
 #: src/application/pages/LogPage.cpp:82
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr ""
+msgstr "MultiMC: Die Logdatei würde hochgeladen: %1"
 
 #: src/application/pages/LogPage.cpp:86
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr ""
+msgstr "MultiMC: Fehler beim hochladen der Logdatei!"
 
 #: src/application/pages/LogPage.cpp:179
 #, qt-format
@@ -1656,6 +1656,11 @@ msgid ""
 "You may have to fix your mods because the game is still loggging to files "
 "and likely wasting harddrive space at an alarming rate!"
 msgstr ""
+"MultiMC hat aufgehört den Log zu bewachen weil er mehr als %1 Zeilen lang "
+"würde.\n"
+"Es kann notvändig sein deine benutzen Mods zu ändern da das Spiel weiterhin "
+"sein Log auf die Festplatte schreibt und sie vermutlich alamierend schnell "
+"mitt Daten füllt!"
 
 #. Message displayed on instance exit
 #: src/logic/launch/LoggedProcess.cpp:60
@@ -1995,7 +2000,7 @@ msgstr ""
 #: src/application/MainWindow.cpp:363
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit"
-msgstr ""
+msgstr "Öffne MultiMC's subreddit"
 
 #: src/application/MainWindow.cpp:364
 msgctxt "MainWindow|"
@@ -2005,7 +2010,7 @@ msgstr ""
 #: src/application/MainWindow.cpp:365
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat"
-msgstr ""
+msgstr "Öffne MultiMC's discord-Chat"
 
 #: src/application/MainWindow.cpp:366
 msgctxt "MainWindow|"
@@ -2171,6 +2176,8 @@ msgid ""
 "Couldn't create folder for update downloads:\n"
 "%1"
 msgstr ""
+"Konnte das Verzeichnis zum herunterladen von Updates nicht erstellen:\n"
+"%1"
 
 #: src/application/MainWindow.cpp:1033
 msgctxt "MainWindow|"
@@ -2184,6 +2191,8 @@ msgid ""
 "Downloading modpack:\n"
 "%1"
 msgstr ""
+"Modpack wird heruntergeladen:\n"
+"%1"
 
 #: src/application/MainWindow.cpp:1051
 msgctxt "MainWindow|"
@@ -2408,19 +2417,19 @@ msgstr ""
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1 min %2 s"
 
 #: src/logic/minecraft/MinecraftInstance.cpp:341
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1 h %2 min"
 
 #: src/logic/minecraft/MinecraftInstance.cpp:343
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1 d %2 h %3 min"
 
 #: src/logic/minecraft/MinecraftInstance.cpp:351
 msgctxt "MinecraftInstance|"
@@ -2561,6 +2570,8 @@ msgid ""
 "jar modding failed because: %1.\n"
 "\n"
 msgstr ""
+"Jar-modding ist fehlgeschlagen: %1.\n"
+"\n"
 
 #: src/logic/minecraft/auth/MojangAccountList.cpp:186
 msgctxt "MojangAccountList|"
@@ -2589,6 +2600,9 @@ msgid ""
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
 msgstr ""
+"Sowie das Update wie das Zurückstellen ist fehlgeschlagen.\n"
+"Sie mussen MultiMC manuell reparieren.\n"
+"Bitte teilen sie uns mitt wie und warum dies passierte."
 
 #: src/application/MultiMC.cpp:895
 #, qt-format
@@ -2597,6 +2611,8 @@ msgid ""
 "Couldn't replace file %1. Changes were reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Konnte die Datei %1 nicht ersetzen. Die Änderungen würden Zurückgesetzt.\n"
+"Lesen sie MultiMC's Logdatei für mehr information."
 
 #: src/application/MultiMC.cpp:899
 #, qt-format
@@ -2605,11 +2621,15 @@ msgid ""
 "Couldn't remove file %1. Changes were reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Konnte die Datei %1 nicht löschen. Die Änderungen würden zurückgesetzt.\n"
+"Lesen sie MultiMC's Logdatei für mehr information."
 
 #: src/application/MultiMC.cpp:903
 msgctxt "MultiMC|"
 msgid "The new version didn't start and the update was rolled back."
 msgstr ""
+"Die neue version konnte nicht gestartet werden, daher würde das Update "
+"zurückgesetzt."
 
 #: src/application/MultiMC.cpp:909
 msgctxt "MultiMC|"
@@ -2714,17 +2734,17 @@ msgstr "Konsole automatisch schließen, nachdem das Spiel beendet wurde?"
 #: src/application/pages/global/MultiMCPage.ui:432
 msgctxt "MultiMCPage|"
 msgid "History limit"
-msgstr ""
+msgstr "Begrense wie viele Log-zeilen gespeichert werden sollen"
 
 #: src/application/pages/global/MultiMCPage.ui:438
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "Breche das Logen ab, sollte der Log zu groß werden"
 
 #: src/application/pages/global/MultiMCPage.ui:451
 msgctxt "MultiMCPage|"
 msgid " lines"
-msgstr ""
+msgstr " Zeilen"
 
 #: src/application/pages/global/MultiMCPage.ui:479
 msgctxt "MultiMCPage|"
@@ -3209,7 +3229,7 @@ msgstr ""
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
-msgstr ""
+msgstr "Die Datei (%1) ist nicht lesbahr."
 
 #: src/application/pages/OtherLogsPage.cpp:172
 #, qt-format
@@ -3261,27 +3281,27 @@ msgstr ""
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
-msgstr ""
+msgstr "paste.ee API-Schlüssel"
 
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "No key - &2MB upload limit"
-msgstr ""
+msgstr "Kein API-Schlüssel - max 2 MB"
 
 #: src/application/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr ""
+msgstr "MultiMC's API-Schlüssel - max 12 MB"
 
 #: src/application/pages/global/PasteEEPage.ui:65
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr ""
+msgstr "Ihr eigener API-Schlüssel - max 12 MB:"
 
 #: src/application/pages/global/PasteEEPage.ui:78
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
-msgstr ""
+msgstr "Setzen sie hier ihren API-Schlüssel ein!"
 
 #: src/application/pages/global/PasteEEPage.ui:92
 msgctxt "PasteEEPage|"
@@ -3293,6 +3313,13 @@ msgid ""
 "account, you can add your API key here and have your uploaded logs paired "
 "with your account.</p></body></html>"
 msgstr ""
+"<html><head/><body><p>MultiMC benutzt <a href=\"https://paste.ee\"><span "
+"style=\" text-decoration: underline; color:#2980b9;\">paste.ee</span></a> "
+"zum hochladen von Logdatein. Falls sie ein eigenes <a href=\"https://paste."
+"ee\"><span style=\" text-decoration: underline; color:#2980b9;\""
+">paste.ee</span></a>-Konto haben können sie hier ihren eigenen API-Schlüssel "
+"einsetzten. Dadurch werden ihre hochgeladenen Logdateien mit ihrem Konto "
+"verknupft.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3579,6 +3606,8 @@ msgid ""
 "The patch file doesn't exist locally. It's possible it just needs to be "
 "downloaded."
 msgstr ""
+"Die Patch-datei existiert nicht auf ihrem Computer. Eventuell muss sie erst "
+"heruntergeladen werden."
 
 #: src/logic/minecraft/MinecraftVersion.cpp:119
 #, qt-format
@@ -3587,21 +3616,25 @@ msgid ""
 "The patch file couldn't be read:\n"
 "%1"
 msgstr ""
+"Die Patch-datei konnte nicht gelesen werden:\n"
+"%1"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:240
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
+msgstr "Die Versions-datei enthält ein nicht unterstützes Element: '-libraries'"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:244
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
+msgstr "Die Versions-datei enthält ein nicht unterstützes Element: '-tweakers'"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:248
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
 msgstr ""
+"Die Versions-datei enthält ein nicht unterstützes Element: "
+"'-minecraftArguments'"
 
 #: src/logic/minecraft/onesix/OneSixVersionFormat.cpp:332
 #, qt-format
@@ -3613,7 +3646,7 @@ msgstr "Kann die unvollständige/eingebaute Minecraft Version %1 nicht schreiben
 #, qt-format
 msgctxt "QObject|"
 msgid "Unhandled object type while processing %1"
-msgstr ""
+msgstr "Nicht hantierter Objektentyp: %1"
 
 #: src/logic/minecraft/MinecraftVersion.cpp:171
 #, qt-format
@@ -3750,23 +3783,28 @@ msgctxt "QObject|"
 msgid ""
 "<p>There are no code changes between your current version and latest %1.</p>"
 msgstr ""
+"<p>Es gibt keine Änderungen zwischen der Version die sie benutzen und der "
+"neusten %1.</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:177
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
+msgstr "<p>Es gibt folgende Änderungen seit der Version die sie benutzen:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:184
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
 msgstr ""
+"<p>Mit dem Update werden %1 Änderung(en) gelöscht und folgende %2 Änderungen "
+"werden hinzugefugt:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:187
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr ""
+"<p>Sie können <a href=\"%1\">diese Änderungen auf Github betrachten</a>.</p>"
 
 #: src/logic/minecraft/MojangVersionFormat.cpp:56
 #, qt-format
@@ -3775,6 +3813,9 @@ msgid ""
 "The 'minimumLauncherVersion' value of this version (%1) is higher than "
 "supported by MultiMC (%2). It might not work properly!"
 msgstr ""
+"Der angegebene Wert in 'minimumLauncherVersion' für diese Version (%1) ist "
+"höcher als was von MultiMC unterstützt wird (%2). Möglicherweise können "
+"Probleme aufkommen!"
 
 #: src/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -4188,13 +4229,13 @@ msgstr "Instanzprofil konnte nicht geladen werden."
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
-msgstr ""
+msgstr "%1 kann Probleme haben."
 
 #: src/application/pages/VersionPage.cpp:162
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
-msgstr ""
+msgstr "%1 hat Probleme!"
 
 #: src/application/pages/VersionPage.cpp:176
 msgctxt "VersionPage|"
@@ -4204,7 +4245,7 @@ msgstr "Fehler "
 #: src/application/pages/VersionPage.cpp:180
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr ""
+msgstr "Warnung: "
 
 #: src/application/pages/VersionPage.cpp:263
 msgctxt "VersionPage|"
@@ -4417,7 +4458,7 @@ msgstr "Name"
 #: src/logic/minecraft/WorldList.cpp:202
 msgctxt "WorldList|"
 msgid "Last Played"
-msgstr ""
+msgstr "Zuletzt gespielt"
 
 #: src/logic/minecraft/WorldList.cpp:211
 msgctxt "WorldList|"
@@ -4427,7 +4468,7 @@ msgstr "Der Name der Mod."
 #: src/logic/minecraft/WorldList.cpp:213
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
-msgstr ""
+msgstr "Zeit und Datum wann die Welt zuletzt bespielt würde."
 
 #: src/application/pages/WorldListPage.ui:41
 msgctxt "WorldListPage|"
@@ -4452,7 +4493,7 @@ msgstr "&Entfernen"
 #: src/application/pages/WorldListPage.ui:82
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
-msgstr ""
+msgstr "Kopiere das Seed"
 
 #: src/application/pages/WorldListPage.ui:102
 msgctxt "WorldListPage|"
