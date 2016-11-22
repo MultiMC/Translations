@@ -14,6 +14,9 @@ then
 	mkdir $OUTPUT
 fi
 
+echo "Cleaning old .qm files..."
+rm -f $OUTPUT/*
+
 echo "Creating .qm files..."
 for po_file in $(ls *.po)
 do
