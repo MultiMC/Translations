@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-01-19 13:53+0200\n"
-"Last-Translator: Davide <dadodj174@gmail.com>\n"
+"PO-Revision-Date: 2017-01-19 14:39+0200\n"
+"Last-Translator: Alberto Del Villano <insane96mcp@gmail.com>\n"
 "Language-Team: Italian "
 "<http://translate.multimc.org/projects/multimc/multimc5/it/>\n"
 "Language: it\n"
@@ -93,9 +93,7 @@ msgstr "Crediti"
 #: src/application/dialogs/AboutDialog.ui:230
 msgctxt "AboutDialog|"
 msgid "No Language file loaded."
-msgstr ""
-"Traduzione IT Da un misterioso sconosciuto con un cuore grande come una "
-"montagna :p."
+msgstr "Nessun file della lingua caricato."
 
 #: src/application/dialogs/AboutDialog.ui:241
 msgctxt "AboutDialog|"
@@ -105,7 +103,7 @@ msgstr "Licenza"
 #: src/application/dialogs/AboutDialog.ui:529
 msgctxt "AboutDialog|"
 msgid "Forking/Redistribution"
-msgstr "Copia/Ridistribuzione"
+msgstr "Forking/Ridistribuzione"
 
 #: src/application/dialogs/AboutDialog.ui:535
 msgctxt "AboutDialog|"
@@ -216,8 +214,8 @@ msgid ""
 "Add&quot; button to add your Mojang or Minecraft account.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Benvenuto! Se sei nuovo, puoi cliccare sul bottone "
-"&quot;Ajouter&quot; per aggiungere il tuo account Mojang o Minecraft.</p></"
-"body></html>"
+"&quot;Aggiungi&quot; per aggiungere il tuo account Mojang o "
+"Minecraft.</p></body></html>"
 
 #: src/application/pages/global/AccountListPage.ui:56
 msgctxt "AccountListPage|"
@@ -268,7 +266,7 @@ msgid ""
 "Opens a dialog to select and upload a skin image to the selected account."
 msgstr ""
 "Apre una finestra per selezionare e caricare una skin per l'account "
-"selezionato"
+"selezionato."
 
 #: src/application/pages/global/AccountListPage.ui:106
 msgctxt "AccountListPage|"
@@ -278,7 +276,7 @@ msgstr "&Carica Skin"
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
-msgstr "Accounts"
+msgstr "Account"
 
 #: src/application/pages/global/AccountListPage.cpp:74
 msgctxt "AccountListPage|"
@@ -316,7 +314,9 @@ msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download the assets index:\n"
 "%1"
-msgstr "Impossibile scaricare l'indice delle risorse!"
+msgstr ""
+"Impossibile scaricare l'indice delle risorse!\n"
+"%1"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:85
 #, qt-format
@@ -424,8 +424,8 @@ msgctxt "CheckJava|"
 msgid ""
 "The java binary \"%1\" couldn't be found. Please set up java in the settings."
 msgstr ""
-"I binari Java \"%1\" non sono tati trovati. Perfavore cofigura Java nelle "
-"impostazioni. "
+"I file binari di Java \"%1\" non sono stati trovati. Per favore cofigura "
+"Java nelle impostazioni."
 
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
@@ -520,7 +520,7 @@ msgstr "Impossibile creare la cartella 'server-resource-packs'"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Il comando \"%1\" non è stato trovato."
+msgstr "Il comando pre-avvio \"%1\" non è stato trovato."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:88
@@ -599,7 +599,7 @@ msgstr "Editor esterni (lasciare vuoto per i parametri di default)"
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr "Editor di testo"
+msgstr "Editor di Testo:"
 
 #: src/application/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
@@ -710,39 +710,36 @@ msgstr "Il file selezionato non sembra essere un eseguibile"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr ""
+msgstr "Impossibile estrarre il .jar nativo '%1' alla destinazione '%2'"
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:35
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr "Verifica dei jar aggiornati..."
+msgstr "Verifica delle librerie FML..."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:61
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr "Download del nuovo minecraft.jar in corso..."
+msgstr "Scaricando le librerie FML..."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:89
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "Download del nuovo minecraft.jar in corso..."
+msgstr "Copiando le librerie FML nell'istanza..."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:100
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr ""
+msgstr "Impossibile creare la cartella delle librerie FML nell'istanza."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:105
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr ""
+msgstr "Impossibile copyare la libreria Forge/FML: %1."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:118
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid ""
 "Failed to download the following files:\n"
@@ -754,19 +751,18 @@ msgstr ""
 "Impossibile scaricare i seguenti file:\n"
 "%1\n"
 "\n"
+"Causa: %2\n"
 "Per favore prova di nuovo."
 
 #: src/api/logic/minecraft/onesix/update/FoldersTask.cpp:16
-#, fuzzy
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr "Impossibile creare la cartella per i binari di Minecraft."
+msgstr "Impossibile creare la cartella per i file binari di Minecraft."
 
 #: src/api/logic/minecraft/forge/ForgeInstaller.cpp:357
-#, fuzzy
 msgctxt "ForgeInstallTask|"
 msgid "Installing Forge..."
-msgstr "Installazione Forge..."
+msgstr "Installazione di Forge..."
 
 #: src/api/logic/minecraft/forge/ForgeInstaller.cpp:361
 msgctxt "ForgeInstallTask|"
@@ -774,18 +770,19 @@ msgid "Unknown error occured"
 msgstr "C'è stato un errore sconosciuto"
 
 #: src/api/logic/minecraft/forge/ForgeInstaller.cpp:374
-#, fuzzy
 msgctxt "ForgeInstallTask|"
 msgid "Failure to install Forge"
-msgstr "Installazione del Forge fallita"
+msgstr "Installazione di Forge fallita"
 
 #: src/api/logic/minecraft/forge/ForgeInstaller.cpp:404
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ForgeInstallTask|"
 msgid ""
 "Failure to download Forge:\n"
 "%1"
-msgstr "Download del Forge fallito"
+msgstr ""
+"Impossibile scaricare Forge:\n"
+"%1"
 
 #: src/api/logic/minecraft/forge/ForgeInstaller.cpp:437
 msgctxt "ForgeInstallTask|"
@@ -799,53 +796,48 @@ msgid "Fetching Forge version lists..."
 msgstr "Controllo della lista delle versioni del Forge..."
 
 #: src/api/logic/updater/DownloadTask.cpp:44
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
-msgstr "Caricamento delle info sulla versione..."
+msgstr "Caricamento delle informazione sulla versione..."
 
 #: src/api/logic/updater/DownloadTask.cpp:81
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr "Impossibile scaricare le info della versione."
+msgstr "Impossibile scaricare le informazioni della versione."
 
 #: src/api/logic/updater/DownloadTask.cpp:89
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
 msgstr "Lettura della lista di file per la nuova versione..."
 
 #: src/api/logic/updater/DownloadTask.cpp:102
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
 msgstr "Lettura della lista di file per la versione corrente..."
 
 #: src/api/logic/updater/DownloadTask.cpp:117
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
 msgstr ""
-"Processo delle liste di file - scoprendo come si installa l'aggiornamento..."
+"Processando la lista di file - cercando di capire come installare "
+"l'aggiornamento..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
 msgstr "Impossibile processare le liste di aggiornamento..."
 
 #: src/api/logic/updater/DownloadTask.cpp:134
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Download di %1 files di aggiornamento."
+msgstr "Scaricando %1 file di aggiornamento."
 
 #: src/api/logic/updater/DownloadTask.cpp:148
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "Impossibile scaricare file di aggiornamento."
+msgstr "Impossibile scaricare i file di aggiornamento: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -875,32 +867,31 @@ msgid "Icons"
 msgstr "Icone"
 
 #: src/api/logic/InstanceCopyTask.cpp:29
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
-msgstr "Copia l'Istanza"
+msgstr "Copiando l'istanza %1"
 
 #: src/api/logic/InstanceCopyTask.cpp:46
-#, fuzzy
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
-msgstr "Cartella dell'Istanza"
+msgstr "Impossibile copiare la cartella dell'istanza."
 
 #: src/api/logic/InstanceCopyTask.cpp:66
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "La copia della cartella dell'istanza è stata annullata."
 
 #: src/api/logic/InstanceCreationTask.cpp:23
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "Caricamento della lista delle versioni delle istanze..."
+msgstr "Creando un'istanza dalla versione %1"
 
 #: src/api/logic/InstanceCreationTask.cpp:27
 msgctxt "InstanceCreationTask|"
 msgid "The supplied version is not a Minecraft version."
-msgstr ""
+msgstr "La versione specificata non è una versione di Minecraft."
 
 #: src/api/logic/InstanceImportTask.cpp:35
 #, qt-format
@@ -909,63 +900,62 @@ msgid ""
 "Downloading modpack:\n"
 "%1"
 msgstr ""
+"Scaricando il Pacchetto di Mod:\n"
+"%1"
 
 #: src/api/logic/InstanceImportTask.cpp:41
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr ""
+msgstr "Scaricando il Pacchetto di Mod"
 
 #: src/api/logic/InstanceImportTask.cpp:89
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Estraendo il Pacchetto di Mod"
 
 #: src/api/logic/InstanceImportTask.cpp:105
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr ""
+msgstr "Imposibile estrarre il Pacchetto di Mod"
 
 #: src/api/logic/InstanceImportTask.cpp:113
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain instance.cfg"
-msgstr ""
+msgstr "L'archivio non contiene il file 'instance.cfg'"
 
 #: src/api/logic/InstanceImportTask.cpp:153
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Unable to commit instance"
-msgstr "Copia l'Istanza"
+msgstr "Impossibile memorizzare l'istanza"
 
 #: src/api/logic/InstanceImportTask.cpp:162
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "L'importazione dell'istanza è stata annullata."
 
 #: src/application/InstancePageProvider.h:38
 #: src/application/InstancePageProvider.h:55
-#, fuzzy
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
-msgstr "Seleziona le Mod da Caricare"
+msgstr "Mods"
 
 #: src/application/InstancePageProvider.h:41
 #: src/application/InstancePageProvider.h:58
-#, fuzzy
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
-msgstr "Seleziona le Mod da Caricare"
+msgstr "Core Mods"
 
 #: src/application/InstancePageProvider.h:45
 #: src/application/InstancePageProvider.h:61
 msgctxt "InstancePageProvider|"
 msgid "Worlds"
-msgstr ""
+msgstr "Mondi"
 
 #: src/application/InstancePageProvider.h:75
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
-msgstr "Aggiungi Istanza"
+msgstr "Modifica Istanza (%1)"
 
 #: src/application/pages/InstanceSettingsPage.ui:60
 msgctxt "InstanceSettingsPage|"
@@ -1008,13 +998,11 @@ msgid "The amount of memory available to store loaded Java classes."
 msgstr "La quantità di memoria disponiblile per memorizzare le classi di Java."
 
 #: src/application/pages/InstanceSettingsPage.ui:45
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java ins&tallation"
-msgstr "Verifica delle installazioni di Java..."
+msgstr "Installazione di Java"
 
 #: src/application/pages/InstanceSettingsPage.ui:87
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
 msgstr "Memoria"
@@ -1022,28 +1010,27 @@ msgstr "Memoria"
 #: src/application/pages/InstanceSettingsPage.ui:186
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr ""
+msgstr "Nota: Permgen viene automaticamente impostato in Java 8 e superiore"
 
 #: src/application/pages/InstanceSettingsPage.ui:199
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java arguments"
-msgstr "Argomenti JVM:"
+msgstr "Argomenti JVM"
 
 #: src/application/pages/InstanceSettingsPage.ui:231
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr ""
+msgstr "Finestre di gioco"
 
 #: src/application/pages/InstanceSettingsPage.ui:240
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
-msgstr ""
+msgstr "Finestra di Gioco"
 
 #: src/application/pages/InstanceSettingsPage.ui:252
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
-msgstr ""
+msgstr "Avviare minecraft con la finestra ingrandita?"
 
 #: src/application/pages/InstanceSettingsPage.ui:261
 msgctxt "InstanceSettingsPage|"
@@ -1056,19 +1043,16 @@ msgid "Window width:"
 msgstr "Larghezza finestra:"
 
 #: src/application/pages/InstanceSettingsPage.ui:312
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
 msgstr "Impostazioni della Console"
 
 #: src/application/pages/InstanceSettingsPage.ui:338
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr "Mostrare la console mentre il gioco è in funzione?"
+msgstr "Mostrare la console quando il gioco ha un arresto anomalo?"
 
 #: src/application/pages/InstanceSettingsPage.ui:371
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Cus&tom Commands"
 msgstr "Comandi Personalizzati"
@@ -1084,7 +1068,6 @@ msgid "Automatically close console when the game quits?"
 msgstr "Chiudere automaticamente la console all'uscita dal gioco?"
 
 #: src/application/pages/InstanceSettingsPage.ui:362
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "Comandi Personalizzati"
@@ -1100,7 +1083,6 @@ msgid "Pre-launch command:"
 msgstr "Comandi pre-avvio:"
 
 #: src/application/pages/InstanceSettingsPage.ui:403
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Wrapper command:"
 msgstr "Comandi pre-avvio:"
@@ -1154,7 +1136,6 @@ msgid "Settings"
 msgstr "Impostazioni"
 
 #: src/application/pages/InstanceSettingsPage.cpp:178
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "Seleziona una versione di Java"
@@ -1165,19 +1146,16 @@ msgid "Find Java executable"
 msgstr "Trova l'eseguibile di Java"
 
 #: src/application/InstanceWindow.cpp:39
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Console window for "
 msgstr "Finestra della console per "
 
 #: src/application/InstanceWindow.cpp:61
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Help"
 msgstr "Aiuto"
 
 #: src/application/InstanceWindow.cpp:74
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Close"
 msgstr "Chiudi"
@@ -1185,24 +1163,22 @@ msgstr "Chiudi"
 #: src/application/InstanceWindow.cpp:117
 msgctxt "InstanceWindow|"
 msgid "Kill"
-msgstr ""
+msgstr "Termina"
 
 #: src/application/InstanceWindow.cpp:118
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr ""
+msgstr "Termina l'istanza in esecuzione"
 
 #: src/application/InstanceWindow.cpp:122
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Avvia"
 
 #: src/application/InstanceWindow.cpp:123
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "Avvia l'istanza selezionata."
+msgstr "Avvia l'istanza selezionata"
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, qt-format
@@ -1261,9 +1237,10 @@ msgid "The amount of memory available to store loaded Java classes."
 msgstr "La quantità di memoria disponiblile per memorizzare le classi di Java."
 
 #: src/application/pages/global/JavaPage.ui:141
+#, fuzzy
 msgctxt "JavaPage|"
 msgid "Java Runtime"
-msgstr ""
+msgstr "Java Runtime"
 
 #: src/application/pages/global/JavaPage.ui:153
 msgctxt "JavaPage|"
@@ -1281,13 +1258,11 @@ msgid "Test"
 msgstr "Verifica"
 
 #: src/application/pages/global/JavaPage.ui:257
-#, fuzzy
 msgctxt "JavaPage|"
 msgid "Wrapper command:"
 msgstr "Comandi pre-avvio:"
 
 #: src/application/pages/global/JavaPage.ui:276
-#, fuzzy
 msgctxt "JavaPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1296,10 +1271,12 @@ msgid ""
 "variables.</p><p>Wrapper command allows running java using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
-"Il comando pre-avvio parte prima che l'istanza si avvii e il comando post-"
-"uscita parte dopo che si è chiusa Entrambe saranno eseguite in nella "
-"cartella di lavoro di MultiMC con INST_ID, INST_DIR, e INST_NAME come "
-"variabili d'ambiente."
+"<html><head/><body><p>Il comando pre-avvio parte prima che l'istanza si "
+"avvii e il comando post-uscita parte dopo che si è chiusa. Entrambe saranno "
+"eseguite in nella cartella di lavoro di MultiMC con INST_ID, INST_DIR, e "
+"INST_NAME come variabili d'ambiente.</p><p>I comandi di pre-avvio permettono "
+"di avviare java utilizzando programmi di pre-avvio extra (come 'optirun' su "
+"Linux)</p></body></html>"
 
 #: src/application/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
@@ -1327,7 +1304,6 @@ msgid "Java"
 msgstr "Java"
 
 #: src/application/pages/global/JavaPage.cpp:98
-#, fuzzy
 msgctxt "JavaPage|"
 msgid "Select a Java version"
 msgstr "Seleziona una versione di Java"
@@ -1338,10 +1314,9 @@ msgid "Find Java executable"
 msgstr "Trova l'eseguibile di Java"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:158
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "No Java version selected"
-msgstr "La versione selezionata non è valida"
+msgstr "Nessuna versione di Java selezionata"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:159
 msgctxt "JavaWizardPage|"
@@ -1352,9 +1327,14 @@ msgid ""
 "\n"
 "You can change the Java version in the settings later.\n"
 msgstr ""
+"Non hai selezionato una versione di Java o hai selezionato qualcosa che non "
+"funziona.\n"
+"MultiMC non riuscirà a far partire Minecraft.\n"
+"Vuoi procedere senza Java?\n"
+"\n"
+"Puoi cambiare la versione di Java nelle impostazioni più avanti.\n"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:283
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Find Java executable"
 msgstr "Trova l'eseguibile di Java"
@@ -1372,31 +1352,26 @@ msgstr ""
 "gioco."
 
 #: src/api/logic/minecraft/legacy/LwjglVersionList.cpp:59
-#, fuzzy
 msgctxt "LWJGLVersionList|"
 msgid "Version"
 msgstr "Versione"
 
 #: src/api/logic/minecraft/legacy/LwjglVersionList.cpp:62
-#, fuzzy
 msgctxt "LWJGLVersionList|"
 msgid "LWJGL version name."
-msgstr "Caricamento della lista delle versioni di LWJGL..."
+msgstr "Nome della versione di LWJGL."
 
 #: src/application/LaunchController.cpp:34
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "No instance specified"
 msgstr "Nessuna istanza selezionata"
 
 #: src/application/LaunchController.cpp:47
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "No Accounts"
 msgstr "Nessun Account"
 
 #: src/application/LaunchController.cpp:48
-#, fuzzy
 msgctxt "LaunchController|"
 msgid ""
 "In order to play Minecraft, you must have at least one Mojang or Minecraft "
@@ -1408,18 +1383,16 @@ msgstr ""
 "adesso?"
 
 #: src/application/LaunchController.cpp:62
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Which profile would you like to use?"
-msgstr "Quale account vuoi usare?"
+msgstr "Quale profilo vuoi usare?"
 
 #: src/application/LaunchController.cpp:78
 msgctxt "LaunchController|"
 msgid "No account selected for launch"
-msgstr ""
+msgstr "Nessun account selezionato per l'avvio"
 
 #: src/application/LaunchController.cpp:87
-#, fuzzy
 msgctxt "LaunchController|"
 msgid ""
 "Your account is currently not logged in. Please enter your password to log "
@@ -1429,7 +1402,6 @@ msgstr ""
 "password per connetterti di nuovo."
 
 #: src/application/LaunchController.cpp:103
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Play Offline"
 msgstr "Avvia Offline"
@@ -1437,55 +1409,49 @@ msgstr "Avvia Offline"
 #: src/application/LaunchController.cpp:123
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Ricevuto uno stato di sessione indeterminato durante il login."
 
 #: src/application/LaunchController.cpp:164
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Player name"
 msgstr "Nome del giocatore"
 
 #: src/application/LaunchController.cpp:165
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
 msgstr "Scegli il nome del tuo personaggio offline."
 
 #: src/application/LaunchController.cpp:187
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Failed to launch."
-msgstr "Impossibile creare l'istanza %1: "
+msgstr "Impossibile avviare."
 
 #: src/application/LaunchController.cpp:197
 #: src/application/LaunchController.cpp:237
 #: src/application/LaunchController.cpp:260
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "Errore"
 
 #: src/application/LaunchController.cpp:197
 #: src/application/LaunchController.cpp:198
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr "Aggiorna la lista delle istanze."
+msgstr "Impossibile caricare il profilo dell'istanza."
 
 #: src/application/LaunchController.cpp:205
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr "Impossibile avviare il profilatore: %1"
+msgstr "Impossibile istanziare un launcher."
 
 #: src/application/LaunchController.cpp:237
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
-msgstr "Impossibile avviare il profilatore: %1"
+msgstr "Impossibile avviare il profiler: %1"
 
 #: src/application/LaunchController.cpp:246
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchController|"
 msgid ""
 "The game launch is delayed until you press the button. This is the right "
@@ -1493,43 +1459,39 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
-"L'avvio di Minecraft stesso è ritardato fino a che non premi il pulsante. "
-"Questo è il momento giusto per impostare il profilatore, dato che il server "
-"dei profilatori adesso funziona.\n"
+"L'avvio di Minecraft stesso è ritardato finchè non premi il pulsante. Questo "
+"è il momento giusto per impostare il profiler, dato che il server dei "
+"profiler adesso funziona.\n"
 "\n"
 "%1"
 
 #: src/application/LaunchController.cpp:249
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Waiting"
 msgstr "In attesa"
 
 #: src/application/LaunchController.cpp:251
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "Avvia"
 
 #: src/application/LaunchController.cpp:259
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
-msgstr "Impossibile avviare il profilatore: %1"
+msgstr "Impossibile avviare il profiler: %1"
 
 #: src/application/LaunchController.cpp:288
 msgctxt "LaunchController|"
 msgid "Abort"
-msgstr ""
+msgstr "Annulla"
 
 #: src/application/LaunchController.cpp:304
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "Terminare Minecraft?"
 
 #: src/application/LaunchController.cpp:305
-#, fuzzy
 msgctxt "LaunchController|"
 msgid ""
 "This can cause the instance to get corrupted and should only be used if "
@@ -1542,56 +1504,55 @@ msgstr ""
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Il comando pre-avvio \"%1\" non è stato trovato."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:76
-#, fuzzy
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
 msgstr "Impossibile avviare Minecraft!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:106
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid ""
 "Minecraft process ID: %1\n"
 "\n"
-msgstr "Minecraft"
+msgstr ""
+"Id del Processo di Minecraft: %1\n"
+"\n"
 
 #: src/api/logic/minecraft/ftb/LegacyFTBInstance.cpp:26
+#, fuzzy
 msgctxt "LegacyFTBInstance|"
 msgid "Legacy FTB"
-msgstr ""
+msgstr "Pacchetto FTB Legacy"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:134
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Installing mods: Backing up minecraft.jar ..."
 msgstr "Installazione delle mod: Creando il backup di minecraft.jar ..."
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:158
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Installing mods: Opening minecraft.jar ..."
 msgstr "Installazione delle mod: Apertura del minecraft.jar ..."
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:165
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Failed to create the custom Minecraft jar file."
-msgstr "Impossibile creare la cartella per i binari di Minecraft."
+msgstr "Impossibile creare il minecraft.jar personalizzato."
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:407
+#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Legacy"
-msgstr ""
+msgstr "Legacy"
 
 #: src/application/pages/LegacyJarModPage.ui:53
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Selection"
-msgstr "Seleziona l'Icona"
+msgstr "Selezione"
 
 #: src/application/pages/LegacyJarModPage.ui:63
 msgctxt "LegacyJarModPage|"
@@ -1609,21 +1570,19 @@ msgid "Move &Down"
 msgstr "Sposta in &Basso"
 
 #: src/application/pages/LegacyJarModPage.ui:87
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Install"
-msgstr "Installa il Forge"
+msgstr "Installa"
 
 #: src/application/pages/LegacyJarModPage.ui:97
 msgctxt "LegacyJarModPage|"
 msgid "&Add jar mod"
-msgstr ""
+msgstr "&Aggiungi mod .jar"
 
 #: src/application/pages/LegacyJarModPage.ui:117
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "&View Folder"
-msgstr "Apri la Cartella delle Istanze"
+msgstr "Apri la Cartella dell'Istanza"
 
 #: src/application/pages/LegacyJarModPage.h:41
 msgctxt "LegacyJarModPage|"
@@ -1631,24 +1590,21 @@ msgid "Jar Mods"
 msgstr "Mod in Jar"
 
 #: src/application/pages/LegacyJarModPage.cpp:102
-#, fuzzy
 msgctxt "LegacyJarModPage|"
 msgid "Select jar mods"
-msgstr "Seleziona le mod in Jar"
+msgstr "Seleziona le mod .jar"
 
 #: src/application/pages/LegacyJarModPage.cpp:102
 msgctxt "LegacyJarModPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr ""
+msgstr "Mod di Minecraft (*.zip *.jar)"
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:475
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "Name"
 msgstr "Nome"
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:477
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "Version"
 msgstr "Versione"
@@ -1656,47 +1612,43 @@ msgstr "Versione"
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:486
 msgctxt "LegacyModList|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "La mod è abilitata?"
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:488
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "The name of the mod."
-msgstr "Cambia la versione di Minecraft"
+msgstr "Il nome della mod."
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:490
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "The version of the mod."
-msgstr "Tipo di Versione"
+msgstr "La versione della mod."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:62
-#, fuzzy
 msgctxt "LegacyUpdate|"
 msgid "Checking for FML libraries..."
-msgstr "Verifica dei jar aggiornati..."
+msgstr "Verifica delle librerie FML..."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:109
-#, fuzzy
 msgctxt "LegacyUpdate|"
 msgid "Dowloading FML libraries..."
-msgstr "Download del nuovo minecraft.jar in corso..."
+msgstr "Scaricando le librerie FML..."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:132
 msgctxt "LegacyUpdate|"
 msgid "Copying FML libraries into the instance..."
-msgstr ""
+msgstr "Copiando le librerie FML nell'istanza..."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:143
 msgctxt "LegacyUpdate|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr ""
+msgstr "Impossibile creare la cartella delle librerie FML nell'istanza."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:148
 #, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr ""
+msgstr "Impossibile copiare la libreria Forge/FML: %1."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:160
 #, qt-format
@@ -1705,6 +1657,8 @@ msgid ""
 "Game update failed: it was impossible to fetch the required FML libraries. "
 "Reason: %1"
 msgstr ""
+"Aggiornamento del gioco fallito: impossibile trovare le librerie FML "
+"richieste. Causa: %1"
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:187
 msgctxt "LegacyUpdate|"
@@ -1726,6 +1680,7 @@ msgstr "Installazione del nuovoLWJGL - estrazione "
 msgctxt "LegacyUpdate|"
 msgid "Bad stuff happened while trying to get the lwjgl libs: %1"
 msgstr ""
+"Qualcosa è andato storto mentre si provava ad ottenere le librerie LWJGL: %1"
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:357
 msgctxt "LegacyUpdate|"
@@ -1738,18 +1693,17 @@ msgid "Downloading new minecraft.jar ..."
 msgstr "Download del nuovo minecraft.jar in corso..."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:392
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Failed to download the minecraft jar: %1."
-msgstr "Impossibile scaricare file di aggiornamento."
+msgstr "Impossibile scaricare il file .jar di minecraft: %1."
 
 #: src/application/pages/LegacyUpgradePage.h:38
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade"
-msgstr ""
+msgstr "Aggiorna"
 
 #: src/application/pages/LegacyUpgradePage.ui:29
-#, fuzzy
 msgctxt "LegacyUpgradePage|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -1782,60 +1736,56 @@ msgid ""
 "MultiMC5/issues\"><span style=\" text-decoration: underline; color:#68a0df;"
 "\">github issues page</span></a>.</p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR"
+"/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\""
+">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
 "size:11pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Manteniamo MultiMC open "
-"source perché pensiamo sia importante vedere il codice sorgente per un "
-"progetto come questo, e lo facciamo usando la licenza Apache.</p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
-"\"><br /></p>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">\t\t\t\t\t\t\t</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Una parte della ragione "
-"perché usiamo la licenza Apache è che non vogliamo che le persone usino il "
-"&quot;MultiMC&quot; nome quando ridistribuiscono il progetto. Questo "
-"significa che le persone devono prendersi il tempo di buttarsi sul codice "
-"sorgente e rimuovere tutti i riferimenti a &quot;MultiMC&quot;, includendo "
-"ma non limitandosi all'icona del progetto e al titolo delle finestre (nessun "
-"*Copia di MultiMC* nel titolo).</p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
-"\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">La licenza Apache copre "
-"l'uso ragionevole per il nome - una menzione delle origini del progetto "
-"nell'\"Info su\" e la licenza è accettabile. Comunque, dovrebbe essere "
-"abbondantemente chiaro che il progetto è una copia <span style=\" font-"
-"weight:600;\">senza</span>implicare che hai la nostra benedizione.</p></"
-"body></html>"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:18pt; font-weight:600;\">Un nuovo formato è disponibile</span>\t\t\t\t\t"
+"\t\t</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">MultiMC ora supporta le "
+"vecchie versioni di Minecraft nel nuovo formato 'OneSix' delle istanze. Il "
+"vecchio formato non sarà più aggiornato eccetto per i bug più critici.  di "
+"conseguenza dovresti aggiornare questa istanza.\t\t\t\t\t\t\t</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">L'aggiornamento creerà una "
+"nuova istanza, nel nuovo formato, con gli stessi contenuti di quella "
+"attuale.L'istanza originale non saà toccata, in caso qualcosa andasse storto "
+"nel processo.\t\t\t\t\t\t\t</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Per favore segnala "
+"qualunque problema sul nostro<a href=\"https://github.com/MultiMC/MultiMC5/"
+"issues\"><img src=\":/icons/multimc/22x22/bug.png\" /></a><a href=\""
+"https://github.com/MultiMC/MultiMC5/issues\"><span style=\" text-decoration: "
+"underline; color:#68a0df;\">github issues page</span></a>.</p></body></html>"
 
 #: src/application/pages/LegacyUpgradePage.ui:47
 msgctxt "LegacyUpgradePage|"
 msgid "Start the upgrade! (Not Yet Implemented, Coming Soon™)"
-msgstr ""
+msgstr "Inizia l'aggiornamento! (Non Ancora Implementato)"
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:12
-#, fuzzy
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr "Ottenimento dei file della libreria dalla Mojang..."
+msgstr "Ottenimento delle librerie dalla Mojang..."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:18
-#, fuzzy
 msgctxt "LibrariesTask|"
 msgid ""
 "Failed to load the version description files - check the instance for errors."
 msgstr ""
-"Impossibile caricare la descrizione della versione per ragioni sconosciute."
+"Impossibile caricare la descrizione della versione - controlla l'istanza per "
+"errori."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:30
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
 msgstr "Librerie per le istanze %1"
@@ -4533,7 +4483,7 @@ msgstr "Ritornare?"
 #: src/application/pages/VersionPage.ui:163
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
-msgstr "Installa Minecraft Forge"
+msgstr "Installa Minecraft Forge."
 
 #: src/application/pages/VersionPage.ui:166
 msgctxt "VersionPage|"
@@ -4571,7 +4521,7 @@ msgstr "Avanzato"
 #: src/application/pages/VersionPage.ui:206
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
-msgstr "Aggiungi una mod nel file jar di Minecraft"
+msgstr "Aggiungi una mod nel file jar di Minecraft."
 
 #: src/application/pages/VersionPage.ui:209
 msgctxt "VersionPage|"
@@ -4591,7 +4541,7 @@ msgstr "Resetta l'ordine"
 #: src/application/pages/VersionPage.ui:226
 msgctxt "VersionPage|"
 msgid "Reload all packages."
-msgstr "Ricarica i pacchetti"
+msgstr "Ricarica i pacchetti."
 
 #: src/application/pages/VersionPage.ui:229
 msgctxt "VersionPage|"
@@ -4641,7 +4591,7 @@ msgstr "Errore"
 #: src/application/pages/VersionPage.cpp:180
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr "Attenzione:"
+msgstr "Attenzione: "
 
 #: src/application/pages/VersionPage.cpp:265
 msgctxt "VersionPage|"
