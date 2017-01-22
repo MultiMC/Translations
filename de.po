@@ -1,17 +1,19 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-01-22 17:54+0200\n"
-"Last-Translator: Weblate Admin <admin@example.com>\n"
-"Language-Team: German "
-"<http://translate.multimc.org/projects/multimc/multimc5/de/>\n"
+"PO-Revision-Date: 2017-01-22 19:14+0100\n"
+"Last-Translator: Felix <zocker.network@gmail.com>\n"
+"Language-Team: German <http://translate.multimc.org/projects/multimc/"
+"multimc5/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.4\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Language: de\n"
 "X-Qt-Contexts: true\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -42,10 +44,10 @@ msgid ""
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
 "family:'Sans Serif'; font-size:9pt;\"><br /></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR"
-"/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\""
-">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Noto Sans'; font-size:12pt; font-"
 "weight:400; font-style:normal;\">\n"
@@ -80,10 +82,9 @@ msgstr ""
 "mehrere Installationen von Minecraft zu verwalten.</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
-#, fuzzy
 msgctxt "AboutDialog|"
 msgid "© 2012-2017 MultiMC Contributors"
-msgstr "© 2013-2015 MultiMC-Mitwirkende"
+msgstr "© 2012-2017 MultiMC-Mitwirkende"
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -478,6 +479,8 @@ msgid ""
 "want to install a 64bit Operating System.\n"
 "\n"
 msgstr ""
+"Deine CPU Architektur passt nicht zur System Architektur. Du solltest "
+"vielleicht ein 64 Bit Betriebssytem installieren.\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
@@ -486,6 +489,8 @@ msgid ""
 "want to install a 64bit Java version.\n"
 "\n"
 msgstr ""
+"Deine Java Architektur passt nicht zur System Architektur. Du solltest "
+"vielleicht ein 64 Bit Betriebssystem installieren.\n"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -712,10 +717,10 @@ msgid "The file chosen does not seem to be an executable"
 msgstr "Die ausgewählte Datei scheint keine Anwendung zu sein"
 
 #: src/api/logic/minecraft/launch/ExtractNatives.cpp:87
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr ""
+msgstr "Konnte einheimische jar %1 nicht nach %2 extrahieren."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:35
 #, fuzzy
@@ -747,8 +752,9 @@ msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
 msgstr "Die Forge/FML-Bibliothek konnte nicht kopiert werden: %1."
 
+# No space after Reason:
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:118
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid ""
 "Failed to download the following files:\n"
@@ -760,7 +766,7 @@ msgstr ""
 "Konnte die folgenden Dateien nicht herunterladen:\n"
 "%1\n"
 "\n"
-"Grund: %2\n"
+"Grund:%2\n"
 "Bitte versuchen sie es erneut."
 
 #: src/api/logic/minecraft/onesix/update/FoldersTask.cpp:16
@@ -890,7 +896,7 @@ msgstr "Instanz-Ordner"
 #: src/api/logic/InstanceCopyTask.cpp:66
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "Instanz-Ordner duplizierung wurde abgebrochen."
 
 #: src/api/logic/InstanceCreationTask.cpp:23
 #, fuzzy, qt-format
@@ -901,7 +907,7 @@ msgstr "Lade Liste von Minecraft-Versionen..."
 #: src/api/logic/InstanceCreationTask.cpp:27
 msgctxt "InstanceCreationTask|"
 msgid "The supplied version is not a Minecraft version."
-msgstr ""
+msgstr "Die angegebene Version ist nicht eine Minecraft Version."
 
 #: src/api/logic/InstanceImportTask.cpp:35
 #, fuzzy, qt-format
@@ -920,10 +926,9 @@ msgid "Modpack download"
 msgstr "Modpack herunterladen"
 
 #: src/api/logic/InstanceImportTask.cpp:89
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr "Extrahieren des Modpacks ist fehlgeschlagen"
+msgstr "Extrahiere Modpack."
 
 #: src/api/logic/InstanceImportTask.cpp:105
 #, fuzzy
@@ -946,7 +951,7 @@ msgstr "Instanz konnte nicht Dupliziert werden"
 #: src/api/logic/InstanceImportTask.cpp:162
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Instanz-Import wurde abgebrochen."
 
 #: src/application/InstancePageProvider.h:38
 #: src/application/InstancePageProvider.h:55
@@ -1027,7 +1032,7 @@ msgstr "Arbeitsspeicher"
 #: src/application/pages/InstanceSettingsPage.ui:186
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr ""
+msgstr "Hinweis: Permgen ist von Java 8 und älter automatisch gesetzt"
 
 #: src/application/pages/InstanceSettingsPage.ui:199
 msgctxt "InstanceSettingsPage|"
@@ -1065,10 +1070,9 @@ msgid "Conso&le Settings"
 msgstr "Konsoleneinstellungen"
 
 #: src/application/pages/InstanceSettingsPage.ui:338
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr "Konsole anzeigen, während das Spiel läuft?"
+msgstr "Konsole anzeigen, wenn das Spiel abstürtzt?"
 
 #: src/application/pages/InstanceSettingsPage.ui:371
 msgctxt "InstanceSettingsPage|"
@@ -1185,13 +1189,12 @@ msgstr "Schließen"
 #: src/application/InstanceWindow.cpp:117
 msgctxt "InstanceWindow|"
 msgid "Kill"
-msgstr ""
+msgstr "Töten"
 
 #: src/application/InstanceWindow.cpp:118
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr "Versucht, die angegebene Instanz zu starten"
+msgstr "Die laufende Instanz töten"
 
 #: src/application/InstanceWindow.cpp:122
 #, fuzzy
@@ -1281,7 +1284,7 @@ msgstr "Auto-Erkennung..."
 #: src/application/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
 msgid "Test"
-msgstr "Test"
+msgstr "Testen"
 
 #: src/application/pages/global/JavaPage.ui:257
 msgctxt "JavaPage|"
@@ -1340,10 +1343,9 @@ msgid "Find Java executable"
 msgstr "Java-Programm finden"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:158
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "No Java version selected"
-msgstr "Ungültige Version ausgewählt"
+msgstr "Keine Version ausgewählt"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:159
 msgctxt "JavaWizardPage|"
@@ -1354,9 +1356,13 @@ msgid ""
 "\n"
 "You can change the Java version in the settings later.\n"
 msgstr ""
+"Du hast keine Java Version ausgewählt oder etwas das nicht funktioniert.\n"
+"MultiMC wird Minecraft nicht starten können.\n"
+"Willst du ohne Java weitermachen?\n"
+"\n"
+"Du können die Java Version in den Einstellungen später ändern.\n"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:283
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Find Java executable"
 msgstr "Java-Programm finden"
@@ -1508,7 +1514,7 @@ msgstr "Konnte den Profiler nicht starten: %1"
 #: src/application/LaunchController.cpp:288
 msgctxt "LaunchController|"
 msgid "Abort"
-msgstr ""
+msgstr "Abbrechen"
 
 #: src/application/LaunchController.cpp:304
 #, fuzzy
@@ -2032,7 +2038,7 @@ msgstr "Fehler beim Auswerten der Versionsliste JSON: %1"
 #: src/api/logic/minecraft/MinecraftVersionList.cpp:475
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Task aborted."
-msgstr ""
+msgstr "Aufgabe abgebrochen."
 
 #: src/api/logic/minecraft/MinecraftVersionList.cpp:512
 msgctxt "MCVListVersionUpdateTask|"
@@ -2089,10 +2095,9 @@ msgid "Kill"
 msgstr ""
 
 #: src/application/MainWindow.cpp:140
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "Versucht, die angegebene Instanz zu starten"
+msgstr "Die laufende Instanz töten"
 
 #: src/application/MainWindow.cpp:326
 msgctxt "MainWindow|"
@@ -2194,10 +2199,9 @@ msgid "Launch the selected instance."
 msgstr "Die ausgewählte Instanz starten."
 
 #: src/application/MainWindow.cpp:336
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
-msgstr "Auf Updates für MultiMC prüfen"
+msgstr "Auf Updates für MultiMC prüfen."
 
 #: src/application/MainWindow.cpp:349
 msgctxt "MainWindow|"
@@ -2294,12 +2298,12 @@ msgstr "Miau"
 #: src/application/MainWindow.cpp:369
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: src/application/MainWindow.cpp:371
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: src/application/MainWindow.cpp:373
 msgctxt "MainWindow|"
@@ -2337,7 +2341,6 @@ msgid "Instance Settings"
 msgstr "Einstellungen der Instanz"
 
 #: src/application/MainWindow.cpp:366
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "Den Konfigurationsordner im Dateimanager anzeigen"
@@ -2345,7 +2348,7 @@ msgstr "Den Konfigurationsordner im Dateimanager anzeigen"
 #: src/application/MainWindow.cpp:368
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
-msgstr ""
+msgstr "Es ist eine "
 
 #: src/application/MainWindow.cpp:370
 #, fuzzy
@@ -2574,12 +2577,12 @@ msgstr "Profilers"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
-msgstr ""
+msgstr "Gruppe '%1' löschen"
 
 #: src/application/MainWindow.cpp:1036 src/application/MainWindow.cpp:1090
 msgctxt "MainWindow|"
 msgid "Abort"
-msgstr ""
+msgstr "Abbrechen"
 
 #: src/application/MainWindow.cpp:1383
 msgctxt "MainWindow|"
@@ -2602,27 +2605,27 @@ msgstr ""
 #: src/api/logic/minecraft/MinecraftInstance.cpp:273
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:275
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:276
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:277
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:278
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE NAME>"
-msgstr ""
+msgstr "<PROFILE NAME>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:366
 #, qt-format
@@ -2657,13 +2660,12 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
-msgstr ""
+msgstr ", gespielt for %1"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:391
-#, fuzzy
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
-msgstr "Das Program ist abgestürzt."
+msgstr ", ist abgestürtzt."
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -2739,12 +2741,12 @@ msgstr "&Entfernen"
 #: src/application/pages/ModFolderPage.ui:61
 msgctxt "ModFolderPage|"
 msgid "Enable"
-msgstr ""
+msgstr "Einschalten"
 
 #: src/application/pages/ModFolderPage.ui:68
 msgctxt "ModFolderPage|"
 msgid "Disable"
-msgstr ""
+msgstr "Ausschalten"
 
 #: src/application/pages/ModFolderPage.ui:75
 #, fuzzy
@@ -2765,7 +2767,7 @@ msgstr "&Ordner öffnen"
 #: src/application/pages/ModFolderPage.ui:126
 msgctxt "ModFolderPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: src/application/pages/ModFolderPage.cpp:156
 #, qt-format
@@ -2900,7 +2902,7 @@ msgstr "Nach Namen"
 #: src/application/pages/global/MultiMCPage.ui:323
 msgctxt "MultiMCPage|"
 msgid "Language:"
-msgstr ""
+msgstr "Sprache:"
 
 #: src/application/pages/global/MultiMCPage.ui:335
 #, fuzzy
@@ -2928,7 +2930,7 @@ msgstr "Konteneinstellungen"
 #: src/application/pages/global/MultiMCPage.ui:586
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "Anonyme Benutzungs-Statistiken senden?"
 
 #: src/application/pages/global/MultiMCPage.ui:600
 msgctxt "MultiMCPage|"
@@ -2965,7 +2967,7 @@ msgstr "Einfach (Farbige Symbole)"
 #: src/application/pages/global/MultiMCPage.ui:412
 msgctxt "MultiMCPage|"
 msgid "Colors"
-msgstr ""
+msgstr "Farben"
 
 #: src/application/pages/global/MultiMCPage.ui:439
 msgctxt "MultiMCPage|"
@@ -3127,7 +3129,7 @@ msgstr "[Irgendetwas/WARN] Eine weniger gruselige Warnung."
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' aborted."
-msgstr ""
+msgstr "Job '%1' abgebrochen."
 
 #: src/api/logic/net/NetJob.cpp:105
 #, qt-format
@@ -3239,7 +3241,7 @@ msgstr "Unbekannter Instanztyp"
 #: src/api/logic/minecraft/ftb/OneSixFTBInstance.cpp:135
 msgctxt "OneSixFTBInstance|"
 msgid "OneSix FTB"
-msgstr ""
+msgstr "OneSix FTB"
 
 #: src/api/logic/minecraft/onesix/OneSixInstance.cpp:397
 #, fuzzy
@@ -3261,7 +3263,7 @@ msgstr "Fehler bei der Erstellung der benutzerdefinierten Minecraft-Jar Datei."
 #: src/api/logic/minecraft/onesix/OneSixInstance.cpp:640
 msgctxt "OneSixInstance|"
 msgid "OneSix"
-msgstr ""
+msgstr "OneSix"
 
 #: src/api/logic/minecraft/onesix/OneSixUpdate.cpp:52
 msgctxt "OneSixUpdate|"
@@ -3271,7 +3273,7 @@ msgstr "Die angegebene Minecraft Version ist ungültig. Wähle eine andere aus."
 #: src/api/logic/minecraft/onesix/OneSixUpdate.cpp:102
 msgctxt "OneSixUpdate|"
 msgid "Aborted by user."
-msgstr ""
+msgstr "Vom Benutzer abgebrochen."
 
 #: src/application/pages/OtherLogsPage.ui:71
 msgctxt "OtherLogsPage|"
@@ -3539,7 +3541,7 @@ msgstr "Name"
 #: src/application/dialogs/ProfileSelectDialog.cpp:56
 msgctxt "ProfileSelectDialog|"
 msgid " (in use)"
-msgstr ""
+msgstr "(wird gerade benutzt)"
 
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
