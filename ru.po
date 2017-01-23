@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-01-23 03:31+0200\n"
-"Last-Translator: Nikita Medvedev <redmaster.mna@gmail.com>\n"
+"PO-Revision-Date: 2017-01-23 14:51+0200\n"
+"Last-Translator: AZ <nfs2105@yandex.ru>\n"
 "Language-Team: Russian "
 "<http://translate.multimc.org/projects/multimc/multimc5/ru/>\n"
 "Language: ru\n"
@@ -268,6 +268,8 @@ msgctxt "AccountListPage|"
 msgid ""
 "Opens a dialog to select and upload a skin image to the selected account."
 msgstr ""
+"Открыть диалоговое окно для выбора и загрузки скина для выбранной учетной "
+"записи."
 
 #: src/application/pages/global/AccountListPage.ui:106
 msgctxt "AccountListPage|"
@@ -297,19 +299,19 @@ msgstr "Обновление индекса ресурсов..."
 #, fuzzy, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
-msgstr "Важный ресурс %1"
+msgstr "Индекс ресурса для %1"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:60
 #, fuzzy
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
-msgstr "Не удалось прочитать важный ресурс!"
+msgstr "Не удалось прочитать индекс ресурсов!"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:66
 #, fuzzy
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr "Получение ресурсов от Mojang..."
+msgstr "Получение ресурс-файлов от Mojang..."
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:80
 #, fuzzy, qt-format
@@ -317,7 +319,9 @@ msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download the assets index:\n"
 "%1"
-msgstr "Не удалось загрузить важный ресурс!"
+msgstr ""
+"Не удалось загрузить индекс ресурсов:\n"
+"%1"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:85
 #, fuzzy, qt-format
@@ -325,7 +329,9 @@ msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download assets:\n"
 "%1"
-msgstr "Не удалось загрузить (важные) ресурсы (игры)!"
+msgstr ""
+"Не удалось загрузить ресурсы:\n"
+"%1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
@@ -360,7 +366,7 @@ msgctxt "AuthenticateTask|"
 msgid ""
 "Authentication server specified a selected profile that wasn't in the "
 "available profiles list."
-msgstr "Сервер входа не может идентифицировать выбранный профиль."
+msgstr "Сервер аутентификации не может идентифицировать выбранный профиль."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
@@ -378,43 +384,42 @@ msgid "Profiler aborted"
 msgstr "Профайлер прерван"
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityLocalLoadTask.cpp:38
-#, fuzzy
 msgctxt "BaseWonkoEntityLocalLoadTask|"
 msgid "File doesn't exist"
-msgstr "Путь не существует"
+msgstr "Файл не существует"
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityLocalLoadTask.cpp:42
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "BaseWonkoEntityLocalLoadTask|"
 msgid "Reading %1..."
-msgstr "Загрузка новостей…"
+msgstr "Чтение %1…"
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityLocalLoadTask.cpp:53
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "BaseWonkoEntityLocalLoadTask|"
 msgid "Unable to parse file %1: %2"
-msgstr "Не удается удалить %1: %2"
+msgstr "Не удалось прочитать файл %1: %2"
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityRemoteLoadTask.cpp:51
 msgctxt "BaseWonkoEntityRemoteLoadTask|"
 msgid "Parsing..."
-msgstr ""
+msgstr "Обработка..."
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityRemoteLoadTask.cpp:62
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "BaseWonkoEntityRemoteLoadTask|"
 msgid "Unable to parse response: %1"
-msgstr "Не удалось обработать файл версии %1."
+msgstr "Не удалось обработать ответ: %1"
 
 #: src/api/logic/java/launch/CheckJava.cpp:36
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "CheckJava|"
 msgid ""
 "The java binary \"%1\" couldn't be found. Please fix the java path override "
 "in the instance's settings or disable it."
 msgstr ""
-"Указанная версия Java  \"%1\" не обнаружена. Необходимо установить java для "
-"запуска Minecraft."
+"Указанная версия Java \"%1\" не обнаружена. Пожалуйста, укажите в настройках "
+"сборки правильный путь к Java или отключите настройку."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, fuzzy, qt-format
@@ -5258,17 +5263,17 @@ msgstr "Обработка ответов с серверов…"
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:227
 msgctxt "YggdrasilTask|"
 msgid "Authentication task succeeded."
-msgstr "Вход выполнен."
+msgstr "Аутентификация прошла успешна."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:229
 msgctxt "YggdrasilTask|"
 msgid "Failed to contact the authentication server."
-msgstr "Не удалось связаться с сервером входа."
+msgstr "Не удалось связаться со сервером аутентификации."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:231
 msgctxt "YggdrasilTask|"
 msgid "Failed to authenticate."
-msgstr "Ошибка авторизации."
+msgstr "Ошибка аутентификации."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:233
 msgctxt "YggdrasilTask|"
