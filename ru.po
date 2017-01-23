@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-01-23 20:55+0200\n"
-"Last-Translator: Nikita Medvedev <redmaster.mna@gmail.com>\n"
+"PO-Revision-Date: 2017-01-23 21:27+0200\n"
+"Last-Translator: AZ <nfs2105@yandex.ru>\n"
 "Language-Team: Russian "
 "<http://translate.multimc.org/projects/multimc/multimc5/ru/>\n"
 "Language: ru\n"
@@ -238,8 +238,8 @@ msgid ""
 "is overridden in an instance-specific setting).</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Установить текущую учётную запись активной. Активная "
-"учётная запись используется для входа (если иначе не указано в настройках "
-"сборки).</p></body></html>"
+"учётная запись используется для входа (если не указано другой учётной записи "
+"в настройке сборки).</p></body></html>"
 
 #: src/application/pages/global/AccountListPage.ui:86
 msgctxt "AccountListPage|"
@@ -295,25 +295,23 @@ msgid "Updating assets index..."
 msgstr "Обновление индекса ресурсов..."
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:18
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
 msgstr "Индекс ресурса для %1"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:60
-#, fuzzy
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
 msgstr "Не удалось прочитать индекс ресурсов!"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:66
-#, fuzzy
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
 msgstr "Получение ресурс-файлов от Mojang..."
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:80
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download the assets index:\n"
@@ -323,7 +321,7 @@ msgstr ""
 "%1"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:85
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download assets:\n"
@@ -519,7 +517,7 @@ msgid "Couldn't create the 'server-resource-packs' folder"
 msgstr "Не удается создать 'server-resource-packs' папку"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:66
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
 msgstr "Wrapper-команда \"%1\" не найдена."
@@ -893,7 +891,7 @@ msgid "The supplied version is not a Minecraft version."
 msgstr "Версия не является версией Minecraft."
 
 #: src/api/logic/InstanceImportTask.cpp:35
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
 "Downloading modpack:\n"
@@ -903,19 +901,16 @@ msgstr ""
 "%1"
 
 #: src/api/logic/InstanceImportTask.cpp:41
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Modpack загружен"
 
 #: src/api/logic/InstanceImportTask.cpp:89
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Извлечение modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:105
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Не удалось извлечь modpack"
@@ -931,7 +926,6 @@ msgid "Unable to commit instance"
 msgstr "Не удалось собрать сборку"
 
 #: src/api/logic/InstanceImportTask.cpp:162
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Импорт сборки приостановлен."
@@ -1090,10 +1084,9 @@ msgid "Pre-launch command:"
 msgstr "Команды перед запуском:"
 
 #: src/application/pages/InstanceSettingsPage.ui:403
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Wrapper command:"
-msgstr "Wrapper-команды:"
+msgstr "Wrapper-команда:"
 
 #: src/application/pages/InstanceSettingsPage.ui:416
 #, fuzzy
@@ -1190,7 +1183,7 @@ msgid "Launch the instance"
 msgstr "Запустить выбранную сборку"
 
 #: src/api/logic/tools/JProfiler.cpp:34
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "JProfiler|"
 msgid "Listening on port: %1"
 msgstr "Подключение через порт: %1"
@@ -1266,13 +1259,11 @@ msgid "Test"
 msgstr "Тест"
 
 #: src/application/pages/global/JavaPage.ui:257
-#, fuzzy
 msgctxt "JavaPage|"
 msgid "Wrapper command:"
 msgstr "Wrapper-команда:"
 
 #: src/application/pages/global/JavaPage.ui:276
-#, fuzzy
 msgctxt "JavaPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1281,10 +1272,10 @@ msgid ""
 "variables.</p><p>Wrapper command allows running java using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Предзапусковая команда выполняется перед запуском "
-"сборки, а по завершению процесса игры выполняется послеоперационная команда. "
-"Обе команды будут выполняться в рабочем каталоге MultiMC с INST_ID, INST_DIR "
-"и INST_NAME как переменные среды.</p><p>Wrapper-команда позволяет запускать "
+"<html><head/><body><p>Команда перед запуском выполняется перед стартом "
+"сборки, а по завершению процесса игры выполняется команда после выхода. Обе "
+"команды будут выполняться в рабочем каталоге MultiMC с INST_ID, INST_DIR и "
+"INST_NAME как переменные среды.</p><p>Wrapper-команда позволяет запускать "
 "Java, используя внешнюю программу-обертку (например 'optirun' на "
 "Linux)</p></body></html>"
 
@@ -1302,12 +1293,12 @@ msgstr "Пользовательские команды"
 #: src/application/pages/global/JavaPage.ui:237
 msgctxt "JavaPage|"
 msgid "Post-exit command:"
-msgstr "Команды после выхода:"
+msgstr "Команда после выхода:"
 
 #: src/application/pages/global/JavaPage.ui:244
 msgctxt "JavaPage|"
 msgid "Pre-launch command:"
-msgstr "Команды перед запуском:"
+msgstr "Команда перед запуском:"
 
 #: src/application/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
@@ -1325,7 +1316,6 @@ msgid "Find Java executable"
 msgstr "Найти исполняемый файл Java"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:158
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "No Java version selected"
 msgstr "Не выбрана версия Java"
@@ -1527,10 +1517,9 @@ msgstr ""
 "\n"
 
 #: src/api/logic/minecraft/ftb/LegacyFTBInstance.cpp:26
-#, fuzzy
 msgctxt "LegacyFTBInstance|"
 msgid "Legacy FTB"
-msgstr "Устаревшие сборки FTB"
+msgstr "Устаревшая сборка FTB"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:134
 msgctxt "LegacyInstance|"
@@ -2362,24 +2351,19 @@ msgid "Launch Offline"
 msgstr "Играть в автономном режиме"
 
 #: src/application/MainWindow.cpp:380
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr ""
-"<html><head/><body><p>Просмотр и загрузка скриншотов для этой сборки</p></"
-"body></html>"
+msgstr "Просмотр и загрузка в интернет скриншотов для этой сборки."
 
 #: src/application/MainWindow.cpp:382
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Change the settings specific to the instance."
-msgstr "Изменить параметры, специфичные для сборки"
+msgstr "Изменить настройки, специфичные для сборки."
 
 #: src/application/MainWindow.cpp:383
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Export Instance"
-msgstr "Редактировать сборку"
+msgstr "Экспортировать сборку"
 
 #: src/application/MainWindow.cpp:394
 #, qt-format
