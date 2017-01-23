@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-01-23 16:08+0200\n"
-"Last-Translator: Nikita Medvedev <redmaster.mna@gmail.com>\n"
+"PO-Revision-Date: 2017-01-23 16:19+0200\n"
+"Last-Translator: AZ <nfs2105@yandex.ru>\n"
 "Language-Team: Russian "
 "<http://translate.multimc.org/projects/multimc/multimc5/ru/>\n"
 "Language: ru\n"
@@ -1060,6 +1060,7 @@ msgid "Show console when the game crashes?"
 msgstr "Показать окно консоли во время падения игры?"
 
 #: src/application/pages/InstanceSettingsPage.ui:371
+#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Cus&tom Commands"
 msgstr "Пользовательские команды"
@@ -1093,7 +1094,7 @@ msgstr "Команды перед запуском:"
 #, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Wrapper command:"
-msgstr "Команды перед входом:"
+msgstr "Wrapper-команды:"
 
 #: src/application/pages/InstanceSettingsPage.ui:416
 #, fuzzy
@@ -1150,25 +1151,21 @@ msgid "Select a Java version"
 msgstr "Выбор версии Java"
 
 #: src/application/pages/InstanceSettingsPage.cpp:191
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Найти исполняемый файл Java"
 
 #: src/application/InstanceWindow.cpp:39
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Console window for "
-msgstr "Окно консоли "
+msgstr "Окно консоли для "
 
 #: src/application/InstanceWindow.cpp:61
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Help"
 msgstr "Помощь"
 
 #: src/application/InstanceWindow.cpp:74
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Close"
 msgstr "Закрыть"
@@ -1176,24 +1173,22 @@ msgstr "Закрыть"
 #: src/application/InstanceWindow.cpp:117
 msgctxt "InstanceWindow|"
 msgid "Kill"
-msgstr ""
+msgstr "Остановить"
 
 #: src/application/InstanceWindow.cpp:118
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr ""
+msgstr "Остановить сборку"
 
 #: src/application/InstanceWindow.cpp:122
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Запуск"
 
 #: src/application/InstanceWindow.cpp:123
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "Запустить выбранную сборку."
+msgstr "Запустить выбранную сборку"
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, fuzzy, qt-format
@@ -1275,7 +1270,7 @@ msgstr "Тест"
 #, fuzzy
 msgctxt "JavaPage|"
 msgid "Wrapper command:"
-msgstr "Команды перед входом:"
+msgstr "Wrapper-команда:"
 
 #: src/application/pages/global/JavaPage.ui:276
 #, fuzzy
@@ -1287,10 +1282,12 @@ msgid ""
 "variables.</p><p>Wrapper command allows running java using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
-"Предзапусковая команда выполняется перед запуском сборки, а по завершению "
-"процесса игры выполняется послеоперационная команда. Обе команды будут "
-"выполняться в рабочем каталоге MultiMC с INST_ID, INST_DIR и INST_NAME как "
-"переменные среды."
+"<html><head/><body><p>Предзапусковая команда выполняется перед запуском "
+"сборки, а по завершению процесса игры выполняется послеоперационная команда. "
+"Обе команды будут выполняться в рабочем каталоге MultiMC с INST_ID, INST_DIR "
+"и INST_NAME как переменные среды.</p><p>Wrapper-команда позволяет запускать "
+"Java, используя внешнюю программу-обертку (например 'optirun' на "
+"Linux)</p></body></html>"
 
 #: src/application/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
@@ -1332,7 +1329,7 @@ msgstr "Найти исполняемый файл Java"
 #, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "No Java version selected"
-msgstr "Выбранная версия не поддерживается"
+msgstr "Не выбрана версия Java"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:159
 msgctxt "JavaWizardPage|"
@@ -1345,10 +1342,9 @@ msgid ""
 msgstr ""
 
 #: src/application/setupwizard/JavaWizardPage.cpp:283
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Find Java executable"
-msgstr "Найти Java исполняемый файл"
+msgstr "Найти исполняемый файл Java"
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:161
 msgctxt "LLListLoadTask|"
