@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-01-23 17:48+0200\n"
-"Last-Translator: Nikita Medvedev <redmaster.mna@gmail.com>\n"
+"PO-Revision-Date: 2017-01-23 18:34+0200\n"
+"Last-Translator: AZ <nfs2105@yandex.ru>\n"
 "Language-Team: Russian "
 "<http://translate.multimc.org/projects/multimc/multimc5/ru/>\n"
 "Language: ru\n"
@@ -1809,26 +1809,25 @@ msgid "Start the upgrade! (Not Yet Implemented, Coming Soon™)"
 msgstr "Начать обновление! (Функция еще не реализована, Скоро™)"
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:12
-#, fuzzy
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr "Получение файлов из библиотек Mojang ..."
+msgstr "Получение файлов библиотек из Mojang..."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:18
-#, fuzzy
 msgctxt "LibrariesTask|"
 msgid ""
 "Failed to load the version description files - check the instance for errors."
-msgstr "Не удалось загрузить файл с описанием версии (причина неизвестна)."
+msgstr ""
+"Не удалось загрузить файл с описанием версии - проверьте сборку на ошибки."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:30
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
 msgstr "Библиотеки для сборки %1"
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:56
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid ""
 "Some libraries marked as 'local' are missing their jar files:\n"
@@ -1837,7 +1836,8 @@ msgid ""
 "You'll have to correct this problem manually. If this is an externally "
 "tracked instance, make sure to run it at least once outside of MultiMC."
 msgstr ""
-"Некоторым библиотекам, помеченным как 'local' не хватает их jar файлов:\n"
+"Некоторым библиотекам, помеченным как 'local' не хватает их собственных jar "
+"файлов:\n"
 "%1\n"
 "\n"
 "Вам придется вручную исправить эту проблему. Если сборка создана без помощи "
@@ -1852,6 +1852,10 @@ msgid ""
 "Reason:\n"
 "%1"
 msgstr ""
+"Не удалось обновить игру: Не было возможности получить необходимые "
+"библиотеки.\n"
+"Причина:\n"
+"%1"
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderInstaller.cpp:77
 msgctxt "LiteLoaderInstallTask|"
@@ -1868,16 +1872,14 @@ msgid "Failed to load the version description file for reasons unknown."
 msgstr "Не удалось загрузить файл с описанием версии (причина неизвестна)."
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:116
-#, fuzzy
 msgctxt "LiteLoaderVersionList|"
 msgid "Snapshot"
-msgstr "Предварительная версия"
+msgstr "Snapshot"
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:116
-#, fuzzy
 msgctxt "LiteLoaderVersionList|"
 msgid "Release"
-msgstr "Стабильная версия"
+msgstr "Release"
 
 #: src/application/pages/LogPage.ui:125
 msgctxt "LogPage|"
@@ -1890,15 +1892,14 @@ msgid "Find"
 msgstr "Найти"
 
 #: src/application/pages/LogPage.ui:60
-#, fuzzy
 msgctxt "LogPage|"
 msgid "Keep updating"
-msgstr "Продолжить обновление"
+msgstr "Ввести запись журнала"
 
 #: src/application/pages/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr ""
+msgstr "Перенос длинных строк"
 
 #: src/application/pages/LogPage.ui:93
 msgctxt "LogPage|"
