@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-01-24 00:39+0200\n"
-"Last-Translator: Nikita Medvedev <redmaster.mna@gmail.com>\n"
+"PO-Revision-Date: 2017-01-24 00:49+0200\n"
+"Last-Translator: AZ <nfs2105@yandex.ru>\n"
 "Language-Team: Russian "
 "<http://translate.multimc.org/projects/multimc/multimc5/ru/>\n"
 "Language: ru\n"
@@ -3948,24 +3948,24 @@ msgid ""
 "The 'minimumLauncherVersion' value of this version (%1) is higher than "
 "supported by MultiMC (%2). It might not work properly!"
 msgstr ""
-"Значение \"minimumLauncherVersion\" текущей версии (%1) выше, чем "
+"Значение 'minimumLauncherVersion' текущей версии (%1) выше, чем "
 "поддерживается MultiMC (%2). Лаунчер может работать неправильно!"
 
 #: src/api/logic/minecraft/AssetsUtils.cpp:225
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
-msgstr "Ресурс из %1"
+msgstr "Ресурсы для %1"
 
 #: src/api/logic/wonko/format/WonkoFormat.cpp:27
 msgctxt "QObject|"
 msgid "Missing required field: 'formatVersion'"
-msgstr ""
+msgstr "Отсутствует необходимое поле: 'formatVersion'"
 
 #: src/api/logic/wonko/format/WonkoFormat.cpp:30
 msgctxt "QObject|"
 msgid "Required field has invalid type: 'formatVersion'"
-msgstr ""
+msgstr "Поле имеет недопустимый тип: 'formatVersion'"
 
 #: src/api/logic/wonko/format/WonkoFormat.cpp:43
 #: src/api/logic/wonko/format/WonkoFormat.cpp:54
@@ -3973,23 +3973,22 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Unknown formatVersion: %1"
-msgstr ""
+msgstr "Неизвестный formatVersion: %1"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:303
-#, fuzzy
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Выбран не исполняемый файл"
+msgstr "Указанный файл либо не существует либо не является исполняемым."
 
 #: src/application/setupwizard/JavaWizardPage.cpp:308
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
+msgstr "Указанный файл Java запускается не корректно.<br />"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:320
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
+msgstr "Указанный файл Java вернул непредвиденный результат:<br />"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:331
 #: src/application/JavaCommon.cpp:28
@@ -3999,47 +3998,44 @@ msgid ""
 "Java test succeeded!<br />Platform reported: %1<br />Java version reported: "
 "%2<br />"
 msgstr ""
+"Проверка Java прошла успешно!<br />Платформа: %1<br />Версия Java: %2<br />"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:340
 #: src/application/JavaCommon.cpp:36
-#, fuzzy
 msgctxt "QObject|"
 msgid "Java test success"
-msgstr "Успешный тест Java"
+msgstr "Тестирование Java прошло успешно"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:340
 #: src/application/JavaCommon.cpp:46 src/application/JavaCommon.cpp:55
-#, fuzzy
 msgctxt "QObject|"
 msgid "Java test failure"
-msgstr "Java тест провалился"
+msgstr "Тестирование Java провалилось"
 
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
 msgid "Dark"
-msgstr ""
+msgstr "Темный"
 
 #: src/application/themes/SystemTheme.cpp:33
 msgctxt "QObject|"
 msgid "System"
-msgstr ""
+msgstr "Системный"
 
 #: src/application/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
-msgstr ""
+msgstr "Светлый"
 
 #: src/application/UpdateController.cpp:344
-#, fuzzy
 msgctxt "QObject|"
 msgid "Update failed!"
-msgstr "Загрузка завершена"
+msgstr "Не удалось обновить!"
 
 #: src/application/UpdateController.cpp:345
-#, fuzzy
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr "Загрузка завершена"
+msgstr "Не удалось откатить!"
 
 #: src/application/UpdateController.cpp:350
 #, qt-format
@@ -4048,6 +4044,8 @@ msgid ""
 "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Не удалось заменить файл %1. Изменения будут отменены.\n"
+"Для детальной информации обратитесь к файлу-журналу MultiMC."
 
 #: src/application/UpdateController.cpp:358
 #, qt-format
@@ -4056,6 +4054,8 @@ msgid ""
 "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Не удалось удалить файл %1. Изменения будут отменены.\n"
+"Для детальной информации обратитесь к файлу-журналу MultiMC."
 
 #: src/application/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4065,6 +4065,10 @@ msgid ""
 "\n"
 "Roll back to previous version?"
 msgstr ""
+"Новая версия не запускается или слишком старая и не реагирует на проверки "
+"при старте.\n"
+"\n"
+"Откатить к предыдущей версии? "
 
 #: src/application/UpdateController.cpp:388
 msgctxt "QObject|"
@@ -4073,11 +4077,14 @@ msgid ""
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
 msgstr ""
+"Не удалось откатить.\n"
+"Вы должны вручную исправить MultiMC.\n"
+"Пожалуйста расскажите нам почему и как это произошло."
 
 #: src/application/MainWindow.cpp:733
 msgctxt "QObject|"
 msgid " (in use)"
-msgstr ""
+msgstr " (используется)"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -4098,10 +4105,9 @@ msgid "Authentication server didn't send an access token."
 msgstr "Сервер аутентификации не отправил ключ клиента."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
-#, fuzzy
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
-msgstr "Сервер входа не указывал тот же prefile, как ожидалось."
+msgstr "Сервер аутентификации не указывал тот же prefile, как ожидалось."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
@@ -4159,14 +4165,14 @@ msgid "Upload finished"
 msgstr "Загрузка завершена"
 
 #: src/application/pages/ScreenshotsPage.cpp:317
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
 "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your "
 "clipboard."
 msgstr ""
-"Ссылка <a href=\"%1\"> размещённая в журнале </a> была открыта в браузере по "
-"умолчанию, и помещается в буфер обмена."
+"<a href=\"%1\">Ссылка, размещённая в альбоме,</a> была помещена в буфер "
+"обмена."
 
 #: src/application/pages/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
@@ -4206,97 +4212,89 @@ msgstr "Сессия"
 #: src/application/setupwizard/SetupWizard.cpp:49
 msgctxt "SetupWizard|"
 msgid "&Next >"
-msgstr ""
+msgstr "Следующий >"
 
 #: src/application/setupwizard/SetupWizard.cpp:50
 msgctxt "SetupWizard|"
 msgid "< &Back"
-msgstr ""
+msgstr "< Предыдущий"
 
 #: src/application/setupwizard/SetupWizard.cpp:51
 msgctxt "SetupWizard|"
 msgid "&Finish"
-msgstr ""
+msgstr "Конец"
 
 #: src/application/setupwizard/SetupWizard.cpp:52
-#, fuzzy
 msgctxt "SetupWizard|"
 msgid "&Refresh"
-msgstr "&Обновить"
+msgstr "Обновить"
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
-#, fuzzy
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
-msgstr "Загрузка на paste.ee"
+msgstr "Загрузка скина"
 
 #: src/application/dialogs/SkinUploadDialog.ui:14
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Skin Upload"
-msgstr "Загрузить"
+msgstr "Загрузить скин"
 
 #: src/application/dialogs/SkinUploadDialog.ui:20
 msgctxt "SkinUploadDialog|"
 msgid "Skin File"
-msgstr ""
+msgstr "Файл скина"
 
 #: src/application/dialogs/SkinUploadDialog.ui:51
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Player Model"
-msgstr "Игровое имя"
+msgstr "Модель игрока"
 
 #: src/application/dialogs/SkinUploadDialog.ui:57
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
-msgstr ""
+msgstr "Модель \"Стив\""
 
 #: src/application/dialogs/SkinUploadDialog.ui:67
 msgctxt "SkinUploadDialog|"
 msgid "Alex Model"
-msgstr ""
+msgstr "Модель \"Алекс\""
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Failed to login!"
-msgstr "Ошибка авторизации."
+msgstr "Не удалось войти!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
 #: src/application/dialogs/SkinUploadDialog.cpp:30
 #: src/application/dialogs/SkinUploadDialog.cpp:46
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Unknown error"
 msgstr "Неизвестная ошибка"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:30
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Skin file does not exist!"
-msgstr "Путь не существует"
+msgstr "Файл скина не существует!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:46
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Failed to upload skin!"
-msgstr "Не удалось загрузить скриншоты!"
+msgstr "Не удалось загрузить скин!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:50
 msgctxt "SkinUploadDialog|"
 msgid "Skin uploaded!"
-msgstr ""
+msgstr "Скин загружен!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:50
 msgctxt "SkinUploadDialog|"
 msgid "Success"
-msgstr ""
+msgstr "Успешно"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:56
 msgctxt "SkinUploadDialog|"
 msgid "Select Skin Texture"
-msgstr ""
+msgstr "Выберите текстуру скина"
 
 #: src/api/logic/status/StatusChecker.cpp:104
 #, fuzzy, qt-format
