@@ -286,6 +286,39 @@ msgstr ""
 "Proszę o wprowadzenie swojej nazwy użytkownika oraz hasła Mojang lub "
 "Minecraft do dodania twojego konta."
 
+#: src/application/setupwizard/AnalyticsWizardPage.cpp:46
+#, fuzzy
+msgctxt "AnalyticsWizardPage|"
+msgid "Analytics"
+msgstr "Ustawienia instancji"
+
+#: src/application/setupwizard/AnalyticsWizardPage.cpp:47
+msgctxt "AnalyticsWizardPage|"
+msgid "We track some anonymous statistics about users."
+msgstr ""
+
+#: src/application/setupwizard/AnalyticsWizardPage.cpp:48
+msgctxt "AnalyticsWizardPage|"
+msgid ""
+"<html><body><p>MultiMC sends anonymous usage statistics on every start of "
+"the application. This helps us decide what platforms and issues to focus on."
+"</p><p>The data is processed by Google Analytics, see their <a href="
+"\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the "
+"matter</a>.</p><p>The following data is collected:</p><ul><li>A random "
+"unique ID of the MultiMC installation.<br />It is stored in the application "
+"settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</"
+"li><li>MultiMC version.</li><li>Operating system name, version and "
+"architecture.</li><li>CPU architecture (kernel architecture on linux).</"
+"li><li>Size of system memory.</li><li>Java version, architecture and memory "
+"settings.</li></ul><p>If we change the tracked information, you will see "
+"this page again.</p></body></html>"
+msgstr ""
+
+#: src/application/setupwizard/AnalyticsWizardPage.cpp:62
+msgctxt "AnalyticsWizardPage|"
+msgid "Enable Analytics"
+msgstr ""
+
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:13
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
@@ -594,9 +627,10 @@ msgid "External Tools"
 msgstr "Narzędzia zewnętrzne"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:89
+#, fuzzy
 msgctxt "ExternalToolsPage|"
-msgid "JProfiler Directory"
-msgstr "Katalog JProfiler"
+msgid "JProfiler Folder"
+msgstr "JProfiler"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:97
 #: src/application/pages/global/ExternalToolsPage.cpp:112
@@ -659,9 +693,10 @@ msgid "MCEdit Application"
 msgstr "Aplikacja MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
+#, fuzzy
 msgctxt "ExternalToolsPage|"
-msgid "MCEdit Directory"
-msgstr "Katalog MCEdit"
+msgid "MCEdit Folder"
+msgstr "Katalog konfiguracyjny"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -1094,7 +1129,7 @@ msgctxt "InstanceSettingsPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
 "and post-exit command runs after it exits.</p><p>Both will be run in "
-"MultiMC's working directory with extra environment variables:</p><ul style="
+"MultiMC's working folder with extra environment variables:</p><ul style="
 "\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -"
 "qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-"
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">INST_NAME "
@@ -1194,70 +1229,70 @@ msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
 msgstr "Wykrywanie instalacji Java..."
 
-#: src/application/pages/global/JavaPage.ui:45
+#: src/application/pages/global/JavaPage.ui:36
 msgctxt "JavaPage|"
 msgid "Memory"
 msgstr "Pamięć"
 
-#: src/application/pages/global/JavaPage.ui:51
+#: src/application/pages/global/JavaPage.ui:42
 msgctxt "JavaPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "Maksymalna ilość pamięci, którą Minecraft może użyć."
 
-#: src/application/pages/global/JavaPage.ui:73
+#: src/application/pages/global/JavaPage.ui:64
 msgctxt "JavaPage|"
 msgid "Minimum memory allocation:"
 msgstr "Minimalny przydział pamięci:"
 
-#: src/application/pages/global/JavaPage.ui:80
+#: src/application/pages/global/JavaPage.ui:71
 msgctxt "JavaPage|"
 msgid "Maximum memory allocation:"
 msgstr "Maksymalny przydział pamięci:"
 
-#: src/application/pages/global/JavaPage.ui:87
+#: src/application/pages/global/JavaPage.ui:78
 msgctxt "JavaPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "Ilość pamięci, z którą Minecraft startuje."
 
-#: src/application/pages/global/JavaPage.ui:116
+#: src/application/pages/global/JavaPage.ui:107
 msgctxt "JavaPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "Ilość pamięci dostępnej do przechowywania załadowanych klas Java."
 
-#: src/application/pages/global/JavaPage.ui:141
+#: src/application/pages/global/JavaPage.ui:132
 #, fuzzy
 msgctxt "JavaPage|"
 msgid "Java Runtime"
 msgstr "Czas pracy Java"
 
-#: src/application/pages/global/JavaPage.ui:153
+#: src/application/pages/global/JavaPage.ui:144
 msgctxt "JavaPage|"
 msgid "Java path:"
 msgstr "Ścieżka Javy:"
 
-#: src/application/pages/global/JavaPage.ui:208
+#: src/application/pages/global/JavaPage.ui:199
 msgctxt "JavaPage|"
 msgid "Auto-detect..."
 msgstr "Automatycznie wykrywanie..."
 
-#: src/application/pages/global/JavaPage.ui:221
+#: src/application/pages/global/JavaPage.ui:212
 msgctxt "JavaPage|"
 msgid "Test"
 msgstr "Test"
 
-#: src/application/pages/global/JavaPage.ui:257
+#: src/application/pages/global/JavaPage.ui:248
 #, fuzzy
 msgctxt "JavaPage|"
 msgid "Wrapper command:"
 msgstr "Komendy przed uruchomieniem:"
 
-#: src/application/pages/global/JavaPage.ui:276
+#: src/application/pages/global/JavaPage.ui:267
 #, fuzzy
 msgctxt "JavaPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
 "and post-exit command runs after it exits. Both will be run in MultiMC's "
-"working directory with INST_ID, INST_DIR, and INST_NAME as environment "
+"working folder with INST_ID, INST_DIR, and INST_NAME as environment "
 "variables.</p><p>Wrapper command allows running java using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
@@ -1266,22 +1301,22 @@ msgstr ""
 "w roboczym katalogu MultiMC z INST_ID, INST_DIR oraz INST_NAME jako zmienne "
 "środowisko."
 
-#: src/application/pages/global/JavaPage.ui:195
+#: src/application/pages/global/JavaPage.ui:186
 msgctxt "JavaPage|"
 msgid "JVM arguments:"
 msgstr "Argumenty JVM:"
 
-#: src/application/pages/global/JavaPage.ui:231
+#: src/application/pages/global/JavaPage.ui:222
 msgctxt "JavaPage|"
 msgid "Custom Commands"
 msgstr "Własne komendy"
 
-#: src/application/pages/global/JavaPage.ui:237
+#: src/application/pages/global/JavaPage.ui:228
 msgctxt "JavaPage|"
 msgid "Post-exit command:"
 msgstr "Komendy po zamknięciu:"
 
-#: src/application/pages/global/JavaPage.ui:244
+#: src/application/pages/global/JavaPage.ui:235
 msgctxt "JavaPage|"
 msgid "Pre-launch command:"
 msgstr "Komendy przed uruchomieniem:"
@@ -1317,11 +1352,66 @@ msgid ""
 "You can change the Java version in the settings later.\n"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:283
+#: src/application/setupwizard/JavaWizardPage.cpp:265
 #, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Find Java executable"
 msgstr "Znajdź plik wykonywalny Java"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:425
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Java"
+msgstr "Java"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:426
+msgctxt "JavaWizardPage|"
+msgid ""
+"You do not have a working Java set up yet or it went missing.\n"
+"Please select one of the following or browse for a java executable."
+msgstr ""
+
+#: src/application/setupwizard/JavaWizardPage.cpp:428
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Memory"
+msgstr "Pamięć"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:429
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "The maximum amount of memory Minecraft is allowed to use."
+msgstr "Maksymalna ilość pamięci, której wolno użyć Minecraftowi."
+
+#: src/application/setupwizard/JavaWizardPage.cpp:430
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Minimum memory allocation:"
+msgstr "Minimalny przydział pamięci:"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:431
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Maximum memory allocation:"
+msgstr "Maksymalny przydział pamięci:"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:432
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "The amount of memory Minecraft is started with."
+msgstr "Ilość pamięci, z którą startuje Minecraft."
+
+#: src/application/setupwizard/JavaWizardPage.cpp:433
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "The amount of memory available to store loaded Java classes."
+msgstr "Ilość dostępnej pamięci do przechowywania załadowanych klas Java."
+
+#: src/application/setupwizard/JavaWizardPage.cpp:434
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Browse"
+msgstr "Przeglądaj..."
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:161
 msgctxt "LLListLoadTask|"
@@ -1345,6 +1435,16 @@ msgstr "Wersja"
 msgctxt "LWJGLVersionList|"
 msgid "LWJGL version name."
 msgstr "Wczytywanie listy wersji LWJGL..."
+
+#: src/application/setupwizard/LanguageWizardPage.cpp:52
+msgctxt "LanguageWizardPage|"
+msgid "Language"
+msgstr ""
+
+#: src/application/setupwizard/LanguageWizardPage.cpp:53
+msgctxt "LanguageWizardPage|"
+msgid "Select the language to use in MultiMC"
+msgstr ""
 
 #: src/application/LaunchController.cpp:34
 #, fuzzy
@@ -1500,6 +1600,16 @@ msgid ""
 msgstr ""
 "To może spowodować uszkodzenie instancji oraz powinno być użyte tylko, gdy "
 "Minecraft jest zawieszony z jakiegoś powodu"
+
+#: src/api/logic/launch/LaunchTask.cpp:215
+#, qt-format
+msgctxt "LaunchTask|"
+msgid ""
+"MultiMC stopped watching the game log because the log length surpassed %1 "
+"lines.\n"
+"You may have to fix your mods because the game is still logging to files and "
+"likely wasting harddrive space at an alarming rate!"
+msgstr ""
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:54
 #, qt-format
@@ -1878,31 +1988,21 @@ msgctxt "LogPage|"
 msgid "Minecraft Log"
 msgstr "Logi Minecrafta"
 
-#: src/application/pages/LogPage.cpp:209
+#: src/application/pages/LogPage.cpp:196
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
 msgstr ""
 
-#: src/application/pages/LogPage.cpp:213
+#: src/application/pages/LogPage.cpp:200
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
 msgstr ""
 
-#: src/application/pages/LogPage.cpp:217
+#: src/application/pages/LogPage.cpp:204
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr ""
-
-#: src/application/pages/LogPage.cpp:181
-#, qt-format
-msgctxt "LogPage|"
-msgid ""
-"MultiMC stopped watching the game log because the log length surpassed %1 "
-"lines.\n"
-"You may have to fix your mods because the game is still loggging to files "
-"and likely wasting harddrive space at an alarming rate!"
 msgstr ""
 
 #. Message displayed on instance exit
@@ -2750,7 +2850,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr ""
 
-#: src/application/MultiMC.cpp:775
+#: src/application/MultiMC.cpp:840
 #, fuzzy
 msgctxt "MultiMC|"
 msgid "Settings"
@@ -2983,19 +3083,22 @@ msgid "Simple (Light Icons)"
 msgstr ""
 
 #: src/application/pages/global/MultiMCPage.cpp:102
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "FTB Launcher Directory"
-msgstr ""
+msgid "FTB Launcher Folder"
+msgstr "Katalog instancji"
 
 #: src/application/pages/global/MultiMCPage.cpp:115
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "FTB Directory"
-msgstr ""
+msgid "FTB Folder"
+msgstr "&Zobacz katalog"
 
 #: src/application/pages/global/MultiMCPage.cpp:127
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "Instance Directory"
-msgstr ""
+msgid "Instance Folder"
+msgstr "Katalog instancji"
 
 #: src/application/pages/global/MultiMCPage.cpp:137
 msgctxt "MultiMCPage|"
@@ -3013,18 +3116,20 @@ msgid ""
 msgstr ""
 
 #: src/application/pages/global/MultiMCPage.cpp:160
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "Icons Directory"
-msgstr ""
+msgid "Icons Folder"
+msgstr "Katalog instancji"
 
 #: src/application/pages/global/MultiMCPage.cpp:172
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "Mods Directory"
-msgstr ""
+msgid "Mods Folder"
+msgstr "Katalog konfiguracyjny"
 
 #: src/application/pages/global/MultiMCPage.cpp:184
 msgctxt "MultiMCPage|"
-msgid "LWJGL Directory"
+msgid "LWJGL Folder"
 msgstr ""
 
 #: src/application/pages/global/MultiMCPage.cpp:494
@@ -3155,7 +3260,7 @@ msgctxt "NullInstance|"
 msgid "Unknown instance type"
 msgstr "Nieznany błąd wczytywania instancji %1"
 
-#: src/api/logic/minecraft/ftb/OneSixFTBInstance.cpp:135
+#: src/api/logic/minecraft/ftb/OneSixFTBInstance.cpp:132
 msgctxt "OneSixFTBInstance|"
 msgid "OneSix FTB"
 msgstr ""
@@ -3882,23 +3987,23 @@ msgctxt "QObject|"
 msgid "Unknown formatVersion: %1"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:303
+#: src/application/setupwizard/JavaWizardPage.cpp:285
 #, fuzzy
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
 msgstr "Wybrany plik nie wygląda na wykonywalny"
 
-#: src/application/setupwizard/JavaWizardPage.cpp:308
+#: src/application/setupwizard/JavaWizardPage.cpp:290
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:320
+#: src/application/setupwizard/JavaWizardPage.cpp:302
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:331
+#: src/application/setupwizard/JavaWizardPage.cpp:313
 #: src/application/JavaCommon.cpp:28
 #, qt-format
 msgctxt "QObject|"
@@ -3907,14 +4012,14 @@ msgid ""
 "%2<br />"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:340
+#: src/application/setupwizard/JavaWizardPage.cpp:322
 #: src/application/JavaCommon.cpp:36
 #, fuzzy
 msgctxt "QObject|"
 msgid "Java test success"
 msgstr "Test Javy odbył się sukcesem"
 
-#: src/application/setupwizard/JavaWizardPage.cpp:340
+#: src/application/setupwizard/JavaWizardPage.cpp:322
 #: src/application/JavaCommon.cpp:46 src/application/JavaCommon.cpp:55
 #, fuzzy
 msgctxt "QObject|"
@@ -3926,7 +4031,7 @@ msgctxt "QObject|"
 msgid "Dark"
 msgstr ""
 
-#: src/application/themes/SystemTheme.cpp:33
+#: src/application/themes/SystemTheme.cpp:44
 msgctxt "QObject|"
 msgid "System"
 msgstr ""
@@ -4106,26 +4211,31 @@ msgctxt "ServerStatus|"
 msgid "Session"
 msgstr ""
 
-#: src/application/setupwizard/SetupWizard.cpp:49
+#: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
 msgid "&Next >"
 msgstr ""
 
-#: src/application/setupwizard/SetupWizard.cpp:50
+#: src/application/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
 msgid "< &Back"
 msgstr ""
 
-#: src/application/setupwizard/SetupWizard.cpp:51
+#: src/application/setupwizard/SetupWizard.cpp:31
 msgctxt "SetupWizard|"
 msgid "&Finish"
 msgstr ""
 
-#: src/application/setupwizard/SetupWizard.cpp:52
+#: src/application/setupwizard/SetupWizard.cpp:32
 #, fuzzy
 msgctxt "SetupWizard|"
 msgid "&Refresh"
 msgstr "&Odśwież"
+
+#: src/application/setupwizard/SetupWizard.cpp:33
+msgctxt "SetupWizard|"
+msgid "MultiMC Quick Setup"
+msgstr ""
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 msgctxt "SkinUpload|"
@@ -4684,6 +4794,24 @@ msgctxt "VersionProxyModel|"
 msgid "Latest"
 msgstr ""
 
+#: src/application/dialogs/VersionSelectDialog.cpp:81
+#, fuzzy
+msgctxt "VersionSelectDialog|"
+msgid "Choose Version"
+msgstr "Wersja"
+
+#: src/application/dialogs/VersionSelectDialog.cpp:82
+#, fuzzy
+msgctxt "VersionSelectDialog|"
+msgid "Reloads the version list."
+msgstr "Odśwież listę instancji."
+
+#: src/application/dialogs/VersionSelectDialog.cpp:83
+#, fuzzy
+msgctxt "VersionSelectDialog|"
+msgid "&Refresh"
+msgstr "&Odśwież"
+
 #: src/application/widgets/VersionSelectWidget.cpp:113
 #, fuzzy
 msgctxt "VersionSelectWidget|"
@@ -5045,6 +5173,14 @@ msgstr ""
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr ""
+
+#~ msgctxt "ExternalToolsPage|"
+#~ msgid "JProfiler Directory"
+#~ msgstr "Katalog JProfiler"
+
+#~ msgctxt "ExternalToolsPage|"
+#~ msgid "MCEdit Directory"
+#~ msgstr "Katalog MCEdit"
 
 #~ msgctxt "AboutDialog|"
 #~ msgid ""
@@ -6391,10 +6527,6 @@ msgstr ""
 #~ msgctxt "ExternalToolsPage|"
 #~ msgid "Tab 1"
 #~ msgstr "Zakładka 1"
-
-#~ msgctxt "ExternalToolsPage|"
-#~ msgid "JProfiler"
-#~ msgstr "JProfiler"
 
 #~ msgctxt "ExternalToolsPage|"
 #~ msgid "..."

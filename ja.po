@@ -292,6 +292,39 @@ msgstr ""
 "あなたのアカウントを追加するためにあなたのMojangまたはMinecraftアカウントの"
 "ユーザー名とパスワードを入力してください。"
 
+#: src/application/setupwizard/AnalyticsWizardPage.cpp:46
+#, fuzzy
+msgctxt "AnalyticsWizardPage|"
+msgid "Analytics"
+msgstr "インスタンスの設定"
+
+#: src/application/setupwizard/AnalyticsWizardPage.cpp:47
+msgctxt "AnalyticsWizardPage|"
+msgid "We track some anonymous statistics about users."
+msgstr ""
+
+#: src/application/setupwizard/AnalyticsWizardPage.cpp:48
+msgctxt "AnalyticsWizardPage|"
+msgid ""
+"<html><body><p>MultiMC sends anonymous usage statistics on every start of "
+"the application. This helps us decide what platforms and issues to focus on."
+"</p><p>The data is processed by Google Analytics, see their <a href="
+"\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the "
+"matter</a>.</p><p>The following data is collected:</p><ul><li>A random "
+"unique ID of the MultiMC installation.<br />It is stored in the application "
+"settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</"
+"li><li>MultiMC version.</li><li>Operating system name, version and "
+"architecture.</li><li>CPU architecture (kernel architecture on linux).</"
+"li><li>Size of system memory.</li><li>Java version, architecture and memory "
+"settings.</li></ul><p>If we change the tracked information, you will see "
+"this page again.</p></body></html>"
+msgstr ""
+
+#: src/application/setupwizard/AnalyticsWizardPage.cpp:62
+msgctxt "AnalyticsWizardPage|"
+msgid "Enable Analytics"
+msgstr ""
+
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:13
 #, fuzzy
 msgctxt "AssetUpdateTask|"
@@ -609,9 +642,10 @@ msgid "External Tools"
 msgstr "外部ツール"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:89
+#, fuzzy
 msgctxt "ExternalToolsPage|"
-msgid "JProfiler Directory"
-msgstr "JProfilerのディレクトリ"
+msgid "JProfiler Folder"
+msgstr "JProfiler"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:97
 #: src/application/pages/global/ExternalToolsPage.cpp:112
@@ -673,9 +707,10 @@ msgid "MCEdit Application"
 msgstr "MCEdit アプリケーション"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
+#, fuzzy
 msgctxt "ExternalToolsPage|"
-msgid "MCEdit Directory"
-msgstr "MCEditのディレクトリ"
+msgid "MCEdit Folder"
+msgstr "Configのフォルダ"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -1110,7 +1145,7 @@ msgctxt "InstanceSettingsPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
 "and post-exit command runs after it exits.</p><p>Both will be run in "
-"MultiMC's working directory with extra environment variables:</p><ul style="
+"MultiMC's working folder with extra environment variables:</p><ul style="
 "\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -"
 "qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-"
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">INST_NAME "
@@ -1210,69 +1245,69 @@ msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
 msgstr "Javaのインストールを検出中..."
 
-#: src/application/pages/global/JavaPage.ui:45
+#: src/application/pages/global/JavaPage.ui:36
 msgctxt "JavaPage|"
 msgid "Memory"
 msgstr "メモリ"
 
-#: src/application/pages/global/JavaPage.ui:51
+#: src/application/pages/global/JavaPage.ui:42
 msgctxt "JavaPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "Minecraftが使用する最大メモリの値です。"
 
-#: src/application/pages/global/JavaPage.ui:73
+#: src/application/pages/global/JavaPage.ui:64
 msgctxt "JavaPage|"
 msgid "Minimum memory allocation:"
 msgstr "最少メモリ割り当て："
 
-#: src/application/pages/global/JavaPage.ui:80
+#: src/application/pages/global/JavaPage.ui:71
 msgctxt "JavaPage|"
 msgid "Maximum memory allocation:"
 msgstr "最大メモリ割り当て："
 
-#: src/application/pages/global/JavaPage.ui:87
+#: src/application/pages/global/JavaPage.ui:78
 msgctxt "JavaPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "Minecraftが開始するときに使用される最少メモリの値です。"
 
-#: src/application/pages/global/JavaPage.ui:116
+#: src/application/pages/global/JavaPage.ui:107
 msgctxt "JavaPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "Javaクラスのロードに使われる使用可能なメモリの値です。"
 
-#: src/application/pages/global/JavaPage.ui:141
+#: src/application/pages/global/JavaPage.ui:132
 msgctxt "JavaPage|"
 msgid "Java Runtime"
 msgstr "Java Runtime"
 
-#: src/application/pages/global/JavaPage.ui:153
+#: src/application/pages/global/JavaPage.ui:144
 msgctxt "JavaPage|"
 msgid "Java path:"
 msgstr "Javaのパス："
 
-#: src/application/pages/global/JavaPage.ui:208
+#: src/application/pages/global/JavaPage.ui:199
 msgctxt "JavaPage|"
 msgid "Auto-detect..."
 msgstr "自動検出..."
 
-#: src/application/pages/global/JavaPage.ui:221
+#: src/application/pages/global/JavaPage.ui:212
 msgctxt "JavaPage|"
 msgid "Test"
 msgstr "テスト"
 
-#: src/application/pages/global/JavaPage.ui:257
+#: src/application/pages/global/JavaPage.ui:248
 #, fuzzy
 msgctxt "JavaPage|"
 msgid "Wrapper command:"
 msgstr "Pre-launch command:"
 
-#: src/application/pages/global/JavaPage.ui:276
+#: src/application/pages/global/JavaPage.ui:267
 #, fuzzy
 msgctxt "JavaPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
 "and post-exit command runs after it exits. Both will be run in MultiMC's "
-"working directory with INST_ID, INST_DIR, and INST_NAME as environment "
+"working folder with INST_ID, INST_DIR, and INST_NAME as environment "
 "variables.</p><p>Wrapper command allows running java using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
@@ -1280,22 +1315,22 @@ msgstr ""
 "了後に実行されます。どちらも、環境変数としてINST_ID、INST_DIR、および"
 "INST_NAMEとMultiMCの作業ディレクトリで実行されます。"
 
-#: src/application/pages/global/JavaPage.ui:195
+#: src/application/pages/global/JavaPage.ui:186
 msgctxt "JavaPage|"
 msgid "JVM arguments:"
 msgstr "JVM引数："
 
-#: src/application/pages/global/JavaPage.ui:231
+#: src/application/pages/global/JavaPage.ui:222
 msgctxt "JavaPage|"
 msgid "Custom Commands"
 msgstr "カスタムコマンド"
 
-#: src/application/pages/global/JavaPage.ui:237
+#: src/application/pages/global/JavaPage.ui:228
 msgctxt "JavaPage|"
 msgid "Post-exit command:"
 msgstr "Post-exit command:"
 
-#: src/application/pages/global/JavaPage.ui:244
+#: src/application/pages/global/JavaPage.ui:235
 msgctxt "JavaPage|"
 msgid "Pre-launch command:"
 msgstr "Pre-launch command:"
@@ -1331,11 +1366,66 @@ msgid ""
 "You can change the Java version in the settings later.\n"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:283
+#: src/application/setupwizard/JavaWizardPage.cpp:265
 #, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Find Java executable"
 msgstr "Java実行可能ファイルを探します"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:425
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Java"
+msgstr "Java"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:426
+msgctxt "JavaWizardPage|"
+msgid ""
+"You do not have a working Java set up yet or it went missing.\n"
+"Please select one of the following or browse for a java executable."
+msgstr ""
+
+#: src/application/setupwizard/JavaWizardPage.cpp:428
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Memory"
+msgstr "メモリ"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:429
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "The maximum amount of memory Minecraft is allowed to use."
+msgstr "Minecraftが使用する最大メモリの値です。"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:430
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Minimum memory allocation:"
+msgstr "最少メモリ割り当て："
+
+#: src/application/setupwizard/JavaWizardPage.cpp:431
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Maximum memory allocation:"
+msgstr "最大メモリ割り当て："
+
+#: src/application/setupwizard/JavaWizardPage.cpp:432
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "The amount of memory Minecraft is started with."
+msgstr "Minecraftが開始するときに使用される最少メモリの値です。"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:433
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "The amount of memory available to store loaded Java classes."
+msgstr "Javaクラスのロードに使われる使用可能なメモリの値です。"
+
+#: src/application/setupwizard/JavaWizardPage.cpp:434
+#, fuzzy
+msgctxt "JavaWizardPage|"
+msgid "Browse"
+msgstr "ブラウザで開く..."
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:161
 msgctxt "LLListLoadTask|"
@@ -1358,6 +1448,16 @@ msgstr "バージョン"
 msgctxt "LWJGLVersionList|"
 msgid "LWJGL version name."
 msgstr "LWJGLのバージョンリストを読み込んでいます..."
+
+#: src/application/setupwizard/LanguageWizardPage.cpp:52
+msgctxt "LanguageWizardPage|"
+msgid "Language"
+msgstr ""
+
+#: src/application/setupwizard/LanguageWizardPage.cpp:53
+msgctxt "LanguageWizardPage|"
+msgid "Select the language to use in MultiMC"
+msgstr ""
 
 #: src/application/LaunchController.cpp:34
 #, fuzzy
@@ -1513,6 +1613,16 @@ msgid ""
 msgstr ""
 "これはインスタンスの破損を引き起こす可能性があるので Minecraftの動作が停止し"
 "た場合にのみ使用してください"
+
+#: src/api/logic/launch/LaunchTask.cpp:215
+#, qt-format
+msgctxt "LaunchTask|"
+msgid ""
+"MultiMC stopped watching the game log because the log length surpassed %1 "
+"lines.\n"
+"You may have to fix your mods because the game is still logging to files and "
+"likely wasting harddrive space at an alarming rate!"
+msgstr ""
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:54
 #, qt-format
@@ -1957,31 +2067,21 @@ msgctxt "LogPage|"
 msgid "Minecraft Log"
 msgstr "Minecraftのログ"
 
-#: src/application/pages/LogPage.cpp:209
+#: src/application/pages/LogPage.cpp:196
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
 msgstr ""
 
-#: src/application/pages/LogPage.cpp:213
+#: src/application/pages/LogPage.cpp:200
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
 msgstr ""
 
-#: src/application/pages/LogPage.cpp:217
+#: src/application/pages/LogPage.cpp:204
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr ""
-
-#: src/application/pages/LogPage.cpp:181
-#, qt-format
-msgctxt "LogPage|"
-msgid ""
-"MultiMC stopped watching the game log because the log length surpassed %1 "
-"lines.\n"
-"You may have to fix your mods because the game is still loggging to files "
-"and likely wasting harddrive space at an alarming rate!"
 msgstr ""
 
 #. Message displayed on instance exit
@@ -2846,7 +2946,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "Minecraftのバージョンを変更"
 
-#: src/application/MultiMC.cpp:775
+#: src/application/MultiMC.cpp:840
 #, fuzzy
 msgctxt "MultiMC|"
 msgid "Settings"
@@ -3083,19 +3183,22 @@ msgid "Simple (Light Icons)"
 msgstr "シンプル (白いアイコン)"
 
 #: src/application/pages/global/MultiMCPage.cpp:102
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "FTB Launcher Directory"
+msgid "FTB Launcher Folder"
 msgstr "FTBランチャーディレクトリ"
 
 #: src/application/pages/global/MultiMCPage.cpp:115
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "FTB Directory"
-msgstr "FTBディレクトリ"
+msgid "FTB Folder"
+msgstr "フォルダ"
 
 #: src/application/pages/global/MultiMCPage.cpp:127
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "Instance Directory"
-msgstr "インスタンスディレクトリ"
+msgid "Instance Folder"
+msgstr "インスタンスのフォルダ"
 
 #: src/application/pages/global/MultiMCPage.cpp:137
 msgctxt "MultiMCPage|"
@@ -3117,19 +3220,22 @@ msgstr ""
 "タンスのパスも変更されません。"
 
 #: src/application/pages/global/MultiMCPage.cpp:160
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "Icons Directory"
-msgstr "アイコンディレクトリ"
+msgid "Icons Folder"
+msgstr "インスタンスのフォルダ"
 
 #: src/application/pages/global/MultiMCPage.cpp:172
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "Mods Directory"
-msgstr "Modsディレクトリ"
+msgid "Mods Folder"
+msgstr "フォルダ"
 
 #: src/application/pages/global/MultiMCPage.cpp:184
+#, fuzzy
 msgctxt "MultiMCPage|"
-msgid "LWJGL Directory"
-msgstr "LWJGLディレクトリ"
+msgid "LWJGL Folder"
+msgstr "フォルダ"
 
 #: src/application/pages/global/MultiMCPage.cpp:494
 msgctxt "MultiMCPage|"
@@ -3260,7 +3366,7 @@ msgctxt "NullInstance|"
 msgid "Unknown instance type"
 msgstr "不明なインスタンス読み込みエラー %1"
 
-#: src/api/logic/minecraft/ftb/OneSixFTBInstance.cpp:135
+#: src/api/logic/minecraft/ftb/OneSixFTBInstance.cpp:132
 msgctxt "OneSixFTBInstance|"
 msgid "OneSix FTB"
 msgstr ""
@@ -4018,23 +4124,23 @@ msgctxt "QObject|"
 msgid "Unknown formatVersion: %1"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:303
+#: src/application/setupwizard/JavaWizardPage.cpp:285
 #, fuzzy
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
 msgstr "選択したファイルは実行可能ではないようです"
 
-#: src/application/setupwizard/JavaWizardPage.cpp:308
+#: src/application/setupwizard/JavaWizardPage.cpp:290
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:320
+#: src/application/setupwizard/JavaWizardPage.cpp:302
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:331
+#: src/application/setupwizard/JavaWizardPage.cpp:313
 #: src/application/JavaCommon.cpp:28
 #, qt-format
 msgctxt "QObject|"
@@ -4043,14 +4149,14 @@ msgid ""
 "%2<br />"
 msgstr ""
 
-#: src/application/setupwizard/JavaWizardPage.cpp:340
+#: src/application/setupwizard/JavaWizardPage.cpp:322
 #: src/application/JavaCommon.cpp:36
 #, fuzzy
 msgctxt "QObject|"
 msgid "Java test success"
 msgstr "Javaのテストに成功しました"
 
-#: src/application/setupwizard/JavaWizardPage.cpp:340
+#: src/application/setupwizard/JavaWizardPage.cpp:322
 #: src/application/JavaCommon.cpp:46 src/application/JavaCommon.cpp:55
 #, fuzzy
 msgctxt "QObject|"
@@ -4062,7 +4168,7 @@ msgctxt "QObject|"
 msgid "Dark"
 msgstr ""
 
-#: src/application/themes/SystemTheme.cpp:33
+#: src/application/themes/SystemTheme.cpp:44
 msgctxt "QObject|"
 msgid "System"
 msgstr ""
@@ -4246,26 +4352,31 @@ msgctxt "ServerStatus|"
 msgid "Session"
 msgstr "セッション"
 
-#: src/application/setupwizard/SetupWizard.cpp:49
+#: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
 msgid "&Next >"
 msgstr ""
 
-#: src/application/setupwizard/SetupWizard.cpp:50
+#: src/application/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
 msgid "< &Back"
 msgstr ""
 
-#: src/application/setupwizard/SetupWizard.cpp:51
+#: src/application/setupwizard/SetupWizard.cpp:31
 msgctxt "SetupWizard|"
 msgid "&Finish"
 msgstr ""
 
-#: src/application/setupwizard/SetupWizard.cpp:52
+#: src/application/setupwizard/SetupWizard.cpp:32
 #, fuzzy
 msgctxt "SetupWizard|"
 msgid "&Refresh"
 msgstr "&リフレッシュ"
+
+#: src/application/setupwizard/SetupWizard.cpp:33
+msgctxt "SetupWizard|"
+msgid "MultiMC Quick Setup"
+msgstr ""
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 #, fuzzy
@@ -4842,6 +4953,22 @@ msgctxt "VersionProxyModel|"
 msgid "Latest"
 msgstr "最新"
 
+#: src/application/dialogs/VersionSelectDialog.cpp:81
+msgctxt "VersionSelectDialog|"
+msgid "Choose Version"
+msgstr "バージョンを選択してください"
+
+#: src/application/dialogs/VersionSelectDialog.cpp:82
+msgctxt "VersionSelectDialog|"
+msgid "Reloads the version list."
+msgstr "バージョンリストをリロードします。"
+
+#: src/application/dialogs/VersionSelectDialog.cpp:83
+#, fuzzy
+msgctxt "VersionSelectDialog|"
+msgid "&Refresh"
+msgstr "&リフレッシュ"
+
 #: src/application/widgets/VersionSelectWidget.cpp:113
 #, fuzzy
 msgctxt "VersionSelectWidget|"
@@ -5217,6 +5344,34 @@ msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
 
+#~ msgctxt "ExternalToolsPage|"
+#~ msgid "JProfiler Directory"
+#~ msgstr "JProfilerのディレクトリ"
+
+#~ msgctxt "ExternalToolsPage|"
+#~ msgid "MCEdit Directory"
+#~ msgstr "MCEditのディレクトリ"
+
+#~ msgctxt "MultiMCPage|"
+#~ msgid "FTB Directory"
+#~ msgstr "FTBディレクトリ"
+
+#~ msgctxt "MultiMCPage|"
+#~ msgid "Instance Directory"
+#~ msgstr "インスタンスディレクトリ"
+
+#~ msgctxt "MultiMCPage|"
+#~ msgid "Icons Directory"
+#~ msgstr "アイコンディレクトリ"
+
+#~ msgctxt "MultiMCPage|"
+#~ msgid "Mods Directory"
+#~ msgstr "Modsディレクトリ"
+
+#~ msgctxt "MultiMCPage|"
+#~ msgid "LWJGL Directory"
+#~ msgstr "LWJGLディレクトリ"
+
 #~ msgctxt "AboutDialog|"
 #~ msgid ""
 #~ "<html><head/><body><p><a href=\"http://github.com/MultiMC/"
@@ -5421,14 +5576,6 @@ msgstr "..."
 #~ "<a href=\"%1\">アップロードされたアルバムのリンク </a>がデフォルトのブラウ"
 #~ "ザで開かれ、クリップボードに保存されます。<br/>Delete hash: %2（アルバムを"
 #~ "編集/削除できるようにしたい場合は、保存してください）"
-
-#~ msgctxt "VersionSelectDialog|"
-#~ msgid "Choose Version"
-#~ msgstr "バージョンを選択してください"
-
-#~ msgctxt "VersionSelectDialog|"
-#~ msgid "Reloads the version list."
-#~ msgstr "バージョンリストをリロードします。"
 
 #, fuzzy
 #~ msgctxt "VersionSelectDialog|"
@@ -6732,10 +6879,6 @@ msgstr "..."
 #~ msgctxt "ExternalToolsPage|"
 #~ msgid "Tab 1"
 #~ msgstr "タブ 1"
-
-#~ msgctxt "ExternalToolsPage|"
-#~ msgid "JProfiler"
-#~ msgstr "JProfiler"
 
 #~ msgctxt "ExternalToolsPage|"
 #~ msgid "..."
