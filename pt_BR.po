@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-29 19:31-0400\n"
-"PO-Revision-Date: 2016-11-22 20:41-0200\n"
+"PO-Revision-Date: 2017-05-27 17:15-0300\n"
 "Last-Translator: Rodrigowbs <rodrigo.wander@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <http://weblate.robotbrain.info/projects/"
 "multimc/multimc/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Qt-Contexts: true\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
@@ -36,7 +36,6 @@ msgid "Version:"
 msgstr "Versão:"
 
 #: src/application/dialogs/AboutDialog.ui:216
-#, fuzzy
 msgctxt "AboutDialog|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -87,10 +86,9 @@ msgstr ""
 "facilmente diversas instâncias do Minecraft.</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
-#, fuzzy
 msgctxt "AboutDialog|"
 msgid "© 2012-2017 MultiMC Contributors"
-msgstr "© 2013-2015 Contribuidores do MultiMC"
+msgstr "© 2013-2017 Contribuidores do MultiMC"
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -114,7 +112,6 @@ msgid "Forking/Redistribution"
 msgstr "Bifurcação/Redistribuição"
 
 #: src/application/dialogs/AboutDialog.ui:535
-#, fuzzy
 msgctxt "AboutDialog|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -270,13 +267,12 @@ msgstr "&Sem Padrão"
 msgctxt "AccountListPage|"
 msgid ""
 "Opens a dialog to select and upload a skin image to the selected account."
-msgstr ""
+msgstr "Abre um diálogo para trocar sua skin para a conta selecionada"
 
 #: src/application/pages/global/AccountListPage.ui:106
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid "&Upload Skin"
-msgstr "&Upload"
+msgstr "&Trocar Skin"
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -292,15 +288,14 @@ msgstr ""
 "Por favor, entre com sua conta da Mojang, ou do Minecraft e com sua senha."
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
-#, fuzzy
 msgctxt "AnalyticsWizardPage|"
 msgid "Analytics"
-msgstr "Configurações da instância"
+msgstr "Analytics"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
 msgid "We track some anonymous statistics about users."
-msgstr ""
+msgstr "Nós coletamos algumas informações não pessoais sobre usuários."
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
@@ -318,38 +313,47 @@ msgid ""
 "settings.</li></ul><p>If we change the tracked information, you will see "
 "this page again.</p></body></html>"
 msgstr ""
+"<html><body><p>O MultiMC coleta dados anônimos(não pessoais) toda vez que "
+"você o abre. Isso ajuda nós a definir que plataformas e problemas devemos "
+"focar.</p><p>Os dados são coletados e processados pelo analytics, veja esse "
+"<a href=\"https://support.google.com/analytics/answer/6004245?hl=en"
+"\">artículo.</a>.</p><p>Os seguintes dados são coletados:</p><ul><li>Um ID "
+"aleatório e único é escolhido.<br />It is stored in the application settings "
+"(multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC "
+"version.</li><li>Operating system name, version and architecture.</"
+"li><li>CPU architecture (kernel architecture on linux).</li><li>Size of "
+"system memory.</li><li>Java version, architecture and memory settings.</li></"
+"ul><p>If we change the tracked information, you will see this page again.</"
+"p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr ""
+msgstr "Ativar Analytics"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:13
-#, fuzzy
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
-msgstr "Atualizando de índices ativos ..."
+msgstr "Atualizando índice de ativos ..."
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:18
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
 msgstr "índice do ativo para %1"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:60
-#, fuzzy
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
 msgstr "Falha ao ler o índice de recursos!"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:66
-#, fuzzy
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
 msgstr "Baixando os arquivos de recursos da Mojang..."
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:80
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download the assets index:\n"
@@ -359,7 +363,7 @@ msgstr ""
 "%1"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:85
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download assets:\n"
@@ -421,33 +425,32 @@ msgid "Profiler aborted"
 msgstr "Profiler abortado"
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityLocalLoadTask.cpp:38
-#, fuzzy
 msgctxt "BaseWonkoEntityLocalLoadTask|"
 msgid "File doesn't exist"
-msgstr "O caminho não existe"
+msgstr "O arquivo não existe"
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityLocalLoadTask.cpp:42
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "BaseWonkoEntityLocalLoadTask|"
 msgid "Reading %1..."
-msgstr "Carregando notícias..."
+msgstr "Carregando %1..."
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityLocalLoadTask.cpp:53
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "BaseWonkoEntityLocalLoadTask|"
 msgid "Unable to parse file %1: %2"
-msgstr "Não é possível apagar %1: %2"
+msgstr "Não é possível analisar o arquivo %1: %2"
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityRemoteLoadTask.cpp:51
 msgctxt "BaseWonkoEntityRemoteLoadTask|"
 msgid "Parsing..."
-msgstr ""
+msgstr "Analisando..."
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityRemoteLoadTask.cpp:62
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "BaseWonkoEntityRemoteLoadTask|"
 msgid "Unable to parse response: %1"
-msgstr "Não é possível processar o arquivo de versão %1."
+msgstr "Não é possível analisar a resposta %1."
 
 #: src/api/logic/java/launch/CheckJava.cpp:36
 #, qt-format
@@ -491,7 +494,7 @@ msgstr "Não foi possível iniciar o java!"
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr ""
+msgstr "A verificação do Java deu dados que o MultiMC não entende"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
@@ -500,6 +503,8 @@ msgid ""
 "Java is version %1, using %2-bit architecture.\n"
 "\n"
 msgstr ""
+"O Java é da versão %1, usando arquitetura de %2-bit\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
@@ -508,6 +513,9 @@ msgid ""
 "want to install a 64bit Operating System.\n"
 "\n"
 msgstr ""
+"A arquitetura de seu Sistema Operacional não coincide com a da sua CPU. Você "
+"pode instalar a versão de 64bits do seu Sistema Operacional\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
@@ -516,6 +524,9 @@ msgid ""
 "want to install a 64bit Java version.\n"
 "\n"
 msgstr ""
+"A arquitetura de seu Java não coincide com a da sua CPU. Você pode instalar "
+"a versão de 64bits do Java\n"
+"\n"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -543,7 +554,6 @@ msgid "No group"
 msgstr "Sem grupo"
 
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
-#, fuzzy
 msgctxt "CreateServerResourcePacksFolder|"
 msgid "Couldn't create the 'server-resource-packs' folder"
 msgstr ""
@@ -551,26 +561,25 @@ msgstr ""
 "resource-packs')"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:66
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
 msgstr "O comando do Wrapper \"%1\" não foi encontrado."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:88
-#, fuzzy
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
 msgstr "Não foi possível iniciar o Minecraft!"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:118
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid ""
 "Minecraft process ID: %1\n"
 "\n"
 msgstr ""
-"ID do Processo doMinecraft: %1\n"
+"ID do Processo do Minecraft: %1\n"
 "\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
@@ -642,10 +651,9 @@ msgid "External Tools"
 msgstr "Ferramentas Externas"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:89
-#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr "JProfiler"
+msgstr "Pasta do JProfiler"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:97
 #: src/application/pages/global/ExternalToolsPage.cpp:112
@@ -707,10 +715,9 @@ msgid "MCEdit Application"
 msgstr "Aplicação do MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
-#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "Configurar Pasta"
+msgstr "Pasta do MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -747,40 +754,36 @@ msgstr "O arquivo escolhido não parece ser um executável"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr ""
+msgstr "Não é possível extrair o jar nativo '%1' para '%2'"
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:35
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
 msgstr "Verificando por bibliotecas do FML..."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:61
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
 msgstr "Baixando bibliotecas do FML..."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:89
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
 msgstr "Copiando bibliotecas do FML para dentro da instância..."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:100
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
 msgstr "Falha na criação da pasta da biblioteca FML dentro da instância."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:105
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
 msgstr "Falha na copia da biblioteca do Forge/FML: %1."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:118
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid ""
 "Failed to download the following files:\n"
@@ -796,10 +799,9 @@ msgstr ""
 "Por favor tente novamente."
 
 #: src/api/logic/minecraft/onesix/update/FoldersTask.cpp:16
-#, fuzzy
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr "Falha ao criar a pasta binaries para o Minecraft."
+msgstr "Falha ao criar a pasta de binários para o Minecraft."
 
 #: src/api/logic/minecraft/forge/ForgeInstaller.cpp:357
 msgctxt "ForgeInstallTask|"
@@ -908,35 +910,34 @@ msgid "Icons"
 msgstr "Ícones"
 
 #: src/api/logic/InstanceCopyTask.cpp:29
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
-msgstr "Copiar instância"
+msgstr "Copiando instância %1"
 
 #: src/api/logic/InstanceCopyTask.cpp:46
-#, fuzzy
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
-msgstr "Pasta das Instâncias"
+msgstr "Cópia da instância falhou."
 
 #: src/api/logic/InstanceCopyTask.cpp:66
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "Cópia da pasta da Instância foi cancelada."
 
 #: src/api/logic/InstanceCreationTask.cpp:23
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "Carregando lista de versões da instância..."
+msgstr "Criando instância da versão %1"
 
 #: src/api/logic/InstanceCreationTask.cpp:27
 msgctxt "InstanceCreationTask|"
 msgid "The supplied version is not a Minecraft version."
-msgstr ""
+msgstr "A versão que você escreveu não é de minecraft"
 
 #: src/api/logic/InstanceImportTask.cpp:35
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
 "Downloading modpack:\n"
@@ -946,39 +947,34 @@ msgstr ""
 "%1"
 
 #: src/api/logic/InstanceImportTask.cpp:41
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Download do modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:89
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Falha ao extrair modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:105
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Falha ao extrair modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:113
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain instance.cfg"
-msgstr "Arquivo não tem instance.cfg"
+msgstr "Arquivo não contém instance.cfg"
 
 #: src/api/logic/InstanceImportTask.cpp:153
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Unable to commit instance"
-msgstr "Não foi possível copiar a instância"
+msgstr "Não foi possível cometer a instância"
 
 #: src/api/logic/InstanceImportTask.cpp:162
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Importação de instâncias foi cancelada."
 
 #: src/application/InstancePageProvider.h:38
 #: src/application/InstancePageProvider.h:55
@@ -1058,7 +1054,7 @@ msgstr "Memória"
 #: src/application/pages/InstanceSettingsPage.ui:186
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr ""
+msgstr "Nota: Permgen é configurada automáticamente desde o Java 8"
 
 #: src/application/pages/InstanceSettingsPage.ui:199
 msgctxt "InstanceSettingsPage|"
@@ -1096,10 +1092,9 @@ msgid "Conso&le Settings"
 msgstr "Configurações do Console"
 
 #: src/application/pages/InstanceSettingsPage.ui:338
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr "Mostrar console enquanto o jogo estiver sendo executado?"
+msgstr "Mostrar console enquanto o jogo travar e fechar?"
 
 #: src/application/pages/InstanceSettingsPage.ui:371
 msgctxt "InstanceSettingsPage|"
@@ -1137,7 +1132,6 @@ msgid "Wrapper command:"
 msgstr "Comando de pré-inicialização:"
 
 #: src/application/pages/InstanceSettingsPage.ui:416
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1196,19 +1190,16 @@ msgid "Find Java executable"
 msgstr "Encontre o executável do Java"
 
 #: src/application/InstanceWindow.cpp:39
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Console window for "
-msgstr "Janela de console para "
+msgstr "Janela do console para "
 
 #: src/application/InstanceWindow.cpp:61
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Help"
 msgstr "Ajuda"
 
 #: src/application/InstanceWindow.cpp:74
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Close"
 msgstr "Fechar"
@@ -1216,24 +1207,22 @@ msgstr "Fechar"
 #: src/application/InstanceWindow.cpp:117
 msgctxt "InstanceWindow|"
 msgid "Kill"
-msgstr ""
+msgstr "Fechar"
 
 #: src/application/InstanceWindow.cpp:118
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr ""
+msgstr "Fechar a instância selecionada"
 
 #: src/application/InstanceWindow.cpp:122
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Iniciar"
 
 #: src/application/InstanceWindow.cpp:123
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "Executar a instância selecionada."
+msgstr "Executar a instância."
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, qt-format
@@ -1318,7 +1307,6 @@ msgid "Wrapper command:"
 msgstr "Comando do Wrapper:"
 
 #: src/application/pages/global/JavaPage.ui:267
-#, fuzzy
 msgctxt "JavaPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1327,10 +1315,10 @@ msgid ""
 "variables.</p><p>Wrapper command allows running java using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Comando pré-inicialização é executado após a "
-"inicialização da instância e comando pós-saída é executado após a saída: "
-"Ambos são executados dentro do diretório do MultiMC em INST_ID, INST_DIR, "
-"and INST_NAME como variáveis de ambiente.</p></body></html>"
+"<html><head/><body><p>Comandos de pré-inicialização são executados após a "
+"inicialização da instância e comandos pós-saída são executado após a saída: "
+"Ambos são executados dentro do diretório do MultiMC em INST_ID, INST_DIR, e "
+"INST_NAME como variáveis de ambiente.</p></body></html>"
 
 #: src/application/pages/global/JavaPage.ui:186
 msgctxt "JavaPage|"
@@ -1368,10 +1356,9 @@ msgid "Find Java executable"
 msgstr "Encontre o executável do Java"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:158
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "No Java version selected"
-msgstr "Versão inválida selecionada"
+msgstr "Nenhuma versão do Java selecionada"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:159
 msgctxt "JavaWizardPage|"
@@ -1382,15 +1369,19 @@ msgid ""
 "\n"
 "You can change the Java version in the settings later.\n"
 msgstr ""
+"Você não selecionou nenhuma versão do Java ou selecionou alguma coisa que "
+"não serve.\n"
+"O MultiMC não vai poder iniciar o Minecraft.\n"
+"Quer continuar mesmo sem nenhum Java selecionado?\n"
+"\n"
+"Você pode selecionar um depois.\n"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:265
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Find Java executable"
 msgstr "Encontre o executável do Java"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:425
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Java"
 msgstr "Java"
@@ -1401,49 +1392,43 @@ msgid ""
 "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
 msgstr ""
+"Você não tem nenhum Java configurado ou ele está faltando.\n"
+"Por favor selecione um desses ou procure por um executável do Java."
 
 #: src/application/setupwizard/JavaWizardPage.cpp:428
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Memory"
 msgstr "Memória"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:429
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "O Máximo de memória permitida para ser usada pelo Minecraft."
 
 #: src/application/setupwizard/JavaWizardPage.cpp:430
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Minimum memory allocation:"
 msgstr "Mínimo de alocação de memória:"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:431
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Maximum memory allocation:"
 msgstr "Máximo de alocação de memória:"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:432
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "Quantidade de memória usada quando o Minecraft é iniciado."
 
 #: src/application/setupwizard/JavaWizardPage.cpp:433
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr ""
-"A quantidade de memória suficiente para guardar carregador de classes Java."
+msgstr "A quantidade de memória suficiente para carregar classes Java."
 
 #: src/application/setupwizard/JavaWizardPage.cpp:434
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Browse"
-msgstr "Procurar..."
+msgstr "Procurar"
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:161
 msgctxt "LLListLoadTask|"
@@ -1470,12 +1455,14 @@ msgstr "Nome da versão do LWJGL"
 #: src/application/setupwizard/LanguageWizardPage.cpp:52
 msgctxt "LanguageWizardPage|"
 msgid "Language"
-msgstr ""
+msgstr "Língua/Language:"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:53
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
 msgstr ""
+"Selecione a língua para usar no MultiMC / Select the language to use in "
+"MultiMC:"
 
 #: src/application/LaunchController.cpp:34
 msgctxt "LaunchController|"
@@ -1499,10 +1486,9 @@ msgstr ""
 "adicionar uma conta agora?"
 
 #: src/application/LaunchController.cpp:62
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Which profile would you like to use?"
-msgstr "Que conta você gostaria de usar?"
+msgstr "Que perfil você gostaria de usar?"
 
 #: src/application/LaunchController.cpp:78
 msgctxt "LaunchController|"
@@ -1601,16 +1587,14 @@ msgstr "Não foi possível iniciar o profiler: %1"
 #: src/application/LaunchController.cpp:288
 msgctxt "LaunchController|"
 msgid "Abort"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/application/LaunchController.cpp:304
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
-msgstr "Finalizar Minecraft?"
+msgstr "Fechar Minecraft?"
 
 #: src/application/LaunchController.cpp:305
-#, fuzzy
 msgctxt "LaunchController|"
 msgid ""
 "This can cause the instance to get corrupted and should only be used if "
@@ -1620,7 +1604,7 @@ msgstr ""
 "congelado por algum motivo."
 
 #: src/api/logic/launch/LaunchTask.cpp:215
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchTask|"
 msgid ""
 "MultiMC stopped watching the game log because the log length surpassed %1 "
@@ -1628,31 +1612,30 @@ msgid ""
 "You may have to fix your mods because the game is still logging to files and "
 "likely wasting harddrive space at an alarming rate!"
 msgstr ""
-"MultiMC parou de assistir o log porque o mesmo ultrapassou %1 linhas.\n"
+"MultiMC parou de atualizar o log porque o mesmo ultrapassou %1 linhas.\n"
 "Você precisa corrigir os mods porque o jogo está registrando arquivos e com "
-"isso usando espaço no disco rígido a uma taxa alarmante"
+"isso usando espaço no disco rígido a uma velocidade alarmante!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:54
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
 msgstr "O comando do Wrapper \"%1\" não foi encontrado."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:76
-#, fuzzy
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
 msgstr "Não foi possível iniciar o Minecraft!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:106
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid ""
 "Minecraft process ID: %1\n"
 "\n"
 msgstr ""
-"ID do Processo doMinecraft: %1\n"
+"ID do Processo do Minecraft: %1\n"
 "\n"
 
 #: src/api/logic/minecraft/ftb/LegacyFTBInstance.cpp:26
@@ -1731,31 +1714,26 @@ msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft jar mods (*.zip *.jar)"
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:475
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "Name"
 msgstr "Nome"
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:477
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "Version"
 msgstr "Versão"
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:486
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "Is the mod enabled?"
 msgstr "O mod está ativado?"
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:488
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "The name of the mod."
 msgstr "O nome do mod."
 
 #: src/api/logic/minecraft/legacy/LegacyModList.cpp:490
-#, fuzzy
 msgctxt "LegacyModList|"
 msgid "The version of the mod."
 msgstr "A versão do mod."
@@ -1907,27 +1885,26 @@ msgid "Start the upgrade! (Not Yet Implemented, Coming Soon™)"
 msgstr "Comece o upgrade! (Ainda não implementado, Em breve ™)"
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:12
-#, fuzzy
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr "Baixando as bibliotecas de arquivos da Mojang..."
+msgstr "Baixando os arquivos de biblioteca da Mojang..."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:18
-#, fuzzy
 msgctxt "LibrariesTask|"
 msgid ""
 "Failed to load the version description files - check the instance for errors."
 msgstr ""
-"Falha ao carregar o arquivo de descrição da versão por razões desconhecidas."
+"Falha ao carregar o arquivo de descrição da versão - verifique erros na "
+"instância."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:30
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
 msgstr "Bibliotecas para a instância %1"
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:56
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid ""
 "Some libraries marked as 'local' are missing their jar files:\n"
@@ -1936,7 +1913,7 @@ msgid ""
 "You'll have to correct this problem manually. If this is an externally "
 "tracked instance, make sure to run it at least once outside of MultiMC."
 msgstr ""
-"Algumas bibliotecas marcados como 'local' estão perdendo seus arquivos jar:\n"
+"Algumas bibliotecas marcadas como 'local' estão perdendo seus arquivos jar:\n"
 "%1\n"
 "\n"
 "Você vai ter que corrigir este problema manualmente. Se esta é uma instância "
@@ -1944,15 +1921,15 @@ msgstr ""
 "do MultiMC."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:75
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid ""
 "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
 msgstr ""
-"A atualização do jogo falhou: não foi possível encontrar as livrarias do FML "
-"requeridas.\n"
+"A atualização do jogo falhou: não foi possível encontrar as livrarias "
+"necessárias.\n"
 "Motivo:\n"
 "%1"
 
@@ -1972,16 +1949,14 @@ msgstr ""
 "Falha ao carregar o arquivo de descrição da versão por razões desconhecidas."
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:116
-#, fuzzy
 msgctxt "LiteLoaderVersionList|"
 msgid "Snapshot"
 msgstr "Snapshot"
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:116
-#, fuzzy
 msgctxt "LiteLoaderVersionList|"
 msgid "Release"
-msgstr "Liberação Regular"
+msgstr "Versão estável"
 
 #: src/application/pages/LogPage.ui:125
 msgctxt "LogPage|"
@@ -1999,7 +1974,6 @@ msgid "Keep updating"
 msgstr "Manter Atualizado"
 
 #: src/application/pages/LogPage.ui:70
-#, fuzzy
 msgctxt "LogPage|"
 msgid "Wrap lines"
 msgstr "linhas"
@@ -2125,7 +2099,7 @@ msgstr "Erro de análise na lista de versões JSON: %1"
 #: src/api/logic/minecraft/MinecraftVersionList.cpp:475
 msgctxt "MCVListVersionUpdateTask|"
 msgid "Task aborted."
-msgstr ""
+msgstr "Tarefa cancelada."
 
 #: src/api/logic/minecraft/MinecraftVersionList.cpp:512
 msgctxt "MCVListVersionUpdateTask|"
@@ -2179,13 +2153,12 @@ msgstr "Adicionar Instância"
 #: src/application/MainWindow.cpp:139
 msgctxt "MainWindow|"
 msgid "Kill"
-msgstr ""
+msgstr "Fechar"
 
 #: src/application/MainWindow.cpp:140
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "Não é uma instância"
+msgstr "Fechar forçadamente a instância que está aberta"
 
 #: src/application/MainWindow.cpp:326
 msgctxt "MainWindow|"
@@ -2285,7 +2258,6 @@ msgid "Launch the selected instance."
 msgstr "Executar a instância selecionada."
 
 #: src/application/MainWindow.cpp:336
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
 msgstr "Verificar por atualizações do MultiMC"
@@ -2331,16 +2303,14 @@ msgid "Edit the notes for the selected instance."
 msgstr "Editar as notas da instância selecionada."
 
 #: src/application/MainWindow.cpp:357
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "View Worlds"
-msgstr "Mundos"
+msgstr "Ver Mundos"
 
 #: src/application/MainWindow.cpp:358
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
-msgstr "Editar as notas da instância selecionada."
+msgstr "Ver os mundos dessa instância"
 
 #: src/application/MainWindow.cpp:359
 msgctxt "MainWindow|"
@@ -2420,7 +2390,7 @@ msgstr "Executar a Instância selecionada em Modo offline."
 #: src/application/MainWindow.cpp:379
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
-msgstr "Gerenciar Imagens"
+msgstr "Gerenciar screenshots"
 
 #: src/application/MainWindow.cpp:381
 msgctxt "MainWindow|"
@@ -2428,47 +2398,39 @@ msgid "Instance Settings"
 msgstr "Configurações da instância"
 
 #: src/application/MainWindow.cpp:366
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
-msgstr "Abrir a pasta de configuração de instâncias"
+msgstr "Abrir a pasta de configuração da instância"
 
 #: src/application/MainWindow.cpp:368
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
-msgstr ""
+msgstr "OOOH! TI GATU FOFUUUU! :3"
 
 #: src/application/MainWindow.cpp:370
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit."
 msgstr "Abrir subreddit do MultiMC"
 
 #: src/application/MainWindow.cpp:372
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat."
 msgstr "Abrir voicechat do Discord."
 
 #: src/application/MainWindow.cpp:377
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Jogar Off-line"
 
 #: src/application/MainWindow.cpp:380
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr ""
-"<html><head/><body><p>Ver e carregar uma Imagem para esta instância</p></"
-"body></html>"
+msgstr "Ver e enviar uma screenshot para esta instância"
 
 #: src/application/MainWindow.cpp:382
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Change the settings specific to the instance."
-msgstr "Mudar as configurações de uma instância específica"
+msgstr "Mudar as específicas configurações de uma instância"
 
 #: src/application/MainWindow.cpp:383
 msgctxt "MainWindow|"
@@ -2597,14 +2559,13 @@ msgid ""
 "Are you sure?"
 msgstr ""
 "Quase deletando: %1\n"
-"Isso é permanente e apaga tudo, inclusive para instâncias contoladas!\n"
+"Isso é permanente e apaga tudo, inclusive para instâncias controladas!\n"
 "Tem certeza?"
 
 #: src/application/MainWindow.cpp:1412
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Do you want to close MultiMC?"
-msgstr "Você realmente quer apagar %1?"
+msgstr "Você realmente quer fechar o MultiMC?"
 
 #: src/application/MainWindow.cpp:1413
 msgctxt "MainWindow|"
@@ -2613,6 +2574,8 @@ msgid ""
 "inaccurate time tracking and no Minecraft crash handling.</p><p>Are you sure?"
 "</p>"
 msgstr ""
+"<p>Você ainda tem instâncias .</p><p>Fechar o MultiMC pode causar problemas "
+"e quando travar e fechar, não tem como fazer nada.</p><p>TEM CERTEZA?</p>"
 
 #: src/application/MainWindow.cpp:1571
 msgctxt "MainWindow|"
@@ -2620,8 +2583,8 @@ msgid ""
 "You have now two options: <br/> - change the instance folder in the settings "
 "<br/> - move this installation of MultiMC5 to a different folder"
 msgstr ""
-"Agora você tem duas opções: <br/> - alterar o diretório da instância, nas "
-"configurações  <br/> - Mover essa instalação do MultiMC5 para uma pasta "
+"Agora você tem duas opções: <br/> - alterar a pasta da instância, nas "
+"configurações  <br/> - Mover essa instalação do MultiMC para uma pasta "
 "diferente"
 
 #: src/application/MainWindow.cpp:1577
@@ -2632,8 +2595,7 @@ msgid ""
 "location, not a temporary folder"
 msgstr ""
 "Opá! Temos um problema: <br/> - O MultiMC vai ser apagado sem aviso pelo "
-"sistema operacional.<br/> - feche MultiMC e extraia ele para uma pasta real "
-"(sem ser temporária)"
+"sistema operacional.<br/> - feche MultiMC e extraia ele para uma pasta."
 
 #: src/application/MainWindow.cpp:1584
 msgctxt "MainWindow|"
@@ -2641,8 +2603,8 @@ msgid ""
 "Your instance folder contains 'Rar$' - that means you haven't extracted the "
 "MultiMC zip!"
 msgstr ""
-"Sua pasta de instância contém 'Rar$' o que significa que você não extraiu o ."
-"zip do MultiMC!"
+"Sua pasta de instância contém 'Rar$' o que significa que você não extraiu os "
+"arquivos do MultiMC!"
 
 #: src/application/MainWindow.cpp:1592
 #, qt-format
@@ -2664,12 +2626,12 @@ msgstr "Perfis"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
-msgstr ""
+msgstr "Apagar grupo '%1'"
 
 #: src/application/MainWindow.cpp:1036 src/application/MainWindow.cpp:1090
 msgctxt "MainWindow|"
 msgid "Abort"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/application/MainWindow.cpp:1383
 msgctxt "MainWindow|"
@@ -2747,13 +2709,12 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
-msgstr ", jogado por %1"
+msgstr ",foi jogado por %1"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:391
-#, fuzzy
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
-msgstr "O processo travou"
+msgstr ", travou e fechou."
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -2829,23 +2790,24 @@ msgstr "&Remover"
 #: src/application/pages/ModFolderPage.ui:61
 msgctxt "ModFolderPage|"
 msgid "Enable"
-msgstr ""
+msgstr "Ativar"
 
 #: src/application/pages/ModFolderPage.ui:68
 msgctxt "ModFolderPage|"
 msgid "Disable"
-msgstr ""
+msgstr "Desativar"
 
 #: src/application/pages/ModFolderPage.ui:75
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "Open the 'config' folder in the system file manager."
-msgstr "Abrir a pasta de instância em um navegador."
+msgstr ""
+"Abrir a pasta de configurações no gerenciador de arquivos do sistema "
+"(Windows Explorer, por exemplo)."
 
 #: src/application/pages/ModFolderPage.ui:78
 msgctxt "ModFolderPage|"
 msgid "View configs"
-msgstr ""
+msgstr "Visualizar configurações"
 
 #: src/application/pages/ModFolderPage.ui:98
 msgctxt "ModFolderPage|"
@@ -2855,7 +2817,7 @@ msgstr "&Ver Pasta"
 #: src/application/pages/ModFolderPage.ui:126
 msgctxt "ModFolderPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "Filtro:"
 
 #: src/application/pages/ModFolderPage.cpp:156
 #, qt-format
@@ -2876,10 +2838,9 @@ msgid "Version"
 msgstr "Versão"
 
 #: src/api/logic/minecraft/ModList.cpp:279
-#, fuzzy
 msgctxt "ModList|"
 msgid "Last changed"
-msgstr "Última vez que jogou"
+msgstr "Última vez que modificou"
 
 #: src/api/logic/minecraft/ModList.cpp:288
 msgctxt "ModList|"
@@ -2897,10 +2858,9 @@ msgid "The version of the mod."
 msgstr "A versão do mod."
 
 #: src/api/logic/minecraft/ModList.cpp:294
-#, fuzzy
 msgctxt "ModList|"
 msgid "The date and time this mod was last changed (or added)."
-msgstr "Dia e hora que o mundo foi jogado pela última vez"
+msgstr "Dia e hora que o mod foi modificado (ou adicionado)."
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:40
 #, qt-format
@@ -2990,35 +2950,32 @@ msgstr "Por &Nome"
 #: src/application/pages/global/MultiMCPage.ui:323
 msgctxt "MultiMCPage|"
 msgid "Language:"
-msgstr ""
+msgstr "Línguas/Language:"
 
 #: src/application/pages/global/MultiMCPage.ui:335
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Theme"
-msgstr "Tema do Ícone"
+msgstr "Temas"
 
 #: src/application/pages/global/MultiMCPage.ui:341
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Icons"
-msgstr "&ícones:"
+msgstr "&ícones"
 
 #: src/application/pages/global/MultiMCPage.ui:574
 msgctxt "MultiMCPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "Analytics"
 
 #: src/application/pages/global/MultiMCPage.ui:580
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Analytics Settings"
-msgstr "Configurações da instância"
+msgstr "Configurações do analytics"
 
 #: src/application/pages/global/MultiMCPage.ui:586
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "A gente pode coletar esses dados anônimos?"
 
 #: src/application/pages/global/MultiMCPage.ui:600
 msgctxt "MultiMCPage|"
@@ -3036,6 +2993,19 @@ msgid ""
 "</ul>\n"
 "</body></html>"
 msgstr ""
+"<html><head/>\n"
+"<body>\n"
+"<p>O MultiMC envia dados anônimos(não pessoais) de estatísticas de usagem "
+"toda vez que inicia..</p><p>Os seguintes dados são coletados:</p>\n"
+"<ul>\n"
+"<li>MultiMC version.</li>\n"
+"<li>Nome do Sistema Operacional e arquitetura.</li>\n"
+"<li>Arquitetura da CPU (arquitetura do kernel no linux, se você tiver).</"
+"li>\n"
+"<li>Tamanho da memória do sistema.</li>\n"
+"<li>Versão, arquitetura e configurações de memória do Java.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/application/pages/global/MultiMCPage.ui:366
 msgctxt "MultiMCPage|"
@@ -3055,7 +3025,7 @@ msgstr "Simples (Ícones Coloridos)"
 #: src/application/pages/global/MultiMCPage.ui:412
 msgctxt "MultiMCPage|"
 msgid "Colors"
-msgstr ""
+msgstr "Cores"
 
 #: src/application/pages/global/MultiMCPage.ui:439
 msgctxt "MultiMCPage|"
@@ -3078,10 +3048,9 @@ msgid "Automatically close console when the game quits?"
 msgstr "Fechar o console automaticamente quando o jogo fechar?"
 
 #: src/application/pages/global/MultiMCPage.ui:465
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Show console when the game crashes?"
-msgstr "Mostrar o console quando o jogo estiver sendo executado?"
+msgstr "Mostrar o console quando o jogo travar e fechar?"
 
 #: src/application/pages/global/MultiMCPage.ui:475
 msgctxt "MultiMCPage|"
@@ -3096,7 +3065,7 @@ msgstr "Parar de escrever no log se ultrapassar a quantidade de linhas"
 #: src/application/pages/global/MultiMCPage.ui:494
 msgctxt "MultiMCPage|"
 msgid " lines"
-msgstr "linhas"
+msgstr " linhas"
 
 #: src/application/pages/global/MultiMCPage.ui:522
 msgctxt "MultiMCPage|"
@@ -3149,19 +3118,16 @@ msgid "Simple (Light Icons)"
 msgstr "Simples (ícones Claros)"
 
 #: src/application/pages/global/MultiMCPage.cpp:102
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "FTB Launcher Folder"
-msgstr "Diretório do Inicializador FTB"
+msgstr "Diretório do Inicializador do FTB"
 
 #: src/application/pages/global/MultiMCPage.cpp:115
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "FTB Folder"
-msgstr "Pastas"
+msgstr "Pasta do FTB"
 
 #: src/application/pages/global/MultiMCPage.cpp:127
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Instance Folder"
 msgstr "Pasta das Instâncias"
@@ -3174,8 +3140,8 @@ msgid ""
 "(probably) won't start!"
 msgstr ""
 "Você está tentando especificar uma pasta de instância que o caminho contém "
-"pelo menos um '!'. Java é conhecido por causar problemas se esse for o caso, "
-"suas instâncias (provavelmente) não vai iniciar!"
+"pelo menos um '!'. O Java causa problemas e se esse for o caso, suas "
+"instâncias (provavelmente) não vão iniciar!"
 
 #: src/application/pages/global/MultiMCPage.cpp:142
 msgctxt "MultiMCPage|"
@@ -3184,25 +3150,22 @@ msgid ""
 "not alter your instance path."
 msgstr ""
 "Você realmente quer usar este caminho? Selecionando \"Não\" irá fechar este "
-"dialogo e não vai alterar o seu caminho da instância."
+"diálogo e não vai alterar o seu caminho da instância."
 
 #: src/application/pages/global/MultiMCPage.cpp:160
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Icons Folder"
-msgstr "Pasta das Instâncias"
+msgstr "Pasta dos ícones"
 
 #: src/application/pages/global/MultiMCPage.cpp:172
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
-msgstr "Pastas"
+msgstr "Pasta dos mods"
 
 #: src/application/pages/global/MultiMCPage.cpp:184
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "LWJGL Folder"
-msgstr "Pastas"
+msgstr "Pasta do LWJGL"
 
 #: src/application/pages/global/MultiMCPage.cpp:494
 msgctxt "MultiMCPage|"
@@ -3223,7 +3186,7 @@ msgstr "[Algum/WARN] Um erro não tão assustador."
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' aborted."
-msgstr ""
+msgstr "Tarefa '%1' cancelada."
 
 #: src/api/logic/net/NetJob.cpp:105
 #, qt-format
@@ -3338,10 +3301,9 @@ msgid "OneSix FTB"
 msgstr "OneSix FTB"
 
 #: src/api/logic/minecraft/onesix/OneSixInstance.cpp:397
-#, fuzzy
 msgctxt "OneSixInstance|"
 msgid "Couldn't create the bin folder for Minecraft.jar"
-msgstr "Falha ao criar a pasta binaries para o Minecraft."
+msgstr "Falha ao criar a pasta de binários para o Minecraft.jar"
 
 #: src/api/logic/minecraft/onesix/OneSixInstance.cpp:405
 #, qt-format
@@ -3367,7 +3329,7 @@ msgstr "A versão do Minecraft especificada é inválida. Escolha uma diferente.
 #: src/api/logic/minecraft/onesix/OneSixUpdate.cpp:102
 msgctxt "OneSixUpdate|"
 msgid "Aborted by user."
-msgstr ""
+msgstr "Cancelado pelo usuário."
 
 #: src/application/pages/OtherLogsPage.ui:71
 msgctxt "OtherLogsPage|"
@@ -3605,32 +3567,27 @@ msgstr ""
 "\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
-#, fuzzy
 msgctxt "ProfileSelectDialog|"
 msgid "Select an Account"
 msgstr "Selecione uma Conta"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:20
-#, fuzzy
 msgctxt "ProfileSelectDialog|"
 msgid "Select a profile."
-msgstr "Selecione uma conta."
+msgstr "Selecione um perfil."
 
 #: src/application/dialogs/ProfileSelectDialog.ui:38
-#, fuzzy
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default?"
 msgstr "Usar como padrão?"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:45
-#, fuzzy
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
 msgstr "Usar padrão apenas para esta instância?"
 
 #: src/application/dialogs/ProfileSelectDialog.cpp:41
 #: src/application/dialogs/ProfileSelectDialog.cpp:45
-#, fuzzy
 msgctxt "ProfileSelectDialog|"
 msgid "Name"
 msgstr "Nome"
@@ -3638,7 +3595,7 @@ msgstr "Nome"
 #: src/application/dialogs/ProfileSelectDialog.cpp:56
 msgctxt "ProfileSelectDialog|"
 msgid " (in use)"
-msgstr ""
+msgstr " (em uso)"
 
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3833,7 +3790,7 @@ msgstr "Snapshot"
 #: src/api/logic/minecraft/MinecraftVersion.cpp:30
 msgctxt "QObject|"
 msgid "Regular release"
-msgstr "Liberação Regular"
+msgstr "Versão estável"
 
 #: src/api/logic/minecraft/MinecraftVersion.cpp:34
 msgctxt "QObject|"
@@ -3875,12 +3832,13 @@ msgid ""
 "Version file has both '+libraries' and 'libraries'. This is no longer "
 "supported."
 msgstr ""
+"O arquivo de versão tem '+libraries' e 'libraries'. Isso não é mais "
+"suportado pelo MultiMC."
 
 #: src/api/logic/minecraft/onesix/OneSixVersionFormat.cpp:139
-#, fuzzy
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
-msgstr "O arquivo de versão tem o elemento não suportado '-tweakers'"
+msgstr "O arquivo de versão tem o elemento não suportado 'tweakers'"
 
 #: src/api/logic/minecraft/onesix/OneSixVersionFormat.cpp:143
 msgctxt "QObject|"
@@ -3898,7 +3856,6 @@ msgid "Version file contains unsupported element '-minecraftArguments'"
 msgstr "O arquivo de versão tem o elemento não suportado '-minecraftArguments'"
 
 #: src/api/logic/minecraft/onesix/OneSixVersionFormat.cpp:155
-#, fuzzy
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "O arquivo de versão tem o elemento não suportado '-minecraftArguments'"
@@ -3933,13 +3890,12 @@ msgstr ""
 "        Esta mensagem será exibida até que você remova dos argumentos JVM."
 
 #: src/application/JavaCommon.cpp:34
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />Avisos:<br /><font color=\"orange\">%1</font>"
 
 #: src/application/JavaCommon.cpp:44
-#, fuzzy
 msgctxt "QObject|"
 msgid ""
 "The specified java binary didn't work with the arguments you provided:<br />"
@@ -3947,7 +3903,6 @@ msgstr ""
 "O binário do Java especificado não funciona com os argumentos providos:<br />"
 
 #: src/application/JavaCommon.cpp:52
-#, fuzzy
 msgctxt "QObject|"
 msgid ""
 "The specified java binary didn't work.<br />You should use the auto-detect "
@@ -3984,17 +3939,17 @@ msgid "Upload finished"
 msgstr "Upload finalizado!"
 
 #: src/application/GuiUtil.cpp:48
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The <a href=\"%1\">link to the uploaded log</a> has been placed in your "
 "clipboard."
 msgstr ""
-"O <a href=\"%1\">link para o log enviado </a> foi aberto no navegador padrão "
-"e colocado na sua área de transferência."
+"O <a href=\"%1\">link para o log enviado </a> foi colocado no ctrl + c / "
+"ctrl + v."
 
 #: src/application/dialogs/AboutDialog.cpp:28
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN' 'http://www.w3.org/TR/REC-"
@@ -4041,7 +3996,7 @@ msgstr "<p>Carregando...</p>"
 #: src/api/logic/minecraft/legacy/LwjglVersionList.h:53
 msgctxt "QObject|"
 msgid "Upstream"
-msgstr "Rio acima"
+msgstr "Upstream"
 
 #: src/api/logic/minecraft/ftb/FTBProfileStrategy.cpp:32
 msgctxt "QObject|"
@@ -4091,7 +4046,7 @@ msgstr "<p>Você pode <a href=\"%1\"> ver as mudanças no GitHub </a>.</p>"
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "processArgumentos é configurado como valor desconhecido '%1'"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:180
 #, qt-format
@@ -4104,7 +4059,7 @@ msgstr ""
 "suportada pelo MultiMC (%2). Isso deve"
 
 #: src/api/logic/minecraft/AssetsUtils.cpp:225
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
 msgstr "Recursos para %1"
@@ -4112,12 +4067,12 @@ msgstr "Recursos para %1"
 #: src/api/logic/wonko/format/WonkoFormat.cpp:27
 msgctxt "QObject|"
 msgid "Missing required field: 'formatVersion'"
-msgstr ""
+msgstr "Faltou um campo obrigatório: 'formatVersion'"
 
 #: src/api/logic/wonko/format/WonkoFormat.cpp:30
 msgctxt "QObject|"
 msgid "Required field has invalid type: 'formatVersion'"
-msgstr ""
+msgstr "Campo obrigatório tem tipo inválido: 'fomatVersion'"
 
 #: src/api/logic/wonko/format/WonkoFormat.cpp:43
 #: src/api/logic/wonko/format/WonkoFormat.cpp:54
@@ -4125,23 +4080,19 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Unknown formatVersion: %1"
-msgstr ""
+msgstr "Versão de formato desconhecida: %1"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:285
-#, fuzzy
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
 msgstr "O arquivo escolhido não parece ser um executável"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:290
-#, fuzzy
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
-"O binário do Java especificado não funciona com os argumentos providos:<br />"
+msgstr "O binário do Java especificado não funciona direito:<br />"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:302
-#, fuzzy
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
 msgstr ""
@@ -4149,7 +4100,7 @@ msgstr ""
 
 #: src/application/setupwizard/JavaWizardPage.cpp:313
 #: src/application/JavaCommon.cpp:28
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Java test succeeded!<br />Platform reported: %1<br />Java version reported: "
@@ -4158,14 +4109,12 @@ msgstr "Teste do Java feito!<br />Plataforma: %1<br />Versão do Java: %2<br />"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:322
 #: src/application/JavaCommon.cpp:36
-#, fuzzy
 msgctxt "QObject|"
 msgid "Java test success"
 msgstr "Teste do Java finalizado com êxito"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:322
 #: src/application/JavaCommon.cpp:46 src/application/JavaCommon.cpp:55
-#, fuzzy
 msgctxt "QObject|"
 msgid "Java test failure"
 msgstr "O Teste do Java falhou"
@@ -4173,48 +4122,46 @@ msgstr "O Teste do Java falhou"
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
 msgid "Dark"
-msgstr ""
+msgstr "Escuro"
 
 #: src/application/themes/SystemTheme.cpp:44
 msgctxt "QObject|"
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #: src/application/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
-msgstr ""
+msgstr "Claro"
 
 #: src/application/UpdateController.cpp:344
-#, fuzzy
 msgctxt "QObject|"
 msgid "Update failed!"
 msgstr "Falha no Upload!"
 
 #: src/application/UpdateController.cpp:345
-#, fuzzy
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr "Falha no Upload!"
+msgstr "Falha na reversão"
 
 #: src/application/UpdateController.cpp:350
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
-"Não conseguimos substituir o arquivo %1. Mudanças foram reversas\n"
+"Não conseguimos substituir o arquivo %1. Mudanças serão revertidas\n"
 "Veja o log do MultiMC para mais detalhes."
 
 #: src/application/UpdateController.cpp:358
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
-"Não conseguimos remover %1. As mudanças foram revertidas.\n"
+"Não conseguimos remover %1. As mudanças vão ser revertidas.\n"
 "Veja o log do MultiMC para mais detalhes"
 
 #: src/application/UpdateController.cpp:366
@@ -4225,9 +4172,12 @@ msgid ""
 "\n"
 "Roll back to previous version?"
 msgstr ""
+"A nova versão não inicia ou é muito velha e não responde as verificações de "
+"inicialização\n"
+"\n"
+"Voltar para a versão anterior?"
 
 #: src/application/UpdateController.cpp:388
-#, fuzzy
 msgctxt "QObject|"
 msgid ""
 "The rollback failed too.\n"
@@ -4241,12 +4191,12 @@ msgstr ""
 #: src/application/MainWindow.cpp:733
 msgctxt "QObject|"
 msgid " (in use)"
-msgstr ""
+msgstr " (em uso)"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send a client token."
-msgstr "O server de autenticação não enviou um token do cliente."
+msgstr "O servidor de autenticação não enviou um token do cliente."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
@@ -4254,19 +4204,19 @@ msgid ""
 "Authentication server attempted to change the client token. This isn't "
 "supported."
 msgstr ""
-"Servidor de autenticação tentou mudar o token do cliente. Isto não é "
+"O servidor de autenticação tentou mudar o token do cliente. Isto não é "
 "suportado."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send an access token."
-msgstr "O server de autenticação não enviou um token de acesso."
+msgstr "O servidor de autenticação não enviou um token de acesso."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
 msgstr ""
-"Servidor de autenticação não conseguiu especificar o mesmo perfil que o "
+"O servidor de autenticação não conseguiu especificar o mesmo perfil que o "
 "esperado."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
@@ -4325,14 +4275,14 @@ msgid "Upload finished"
 msgstr "Upload terminado"
 
 #: src/application/pages/ScreenshotsPage.cpp:317
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
 "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your "
 "clipboard."
 msgstr ""
-"O <a href=\"%1\">link para o log enviado </a> foi aberto no navegador padrão "
-"e colocado na sua área de transferência."
+"O <a href=\"%1\">link para o álbum enviado agora</a> foi copiado para o ctrl "
+"+ c / ctrl + v."
 
 #: src/application/pages/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
@@ -4372,20 +4322,19 @@ msgstr "Sessão"
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
 msgid "&Next >"
-msgstr ""
+msgstr "&Continuar >"
 
 #: src/application/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
 msgid "< &Back"
-msgstr ""
+msgstr "< &Voltar"
 
 #: src/application/setupwizard/SetupWizard.cpp:31
 msgctxt "SetupWizard|"
 msgid "&Finish"
-msgstr ""
+msgstr "&Terminar"
 
 #: src/application/setupwizard/SetupWizard.cpp:32
-#, fuzzy
 msgctxt "SetupWizard|"
 msgid "&Refresh"
 msgstr "&Recarregar"
@@ -4393,81 +4342,74 @@ msgstr "&Recarregar"
 #: src/application/setupwizard/SetupWizard.cpp:33
 msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
-msgstr ""
+msgstr "Rápida configuração do MultiMC"
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
-#, fuzzy
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
-msgstr "Fazendo upload para paste.ee"
+msgstr "Trocando Skin..."
 
 #: src/application/dialogs/SkinUploadDialog.ui:14
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Skin Upload"
-msgstr "Carregar"
+msgstr "Trocar Skin"
 
 #: src/application/dialogs/SkinUploadDialog.ui:20
 msgctxt "SkinUploadDialog|"
 msgid "Skin File"
-msgstr ""
+msgstr "Arquivo da skin"
 
 #: src/application/dialogs/SkinUploadDialog.ui:51
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Player Model"
-msgstr "Nome do jogador"
+msgstr "Modelo do Player"
 
 #: src/application/dialogs/SkinUploadDialog.ui:57
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
-msgstr ""
+msgstr "Modelo do Steve"
 
 #: src/application/dialogs/SkinUploadDialog.ui:67
 msgctxt "SkinUploadDialog|"
 msgid "Alex Model"
-msgstr ""
+msgstr "Modelo do Alex"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Failed to login!"
-msgstr "Falha ao inicializar."
+msgstr "Falha ao fazer login!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
 #: src/application/dialogs/SkinUploadDialog.cpp:30
 #: src/application/dialogs/SkinUploadDialog.cpp:46
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Unknown error"
 msgstr "Erro desconhecido"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:30
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Skin file does not exist!"
-msgstr "O caminho não existe"
+msgstr "O arquivo da skin não existe!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:46
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Failed to upload skin!"
-msgstr "Falha ao fazer upload das capturas de tela!"
+msgstr "Falha ao trocar..."
 
 #: src/application/dialogs/SkinUploadDialog.cpp:50
 msgctxt "SkinUploadDialog|"
 msgid "Skin uploaded!"
-msgstr ""
+msgstr "Skin trocada!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:50
 msgctxt "SkinUploadDialog|"
 msgid "Success"
-msgstr ""
+msgstr "Sucesso!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:56
 msgctxt "SkinUploadDialog|"
 msgid "Select Skin Texture"
-msgstr ""
+msgstr "Selecione uma Textura de Skin"
 
 #: src/api/logic/status/StatusChecker.cpp:104
 #, qt-format
@@ -4487,7 +4429,7 @@ msgstr "Packs de Texturas"
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
-msgstr ""
+msgstr "Tarefa cancelada."
 
 #: src/api/logic/launch/steps/Update.cpp:52
 #, qt-format
@@ -4801,7 +4743,7 @@ msgstr "Entendo, continue."
 #: src/application/pages/VersionPage.cpp:269
 msgctxt "VersionPage|"
 msgid "Cancel"
-msgstr "Não, deixa pra lá."
+msgstr "Cancelar"
 
 #: src/application/pages/VersionPage.cpp:276
 msgctxt "VersionPage|"
@@ -4961,19 +4903,17 @@ msgid "Reloads the version list."
 msgstr "Recarregue a lista de versão."
 
 #: src/application/dialogs/VersionSelectDialog.cpp:83
-#, fuzzy
 msgctxt "VersionSelectDialog|"
 msgid "&Refresh"
 msgstr "&Recarregar"
 
 #: src/application/widgets/VersionSelectWidget.cpp:113
-#, fuzzy
 msgctxt "VersionSelectWidget|"
 msgid "Error"
 msgstr "Erro"
 
 #: src/application/widgets/VersionSelectWidget.cpp:114
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "VersionSelectWidget|"
 msgid ""
 "List update failed:\n"
@@ -4981,7 +4921,6 @@ msgid ""
 msgstr "Erro desconhecido ao carregar instância %1"
 
 #: src/api/logic/wonko/WonkoIndex.cpp:71
-#, fuzzy
 msgctxt "WonkoIndex|"
 msgid "Name"
 msgstr "Nome"
@@ -4994,29 +4933,25 @@ msgstr ""
 #: src/api/logic/wonko/tasks/BaseWonkoEntityRemoteLoadTask.cpp:77
 msgctxt "WonkoIndexRemoteLoadTask|"
 msgid "Wonko Index"
-msgstr ""
+msgstr "Index do W"
 
 #: src/application/pages/global/WonkoPage.ui:14
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Form"
 msgstr "Formulário"
 
 #: src/application/pages/global/WonkoPage.ui:36
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Tab 1"
 msgstr "Tab 1"
 
 #: src/application/pages/global/WonkoPage.ui:42
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Versions"
 msgstr "Versão"
 
 #: src/application/pages/global/WonkoPage.ui:48
 #: src/application/pages/global/WonkoPage.ui:161
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Search..."
 msgstr "Pesquisar:"
@@ -5025,13 +4960,11 @@ msgstr "Pesquisar:"
 #: src/application/pages/global/WonkoPage.ui:183
 #: src/application/pages/global/WonkoPage.cpp:182
 #: src/application/pages/global/WonkoPage.cpp:222
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Refresh ___"
 msgstr "Recarregar"
 
 #: src/application/pages/global/WonkoPage.ui:81
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Version:"
 msgstr "Versão:"
@@ -5039,10 +4972,9 @@ msgstr "Versão:"
 #: src/application/pages/global/WonkoPage.ui:95
 msgctxt "WonkoPage|"
 msgid "Time:"
-msgstr ""
+msgstr "Tempo:"
 
 #: src/application/pages/global/WonkoPage.ui:109
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Type:"
 msgstr "Tipo"
@@ -5050,10 +4982,9 @@ msgstr "Tipo"
 #: src/application/pages/global/WonkoPage.ui:123
 msgctxt "WonkoPage|"
 msgid "Dependencies:"
-msgstr ""
+msgstr "Dependências"
 
 #: src/application/pages/global/WonkoPage.ui:155
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Resources"
 msgstr "Pacote de Recursos"
@@ -5061,19 +4992,17 @@ msgstr "Pacote de Recursos"
 #: src/application/pages/global/WonkoPage.ui:194
 msgctxt "WonkoPage|"
 msgid "UID:"
-msgstr ""
+msgstr "UID:"
 
 #: src/application/pages/global/WonkoPage.ui:208
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Name:"
 msgstr "Nome"
 
 #: src/application/pages/global/WonkoPage.ui:240
-#, fuzzy
 msgctxt "WonkoPage|"
 msgid "Refresh Index"
-msgstr "Recarregar"
+msgstr "Recarregar Index"
 
 #: src/application/pages/global/WonkoPage.h:37
 msgctxt "WonkoPage|"
@@ -5082,10 +5011,10 @@ msgstr ""
 
 #: src/application/pages/global/WonkoPage.cpp:158
 #: src/application/pages/global/WonkoPage.cpp:209
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "WonkoPage|"
 msgid "Refresh %1"
-msgstr "Recarregar"
+msgstr ""
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityLocalLoadTask.cpp:86
 #, qt-format
