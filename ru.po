@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-10-08 14:32+0200\n"
-"Last-Translator: AZ <nfs2105@yandex.ru>\n"
+"PO-Revision-Date: 2017-10-08 14:43+0200\n"
+"Last-Translator: kirill <sybershot.1998@gmail.com>\n"
 "Language-Team: Russian "
 "<http://translate.multimc.org/projects/multimc/multimc5/ru/>\n"
 "Language: ru\n"
@@ -1971,7 +1971,7 @@ msgstr "Найти"
 #: src/application/pages/LogPage.ui:60
 msgctxt "LogPage|"
 msgid "Keep updating"
-msgstr "Ввести запись журнала"
+msgstr "Вести запись журнала"
 
 #: src/application/pages/LogPage.ui:70
 msgctxt "LogPage|"
@@ -2483,7 +2483,7 @@ msgstr "Профайлеры"
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
-"Профайлер установлен не правильно. Перейдите в \"Настройки\" - \"Внешние "
+"Профайлер установлен неправильно. Перейдите в \"Настройки\" - \"Внешние "
 "инструменты\"."
 
 #: src/application/MainWindow.cpp:763
@@ -2803,7 +2803,7 @@ msgstr "Открыть папку 'config' в файловом менеджер�
 #: src/application/pages/ModFolderPage.ui:78
 msgctxt "ModFolderPage|"
 msgid "View configs"
-msgstr "Открыть 'configs'"
+msgstr "Открыть папку 'configs'"
 
 #: src/application/pages/ModFolderPage.ui:98
 msgctxt "ModFolderPage|"
@@ -4009,7 +4009,7 @@ msgstr "Неизвестно"
 msgctxt "QObject|"
 msgid ""
 "<p>There are no code changes between your current version and latest %1.</p>"
-msgstr "<p>Между Вашей текущей версией и последней %1 нет изменение кода.</p>"
+msgstr "<p>Между Вашей текущей версией и последней %1 нет изменений кода.</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:176
 msgctxt "QObject|"
@@ -4183,7 +4183,7 @@ msgstr " (используется)"
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send a client token."
-msgstr "Сервер аутентификации не отправил ключ клиента."
+msgstr "Сервер авторизации не отправил ключ клиента."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
@@ -4191,17 +4191,17 @@ msgid ""
 "Authentication server attempted to change the client token. This isn't "
 "supported."
 msgstr ""
-"Сервер аутентификации попытался изменить ключ клиента. Это не поддерживается."
+"Сервер авторизации попытался изменить ключ клиента. Это не поддерживается."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send an access token."
-msgstr "Сервер аутентификации не отправил ключ клиента."
+msgstr "Сервер авторизации не отправил ключ клиента."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
-msgstr "Сервер аутентификации не указывал тот же prefile, как ожидалось."
+msgstr "Сервер авторизации не указывал тот же prefile, как ожидалось."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
@@ -5168,12 +5168,12 @@ msgstr "Введите название нового сохранения."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation timed out."
-msgstr "Время на аутентификацию истекло."
+msgstr "Время на авторизацию истекло."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:117
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation cancelled."
-msgstr "Операция аутентификации отменена."
+msgstr "Операция авторизации отменена."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
@@ -5197,7 +5197,7 @@ msgstr ""
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr "Не удалось произвести аутентификацию из-за сетевой ошибки: %1 (%2)"
+msgstr "Не удалось произвести авторизацию из-за сетевой ошибки: %1 (%2)"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:163
 #, qt-format
@@ -5206,7 +5206,7 @@ msgid ""
 "Failed to parse authentication server response JSON response: %1 at offset "
 "%2."
 msgstr ""
-"Не удалось разобрать JSON ответ сервера аутентификации: %1 со смещением %2."
+"Не удалось разобрать JSON ответ сервера авторизации: %1 со смещением %2."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:192
 #, qt-format
@@ -5216,7 +5216,7 @@ msgid ""
 "server: %1"
 msgstr ""
 "Произошла неизвестная ошибка при попытке установить связь с сервером "
-"аутентификации: %1"
+"авторизации: %1"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:212
 msgctxt "YggdrasilTask|"
@@ -5246,7 +5246,7 @@ msgstr "Не удалось связаться со сервером аутен�
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:231
 msgctxt "YggdrasilTask|"
 msgid "Failed to authenticate."
-msgstr "Ошибка аутентификации."
+msgstr "Ошибка авторизации."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:233
 msgctxt "YggdrasilTask|"
