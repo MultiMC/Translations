@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-02-28 18:37+0200\n"
-"Last-Translator: AZ <nfs2105@yandex.ru>\n"
+"PO-Revision-Date: 2017-10-08 14:18+0200\n"
+"Last-Translator: kirill <sybershot.1998@gmail.com>\n"
 "Language-Team: Russian "
 "<http://translate.multimc.org/projects/multimc/multimc5/ru/>\n"
 "Language: ru\n"
@@ -62,7 +62,7 @@ msgstr "Платформа:"
 #: src/application/dialogs/AboutDialog.ui:126
 msgctxt "AboutDialog|"
 msgid "Build Number:"
-msgstr "Номер Билда:"
+msgstr "Номер Сборки:"
 
 #: src/application/dialogs/AboutDialog.ui:136
 msgctxt "AboutDialog|"
@@ -207,7 +207,7 @@ msgstr "Платформа"
 #: src/application/dialogs/AboutDialog.cpp:89
 msgctxt "AboutDialog|"
 msgid "Build Number"
-msgstr "Номер Билда"
+msgstr "Номер Сборки"
 
 #: src/application/dialogs/AboutDialog.cpp:94
 msgctxt "AboutDialog|"
@@ -390,12 +390,12 @@ msgid ""
 "Authentication server attempted to change the client token. This isn't "
 "supported."
 msgstr ""
-"Сервер аутентификации попытался изменить ключ клиента. Это не поддерживается."
+"Сервер авторизации попытался изменить ключ клиента. Это не поддерживается."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send an access token."
-msgstr "Сервер аутентификации не отправил ключ доступа."
+msgstr "Сервер авторизации не отправил ключ доступа."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:154
 msgctxt "AuthenticateTask|"
@@ -403,7 +403,7 @@ msgid ""
 "Authentication server didn't specify a currently selected profile. The "
 "account exists, but likely isn't premium."
 msgstr ""
-"Сервер аутентификации отклонил выбранный профиль. Учётная запись существует, "
+"Сервер авторизации отклонил выбранный профиль. Учётная запись существует, "
 "но, возможно, не имеет лицензионной копии игры."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:159
@@ -412,18 +412,18 @@ msgid ""
 "Authentication server specified a selected profile that wasn't in the "
 "available profiles list."
 msgstr ""
-"Сервер аутентификации указал на выбранный профиль, который не был в списке "
+"Сервер авторизации указал на выбранный профиль, который не был в списке "
 "доступных профилей."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Sending request..."
-msgstr "Аутентификация: Отправка запроса..."
+msgstr "Авторизация: Отправка запроса..."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:198
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
-msgstr "Аутентификация: Обработка ответа…"
+msgstr "Авторизация: Обработка ответа…"
 
 #: src/api/logic/tools/BaseProfiler.cpp:29
 msgctxt "BaseProfiler|"
@@ -564,7 +564,7 @@ msgstr "Нет группы"
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
 msgctxt "CreateServerResourcePacksFolder|"
 msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr "Не удается создать 'server-resource-packs' папку"
+msgstr "Не удается создать папку 'server-resource-packs'"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:66
 #, qt-format
@@ -765,28 +765,28 @@ msgstr "Не удалось извлечь нативный jar-файл '%1' в
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:35
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr "Проверка FML библиотек..."
+msgstr "Проверка библиотек FML..."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:61
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr "Загрузка FML библиотек..."
+msgstr "Загрузка библиотек FML..."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:89
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "Копирование FML библиотек в каталог сборки…"
+msgstr "Копирование  библиотек FML в каталог сборки…"
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:100
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "Не удалось создать папку FML библиотеки в каталоге сборки."
+msgstr "Не удалось создать папку библиотек FML в каталоге сборки."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:105
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "Не удалось скопировать Forge/FML библиотеку: %1."
+msgstr "Не удалось скопировать библиотеку Forge/FML: %1."
 
 #: src/api/logic/minecraft/onesix/update/FMLLibrariesTask.cpp:118
 #, qt-format
@@ -905,7 +905,7 @@ msgstr "Удалить иконку"
 #: src/application/dialogs/IconPickerDialog.cpp:101
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
-msgstr "Выберите иконки"
+msgstr "Выбрать иконки"
 
 #. The type of icon files
 #: src/application/dialogs/IconPickerDialog.cpp:104
@@ -927,7 +927,7 @@ msgstr "Не удалось скопировать папку сборки."
 #: src/api/logic/InstanceCopyTask.cpp:66
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "Копирование папки сборки приостановлено."
+msgstr "Копирование папки сборки было отменено."
 
 #: src/api/logic/InstanceCreationTask.cpp:23
 #, qt-format
@@ -978,7 +978,7 @@ msgstr "Не удалось собрать сборку"
 #: src/api/logic/InstanceImportTask.cpp:162
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr "Импорт сборки приостановлен."
+msgstr "Импорт сборки был отменён."
 
 #: src/application/InstancePageProvider.h:38
 #: src/application/InstancePageProvider.h:55
@@ -1397,7 +1397,7 @@ msgid ""
 "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
 msgstr ""
-"У вас все еще не выбрана версия Java, либо вы пропустили это.\n"
+"У вас все еще не выбрана рабочая версия Java, либо вы пропустили этот шаг.\n"
 "Пожалуйста выберите один из предложенных вариантов или найдите исполняемый "
 "файл Java в проводнике."
 
@@ -1483,8 +1483,8 @@ msgid ""
 "account logged in to MultiMC.Would you like to open the account manager to "
 "add an account now?"
 msgstr ""
-"Чтобы играть в Minecraft, вы должны войти в MultiMC, как минимум, под "
-"учетной записью Mojang или Minecraft. Открыть управление учетными записями и "
+"Чтобы играть в Minecraft, вы должны войти в MultiMC, как минимум, в одну "
+"учётную запись Mojang или Minecraft. Открыть управление учетными записями и "
 "добавить учетную запись прямо сейчас?"
 
 #: src/application/LaunchController.cpp:62
