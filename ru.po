@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-10-08 14:23+0200\n"
-"Last-Translator: AZ <nfs2105@yandex.ru>\n"
+"PO-Revision-Date: 2017-10-08 14:31+0200\n"
+"Last-Translator: kirill <sybershot.1998@gmail.com>\n"
 "Language-Team: Russian "
 "<http://translate.multimc.org/projects/multimc/multimc5/ru/>\n"
 "Language: ru\n"
@@ -1564,7 +1564,7 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
-"Запуск игры задерживается до тех пор, пока вы не нажмете кнопку. Это "
+"Запуск игры приостановлен до тех пор, пока вы не нажмете кнопку. Это "
 "подходящее время, чтобы настроить профайлер, поскольку сервер профайлера "
 "сейчас работает.\n"
 "\n"
@@ -1745,28 +1745,28 @@ msgstr "Версия модификации."
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:62
 msgctxt "LegacyUpdate|"
 msgid "Checking for FML libraries..."
-msgstr "Проверка FML библиотек..."
+msgstr "Проверка библиотек FML..."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:109
 msgctxt "LegacyUpdate|"
 msgid "Dowloading FML libraries..."
-msgstr "Загрузка FML библиотек..."
+msgstr "Загрузка библиотек FML..."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:132
 msgctxt "LegacyUpdate|"
 msgid "Copying FML libraries into the instance..."
-msgstr "Копирование FML библиотек в каталог сборки…"
+msgstr "Копирование библиотек FML в каталог сборки…"
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:143
 msgctxt "LegacyUpdate|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "Не удалось создать папку для FML библиотеки в каталоге сборки."
+msgstr "Не удалось создать папку для библиотек FML в каталоге сборки."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:148
 #, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "Не удалось скопировать Forge/FML библиотеку: %1."
+msgstr "Не удалось скопировать библиотеку Forge/FML: %1."
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:160
 #, qt-format
@@ -1775,7 +1775,7 @@ msgid ""
 "Game update failed: it was impossible to fetch the required FML libraries. "
 "Reason: %1"
 msgstr ""
-"Не удалось обновить игру: Невозможно получить необходимые FML библиотеки. "
+"Не удалось обновить игру: Невозможно получить необходимые библиотеки FML. "
 "Причина: %1"
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:187
@@ -1797,7 +1797,7 @@ msgstr "Установка новой версии LWJGL - извлечение 
 #, qt-format
 msgctxt "LegacyUpdate|"
 msgid "Bad stuff happened while trying to get the lwjgl libs: %1"
-msgstr "Во время получения LWJGL библиотек что-то пошло не так: %1"
+msgstr "Во время получения библиотеки LWJGL что-то пошло не так: %1"
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:357
 msgctxt "LegacyUpdate|"
@@ -1818,7 +1818,7 @@ msgstr "Не удалось загрузить minecraft.jar: %1."
 #: src/application/pages/LegacyUpgradePage.h:38
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade"
-msgstr "Улучшить"
+msgstr "Обновить"
 
 #: src/application/pages/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
@@ -1890,7 +1890,7 @@ msgstr "Начать обновление! (Функция еще не реал�
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:12
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr "Получение файлов библиотек из Mojang..."
+msgstr "Получение библиотек Mojang..."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:18
 msgctxt "LibrariesTask|"
@@ -1915,12 +1915,11 @@ msgid ""
 "You'll have to correct this problem manually. If this is an externally "
 "tracked instance, make sure to run it at least once outside of MultiMC."
 msgstr ""
-"Некоторым библиотекам, помеченным как 'local' не хватает их собственных jar "
-"файлов:\n"
+"У некоторых библиотек, помеченных как 'local' отстутствуют их jar-файлы:\n"
 "%1\n"
 "\n"
-"Вам придется вручную исправить эту проблему. Если сборка создана без помощи "
-"MultiMC убедитесь, что запускали его по крайней мере один раз не через "
+"Вам придется вручную исправить эту проблему. Если сборка создана не в "
+"MultiMC убедитесь, что запускали её по крайней мере один раз не через "
 "MultiMC."
 
 #: src/api/logic/minecraft/onesix/update/LibrariesTask.cpp:75
