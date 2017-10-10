@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2017-04-24 18:45+0200\n"
-"Last-Translator: Johanna Vogel <vo_gel_frei@yahoo.de>\n"
+"Last-Translator: motherboard1999 <ongithub>\n"
 "Language-Team: German "
 "<http://translate.multimc.org/projects/multimc/multimc5/de/>\n"
 "Language: de\n"
@@ -250,7 +250,7 @@ msgstr ""
 #: src/application/pages/global/AccountListPage.ui:86
 msgctxt "AccountListPage|"
 msgid "&Set Default"
-msgstr "&Benutze als Voreinstellung"
+msgstr "&Standard setzen"
 
 #: src/application/pages/global/AccountListPage.ui:93
 msgctxt "AccountListPage|"
@@ -306,7 +306,7 @@ msgstr "Konteneinstellungen"
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
 msgid "We track some anonymous statistics about users."
-msgstr ""
+msgstr "Wir zeichnen anonyme Statistiken über Benutzer auf."
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
@@ -324,11 +324,23 @@ msgid ""
 "settings.</li></ul><p>If we change the tracked information, you will see "
 "this page again.</p></body></html>"
 msgstr ""
+"<html><body><p>MultiMC sammelt anonyme Nutzungsdaten bei jedem Programmstart. "
+"Dies hilft uns dabei bestimmte Platformen und Probleme auszuwerten."
+"</p><p>Die Daten werden von Google Analytics verarbeitet, siehe den <a href="
+"\"https://support.google.com/analytics/answer/6004245?hl=en\">Artikel "
+"zu disem Thema</a>.</p><p>Folgende Daten werden gesammelt:</p><ul><li>Eine zufällige "
+"eindeutige ID der MultiMC-Installation.<br />Diese liegt in den Programmeinstellungen "
+"(multimc.cfg).</li><li>Anonymisierte (Teil) IP-Adresse.</"
+"li><li>MultiMC Version.</li><li>Betriebssystem, Version und "
+"Architektur.</li><li>CPU Architektur (Kernel Architektur bei Linux).</"
+"li><li>Größe des Arbeitsspeichers.</li><li>Java Version, Architektur und Arbeitsspeicher "
+"Einstellungen.</li></ul><p>Wenn wir die Sammeldaten ändern, "
+"siehst Du diese Seite noch mal.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr ""
+msgstr "Aktivere Analysierung"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:13
 #, fuzzy
@@ -1083,7 +1095,7 @@ msgstr "Game Fenster"
 #: src/application/pages/InstanceSettingsPage.ui:240
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
-msgstr "Game Fenster"
+msgstr "Spiel Fenster"
 
 #: src/application/pages/InstanceSettingsPage.ui:252
 msgctxt "InstanceSettingsPage|"
@@ -1994,7 +2006,7 @@ msgstr ""
 #, fuzzy
 msgctxt "LiteLoaderVersionList|"
 msgid "Snapshot"
-msgstr "Schnappschuß"
+msgstr "Snapshot"
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:116
 #, fuzzy
@@ -2021,7 +2033,7 @@ msgstr "Aktuell halten"
 #, fuzzy
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr " Zeilen"
+msgstr "Zeilen"
 
 #: src/application/pages/LogPage.ui:93
 msgctxt "LogPage|"
@@ -2588,7 +2600,7 @@ msgid ""
 msgstr ""
 "MultiMC kann Minecraft nicht herunterladen und keine Instanzen "
 "aktualisieren, solange du kein Konto erstellt hast.\n"
-"Bitte füge dein Mojang- oder Minecraft-Konto hinzu."
+"Bitte füge Dein Mojang- oder Minecraft-Konto hinzu."
 
 #: src/application/MainWindow.cpp:1208
 msgctxt "MainWindow|"
@@ -2632,6 +2644,9 @@ msgid ""
 "inaccurate time tracking and no Minecraft crash handling.</p><p>Are you sure?"
 "</p>"
 msgstr ""
+"<p>Du hast noch laufende Prozesse.</p><p>Wenn MultiMC geschlossen wird, "
+"führt dies zu einer ungenauen Zeiterfassung und keiner Mincraft-Crash Verwaltung.</p><p>Bist Du sicher?"
+"</p>"
 
 #: src/application/MainWindow.cpp:1571
 msgctxt "MainWindow|"
@@ -2677,7 +2692,7 @@ msgstr "Instanzname"
 #: src/application/MainWindow.cpp:500 src/application/MainWindow.cpp:852
 msgctxt "MainWindow|"
 msgid "Profiles"
-msgstr "Profilers"
+msgstr "Profile"
 
 #: src/application/MainWindow.cpp:667
 #, qt-format
@@ -2705,7 +2720,7 @@ msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr ""
-"Der Name des Instanz-Ordners enthält ein '!'. Es ist bekannt, daß es damit "
+"Der Name des Instanz-Ordners enthält ein '!'. Es ist bekannt, dass es damit "
 "zu Java-Problemen führt!"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:273
@@ -2737,19 +2752,19 @@ msgstr "<PROFILE NAME>"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
-msgstr "%1 min %2 s"
+msgstr "%1 min. %2 sek."
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:370
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
-msgstr "%1 h %2 min"
+msgstr "%1 std. %2 min."
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:372
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr "%1 d %2 h %3 min"
+msgstr "%1 Tage %2 std. %3 min."
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:380
 msgctxt "MinecraftInstance|"
@@ -2968,7 +2983,7 @@ msgstr "Beim Start nach Updates suchen?"
 #: src/application/pages/global/MultiMCPage.ui:64
 msgctxt "MultiMCPage|"
 msgid "Up&date Channel:"
-msgstr "Update Kanal:"
+msgstr "Up&date Kanal:"
 
 #: src/application/pages/global/MultiMCPage.ui:81
 msgctxt "MultiMCPage|"
@@ -2978,32 +2993,32 @@ msgstr "Kein Kanal ausgewählt."
 #: src/application/pages/global/MultiMCPage.ui:100
 msgctxt "MultiMCPage|"
 msgid "&Launcher:"
-msgstr "Launcher:"
+msgstr "&Launcher:"
 
 #: src/application/pages/global/MultiMCPage.ui:169
 msgctxt "MultiMCPage|"
 msgid "I&nstances:"
-msgstr "Instanzen:"
+msgstr "I&nstanzen:"
 
 #: src/application/pages/global/MultiMCPage.ui:189
 msgctxt "MultiMCPage|"
 msgid "&Mods:"
-msgstr "Mods:"
+msgstr "&Mods:"
 
 #: src/application/pages/global/MultiMCPage.ui:232
 msgctxt "MultiMCPage|"
 msgid "&Icons:"
-msgstr "Symbole:"
+msgstr "&Symbole:"
 
 #: src/application/pages/global/MultiMCPage.ui:300
 msgctxt "MultiMCPage|"
 msgid "By &last launched"
-msgstr "Nach letztem Start"
+msgstr "Nach &letztem Start"
 
 #: src/application/pages/global/MultiMCPage.ui:310
 msgctxt "MultiMCPage|"
 msgid "By &name"
-msgstr "Nach Namen"
+msgstr "Nach &Namen"
 
 #: src/application/pages/global/MultiMCPage.ui:323
 msgctxt "MultiMCPage|"
@@ -3020,12 +3035,12 @@ msgstr "Symbol-Thema"
 #, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Icons"
-msgstr "Symbole:"
+msgstr "&Symbole:"
 
 #: src/application/pages/global/MultiMCPage.ui:574
 msgctxt "MultiMCPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "Analytik"
 
 #: src/application/pages/global/MultiMCPage.ui:580
 #, fuzzy
@@ -3054,6 +3069,18 @@ msgid ""
 "</ul>\n"
 "</body></html>"
 msgstr ""
+"<html><body><p>MultiMC sammelt anonyme Nutzungsdaten bei jedem Programmstart. "
+"Dies hilft uns dabei bestimmte Platformen und Probleme auszuwerten."
+"</p><p>Die Daten werden von Google Analytics verarbeitet, siehe den <a href="
+"\"https://support.google.com/analytics/answer/6004245?hl=en\">Artikel "
+"zu disem Thema</a>.</p><p>Folgende Daten werden gesammelt:</p><ul><li>Eine zufällige "
+"eindeutige ID der MultiMC-Installation.<br />Diese liegt in den Programmeinstellungen "
+"(multimc.cfg).</li><li>Anonymisierte (Teil) IP-Adresse.</"
+"li><li>MultiMC Version.</li><li>Betriebssystem, Version und "
+"Architektur.</li><li>CPU Architektur (Kernel Architektur bei Linux).</"
+"li><li>Größe des Arbeitsspeichers.</li><li>Java Version, Architektur und Arbeitsspeicher "
+"Einstellungen.</li></ul><p>Wenn wir die Sammeldaten ändern, "
+"siehst Du diese Seite noch mal.</p></body></html>"
 
 #: src/application/pages/global/MultiMCPage.ui:366
 msgctxt "MultiMCPage|"
@@ -3104,7 +3131,7 @@ msgstr "Konsole anzeigen, während das Spiel läuft?"
 #: src/application/pages/global/MultiMCPage.ui:475
 msgctxt "MultiMCPage|"
 msgid "History limit"
-msgstr "Begrense wie viele Log-zeilen gespeichert werden sollen"
+msgstr "Begrense wie viele Log-Zeilen gespeichert werden sollen"
 
 #: src/application/pages/global/MultiMCPage.ui:481
 msgctxt "MultiMCPage|"
@@ -3164,7 +3191,7 @@ msgstr "Grundeinstellung"
 #: src/application/pages/global/MultiMCPage.ui:371
 msgctxt "MultiMCPage|"
 msgid "Simple (Light Icons)"
-msgstr "Simpel (weiß)"
+msgstr "Einfach (helle Symbole)"
 
 #: src/application/pages/global/MultiMCPage.cpp:102
 #, fuzzy
@@ -3176,7 +3203,7 @@ msgstr "FTB-Launcher Ordner"
 #, fuzzy
 msgctxt "MultiMCPage|"
 msgid "FTB Folder"
-msgstr "Ordner"
+msgstr "FTB Ordner"
 
 #: src/application/pages/global/MultiMCPage.cpp:127
 #, fuzzy
@@ -3214,13 +3241,13 @@ msgstr "Instanz-Ordner"
 #, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
-msgstr "Ordner"
+msgstr "Mods Ordner"
 
 #: src/application/pages/global/MultiMCPage.cpp:184
 #, fuzzy
 msgctxt "MultiMCPage|"
 msgid "LWJGL Folder"
-msgstr "Ordner"
+msgstr "LWJGL Ordner"
 
 #: src/application/pages/global/MultiMCPage.cpp:494
 msgctxt "MultiMCPage|"
@@ -3266,7 +3293,7 @@ msgstr "Name"
 #: src/application/dialogs/NewInstanceDialog.ui:86
 msgctxt "NewInstanceDialog|"
 msgid "&Group:"
-msgstr "Gruppe:"
+msgstr "&Gruppe:"
 
 #: src/application/dialogs/NewInstanceDialog.ui:147
 msgctxt "NewInstanceDialog|"
@@ -3276,7 +3303,7 @@ msgstr "Modpack importieren (lokale Datei oder Link):"
 #: src/application/dialogs/NewInstanceDialog.ui:154
 msgctxt "NewInstanceDialog|"
 msgid "Vani&lla Minecraft (select version):"
-msgstr "Vanilla Minecraft (Version auswählen):"
+msgstr "Vani&lla Minecraft (Version auswählen):"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:91
 msgctxt "NewInstanceDialog|"
@@ -3845,7 +3872,7 @@ msgstr "Ungültige Order-Datei Version. %1 erwartet"
 #: src/api/logic/minecraft/MinecraftVersion.cpp:26
 msgctxt "QObject|"
 msgid "Snapshot"
-msgstr "Schnappschuß"
+msgstr "Snapshot"
 
 #: src/api/logic/minecraft/MinecraftVersion.cpp:30
 msgctxt "QObject|"
@@ -3968,8 +3995,8 @@ msgctxt "QObject|"
 msgid ""
 "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr ""
-"Die spezifizierte Java-Binary hat nicht mit den Argumenten, die sie "
-"angegeben haben, funktioniert:<br />"
+"Die spezifizierte Java-Binary hat nicht mit den Argumenten, die Du "
+"angegeben hast, funktioniert:<br />"
 
 #: src/application/JavaCommon.cpp:52
 #, fuzzy
@@ -4110,13 +4137,13 @@ msgstr ""
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr ""
-"<p>Sie können <a href=\"%1\">diese Änderungen auf Github betrachten</a>.</p>"
+"<p>Du kannst <a href=\"%1\">diese Änderungen auf Github betrachten</a>.</p>"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:155
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "ProcessArgument wurde in unbekanten Wert '%1' gesetzt"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:180
 #, qt-format
@@ -4138,12 +4165,12 @@ msgstr "Assets für %1"
 #: src/api/logic/wonko/format/WonkoFormat.cpp:27
 msgctxt "QObject|"
 msgid "Missing required field: 'formatVersion'"
-msgstr ""
+msgstr "Benötigtes Feld fehlt: 'formatVersion'"
 
 #: src/api/logic/wonko/format/WonkoFormat.cpp:30
 msgctxt "QObject|"
 msgid "Required field has invalid type: 'formatVersion'"
-msgstr ""
+msgstr "Benötigtes Feld hat unzulässigen Typ: 'formatVersion'"
 
 #: src/api/logic/wonko/format/WonkoFormat.cpp:43
 #: src/api/logic/wonko/format/WonkoFormat.cpp:54
@@ -4151,7 +4178,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Unknown formatVersion: %1"
-msgstr ""
+msgstr "Unbekannte Format-Version: %1"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:285
 #, fuzzy
@@ -4163,17 +4190,13 @@ msgstr "Die ausgewählte Datei scheint keine Anwendung zu sein"
 #, fuzzy
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
-"Die spezifizierte Java-Binary hat nicht mit den Argumenten, die sie "
-"angegeben haben, funktioniert:<br />"
+msgstr "Die spezifizierte Java-Binary ist nicht richtig gestartet.<br />"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:302
 #, fuzzy
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
-"Die spezifizierte Java-Binary hat nicht mit den Argumenten, die sie "
-"angegeben haben, funktioniert:<br />"
+msgstr "Die angegebene Java-Binärdatei hat unerwartete Ergebnisse zurückgegeben:<br />"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:313
 #: src/application/JavaCommon.cpp:28
@@ -4425,7 +4448,7 @@ msgstr "&Aktualisieren"
 #: src/application/setupwizard/SetupWizard.cpp:33
 msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
-msgstr ""
+msgstr "MultiMC Schnell-Installation"
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 #, fuzzy
@@ -4752,7 +4775,7 @@ msgstr "jar Mod hinzufügen"
 #: src/application/pages/VersionPage.ui:216
 msgctxt "VersionPage|"
 msgid "Reset apply order of packages."
-msgstr "Anwendungsreihenfolge der Pakete zurrücksetzen."
+msgstr "Anwendungsreihenfolge der Pakete zurücksetzen."
 
 #: src/application/pages/VersionPage.ui:219
 msgctxt "VersionPage|"
@@ -4805,7 +4828,7 @@ msgstr "%1 hat Probleme!"
 #: src/application/pages/VersionPage.cpp:176
 msgctxt "VersionPage|"
 msgid "Error: "
-msgstr "Fehler "
+msgstr "Fehler: "
 
 #: src/application/pages/VersionPage.cpp:180
 msgctxt "VersionPage|"
