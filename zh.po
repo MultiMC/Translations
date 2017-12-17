@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultiMC5\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-01-17 17:46+0800\n"
+"PO-Revision-Date: 2017-12-17 16:44+0800\n"
 "Last-Translator: CharlieJiang <cqjjjzr@126.com>\n"
 "Language-Team: Chinese <http://translate.multimc.org/projects/multimc/"
 "multimc5/zh/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.3\n"
 "X-Qt-Contexts: true\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
@@ -232,7 +232,7 @@ msgid ""
 "is overridden in an instance-specific setting).</p></body></html>"
 msgstr ""
 "<html><head/><body><p>将当前选择的帐号设置为活动帐号。活动帐号会被用来登录(除"
-"非它被实例的设定覆盖)。</p></body></html>、"
+"非它被实例的设定覆盖)。</p></body></html>"
 
 #: src/application/pages/global/AccountListPage.ui:86
 msgctxt "AccountListPage|"
@@ -278,7 +278,6 @@ msgid ""
 msgstr "请输入你的Mojang或者Minecraft账户用户名和密码来增加你的帐号。"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
-#, fuzzy
 msgctxt "AnalyticsWizardPage|"
 msgid "Analytics"
 msgstr "统计数据"
@@ -286,10 +285,9 @@ msgstr "统计数据"
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
 msgid "We track some anonymous statistics about users."
-msgstr ""
+msgstr "我们会跟踪一些关于用户的匿名统计数据。"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
-#, fuzzy
 msgctxt "AnalyticsWizardPage|"
 msgid ""
 "<html><body><p>MultiMC sends anonymous usage statistics on every start of "
@@ -307,21 +305,28 @@ msgid ""
 msgstr ""
 "<html><head/>\n"
 "<body>\n"
-"<p>MultiMC在每次启动时发送匿名使用数据。</p><p>下列数据将会被收集:</p>\n"
+"<p>MultiMC在每次启动时发送匿名使用数据。这将会帮助我们关注哪些平台和问题。</"
+"p>\n"
+"<p>数据由Google Analytics处理，见就此事的文章<a href=\"https://support."
+"google.com/analytics/answer/6004245?hl=en\"></p>\n"
+"<p>下列数据将会被收集:</p>\n"
 "<ul>\n"
+"<li>一个MultiMC安装的唯一随机ID.<br />其存放在程序设置文件(multimc.cfg)中.</"
+"li>\n"
+"<li>匿名化的(部分) IP地址.</li>\n"
 "<li>MultiMC 版本.</li>\n"
-"<li>操作系统名称，版本和架构。</li>\n"
-"<li>CPU架构(Linux的内核架构)；</li>\n"
-"<li>系统内存大小；</li>\n"
-"<li>Java版本，架构和内存设定；</li>\n"
+"<li>操作系统名称，版本和架构.</li>\n"
+"<li>CPU架构(Linux的内核架构).</li>\n"
+"<li>系统内存大小.</li>\n"
+"<li>Java版本，架构和内存设定.</li>\n"
 "</ul>\n"
+"<p>如果我们变更了这些跟踪的信息，你将会再次看到这个页面。</p>\n"
 "</body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
-#, fuzzy
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr "统计数据"
+msgstr "启用统计数据"
 
 #: src/api/logic/minecraft/onesix/update/AssetUpdateTask.cpp:13
 msgctxt "AssetUpdateTask|"
@@ -408,7 +413,7 @@ msgstr "验证中：处理响应..."
 #: src/api/logic/tools/BaseProfiler.cpp:29
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
-msgstr "Profiler已终止。"
+msgstr "Profiler已终止"
 
 #: src/api/logic/wonko/tasks/BaseWonkoEntityLocalLoadTask.cpp:38
 msgctxt "BaseWonkoEntityLocalLoadTask|"
@@ -522,7 +527,7 @@ msgstr "名称"
 #: src/application/dialogs/CopyInstanceDialog.ui:90
 msgctxt "CopyInstanceDialog|"
 msgid "&Group"
-msgstr "组(&G)："
+msgstr "组(&G)"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
@@ -630,10 +635,9 @@ msgid "External Tools"
 msgstr "外部工具"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:89
-#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr "配置文件夹"
+msgstr "JProriler文件夹"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:97
 #: src/application/pages/global/ExternalToolsPage.cpp:112
@@ -695,10 +699,9 @@ msgid "MCEdit Application"
 msgstr "MCEdit应用程序"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
-#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "配置文件夹"
+msgstr "MCEdit文件夹"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -859,7 +862,7 @@ msgstr "下载更新文件%1。"
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "下载更新文件失败：%1。"
+msgstr "下载更新文件失败：%1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -908,7 +911,7 @@ msgstr "复制实例文件夹操作被中断。"
 #, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "从版本%1创建实例版本列表..."
+msgstr "从版本%1创建实例版本列表"
 
 #: src/api/logic/InstanceCreationTask.cpp:27
 msgctxt "InstanceCreationTask|"
@@ -1032,7 +1035,7 @@ msgstr "内存(&Y)"
 #: src/application/pages/InstanceSettingsPage.ui:186
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr "注意：PermGen在Java8以后会被自动设置。"
+msgstr "注意：PermGen在Java8以后会被自动设置"
 
 #: src/application/pages/InstanceSettingsPage.ui:199
 msgctxt "InstanceSettingsPage|"
@@ -1097,12 +1100,12 @@ msgstr "自定义命令"
 #: src/application/pages/InstanceSettingsPage.ui:383
 msgctxt "InstanceSettingsPage|"
 msgid "Post-exit command:"
-msgstr "运行之后的命令："
+msgstr "后执行命令："
 
 #: src/application/pages/InstanceSettingsPage.ui:393
 msgctxt "InstanceSettingsPage|"
 msgid "Pre-launch command:"
-msgstr "运行之前的命令："
+msgstr "预执行命令："
 
 #: src/application/pages/InstanceSettingsPage.ui:403
 msgctxt "InstanceSettingsPage|"
@@ -1110,7 +1113,6 @@ msgid "Wrapper command:"
 msgstr "包装命令："
 
 #: src/application/pages/InstanceSettingsPage.ui:416
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1133,18 +1135,18 @@ msgid ""
 "\">INST_JAVA_ARGS - command-line parameters used for launch</li></ul></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>运行之前的命令会在示例开始之前运行，运行之后的命令会在"
-"示例结束之后运行。</p><p>它们会使用以下环境参数运行来在MultiMC工作目录：</"
-"p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-"
-"right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-"
+"<html><head/><body><p>预执行命令会在实例开始之前运行，后执行命令会在实例结束"
+"之后运行。</p><p>它们会使用以下环境参数运行来在MultiMC工作目录：</p><ul "
+"style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: "
+"0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\">INST_NAME - 实例名称</li><li style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\">INST_ID - 示例ID</li><li style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\">INST_DIR - 实例的绝对路径</li><li style=\" margin-top:0px; margin-"
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">INST_NAME - 实例名称</li><li style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">INST_ID - 示例ID</li><li style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">INST_DIR - 实例的绝对路径</li><li style=\" margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\">INST_MC_DIR - Minecraft的绝对路径</li><li style=\" margin-"
+"indent:0px;\">INST_MC_DIR - Minecraft的绝对路径</li><li style=\" margin-"
 "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
 "indent:0; text-indent:0px;\">INST_JAVA - 用来启动的Java二进制文件</li><li "
 "style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-"
@@ -1199,7 +1201,7 @@ msgstr "运行"
 #: src/application/InstanceWindow.cpp:123
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "运行选择的实例。"
+msgstr "运行选择的实例"
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, qt-format
@@ -1283,7 +1285,6 @@ msgid "Wrapper command:"
 msgstr "包装命令："
 
 #: src/application/pages/global/JavaPage.ui:267
-#, fuzzy
 msgctxt "JavaPage|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1292,10 +1293,10 @@ msgid ""
 "variables.</p><p>Wrapper command allows running java using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
-"<html><head/><body><p>运行之前的命令会在示例开始之前运行，运行之后的命令会在"
-"示例结束之后运行。</p><p>它们会使用以下环境参数运行来在MultiMC工作目录："
-"INST_ID, INST_DIR，和 INST_NAME</p><p>包装命令会允许使用一个额外的包装命令来"
-"运行Java(比如Linux的“optirun”)</p></body></html>"
+"<html><head/><body><p>预执行命令会在实例开始之前运行，后执行命令会在实例结束"
+"之后运行。</p><p>它们会使用以下环境参数运行来在MultiMC工作目录：INST_ID, "
+"INST_DIR，和 INST_NAME</p><p>包装命令会允许使用一个额外的包装命令来运行"
+"Java(比如Linux的“optirun”)</p></body></html>"
 
 #: src/application/pages/global/JavaPage.ui:186
 msgctxt "JavaPage|"
@@ -1310,12 +1311,12 @@ msgstr "自定义命令"
 #: src/application/pages/global/JavaPage.ui:228
 msgctxt "JavaPage|"
 msgid "Post-exit command:"
-msgstr "运行之后的命令："
+msgstr "后执行命令："
 
 #: src/application/pages/global/JavaPage.ui:235
 msgctxt "JavaPage|"
 msgid "Pre-launch command:"
-msgstr "运行之前的命令："
+msgstr "预执行命令："
 
 #: src/application/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
@@ -1358,7 +1359,6 @@ msgid "Find Java executable"
 msgstr "寻找Java可执行文件"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:425
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Java"
 msgstr "Java"
@@ -1369,48 +1369,43 @@ msgid ""
 "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
 msgstr ""
+"没有一个可运行的Java或其已丢失。\n"
+"请在下面选择或浏览来选定一个Java可执行文件。"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:428
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Memory"
 msgstr "内存"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:429
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "Minecraft可以使用的最大内存大小。"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:430
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Minimum memory allocation:"
 msgstr "最小内存分配："
 
 #: src/application/setupwizard/JavaWizardPage.cpp:431
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Maximum memory allocation:"
 msgstr "最大内存分配："
 
 #: src/application/setupwizard/JavaWizardPage.cpp:432
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "Minecraft启动时分配的内存总量。"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:433
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "可用于储存加载的Java类的内存总量。"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:434
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Browse"
-msgstr "浏览..."
+msgstr "浏览"
 
 #: src/api/logic/minecraft/liteloader/LiteLoaderVersionList.cpp:161
 msgctxt "LLListLoadTask|"
@@ -1433,15 +1428,14 @@ msgid "LWJGL version name."
 msgstr "LWJGL版本名。"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:52
-#, fuzzy
 msgctxt "LanguageWizardPage|"
 msgid "Language"
-msgstr "语言:"
+msgstr "语言"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:53
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
-msgstr ""
+msgstr "设置MultiMC中使用的语言"
 
 #: src/application/LaunchController.cpp:34
 msgctxt "LaunchController|"
@@ -1471,7 +1465,7 @@ msgstr "你想使用哪个帐号？"
 #: src/application/LaunchController.cpp:78
 msgctxt "LaunchController|"
 msgid "No account selected for launch"
-msgstr "没有选择用来运行的帐号。"
+msgstr "没有选择用来运行的帐号"
 
 #: src/application/LaunchController.cpp:87
 msgctxt "LaunchController|"
@@ -1574,11 +1568,10 @@ msgctxt "LaunchController|"
 msgid ""
 "This can cause the instance to get corrupted and should only be used if "
 "Minecraft is frozen for some reason"
-msgstr ""
-"这可能导致实例出现错误，这应该只在Minecraft由于一些原因冻结的时候使用。"
+msgstr "这可能导致实例出现错误，这应该只在Minecraft由于一些原因冻结的时候使用"
 
 #: src/api/logic/launch/LaunchTask.cpp:215
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LaunchTask|"
 msgid ""
 "MultiMC stopped watching the game log because the log length surpassed %1 "
@@ -1586,9 +1579,9 @@ msgid ""
 "You may have to fix your mods because the game is still logging to files and "
 "likely wasting harddrive space at an alarming rate!"
 msgstr ""
-"MultiMC停止监听游戏日志，因为日志超过了%1行。\n"
-"你可能需要修复你的mod，因为游戏还在向文件写入日志，并且看起来在以一个惊人的速"
-"度浪费你的硬盘空间！"
+"MultiMC停止监听游戏日志，因为日志长度超过了%1行。\n"
+"你可能需要修复你的mod，因为游戏还在向文件写入日志，并且似乎在以一个惊人的速度"
+"浪费你的硬盘空间！"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:54
 #, qt-format
@@ -1759,7 +1752,7 @@ msgstr "安装新的LWJGL..."
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:327
 msgctxt "LegacyUpdate|"
 msgid "Installing new LWJGL - extracting "
-msgstr "安装新的LWJGL - 解压中"
+msgstr "安装新的LWJGL - 解压中 "
 
 #: src/api/logic/minecraft/legacy/LegacyUpdate.cpp:345
 #, qt-format
@@ -2000,7 +1993,7 @@ msgstr "MultiMC: 日志已上传到: %1"
 #: src/application/pages/LogPage.cpp:204
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr "MultiMC: 日志上传触发: %1"
+msgstr "MultiMC: 日志上传失败！"
 
 #. Message displayed on instance exit
 #: src/api/logic/LoggedProcess.cpp:68
@@ -2120,7 +2113,7 @@ msgstr "结束"
 #: src/application/MainWindow.cpp:140
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "结束运行中的实例。"
+msgstr "结束运行中的实例"
 
 #: src/application/MainWindow.cpp:326
 msgctxt "MainWindow|"
@@ -2220,7 +2213,7 @@ msgstr "运行选择的实例。"
 #: src/application/MainWindow.cpp:336
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
-msgstr "检测MultiMC的更新"
+msgstr "检测MultiMC的更新。"
 
 #: src/application/MainWindow.cpp:349
 msgctxt "MainWindow|"
@@ -2360,7 +2353,7 @@ msgstr "实例设置"
 #: src/application/MainWindow.cpp:366
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
-msgstr "打开实例的配置文件夹"
+msgstr "打开实例的配置文件夹。"
 
 #: src/application/MainWindow.cpp:368
 msgctxt "MainWindow|"
@@ -2375,7 +2368,7 @@ msgstr "打开MultiMC的subreddit论坛页面。"
 #: src/application/MainWindow.cpp:372
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat."
-msgstr "打开MultiMC Discord 语音聊天室"
+msgstr "打开MultiMC Discord 语音聊天室。"
 
 #: src/application/MainWindow.cpp:377
 msgctxt "MainWindow|"
@@ -2462,7 +2455,7 @@ msgstr "加载新闻..."
 #: src/application/MainWindow.cpp:902
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr "无新闻可用"
+msgstr "无新闻。"
 
 #: src/application/MainWindow.cpp:976 src/application/MainWindow.cpp:987
 #: src/application/MainWindow.cpp:1033 src/application/MainWindow.cpp:1086
@@ -2551,7 +2544,7 @@ msgid ""
 "location, not a temporary folder"
 msgstr ""
 "发现一个问题：<br /> - MultiMC看起来可能在无警告的前提下被操作系统删除 <br /"
-"> - 现在应该关闭MultiMC并将其解压到一个实在的位置，而不是一个临时文件夹。"
+"> - 现在应该关闭MultiMC并将其解压到一个实在的位置，而不是一个临时文件夹"
 
 #: src/application/MainWindow.cpp:1584
 msgctxt "MainWindow|"
@@ -2753,7 +2746,7 @@ msgstr "在系统资源管理器或文件管理器中打开'config'文件夹。"
 #: src/application/pages/ModFolderPage.ui:78
 msgctxt "ModFolderPage|"
 msgid "View configs"
-msgstr "查看配置。"
+msgstr "查看配置"
 
 #: src/application/pages/ModFolderPage.ui:98
 msgctxt "ModFolderPage|"
@@ -2815,7 +2808,7 @@ msgid ""
 "jar modding failed because: %1.\n"
 "\n"
 msgstr ""
-"Jar Mod 安装失败，原因：%1\n"
+"jar Mod 安装失败，原因：%1\n"
 "\n"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:186
@@ -2906,7 +2899,7 @@ msgstr "主题"
 #: src/application/pages/global/MultiMCPage.ui:341
 msgctxt "MultiMCPage|"
 msgid "&Icons"
-msgstr "图标(&I)："
+msgstr "图标(&I)"
 
 #: src/application/pages/global/MultiMCPage.ui:574
 msgctxt "MultiMCPage|"
@@ -3062,19 +3055,16 @@ msgid "Simple (Light Icons)"
 msgstr "简单 (白色图标)"
 
 #: src/application/pages/global/MultiMCPage.cpp:102
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "FTB Launcher Folder"
 msgstr "FTB启动器目录"
 
 #: src/application/pages/global/MultiMCPage.cpp:115
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "FTB Folder"
-msgstr "文件夹"
+msgstr "FTB文件夹"
 
 #: src/application/pages/global/MultiMCPage.cpp:127
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Instance Folder"
 msgstr "实例文件夹"
@@ -3097,22 +3087,19 @@ msgid ""
 msgstr "你真的想使用这个路径吗？选择“否”将会关闭并不会替换你的实例路径。"
 
 #: src/application/pages/global/MultiMCPage.cpp:160
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Icons Folder"
-msgstr "实例文件夹"
+msgstr "图标文件夹"
 
 #: src/application/pages/global/MultiMCPage.cpp:172
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
-msgstr "文件夹"
+msgstr "Mod文件夹"
 
 #: src/application/pages/global/MultiMCPage.cpp:184
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "LWJGL Folder"
-msgstr "文件夹"
+msgstr "LWJGL文件夹"
 
 #: src/application/pages/global/MultiMCPage.cpp:494
 msgctxt "MultiMCPage|"
@@ -3250,7 +3237,7 @@ msgstr "1.6 FTB"
 #: src/api/logic/minecraft/onesix/OneSixInstance.cpp:397
 msgctxt "OneSixInstance|"
 msgid "Couldn't create the bin folder for Minecraft.jar"
-msgstr "为Minecraft二进制文件创建文件夹时出错。"
+msgstr "为Minecraft.jar二进制文件创建文件夹时出错"
 
 #: src/api/logic/minecraft/onesix/OneSixInstance.cpp:405
 #, qt-format
@@ -3454,13 +3441,13 @@ msgstr "上传到paste.ee"
 msgctxt "PasteUpload|"
 msgid ""
 "paste.ee returned an error. Please consult the logs for more information"
-msgstr "paste.ee返回了一个错误。请参考日志获取更多信息。"
+msgstr "paste.ee返回了一个错误。请参考日志获取更多信息"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
-msgstr "执行启动后的命令：%1。"
+msgstr "执行后执行命令：%1"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:39
 #, qt-format
@@ -3478,14 +3465,14 @@ msgid ""
 "Post-Launch command ran successfully.\n"
 "\n"
 msgstr ""
-"启动后的命令成功执行。\n"
+"后执行命令成功执行。\n"
 "\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Running Pre-Launch command: %1"
-msgstr "执行启动前的命令：%1。"
+msgstr "执行预执行命令：%1"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:40
 #, qt-format
@@ -3494,7 +3481,7 @@ msgid ""
 "Pre-Launch command failed with code %1.\n"
 "\n"
 msgstr ""
-"启动前的命令执行失败，代码：%1。\n"
+"预执行命令执行失败，代码：%1。\n"
 "\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
@@ -3503,7 +3490,7 @@ msgid ""
 "Pre-Launch command ran successfully.\n"
 "\n"
 msgstr ""
-"启动前的命令成功执行。\n"
+"预执行命令成功执行。\n"
 "\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
@@ -3535,7 +3522,7 @@ msgstr "名称"
 #: src/application/dialogs/ProfileSelectDialog.cpp:56
 msgctxt "ProfileSelectDialog|"
 msgid " (in use)"
-msgstr "(使用中)"
+msgstr "（使用中)"
 
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3699,7 +3686,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to open the version file %1: %2."
-msgstr "无法打开版本文件%1：%2"
+msgstr "无法打开版本文件%1：%2。"
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:149
 #, qt-format
@@ -3798,7 +3785,7 @@ msgstr "版本文件包含不支持的元素“+minecraftArguments”"
 #, qt-format
 msgctxt "QObject|"
 msgid "Minecraft version %1 could not be applied: version files are missing."
-msgstr "无法写入未完成/内建的Minecraft版本%1"
+msgstr "无法写入未完成/内建的Minecraft版本%1。"
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4257,7 +4244,7 @@ msgstr "刷新(&R)"
 #: src/application/setupwizard/SetupWizard.cpp:33
 msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
-msgstr ""
+msgstr "MultiMC快速启动"
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 msgctxt "SkinUpload|"
@@ -4625,12 +4612,12 @@ msgstr "%1有问题！"
 #: src/application/pages/VersionPage.cpp:176
 msgctxt "VersionPage|"
 msgid "Error: "
-msgstr "错误："
+msgstr "错误： "
 
 #: src/application/pages/VersionPage.cpp:180
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr "警告："
+msgstr "警告： "
 
 #: src/application/pages/VersionPage.cpp:265
 msgctxt "VersionPage|"
@@ -4712,7 +4699,7 @@ msgstr "选择Forge版本"
 #: src/application/pages/VersionPage.cpp:382
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
-msgstr "当前没有适用于此Minecraft的Forge版本可用。"
+msgstr "当前没有适用于此Minecraft的Forge版本可用"
 
 #: src/application/pages/VersionPage.cpp:384
 msgctxt "VersionPage|"
@@ -4727,7 +4714,7 @@ msgstr "选择LiteLoader版本"
 #: src/application/pages/VersionPage.cpp:400
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
-msgstr "当前没有适用于此Minecraft的LiteLoader版本可用。"
+msgstr "当前没有适用于此Minecraft的LiteLoader版本可用"
 
 #: src/application/VersionProxyModel.cpp:98
 msgctxt "VersionProxyModel|"
@@ -4811,7 +4798,6 @@ msgid "Reloads the version list."
 msgstr "重新加载版本列表。"
 
 #: src/application/dialogs/VersionSelectDialog.cpp:83
-#, fuzzy
 msgctxt "VersionSelectDialog|"
 msgid "&Refresh"
 msgstr "刷新(&R)"
@@ -4865,7 +4851,7 @@ msgstr "版本"
 #: src/application/pages/global/WonkoPage.ui:161
 msgctxt "WonkoPage|"
 msgid "Search..."
-msgstr "搜索："
+msgstr "搜索..."
 
 #: src/application/pages/global/WonkoPage.ui:70
 #: src/application/pages/global/WonkoPage.ui:183
@@ -4898,7 +4884,7 @@ msgstr "依赖："
 #: src/application/pages/global/WonkoPage.ui:155
 msgctxt "WonkoPage|"
 msgid "Resources"
-msgstr "资源："
+msgstr "资源"
 
 #: src/application/pages/global/WonkoPage.ui:194
 msgctxt "WonkoPage|"
