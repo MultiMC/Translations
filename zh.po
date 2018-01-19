@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultiMC5\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-12-17 16:44+0800\n"
+"PO-Revision-Date: 2018-01-19 13:52+0800\n"
 "Last-Translator: CharlieJiang <cqjjjzr@126.com>\n"
 "Language-Team: Chinese <http://translate.multimc.org/projects/multimc/"
 "multimc5/zh/>\n"
@@ -82,7 +82,7 @@ msgstr ""
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
 msgid "© 2012-2017 MultiMC Contributors"
-msgstr "© 2013-2015 MultiMC Contributors"
+msgstr "© 2013-2017 MultiMC 贡献者"
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -93,7 +93,7 @@ msgstr "创建者"
 #: src/application/dialogs/AboutDialog.ui:230
 msgctxt "AboutDialog|"
 msgid "No Language file loaded."
-msgstr "翻译：CharlieJiang"
+msgstr "翻译：CharlieJiang 与 所有于Weblate上作出贡献的人"
 
 #: src/application/dialogs/AboutDialog.ui:241
 msgctxt "AboutDialog|"
@@ -487,13 +487,11 @@ msgstr ""
 "\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:882
-#, fuzzy
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "名称"
 
 #: src/api/logic/minecraft/ComponentList.cpp:884
-#, fuzzy
 msgctxt "ComponentList|"
 msgid "Version"
 msgstr "版本号"
@@ -501,22 +499,22 @@ msgstr "版本号"
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:266
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
-msgstr ""
+msgstr "部分组件元数据更新失败。"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:518
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr ""
+msgstr "在依赖检测中检测到冲突“必要依赖项”！"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:537
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr ""
+msgstr "实例包含冲突的依赖。"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
+msgstr "实例在运行的加载/检查时包含未解析的依赖项。"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:685
 #, qt-format
@@ -525,6 +523,8 @@ msgid ""
 "Component metadata update task failed while downloading from remote server:\n"
 "%1"
 msgstr ""
+"组件元数据更新失败，在从远程服务器下载时出现错误：\n"
+"%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -797,25 +797,25 @@ msgstr ""
 #: src/api/logic/minecraft/flame/FileResolvingTask.cpp:13
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "解析 mod ID..."
 
 #: src/api/logic/minecraft/flame/FileResolvingTask.cpp:110
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
+msgstr "某些 mod ID 解析任务失败。"
 
 #: src/api/logic/FolderInstanceProvider.cpp:444
 #, qt-format
 msgctxt "FolderInstanceProvider|"
 msgid "%1 (Migrated)"
-msgstr ""
+msgstr "%1 (已迁移)"
 
 #: src/api/logic/FolderInstanceProvider.cpp:393
 msgctxt "FolderInstanceStaging|"
 msgid ""
 "Failed to commit instance, even after multiple retries. It is being blocked "
 "by something."
-msgstr ""
+msgstr "多次重试后提交实例失败。更新被某因素禁止。"
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -936,14 +936,13 @@ msgstr "解压mod包中"
 #: src/api/logic/InstanceImportTask.cpp:85
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr ""
+msgstr "无法打开提供的mod包zip文件。"
 
 #: src/api/logic/InstanceImportTask.cpp:110
 #: src/api/logic/InstanceImportTask.cpp:171
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr "压缩未包含instance.cfg"
+msgstr "压缩包未包含可识别的modpack类型。"
 
 #: src/api/logic/InstanceImportTask.cpp:126
 msgctxt "InstanceImportTask|"
@@ -951,21 +950,20 @@ msgid "Failed to extract modpack"
 msgstr "解压mod包时失败"
 
 #: src/api/logic/InstanceImportTask.cpp:153
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
-msgstr "%1的Wonko版本"
+msgstr "无法修复 %1 的权限"
 
 #: src/api/logic/InstanceImportTask.cpp:199
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "无法解析包清单：\n"
 
 #: src/api/logic/InstanceImportTask.cpp:210
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr "无法创建“server-resource-packs”文件夹"
+msgstr "无法重命名覆盖的目录：\n"
 
 #: src/api/logic/InstanceImportTask.cpp:216
 #, qt-format
@@ -973,64 +971,59 @@ msgctxt "InstanceImportTask|"
 msgid ""
 "The specified overrides folder (%1) is missing. Maybe the modpack was "
 "already used before?"
-msgstr ""
+msgstr "未找到指定的覆盖目录(%1)。或许modpack之前已经使用过？"
 
 #: src/api/logic/InstanceImportTask.cpp:230
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr "未知 formatVersion: %1"
+msgstr "清单中的未知 mod loader: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:243
 msgctxt "InstanceImportTask|"
 msgid ""
 "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "在导入包时删除了Minecraft班版本中结尾的玄学句点。"
 
 #: src/api/logic/InstanceImportTask.cpp:259
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr "无法处理版本文件：%1"
+msgstr "无法为以下Minecraft版本提供推荐的Forge版本：%1"
 
 #: src/api/logic/InstanceImportTask.cpp:308
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
-msgstr "Mod包下载"
+msgstr "Mod下载"
 
 #: src/api/logic/InstanceImportTask.cpp:324
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
-msgstr ""
+msgstr "此 '目录' 可能需要解压: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:335
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
 "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr ""
+msgstr "Modpack中的嵌套modpack并未支持。未下载任何数据：%1"
 
 #: src/api/logic/InstanceImportTask.cpp:340
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr ""
+msgstr "无法识别的/未被处理的 PackageType: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:360
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr ""
-"下载Mod包：\n"
-"%1"
+msgstr "下载Mod..."
 
 #: src/api/logic/InstanceImportTask.cpp:367
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
-msgstr "无法处理解析:%1"
+msgstr "无法解析 mod ID:%1\n"
 
 #: src/api/logic/InstanceImportTask.cpp:178
 msgctxt "InstanceImportTask|"
@@ -1256,7 +1249,6 @@ msgid "Help"
 msgstr "帮助"
 
 #: src/application/InstanceWindow.cpp:75
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch Offline"
 msgstr "离线启动"
@@ -1673,13 +1665,12 @@ msgstr ""
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:286
 msgctxt "LegacyInstance|"
 msgid "Legacy"
-msgstr "传统"
+msgstr "Legacy"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:291
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr "从版本%1创建实例版本列表"
+msgstr "创建自上一版本的实例。"
 
 #: src/application/pages/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
@@ -1700,45 +1691,46 @@ msgid ""
 "p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel "
 "for testing here</a>.</p></body></html>"
 msgstr ""
+"<html><body><h1>必须升级</h1><p>MultiMC现在在新的实例格式(OneSix)中支持了旧的"
+"Minecraft版本。因此，旧的(Legacy)格式将会被完全禁用，而旧的实例需要被升级。</"
+"p><p>升级过程将会创建一个使用新的格式的新的与旧的实例的内容完全相同的实例。旧"
+"的实例会保持不动，防止在过程中发生任何问题。</p><p>请在我们的<a href="
+"\"https://github.com/MultiMC/MultiMC5/issues\">Github Issues页面</a>报告所有"
+"问题。</p><p>同时有一个用于测试的<a href=\"https://discord.gg/"
+"GtPmv93\">Discord 频道</a>。</p></body></html>"
 
 #: src/application/pages/LegacyUpgradePage.ui:39
-#, fuzzy
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr "创建实例"
+msgstr "升级实例"
 
 #: src/application/pages/LegacyUpgradePage.cpp:26
-#, fuzzy
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
 msgstr "错误"
 
 #: src/application/pages/LegacyUpgradePage.cpp:29
-#, fuzzy
 msgctxt "LegacyUpgradePage|"
 msgid "Abort"
-msgstr "中断"
+msgstr "终止"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:23
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
 msgstr "复制实例%1中"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:62
-#, fuzzy
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
 msgstr "复制实例文件夹失败。"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:86
-#, fuzzy
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr "更改Minecraft版本"
+msgstr "无法决定Minecraft版本。"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:139
-#, fuzzy
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
 msgstr "复制实例文件夹操作被中断。"
@@ -1757,7 +1749,7 @@ msgstr "实例%1的库"
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:31
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "清单中指定了 Null Jar，中断。"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:57
 #, qt-format
@@ -2212,19 +2204,16 @@ msgid "Launch"
 msgstr "运行"
 
 #: src/application/MainWindow.cpp:284 src/application/MainWindow.cpp:615
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Folders"
-msgstr "文件夹"
+msgstr "共用文件夹"
 
 #: src/application/MainWindow.cpp:285
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
-msgstr "修改选择实例的实例。"
+msgstr "打开实例间共用的文件夹之一。"
 
 #: src/application/MainWindow.cpp:341 src/application/MainWindow.cpp:616
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "帮助"
@@ -2232,19 +2221,17 @@ msgstr "帮助"
 #: src/application/MainWindow.cpp:342
 msgctxt "MainWindow|"
 msgid "Get help with MultiMC or Minecraft."
-msgstr ""
+msgstr "获取MultiMC或Minecraft的帮助。"
 
 #: src/application/MainWindow.cpp:357
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "现在升级"
 
 #: src/application/MainWindow.cpp:368
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Support MultiMC"
-msgstr "关于MultiMC"
+msgstr "支持MultiMC"
 
 #: src/application/MainWindow.cpp:905
 msgctxt "MainWindow|"
@@ -2294,10 +2281,9 @@ msgstr ""
 "%1"
 
 #: src/application/MainWindow.cpp:1249
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Warnings"
-msgstr "警告： "
+msgstr "警告 "
 
 #: src/application/MainWindow.cpp:1313
 msgctxt "MainWindow|"
@@ -2407,7 +2393,6 @@ msgid ""
 msgstr "你的实例文件夹包含”!“，并且已知这会导致Java问题！"
 
 #: src/api/logic/meta/Index.cpp:71
-#, fuzzy
 msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "名称"
@@ -2586,19 +2571,17 @@ msgid "The date and time this mod was last changed (or added)."
 msgstr "此mod最后一次修改(或添加)的日期和时间。"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:36
-#, fuzzy
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't create the bin folder for Minecraft.jar"
 msgstr "为Minecraft.jar二进制文件创建文件夹时出错"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:44
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
 msgstr "无法移除旧的Jar文件：%1"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:61
-#, fuzzy
 msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
 msgstr "无法创建自定义Minecraft jar 文件。"
@@ -2747,7 +2730,6 @@ msgid "Simple (Colored Icons)"
 msgstr "简单 (彩色图标)"
 
 #: src/application/pages/global/MultiMCPage.ui:312
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "Custom"
 msgstr "自定义"
@@ -2895,13 +2877,11 @@ msgstr ""
 "%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
-#, fuzzy
 msgctxt "NewComponentDialog|"
 msgid "Copy Instance"
-msgstr "父子实例"
+msgstr "复制实例"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
-#, fuzzy
 msgctxt "NewComponentDialog|"
 msgid "Name"
 msgstr "名称"
@@ -2909,7 +2889,7 @@ msgstr "名称"
 #: src/application/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 msgctxt "NewInstanceDialog|"
@@ -3110,7 +3090,7 @@ msgid "Do you really want to delete all log files?"
 msgstr "你真的要删除所有的日志文件吗？"
 
 #: src/application/pages/OtherLogsPage.cpp:203
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OtherLogsPage|"
 msgid ""
 "Do you really want to delete these files?\n"
@@ -3135,26 +3115,22 @@ msgstr ""
 "%1"
 
 #: src/application/pages/global/PackagesPage.ui:14
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Form"
 msgstr "表单"
 
 #: src/application/pages/global/PackagesPage.ui:36
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Tab 1"
 msgstr "标签页 1"
 
 #: src/application/pages/global/PackagesPage.ui:42
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Versions"
 msgstr "版本"
 
 #: src/application/pages/global/PackagesPage.ui:48
 #: src/application/pages/global/PackagesPage.ui:161
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Search..."
 msgstr "搜索..."
@@ -3163,55 +3139,46 @@ msgstr "搜索..."
 #: src/application/pages/global/PackagesPage.ui:183
 #: src/application/pages/global/PackagesPage.cpp:177
 #: src/application/pages/global/PackagesPage.cpp:217
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Refresh"
 msgstr "刷新"
 
 #: src/application/pages/global/PackagesPage.ui:81
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Version:"
 msgstr "版本："
 
 #: src/application/pages/global/PackagesPage.ui:95
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Time:"
 msgstr "时间："
 
 #: src/application/pages/global/PackagesPage.ui:109
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Type:"
 msgstr "类型："
 
 #: src/application/pages/global/PackagesPage.ui:123
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Dependencies:"
 msgstr "依赖："
 
 #: src/application/pages/global/PackagesPage.ui:155
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Resources"
 msgstr "资源"
 
 #: src/application/pages/global/PackagesPage.ui:194
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "UID:"
 msgstr "UID："
 
 #: src/application/pages/global/PackagesPage.ui:208
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Name:"
 msgstr "名称："
 
 #: src/application/pages/global/PackagesPage.ui:240
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Refresh Index"
 msgstr "刷新索引"
@@ -3219,11 +3186,11 @@ msgstr "刷新索引"
 #: src/application/pages/global/PackagesPage.h:37
 msgctxt "PackagesPage|"
 msgid "Packages"
-msgstr ""
+msgstr "包"
 
 #: src/application/pages/global/PackagesPage.cpp:165
 #: src/application/pages/global/PackagesPage.cpp:204
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "PackagesPage|"
 msgid "Refresh %1"
 msgstr "刷新%1"
@@ -3249,7 +3216,6 @@ msgid "Paste your API key here!"
 msgstr "将你的API密钥粘贴到这里!"
 
 #: src/application/pages/global/PasteEEPage.ui:82
-#, fuzzy
 msgctxt "PasteEEPage|"
 msgid ""
 "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by "
@@ -3257,11 +3223,9 @@ msgid ""
 "ee</a> account, you can add your API key here and have your uploaded logs "
 "paired with your account.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><a href=\"https://paste.ee\"><span style=\" text-"
-"decoration: underline; color:#2980b9;\">paste.ee</span></a>被MultiMC用来上传"
-"日志。如果你有一个<a href=\"https://paste.ee\"><span style=\" text-"
-"decoration: underline; color:#2980b9;\">paste.ee</span></a>帐号，你可以在这里"
-"添加你的API密钥Key并将你上传的日志与你的帐号配对。</p></body></html>"
+"<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a>被MultiMC用来"
+"上传日志。如果你有一个 <a href=\"https://paste.ee\">paste.ee</a> 帐号，你可以"
+"在这里添加你的API密钥Key并将你上传的日志与你的帐号配对。</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3388,29 +3352,27 @@ msgstr "使用你的系统的默认代理设置。"
 #: src/application/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "此设定仅用于MultiMC。Minecraft不接受代理设置。"
 
 #: src/application/pages/global/ProxyPage.ui:64
-#, fuzzy
 msgctxt "ProxyPage|"
 msgid "&Default"
-msgstr "默认"
+msgstr "默认(&D)"
 
 #: src/application/pages/global/ProxyPage.ui:74
-#, fuzzy
 msgctxt "ProxyPage|"
 msgid "&None"
-msgstr "无"
+msgstr "无(&N)"
 
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -3537,7 +3499,6 @@ msgid "JVM arguments warning"
 msgstr "JVM参数警告"
 
 #: src/application/JavaCommon.cpp:10
-#, fuzzy
 msgctxt "QObject|"
 msgid ""
 "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-"
@@ -3546,9 +3507,9 @@ msgid ""
 "group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
 msgstr ""
-"你尝试手动设置JVM内存选项(使用“-XX:PermSize”，“-Xmx”或“-Xms”) - 这些设置有在"
-"设置(Java选项卡，顶部的内存组)中的包装。\n"
-"你的手动设置将会被这些装箱选项。\n"
+"你尝试手动设置JVM内存选项(使用“-XX:PermSize”，-XX-MaxHeapSize\"， \"-XX:"
+"InitialHeapSize\"，“-Xmx”或“-Xms”) 。\n"
+"这些设置存在在设置(Java选项卡，顶部的“内存”组)中的封装。\n"
 "这条信息将会在你删除这些JVM参数之前显示。"
 
 #: src/application/JavaCommon.cpp:32
@@ -3808,29 +3769,27 @@ msgid " (in use)"
 msgstr " (使用中)"
 
 #: src/api/logic/minecraft/Component.cpp:247
-#, fuzzy
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
-msgstr "路径不存在"
+msgstr "补丁未加载。"
 
 #: src/api/logic/minecraft/ComponentList.cpp:188
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr "无效文件版本，预期%1"
+msgstr "无效组件版本，预期%1"
 
 #: src/api/logic/meta/BaseEntity.cpp:117
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "下载更新文件%1。"
+msgstr "下载元数据文件%1。"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
-#, fuzzy
 msgctxt "QObject|"
 msgid "Unknown format version!"
-msgstr "未知 formatVersion: %1"
+msgstr "未知格式版本！"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -4283,21 +4242,19 @@ msgid "Add a mod into the Minecraft jar file."
 msgstr "将一个mod加入Minecraft jar文件。"
 
 #: src/application/pages/VersionPage.ui:209
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
-msgstr "将一个mod加入Minecraft jar文件。"
+msgstr "加入Minecraft.jar文件"
 
 #: src/application/pages/VersionPage.ui:216
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
-msgstr "强行退出Minecraft"
+msgstr "替换Minecraft.jar"
 
 #: src/application/pages/VersionPage.ui:223
 msgctxt "VersionPage|"
 msgid "Add Empty"
-msgstr ""
+msgstr "添加空项"
 
 #: src/application/pages/VersionPage.ui:230
 msgctxt "VersionPage|"
@@ -4399,27 +4356,25 @@ msgid "Select Forge version"
 msgstr "选择Forge版本"
 
 #: src/application/pages/VersionPage.cpp:258
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Select jar"
-msgstr "选择Jar mod"
+msgstr "选择Jar"
 
 #: src/application/pages/VersionPage.cpp:258
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
-msgstr "Minecraft.jar的mod (*.zip *.jar)"
+msgstr "用于替换的Minecraft.jar (*.jar)"
 
 #: src/application/pages/VersionPage.cpp:318
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
-msgstr "修改版本"
+msgstr "修改%1版本"
 
 #: src/application/pages/VersionPage.cpp:386
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
-msgstr "当前没有适用于此Minecraft的Forge版本可用"
+msgstr "当前没有适用于此Minecraft的Forge版本可用 "
 
 #: src/application/pages/VersionPage.cpp:387
 msgctxt "VersionPage|"
@@ -4434,7 +4389,7 @@ msgstr "选择LiteLoader版本"
 #: src/application/pages/VersionPage.cpp:433
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
-msgstr "当前没有适用于此Minecraft的LiteLoader版本可用"
+msgstr "当前没有适用于此Minecraft的LiteLoader版本可用 "
 
 #: src/application/VersionProxyModel.cpp:88
 msgctxt "VersionProxyModel|"
