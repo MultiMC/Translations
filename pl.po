@@ -476,13 +476,13 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/api/logic/minecraft/ComponentList.cpp:882
+#: src/api/logic/minecraft/ComponentList.cpp:846
 #, fuzzy
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "Nazwa"
 
-#: src/api/logic/minecraft/ComponentList.cpp:884
+#: src/api/logic/minecraft/ComponentList.cpp:848
 #, fuzzy
 msgctxt "ComponentList|"
 msgid "Version"
@@ -793,7 +793,7 @@ msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/api/logic/minecraft/flame/FileResolvingTask.cpp:110
+#: src/api/logic/minecraft/flame/FileResolvingTask.cpp:115
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
@@ -1005,26 +1005,26 @@ msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr ""
 
-#: src/api/logic/InstanceImportTask.cpp:335
+#: src/api/logic/InstanceImportTask.cpp:336
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
 "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/api/logic/InstanceImportTask.cpp:340
+#: src/api/logic/InstanceImportTask.cpp:341
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
-#: src/api/logic/InstanceImportTask.cpp:360
+#: src/api/logic/InstanceImportTask.cpp:361
 #, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Pobieranie nowego LWJGL..."
 
-#: src/api/logic/InstanceImportTask.cpp:367
+#: src/api/logic/InstanceImportTask.cpp:368
 #, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
@@ -2344,30 +2344,20 @@ msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "Wprowadź nową nazwę grupy."
 
-#: src/application/MainWindow.cpp:1600
+#: src/application/MainWindow.cpp:1602
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "UWAŻAJ"
 
-#: src/application/MainWindow.cpp:1600
-#, qt-format
-msgctxt "MainWindow|"
-msgid ""
-"About to delete: %1\n"
-"This is permanent and will completely erase all data, even for tracked "
-"instances!\n"
-"Are you sure?"
-msgstr ""
-
-#: src/application/MainWindow.cpp:1797
+#: src/application/MainWindow.cpp:1799
 msgctxt "MainWindow|"
 msgid ""
 "You have now two options: <br/> - change the instance folder in the settings "
 "<br/> - move this installation of MultiMC5 to a different folder"
 msgstr ""
 
-#: src/application/MainWindow.cpp:1803
+#: src/application/MainWindow.cpp:1805
 msgctxt "MainWindow|"
 msgid ""
 "This is a problem: <br/> - MultiMC will likely be deleted without warning by "
@@ -2375,20 +2365,20 @@ msgid ""
 "location, not a temporary folder"
 msgstr ""
 
-#: src/application/MainWindow.cpp:1810
+#: src/application/MainWindow.cpp:1812
 msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains 'Rar$' - that means you haven't extracted the "
 "MultiMC zip!"
 msgstr ""
 
-#: src/application/MainWindow.cpp:1818
+#: src/application/MainWindow.cpp:1820
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr ""
 
-#: src/application/MainWindow.cpp:1626
+#: src/application/MainWindow.cpp:1628
 msgctxt "MainWindow|"
 msgid "Instance name"
 msgstr "Nazwa instancji"
@@ -2410,17 +2400,27 @@ msgctxt "MainWindow|"
 msgid "Abort"
 msgstr ""
 
-#: src/application/MainWindow.cpp:1626
+#: src/application/MainWindow.cpp:1603
+#, qt-format
+msgctxt "MainWindow|"
+msgid ""
+"About to delete: %1\n"
+"This is permanent and will completely delete the instance.\n"
+"\n"
+"Are you sure?"
+msgstr ""
+
+#: src/application/MainWindow.cpp:1628
 msgctxt "MainWindow|"
 msgid "Enter a new instance name."
 msgstr "Wprowadź nową nazwę instancji."
 
-#: src/application/MainWindow.cpp:1783
+#: src/application/MainWindow.cpp:1785
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "Zmień nazwę instancji"
 
-#: src/application/MainWindow.cpp:1796
+#: src/application/MainWindow.cpp:1798
 msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains '!' and this is known to cause Java problems!"
@@ -2432,67 +2432,67 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "Nazwa"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:640
+#: src/api/logic/minecraft/MinecraftInstance.cpp:634
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:642
+#: src/api/logic/minecraft/MinecraftInstance.cpp:636
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:643
+#: src/api/logic/minecraft/MinecraftInstance.cpp:637
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:644
+#: src/api/logic/minecraft/MinecraftInstance.cpp:638
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:645
+#: src/api/logic/minecraft/MinecraftInstance.cpp:639
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE NAME>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:733
+#: src/api/logic/minecraft/MinecraftInstance.cpp:727
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:737
+#: src/api/logic/minecraft/MinecraftInstance.cpp:731
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:739
+#: src/api/logic/minecraft/MinecraftInstance.cpp:733
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:747
+#: src/api/logic/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:751
+#: src/api/logic/minecraft/MinecraftInstance.cpp:745
 #, fuzzy, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Logi Minecrafta"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:754
+#: src/api/logic/minecraft/MinecraftInstance.cpp:748
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:758
+#: src/api/logic/minecraft/MinecraftInstance.cpp:752
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ""
@@ -2616,13 +2616,13 @@ msgctxt "ModMinecraftJar|"
 msgid "Couldn't create the bin folder for Minecraft.jar"
 msgstr "Nie udało się utworzyć katalogu instancji."
 
-#: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:44
+#: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:42
 #, fuzzy, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
 msgstr "Nie udało się uruchomić profilera: %1"
 
-#: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:61
+#: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:57
 #, fuzzy
 msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
@@ -4304,12 +4304,22 @@ msgctxt "VersionPage|"
 msgid "Reload"
 msgstr ""
 
+#: src/application/pages/VersionPage.ui:240
+msgctxt "VersionPage|"
+msgid "Download the files needed to launch the instance now."
+msgstr ""
+
+#: src/application/pages/VersionPage.ui:243
+msgctxt "VersionPage|"
+msgid "Download All"
+msgstr ""
+
 #: src/application/pages/VersionPage.cpp:205
 #: src/application/pages/VersionPage.cpp:211
 #: src/application/pages/VersionPage.cpp:230
 #: src/application/pages/VersionPage.cpp:274
 #: src/application/pages/VersionPage.cpp:287
-#: src/application/pages/VersionPage.cpp:330
+#: src/application/pages/VersionPage.cpp:343
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr ""
@@ -4359,7 +4369,7 @@ msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr ""
 
-#: src/application/pages/VersionPage.cpp:331
+#: src/application/pages/VersionPage.cpp:344
 msgctxt "VersionPage|"
 msgid ""
 "MultiMC cannot download Minecraft or update instances unless you have at "
@@ -4367,31 +4377,19 @@ msgid ""
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/application/pages/VersionPage.cpp:345
-msgctxt "VersionPage|"
-msgid "Are you sure?"
-msgstr ""
-
-#: src/application/pages/VersionPage.cpp:346
-msgctxt "VersionPage|"
-msgid ""
-"This will remove any library/version customization you did previously. This "
-"includes things like Forge install and similar."
-msgstr ""
-
-#: src/application/pages/VersionPage.cpp:434
+#: src/application/pages/VersionPage.cpp:419
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Wczytywanie listy wersji LiteLoader..."
 
-#: src/application/pages/VersionPage.cpp:507
+#: src/application/pages/VersionPage.cpp:492
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Błąd podczas aktualizowania instancji"
 
-#: src/application/pages/VersionPage.cpp:384
+#: src/application/pages/VersionPage.cpp:369
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr ""
@@ -4413,22 +4411,22 @@ msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "Wersja"
 
-#: src/application/pages/VersionPage.cpp:386
+#: src/application/pages/VersionPage.cpp:371
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr ""
 
-#: src/application/pages/VersionPage.cpp:387
+#: src/application/pages/VersionPage.cpp:372
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr ""
 
-#: src/application/pages/VersionPage.cpp:431
+#: src/application/pages/VersionPage.cpp:416
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr ""
 
-#: src/application/pages/VersionPage.cpp:433
+#: src/application/pages/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr ""

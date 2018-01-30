@@ -510,13 +510,13 @@ msgstr ""
 "Deine Java Architektur passt nicht zur System Architektur. Du solltest "
 "vielleicht ein 64 Bit Betriebssystem installieren.\n"
 
-#: src/api/logic/minecraft/ComponentList.cpp:882
+#: src/api/logic/minecraft/ComponentList.cpp:846
 #, fuzzy
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "Name"
 
-#: src/api/logic/minecraft/ComponentList.cpp:884
+#: src/api/logic/minecraft/ComponentList.cpp:848
 #, fuzzy
 msgctxt "ComponentList|"
 msgid "Version"
@@ -834,7 +834,7 @@ msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/api/logic/minecraft/flame/FileResolvingTask.cpp:110
+#: src/api/logic/minecraft/flame/FileResolvingTask.cpp:115
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
@@ -1046,20 +1046,20 @@ msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr ""
 
-#: src/api/logic/InstanceImportTask.cpp:335
+#: src/api/logic/InstanceImportTask.cpp:336
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
 "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/api/logic/InstanceImportTask.cpp:340
+#: src/api/logic/InstanceImportTask.cpp:341
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
-#: src/api/logic/InstanceImportTask.cpp:360
+#: src/api/logic/InstanceImportTask.cpp:361
 #, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
@@ -1067,7 +1067,7 @@ msgstr ""
 "Modpack wird heruntergeladen:\n"
 "%1"
 
-#: src/api/logic/InstanceImportTask.cpp:367
+#: src/api/logic/InstanceImportTask.cpp:368
 #, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
@@ -2417,26 +2417,12 @@ msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "Neuen Gruppennamen eingeben."
 
-#: src/application/MainWindow.cpp:1600
+#: src/application/MainWindow.cpp:1602
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "VORSICHTIG!"
 
-#: src/application/MainWindow.cpp:1600
-#, qt-format
-msgctxt "MainWindow|"
-msgid ""
-"About to delete: %1\n"
-"This is permanent and will completely erase all data, even for tracked "
-"instances!\n"
-"Are you sure?"
-msgstr ""
-"Sie sind gerade dabei %1 zu löschen!\n"
-"Dies ist permanent und wird alle Daten vollständig löschen, dies gilt auch "
-"für Überwachte/Verfolgte (FTB) Instanzen!\n"
-"Bist du sicher?"
-
-#: src/application/MainWindow.cpp:1797
+#: src/application/MainWindow.cpp:1799
 msgctxt "MainWindow|"
 msgid ""
 "You have now two options: <br/> - change the instance folder in the settings "
@@ -2446,7 +2432,7 @@ msgstr ""
 "ändern <br/> - Die Installation von MultMC in einen anderen Ordner "
 "verschieben"
 
-#: src/application/MainWindow.cpp:1803
+#: src/application/MainWindow.cpp:1805
 msgctxt "MainWindow|"
 msgid ""
 "This is a problem: <br/> - MultiMC will likely be deleted without warning by "
@@ -2457,7 +2443,7 @@ msgstr ""
 "gelöscht werden <br/> - Beenden sie MultiMC und extrahieren sie es in einen "
 "nicht-Temporären Ordner"
 
-#: src/application/MainWindow.cpp:1810
+#: src/application/MainWindow.cpp:1812
 msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains 'Rar$' - that means you haven't extracted the "
@@ -2466,13 +2452,13 @@ msgstr ""
 "Der der Instanz-Ordner enthält 'Rar$' - Daraus folgt das sie die MultiMC-zip "
 "nicht extrahiert haben!"
 
-#: src/application/MainWindow.cpp:1818
+#: src/application/MainWindow.cpp:1820
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "Ihr Instanzordner ist in einem temporäreren Ordner: '%1'!"
 
-#: src/application/MainWindow.cpp:1626
+#: src/application/MainWindow.cpp:1628
 msgctxt "MainWindow|"
 msgid "Instance name"
 msgstr "Instanzname"
@@ -2493,17 +2479,31 @@ msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "Abbrechen"
 
-#: src/application/MainWindow.cpp:1626
+#: src/application/MainWindow.cpp:1603
+#, fuzzy, qt-format
+msgctxt "MainWindow|"
+msgid ""
+"About to delete: %1\n"
+"This is permanent and will completely delete the instance.\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"Sie sind gerade dabei %1 zu löschen!\n"
+"Dies ist permanent und wird alle Daten vollständig löschen, dies gilt auch "
+"für Überwachte/Verfolgte (FTB) Instanzen!\n"
+"Bist du sicher?"
+
+#: src/application/MainWindow.cpp:1628
 msgctxt "MainWindow|"
 msgid "Enter a new instance name."
 msgstr "Neuen Instanznamen eingeben."
 
-#: src/application/MainWindow.cpp:1783
+#: src/application/MainWindow.cpp:1785
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "Instanz umbenennen"
 
-#: src/application/MainWindow.cpp:1796
+#: src/application/MainWindow.cpp:1798
 msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains '!' and this is known to cause Java problems!"
@@ -2517,67 +2517,67 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "Name"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:640
+#: src/api/logic/minecraft/MinecraftInstance.cpp:634
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SESSION ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:642
+#: src/api/logic/minecraft/MinecraftInstance.cpp:636
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ACCESS TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:643
+#: src/api/logic/minecraft/MinecraftInstance.cpp:637
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:644
+#: src/api/logic/minecraft/MinecraftInstance.cpp:638
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:645
+#: src/api/logic/minecraft/MinecraftInstance.cpp:639
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE NAME>"
 msgstr "<PROFILE NAME>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:733
+#: src/api/logic/minecraft/MinecraftInstance.cpp:727
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1 min. %2 sek."
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:737
+#: src/api/logic/minecraft/MinecraftInstance.cpp:731
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1 std. %2 min."
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:739
+#: src/api/logic/minecraft/MinecraftInstance.cpp:733
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1 Tage %2 std. %3 min."
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:747
+#: src/api/logic/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "kaputt"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:751
+#: src/api/logic/minecraft/MinecraftInstance.cpp:745
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:754
+#: src/api/logic/minecraft/MinecraftInstance.cpp:748
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", gespielt for %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:758
+#: src/api/logic/minecraft/MinecraftInstance.cpp:752
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", ist abgestürtzt."
@@ -2699,13 +2699,13 @@ msgctxt "ModMinecraftJar|"
 msgid "Couldn't create the bin folder for Minecraft.jar"
 msgstr "Konnte den Ordner für Minecraft Binaries nicht erstellen."
 
-#: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:44
+#: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:42
 #, fuzzy, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
 msgstr "Konnte die alte Jar-Datei nicht entfernen: %1"
 
-#: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:61
+#: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:57
 #, fuzzy
 msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
@@ -4489,12 +4489,23 @@ msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "Aktualisieren"
 
+#: src/application/pages/VersionPage.ui:240
+msgctxt "VersionPage|"
+msgid "Download the files needed to launch the instance now."
+msgstr ""
+
+#: src/application/pages/VersionPage.ui:243
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Download All"
+msgstr "Forge wird heruntergeladen..."
+
 #: src/application/pages/VersionPage.cpp:205
 #: src/application/pages/VersionPage.cpp:211
 #: src/application/pages/VersionPage.cpp:230
 #: src/application/pages/VersionPage.cpp:274
 #: src/application/pages/VersionPage.cpp:287
-#: src/application/pages/VersionPage.cpp:330
+#: src/application/pages/VersionPage.cpp:343
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Fehler"
@@ -4541,7 +4552,7 @@ msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft.jar mods (*.zip *.jar)"
 
-#: src/application/pages/VersionPage.cpp:331
+#: src/application/pages/VersionPage.cpp:344
 msgctxt "VersionPage|"
 msgid ""
 "MultiMC cannot download Minecraft or update instances unless you have at "
@@ -4552,31 +4563,17 @@ msgstr ""
 "aktualisieren, solange du kein Konto erstellt hast.\n"
 "Bitte füge dein Mojang- oder Minecraft-Konto hinzu."
 
-#: src/application/pages/VersionPage.cpp:345
-msgctxt "VersionPage|"
-msgid "Are you sure?"
-msgstr "Bist du sicher?"
-
-#: src/application/pages/VersionPage.cpp:346
-msgctxt "VersionPage|"
-msgid ""
-"This will remove any library/version customization you did previously. This "
-"includes things like Forge install and similar."
-msgstr ""
-"Dies wird sämtliche Bibliotheken-/Versions-Anpassungen, die du vorgenommen "
-"hast, entfernen. Dies schließt Dinge wie Forge mit ein."
-
-#: src/application/pages/VersionPage.cpp:434
+#: src/application/pages/VersionPage.cpp:419
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Konnte die Liteloader-Versionslisten nicht laden oder herunterladen!"
 
-#: src/application/pages/VersionPage.cpp:507
+#: src/application/pages/VersionPage.cpp:492
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Fehler beim Aktualisieren der Instanz"
 
-#: src/application/pages/VersionPage.cpp:384
+#: src/application/pages/VersionPage.cpp:369
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Wähle Forge-Version"
@@ -4599,22 +4596,22 @@ msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "Version ändern"
 
-#: src/application/pages/VersionPage.cpp:386
+#: src/application/pages/VersionPage.cpp:371
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "Zur Zeit sind keine Forge Versionen für Minecraft verfügbar "
 
-#: src/application/pages/VersionPage.cpp:387
+#: src/application/pages/VersionPage.cpp:372
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Konnte die Forge-Versionsliste nicht laden oder herunterladen!"
 
-#: src/application/pages/VersionPage.cpp:431
+#: src/application/pages/VersionPage.cpp:416
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Wähle LiteLoader-Version"
 
-#: src/application/pages/VersionPage.cpp:433
+#: src/application/pages/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Zur Zeit sind keine LiteLoader Versionen für Minecraft verfügbar "
@@ -4951,6 +4948,18 @@ msgstr "Authentifizierungs-Fehler."
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Are you sure?"
+#~ msgstr "Bist du sicher?"
+
+#~ msgctxt "VersionPage|"
+#~ msgid ""
+#~ "This will remove any library/version customization you did previously. "
+#~ "This includes things like Forge install and similar."
+#~ msgstr ""
+#~ "Dies wird sämtliche Bibliotheken-/Versions-Anpassungen, die du "
+#~ "vorgenommen hast, entfernen. Dies schließt Dinge wie Forge mit ein."
 
 #~ msgctxt "BaseWonkoEntityLocalLoadTask|"
 #~ msgid "File doesn't exist"
@@ -7766,11 +7775,6 @@ msgstr "..."
 #~ msgctxt "QuickModInstallDialog|"
 #~ msgid "Version"
 #~ msgstr "Version"
-
-#, fuzzy
-#~ msgctxt "QuickModInstallDialog|"
-#~ msgid "Download waiting"
-#~ msgstr "Forge wird heruntergeladen..."
 
 #, fuzzy
 #~ msgctxt "QuickModInstallDialog|"
