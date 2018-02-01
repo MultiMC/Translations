@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2017-07-15 14:44+0800\n"
-"Last-Translator: Fanlan1210 <a0931651455@gmail.com>\n"
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2018-02-01 20:36+0800\n"
+"Last-Translator: Fanlan1210 <fanlanzhang@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) <http://translate.multimc.org/projects/"
 "multimc/multimc5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -10,8 +10,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.4\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Qt-Contexts: true\n"
+"POT-Creation-Date: \n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -93,7 +94,7 @@ msgstr "作者群"
 #: src/application/dialogs/AboutDialog.ui:230
 msgctxt "AboutDialog|"
 msgid "No Language file loaded."
-msgstr "繁體中文(台灣)翻譯:Fanlan1210"
+msgstr "中文(台灣)翻譯:Fanlan1210 與 其他在Weblate上做出貢獻的人們"
 
 #: src/application/dialogs/AboutDialog.ui:241
 msgctxt "AboutDialog|"
@@ -233,7 +234,7 @@ msgid ""
 "is overridden in an instance-specific setting).</p></body></html>"
 msgstr ""
 "<html><head/><body><p>將當前選擇的帳戶設置為主要帳戶。主要帳戶會用來登入你的"
-"遊戲（除非它被特定的專案設定覆蓋）。</p></body></html>、"
+"遊戲（除非它被特定的專案設定覆蓋）。</p></body></html>"
 
 #: src/application/pages/global/AccountListPage.ui:86
 msgctxt "AccountListPage|"
@@ -355,7 +356,7 @@ msgstr ""
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
-msgstr "驗證伺服器沒有發送給用戶端憑證"
+msgstr "驗證伺服器沒有發送給用戶端憑證。"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
@@ -386,7 +387,7 @@ msgstr "驗證伺服器指定了沒有在可用設定檔清單裡的設定檔。
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Sending request..."
-msgstr "驗證中:發送請求"
+msgstr "驗證中:發送請求中..."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:198
 msgctxt "AuthenticateTask|"
@@ -463,13 +464,11 @@ msgid ""
 msgstr ""
 
 #: src/api/logic/minecraft/ComponentList.cpp:846
-#, fuzzy
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "名稱"
 
 #: src/api/logic/minecraft/ComponentList.cpp:848
-#, fuzzy
 msgctxt "ComponentList|"
 msgid "Version"
 msgstr "版本"
@@ -528,7 +527,6 @@ msgid "No group"
 msgstr "未分類"
 
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
-#, fuzzy
 msgctxt "CreateServerResourcePacksFolder|"
 msgid "Couldn't create the 'server-resource-packs' folder"
 msgstr "無法建立\"server-resource-packs\"資料夾"
@@ -541,7 +539,6 @@ msgstr "找不到包裝指令\"%1\"。"
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
-#, fuzzy
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
 msgstr "無法啟動Minecraft!"
@@ -731,34 +728,30 @@ msgid "Couldn't extract native jar '%1' to destination '%2'"
 msgstr ""
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr "正在檢查FML程式庫..."
+msgstr "正在檢查FML函式庫..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr "下載FML程式庫..."
+msgstr "下載FML函式庫..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:88
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "複製FML程式庫至實例中..."
+msgstr "複製FML函式庫至實例中..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:99
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "在實例中建立FML程式庫資料夾失敗。"
+msgstr "在實例中建立FML函式庫資料夾時失敗。"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:104
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "複製Forge/FML程式庫失敗:%1。"
+msgstr "複製Forge/FML程式庫時失敗:%1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:117
 #, fuzzy, qt-format
@@ -891,13 +884,13 @@ msgid "Instance folder copy has been aborted."
 msgstr ""
 
 #: src/api/logic/InstanceCreationTask.cpp:23
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "正在載入實例版本清單..."
+msgstr "正在從版本%1建立實例中"
 
 #: src/api/logic/InstanceImportTask.cpp:41
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
 "Downloading modpack:\n"
@@ -907,10 +900,9 @@ msgstr ""
 "%1"
 
 #: src/api/logic/InstanceImportTask.cpp:47
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr "下載模組包"
+msgstr "模組包下載"
 
 #: src/api/logic/InstanceImportTask.cpp:77
 msgctxt "InstanceImportTask|"
@@ -929,10 +921,9 @@ msgid "Archive does not contain a recognized modpack type."
 msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:126
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr "解壓縮模組包失敗"
+msgstr "模組包解壓縮失敗"
 
 #: src/api/logic/InstanceImportTask.cpp:153
 #, qt-format
@@ -946,10 +937,9 @@ msgid "Could not understand pack manifest:\n"
 msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:210
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr "無法建立\"server-resource-packs\"資料夾"
+msgstr "無法重新命名覆蓋的資料夾:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:216
 #, qt-format
@@ -960,10 +950,10 @@ msgid ""
 msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:230
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr "未知的實例載入錯誤:%1"
+msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:243
 msgctxt "InstanceImportTask|"
@@ -978,10 +968,9 @@ msgid "Could not map recommended forge version for Minecraft %1"
 msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:308
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
-msgstr "下載模組包"
+msgstr "模組包下載"
 
 #: src/api/logic/InstanceImportTask.cpp:324
 #, qt-format
@@ -1003,18 +992,14 @@ msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:361
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr ""
-"正在下載模組包:\n"
-"%1"
+msgstr "正在下載模組包..."
 
 #: src/api/logic/InstanceImportTask.cpp:368
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
-msgstr "無法匯出實例"
+msgstr "無法解析模組IDs:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:178
 msgctxt "InstanceImportTask|"
@@ -1076,7 +1061,7 @@ msgstr "允許使用的最大記憶體使用量:"
 #: src/application/pages/InstanceSettingsPage.ui:128
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Minecraft啟動時的記憶體使用量"
+msgstr "Minecraft啟動時的記憶體使用量。"
 
 #: src/application/pages/InstanceSettingsPage.ui:150
 msgctxt "InstanceSettingsPage|"
@@ -1231,10 +1216,9 @@ msgid "Find Java executable"
 msgstr "尋找Java可執行檔"
 
 #: src/application/InstanceWindow.cpp:39
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Console window for "
-msgstr "控制台視窗:"
+msgstr "控制台視窗 "
 
 #: src/application/InstanceWindow.cpp:62
 #, fuzzy
@@ -1327,7 +1311,7 @@ msgstr "允許使用的最大記憶體使用量:"
 #: src/application/pages/global/JavaPage.ui:78
 msgctxt "JavaPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Minecraft啟動時的記憶體使用量"
+msgstr "Minecraft啟動時的記憶體使用量。"
 
 #: src/application/pages/global/JavaPage.ui:107
 msgctxt "JavaPage|"
@@ -1382,7 +1366,7 @@ msgstr "JVM參數:"
 #: src/application/pages/global/JavaPage.ui:222
 msgctxt "JavaPage|"
 msgid "Custom Commands"
-msgstr "自訂指令:"
+msgstr "自訂指令"
 
 #: src/application/pages/global/JavaPage.ui:228
 msgctxt "JavaPage|"
@@ -1410,10 +1394,9 @@ msgid "Find Java executable"
 msgstr "尋找Java可執行檔"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:158
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "No Java version selected"
-msgstr "已選擇無效的版本"
+msgstr "沒有選擇Java版本"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:159
 msgctxt "JavaWizardPage|"
@@ -1469,10 +1452,9 @@ msgid "Maximum memory allocation:"
 msgstr "允許使用的最大記憶體使用量:"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:432
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Minecraft啟動時的記憶體使用量"
+msgstr "Minecraft啟動時的記憶體使用量。"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:433
 #, fuzzy
@@ -1620,12 +1602,11 @@ msgid "Kill Minecraft?"
 msgstr "強制關閉Minecraft?"
 
 #: src/application/LaunchController.cpp:305
-#, fuzzy
 msgctxt "LaunchController|"
 msgid ""
 "This can cause the instance to get corrupted and should only be used if "
 "Minecraft is frozen for some reason"
-msgstr "這可能造成實例發生錯誤，只應該在Minecraft沒有回應時使用。"
+msgstr "這可能造成實例發生錯誤，只應該在Minecraft因某些原因而沒有回應時使用"
 
 #: src/api/logic/launch/LaunchTask.cpp:215
 #, qt-format
@@ -1666,10 +1647,9 @@ msgid "Legacy"
 msgstr "舊版"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:291
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr "正在載入實例版本清單..."
+msgstr ""
 
 #: src/application/pages/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
@@ -1695,7 +1675,7 @@ msgstr ""
 #, fuzzy
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr "新增實例"
+msgstr "升級實例"
 
 #: src/application/pages/LegacyUpgradePage.cpp:26
 #, fuzzy
@@ -1710,10 +1690,10 @@ msgid "Abort"
 msgstr "退出"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:23
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
-msgstr "複製實例 %1"
+msgstr "正在複製實例 %1"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:62
 #, fuzzy
@@ -1722,16 +1702,14 @@ msgid "Instance folder copy failed."
 msgstr "實例資料夾複製失敗。"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:86
-#, fuzzy
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr "變更Minecraft版本"
+msgstr "無法決定Minecraft版本。"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:139
-#, fuzzy
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "實例資料夾複製失敗。"
+msgstr "實例資料夾的複製已被中斷。"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:13
 #, fuzzy
@@ -1740,10 +1718,10 @@ msgid "Getting the library files from Mojang..."
 msgstr "正在從Mojang取得函式庫檔案..."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:21
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr "新增實例%1失敗: "
+msgstr "實例的函式庫 %1"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:31
 msgctxt "LibrariesTask|"
@@ -1762,14 +1740,14 @@ msgid ""
 msgstr ""
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:76
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid ""
 "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
 msgstr ""
-"遊戲更新失敗:無法取得需要的FML程式庫。\n"
+"遊戲更新失敗:無法取得需要的FML函式庫。\n"
 "原因:\n"
 "%1"
 
@@ -1789,10 +1767,9 @@ msgid "Keep updating"
 msgstr "維持更新"
 
 #: src/application/pages/LogPage.ui:70
-#, fuzzy
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr "行"
+msgstr ""
 
 #: src/application/pages/LogPage.ui:93
 msgctxt "LogPage|"
@@ -1924,13 +1901,12 @@ msgstr "新增實例"
 #: src/application/MainWindow.cpp:228
 msgctxt "MainWindow|"
 msgid "Kill"
-msgstr ""
+msgstr "強制關閉"
 
 #: src/application/MainWindow.cpp:229
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "不是個實例"
+msgstr "強制終止正在運作中的實例"
 
 #: src/application/MainWindow.cpp:258
 msgctxt "MainWindow|"
@@ -2053,10 +2029,9 @@ msgid "View Worlds"
 msgstr "檢視世界"
 
 #: src/application/MainWindow.cpp:500
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
-msgstr "檢視這個實例的世界。"
+msgstr "檢視在這個實例的世界。"
 
 #: src/application/MainWindow.cpp:485
 msgctxt "MainWindow|"
@@ -2134,10 +2109,9 @@ msgid "Manage Screenshots"
 msgstr "管理螢幕截圖"
 
 #: src/application/MainWindow.cpp:530
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
-msgstr "開啟實例的組態資料夾"
+msgstr "開啟實例的組態資料夾。"
 
 #: src/application/MainWindow.cpp:378
 msgctxt "MainWindow|"
@@ -2162,10 +2136,9 @@ msgid "Launch Offline"
 msgstr "離線啟動"
 
 #: src/application/MainWindow.cpp:507
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr "<html><head/><body><p>檢視和上傳實例的螢幕截圖</p></body></html>"
+msgstr "檢視和上傳實例的擷取畫面。"
 
 #: src/application/MainWindow.cpp:538
 msgctxt "MainWindow|"
@@ -2211,10 +2184,9 @@ msgid "Folders"
 msgstr "資料夾"
 
 #: src/application/MainWindow.cpp:285
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
-msgstr "編輯選擇實例的筆記。"
+msgstr "開啟其中一個實例間共用的資料夾。"
 
 #: src/application/MainWindow.cpp:341 src/application/MainWindow.cpp:616
 #, fuzzy
@@ -2228,16 +2200,14 @@ msgid "Get help with MultiMC or Minecraft."
 msgstr ""
 
 #: src/application/MainWindow.cpp:357
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Update"
-msgstr "現在更新"
+msgstr "更新"
 
 #: src/application/MainWindow.cpp:368
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Support MultiMC"
-msgstr "關於MultiMC"
+msgstr "幫助MultiMC"
 
 #: src/application/MainWindow.cpp:905
 msgctxt "MainWindow|"
@@ -2285,10 +2255,9 @@ msgid ""
 msgstr ""
 
 #: src/application/MainWindow.cpp:1249
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Warnings"
-msgstr "警告: "
+msgstr "警告"
 
 #: src/application/MainWindow.cpp:1313
 msgctxt "MainWindow|"
@@ -2301,7 +2270,7 @@ msgstr ""
 #: src/application/MainWindow.cpp:1450
 msgctxt "MainWindow|"
 msgid "Group name"
-msgstr "群組名稱:"
+msgstr "群組名稱"
 
 #: src/application/MainWindow.cpp:1450
 msgctxt "MainWindow|"
@@ -2669,10 +2638,9 @@ msgid "Theme"
 msgstr "主題"
 
 #: src/application/pages/global/MultiMCPage.ui:252
-#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "&Icons"
-msgstr "圖示(&I):"
+msgstr "圖示(&I)"
 
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
@@ -2983,7 +2951,7 @@ msgstr "未知實例類型"
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
 msgctxt "OneSixUpdate|"
 msgid "Aborted by user."
-msgstr ""
+msgstr "被使用者退出。"
 
 #: src/application/pages/OtherLogsPage.ui:71
 msgctxt "OtherLogsPage|"
@@ -3079,22 +3047,22 @@ msgstr "清除"
 #: src/application/pages/OtherLogsPage.cpp:198
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr ""
+msgstr "你真的確定要刪除全部的紀錄檔?"
 
 #: src/application/pages/OtherLogsPage.cpp:203
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "OtherLogsPage|"
 msgid ""
 "Do you really want to delete these files?\n"
 "%1"
 msgstr ""
-"無法刪除一些檔案:\n"
+"你真的確定要刪除這些檔案?\n"
 "%1"
 
 #: src/application/pages/OtherLogsPage.cpp:230
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
-msgstr "一些檔案無法刪除!"
+msgstr "無法刪除一些檔案!"
 
 #: src/application/pages/OtherLogsPage.cpp:235
 #, qt-format
@@ -3173,10 +3141,9 @@ msgid "UID:"
 msgstr ""
 
 #: src/application/pages/global/PackagesPage.ui:208
-#, fuzzy
 msgctxt "PackagesPage|"
 msgid "Name:"
-msgstr "名稱"
+msgstr "名稱:"
 
 #: src/application/pages/global/PackagesPage.ui:240
 #, fuzzy
@@ -3659,10 +3626,9 @@ msgid "Assets for %1"
 msgstr "%1的Assets檔案"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:285
-#, fuzzy
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "選擇的檔案似乎是不能執行的"
+msgstr "選擇的檔案不存在或是無法執行。"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:290
 #, fuzzy
@@ -3715,16 +3681,14 @@ msgid "Bright"
 msgstr ""
 
 #: src/application/UpdateController.cpp:362
-#, fuzzy
 msgctxt "QObject|"
 msgid "Update failed!"
 msgstr "更新失敗!"
 
 #: src/application/UpdateController.cpp:363
-#, fuzzy
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr "上傳失敗"
+msgstr ""
 
 #: src/application/UpdateController.cpp:368
 #, qt-format
@@ -3765,10 +3729,9 @@ msgid " (in use)"
 msgstr ""
 
 #: src/api/logic/minecraft/Component.cpp:247
-#, fuzzy
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
-msgstr "路徑不存在"
+msgstr ""
 
 #: src/api/logic/minecraft/ComponentList.cpp:188
 #, qt-format
@@ -3777,17 +3740,16 @@ msgid "Invalid component file version, expected %1"
 msgstr ""
 
 #: src/api/logic/meta/BaseEntity.cpp:117
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "下載更新檔案%1中。"
+msgstr "下載更新檔案%1"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
-#, fuzzy
 msgctxt "QObject|"
 msgid "Unknown format version!"
-msgstr "未知錯誤"
+msgstr "未知格式的版本!"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3814,7 +3776,7 @@ msgstr ""
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
 msgid "Refreshing login token..."
-msgstr "正在重新整理登入憑證"
+msgstr "正在重新整理登入憑證..."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:140
 msgctxt "RefreshTask|"
@@ -3882,7 +3844,7 @@ msgstr "你確定?"
 #: src/application/pages/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
-msgstr "這將會刪除全部的螢幕截圖"
+msgstr "這將會刪除全部的螢幕截圖。"
 
 #: src/application/widgets/ServerStatus.cpp:66
 msgctxt "ServerStatus|"
@@ -4244,10 +4206,9 @@ msgid "Add a mod into the Minecraft jar file."
 msgstr "新增模組到Minecraft jar檔案。"
 
 #: src/application/pages/VersionPage.ui:209
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
-msgstr "新增模組到Minecraft jar檔案。"
+msgstr "新增到Minecraft.jar"
 
 #: src/application/pages/VersionPage.ui:216
 #, fuzzy
@@ -4376,7 +4337,7 @@ msgstr "變更版本"
 #: src/application/pages/VersionPage.cpp:371
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
-msgstr "沒有可用的Forge版本可供Minecraft使用"
+msgstr "沒有可用的Forge版本可供Minecraft使用 "
 
 #: src/application/pages/VersionPage.cpp:372
 msgctxt "VersionPage|"
@@ -4391,7 +4352,7 @@ msgstr "選擇LiteLoader版本"
 #: src/application/pages/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
-msgstr "沒有可用的LiteLoader版本可供Minecraft使用"
+msgstr "沒有可用的LiteLoader版本可供Minecraft使用 "
 
 #: src/application/VersionProxyModel.cpp:88
 msgctxt "VersionProxyModel|"
