@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultiMC5\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-01-19 14:02+0800\n"
+"PO-Revision-Date: 2018-07-26 23:13+0800\n"
 "Last-Translator: CharlieJiang <cqjjjzr@126.com>\n"
 "Language-Team: Chinese <http://translate.multimc.org/projects/multimc/"
 "multimc5/zh/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.8\n"
 "X-Qt-Contexts: true\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
@@ -80,10 +80,9 @@ msgstr ""
 "软件里更容易的管理不同版本的Minecraft。</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
-#, fuzzy
 msgctxt "AboutDialog|"
 msgid "© 2012-2018 MultiMC Contributors"
-msgstr "© 2013-2017 MultiMC 贡献者"
+msgstr "© 2012-2018 MultiMC 贡献者"
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -392,14 +391,14 @@ msgctxt "AuthenticateTask|"
 msgid ""
 "Authentication server didn't specify a currently selected profile. The "
 "account exists, but likely isn't premium."
-msgstr "验证服务器没有指定一个当前选择的配置。帐号存在，但不像是可以使用的。"
+msgstr "验证服务器没有指定一个当前选择的帐号。帐号存在但似乎不可用。"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:159
 msgctxt "AuthenticateTask|"
 msgid ""
 "Authentication server specified a selected profile that wasn't in the "
 "available profiles list."
-msgstr "验证服务器指定了一个没有在可用配置文件列表中的配置文件。"
+msgstr "验证服务器指定了一个不在可用帐户列表中的帐户。"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
@@ -558,37 +557,31 @@ msgid "Couldn't create the 'server-resource-packs' folder"
 msgstr "无法创建“server-resource-packs”文件夹"
 
 #: src/application/widgets/CustomCommands.ui:14
-#, fuzzy
 msgctxt "CustomCommands|"
 msgid "Form"
 msgstr "表单"
 
 #: src/application/widgets/CustomCommands.ui:23
-#, fuzzy
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
 msgstr "自定义命令(&T)"
 
 #: src/application/widgets/CustomCommands.ui:35
-#, fuzzy
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
 msgstr "后执行命令："
 
 #: src/application/widgets/CustomCommands.ui:45
-#, fuzzy
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
 msgstr "预执行命令："
 
 #: src/application/widgets/CustomCommands.ui:55
-#, fuzzy
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
 msgstr "包装命令："
 
 #: src/application/widgets/CustomCommands.ui:68
-#, fuzzy
 msgctxt "CustomCommands|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -602,12 +595,14 @@ msgid ""
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
 "<html><head/><body><p>预执行命令会在实例开始之前运行，后执行命令会在实例结束"
-"之后运行。</p><p>它们会使用以下环境参数运行来在MultiMC工作目录：INST_ID, "
-"INST_DIR，和 INST_NAME</p><p>包装命令会允许使用一个额外的包装命令来运行"
-"Java(比如Linux的“optirun”)</p></body></html>"
+"之后运行。</p><p>它们均会在在MultiMC工作目录执行，并带有以下额外环境变量：</"
+"p><ul><li>$INST_NAME - 实例名称</li><li>$INST_ID - 实例ID(其文件夹名)</"
+"li><li>$INST_DIR - 实例的绝对路径</li><li>$INST_MC_DIR - Minecraft的绝对路径"
+"</li><li>$INST_JAVA - 运行所使用的Java可执行文件</li><li>$INST_JAVA_ARGS - 运"
+"行所使用的命令行参数</li></ul><p>包装命令允许使用一个额外的包装程序来运行游戏"
+"（例如Linux上的 'optirun'）</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
-#, fuzzy
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
 msgstr "自定义命令"
@@ -851,26 +846,24 @@ msgstr ""
 "请重试一次。"
 
 #: src/application/pages/modplatform/FTBPage.ui:46
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Version selected:"
-msgstr "没有选择Java版本"
+msgstr "选择的版本："
 
 #: src/application/pages/modplatform/FTBPage.ui:75
 msgctxt "FTBPage|"
 msgid "Public Packs"
-msgstr ""
+msgstr "公共整合包"
 
 #: src/application/pages/modplatform/FTBPage.ui:92
 msgctxt "FTBPage|"
 msgid "3rd Party Packs"
-msgstr ""
+msgstr "第三方整合包"
 
 #: src/application/pages/modplatform/FTBPage.h:44
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "FTB Legacy"
-msgstr "Legacy"
+msgstr "FTB Legacy"
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:13
 msgctxt "Flame::FileResolvingTask|"
@@ -895,91 +888,82 @@ msgid "Failed to create folder for minecraft binaries."
 msgstr "为Minecraft二进制文件创建文件夹时出错。"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:16
-#, fuzzy
 msgctxt "FtbFilterModel|"
 msgid "Sort by name"
-msgstr "世界名称"
+msgstr "以名称排序"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:17
-#, fuzzy
 msgctxt "FtbFilterModel|"
 msgid "Sort by game version"
-msgstr "选择Forge版本"
+msgstr "以游戏版本排序"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:76
 msgctxt "FtbListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "公共整合包"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:78
 msgctxt "FtbListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "第三方整合包"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:80
-#, fuzzy
 msgctxt "FtbListModel|"
 msgid "Private Modpack"
-msgstr "解压mod包中"
+msgstr "私有整合包"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:82
-#, fuzzy
 msgctxt "FtbListModel|"
 msgid "Unknown Type"
-msgstr "未知"
+msgstr "未知类型"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:38
 msgctxt "FtbPackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "公共整合包"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:42
 msgctxt "FtbPackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "第三方整合包"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:25
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
-"下载Mod包：\n"
-"%1"
+msgstr "下载%1的zip"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:60
 #, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "下载%1的zip（%2%）"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:66
-#, fuzzy
 msgctxt "FtbPackInstallTask|"
 msgid "Extracting modpack"
 msgstr "解压mod包中"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:72
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr "下载更新文件失败：%1"
+msgstr "下载整合包文件%1失败！"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:95
-#, fuzzy
 msgctxt "FtbPackInstallTask|"
 msgid "Installing modpack"
-msgstr "安装Mod"
+msgstr "安装整合包中"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:102
-#, fuzzy
 msgctxt "FtbPackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr "无法下载更新minecraft.jar中：%1。"
+msgstr "移动未解压的Minecraft失败！"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:170
 msgctxt "FtbPackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "没有找到安装方法！"
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
@@ -1039,10 +1023,9 @@ msgid "Remove Icon"
 msgstr "删除图标"
 
 #: src/application/dialogs/IconPickerDialog.cpp:74
-#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
-msgstr "查看文件夹(&V)"
+msgstr "打开文件夹"
 
 #. The title of the select icons open file dialog
 #: src/application/dialogs/IconPickerDialog.cpp:104
@@ -1057,7 +1040,6 @@ msgid "Icons"
 msgstr "图标"
 
 #: src/application/pages/modplatform/ImportPage.ui:17
-#, fuzzy
 msgctxt "ImportPage|"
 msgid "Browse"
 msgstr "浏览"
@@ -1065,39 +1047,34 @@ msgstr "浏览"
 #: src/application/pages/modplatform/ImportPage.ui:31
 msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
-msgstr ""
+msgstr "本地文件或直达下载的链接（即直接指向文件而非下载页面）"
 
 #: src/application/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
 msgid "Import from zip"
-msgstr ""
+msgstr "从zip导入"
 
 #: src/application/pages/modplatform/ImportPage.cpp:99
-#, fuzzy
 msgctxt "ImportPage|"
 msgid "Choose modpack"
-msgstr "选择Mod整合包"
+msgstr "选择整合包"
 
 #: src/application/pages/modplatform/ImportPage.cpp:99
-#, fuzzy
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
 msgstr "Zip (*.zip)"
 
 #: src/application/widgets/InstanceCardWidget.ui:14
-#, fuzzy
 msgctxt "InstanceCardWidget|"
 msgid "Form"
 msgstr "表单"
 
 #: src/application/widgets/InstanceCardWidget.ui:30
-#, fuzzy
 msgctxt "InstanceCardWidget|"
 msgid "&Name:"
-msgstr "名称："
+msgstr "名称（&N）："
 
 #: src/application/widgets/InstanceCardWidget.ui:43
-#, fuzzy
 msgctxt "InstanceCardWidget|"
 msgid "&Group:"
 msgstr "组(&G)："
@@ -1289,10 +1266,9 @@ msgid "Minimum memory allocation:"
 msgstr "最小内存分配："
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:45
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr "Java安装(&T)"
+msgstr "Java安装(&L)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:179
 msgctxt "InstanceSettingsPage|"
@@ -1320,10 +1296,9 @@ msgid "Note: Permgen is set automatically by Java 8 and later"
 msgstr "注意：PermGen在Java8以后会被自动设置"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:199
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
-msgstr "Java参数"
+msgstr "Java参数（&T）"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:218
 msgctxt "InstanceSettingsPage|"
@@ -1529,13 +1504,11 @@ msgid "Find Java executable"
 msgstr "寻找Java可执行文件"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:147
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "No Java version selected"
 msgstr "没有选择Java版本"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:148
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid ""
 "You didn't select a Java version or selected something that doesn't work.\n"
@@ -1544,56 +1517,48 @@ msgid ""
 "\n"
 "You can change the Java version in the settings later.\n"
 msgstr ""
-"你们有选择Java版本或选择了无效的版本。\n"
-"MultiMC无法启动Minecraft。\n"
+"你没有选择Java版本或选择了无效的版本。\n"
+"MultiMC将无法启动Minecraft。\n"
 "你想无论如何都运行吗？\n"
 "\n"
 "你可以在设置里面修改Java版本。\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "Find Java executable"
 msgstr "寻找Java可执行文件"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:421
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "Memory"
 msgstr "内存"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:422
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "Minecraft可以使用的最大内存大小。"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:423
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "Minimum memory allocation:"
 msgstr "最小内存分配："
 
 #: src/application/widgets/JavaSettingsWidget.cpp:424
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "Maximum memory allocation:"
 msgstr "最大内存分配："
 
 #: src/application/widgets/JavaSettingsWidget.cpp:425
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "Minecraft启动时分配的内存总量。"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:426
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "可用于储存加载的Java类的内存总量。"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:427
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "Browse"
 msgstr "浏览"
@@ -1717,7 +1682,7 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
-"游戏运行会延迟，直到你按下按钮。这是设置JProfiler的正确时间，确定JProfiler服"
+"游戏运行会延迟，直到你按下按钮。这是设置JProfiler的正确时机，确定JProfiler服"
 "务器正在运行。\n"
 "\n"
 "%1"
@@ -1843,7 +1808,7 @@ msgid "Abort"
 msgstr "终止"
 
 #: src/application/pages/instance/LegacyUpgradePage.cpp:38
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (已迁移)"
@@ -2370,7 +2335,7 @@ msgstr "支持MultiMC"
 #: src/application/MainWindow.cpp:918
 msgctxt "MainWindow|"
 msgid "Profilers"
-msgstr "Profilers"
+msgstr "帐号"
 
 #: src/application/MainWindow.cpp:926
 msgctxt "MainWindow|"
@@ -2417,7 +2382,7 @@ msgstr ""
 #: src/application/MainWindow.cpp:1263
 msgctxt "MainWindow|"
 msgid "Warnings"
-msgstr "警告 "
+msgstr "警告"
 
 #: src/application/MainWindow.cpp:1321
 msgctxt "MainWindow|"
@@ -2484,7 +2449,7 @@ msgstr "实例名"
 #: src/application/MainWindow.cpp:713 src/application/MainWindow.cpp:1071
 msgctxt "MainWindow|"
 msgid "Profiles"
-msgstr "配置文件"
+msgstr "帐号"
 
 #: src/application/MainWindow.cpp:875
 #, qt-format
@@ -2498,7 +2463,7 @@ msgid "Abort"
 msgstr "中断"
 
 #: src/application/MainWindow.cpp:1606
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MainWindow|"
 msgid ""
 "About to delete: %1\n"
@@ -2507,7 +2472,7 @@ msgid ""
 "Are you sure?"
 msgstr ""
 "关于删除：%1\n"
-"此操作无法撤销，会完全清除所有数据，甚至包括跟踪的实例！\n"
+"此操作无法撤销，会完全删除实例。\n"
 "你确定吗？"
 
 #: src/application/MainWindow.cpp:1631
@@ -3027,7 +2992,6 @@ msgid "New Instance"
 msgstr "新实例"
 
 #: src/application/dialogs/NewInstanceDialog.ui:52
-#, fuzzy
 msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "名称："
@@ -3110,7 +3074,6 @@ msgid "Copy the whole log into the clipboard"
 msgstr "复制整个日志到剪贴板"
 
 #: src/application/pages/instance/OtherLogsPage.ui:42
-#, fuzzy
 msgctxt "OtherLogsPage|"
 msgid "Find"
 msgstr "寻找"
@@ -3136,7 +3099,6 @@ msgid "Clean"
 msgstr "清空"
 
 #: src/application/pages/instance/OtherLogsPage.ui:126
-#, fuzzy
 msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "搜索："
@@ -3440,7 +3402,7 @@ msgstr "名称"
 #: src/application/dialogs/ProfileSelectDialog.cpp:56
 msgctxt "ProfileSelectDialog|"
 msgid " (in use)"
-msgstr "（使用中)"
+msgstr " （使用中)"
 
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3627,8 +3589,8 @@ msgid ""
 msgstr ""
 "你尝试手动设置JVM内存选项(使用“-XX:PermSize”，-XX-MaxHeapSize\"， \"-XX:"
 "InitialHeapSize\"，“-Xmx”或“-Xms”) 。\n"
-"这些设置存在在设置(Java选项卡，顶部的“内存”组)中的封装。\n"
-"这条信息将会在你删除这些JVM参数之前显示。"
+"这些设置在设置(Java选项卡，顶部的“内存”组)中有封装。\n"
+"这条信息会显示直到你删除这些JVM参数之前。"
 
 #: src/application/JavaCommon.cpp:32
 #, qt-format
@@ -3901,7 +3863,7 @@ msgstr "无效组件版本，预期%1"
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "下载元数据文件%1。"
+msgstr "下载元数据文件%1"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
@@ -3929,7 +3891,7 @@ msgstr "验证服务器没有传输访问标志。"
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
-msgstr "认证服务器没有指定预期的相同配置。"
+msgstr "认证服务器没有指定预期的帐户。"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
@@ -4088,12 +4050,12 @@ msgstr "登录失败！"
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
-msgstr ""
+msgstr "使用远程URL设置皮肤目前并没有被实现。"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
 msgid "You cannot use an invalid URL for uploading skins."
-msgstr ""
+msgstr "你不能使用无效URL来上传皮肤。"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:75
 msgctxt "SkinUploadDialog|"
@@ -4128,7 +4090,7 @@ msgstr ""
 #: src/application/pages/modplatform/TechnicPage.h:40
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr ""
+msgstr "Technic"
 
 #: src/application/pages/instance/TexturePackPage.h:10
 msgctxt "TexturePackPage|"
@@ -4138,7 +4100,7 @@ msgstr "材质包"
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -4233,43 +4195,36 @@ msgid "Validating access token: Processing response..."
 msgstr "验证访问标志：处理回复..."
 
 #: src/application/pages/modplatform/VanillaPage.ui:41
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Filter"
-msgstr "过滤器："
+msgstr "过滤器"
 
 #: src/application/pages/modplatform/VanillaPage.ui:51
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Releases"
 msgstr "常规发布"
 
 #: src/application/pages/modplatform/VanillaPage.ui:64
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Snapshots"
 msgstr "快照"
 
 #: src/application/pages/modplatform/VanillaPage.ui:74
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Old Snapshots"
-msgstr "快照"
+msgstr "旧快照"
 
 #: src/application/pages/modplatform/VanillaPage.ui:84
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Betas"
 msgstr "Beta"
 
 #: src/application/pages/modplatform/VanillaPage.ui:94
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Alphas"
 msgstr "Alpha"
 
 #: src/application/pages/modplatform/VanillaPage.ui:117
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Refresh"
 msgstr "刷新"
@@ -4277,7 +4232,7 @@ msgstr "刷新"
 #: src/application/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "纯净"
 
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
@@ -4438,12 +4393,12 @@ msgstr "重新加载"
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
-msgstr ""
+msgstr "立刻下载运行实例需要的文件。"
 
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Download All"
-msgstr ""
+msgstr "下载完整文件"
 
 #: src/application/pages/instance/VersionPage.cpp:205
 #: src/application/pages/instance/VersionPage.cpp:211
@@ -4589,7 +4544,6 @@ msgid "Path"
 msgstr "路径"
 
 #: src/application/VersionProxyModel.cpp:88
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Released"
 msgstr "常规发布"
@@ -4625,10 +4579,9 @@ msgid "Filesystem path to this version"
 msgstr "此版本的文件路径"
 
 #: src/application/VersionProxyModel.cpp:108
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Release date of this version"
-msgstr "此版本的文件路径"
+msgstr "本版本的发行日期"
 
 #: src/application/VersionProxyModel.cpp:157
 msgctxt "VersionProxyModel|"
