@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2018-09-04 14:25+0900\n"
+"PO-Revision-Date: 2018-09-05 12:03+0900\n"
 "Last-Translator: Apparatus_Zero <asdf1234d@gmail.com>\n"
 "Language-Team: Korean <http://weblate.robotbrain.info/projects/multimc/"
 "multimc/ko/>\n"
@@ -107,7 +107,6 @@ msgid "Forking/Redistribution"
 msgstr "포크(fork)/재배포"
 
 #: src/application/dialogs/AboutDialog.ui:282
-#, fuzzy
 msgctxt "AboutDialog|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -198,11 +197,12 @@ msgstr ""
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Apache license는 합리적인 "
 "이름의 사용을 포함합니다. - About 다이얼로그에서 프로젝트의 기원에 대해 언급"
-"을 해도 라이선스가 허용됩니다. 그러나,  우리의 허락을 암시하지 <span style="
-"\" font-weight:600;\">아니하고</span> (역자 주. 오역 일 수 있음.) 프로젝트가 "
-"포크임을 명백히 해야합니다.</p><script type=\"text/javascript\" src=\"//ajax."
-"cloudflare.com/cdn-cgi/nexp/dok3v=73806ac11c/apps1.min.js\"></script><script "
-"type=\"text/javascript\">__CF.AJS.init1();</script></body></html>"
+"을 해도 라이선스가 허용됩니다. 그러나, 우리의 허락을 암시하지 <span style=\" "
+"font-weight:600;\">아니하고</span> (역자 주. 오역 일 수 있음. 정확한 정보는 "
+"라이선스 원문 참조) 프로젝트가 포크임을 명백히 해야합니다.</p><script type="
+"\"text/javascript\" src=\"//ajax.cloudflare.com/cdn-cgi/nexp/"
+"dok3v=73806ac11c/apps1.min.js\"></script><script type=\"text/javascript"
+"\">__CF.AJS.init1();</script></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:309
 msgctxt "AboutDialog|"
@@ -246,12 +246,12 @@ msgstr ""
 #: src/application/pages/global/AccountListPage.ui:56
 msgctxt "AccountListPage|"
 msgid "&Add"
-msgstr "&A추가"
+msgstr "추가(&A)"
 
 #: src/application/pages/global/AccountListPage.ui:63
 msgctxt "AccountListPage|"
 msgid "&Remove"
-msgstr "&R제거"
+msgstr "제거(&R)"
 
 #: src/application/pages/global/AccountListPage.ui:83
 msgctxt "AccountListPage|"
@@ -260,13 +260,14 @@ msgid ""
 "account. The active account is the account that is used to log in (unless it "
 "is overridden in an instance-specific setting).</p></body></html>"
 msgstr ""
-"<html><head/><body><p>현재 선택한 계정을 활성화하세요. 활성화된 계정으로 로그"
-"인됩니다. (특정 인스턴스 설정에서 바뀌지 않는다면).</p></body></html>"
+"<html><head/><body><p>현재 선택한 계정을 활성화하세요. (특정 인스턴스 설정에"
+"서 인스턴스에만 해당되는 설정을 따로 하지 않는 한) 활성화된 계정으로 로그인됩"
+"니다.</p></body></html>"
 
 #: src/application/pages/global/AccountListPage.ui:86
 msgctxt "AccountListPage|"
 msgid "&Set Default"
-msgstr "&S기본값 설정"
+msgstr "기본값 설정(&Set Default)"
 
 #: src/application/pages/global/AccountListPage.ui:93
 msgctxt "AccountListPage|"
@@ -275,25 +276,24 @@ msgid ""
 "account every time you launch an instance that doesn't have its own default "
 "set."
 msgstr ""
-"기본 계정을 설정하지 마세요. 그러면 기본 계정이 설정되지 않은 인스턴스를 실행"
-"할 때마다 계정을 선택해야 됩니다."
+"기본 계정을 설정하지 않습니다. 그러면 기본 계정이 설정되지 않은 인스턴스를 실"
+"행할 때마다 계정을 선택해야 됩니다."
 
 #: src/application/pages/global/AccountListPage.ui:96
 msgctxt "AccountListPage|"
 msgid "&No Default"
-msgstr "&N기본값 없음"
+msgstr "기본값 없음(&No Default)"
 
 #: src/application/pages/global/AccountListPage.ui:103
 msgctxt "AccountListPage|"
 msgid ""
 "Opens a dialog to select and upload a skin image to the selected account."
-msgstr ""
+msgstr "선택된 계정으로 올릴 스킨 이미지를 선택하는 dialog를 엽니다."
 
 #: src/application/pages/global/AccountListPage.ui:106
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid "&Upload Skin"
-msgstr "&U업로드"
+msgstr "스킨 업로드(&U)"
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -312,7 +312,7 @@ msgstr ""
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
 msgid "Analytics"
-msgstr "애널리틱ㅅ"
+msgstr "애널리틱스"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
@@ -335,6 +335,18 @@ msgid ""
 "settings.</li></ul><p>If we change the tracked information, you will see "
 "this page again.</p></body></html>"
 msgstr ""
+"<html><body><p>MultiMC는 애플리케이션의 매 시작마다 익명 사용 통계 정보를 전"
+"송합니다. 이는 개발진이 어느 플랫폼, 그리고 어느 문제에 더 집중해야 할 지 결"
+"정하는 데 도움이 됩니다.</p><p>전송된 데이터는 구글 애널리틱스에 의해 처리되"
+"며, 이에 관한 정보는 <a href=\"https://support.google.com/analytics/"
+"answer/6004245?hl=en\"> 의 글에 나와 있습니다.</a>.</p><p>수집되는 데이터는 "
+"다음과 같습니다:</p><ul><li>설치된 MultiMC에 대응되는 랜덤한 고유 ID.<br />이"
+"는 프로그램 설정(multimc.cfg)에 저장됩니다.</li><li>익명으로 처리된 IP주소(일"
+"부분만).</li><li>MultiMC 버전.</li><li>운영체제 종류, 버전 그리고 아키텍처.</"
+"li><li>CPU 아키텍처(리눅스에서는 커널 아키텍처).</li><li>시스템 메모리 크기."
+"</li><li>자바 버전, 아키텍처 그리고 메모리 설정.</li></ul><p>수집되는 정보의 "
+"종류에 관한 변경 사항이 있을 경우, 이 메세지를 다시 보게 될 것입니다.</p></"
+"body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -430,7 +442,7 @@ msgstr "인증중: 응답 처리중..."
 #: src/api/logic/tools/BaseProfiler.cpp:29
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
-msgstr "프로파일ㄹ 중단됨"
+msgstr "프로파일러 중단됨"
 
 #: src/api/logic/java/launch/CheckJava.cpp:36
 #, qt-format
@@ -439,8 +451,8 @@ msgid ""
 "The java binary \"%1\" couldn't be found. Please fix the java path override "
 "in the instance's settings or disable it."
 msgstr ""
-"Java 바이너리 \"%1\"를 찾을 수 없습니다. 만약 마인크래프트 실행에 실패한다면 "
-"java를 설정해야 할 수 있습니다."
+"Java 바이너리 \"%1\"를 찾을 수 없습니다. 인스턴스 설정에서 자바 경로를 다시 "
+"설정하거나 이를 비활성화하십시오."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
@@ -448,8 +460,8 @@ msgctxt "CheckJava|"
 msgid ""
 "The java binary \"%1\" couldn't be found. Please set up java in the settings."
 msgstr ""
-"Java 바이너리 \"%1\"를 찾을 수 없습니다. 만약 마인크래프트 실행에 실패한다면 "
-"java를 설정해야 할 수 있습니다."
+"Java 바이너리 \"%1\"를 찾을 수 없습니다. 설정에서 java를 다시 설정해야 할 수 "
+"있습니다."
 
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
@@ -484,7 +496,9 @@ msgctxt "CheckJava|"
 msgid ""
 "Java is version %1, using %2-bit architecture.\n"
 "\n"
-msgstr "\"Java 버전은 %1이며, %2-bit 아키텍처를 사용 중입니다.\\n\n"
+msgstr ""
+"\"Java 버전은 %1이며, %2-bit 아키텍처를 사용 중입니다.\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
@@ -562,7 +576,7 @@ msgstr "이름"
 #: src/application/dialogs/CopyInstanceDialog.ui:90
 msgctxt "CopyInstanceDialog|"
 msgid "&Group"
-msgstr "&G그ㄹ"
+msgstr "그룹(&G)"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
@@ -587,7 +601,7 @@ msgstr "양식"
 #: src/application/widgets/CustomCommands.ui:23
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
-msgstr "사용자 정의 명령어들 (Cus&tom commands)"
+msgstr "사용자 정의 명령어들 (&T)"
 
 #: src/application/widgets/CustomCommands.ui:35
 #, fuzzy
@@ -639,7 +653,7 @@ msgstr "사용자 정의 명령어들"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Wrapper 명령어 \"%1\"을 찾을 수 없습니다."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -782,7 +796,7 @@ msgstr ""
 #: src/application/pages/global/ExternalToolsPage.cpp:153
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr "JVisualVM 설치가 잘 되어있는 ㄱ 같습니다"
+msgstr "JVisualVM 설치가 잘 되어있는 것 같습니다"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:164
 msgctxt "ExternalToolsPage|"
@@ -1108,18 +1122,18 @@ msgstr "양식"
 #: src/application/widgets/InstanceCardWidget.ui:30
 msgctxt "InstanceCardWidget|"
 msgid "&Name:"
-msgstr "이름(&Name):"
+msgstr "이름(&N):"
 
 #: src/application/widgets/InstanceCardWidget.ui:43
 msgctxt "InstanceCardWidget|"
 msgid "&Group:"
-msgstr "그룹(&Group):"
+msgstr "그룹(&):"
 
 #: src/api/logic/InstanceCopyTask.cpp:24
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
-msgstr "인스턴스 %1 복사 ㅈ"
+msgstr "인스턴스 %1 복사 중"
 
 #: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
@@ -1219,7 +1233,7 @@ msgstr "마인크래프트 %1에 권장되는 포지 버전을 결정하지 못�
 #: src/api/logic/InstanceImportTask.cpp:302
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
-msgstr "모드 다운로드 완ㄹ"
+msgstr "모드 다운로드 완료"
 
 #: src/api/logic/InstanceImportTask.cpp:318
 #, qt-format
@@ -1307,7 +1321,7 @@ msgstr "메모리 최소 할당량:"
 #: src/application/pages/instance/InstanceSettingsPage.ui:45
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr "Java 설치(insta&llation)본"
+msgstr "Java 설치본(&L)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:179
 msgctxt "InstanceSettingsPage|"
@@ -1327,7 +1341,7 @@ msgstr "로드된 자바 클래스를 저장하는 데에 사용 가능한 메�
 #: src/application/pages/instance/InstanceSettingsPage.ui:87
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
-msgstr "메모리(Memor&y)"
+msgstr "메모리(&Y)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:186
 msgctxt "InstanceSettingsPage|"
@@ -1337,12 +1351,12 @@ msgstr "Note: 펌젠(Permgen)은 자동으로 Java 8또는 그 이후로 설정�
 #: src/application/pages/instance/InstanceSettingsPage.ui:199
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
-msgstr "Java 명령행 인자(argumen&ts)"
+msgstr "Java 명령행 인자(&T)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:218
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr "게임 창(ㄷ)"
+msgstr "게임 창(들)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:227
 msgctxt "InstanceSettingsPage|"
@@ -1367,7 +1381,7 @@ msgstr "창 너비:"
 #: src/application/pages/instance/InstanceSettingsPage.ui:299
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
-msgstr "콘솔(conso&le) 설정"
+msgstr "콘솔 설정(&L)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:325
 msgctxt "InstanceSettingsPage|"
@@ -1545,7 +1559,7 @@ msgstr "Java 실행파일 찾기"
 #: src/application/widgets/JavaSettingsWidget.cpp:147
 msgctxt "JavaSettingsWidget|"
 msgid "No Java version selected"
-msgstr "자바 버전이 선택되지 않ㅇ"
+msgstr "자바 버전이 선택되지 않음"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:148
 msgctxt "JavaSettingsWidget|"
@@ -1779,13 +1793,13 @@ msgstr ""
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Wrapper 명령어 \\\"%1\"를 찾지 못하였습니다."
+msgstr "Wrapper 명령어 \"%1\"를 찾지 못하였습니다."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
-msgstr "마인크래프트를 실행할 수 없ㅇ습니다!"
+msgstr "마인크래프트를 실행할 수 없었습니다!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:173
 #, qt-format
@@ -1951,7 +1965,7 @@ msgstr "로그 전체를 클립보드로 복사"
 #: src/application/pages/instance/LogPage.ui:96
 msgctxt "LogPage|"
 msgid "&Copy"
-msgstr "&C복사"
+msgstr "복사(&C)"
 
 #: src/application/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
@@ -2074,12 +2088,12 @@ msgstr "인스턴스 추가"
 #: src/application/MainWindow.cpp:230
 msgctxt "MainWindow|"
 msgid "Kill"
-msgstr "강제 종ㄹ"
+msgstr "강제 종료"
 
 #: src/application/MainWindow.cpp:231
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "실행중인 인스턴스 강제 종ㄹ"
+msgstr "실행중인 인스턴스 강제 종료"
 
 #: src/application/MainWindow.cpp:260
 msgctxt "MainWindow|"
@@ -2543,7 +2557,7 @@ msgstr "인스턴스 이름 바꾸기"
 msgctxt "MainWindow|"
 msgid ""
 "Your instance folder contains '!' and this is known to cause Java problems!"
-msgstr "인스턴스 폴더 이름ㅇ '!'를 포함하며 Java 문제를 일으 킬 수 있습니다!"
+msgstr "인스턴스 폴더 이름이 '!'를 포함하며 Java 문제를 일으 킬 수 있습니다!"
 
 #: src/api/logic/meta/Index.cpp:71
 msgctxt "Meta::Index|"
@@ -2628,22 +2642,22 @@ msgstr "마인크래프트를 최대화된 상태로 시작할까요?"
 #: src/application/pages/global/MinecraftPage.ui:63
 msgctxt "MinecraftPage|"
 msgid "Window hei&ght:"
-msgstr "창 높이(hei&ght):"
+msgstr "창 높이(&G):"
 
 #: src/application/pages/global/MinecraftPage.ui:73
 msgctxt "MinecraftPage|"
 msgid "W&indow width:"
-msgstr "창 너비(w&idth):"
+msgstr "창 너비(&I):"
 
 #: src/application/pages/instance/ModFolderPage.ui:47
 msgctxt "ModFolderPage|"
 msgid "&Add"
-msgstr "추가(&Add)"
+msgstr "추가(&A)"
 
 #: src/application/pages/instance/ModFolderPage.ui:54
 msgctxt "ModFolderPage|"
 msgid "&Remove"
-msgstr "제거(&Remove)"
+msgstr "제거(&R)"
 
 #: src/application/pages/instance/ModFolderPage.ui:61
 msgctxt "ModFolderPage|"
@@ -2668,7 +2682,7 @@ msgstr "설정 보기"
 #: src/application/pages/instance/ModFolderPage.ui:98
 msgctxt "ModFolderPage|"
 msgid "&View Folder"
-msgstr "폴더 보기(&View Folder)"
+msgstr "폴더 보기(&V)"
 
 #: src/application/pages/instance/ModFolderPage.ui:126
 msgctxt "ModFolderPage|"
@@ -2696,7 +2710,7 @@ msgstr "버전"
 #: src/api/logic/minecraft/ModList.cpp:279
 msgctxt "ModList|"
 msgid "Last changed"
-msgstr "마지막 수정 시저"
+msgstr "마지막 수정 시점"
 
 #: src/api/logic/minecraft/ModList.cpp:288
 msgctxt "ModList|"
@@ -2772,7 +2786,7 @@ msgstr "MultiMC가 시작할 때 업데이트를 확인할까요?"
 #: src/application/pages/global/MultiMCPage.ui:64
 msgctxt "MultiMCPage|"
 msgid "Up&date Channel:"
-msgstr "업데이트 채널(Up&date Channel):"
+msgstr "업데이트 채널(&D):"
 
 #: src/application/pages/global/MultiMCPage.ui:81
 msgctxt "MultiMCPage|"
@@ -2782,27 +2796,27 @@ msgstr "선택된 채널이 없습니다."
 #: src/application/pages/global/MultiMCPage.ui:100
 msgctxt "MultiMCPage|"
 msgid "I&nstances:"
-msgstr "인스턴스(I&nstances):"
+msgstr "인스턴스(&N):"
 
 #: src/application/pages/global/MultiMCPage.ui:120
 msgctxt "MultiMCPage|"
 msgid "&Mods:"
-msgstr "모드(&Mods):"
+msgstr "모드(&M):"
 
 #: src/application/pages/global/MultiMCPage.ui:143
 msgctxt "MultiMCPage|"
 msgid "&Icons:"
-msgstr "아이콘(&Icons):"
+msgstr "아이콘(&I):"
 
 #: src/application/pages/global/MultiMCPage.ui:211
 msgctxt "MultiMCPage|"
 msgid "By &last launched"
-msgstr "마지막 시작에 따라(&last launched)"
+msgstr "마지막 시작에 따라(&L)"
 
 #: src/application/pages/global/MultiMCPage.ui:221
 msgctxt "MultiMCPage|"
 msgid "By &name"
-msgstr "이름(&name)에 따라"
+msgstr "이름에 따라(&N)"
 
 #: src/application/pages/global/MultiMCPage.ui:234
 msgctxt "MultiMCPage|"
@@ -2817,7 +2831,7 @@ msgstr "테마"
 #: src/application/pages/global/MultiMCPage.ui:252
 msgctxt "MultiMCPage|"
 msgid "&Icons"
-msgstr "아이콘(&Icons)"
+msgstr "아이콘(&I)"
 
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
@@ -2858,7 +2872,7 @@ msgstr ""
 "<li>MultiMC 버전.</li>\n"
 "<li>운영체제 종류, 버전 그리고 아키텍처.</li>\n"
 "<li>CPU 아키텍처 (리눅스에서는 커널 아키텍처).</li>\n"
-"<li>시스템 메모리 크기/</li>\n"
+"<li>시스템 메모리 크기.</li>\n"
 "<li>자바 버전, 아키텍처 그리고 메모리 설정.</li>\n"
 "</ul>\n"
 "</body></html>"
@@ -2901,7 +2915,7 @@ msgstr "콘솔 설정"
 #: src/application/pages/global/MultiMCPage.ui:372
 msgctxt "MultiMCPage|"
 msgid "Show console while the game is running?"
-msgstr "게임이 실행중일 때ㅇ도 콘솔을 표시할까요?"
+msgstr "게임이 실행중일 때에도 콘솔을 표시할까요?"
 
 #: src/application/pages/global/MultiMCPage.ui:379
 msgctxt "MultiMCPage|"
@@ -2911,7 +2925,7 @@ msgstr "게임 종료시 콘솔을 자동으로 닫을까요?"
 #: src/application/pages/global/MultiMCPage.ui:386
 msgctxt "MultiMCPage|"
 msgid "Show console when the game crashes?"
-msgstr "게임이 튕겼을 때ㅇ도 콘솔을 표시할까요?"
+msgstr "게임이 튕겼을 때에도 콘솔을 표시할까요?"
 
 #: src/application/pages/global/MultiMCPage.ui:396
 msgctxt "MultiMCPage|"
@@ -3051,12 +3065,12 @@ msgstr "새 인스턴스"
 #: src/application/dialogs/NewInstanceDialog.ui:52
 msgctxt "NewInstanceDialog|"
 msgid "&Name:"
-msgstr "이름(&Name):"
+msgstr "이름(&N):"
 
 #: src/application/dialogs/NewInstanceDialog.ui:39
 msgctxt "NewInstanceDialog|"
 msgid "&Group:"
-msgstr "그룹(&Group):"
+msgstr "그룹(&G):"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:65
 msgctxt "NewInstanceDialog|"
@@ -3113,7 +3127,7 @@ msgstr "닫기"
 #: src/api/logic/NullInstance.h:21
 msgctxt "NullInstance|"
 msgid "Unknown instance type"
-msgstr "알 수 없는 인스턴스 유혀"
+msgstr "알 수 없는 인스턴스 유형"
 
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
 msgctxt "OneSixUpdate|"
@@ -3138,7 +3152,7 @@ msgstr "찾기"
 #: src/application/pages/instance/OtherLogsPage.ui:70
 msgctxt "OtherLogsPage|"
 msgid "&Copy"
-msgstr "복사(&Copy)"
+msgstr "복사(&C)"
 
 #: src/application/pages/instance/OtherLogsPage.ui:87
 msgctxt "OtherLogsPage|"
@@ -3224,7 +3238,7 @@ msgstr "깔끔히 지우기"
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr "든 로그를 진짜로 삭제하기를 원하십니까?"
+msgstr "모든 로그를 진짜로 삭제하기를 원하십니까?"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:228
 #, qt-format
@@ -3340,12 +3354,12 @@ msgstr "paste.ee API 키(key)"
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr "MultiMC key - 12MB &u업로드 제한"
+msgstr "MultiMC key - 12MB 업로드 제한(&U)"
 
 #: src/application/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr "당신만의 key - 12MB 업로드 제한(&Your own):"
+msgstr "당신만의 key - 12MB 업로드 제한(&Y):"
 
 #: src/application/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
@@ -3451,7 +3465,7 @@ msgstr "기본값으로?"
 #: src/application/dialogs/ProfileSelectDialog.ui:45
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr "이 인스턴스에서ㅁ의 기본값으로?"
+msgstr "이 인스턴스에서만의 기본값으로?"
 
 #: src/application/dialogs/ProfileSelectDialog.cpp:41
 #: src/application/dialogs/ProfileSelectDialog.cpp:45
@@ -3498,12 +3512,12 @@ msgstr ""
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
 msgid "&Default"
-msgstr "기본값(&Default)"
+msgstr "기본값(&D)"
 
 #: src/application/pages/global/ProxyPage.ui:74
 msgctxt "ProxyPage|"
 msgid "&None"
-msgstr "없음(&None)"
+msgstr "없음(&N)"
 
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
@@ -3828,12 +3842,12 @@ msgstr "Java 테스트 실패"
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
 msgid "Dark"
-msgstr "어두우"
+msgstr "어두움"
 
 #: src/application/themes/SystemTheme.cpp:44
 msgctxt "QObject|"
 msgid "System"
-msgstr "시스테"
+msgstr "시스템"
 
 #: src/application/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
@@ -3962,22 +3976,22 @@ msgstr "리소스 팩"
 #: src/application/pages/instance/ScreenshotsPage.ui:51
 msgctxt "ScreenshotsPage|"
 msgid "&Upload"
-msgstr "업로드(&Upload)"
+msgstr "업로드(&U)"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:58
 msgctxt "ScreenshotsPage|"
 msgid "&Delete"
-msgstr "삭제(&Delete)"
+msgstr "삭제(&D)"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:65
 msgctxt "ScreenshotsPage|"
 msgid "&Rename"
-msgstr "이름 바꾸기(&Rename)"
+msgstr "이름 바꾸기(&R)"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:85
 msgctxt "ScreenshotsPage|"
 msgid "&View Folder"
-msgstr "폴더 보기(&View Folder)"
+msgstr "폴더 보기(&V)"
 
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -4005,7 +4019,7 @@ msgctxt "ScreenshotsPage|"
 msgid ""
 "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your "
 "clipboard."
-msgstr "업로드된 <a href=\"%1\"> 앨범의 링크</a>는 클ㄹ보드에 복사되었습니다."
+msgstr "업로드된 <a href=\"%1\"> 앨범의 링크</a>는 클립보드에 복사되었습니다."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
@@ -4035,27 +4049,27 @@ msgstr "세션"
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
 msgid "&Next >"
-msgstr "다음(&Next) >"
+msgstr "다음(&N) >"
 
 #: src/application/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
 msgid "< &Back"
-msgstr "< 뒤로가기(&Back)"
+msgstr "< 뒤로가기(&B)"
 
 #: src/application/setupwizard/SetupWizard.cpp:31
 msgctxt "SetupWizard|"
 msgid "&Finish"
-msgstr "마침(&Finish)"
+msgstr "마침(&F)"
 
 #: src/application/setupwizard/SetupWizard.cpp:32
 msgctxt "SetupWizard|"
 msgid "&Refresh"
-msgstr "새로고침(&Refresh)"
+msgstr "새로고침(&R)"
 
 #: src/application/setupwizard/SetupWizard.cpp:33
 msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
-msgstr "MultiMC 빠른 설ㅊ"
+msgstr "MultiMC 빠른 설치"
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 msgctxt "SkinUpload|"
@@ -4146,7 +4160,7 @@ msgstr "테크니"
 #: src/application/pages/instance/TexturePackPage.h:10
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
-msgstr "텍스ㅊ 팩"
+msgstr "텍스처 팩"
 
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
@@ -4411,7 +4425,7 @@ msgstr "모드 설치"
 #: src/application/pages/instance/VersionPage.ui:196
 msgctxt "VersionPage|"
 msgid "Advanced"
-msgstr "고그"
+msgstr "고급"
 
 #: src/application/pages/instance/VersionPage.ui:206
 msgctxt "VersionPage|"
@@ -4661,7 +4675,7 @@ msgstr "버전 목록을 새로 고칩니다."
 #: src/application/dialogs/VersionSelectDialog.cpp:83
 msgctxt "VersionSelectDialog|"
 msgid "&Refresh"
-msgstr "새로고침(&Refresh)"
+msgstr "새로고침(&R)"
 
 #: src/application/widgets/VersionSelectWidget.cpp:124
 msgctxt "VersionSelectWidget|"
@@ -4716,7 +4730,7 @@ msgstr "복사"
 #: src/application/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
 msgid "&Remove"
-msgstr "제거(&Remove)"
+msgstr "제거(&R)"
 
 #: src/application/pages/instance/WorldListPage.ui:82
 msgctxt "WorldListPage|"
@@ -4731,7 +4745,7 @@ msgstr "새로고침"
 #: src/application/pages/instance/WorldListPage.ui:109
 msgctxt "WorldListPage|"
 msgid "&View Folder"
-msgstr "폴더 보기(&View Folder)"
+msgstr "폴더 보기(&V)"
 
 #: src/application/pages/instance/WorldListPage.cpp:112
 msgctxt "WorldListPage|"
