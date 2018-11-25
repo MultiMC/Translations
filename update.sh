@@ -20,13 +20,14 @@ then
 	echo "    Updating existing sources"
 	cd $SRC
 	git fetch
-	git reset --hard origin/stable
+	git checkout develop
+	git reset --hard origin/develop
 	cd $ROOT
 else
 	echo "    Cloning repo from scratch"
 	git clone https://github.com/MultiMC/MultiMC5.git $SRC
 	cd $SRC
-	git reset --hard origin/stable
+	git reset --hard origin/develop
 	cd $ROOT
 fi
 
