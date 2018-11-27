@@ -522,7 +522,9 @@ msgstr "L'istanza ha conflitti fra le dipendenze."
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr "L'istanza ha delle dipendenze mancanti durante il caricamento/controllo dell'avvio."
+msgstr ""
+"L'istanza ha delle dipendenze mancanti durante il caricamento/controllo "
+"dell'avvio."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:688
 #, qt-format
@@ -1076,6 +1078,12 @@ msgstr "Scegli modpack"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
 msgstr ""
+
+#: src/api/logic/meta/Index.cpp:71
+#, fuzzy
+msgctxt "Index|"
+msgid "Name"
+msgstr "Nome"
 
 #: src/application/widgets/InstanceCardWidget.ui:14
 msgctxt "InstanceCardWidget|"
@@ -2539,12 +2547,6 @@ msgstr ""
 "La cartella dell'istanza contiene '!', questo causa problemi con Java; "
 "dovresti rimuoverlo!"
 
-#: src/api/logic/meta/Index.cpp:71
-#, fuzzy
-msgctxt "Meta::Index|"
-msgid "Name"
-msgstr "Nome"
-
 #: src/api/logic/minecraft/MinecraftInstance.cpp:634
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
@@ -3569,7 +3571,7 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/api/logic/tools/JVisualVM.cpp:92 src/api/logic/tools/JProfiler.cpp:99
+#: src/api/logic/tools/JProfiler.cpp:99 src/api/logic/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
 msgid "Empty path"
 msgstr "Percorso vuoto"
@@ -4088,6 +4090,11 @@ msgstr "Autenticazione"
 msgctxt "ServerStatus|"
 msgid "Session"
 msgstr "Sessione"
+
+#: src/application/widgets/ServerStatus.cpp:72
+msgctxt "ServerStatus|"
+msgid "API"
+msgstr ""
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -4969,6 +4976,11 @@ msgstr "Impossibile autenticarsi."
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Meta::Index|"
+#~ msgid "Name"
+#~ msgstr "Nome"
 
 #, fuzzy
 #~ msgctxt "InstanceSettingsPage|"

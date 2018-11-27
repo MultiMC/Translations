@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: 2014-08-30 09:45-0400\n"
 "PO-Revision-Date: 2018-05-30 10:18+0200\n"
 "Last-Translator: kilian jugie <kiki.jugie@gmail.com>\n"
-"Language-Team: French "
-"<http://translate.multimc.org/projects/multimc/multimc5/fr/>\n"
+"Language-Team: French <http://translate.multimc.org/projects/multimc/"
+"multimc5/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1083,6 +1083,12 @@ msgstr "Core Mods"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
 msgstr ""
+
+#: src/api/logic/meta/Index.cpp:71
+#, fuzzy
+msgctxt "Index|"
+msgid "Name"
+msgstr "Nom"
 
 #: src/application/widgets/InstanceCardWidget.ui:14
 #, fuzzy
@@ -2582,12 +2588,6 @@ msgstr ""
 "Votre dossier d'instance contient '!' et ceci est connu pour causer des "
 "problèmes Java !"
 
-#: src/api/logic/meta/Index.cpp:71
-#, fuzzy
-msgctxt "Meta::Index|"
-msgid "Name"
-msgstr "Nom"
-
 #: src/api/logic/minecraft/MinecraftInstance.cpp:634
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
@@ -3628,7 +3628,7 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/api/logic/tools/JVisualVM.cpp:92 src/api/logic/tools/JProfiler.cpp:99
+#: src/api/logic/tools/JProfiler.cpp:99 src/api/logic/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
 msgid "Empty path"
 msgstr "Chemin vide"
@@ -4123,6 +4123,11 @@ msgstr "Authentification"
 msgctxt "ServerStatus|"
 msgid "Session"
 msgstr "Session"
+
+#: src/application/widgets/ServerStatus.cpp:72
+msgctxt "ServerStatus|"
+msgid "API"
+msgstr ""
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -5043,6 +5048,11 @@ msgstr "Échec de l'authentification."
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
+
+#, fuzzy
+#~ msgctxt "Meta::Index|"
+#~ msgid "Name"
+#~ msgstr "Nom"
 
 #, fuzzy
 #~ msgctxt "InstanceSettingsPage|"
