@@ -20,6 +20,13 @@ rm -f $OUTPUT/*
 echo "Creating .qm files..."
 for po_file in $(ls *.po)
 do
+	echo "Considering ${po_file}"
+	if cat "${po_file}" | grep '\"X-Qt-Contexts: true\\n\"' > /dev/null ; then
+        echo "Translation ${po_file} is OK"
+	else
+        echo "Translation ${po_file} is bad (missing X-Qt-Contexts)"
+        exit 1
+	fi
 	# gets everything up to the first dot
 	lang=$(echo $po_file | grep -oP "^[^\.]*")
 	echo "    Converting $po_file to $lang.ts"
