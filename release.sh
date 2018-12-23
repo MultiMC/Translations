@@ -1,7 +1,6 @@
 #!/bin/sh
 
 set -e
-set -o pipefail
 
 ROOT=$PWD
 OUTPUT=$ROOT/build
@@ -17,6 +16,21 @@ fi
 
 echo "Cleaning old .qm files..."
 rm -f $OUTPUT/*
+
+grep_count()
+{
+    local PIECE=`echo "$1" | grep -o "$2"`
+    if [ -n "$PIECE" ]; then
+        RETVAL=`echo $PIECE | sed 's/[a-z ]//g'`
+        echo $RETVAL
+        return
+    fi
+    echo 0
+}
+
+echo "{" >> $OUTPUT/index_v2.json
+echo "    \"version\" : 2," >> $OUTPUT/index_v2.json
+echo "    \"languages\" : {" >> $OUTPUT/index_v2.json
 
 echo "Creating .qm files..."
 for po_file in $(ls *.po)
@@ -38,15 +52,24 @@ do
 
     # Create an index file with info about the amount of strings translated and expected hashes of the files (for local caching purposes)
     PO_STATS=`msgfmt --statistics --output=/dev/null ${po_file} 2>&1`
-    UNTRANSLATED=`echo "$PO_STATS" | grep -o '[0-9]\+ untranslated messages\?' | sed 's/[a-z ]//g'` || UNTRANSLATED=0
-    FUZZY=`echo "$PO_STATS" | grep -o '[0-9]\+ fuzzy translations\?' | sed 's/[a-z ]//g'` || FUZZY=0
-    TRANSLATED=`echo "$PO_STATS" | grep -o '[0-9]\+ translated messages\?' | sed 's/[a-z ]//g'` || TRANSLATED=0
+    UNTRANSLATED=$(grep_count "$PO_STATS" '[0-9]\+ untranslated messages\?')
+    FUZZY=$(grep_count "$PO_STATS" '[0-9]\+ fuzzy translations\?')
+    TRANSLATED=$(grep_count "$PO_STATS" '[0-9]\+ translated messages\?')
     SHA1=`sha1sum $OUTPUT/$lang.qm | awk '{ print $1 }'`
-    echo "$lang.qm,$SHA1,$TRANSLATED,$FUZZY,$UNTRANSLATED" >> $OUTPUT/index_v2
+
+    echo "        \"$lang\" : {" >> $OUTPUT/index_v2.json
+    echo "            \"file\" : \"$lang.qm\"," >> $OUTPUT/index_v2.json
+    echo "            \"sha1\" : \"$SHA1\"," >> $OUTPUT/index_v2.json
+    echo "            \"translated\" : $TRANSLATED," >> $OUTPUT/index_v2.json
+    echo "            \"fuzzy\" : $FUZZY," >> $OUTPUT/index_v2.json
+    echo "            \"untranslated\" : $UNTRANSLATED," >> $OUTPUT/index_v2.json
+    echo "        }" >> $OUTPUT/index_v2.json
 
     # Create an index file with just the files (legacy)
     echo "$lang.qm" >> $OUTPUT/index
 done
+echo "    }" >> $OUTPUT/index_v2.json
+echo "}" >> $OUTPUT/index_v2.json
 
 echo "Removing intermediate files..."
 rm *.ts
