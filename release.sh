@@ -29,10 +29,14 @@ grep_count()
 }
 
 echo "{" >> $OUTPUT/index_v2.json
+echo "    \"file_type\" : \"MMC-TRANSLATION-INDEX\"," >> $OUTPUT/index_v2.json
 echo "    \"version\" : 2," >> $OUTPUT/index_v2.json
 echo "    \"languages\" : {" >> $OUTPUT/index_v2.json
 
 echo "Creating .qm files..."
+
+FIRST=true
+
 for po_file in $(ls *.po)
 do
     echo "Considering ${po_file}"
@@ -56,18 +60,25 @@ do
     FUZZY=$(grep_count "$PO_STATS" '[0-9]\+ fuzzy translations\?')
     TRANSLATED=$(grep_count "$PO_STATS" '[0-9]\+ translated messages\?')
     SHA1=`sha1sum $OUTPUT/$lang.qm | awk '{ print $1 }'`
+    FILESIZE=$(stat -c%s "$OUTPUT/$lang.qm")
 
+    if [ "$FIRST" = true ]; then
+        FIRST=false
+    else
+        # close previous scope
+        echo "        }," >> $OUTPUT/index_v2.json
+    fi
     echo "        \"$lang\" : {" >> $OUTPUT/index_v2.json
     echo "            \"file\" : \"$lang.qm\"," >> $OUTPUT/index_v2.json
     echo "            \"sha1\" : \"$SHA1\"," >> $OUTPUT/index_v2.json
+    echo "            \"size\" : $FILESIZE," >> $OUTPUT/index_v2.json
     echo "            \"translated\" : $TRANSLATED," >> $OUTPUT/index_v2.json
     echo "            \"fuzzy\" : $FUZZY," >> $OUTPUT/index_v2.json
-    echo "            \"untranslated\" : $UNTRANSLATED," >> $OUTPUT/index_v2.json
-    echo "        }" >> $OUTPUT/index_v2.json
-
+    echo "            \"untranslated\" : $UNTRANSLATED" >> $OUTPUT/index_v2.json
     # Create an index file with just the files (legacy)
     echo "$lang.qm" >> $OUTPUT/index
 done
+echo "        }" >> $OUTPUT/index_v2.json
 echo "    }" >> $OUTPUT/index_v2.json
 echo "}" >> $OUTPUT/index_v2.json
 
