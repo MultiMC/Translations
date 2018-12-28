@@ -54,12 +54,16 @@ do
     echo "    Create $lang.qm"
     $LRELEASE_BIN $lang.ts -qm $OUTPUT/$lang.qm
 
+    SHA1=`sha1sum $OUTPUT/$lang.qm | awk '{ print $1 }'`
+    FILENAME="${SHA1}.class"
+    cp "$OUTPUT/$lang.qm" "$OUTPUT/$FILENAME"
+
     # Create an index file with info about the amount of strings translated and expected hashes of the files (for local caching purposes)
     PO_STATS=`msgfmt --statistics --output=/dev/null ${po_file} 2>&1`
     UNTRANSLATED=$(grep_count "$PO_STATS" '[0-9]\+ untranslated messages\?')
     FUZZY=$(grep_count "$PO_STATS" '[0-9]\+ fuzzy translations\?')
     TRANSLATED=$(grep_count "$PO_STATS" '[0-9]\+ translated messages\?')
-    SHA1=`sha1sum $OUTPUT/$lang.qm | awk '{ print $1 }'`
+
     FILESIZE=$(stat -c%s "$OUTPUT/$lang.qm")
 
     if [ "$FIRST" = true ]; then
@@ -69,7 +73,7 @@ do
         echo "        }," >> $OUTPUT/index_v2.json
     fi
     echo "        \"$lang\" : {" >> $OUTPUT/index_v2.json
-    echo "            \"file\" : \"$lang.qm\"," >> $OUTPUT/index_v2.json
+    echo "            \"file\" : \"$FILENAME\"," >> $OUTPUT/index_v2.json
     echo "            \"sha1\" : \"$SHA1\"," >> $OUTPUT/index_v2.json
     echo "            \"size\" : $FILESIZE," >> $OUTPUT/index_v2.json
     echo "            \"translated\" : $TRANSLATED," >> $OUTPUT/index_v2.json
