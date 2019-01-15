@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-29 19:31-0400\n"
-"PO-Revision-Date: 2018-04-28 12:02-0300\n"
+"PO-Revision-Date: 2019-01-15 15:32-0200\n"
 "Last-Translator: Inky1003 <inky1003@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <http://weblate.robotbrain.info/projects/"
 "multimc/multimc/pt_BR/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Qt-Contexts: true\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
@@ -865,34 +865,29 @@ msgstr ""
 "Por favor tente novamente."
 
 #: src/application/pages/modplatform/FTBPage.ui:21
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Public"
-msgstr "Packs Públicos"
+msgstr "Público"
 
 #: src/application/pages/modplatform/FTBPage.ui:41
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "3rd Party"
-msgstr "Packs de Terceiros"
+msgstr "Terceiros"
 
 #: src/application/pages/modplatform/FTBPage.ui:61
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Private"
-msgstr "Modpack privado"
+msgstr "Privado"
 
 #: src/application/pages/modplatform/FTBPage.ui:77
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Add pack"
-msgstr "Adicionar ícone"
+msgstr "Adicionar pack"
 
 #: src/application/pages/modplatform/FTBPage.ui:84
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Remove selected pack"
-msgstr "Customizar o pacote selecionado."
+msgstr "Remover os pacotes selecionados"
 
 #: src/application/pages/modplatform/FTBPage.ui:100
 msgctxt "FTBPage|"
@@ -905,10 +900,9 @@ msgid "FTB Legacy"
 msgstr "Antigos do FTB"
 
 #: src/application/pages/modplatform/FTBPage.cpp:189
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "FTB private packs"
-msgstr "Modpack privado"
+msgstr "Modpacks privados do FTB"
 
 #: src/application/pages/modplatform/FTBPage.cpp:190
 #, qt-format
@@ -917,28 +911,29 @@ msgid ""
 "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
 msgstr ""
+"Falha ao baixar informação do pack para o código %1.\n"
+"Quer remover este pack agora?"
 
 #: src/application/pages/modplatform/FTBPage.cpp:328
 msgctxt "FTBPage|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "Adicionar um pack FTB"
 
 #: src/application/pages/modplatform/FTBPage.cpp:329
 msgctxt "FTBPage|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "Insira o código do pack:"
 
 #: src/application/pages/modplatform/FTBPage.cpp:352
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Remove pack"
-msgstr "Remover ícone"
+msgstr "Remover pack"
 
 #: src/application/pages/modplatform/FTBPage.cpp:353
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FTBPage|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr "Você realmente quer apagar %1?"
+msgstr "Você realmente quer apagar o pack %1?"
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:13
 msgctxt "Flame::FileResolvingTask|"
@@ -991,12 +986,10 @@ msgid "Third Party Packs"
 msgstr "Packs de Terceiros"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:86
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FtbPackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
-"Falha ao baixar os recursos:\n"
-"%1"
+msgstr "Falha ao baixar algumas listas de packs: %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:27
 #, qt-format
@@ -1039,23 +1032,22 @@ msgstr "Nenhum método de instalação foi encontrado!"
 #: src/api/logic/minecraft/World.cpp:40
 msgctxt "GameType|"
 msgid "Survival"
-msgstr ""
+msgstr "Sobrevivência"
 
 #: src/api/logic/minecraft/World.cpp:42
-#, fuzzy
 msgctxt "GameType|"
 msgid "Creative"
-msgstr "Criar instância"
+msgstr "Criativo"
 
 #: src/api/logic/minecraft/World.cpp:44
 msgctxt "GameType|"
 msgid "Adventure"
-msgstr ""
+msgstr "Aventura"
 
 #: src/api/logic/minecraft/World.cpp:46
 msgctxt "GameType|"
 msgid "Spectator"
-msgstr ""
+msgstr "Espectador"
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
@@ -1092,7 +1084,7 @@ msgstr "Falha ao processar as listas de atualizações..."
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Baixando %1 arquivo(s) da atualização."
+msgstr "Baixando atualização... (%1 arquivos)"
 
 #: src/api/logic/updater/DownloadTask.cpp:148
 #, qt-format
@@ -1212,7 +1204,7 @@ msgstr "Download do modpack"
 #: src/api/logic/InstanceImportTask.cpp:70
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr "Falha ao extrair modpack"
+msgstr "Extraindo modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:78
 msgctxt "InstanceImportTask|"
@@ -1466,14 +1458,13 @@ msgid "Find Java executable"
 msgstr "Encontre o executável do Java"
 
 #: src/api/logic/InstanceList.cpp:758
-#, fuzzy
 msgctxt "InstanceStaging|"
 msgid ""
 "Failed to commit instance, even after multiple retries. It is being blocked "
 "by something."
 msgstr ""
-"Falha ao finalizar a instância, mesmo tentando de novo várias vezes. Isso "
-"está sendo bloqueado por alguma coisa."
+"Falha ao fazer o commit da instância, mesmo tentando de novo várias vezes. "
+"Isso está sendo bloqueado por alguma coisa."
 
 #: src/application/InstanceWindow.cpp:39
 msgctxt "InstanceWindow|"
@@ -1984,6 +1975,12 @@ msgid ""
 "them.\n"
 "You'll have to correct this problem manually."
 msgstr ""
+"Alguns artefatos marcados como 'local' não tem seus arquivos:\n"
+"%1\n"
+"\n"
+"Você precisa ou copiar os arquivos, ou remover os pacotes que precisam "
+"deles.\n"
+"Para resolver você vai ter que fazer isso manualmente."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -2455,16 +2452,14 @@ msgid "Support MultiMC"
 msgstr "Apoiar MultiMC"
 
 #: src/application/MainWindow.cpp:524
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
-msgstr "Log do Minecraft"
+msgstr "Pasta do Minecraft"
 
 #: src/application/MainWindow.cpp:525
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
-msgstr "Abrir a instância's selecionada's na pasta em um arquivo do navegador."
+msgstr "Abrir as pastas das instâncias selecionadas num navegador de arquivos."
 
 #: src/application/MainWindow.cpp:928
 msgctxt "MainWindow|"
@@ -2496,7 +2491,7 @@ msgstr "Comprando jornal na banca..."
 #: src/application/MainWindow.cpp:1134
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr "Não tem jornal novo na banca de jornal."
+msgstr "Não tem jornal novo na banca de jornal. Só notícia velha."
 
 #: src/application/MainWindow.cpp:1217 src/application/MainWindow.cpp:1234
 msgctxt "MainWindow|"
@@ -2525,7 +2520,6 @@ msgid "Delete group '%1'"
 msgstr "Apagar grupo '%1'"
 
 #: src/api/logic/meta/Index.cpp:71
-#, fuzzy
 msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "Nome"
@@ -2533,22 +2527,22 @@ msgstr "Nome"
 #: src/api/logic/minecraft/MinecraftInstance.cpp:636
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr "<SESSION ID>"
+msgstr "<ID DA SESSÃO>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:638
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr "<ACCESS TOKEN>"
+msgstr "<TOKEN DE ACESSO>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:639
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr "<CLIENT TOKEN>"
+msgstr "<TOKEN DO CLIENTE>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:640
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr "<PROFILE ID>"
+msgstr "<ID DO PERFIL>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:728
 #, qt-format
@@ -2616,7 +2610,6 @@ msgid "W&indow width:"
 msgstr "Largura da Janela:"
 
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
-#, fuzzy
 msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "Cancelado pelo usuário."
@@ -2669,7 +2662,7 @@ msgctxt ""
 "ModFolderPage|Select whatever type of files the page contains. Example: "
 "'Loader Mods'"
 msgid "Select %1"
-msgstr "Selecionar %1"
+msgstr "Selecione %1"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:36
 msgctxt "ModMinecraftJar|"
@@ -3904,16 +3897,14 @@ msgid "Unknown format version!"
 msgstr "Versão de formato desconhecida!"
 
 #: src/api/logic/minecraft/World.cpp:50
-#, fuzzy
 msgctxt "QObject|"
 msgid "Unknown"
-msgstr "Tipo desconhecido"
+msgstr "Desconhecido"
 
 #: src/application/pages/instance/ServersPage.cpp:30
-#, fuzzy
 msgctxt "QObject|"
 msgid "Minecraft Server"
-msgstr "Mudar versão do Minecraft"
+msgstr "Servidor de Minecraft"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -4034,82 +4025,69 @@ msgstr "Sessão"
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:288
-#, fuzzy
 msgctxt "ServersModel|"
 msgid "Name"
 msgstr "Nome"
 
 #: src/application/pages/instance/ServersPage.cpp:290
-#, fuzzy
 msgctxt "ServersModel|"
 msgid "Address"
-msgstr "Endereço e Porta"
+msgstr "Endereço"
 
 #: src/application/pages/instance/ServersPage.cpp:292
-#, fuzzy
 msgctxt "ServersModel|"
 msgid "Latency"
-msgstr "Última"
+msgstr "Latência (ping)"
 
 #: src/application/pages/instance/ServersPage.ui:48
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Ask to download"
-msgstr "Download do mod"
+msgstr "Pergunte para baixar"
 
 #: src/application/pages/instance/ServersPage.ui:53
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Always download"
-msgstr "Download do mod"
+msgstr "Sempre baixe"
 
 #: src/application/pages/instance/ServersPage.ui:58
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Never download"
-msgstr "Download do mod"
+msgstr "Nunca baixe"
 
 #: src/application/pages/instance/ServersPage.ui:66
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Reso&urces"
 msgstr "Recursos"
 
 #: src/application/pages/instance/ServersPage.ui:79
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "&Name"
 msgstr "Nome:"
 
 #: src/application/pages/instance/ServersPage.ui:92
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Address"
-msgstr "Endereço e Porta"
+msgstr "Endereço"
 
 #: src/application/pages/instance/ServersPage.ui:140
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "&Add"
 msgstr "&Adicionar"
 
 #: src/application/pages/instance/ServersPage.ui:147
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "&Remove"
 msgstr "&Remover"
 
 #: src/application/pages/instance/ServersPage.ui:154
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Move Up"
 msgstr "Mover pra cima"
 
 #: src/application/pages/instance/ServersPage.ui:161
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Move Down"
 msgstr "Mover Pra baixo"
@@ -4117,7 +4095,7 @@ msgstr "Mover Pra baixo"
 #: src/application/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
-msgstr ""
+msgstr "Servidores"
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -4145,43 +4123,36 @@ msgid "MultiMC Quick Setup"
 msgstr "Rápida configuração do MultiMC"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:284
-#, fuzzy
 msgctxt "SimpleModList|"
 msgid "Name"
 msgstr "Nome"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:286
-#, fuzzy
 msgctxt "SimpleModList|"
 msgid "Version"
 msgstr "Versão"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:288
-#, fuzzy
 msgctxt "SimpleModList|"
 msgid "Last changed"
 msgstr "Última vez que modificou"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:297
-#, fuzzy
 msgctxt "SimpleModList|"
 msgid "Is the mod enabled?"
 msgstr "O mod está ativado?"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:299
-#, fuzzy
 msgctxt "SimpleModList|"
 msgid "The name of the mod."
 msgstr "O nome do mod."
 
 #: src/api/logic/minecraft/SimpleModList.cpp:301
-#, fuzzy
 msgctxt "SimpleModList|"
 msgid "The version of the mod."
 msgstr "A versão do mod."
 
 #: src/api/logic/minecraft/SimpleModList.cpp:303
-#, fuzzy
 msgctxt "SimpleModList|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Dia e hora que o mod foi modificado (ou adicionado)."
@@ -4288,7 +4259,7 @@ msgid "Task aborted."
 msgstr "Tarefa cancelada."
 
 #: src/api/logic/launch/steps/Update.cpp:52
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "Update|"
 msgid ""
 "Instance update failed because: %1\n"
@@ -4767,10 +4738,10 @@ msgid "Release date of this version"
 msgstr "Data de liberação dessa versão"
 
 #: src/application/VersionProxyModel.cpp:133
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "VersionProxyModel|"
 msgid "%1 (installed)"
-msgstr "%1 (Migrado)"
+msgstr "%1 (instalado)"
 
 #: src/application/VersionProxyModel.cpp:164
 msgctxt "VersionProxyModel|"
@@ -4817,10 +4788,9 @@ msgid "Name"
 msgstr "Nome"
 
 #: src/api/logic/minecraft/WorldList.cpp:213
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Game Mode"
-msgstr "Modelo do Player"
+msgstr "Modo de Jogo"
 
 #: src/api/logic/minecraft/WorldList.cpp:215
 msgctxt "WorldList|"
@@ -4833,10 +4803,9 @@ msgid "The name of the world."
 msgstr "O nome do mundo."
 
 #: src/api/logic/minecraft/WorldList.cpp:226
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Game mode of the world."
-msgstr "O nome do mundo."
+msgstr "O modo de jogo do mundo."
 
 #: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
@@ -4978,7 +4947,6 @@ msgid "Authentication operation cancelled."
 msgstr "Operação de autenticação foi cancelada."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
-#, fuzzy
 msgctxt "YggdrasilTask|"
 msgid ""
 "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/"
@@ -4992,9 +4960,9 @@ msgstr ""
 "><ul><li>Você usa o Windows XP e precisa <a href=\"http://www.microsoft.com/"
 "en-us/download/details.aspx?id=38918\">atualizar seus certificados de raiz</"
 "a></li><li>Alguns dispositivos em sua rede estão interferindo no tráfego "
-"SSL. Nesse caso, você tem preocupações maiores que além de não iniciar o "
-"Minecraft.</li><li>Possivelmente algo mais. Verifique o arquivo de log do "
-"MultiMC para obter mais detalhes</li></ul>"
+"SSL. Nesse caso, você deve se preocupar com outras coisas além de não "
+"iniciar o Minecraft,</li><li>possivelmente algo mais. Verifique o arquivo de "
+"log do MultiMC para obter mais detalhes</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
