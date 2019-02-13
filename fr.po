@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-30 09:45-0400\n"
-"PO-Revision-Date: 2019-01-13 12:31-0500\n"
+"PO-Revision-Date: 2019-02-10 23:52+0100\n"
 "Last-Translator: kilian jugie <kiki.jugie@gmail.com>\n"
 "Language-Team: French <http://translate.multimc.org/projects/multimc/"
 "multimc5/fr/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Language: fr_FR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
@@ -430,7 +430,7 @@ msgid ""
 "The java binary \"%1\" couldn't be found. Please fix the java path override "
 "in the instance's settings or disable it."
 msgstr ""
-"Le binaire java \"%1\" n'a pas pu être trouvé. Veuillez réparer l'override "
+"L’exécutable java \"%1\" n'a pas pu être trouvé. Veuillez réparer l'override "
 "du chemin Java dans les configurations de l'instance, ou le désactiver."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
@@ -649,7 +649,7 @@ msgstr "La commande de 'wrapper' \"%1\" ne pouvait pas être trouvée."
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr "Peut pas lancer Minecraft !"
+msgstr "Impossible de lancer Minecraft !"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:121
 #, qt-format
@@ -1318,7 +1318,7 @@ msgstr "Impossible d'actualiser la liste: %1\n"
 #: src/api/logic/InstanceImportTask.cpp:171
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "L’import de l’instance a bien été abandonné."
 
 #: src/application/InstancePageProvider.h:40
 msgctxt "InstancePageProvider|"
@@ -1633,6 +1633,12 @@ msgid ""
 "\n"
 "You can change the Java version in the settings later.\n"
 msgstr ""
+"Vous n’avez sélectionné aucune version de Java ou avez sélectionné quelque "
+"chose qui ne marche pas.\n"
+"MultiMC ne pourra pas lancer Minecraft.\n"
+"Voulez-vous continuer sans Java N\n"
+"\n"
+"Vous pourrez ultérieurement changer la version de Java dans les paramètres.\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
@@ -1693,9 +1699,10 @@ msgid "Language"
 msgstr "Langage"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:53
+#, fuzzy
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
-msgstr ""
+msgstr "Sélectionner la langue à utiliser pour MultiMC"
 
 #: src/application/LaunchController.cpp:28
 msgctxt "LaunchController|"
@@ -1724,9 +1731,10 @@ msgid "Which profile would you like to use?"
 msgstr "Quel profile voulez-vous utiliser ?"
 
 #: src/application/LaunchController.cpp:78
+#, fuzzy
 msgctxt "LaunchController|"
 msgid "No account selected for launch"
-msgstr ""
+msgstr "Aucun compte sélectionné"
 
 #: src/application/LaunchController.cpp:87
 msgctxt "LaunchController|"
@@ -1775,11 +1783,10 @@ msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "Échec de chargement du profile de l'instance."
 
-# Unsure if wording is optimal
 #: src/application/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr "Peut pas instancier un lanceur."
+msgstr "Impossible d’instance un launcher."
 
 #: src/application/LaunchController.cpp:237
 #, qt-format
@@ -1846,6 +1853,11 @@ msgid ""
 "You may have to fix your mods because the game is still logging to files and "
 "likely wasting harddrive space at an alarming rate!"
 msgstr ""
+"MultiMC a arrêté de lire les lois du jeu car la longueur des logs a dépassé "
+"%1 lignes.\n"
+"Vous devriez vérifier vos mods car le jeu est toujours en train d’écrire des "
+"logs et est certainement en train de gâcher de la mémoire à un rythme "
+"alarmant !"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
@@ -2495,6 +2507,8 @@ msgid ""
 "Couldn't create folder for update downloads:\n"
 "%1"
 msgstr ""
+"Impossible de créer un dossier pour les téléchargements des mises à jour :\n"
+"%1"
 
 #: src/application/MainWindow.cpp:721 src/application/MainWindow.cpp:1081
 msgctxt "MainWindow|"
@@ -2570,7 +2584,7 @@ msgstr ", joué pendant %1"
 #: src/api/logic/minecraft/MinecraftInstance.cpp:753
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
-msgstr ", c'est arrêté."
+msgstr ", a planté."
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -2656,10 +2670,9 @@ msgstr "Selectionner %1"
 
 # Definition of a bin folder in the translation not clear/potentially wrong.
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:36
-#, fuzzy
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't create the bin folder for Minecraft.jar"
-msgstr "Pouvait pas créer le dossier pour fichiers binaires pour Minecraft.jar"
+msgstr "Impossible de créer le dossier de fichiers binaires pour Minecraft.jar"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:42
 #, qt-format
@@ -2941,19 +2954,22 @@ msgid "Mods Folder"
 msgstr "Dossiers"
 
 #: src/application/pages/global/MultiMCPage.cpp:452
+#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[QuelqueChose/ERROR] Une erreur terrifiante !"
 
 #: src/application/pages/global/MultiMCPage.cpp:461
+#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Un message inoffensif…"
 
 #: src/application/pages/global/MultiMCPage.cpp:470
+#, fuzzy
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[QuelqueChose/WARN] Un avertissement pas si effrayant."
 
 #: src/api/logic/net/NetJob.cpp:128
 #, qt-format
@@ -2975,10 +2991,12 @@ msgctxt "NewComponentDialog|"
 msgid "Name"
 msgstr "Nom"
 
+# As uid means Unique ID, does it need a tranlsation ?
 #: src/application/dialogs/NewComponentDialog.ui:37
+#, fuzzy
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 #: src/application/dialogs/NewInstanceDialog.cpp:134
@@ -3129,12 +3147,14 @@ msgid "Unable to open %1 for reading: %2"
 msgstr "Impossible d'ouvrir %1 pour la lecture : %2"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:146
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "OtherLogsPage|"
 msgid ""
 "The file (%1) is too big. You may want to open it in a viewer optimized for "
 "large files."
 msgstr ""
+"Le fichier (%1) est trop lourd. Vous devriez l’ouvrir dans un lecteur "
+"optimisé pour des gros fichiers."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:161
 #, qt-format
@@ -3155,10 +3175,9 @@ msgid "Unable to delete %1: %2"
 msgstr "Impossible de supprimer %1 : %2"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:220
-#, fuzzy
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
-msgstr "Effacer"
+msgstr "Nettoyer"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 #, fuzzy
@@ -3252,7 +3271,7 @@ msgstr "Packs de ressources"
 #: src/application/pages/global/PackagesPage.ui:194
 msgctxt "PackagesPage|"
 msgid "UID:"
-msgstr ""
+msgstr "UID:"
 
 #: src/application/pages/global/PackagesPage.ui:208
 msgctxt "PackagesPage|"
@@ -3466,7 +3485,7 @@ msgstr ""
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "HTTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -3649,12 +3668,13 @@ msgstr "L'auteur du mod n'a pas fourni de lien vers le site Web pour ce mod."
 #, fuzzy
 msgctxt "QObject|"
 msgid "Upload failed"
-msgstr "Téléchargement terminé"
+msgstr "Le téléversement a échoué"
 
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
 msgstr ""
+"Le fichier de logs est trop lourd. Vous devez le téléviser manuellement."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
@@ -3700,28 +3720,32 @@ msgid "<p>Loading...</p>"
 msgstr "<p>Chargement…</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:121
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "QObject|"
 msgid ""
 "<p>There are no code changes between your current version and latest %1.</p>"
 msgstr ""
+"<p>Il n’y a aucun changement entre votre version actuelle et la dernière %1."
+"</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:125
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
 msgstr ""
+"<p>Les commits suivants ont été ajoutés depuis la dernière mise à jour :</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:132
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr ""
+msgstr "<p>La mise à jour retire %1 commits et ajoute les %2 suivants :</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:135
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr ""
+"<p>Vous pouvez <a href=\"%1\"> regarder les changements sur GitHub</a>.</p>"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:153
 #, qt-format
@@ -3809,22 +3833,29 @@ msgid "Rollback failed!"
 msgstr "Retour en arrière échoué!"
 
 #: src/application/UpdateController.cpp:368
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "QObject|"
 msgid ""
 "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Impossible de remplacer le fichier %1. Les changements apportés vont être "
+"annulés.\n"
+"Voir les logs de MultiMC pour plus de détails."
 
 #: src/application/UpdateController.cpp:376
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "QObject|"
 msgid ""
 "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Impossible de supprimer le fichier %1. Les changements apportés vont être "
+"annulés.\n"
+"Voir les logs de MultiMC pour plus de détails."
 
 #: src/application/UpdateController.cpp:384
+#, fuzzy
 msgctxt "QObject|"
 msgid ""
 "The new version didn't start or is too old and doesn't respond to startup "
@@ -3832,6 +3863,10 @@ msgid ""
 "\n"
 "Roll back to previous version?"
 msgstr ""
+"La nouvelle version n’a pas démarré ou est trop ancienne et ne répond pas "
+"aux startup checks.\n"
+"\n"
+"Revenir à la version précédente ?"
 
 #: src/application/UpdateController.cpp:406
 msgctxt "QObject|"
@@ -3844,7 +3879,7 @@ msgstr ""
 #: src/application/MainWindow.cpp:953
 msgctxt "QObject|"
 msgid " (in use)"
-msgstr " (en utilisation)"
+msgstr " (en cours d’utilisation)"
 
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
@@ -4147,10 +4182,9 @@ msgid "The date and time this mod was last changed (or added)."
 msgstr ""
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
-#, fuzzy
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
-msgstr "Téléchargement terminé"
+msgstr "Téléversement du skin en cours"
 
 #: src/application/dialogs/SkinUploadDialog.ui:14
 #: src/application/dialogs/SkinUploadDialog.cpp:23
@@ -4176,6 +4210,7 @@ msgid "Player Model"
 msgstr "Nom du joueur"
 
 #: src/application/dialogs/SkinUploadDialog.ui:57
+#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
 msgstr "Model de Steve"
@@ -4188,7 +4223,7 @@ msgstr ""
 #: src/application/dialogs/SkinUploadDialog.cpp:23
 msgctxt "SkinUploadDialog|"
 msgid "Failed to login!"
-msgstr "Échec de l'authentification!"
+msgstr "Échec de l'authentification !"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
@@ -4214,7 +4249,7 @@ msgstr "L'envoi de la capture d'écran a échoué !"
 #: src/application/dialogs/SkinUploadDialog.cpp:95
 msgctxt "SkinUploadDialog|"
 msgid "Success"
-msgstr ""
+msgstr "Succès"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:101
 #, fuzzy
@@ -4245,7 +4280,7 @@ msgstr "Packs de texture"
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -4376,7 +4411,7 @@ msgstr "Actualiser"
 #: src/application/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
@@ -4511,7 +4546,7 @@ msgstr "Installer des mods"
 #: src/application/pages/instance/VersionPage.ui:199
 msgctxt "VersionPage|"
 msgid "Advanced"
-msgstr ""
+msgstr "Avancé"
 
 #: src/application/pages/instance/VersionPage.ui:209
 msgctxt "VersionPage|"
@@ -4537,7 +4572,7 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.ui:233
 msgctxt "VersionPage|"
 msgid "Reload all packages."
-msgstr ""
+msgstr "Recharger tous les packets."
 
 #: src/application/pages/instance/VersionPage.ui:236
 msgctxt "VersionPage|"
@@ -4548,6 +4583,7 @@ msgstr "Recharger"
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr ""
+"Télécharger maintenant les fichiers nécessaires au lancement de l’instance."
 
 #: src/application/pages/instance/VersionPage.ui:246
 msgctxt "VersionPage|"
@@ -4575,16 +4611,16 @@ msgid "Couldn't load the instance profile."
 msgstr "Peut pas charger le profile d'instance."
 
 #: src/application/pages/instance/VersionPage.cpp:151
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
-msgstr ""
+msgstr "%1 comporte peut-être des problèmes."
 
 #: src/application/pages/instance/VersionPage.cpp:154
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
-msgstr ""
+msgstr "%1 comporte des problèmes !"
 
 #: src/application/pages/instance/VersionPage.cpp:168
 msgctxt "VersionPage|"
@@ -4592,9 +4628,10 @@ msgid "Error: "
 msgstr "Erreur: "
 
 #: src/application/pages/instance/VersionPage.cpp:172
+#, fuzzy
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr ""
+msgstr "Avertissement : "
 
 #: src/application/pages/instance/VersionPage.cpp:248
 #, fuzzy
@@ -4690,7 +4727,7 @@ msgstr "Log de Minecraft"
 #: src/application/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
 msgid "Branch"
-msgstr ""
+msgstr "Branche"
 
 #: src/application/VersionProxyModel.cpp:82
 #, fuzzy
@@ -4701,12 +4738,13 @@ msgstr "Type"
 #: src/application/VersionProxyModel.cpp:84
 msgctxt "VersionProxyModel|"
 msgid "Architecture"
-msgstr ""
+msgstr "Architecture"
 
 #: src/application/VersionProxyModel.cpp:86
+#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Path"
-msgstr ""
+msgstr "Chemin d’accès"
 
 #: src/application/VersionProxyModel.cpp:88
 #, fuzzy
@@ -4738,9 +4776,10 @@ msgid "The version's type"
 msgstr "Type de version"
 
 #: src/application/VersionProxyModel.cpp:104
+#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "CPU Architecture"
-msgstr ""
+msgstr "Architecture du CPU"
 
 #: src/application/VersionProxyModel.cpp:106
 #, fuzzy
@@ -4758,7 +4797,7 @@ msgstr "Sélectionnez une version de Java"
 #, qt-format
 msgctxt "VersionProxyModel|"
 msgid "%1 (installed)"
-msgstr ""
+msgstr "%1 (installé)"
 
 #: src/application/VersionProxyModel.cpp:164
 #, fuzzy
@@ -4796,7 +4835,7 @@ msgid "Error"
 msgstr "Erreur"
 
 #: src/application/widgets/VersionSelectWidget.cpp:125
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "VersionSelectWidget|"
 msgid ""
 "List update failed:\n"
@@ -4810,10 +4849,9 @@ msgid "Name"
 msgstr "Nom"
 
 #: src/api/logic/minecraft/WorldList.cpp:213
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Game Mode"
-msgstr "Nom du joueur"
+msgstr "Mode de jeu"
 
 #: src/api/logic/minecraft/WorldList.cpp:215
 msgctxt "WorldList|"
@@ -4877,10 +4915,9 @@ msgid "&View Folder"
 msgstr "&Ouvrir le dossier"
 
 #: src/application/pages/instance/WorldListPage.cpp:112
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
-msgstr "Êtes vous sûr ?"
+msgstr "Êtes vous sûr.e ?"
 
 #: src/application/pages/instance/WorldListPage.cpp:113
 msgctxt "WorldListPage|"
@@ -4890,6 +4927,10 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+"Vous êtes sur le point de supprimer définitivement le monde sélectionné.\n"
+"Le monde sera perdu pour toujours (TRÈS LONGTEMPS !).\n"
+"\n"
+"Voulez-vous vraiment le supprimer ?"
 
 #: src/application/pages/instance/WorldListPage.cpp:203
 msgctxt "WorldListPage|"
@@ -4924,7 +4965,7 @@ msgstr ""
 #, fuzzy
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr "Mods Minecraft en jar (*.zip *.jar)"
+msgstr "Archive du monde Minecraft (*.zip *.jar)"
 
 #: src/application/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
@@ -4942,7 +4983,7 @@ msgstr ""
 #: src/application/pages/instance/WorldListPage.cpp:319
 msgctxt "WorldListPage|"
 msgid "World name"
-msgstr ""
+msgstr "Nom du monde"
 
 #: src/application/pages/instance/WorldListPage.cpp:296
 #, fuzzy
@@ -4967,7 +5008,6 @@ msgid "Authentication operation cancelled."
 msgstr "L'opération d'authentification a été annulée."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
-#, fuzzy
 msgctxt "YggdrasilTask|"
 msgid ""
 "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/"
@@ -4977,13 +5017,14 @@ msgid ""
 "case, you have bigger worries than Minecraft not starting.</li><li>Possibly "
 "something else. Check the MultiMC log file for details</li></ul>"
 msgstr ""
-"<b>La négociation SSL a échoué.</b><br/>Il pourrait y avoir quelques causes "
-"pour cela :<br/><ul><li>Vous utilisez Windows XP et vous devez <a href="
-"\"http://www.microsoft.com/fr-fr/download/details.aspx?id=38918\">mettre à "
-"jour vos certificats ROOT</a></li><li>Certains appareils sur votre réseau "
-"interfère avec le trafic SSL. Dans ce cas, vous avez de plus grands soucis "
-"car Minecraftne démarrera pas.</li><li>Peut-être quelque chose d'autre. "
-"Consultez le fichier log de MultiMC pour plus de détails.</li></ul>"
+"<b>La liaison SSL n’a pas pu être établie.</b><br/>Il pourrait y avoir "
+"quelques causes pour cela :<br/><ul><li>Vous utilisez Windows XP et vous "
+"devez <a href=\"http://www.microsoft.com/fr-fr/download/details.aspx?"
+"id=38918\">mettre à jour vos certificats ROOT</a></li><li>Certains appareils "
+"sur votre réseau interfèrent avec le trafic SSL. Dans ce cas, vous avez de "
+"plus grands soucis que votre Minecraft qui ne démarre pas.</li><li>Peut-être "
+"quelque chose d'autre. Consultez le fichier de logs de MultiMC pour plus de "
+"détails.</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
