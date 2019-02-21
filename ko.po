@@ -81,8 +81,9 @@ msgstr ""
 "수 있게 해 주는 커스텀 런쳐입니다.</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
+#, fuzzy
 msgctxt "AboutDialog|"
-msgid "© 2012-2018 MultiMC Contributors"
+msgid "© 2012-2019 MultiMC Contributors"
 msgstr "© 2012-2018 MultiMC Contributors"
 
 #: src/application/dialogs/AboutDialog.ui:207
@@ -1064,6 +1065,22 @@ msgctxt "FtbPackInstallTask|"
 msgid "No installation method found!"
 msgstr "설치 방법을 발견하지 못하였습니다!"
 
+#: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
+msgctxt "GameOptions|"
+msgid "Key"
+msgstr ""
+
+#: src/api/logic/minecraft/gameoptions/GameOptions.cpp:84
+msgctxt "GameOptions|"
+msgid "Value"
+msgstr ""
+
+#: src/application/pages/instance/GameOptionsPage.h:45
+#, fuzzy
+msgctxt "GameOptionsPage|"
+msgid "Game Options"
+msgstr "게임 창(들)"
+
 #: src/api/logic/minecraft/World.cpp:40
 msgctxt "GameType|"
 msgid "Survival"
@@ -1341,23 +1358,23 @@ msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "인스턴스 읽어들이기가 중단되었습니다."
 
-#: src/application/InstancePageProvider.h:40
+#: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
 msgstr "로더 모드(들)"
 
-#: src/application/InstancePageProvider.h:43
+#: src/application/InstancePageProvider.h:44
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
 msgstr "코어 모드(들)"
 
-#: src/application/InstancePageProvider.h:47
-#: src/application/InstancePageProvider.h:57
+#: src/application/InstancePageProvider.h:48
+#: src/application/InstancePageProvider.h:59
 msgctxt "InstancePageProvider|"
 msgid "Worlds"
 msgstr "월드(들)"
 
-#: src/application/InstancePageProvider.h:70
+#: src/application/InstancePageProvider.h:72
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
@@ -1710,12 +1727,23 @@ msgstr ""
 "실행 가능한 자바가 아직 선택되지 않았거나 설정이 분실되었을 수 있습니다.\n"
 "다음 중에 선택하거나 자바 실행파일을 찾아보십시오."
 
-#: src/application/setupwizard/LanguageWizardPage.cpp:52
+#: src/application/pages/global/LanguagePage.h:35
+#, fuzzy
+msgctxt "LanguagePage|"
+msgid "Language"
+msgstr "언어(Language)"
+
+#: src/application/widgets/LanguageSelectionWidget.cpp:50
+msgctxt "LanguageSelectionWidget|"
+msgid "Don't see your language or the quality is poor?"
+msgstr ""
+
+#: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
 msgid "Language"
 msgstr "언어(Language)"
 
-#: src/application/setupwizard/LanguageWizardPage.cpp:53
+#: src/application/setupwizard/LanguageWizardPage.cpp:46
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
 msgstr "MultiMC에서 쓸 언어를 선택하십시오"
@@ -2545,62 +2573,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "이름"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:636
+#: src/api/logic/minecraft/MinecraftInstance.cpp:642
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:638
+#: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:639
+#: src/api/logic/minecraft/MinecraftInstance.cpp:645
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:640
+#: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr ""
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:728
+#: src/api/logic/minecraft/MinecraftInstance.cpp:734
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1분 %2초"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:732
+#: src/api/logic/minecraft/MinecraftInstance.cpp:738
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1시(간) %2분"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:734
+#: src/api/logic/minecraft/MinecraftInstance.cpp:740
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1일 %2시(간) %3분"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:742
+#: src/api/logic/minecraft/MinecraftInstance.cpp:748
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "손상됨"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:746
+#: src/api/logic/minecraft/MinecraftInstance.cpp:752
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "마인크래프트 %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:749
+#: src/api/logic/minecraft/MinecraftInstance.cpp:755
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", %1동안 플레이함"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:753
+#: src/api/logic/minecraft/MinecraftInstance.cpp:759
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", 는 튕겼습니다."
@@ -2715,7 +2743,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "버전명."
 
-#: src/application/MultiMC.cpp:516
+#: src/application/MultiMC.cpp:517
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "설정"
@@ -2994,9 +3022,10 @@ msgstr ""
 "%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
+#, fuzzy
 msgctxt "NewComponentDialog|"
-msgid "Copy Instance"
-msgstr "인스턴스 복사"
+msgid "Add Empty Component"
+msgstr "빈 것 추가"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -3742,7 +3771,7 @@ msgstr ""
 "이 버전의 'minimumLauncherVersion' 값(%1)이 MultiMC가 지원하는 (%2)보다 높습"
 "니다. 올바로 작동하지 않을 수 있습니다!"
 
-#: src/api/logic/minecraft/AssetsUtils.cpp:226
+#: src/api/logic/minecraft/AssetsUtils.cpp:321
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
@@ -4250,6 +4279,39 @@ msgstr "테크니"
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "텍스처 팩"
+
+#: src/api/logic/translations/TranslationsModel.cpp:348
+#, qt-format
+msgctxt "TranslationsModel|"
+msgid ""
+"%1:\n"
+"%2 translated\n"
+"%3 fuzzy\n"
+"%4 total"
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:366
+#, fuzzy
+msgctxt "TranslationsModel|"
+msgid "Language"
+msgstr "언어(Language)"
+
+#: src/api/logic/translations/TranslationsModel.cpp:370
+msgctxt "TranslationsModel|"
+msgid "Completeness"
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:380
+msgctxt "TranslationsModel|"
+msgid "The native language name."
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:384
+msgctxt "TranslationsModel|"
+msgid ""
+"Completeness is the percentage of fully translated strings, not counting "
+"automatically guessed ones."
+msgstr ""
 
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
@@ -5026,6 +5088,10 @@ msgstr "인증에 실패하였습니다."
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
+
+#~ msgctxt "NewComponentDialog|"
+#~ msgid "Copy Instance"
+#~ msgstr "인스턴스 복사"
 
 #, fuzzy
 #~ msgctxt "Index|"

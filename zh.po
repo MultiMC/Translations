@@ -80,8 +80,9 @@ msgstr ""
 "软件里更容易的管理不同版本的Minecraft。</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
+#, fuzzy
 msgctxt "AboutDialog|"
-msgid "© 2012-2018 MultiMC Contributors"
+msgid "© 2012-2019 MultiMC Contributors"
 msgstr "© 2012-2018 MultiMC 贡献者"
 
 #: src/application/dialogs/AboutDialog.ui:207
@@ -965,7 +966,7 @@ msgctxt "FtbPackFetchTask|"
 msgid "Third Party Packs"
 msgstr "第三方整合包"
 
-#: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:84
+#: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:86
 #, qt-format
 msgctxt "FtbPackFetchTask|"
 msgid "Failed to download some pack lists: %1"
@@ -1008,6 +1009,22 @@ msgstr "移动未解压的Minecraft失败！"
 msgctxt "FtbPackInstallTask|"
 msgid "No installation method found!"
 msgstr "没有找到安装方法！"
+
+#: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
+msgctxt "GameOptions|"
+msgid "Key"
+msgstr ""
+
+#: src/api/logic/minecraft/gameoptions/GameOptions.cpp:84
+msgctxt "GameOptions|"
+msgid "Value"
+msgstr ""
+
+#: src/application/pages/instance/GameOptionsPage.h:45
+#, fuzzy
+msgctxt "GameOptionsPage|"
+msgid "Game Options"
+msgstr "游戏窗口"
 
 #: src/api/logic/minecraft/World.cpp:40
 msgctxt "GameType|"
@@ -1282,23 +1299,23 @@ msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "实例导入操作被中断。"
 
-#: src/application/InstancePageProvider.h:40
+#: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
 msgstr "加载Mods"
 
-#: src/application/InstancePageProvider.h:43
+#: src/application/InstancePageProvider.h:44
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
 msgstr "核心Mod"
 
-#: src/application/InstancePageProvider.h:47
-#: src/application/InstancePageProvider.h:57
+#: src/application/InstancePageProvider.h:48
+#: src/application/InstancePageProvider.h:59
 msgctxt "InstancePageProvider|"
 msgid "Worlds"
 msgstr "世界"
 
-#: src/application/InstancePageProvider.h:70
+#: src/application/InstancePageProvider.h:72
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
@@ -1648,12 +1665,23 @@ msgstr ""
 "没有一个可运行的Java或其已丢失。\n"
 "请在下面选择或浏览来选定一个Java可执行文件。"
 
-#: src/application/setupwizard/LanguageWizardPage.cpp:52
+#: src/application/pages/global/LanguagePage.h:35
+#, fuzzy
+msgctxt "LanguagePage|"
+msgid "Language"
+msgstr "语言"
+
+#: src/application/widgets/LanguageSelectionWidget.cpp:50
+msgctxt "LanguageSelectionWidget|"
+msgid "Don't see your language or the quality is poor?"
+msgstr ""
+
+#: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
 msgid "Language"
 msgstr "语言"
 
-#: src/application/setupwizard/LanguageWizardPage.cpp:53
+#: src/application/setupwizard/LanguageWizardPage.cpp:46
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
 msgstr "设置MultiMC使用的语言"
@@ -2475,62 +2503,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "名称"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:636
+#: src/api/logic/minecraft/MinecraftInstance.cpp:642
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SESSION ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:638
+#: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ACCESS TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:639
+#: src/api/logic/minecraft/MinecraftInstance.cpp:645
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:640
+#: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:728
+#: src/api/logic/minecraft/MinecraftInstance.cpp:734
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1分 %2秒"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:732
+#: src/api/logic/minecraft/MinecraftInstance.cpp:738
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1时 %2分"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:734
+#: src/api/logic/minecraft/MinecraftInstance.cpp:740
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1天 %2时 %3分"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:742
+#: src/api/logic/minecraft/MinecraftInstance.cpp:748
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "损坏"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:746
+#: src/api/logic/minecraft/MinecraftInstance.cpp:752
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:749
+#: src/api/logic/minecraft/MinecraftInstance.cpp:755
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr "，游戏时长 %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:753
+#: src/api/logic/minecraft/MinecraftInstance.cpp:759
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr "，最后一次运行发生崩溃。"
@@ -2644,7 +2672,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "版本的名称。"
 
-#: src/application/MultiMC.cpp:516
+#: src/application/MultiMC.cpp:517
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "设置"
@@ -2920,9 +2948,10 @@ msgstr ""
 "%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
+#, fuzzy
 msgctxt "NewComponentDialog|"
-msgid "Copy Instance"
-msgstr "复制实例"
+msgid "Add Empty Component"
+msgstr "添加空项"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -3677,7 +3706,7 @@ msgstr ""
 "该版本(%1)的“最低启动器版本(minimumLauncherVersion)”比MultiMC支持的版本(%2)"
 "高。可能无法正常工作！"
 
-#: src/api/logic/minecraft/AssetsUtils.cpp:226
+#: src/api/logic/minecraft/AssetsUtils.cpp:321
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
@@ -4160,6 +4189,39 @@ msgstr "Technic"
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "材质包"
+
+#: src/api/logic/translations/TranslationsModel.cpp:348
+#, qt-format
+msgctxt "TranslationsModel|"
+msgid ""
+"%1:\n"
+"%2 translated\n"
+"%3 fuzzy\n"
+"%4 total"
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:366
+#, fuzzy
+msgctxt "TranslationsModel|"
+msgid "Language"
+msgstr "语言"
+
+#: src/api/logic/translations/TranslationsModel.cpp:370
+msgctxt "TranslationsModel|"
+msgid "Completeness"
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:380
+msgctxt "TranslationsModel|"
+msgid "The native language name."
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:384
+msgctxt "TranslationsModel|"
+msgid ""
+"Completeness is the percentage of fully translated strings, not counting "
+"automatically guessed ones."
+msgstr ""
 
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
@@ -4927,6 +4989,10 @@ msgstr "认证失败。"
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
+
+#~ msgctxt "NewComponentDialog|"
+#~ msgid "Copy Instance"
+#~ msgstr "复制实例"
 
 #, fuzzy
 #~ msgctxt "Index|"

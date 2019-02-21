@@ -85,8 +85,9 @@ msgstr ""
 "facilmente diversas instâncias para Minecraft.</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
+#, fuzzy
 msgctxt "AboutDialog|"
-msgid "© 2012-2018 MultiMC Contributors"
+msgid "© 2012-2019 MultiMC Contributors"
 msgstr "© 2012-2018 Contribuidores do MultiMC"
 
 #: src/application/dialogs/AboutDialog.ui:207
@@ -1029,6 +1030,22 @@ msgctxt "FtbPackInstallTask|"
 msgid "No installation method found!"
 msgstr "Nenhum método de instalação foi encontrado!"
 
+#: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
+msgctxt "GameOptions|"
+msgid "Key"
+msgstr ""
+
+#: src/api/logic/minecraft/gameoptions/GameOptions.cpp:84
+msgctxt "GameOptions|"
+msgid "Value"
+msgstr ""
+
+#: src/application/pages/instance/GameOptionsPage.h:45
+#, fuzzy
+msgctxt "GameOptionsPage|"
+msgid "Game Options"
+msgstr "Janelas do jogo"
+
 #: src/api/logic/minecraft/World.cpp:40
 msgctxt "GameType|"
 msgid "Survival"
@@ -1309,23 +1326,23 @@ msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Importação de instâncias foi cancelada."
 
-#: src/application/InstancePageProvider.h:40
+#: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
 msgstr "Mods"
 
-#: src/application/InstancePageProvider.h:43
+#: src/application/InstancePageProvider.h:44
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
 msgstr "Mods principais"
 
-#: src/application/InstancePageProvider.h:47
-#: src/application/InstancePageProvider.h:57
+#: src/application/InstancePageProvider.h:48
+#: src/application/InstancePageProvider.h:59
 msgctxt "InstancePageProvider|"
 msgid "Worlds"
 msgstr "Mundos"
 
-#: src/application/InstancePageProvider.h:70
+#: src/application/InstancePageProvider.h:72
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
@@ -1680,12 +1697,23 @@ msgstr ""
 "Você não tem nenhum Java configurado ou ele está faltando.\n"
 "Por favor selecione um desses ou procure por um executável do Java."
 
-#: src/application/setupwizard/LanguageWizardPage.cpp:52
+#: src/application/pages/global/LanguagePage.h:35
+#, fuzzy
+msgctxt "LanguagePage|"
+msgid "Language"
+msgstr "Língua/Language"
+
+#: src/application/widgets/LanguageSelectionWidget.cpp:50
+msgctxt "LanguageSelectionWidget|"
+msgid "Don't see your language or the quality is poor?"
+msgstr ""
+
+#: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
 msgid "Language"
 msgstr "Língua/Language"
 
-#: src/application/setupwizard/LanguageWizardPage.cpp:53
+#: src/application/setupwizard/LanguageWizardPage.cpp:46
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
 msgstr ""
@@ -2524,62 +2552,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "Nome"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:636
+#: src/api/logic/minecraft/MinecraftInstance.cpp:642
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<ID DA SESSÃO>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:638
+#: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<TOKEN DE ACESSO>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:639
+#: src/api/logic/minecraft/MinecraftInstance.cpp:645
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<TOKEN DO CLIENTE>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:640
+#: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<ID DO PERFIL>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:728
+#: src/api/logic/minecraft/MinecraftInstance.cpp:734
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1m %2s"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:732
+#: src/api/logic/minecraft/MinecraftInstance.cpp:738
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1h %2m"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:734
+#: src/api/logic/minecraft/MinecraftInstance.cpp:740
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1d %2h %3m"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:742
+#: src/api/logic/minecraft/MinecraftInstance.cpp:748
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "quebrado"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:746
+#: src/api/logic/minecraft/MinecraftInstance.cpp:752
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:749
+#: src/api/logic/minecraft/MinecraftInstance.cpp:755
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", foi jogado por %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:753
+#: src/api/logic/minecraft/MinecraftInstance.cpp:759
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", crashou."
@@ -2695,7 +2723,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "O nome da versão."
 
-#: src/application/MultiMC.cpp:516
+#: src/application/MultiMC.cpp:517
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "Configurações"
@@ -2976,9 +3004,10 @@ msgstr ""
 "%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
+#, fuzzy
 msgctxt "NewComponentDialog|"
-msgid "Copy Instance"
-msgstr "Copiar instância"
+msgid "Add Empty Component"
+msgstr "Adicionar Vazio"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -3756,7 +3785,7 @@ msgstr ""
 "O valor do 'minimumLauncherVersion' dessa versão (%1) é maior que a "
 "suportada pelo MultiMC (%2). Isso não deve funcionar corretamente!"
 
-#: src/api/logic/minecraft/AssetsUtils.cpp:226
+#: src/api/logic/minecraft/AssetsUtils.cpp:321
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
@@ -4247,6 +4276,39 @@ msgstr "Technic"
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "Packs de Texturas"
+
+#: src/api/logic/translations/TranslationsModel.cpp:348
+#, qt-format
+msgctxt "TranslationsModel|"
+msgid ""
+"%1:\n"
+"%2 translated\n"
+"%3 fuzzy\n"
+"%4 total"
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:366
+#, fuzzy
+msgctxt "TranslationsModel|"
+msgid "Language"
+msgstr "Língua/Language"
+
+#: src/api/logic/translations/TranslationsModel.cpp:370
+msgctxt "TranslationsModel|"
+msgid "Completeness"
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:380
+msgctxt "TranslationsModel|"
+msgid "The native language name."
+msgstr ""
+
+#: src/api/logic/translations/TranslationsModel.cpp:384
+msgctxt "TranslationsModel|"
+msgid ""
+"Completeness is the percentage of fully translated strings, not counting "
+"automatically guessed ones."
+msgstr ""
 
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
@@ -5024,6 +5086,10 @@ msgstr "Falha ao autenticar."
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
+
+#~ msgctxt "NewComponentDialog|"
+#~ msgid "Copy Instance"
+#~ msgstr "Copiar instância"
 
 #~ msgctxt "Index|"
 #~ msgid "Name"
