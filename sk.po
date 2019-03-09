@@ -9,7 +9,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Language-Team: \n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
+"Last-Translator: Martin Kapinos <matkapi19@gmail.com>\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Language: sk\n"
 
@@ -359,7 +359,7 @@ msgid ""
 "Failed to download the assets index:\n"
 "%1"
 msgstr ""
-"Zlyhanie načítania indexu herných súborov:\n"
+"Zlyhanie stahnutia indexu herných súborov:\n"
 "%1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
@@ -369,7 +369,7 @@ msgid ""
 "Failed to download assets:\n"
 "%1"
 msgstr ""
-"Zlyhanie načítania súborov hry:\n"
+"Zlyhanie stiahnutia súborov hry:\n"
 "%1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
@@ -512,22 +512,22 @@ msgstr "Verzia"
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
-msgstr ""
+msgstr "Zlyhalo nahrávanie niektorých metadát komponentov."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr ""
+msgstr "Boli zistené konflikty požiadaviek počas kontroly závislostí!"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr ""
+msgstr "Inštancia má konflikty v závislostiach."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
+msgstr "Inštancia má nevyriešené závislosti zistené počas kontroly/nahrávania."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:688
 #, qt-format
@@ -536,6 +536,9 @@ msgid ""
 "Component metadata update task failed while downloading from remote server:\n"
 "%1"
 msgstr ""
+"Úloha vylepšenia metadát komponentu zlyhala počas sťahovania zo vzdialeného "
+"servera:\n"
+"%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -817,32 +820,33 @@ msgstr "Zvolený súbor nevyzerá byť spustiteľný"
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
 msgstr ""
+"Nepodarilo sa extrahovať natívny súbor jar '%1' do cieľového adresára '%2'"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr ""
+msgstr "Kontrola FML knižníc..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr ""
+msgstr "Nahrávanie FML knižníc..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr ""
+msgstr "Kopírovanie FML knižníc do inštancie..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr ""
+msgstr "Zlyhalo vytvorenie adresára pre FML knižnicu v inštancii."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr ""
+msgstr "Zlyhalo kopírovanie Forge/FML knižnice: %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
 #, qt-format
@@ -854,46 +858,52 @@ msgid ""
 "Reason:%2\n"
 "Please try again."
 msgstr ""
+"Zlyhalo sťahovanie týchto knižníc:\n"
+"%1\n"
+"\n"
+"Dôvod:%2\n"
+"Prosím skúste to znova."
 
 #: src/application/pages/modplatform/FTBPage.ui:21
 msgctxt "FTBPage|"
 msgid "Public"
-msgstr ""
+msgstr "Verejný"
 
 #: src/application/pages/modplatform/FTBPage.ui:41
 msgctxt "FTBPage|"
 msgid "3rd Party"
-msgstr ""
+msgstr "Tretích strán"
 
 #: src/application/pages/modplatform/FTBPage.ui:61
 msgctxt "FTBPage|"
 msgid "Private"
-msgstr ""
+msgstr "Privátny"
 
 #: src/application/pages/modplatform/FTBPage.ui:77
 msgctxt "FTBPage|"
 msgid "Add pack"
-msgstr ""
+msgstr "Pridať balíček"
 
 #: src/application/pages/modplatform/FTBPage.ui:84
 msgctxt "FTBPage|"
 msgid "Remove selected pack"
-msgstr ""
+msgstr "Vymazať zvolený balíček"
 
 #: src/application/pages/modplatform/FTBPage.ui:100
 msgctxt "FTBPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Zvolená verzia:"
 
 #: src/application/pages/modplatform/FTBPage.h:50
+#, fuzzy
 msgctxt "FTBPage|"
 msgid "FTB Legacy"
-msgstr ""
+msgstr "FTB Legacy"
 
 #: src/application/pages/modplatform/FTBPage.cpp:189
 msgctxt "FTBPage|"
 msgid "FTB private packs"
-msgstr ""
+msgstr "Privátne balíčky FTB"
 
 #: src/application/pages/modplatform/FTBPage.cpp:190
 #, qt-format
@@ -902,121 +912,123 @@ msgid ""
 "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
 msgstr ""
+"Zlyhalo sťahovanie informácií balíčka kvôli %1.\n"
+"Môže byť balíček vymazaný?"
 
 #: src/application/pages/modplatform/FTBPage.cpp:328
 msgctxt "FTBPage|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "Pridať FTB balíček"
 
 #: src/application/pages/modplatform/FTBPage.cpp:329
 msgctxt "FTBPage|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "Zadajte kód balíčku:"
 
 #: src/application/pages/modplatform/FTBPage.cpp:352
 msgctxt "FTBPage|"
 msgid "Remove pack"
-msgstr ""
+msgstr "Vymazať balíček"
 
 #: src/application/pages/modplatform/FTBPage.cpp:353
 #, qt-format
 msgctxt "FTBPage|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr ""
+msgstr "Naozaj chcete vymazať balíček %1?"
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:13
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "Zisťovanie IDečiek balíčkov..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:115
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
+msgstr "Zisťovanie niektorých IDečiek balíčkov zlyhalo."
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr ""
+msgstr "Zlyhalo vytvorenie adresára pre binárne súbory Minecraftu."
 
 #: src/application/pages/modplatform/FtbListModel.cpp:18
 msgctxt "FtbFilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "Triediť podľa mena"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:19
 msgctxt "FtbFilterModel|"
 msgid "Sort by game version"
-msgstr ""
+msgstr "Triediť podľa verzie hry"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:80
 msgctxt "FtbListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "Verejný balíček módov"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:82
 msgctxt "FtbListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "Balíčky módov tretích strán"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:84
 msgctxt "FtbListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "Privátne balíčky módov"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:76
 msgctxt "FtbPackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "Verejné balíčky"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:81
 msgctxt "FtbPackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "Balíčky tretích strán"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:86
 #, qt-format
 msgctxt "FtbPackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
+msgstr "Zlyhalo sťahovanie niektorých zoznamov balíčkov: %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:27
 #, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
+msgstr "Sťahovanie zip suboru %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:71
 #, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "Sťahovanie zip suboru %1 (%2%)"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:77
 msgctxt "FtbPackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Rozbaľovanie balíčka módov"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:83
 #, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "Zlyhalo otvorenie balíčka módov %1!"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:106
 msgctxt "FtbPackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Inštalácia balíčka módov"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:113
 msgctxt "FtbPackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr ""
+msgstr "Zlyhalo presúvanie rozbaleného minecraftu!"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:181
 msgctxt "FtbPackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "Nenájdená inštalačná metóda!"
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1046,7 +1058,7 @@ msgstr "Kreatívna"
 #: src/api/logic/minecraft/World.cpp:44
 msgctxt "GameType|"
 msgid "Adventure"
-msgstr ""
+msgstr "Dobrodružná"
 
 #: src/api/logic/minecraft/World.cpp:46
 msgctxt "GameType|"
@@ -1056,44 +1068,45 @@ msgstr "Pozorovateľ"
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
-msgstr ""
+msgstr "Nahrávanie informácii o verzii..."
 
 #: src/api/logic/updater/DownloadTask.cpp:81
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr ""
+msgstr "Zlyhalo sťahovanie informačných súborov o verzii."
 
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
-msgstr ""
+msgstr "Čítanie zoznamu súborov pre novú verziu..."
 
 #: src/api/logic/updater/DownloadTask.cpp:102
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
-msgstr ""
+msgstr "Čítanie zoznamu súborov pre aktuálnu verziu..."
 
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
 msgstr ""
+"Spracovanie zoznamu súborov - zisťovanie ako nainštalovať vylepšenia..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
-msgstr ""
+msgstr "Zlyhalo načítanie zoznamu vylepšení..."
 
 #: src/api/logic/updater/DownloadTask.cpp:134
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr ""
+msgstr "Sťahovanie %1 súborov vylepšení."
 
 #: src/api/logic/updater/DownloadTask.cpp:148
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr ""
+msgstr "Zlyhanie sťahovanie súborov vylepšení: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -1145,7 +1158,7 @@ msgstr "Importovať zo zipu"
 #: src/application/pages/modplatform/ImportPage.cpp:97
 msgctxt "ImportPage|"
 msgid "Choose modpack"
-msgstr "Zvoliť modpack"
+msgstr "Zvoliť balíček módov"
 
 #: src/application/pages/modplatform/ImportPage.cpp:97
 msgctxt "ImportPage|"
@@ -1196,50 +1209,50 @@ msgid ""
 "Downloading modpack:\n"
 "%1"
 msgstr ""
-"Sťahovanie modpacku:\n"
+"Sťahovanie balíčka módov:\n"
 "%1"
 
 #: src/api/logic/InstanceImportTask.cpp:40
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr "Sťahovanie modpacku"
+msgstr "Sťahovanie balíčka módov"
 
 #: src/api/logic/InstanceImportTask.cpp:70
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr "Extrahovanie modpacku"
+msgstr "Extrahovanie balíčka módov"
 
 #: src/api/logic/InstanceImportTask.cpp:78
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr ""
+msgstr "Nepodarilo sa otvoriť dodaný zip súbor balíčka módov."
 
 #: src/api/logic/InstanceImportTask.cpp:103
 #: src/api/logic/InstanceImportTask.cpp:164
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr ""
+msgstr "Archív neobsahuje známy typ balíčka módov."
 
 #: src/api/logic/InstanceImportTask.cpp:119
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr ""
+msgstr "Zlyhalo rozbalenie balíčka módov"
 
 #: src/api/logic/InstanceImportTask.cpp:146
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
-msgstr ""
+msgstr "Nepodarilo sa opraviť práva pre %1"
 
 #: src/api/logic/InstanceImportTask.cpp:192
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Nepodarilo sa porozumieť súboru manifest balíčka:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:203
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr ""
+msgstr "Nepodarilo sa premenovať priečinok:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:209
 #, qt-format
@@ -1253,30 +1266,30 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "Neznámy nahrávač módov v súbore manifest: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:236
 msgctxt "InstanceImportTask|"
 msgid ""
 "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "Mysteriózne bodky odstránené z Minecraft verzie počas importu balíčka."
 
 #: src/api/logic/InstanceImportTask.cpp:252
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr ""
+msgstr "Nepodarilo sa namapovať verziu forge pre Minecraft %1"
 
 #: src/api/logic/InstanceImportTask.cpp:300
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
-msgstr ""
+msgstr "Sťahovanie módu"
 
 #: src/api/logic/InstanceImportTask.cpp:316
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
-msgstr ""
+msgstr "Tento 'Adresár' by mal byť rozbalený: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:328
 #, qt-format
@@ -1284,174 +1297,176 @@ msgctxt "InstanceImportTask|"
 msgid ""
 "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
+"Cyklické balíčky módov v balíčkoch módov nie sú implementované, nič nebol "
+"stiahnuté: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:333
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr ""
+msgstr "Nerozoznaný typ balíčka: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:353
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr ""
+msgstr "Sťahovanie módov..."
 
 #: src/api/logic/InstanceImportTask.cpp:360
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
-msgstr ""
+msgstr "Nepodarilo sa rozoznať ID balíčkov:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:171
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Import inštancie bol prerušený."
 
 #: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
-msgstr ""
+msgstr "Nahrávač módov"
 
 #: src/application/InstancePageProvider.h:44
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
-msgstr ""
+msgstr "Jadrové módy"
 
 #: src/application/InstancePageProvider.h:48
 #: src/application/InstancePageProvider.h:59
 msgctxt "InstancePageProvider|"
 msgid "Worlds"
-msgstr ""
+msgstr "Svety"
 
 #: src/application/InstancePageProvider.h:72
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
-msgstr ""
+msgstr "Upraviť inštanciu (%1)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:60
 msgctxt "InstanceSettingsPage|"
 msgid "Auto-detect..."
-msgstr ""
+msgstr "Auto-detekcia..."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:67
 msgctxt "InstanceSettingsPage|"
 msgid "Browse..."
-msgstr ""
+msgstr "Prehľadať..."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:74
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:106
 msgctxt "InstanceSettingsPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr ""
+msgstr "Maximálna veľkosť pamäte, ktorú môže Minecraft použiť."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:99
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
-msgstr ""
+msgstr "Minimálna alokovaná pamäť:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:45
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr ""
+msgstr "Java inšta&lácia"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:179
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
-msgstr ""
+msgstr "Maximálna alokovaná pamäť:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:128
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr ""
+msgstr "Veľkosť pamäte, s ktoru sa Minecraft spustí."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:150
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr ""
+msgstr "Veľkosť použiteľnej pamäte na ukladanie Java tried."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:87
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
-msgstr ""
+msgstr "Pamäť"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:186
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr ""
+msgstr "Poznámka: Permgen je nastavený automaticky od Java 8 a vyššie"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:199
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
-msgstr ""
+msgstr "Argumen&ty Javy"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:218
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr ""
+msgstr "Herné okná"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:227
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
-msgstr ""
+msgstr "Herné okno"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:239
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
-msgstr ""
+msgstr "Spustiť Minecraft maximalizovaný?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:248
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
-msgstr ""
+msgstr "Výška okna:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:255
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
-msgstr ""
+msgstr "Šírka okna:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:299
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
-msgstr ""
+msgstr "Nastavenia konzo&ly"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:325
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr ""
+msgstr "Zobraziť konzolu pri páde hry?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:311
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
-msgstr ""
+msgstr "Zobraziť konzolu počas hrania hry?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:318
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
-msgstr ""
+msgstr "Automaticky vypnúť konzolu ak sa hra ukončí?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:349
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
-msgstr ""
+msgstr "Vlastné príkazy"
 
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
-msgstr ""
+msgstr "Nastavenia"
 
 #: src/application/pages/instance/InstanceSettingsPage.cpp:210
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
-msgstr ""
+msgstr "Zvoľte Java verziu"
 
 #: src/application/pages/instance/InstanceSettingsPage.cpp:228
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
-msgstr ""
+msgstr "Nájsť Java spúštač"
 
 #: src/api/logic/InstanceList.cpp:758
 msgctxt "InstanceStaging|"
@@ -1459,11 +1474,13 @@ msgid ""
 "Failed to commit instance, even after multiple retries. It is being blocked "
 "by something."
 msgstr ""
+"Zlyhalo potvrdenie inštancie aj po viacerých pokusoch. Je to niečim "
+"blokované."
 
 #: src/application/InstanceWindow.cpp:39
 msgctxt "InstanceWindow|"
 msgid "Console window for "
-msgstr ""
+msgstr "Konzolové okno pre "
 
 #: src/application/InstanceWindow.cpp:62
 msgctxt "InstanceWindow|"
@@ -1506,27 +1523,27 @@ msgstr "Spustiť inštanciu"
 #, qt-format
 msgctxt "JProfiler|"
 msgid "Listening on port: %1"
-msgstr ""
+msgstr "Počúvam na porte: %1"
 
 #: src/api/logic/tools/JProfiler.cpp:41
 msgctxt "JProfiler|"
 msgid "Profiler aborted"
-msgstr ""
+msgstr "Profiler prerušený"
 
 #: src/api/logic/tools/JVisualVM.cpp:32
 msgctxt "JVisualVM|"
 msgid "JVisualVM started"
-msgstr ""
+msgstr "JVisualVM spustený"
 
 #: src/api/logic/tools/JVisualVM.cpp:39
 msgctxt "JVisualVM|"
 msgid "Profiler aborted"
-msgstr ""
+msgstr "Profiler prerušený"
 
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr ""
+msgstr "Detekujem Java inštaláciu..."
 
 #: src/application/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
@@ -1556,12 +1573,12 @@ msgstr "Veľkosť pamäte, s ktoru sa Minecraft spustí."
 #: src/application/pages/global/JavaPage.ui:116
 msgctxt "JavaPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr ""
+msgstr "Veľkosť použiteľnej pamäte na ukladanie Java tried."
 
 #: src/application/pages/global/JavaPage.ui:141
 msgctxt "JavaPage|"
 msgid "Java Runtime"
-msgstr ""
+msgstr "Java Runtime"
 
 #: src/application/pages/global/JavaPage.ui:153
 msgctxt "JavaPage|"
@@ -1571,7 +1588,7 @@ msgstr "Cesta k Jave:"
 #: src/application/pages/global/JavaPage.ui:208
 msgctxt "JavaPage|"
 msgid "Auto-detect..."
-msgstr ""
+msgstr "Auto-detekcia..."
 
 #: src/application/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
@@ -1601,7 +1618,7 @@ msgstr "Nájsť Java spúštač"
 #: src/application/widgets/JavaSettingsWidget.cpp:147
 msgctxt "JavaSettingsWidget|"
 msgid "No Java version selected"
-msgstr ""
+msgstr "Nie je zvolená verzia Javy"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:148
 msgctxt "JavaSettingsWidget|"
@@ -1612,41 +1629,46 @@ msgid ""
 "\n"
 "You can change the Java version in the settings later.\n"
 msgstr ""
+"Nezvolili ste verziu Javy alebo ste zvolili niečo čo nefunguje.\n"
+"MultiMC nebude môcť spustiť Minecraft.\n"
+"Chcete pokračovať bez akejkoľvek Javy?\n"
+"\n"
+"Verziu Javy dokážete kedykoľvek zmeniť v nastaveniach.\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
 msgid "Find Java executable"
-msgstr ""
+msgstr "Nájsť Java spúštač"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:421
 msgctxt "JavaSettingsWidget|"
 msgid "Memory"
-msgstr ""
+msgstr "Pamäť"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:422
 msgctxt "JavaSettingsWidget|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr ""
+msgstr "Maximálna veľkosť pamäte, ktorú môže Minecraft použiť."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:423
 msgctxt "JavaSettingsWidget|"
 msgid "Minimum memory allocation:"
-msgstr ""
+msgstr "Minimálna alokovaná pamäť:"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:424
 msgctxt "JavaSettingsWidget|"
 msgid "Maximum memory allocation:"
-msgstr ""
+msgstr "Maximálna alokovaná pamäť:"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:425
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory Minecraft is started with."
-msgstr ""
+msgstr "Veľkosť pamäte, s ktoru sa Minecraft spustí."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:426
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr ""
+msgstr "Veľkosť použiteľnej pamäte na ukladanie Java tried."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:427
 msgctxt "JavaSettingsWidget|"
@@ -1664,6 +1686,8 @@ msgid ""
 "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
 msgstr ""
+"Nemáte funkčné nastavenia Javy alebo toto nastavenie chýba\n"
+"Prosim zvoľte si jedno z nasledujúcich alebo vyhľadajte spustiteľnú Javu."
 
 #: src/application/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
@@ -1673,7 +1697,7 @@ msgstr "Jazyk"
 #: src/application/widgets/LanguageSelectionWidget.cpp:50
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?"
-msgstr ""
+msgstr "Nevidíte svoj jazyk alebo kvalita prekladu je slabá?"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1688,7 +1712,7 @@ msgstr "Zvoľte jazyk použitý v MultiMC"
 #: src/application/LaunchController.cpp:28
 msgctxt "LaunchController|"
 msgid "No instance specified"
-msgstr ""
+msgstr "Nebola zvolená inštancia"
 
 #: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
@@ -1702,16 +1726,19 @@ msgid ""
 "account logged in to MultiMC.Would you like to open the account manager to "
 "add an account now?"
 msgstr ""
+"Ak chcete hrať Minecraft, musíte byť prihlásený v MultiMC aspoň pod jedným "
+"účtom Mojang alebo Minecraft. Želáte si otvoriť spávcu účtov a pridať svoj "
+"účet?"
 
 #: src/application/LaunchController.cpp:62
 msgctxt "LaunchController|"
 msgid "Which profile would you like to use?"
-msgstr ""
+msgstr "Ktorý profil si želáte použiť?"
 
 #: src/application/LaunchController.cpp:78
 msgctxt "LaunchController|"
 msgid "No account selected for launch"
-msgstr ""
+msgstr "Nie je zvolený účet pre spustenie"
 
 #: src/application/LaunchController.cpp:87
 msgctxt "LaunchController|"
@@ -1719,26 +1746,27 @@ msgid ""
 "Your account is currently not logged in. Please enter your password to log "
 "in again."
 msgstr ""
+"Váš účet nie je prihlásený. Zadajte prosím svoje heslo a prihláste sa znova."
 
 #: src/application/LaunchController.cpp:103
 msgctxt "LaunchController|"
 msgid "Play Offline"
-msgstr ""
+msgstr "Spustiť offline"
 
 #: src/application/LaunchController.cpp:123
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Neindentifikovaný stav pripojenia počas prihlasovania."
 
 #: src/application/LaunchController.cpp:164
 msgctxt "LaunchController|"
 msgid "Player name"
-msgstr ""
+msgstr "Meno hráča"
 
 #: src/application/LaunchController.cpp:165
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
-msgstr ""
+msgstr "Zvoľte si meno hráča počas hry bez pripojenia na internet."
 
 #: src/application/LaunchController.cpp:187
 msgctxt "LaunchController|"
@@ -1756,18 +1784,18 @@ msgstr "Chyba"
 #: src/application/LaunchController.cpp:198
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "Nepodarilo sa nahrať profil inštancie."
 
 #: src/application/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr ""
+msgstr "Nepodarilo sa inštanciovať spúštač."
 
 #: src/application/LaunchController.cpp:237
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
-msgstr ""
+msgstr "Nepodarilo sa spustiť profiler: %1"
 
 #: src/application/LaunchController.cpp:246
 #, qt-format
@@ -1778,11 +1806,15 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"Spustenie hry je pozastavené pokiaľ nestlačíte kláves. Toto je vhodný čas na "
+"nastavenie profilera, pretože profiler server práve beží.\n"
+"\n"
+"%1"
 
 #: src/application/LaunchController.cpp:249
 msgctxt "LaunchController|"
 msgid "Waiting"
-msgstr ""
+msgstr "Čakanie"
 
 #: src/application/LaunchController.cpp:251
 msgctxt "LaunchController|"
@@ -1793,7 +1825,7 @@ msgstr "Spustiť"
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
-msgstr ""
+msgstr "Nepodarilo sa spustiť profiler: %1"
 
 #: src/application/LaunchController.cpp:288
 msgctxt "LaunchController|"
@@ -1803,7 +1835,7 @@ msgstr "Zrušiť"
 #: src/application/LaunchController.cpp:304
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
-msgstr ""
+msgstr "Zastaviť Minecraft?"
 
 #: src/application/LaunchController.cpp:305
 msgctxt "LaunchController|"
@@ -1811,6 +1843,8 @@ msgid ""
 "This can cause the instance to get corrupted and should only be used if "
 "Minecraft is frozen for some reason"
 msgstr ""
+"Toto môže spôsobiť poškodenie inštancie a môže to byť použité iba v prípade "
+"ak je Minecraft zamrznutý z nejakej príčiny"
 
 #: src/api/logic/launch/LaunchTask.cpp:215
 #, qt-format
@@ -1821,18 +1855,22 @@ msgid ""
 "You may have to fix your mods because the game is still logging to files and "
 "likely wasting harddrive space at an alarming rate!"
 msgstr ""
+"MultiMC ukončil zaznamenávanie herného logu, pretože log prekročil veľkosť "
+"%1 riadkov.\n"
+"Maly by ste opraviť svoje módy, pretože hra stále zaznamenáva log do súborov "
+"a neúnostne zaberá čoraz viac a viac mesta na Disku!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Wrapper príkaz \"%1\" nebol nájdený."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Nepodarilo sa spustiť minecraft!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:173
 #, qt-format
@@ -1841,6 +1879,8 @@ msgid ""
 "Minecraft process ID: %1\n"
 "\n"
 msgstr ""
+"Id Minecraft procesu: %1\n"
+"\n"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:226
 msgctxt "LegacyInstance|"
@@ -1850,14 +1890,15 @@ msgstr ""
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:231
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr ""
+msgstr "Vytvorenie inštancie z predchádzajúcej verzie."
 
 #: src/application/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade"
-msgstr ""
+msgstr "Vylepšiť"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
+#, fuzzy
 msgctxt "LegacyUpgradePage|"
 msgid ""
 "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old "
@@ -1871,11 +1912,21 @@ msgid ""
 "p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel "
 "for testing here</a>.</p></body></html>"
 msgstr ""
+"<html><body><h1>Je potrebné vylepšenie</h1><p>MultiMC now supports old "
+"Minecraft versions and all the required features in the new (OneSix) "
+"instance format. As a consequence, the old (Legacy) format has been entirely "
+"disabled and old instances need to be upgraded.</p><p>The upgrade will "
+"create a new instance with the same contents as the current one, in the new "
+"format. The original instance will remain untouched, in case anything goes "
+"wrong in the process.</p><p>Please report any issues on our <a href="
+"\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</"
+"p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel "
+"for testing here</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr ""
+msgstr "Vylepšiť inštanciu"
 
 #: src/application/pages/instance/LegacyUpgradePage.cpp:26
 msgctxt "LegacyUpgradePage|"
@@ -1907,23 +1958,23 @@ msgstr "Kopírovanie zložky inštancie zlyhalo."
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:81
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr ""
+msgstr "Nie je možné rozhodnúť sa pre verziu Minecraftu."
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:134
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "Kopírovanie zložky inštancie bolo prerušené."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:13
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr ""
+msgstr "Načítanie súborov knižníc z Mojangu..."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:21
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr ""
+msgstr "Knižnice inštancie %1"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
@@ -1964,7 +2015,7 @@ msgstr "Nájsť"
 #: src/application/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
 msgid "Keep updating"
-msgstr ""
+msgstr "Vždy vylepšovať"
 
 #: src/application/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
@@ -2004,17 +2055,17 @@ msgstr "Vyčistiť"
 #: src/application/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr ""
+msgstr "Presunúť na spodok"
 
 #: src/application/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr ""
+msgstr "Na spodok"
 
 #: src/application/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr ""
+msgstr "Minecraft Log"
 
 #: src/application/pages/instance/LogPage.cpp:239
 #, qt-format
@@ -2081,22 +2132,22 @@ msgstr "Heslo"
 #: src/application/MainWindow.cpp:254
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Hlavný panel nástrojov"
 
 #: src/application/MainWindow.cpp:437
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
-msgstr ""
+msgstr "Panel nástrojov inštancie"
 
 #: src/application/MainWindow.cpp:414
 msgctxt "MainWindow|"
 msgid "News Toolbar"
-msgstr ""
+msgstr "Panel nástrojov novinky"
 
 #: src/application/MainWindow.cpp:259
 msgctxt "MainWindow|"
 msgid "Add Instance"
-msgstr ""
+msgstr "Pridať inštanciu"
 
 #: src/application/MainWindow.cpp:230
 msgctxt "MainWindow|"
@@ -2111,7 +2162,7 @@ msgstr "Zrušiť bežiacu inľtanciu"
 #: src/application/MainWindow.cpp:260
 msgctxt "MainWindow|"
 msgid "Add a new instance."
-msgstr "Pridať novú inštanciu"
+msgstr "Pridať novú inštanciu."
 
 #: src/application/MainWindow.cpp:272
 msgctxt "MainWindow|"
@@ -2121,17 +2172,17 @@ msgstr "Zobraziť zložku inštancie"
 #: src/application/MainWindow.cpp:273
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
-msgstr ""
+msgstr "Otvoriť priečinok inštancie v prehladači súborov"
 
 #: src/application/MainWindow.cpp:280
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
-msgstr ""
+msgstr "Zobraziť priečinok centrálnych módov"
 
 #: src/application/MainWindow.cpp:281
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
-msgstr ""
+msgstr "Otvoriť priečinok centrálnych módov v prehladači súborov"
 
 #: src/application/MainWindow.cpp:301
 msgctxt "MainWindow|"
@@ -2176,22 +2227,22 @@ msgstr "O MultiMC"
 #: src/application/MainWindow.cpp:338
 msgctxt "MainWindow|"
 msgid "View information about MultiMC."
-msgstr ""
+msgstr "Zobraziť informácie o MultiMC."
 
 #: src/application/MainWindow.cpp:236
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
-msgstr ""
+msgstr "Spustiť zvolenú inštanciu."
 
 #: src/application/MainWindow.cpp:360
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
-msgstr ""
+msgstr "Získať nové vylepšenia MultiMC."
 
 #: src/application/MainWindow.cpp:459
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
-msgstr ""
+msgstr "Premenovať zvolenú inštanciu."
 
 #: src/application/MainWindow.cpp:515
 msgctxt "MainWindow|"
@@ -2398,7 +2449,7 @@ msgstr ""
 #: src/application/MainWindow.cpp:359
 msgctxt "MainWindow|"
 msgid "Update"
-msgstr ""
+msgstr "Vylepšenie"
 
 #: src/application/MainWindow.cpp:370
 msgctxt "MainWindow|"
@@ -2457,6 +2508,8 @@ msgid ""
 "Couldn't create folder for update downloads:\n"
 "%1"
 msgstr ""
+"Nepodarilo sa vytvoriť adresár pre sťahovanie vylepšenia:\n"
+"%1"
 
 #: src/application/MainWindow.cpp:721 src/application/MainWindow.cpp:1081
 msgctxt "MainWindow|"
@@ -2552,12 +2605,12 @@ msgstr "Spustiť Minecraft maximalizovaný?"
 #: src/application/pages/global/MinecraftPage.ui:63
 msgctxt "MinecraftPage|"
 msgid "Window hei&ght:"
-msgstr "Výška okna"
+msgstr "Výška okna:"
 
 #: src/application/pages/global/MinecraftPage.ui:73
 msgctxt "MinecraftPage|"
 msgid "W&indow width:"
-msgstr "Šírka okna"
+msgstr "Šírka okna:"
 
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
 msgctxt "MinecraftUpdate|"
@@ -2656,17 +2709,17 @@ msgstr ""
 #: src/application/pages/global/MultiMCPage.ui:51
 msgctxt "MultiMCPage|"
 msgid "Update Settings"
-msgstr ""
+msgstr "Nastavenie vylepšení"
 
 #: src/application/pages/global/MultiMCPage.ui:57
 msgctxt "MultiMCPage|"
 msgid "Check for updates when MultiMC starts?"
-msgstr ""
+msgstr "Zistiť vylepšenia pri štarte MultiMC?"
 
 #: src/application/pages/global/MultiMCPage.ui:64
 msgctxt "MultiMCPage|"
 msgid "Up&date Channel:"
-msgstr ""
+msgstr "&Kanál vylepšení:"
 
 #: src/application/pages/global/MultiMCPage.ui:81
 msgctxt "MultiMCPage|"
@@ -2808,12 +2861,12 @@ msgstr ""
 #: src/application/pages/global/MultiMCPage.ui:415
 msgctxt "MultiMCPage|"
 msgid " lines"
-msgstr ""
+msgstr "Riadky"
 
 #: src/application/pages/global/MultiMCPage.ui:443
 msgctxt "MultiMCPage|"
 msgid "Console font"
-msgstr ""
+msgstr "Písmo konzoly"
 
 #: src/application/pages/global/MultiMCPage.ui:94
 msgctxt "MultiMCPage|"
@@ -2828,7 +2881,7 @@ msgstr ""
 #: src/application/pages/global/MultiMCPage.ui:183
 msgctxt "MultiMCPage|"
 msgid "MultiMC notifications"
-msgstr ""
+msgstr "MultiMC notifikácie"
 
 #: src/application/pages/global/MultiMCPage.ui:189
 msgctxt "MultiMCPage|"
@@ -3088,7 +3141,7 @@ msgstr ""
 #: src/application/pages/instance/OtherLogsPage.cpp:220
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
-msgstr ""
+msgstr "Vyčistiť"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
@@ -3153,7 +3206,7 @@ msgstr "Verzia:"
 #: src/application/pages/global/PackagesPage.ui:95
 msgctxt "PackagesPage|"
 msgid "Time:"
-msgstr "Čas"
+msgstr "Čas:"
 
 #: src/application/pages/global/PackagesPage.ui:109
 msgctxt "PackagesPage|"
@@ -3183,19 +3236,19 @@ msgstr "Názov:"
 #: src/application/pages/global/PackagesPage.ui:240
 msgctxt "PackagesPage|"
 msgid "Refresh Index"
-msgstr ""
+msgstr "Obnoviť index"
 
 #: src/application/pages/global/PackagesPage.h:37
 msgctxt "PackagesPage|"
 msgid "Packages"
-msgstr ""
+msgstr "Balky"
 
 #: src/application/pages/global/PackagesPage.cpp:165
 #: src/application/pages/global/PackagesPage.cpp:204
 #, qt-format
 msgctxt "PackagesPage|"
 msgid "Refresh %1"
-msgstr ""
+msgstr "Obnoviť %1"
 
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
@@ -3679,7 +3732,7 @@ msgstr "Svetlý"
 #: src/application/UpdateController.cpp:362
 msgctxt "QObject|"
 msgid "Update failed!"
-msgstr ""
+msgstr "Vylepšenie zlyhalo!"
 
 #: src/application/UpdateController.cpp:363
 msgctxt "QObject|"
@@ -3860,22 +3913,22 @@ msgstr "Skíny"
 #: src/application/widgets/ServerStatus.cpp:66
 msgctxt "ServerStatus|"
 msgid "Auth"
-msgstr ""
+msgstr "Autorizovaný"
 
 #: src/application/widgets/ServerStatus.cpp:68
 msgctxt "ServerStatus|"
 msgid "Session"
-msgstr ""
+msgstr "Pripojenie"
 
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:288
 msgctxt "ServersModel|"
 msgid "Name"
-msgstr ""
+msgstr "Názov"
 
 #: src/application/pages/instance/ServersPage.cpp:290
 msgctxt "ServersModel|"
@@ -3885,32 +3938,32 @@ msgstr "Adresa"
 #: src/application/pages/instance/ServersPage.cpp:292
 msgctxt "ServersModel|"
 msgid "Latency"
-msgstr ""
+msgstr "Odozva"
 
 #: src/application/pages/instance/ServersPage.ui:48
 msgctxt "ServersPage|"
 msgid "Ask to download"
-msgstr ""
+msgstr "Opýtať sa pred sťahovaním"
 
 #: src/application/pages/instance/ServersPage.ui:53
 msgctxt "ServersPage|"
 msgid "Always download"
-msgstr ""
+msgstr "Vždy sťahovať"
 
 #: src/application/pages/instance/ServersPage.ui:58
 msgctxt "ServersPage|"
 msgid "Never download"
-msgstr ""
+msgstr "Nikdy nesťahovať"
 
 #: src/application/pages/instance/ServersPage.ui:66
 msgctxt "ServersPage|"
 msgid "Reso&urces"
-msgstr ""
+msgstr "Zdro&je"
 
 #: src/application/pages/instance/ServersPage.ui:79
 msgctxt "ServersPage|"
 msgid "&Name"
-msgstr "&Názov:"
+msgstr "&Názov"
 
 #: src/application/pages/instance/ServersPage.ui:92
 msgctxt "ServersPage|"
@@ -3980,22 +4033,22 @@ msgstr "Verzia"
 #: src/api/logic/minecraft/SimpleModList.cpp:288
 msgctxt "SimpleModList|"
 msgid "Last changed"
-msgstr "Posledne zmenené"
+msgstr "Naposledy zmenené"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:297
 msgctxt "SimpleModList|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Je tento mód povolený?"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:299
 msgctxt "SimpleModList|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "Názov módu."
 
 #: src/api/logic/minecraft/SimpleModList.cpp:301
 msgctxt "SimpleModList|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "Verzia módu."
 
 #: src/api/logic/minecraft/SimpleModList.cpp:303
 msgctxt "SimpleModList|"
@@ -4066,7 +4119,7 @@ msgstr ""
 #: src/application/dialogs/SkinUploadDialog.cpp:95
 msgctxt "SkinUploadDialog|"
 msgid "Success"
-msgstr ""
+msgstr "Úspešné"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:101
 msgctxt "SkinUploadDialog|"
@@ -4084,12 +4137,12 @@ msgstr ""
 #: src/application/pages/modplatform/TechnicPage.h:40
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr ""
+msgstr "Technic"
 
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
-msgstr ""
+msgstr "Balíčky textúr"
 
 #: src/api/logic/translations/TranslationsModel.cpp:348
 #, qt-format
@@ -4131,7 +4184,7 @@ msgstr "Twitch"
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
-msgstr "Úloha zrušená"
+msgstr "Úloha zrušená."
 
 #: src/api/logic/launch/steps/Update.cpp:52
 #, qt-format
@@ -4144,7 +4197,7 @@ msgstr ""
 #: src/application/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
 msgid "MultiMC Update"
-msgstr ""
+msgstr "Vylepšenie MultiMC"
 
 #: src/application/dialogs/UpdateDialog.ui:46
 msgctxt "UpdateDialog|"
@@ -4165,24 +4218,24 @@ msgstr ""
 #: src/application/dialogs/UpdateDialog.ui:68
 msgctxt "UpdateDialog|"
 msgid "Update now"
-msgstr ""
+msgstr "Vylepšiť teraz"
 
 #: src/application/dialogs/UpdateDialog.ui:81
 msgctxt "UpdateDialog|"
 msgid "Don't update yet"
-msgstr ""
+msgstr "Zatiaľ nevylepšiť"
 
 #: src/application/dialogs/UpdateDialog.cpp:17
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "A new %1 update is available!"
-msgstr ""
+msgstr "K dispozícii je nové vylepšenie %1!"
 
 #: src/application/dialogs/UpdateDialog.cpp:21
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "No %1 updates found. You are running the latest version."
-msgstr ""
+msgstr "Neboli nájdené vylepšenia %1. Používate najnovšiu verziu."
 
 #: src/application/dialogs/UpdateDialog.cpp:23
 msgctxt "UpdateDialog|"
@@ -4210,7 +4263,7 @@ msgstr ""
 #: src/application/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: src/application/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
@@ -4230,27 +4283,27 @@ msgstr ""
 #: src/application/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
 msgid "Betas"
-msgstr ""
+msgstr "Beta verzie"
 
 #: src/application/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr ""
+msgstr "Alfa verzie"
 
 #: src/application/pages/modplatform/VanillaPage.ui:117
 msgctxt "VanillaPage|"
 msgid "Refresh"
-msgstr ""
+msgstr "Obnoviť"
 
 #: src/application/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
 msgid "No versions are currently available."
-msgstr ""
+msgstr "Žiadne verzie nie sú momentálne dostupné."
 
 #: src/application/pages/instance/VersionPage.h:38
 msgctxt "VersionPage|"
@@ -4260,12 +4313,12 @@ msgstr "Verzia"
 #: src/application/pages/instance/VersionPage.ui:60
 msgctxt "VersionPage|"
 msgid "Selection"
-msgstr ""
+msgstr "Voľba"
 
 #: src/application/pages/instance/VersionPage.ui:73
 msgctxt "VersionPage|"
 msgid "Change version"
-msgstr ""
+msgstr "Zmeniť verziu"
 
 #: src/application/pages/instance/VersionPage.ui:83
 msgctxt "VersionPage|"
@@ -4290,7 +4343,7 @@ msgstr "Inštalovať"
 #: src/application/pages/instance/VersionPage.ui:70
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
-msgstr ""
+msgstr "Zmeniť verziu zvoleného balíčka."
 
 #: src/application/pages/instance/VersionPage.ui:80
 msgctxt "VersionPage|"
@@ -4316,12 +4369,12 @@ msgstr "Upraviť"
 #: src/application/pages/instance/VersionPage.ui:123
 msgctxt "VersionPage|"
 msgid "Customize selected package."
-msgstr ""
+msgstr "Upraviť zvolený balíček."
 
 #: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Customize"
-msgstr ""
+msgstr "Upraviť"
 
 #: src/application/pages/instance/VersionPage.ui:133
 msgctxt "VersionPage|"
@@ -4336,82 +4389,82 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.ui:146
 msgctxt "VersionPage|"
 msgid "Revert"
-msgstr ""
+msgstr "Vrátiť"
 
 #: src/application/pages/instance/VersionPage.ui:166
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
-msgstr ""
+msgstr "Inštalovať Minecraft Forge balíček."
 
 #: src/application/pages/instance/VersionPage.ui:169
 msgctxt "VersionPage|"
 msgid "Install Forge"
-msgstr ""
+msgstr "Inštalovať Forge"
 
 #: src/application/pages/instance/VersionPage.ui:176
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
-msgstr ""
+msgstr "Inštalácia LitleLoader balíčka."
 
 #: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
-msgstr ""
+msgstr "Inštalovať LitleLoader"
 
 #: src/application/pages/instance/VersionPage.ui:186
 msgctxt "VersionPage|"
 msgid "Install normal mods."
-msgstr ""
+msgstr "Inštalovať normálne módy."
 
 #: src/application/pages/instance/VersionPage.ui:189
 msgctxt "VersionPage|"
 msgid "Install mods"
-msgstr ""
+msgstr "Inštalovať módy"
 
 #: src/application/pages/instance/VersionPage.ui:199
 msgctxt "VersionPage|"
 msgid "Advanced"
-msgstr ""
+msgstr "Pokročilý"
 
 #: src/application/pages/instance/VersionPage.ui:209
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
-msgstr ""
+msgstr "Pridať mód súboru Minecraft jar"
 
 #: src/application/pages/instance/VersionPage.ui:212
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
-msgstr ""
+msgstr "Pridať do Minecraft.jar"
 
 #: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
-msgstr ""
+msgstr "Nahradiť Minecraft.jar"
 
 #: src/application/pages/instance/VersionPage.ui:226
 msgctxt "VersionPage|"
 msgid "Add Empty"
-msgstr ""
+msgstr "Pridať prázdne"
 
 #: src/application/pages/instance/VersionPage.ui:233
 msgctxt "VersionPage|"
 msgid "Reload all packages."
-msgstr ""
+msgstr "Znovanahratie všetkých balíčkov."
 
 #: src/application/pages/instance/VersionPage.ui:236
 msgctxt "VersionPage|"
 msgid "Reload"
-msgstr ""
+msgstr "Znova načítať"
 
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
-msgstr ""
+msgstr "Stiahnuť súbory potrebné pre spustenie inštancie."
 
 #: src/application/pages/instance/VersionPage.ui:246
 msgctxt "VersionPage|"
 msgid "Download All"
-msgstr ""
+msgstr "Stiahnuť všetko"
 
 #: src/application/pages/instance/VersionPage.cpp:205
 #: src/application/pages/instance/VersionPage.cpp:211
@@ -4453,7 +4506,7 @@ msgstr "Chyba:"
 #: src/application/pages/instance/VersionPage.cpp:172
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr "Upozornenie"
+msgstr "Upozornenie:"
 
 #: src/application/pages/instance/VersionPage.cpp:248
 msgctxt "VersionPage|"
@@ -4537,7 +4590,7 @@ msgstr "Minecraft"
 #: src/application/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
 msgid "Branch"
-msgstr ""
+msgstr "Vetva"
 
 #: src/application/VersionProxyModel.cpp:82
 msgctxt "VersionProxyModel|"
@@ -4547,7 +4600,7 @@ msgstr "Typ"
 #: src/application/VersionProxyModel.cpp:84
 msgctxt "VersionProxyModel|"
 msgid "Architecture"
-msgstr ""
+msgstr "Architektúra"
 
 #: src/application/VersionProxyModel.cpp:86
 msgctxt "VersionProxyModel|"
@@ -4572,12 +4625,12 @@ msgstr "Verzia Minecraftu"
 #: src/application/VersionProxyModel.cpp:100
 msgctxt "VersionProxyModel|"
 msgid "The version's branch"
-msgstr ""
+msgstr "Vetva verzie"
 
 #: src/application/VersionProxyModel.cpp:102
 msgctxt "VersionProxyModel|"
 msgid "The version's type"
-msgstr ""
+msgstr "Typ verzie"
 
 #: src/application/VersionProxyModel.cpp:104
 msgctxt "VersionProxyModel|"
@@ -4638,6 +4691,8 @@ msgid ""
 "List update failed:\n"
 "%1"
 msgstr ""
+"Zlyhal zoznam vylepšení:\n"
+"%1"
 
 #: src/api/logic/minecraft/WorldList.cpp:211
 msgctxt "WorldList|"
@@ -4755,7 +4810,7 @@ msgstr ""
 #: src/application/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
 msgid "Copy World"
-msgstr ""
+msgstr "Kopírovať svet"
 
 #: src/application/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
@@ -4768,7 +4823,7 @@ msgstr ""
 #: src/application/pages/instance/WorldListPage.cpp:319
 msgctxt "WorldListPage|"
 msgid "World name"
-msgstr ""
+msgstr "Názov sveta"
 
 #: src/application/pages/instance/WorldListPage.cpp:296
 msgctxt "WorldListPage|"
