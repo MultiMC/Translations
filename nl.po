@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-02-21 16:23+0100\n"
+"PO-Revision-Date: 2019-03-29 18:34+0100\n"
 "Last-Translator: Matsv <matsvl@hotmail.nl>\n"
 "Language-Team: Dutch <http://weblate.robotbrain.info/projects/multimc/"
 "multimc/nl/>\n"
@@ -94,7 +94,7 @@ msgstr "Licentie"
 #: src/application/dialogs/AboutDialog.ui:276
 msgctxt "AboutDialog|"
 msgid "Forking/Redistribution"
-msgstr ""
+msgstr "Forking/Herdistributie"
 
 #: src/application/dialogs/AboutDialog.ui:282
 msgctxt "AboutDialog|"
@@ -309,6 +309,19 @@ msgid ""
 "settings.</li></ul><p>If we change the tracked information, you will see "
 "this page again.</p></body></html>"
 msgstr ""
+"<html><body><p>MultiMC verzendt anonieme gebruiksstatistieken bij elke start "
+"van de toepassing. Dit helpt ons te beslissen op welke platforms en "
+"problemen we ons moeten richten.</p><p>De gegevens worden verwerkt door "
+"Google Analytics, zie hun <a href=\"https://support.google.com/analytics/"
+"answer/6004245?hl=en\">artikel hierover</a>.</p><p>De volgende gegevens "
+"worden verzameld:<p><ul><li>Een willekeurige unieke ID van de MultiMC-"
+"installatie.<br/>Het wordt opgeslagen in de applicatie-instellingen (multimc."
+"cfg).</li><li>Geanonimiseerd (gedeeltelikl) IP-adres.</li><li>MultiMC versie."
+"</li><li>Besturingssysteem naam, versie en architectuur.</li><li>CPU-"
+"architectuur (kernel architectuur op Linux).</li><li>Grootte van "
+"systeemgeheugen.</li><li>Java-versie, architectuur en geheugeninstellingen.</"
+"li></ul><p>Als we de tracking informatie wijzigen, ziet u deze pagina "
+"opnieuw.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -518,6 +531,8 @@ msgstr "De instance heeft conflicterende dependencies."
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr ""
+"Instance heeft onopgeloste afhankelijkheden tijdens het laden/controleren op "
+"de lancering."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:688
 #, qt-format
@@ -526,6 +541,9 @@ msgid ""
 "Component metadata update task failed while downloading from remote server:\n"
 "%1"
 msgstr ""
+"Update-taak van metagegevens component mislukt tijdens downloaden van "
+"externe server:\n"
+"%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -560,7 +578,7 @@ msgstr "Kon de 'server-resource-packs' map niet aanmaken"
 #: src/application/widgets/CustomCommands.ui:14
 msgctxt "CustomCommands|"
 msgid "Form"
-msgstr ""
+msgstr "Het formulier"
 
 #: src/application/widgets/CustomCommands.ui:23
 msgctxt "CustomCommands|"
@@ -616,13 +634,13 @@ msgstr "Aangepaste Commando's"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Het wrapper commando \"%1\" kon niet worden gevonden."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Kan Minecraft niet starten!"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:121
 #, qt-format
@@ -631,6 +649,8 @@ msgid ""
 "Minecraft process ID: %1\n"
 "\n"
 msgstr ""
+"Minecraft-proces-ID: %1\n"
+"\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -741,7 +761,7 @@ msgstr "JProfiler installatie lijkt OK te zijn"
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "JVisualVM uitvoerbaar"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -777,6 +797,8 @@ msgid ""
 "Error while checking MCEdit install:\n"
 "%1"
 msgstr ""
+"Fout bij het controleren van de MCEdit-installatie:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
@@ -920,17 +942,17 @@ msgstr "Weet je zeker dat je pack %1 wilt verwijderen?"
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:13
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "Mod IDs oplossen..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:115
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
+msgstr "Sommige mod ID-taken zijn mislukt."
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr ""
+msgstr "Maken van map voor Minecraft-binaries is mislukt."
 
 #: src/application/pages/modplatform/FtbListModel.cpp:18
 msgctxt "FtbFilterModel|"
@@ -1135,7 +1157,7 @@ msgstr "ZIP (*.zip)"
 #: src/application/widgets/InstanceCardWidget.ui:14
 msgctxt "InstanceCardWidget|"
 msgid "Form"
-msgstr ""
+msgstr "Het formulier"
 
 #: src/application/widgets/InstanceCardWidget.ui:30
 msgctxt "InstanceCardWidget|"
@@ -1242,6 +1264,8 @@ msgctxt "InstanceImportTask|"
 msgid ""
 "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr ""
+"Mysterieuze achterste stippen verwijderd uit de Minecraft-versie tijdens het "
+"importeren van het pakket."
 
 #: src/api/logic/InstanceImportTask.cpp:252
 #, qt-format
@@ -1265,13 +1289,13 @@ msgstr "De volgende 'map' moet misschien uitgepakt worden: %1"
 msgctxt "InstanceImportTask|"
 msgid ""
 "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr ""
+msgstr "Nesten van modpacks is niet geïmplementeerd, niets is gedownload: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:333
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr ""
+msgstr "Niet-herkende/onverwerkte PackageType voor: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:353
 msgctxt "InstanceImportTask|"
@@ -1281,12 +1305,12 @@ msgstr "Mods downloaden..."
 #: src/api/logic/InstanceImportTask.cpp:360
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
-msgstr ""
+msgstr "Kon mod IDs niet oplossen:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:171
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Instancie importeren is afgebroken."
 
 #: src/application/InstancePageProvider.h:40
 msgctxt "InstancePageProvider|"
@@ -1302,13 +1326,13 @@ msgstr "Core mods"
 #: src/application/InstancePageProvider.h:57
 msgctxt "InstancePageProvider|"
 msgid "Worlds"
-msgstr ""
+msgstr "S Werelds"
 
 #: src/application/InstancePageProvider.h:70
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
-msgstr ""
+msgstr "Bewerk instantie (%1)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:60
 msgctxt "InstanceSettingsPage|"
@@ -1363,7 +1387,7 @@ msgstr "Geheugen"
 #: src/application/pages/instance/InstanceSettingsPage.ui:186
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr ""
+msgstr "Opmerking: Permgen wordt automatisch ingesteld door Java 8 en hoger."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:199
 msgctxt "InstanceSettingsPage|"
@@ -1441,6 +1465,8 @@ msgid ""
 "Failed to commit instance, even after multiple retries. It is being blocked "
 "by something."
 msgstr ""
+"Kan instantie niet toewijzen, zelfs niet na meerdere pogingen. Het wordt "
+"geblokkeerd door iets."
 
 #: src/application/InstanceWindow.cpp:39
 msgctxt "InstanceWindow|"
@@ -1482,7 +1508,7 @@ msgstr "Speel"
 #: src/application/InstanceWindow.cpp:138
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr ""
+msgstr "Start het instantie"
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, qt-format
@@ -1713,7 +1739,7 @@ msgstr "Speel Offline"
 #: src/application/LaunchController.cpp:123
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Onbepaalde sessiestatus ontvangen tijdens inloggen."
 
 #: src/application/LaunchController.cpp:164
 msgctxt "LaunchController|"
@@ -1741,18 +1767,18 @@ msgstr "Error"
 #: src/application/LaunchController.cpp:198
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "Kan het instantie profiel niet laden."
 
 #: src/application/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr ""
+msgstr "Kan een opstartprogramma niet instantiëren."
 
 #: src/application/LaunchController.cpp:237
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
-msgstr ""
+msgstr "Kon profiler niet starten: %1"
 
 #: src/application/LaunchController.cpp:246
 #, qt-format
@@ -1763,6 +1789,11 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"Het starten van het spel is vertraagd totdat u op de knop drukt. Dit is het "
+"juiste moment om de profiler in te stellen, omdat de profilerserver nu wordt "
+"uitgevoerd.\n"
+"\n"
+"%1"
 
 #: src/application/LaunchController.cpp:249
 msgctxt "LaunchController|"
@@ -1778,7 +1809,7 @@ msgstr "Start"
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
-msgstr ""
+msgstr "Kon de profiler niet starten: %1"
 
 #: src/application/LaunchController.cpp:288
 msgctxt "LaunchController|"
