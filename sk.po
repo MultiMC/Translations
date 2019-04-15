@@ -106,6 +106,7 @@ msgid "Forking/Redistribution"
 msgstr "Delenie/Prerozdelenie"
 
 #: src/application/dialogs/AboutDialog.ui:282
+#, fuzzy
 msgctxt "AboutDialog|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -266,7 +267,7 @@ msgctxt "AccountListPage|"
 msgid ""
 "Opens a dialog to select and upload a skin image to the selected account."
 msgstr ""
-"Otvorí dialógové okno na výber a uloženie obázky skinu k vybranému účtu."
+"Otvorí dialógové okno na výber a uloženie obázku skinu k vybranému účtu."
 
 #: src/application/pages/global/AccountListPage.ui:106
 msgctxt "AccountListPage|"
@@ -417,7 +418,7 @@ msgstr "Autentifikácia: Odosielanie požiadavky..."
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:198
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
-msgstr "Autentifikácia: Spraco odpoveď..."
+msgstr "Autentifikácia: Spracovávam odpoveď..."
 
 #: src/api/logic/tools/BaseProfiler.cpp:29
 msgctxt "BaseProfiler|"
@@ -568,7 +569,7 @@ msgstr "Bez skupiny"
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
 msgctxt "CreateServerResourcePacksFolder|"
 msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr "Nepodarilo sa vytvoriť adresár 'server-resource-packs'"
+msgstr "Nepodarilo sa vytvoriť 'server-resource-packs' adresár"
 
 #: src/application/widgets/CustomCommands.ui:14
 msgctxt "CustomCommands|"
@@ -1994,6 +1995,11 @@ msgid ""
 "them.\n"
 "You'll have to correct this problem manually."
 msgstr ""
+"Niektoré artefakty označené ako 'lokálne' postrádajú ich súbory:\n"
+"%1\n"
+"\n"
+"Buď pridáte súbory alebo vymažete balíček, ktorý ich potrebuje.\n"
+"Tento problém musíte vyriešiť manuálne."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -3555,7 +3561,7 @@ msgstr "Nepodarilo sa sprocesovať verziu súboru %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid order file version, expected %1"
-msgstr ""
+msgstr "Chybné poradie súboru verzie, očakávané %1"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -3563,36 +3569,38 @@ msgid ""
 "Version file has both '+libraries' and 'libraries'. This is no longer "
 "supported."
 msgstr ""
+"Súbor verzie obsahuje '+libraries' a 'libraries'. Toto už viac nie je "
+"podporované."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
-msgstr ""
+msgstr "Súbor verzie  obsahuje nepodporovaný element 'tweakers'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
+msgstr "Súbor verzie  obsahuje nepodporovaný element '-libraries'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:237
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
+msgstr "Súbor verzie  obsahuje nepodporovaný element '-tweakers'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:241
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr ""
+msgstr "Súbor verzie  obsahuje nepodporovaný element '-minecraftArguments'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr ""
+msgstr "Súbor verzie  obsahuje nepodporovaný element '+minecraftArguments'"
 
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr ""
+msgstr "Výstraha JVM argumentov"
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -3603,18 +3611,27 @@ msgid ""
 "group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
 msgstr ""
+"Pokúšate sa manuálne nastaviť voľby nastavení pamäte JVM (použitím \"-XX:"
+"PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms"
+"\").\n"
+"Na tieto nastavenia sú určené špeciálne polia (záložka Java, v skupine Pamäť "
+"na vrchu).\n"
+"Táto správa bude zobrazovaná pokiaľ tieto nastavenia nevymažete z JVM "
+"argumentov."
 
 #: src/application/JavaCommon.cpp:32
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr ""
+msgstr "<br />Výstrahy:<br /><font color=\"orange\">%1</font>"
 
 #: src/application/JavaCommon.cpp:42
 msgctxt "QObject|"
 msgid ""
 "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr ""
+"Špecifikovaná java binárka nebude pracovať s argumentami, ktoré ste zadali:"
+"<br />"
 
 #: src/application/JavaCommon.cpp:50
 msgctxt "QObject|"
@@ -3622,6 +3639,8 @@ msgid ""
 "The specified java binary didn't work.<br />You should use the auto-detect "
 "feature, or set the path to the java executable.<br />"
 msgstr ""
+"Špecifikovaná java binárka nebude pracovať .<br />Použite auto-detectkciu "
+"alebo nastavte cestu k java spúšťaču.<br />"
 
 #: src/application/dialogs/ModEditDialogCommon.cpp:36
 msgctxt "QObject|"
@@ -3654,7 +3673,7 @@ msgctxt "QObject|"
 msgid ""
 "The <a href=\"%1\">link to the uploaded log</a> has been placed in your "
 "clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">Linka k odoslanému logu</a> bola uložená do clipboardu."
 
 #: src/application/dialogs/AboutDialog.cpp:30
 #, qt-format
@@ -3678,6 +3697,23 @@ msgid ""
 "<a href='https://twitter.com/rootbear75'>@rootbear75</a>&gt;</p><h3>Patrons</"
 "h3>%1</body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN' 'http://www.w3.org/TR/REC-"
+"html40/strict.dtd'><html><head><meta name='qrichtext' content='1' /><style "
+"type='text/css'>p { white-space: pre-wrap; margin-top:2px; margin-"
+"bottom:2px; }</style></head><body style=' font-family:'Sans Serif'; font-"
+"size:9pt; font-weight:400; font-style:normal;'><h3>MultiMC Developers</"
+"h3><p>Andrew Okin &lt;<a href='mailto:forkk@forkk.net'>forkk@forkk.net</"
+"a>&gt;</p><p>Petr Mrázek &lt;<a href='mailto:peterix@gmail."
+"com'>peterix@gmail.com</a>&gt;</p><p>Sky Welch &lt;<a href='mailto:"
+"multimc@bunnies.io'>multimc@bunnies.io</a>&gt;</p><p>Jan (02JanDal) &lt;<a "
+"href='mailto:02jandal@gmail.com'>02jandal@gmail.com</a>&gt;</p><p>RoboSky "
+"&lt;<a href='https://twitter.com/RoboSky_'>@RoboSky_</a>&gt;</p><h3>With "
+"thanks to</h3><p>Orochimarufan &lt;<a href='mailto:orochimarufan.x3@gmail."
+"com'>orochimarufan.x3@gmail.com</a>&gt;</p><p>TakSuyu &lt;<a href='mailto:"
+"taksuyu@gmail.com'>taksuyu@gmail.com</a>&gt;</p><p>Kilobyte &lt;<a "
+"href='mailto:stiepen22@gmx.de'>stiepen22@gmx.de</a>&gt;</p><p>Rootbear75 &lt;"
+"<a href='https://twitter.com/rootbear75'>@rootbear75</a>&gt;</p><h3>Patrons</"
+"h3>%1</body></html>"
 
 #: src/application/dialogs/AboutDialog.cpp:62
 msgctxt "QObject|"
@@ -3689,30 +3725,30 @@ msgstr "<p>Nahrávam...</p>"
 msgctxt "QObject|"
 msgid ""
 "<p>There are no code changes between your current version and latest %1.</p>"
-msgstr ""
+msgstr "<p>Žiadna zmena kódu medzi aktuálnou a poslednou verziou %1.</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:125
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
+msgstr "<p>Od poslednej aktualizácie boli pridané nasledujúce potvrdenia:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:132
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr ""
+msgstr "<p>Aktualizácia vymaže %1 potvrdenia a pridá nasledujúce %2:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:135
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
+msgstr "<p>Tu môžete <a href=\"%1\">vidieť zmeny na githube</a>.</p>"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:153
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "procesnýArgument je nastavený na neznámu hodnotu '%1'"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:178
 #, qt-format
@@ -3721,6 +3757,8 @@ msgid ""
 "The 'minimumLauncherVersion' value of this version (%1) is higher than "
 "supported by MultiMC (%2). It might not work properly!"
 msgstr ""
+"'minimumLauncherVersion' hodnota tejto verzie (%1) je vyššia ako je "
+"podporované MultiMC (%2). Môže to nefungovať správne!"
 
 #: src/api/logic/minecraft/AssetsUtils.cpp:321
 #, qt-format
@@ -3731,17 +3769,17 @@ msgstr "Herné súbory pre %1"
 #: src/application/widgets/JavaSettingsWidget.cpp:281
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr ""
+msgstr "Špecifikovaný súbor buď neexistuje alebo nie je spustiteľný."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:286
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
+msgstr "Špecifikovaná java binárka nenaštartovala správne.<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:298
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
+msgstr "pecifikovaná java binárka vrátila neočakávaný výsledok:<br />"
 
 #: src/application/JavaCommon.cpp:26
 #: src/application/widgets/JavaSettingsWidget.cpp:309
@@ -3751,6 +3789,8 @@ msgid ""
 "Java test succeeded!<br />Platform reported: %1<br />Java version reported: "
 "%2<br />"
 msgstr ""
+"Java test úspešný!<br />Reportovaná platforma: %1<br />Reportovaná virzia "
+"Javy: %2<br />"
 
 #: src/application/JavaCommon.cpp:34
 #: src/application/widgets/JavaSettingsWidget.cpp:318
@@ -3787,7 +3827,7 @@ msgstr "Vylepšenie zlyhalo!"
 #: src/application/UpdateController.cpp:363
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr ""
+msgstr "Obnova neúspešná!"
 
 #: src/application/UpdateController.cpp:368
 #, qt-format
@@ -3796,6 +3836,8 @@ msgid ""
 "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Nepodarilo sa prepísať súbor %1. Zmeny budú vrátené.\n"
+"Pre detaily pozrite MultiMC súbor logov."
 
 #: src/application/UpdateController.cpp:376
 #, qt-format
@@ -3804,6 +3846,8 @@ msgid ""
 "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr ""
+"Nepodarilo sa vymazať súbor %1. Zmeny budú vrátené.\n"
+"Pre detaily pozrite MultiMC súbor logov."
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
@@ -3813,6 +3857,10 @@ msgid ""
 "\n"
 "Roll back to previous version?"
 msgstr ""
+"Nová verzia sa nerozbehla alebo je príliš stará a neodpovedá na skúšky pri "
+"štarte.\n"
+"\n"
+"Vrátiť predošlú verziu?"
 
 #: src/application/UpdateController.cpp:406
 msgctxt "QObject|"
@@ -3821,6 +3869,9 @@ msgid ""
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
 msgstr ""
+"Vrátenie verzie zlyhalo.\n"
+"Musíte opraviť MultiMC manuálne.\n"
+"Prosím dajte nám vedieť prečo a ako sa toto stalo."
 
 #: src/application/MainWindow.cpp:953
 msgctxt "QObject|"
@@ -3830,19 +3881,19 @@ msgstr " (v používaní)"
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
-msgstr ""
+msgstr "Záplata sa zatiaľ nenahrala."
 
 #: src/api/logic/minecraft/ComponentList.cpp:188
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr ""
+msgstr "Nesprávna verzia súboru komponentu, očakávaná verzia %1"
 
 #: src/api/logic/meta/BaseEntity.cpp:117
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr ""
+msgstr "Nahrávanie meta súboru %1"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
@@ -3863,7 +3914,7 @@ msgstr "Server Minecraft"
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "Autentifikačný server neposlal klientský token."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
@@ -3871,26 +3922,28 @@ msgid ""
 "Authentication server attempted to change the client token. This isn't "
 "supported."
 msgstr ""
+"Autentifikačný server sa pokúsil zmeniť token klienta. Toto nie je "
+"podporované."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "Autentifikačný server nezaslal prístupový token."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
-msgstr ""
+msgstr "Autentifikačný server nešpecifikoval taký profil, aký bol očakávaný."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
 msgid "Refreshing login token..."
-msgstr ""
+msgstr "Obnova prihlasovacieho tokenu..."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:140
 msgctxt "RefreshTask|"
 msgid "Refreshing login token: Processing response..."
-msgstr ""
+msgstr "Obnova prihlasovacieho tokenu: Spracovávam odpoveď..."
 
 #: src/application/pages/instance/ResourcePackPage.h:11
 msgctxt "ResourcePackPage|"
@@ -3944,6 +3997,7 @@ msgid ""
 "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your "
 "clipboard."
 msgstr ""
+"<a href=\"%1\">Linka k odoslanému albumu</a> bola uložená do clipboardu."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
@@ -4103,7 +4157,7 @@ msgstr "Verzia módu."
 #: src/api/logic/minecraft/SimpleModList.cpp:303
 msgctxt "SimpleModList|"
 msgid "The date and time this mod was last changed (or added)."
-msgstr ""
+msgstr "Dátum a čas poslednej zmeny tohoto módu (alebo pridanie)."
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 msgctxt "SkinUpload|"
@@ -4150,6 +4204,7 @@ msgstr "Nepodarilo sa prihlásiť!"
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
 msgstr ""
+"Použitie vzdialených URL adries pre nastavenie skínov nie je implementované."
 
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
@@ -4183,6 +4238,8 @@ msgid ""
 "Failed to load status JSON:\n"
 "%1"
 msgstr ""
+"Nepodarilo sa nahrať stavový JSON:\n"
+"%1"
 
 #: src/application/pages/modplatform/TechnicPage.h:40
 msgctxt "TechnicPage|"
@@ -4203,6 +4260,10 @@ msgid ""
 "%3 fuzzy\n"
 "%4 total"
 msgstr ""
+"%1:\n"
+"%2 preložené\n"
+"%3 fuzzy\n"
+"%4 celkovo"
 
 #: src/api/logic/translations/TranslationsModel.cpp:366
 msgctxt "TranslationsModel|"
@@ -4212,12 +4273,12 @@ msgstr "Jazyk"
 #: src/api/logic/translations/TranslationsModel.cpp:370
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr ""
+msgstr "Úplnosť"
 
 #: src/api/logic/translations/TranslationsModel.cpp:380
 msgctxt "TranslationsModel|"
 msgid "The native language name."
-msgstr ""
+msgstr "Názov rodného jazyka."
 
 #: src/api/logic/translations/TranslationsModel.cpp:384
 msgctxt "TranslationsModel|"
@@ -4225,6 +4286,8 @@ msgid ""
 "Completeness is the percentage of fully translated strings, not counting "
 "automatically guessed ones."
 msgstr ""
+"Úplnosť je percento úplne preložených reťazcov, ktoré nepočítajú automaticky "
+"odhadnuté reťazce."
 
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
@@ -4243,6 +4306,8 @@ msgid ""
 "Instance update failed because: %1\n"
 "\n"
 msgstr ""
+"Vylepšenie inštancie sa nepodarilo z dôvodu: %1\n"
+"\n"
 
 #: src/application/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
@@ -4264,6 +4329,17 @@ msgid ""
 "style=\" font-family:'Bitstream Vera Sans'; font-size:22pt;\">Loading "
 "changelog...</span></p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Noto Sans'; font-size:12pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-family:'Bitstream Vera Sans'; font-size:22pt;\">Nahrávam "
+"zmenový súbor...</span></p></body></html>"
 
 #: src/application/dialogs/UpdateDialog.ui:68
 msgctxt "UpdateDialog|"
@@ -4299,16 +4375,18 @@ msgid ""
 "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch "
 "changelog... Error: %1</span></p>"
 msgstr ""
+"<p align=\"center\" <span style=\"font-size:22pt;\">Nepodarilo sa nahrať "
+"zmenový súbor... Chyba: %1</span></p>"
 
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:55
 msgctxt "ValidateTask|"
 msgid "Validating access token: Sending request..."
-msgstr ""
+msgstr "Validovanie prístupového tokenu: Odosielam požiadavku..."
 
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:57
 msgctxt "ValidateTask|"
 msgid "Validating access token: Processing response..."
-msgstr ""
+msgstr "Validovanie prístupového tokenu: Spracovávam odpoveď..."
 
 #: src/application/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
@@ -4318,17 +4396,17 @@ msgstr "Filter"
 #: src/application/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
 msgid "Releases"
-msgstr ""
+msgstr "Vydania"
 
 #: src/application/pages/modplatform/VanillaPage.ui:64
 msgctxt "VanillaPage|"
 msgid "Snapshots"
-msgstr ""
+msgstr "Snímky"
 
 #: src/application/pages/modplatform/VanillaPage.ui:74
 msgctxt "VanillaPage|"
 msgid "Old Snapshots"
-msgstr ""
+msgstr "Staré snímky"
 
 #: src/application/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
@@ -4398,17 +4476,17 @@ msgstr "Zmeniť verziu zvoleného balíčka."
 #: src/application/pages/instance/VersionPage.ui:80
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr ""
+msgstr "Aplikovať zvolený balíček skôr."
 
 #: src/application/pages/instance/VersionPage.ui:90
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr ""
+msgstr "Aplikovať zvolený balíček neskôr."
 
 #: src/application/pages/instance/VersionPage.ui:100
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
-msgstr ""
+msgstr "Vymazať zvolený balíček z inštancie."
 
 #: src/application/pages/instance/VersionPage.ui:113
 #: src/application/pages/instance/VersionPage.ui:136
@@ -4584,7 +4662,7 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.cpp:493
 msgctxt "VersionPage|"
 msgid "Error updating instance"
-msgstr ""
+msgstr "Chyba pri vylepšovaní inštancie"
 
 #: src/application/pages/instance/VersionPage.cpp:370
 msgctxt "VersionPage|"
@@ -4695,13 +4773,13 @@ msgstr ""
 #: src/application/VersionProxyModel.cpp:108
 msgctxt "VersionProxyModel|"
 msgid "Release date of this version"
-msgstr ""
+msgstr "Dátum vydania tejto verzie"
 
 #: src/application/VersionProxyModel.cpp:133
 #, qt-format
 msgctxt "VersionProxyModel|"
 msgid "%1 (installed)"
-msgstr ""
+msgstr "%1 (inštalované)"
 
 #: src/application/VersionProxyModel.cpp:164
 msgctxt "VersionProxyModel|"
@@ -4826,7 +4904,7 @@ msgstr ""
 #: src/application/pages/instance/WorldListPage.cpp:203
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
-msgstr ""
+msgstr "Štart MCEdit sa nepodaril!"
 
 #: src/application/pages/instance/WorldListPage.cpp:204
 msgctxt "WorldListPage|"
@@ -4834,11 +4912,13 @@ msgid ""
 "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr ""
+"Štart MCEdit sa nepodaril.\n"
+"Može byť nutná reinštalácia."
 
 #: src/application/pages/instance/WorldListPage.cpp:193
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
-msgstr ""
+msgstr "MCEdit nenájdený alebo nie je nastavený!"
 
 #: src/application/pages/instance/WorldListPage.cpp:194
 msgctxt "WorldListPage|"
@@ -4850,12 +4930,12 @@ msgstr ""
 #: src/application/pages/instance/WorldListPage.cpp:250
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
-msgstr ""
+msgstr "Zvoľte zip súbor Minecraft sveta"
 
 #: src/application/pages/instance/WorldListPage.cpp:251
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr ""
+msgstr "Súbor zip Minecraft sveta (*.zip)"
 
 #: src/application/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
@@ -4868,6 +4948,8 @@ msgid ""
 "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr ""
+"Menenie sveta pokiaľ Minecraft beží je potencionálne nebezpečné.\n"
+"Chcete pokračovať?"
 
 #: src/application/pages/instance/WorldListPage.cpp:296
 #: src/application/pages/instance/WorldListPage.cpp:319
@@ -4941,22 +5023,22 @@ msgstr ""
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:226
 msgctxt "YggdrasilTask|"
 msgid "Processing response from servers..."
-msgstr ""
+msgstr "Spracovávam odpoveď zo servera..."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:228
 msgctxt "YggdrasilTask|"
 msgid "Authentication task succeeded."
-msgstr ""
+msgstr "Autentifikačná úloha úspešná."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:230
 msgctxt "YggdrasilTask|"
 msgid "Failed to contact the authentication server."
-msgstr ""
+msgstr "Nepodarilo sa spojiť s autentifikačným serverom."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:232
 msgctxt "YggdrasilTask|"
 msgid "Failed to authenticate."
-msgstr ""
+msgstr "Autentifikácia zlyhala."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:234
 msgctxt "YggdrasilTask|"
