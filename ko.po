@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-09-05 12:03+0900\n"
+"PO-Revision-Date: 2019-04-21 17:05+0900\n"
 "Last-Translator: Apparatus_Zero <asdf1234d@gmail.com>\n"
 "Language-Team: Korean <http://weblate.robotbrain.info/projects/multimc/"
 "multimc/ko/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Qt-Contexts: true\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
@@ -398,7 +398,7 @@ msgstr ""
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
-msgstr "인증 서버가 클라이언트 토큰을 보내지 아니하였습니다."
+msgstr "인증 서버가 클라이언트 토큰을 보내지 못하였습니다."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
@@ -411,7 +411,7 @@ msgstr ""
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send an access token."
-msgstr "인증 서버가 접근 토큰을 보내지 아니하였습니다."
+msgstr "인증 서버가 접근 토큰을 보내지 못하였습니다."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:154
 msgctxt "AuthenticateTask|"
@@ -831,6 +831,7 @@ msgid "JSON Editor"
 msgstr "JSON 편집기"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:224
+#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "Invalid"
 msgstr "무효"
@@ -847,31 +848,27 @@ msgid "Couldn't extract native jar '%1' to destination '%2'"
 msgstr "네이티브 JAR '%1'을 '%2'로 추출하는 데에 실패하였습니다"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
 msgstr "FML 라이브러리들을 확인하고 있습니다..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr "FML 라이브러리들을 다운로드하고 있습니다..."
+msgstr "FML 라이브러리들을 확인하고 있습니다..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
 msgstr "인스턴스에 FML 라이브러리들을 복사하고 있습니다..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
-#, fuzzy
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
 msgstr "인스턴스 안에 FML 라이브러리 폴더를 생성하는 데 실패했습니다."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
 msgstr "Forge/FML 라이브러리 복사 실패: %1."
@@ -911,16 +908,14 @@ msgid "Private"
 msgstr "개인 모드팩"
 
 #: src/application/pages/modplatform/FTBPage.ui:77
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Add pack"
-msgstr "아이콘 추가"
+msgstr "팩 추가"
 
 #: src/application/pages/modplatform/FTBPage.ui:84
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Remove selected pack"
-msgstr "선택한 패키지를 세부 설정합니다(Customize)."
+msgstr "선택한 팩을 삭제합니다."
 
 #: src/application/pages/modplatform/FTBPage.ui:100
 msgctxt "FTBPage|"
@@ -949,21 +944,20 @@ msgstr ""
 #: src/application/pages/modplatform/FTBPage.cpp:328
 msgctxt "FTBPage|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "FTB 팩 추가"
 
 #: src/application/pages/modplatform/FTBPage.cpp:329
 msgctxt "FTBPage|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "팩 코드를 입력해 주세요 :"
 
 #: src/application/pages/modplatform/FTBPage.cpp:352
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Remove pack"
-msgstr "아이콘 제거"
+msgstr "팩 제거"
 
 #: src/application/pages/modplatform/FTBPage.cpp:353
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FTBPage|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "%1를 진짜로 삭제하기를 원하십니까?"
@@ -1019,12 +1013,10 @@ msgid "Third Party Packs"
 msgstr "서드파티 팩"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:86
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FtbPackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
-"Assets를 다운로드하는 데 실패했습니다:\n"
-"%1"
+msgstr "Assets를 다운로드하는 데 실패했습니다: %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:27
 #, qt-format
@@ -1039,7 +1031,6 @@ msgid "Downloading zip for %1 (%2%)"
 msgstr "%1을 위한 압축 파일 다운로드 중 (%2)"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:77
-#, fuzzy
 msgctxt "FtbPackInstallTask|"
 msgid "Extracting modpack"
 msgstr "모드팩 추출 중"
@@ -1068,39 +1059,37 @@ msgstr "설치 방법을 발견하지 못하였습니다!"
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
-msgstr ""
+msgstr "키"
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:84
 msgctxt "GameOptions|"
 msgid "Value"
-msgstr ""
+msgstr "값"
 
 #: src/application/pages/instance/GameOptionsPage.h:45
-#, fuzzy
 msgctxt "GameOptionsPage|"
 msgid "Game Options"
-msgstr "게임 창(들)"
+msgstr "게임 옵션들"
 
 #: src/api/logic/minecraft/World.cpp:40
 msgctxt "GameType|"
 msgid "Survival"
-msgstr ""
+msgstr "서바이벌"
 
 #: src/api/logic/minecraft/World.cpp:42
-#, fuzzy
 msgctxt "GameType|"
 msgid "Creative"
-msgstr "인스턴스 생성"
+msgstr "크리에이티브"
 
 #: src/api/logic/minecraft/World.cpp:44
 msgctxt "GameType|"
 msgid "Adventure"
-msgstr ""
+msgstr "어드밴쳐"
 
 #: src/api/logic/minecraft/World.cpp:46
 msgctxt "GameType|"
 msgid "Spectator"
-msgstr ""
+msgstr "관전자"
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
@@ -4082,10 +4071,9 @@ msgid "Reso&urces"
 msgstr "리소스(팩)"
 
 #: src/application/pages/instance/ServersPage.ui:79
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "&Name"
-msgstr "이름(&N):"
+msgstr "%이름"
 
 #: src/application/pages/instance/ServersPage.ui:92
 #, fuzzy
