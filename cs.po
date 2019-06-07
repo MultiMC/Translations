@@ -1,15 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2015-06-07 09:28-0400\n"
-"Last-Translator: Michal Dolenský <the777misa@gmail.com>\n"
+"Project-Id-Version: MultiMC\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2019-06-07 21:27+0200\n"
+"Last-Translator: David Bureš <buresdv@gmail.com>\n"
 "Language-Team: Czech <http://example.com/projects/multimc/multimc5/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.3-dev\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Qt-Contexts: true\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
@@ -109,10 +110,9 @@ msgstr ""
 "</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
-#, fuzzy
 msgctxt "AboutDialog|"
 msgid "© 2012-2019 MultiMC Contributors"
-msgstr "© 2013-2015 MultiMC Contributors"
+msgstr "© 2013-2019 MultiMC Contributors"
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -258,7 +258,7 @@ msgstr "Platforma"
 #: src/application/dialogs/AboutDialog.cpp:103
 msgctxt "AboutDialog|"
 msgid "Build Number"
-msgstr "Číslo sestavy"
+msgstr "Číslo sestavení"
 
 #: src/application/dialogs/AboutDialog.cpp:108
 msgctxt "AboutDialog|"
@@ -491,30 +491,28 @@ msgstr ""
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
 msgid "Java path is not valid."
-msgstr ""
+msgstr "Cesta k Javě není platná."
 
 #: src/api/logic/java/launch/CheckJava.cpp:64
-#, fuzzy
 msgctxt "CheckJava|"
 msgid "Checking Java version..."
-msgstr "Kontrola verze Java..."
+msgstr "Kontrola verze Javy…"
 
 #: src/api/logic/java/launch/CheckJava.cpp:86
-#, fuzzy
 msgctxt "CheckJava|"
 msgid "Could not start java:"
-msgstr "Nelze spustit javu:"
+msgstr "Nelze spustit Javu:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:90
-#, fuzzy
 msgctxt "CheckJava|"
 msgid "Could not start java!"
-msgstr "Nelze spustit javu:"
+msgstr "Nelze spustit Javu."
 
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
 msgstr ""
+"Aktualizační program Javy vrátil neplatná data, kterým MultiMC nerozumí:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
@@ -523,6 +521,8 @@ msgid ""
 "Java is version %1, using %2-bit architecture.\n"
 "\n"
 msgstr ""
+"Verze Javy je %1, %2bitová architektura.\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
@@ -531,6 +531,9 @@ msgid ""
 "want to install a 64bit Operating System.\n"
 "\n"
 msgstr ""
+"Architektura vašeho procesoru nekoresponduje se systémovou architekturou. "
+"Nainstalujte si 64bitový operačnísystém.\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
@@ -539,15 +542,16 @@ msgid ""
 "want to install a 64bit Java version.\n"
 "\n"
 msgstr ""
+"Architektura nainstalované Javy nekoresponduje se systémovou architekturou. "
+"Nainstalujte si 64bitovou verzi Javy\n"
+"\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:846
-#, fuzzy
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "Název"
 
 #: src/api/logic/minecraft/ComponentList.cpp:848
-#, fuzzy
 msgctxt "ComponentList|"
 msgid "Version"
 msgstr "Verze"
@@ -555,17 +559,17 @@ msgstr "Verze"
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
-msgstr ""
+msgstr "Načítání metadat některých součástí bylo neúspěšné."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr ""
+msgstr "Při kontrole závislostí byly nalezeny konflikty!"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr ""
+msgstr "Instance má konfliktní závislosti."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
 msgctxt "ComponentUpdateTask|"
@@ -591,16 +595,14 @@ msgid "Name"
 msgstr "Název"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:90
-#, fuzzy
 msgctxt "CopyInstanceDialog|"
 msgid "&Group"
 msgstr "&Skupina:"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:115
-#, fuzzy
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
-msgstr "Duplikovat instanci"
+msgstr "Duplikovat světy"
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
@@ -610,7 +612,7 @@ msgstr "Žádná skupina"
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
 msgctxt "CreateServerResourcePacksFolder|"
 msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr ""
+msgstr "Nelze vytvořit složku „server-resource-packs“"
 
 #: src/application/widgets/CustomCommands.ui:14
 #, fuzzy
@@ -758,10 +760,9 @@ msgid "External Tools"
 msgstr "Externí nástroje"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:90
-#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr "JProfiler"
+msgstr "Složka JProfiler"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -823,10 +824,9 @@ msgid "MCEdit Application"
 msgstr "Aplikace MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
-#, fuzzy
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "Složka konfigurace"
+msgstr "Složka MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -847,7 +847,7 @@ msgstr "Instalace MCEdit se zdá v pořádku"
 #: src/application/pages/global/ExternalToolsPage.cpp:202
 msgctxt "ExternalToolsPage|"
 msgid "JSON Editor"
-msgstr "JSON Editor"
+msgstr "Editor JSON"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:224
 msgctxt "ExternalToolsPage|"
@@ -863,7 +863,7 @@ msgstr "Soubor zvolený se nezdá být spustitelný"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr ""
+msgstr "Nelze rozbalit „%1“ do „%2“"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
 #, fuzzy
@@ -914,24 +914,22 @@ msgstr ""
 #: src/application/pages/modplatform/FTBPage.ui:21
 msgctxt "FTBPage|"
 msgid "Public"
-msgstr ""
+msgstr "Veřejné"
 
 #: src/application/pages/modplatform/FTBPage.ui:41
 msgctxt "FTBPage|"
 msgid "3rd Party"
-msgstr ""
+msgstr "Třetích stran"
 
 #: src/application/pages/modplatform/FTBPage.ui:61
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Private"
-msgstr "Nepodařilo se extrahovat modpack"
+msgstr "Soukromé"
 
 #: src/application/pages/modplatform/FTBPage.ui:77
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Add pack"
-msgstr "Přidat ikonu"
+msgstr "Přidat balíček"
 
 #: src/application/pages/modplatform/FTBPage.ui:84
 #, fuzzy
@@ -940,22 +938,19 @@ msgid "Remove selected pack"
 msgstr "Customize selected package."
 
 #: src/application/pages/modplatform/FTBPage.ui:100
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Version selected:"
-msgstr "Vybraná neplatná verze"
+msgstr "Vybrané vydání:"
 
 #: src/application/pages/modplatform/FTBPage.h:50
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "FTB Legacy"
-msgstr "Odkaz : %1"
+msgstr "FTB Legacy"
 
 #: src/application/pages/modplatform/FTBPage.cpp:189
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "FTB private packs"
-msgstr "Nepodařilo se extrahovat modpack"
+msgstr "Soukromé FTB balíčky"
 
 #: src/application/pages/modplatform/FTBPage.cpp:190
 #, qt-format
@@ -968,21 +963,20 @@ msgstr ""
 #: src/application/pages/modplatform/FTBPage.cpp:328
 msgctxt "FTBPage|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "Přidat balíček FTB"
 
 #: src/application/pages/modplatform/FTBPage.cpp:329
 msgctxt "FTBPage|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "Kód balíčku:"
 
 #: src/application/pages/modplatform/FTBPage.cpp:352
-#, fuzzy
 msgctxt "FTBPage|"
 msgid "Remove pack"
-msgstr "Smazat ikonu"
+msgstr "Smazat balíček"
 
 #: src/application/pages/modplatform/FTBPage.cpp:353
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FTBPage|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Opravdu chcete smazat %1?"
@@ -998,47 +992,44 @@ msgid "Some mod ID resolving tasks failed."
 msgstr ""
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
-#, fuzzy
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr "Nepodařilo se vytvořit složku pr Minecraft binární soubory."
+msgstr "Nepodařilo se vytvořit složku pro binární soubory Minecraftu."
 
 #: src/application/pages/modplatform/FtbListModel.cpp:18
 msgctxt "FtbFilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "Seřadit podle jména"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:19
-#, fuzzy
 msgctxt "FtbFilterModel|"
 msgid "Sort by game version"
-msgstr "Vyberte verzi Forge"
+msgstr "Seřadit podle verze"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:80
 msgctxt "FtbListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "Veřejný balíček"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:82
 msgctxt "FtbListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "Baliček třetí strany"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:84
-#, fuzzy
 msgctxt "FtbListModel|"
 msgid "Private Modpack"
-msgstr "Nepodařilo se extrahovat modpack"
+msgstr "Soukromý balíček"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:76
 msgctxt "FtbPackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "Veřejné balíčky"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:81
 msgctxt "FtbPackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "Balíčky třetích stran"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:86
 #, fuzzy, qt-format
@@ -1049,10 +1040,10 @@ msgstr ""
 "%1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:27
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr "Stahování nového LWJGL..."
+msgstr "Stahování zip archivu pro %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:71
 #, qt-format
@@ -1061,10 +1052,9 @@ msgid "Downloading zip for %1 (%2%)"
 msgstr ""
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:77
-#, fuzzy
 msgctxt "FtbPackInstallTask|"
 msgid "Extracting modpack"
-msgstr "Nepodařilo se extrahovat modpack"
+msgstr "Rozbalování balíčku"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:83
 #, fuzzy, qt-format
@@ -1073,10 +1063,9 @@ msgid "Failed to open modpack file %1!"
 msgstr "Nepodařilo se stáhnout aktualizační soubory: %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:106
-#, fuzzy
 msgctxt "FtbPackInstallTask|"
 msgid "Installing modpack"
-msgstr "Instalovat"
+msgstr "Instalování balíčku"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:113
 #, fuzzy
@@ -1087,47 +1076,48 @@ msgstr "Stahování aktualizačních souborů se nezdařilo: %1."
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:181
 msgctxt "FtbPackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "Nenalezen způsob instalace."
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
-msgstr ""
+msgstr "Klíč"
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:84
 msgctxt "GameOptions|"
 msgid "Value"
-msgstr ""
+msgstr "Hodnots"
 
 #: src/application/pages/instance/GameOptionsPage.h:45
-#, fuzzy
 msgctxt "GameOptionsPage|"
 msgid "Game Options"
-msgstr "Herní okno"
+msgstr "Nastavení"
 
+# Takhle je to napsané v Minecraftu. Za mě bych nechal anglickou verzi (Survival). Co myslíte?
 #: src/api/logic/minecraft/World.cpp:40
 msgctxt "GameType|"
 msgid "Survival"
-msgstr ""
+msgstr "Hra o přežití"
 
+# Takhle je to napsané v Minecraftu. Za mě bych nechal anglickou verzi (Creative). Co myslíte?
 #: src/api/logic/minecraft/World.cpp:42
-#, fuzzy
 msgctxt "GameType|"
 msgid "Creative"
-msgstr "Vytvořit instanci"
+msgstr "Tvořivá hra"
 
+# Takhle je to napsané v Minecraftu. Za mě bych nechal anglickou verzi (Adventure). Co myslíte?
 #: src/api/logic/minecraft/World.cpp:44
 msgctxt "GameType|"
 msgid "Adventure"
-msgstr ""
+msgstr "Dobroudružná hra"
 
+# Takhle je to napsané v Minecraftu. Za mě bych nechal anglickou verzi (Spectator). Co myslíte?
 #: src/api/logic/minecraft/World.cpp:46
 msgctxt "GameType|"
 msgid "Spectator"
-msgstr ""
+msgstr "Pozorovací hra"
 
 #: src/api/logic/updater/DownloadTask.cpp:44
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
 msgstr "Načítání informací o verzi..."
@@ -1151,15 +1141,15 @@ msgid "Reading file list for current version..."
 msgstr "Čtení seznamu souborů pro aktuální verzi ..."
 
 #: src/api/logic/updater/DownloadTask.cpp:117
+#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
 msgstr "Zpracování seznamů souborů - zjišťuji jak nainstalovat aktualizaci..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
-msgstr "Selhal proces aktualizování seznamů ..."
+msgstr "Zpracování seznamu novinek selhalo."
 
 #: src/api/logic/updater/DownloadTask.cpp:134
 #, qt-format
@@ -1168,12 +1158,13 @@ msgid "Downloading %1 update files."
 msgstr "Stahování %1 aktualizačních souborů."
 
 #: src/api/logic/updater/DownloadTask.cpp:148
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
 msgstr "Nepodařilo se stáhnout aktualizační soubory: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
+#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Pick icon"
 msgstr "Vyberte ikonu"
@@ -1189,10 +1180,9 @@ msgid "Remove Icon"
 msgstr "Smazat ikonu"
 
 #: src/application/dialogs/IconPickerDialog.cpp:74
-#, fuzzy
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
-msgstr "&Zobrazit Složku"
+msgstr "Otevřít složku s ikonami"
 
 #. The title of the select icons open file dialog
 #: src/application/dialogs/IconPickerDialog.cpp:104
@@ -1207,7 +1197,6 @@ msgid "Icons"
 msgstr "Ikony"
 
 #: src/application/pages/modplatform/ImportPage.ui:17
-#, fuzzy
 msgctxt "ImportPage|"
 msgid "Browse"
 msgstr "Vybrat…"
@@ -1218,9 +1207,10 @@ msgid "Local file or link to a direct download:"
 msgstr ""
 
 #: src/application/pages/modplatform/ImportPage.h:40
+#, fuzzy
 msgctxt "ImportPage|"
 msgid "Import from zip"
-msgstr ""
+msgstr "Importovat ze zipu"
 
 #: src/application/pages/modplatform/ImportPage.cpp:97
 #, fuzzy
@@ -1229,7 +1219,6 @@ msgid "Choose modpack"
 msgstr "Vyberte modpack"
 
 #: src/application/pages/modplatform/ImportPage.cpp:97
-#, fuzzy
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
 msgstr "Zip (*.zip)"
@@ -1241,10 +1230,9 @@ msgid "Form"
 msgstr "Form"
 
 #: src/application/widgets/InstanceCardWidget.ui:30
-#, fuzzy
 msgctxt "InstanceCardWidget|"
 msgid "&Name:"
-msgstr "Název"
+msgstr "&Název"
 
 #: src/application/widgets/InstanceCardWidget.ui:43
 #, fuzzy
@@ -1259,10 +1247,9 @@ msgid "Copying instance %1"
 msgstr "Kopírovat instanci"
 
 #: src/api/logic/InstanceCopyTask.cpp:39
-#, fuzzy
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
-msgstr "Složka instance"
+msgstr "Kopírování složky instance bylo neúspěšné."
 
 #: src/api/logic/InstanceCopyTask.cpp:54
 msgctxt "InstanceCopyTask|"
@@ -1302,10 +1289,9 @@ msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:103
 #: src/api/logic/InstanceImportTask.cpp:164
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr "Archiv neobsahuje instance.cfg"
+msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:119
 #, fuzzy
@@ -1325,10 +1311,9 @@ msgid "Could not understand pack manifest:\n"
 msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:203
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr "Nelze odstranit soubor"
+msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:209
 #, qt-format
@@ -1382,39 +1367,35 @@ msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:353
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr "Stahování nového LWJGL..."
+msgstr "Stahování modů…"
 
 #: src/api/logic/InstanceImportTask.cpp:360
-#, fuzzy
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
-msgstr "Nelze zpracovat verzi souboru %1."
+msgstr ""
 
 #: src/api/logic/InstanceImportTask.cpp:171
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Importování instance bylo přerušeno."
 
 #: src/application/InstancePageProvider.h:41
-#, fuzzy
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
-msgstr "Spouštěč modů"
+msgstr "Mody"
 
 #: src/application/InstancePageProvider.h:44
-#, fuzzy
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
-msgstr "Core mody"
+msgstr "Vnitřní mody"
 
 #: src/application/InstancePageProvider.h:48
 #: src/application/InstancePageProvider.h:59
 msgctxt "InstancePageProvider|"
 msgid "Worlds"
-msgstr ""
+msgstr "Světy"
 
 #: src/application/InstancePageProvider.h:72
 #, qt-format
@@ -1456,20 +1437,20 @@ msgstr "Instalace Javy"
 #: src/application/pages/instance/InstanceSettingsPage.ui:179
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
-msgstr "Maximální přidělení paměti:"
+msgstr "Maximální velikost přidělené paměti:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:128
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Množství paměti Minecraft se kterým začne."
+msgstr "Velikost paměti, kterou má Minecraft k dispozici při spuštění."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:150
+#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "Velikost paměti k dispozici pro uložení načtených Java tříd."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:87
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
 msgstr "Paměť"
@@ -1477,10 +1458,9 @@ msgstr "Paměť"
 #: src/application/pages/instance/InstanceSettingsPage.ui:186
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr ""
+msgstr "Je-li nainstalovaná Java 8 a vyšší, je permgen nastavený automaticky."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:199
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
 msgstr "Java argumenty"
@@ -1488,7 +1468,7 @@ msgstr "Java argumenty"
 #: src/application/pages/instance/InstanceSettingsPage.ui:218
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr "Herní okno"
+msgstr "Herní okna"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:227
 msgctxt "InstanceSettingsPage|"
@@ -1511,21 +1491,19 @@ msgid "Window width:"
 msgstr "Šířka okna:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:299
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
-msgstr "Nastavení Konzole"
+msgstr "Nastavení konzole"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:325
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr "Zobrazit konzoli, když běží hra?"
+msgstr "Zobrazit konzoli, když Minecraft spadne?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:311
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
-msgstr "Zobrazit konzoli, když běží hra?"
+msgstr "Zobrazit konzoli, když je Minecraft spuštěný?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:318
 msgctxt "InstanceSettingsPage|"
@@ -1545,7 +1523,7 @@ msgstr "Nastavení"
 #: src/application/pages/instance/InstanceSettingsPage.cpp:210
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
-msgstr "Vyber verzi Javy"
+msgstr "Vyberte verzi Javy"
 
 #: src/application/pages/instance/InstanceSettingsPage.cpp:228
 msgctxt "InstanceSettingsPage|"
@@ -1560,25 +1538,21 @@ msgid ""
 msgstr ""
 
 #: src/application/InstanceWindow.cpp:39
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Console window for "
-msgstr "Okno konzole pro "
+msgstr "Konzole pro "
 
 #: src/application/InstanceWindow.cpp:62
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Help"
 msgstr "Nápověda"
 
 #: src/application/InstanceWindow.cpp:75
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch Offline"
 msgstr "Hrát offline"
 
 #: src/application/InstanceWindow.cpp:80
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Close"
 msgstr "Zavřít"
@@ -1586,26 +1560,24 @@ msgstr "Zavřít"
 #: src/application/InstanceWindow.cpp:124
 msgctxt "InstanceWindow|"
 msgid "Kill"
-msgstr ""
+msgstr "Zabít"
 
 #: src/application/InstanceWindow.cpp:125
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr ""
+msgstr "Zabít spuštěnou instanci"
 
 #: src/application/InstanceWindow.cpp:130
 #: src/application/InstanceWindow.cpp:137
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Spustit"
 
 #: src/application/InstanceWindow.cpp:131
 #: src/application/InstanceWindow.cpp:138
-#, fuzzy
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "Spustit vybranou instanci."
+msgstr "Spustit vybranou instanci"
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, qt-format
@@ -1631,7 +1603,7 @@ msgstr "Profiler přerušen"
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr "Detekování instalací Javy…"
+msgstr "Detekování nainstalovaných verzí Javy…"
 
 #: src/application/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
@@ -1723,7 +1695,7 @@ msgstr ""
 #, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "Find Java executable"
-msgstr "Najdi spustitelný soubor Javy"
+msgstr "Najít umístění Javy"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:421
 #, fuzzy
@@ -1762,13 +1734,11 @@ msgid "The amount of memory available to store loaded Java classes."
 msgstr "Velikost paměti k dispozici pro uložení načtených Java tříd."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:427
-#, fuzzy
 msgctxt "JavaSettingsWidget|"
 msgid "Browse"
 msgstr "Vybrat…"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:92
-#, fuzzy
 msgctxt "JavaWizardPage|"
 msgid "Java"
 msgstr "Java"
@@ -1783,28 +1753,28 @@ msgstr ""
 #: src/application/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
 msgid "Language"
-msgstr ""
+msgstr "Jazyk"
 
 #: src/application/widgets/LanguageSelectionWidget.cpp:50
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?"
-msgstr ""
+msgstr "Není zde váš jazyk nebo nejste s nějakým překladem spokojení?"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
 msgid "Language"
-msgstr ""
+msgstr "Jazyk"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:46
+#, fuzzy
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
-msgstr ""
+msgstr "Zvolte jazyk aplikace"
 
 #: src/application/LaunchController.cpp:28
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "No instance specified"
-msgstr "žádná instance nebyla označena"
+msgstr "Žádná instance nebyla vybrána"
 
 #: src/application/LaunchController.cpp:47
 #, fuzzy
@@ -1824,10 +1794,9 @@ msgstr ""
 "účet přihlášen k MultiMC. Chcete otevřít správce účtu přidat účet teď?"
 
 #: src/application/LaunchController.cpp:62
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Which profile would you like to use?"
-msgstr "Který účet byste chtěli používat?"
+msgstr "Který účet chcete používat?"
 
 #: src/application/LaunchController.cpp:78
 msgctxt "LaunchController|"
@@ -1845,7 +1814,6 @@ msgstr ""
 "mohly znovu přihlásit."
 
 #: src/application/LaunchController.cpp:103
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Play Offline"
 msgstr "Hrát offline"
@@ -1856,34 +1824,29 @@ msgid "Received undetermined session status during login."
 msgstr ""
 
 #: src/application/LaunchController.cpp:164
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Player name"
 msgstr "Jméno hráče"
 
 #: src/application/LaunchController.cpp:165
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
-msgstr "Zvolte si svoje jméno do offline modu."
+msgstr "Zvolte si jméno."
 
 #: src/application/LaunchController.cpp:187
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Failed to launch."
-msgstr "Nepodařilo se ověřit."
+msgstr "Spuštění se nezdařilo."
 
 #: src/application/LaunchController.cpp:197
 #: src/application/LaunchController.cpp:237
 #: src/application/LaunchController.cpp:260
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "Chyba"
 
 #: src/application/LaunchController.cpp:197
 #: src/application/LaunchController.cpp:198
-#, fuzzy
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "Nelze načíst profil instance."
@@ -1993,10 +1956,9 @@ msgid "Legacy"
 msgstr "Odkaz : %1"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:231
-#, fuzzy
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr "Načítání listu verzí instancí…"
+msgstr ""
 
 #: src/application/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
@@ -2042,45 +2004,42 @@ msgid "%1 (Migrated)"
 msgstr ""
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:19
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
-msgstr "Kopírovat instanci"
+msgstr "Kopírování %1"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:58
-#, fuzzy
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
-msgstr "Složka instance"
+msgstr ""
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:81
-#, fuzzy
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr "Změnit verzi Minecraftu"
+msgstr ""
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:134
-#, fuzzy
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "Složka instance"
+msgstr ""
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:13
-#, fuzzy
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr "Získání souborů knihovny od Mojang..."
+msgstr "Stahování knihoven od Mojangu…"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:21
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr "Knihovny pro instance %1"
+msgstr "Knihovny pro instanci %1"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
+#, fuzzy
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "V metadatech není určený .jar, "
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:58
 #, qt-format
@@ -2123,7 +2082,7 @@ msgstr "Udržovat aktualizované"
 #: src/application/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr ""
+msgstr "Zalamovat řádky"
 
 #: src/application/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
@@ -2161,7 +2120,6 @@ msgid "Scroll all the way to bottom"
 msgstr "Přejde na konec logu"
 
 #: src/application/pages/instance/LogPage.ui:145
-#, fuzzy
 msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Konec logu"
@@ -2216,7 +2174,6 @@ msgid "Process was killed by user."
 msgstr "Hra byla zabita uživatelem."
 
 #: src/api/logic/LoggedProcess.cpp:95
-#, fuzzy
 msgctxt "LoggedProcess|"
 msgid "The process failed to start."
 msgstr "Příkaz se nepodařilo spustit"
@@ -2343,10 +2300,9 @@ msgid "Launch the selected instance."
 msgstr "Spustit vybranou instanci."
 
 #: src/application/MainWindow.cpp:360
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
-msgstr "Vyhledat aktualizace MultiMC"
+msgstr "Vyhledat aktualizace"
 
 #: src/application/MainWindow.cpp:459
 msgctxt "MainWindow|"
@@ -2384,10 +2340,9 @@ msgid "Edit the notes for the selected instance."
 msgstr "Upravuje poznámky vybrané instance."
 
 #: src/application/MainWindow.cpp:501
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "View Worlds"
-msgstr "&Zobrazit složku"
+msgstr "Zobrazit složku"
 
 #: src/application/MainWindow.cpp:502
 #, fuzzy
@@ -2471,10 +2426,9 @@ msgid "Manage Screenshots"
 msgstr "Spravovat Screenshoty"
 
 #: src/application/MainWindow.cpp:532
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
-msgstr "Otevře složku konfigurace instance"
+msgstr "Otevřít složku konfigurace"
 
 #: src/application/MainWindow.cpp:380
 msgctxt "MainWindow|"
@@ -2499,12 +2453,9 @@ msgid "Launch Offline"
 msgstr "Hrát offline"
 
 #: src/application/MainWindow.cpp:509
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr ""
-"<html><head/><body><p>Zobrazit a nahrát screenshoty v této instanci</p></"
-"body></html>"
+msgstr "Zobrazit a nahrát screenshoty v této instanci"
 
 #: src/application/MainWindow.cpp:547
 msgctxt "MainWindow|"
@@ -2526,7 +2477,7 @@ msgstr ""
 #: src/application/MainWindow.cpp:706
 msgctxt "MainWindow|"
 msgid "No instance selected"
-msgstr "žádná instance nebyla označena"
+msgstr "Nebyla vybrána žádná instance"
 
 #: src/application/MainWindow.cpp:458
 msgctxt "MainWindow|"
@@ -2536,7 +2487,7 @@ msgstr "Přejmenovat"
 #: src/application/MainWindow.cpp:869
 msgctxt "MainWindow|"
 msgid "Create instance"
-msgstr "Vytvořit instanci"
+msgstr "Přidat instanci"
 
 #: src/application/MainWindow.cpp:235 src/application/MainWindow.cpp:923
 msgctxt "MainWindow|"
@@ -2706,7 +2657,7 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
-msgstr ""
+msgstr "už hrajete %1"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:759
 #, fuzzy
@@ -2800,10 +2751,10 @@ msgid "Couldn't create the bin folder for Minecraft.jar"
 msgstr "Nepodařilo se vytvořit složku pr Minecraft binární soubory."
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:42
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
-msgstr "Nelze odstranit zastaralý jar soubor: %1"
+msgstr "Nelze odstranit starý soubor jar: %1"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:57
 #, fuzzy
@@ -3079,7 +3030,7 @@ msgstr "Složky"
 #: src/application/pages/global/MultiMCPage.cpp:452
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr "[Něco/ERROR] Děsivá chyba!"
+msgstr "[Něco/CHYBA] Děsivá chyba!"
 
 #: src/application/pages/global/MultiMCPage.cpp:461
 msgctxt "MultiMCPage|"
@@ -3449,10 +3400,9 @@ msgid ""
 msgstr ""
 
 #: src/application/pages/global/PasteEEPage.h:37
-#, fuzzy
 msgctxt "PasteEEPage|"
 msgid "Log Upload"
-msgstr "Nahrát"
+msgstr "Odeslat log"
 
 #: src/api/logic/net/PasteUpload.cpp:46
 msgctxt "PasteUpload|"
@@ -3460,6 +3410,7 @@ msgid "Uploading to paste.ee"
 msgstr "Nahrávám na paste.ee"
 
 #: src/api/logic/net/PasteUpload.cpp:75
+#, fuzzy
 msgctxt "PasteUpload|"
 msgid ""
 "paste.ee returned an error. Please consult the logs for more information"
@@ -4132,7 +4083,7 @@ msgstr ""
 #: src/application/pages/instance/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
 msgid "Are you sure?"
-msgstr "Jste si jistý ?"
+msgstr "Jste si jistí?"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
@@ -4147,7 +4098,7 @@ msgstr "Skiny"
 #: src/application/widgets/ServerStatus.cpp:66
 msgctxt "ServerStatus|"
 msgid "Auth"
-msgstr "Ověření"
+msgstr "Ověřovací servery"
 
 #: src/application/widgets/ServerStatus.cpp:68
 msgctxt "ServerStatus|"
@@ -4157,7 +4108,7 @@ msgstr "Relace"
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:288
 #, fuzzy
@@ -4348,10 +4299,9 @@ msgid "Alex Model"
 msgstr ""
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Failed to login!"
-msgstr "Nepodařilo se ověřit."
+msgstr "Přihlášení se nezdařiilo"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
@@ -4364,10 +4314,9 @@ msgid "You cannot use an invalid URL for uploading skins."
 msgstr ""
 
 #: src/application/dialogs/SkinUploadDialog.cpp:75
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Skin file does not exist!"
-msgstr "Cesta neexistuje"
+msgstr "Soubor se skinem neexistuje"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:91
 #, fuzzy
@@ -4538,40 +4487,34 @@ msgstr "Ověřování přístupového tokenu: Zpracování odpovědi..."
 #: src/application/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
 msgid "Filter"
-msgstr ""
+msgstr "Filtr"
 
 #: src/application/pages/modplatform/VanillaPage.ui:51
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Releases"
-msgstr "Normální vydání"
+msgstr "Stabilní vydání"
 
 #: src/application/pages/modplatform/VanillaPage.ui:64
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Snapshots"
-msgstr "Snapshot"
+msgstr "Vývojová vydání"
 
 #: src/application/pages/modplatform/VanillaPage.ui:74
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Old Snapshots"
-msgstr "Snapshot"
+msgstr "Staré vývojová vydání"
 
 #: src/application/pages/modplatform/VanillaPage.ui:84
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Betas"
-msgstr "Beta"
+msgstr "Beta vydání"
 
 #: src/application/pages/modplatform/VanillaPage.ui:94
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr "Alpha"
+msgstr "Alfa vydání"
 
 #: src/application/pages/modplatform/VanillaPage.ui:117
-#, fuzzy
 msgctxt "VanillaPage|"
 msgid "Refresh"
 msgstr "Obnovit"
@@ -4579,7 +4522,7 @@ msgstr "Obnovit"
 #: src/application/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
@@ -4599,7 +4542,7 @@ msgstr "Výběr"
 #: src/application/pages/instance/VersionPage.ui:73
 msgctxt "VersionPage|"
 msgid "Change version"
-msgstr "Změnit verzi"
+msgstr "Změnit vydání"
 
 #: src/application/pages/instance/VersionPage.ui:83
 msgctxt "VersionPage|"
@@ -5004,53 +4947,47 @@ msgid "Name"
 msgstr "Název"
 
 #: src/api/logic/minecraft/WorldList.cpp:213
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Game Mode"
-msgstr "Jméno hráče"
+msgstr "Typ hry"
 
 #: src/api/logic/minecraft/WorldList.cpp:215
 msgctxt "WorldList|"
 msgid "Last Played"
-msgstr ""
+msgstr "Naposledy hráno"
 
 #: src/api/logic/minecraft/WorldList.cpp:224
-#, fuzzy
 msgctxt "WorldList|"
 msgid "The name of the world."
-msgstr "Název modu."
+msgstr "Název světa"
 
 #: src/api/logic/minecraft/WorldList.cpp:226
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Game mode of the world."
-msgstr "Název modu."
+msgstr "Typ hry"
 
 #: src/api/logic/minecraft/WorldList.cpp:228
+#, fuzzy
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
-msgstr ""
+msgstr "Kdy jste svět hráli naposledy."
 
 #: src/application/pages/instance/WorldListPage.ui:41
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Add"
-msgstr "&Přidat"
+msgstr "Přidat"
 
 #: src/application/pages/instance/WorldListPage.ui:51
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "Přejmenovat"
 
 #: src/application/pages/instance/WorldListPage.ui:58
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Copy"
-msgstr "&Kopírovat"
+msgstr "Kopírovat"
 
 #: src/application/pages/instance/WorldListPage.ui:65
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "&Remove"
 msgstr "&Odebrat"
@@ -5058,25 +4995,22 @@ msgstr "&Odebrat"
 #: src/application/pages/instance/WorldListPage.ui:82
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
-msgstr ""
+msgstr "Zkopírovat semínko"
 
 #: src/application/pages/instance/WorldListPage.ui:102
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "Obnovit"
 
 #: src/application/pages/instance/WorldListPage.ui:109
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "&View Folder"
 msgstr "&Zobrazit složku"
 
 #: src/application/pages/instance/WorldListPage.cpp:112
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
-msgstr "Jste si jistý ?"
+msgstr "Jste si jistí?"
 
 #: src/application/pages/instance/WorldListPage.cpp:113
 msgctxt "WorldListPage|"
@@ -5142,16 +5076,14 @@ msgid "World name"
 msgstr ""
 
 #: src/application/pages/instance/WorldListPage.cpp:296
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
-msgstr "Zadejte nový název instance."
+msgstr "Zadejte název instance."
 
 #: src/application/pages/instance/WorldListPage.cpp:319
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
-msgstr "Zadejte nový název skupiny."
+msgstr "Zadejte název skupiny."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
@@ -5214,7 +5146,7 @@ msgstr "Došlo k neznámé chybě Yggdrasil."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:224
 msgctxt "YggdrasilTask|"
 msgid "Sending request to auth servers..."
-msgstr "Odeslání žádosti do autentizačních serverů..."
+msgstr "Odeslání žádosti do ověřovacích serverů..."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:226
 msgctxt "YggdrasilTask|"
