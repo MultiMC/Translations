@@ -106,6 +106,7 @@ msgid "Forking/Redistribution"
 msgstr "Võltsimine/Edasi levitamine"
 
 #: src/application/dialogs/AboutDialog.ui:282
+#, fuzzy
 msgctxt "AboutDialog|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -144,6 +145,42 @@ msgid ""
 "span><span style=\" font-family:'Bitstream Vera Sans'; font-size:11pt;\"> "
 "implying that you have our blessing.</span></p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Noto Sans'; font-size:12pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:11pt;\">Me hoiame MultiMC'd avatud "
+"lähtekoodiga, sest me arvame, et see on t2htis to be able to see the source "
+"code for a project like this, and we do so using the Apache license.</span></"
+"p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Bitstream Vera Sans'; font-size:11pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:11pt;\">Part of the reason for using "
+"the Apache license is we don't want people using the &quot;MultiMC&quot; "
+"name when redistributing the project. This means people must take the time "
+"to go through the source code and remove all references to &quot;"
+"MultiMC&quot;, including but not limited to the project icon and the title "
+"of windows, (no *MultiMC-fork* in the title).</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Bitstream Vera Sans'; font-size:11pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:11pt;\">The Apache license covers "
+"reasonable use for the name - a mention of the project's origins in the "
+"About dialog and the license is acceptable. However, it should be abundantly "
+"clear that the project is a fork </span><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:11pt; font-weight:600;\">without</"
+"span><span style=\" font-family:'Bitstream Vera Sans'; font-size:11pt;\"> "
+"implying that you have our blessing.</span></p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:309
 msgctxt "AboutDialog|"
@@ -181,6 +218,9 @@ msgid ""
 "<html><head/><body><p>Welcome! If you're new here, you can click the &quot;"
 "Add&quot; button to add your Mojang or Minecraft account.</p></body></html>"
 msgstr ""
+"<html><head/><body><p>Tere tulemast! Kui te olete uus siia, saata te "
+"vajutada &quot;Lisa&quot; nuppu, et lisada enda Mojang'i võI Minecrat'i "
+"kontot.</p></body></html>"
 
 #: src/application/pages/global/AccountListPage.ui:56
 msgctxt "AccountListPage|"
@@ -284,7 +324,7 @@ msgstr "Varade indeksi uuendamine..."
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
-msgstr ""
+msgstr "Varade indeks %1 jaoks"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:68
 msgctxt "AssetUpdateTask|"
@@ -302,7 +342,7 @@ msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download the assets index:\n"
 "%1"
-msgstr ""
+msgstr "Varade indeksi allalaadimine nurjus: %1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
@@ -310,7 +350,7 @@ msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download assets:\n"
 "%1"
-msgstr ""
+msgstr "Varade allalaadimine nurjus: %1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
@@ -376,22 +416,22 @@ msgstr ""
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
 msgid "Java path is not valid."
-msgstr ""
+msgstr "Java tee ei ole sobiv."
 
 #: src/api/logic/java/launch/CheckJava.cpp:64
 msgctxt "CheckJava|"
 msgid "Checking Java version..."
-msgstr ""
+msgstr "Java versiooni kontrollimine..."
 
 #: src/api/logic/java/launch/CheckJava.cpp:86
 msgctxt "CheckJava|"
 msgid "Could not start java:"
-msgstr ""
+msgstr "Ei suutnud käivitada java't:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:90
 msgctxt "CheckJava|"
 msgid "Could not start java!"
-msgstr ""
+msgstr "Ei suutnud käivitada java't!"
 
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
@@ -405,6 +445,8 @@ msgid ""
 "Java is version %1, using %2-bit architecture.\n"
 "\n"
 msgstr ""
+"Java versioon on %1, kasutades %2-bitist arhitektuuri.\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
@@ -413,6 +455,9 @@ msgid ""
 "want to install a 64bit Operating System.\n"
 "\n"
 msgstr ""
+"Teie CPU arhitektuur ei sobi kokku teie süsteemi arhitektuuriga. Te võiksite "
+"tahta installida 64bitise Operatsioonisüsteemi.\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
@@ -421,6 +466,9 @@ msgid ""
 "want to install a 64bit Java version.\n"
 "\n"
 msgstr ""
+"Teie Java arhitektuur ei sobi kokku teie süsteemi arhitektuuriga. Te "
+"võiksite tahta installida 64bitise Operatsioonisüsteemi.\n"
+"\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:846
 msgctxt "ComponentList|"
@@ -557,7 +605,7 @@ msgstr ""
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Login"
-msgstr "Login"
+msgstr "Logi sisse"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
@@ -1243,7 +1291,7 @@ msgstr "Sirvi..."
 #: src/application/pages/instance/InstanceSettingsPage.ui:74
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
-msgstr "Test"
+msgstr "Katseta"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:106
 msgctxt "InstanceSettingsPage|"
@@ -1478,7 +1526,7 @@ msgstr "Automaat-tuvasta..."
 #: src/application/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
 msgid "Test"
-msgstr "Testi"
+msgstr "Katseta"
 
 #: src/application/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
@@ -1658,7 +1706,7 @@ msgstr "Viga"
 #: src/application/LaunchController.cpp:198
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "Ei suutnud laadida juhtumi profiili."
 
 #: src/application/LaunchController.cpp:205
 msgctxt "LaunchController|"
@@ -3464,7 +3512,7 @@ msgstr ""
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
 msgid "Upload finished"
-msgstr ""
+msgstr "Üleslaadimine lõpetatud"
 
 #: src/application/GuiUtil.cpp:48
 #, qt-format
@@ -3569,18 +3617,20 @@ msgid ""
 "Java test succeeded!<br />Platform reported: %1<br />Java version reported: "
 "%2<br />"
 msgstr ""
+"Java katse õnnestus!<br />Teatatud platvorm: %1<br />Teatatud Java versioon: "
+"%2<br />"
 
 #: src/application/JavaCommon.cpp:34
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
-msgstr ""
+msgstr "Edu Java katses"
 
 #: src/application/JavaCommon.cpp:44 src/application/JavaCommon.cpp:53
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
-msgstr ""
+msgstr "Tõrge Java katses"
 
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
@@ -3666,12 +3716,12 @@ msgstr ""
 #: src/api/logic/meta/JsonFormat.cpp:166
 msgctxt "QObject|"
 msgid "Unknown format version!"
-msgstr ""
+msgstr "Tundmatu vorminguversioon!"
 
 #: src/api/logic/minecraft/World.cpp:50
 msgctxt "QObject|"
 msgid "Unknown"
-msgstr ""
+msgstr "Tundmatu"
 
 #: src/application/pages/instance/ServersPage.cpp:30
 msgctxt "QObject|"
@@ -3713,7 +3763,7 @@ msgstr ""
 #: src/application/pages/instance/ResourcePackPage.h:11
 msgctxt "ResourcePackPage|"
 msgid "Resource packs"
-msgstr ""
+msgstr "Ressursi pakid"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:51
 msgctxt "ScreenshotsPage|"
@@ -3748,12 +3798,12 @@ msgstr "Kuvatõmmiste üleslaadimine nurjus!"
 #: src/application/pages/instance/ScreenshotsPage.cpp:307
 msgctxt "ScreenshotsPage|"
 msgid "Unknown error"
-msgstr ""
+msgstr "Tundmatu tõrge"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:316
 msgctxt "ScreenshotsPage|"
 msgid "Upload finished"
-msgstr ""
+msgstr "Üleslaadimine lõpetatud"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:317
 #, qt-format
@@ -3762,6 +3812,8 @@ msgid ""
 "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your "
 "clipboard."
 msgstr ""
+"<a href=\"%1\">Albumisse üleslaetud   link</a> on paigutatud teie "
+"lõikelauale."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
@@ -3771,12 +3823,12 @@ msgstr "Olete te kindel?"
 #: src/application/pages/instance/ScreenshotsPage.cpp:327
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
-msgstr ""
+msgstr "See kustutab kõik valitud kuvatõmmised."
 
 #: src/application/widgets/ServerStatus.cpp:70
 msgctxt "ServerStatus|"
 msgid "Skins"
-msgstr ""
+msgstr "Nahad"
 
 #: src/application/widgets/ServerStatus.cpp:66
 msgctxt "ServerStatus|"
@@ -3786,12 +3838,12 @@ msgstr ""
 #: src/application/widgets/ServerStatus.cpp:68
 msgctxt "ServerStatus|"
 msgid "Session"
-msgstr ""
+msgstr "Seanss"
 
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:288
 msgctxt "ServersModel|"
@@ -3801,42 +3853,42 @@ msgstr "Nimi"
 #: src/application/pages/instance/ServersPage.cpp:290
 msgctxt "ServersModel|"
 msgid "Address"
-msgstr ""
+msgstr "Aadress"
 
 #: src/application/pages/instance/ServersPage.cpp:292
 msgctxt "ServersModel|"
 msgid "Latency"
-msgstr ""
+msgstr "Latentsus"
 
 #: src/application/pages/instance/ServersPage.ui:48
 msgctxt "ServersPage|"
 msgid "Ask to download"
-msgstr ""
+msgstr "Palu allalaadimist"
 
 #: src/application/pages/instance/ServersPage.ui:53
 msgctxt "ServersPage|"
 msgid "Always download"
-msgstr ""
+msgstr "Alati lae alla"
 
 #: src/application/pages/instance/ServersPage.ui:58
 msgctxt "ServersPage|"
 msgid "Never download"
-msgstr ""
+msgstr "Ärge kunagi laadige alla"
 
 #: src/application/pages/instance/ServersPage.ui:66
 msgctxt "ServersPage|"
 msgid "Reso&urces"
-msgstr ""
+msgstr "Ress&ursid"
 
 #: src/application/pages/instance/ServersPage.ui:79
 msgctxt "ServersPage|"
 msgid "&Name"
-msgstr ""
+msgstr "&Nimi"
 
 #: src/application/pages/instance/ServersPage.ui:92
 msgctxt "ServersPage|"
 msgid "Address"
-msgstr ""
+msgstr "Aadress"
 
 #: src/application/pages/instance/ServersPage.ui:140
 msgctxt "ServersPage|"
@@ -3876,7 +3928,7 @@ msgstr "< &Tagasi"
 #: src/application/setupwizard/SetupWizard.cpp:31
 msgctxt "SetupWizard|"
 msgid "&Finish"
-msgstr ""
+msgstr "&Lõpeta"
 
 #: src/application/setupwizard/SetupWizard.cpp:32
 msgctxt "SetupWizard|"
@@ -3886,7 +3938,7 @@ msgstr "&Värskenda"
 #: src/application/setupwizard/SetupWizard.cpp:33
 msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
-msgstr ""
+msgstr "MultiMC Kiire Häälestus"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:284
 msgctxt "SimpleModList|"
@@ -3901,32 +3953,34 @@ msgstr "Versioon"
 #: src/api/logic/minecraft/SimpleModList.cpp:288
 msgctxt "SimpleModList|"
 msgid "Last changed"
-msgstr ""
+msgstr "Viimati muudetud"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:297
 msgctxt "SimpleModList|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Kas modifikatsioon on lubatud?"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:299
 msgctxt "SimpleModList|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "Modifikatsiooni nimi."
 
 #: src/api/logic/minecraft/SimpleModList.cpp:301
 msgctxt "SimpleModList|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "Modifikatsiooni versioon."
 
 #: src/api/logic/minecraft/SimpleModList.cpp:303
 msgctxt "SimpleModList|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr ""
+"Kuupärav ja kellaaeg, millal seda modifikatsiooni viimati muudeti (või "
+"lisati)."
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
-msgstr ""
+msgstr "Naha üleslaadimine"
 
 #: src/application/dialogs/SkinUploadDialog.ui:14
 #: src/application/dialogs/SkinUploadDialog.cpp:23
@@ -3937,32 +3991,32 @@ msgstr ""
 #: src/application/dialogs/SkinUploadDialog.cpp:95
 msgctxt "SkinUploadDialog|"
 msgid "Skin Upload"
-msgstr ""
+msgstr "Naha üleslaadimine"
 
 #: src/application/dialogs/SkinUploadDialog.ui:20
 msgctxt "SkinUploadDialog|"
 msgid "Skin File"
-msgstr ""
+msgstr "Naha Fail"
 
 #: src/application/dialogs/SkinUploadDialog.ui:51
 msgctxt "SkinUploadDialog|"
 msgid "Player Model"
-msgstr ""
+msgstr "Mängija Mudel"
 
 #: src/application/dialogs/SkinUploadDialog.ui:57
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
-msgstr ""
+msgstr "Steve'i Mudel"
 
 #: src/application/dialogs/SkinUploadDialog.ui:67
 msgctxt "SkinUploadDialog|"
 msgid "Alex Model"
-msgstr ""
+msgstr "Alex'i Mudel"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
 msgctxt "SkinUploadDialog|"
 msgid "Failed to login!"
-msgstr ""
+msgstr "Sisselogimine ebaõnnestus!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
@@ -3977,22 +4031,22 @@ msgstr ""
 #: src/application/dialogs/SkinUploadDialog.cpp:75
 msgctxt "SkinUploadDialog|"
 msgid "Skin file does not exist!"
-msgstr ""
+msgstr "Naha fail ei eksisteeri!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:91
 msgctxt "SkinUploadDialog|"
 msgid "Failed to upload skin!"
-msgstr ""
+msgstr "Naha üleslaadimine nurjus!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:95
 msgctxt "SkinUploadDialog|"
 msgid "Success"
-msgstr ""
+msgstr "Edu"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:101
 msgctxt "SkinUploadDialog|"
 msgid "Select Skin Texture"
-msgstr ""
+msgstr "Vali Naha Tekstuurid"
 
 #: src/api/logic/status/StatusChecker.cpp:104
 #, qt-format
@@ -4010,7 +4064,7 @@ msgstr ""
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
-msgstr ""
+msgstr "Tekstuuri pakid"
 
 #: src/api/logic/translations/TranslationsModel.cpp:348
 #, qt-format
@@ -4103,7 +4157,7 @@ msgstr "Ära värskenda veel"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "A new %1 update is available!"
-msgstr ""
+msgstr "Uus %1 värskendus on saadaval!"
 
 #: src/application/dialogs/UpdateDialog.cpp:21
 #, qt-format
@@ -4147,22 +4201,22 @@ msgstr "Väljalasked"
 #: src/application/pages/modplatform/VanillaPage.ui:64
 msgctxt "VanillaPage|"
 msgid "Snapshots"
-msgstr ""
+msgstr "Hetktõmmised"
 
 #: src/application/pages/modplatform/VanillaPage.ui:74
 msgctxt "VanillaPage|"
 msgid "Old Snapshots"
-msgstr ""
+msgstr "Vanad Hetktõmmised"
 
 #: src/application/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
 msgid "Betas"
-msgstr ""
+msgstr "Beetad"
 
 #: src/application/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr ""
+msgstr "Alfad"
 
 #: src/application/pages/modplatform/VanillaPage.ui:117
 msgctxt "VanillaPage|"
@@ -4308,7 +4362,7 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.ui:212
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
-msgstr ""
+msgstr "Lisa Minecraft.jar'ile"
 
 #: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
@@ -4333,12 +4387,12 @@ msgstr "Lae uuesti"
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
-msgstr ""
+msgstr "Lae vajalikud juhtumi failid nüüdseks käivitamiseks alla."
 
 #: src/application/pages/instance/VersionPage.ui:246
 msgctxt "VersionPage|"
 msgid "Download All"
-msgstr ""
+msgstr "Lae kõik alla"
 
 #: src/application/pages/instance/VersionPage.cpp:205
 #: src/application/pages/instance/VersionPage.cpp:211
@@ -4353,24 +4407,24 @@ msgstr "Viga"
 #: src/application/pages/instance/VersionPage.cpp:230
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
-msgstr ""
+msgstr "Ei suutnud eemaldada faili"
 
 #: src/application/pages/instance/VersionPage.cpp:212
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "Ei suutnud laadida juhtumi profiili."
 
 #: src/application/pages/instance/VersionPage.cpp:151
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
-msgstr ""
+msgstr "%1 võib olla probleeme."
 
 #: src/application/pages/instance/VersionPage.cpp:154
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
-msgstr ""
+msgstr "%1 on probleeme!"
 
 #: src/application/pages/instance/VersionPage.cpp:168
 msgctxt "VersionPage|"
@@ -4390,7 +4444,7 @@ msgstr "Vali jar'i modifikatsioonid"
 #: src/application/pages/instance/VersionPage.cpp:248
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr ""
+msgstr "Minecraft.jar'i modifikatsioonid (*.zip *.jar)"
 
 #: src/application/pages/instance/VersionPage.cpp:344
 msgctxt "VersionPage|"
@@ -4408,7 +4462,7 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.cpp:493
 msgctxt "VersionPage|"
 msgid "Error updating instance"
-msgstr ""
+msgstr "Tõrge juhtumi uuendamisel"
 
 #: src/application/pages/instance/VersionPage.cpp:370
 msgctxt "VersionPage|"
@@ -4423,13 +4477,13 @@ msgstr "Vali jar"
 #: src/application/pages/instance/VersionPage.cpp:258
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
-msgstr ""
+msgstr "Minecraft.jar'i asendus (*.jar)"
 
 #: src/application/pages/instance/VersionPage.cpp:318
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
-msgstr ""
+msgstr "Muuda %1 versiooni"
 
 #: src/application/pages/instance/VersionPage.cpp:372
 msgctxt "VersionPage|"
@@ -4484,7 +4538,7 @@ msgstr "Tee"
 #: src/application/VersionProxyModel.cpp:88
 msgctxt "VersionProxyModel|"
 msgid "Released"
-msgstr ""
+msgstr "Väljalastud"
 
 #: src/application/VersionProxyModel.cpp:96
 msgctxt "VersionProxyModel|"
@@ -4514,12 +4568,12 @@ msgstr "CPU Arhitektuur"
 #: src/application/VersionProxyModel.cpp:106
 msgctxt "VersionProxyModel|"
 msgid "Filesystem path to this version"
-msgstr ""
+msgstr "Selle versiooni failisüsteemi tee"
 
 #: src/application/VersionProxyModel.cpp:108
 msgctxt "VersionProxyModel|"
 msgid "Release date of this version"
-msgstr ""
+msgstr "Selle versiooni väljaandmise kuupäev"
 
 #: src/application/VersionProxyModel.cpp:133
 #, qt-format
@@ -4536,7 +4590,7 @@ msgstr "Soovitatud"
 #: src/application/VersionProxyModel.cpp:176
 msgctxt "VersionProxyModel|"
 msgid "Latest"
-msgstr ""
+msgstr "Uusim"
 
 #: src/application/dialogs/VersionSelectDialog.cpp:81
 msgctxt "VersionSelectDialog|"
@@ -4546,7 +4600,7 @@ msgstr "Vali Versioon"
 #: src/application/dialogs/VersionSelectDialog.cpp:82
 msgctxt "VersionSelectDialog|"
 msgid "Reloads the version list."
-msgstr ""
+msgstr "Laeb versiooni loendi uuesti."
 
 #: src/application/dialogs/VersionSelectDialog.cpp:83
 msgctxt "VersionSelectDialog|"
@@ -4722,12 +4776,12 @@ msgstr "Sisestage uus maailma nimi."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation timed out."
-msgstr ""
+msgstr "Autentimise operatsioon aegus."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:117
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation cancelled."
-msgstr ""
+msgstr "Autentimise operatsioon tühistati."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
