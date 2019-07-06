@@ -76,7 +76,7 @@ msgid ""
 "once.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>MultiMC on kohandatud käivitaja, mis teeb Minecrafti "
-"haldamise lihtsamaks, võimaldades teil omada mitut Minecraft'i juhtumit "
+"haldamise lihtsamaks, võimaldades teil omada mitut Minecraft'i eksemplari "
 "korraga.</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
@@ -182,7 +182,7 @@ msgid ""
 "Add&quot; button to add your Mojang or Minecraft account.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Tere tulemast! Kui te olete uus siia, saata te "
-"vajutada &quot;Lisa&quot; nuppu, et lisada enda Mojang'i võI Minecrat'i "
+"vajutada &quot;Lisa&quot; nuppu, et lisada enda Mojang'i või Minecrat'i "
 "kontot.</p></body></html>"
 
 #: src/application/pages/global/AccountListPage.ui:56
@@ -292,7 +292,7 @@ msgstr "Varade indeks %1 jaoks"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:68
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
-msgstr "Varade indeksi lugemine nurjus!"
+msgstr "Varade indeksi lugemine ebaõnnestus!"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
@@ -305,7 +305,7 @@ msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download the assets index:\n"
 "%1"
-msgstr "Varade indeksi allalaadimine nurjus: %1"
+msgstr "Varade indeksi allalaadimine ebaõnnestus: %1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
@@ -313,7 +313,7 @@ msgctxt "AssetUpdateTask|"
 msgid ""
 "Failed to download assets:\n"
 "%1"
-msgstr "Varade allalaadimine nurjus: %1"
+msgstr "Varade allalaadimine ebaõnnestus: %1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
@@ -368,6 +368,8 @@ msgid ""
 "The java binary \"%1\" couldn't be found. Please fix the java path override "
 "in the instance's settings or disable it."
 msgstr ""
+"Java binaarset \"%1\" ei suudetud leida. Palun parandage java tee alistamine "
+"eksemplari sätetes või keelake see."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
@@ -375,6 +377,7 @@ msgctxt "CheckJava|"
 msgid ""
 "The java binary \"%1\" couldn't be found. Please set up java in the settings."
 msgstr ""
+"Java binaarset \"%1\" ei suudetud leida. Palun seadistage javat sätetes."
 
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
@@ -474,7 +477,7 @@ msgstr ""
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr "Kopeeri Juhtum"
+msgstr "Kopeeri Eksemplar"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
@@ -489,7 +492,7 @@ msgstr "&Grupp"
 #: src/application/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
-msgstr ""
+msgstr "Koopia salvestab"
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
@@ -514,7 +517,7 @@ msgstr "Koh&andatud Käsklused"
 #: src/application/widgets/CustomCommands.ui:35
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr "Pärast väljumist käsklus:"
+msgstr "Pärast-väljumise käsklus:"
 
 #: src/application/widgets/CustomCommands.ui:45
 msgctxt "CustomCommands|"
@@ -539,6 +542,16 @@ msgid ""
 "launch</li></ul><p>Wrapper command allows launching using an extra wrapper "
 "program (like 'optirun' on Linux)</p></body></html>"
 msgstr ""
+"<html><head/><body><p>Eel-käivitus käsklus käivitub enne eksemplari "
+"käivitumist and ja pärast-väljumise käsklus käivitub pärast selle väljumist."
+"</p><p>Mõlemad käivitatakse MultiMC töötamis kaustast koos täiendavate "
+"keskkonna muutujatega:</p><ul><li>$INST_NAME - Muutuja nimi</li><li>$INST_ID "
+"- Muutuja ID (selle kausta nimi)</li><li>$INST_DIR - eksemplari absoluutne "
+"tee</li><li>$INST_MC_DIR - minecraft'i absoluutne tee</li><li>$INST_JAVA - "
+"käivitamiseks kasutatav java binaarne</li><li>$INST_JAVA_ARGS - "
+"käivitamiseks kasutatavad käsurea parameetrid</li></ul><p>Ümbris käsklus "
+"võimaldab käivitamist kasutades täiendavat ümbris programmi (nagu 'optirun' "
+"Linux'il)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -549,7 +562,7 @@ msgstr "Kohandatud Käsklused"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Ümbrise käsklust \"%1\" ei suudetud leida."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -585,7 +598,7 @@ msgstr "Parool"
 #: src/application/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr "Ekspordi Juhtum"
+msgstr "Ekspordi Eksemplar"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:390
 #, qt-format
@@ -611,7 +624,7 @@ msgstr "Viga"
 #: src/application/dialogs/ExportInstanceDialog.cpp:414
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr "Juhtumit ei saa eksportida"
+msgstr "Eksemplari ei saa eksportida"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
@@ -638,7 +651,7 @@ msgstr "Välised Tööriistad"
 #: src/application/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr "JProfiler Kaust"
+msgstr "JProfiler'i Kaust"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -658,7 +671,7 @@ msgid ""
 "Error while checking JProfiler install:\n"
 "%1"
 msgstr ""
-"Tõrge kontrollides JProfiler'i installimist :\n"
+"JProfiler'i installi kontrollimisel ilmnes tõrge:\n"
 "%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
@@ -671,7 +684,7 @@ msgstr "OK"
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr "JProfiler seadistus tundub olevat OK"
+msgstr "JProfiler seadistus tundub olevat korras"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
@@ -686,11 +699,13 @@ msgid ""
 "Error while checking JVisualVM install:\n"
 "%1"
 msgstr ""
+"JVisualVM'i installi kontrollimisel ilmnes tõrge:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr ""
+msgstr "JVisualVM'i seadistus tundub olevat korras"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
@@ -700,7 +715,7 @@ msgstr "MCEdit'i Rakendus"
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "MCEdit'i kaust"
+msgstr "MCEdit'i Kaust"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -710,11 +725,13 @@ msgid ""
 "Error while checking MCEdit install:\n"
 "%1"
 msgstr ""
+"MCEdit'i installi kontrollimisel ilmnes tõrge:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
-msgstr ""
+msgstr "MCEdit'i seadistus tundub olevat korras"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:202
 msgctxt "ExternalToolsPage|"
@@ -729,7 +746,7 @@ msgstr "Sobimatu"
 #: src/application/pages/global/ExternalToolsPage.cpp:225
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
-msgstr ""
+msgstr "Valitud fail ei tundu olevat käivitatav"
 
 #: src/api/logic/minecraft/launch/ExtractNatives.cpp:86
 #, qt-format
@@ -980,7 +997,7 @@ msgstr "Laen versiooni informatsiooni..."
 #: src/api/logic/updater/DownloadTask.cpp:81
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr "Versiooni info failide allalaadimine nurjus."
+msgstr "Versiooni info failide allalaadimine ebaõnnestus."
 
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
@@ -1090,17 +1107,17 @@ msgstr "&Grupp:"
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
-msgstr "Juhtumi %1 kopeerimine"
+msgstr "Eksemplari %1 kopeerimine"
 
 #: src/api/logic/InstanceCopyTask.cpp:39
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
-msgstr "Juhtumi kausta kopeerimine nurjus."
+msgstr "Eksemplari kausta kopeerimine ebaõnnestus."
 
 #: src/api/logic/InstanceCopyTask.cpp:54
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "Juhtumi kausta kopeerimine katkestatud."
+msgstr "Eksemplari kausta kopeerimine katkestatud."
 
 #: src/api/logic/InstanceCreationTask.cpp:16
 #, qt-format
@@ -1243,7 +1260,7 @@ msgstr "Maailmad"
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
-msgstr "Muuda Juhtumit (%1)"
+msgstr "Muuda Eksemplari (%1)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:60
 msgctxt "InstanceSettingsPage|"
@@ -1405,7 +1422,7 @@ msgstr "Tapa"
 #: src/application/InstanceWindow.cpp:125
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr "Tapa töötav juhtum"
+msgstr "Tapa töötav eksemplar"
 
 #: src/application/InstanceWindow.cpp:130
 #: src/application/InstanceWindow.cpp:137
@@ -1417,7 +1434,7 @@ msgstr "Käivita"
 #: src/application/InstanceWindow.cpp:138
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "Käivita juhtum"
+msgstr "Käivita eksemplar"
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, qt-format
@@ -1660,7 +1677,7 @@ msgstr ""
 #: src/application/LaunchController.cpp:187
 msgctxt "LaunchController|"
 msgid "Failed to launch."
-msgstr "Käivitamine nurjus."
+msgstr "Käivitamine ebaõnnestus."
 
 #: src/application/LaunchController.cpp:197
 #: src/application/LaunchController.cpp:237
@@ -1673,7 +1690,7 @@ msgstr "Viga"
 #: src/application/LaunchController.cpp:198
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr "Ei suutnud laadida juhtumi profiili."
+msgstr "Ei suutnud laadida eksemplari profiili."
 
 #: src/application/LaunchController.cpp:205
 msgctxt "LaunchController|"
@@ -1743,7 +1760,7 @@ msgstr ""
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Ümbrise käsklust \"%1\" ei suudetud leida."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
@@ -1769,7 +1786,7 @@ msgstr "Pärand"
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:231
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr "Juhtum eelmistest versioonidest."
+msgstr "Eksemplar eelmistest versioonidest."
 
 #: src/application/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
@@ -1794,7 +1811,7 @@ msgstr ""
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr "Uuenda juhtumit"
+msgstr "Uuenda eksemplari"
 
 #: src/application/pages/instance/LegacyUpgradePage.cpp:26
 msgctxt "LegacyUpgradePage|"
@@ -1816,12 +1833,12 @@ msgstr "%1 (Migreeritud)"
 #, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
-msgstr "Juhtumi %1 kopeerimine"
+msgstr "Eksemplari %1 kopeerimine"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:58
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
-msgstr "Juhtumi kausta kopeerimine nurjus."
+msgstr "Eksemplari kausta kopeerimine ebaõnnestus."
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:81
 msgctxt "LegacyUpgradeTask|"
@@ -1831,7 +1848,7 @@ msgstr ""
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:134
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "Juhtumi kausta kopeerimine katkestatud."
+msgstr "Eksemplari kausta kopeerimine katkestatud."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:13
 msgctxt "LibrariesTask|"
@@ -1842,7 +1859,7 @@ msgstr ""
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr "Raamatukogud juhtumi %1 jaoks"
+msgstr "Raamatukogud eksemplari %1 jaoks"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
@@ -1980,7 +1997,7 @@ msgstr "Protsess tapeti kasutaja poolt."
 #: src/api/logic/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "The process failed to start."
-msgstr "Protsessi käivitumine nurjus."
+msgstr "Protsessi käivitumine ebaõnnestus."
 
 #: src/application/dialogs/LoginDialog.ui:20
 msgctxt "LoginDialog|"
@@ -2005,7 +2022,7 @@ msgstr "Peamine Tööriistariba"
 #: src/application/MainWindow.cpp:437
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
-msgstr "Juhtumi Tööriistariba"
+msgstr "Eksemplari Tööriistariba"
 
 #: src/application/MainWindow.cpp:414
 msgctxt "MainWindow|"
@@ -2015,7 +2032,7 @@ msgstr "Uudiste Tööriistariba"
 #: src/application/MainWindow.cpp:259
 msgctxt "MainWindow|"
 msgid "Add Instance"
-msgstr "Lisa Juhtum"
+msgstr "Lisa Eksemplar"
 
 #: src/application/MainWindow.cpp:230
 msgctxt "MainWindow|"
@@ -2025,22 +2042,22 @@ msgstr "Tapa"
 #: src/application/MainWindow.cpp:231
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "Tapa töötav juhtum"
+msgstr "Tapa töötav eksemplar"
 
 #: src/application/MainWindow.cpp:260
 msgctxt "MainWindow|"
 msgid "Add a new instance."
-msgstr "Lisa uus juhtum."
+msgstr "Lisa uus eksemplar."
 
 #: src/application/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
-msgstr "Kuva Juhtumi Kaust"
+msgstr "Kuva Eksemplari Kaust"
 
 #: src/application/MainWindow.cpp:273
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
-msgstr "Ava juhtumi kaust faili brauseris."
+msgstr "Ava eksemplari kaust faili brauseris."
 
 #: src/application/MainWindow.cpp:280
 msgctxt "MainWindow|"
@@ -2100,7 +2117,7 @@ msgstr "Kuva informatsioon MultiMC'st."
 #: src/application/MainWindow.cpp:236
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
-msgstr "Käivita valitud juhtum."
+msgstr "Käivita valitud eksemplar."
 
 #: src/application/MainWindow.cpp:360
 msgctxt "MainWindow|"
@@ -2110,7 +2127,7 @@ msgstr "Otsi uusi värskendusi MultiMC jaoks."
 #: src/application/MainWindow.cpp:459
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
-msgstr "Nimeta ümber valitud juhtum."
+msgstr "Nimeta ümber valitud eksemplar."
 
 #: src/application/MainWindow.cpp:515
 msgctxt "MainWindow|"
@@ -2120,7 +2137,7 @@ msgstr "Muuda Gruppi"
 #: src/application/MainWindow.cpp:516
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
-msgstr "Muuda valitud juhtumi gruppi."
+msgstr "Muuda valitud eksemplari gruppi."
 
 #: src/application/MainWindow.cpp:444
 msgctxt "MainWindow|"
@@ -2130,7 +2147,7 @@ msgstr "Muuda Ikooni"
 #: src/application/MainWindow.cpp:445
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
-msgstr "Muuda valitud juhtumi ikooni."
+msgstr "Muuda valitud eksemplari ikooni."
 
 #: src/application/MainWindow.cpp:494
 msgctxt "MainWindow|"
@@ -2140,7 +2157,7 @@ msgstr "Redigeeri Märkmeid"
 #: src/application/MainWindow.cpp:495
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
-msgstr "Redigeeri valitud juhtumi märkmeid."
+msgstr "Redigeeri valitud eksemplari märkmeid."
 
 #: src/application/MainWindow.cpp:501
 msgctxt "MainWindow|"
@@ -2150,27 +2167,27 @@ msgstr "Kuva Maailmad"
 #: src/application/MainWindow.cpp:502
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
-msgstr "Kuva, selle juhtumi maailmad."
+msgstr "Kuva, selle eksemplari maailmad."
 
 #: src/application/MainWindow.cpp:487
 msgctxt "MainWindow|"
 msgid "Edit Instance"
-msgstr "Muuda Juhtumit"
+msgstr "Muuda Eksemplari"
 
 #: src/application/MainWindow.cpp:488
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
-msgstr "Muuda juhtumi sätteid, modifikatsioone ja versioone."
+msgstr "Muuda eksemplari sätteid, modifikatsioone ja versioone."
 
 #: src/application/MainWindow.cpp:538
 msgctxt "MainWindow|"
 msgid "Instance Folder"
-msgstr "Juhtumi Kaust"
+msgstr "Eksemplari Kaust"
 
 #: src/application/MainWindow.cpp:539
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
-msgstr "Ava valitud juhtumi juurkaust faili brauseris."
+msgstr "Ava valitud eksemplari juurkaust faili brauseris."
 
 #: src/application/MainWindow.cpp:554
 msgctxt "MainWindow|"
@@ -2180,7 +2197,7 @@ msgstr "Kustuta"
 #: src/application/MainWindow.cpp:555
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
-msgstr "Kustuta valitud juhtum."
+msgstr "Kustuta valitud eksemplar."
 
 #: src/application/MainWindow.cpp:531
 msgctxt "MainWindow|"
@@ -2205,12 +2222,12 @@ msgstr "Discord"
 #: src/application/MainWindow.cpp:562
 msgctxt "MainWindow|"
 msgid "Copy Instance"
-msgstr "Kopeeri Juhtum"
+msgstr "Kopeeri Eksemplar"
 
 #: src/application/MainWindow.cpp:563
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
-msgstr "Kopeeri valitud juhtum."
+msgstr "Kopeeri valitud eksemplar."
 
 #: src/application/MainWindow.cpp:388
 msgctxt "MainWindow|"
@@ -2220,7 +2237,7 @@ msgstr "Halda Kontosi"
 #: src/application/MainWindow.cpp:479
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
-msgstr "Käivita valitud juhtum ühenduseta režiimis."
+msgstr "Käivita valitud eksemplar ühenduseta režiimis."
 
 #: src/application/MainWindow.cpp:508
 msgctxt "MainWindow|"
@@ -2230,7 +2247,7 @@ msgstr "Halda Kuvatõmmiseid"
 #: src/application/MainWindow.cpp:532
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
-msgstr "Ava juhtumi konfiguratsiooni kaust."
+msgstr "Ava eksemplari konfiguratsiooni kaust."
 
 #: src/application/MainWindow.cpp:380
 msgctxt "MainWindow|"
@@ -2255,12 +2272,12 @@ msgstr "Käivita Ühenduseta"
 #: src/application/MainWindow.cpp:509
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr "Kuva ja lae üles, selle juhtumi kuvatõmmised."
+msgstr "Kuva ja lae üles, selle eksemplari kuvatõmmised."
 
 #: src/application/MainWindow.cpp:547
 msgctxt "MainWindow|"
 msgid "Export Instance"
-msgstr "Ekspordi Juhtum"
+msgstr "Ekspordi Eksemplar"
 
 #: src/application/MainWindow.cpp:604
 #, qt-format
@@ -2277,7 +2294,7 @@ msgstr " %1 peal"
 #: src/application/MainWindow.cpp:706
 msgctxt "MainWindow|"
 msgid "No instance selected"
-msgstr "Ühtegi juhtumit pole valitud"
+msgstr "Ühtegi eksemplari pole valitud"
 
 #: src/application/MainWindow.cpp:458
 msgctxt "MainWindow|"
@@ -2287,7 +2304,7 @@ msgstr "Nimeta ümber"
 #: src/application/MainWindow.cpp:869
 msgctxt "MainWindow|"
 msgid "Create instance"
-msgstr "Loo juhtum"
+msgstr "Loo eksemplar"
 
 #: src/application/MainWindow.cpp:235 src/application/MainWindow.cpp:923
 msgctxt "MainWindow|"
@@ -2302,7 +2319,7 @@ msgstr "Kaustad"
 #: src/application/MainWindow.cpp:287
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
-msgstr "Ava üks nendest kaustadest jagatud juhtumite vahel."
+msgstr "Ava üks nendest kaustadest jagatud eksemplarie vahel."
 
 #: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:625
 msgctxt "MainWindow|"
@@ -2332,7 +2349,7 @@ msgstr "Minecraft'i Kaust"
 #: src/application/MainWindow.cpp:525
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
-msgstr "Ava valitud juhtumi minecraft'i kaust faili brauseris."
+msgstr "Ava valitud eksemplari minecraft'i kaust faili brauseris."
 
 #: src/application/MainWindow.cpp:928
 msgctxt "MainWindow|"
@@ -2670,11 +2687,11 @@ msgstr ""
 "<html><head/>\n"
 "<body>\n"
 "<p>MultiMC saadab anonüümset kasutamis statistikat igal rakenduse "
-"käivitumisel .</p><p>Kogutakse järgmisi andmeid:</p>\n"
+"käivitumisel.</p><p>Kogutakse järgmisi andmeid:</p>\n"
 "<ul>\n"
 "<li>MultiMC versioon.</li>\n"
 "<li>Operatsioonisüsteemi nimi, versioon ja arhitektuur.</li>\n"
-"<li>CPU arhitektuur (kernel'i arhitektuur linux'il).</li>\n"
+"<li>CPU arhitektuur (linux'il kernel'i arhitektuur).</li>\n"
 "<li>Süsteemi mälu suurus.</li>\n"
 "<li>Java versioon, arhitektuur ja mälu sätted.</li>\n"
 "</ul>\n"
@@ -2738,7 +2755,7 @@ msgstr "Ajaloo limiit"
 #: src/application/pages/global/MultiMCPage.ui:402
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
-msgstr "Lõpeta logimine logi ületäotumisel"
+msgstr "Lõpeta logimine logi ületäitumisel"
 
 #: src/application/pages/global/MultiMCPage.ui:415
 msgctxt "MultiMCPage|"
@@ -2773,7 +2790,7 @@ msgstr "Lähtesta peidetud teated"
 #: src/application/pages/global/MultiMCPage.ui:205
 msgctxt "MultiMCPage|"
 msgid "Instance view sorting mode"
-msgstr "Juhtumi kuvamis sortimise režiim"
+msgstr "Eksemplari kuvamis sortimise režiim"
 
 #: src/application/pages/global/MultiMCPage.ui:272
 msgctxt "MultiMCPage|"
@@ -2788,7 +2805,7 @@ msgstr "Lihtne (Kerged Ikoonid)"
 #: src/application/pages/global/MultiMCPage.cpp:97
 msgctxt "MultiMCPage|"
 msgid "Instance Folder"
-msgstr "Juhtumi Kaust"
+msgstr "Eksemplari Kaust"
 
 #: src/application/pages/global/MultiMCPage.cpp:106
 msgctxt "MultiMCPage|"
@@ -2857,7 +2874,7 @@ msgstr "uid"
 #: src/application/dialogs/NewInstanceDialog.cpp:134
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
-msgstr "Uus Juhtum"
+msgstr "Uus Eksemplar"
 
 #: src/application/dialogs/NewInstanceDialog.ui:52
 msgctxt "NewInstanceDialog|"
@@ -2881,7 +2898,7 @@ msgid ""
 "Failed to load news RSS feed:\n"
 "%1"
 msgstr ""
-"Uudiste RSS kanali laadimine nurjus:\n"
+"Uudiste RSS kanali laadimine ebaõnnestus:\n"
 "%1"
 
 #: src/api/logic/news/NewsEntry.cpp:24 src/api/logic/news/NewsEntry.cpp:60
@@ -3166,6 +3183,10 @@ msgid ""
 "ee</a> account, you can add your API key here and have your uploaded logs "
 "paired with your account.</p></body></html>"
 msgstr ""
+"<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a>'d "
+"kasutatakse MultiMC poolt logi ülesse laadimiseks. Kui teil on<a href="
+"\"https://paste.ee\">paste.ee</a> konto, võite te oma API võtme siia lisada "
+"ja siduda üleslaetud logid oma kontoga.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3243,7 +3264,7 @@ msgstr "Kasuta vaikimisi?"
 #: src/application/dialogs/ProfileSelectDialog.ui:45
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr "Kasuta vaikimisi, ainult selle juhtumi jaoks?"
+msgstr "Kasuta vaikimisi, ainult selle eksemplari jaoks?"
 
 #: src/application/dialogs/ProfileSelectDialog.cpp:41
 #: src/application/dialogs/ProfileSelectDialog.cpp:45
@@ -3285,7 +3306,7 @@ msgstr "Kasutab teie süsteemi vaikimisi puhverserveri sätteid."
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
 msgstr ""
-"See ainult kehtib MultiMC'ga. Minecraft ei aktsepteeri puhverserveri sätteid."
+"See kehtib ainult MultiMC'ga. Minecraft ei aktsepteeri puhverserveri sätteid."
 
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
@@ -3623,7 +3644,7 @@ msgstr "Hele"
 #: src/application/UpdateController.cpp:362
 msgctxt "QObject|"
 msgid "Update failed!"
-msgstr "Värskendus nurjus!"
+msgstr "Värskendus ebaõnnestus!"
 
 #: src/application/UpdateController.cpp:363
 msgctxt "QObject|"
@@ -3766,7 +3787,7 @@ msgstr "Kuvatõmmised"
 #: src/application/pages/instance/ScreenshotsPage.cpp:306
 msgctxt "ScreenshotsPage|"
 msgid "Failed to upload screenshots!"
-msgstr "Kuvatõmmiste üleslaadimine nurjus!"
+msgstr "Kuvatõmmiste üleslaadimine ebaõnnestus!"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:307
 msgctxt "ScreenshotsPage|"
@@ -4009,7 +4030,7 @@ msgstr "Naha fail ei eksisteeri!"
 #: src/application/dialogs/SkinUploadDialog.cpp:91
 msgctxt "SkinUploadDialog|"
 msgid "Failed to upload skin!"
-msgstr "Naha üleslaadimine nurjus!"
+msgstr "Naha üleslaadimine ebaõnnestus!"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:95
 msgctxt "SkinUploadDialog|"
@@ -4061,7 +4082,7 @@ msgstr "Keel"
 #: src/api/logic/translations/TranslationsModel.cpp:370
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr "Täielikkus"
+msgstr "Valmidus"
 
 #: src/api/logic/translations/TranslationsModel.cpp:380
 msgctxt "TranslationsModel|"
@@ -4074,6 +4095,8 @@ msgid ""
 "Completeness is the percentage of fully translated strings, not counting "
 "automatically guessed ones."
 msgstr ""
+"Valmidus on protsent täielikult ära tõlgitud stringidest, välja arvestades "
+"automaatselt arvatutes."
 
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
@@ -4092,7 +4115,7 @@ msgid ""
 "Instance update failed because: %1\n"
 "\n"
 msgstr ""
-"Juhtumi uuendamine nurjus, sest: %1\n"
+"Eksemplari uuendamine ebaõnnestus, sest: %1\n"
 "\n"
 
 #: src/application/dialogs/UpdateDialog.ui:14
@@ -4249,17 +4272,17 @@ msgstr "Muuda valitud paketi versiooni."
 #: src/application/pages/instance/VersionPage.ui:80
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr ""
+msgstr "Tehke valitud pakett varem kehtima."
 
 #: src/application/pages/instance/VersionPage.ui:90
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr ""
+msgstr "Tehke valitud pakett hiljem kehtima."
 
 #: src/application/pages/instance/VersionPage.ui:100
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
-msgstr "Eemalda valitud pakett juhtumist."
+msgstr "Eemalda valitud pakett eksemplarist."
 
 #: src/application/pages/instance/VersionPage.ui:113
 #: src/application/pages/instance/VersionPage.ui:136
@@ -4330,7 +4353,7 @@ msgstr "Täpsem"
 #: src/application/pages/instance/VersionPage.ui:209
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
-msgstr ""
+msgstr "Lisa modifikatsioon Minecraft'i jar failile."
 
 #: src/application/pages/instance/VersionPage.ui:212
 msgctxt "VersionPage|"
@@ -4360,7 +4383,7 @@ msgstr "Lae uuesti"
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
-msgstr "Lae vajalikud juhtumi failid nüüdseks käivitamiseks alla."
+msgstr "Lae vajalikud eksemplari failid nüüdseks käivitamiseks alla."
 
 #: src/application/pages/instance/VersionPage.ui:246
 msgctxt "VersionPage|"
@@ -4385,7 +4408,7 @@ msgstr "Ei suutnud eemaldada faili"
 #: src/application/pages/instance/VersionPage.cpp:212
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
-msgstr "Ei suutnud laadida juhtumi profiili."
+msgstr "Ei suutnud laadida eksemplari profiili."
 
 #: src/application/pages/instance/VersionPage.cpp:151
 #, qt-format
@@ -4426,6 +4449,9 @@ msgid ""
 "least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
+"MultiMC ei saa Minecraft'i allalaadida või eksemplare  uuendada, kui te pole "
+"vähemalt ühte kontot lisanud.\n"
+"Palun lisage oma Mojang'i või Minecraft'i konto."
 
 #: src/application/pages/instance/VersionPage.cpp:420
 msgctxt "VersionPage|"
@@ -4435,7 +4461,7 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.cpp:493
 msgctxt "VersionPage|"
 msgid "Error updating instance"
-msgstr "Tõrge juhtumi uuendamisel"
+msgstr "Tõrge eksemplari uuendamisel"
 
 #: src/application/pages/instance/VersionPage.cpp:370
 msgctxt "VersionPage|"
@@ -4593,7 +4619,7 @@ msgid ""
 "List update failed:\n"
 "%1"
 msgstr ""
-"Loendi värskendamine nurjus\n"
+"Loendi värskendamine ebaõnnestus\n"
 "%1"
 
 #: src/api/logic/minecraft/WorldList.cpp:211
@@ -4682,7 +4708,7 @@ msgstr ""
 #: src/application/pages/instance/WorldListPage.cpp:203
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
-msgstr "MCEdit'i käivitamine nurjus!"
+msgstr "MCEdit'i käivitamine ebaõnnestus!"
 
 #: src/application/pages/instance/WorldListPage.cpp:204
 msgctxt "WorldListPage|"
@@ -4690,7 +4716,7 @@ msgid ""
 "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr ""
-"MCEdit'i käivitamine nurjus!\n"
+"MCEdit'i käivitamine ebaõnnestus!\n"
 "Selle uuesti installimine võib vajalikuks osutada."
 
 #: src/application/pages/instance/WorldListPage.cpp:193
@@ -4793,7 +4819,7 @@ msgstr ""
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:213
 msgctxt "YggdrasilTask|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "Ilmnes tundmatu Yggdrasil viga."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:224
 msgctxt "YggdrasilTask|"
@@ -4813,12 +4839,12 @@ msgstr "Autentimistoiming õnnestus."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:230
 msgctxt "YggdrasilTask|"
 msgid "Failed to contact the authentication server."
-msgstr ""
+msgstr "Autentimisserveriga kontakteerumine ebaõnnestus."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:232
 msgctxt "YggdrasilTask|"
 msgid "Failed to authenticate."
-msgstr "Autentimine nurjus."
+msgstr "Autentimine ebaõnnestus."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:234
 msgctxt "YggdrasilTask|"
