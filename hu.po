@@ -1,17 +1,17 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tudi20 <tudorkae@gmail.com>\n"
+"Language-Team: \n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.2.1\n"
-"Last-Translator: Tudi20 <tudorkae@gmail.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: hu\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -414,7 +414,7 @@ msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
 msgstr "Hitelesítés: A válasz feldolgozása ..."
 
-#: src/api/logic/tools/BaseProfiler.cpp:29
+#: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
 msgstr "A profilozó megszakítva"
@@ -497,12 +497,12 @@ msgstr ""
 "hogy 64 bites Java verziót kéne telepítened.\n"
 "\n"
 
-#: src/api/logic/minecraft/ComponentList.cpp:846
+#: src/api/logic/minecraft/ComponentList.cpp:849
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "Név"
 
-#: src/api/logic/minecraft/ComponentList.cpp:848
+#: src/api/logic/minecraft/ComponentList.cpp:851
 msgctxt "ComponentList|"
 msgid "Version"
 msgstr "Verzió"
@@ -528,7 +528,7 @@ msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "A példány megoldatlan függősége van a betöltés/ellenőrzés során."
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:688
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid ""
@@ -664,28 +664,28 @@ msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
 msgstr "Példány exportálása"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:390
+#: src/application/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
 msgstr "%1 exportálása"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:399
+#: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
 msgstr "Felülírja?"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:400
+#: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
 msgstr "Ez a fájl már létezik. Szeretnéd felülírni?"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:414
+#: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "Hiba"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:414
+#: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
 msgstr "Nem lehet exportálni a példányt"
@@ -932,15 +932,84 @@ msgctxt "FTBPage|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Biztosan eltávolítja a(z) %1 csomagot?"
 
-#: src/api/logic/modplatform/flame/FileResolvingTask.cpp:13
+#: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr "Mod ID-k feloldása..."
 
-#: src/api/logic/modplatform/flame/FileResolvingTask.cpp:115
+#: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "Néhány mod ID feloldási feladat sikertelen."
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
+#, fuzzy
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving URL..."
+msgstr "Mod ID-k feloldása..."
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Not a Twitch URL."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Couldn't find the needle in the haystack..."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Couldn't find the end of the needle in the haystack..."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
+#, fuzzy
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed."
+msgstr "Mod ID-k feloldása..."
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed: missing package root element."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed: missing project element."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed: missing id attribute."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed: missing file attribute."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Failed to resove projectId as a number."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Failed to resove fileId as a number."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
+#, fuzzy
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving mod IDs..."
+msgstr "Mod ID-k feloldása..."
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
+#, fuzzy
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Failed to resolve the modpack file."
+msgstr "A(z) %1 modulcsomag megnyitása sikertelen!"
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -1092,13 +1161,19 @@ msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
 msgstr "A frissítési listák feldolgozása sikertelen..."
 
-#: src/api/logic/updater/DownloadTask.cpp:134
+#: src/api/logic/updater/DownloadTask.cpp:136
+#, fuzzy
+msgctxt "GoUpdate::DownloadTask|"
+msgid "Downloading one update file."
+msgstr "%1 frissítési fájlok letöltése."
+
+#: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
 msgstr "%1 frissítési fájlok letöltése."
 
-#: src/api/logic/updater/DownloadTask.cpp:148
+#: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
@@ -1109,31 +1184,31 @@ msgctxt "IconPickerDialog|"
 msgid "Pick icon"
 msgstr "Ikon választása"
 
-#: src/application/dialogs/IconPickerDialog.cpp:64
+#: src/application/dialogs/IconPickerDialog.cpp:65
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
 msgstr "Ikon hozzáadása"
 
-#: src/application/dialogs/IconPickerDialog.cpp:65
+#: src/application/dialogs/IconPickerDialog.cpp:66
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
 msgstr "Ikon eltávolítása"
 
-#: src/application/dialogs/IconPickerDialog.cpp:74
+#: src/application/dialogs/IconPickerDialog.cpp:75
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
 msgstr "Mappa megnyitása"
 
 #. The title of the select icons open file dialog
-#: src/application/dialogs/IconPickerDialog.cpp:104
+#: src/application/dialogs/IconPickerDialog.cpp:105
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
 msgstr "Ikonok választása"
 
-#. The type of icon files
-#: src/application/dialogs/IconPickerDialog.cpp:107
+#: src/application/dialogs/IconPickerDialog.cpp:108
+#, fuzzy, qt-format
 msgctxt "IconPickerDialog|"
-msgid "Icons"
+msgid "Icons %1"
 msgstr "Ikonok"
 
 #: src/application/pages/modplatform/ImportPage.ui:17
@@ -1151,12 +1226,12 @@ msgctxt "ImportPage|"
 msgid "Import from zip"
 msgstr "Importálás zipből"
 
-#: src/application/pages/modplatform/ImportPage.cpp:97
+#: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Choose modpack"
 msgstr "Modpack választása"
 
-#: src/application/pages/modplatform/ImportPage.cpp:97
+#: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
 msgstr "Zip (*.zip)"
@@ -1198,7 +1273,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "Példány létrehozása a(z) %1 verzióból"
 
-#: src/api/logic/InstanceImportTask.cpp:34
+#: src/api/logic/InstanceImportTask.cpp:35
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1208,49 +1283,49 @@ msgstr ""
 "Modpack letöltése:\n"
 "%1"
 
-#: src/api/logic/InstanceImportTask.cpp:40
+#: src/api/logic/InstanceImportTask.cpp:41
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Modpack letöltés"
 
-#: src/api/logic/InstanceImportTask.cpp:70
+#: src/api/logic/InstanceImportTask.cpp:71
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Modpack kicsomagolása"
 
-#: src/api/logic/InstanceImportTask.cpp:78
+#: src/api/logic/InstanceImportTask.cpp:79
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Nem lehet megnyitni a mellékelt modulcsomagfájlt."
 
-#: src/api/logic/InstanceImportTask.cpp:103
-#: src/api/logic/InstanceImportTask.cpp:164
+#: src/api/logic/InstanceImportTask.cpp:104
+#: src/api/logic/InstanceImportTask.cpp:165
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "Az archívum nem tartalmaz felismert modulcsomagot."
 
-#: src/api/logic/InstanceImportTask.cpp:119
+#: src/api/logic/InstanceImportTask.cpp:120
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Nem sikerült kicsomagolni a modpackot"
 
-#: src/api/logic/InstanceImportTask.cpp:146
+#: src/api/logic/InstanceImportTask.cpp:147
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Nem sikerült javítani az engedélyeket %1 példánynak"
 
-#: src/api/logic/InstanceImportTask.cpp:192
+#: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Nem sikerült megérteni a csomag manifesztet:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:203
+#: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Nem sikerült átnevezni a felülírási mappát:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:209
+#: src/api/logic/InstanceImportTask.cpp:210
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1260,13 +1335,13 @@ msgstr ""
 "Hiányzik a megadott felülbírálási mappa (%1). Talán a modpacket már korábban "
 "használták?"
 
-#: src/api/logic/InstanceImportTask.cpp:223
+#: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "Ismeretlen mod loader a manifesztben: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:236
+#: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid ""
 "Mysterious trailing dots removed from Minecraft version while importing pack."
@@ -1274,24 +1349,24 @@ msgstr ""
 "A Minecraft verzióból eltávolítva titokzatos végpontok a csomag importálása "
 "közben."
 
-#: src/api/logic/InstanceImportTask.cpp:252
+#: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Nem sikerült leképezni a Minecraft %1 ajánlott forge verzióját"
 
-#: src/api/logic/InstanceImportTask.cpp:300
+#: src/api/logic/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod letöltés"
 
-#: src/api/logic/InstanceImportTask.cpp:316
+#: src/api/logic/InstanceImportTask.cpp:317
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "Ennek a \"mappának\" lehet kicsomagolásra van szüksége: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:328
+#: src/api/logic/InstanceImportTask.cpp:329
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1300,23 +1375,23 @@ msgstr ""
 "A modulcsomagokban lévő modulcsomagok nincsenek alkalmazva, semmi nem lett "
 "letöltve: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:333
+#: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Felismerhetetlen / kezeletlen PackageType a következő példánynak: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:353
+#: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Modok letöltése..."
 
-#: src/api/logic/InstanceImportTask.cpp:360
+#: src/api/logic/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "Nem sikerült feloldani a mod ID-ket:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:171
+#: src/api/logic/InstanceImportTask.cpp:172
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "A példány importálása megszakadt."
@@ -1343,113 +1418,124 @@ msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
 msgstr "Példány (%1) szerkesztése"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:60
+#: src/application/pages/instance/InstanceSettingsPage.ui:58
 msgctxt "InstanceSettingsPage|"
 msgid "Auto-detect..."
 msgstr "Auto felismerés..."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:67
+#: src/application/pages/instance/InstanceSettingsPage.ui:65
 msgctxt "InstanceSettingsPage|"
 msgid "Browse..."
 msgstr "Böngészés..."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:74
+#: src/application/pages/instance/InstanceSettingsPage.ui:72
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
 msgstr "Tesztelés"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:106
+#: src/application/pages/instance/InstanceSettingsPage.ui:104
 msgctxt "InstanceSettingsPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "A Minecraft által maximális memóriamennyiség ami felhasználható."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:99
+#: src/application/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
 msgstr "Minimális memóriaelosztás:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:45
+#: src/application/pages/instance/InstanceSettingsPage.ui:43
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
 msgstr "Java &telepítés"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:179
+#: src/application/pages/instance/InstanceSettingsPage.ui:177
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
 msgstr "Maximális memóriaelosztás:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:128
+#: src/application/pages/instance/InstanceSettingsPage.ui:126
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "A memóriamennyiség amivel a Minecraft elindul."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:150
+#: src/application/pages/instance/InstanceSettingsPage.ui:148
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "A memóriamennyiség elérhető, a betöltött Java osztályok tárolására."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:87
+#: src/application/pages/instance/InstanceSettingsPage.ui:85
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
 msgstr "Memór&ia"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:186
+#: src/application/pages/instance/InstanceSettingsPage.ui:17
+#, fuzzy
+msgctxt "InstanceSettingsPage|"
+msgid "Open Global Settings"
+msgstr "Konzol beállítások"
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:20
+msgctxt "InstanceSettingsPage|"
+msgid "The settings here are overrides for global settings."
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:184
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
 msgstr ""
 "Megjegyzés: A Permgen automatikusan be van állítva Java 8 és későbbi által"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:199
+#: src/application/pages/instance/InstanceSettingsPage.ui:197
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
 msgstr "Java argumen&tek"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:218
+#: src/application/pages/instance/InstanceSettingsPage.ui:216
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
 msgstr "Játék ablakok"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:227
+#: src/application/pages/instance/InstanceSettingsPage.ui:225
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
 msgstr "Játék ablak"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:239
+#: src/application/pages/instance/InstanceSettingsPage.ui:237
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
 msgstr "Indítsa el a Minecraft-ot maximalizálva?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:248
+#: src/application/pages/instance/InstanceSettingsPage.ui:246
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
 msgstr "Ablak magasság:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:255
+#: src/application/pages/instance/InstanceSettingsPage.ui:253
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
 msgstr "Ablak szélesség:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:299
+#: src/application/pages/instance/InstanceSettingsPage.ui:297
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
 msgstr "Konzo&l beállítások"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:325
+#: src/application/pages/instance/InstanceSettingsPage.ui:323
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
 msgstr "Mutassa a konzolt amikor a játék összeomlik?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:311
+#: src/application/pages/instance/InstanceSettingsPage.ui:309
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
 msgstr "Mutassa a konzolt, amíg a játék fut?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:318
+#: src/application/pages/instance/InstanceSettingsPage.ui:316
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "Automatikusan zárja be a konzolt, amikor a játék kilép?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:349
+#: src/application/pages/instance/InstanceSettingsPage.ui:347
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "Egyedi parancsok"
@@ -1459,12 +1545,12 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:210
+#: src/application/pages/instance/InstanceSettingsPage.cpp:228
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "Java verzió választása"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:228
+#: src/application/pages/instance/InstanceSettingsPage.cpp:246
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Java futtatható keresése"
@@ -1711,17 +1797,17 @@ msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
 msgstr "Válaszd ki a nyelvet a MultiMC-ben való használathoz"
 
-#: src/application/LaunchController.cpp:28
+#: src/application/LaunchController.cpp:27
 msgctxt "LaunchController|"
 msgid "No instance specified"
 msgstr "Nincs megadva példány"
 
-#: src/application/LaunchController.cpp:47
+#: src/application/LaunchController.cpp:46
 msgctxt "LaunchController|"
 msgid "No Accounts"
 msgstr "Nincsnek fiókok"
 
-#: src/application/LaunchController.cpp:48
+#: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
 msgid ""
 "In order to play Minecraft, you must have at least one Mojang or Minecraft "
@@ -1732,17 +1818,17 @@ msgstr ""
 "fiókot kell bejelentkezned a MultiMC-be. Szeretné megnyitni a fiókkezelőt, "
 "hogy most fiókot adjon hozzá?"
 
-#: src/application/LaunchController.cpp:62
+#: src/application/LaunchController.cpp:61
 msgctxt "LaunchController|"
 msgid "Which profile would you like to use?"
 msgstr "Melyik profilt szeretne használni?"
 
-#: src/application/LaunchController.cpp:78
+#: src/application/LaunchController.cpp:77
 msgctxt "LaunchController|"
 msgid "No account selected for launch"
 msgstr "Nincs fiók kiválasztva a futtatáshoz"
 
-#: src/application/LaunchController.cpp:87
+#: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
 msgid ""
 "Your account is currently not logged in. Please enter your password to log "
@@ -1750,56 +1836,56 @@ msgid ""
 msgstr ""
 "Fiókja jelenleg nincs bejelentkezve. Kérjük, adja meg újra a jelszavát."
 
-#: src/application/LaunchController.cpp:103
+#: src/application/LaunchController.cpp:102
 msgctxt "LaunchController|"
 msgid "Play Offline"
 msgstr "Játszás offline"
 
-#: src/application/LaunchController.cpp:123
+#: src/application/LaunchController.cpp:122
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
 msgstr "A bejelentkezés során meghatározatlan munkamenet állapot érkezett be."
 
-#: src/application/LaunchController.cpp:164
+#: src/application/LaunchController.cpp:163
 msgctxt "LaunchController|"
 msgid "Player name"
 msgstr "Játékos név"
 
-#: src/application/LaunchController.cpp:165
+#: src/application/LaunchController.cpp:164
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
 msgstr "Válaszd ki az offline módos játékos nevedet."
 
-#: src/application/LaunchController.cpp:187
+#: src/application/LaunchController.cpp:186
 msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "Indítás sikertelen."
 
-#: src/application/LaunchController.cpp:197
-#: src/application/LaunchController.cpp:237
-#: src/application/LaunchController.cpp:260
+#: src/application/LaunchController.cpp:196
+#: src/application/LaunchController.cpp:236
+#: src/application/LaunchController.cpp:259
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "Hiba"
 
+#: src/application/LaunchController.cpp:196
 #: src/application/LaunchController.cpp:197
-#: src/application/LaunchController.cpp:198
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "Nem sikerült betölteni a példány profilt."
 
-#: src/application/LaunchController.cpp:205
+#: src/application/LaunchController.cpp:204
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "Nem sikerült megnyitni egy indítót."
 
-#: src/application/LaunchController.cpp:237
+#: src/application/LaunchController.cpp:236
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "Nem sikerült elindítani a profilert: %1"
 
-#: src/application/LaunchController.cpp:246
+#: src/application/LaunchController.cpp:245
 #, qt-format
 msgctxt "LaunchController|"
 msgid ""
@@ -1813,33 +1899,33 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/application/LaunchController.cpp:249
+#: src/application/LaunchController.cpp:248
 msgctxt "LaunchController|"
 msgid "Waiting"
 msgstr "Várakozás"
 
-#: src/application/LaunchController.cpp:251
+#: src/application/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "Indítás"
 
-#: src/application/LaunchController.cpp:259
+#: src/application/LaunchController.cpp:258
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "Nem sikerült elindítani a profilert: %1"
 
-#: src/application/LaunchController.cpp:288
+#: src/application/LaunchController.cpp:287
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "Megszakítás"
 
-#: src/application/LaunchController.cpp:304
+#: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "Minecarft megölése?"
 
-#: src/application/LaunchController.cpp:305
+#: src/application/LaunchController.cpp:304
 msgctxt "LaunchController|"
 msgid ""
 "This can cause the instance to get corrupted and should only be used if "
@@ -2141,382 +2227,382 @@ msgctxt "LoginDialog|"
 msgid "Password"
 msgstr "Jelszó"
 
-#: src/application/MainWindow.cpp:254
+#: src/application/MainWindow.cpp:253
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "Fő eszköztár"
 
-#: src/application/MainWindow.cpp:437
+#: src/application/MainWindow.cpp:436
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "Példány eszköztár"
 
-#: src/application/MainWindow.cpp:414
+#: src/application/MainWindow.cpp:413
 msgctxt "MainWindow|"
 msgid "News Toolbar"
 msgstr "Hírek eszköztár"
 
-#: src/application/MainWindow.cpp:259
+#: src/application/MainWindow.cpp:258
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr "Példány hozzáadása"
 
-#: src/application/MainWindow.cpp:230
+#: src/application/MainWindow.cpp:229
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr "Megölés"
 
-#: src/application/MainWindow.cpp:231
+#: src/application/MainWindow.cpp:230
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "Futó példány megölése"
 
-#: src/application/MainWindow.cpp:260
+#: src/application/MainWindow.cpp:259
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr "Új példány hozzáadása."
 
-#: src/application/MainWindow.cpp:272
+#: src/application/MainWindow.cpp:271
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr "Példánymappa megnézése"
 
-#: src/application/MainWindow.cpp:273
+#: src/application/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr "Példánymappa megnyitása fájlkezelőben."
 
-#: src/application/MainWindow.cpp:280
+#: src/application/MainWindow.cpp:279
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr "Közép Modok mappájának megnézése"
 
-#: src/application/MainWindow.cpp:281
+#: src/application/MainWindow.cpp:280
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Közép modok mappájának megnyitása fájlkezelőben."
 
-#: src/application/MainWindow.cpp:301
+#: src/application/MainWindow.cpp:300
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: src/application/MainWindow.cpp:302
+#: src/application/MainWindow.cpp:301
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "Beállítások változtatása."
 
-#: src/application/MainWindow.cpp:312
+#: src/application/MainWindow.cpp:311
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "Hiba jelentése"
 
-#: src/application/MainWindow.cpp:313
+#: src/application/MainWindow.cpp:312
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
 msgstr "Hibakezelő megnyitása egy MultiMC-s hiba jelentéséhez."
 
-#: src/application/MainWindow.cpp:371
+#: src/application/MainWindow.cpp:370
 msgctxt "MainWindow|"
 msgid "Open the MultiMC Patreon page."
 msgstr "MultiMC Patreon oldal megnyitása."
 
-#: src/application/MainWindow.cpp:419
+#: src/application/MainWindow.cpp:418
 msgctxt "MainWindow|"
 msgid "More news..."
 msgstr "Több hír..."
 
-#: src/application/MainWindow.cpp:420
+#: src/application/MainWindow.cpp:419
 msgctxt "MainWindow|"
 msgid "Open the MultiMC development blog to read more news about MultiMC."
 msgstr ""
 "Nyissa meg a MultiMC fejlesztői blogot, hogy további híreket olvasjon a "
 "MultiMC-ről."
 
-#: src/application/MainWindow.cpp:337
+#: src/application/MainWindow.cpp:336
 msgctxt "MainWindow|"
 msgid "About MultiMC"
 msgstr "MultiMC-ről"
 
-#: src/application/MainWindow.cpp:338
+#: src/application/MainWindow.cpp:337
 msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "Információk megtekintése a MultiMC-ről."
 
-#: src/application/MainWindow.cpp:236
+#: src/application/MainWindow.cpp:235
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "Indítsa el a kiválasztott példányt."
 
-#: src/application/MainWindow.cpp:360
+#: src/application/MainWindow.cpp:359
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
 msgstr "Ellenőrizze a MultiMC új frissítéseit."
 
-#: src/application/MainWindow.cpp:459
+#: src/application/MainWindow.cpp:458
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Nevezze át a kiválasztott példányt."
 
-#: src/application/MainWindow.cpp:515
+#: src/application/MainWindow.cpp:514
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "Csoport változtatása"
 
-#: src/application/MainWindow.cpp:516
+#: src/application/MainWindow.cpp:515
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "Kiválasztott példány csoportjának változtatása."
 
-#: src/application/MainWindow.cpp:444
+#: src/application/MainWindow.cpp:443
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "Ikon megváltoztatása"
 
-#: src/application/MainWindow.cpp:445
+#: src/application/MainWindow.cpp:444
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "Kiválasztott példány ikonjának változtatása."
 
-#: src/application/MainWindow.cpp:494
+#: src/application/MainWindow.cpp:493
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "Jegyzetek szerkesztése"
 
-#: src/application/MainWindow.cpp:495
+#: src/application/MainWindow.cpp:494
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "Kiválasztott példány jegyzetei szerkesztése."
 
-#: src/application/MainWindow.cpp:501
+#: src/application/MainWindow.cpp:500
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "Világok megnézése"
 
-#: src/application/MainWindow.cpp:502
+#: src/application/MainWindow.cpp:501
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "Ennek a példány világainak megnézése."
 
-#: src/application/MainWindow.cpp:487
+#: src/application/MainWindow.cpp:486
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "Példány szerkesztése"
 
-#: src/application/MainWindow.cpp:488
+#: src/application/MainWindow.cpp:487
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "Módosítsa a példány beállításait, modjait és verzióit."
 
-#: src/application/MainWindow.cpp:538
+#: src/application/MainWindow.cpp:537
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "Példánymappa"
 
-#: src/application/MainWindow.cpp:539
+#: src/application/MainWindow.cpp:538
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "Kiválasztott példány gyökérmappájának megnyitása a fájlkezelőben."
 
-#: src/application/MainWindow.cpp:554
+#: src/application/MainWindow.cpp:553
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "Törlés"
 
-#: src/application/MainWindow.cpp:555
+#: src/application/MainWindow.cpp:554
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "Kiválasztott példány törlése."
 
-#: src/application/MainWindow.cpp:531
+#: src/application/MainWindow.cpp:530
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "Konfigurációs mappa"
 
-#: src/application/MainWindow.cpp:379
+#: src/application/MainWindow.cpp:378
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "Meow"
 
-#: src/application/MainWindow.cpp:328
+#: src/application/MainWindow.cpp:327
 msgctxt "MainWindow|"
 msgid "Reddit"
 msgstr "Reddit"
 
-#: src/application/MainWindow.cpp:320
+#: src/application/MainWindow.cpp:319
 msgctxt "MainWindow|"
 msgid "Discord"
 msgstr "Discord"
 
-#: src/application/MainWindow.cpp:562
+#: src/application/MainWindow.cpp:561
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "Példány másolása"
 
-#: src/application/MainWindow.cpp:563
+#: src/application/MainWindow.cpp:562
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Kiválasztott példány másolása."
 
-#: src/application/MainWindow.cpp:388
+#: src/application/MainWindow.cpp:387
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "Fiókok kezelése"
 
-#: src/application/MainWindow.cpp:479
+#: src/application/MainWindow.cpp:478
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "Kiválasztott példány indítása offline módban."
 
-#: src/application/MainWindow.cpp:508
+#: src/application/MainWindow.cpp:507
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "Képernyőképek kezelése"
 
-#: src/application/MainWindow.cpp:532
+#: src/application/MainWindow.cpp:531
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "Példány konfigurációs mappájának megnyitása."
 
-#: src/application/MainWindow.cpp:380
+#: src/application/MainWindow.cpp:379
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "Ez egy bolyhos cica: 3"
 
-#: src/application/MainWindow.cpp:329
+#: src/application/MainWindow.cpp:328
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit."
 msgstr "Nyissa meg a MultiMC subredditet."
 
-#: src/application/MainWindow.cpp:321
+#: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat."
 msgstr "Nyissa meg a MultiMC discord élőhangos csevegést."
 
-#: src/application/MainWindow.cpp:478
+#: src/application/MainWindow.cpp:477 src/application/MainWindow.cpp:942
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Indítás offline"
 
-#: src/application/MainWindow.cpp:509
+#: src/application/MainWindow.cpp:508
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "E példány képernyőképeinek megnézése és feltöltése."
 
-#: src/application/MainWindow.cpp:547
+#: src/application/MainWindow.cpp:546
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "Példány exportálása"
 
-#: src/application/MainWindow.cpp:604
+#: src/application/MainWindow.cpp:603
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - Verzió %1"
 
-#: src/application/MainWindow.cpp:607
+#: src/application/MainWindow.cpp:606
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " ezen: %1"
 
-#: src/application/MainWindow.cpp:706
+#: src/application/MainWindow.cpp:711
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "Nincs példány kiválasztva"
 
-#: src/application/MainWindow.cpp:458
+#: src/application/MainWindow.cpp:457
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "Átnevezés"
 
-#: src/application/MainWindow.cpp:869
+#: src/application/MainWindow.cpp:874
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Példány létrehozása"
 
-#: src/application/MainWindow.cpp:235 src/application/MainWindow.cpp:923
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:941
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Indítás"
 
-#: src/application/MainWindow.cpp:286 src/application/MainWindow.cpp:624
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:623
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Mappák"
 
-#: src/application/MainWindow.cpp:287
+#: src/application/MainWindow.cpp:286
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "Nyissa meg a példányok közötti egyik megosztott mappát."
 
-#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:625
+#: src/application/MainWindow.cpp:342 src/application/MainWindow.cpp:624
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Súgó"
 
-#: src/application/MainWindow.cpp:344
+#: src/application/MainWindow.cpp:343
 msgctxt "MainWindow|"
 msgid "Get help with MultiMC or Minecraft."
 msgstr "Kapj segítséget MultiMC-vel vagy Minecrafttal kapcsolatban."
 
-#: src/application/MainWindow.cpp:359
+#: src/application/MainWindow.cpp:358
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "Frsíssítés"
 
-#: src/application/MainWindow.cpp:370
+#: src/application/MainWindow.cpp:369
 msgctxt "MainWindow|"
 msgid "Support MultiMC"
 msgstr "Támogasd MultiMC-t"
 
-#: src/application/MainWindow.cpp:524
+#: src/application/MainWindow.cpp:523
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Minecraft mappa"
 
-#: src/application/MainWindow.cpp:525
+#: src/application/MainWindow.cpp:524
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "Kiválasztott példány Minecraft mappájának megnyitása a fájlkezelőben."
 
-#: src/application/MainWindow.cpp:928
+#: src/application/MainWindow.cpp:951
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Profilerek"
 
-#: src/application/MainWindow.cpp:936
+#: src/application/MainWindow.cpp:963
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
 "A Profiler nem megfelelően van beállítva. Menjen a \"Külső eszközök\" menübe."
 
-#: src/application/MainWindow.cpp:983
+#: src/application/MainWindow.cpp:1017
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Nincsenek fiókok hozzáadva!"
 
-#: src/application/MainWindow.cpp:1013
+#: src/application/MainWindow.cpp:1047
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Nincs alapértelmezett fiók"
 
-#: src/application/MainWindow.cpp:1121
+#: src/application/MainWindow.cpp:1155
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Hírek betöltése ..."
 
-#: src/application/MainWindow.cpp:1134
+#: src/application/MainWindow.cpp:1168
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Nincs elérhető hír."
 
-#: src/application/MainWindow.cpp:1217 src/application/MainWindow.cpp:1234
+#: src/application/MainWindow.cpp:1251 src/application/MainWindow.cpp:1268
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Hiba"
 
-#: src/application/MainWindow.cpp:1217
+#: src/application/MainWindow.cpp:1251
 #, qt-format
 msgctxt "MainWindow|"
 msgid ""
@@ -2526,12 +2612,12 @@ msgstr ""
 "Nem sikerült mappát létrehozni a frissítések letöltéséhez:\n"
 "%1"
 
-#: src/application/MainWindow.cpp:721 src/application/MainWindow.cpp:1081
+#: src/application/MainWindow.cpp:726 src/application/MainWindow.cpp:1115
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "Profilok"
 
-#: src/application/MainWindow.cpp:885
+#: src/application/MainWindow.cpp:890
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
@@ -2562,42 +2648,42 @@ msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:734
+#: src/api/logic/minecraft/MinecraftInstance.cpp:733
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1 perc %2 mp."
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:738
+#: src/api/logic/minecraft/MinecraftInstance.cpp:737
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1 óra %2 perc"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:740
+#: src/api/logic/minecraft/MinecraftInstance.cpp:739
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1 nap %2 óra %3 perc"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:748
+#: src/api/logic/minecraft/MinecraftInstance.cpp:747
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "törött"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:752
+#: src/api/logic/minecraft/MinecraftInstance.cpp:751
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:755
+#: src/api/logic/minecraft/MinecraftInstance.cpp:754
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", játszva ennyi ideig: %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:759
+#: src/api/logic/minecraft/MinecraftInstance.cpp:758
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", összeomlott."
@@ -2711,7 +2797,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "A verzió neve."
 
-#: src/application/MultiMC.cpp:517
+#: src/application/MultiMC.cpp:519
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "Beállítások"
@@ -3006,7 +3092,7 @@ msgid "uid"
 msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:134
+#: src/application/dialogs/NewInstanceDialog.cpp:143
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "Új példány"
@@ -3021,7 +3107,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Group:"
 msgstr "C&soport:"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:65
+#: src/application/dialogs/NewInstanceDialog.cpp:67
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "Nincs csoport"
@@ -3073,7 +3159,7 @@ msgctxt "NotificationDialog|"
 msgid "Close"
 msgstr "Bezárás"
 
-#: src/api/logic/NullInstance.h:19
+#: src/api/logic/NullInstance.h:20
 msgctxt "NullInstance|"
 msgid "Unknown instance type"
 msgstr "Ismeretlen példánytípus"
@@ -3871,7 +3957,7 @@ msgstr ""
 "A MultiMC-t kézzel kell javítania.\n"
 "Kérjük, ossza meg velünk, miért és hogyan történt ez."
 
-#: src/application/MainWindow.cpp:953
+#: src/application/MainWindow.cpp:987
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (használatban)"
@@ -3975,22 +4061,34 @@ msgctxt "ScreenshotsPage|"
 msgid "Screenshots"
 msgstr "Képernyőképek"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:306
+#: src/application/pages/instance/ScreenshotsPage.cpp:300
+#: src/application/pages/instance/ScreenshotsPage.cpp:338
 msgctxt "ScreenshotsPage|"
 msgid "Failed to upload screenshots!"
 msgstr "Képernyőképek feltöltése sikertelen!"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:307
+#: src/application/pages/instance/ScreenshotsPage.cpp:301
+#: src/application/pages/instance/ScreenshotsPage.cpp:339
 msgctxt "ScreenshotsPage|"
 msgid "Unknown error"
 msgstr "Imseretlen hiba"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:316
+#: src/application/pages/instance/ScreenshotsPage.cpp:310
+#: src/application/pages/instance/ScreenshotsPage.cpp:348
 msgctxt "ScreenshotsPage|"
 msgid "Upload finished"
 msgstr "A feltöltés befejeződött"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:317
+#: src/application/pages/instance/ScreenshotsPage.cpp:311
+#, fuzzy, qt-format
+msgctxt "ScreenshotsPage|"
+msgid ""
+"The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in "
+"your clipboard."
+msgstr ""
+"A<a href=\"%1\">hivatkozás a feltöltött naplóhoz </a> a vágólapra került."
+
+#: src/application/pages/instance/ScreenshotsPage.cpp:349
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
@@ -3998,12 +4096,12 @@ msgid ""
 "clipboard."
 msgstr "A <a href=\"%1\"> link a feltöltött albumra</a> a vágólapodra került."
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:327
+#: src/application/pages/instance/ScreenshotsPage.cpp:359
 msgctxt "ScreenshotsPage|"
 msgid "Are you sure?"
 msgstr "Biztos vagy benne?"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:327
+#: src/application/pages/instance/ScreenshotsPage.cpp:359
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Ez törli az összes kiválasztott képernyőképet."
@@ -4249,7 +4347,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "Textúracsomagok"
 
-#: src/api/logic/translations/TranslationsModel.cpp:348
+#: src/api/logic/translations/TranslationsModel.cpp:349
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid ""
@@ -4263,22 +4361,22 @@ msgstr ""
 "%3 fuzzy\n"
 "%4 összesen"
 
-#: src/api/logic/translations/TranslationsModel.cpp:366
+#: src/api/logic/translations/TranslationsModel.cpp:367
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "Nyelv"
 
-#: src/api/logic/translations/TranslationsModel.cpp:370
+#: src/api/logic/translations/TranslationsModel.cpp:371
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "Teljesség"
 
-#: src/api/logic/translations/TranslationsModel.cpp:380
+#: src/api/logic/translations/TranslationsModel.cpp:381
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "Az anyanyelv neve."
 
-#: src/api/logic/translations/TranslationsModel.cpp:384
+#: src/api/logic/translations/TranslationsModel.cpp:385
 msgctxt "TranslationsModel|"
 msgid ""
 "Completeness is the percentage of fully translated strings, not counting "
@@ -4287,9 +4385,22 @@ msgstr ""
 "A teljesség a teljesen lefordított karakterláncok százalékos aránya, nem "
 "számítva az automatikusan kitaláltakat."
 
-#: src/application/pages/modplatform/TwitchPage.h:40
+#: src/application/pages/modplatform/TwitchPage.ui:20
+#, fuzzy
 msgctxt "TwitchPage|"
-msgid "Twitch"
+msgid "Twitch URL:"
+msgstr "Twitch"
+
+#: src/application/pages/modplatform/TwitchPage.ui:48
+#, fuzzy
+msgctxt "TwitchPage|"
+msgid "Check"
+msgstr "Ellenőrzés"
+
+#: src/application/pages/modplatform/TwitchPage.h:41
+#, fuzzy
+msgctxt "TwitchPage|"
+msgid "Twitch URL"
 msgstr "Twitch"
 
 #: src/api/logic/launch/steps/Update.cpp:23
@@ -4416,7 +4527,12 @@ msgctxt "VanillaPage|"
 msgid "Alphas"
 msgstr "Alfák"
 
-#: src/application/pages/modplatform/VanillaPage.ui:117
+#: src/application/pages/modplatform/VanillaPage.ui:104
+msgctxt "VanillaPage|"
+msgid "Experiments"
+msgstr ""
+
+#: src/application/pages/modplatform/VanillaPage.ui:127
 msgctxt "VanillaPage|"
 msgid "Refresh"
 msgstr "Fríssítés"
@@ -4527,124 +4643,138 @@ msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr "A Forge telepítése"
 
-#: src/application/pages/instance/VersionPage.ui:176
+#: src/application/pages/instance/VersionPage.ui:186
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr "Telepítse a LiteLoader csomagot."
 
-#: src/application/pages/instance/VersionPage.ui:179
+#: src/application/pages/instance/VersionPage.ui:189
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr "LiteLoader telepítése"
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:196
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr "Telepítse a szokásos modokat."
 
-#: src/application/pages/instance/VersionPage.ui:189
+#: src/application/pages/instance/VersionPage.ui:199
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr "Telepítse a modokat"
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:209
 msgctxt "VersionPage|"
 msgid "Advanced"
 msgstr "Haladó"
 
-#: src/application/pages/instance/VersionPage.ui:209
+#: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr "Adjon hozzá egy modot a Minecraft jar fájlba."
 
-#: src/application/pages/instance/VersionPage.ui:212
+#: src/application/pages/instance/VersionPage.ui:222
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr "Hozzáadás a Minecraft.jar-hoz"
 
-#: src/application/pages/instance/VersionPage.ui:219
+#: src/application/pages/instance/VersionPage.ui:229
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr "Minecraft.jar kicserélése"
 
-#: src/application/pages/instance/VersionPage.ui:226
+#: src/application/pages/instance/VersionPage.ui:236
 msgctxt "VersionPage|"
 msgid "Add Empty"
 msgstr "Üres hozzáadása"
 
-#: src/application/pages/instance/VersionPage.ui:233
+#: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Reload all packages."
 msgstr "Az összes csomag újratöltése."
 
-#: src/application/pages/instance/VersionPage.ui:236
+#: src/application/pages/instance/VersionPage.ui:246
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "Újratöltés"
 
-#: src/application/pages/instance/VersionPage.ui:243
+#: src/application/pages/instance/VersionPage.ui:253
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr "Töltse le a példány indításához szükséges fájlokat most."
 
-#: src/application/pages/instance/VersionPage.ui:246
+#: src/application/pages/instance/VersionPage.ui:256
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr "Mind letöltése"
 
-#: src/application/pages/instance/VersionPage.cpp:205
-#: src/application/pages/instance/VersionPage.cpp:211
-#: src/application/pages/instance/VersionPage.cpp:230
-#: src/application/pages/instance/VersionPage.cpp:274
-#: src/application/pages/instance/VersionPage.cpp:287
-#: src/application/pages/instance/VersionPage.cpp:343
+#: src/application/pages/instance/VersionPage.cpp:203
+#: src/application/pages/instance/VersionPage.cpp:209
+#: src/application/pages/instance/VersionPage.cpp:228
+#: src/application/pages/instance/VersionPage.cpp:272
+#: src/application/pages/instance/VersionPage.cpp:285
+#: src/application/pages/instance/VersionPage.cpp:347
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Hiba"
 
-#: src/application/pages/instance/VersionPage.cpp:230
+#: src/application/pages/instance/VersionPage.cpp:228
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "Nem sikerült eltávolítani a fájlt"
 
-#: src/application/pages/instance/VersionPage.cpp:212
+#: src/application/pages/instance/VersionPage.cpp:210
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "Nem sikerült betölteni a példány profilt."
 
-#: src/application/pages/instance/VersionPage.cpp:151
+#: src/application/pages/instance/VersionPage.cpp:144
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "A(z) %1 esetleg problémákat okoz."
 
-#: src/application/pages/instance/VersionPage.cpp:154
+#: src/application/pages/instance/VersionPage.cpp:147
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "A(z) %1 problémákat okoz."
 
-#: src/application/pages/instance/VersionPage.cpp:168
+#: src/application/pages/instance/VersionPage.cpp:161
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Hiba: "
 
-#: src/application/pages/instance/VersionPage.cpp:172
+#: src/application/pages/instance/VersionPage.cpp:165
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Figyelmeztetés: "
 
-#: src/application/pages/instance/VersionPage.cpp:248
+#: src/application/pages/instance/VersionPage.cpp:246
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Jar modok kiválasztássa"
 
-#: src/application/pages/instance/VersionPage.cpp:248
+#: src/application/pages/instance/VersionPage.cpp:246
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft.jar modok (* .zip * .jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:344
+#: src/application/pages/instance/VersionPage.cpp:319
+#: src/application/pages/instance/VersionPage.cpp:404
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "No Fabric Loader versions are currently available."
+msgstr "Jelenleg nincs elérhető verzió."
+
+#: src/application/pages/instance/VersionPage.cpp:320
+#: src/application/pages/instance/VersionPage.cpp:405
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Couldn't load or download the Fabric Loader version lists!"
+msgstr "Nem lehet betölteni vagy letölteni a LiteLoader verziólistákat!"
+
+#: src/application/pages/instance/VersionPage.cpp:348
 msgctxt "VersionPage|"
 msgid ""
 "MultiMC cannot download Minecraft or update instances unless you have at "
@@ -4655,53 +4785,59 @@ msgstr ""
 "nem rendelkezik legalább egy fiókkal.\n"
 "Kérjük, adja meg Mojang vagy Minecraft fiókját."
 
-#: src/application/pages/instance/VersionPage.cpp:420
+#: src/application/pages/instance/VersionPage.cpp:403
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Select Fabric Loader version"
+msgstr "Válassza ki a LiteLoader verziót"
+
+#: src/application/pages/instance/VersionPage.cpp:451
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Nem lehet betölteni vagy letölteni a LiteLoader verziólistákat!"
 
-#: src/application/pages/instance/VersionPage.cpp:493
+#: src/application/pages/instance/VersionPage.cpp:524
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Hiba történt a példány frissítésekor"
 
-#: src/application/pages/instance/VersionPage.cpp:370
+#: src/application/pages/instance/VersionPage.cpp:374
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Válassza ki a Forge verziót"
 
-#: src/application/pages/instance/VersionPage.cpp:258
+#: src/application/pages/instance/VersionPage.cpp:256
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Válassza ki a jar-t"
 
-#: src/application/pages/instance/VersionPage.cpp:258
+#: src/application/pages/instance/VersionPage.cpp:256
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Minecraft.jar cseréje (* .jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:318
+#: src/application/pages/instance/VersionPage.cpp:316
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "%1 verzió megváltoztatása"
 
-#: src/application/pages/instance/VersionPage.cpp:372
+#: src/application/pages/instance/VersionPage.cpp:376
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "Jelenleg nem áll rendelkezésre Forge verzió a Minecraft számára"
 
-#: src/application/pages/instance/VersionPage.cpp:373
+#: src/application/pages/instance/VersionPage.cpp:377
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Nem sikerült betölteni vagy letölteni a Forge verziólistákat!"
 
-#: src/application/pages/instance/VersionPage.cpp:417
+#: src/application/pages/instance/VersionPage.cpp:448
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Válassza ki a LiteLoader verziót"
 
-#: src/application/pages/instance/VersionPage.cpp:419
+#: src/application/pages/instance/VersionPage.cpp:450
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Jelenleg nincs elérhető LiteLoader verzió a Minecraft számára"

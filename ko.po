@@ -413,7 +413,7 @@ msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
 msgstr "인증 중: 응답 처리중..."
 
-#: src/api/logic/tools/BaseProfiler.cpp:29
+#: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
 msgstr "프로파일러 중단됨"
@@ -496,12 +496,12 @@ msgstr ""
 "치해야 할 수 있습니다.\n"
 "\n"
 
-#: src/api/logic/minecraft/ComponentList.cpp:846
+#: src/api/logic/minecraft/ComponentList.cpp:849
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "이름"
 
-#: src/api/logic/minecraft/ComponentList.cpp:848
+#: src/api/logic/minecraft/ComponentList.cpp:851
 msgctxt "ComponentList|"
 msgid "Version"
 msgstr "버전"
@@ -526,7 +526,7 @@ msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "인스턴스에 로드/시작 전 검사 과정에서 해결되지 않은 의존성이 있습니다."
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:688
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid ""
@@ -661,28 +661,28 @@ msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
 msgstr "인스턴스 내보내기"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:390
+#: src/application/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
 msgstr "%1 내보내기"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:399
+#: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
 msgstr "덮어쓸까요?"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:400
+#: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
 msgstr "동일한 이름의 파일이 존재합니다. 덮어쓸까요?"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:414
+#: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "오류"
 
-#: src/application/dialogs/ExportInstanceDialog.cpp:414
+#: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
 msgstr "인스턴스 내보내기에 실패함"
@@ -928,15 +928,84 @@ msgctxt "FTBPage|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "%1를 진짜로 삭제하기를 원하십니까?"
 
-#: src/api/logic/modplatform/flame/FileResolvingTask.cpp:13
+#: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr "모드 ID 처리중..."
 
-#: src/api/logic/modplatform/flame/FileResolvingTask.cpp:115
+#: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "일부 모드 ID 처리 작업이 실패하였습니다."
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
+#, fuzzy
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving URL..."
+msgstr "모드 ID 처리중..."
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Not a Twitch URL."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Couldn't find the needle in the haystack..."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Couldn't find the end of the needle in the haystack..."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
+#, fuzzy
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed."
+msgstr "모드 ID 처리중..."
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed: missing package root element."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed: missing project element."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed: missing id attribute."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving failed: missing file attribute."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Failed to resove projectId as a number."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Failed to resove fileId as a number."
+msgstr ""
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
+#, fuzzy
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Resolving mod IDs..."
+msgstr "모드 ID 처리중..."
+
+#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
+#, fuzzy
+msgctxt "Flame::UrlResolvingTask|"
+msgid "Failed to resolve the modpack file."
+msgstr "모드팩 파일 %1을 여는 데에 실패했습니다!"
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -1087,13 +1156,19 @@ msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
 msgstr "업데이트 목록 처리에 실패하였습니다..."
 
-#: src/api/logic/updater/DownloadTask.cpp:134
+#: src/api/logic/updater/DownloadTask.cpp:136
+#, fuzzy
+msgctxt "GoUpdate::DownloadTask|"
+msgid "Downloading one update file."
+msgstr "%1 업데이트 파일들을 다운로드 하는 중."
+
+#: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
 msgstr "%1 업데이트 파일들을 다운로드 하는 중."
 
-#: src/api/logic/updater/DownloadTask.cpp:148
+#: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
@@ -1104,31 +1179,31 @@ msgctxt "IconPickerDialog|"
 msgid "Pick icon"
 msgstr "아이콘 선택"
 
-#: src/application/dialogs/IconPickerDialog.cpp:64
+#: src/application/dialogs/IconPickerDialog.cpp:65
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
 msgstr "아이콘 추가"
 
-#: src/application/dialogs/IconPickerDialog.cpp:65
+#: src/application/dialogs/IconPickerDialog.cpp:66
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
 msgstr "아이콘 제거"
 
-#: src/application/dialogs/IconPickerDialog.cpp:74
+#: src/application/dialogs/IconPickerDialog.cpp:75
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
 msgstr "폴더 보기"
 
 #. The title of the select icons open file dialog
-#: src/application/dialogs/IconPickerDialog.cpp:104
+#: src/application/dialogs/IconPickerDialog.cpp:105
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
 msgstr "아이콘 선택"
 
-#. The type of icon files
-#: src/application/dialogs/IconPickerDialog.cpp:107
+#: src/application/dialogs/IconPickerDialog.cpp:108
+#, fuzzy, qt-format
 msgctxt "IconPickerDialog|"
-msgid "Icons"
+msgid "Icons %1"
 msgstr "아이콘들"
 
 #: src/application/pages/modplatform/ImportPage.ui:17
@@ -1146,12 +1221,12 @@ msgctxt "ImportPage|"
 msgid "Import from zip"
 msgstr "Zip으로부터 읽어들이기"
 
-#: src/application/pages/modplatform/ImportPage.cpp:97
+#: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Choose modpack"
 msgstr "모드팩 선택"
 
-#: src/application/pages/modplatform/ImportPage.cpp:97
+#: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
 msgstr "Zip 압축파일 (*.zip)"
@@ -1193,7 +1268,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "버전 %1으로부터 인스턴스 생성 중"
 
-#: src/api/logic/InstanceImportTask.cpp:34
+#: src/api/logic/InstanceImportTask.cpp:35
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1203,49 +1278,49 @@ msgstr ""
 "모드팩 다운로드 중:\n"
 "%1"
 
-#: src/api/logic/InstanceImportTask.cpp:40
+#: src/api/logic/InstanceImportTask.cpp:41
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "모드팩 다운로드"
 
-#: src/api/logic/InstanceImportTask.cpp:70
+#: src/api/logic/InstanceImportTask.cpp:71
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "모드팩 추출 중"
 
-#: src/api/logic/InstanceImportTask.cpp:78
+#: src/api/logic/InstanceImportTask.cpp:79
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "모드팩 압축 파일을 열 수 없음."
 
-#: src/api/logic/InstanceImportTask.cpp:103
-#: src/api/logic/InstanceImportTask.cpp:164
+#: src/api/logic/InstanceImportTask.cpp:104
+#: src/api/logic/InstanceImportTask.cpp:165
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "압축 파일이 인식 가능한 모드팩을 가지고 있지 않음."
 
-#: src/api/logic/InstanceImportTask.cpp:119
+#: src/api/logic/InstanceImportTask.cpp:120
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "모드팩 추출 실패"
 
-#: src/api/logic/InstanceImportTask.cpp:146
+#: src/api/logic/InstanceImportTask.cpp:147
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "%1에 대한 권한 문제를 해결하지 못함"
 
-#: src/api/logic/InstanceImportTask.cpp:192
+#: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "팩 manifest를 해석하지 못함:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:203
+#: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "덮어쓰는 폴더를 이름 바꾸지 못함:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:209
+#: src/api/logic/InstanceImportTask.cpp:210
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1254,36 +1329,36 @@ msgid ""
 msgstr ""
 "지정된 덮어쓸 폴더 (%1)이 존재하지 않습니다. 이미 모드팩이 쓰였을지도요?"
 
-#: src/api/logic/InstanceImportTask.cpp:223
+#: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "Manifest의 알 수 없는 모드 로더 오류: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:236
+#: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid ""
 "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "읽어들이는 중 마인크래프트 버전에 있는 먼지를 청소했습니다."
 
-#: src/api/logic/InstanceImportTask.cpp:252
+#: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "마인크래프트 %1에 권장되는 포지 버전을 결정하지 못하였습니다"
 
-#: src/api/logic/InstanceImportTask.cpp:300
+#: src/api/logic/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "모드 다운로드"
 
-#: src/api/logic/InstanceImportTask.cpp:316
+#: src/api/logic/InstanceImportTask.cpp:317
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "이 '폴더'는 추출을 필요로 할 지도 모릅니다: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:328
+#: src/api/logic/InstanceImportTask.cpp:329
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1292,23 +1367,23 @@ msgstr ""
 "중첩된 구조, 즉 모드팩 안의 모드팩은 아직 구현되지 않았기에, 아무것도 다운로"
 "드되지 않았습니다: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:333
+#: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "인식불가/사용불가인 패키지 타입: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:353
+#: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "모드 다운로드 중..."
 
-#: src/api/logic/InstanceImportTask.cpp:360
+#: src/api/logic/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "모드 ID 처리 실패:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:171
+#: src/api/logic/InstanceImportTask.cpp:172
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "인스턴스 읽어들이기가 중단되었습니다."
@@ -1335,112 +1410,123 @@ msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
 msgstr "인스턴스 편집 (%1)"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:60
+#: src/application/pages/instance/InstanceSettingsPage.ui:58
 msgctxt "InstanceSettingsPage|"
 msgid "Auto-detect..."
 msgstr "자동 감지..."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:67
+#: src/application/pages/instance/InstanceSettingsPage.ui:65
 msgctxt "InstanceSettingsPage|"
 msgid "Browse..."
 msgstr "탐색..."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:74
+#: src/application/pages/instance/InstanceSettingsPage.ui:72
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
 msgstr "테스트"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:106
+#: src/application/pages/instance/InstanceSettingsPage.ui:104
 msgctxt "InstanceSettingsPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "마인크래프트에 할당된 사용 가능한 최대 메모리입니다."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:99
+#: src/application/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
 msgstr "메모리 최소 할당량:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:45
+#: src/application/pages/instance/InstanceSettingsPage.ui:43
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
 msgstr "자바 설치본(&L)"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:179
+#: src/application/pages/instance/InstanceSettingsPage.ui:177
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
 msgstr "메모리 최대 할당량:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:128
+#: src/application/pages/instance/InstanceSettingsPage.ui:126
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "마인크래프트는 이 용량의 메모리를 할당받고 실행됩니다."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:150
+#: src/application/pages/instance/InstanceSettingsPage.ui:148
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "로드된 자바 클래스를 저장하는 데에 사용 가능한 메모리입니다."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:87
+#: src/application/pages/instance/InstanceSettingsPage.ui:85
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
 msgstr "메모리(&Y)"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:186
+#: src/application/pages/instance/InstanceSettingsPage.ui:17
+#, fuzzy
+msgctxt "InstanceSettingsPage|"
+msgid "Open Global Settings"
+msgstr "콘솔 설정"
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:20
+msgctxt "InstanceSettingsPage|"
+msgid "The settings here are overrides for global settings."
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:184
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
 msgstr "참고: 펌젠(Permgen)은 자바8 이상일경우 자동설정됩니다."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:199
+#: src/application/pages/instance/InstanceSettingsPage.ui:197
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
 msgstr "자바 명령행 인자(&T)"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:218
+#: src/application/pages/instance/InstanceSettingsPage.ui:216
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
 msgstr "게임 창(들)"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:227
+#: src/application/pages/instance/InstanceSettingsPage.ui:225
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
 msgstr "게임 창"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:239
+#: src/application/pages/instance/InstanceSettingsPage.ui:237
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
 msgstr "마인크래프트를 최대화된 창 크기로 시작할까요?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:248
+#: src/application/pages/instance/InstanceSettingsPage.ui:246
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
 msgstr "창 높이:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:255
+#: src/application/pages/instance/InstanceSettingsPage.ui:253
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
 msgstr "창 너비:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:299
+#: src/application/pages/instance/InstanceSettingsPage.ui:297
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
 msgstr "콘솔 설정(&L)"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:325
+#: src/application/pages/instance/InstanceSettingsPage.ui:323
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
 msgstr "게임이 튕겼을 때도 콘솔을 표시할까요?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:311
+#: src/application/pages/instance/InstanceSettingsPage.ui:309
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
 msgstr "게임이 실행 중일때도 콘솔을 표시할까요?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:318
+#: src/application/pages/instance/InstanceSettingsPage.ui:316
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "게임 종료시 콘솔을 자동으로 닫을까요?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:349
+#: src/application/pages/instance/InstanceSettingsPage.ui:347
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "사용자 정의 명령어들"
@@ -1450,12 +1536,12 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "설정"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:210
+#: src/application/pages/instance/InstanceSettingsPage.cpp:228
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "자바 버전을 선택하세요"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:228
+#: src/application/pages/instance/InstanceSettingsPage.cpp:246
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "자바 실행 파일 찾기"
@@ -1701,17 +1787,17 @@ msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
 msgstr "MultiMC에서 쓸 언어를 선택하십시오"
 
-#: src/application/LaunchController.cpp:28
+#: src/application/LaunchController.cpp:27
 msgctxt "LaunchController|"
 msgid "No instance specified"
 msgstr "선택한 인스턴스 없음"
 
-#: src/application/LaunchController.cpp:47
+#: src/application/LaunchController.cpp:46
 msgctxt "LaunchController|"
 msgid "No Accounts"
 msgstr "계정 없음"
 
-#: src/application/LaunchController.cpp:48
+#: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
 msgid ""
 "In order to play Minecraft, you must have at least one Mojang or Minecraft "
@@ -1721,17 +1807,17 @@ msgstr ""
 "마인크래프트를 이용하시려면, 반드시 최소 하나 이상의 모장 또는 마인크래프트 "
 "계정으로 로그인해야합니다. 계정 추가를 위해 계정 관리자를 여시겠습니까?"
 
-#: src/application/LaunchController.cpp:62
+#: src/application/LaunchController.cpp:61
 msgctxt "LaunchController|"
 msgid "Which profile would you like to use?"
 msgstr "어느 계정을 사용하시겠습니까?"
 
-#: src/application/LaunchController.cpp:78
+#: src/application/LaunchController.cpp:77
 msgctxt "LaunchController|"
 msgid "No account selected for launch"
 msgstr "실행에 사용될 계정이 선택되지 않음"
 
-#: src/application/LaunchController.cpp:87
+#: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
 msgid ""
 "Your account is currently not logged in. Please enter your password to log "
@@ -1739,56 +1825,56 @@ msgid ""
 msgstr ""
 "지금 로그인되어있지 않습니다. 다시 로그인하기 위해 비밀번호를 입력하세요."
 
-#: src/application/LaunchController.cpp:103
+#: src/application/LaunchController.cpp:102
 msgctxt "LaunchController|"
 msgid "Play Offline"
 msgstr "오프라인으로 실행하기"
 
-#: src/application/LaunchController.cpp:123
+#: src/application/LaunchController.cpp:122
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
 msgstr "로그인 과정에서 불분명한 세션 상태를 수신함."
 
-#: src/application/LaunchController.cpp:164
+#: src/application/LaunchController.cpp:163
 msgctxt "LaunchController|"
 msgid "Player name"
 msgstr "플레이어 이름"
 
-#: src/application/LaunchController.cpp:165
+#: src/application/LaunchController.cpp:164
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
 msgstr "오프라인 모드에서의 플레이어 이름을 고르세요."
 
-#: src/application/LaunchController.cpp:187
+#: src/application/LaunchController.cpp:186
 msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "실행에 실패하였습니다."
 
-#: src/application/LaunchController.cpp:197
-#: src/application/LaunchController.cpp:237
-#: src/application/LaunchController.cpp:260
+#: src/application/LaunchController.cpp:196
+#: src/application/LaunchController.cpp:236
+#: src/application/LaunchController.cpp:259
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "오류"
 
+#: src/application/LaunchController.cpp:196
 #: src/application/LaunchController.cpp:197
-#: src/application/LaunchController.cpp:198
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "인스턴스 프로필을 불러오는 데 실패하였습니다."
 
-#: src/application/LaunchController.cpp:205
+#: src/application/LaunchController.cpp:204
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "런처를 인스턴스화하지 못하였습니다."
 
-#: src/application/LaunchController.cpp:237
+#: src/application/LaunchController.cpp:236
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "프로파일러를 시작할 수 없었습니다: %1"
 
-#: src/application/LaunchController.cpp:246
+#: src/application/LaunchController.cpp:245
 #, qt-format
 msgctxt "LaunchController|"
 msgid ""
@@ -1802,33 +1888,33 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/application/LaunchController.cpp:249
+#: src/application/LaunchController.cpp:248
 msgctxt "LaunchController|"
 msgid "Waiting"
 msgstr "기다리는 중"
 
-#: src/application/LaunchController.cpp:251
+#: src/application/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "실행"
 
-#: src/application/LaunchController.cpp:259
+#: src/application/LaunchController.cpp:258
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "프로파일러를 시작할 수 없었습니다: %1"
 
-#: src/application/LaunchController.cpp:288
+#: src/application/LaunchController.cpp:287
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "강제 종료"
 
-#: src/application/LaunchController.cpp:304
+#: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "마인크래프트를 강제 종료할까요?"
 
-#: src/application/LaunchController.cpp:305
+#: src/application/LaunchController.cpp:304
 msgctxt "LaunchController|"
 msgid ""
 "This can cause the instance to get corrupted and should only be used if "
@@ -2125,382 +2211,382 @@ msgctxt "LoginDialog|"
 msgid "Password"
 msgstr "비밀번호"
 
-#: src/application/MainWindow.cpp:254
+#: src/application/MainWindow.cpp:253
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "메인 툴바"
 
-#: src/application/MainWindow.cpp:437
+#: src/application/MainWindow.cpp:436
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "인스턴스 툴바"
 
-#: src/application/MainWindow.cpp:414
+#: src/application/MainWindow.cpp:413
 msgctxt "MainWindow|"
 msgid "News Toolbar"
 msgstr "뉴스 툴바"
 
-#: src/application/MainWindow.cpp:259
+#: src/application/MainWindow.cpp:258
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr "인스턴스 추가"
 
-#: src/application/MainWindow.cpp:230
+#: src/application/MainWindow.cpp:229
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr "강제 종료"
 
-#: src/application/MainWindow.cpp:231
+#: src/application/MainWindow.cpp:230
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "실행중인 인스턴스 강제 종료"
 
-#: src/application/MainWindow.cpp:260
+#: src/application/MainWindow.cpp:259
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr "새로운 인스턴스를 추가합니다."
 
-#: src/application/MainWindow.cpp:272
+#: src/application/MainWindow.cpp:271
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr "인스턴스 폴더 보기"
 
-#: src/application/MainWindow.cpp:273
+#: src/application/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr "파일 브라우저에서 인스턴스 폴더를 엽니다."
 
-#: src/application/MainWindow.cpp:280
+#: src/application/MainWindow.cpp:279
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr "중앙 모드 폴더 보기"
 
-#: src/application/MainWindow.cpp:281
+#: src/application/MainWindow.cpp:280
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "파일 브라우저로 중앙 모드 폴더를 엽니다."
 
-#: src/application/MainWindow.cpp:301
+#: src/application/MainWindow.cpp:300
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "설정"
 
-#: src/application/MainWindow.cpp:302
+#: src/application/MainWindow.cpp:301
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "설정을 변경합니다."
 
-#: src/application/MainWindow.cpp:312
+#: src/application/MainWindow.cpp:311
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "버그 보고"
 
-#: src/application/MainWindow.cpp:313
+#: src/application/MainWindow.cpp:312
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
 msgstr "MultiMC의 버그 보고를 위해 버그 트래커를 엽니다."
 
-#: src/application/MainWindow.cpp:371
+#: src/application/MainWindow.cpp:370
 msgctxt "MainWindow|"
 msgid "Open the MultiMC Patreon page."
 msgstr "MultiMC Patreon 페이지를 엽니다."
 
-#: src/application/MainWindow.cpp:419
+#: src/application/MainWindow.cpp:418
 msgctxt "MainWindow|"
 msgid "More news..."
 msgstr "더 많은 소식..."
 
-#: src/application/MainWindow.cpp:420
+#: src/application/MainWindow.cpp:419
 msgctxt "MainWindow|"
 msgid "Open the MultiMC development blog to read more news about MultiMC."
 msgstr ""
 "MultiMC에 관한 더 많은 소식들을 보기 위해 MultiMC 개발 블로그를 엽니다."
 
-#: src/application/MainWindow.cpp:337
+#: src/application/MainWindow.cpp:336
 msgctxt "MainWindow|"
 msgid "About MultiMC"
 msgstr "MultiMC에 대하여"
 
-#: src/application/MainWindow.cpp:338
+#: src/application/MainWindow.cpp:337
 msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "MultiMC에 관한 정보를 봅니다."
 
-#: src/application/MainWindow.cpp:236
+#: src/application/MainWindow.cpp:235
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "선택한 인스턴스를 실행합니다."
 
-#: src/application/MainWindow.cpp:360
+#: src/application/MainWindow.cpp:359
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
 msgstr "새 MultiMC 업데이트가 있는 지 확인합니다."
 
-#: src/application/MainWindow.cpp:459
+#: src/application/MainWindow.cpp:458
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "선택한 인스턴스의 이름을 바꿉니다."
 
-#: src/application/MainWindow.cpp:515
+#: src/application/MainWindow.cpp:514
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "그룹 변경"
 
-#: src/application/MainWindow.cpp:516
+#: src/application/MainWindow.cpp:515
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "선택한 인스턴스가 속하는 그룹을 바꿉니다."
 
-#: src/application/MainWindow.cpp:444
+#: src/application/MainWindow.cpp:443
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "아이콘 변경"
 
-#: src/application/MainWindow.cpp:445
+#: src/application/MainWindow.cpp:444
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "선택한 인스턴스의 아이콘을 바꿉니다."
 
-#: src/application/MainWindow.cpp:494
+#: src/application/MainWindow.cpp:493
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "메모 편집"
 
-#: src/application/MainWindow.cpp:495
+#: src/application/MainWindow.cpp:494
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "선택한 인스턴스의 메모를 편집합니다."
 
-#: src/application/MainWindow.cpp:501
+#: src/application/MainWindow.cpp:500
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "월드(들) 보기"
 
-#: src/application/MainWindow.cpp:502
+#: src/application/MainWindow.cpp:501
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "선택한 인스턴스의 월드 살펴보기."
 
-#: src/application/MainWindow.cpp:487
+#: src/application/MainWindow.cpp:486
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "인스턴스 편집"
 
-#: src/application/MainWindow.cpp:488
+#: src/application/MainWindow.cpp:487
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "인스턴스의 설정, 모드, 그리고 버전을 편집합니다."
 
-#: src/application/MainWindow.cpp:538
+#: src/application/MainWindow.cpp:537
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "인스턴스 폴더"
 
-#: src/application/MainWindow.cpp:539
+#: src/application/MainWindow.cpp:538
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "파일 브라우저로 선택한 인스턴스의 루트 디렉토리를 엽니다."
 
-#: src/application/MainWindow.cpp:554
+#: src/application/MainWindow.cpp:553
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "삭제"
 
-#: src/application/MainWindow.cpp:555
+#: src/application/MainWindow.cpp:554
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "선택한 인스턴스를 삭제합니다."
 
-#: src/application/MainWindow.cpp:531
+#: src/application/MainWindow.cpp:530
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "설정 폴더"
 
-#: src/application/MainWindow.cpp:379
+#: src/application/MainWindow.cpp:378
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "냐-앙"
 
-#: src/application/MainWindow.cpp:328
+#: src/application/MainWindow.cpp:327
 msgctxt "MainWindow|"
 msgid "Reddit"
 msgstr "레딧"
 
-#: src/application/MainWindow.cpp:320
+#: src/application/MainWindow.cpp:319
 msgctxt "MainWindow|"
 msgid "Discord"
 msgstr "디스코드"
 
-#: src/application/MainWindow.cpp:562
+#: src/application/MainWindow.cpp:561
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "인스턴스 복사"
 
-#: src/application/MainWindow.cpp:563
+#: src/application/MainWindow.cpp:562
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "선택한 인스턴스를 복사합니다."
 
-#: src/application/MainWindow.cpp:388
+#: src/application/MainWindow.cpp:387
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "계정 관리"
 
-#: src/application/MainWindow.cpp:479
+#: src/application/MainWindow.cpp:478
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "선택한 인스턴스를 오프라인 모드로 시작합니다."
 
-#: src/application/MainWindow.cpp:508
+#: src/application/MainWindow.cpp:507
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "스크린샷 관리"
 
-#: src/application/MainWindow.cpp:532
+#: src/application/MainWindow.cpp:531
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "인스턴스의 설정 폴더를 엽니다."
 
-#: src/application/MainWindow.cpp:380
+#: src/application/MainWindow.cpp:379
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "솜털로 뒤덮인 아기고양이에요 (^>ω<^)"
 
-#: src/application/MainWindow.cpp:329
+#: src/application/MainWindow.cpp:328
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit."
 msgstr "MultiMC 서브레딧 페이지를 엽니다."
 
-#: src/application/MainWindow.cpp:321
+#: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat."
 msgstr "MultiMC 디스코드 음성 채팅을 엽니다."
 
-#: src/application/MainWindow.cpp:478
+#: src/application/MainWindow.cpp:477 src/application/MainWindow.cpp:942
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "오프라인으로 실행하기"
 
-#: src/application/MainWindow.cpp:509
+#: src/application/MainWindow.cpp:508
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "이 인스턴스의 스크린샷을 보고 업로드합니다."
 
-#: src/application/MainWindow.cpp:547
+#: src/application/MainWindow.cpp:546
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "인스턴스 내보내기"
 
-#: src/application/MainWindow.cpp:604
+#: src/application/MainWindow.cpp:603
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - 버전 %1"
 
-#: src/application/MainWindow.cpp:607
+#: src/application/MainWindow.cpp:606
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " (%1에 있음)"
 
-#: src/application/MainWindow.cpp:706
+#: src/application/MainWindow.cpp:711
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "선택한 인스턴스 없음"
 
-#: src/application/MainWindow.cpp:458
+#: src/application/MainWindow.cpp:457
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "이름 바꾸기"
 
-#: src/application/MainWindow.cpp:869
+#: src/application/MainWindow.cpp:874
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "인스턴스 생성"
 
-#: src/application/MainWindow.cpp:235 src/application/MainWindow.cpp:923
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:941
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "실행"
 
-#: src/application/MainWindow.cpp:286 src/application/MainWindow.cpp:624
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:623
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "폴더"
 
-#: src/application/MainWindow.cpp:287
+#: src/application/MainWindow.cpp:286
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "인스턴스 간에 공유되는 폴더 중 하나를 엽니다."
 
-#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:625
+#: src/application/MainWindow.cpp:342 src/application/MainWindow.cpp:624
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "도움말"
 
-#: src/application/MainWindow.cpp:344
+#: src/application/MainWindow.cpp:343
 msgctxt "MainWindow|"
 msgid "Get help with MultiMC or Minecraft."
 msgstr "MultiMC 또는 마인크래프트에 관한 도움을 받습니다."
 
-#: src/application/MainWindow.cpp:359
+#: src/application/MainWindow.cpp:358
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "지금 업데이트"
 
-#: src/application/MainWindow.cpp:370
+#: src/application/MainWindow.cpp:369
 msgctxt "MainWindow|"
 msgid "Support MultiMC"
 msgstr "MultiMC 지원하기"
 
-#: src/application/MainWindow.cpp:524
+#: src/application/MainWindow.cpp:523
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "마인크래프트 폴더"
 
-#: src/application/MainWindow.cpp:525
+#: src/application/MainWindow.cpp:524
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "선택한 인스턴스의 디렉토리를 파일 브라우저로 엽니다."
 
-#: src/application/MainWindow.cpp:928
+#: src/application/MainWindow.cpp:951
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "프로파일러들"
 
-#: src/application/MainWindow.cpp:936
+#: src/application/MainWindow.cpp:963
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
 "프로파일러가 바르게 구성되지 않았습니다. 설정에 들어가서, \"외부 도구\"를 보"
 "세요."
 
-#: src/application/MainWindow.cpp:983
+#: src/application/MainWindow.cpp:1017
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "계정 추가되지 않음!"
 
-#: src/application/MainWindow.cpp:1013
+#: src/application/MainWindow.cpp:1047
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "기본 계정 없음"
 
-#: src/application/MainWindow.cpp:1121
+#: src/application/MainWindow.cpp:1155
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "소식을 불러오는 중..."
 
-#: src/application/MainWindow.cpp:1134
+#: src/application/MainWindow.cpp:1168
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "소식 없음."
 
-#: src/application/MainWindow.cpp:1217 src/application/MainWindow.cpp:1234
+#: src/application/MainWindow.cpp:1251 src/application/MainWindow.cpp:1268
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "오류"
 
-#: src/application/MainWindow.cpp:1217
+#: src/application/MainWindow.cpp:1251
 #, qt-format
 msgctxt "MainWindow|"
 msgid ""
@@ -2510,12 +2596,12 @@ msgstr ""
 "업데이트 다운로드를 위한 폴더를 생성하지 못하였습니다:\n"
 "%1"
 
-#: src/application/MainWindow.cpp:721 src/application/MainWindow.cpp:1081
+#: src/application/MainWindow.cpp:726 src/application/MainWindow.cpp:1115
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "프로파일들"
 
-#: src/application/MainWindow.cpp:885
+#: src/application/MainWindow.cpp:890
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
@@ -2546,42 +2632,42 @@ msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:734
+#: src/api/logic/minecraft/MinecraftInstance.cpp:733
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1분 %2초"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:738
+#: src/api/logic/minecraft/MinecraftInstance.cpp:737
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1시 %2분"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:740
+#: src/api/logic/minecraft/MinecraftInstance.cpp:739
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1일 %2시 %3분"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:748
+#: src/api/logic/minecraft/MinecraftInstance.cpp:747
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "손상됨"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:752
+#: src/api/logic/minecraft/MinecraftInstance.cpp:751
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "마인크래프트 %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:755
+#: src/api/logic/minecraft/MinecraftInstance.cpp:754
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", %1동안 플레이함"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:759
+#: src/api/logic/minecraft/MinecraftInstance.cpp:758
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", 는 튕겼습니다."
@@ -2695,7 +2781,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "버전명."
 
-#: src/application/MultiMC.cpp:517
+#: src/application/MultiMC.cpp:519
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "설정"
@@ -2989,7 +3075,7 @@ msgid "uid"
 msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:134
+#: src/application/dialogs/NewInstanceDialog.cpp:143
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "새 인스턴스"
@@ -3004,7 +3090,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Group:"
 msgstr "그룹(&G):"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:65
+#: src/application/dialogs/NewInstanceDialog.cpp:67
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "그룹 없음"
@@ -3056,7 +3142,7 @@ msgctxt "NotificationDialog|"
 msgid "Close"
 msgstr "닫기"
 
-#: src/api/logic/NullInstance.h:19
+#: src/api/logic/NullInstance.h:20
 msgctxt "NullInstance|"
 msgid "Unknown instance type"
 msgstr "알 수 없는 인스턴스 유형"
@@ -3848,7 +3934,7 @@ msgstr ""
 "MultiMC를 직접 고치셔야 할 것 같습니다.\n"
 "우리들에게 어떻게 일어난 일이고, 왜 일어났는지 보고해주시기 바랍니다."
 
-#: src/application/MainWindow.cpp:953
+#: src/application/MainWindow.cpp:987
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (이미 사용중)"
@@ -3949,22 +4035,33 @@ msgctxt "ScreenshotsPage|"
 msgid "Screenshots"
 msgstr "스크린샷들"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:306
+#: src/application/pages/instance/ScreenshotsPage.cpp:300
+#: src/application/pages/instance/ScreenshotsPage.cpp:338
 msgctxt "ScreenshotsPage|"
 msgid "Failed to upload screenshots!"
 msgstr "스크린샷을 업로드 하는 데 실패하였습니다!"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:307
+#: src/application/pages/instance/ScreenshotsPage.cpp:301
+#: src/application/pages/instance/ScreenshotsPage.cpp:339
 msgctxt "ScreenshotsPage|"
 msgid "Unknown error"
 msgstr "알 수 없는 오류"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:316
+#: src/application/pages/instance/ScreenshotsPage.cpp:310
+#: src/application/pages/instance/ScreenshotsPage.cpp:348
 msgctxt "ScreenshotsPage|"
 msgid "Upload finished"
 msgstr "업로드 완료함"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:317
+#: src/application/pages/instance/ScreenshotsPage.cpp:311
+#, fuzzy, qt-format
+msgctxt "ScreenshotsPage|"
+msgid ""
+"The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in "
+"your clipboard."
+msgstr "<a href=\"%1\">업로드된 로그 링크</a>는 클립보드에 복사되었습니다."
+
+#: src/application/pages/instance/ScreenshotsPage.cpp:349
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
@@ -3972,12 +4069,12 @@ msgid ""
 "clipboard."
 msgstr "업로드된 <a href=\"%1\"> 앨범의 링크</a>는 클립보드에 복사되었습니다."
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:327
+#: src/application/pages/instance/ScreenshotsPage.cpp:359
 msgctxt "ScreenshotsPage|"
 msgid "Are you sure?"
 msgstr "정말로 하시겠습니까?"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:327
+#: src/application/pages/instance/ScreenshotsPage.cpp:359
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "모든 선택한 스크린샷들이 삭제됩니다."
@@ -4223,7 +4320,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "텍스처 팩"
 
-#: src/api/logic/translations/TranslationsModel.cpp:348
+#: src/api/logic/translations/TranslationsModel.cpp:349
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid ""
@@ -4237,22 +4334,22 @@ msgstr ""
 "정확하지 않음: %3\n"
 "전체: %4"
 
-#: src/api/logic/translations/TranslationsModel.cpp:366
+#: src/api/logic/translations/TranslationsModel.cpp:367
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "언어"
 
-#: src/api/logic/translations/TranslationsModel.cpp:370
+#: src/api/logic/translations/TranslationsModel.cpp:371
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "완료됨"
 
-#: src/api/logic/translations/TranslationsModel.cpp:380
+#: src/api/logic/translations/TranslationsModel.cpp:381
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "언어의 이름."
 
-#: src/api/logic/translations/TranslationsModel.cpp:384
+#: src/api/logic/translations/TranslationsModel.cpp:385
 msgctxt "TranslationsModel|"
 msgid ""
 "Completeness is the percentage of fully translated strings, not counting "
@@ -4261,9 +4358,22 @@ msgstr ""
 "완료된 정도는 완전히 번역된 문장의 비율이며, 자동 번역 문장은 포함되지 않습니"
 "다."
 
-#: src/application/pages/modplatform/TwitchPage.h:40
+#: src/application/pages/modplatform/TwitchPage.ui:20
+#, fuzzy
 msgctxt "TwitchPage|"
-msgid "Twitch"
+msgid "Twitch URL:"
+msgstr "트위치"
+
+#: src/application/pages/modplatform/TwitchPage.ui:48
+#, fuzzy
+msgctxt "TwitchPage|"
+msgid "Check"
+msgstr "확인"
+
+#: src/application/pages/modplatform/TwitchPage.h:41
+#, fuzzy
+msgctxt "TwitchPage|"
+msgid "Twitch URL"
 msgstr "트위치"
 
 #: src/api/logic/launch/steps/Update.cpp:23
@@ -4390,7 +4500,12 @@ msgctxt "VanillaPage|"
 msgid "Alphas"
 msgstr "알파"
 
-#: src/application/pages/modplatform/VanillaPage.ui:117
+#: src/application/pages/modplatform/VanillaPage.ui:104
+msgctxt "VanillaPage|"
+msgid "Experiments"
+msgstr ""
+
+#: src/application/pages/modplatform/VanillaPage.ui:127
 msgctxt "VanillaPage|"
 msgid "Refresh"
 msgstr "새로고침"
@@ -4501,124 +4616,138 @@ msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr "포지 설치"
 
-#: src/application/pages/instance/VersionPage.ui:176
+#: src/application/pages/instance/VersionPage.ui:186
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr "라이트로더 패키지를 설치합니다."
 
-#: src/application/pages/instance/VersionPage.ui:179
+#: src/application/pages/instance/VersionPage.ui:189
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr "라이트로더 설치"
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:196
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr "일반 모드를 설치합니다."
 
-#: src/application/pages/instance/VersionPage.ui:189
+#: src/application/pages/instance/VersionPage.ui:199
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr "모드 설치"
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:209
 msgctxt "VersionPage|"
 msgid "Advanced"
 msgstr "고급"
 
-#: src/application/pages/instance/VersionPage.ui:209
+#: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr "마인크래프트 jar 파일에 모드를 추가합니다."
 
-#: src/application/pages/instance/VersionPage.ui:212
+#: src/application/pages/instance/VersionPage.ui:222
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr "마인크래프트 jar에 추가하기"
 
-#: src/application/pages/instance/VersionPage.ui:219
+#: src/application/pages/instance/VersionPage.ui:229
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr "마인크래프트 jar 대체하기"
 
-#: src/application/pages/instance/VersionPage.ui:226
+#: src/application/pages/instance/VersionPage.ui:236
 msgctxt "VersionPage|"
 msgid "Add Empty"
 msgstr "빈 것 추가"
 
-#: src/application/pages/instance/VersionPage.ui:233
+#: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Reload all packages."
 msgstr "모든 패키지 다시 로드하기."
 
-#: src/application/pages/instance/VersionPage.ui:236
+#: src/application/pages/instance/VersionPage.ui:246
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "새로고침"
 
-#: src/application/pages/instance/VersionPage.ui:243
+#: src/application/pages/instance/VersionPage.ui:253
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr "인스턴스 실행에 필요한 모든 파일을 지금 다운로드합니다."
 
-#: src/application/pages/instance/VersionPage.ui:246
+#: src/application/pages/instance/VersionPage.ui:256
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr "모두 다운로드"
 
-#: src/application/pages/instance/VersionPage.cpp:205
-#: src/application/pages/instance/VersionPage.cpp:211
-#: src/application/pages/instance/VersionPage.cpp:230
-#: src/application/pages/instance/VersionPage.cpp:274
-#: src/application/pages/instance/VersionPage.cpp:287
-#: src/application/pages/instance/VersionPage.cpp:343
+#: src/application/pages/instance/VersionPage.cpp:203
+#: src/application/pages/instance/VersionPage.cpp:209
+#: src/application/pages/instance/VersionPage.cpp:228
+#: src/application/pages/instance/VersionPage.cpp:272
+#: src/application/pages/instance/VersionPage.cpp:285
+#: src/application/pages/instance/VersionPage.cpp:347
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "오류"
 
-#: src/application/pages/instance/VersionPage.cpp:230
+#: src/application/pages/instance/VersionPage.cpp:228
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "파일을 제거할 수 없음"
 
-#: src/application/pages/instance/VersionPage.cpp:212
+#: src/application/pages/instance/VersionPage.cpp:210
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "인스턴스 프로필을 불러올 수 없었습니다."
 
-#: src/application/pages/instance/VersionPage.cpp:151
+#: src/application/pages/instance/VersionPage.cpp:144
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1은 아마도 문제가 있습니다."
 
-#: src/application/pages/instance/VersionPage.cpp:154
+#: src/application/pages/instance/VersionPage.cpp:147
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1은 문제가 있습니다!"
 
-#: src/application/pages/instance/VersionPage.cpp:168
+#: src/application/pages/instance/VersionPage.cpp:161
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "오류: "
 
-#: src/application/pages/instance/VersionPage.cpp:172
+#: src/application/pages/instance/VersionPage.cpp:165
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "경고: "
 
-#: src/application/pages/instance/VersionPage.cpp:248
+#: src/application/pages/instance/VersionPage.cpp:246
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Jar 모드 선택"
 
-#: src/application/pages/instance/VersionPage.cpp:248
+#: src/application/pages/instance/VersionPage.cpp:246
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "마인크래프트 jar 모드들 (*.zip *.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:344
+#: src/application/pages/instance/VersionPage.cpp:319
+#: src/application/pages/instance/VersionPage.cpp:404
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "No Fabric Loader versions are currently available."
+msgstr "현재 사용가능한 버전들이 없습니다."
+
+#: src/application/pages/instance/VersionPage.cpp:320
+#: src/application/pages/instance/VersionPage.cpp:405
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Couldn't load or download the Fabric Loader version lists!"
+msgstr "라이트로더 버전 목록을 불러오거나 다운로드하는 데에 실패하였습니다!"
+
+#: src/application/pages/instance/VersionPage.cpp:348
 msgctxt "VersionPage|"
 msgid ""
 "MultiMC cannot download Minecraft or update instances unless you have at "
@@ -4629,53 +4758,59 @@ msgstr ""
 "스들을 업데이트할 수 없습니다.\n"
 "Mojang 및 마인크래프트 계정을 추가해주세요."
 
-#: src/application/pages/instance/VersionPage.cpp:420
+#: src/application/pages/instance/VersionPage.cpp:403
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Select Fabric Loader version"
+msgstr "라이트로더 버전을 선택하세요"
+
+#: src/application/pages/instance/VersionPage.cpp:451
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "라이트로더 버전 목록을 불러오거나 다운로드하는 데에 실패하였습니다!"
 
-#: src/application/pages/instance/VersionPage.cpp:493
+#: src/application/pages/instance/VersionPage.cpp:524
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "인스턴스 업데이트 중 오류"
 
-#: src/application/pages/instance/VersionPage.cpp:370
+#: src/application/pages/instance/VersionPage.cpp:374
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "포지 버전을 선택하세요"
 
-#: src/application/pages/instance/VersionPage.cpp:258
+#: src/application/pages/instance/VersionPage.cpp:256
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Jar 모드 선택"
 
-#: src/application/pages/instance/VersionPage.cpp:258
+#: src/application/pages/instance/VersionPage.cpp:256
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "마인크래프트 jar 대체하기 (*.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:318
+#: src/application/pages/instance/VersionPage.cpp:316
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "%1 버전 변경"
 
-#: src/application/pages/instance/VersionPage.cpp:372
+#: src/application/pages/instance/VersionPage.cpp:376
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "사용가능한 포지 버전이 없습니다. "
 
-#: src/application/pages/instance/VersionPage.cpp:373
+#: src/application/pages/instance/VersionPage.cpp:377
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "포지 버전 목록을 불러오거나 다운로드하는 데에 실패하였습니다!"
 
-#: src/application/pages/instance/VersionPage.cpp:417
+#: src/application/pages/instance/VersionPage.cpp:448
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "라이트로더 버전을 선택하세요"
 
-#: src/application/pages/instance/VersionPage.cpp:419
+#: src/application/pages/instance/VersionPage.cpp:450
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "사용가능한 라이트로더 버전이 없습니다. "
