@@ -199,73 +199,29 @@ msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "Kanal"
 
-#: src/application/pages/global/AccountListPage.ui:39
-msgctxt "AccountListPage|"
-msgid ""
-"<html><head/><body><p>Welcome! If you're new here, you can click the &quot;"
-"Add&quot; button to add your Mojang or Minecraft account.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Merhaba, eğer burada yeniysen &quot;Ekle&quot; "
-"butonuna tıklayarak Minecraft ya da Mojang hesabını ekleyebilirsin.</p></"
-"body></html>"
-
-#: src/application/pages/global/AccountListPage.ui:56
-msgctxt "AccountListPage|"
-msgid "&Add"
-msgstr "&Ekle"
-
-#: src/application/pages/global/AccountListPage.ui:63
-msgctxt "AccountListPage|"
-msgid "&Remove"
-msgstr "&Kaldır"
-
-#: src/application/pages/global/AccountListPage.ui:83
-msgctxt "AccountListPage|"
-msgid ""
-"<html><head/><body><p>Set the currently selected account as the active "
-"account. The active account is the account that is used to log in (unless it "
-"is overridden in an instance-specific setting).</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Hesabı varsayılan olarak işaretle. Artık program "
-"açılışlarında bu hesap ile giriş yapılacaktır.</p></body></html>"
-
-#: src/application/pages/global/AccountListPage.ui:86
-msgctxt "AccountListPage|"
-msgid "&Set Default"
-msgstr "&Varsayılan Yap"
-
-#: src/application/pages/global/AccountListPage.ui:93
-msgctxt "AccountListPage|"
-msgid ""
-"Set no default account. This will cause MultiMC to prompt you to select an "
-"account every time you launch an instance that doesn't have its own default "
-"set."
-msgstr ""
-"Varsayılanlardan kaldırmanız ne zaman MultiMC'yi açtığınızda size hesabınızı "
-"tekrar sormasına neden olacaktır."
-
-#: src/application/pages/global/AccountListPage.ui:96
-msgctxt "AccountListPage|"
-msgid "&No Default"
-msgstr "&Varsayılandan Kaldır"
-
-#: src/application/pages/global/AccountListPage.ui:103
-msgctxt "AccountListPage|"
-msgid ""
-"Opens a dialog to select and upload a skin image to the selected account."
-msgstr "Seçilen hesaba skin resmi yükleyebilmek için bir diyalog kutusu açar."
-
-#: src/application/pages/global/AccountListPage.ui:106
-msgctxt "AccountListPage|"
-msgid "&Upload Skin"
-msgstr "&Skin Yükle"
-
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
 msgstr "Hesaplar"
 
-#: src/application/pages/global/AccountListPage.cpp:74
+#: src/application/pages/global/AccountListPage.cpp:41
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid ""
+"Welcome!\n"
+"If you're new here, you can click the \"Add\" button to add your Mojang or "
+"Minecraft account."
+msgstr ""
+"<html><head/><body><p>Merhaba, eğer burada yeniysen &quot;Ekle&quot; "
+"butonuna tıklayarak Minecraft ya da Mojang hesabını ekleyebilirsin.</p></"
+"body></html>"
+
+#: src/application/pages/global/AccountListPage.cpp:77
+msgctxt "AccountListPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
 msgid ""
 "Please enter your Mojang or Minecraft account username and password to add "
@@ -273,6 +229,47 @@ msgid ""
 msgstr ""
 "Lütfen Mojang veya Minecraft hesabınızın kullanıcı adı ve şifresini "
 "kullanarak hesabınıza bir kullanıcı ekleyin."
+
+#: src/application/pages/global/AccountListPage.ui:14
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "MainWindow"
+msgstr "Oyun Penceresi"
+
+#: src/application/pages/global/AccountListPage.ui:37
+msgctxt "AccountListPage|"
+msgid "toolBar"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.ui:53
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "Add"
+msgstr "Ekle"
+
+#: src/application/pages/global/AccountListPage.ui:58
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "Remove"
+msgstr "Sil"
+
+#: src/application/pages/global/AccountListPage.ui:63
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "Set Default"
+msgstr "&Varsayılan Yap"
+
+#: src/application/pages/global/AccountListPage.ui:71
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "No Default"
+msgstr "&Varsayılandan Kaldır"
+
+#: src/application/pages/global/AccountListPage.ui:76
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "Upload Skin"
+msgstr "&Skin Yükle"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -483,12 +480,12 @@ msgstr ""
 "isteyebilirsiniz.\n"
 "\n"
 
-#: src/api/logic/minecraft/ComponentList.cpp:849
+#: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "İsim"
 
-#: src/api/logic/minecraft/ComponentList.cpp:851
+#: src/api/logic/minecraft/ComponentList.cpp:854
 msgctxt "ComponentList|"
 msgid "Version"
 msgstr "Sürüm"
@@ -559,27 +556,27 @@ msgctxt "CustomCommands|"
 msgid "Form"
 msgstr "Form"
 
-#: src/application/widgets/CustomCommands.ui:23
+#: src/application/widgets/CustomCommands.ui:35
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
 msgstr "Öze&l Komutlar"
 
-#: src/application/widgets/CustomCommands.ui:35
+#: src/application/widgets/CustomCommands.ui:47
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
 msgstr "Çıkış komutu:"
 
-#: src/application/widgets/CustomCommands.ui:45
+#: src/application/widgets/CustomCommands.ui:57
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
 msgstr "Başlangıç komutu:"
 
-#: src/application/widgets/CustomCommands.ui:55
+#: src/application/widgets/CustomCommands.ui:67
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
 msgstr "Wrapper komutu:"
 
-#: src/application/widgets/CustomCommands.ui:68
+#: src/application/widgets/CustomCommands.ui:80
 msgctxt "CustomCommands|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1388,6 +1385,12 @@ msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Profil içe aktarması iptal edildi."
 
+#: src/api/logic/InstanceList.cpp:105
+#, fuzzy, qt-format
+msgctxt "InstanceList|"
+msgid "%1 Instance"
+msgstr "Profil Ekle"
+
 #: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
@@ -1398,135 +1401,129 @@ msgctxt "InstancePageProvider|"
 msgid "Core mods"
 msgstr "Çekirdek modlar"
 
-#: src/application/InstancePageProvider.h:48
-#: src/application/InstancePageProvider.h:59
-msgctxt "InstancePageProvider|"
-msgid "Worlds"
-msgstr "Dünyalar"
-
 #: src/application/InstancePageProvider.h:72
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
 msgstr "Profili Düzenle (%1)"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:58
+#: src/application/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
 msgid "Auto-detect..."
 msgstr "Otomatik-denetle..."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:65
+#: src/application/pages/instance/InstanceSettingsPage.ui:77
 msgctxt "InstanceSettingsPage|"
 msgid "Browse..."
 msgstr "Gözat..."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:72
+#: src/application/pages/instance/InstanceSettingsPage.ui:84
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
 msgstr "Test"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:104
+#: src/application/pages/instance/InstanceSettingsPage.ui:116
 msgctxt "InstanceSettingsPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "Minecraft'a ayrılan en yüksek hafıza kullanma miktarı."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:97
+#: src/application/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
 msgstr "En düşük hafıza kullanımı:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:43
+#: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
 msgstr "Java yük&leme"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:177
+#: src/application/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
 msgstr "En yüksek hafıza kullanımı:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:126
+#: src/application/pages/instance/InstanceSettingsPage.ui:138
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "Minecraft başlayınca verilecek olan hafıza."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:148
+#: src/application/pages/instance/InstanceSettingsPage.ui:160
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "Minecraft başlayınca verilecek olan hafıza."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:85
+#: src/application/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
 msgstr "Hafız&a"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:17
+#: src/application/pages/instance/InstanceSettingsPage.ui:29
 #, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Open Global Settings"
 msgstr "Konsol Ayarları"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:20
+#: src/application/pages/instance/InstanceSettingsPage.ui:32
 msgctxt "InstanceSettingsPage|"
 msgid "The settings here are overrides for global settings."
 msgstr ""
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:184
+#: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
 msgstr "Not: Permgen, Java 8 ve üstü için otomatik olarak ayarlanır"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:197
+#: src/application/pages/instance/InstanceSettingsPage.ui:209
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
 msgstr "Java değişkenleri"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:216
+#: src/application/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
 msgstr "Oyun Penceresi"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:225
+#: src/application/pages/instance/InstanceSettingsPage.ui:237
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
 msgstr "Oyun Penceresi"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:237
+#: src/application/pages/instance/InstanceSettingsPage.ui:249
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
 msgstr "Minecraft'ı tam ekranda başlat?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:246
+#: src/application/pages/instance/InstanceSettingsPage.ui:258
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
 msgstr "Pencere yüsekliği:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:253
+#: src/application/pages/instance/InstanceSettingsPage.ui:265
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
 msgstr "Pencere genişliği:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:297
+#: src/application/pages/instance/InstanceSettingsPage.ui:309
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
 msgstr "Konso&l Ayarları"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:323
+#: src/application/pages/instance/InstanceSettingsPage.ui:335
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
 msgstr "Oyun çökünce konsolu göster?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:309
+#: src/application/pages/instance/InstanceSettingsPage.ui:321
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
 msgstr "Oyun çalışırken konsolu göster?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:316
+#: src/application/pages/instance/InstanceSettingsPage.ui:328
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "Oyun kapanınca konsolu otomatik kapat?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:347
+#: src/application/pages/instance/InstanceSettingsPage.ui:359
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "Özel komutlar"
@@ -1546,7 +1543,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Yürütülebilir Java'yı bul"
 
-#: src/api/logic/InstanceList.cpp:758
+#: src/api/logic/InstanceList.cpp:762
 msgctxt "InstanceStaging|"
 msgid ""
 "Failed to commit instance, even after multiple retries. It is being blocked "
@@ -1560,39 +1557,39 @@ msgctxt "InstanceWindow|"
 msgid "Console window for "
 msgstr "Konsol Penceresi: "
 
-#: src/application/InstanceWindow.cpp:62
+#: src/application/InstanceWindow.cpp:63
 msgctxt "InstanceWindow|"
 msgid "Help"
 msgstr "Yardım"
 
-#: src/application/InstanceWindow.cpp:75
+#: src/application/InstanceWindow.cpp:76
 msgctxt "InstanceWindow|"
 msgid "Launch Offline"
 msgstr "Çevrimdışı Oyna"
 
-#: src/application/InstanceWindow.cpp:80
+#: src/application/InstanceWindow.cpp:81
 msgctxt "InstanceWindow|"
 msgid "Close"
 msgstr "Kapat"
 
-#: src/application/InstanceWindow.cpp:124
+#: src/application/InstanceWindow.cpp:125
 msgctxt "InstanceWindow|"
 msgid "Kill"
 msgstr "Kapat"
 
-#: src/application/InstanceWindow.cpp:125
+#: src/application/InstanceWindow.cpp:126
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
 msgstr "Çalışan profili kapat"
 
-#: src/application/InstanceWindow.cpp:130
-#: src/application/InstanceWindow.cpp:137
+#: src/application/InstanceWindow.cpp:131
+#: src/application/InstanceWindow.cpp:138
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Başlat"
 
-#: src/application/InstanceWindow.cpp:131
-#: src/application/InstanceWindow.cpp:138
+#: src/application/InstanceWindow.cpp:132
+#: src/application/InstanceWindow.cpp:139
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
 msgstr "Profili çalıştır"
@@ -1772,11 +1769,16 @@ msgctxt "LanguagePage|"
 msgid "Language"
 msgstr "Dil"
 
-#: src/application/widgets/LanguageSelectionWidget.cpp:50
+#: src/application/widgets/LanguageSelectionWidget.cpp:51
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?"
 msgstr ""
 "Kendi dilinizi bulamıyor ya da kalitesinin kötü olduğunu mu düşünüyorsunuz?"
+
+#: src/application/widgets/LanguageSelectionWidget.cpp:53
+msgctxt "LanguageSelectionWidget|"
+msgid "Help us with translations!"
+msgstr ""
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1962,12 +1964,12 @@ msgstr ""
 "Minecraft işlem kimliği: %1\n"
 "\n"
 
-#: src/api/logic/minecraft/legacy/LegacyInstance.cpp:226
+#: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
 msgid "Legacy"
 msgstr "Legacy"
 
-#: src/api/logic/minecraft/legacy/LegacyInstance.cpp:231
+#: src/api/logic/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
 msgstr "Eski sürümlerden profil dosyası."
@@ -2023,23 +2025,23 @@ msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (Taşındı)"
 
-#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:19
+#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
 msgstr "%1 profili kopyalanıyor"
 
-#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:58
+#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:59
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
 msgstr "Profil dosyası kopyalama işlemi başarısız oldu."
 
-#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:81
+#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
 msgstr "Minecraft sürümüne karar verilemedi."
 
-#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:134
+#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
 msgstr "Profil dosyası kopyalama işlemi iptal edildi."
@@ -2221,12 +2223,12 @@ msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "Ana Çubuk"
 
-#: src/application/MainWindow.cpp:436
+#: src/application/MainWindow.cpp:438
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "Profil Çubuğu"
 
-#: src/application/MainWindow.cpp:413
+#: src/application/MainWindow.cpp:415
 msgctxt "MainWindow|"
 msgid "News Toolbar"
 msgstr "Haberler Çubuğu"
@@ -2271,47 +2273,47 @@ msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Genel mod klasörünü dosya gezgininde aç."
 
-#: src/application/MainWindow.cpp:300
+#: src/application/MainWindow.cpp:301
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: src/application/MainWindow.cpp:301
+#: src/application/MainWindow.cpp:302
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "Ayarları değiştir."
 
-#: src/application/MainWindow.cpp:311
+#: src/application/MainWindow.cpp:312
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "Hata Bildir"
 
-#: src/application/MainWindow.cpp:312
+#: src/application/MainWindow.cpp:313
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
 msgstr "MultiMC'ye hataları göndermek için hata yakalayıcıyı aç."
 
-#: src/application/MainWindow.cpp:370
+#: src/application/MainWindow.cpp:372
 msgctxt "MainWindow|"
 msgid "Open the MultiMC Patreon page."
 msgstr "MultiMC Patreon sayfasını aç."
 
-#: src/application/MainWindow.cpp:418
+#: src/application/MainWindow.cpp:420
 msgctxt "MainWindow|"
 msgid "More news..."
 msgstr "Daha fazla haber..."
 
-#: src/application/MainWindow.cpp:419
+#: src/application/MainWindow.cpp:421
 msgctxt "MainWindow|"
 msgid "Open the MultiMC development blog to read more news about MultiMC."
 msgstr "MultiMC hakkında daha fazla şey için MultiMC geliştirme bloğunu aç."
 
-#: src/application/MainWindow.cpp:336
+#: src/application/MainWindow.cpp:337
 msgctxt "MainWindow|"
 msgid "About MultiMC"
 msgstr "MultiMC Hakkında"
 
-#: src/application/MainWindow.cpp:337
+#: src/application/MainWindow.cpp:338
 msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "MultiMC hakkındayı aç."
@@ -2321,199 +2323,199 @@ msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "Seçili profili çalıştır."
 
-#: src/application/MainWindow.cpp:359
+#: src/application/MainWindow.cpp:361
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
 msgstr "MultiMC için yeni güncellemeleri denetle."
 
-#: src/application/MainWindow.cpp:458
+#: src/application/MainWindow.cpp:460
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Seçili profili yeniden adlandır."
 
-#: src/application/MainWindow.cpp:514
+#: src/application/MainWindow.cpp:516
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "Grubu Değiştir"
 
-#: src/application/MainWindow.cpp:515
+#: src/application/MainWindow.cpp:517
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "Seçili profilin grubunu değiştir."
 
-#: src/application/MainWindow.cpp:443
+#: src/application/MainWindow.cpp:445
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "İkonu Değiştir"
 
-#: src/application/MainWindow.cpp:444
+#: src/application/MainWindow.cpp:446
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "Seçili profilin iconunu değiştir."
 
-#: src/application/MainWindow.cpp:493
+#: src/application/MainWindow.cpp:495
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "Notları Düzenle"
 
-#: src/application/MainWindow.cpp:494
+#: src/application/MainWindow.cpp:496
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "Seçili profilin notlarını düzenle."
 
-#: src/application/MainWindow.cpp:500
+#: src/application/MainWindow.cpp:502
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "Dünyaları Göster"
 
-#: src/application/MainWindow.cpp:501
+#: src/application/MainWindow.cpp:503
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "Bu profildeki dünyaları göster."
 
-#: src/application/MainWindow.cpp:486
+#: src/application/MainWindow.cpp:488
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "Profili Düzenle"
 
-#: src/application/MainWindow.cpp:487
+#: src/application/MainWindow.cpp:489
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "Profil ayarlarını, modları ve sürümleri değiştir."
 
-#: src/application/MainWindow.cpp:537
+#: src/application/MainWindow.cpp:539
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "Profil Dosyası"
 
-#: src/application/MainWindow.cpp:538
+#: src/application/MainWindow.cpp:540
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "Seçili profili dosya gezgininde aç."
 
-#: src/application/MainWindow.cpp:553
+#: src/application/MainWindow.cpp:555
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "Sil"
 
-#: src/application/MainWindow.cpp:554
+#: src/application/MainWindow.cpp:556
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "Seçilen profili sil."
 
-#: src/application/MainWindow.cpp:530
+#: src/application/MainWindow.cpp:532
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "Yapılandırma Klasörü"
 
-#: src/application/MainWindow.cpp:378
+#: src/application/MainWindow.cpp:380
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "Miyav"
 
-#: src/application/MainWindow.cpp:327
+#: src/application/MainWindow.cpp:328
 msgctxt "MainWindow|"
 msgid "Reddit"
 msgstr "Reddit"
 
-#: src/application/MainWindow.cpp:319
+#: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
 msgid "Discord"
 msgstr "Discord"
 
-#: src/application/MainWindow.cpp:561
+#: src/application/MainWindow.cpp:563
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "Profili Kopyala"
 
-#: src/application/MainWindow.cpp:562
+#: src/application/MainWindow.cpp:564
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Seçili profilli kopyala."
 
-#: src/application/MainWindow.cpp:387
+#: src/application/MainWindow.cpp:389
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "Hesapları Yönet"
 
-#: src/application/MainWindow.cpp:478
+#: src/application/MainWindow.cpp:480
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "Seçili profili çevrimdışı modda başlat."
 
-#: src/application/MainWindow.cpp:507
+#: src/application/MainWindow.cpp:509
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "Ekran Görüntülerini Yönet"
 
-#: src/application/MainWindow.cpp:531
+#: src/application/MainWindow.cpp:533
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "Profilin yapılandırma dosyasını aç."
 
-#: src/application/MainWindow.cpp:379
+#: src/application/MainWindow.cpp:381
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "Ne kadar da dadlı bir kedi :3"
 
-#: src/application/MainWindow.cpp:328
+#: src/application/MainWindow.cpp:329
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit."
 msgstr "MultiMC'nin Subreddit'ini aç."
 
-#: src/application/MainWindow.cpp:320
+#: src/application/MainWindow.cpp:321
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat."
 msgstr "MultiMC'nin Discord'unu aç."
 
-#: src/application/MainWindow.cpp:477 src/application/MainWindow.cpp:942
+#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:951
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Çevrimdışı Oyna"
 
-#: src/application/MainWindow.cpp:508
+#: src/application/MainWindow.cpp:510
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "Bu profil için ekran görüntülerini görüntüle ve yükle."
 
-#: src/application/MainWindow.cpp:546
+#: src/application/MainWindow.cpp:548
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "Profil Aktar"
 
-#: src/application/MainWindow.cpp:603
+#: src/application/MainWindow.cpp:604
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - Sürüm %1"
 
-#: src/application/MainWindow.cpp:606
+#: src/application/MainWindow.cpp:607
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " %1 üzerinde"
 
-#: src/application/MainWindow.cpp:711
+#: src/application/MainWindow.cpp:713
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "Hiçbir profil seçilmedi"
 
-#: src/application/MainWindow.cpp:457
+#: src/application/MainWindow.cpp:459
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "Yeniden Adlandır"
 
-#: src/application/MainWindow.cpp:874
+#: src/application/MainWindow.cpp:883
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Profil oluştur"
 
-#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:941
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:950
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Çalıştır"
 
-#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:623
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:624
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Klasörler"
@@ -2523,72 +2525,72 @@ msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "Profiller arasında paylaştırılan bir klasörü aç."
 
-#: src/application/MainWindow.cpp:342 src/application/MainWindow.cpp:624
+#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:625
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Yardım"
 
-#: src/application/MainWindow.cpp:343
+#: src/application/MainWindow.cpp:344
 msgctxt "MainWindow|"
 msgid "Get help with MultiMC or Minecraft."
 msgstr "MultiMC veya Minecraft hakkında yardım al."
 
-#: src/application/MainWindow.cpp:358
+#: src/application/MainWindow.cpp:360
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "Güncelle"
 
-#: src/application/MainWindow.cpp:369
+#: src/application/MainWindow.cpp:371
 msgctxt "MainWindow|"
 msgid "Support MultiMC"
 msgstr "MultiMC'yi Destekle"
 
-#: src/application/MainWindow.cpp:523
+#: src/application/MainWindow.cpp:525
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Minecraft Klasörü"
 
-#: src/application/MainWindow.cpp:524
+#: src/application/MainWindow.cpp:526
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "Seçili profilin minecraft klasörünü bir dosya gezgininde aç."
 
-#: src/application/MainWindow.cpp:951
+#: src/application/MainWindow.cpp:960
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Profil"
 
-#: src/application/MainWindow.cpp:963
+#: src/application/MainWindow.cpp:972
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "Profiller düzgün yüklenemedi. Ayarlar git, \"External Tools\"."
 
-#: src/application/MainWindow.cpp:1017
+#: src/application/MainWindow.cpp:1026
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Hiç profil eklenmemiş!"
 
-#: src/application/MainWindow.cpp:1047
+#: src/application/MainWindow.cpp:1056
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Varsayılan Profil Yok"
 
-#: src/application/MainWindow.cpp:1155
+#: src/application/MainWindow.cpp:1164
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Haberler yükleniyor..."
 
-#: src/application/MainWindow.cpp:1168
+#: src/application/MainWindow.cpp:1177
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Yeni haberler yok."
 
-#: src/application/MainWindow.cpp:1251 src/application/MainWindow.cpp:1268
+#: src/application/MainWindow.cpp:1260 src/application/MainWindow.cpp:1277
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Hata"
 
-#: src/application/MainWindow.cpp:1251
+#: src/application/MainWindow.cpp:1260
 #, qt-format
 msgctxt "MainWindow|"
 msgid ""
@@ -2598,12 +2600,12 @@ msgstr ""
 "Güncelleme için dosya oluşturulamadı:\n"
 "%1"
 
-#: src/application/MainWindow.cpp:726 src/application/MainWindow.cpp:1115
+#: src/application/MainWindow.cpp:728 src/application/MainWindow.cpp:1124
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "Profiller"
 
-#: src/application/MainWindow.cpp:890
+#: src/application/MainWindow.cpp:899
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
@@ -2614,62 +2616,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "İsim"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:642
+#: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<OTURUM ID'Sİ>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:644
+#: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<GEÇİŞ KODU>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:645
+#: src/api/logic/minecraft/MinecraftInstance.cpp:647
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<İSTEMCİ KODU>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:646
+#: src/api/logic/minecraft/MinecraftInstance.cpp:648
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFİL ID'Sİ>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:733
+#: src/api/logic/minecraft/MinecraftInstance.cpp:735
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1d %2s"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:737
+#: src/api/logic/minecraft/MinecraftInstance.cpp:739
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1s %2d"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:739
+#: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1g %2s %3d"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:747
+#: src/api/logic/minecraft/MinecraftInstance.cpp:749
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "bozuk"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:751
+#: src/api/logic/minecraft/MinecraftInstance.cpp:753
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:754
+#: src/api/logic/minecraft/MinecraftInstance.cpp:756
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", oynama süresi %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:758
+#: src/api/logic/minecraft/MinecraftInstance.cpp:760
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", çöktü."
@@ -2704,47 +2706,145 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "Kullanıcı tarafından iptal edildi."
 
-#: src/application/pages/instance/ModFolderPage.ui:47
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:368
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Folder"
+msgstr "Klasörler"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:370
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "File"
+msgstr "Skin Dosyası"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:464
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Name"
+msgstr "İsim"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:466
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Version"
+msgstr "Sürüm"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:468
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Last changed"
+msgstr "Son değişim"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Is the mod enabled?"
+msgstr "Mod aktif mi?"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "The name of the mod."
+msgstr "Modun adı."
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:481
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "The version of the mod."
+msgstr "Modun sürümü."
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "The date and time this mod was last changed (or added)."
+msgstr "Modun son değiştirildiği (ya da eklendiği) tarih ve zaman."
+
+#: src/application/pages/instance/ModFolderPage.ui:14
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "MainWindow"
+msgstr "Oyun Penceresi"
+
+#: src/application/pages/instance/ModFolderPage.ui:78
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "Actions"
+msgstr "Seçim"
+
+#: src/application/pages/instance/ModFolderPage.ui:99
 msgctxt "ModFolderPage|"
 msgid "&Add"
 msgstr "&Ekle"
 
-#: src/application/pages/instance/ModFolderPage.ui:54
+#: src/application/pages/instance/ModFolderPage.ui:102
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "Add mods"
+msgstr "Normal modlar"
+
+#: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "&Remove"
 msgstr "&Sil"
 
-#: src/application/pages/instance/ModFolderPage.ui:61
+#: src/application/pages/instance/ModFolderPage.ui:110
+#, fuzzy
 msgctxt "ModFolderPage|"
-msgid "Enable"
+msgid "Remove selected mods"
+msgstr "Seçilen paketi kaldır"
+
+#: src/application/pages/instance/ModFolderPage.ui:115
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "&Enable"
 msgstr "Aktifleştir"
 
-#: src/application/pages/instance/ModFolderPage.ui:68
+#: src/application/pages/instance/ModFolderPage.ui:118
 msgctxt "ModFolderPage|"
-msgid "Disable"
+msgid "Enable selected mods"
+msgstr ""
+
+#: src/application/pages/instance/ModFolderPage.ui:123
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "&Disable"
 msgstr "Pasifleştir"
 
-#: src/application/pages/instance/ModFolderPage.ui:75
+#: src/application/pages/instance/ModFolderPage.ui:126
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "Disable selected mods"
+msgstr "Hiçbir profil seçilmedi"
+
+#: src/application/pages/instance/ModFolderPage.ui:131
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "View &Configs"
+msgstr "Yapılandırmaları göster"
+
+#: src/application/pages/instance/ModFolderPage.ui:139
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "View &Folder"
+msgstr "&Klasörü Göster"
+
+#: src/application/pages/instance/ModFolderPage.ui:134
 msgctxt "ModFolderPage|"
 msgid "Open the 'config' folder in the system file manager."
 msgstr "Yapılandırma klasörünü sistem dosya yöneticisinde aç."
 
-#: src/application/pages/instance/ModFolderPage.ui:78
-msgctxt "ModFolderPage|"
-msgid "View configs"
-msgstr "Yapılandırmaları göster"
-
-#: src/application/pages/instance/ModFolderPage.ui:98
-msgctxt "ModFolderPage|"
-msgid "&View Folder"
-msgstr "&Klasörü Göster"
-
-#: src/application/pages/instance/ModFolderPage.ui:126
+#: src/application/pages/instance/ModFolderPage.ui:42
 msgctxt "ModFolderPage|"
 msgid "Filter:"
 msgstr "Filtre:"
 
-#: src/application/pages/instance/ModFolderPage.cpp:157
+#: src/application/pages/instance/ModFolderPage.cpp:168
+msgctxt "ModFolderPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/instance/ModFolderPage.cpp:281
 #, qt-format
 msgctxt ""
 "ModFolderPage|Select whatever type of files the page contains. Example: "
@@ -2783,7 +2883,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "Sürümün adı."
 
-#: src/application/MultiMC.cpp:519
+#: src/application/MultiMC.cpp:523
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "Ayarlar"
@@ -2840,35 +2940,30 @@ msgstr "İsme göre"
 
 #: src/application/pages/global/MultiMCPage.ui:234
 msgctxt "MultiMCPage|"
-msgid "Language:"
-msgstr "Dil:"
-
-#: src/application/pages/global/MultiMCPage.ui:246
-msgctxt "MultiMCPage|"
 msgid "Theme"
 msgstr "Tema"
 
-#: src/application/pages/global/MultiMCPage.ui:252
+#: src/application/pages/global/MultiMCPage.ui:240
 msgctxt "MultiMCPage|"
 msgid "&Icons"
 msgstr "&İkonlar"
 
-#: src/application/pages/global/MultiMCPage.ui:495
+#: src/application/pages/global/MultiMCPage.ui:483
 msgctxt "MultiMCPage|"
 msgid "Analytics"
 msgstr "İstatistikler"
 
-#: src/application/pages/global/MultiMCPage.ui:501
+#: src/application/pages/global/MultiMCPage.ui:489
 msgctxt "MultiMCPage|"
 msgid "Analytics Settings"
 msgstr "İstatitik Ayarları"
 
-#: src/application/pages/global/MultiMCPage.ui:507
+#: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
 msgstr "İsmini gizli tutarak kullanım detayları gönder?"
 
-#: src/application/pages/global/MultiMCPage.ui:521
+#: src/application/pages/global/MultiMCPage.ui:509
 msgctxt "MultiMCPage|"
 msgid ""
 "<html><head/>\n"
@@ -2897,72 +2992,72 @@ msgstr ""
 "</ul>\n"
 "</body></html>"
 
-#: src/application/pages/global/MultiMCPage.ui:277
+#: src/application/pages/global/MultiMCPage.ui:265
 msgctxt "MultiMCPage|"
 msgid "Simple (Dark Icons)"
 msgstr "Basit (Siyah İkonlar)"
 
-#: src/application/pages/global/MultiMCPage.ui:287
+#: src/application/pages/global/MultiMCPage.ui:275
 msgctxt "MultiMCPage|"
 msgid "Simple (Blue Icons)"
 msgstr "Basit (Mavi İkonlar)"
 
-#: src/application/pages/global/MultiMCPage.ui:292
+#: src/application/pages/global/MultiMCPage.ui:280
 msgctxt "MultiMCPage|"
 msgid "Simple (Colored Icons)"
 msgstr "Basit (Renkli İkonlar)"
 
-#: src/application/pages/global/MultiMCPage.ui:312
+#: src/application/pages/global/MultiMCPage.ui:300
 msgctxt "MultiMCPage|"
 msgid "Custom"
 msgstr "Özel"
 
-#: src/application/pages/global/MultiMCPage.ui:333
+#: src/application/pages/global/MultiMCPage.ui:321
 msgctxt "MultiMCPage|"
 msgid "Colors"
 msgstr "Renkler"
 
-#: src/application/pages/global/MultiMCPage.ui:360
+#: src/application/pages/global/MultiMCPage.ui:348
 msgctxt "MultiMCPage|"
 msgid "Console"
 msgstr "Konsol"
 
-#: src/application/pages/global/MultiMCPage.ui:366
+#: src/application/pages/global/MultiMCPage.ui:354
 msgctxt "MultiMCPage|"
 msgid "Console Settings"
 msgstr "Konsol Ayarları"
 
-#: src/application/pages/global/MultiMCPage.ui:372
+#: src/application/pages/global/MultiMCPage.ui:360
 msgctxt "MultiMCPage|"
 msgid "Show console while the game is running?"
 msgstr "Oyun çalışırken konsolu göster?"
 
-#: src/application/pages/global/MultiMCPage.ui:379
+#: src/application/pages/global/MultiMCPage.ui:367
 msgctxt "MultiMCPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "Oyundan çıkınca konsolu otomatik kapat?"
 
-#: src/application/pages/global/MultiMCPage.ui:386
+#: src/application/pages/global/MultiMCPage.ui:374
 msgctxt "MultiMCPage|"
 msgid "Show console when the game crashes?"
 msgstr "Oyun çökünce konsolu göster?"
 
-#: src/application/pages/global/MultiMCPage.ui:396
+#: src/application/pages/global/MultiMCPage.ui:384
 msgctxt "MultiMCPage|"
 msgid "History limit"
 msgstr "Geçmiş sınırı"
 
-#: src/application/pages/global/MultiMCPage.ui:402
+#: src/application/pages/global/MultiMCPage.ui:390
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
 msgstr "Aşırı kayıt olunca kaydetmeyi durdur"
 
-#: src/application/pages/global/MultiMCPage.ui:415
+#: src/application/pages/global/MultiMCPage.ui:403
 msgctxt "MultiMCPage|"
 msgid " lines"
 msgstr " Satır"
 
-#: src/application/pages/global/MultiMCPage.ui:443
+#: src/application/pages/global/MultiMCPage.ui:431
 msgctxt "MultiMCPage|"
 msgid "Console font"
 msgstr "Konsol yazı tipi"
@@ -2992,22 +3087,22 @@ msgctxt "MultiMCPage|"
 msgid "Instance view sorting mode"
 msgstr "Sıralama şekli"
 
-#: src/application/pages/global/MultiMCPage.ui:272
+#: src/application/pages/global/MultiMCPage.ui:260
 msgctxt "MultiMCPage|"
 msgid "Default"
 msgstr "Varsayılan"
 
-#: src/application/pages/global/MultiMCPage.ui:282
+#: src/application/pages/global/MultiMCPage.ui:270
 msgctxt "MultiMCPage|"
 msgid "Simple (Light Icons)"
 msgstr "Basit (Beyaz İkonlar)"
 
-#: src/application/pages/global/MultiMCPage.cpp:97
+#: src/application/pages/global/MultiMCPage.cpp:96
 msgctxt "MultiMCPage|"
 msgid "Instance Folder"
 msgstr "Profil Dosyası"
 
-#: src/application/pages/global/MultiMCPage.cpp:106
+#: src/application/pages/global/MultiMCPage.cpp:105
 msgctxt "MultiMCPage|"
 msgid ""
 "You're trying to specify an instance folder which's path contains at least "
@@ -3017,7 +3112,7 @@ msgstr ""
 "İçinde '!' içeren bir profilin konumunu kullanmaya çalışıyorsunuz. Eğer Java "
 "bu duruma olumsuz sonuç verirse oyun (muhtemelen) başlamayacaktır!"
 
-#: src/application/pages/global/MultiMCPage.cpp:111
+#: src/application/pages/global/MultiMCPage.cpp:110
 msgctxt "MultiMCPage|"
 msgid ""
 "Do you really want to use this path? Selecting \"No\" will close this and "
@@ -3026,27 +3121,27 @@ msgstr ""
 "Gerçekten bu dizini mi kullanmak istiyorsunuz? \"No\" yu seçmek bu mesajı "
 "kapatacak ve hiçbir değişiklik olmayacaktır."
 
-#: src/application/pages/global/MultiMCPage.cpp:129
+#: src/application/pages/global/MultiMCPage.cpp:128
 msgctxt "MultiMCPage|"
 msgid "Icons Folder"
 msgstr "İkon Klasörü"
 
-#: src/application/pages/global/MultiMCPage.cpp:140
+#: src/application/pages/global/MultiMCPage.cpp:139
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
 msgstr "Mod Klasörü"
 
-#: src/application/pages/global/MultiMCPage.cpp:452
+#: src/application/pages/global/MultiMCPage.cpp:428
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[Değişik/HATA] Korkunç bir hata!"
 
-#: src/application/pages/global/MultiMCPage.cpp:461
+#: src/application/pages/global/MultiMCPage.cpp:437
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[Test/HAKKINDA] Sadece zararsız bir hata..."
 
-#: src/application/pages/global/MultiMCPage.cpp:470
+#: src/application/pages/global/MultiMCPage.cpp:446
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[Değişik/HATA] Çokda korkunç değil."
@@ -3710,16 +3805,6 @@ msgstr ""
 "Belirtilen java konumu çalışmadı.<br /> Daha iyi sonuçlar için otomatik-"
 "denetleme özelliğini kullanabilirsiniz.<br />"
 
-#: src/application/dialogs/ModEditDialogCommon.cpp:36
-msgctxt "QObject|"
-msgid "How sad!"
-msgstr "Ne kadar acıklı!"
-
-#: src/application/dialogs/ModEditDialogCommon.cpp:37
-msgctxt "QObject|"
-msgid "The mod author didn't provide a website link for this mod."
-msgstr "Mod yapımcısı bu mod için bir internet sitesi vermedi."
-
 #: src/application/GuiUtil.cpp:29 src/application/GuiUtil.cpp:38
 msgctxt "QObject|"
 msgid "Upload failed"
@@ -3944,7 +4029,7 @@ msgstr ""
 "MultiMC'yi el ile tamir etmeniz gerekmektedir.\n"
 "Lütfen bize karşılaştığınız sorunu iletin."
 
-#: src/application/MainWindow.cpp:987
+#: src/application/MainWindow.cpp:996
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (kullanımda)"
@@ -3954,7 +4039,7 @@ msgctxt "QObject|"
 msgid "Patch is not loaded yet."
 msgstr "Yama henüz yüklenmemiş."
 
-#: src/api/logic/minecraft/ComponentList.cpp:188
+#: src/api/logic/minecraft/ComponentList.cpp:190
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
@@ -3977,7 +4062,7 @@ msgctxt "QObject|"
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: src/application/pages/instance/ServersPage.cpp:30
+#: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
 msgid "Minecraft Server"
 msgstr "Minecraft Sunucusu"
@@ -4021,50 +4106,35 @@ msgctxt "ResourcePackPage|"
 msgid "Resource packs"
 msgstr "Doku paketleri"
 
-#: src/application/pages/instance/ScreenshotsPage.ui:51
-msgctxt "ScreenshotsPage|"
-msgid "&Upload"
-msgstr "Yükle"
-
-#: src/application/pages/instance/ScreenshotsPage.ui:58
-msgctxt "ScreenshotsPage|"
-msgid "&Delete"
-msgstr "&Sil"
-
-#: src/application/pages/instance/ScreenshotsPage.ui:65
-msgctxt "ScreenshotsPage|"
-msgid "&Rename"
-msgstr "&Yeniden Adlandır"
-
-#: src/application/pages/instance/ScreenshotsPage.ui:85
-msgctxt "ScreenshotsPage|"
-msgid "&View Folder"
-msgstr "&Klasörü Göster"
-
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
 msgid "Screenshots"
 msgstr "Ekran Görüntüleri"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:300
-#: src/application/pages/instance/ScreenshotsPage.cpp:338
+#: src/application/pages/instance/ScreenshotsPage.cpp:273
+msgctxt "ScreenshotsPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/instance/ScreenshotsPage.cpp:318
+#: src/application/pages/instance/ScreenshotsPage.cpp:356
 msgctxt "ScreenshotsPage|"
 msgid "Failed to upload screenshots!"
 msgstr "Ekran görüntüleri yüklenirken hata meydana geldi!"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:301
-#: src/application/pages/instance/ScreenshotsPage.cpp:339
+#: src/application/pages/instance/ScreenshotsPage.cpp:319
+#: src/application/pages/instance/ScreenshotsPage.cpp:357
 msgctxt "ScreenshotsPage|"
 msgid "Unknown error"
 msgstr "Bilinmeyen hata"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:310
-#: src/application/pages/instance/ScreenshotsPage.cpp:348
+#: src/application/pages/instance/ScreenshotsPage.cpp:328
+#: src/application/pages/instance/ScreenshotsPage.cpp:366
 msgctxt "ScreenshotsPage|"
 msgid "Upload finished"
 msgstr "Yükleme tamamlandı"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:311
+#: src/application/pages/instance/ScreenshotsPage.cpp:329
 #, fuzzy, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
@@ -4072,7 +4142,7 @@ msgid ""
 "your clipboard."
 msgstr "<a href=\"%1\">Yüklemenizin</a> adresi panonuza kopyalandı."
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:349
+#: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
@@ -4080,15 +4150,50 @@ msgid ""
 "clipboard."
 msgstr "<a href=\"%1\">Yüklemenizin</a> bağlantısı panonuza kopyalandı."
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:359
+#: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
 msgid "Are you sure?"
 msgstr "Emin misiniz?"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:359
+#: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Bu seçenek tüm seçili ekran görüntülerini silecektir."
+
+#: src/application/pages/instance/ScreenshotsPage.ui:14
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "MainWindow"
+msgstr "Oyun Penceresi"
+
+#: src/application/pages/instance/ScreenshotsPage.ui:44
+msgctxt "ScreenshotsPage|"
+msgid "toolBar"
+msgstr ""
+
+#: src/application/pages/instance/ScreenshotsPage.ui:62
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "Upload"
+msgstr "Yükle"
+
+#: src/application/pages/instance/ScreenshotsPage.ui:67
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "Delete"
+msgstr "Sil"
+
+#: src/application/pages/instance/ScreenshotsPage.ui:72
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "Rename"
+msgstr "Yeniden Adlandır"
+
+#: src/application/pages/instance/ScreenshotsPage.ui:77
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "View Folder"
+msgstr "&Klasörü Göster"
 
 #: src/application/widgets/ServerStatus.cpp:70
 msgctxt "ServerStatus|"
@@ -4110,67 +4215,80 @@ msgctxt "ServerStatus|"
 msgid "API"
 msgstr "API"
 
-#: src/application/pages/instance/ServersPage.cpp:288
+#: src/application/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
 msgid "Name"
 msgstr "İsim"
 
-#: src/application/pages/instance/ServersPage.cpp:290
+#: src/application/pages/instance/ServersPage.cpp:291
 msgctxt "ServersModel|"
 msgid "Address"
 msgstr "Adres"
 
-#: src/application/pages/instance/ServersPage.cpp:292
+#: src/application/pages/instance/ServersPage.cpp:293
 msgctxt "ServersModel|"
 msgid "Latency"
 msgstr "Gecikme"
 
-#: src/application/pages/instance/ServersPage.ui:48
+#: src/application/pages/instance/ServersPage.ui:112
 msgctxt "ServersPage|"
 msgid "Ask to download"
 msgstr "İndirmek için sor"
 
-#: src/application/pages/instance/ServersPage.ui:53
+#: src/application/pages/instance/ServersPage.ui:117
 msgctxt "ServersPage|"
 msgid "Always download"
 msgstr "Her zaman indir"
 
-#: src/application/pages/instance/ServersPage.ui:58
+#: src/application/pages/instance/ServersPage.ui:122
 msgctxt "ServersPage|"
 msgid "Never download"
 msgstr "Hiçbir zaman indirme"
 
-#: src/application/pages/instance/ServersPage.ui:66
+#: src/application/pages/instance/ServersPage.ui:101
 msgctxt "ServersPage|"
 msgid "Reso&urces"
 msgstr "Kayn&aklar"
 
-#: src/application/pages/instance/ServersPage.ui:79
+#: src/application/pages/instance/ServersPage.ui:14
+#, fuzzy
+msgctxt "ServersPage|"
+msgid "MainWindow"
+msgstr "Oyun Penceresi"
+
+#: src/application/pages/instance/ServersPage.ui:75
 msgctxt "ServersPage|"
 msgid "&Name"
 msgstr "&İsim"
 
-#: src/application/pages/instance/ServersPage.ui:92
+#: src/application/pages/instance/ServersPage.ui:88
 msgctxt "ServersPage|"
 msgid "Address"
 msgstr "Adres"
 
-#: src/application/pages/instance/ServersPage.ui:140
+#: src/application/pages/instance/ServersPage.ui:133
 msgctxt "ServersPage|"
-msgid "&Add"
-msgstr "&Ekle"
+msgid "toolBar"
+msgstr ""
 
-#: src/application/pages/instance/ServersPage.ui:147
+#: src/application/pages/instance/ServersPage.ui:157
+#, fuzzy
 msgctxt "ServersPage|"
-msgid "&Remove"
-msgstr "&Kaldır"
+msgid "Add"
+msgstr "Ekle"
 
-#: src/application/pages/instance/ServersPage.ui:154
+#: src/application/pages/instance/ServersPage.ui:162
+#, fuzzy
+msgctxt "ServersPage|"
+msgid "Remove"
+msgstr "Sil"
+
+#: src/application/pages/instance/ServersPage.ui:167
 msgctxt "ServersPage|"
 msgid "Move Up"
 msgstr "Yukarı Çık"
 
-#: src/application/pages/instance/ServersPage.ui:161
+#: src/application/pages/instance/ServersPage.ui:172
 msgctxt "ServersPage|"
 msgid "Move Down"
 msgstr "Aşağı Git"
@@ -4179,6 +4297,11 @@ msgstr "Aşağı Git"
 msgctxt "ServersPage|"
 msgid "Servers"
 msgstr "Sunucular"
+
+#: src/application/pages/instance/ServersPage.cpp:604
+msgctxt "ServersPage|"
+msgid "Context menu"
+msgstr ""
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -4204,41 +4327,6 @@ msgstr "&Yenile"
 msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
 msgstr "MultiMC Hızlı Kurulum"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:284
-msgctxt "SimpleModList|"
-msgid "Name"
-msgstr "İsim"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:286
-msgctxt "SimpleModList|"
-msgid "Version"
-msgstr "Sürüm"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:288
-msgctxt "SimpleModList|"
-msgid "Last changed"
-msgstr "Son değişim"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:297
-msgctxt "SimpleModList|"
-msgid "Is the mod enabled?"
-msgstr "Mod aktif mi?"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:299
-msgctxt "SimpleModList|"
-msgid "The name of the mod."
-msgstr "Modun adı."
-
-#: src/api/logic/minecraft/SimpleModList.cpp:301
-msgctxt "SimpleModList|"
-msgid "The version of the mod."
-msgstr "Modun sürümü."
-
-#: src/api/logic/minecraft/SimpleModList.cpp:303
-msgctxt "SimpleModList|"
-msgid "The date and time this mod was last changed (or added)."
-msgstr "Modun son değiştirildiği (ya da eklendiği) tarih ve zaman."
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 msgctxt "SkinUpload|"
@@ -4536,229 +4624,246 @@ msgctxt "VersionPage|"
 msgid "Version"
 msgstr "Sürüm"
 
-#: src/application/pages/instance/VersionPage.ui:60
-msgctxt "VersionPage|"
-msgid "Selection"
-msgstr "Seçim"
-
-#: src/application/pages/instance/VersionPage.ui:73
+#: src/application/pages/instance/VersionPage.ui:106
 msgctxt "VersionPage|"
 msgid "Change version"
 msgstr "Sürümü değiştir"
 
-#: src/application/pages/instance/VersionPage.ui:83
+#: src/application/pages/instance/VersionPage.ui:114
 msgctxt "VersionPage|"
 msgid "Move up"
 msgstr "Yukarı"
 
-#: src/application/pages/instance/VersionPage.ui:93
+#: src/application/pages/instance/VersionPage.ui:122
 msgctxt "VersionPage|"
 msgid "Move down"
 msgstr "Aşağı"
 
-#: src/application/pages/instance/VersionPage.ui:103
+#: src/application/pages/instance/VersionPage.ui:130
 msgctxt "VersionPage|"
 msgid "Remove"
 msgstr "Sil"
 
-#: src/application/pages/instance/VersionPage.ui:156
-msgctxt "VersionPage|"
-msgid "Install"
-msgstr "Yükle"
-
-#: src/application/pages/instance/VersionPage.ui:70
+#: src/application/pages/instance/VersionPage.ui:109
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
 msgstr "Seçili paketin sürümünü değiştir."
 
-#: src/application/pages/instance/VersionPage.ui:80
+#: src/application/pages/instance/VersionPage.ui:117
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
 msgstr "Seçili paketi yakında uygula."
 
-#: src/application/pages/instance/VersionPage.ui:90
+#: src/application/pages/instance/VersionPage.ui:125
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
 msgstr "Seçili paketi daha sonra uygula."
 
-#: src/application/pages/instance/VersionPage.ui:100
+#: src/application/pages/instance/VersionPage.ui:133
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
 msgstr "Seçilmiş paketi profilden kaldır."
 
-#: src/application/pages/instance/VersionPage.ui:113
-#: src/application/pages/instance/VersionPage.ui:136
+#: src/application/pages/instance/VersionPage.ui:146
 msgctxt "VersionPage|"
 msgid "Edit"
 msgstr "Düzenle"
 
-#: src/application/pages/instance/VersionPage.ui:123
+#: src/application/pages/instance/VersionPage.ui:141
 msgctxt "VersionPage|"
 msgid "Customize selected package."
 msgstr "Seçili paketi düzenle."
 
-#: src/application/pages/instance/VersionPage.ui:126
+#: src/application/pages/instance/VersionPage.ui:14
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "MainWindow"
+msgstr "Oyun Penceresi"
+
+#: src/application/pages/instance/VersionPage.ui:67
+msgctxt "VersionPage|"
+msgid "toolBar"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:138
 msgctxt "VersionPage|"
 msgid "Customize"
 msgstr "Düzenle"
 
-#: src/application/pages/instance/VersionPage.ui:133
+#: src/application/pages/instance/VersionPage.ui:149
 msgctxt "VersionPage|"
 msgid "Edit selected package."
 msgstr "Seçili paketi düzenle."
 
-#: src/application/pages/instance/VersionPage.ui:143
+#: src/application/pages/instance/VersionPage.ui:157
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
 msgstr "Seçilen paketi eski haline döndür."
 
-#: src/application/pages/instance/VersionPage.ui:146
+#: src/application/pages/instance/VersionPage.ui:154
 msgctxt "VersionPage|"
 msgid "Revert"
 msgstr "Geri Döndür"
 
-#: src/application/pages/instance/VersionPage.ui:166
+#: src/application/pages/instance/VersionPage.ui:165
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
 msgstr "Minecraft Forge paketini yükle."
 
-#: src/application/pages/instance/VersionPage.ui:169
+#: src/application/pages/instance/VersionPage.ui:162
 msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr "Forge'u Yükle"
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:181
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr "LiteLoader paketi yükle."
 
-#: src/application/pages/instance/VersionPage.ui:189
+#: src/application/pages/instance/VersionPage.ui:178
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr "LiteLoader'ı Yükle"
 
-#: src/application/pages/instance/VersionPage.ui:196
+#: src/application/pages/instance/VersionPage.ui:189
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr "Normal modlar yükle."
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:186
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr "Mod yükle"
 
-#: src/application/pages/instance/VersionPage.ui:209
-msgctxt "VersionPage|"
-msgid "Advanced"
-msgstr "Gelişmiş"
-
-#: src/application/pages/instance/VersionPage.ui:219
+#: src/application/pages/instance/VersionPage.ui:197
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr "Minecraft jar dosyasına mod ekle."
 
-#: src/application/pages/instance/VersionPage.ui:222
+#: src/application/pages/instance/VersionPage.ui:194
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr "Minecraft.jar dosyasına ekle"
 
-#: src/application/pages/instance/VersionPage.ui:229
+#: src/application/pages/instance/VersionPage.ui:170
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Install Fabric"
+msgstr "Forge'u Yükle"
+
+#: src/application/pages/instance/VersionPage.ui:173
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Install the Fabric Loader package."
+msgstr "LiteLoader paketi yükle."
+
+#: src/application/pages/instance/VersionPage.ui:202
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr "Minecraft.jar'ı Değiştir"
 
-#: src/application/pages/instance/VersionPage.ui:236
+#: src/application/pages/instance/VersionPage.ui:207
 msgctxt "VersionPage|"
 msgid "Add Empty"
 msgstr "Boş Ekle"
 
-#: src/application/pages/instance/VersionPage.ui:243
+#: src/application/pages/instance/VersionPage.ui:210
+msgctxt "VersionPage|"
+msgid "Add an empty custom package."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:218
 msgctxt "VersionPage|"
 msgid "Reload all packages."
 msgstr "Tüm paketleri yenile."
 
-#: src/application/pages/instance/VersionPage.ui:246
+#: src/application/pages/instance/VersionPage.ui:215
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "Yenile"
 
-#: src/application/pages/instance/VersionPage.ui:253
+#: src/application/pages/instance/VersionPage.ui:226
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr "Geçerli profilin başlatılması için gerekli dosyaları indirin."
 
-#: src/application/pages/instance/VersionPage.ui:256
+#: src/application/pages/instance/VersionPage.ui:223
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr "Tümünü İndir"
 
-#: src/application/pages/instance/VersionPage.cpp:203
-#: src/application/pages/instance/VersionPage.cpp:209
-#: src/application/pages/instance/VersionPage.cpp:228
-#: src/application/pages/instance/VersionPage.cpp:272
-#: src/application/pages/instance/VersionPage.cpp:285
-#: src/application/pages/instance/VersionPage.cpp:347
+#: src/application/pages/instance/VersionPage.cpp:243
+#: src/application/pages/instance/VersionPage.cpp:249
+#: src/application/pages/instance/VersionPage.cpp:268
+#: src/application/pages/instance/VersionPage.cpp:312
+#: src/application/pages/instance/VersionPage.cpp:325
+#: src/application/pages/instance/VersionPage.cpp:387
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Hata"
 
-#: src/application/pages/instance/VersionPage.cpp:228
+#: src/application/pages/instance/VersionPage.cpp:268
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "Dosya silinemedi"
 
-#: src/application/pages/instance/VersionPage.cpp:210
+#: src/application/pages/instance/VersionPage.cpp:250
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "Profil menüsü yüklenemedi."
 
-#: src/application/pages/instance/VersionPage.cpp:144
+#: src/application/pages/instance/VersionPage.cpp:146
+msgctxt "VersionPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.cpp:164
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "Muhtemelen %1'de hata var."
 
-#: src/application/pages/instance/VersionPage.cpp:147
+#: src/application/pages/instance/VersionPage.cpp:167
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1'de sorun var!"
 
-#: src/application/pages/instance/VersionPage.cpp:161
+#: src/application/pages/instance/VersionPage.cpp:181
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Hata: "
 
-#: src/application/pages/instance/VersionPage.cpp:165
+#: src/application/pages/instance/VersionPage.cpp:185
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Dikkat: "
 
-#: src/application/pages/instance/VersionPage.cpp:246
+#: src/application/pages/instance/VersionPage.cpp:286
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Jar modlarını seçin"
 
-#: src/application/pages/instance/VersionPage.cpp:246
+#: src/application/pages/instance/VersionPage.cpp:286
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft.jar modları"
 
-#: src/application/pages/instance/VersionPage.cpp:319
-#: src/application/pages/instance/VersionPage.cpp:404
+#: src/application/pages/instance/VersionPage.cpp:359
+#: src/application/pages/instance/VersionPage.cpp:444
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "Şuanda hiç sürüm bulunamadı."
 
-#: src/application/pages/instance/VersionPage.cpp:320
-#: src/application/pages/instance/VersionPage.cpp:405
+#: src/application/pages/instance/VersionPage.cpp:360
+#: src/application/pages/instance/VersionPage.cpp:445
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "LiteLoader listesi yüklenemedi ya da indirilemedi!"
 
-#: src/application/pages/instance/VersionPage.cpp:348
+#: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
 msgid ""
 "MultiMC cannot download Minecraft or update instances unless you have at "
@@ -4769,59 +4874,59 @@ msgstr ""
 "ekleyin.\n"
 "Lütfen Mojang ya da Minecraft hesabınızı ekleyin."
 
-#: src/application/pages/instance/VersionPage.cpp:403
+#: src/application/pages/instance/VersionPage.cpp:443
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "LiteLoader sürümünü seç"
 
-#: src/application/pages/instance/VersionPage.cpp:451
+#: src/application/pages/instance/VersionPage.cpp:491
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "LiteLoader listesi yüklenemedi ya da indirilemedi!"
 
-#: src/application/pages/instance/VersionPage.cpp:524
+#: src/application/pages/instance/VersionPage.cpp:537
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Profil güncellenirken hata meydana geldi"
 
-#: src/application/pages/instance/VersionPage.cpp:374
+#: src/application/pages/instance/VersionPage.cpp:414
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Forge sürümünü seç"
 
-#: src/application/pages/instance/VersionPage.cpp:256
+#: src/application/pages/instance/VersionPage.cpp:296
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Jar seçin"
 
-#: src/application/pages/instance/VersionPage.cpp:256
+#: src/application/pages/instance/VersionPage.cpp:296
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Minecraft.jar'ı değiştir (*.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:316
+#: src/application/pages/instance/VersionPage.cpp:356
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "%1 sürümünü değiştir"
 
-#: src/application/pages/instance/VersionPage.cpp:376
+#: src/application/pages/instance/VersionPage.cpp:416
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "Bu Minecraft sürümü için şuanda bir Forge sürümü yok "
 
-#: src/application/pages/instance/VersionPage.cpp:377
+#: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Forge listesi yüklenemedi ya da indirilemedi!"
 
-#: src/application/pages/instance/VersionPage.cpp:448
+#: src/application/pages/instance/VersionPage.cpp:488
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "LiteLoader sürümünü seç"
 
-#: src/application/pages/instance/VersionPage.cpp:450
+#: src/application/pages/instance/VersionPage.cpp:490
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Bu Minecraft sürümü için LiteLoader sürümü yok "
@@ -4973,47 +5078,66 @@ msgctxt "WorldList|"
 msgid "Date and time the world was last played."
 msgstr "Dünyada oynanılan son tarih ve saat."
 
-#: src/application/pages/instance/WorldListPage.ui:41
+#: src/application/pages/instance/WorldListPage.ui:14
+#, fuzzy
+msgctxt "WorldListPage|"
+msgid "MainWindow"
+msgstr "Oyun Penceresi"
+
+#: src/application/pages/instance/WorldListPage.ui:62
+msgctxt "WorldListPage|"
+msgid "toolBar"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:92
 msgctxt "WorldListPage|"
 msgid "Add"
 msgstr "Ekle"
 
-#: src/application/pages/instance/WorldListPage.ui:51
+#: src/application/pages/instance/WorldListPage.ui:97
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "Yeniden Adlandır"
 
-#: src/application/pages/instance/WorldListPage.ui:58
+#: src/application/pages/instance/WorldListPage.ui:102
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "Kopyala"
 
-#: src/application/pages/instance/WorldListPage.ui:65
+#: src/application/pages/instance/WorldListPage.ui:107
+#, fuzzy
 msgctxt "WorldListPage|"
-msgid "&Remove"
-msgstr "&Kaldır"
+msgid "Remove"
+msgstr "Sil"
 
-#: src/application/pages/instance/WorldListPage.ui:82
+#: src/application/pages/instance/WorldListPage.ui:112
+#, fuzzy
+msgctxt "WorldListPage|"
+msgid "MCEdit"
+msgstr "Düzenle"
+
+#: src/application/pages/instance/WorldListPage.ui:127
+#, fuzzy
+msgctxt "WorldListPage|"
+msgid "View Folder"
+msgstr "&Klasörü Göster"
+
+#: src/application/pages/instance/WorldListPage.ui:117
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
 msgstr "Seedi kopyala"
 
-#: src/application/pages/instance/WorldListPage.ui:102
+#: src/application/pages/instance/WorldListPage.ui:122
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "Yenile"
 
-#: src/application/pages/instance/WorldListPage.ui:109
-msgctxt "WorldListPage|"
-msgid "&View Folder"
-msgstr "&Klasörü Göster"
-
-#: src/application/pages/instance/WorldListPage.cpp:112
+#: src/application/pages/instance/WorldListPage.cpp:126
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "Emin misiniz?"
 
-#: src/application/pages/instance/WorldListPage.cpp:113
+#: src/application/pages/instance/WorldListPage.cpp:127
 msgctxt "WorldListPage|"
 msgid ""
 "This will remove the selected world permenantly.\n"
@@ -5026,12 +5150,12 @@ msgstr ""
 "\n"
 "Devam etmek istiyor musun?"
 
-#: src/application/pages/instance/WorldListPage.cpp:203
+#: src/application/pages/instance/WorldListPage.cpp:217
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "MCEdit başlatılırken bir hata meydana geldi!"
 
-#: src/application/pages/instance/WorldListPage.cpp:204
+#: src/application/pages/instance/WorldListPage.cpp:218
 msgctxt "WorldListPage|"
 msgid ""
 "MCEdit failed to start.\n"
@@ -5040,12 +5164,17 @@ msgstr ""
 "MCEdit başlatılamadı.\n"
 "Yeniden yüklemek sorununuzu çözebilir."
 
-#: src/application/pages/instance/WorldListPage.cpp:193
+#: src/application/pages/instance/WorldListPage.cpp:207
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "MCEdit ya da yükleme dosyası bulunamadı!"
 
-#: src/application/pages/instance/WorldListPage.cpp:194
+#: src/application/pages/instance/WorldListPage.cpp:76
+msgctxt "WorldListPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.cpp:208
 msgctxt "WorldListPage|"
 msgid ""
 "You do not have MCEdit set up or it was moved.\n"
@@ -5054,22 +5183,22 @@ msgstr ""
 "MCEdit kurulumuna sahip değilsiniz ya da konumu değiştirilmiş.\n"
 "Bunu evrensel ayarlardan düzenleyebilrisiniz."
 
-#: src/application/pages/instance/WorldListPage.cpp:250
+#: src/application/pages/instance/WorldListPage.cpp:264
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "Minecraft dünya dosyası seçin"
 
-#: src/application/pages/instance/WorldListPage.cpp:251
+#: src/application/pages/instance/WorldListPage.cpp:265
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Minecraft Dünya Dosyası (*.zip)"
 
-#: src/application/pages/instance/WorldListPage.cpp:272
+#: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "Dünyayı Kopyala"
 
-#: src/application/pages/instance/WorldListPage.cpp:272
+#: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
 msgid ""
 "Changing a world while Minecraft is running is potentially unsafe.\n"
@@ -5078,21 +5207,27 @@ msgstr ""
 "Minecraft çalışırken dünyalarla oynamak güvenli değildir.\n"
 "Devam etmek istiyor musunuz?"
 
-#: src/application/pages/instance/WorldListPage.cpp:296
-#: src/application/pages/instance/WorldListPage.cpp:319
+#: src/application/pages/instance/WorldListPage.cpp:310
+#: src/application/pages/instance/WorldListPage.cpp:333
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "Dünyanın Adı"
 
-#: src/application/pages/instance/WorldListPage.cpp:296
+#: src/application/pages/instance/WorldListPage.cpp:310
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "Kopya için yeni bir isim girin."
 
-#: src/application/pages/instance/WorldListPage.cpp:319
+#: src/application/pages/instance/WorldListPage.cpp:333
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Yeni bir dünya adı yazın."
+
+#: src/application/pages/instance/WorldListPage.h:45
+#, fuzzy
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Dünyalar"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
@@ -5178,6 +5313,90 @@ msgstr "Kimlik doğrulunamadı."
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
+
+#~ msgctxt "AccountListPage|"
+#~ msgid "&Add"
+#~ msgstr "&Ekle"
+
+#~ msgctxt "AccountListPage|"
+#~ msgid "&Remove"
+#~ msgstr "&Kaldır"
+
+#~ msgctxt "AccountListPage|"
+#~ msgid ""
+#~ "<html><head/><body><p>Set the currently selected account as the active "
+#~ "account. The active account is the account that is used to log in (unless "
+#~ "it is overridden in an instance-specific setting).</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p>Hesabı varsayılan olarak işaretle. Artık program "
+#~ "açılışlarında bu hesap ile giriş yapılacaktır.</p></body></html>"
+
+#~ msgctxt "AccountListPage|"
+#~ msgid ""
+#~ "Set no default account. This will cause MultiMC to prompt you to select "
+#~ "an account every time you launch an instance that doesn't have its own "
+#~ "default set."
+#~ msgstr ""
+#~ "Varsayılanlardan kaldırmanız ne zaman MultiMC'yi açtığınızda size "
+#~ "hesabınızı tekrar sormasına neden olacaktır."
+
+#~ msgctxt "AccountListPage|"
+#~ msgid ""
+#~ "Opens a dialog to select and upload a skin image to the selected account."
+#~ msgstr ""
+#~ "Seçilen hesaba skin resmi yükleyebilmek için bir diyalog kutusu açar."
+
+#~ msgctxt "MultiMCPage|"
+#~ msgid "Language:"
+#~ msgstr "Dil:"
+
+#~ msgctxt "QObject|"
+#~ msgid "How sad!"
+#~ msgstr "Ne kadar acıklı!"
+
+#~ msgctxt "QObject|"
+#~ msgid "The mod author didn't provide a website link for this mod."
+#~ msgstr "Mod yapımcısı bu mod için bir internet sitesi vermedi."
+
+#~ msgctxt "ScreenshotsPage|"
+#~ msgid "&Upload"
+#~ msgstr "Yükle"
+
+#~ msgctxt "ScreenshotsPage|"
+#~ msgid "&Delete"
+#~ msgstr "&Sil"
+
+#~ msgctxt "ScreenshotsPage|"
+#~ msgid "&Rename"
+#~ msgstr "&Yeniden Adlandır"
+
+#~ msgctxt "ServersPage|"
+#~ msgid "&Add"
+#~ msgstr "&Ekle"
+
+#~ msgctxt "ServersPage|"
+#~ msgid "&Remove"
+#~ msgstr "&Kaldır"
+
+#~ msgctxt "SimpleModList|"
+#~ msgid "Name"
+#~ msgstr "İsim"
+
+#~ msgctxt "SimpleModList|"
+#~ msgid "Version"
+#~ msgstr "Sürüm"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Install"
+#~ msgstr "Yükle"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Advanced"
+#~ msgstr "Gelişmiş"
+
+#~ msgctxt "WorldListPage|"
+#~ msgid "&Remove"
+#~ msgstr "&Kaldır"
 
 #, fuzzy
 #~ msgctxt "NewComponentDialog|"

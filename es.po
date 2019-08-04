@@ -213,77 +213,29 @@ msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "Canal"
 
-#: src/application/pages/global/AccountListPage.ui:39
-msgctxt "AccountListPage|"
-msgid ""
-"<html><head/><body><p>Welcome! If you're new here, you can click the &quot;"
-"Add&quot; button to add your Mojang or Minecraft account.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>¡Bienvenido! Si eres nuevo aquí, puedes hacer click en "
-"el botón de &quot;Añadir&quot; para agregar tu cuenta de Mojang o Minecraft."
-"</p></body></html>"
-
-#: src/application/pages/global/AccountListPage.ui:56
-msgctxt "AccountListPage|"
-msgid "&Add"
-msgstr "&Agregar"
-
-#: src/application/pages/global/AccountListPage.ui:63
-msgctxt "AccountListPage|"
-msgid "&Remove"
-msgstr "Elimina&r"
-
-#: src/application/pages/global/AccountListPage.ui:83
-msgctxt "AccountListPage|"
-msgid ""
-"<html><head/><body><p>Set the currently selected account as the active "
-"account. The active account is the account that is used to log in (unless it "
-"is overridden in an instance-specific setting).</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Establecer la cuenta seleccionada como cuenta activa. "
-"La cuenta activa es la cuenta que se utiliza para conectarse (a menos que se "
-"sobrescriba en la configuración específica de la instancia).</p></body></"
-"html>"
-
-#: src/application/pages/global/AccountListPage.ui:86
-msgctxt "AccountListPage|"
-msgid "&Set Default"
-msgstr "E&stablecer como predeterminada"
-
-#: src/application/pages/global/AccountListPage.ui:93
-msgctxt "AccountListPage|"
-msgid ""
-"Set no default account. This will cause MultiMC to prompt you to select an "
-"account every time you launch an instance that doesn't have its own default "
-"set."
-msgstr ""
-"Sin cuenta predeterminada. Esto hará que MultiMC te haga seleccionar una "
-"cuenta cada vez que inicies una instancia que no tenga una cuenta "
-"establecida."
-
-#: src/application/pages/global/AccountListPage.ui:96
-msgctxt "AccountListPage|"
-msgid "&No Default"
-msgstr "&No establecer como predeterminada"
-
-#: src/application/pages/global/AccountListPage.ui:103
-msgctxt "AccountListPage|"
-msgid ""
-"Opens a dialog to select and upload a skin image to the selected account."
-msgstr ""
-"Abre un cuadro de diálogo para seleccionar una skin a la cuenta seleccionada."
-
-#: src/application/pages/global/AccountListPage.ui:106
-msgctxt "AccountListPage|"
-msgid "&Upload Skin"
-msgstr "&Subir Skin"
-
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
 msgstr "Cuentas"
 
-#: src/application/pages/global/AccountListPage.cpp:74
+#: src/application/pages/global/AccountListPage.cpp:41
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid ""
+"Welcome!\n"
+"If you're new here, you can click the \"Add\" button to add your Mojang or "
+"Minecraft account."
+msgstr ""
+"<html><head/><body><p>¡Bienvenido! Si eres nuevo aquí, puedes hacer click en "
+"el botón de &quot;Añadir&quot; para agregar tu cuenta de Mojang o Minecraft."
+"</p></body></html>"
+
+#: src/application/pages/global/AccountListPage.cpp:77
+msgctxt "AccountListPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
 msgid ""
 "Please enter your Mojang or Minecraft account username and password to add "
@@ -291,6 +243,47 @@ msgid ""
 msgstr ""
 "Por favor introduce el nombre de usuario y contraseña de tu cuenta de Mojang "
 "o Minecraft para añadir la cuenta."
+
+#: src/application/pages/global/AccountListPage.ui:14
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "MainWindow"
+msgstr "Ventana de juego"
+
+#: src/application/pages/global/AccountListPage.ui:37
+msgctxt "AccountListPage|"
+msgid "toolBar"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.ui:53
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "Add"
+msgstr "Añadir"
+
+#: src/application/pages/global/AccountListPage.ui:58
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "Remove"
+msgstr "Eliminar"
+
+#: src/application/pages/global/AccountListPage.ui:63
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "Set Default"
+msgstr "E&stablecer como predeterminada"
+
+#: src/application/pages/global/AccountListPage.ui:71
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "No Default"
+msgstr "&No establecer como predeterminada"
+
+#: src/application/pages/global/AccountListPage.ui:76
+#, fuzzy
+msgctxt "AccountListPage|"
+msgid "Upload Skin"
+msgstr "&Subir Skin"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -507,12 +500,12 @@ msgstr ""
 "Ustedpodría instalar una versión de Java de 64 bits.\n"
 "\n"
 
-#: src/api/logic/minecraft/ComponentList.cpp:849
+#: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
 msgid "Name"
 msgstr "Nombre"
 
-#: src/api/logic/minecraft/ComponentList.cpp:851
+#: src/api/logic/minecraft/ComponentList.cpp:854
 msgctxt "ComponentList|"
 msgid "Version"
 msgstr "Versión"
@@ -585,27 +578,27 @@ msgctxt "CustomCommands|"
 msgid "Form"
 msgstr "Formulario"
 
-#: src/application/widgets/CustomCommands.ui:23
+#: src/application/widgets/CustomCommands.ui:35
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
 msgstr "Comandos personalizados"
 
-#: src/application/widgets/CustomCommands.ui:35
+#: src/application/widgets/CustomCommands.ui:47
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
 msgstr "Comando post-salida:"
 
-#: src/application/widgets/CustomCommands.ui:45
+#: src/application/widgets/CustomCommands.ui:57
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
 msgstr "Comando pre-lanzamiento:"
 
-#: src/application/widgets/CustomCommands.ui:55
+#: src/application/widgets/CustomCommands.ui:67
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
 msgstr "Comando contenedor:"
 
-#: src/application/widgets/CustomCommands.ui:68
+#: src/application/widgets/CustomCommands.ui:80
 msgctxt "CustomCommands|"
 msgid ""
 "<html><head/><body><p>Pre-launch command runs before the instance launches "
@@ -1404,6 +1397,12 @@ msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "La importación de la instancia ha sido cancelada."
 
+#: src/api/logic/InstanceList.cpp:105
+#, fuzzy, qt-format
+msgctxt "InstanceList|"
+msgid "%1 Instance"
+msgstr "Agregar una instancia"
+
 #: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
@@ -1414,135 +1413,129 @@ msgctxt "InstancePageProvider|"
 msgid "Core mods"
 msgstr "Mods de núcleo"
 
-#: src/application/InstancePageProvider.h:48
-#: src/application/InstancePageProvider.h:59
-msgctxt "InstancePageProvider|"
-msgid "Worlds"
-msgstr "Mundos"
-
 #: src/application/InstancePageProvider.h:72
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
 msgstr "Editar Instancia (%1)"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:58
+#: src/application/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
 msgid "Auto-detect..."
 msgstr "Detectar automáticamente..."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:65
+#: src/application/pages/instance/InstanceSettingsPage.ui:77
 msgctxt "InstanceSettingsPage|"
 msgid "Browse..."
 msgstr "Explorar..."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:72
+#: src/application/pages/instance/InstanceSettingsPage.ui:84
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
 msgstr "Probar"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:104
+#: src/application/pages/instance/InstanceSettingsPage.ui:116
 msgctxt "InstanceSettingsPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr "La cantidad máxima de memoria permitida para Minecraft."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:97
+#: src/application/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
 msgstr "Asignación mínima de memoria:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:43
+#: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
 msgstr "Instalación de Java"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:177
+#: src/application/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
 msgstr "Asignación máxima de memoria:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:126
+#: src/application/pages/instance/InstanceSettingsPage.ui:138
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr "Cantidad de memoria con la que iniciará Minecraft."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:148
+#: src/application/pages/instance/InstanceSettingsPage.ui:160
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr "Cantidad de memoria disponible para almacenar clases cargadas de Java."
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:85
+#: src/application/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
 msgstr "Memoria"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:17
+#: src/application/pages/instance/InstanceSettingsPage.ui:29
 #, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Open Global Settings"
 msgstr "Configuración de la consola"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:20
+#: src/application/pages/instance/InstanceSettingsPage.ui:32
 msgctxt "InstanceSettingsPage|"
 msgid "The settings here are overrides for global settings."
 msgstr ""
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:184
+#: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
 msgstr "Nota: Permgen se establece automáticamente en Java 8 y posteriores"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:197
+#: src/application/pages/instance/InstanceSettingsPage.ui:209
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
 msgstr "Argumentos de Java"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:216
+#: src/application/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
 msgstr "Ventanas de juego"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:225
+#: src/application/pages/instance/InstanceSettingsPage.ui:237
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
 msgstr "Ventana de juego"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:237
+#: src/application/pages/instance/InstanceSettingsPage.ui:249
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
 msgstr "¿Iniciar Minecraft maximizado?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:246
+#: src/application/pages/instance/InstanceSettingsPage.ui:258
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
 msgstr "Alto de la ventana:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:253
+#: src/application/pages/instance/InstanceSettingsPage.ui:265
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
 msgstr "Ancho de la ventana:"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:297
+#: src/application/pages/instance/InstanceSettingsPage.ui:309
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
 msgstr "Configuración de la consola"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:323
+#: src/application/pages/instance/InstanceSettingsPage.ui:335
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
 msgstr "¿Mostrar consola cuando el juego cierra de forma inesperada?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:309
+#: src/application/pages/instance/InstanceSettingsPage.ui:321
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
 msgstr "¿Mostrar consola mientras el juego se está ejecutando?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:316
+#: src/application/pages/instance/InstanceSettingsPage.ui:328
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "¿Cerrar consola automáticamente cuando el juego se cierra?"
 
-#: src/application/pages/instance/InstanceSettingsPage.ui:347
+#: src/application/pages/instance/InstanceSettingsPage.ui:359
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "Comandos personalizados"
@@ -1562,7 +1555,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Buscar ejecutable de Java"
 
-#: src/api/logic/InstanceList.cpp:758
+#: src/api/logic/InstanceList.cpp:762
 msgctxt "InstanceStaging|"
 msgid ""
 "Failed to commit instance, even after multiple retries. It is being blocked "
@@ -1576,39 +1569,39 @@ msgctxt "InstanceWindow|"
 msgid "Console window for "
 msgstr "Ventana de consola para "
 
-#: src/application/InstanceWindow.cpp:62
+#: src/application/InstanceWindow.cpp:63
 msgctxt "InstanceWindow|"
 msgid "Help"
 msgstr "Ayuda"
 
-#: src/application/InstanceWindow.cpp:75
+#: src/application/InstanceWindow.cpp:76
 msgctxt "InstanceWindow|"
 msgid "Launch Offline"
 msgstr "Jugar sin conexión"
 
-#: src/application/InstanceWindow.cpp:80
+#: src/application/InstanceWindow.cpp:81
 msgctxt "InstanceWindow|"
 msgid "Close"
 msgstr "Cerrar"
 
-#: src/application/InstanceWindow.cpp:124
+#: src/application/InstanceWindow.cpp:125
 msgctxt "InstanceWindow|"
 msgid "Kill"
 msgstr "Forzar Cierre"
 
-#: src/application/InstanceWindow.cpp:125
+#: src/application/InstanceWindow.cpp:126
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
 msgstr "Forzar cierre de la instancia"
 
-#: src/application/InstanceWindow.cpp:130
-#: src/application/InstanceWindow.cpp:137
+#: src/application/InstanceWindow.cpp:131
+#: src/application/InstanceWindow.cpp:138
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Iniciar"
 
-#: src/application/InstanceWindow.cpp:131
-#: src/application/InstanceWindow.cpp:138
+#: src/application/InstanceWindow.cpp:132
+#: src/application/InstanceWindow.cpp:139
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
 msgstr "Iniciar la instancia"
@@ -1788,10 +1781,15 @@ msgctxt "LanguagePage|"
 msgid "Language"
 msgstr "Idioma"
 
-#: src/application/widgets/LanguageSelectionWidget.cpp:50
+#: src/application/widgets/LanguageSelectionWidget.cpp:51
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?"
 msgstr "¿No ve su idioma o la calidad es mala?"
+
+#: src/application/widgets/LanguageSelectionWidget.cpp:53
+msgctxt "LanguageSelectionWidget|"
+msgid "Help us with translations!"
+msgstr ""
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1978,12 +1976,12 @@ msgstr ""
 "ID de proceso de Minecraft: %1\n"
 "\n"
 
-#: src/api/logic/minecraft/legacy/LegacyInstance.cpp:226
+#: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
 msgid "Legacy"
 msgstr "Heredado"
 
-#: src/api/logic/minecraft/legacy/LegacyInstance.cpp:231
+#: src/api/logic/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
 msgstr "Cargando lista de versiones anteriores de la instancia."
@@ -2039,23 +2037,23 @@ msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (Migrado)"
 
-#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:19
+#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
 msgstr "Copiando instancia %1"
 
-#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:58
+#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:59
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
 msgstr "Error al copiar la carpeta de la instancia."
 
-#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:81
+#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
 msgstr "No se ha podido decidir la version de Minecraft."
 
-#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:134
+#: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
 msgstr "La copia de la carpeta de la instancia ha sido cancelada."
@@ -2238,12 +2236,12 @@ msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "Barra de herramientas principal"
 
-#: src/application/MainWindow.cpp:436
+#: src/application/MainWindow.cpp:438
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "Barra de herramientas de instancia"
 
-#: src/application/MainWindow.cpp:413
+#: src/application/MainWindow.cpp:415
 msgctxt "MainWindow|"
 msgid "News Toolbar"
 msgstr "Barra de herramientas de noticias"
@@ -2288,48 +2286,48 @@ msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Examinar la carpeta central de mods."
 
-#: src/application/MainWindow.cpp:300
+#: src/application/MainWindow.cpp:301
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "Configuración"
 
-#: src/application/MainWindow.cpp:301
+#: src/application/MainWindow.cpp:302
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "Cambiar configuración."
 
-#: src/application/MainWindow.cpp:311
+#: src/application/MainWindow.cpp:312
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "Reportar un error"
 
-#: src/application/MainWindow.cpp:312
+#: src/application/MainWindow.cpp:313
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
 msgstr "Abrir el buscador de errores para comunicar un error de MultiMC."
 
-#: src/application/MainWindow.cpp:370
+#: src/application/MainWindow.cpp:372
 msgctxt "MainWindow|"
 msgid "Open the MultiMC Patreon page."
 msgstr "Abrir la página de MultiMC en Patreon."
 
-#: src/application/MainWindow.cpp:418
+#: src/application/MainWindow.cpp:420
 msgctxt "MainWindow|"
 msgid "More news..."
 msgstr "Más noticias..."
 
-#: src/application/MainWindow.cpp:419
+#: src/application/MainWindow.cpp:421
 msgctxt "MainWindow|"
 msgid "Open the MultiMC development blog to read more news about MultiMC."
 msgstr ""
 "Abre el blog de desarrollo de MultiMC para leer más noticias sobre MultiMC."
 
-#: src/application/MainWindow.cpp:336
+#: src/application/MainWindow.cpp:337
 msgctxt "MainWindow|"
 msgid "About MultiMC"
 msgstr "Sobre MultiMC"
 
-#: src/application/MainWindow.cpp:337
+#: src/application/MainWindow.cpp:338
 msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "Ver información sobre MutliMC."
@@ -2339,199 +2337,199 @@ msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "Iniciar instancia seleccionada."
 
-#: src/application/MainWindow.cpp:359
+#: src/application/MainWindow.cpp:361
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
 msgstr "Buscar actualizaciones para MultiMC."
 
-#: src/application/MainWindow.cpp:458
+#: src/application/MainWindow.cpp:460
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Renombrar instancia seleccionada."
 
-#: src/application/MainWindow.cpp:514
+#: src/application/MainWindow.cpp:516
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "Cambiar grupo"
 
-#: src/application/MainWindow.cpp:515
+#: src/application/MainWindow.cpp:517
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "Cambiar grupo de la instancia seleccionada."
 
-#: src/application/MainWindow.cpp:443
+#: src/application/MainWindow.cpp:445
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "Cambiar icono"
 
-#: src/application/MainWindow.cpp:444
+#: src/application/MainWindow.cpp:446
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "Cambiar icono de la instancia seleccionada."
 
-#: src/application/MainWindow.cpp:493
+#: src/application/MainWindow.cpp:495
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "Editar notas"
 
-#: src/application/MainWindow.cpp:494
+#: src/application/MainWindow.cpp:496
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "Editar notas de la instancia seleccionada."
 
-#: src/application/MainWindow.cpp:500
+#: src/application/MainWindow.cpp:502
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "Ver Mundos"
 
-#: src/application/MainWindow.cpp:501
+#: src/application/MainWindow.cpp:503
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "Verlos mundos de esta instancia."
 
-#: src/application/MainWindow.cpp:486
+#: src/application/MainWindow.cpp:488
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "Editar instancia"
 
-#: src/application/MainWindow.cpp:487
+#: src/application/MainWindow.cpp:489
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "Cambia la configuración de la instancia, los mods y las versiones."
 
-#: src/application/MainWindow.cpp:537
+#: src/application/MainWindow.cpp:539
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "Carpeta de la instancia"
 
-#: src/application/MainWindow.cpp:538
+#: src/application/MainWindow.cpp:540
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "Examinar la carpeta raíz de la instancia seleccionada."
 
-#: src/application/MainWindow.cpp:553
+#: src/application/MainWindow.cpp:555
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "Borrar"
 
-#: src/application/MainWindow.cpp:554
+#: src/application/MainWindow.cpp:556
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "Borrar la instancia seleccionada."
 
-#: src/application/MainWindow.cpp:530
+#: src/application/MainWindow.cpp:532
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "Carpeta de configuración"
 
-#: src/application/MainWindow.cpp:378
+#: src/application/MainWindow.cpp:380
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "Miau"
 
-#: src/application/MainWindow.cpp:327
+#: src/application/MainWindow.cpp:328
 msgctxt "MainWindow|"
 msgid "Reddit"
 msgstr "Reddit"
 
-#: src/application/MainWindow.cpp:319
+#: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
 msgid "Discord"
 msgstr "Discord"
 
-#: src/application/MainWindow.cpp:561
+#: src/application/MainWindow.cpp:563
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "Copiar instancia"
 
-#: src/application/MainWindow.cpp:562
+#: src/application/MainWindow.cpp:564
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Copiar la instancia seleccionada."
 
-#: src/application/MainWindow.cpp:387
+#: src/application/MainWindow.cpp:389
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "Gestionar cuentas"
 
-#: src/application/MainWindow.cpp:478
+#: src/application/MainWindow.cpp:480
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "Iniciar sin conexión la instancia seleccionada."
 
-#: src/application/MainWindow.cpp:507
+#: src/application/MainWindow.cpp:509
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "Capturas de pantalla"
 
-#: src/application/MainWindow.cpp:531
+#: src/application/MainWindow.cpp:533
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "Abrir la carpeta de configuración de la instancia."
 
-#: src/application/MainWindow.cpp:379
+#: src/application/MainWindow.cpp:381
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "Es un gatito esponjoso :3"
 
-#: src/application/MainWindow.cpp:328
+#: src/application/MainWindow.cpp:329
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit."
 msgstr "Abrir la página de MultiMC en Reddit."
 
-#: src/application/MainWindow.cpp:320
+#: src/application/MainWindow.cpp:321
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat."
 msgstr "Abrir el canal de Discord de MultiMC."
 
-#: src/application/MainWindow.cpp:477 src/application/MainWindow.cpp:942
+#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:951
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Jugar sin conexión"
 
-#: src/application/MainWindow.cpp:508
+#: src/application/MainWindow.cpp:510
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "Ver y subir las capturas de pantalla de esta instancia."
 
-#: src/application/MainWindow.cpp:546
+#: src/application/MainWindow.cpp:548
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "Exportar instancia"
 
-#: src/application/MainWindow.cpp:603
+#: src/application/MainWindow.cpp:604
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - Versión %1"
 
-#: src/application/MainWindow.cpp:606
+#: src/application/MainWindow.cpp:607
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " en %1"
 
-#: src/application/MainWindow.cpp:711
+#: src/application/MainWindow.cpp:713
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "No hay una instancia seleccionada"
 
-#: src/application/MainWindow.cpp:457
+#: src/application/MainWindow.cpp:459
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "Renombrar"
 
-#: src/application/MainWindow.cpp:874
+#: src/application/MainWindow.cpp:883
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Crear instancia"
 
-#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:941
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:950
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Iniciar"
 
-#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:623
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:624
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Carpetas"
@@ -2541,74 +2539,74 @@ msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "Abrir una de las carpetas compartidas entre instancias."
 
-#: src/application/MainWindow.cpp:342 src/application/MainWindow.cpp:624
+#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:625
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Ayuda"
 
-#: src/application/MainWindow.cpp:343
+#: src/application/MainWindow.cpp:344
 msgctxt "MainWindow|"
 msgid "Get help with MultiMC or Minecraft."
 msgstr "Obtener ayuda con MultiMC o Minecraft."
 
-#: src/application/MainWindow.cpp:358
+#: src/application/MainWindow.cpp:360
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "Actualizar"
 
-#: src/application/MainWindow.cpp:369
+#: src/application/MainWindow.cpp:371
 msgctxt "MainWindow|"
 msgid "Support MultiMC"
 msgstr "Apoyar MultiMC"
 
-#: src/application/MainWindow.cpp:523
+#: src/application/MainWindow.cpp:525
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Carpeta de Minecraft"
 
-#: src/application/MainWindow.cpp:524
+#: src/application/MainWindow.cpp:526
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "Examinar la carpeta raíz de la instancia seleccionada."
 
-#: src/application/MainWindow.cpp:951
+#: src/application/MainWindow.cpp:960
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Analizadores"
 
-#: src/application/MainWindow.cpp:963
+#: src/application/MainWindow.cpp:972
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
 "El analizador no está configurado correctamente. Ve a opciones, "
 "\"Herramientas externas\"."
 
-#: src/application/MainWindow.cpp:1017
+#: src/application/MainWindow.cpp:1026
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "¡No hay cuentas añadidas!"
 
-#: src/application/MainWindow.cpp:1047
+#: src/application/MainWindow.cpp:1056
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "No hay cuenta por defecto"
 
-#: src/application/MainWindow.cpp:1155
+#: src/application/MainWindow.cpp:1164
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Cargando noticias..."
 
-#: src/application/MainWindow.cpp:1168
+#: src/application/MainWindow.cpp:1177
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Noticias no disponibles..."
 
-#: src/application/MainWindow.cpp:1251 src/application/MainWindow.cpp:1268
+#: src/application/MainWindow.cpp:1260 src/application/MainWindow.cpp:1277
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Error"
 
-#: src/application/MainWindow.cpp:1251
+#: src/application/MainWindow.cpp:1260
 #, qt-format
 msgctxt "MainWindow|"
 msgid ""
@@ -2618,12 +2616,12 @@ msgstr ""
 "No se pudo crear la carpeta para descargar actualizaciones:\n"
 "%1"
 
-#: src/application/MainWindow.cpp:726 src/application/MainWindow.cpp:1115
+#: src/application/MainWindow.cpp:728 src/application/MainWindow.cpp:1124
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "Analizadores"
 
-#: src/application/MainWindow.cpp:890
+#: src/application/MainWindow.cpp:899
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
@@ -2634,62 +2632,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "Nombre"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:642
+#: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SESSION ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:644
+#: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ACCESS TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:645
+#: src/api/logic/minecraft/MinecraftInstance.cpp:647
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:646
+#: src/api/logic/minecraft/MinecraftInstance.cpp:648
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:733
+#: src/api/logic/minecraft/MinecraftInstance.cpp:735
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1m %2s"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:737
+#: src/api/logic/minecraft/MinecraftInstance.cpp:739
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1h %2m"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:739
+#: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1d %2h %3m"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:747
+#: src/api/logic/minecraft/MinecraftInstance.cpp:749
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "roto"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:751
+#: src/api/logic/minecraft/MinecraftInstance.cpp:753
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:754
+#: src/api/logic/minecraft/MinecraftInstance.cpp:756
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", jugado por %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:758
+#: src/api/logic/minecraft/MinecraftInstance.cpp:760
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", se ha cerrado de forma inesperada."
@@ -2724,47 +2722,145 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "Cancelado por el usuario."
 
-#: src/application/pages/instance/ModFolderPage.ui:47
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:368
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Folder"
+msgstr "Carpetas"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:370
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "File"
+msgstr "Archivo de Skin"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:464
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Name"
+msgstr "Nombre"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:466
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Version"
+msgstr "Versión"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:468
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Last changed"
+msgstr "Última modificación"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "Is the mod enabled?"
+msgstr "¿Está el mod habilitado?"
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "The name of the mod."
+msgstr "El nombre del mod."
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:481
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "The version of the mod."
+msgstr "La versión del mod."
+
+#: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
+#, fuzzy
+msgctxt "ModFolderModel|"
+msgid "The date and time this mod was last changed (or added)."
+msgstr "La fecha y hora en que se modificó (o agregó) este mod por última vez."
+
+#: src/application/pages/instance/ModFolderPage.ui:14
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "MainWindow"
+msgstr "Ventana de juego"
+
+#: src/application/pages/instance/ModFolderPage.ui:78
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "Actions"
+msgstr "Selección"
+
+#: src/application/pages/instance/ModFolderPage.ui:99
 msgctxt "ModFolderPage|"
 msgid "&Add"
 msgstr "&Agregar"
 
-#: src/application/pages/instance/ModFolderPage.ui:54
+#: src/application/pages/instance/ModFolderPage.ui:102
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "Add mods"
+msgstr "Cargar mods"
+
+#: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "&Remove"
 msgstr "Elimina&r"
 
-#: src/application/pages/instance/ModFolderPage.ui:61
+#: src/application/pages/instance/ModFolderPage.ui:110
+#, fuzzy
 msgctxt "ModFolderPage|"
-msgid "Enable"
+msgid "Remove selected mods"
+msgstr "Personalizar el paquete seleccionado"
+
+#: src/application/pages/instance/ModFolderPage.ui:115
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "&Enable"
 msgstr "Activar"
 
-#: src/application/pages/instance/ModFolderPage.ui:68
+#: src/application/pages/instance/ModFolderPage.ui:118
 msgctxt "ModFolderPage|"
-msgid "Disable"
+msgid "Enable selected mods"
+msgstr ""
+
+#: src/application/pages/instance/ModFolderPage.ui:123
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "&Disable"
 msgstr "Desactivar"
 
-#: src/application/pages/instance/ModFolderPage.ui:75
+#: src/application/pages/instance/ModFolderPage.ui:126
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "Disable selected mods"
+msgstr "No hay una instancia seleccionada"
+
+#: src/application/pages/instance/ModFolderPage.ui:131
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "View &Configs"
+msgstr "Ver config"
+
+#: src/application/pages/instance/ModFolderPage.ui:139
+#, fuzzy
+msgctxt "ModFolderPage|"
+msgid "View &Folder"
+msgstr "&Ver carpeta"
+
+#: src/application/pages/instance/ModFolderPage.ui:134
 msgctxt "ModFolderPage|"
 msgid "Open the 'config' folder in the system file manager."
 msgstr "Abrir la carpeta de 'configuración' en el explorador de archivos."
 
-#: src/application/pages/instance/ModFolderPage.ui:78
-msgctxt "ModFolderPage|"
-msgid "View configs"
-msgstr "Ver config"
-
-#: src/application/pages/instance/ModFolderPage.ui:98
-msgctxt "ModFolderPage|"
-msgid "&View Folder"
-msgstr "&Ver carpeta"
-
-#: src/application/pages/instance/ModFolderPage.ui:126
+#: src/application/pages/instance/ModFolderPage.ui:42
 msgctxt "ModFolderPage|"
 msgid "Filter:"
 msgstr "Filtrar:"
 
-#: src/application/pages/instance/ModFolderPage.cpp:157
+#: src/application/pages/instance/ModFolderPage.cpp:168
+msgctxt "ModFolderPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/instance/ModFolderPage.cpp:281
 #, qt-format
 msgctxt ""
 "ModFolderPage|Select whatever type of files the page contains. Example: "
@@ -2803,7 +2899,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "El nombre de la versión."
 
-#: src/application/MultiMC.cpp:519
+#: src/application/MultiMC.cpp:523
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "Configuración"
@@ -2860,35 +2956,30 @@ msgstr "Por &nombre"
 
 #: src/application/pages/global/MultiMCPage.ui:234
 msgctxt "MultiMCPage|"
-msgid "Language:"
-msgstr "Idioma:"
-
-#: src/application/pages/global/MultiMCPage.ui:246
-msgctxt "MultiMCPage|"
 msgid "Theme"
 msgstr "Tema de iconos"
 
-#: src/application/pages/global/MultiMCPage.ui:252
+#: src/application/pages/global/MultiMCPage.ui:240
 msgctxt "MultiMCPage|"
 msgid "&Icons"
 msgstr "&Iconos"
 
-#: src/application/pages/global/MultiMCPage.ui:495
+#: src/application/pages/global/MultiMCPage.ui:483
 msgctxt "MultiMCPage|"
 msgid "Analytics"
 msgstr "Estadísticas"
 
-#: src/application/pages/global/MultiMCPage.ui:501
+#: src/application/pages/global/MultiMCPage.ui:489
 msgctxt "MultiMCPage|"
 msgid "Analytics Settings"
 msgstr "Opciones de estadísticas"
 
-#: src/application/pages/global/MultiMCPage.ui:507
+#: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
 msgstr "¿Enviar estadísticas anónimas de uso?"
 
-#: src/application/pages/global/MultiMCPage.ui:521
+#: src/application/pages/global/MultiMCPage.ui:509
 msgctxt "MultiMCPage|"
 msgid ""
 "<html><head/>\n"
@@ -2917,72 +3008,72 @@ msgstr ""
 "</ul>\n"
 "</body></html>"
 
-#: src/application/pages/global/MultiMCPage.ui:277
+#: src/application/pages/global/MultiMCPage.ui:265
 msgctxt "MultiMCPage|"
 msgid "Simple (Dark Icons)"
 msgstr "Simple (Iconos oscuros)"
 
-#: src/application/pages/global/MultiMCPage.ui:287
+#: src/application/pages/global/MultiMCPage.ui:275
 msgctxt "MultiMCPage|"
 msgid "Simple (Blue Icons)"
 msgstr "Simple (Iconos azules)"
 
-#: src/application/pages/global/MultiMCPage.ui:292
+#: src/application/pages/global/MultiMCPage.ui:280
 msgctxt "MultiMCPage|"
 msgid "Simple (Colored Icons)"
 msgstr "Simple (Iconos en colores)"
 
-#: src/application/pages/global/MultiMCPage.ui:312
+#: src/application/pages/global/MultiMCPage.ui:300
 msgctxt "MultiMCPage|"
 msgid "Custom"
 msgstr "Personalizar"
 
-#: src/application/pages/global/MultiMCPage.ui:333
+#: src/application/pages/global/MultiMCPage.ui:321
 msgctxt "MultiMCPage|"
 msgid "Colors"
 msgstr "Colores"
 
-#: src/application/pages/global/MultiMCPage.ui:360
+#: src/application/pages/global/MultiMCPage.ui:348
 msgctxt "MultiMCPage|"
 msgid "Console"
 msgstr "Consola"
 
-#: src/application/pages/global/MultiMCPage.ui:366
+#: src/application/pages/global/MultiMCPage.ui:354
 msgctxt "MultiMCPage|"
 msgid "Console Settings"
 msgstr "Configuración de la consola"
 
-#: src/application/pages/global/MultiMCPage.ui:372
+#: src/application/pages/global/MultiMCPage.ui:360
 msgctxt "MultiMCPage|"
 msgid "Show console while the game is running?"
 msgstr "¿Mostrar consola mientras el juego se ejecuta?"
 
-#: src/application/pages/global/MultiMCPage.ui:379
+#: src/application/pages/global/MultiMCPage.ui:367
 msgctxt "MultiMCPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "¿Cerrar consola automáticamente cuando el juego se cierra?"
 
-#: src/application/pages/global/MultiMCPage.ui:386
+#: src/application/pages/global/MultiMCPage.ui:374
 msgctxt "MultiMCPage|"
 msgid "Show console when the game crashes?"
 msgstr "¿Mostrar consola mientras el juego se cierra de forma inesperada?"
 
-#: src/application/pages/global/MultiMCPage.ui:396
+#: src/application/pages/global/MultiMCPage.ui:384
 msgctxt "MultiMCPage|"
 msgid "History limit"
 msgstr "Límite de historia"
 
-#: src/application/pages/global/MultiMCPage.ui:402
+#: src/application/pages/global/MultiMCPage.ui:390
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
 msgstr "Dejar de registrar cuando el registro se sobrecargue"
 
-#: src/application/pages/global/MultiMCPage.ui:415
+#: src/application/pages/global/MultiMCPage.ui:403
 msgctxt "MultiMCPage|"
 msgid " lines"
 msgstr " líneas"
 
-#: src/application/pages/global/MultiMCPage.ui:443
+#: src/application/pages/global/MultiMCPage.ui:431
 msgctxt "MultiMCPage|"
 msgid "Console font"
 msgstr "Fuente de la consola"
@@ -3012,22 +3103,22 @@ msgctxt "MultiMCPage|"
 msgid "Instance view sorting mode"
 msgstr "Clasificación de las instancias"
 
-#: src/application/pages/global/MultiMCPage.ui:272
+#: src/application/pages/global/MultiMCPage.ui:260
 msgctxt "MultiMCPage|"
 msgid "Default"
 msgstr "Por defecto"
 
-#: src/application/pages/global/MultiMCPage.ui:282
+#: src/application/pages/global/MultiMCPage.ui:270
 msgctxt "MultiMCPage|"
 msgid "Simple (Light Icons)"
 msgstr "Simple (Iconos claros)"
 
-#: src/application/pages/global/MultiMCPage.cpp:97
+#: src/application/pages/global/MultiMCPage.cpp:96
 msgctxt "MultiMCPage|"
 msgid "Instance Folder"
 msgstr "Carpeta de la instancia"
 
-#: src/application/pages/global/MultiMCPage.cpp:106
+#: src/application/pages/global/MultiMCPage.cpp:105
 msgctxt "MultiMCPage|"
 msgid ""
 "You're trying to specify an instance folder which's path contains at least "
@@ -3038,7 +3129,7 @@ msgstr ""
 "'!'. Java suele causar problemas en esos casos, tu instancia (probablemente) "
 "no inicie!"
 
-#: src/application/pages/global/MultiMCPage.cpp:111
+#: src/application/pages/global/MultiMCPage.cpp:110
 msgctxt "MultiMCPage|"
 msgid ""
 "Do you really want to use this path? Selecting \"No\" will close this and "
@@ -3047,27 +3138,27 @@ msgstr ""
 "¿Estás seguro de que quieres usar esta ruta? Selecciona \"No\" para cerrar y "
 "no modificar la ruta de tu instancia."
 
-#: src/application/pages/global/MultiMCPage.cpp:129
+#: src/application/pages/global/MultiMCPage.cpp:128
 msgctxt "MultiMCPage|"
 msgid "Icons Folder"
 msgstr "Carpeta de Iconos"
 
-#: src/application/pages/global/MultiMCPage.cpp:140
+#: src/application/pages/global/MultiMCPage.cpp:139
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
 msgstr "Carpeta de Mods"
 
-#: src/application/pages/global/MultiMCPage.cpp:452
+#: src/application/pages/global/MultiMCPage.cpp:428
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[Algo/ERROR] ¡Un escalofriante error!"
 
-#: src/application/pages/global/MultiMCPage.cpp:461
+#: src/application/pages/global/MultiMCPage.cpp:437
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[Prueba/INFO] Un mensaje inocuo..."
 
-#: src/application/pages/global/MultiMCPage.cpp:470
+#: src/application/pages/global/MultiMCPage.cpp:446
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[Algo/WARN] Una advertencia no tan espeluznante."
@@ -3735,16 +3826,6 @@ msgstr ""
 "detección automática o establecer la ruta de acceso al ejecutable de Java."
 "<br />"
 
-#: src/application/dialogs/ModEditDialogCommon.cpp:36
-msgctxt "QObject|"
-msgid "How sad!"
-msgstr "¡Qué tristeza!"
-
-#: src/application/dialogs/ModEditDialogCommon.cpp:37
-msgctxt "QObject|"
-msgid "The mod author didn't provide a website link for this mod."
-msgstr "El autor del mod no ha dado un enlace web para este mod."
-
 #: src/application/GuiUtil.cpp:29 src/application/GuiUtil.cpp:38
 msgctxt "QObject|"
 msgid "Upload failed"
@@ -3976,7 +4057,7 @@ msgstr ""
 "Tendrá que reparar MultiMC manualmente.\n"
 "Por favor, háganos saber por qué y cómo sucedió esto."
 
-#: src/application/MainWindow.cpp:987
+#: src/application/MainWindow.cpp:996
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (en uso)"
@@ -3986,7 +4067,7 @@ msgctxt "QObject|"
 msgid "Patch is not loaded yet."
 msgstr "La ruta no existe."
 
-#: src/api/logic/minecraft/ComponentList.cpp:188
+#: src/api/logic/minecraft/ComponentList.cpp:190
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
@@ -4009,7 +4090,7 @@ msgctxt "QObject|"
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: src/application/pages/instance/ServersPage.cpp:30
+#: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
 msgid "Minecraft Server"
 msgstr "Servidor de Minecraft"
@@ -4054,50 +4135,35 @@ msgctxt "ResourcePackPage|"
 msgid "Resource packs"
 msgstr "Resource packs"
 
-#: src/application/pages/instance/ScreenshotsPage.ui:51
-msgctxt "ScreenshotsPage|"
-msgid "&Upload"
-msgstr "&Subir"
-
-#: src/application/pages/instance/ScreenshotsPage.ui:58
-msgctxt "ScreenshotsPage|"
-msgid "&Delete"
-msgstr "&Eliminar"
-
-#: src/application/pages/instance/ScreenshotsPage.ui:65
-msgctxt "ScreenshotsPage|"
-msgid "&Rename"
-msgstr "&Renombrar"
-
-#: src/application/pages/instance/ScreenshotsPage.ui:85
-msgctxt "ScreenshotsPage|"
-msgid "&View Folder"
-msgstr "&Ver carpeta"
-
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
 msgid "Screenshots"
 msgstr "Capturas de pantalla"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:300
-#: src/application/pages/instance/ScreenshotsPage.cpp:338
+#: src/application/pages/instance/ScreenshotsPage.cpp:273
+msgctxt "ScreenshotsPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/instance/ScreenshotsPage.cpp:318
+#: src/application/pages/instance/ScreenshotsPage.cpp:356
 msgctxt "ScreenshotsPage|"
 msgid "Failed to upload screenshots!"
 msgstr "¡Error al subir la captura de pantalla!"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:301
-#: src/application/pages/instance/ScreenshotsPage.cpp:339
+#: src/application/pages/instance/ScreenshotsPage.cpp:319
+#: src/application/pages/instance/ScreenshotsPage.cpp:357
 msgctxt "ScreenshotsPage|"
 msgid "Unknown error"
 msgstr "Error desconocido"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:310
-#: src/application/pages/instance/ScreenshotsPage.cpp:348
+#: src/application/pages/instance/ScreenshotsPage.cpp:328
+#: src/application/pages/instance/ScreenshotsPage.cpp:366
 msgctxt "ScreenshotsPage|"
 msgid "Upload finished"
 msgstr "Subida finalizada"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:311
+#: src/application/pages/instance/ScreenshotsPage.cpp:329
 #, fuzzy, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
@@ -4107,7 +4173,7 @@ msgstr ""
 "El <a href=\"%1\">enlace para el registro subido</a> ha sido colocado en el "
 "portapapeles."
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:349
+#: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
@@ -4117,15 +4183,50 @@ msgstr ""
 "El <a href=\"%1\">enlace para el registro subido</a> ha sido abierto en el "
 "navegador por defecto y colocado en el portapapeles."
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:359
+#: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
 msgid "Are you sure?"
 msgstr "¿Estás seguro?"
 
-#: src/application/pages/instance/ScreenshotsPage.cpp:359
+#: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Esto borrará todas las capturas de pantalla seleccionadas."
+
+#: src/application/pages/instance/ScreenshotsPage.ui:14
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "MainWindow"
+msgstr "Ventana de juego"
+
+#: src/application/pages/instance/ScreenshotsPage.ui:44
+msgctxt "ScreenshotsPage|"
+msgid "toolBar"
+msgstr ""
+
+#: src/application/pages/instance/ScreenshotsPage.ui:62
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "Upload"
+msgstr "Subir"
+
+#: src/application/pages/instance/ScreenshotsPage.ui:67
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/application/pages/instance/ScreenshotsPage.ui:72
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "Rename"
+msgstr "Renombrar"
+
+#: src/application/pages/instance/ScreenshotsPage.ui:77
+#, fuzzy
+msgctxt "ScreenshotsPage|"
+msgid "View Folder"
+msgstr "&Ver carpeta"
 
 #: src/application/widgets/ServerStatus.cpp:70
 msgctxt "ServerStatus|"
@@ -4147,67 +4248,80 @@ msgctxt "ServerStatus|"
 msgid "API"
 msgstr "API"
 
-#: src/application/pages/instance/ServersPage.cpp:288
+#: src/application/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
 msgid "Name"
 msgstr "Nombre"
 
-#: src/application/pages/instance/ServersPage.cpp:290
+#: src/application/pages/instance/ServersPage.cpp:291
 msgctxt "ServersModel|"
 msgid "Address"
 msgstr "Dirección y puerto"
 
-#: src/application/pages/instance/ServersPage.cpp:292
+#: src/application/pages/instance/ServersPage.cpp:293
 msgctxt "ServersModel|"
 msgid "Latency"
 msgstr "Latencia"
 
-#: src/application/pages/instance/ServersPage.ui:48
+#: src/application/pages/instance/ServersPage.ui:112
 msgctxt "ServersPage|"
 msgid "Ask to download"
 msgstr "Preguntar para descargar"
 
-#: src/application/pages/instance/ServersPage.ui:53
+#: src/application/pages/instance/ServersPage.ui:117
 msgctxt "ServersPage|"
 msgid "Always download"
 msgstr "Siempre descargar"
 
-#: src/application/pages/instance/ServersPage.ui:58
+#: src/application/pages/instance/ServersPage.ui:122
 msgctxt "ServersPage|"
 msgid "Never download"
 msgstr "Nunca descargar"
 
-#: src/application/pages/instance/ServersPage.ui:66
+#: src/application/pages/instance/ServersPage.ui:101
 msgctxt "ServersPage|"
 msgid "Reso&urces"
 msgstr "Recursos"
 
-#: src/application/pages/instance/ServersPage.ui:79
+#: src/application/pages/instance/ServersPage.ui:14
+#, fuzzy
+msgctxt "ServersPage|"
+msgid "MainWindow"
+msgstr "Ventana de juego"
+
+#: src/application/pages/instance/ServersPage.ui:75
 msgctxt "ServersPage|"
 msgid "&Name"
 msgstr "&Nombre"
 
-#: src/application/pages/instance/ServersPage.ui:92
+#: src/application/pages/instance/ServersPage.ui:88
 msgctxt "ServersPage|"
 msgid "Address"
 msgstr "Dirección y puerto"
 
-#: src/application/pages/instance/ServersPage.ui:140
+#: src/application/pages/instance/ServersPage.ui:133
 msgctxt "ServersPage|"
-msgid "&Add"
-msgstr "&Agregar"
+msgid "toolBar"
+msgstr ""
 
-#: src/application/pages/instance/ServersPage.ui:147
+#: src/application/pages/instance/ServersPage.ui:157
+#, fuzzy
 msgctxt "ServersPage|"
-msgid "&Remove"
-msgstr "&Eliminar"
+msgid "Add"
+msgstr "Añadir"
 
-#: src/application/pages/instance/ServersPage.ui:154
+#: src/application/pages/instance/ServersPage.ui:162
+#, fuzzy
+msgctxt "ServersPage|"
+msgid "Remove"
+msgstr "Eliminar"
+
+#: src/application/pages/instance/ServersPage.ui:167
 msgctxt "ServersPage|"
 msgid "Move Up"
 msgstr "Mover arriba"
 
-#: src/application/pages/instance/ServersPage.ui:161
+#: src/application/pages/instance/ServersPage.ui:172
 msgctxt "ServersPage|"
 msgid "Move Down"
 msgstr "Mover abajo"
@@ -4216,6 +4330,11 @@ msgstr "Mover abajo"
 msgctxt "ServersPage|"
 msgid "Servers"
 msgstr "Servidores"
+
+#: src/application/pages/instance/ServersPage.cpp:604
+msgctxt "ServersPage|"
+msgid "Context menu"
+msgstr ""
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -4241,41 +4360,6 @@ msgstr "&Volver a cargar"
 msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
 msgstr "Configuración rapida de MultiMC"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:284
-msgctxt "SimpleModList|"
-msgid "Name"
-msgstr "Nombre"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:286
-msgctxt "SimpleModList|"
-msgid "Version"
-msgstr "Versión"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:288
-msgctxt "SimpleModList|"
-msgid "Last changed"
-msgstr "Última modificación"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:297
-msgctxt "SimpleModList|"
-msgid "Is the mod enabled?"
-msgstr "¿Está el mod habilitado?"
-
-#: src/api/logic/minecraft/SimpleModList.cpp:299
-msgctxt "SimpleModList|"
-msgid "The name of the mod."
-msgstr "El nombre del mod."
-
-#: src/api/logic/minecraft/SimpleModList.cpp:301
-msgctxt "SimpleModList|"
-msgid "The version of the mod."
-msgstr "La versión del mod."
-
-#: src/api/logic/minecraft/SimpleModList.cpp:303
-msgctxt "SimpleModList|"
-msgid "The date and time this mod was last changed (or added)."
-msgstr "La fecha y hora en que se modificó (o agregó) este mod por última vez."
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 msgctxt "SkinUpload|"
@@ -4572,229 +4656,246 @@ msgctxt "VersionPage|"
 msgid "Version"
 msgstr "Versión"
 
-#: src/application/pages/instance/VersionPage.ui:60
-msgctxt "VersionPage|"
-msgid "Selection"
-msgstr "Selección"
-
-#: src/application/pages/instance/VersionPage.ui:73
+#: src/application/pages/instance/VersionPage.ui:106
 msgctxt "VersionPage|"
 msgid "Change version"
 msgstr "Cambiar versión"
 
-#: src/application/pages/instance/VersionPage.ui:83
+#: src/application/pages/instance/VersionPage.ui:114
 msgctxt "VersionPage|"
 msgid "Move up"
 msgstr "Mover arriba"
 
-#: src/application/pages/instance/VersionPage.ui:93
+#: src/application/pages/instance/VersionPage.ui:122
 msgctxt "VersionPage|"
 msgid "Move down"
 msgstr "Mover abajo"
 
-#: src/application/pages/instance/VersionPage.ui:103
+#: src/application/pages/instance/VersionPage.ui:130
 msgctxt "VersionPage|"
 msgid "Remove"
 msgstr "Eliminar"
 
-#: src/application/pages/instance/VersionPage.ui:156
-msgctxt "VersionPage|"
-msgid "Install"
-msgstr "Instalar"
-
-#: src/application/pages/instance/VersionPage.ui:70
+#: src/application/pages/instance/VersionPage.ui:109
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
 msgstr "Cambiar la versión del paquete seleccionado."
 
-#: src/application/pages/instance/VersionPage.ui:80
+#: src/application/pages/instance/VersionPage.ui:117
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
 msgstr "Hacer que el paquete seleccionado se aplique antes."
 
-#: src/application/pages/instance/VersionPage.ui:90
+#: src/application/pages/instance/VersionPage.ui:125
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
 msgstr "Hacer que el paquete seleccionado se aplique después."
 
-#: src/application/pages/instance/VersionPage.ui:100
+#: src/application/pages/instance/VersionPage.ui:133
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
 msgstr "Eliminar el paquete seleccionado de la instancia."
 
-#: src/application/pages/instance/VersionPage.ui:113
-#: src/application/pages/instance/VersionPage.ui:136
+#: src/application/pages/instance/VersionPage.ui:146
 msgctxt "VersionPage|"
 msgid "Edit"
 msgstr "Editar"
 
-#: src/application/pages/instance/VersionPage.ui:123
+#: src/application/pages/instance/VersionPage.ui:141
 msgctxt "VersionPage|"
 msgid "Customize selected package."
 msgstr "Personalizar el paquete seleccionado."
 
-#: src/application/pages/instance/VersionPage.ui:126
+#: src/application/pages/instance/VersionPage.ui:14
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "MainWindow"
+msgstr "Ventana de juego"
+
+#: src/application/pages/instance/VersionPage.ui:67
+msgctxt "VersionPage|"
+msgid "toolBar"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:138
 msgctxt "VersionPage|"
 msgid "Customize"
 msgstr "Personalizar"
 
-#: src/application/pages/instance/VersionPage.ui:133
+#: src/application/pages/instance/VersionPage.ui:149
 msgctxt "VersionPage|"
 msgid "Edit selected package."
 msgstr "Editar el paquete seleccionado."
 
-#: src/application/pages/instance/VersionPage.ui:143
+#: src/application/pages/instance/VersionPage.ui:157
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
 msgstr "Revertir el paquete seleccionado a los valores predeterminados."
 
-#: src/application/pages/instance/VersionPage.ui:146
+#: src/application/pages/instance/VersionPage.ui:154
 msgctxt "VersionPage|"
 msgid "Revert"
 msgstr "Revertir"
 
-#: src/application/pages/instance/VersionPage.ui:166
+#: src/application/pages/instance/VersionPage.ui:165
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
 msgstr "Instalar el paquete Minecraft Forge."
 
-#: src/application/pages/instance/VersionPage.ui:169
+#: src/application/pages/instance/VersionPage.ui:162
 msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr "Instalar Forge"
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:181
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr "Instalar el paquete LiteLoader."
 
-#: src/application/pages/instance/VersionPage.ui:189
+#: src/application/pages/instance/VersionPage.ui:178
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr "Instalar LiteLoader"
 
-#: src/application/pages/instance/VersionPage.ui:196
+#: src/application/pages/instance/VersionPage.ui:189
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr "Instalar mods normales."
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:186
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr "Instalar mods"
 
-#: src/application/pages/instance/VersionPage.ui:209
-msgctxt "VersionPage|"
-msgid "Advanced"
-msgstr "Avanzado"
-
-#: src/application/pages/instance/VersionPage.ui:219
+#: src/application/pages/instance/VersionPage.ui:197
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr "Agregar un mod al archivo jar de Minecraft."
 
-#: src/application/pages/instance/VersionPage.ui:222
+#: src/application/pages/instance/VersionPage.ui:194
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr "Agregar un mod al archivo jar de Minecraft"
 
-#: src/application/pages/instance/VersionPage.ui:229
+#: src/application/pages/instance/VersionPage.ui:170
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Install Fabric"
+msgstr "Instalar Forge"
+
+#: src/application/pages/instance/VersionPage.ui:173
+#, fuzzy
+msgctxt "VersionPage|"
+msgid "Install the Fabric Loader package."
+msgstr "Instalar el paquete LiteLoader."
+
+#: src/application/pages/instance/VersionPage.ui:202
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr "Sustituir el archivo Jar de Minecraft"
 
-#: src/application/pages/instance/VersionPage.ui:236
+#: src/application/pages/instance/VersionPage.ui:207
 msgctxt "VersionPage|"
 msgid "Add Empty"
 msgstr "Añadir vacío"
 
-#: src/application/pages/instance/VersionPage.ui:243
+#: src/application/pages/instance/VersionPage.ui:210
+msgctxt "VersionPage|"
+msgid "Add an empty custom package."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:218
 msgctxt "VersionPage|"
 msgid "Reload all packages."
 msgstr "Recargar todos los paquetes."
 
-#: src/application/pages/instance/VersionPage.ui:246
+#: src/application/pages/instance/VersionPage.ui:215
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "Refrescar"
 
-#: src/application/pages/instance/VersionPage.ui:253
+#: src/application/pages/instance/VersionPage.ui:226
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr "Descarga los archivos necesarios para iniciar la instancia ahora."
 
-#: src/application/pages/instance/VersionPage.ui:256
+#: src/application/pages/instance/VersionPage.ui:223
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr "Descargar Todo"
 
-#: src/application/pages/instance/VersionPage.cpp:203
-#: src/application/pages/instance/VersionPage.cpp:209
-#: src/application/pages/instance/VersionPage.cpp:228
-#: src/application/pages/instance/VersionPage.cpp:272
-#: src/application/pages/instance/VersionPage.cpp:285
-#: src/application/pages/instance/VersionPage.cpp:347
+#: src/application/pages/instance/VersionPage.cpp:243
+#: src/application/pages/instance/VersionPage.cpp:249
+#: src/application/pages/instance/VersionPage.cpp:268
+#: src/application/pages/instance/VersionPage.cpp:312
+#: src/application/pages/instance/VersionPage.cpp:325
+#: src/application/pages/instance/VersionPage.cpp:387
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Error"
 
-#: src/application/pages/instance/VersionPage.cpp:228
+#: src/application/pages/instance/VersionPage.cpp:268
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "No se ha podido eliminar el archivo"
 
-#: src/application/pages/instance/VersionPage.cpp:210
+#: src/application/pages/instance/VersionPage.cpp:250
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "No se pudo cargar el perfil de la instancia."
 
-#: src/application/pages/instance/VersionPage.cpp:144
+#: src/application/pages/instance/VersionPage.cpp:146
+msgctxt "VersionPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.cpp:164
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1 posiblemente tiene errores."
 
-#: src/application/pages/instance/VersionPage.cpp:147
+#: src/application/pages/instance/VersionPage.cpp:167
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "¡%1 tiene problemas!"
 
-#: src/application/pages/instance/VersionPage.cpp:161
+#: src/application/pages/instance/VersionPage.cpp:181
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Error: "
 
-#: src/application/pages/instance/VersionPage.cpp:165
+#: src/application/pages/instance/VersionPage.cpp:185
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Advertencia: "
 
-#: src/application/pages/instance/VersionPage.cpp:246
+#: src/application/pages/instance/VersionPage.cpp:286
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Seleccionar jar mods"
 
-#: src/application/pages/instance/VersionPage.cpp:246
+#: src/application/pages/instance/VersionPage.cpp:286
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Mods de Minecraft.jar (*.zip *.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:319
-#: src/application/pages/instance/VersionPage.cpp:404
+#: src/application/pages/instance/VersionPage.cpp:359
+#: src/application/pages/instance/VersionPage.cpp:444
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "No hay versiones disponibles."
 
-#: src/application/pages/instance/VersionPage.cpp:320
-#: src/application/pages/instance/VersionPage.cpp:405
+#: src/application/pages/instance/VersionPage.cpp:360
+#: src/application/pages/instance/VersionPage.cpp:445
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "¡No se pudo cargar o descargar la lista de versiones de LiteLoader!"
 
-#: src/application/pages/instance/VersionPage.cpp:348
+#: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
 msgid ""
 "MultiMC cannot download Minecraft or update instances unless you have at "
@@ -4805,59 +4906,59 @@ msgstr ""
 "tengas añadida una cuenta.↵\n"
 "Por favor, añade tu cuenta de Mojang o Minecraft."
 
-#: src/application/pages/instance/VersionPage.cpp:403
+#: src/application/pages/instance/VersionPage.cpp:443
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Selecciona la versión de LiteLoader"
 
-#: src/application/pages/instance/VersionPage.cpp:451
+#: src/application/pages/instance/VersionPage.cpp:491
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "¡No se pudo cargar o descargar la lista de versiones de LiteLoader!"
 
-#: src/application/pages/instance/VersionPage.cpp:524
+#: src/application/pages/instance/VersionPage.cpp:537
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Error actualizando la instancia"
 
-#: src/application/pages/instance/VersionPage.cpp:374
+#: src/application/pages/instance/VersionPage.cpp:414
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Seleccionar la versión de Forge"
 
-#: src/application/pages/instance/VersionPage.cpp:256
+#: src/application/pages/instance/VersionPage.cpp:296
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Seleccionar jar"
 
-#: src/application/pages/instance/VersionPage.cpp:256
+#: src/application/pages/instance/VersionPage.cpp:296
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Substitución del Minecraft.jar (*.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:316
+#: src/application/pages/instance/VersionPage.cpp:356
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "Cambiar versión %1"
 
-#: src/application/pages/instance/VersionPage.cpp:376
+#: src/application/pages/instance/VersionPage.cpp:416
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "No se han encontrado versiones de Forge disponibles para Minecraft "
 
-#: src/application/pages/instance/VersionPage.cpp:377
+#: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "¡No se pudo cargar o descargar la lista de versiones de Forge!"
 
-#: src/application/pages/instance/VersionPage.cpp:448
+#: src/application/pages/instance/VersionPage.cpp:488
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Selecciona la versión de LiteLoader"
 
-#: src/application/pages/instance/VersionPage.cpp:450
+#: src/application/pages/instance/VersionPage.cpp:490
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr ""
@@ -5010,47 +5111,66 @@ msgctxt "WorldList|"
 msgid "Date and time the world was last played."
 msgstr "Fecha y hora en que se jugó por última vez el mundo."
 
-#: src/application/pages/instance/WorldListPage.ui:41
+#: src/application/pages/instance/WorldListPage.ui:14
+#, fuzzy
+msgctxt "WorldListPage|"
+msgid "MainWindow"
+msgstr "Ventana de juego"
+
+#: src/application/pages/instance/WorldListPage.ui:62
+msgctxt "WorldListPage|"
+msgid "toolBar"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:92
 msgctxt "WorldListPage|"
 msgid "Add"
 msgstr "Añadir"
 
-#: src/application/pages/instance/WorldListPage.ui:51
+#: src/application/pages/instance/WorldListPage.ui:97
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "Renombrar"
 
-#: src/application/pages/instance/WorldListPage.ui:58
+#: src/application/pages/instance/WorldListPage.ui:102
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "Copiar"
 
-#: src/application/pages/instance/WorldListPage.ui:65
+#: src/application/pages/instance/WorldListPage.ui:107
+#, fuzzy
 msgctxt "WorldListPage|"
-msgid "&Remove"
-msgstr "&Eliminar"
+msgid "Remove"
+msgstr "Eliminar"
 
-#: src/application/pages/instance/WorldListPage.ui:82
+#: src/application/pages/instance/WorldListPage.ui:112
+#, fuzzy
+msgctxt "WorldListPage|"
+msgid "MCEdit"
+msgstr "Editar"
+
+#: src/application/pages/instance/WorldListPage.ui:127
+#, fuzzy
+msgctxt "WorldListPage|"
+msgid "View Folder"
+msgstr "&Ver carpeta"
+
+#: src/application/pages/instance/WorldListPage.ui:117
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
 msgstr "Copiar Semilla"
 
-#: src/application/pages/instance/WorldListPage.ui:102
+#: src/application/pages/instance/WorldListPage.ui:122
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "Actualizar"
 
-#: src/application/pages/instance/WorldListPage.ui:109
-msgctxt "WorldListPage|"
-msgid "&View Folder"
-msgstr "&Ver carpeta"
-
-#: src/application/pages/instance/WorldListPage.cpp:112
+#: src/application/pages/instance/WorldListPage.cpp:126
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "¿Estás seguro?"
 
-#: src/application/pages/instance/WorldListPage.cpp:113
+#: src/application/pages/instance/WorldListPage.cpp:127
 msgctxt "WorldListPage|"
 msgid ""
 "This will remove the selected world permenantly.\n"
@@ -5063,12 +5183,12 @@ msgstr ""
 "\n"
 "¿Quieres continuar?"
 
-#: src/application/pages/instance/WorldListPage.cpp:203
+#: src/application/pages/instance/WorldListPage.cpp:217
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "¡El comando no se pudo iniciar!"
 
-#: src/application/pages/instance/WorldListPage.cpp:204
+#: src/application/pages/instance/WorldListPage.cpp:218
 msgctxt "WorldListPage|"
 msgid ""
 "MCEdit failed to start.\n"
@@ -5077,12 +5197,17 @@ msgstr ""
 "MCEdit no se pudo iniciar.\n"
 "Es necesario reinstalarlo."
 
-#: src/application/pages/instance/WorldListPage.cpp:193
+#: src/application/pages/instance/WorldListPage.cpp:207
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "Ningún MCEdit encontrado o establecido!"
 
-#: src/application/pages/instance/WorldListPage.cpp:194
+#: src/application/pages/instance/WorldListPage.cpp:76
+msgctxt "WorldListPage|"
+msgid "Context menu"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.cpp:208
 msgctxt "WorldListPage|"
 msgid ""
 "You do not have MCEdit set up or it was moved.\n"
@@ -5091,22 +5216,22 @@ msgstr ""
 "No tiene MCEdit configurado o se ha movido.\n"
 "Se puede configurar en la configuración global."
 
-#: src/application/pages/instance/WorldListPage.cpp:250
+#: src/application/pages/instance/WorldListPage.cpp:264
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "Elige un zip de mundo de Minecraft"
 
-#: src/application/pages/instance/WorldListPage.cpp:251
+#: src/application/pages/instance/WorldListPage.cpp:265
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Archivo zip de mundo de Minecraft (*.zip)"
 
-#: src/application/pages/instance/WorldListPage.cpp:272
+#: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "Copiar Mundo"
 
-#: src/application/pages/instance/WorldListPage.cpp:272
+#: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
 msgid ""
 "Changing a world while Minecraft is running is potentially unsafe.\n"
@@ -5116,21 +5241,27 @@ msgstr ""
 "inseguro.\n"
 "¿Estás seguro de que quieres continuar?"
 
-#: src/application/pages/instance/WorldListPage.cpp:296
-#: src/application/pages/instance/WorldListPage.cpp:319
+#: src/application/pages/instance/WorldListPage.cpp:310
+#: src/application/pages/instance/WorldListPage.cpp:333
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "Nombre del Mundo"
 
-#: src/application/pages/instance/WorldListPage.cpp:296
+#: src/application/pages/instance/WorldListPage.cpp:310
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "Introduce un nuevo nombre para la copia."
 
-#: src/application/pages/instance/WorldListPage.cpp:319
+#: src/application/pages/instance/WorldListPage.cpp:333
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Introduce un nombre nuevo para el mundo."
+
+#: src/application/pages/instance/WorldListPage.h:45
+#, fuzzy
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Mundos"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
@@ -5222,6 +5353,94 @@ msgstr "No se ha podido autenticar."
 msgctxt "YggdrasilTask|"
 msgid "..."
 msgstr "..."
+
+#~ msgctxt "AccountListPage|"
+#~ msgid "&Add"
+#~ msgstr "&Agregar"
+
+#~ msgctxt "AccountListPage|"
+#~ msgid "&Remove"
+#~ msgstr "Elimina&r"
+
+#~ msgctxt "AccountListPage|"
+#~ msgid ""
+#~ "<html><head/><body><p>Set the currently selected account as the active "
+#~ "account. The active account is the account that is used to log in (unless "
+#~ "it is overridden in an instance-specific setting).</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p>Establecer la cuenta seleccionada como cuenta "
+#~ "activa. La cuenta activa es la cuenta que se utiliza para conectarse (a "
+#~ "menos que se sobrescriba en la configuración específica de la instancia)."
+#~ "</p></body></html>"
+
+#~ msgctxt "AccountListPage|"
+#~ msgid ""
+#~ "Set no default account. This will cause MultiMC to prompt you to select "
+#~ "an account every time you launch an instance that doesn't have its own "
+#~ "default set."
+#~ msgstr ""
+#~ "Sin cuenta predeterminada. Esto hará que MultiMC te haga seleccionar una "
+#~ "cuenta cada vez que inicies una instancia que no tenga una cuenta "
+#~ "establecida."
+
+#~ msgctxt "AccountListPage|"
+#~ msgid ""
+#~ "Opens a dialog to select and upload a skin image to the selected account."
+#~ msgstr ""
+#~ "Abre un cuadro de diálogo para seleccionar una skin a la cuenta "
+#~ "seleccionada."
+
+#~ msgctxt "MultiMCPage|"
+#~ msgid "Language:"
+#~ msgstr "Idioma:"
+
+#~ msgctxt "QObject|"
+#~ msgid "How sad!"
+#~ msgstr "¡Qué tristeza!"
+
+#~ msgctxt "QObject|"
+#~ msgid "The mod author didn't provide a website link for this mod."
+#~ msgstr "El autor del mod no ha dado un enlace web para este mod."
+
+#~ msgctxt "ScreenshotsPage|"
+#~ msgid "&Upload"
+#~ msgstr "&Subir"
+
+#~ msgctxt "ScreenshotsPage|"
+#~ msgid "&Delete"
+#~ msgstr "&Eliminar"
+
+#~ msgctxt "ScreenshotsPage|"
+#~ msgid "&Rename"
+#~ msgstr "&Renombrar"
+
+#~ msgctxt "ServersPage|"
+#~ msgid "&Add"
+#~ msgstr "&Agregar"
+
+#~ msgctxt "ServersPage|"
+#~ msgid "&Remove"
+#~ msgstr "&Eliminar"
+
+#~ msgctxt "SimpleModList|"
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgctxt "SimpleModList|"
+#~ msgid "Version"
+#~ msgstr "Versión"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Install"
+#~ msgstr "Instalar"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Advanced"
+#~ msgstr "Avanzado"
+
+#~ msgctxt "WorldListPage|"
+#~ msgid "&Remove"
+#~ msgstr "&Eliminar"
 
 #, fuzzy
 #~ msgctxt "NewComponentDialog|"
