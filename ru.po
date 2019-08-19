@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-04-15 18:26+0300\n"
+"PO-Revision-Date: 2019-08-19 20:18+0400\n"
 "Last-Translator: kirill <sybershot.1998@gmail.com>\n"
 "Language-Team: Russian <http://translate.multimc.org/projects/multimc/"
 "multimc5/ru/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Qt-Contexts: true\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
@@ -63,7 +63,7 @@ msgstr "Платформа:"
 #: src/application/dialogs/AboutDialog.ui:126
 msgctxt "AboutDialog|"
 msgid "Build Number:"
-msgstr "Номер Сборки:"
+msgstr "Номер сборки:"
 
 #: src/application/dialogs/AboutDialog.ui:136
 msgctxt "AboutDialog|"
@@ -92,11 +92,12 @@ msgctxt "AboutDialog|"
 msgid "Credits"
 msgstr "Благодарности"
 
+# Russian translation additions and fixes brought to you by Keterz <3
 #. Hey, Translator, feel free to put credit to you here
 #: src/application/dialogs/AboutDialog.ui:230
 msgctxt "AboutDialog|"
 msgid "No Language file loaded."
-msgstr "Языковой файл не загружён."
+msgstr "Языковой файл не загружен."
 
 #: src/application/dialogs/AboutDialog.ui:241
 msgctxt "AboutDialog|"
@@ -106,7 +107,7 @@ msgstr "Лицензия"
 #: src/application/dialogs/AboutDialog.ui:276
 msgctxt "AboutDialog|"
 msgid "Forking/Redistribution"
-msgstr "Forking/Redistribution"
+msgstr "Форки/Распространение"
 
 #: src/application/dialogs/AboutDialog.ui:282
 msgctxt "AboutDialog|"
@@ -208,7 +209,7 @@ msgstr "Платформа"
 #: src/application/dialogs/AboutDialog.cpp:103
 msgctxt "AboutDialog|"
 msgid "Build Number"
-msgstr "Номер Сборки"
+msgstr "Номер сборки"
 
 #: src/application/dialogs/AboutDialog.cpp:108
 msgctxt "AboutDialog|"
@@ -221,21 +222,20 @@ msgid "Accounts"
 msgstr "Учётные записи"
 
 #: src/application/pages/global/AccountListPage.cpp:41
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid ""
 "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or "
 "Minecraft account."
 msgstr ""
-"<html><head/><body><p>Добро пожаловать! Если вы впервые здесь, вы можете "
-"нажать кнопку \"Добавить\" для того, чтобы добавить вашу учётную запись "
-"Mojang или Minecraft.</p></body></html>"
+"Добро пожаловать!\n"
+"Если вы впервые здесь, вы можете нажать кнопку \"Добавить\" для того, чтобы "
+"добавить вашу учётную запись Mojang или Minecraft."
 
 #: src/application/pages/global/AccountListPage.cpp:77
 msgctxt "AccountListPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Контекстное меню"
 
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
@@ -247,45 +247,39 @@ msgstr ""
 "чтобы добавить учетную запись."
 
 #: src/application/pages/global/AccountListPage.ui:14
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid "MainWindow"
-msgstr "Настройка окна игры"
+msgstr "MainWindow"
 
 #: src/application/pages/global/AccountListPage.ui:37
 msgctxt "AccountListPage|"
 msgid "toolBar"
-msgstr ""
+msgstr "toolBar"
 
 #: src/application/pages/global/AccountListPage.ui:53
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid "Add"
 msgstr "Добавить"
 
 #: src/application/pages/global/AccountListPage.ui:58
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid "Remove"
 msgstr "Удалить"
 
 #: src/application/pages/global/AccountListPage.ui:63
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid "Set Default"
-msgstr "Сделать основным"
+msgstr "Использовать по умолчанию"
 
 #: src/application/pages/global/AccountListPage.ui:71
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid "No Default"
-msgstr "Не основной"
+msgstr "Не использовать по умолчанию"
 
 #: src/application/pages/global/AccountListPage.ui:76
-#, fuzzy
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
-msgstr "Загрузить Скин"
+msgstr "Загрузить скин"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -314,13 +308,13 @@ msgid ""
 "this page again.</p></body></html>"
 msgstr ""
 "<html><body><p>MultiMC будет анонимно отправлять статистику использования "
-"при каждом старте программы. Эта статистика поможет нам в решении проблем "
-"различных платформах.</p><p>Обработка данных происходит при мощи Google "
+"при каждом старте программы. Эта статистика поможет нам в решении проблем на "
+"различных платформах.</p><p>Обработка данных происходит при помощи Google "
 "Analytics, для доп. информации посмотрите эту <a href=\"https://support."
 "google.com/analytics/answer/6004245?hl=en\">статью для ознакомления</a>.</"
 "p><p>Данные, которые будут оправляться:</p><ul><li>Сгенерированный случайным "
-"образом уникальный ID установщика MultiMC.<br />Он храниться в настройках "
-"программы (multimc.cfg).</li><li>Анонимный (частично адрес IP.</"
+"образом уникальный ID установщика MultiMC.<br />Он хранится в настройках "
+"программы (multimc.cfg).</li><li>Анонимный (частично) адрес IP.</"
 "li><li>Версия MultiMC.</li><li>Имя, версия и архитектура операционной "
 "системы.</li><li>Архитектура CPU (архитектура ядра для linux).</"
 "li><li>Размер памяти системы.</li><li>Версия, архитектура и настройки памяти "
@@ -351,7 +345,7 @@ msgstr "Не удалось прочитать индекс ресурсов!"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr "Получение ресурс-файлов от Mojang..."
+msgstr "Получение ресурсов из Mojang..."
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:88
 #, qt-format
@@ -467,8 +461,8 @@ msgstr "Не удалось запустить java!"
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
 msgstr ""
-"Результат проверки Java являются некорректные данные, которые MultiMC не "
-"может понять:"
+"Результат проверки Java предоставляет некорректные данные, которые MultiMC "
+"не может понять:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
@@ -525,13 +519,12 @@ msgstr "Конфликтующие требования, обнаруженны�
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr "Экземпляр имеет конфликтующие зависимости."
+msgstr "Сборка имеет конфликтующие зависимости."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
-"Экземпляр имеет неразрешенные зависимости при загрузке/проверке запуска."
+msgstr "Сборка имеет неразрешенные зависимости при загрузке/проверке запуска."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
 #, qt-format
@@ -597,7 +590,7 @@ msgstr "Команды перед запуском:"
 #: src/application/widgets/CustomCommands.ui:67
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "Wrapper-команда:"
+msgstr "Команда обёртки:"
 
 #: src/application/widgets/CustomCommands.ui:80
 msgctxt "CustomCommands|"
@@ -615,8 +608,8 @@ msgstr ""
 "<html><head/><body><p>Команда перед запуском выполняется перед стартом "
 "сборки, а по завершению процесса игры выполняется команда после выхода. Обе "
 "команды будут выполняться в рабочем каталоге MultiMC с INST_ID, INST_DIR и "
-"INST_NAME как переменные среды.</p><p>Wrapper-команда позволяет запускать "
-"Java, используя внешнюю программу-обертку (например 'optirun' на Linux)</p></"
+"INST_NAME как переменные среды.</p><p>Команда обёртки позволяет запускать "
+"Java, используя внешнюю программу-обёртку (например 'optirun' на Linux)</p></"
 "body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
@@ -628,7 +621,7 @@ msgstr "Пользовательские команды"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Wrapper-команда \"%1\" не найдена."
+msgstr "Команда обёртки \"%1\" не найдена."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -895,12 +888,12 @@ msgstr "Выбранная версия:"
 #: src/application/pages/modplatform/FTBPage.h:50
 msgctxt "FTBPage|"
 msgid "FTB Legacy"
-msgstr "FTB Наследие"
+msgstr "Устаревший FTB"
 
 #: src/application/pages/modplatform/FTBPage.cpp:189
 msgctxt "FTBPage|"
 msgid "FTB private packs"
-msgstr "FTB приватные сборки"
+msgstr "Приватные сборки FTB"
 
 #: src/application/pages/modplatform/FTBPage.cpp:190
 #, qt-format
@@ -915,12 +908,12 @@ msgstr ""
 #: src/application/pages/modplatform/FTBPage.cpp:328
 msgctxt "FTBPage|"
 msgid "Add FTB pack"
-msgstr "Добавить FTB сборку"
+msgstr "Добавить сборку FTB"
 
 #: src/application/pages/modplatform/FTBPage.cpp:329
 msgctxt "FTBPage|"
 msgid "Enter pack code:"
-msgstr "Введите код сборки"
+msgstr "Введите код сборки:"
 
 #: src/application/pages/modplatform/FTBPage.cpp:352
 msgctxt "FTBPage|"
@@ -936,81 +929,77 @@ msgstr "Вы действительно хотите удалить %1?"
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr "Исправление идентификаторов мод..."
+msgstr "Исправление идентификаторов модов..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr "Не удалось исправить некоторые проблемы Mod ID."
+msgstr "Не удалось исправить некоторые проблемы с идентификаторами модов."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
-#, fuzzy
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving URL..."
-msgstr "Исправление идентификаторов мод..."
+msgstr "Исправление URL модов..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Not a Twitch URL."
-msgstr ""
+msgstr "Это не URL для Twitch."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Couldn't find the needle in the haystack..."
-msgstr ""
+msgstr "Не удалось найти иголку в стоге сена..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Couldn't find the end of the needle in the haystack..."
-msgstr ""
+msgstr "Не удалось найти конец иголки в стоге сена..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
-#, fuzzy
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed."
-msgstr "Исправление идентификаторов мод..."
+msgstr "Исправление не удалось."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing package root element."
-msgstr ""
+msgstr "Исправление неудачно: недостает корневого элемента пакета."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing project element."
-msgstr ""
+msgstr "Исправление неудачно: недостает элемента проекта."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing id attribute."
-msgstr ""
+msgstr "Исправление неудачно: недостает атрибута идентификатора."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing file attribute."
-msgstr ""
+msgstr "Исправление неудачно: недостает атрибута файла."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Failed to resove projectId as a number."
-msgstr ""
+msgstr "Не удалось использовать projectId как число."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Failed to resove fileId as a number."
-msgstr ""
+msgstr "Не удалось использовать fileId как число."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
-#, fuzzy
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr "Исправление идентификаторов мод..."
+msgstr "Исправление идентификаторов модов..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
-#, fuzzy
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Failed to resolve the modpack file."
-msgstr "Не удалось открыть файл мод-пака %1!"
+msgstr "Не удалось открыть файл мод-пака %1."
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -1030,7 +1019,7 @@ msgstr "Сортировка по версии игры"
 #: src/application/pages/modplatform/FtbListModel.cpp:80
 msgctxt "FtbListModel|"
 msgid "Public Modpack"
-msgstr "Публичные сборки"
+msgstr "Общедоступные сборки"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:82
 msgctxt "FtbListModel|"
@@ -1045,7 +1034,7 @@ msgstr "Приватные сборки"
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:76
 msgctxt "FtbPackFetchTask|"
 msgid "Public Packs"
-msgstr "Публичные сборки"
+msgstr "Общедоступные сборки"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:81
 msgctxt "FtbPackFetchTask|"
@@ -1062,13 +1051,13 @@ msgstr "Не удалось загрузить некоторые списки �
 #, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr "Скачивание zip для %1"
+msgstr "Загрузка zip для %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:71
 #, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr "Скачивание zip для %1 (%2%)"
+msgstr "Загрузка zip для %1 (%2%)"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:77
 msgctxt "FtbPackInstallTask|"
@@ -1119,12 +1108,12 @@ msgstr "Выживание"
 #: src/api/logic/minecraft/World.cpp:42
 msgctxt "GameType|"
 msgid "Creative"
-msgstr "Креатив"
+msgstr "Творчество"
 
 #: src/api/logic/minecraft/World.cpp:44
 msgctxt "GameType|"
 msgid "Adventure"
-msgstr "Преключение"
+msgstr "Приключение"
 
 #: src/api/logic/minecraft/World.cpp:46
 msgctxt "GameType|"
@@ -1162,16 +1151,15 @@ msgid "Failed to process update lists..."
 msgstr "Не удалось обработать список обновлений..."
 
 #: src/api/logic/updater/DownloadTask.cpp:136
-#, fuzzy
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr "Скачиваем %1 файла(ов) обновления."
+msgstr "Загрузка %1 файла(ов) обновления."
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Скачиваем %1 файла(ов) обновления."
+msgstr "Загрузка %1 файла(ов) обновления."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
@@ -1206,10 +1194,10 @@ msgid "Select Icons"
 msgstr "Выбрать иконки"
 
 #: src/application/dialogs/IconPickerDialog.cpp:108
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "IconPickerDialog|"
 msgid "Icons %1"
-msgstr "Иконки"
+msgstr "Иконки %1"
 
 #: src/application/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -1229,7 +1217,7 @@ msgstr "Импорт из zip"
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Choose modpack"
-msgstr "Выберите modpack"
+msgstr "Выберите мод-пак"
 
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
@@ -1302,7 +1290,7 @@ msgstr "Не удалось открыть прилагаемый zip-файл �
 #: src/api/logic/InstanceImportTask.cpp:165
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr "Файл архива не содержит instance.cfg"
+msgstr "Файл архива не содержит instance.cfg."
 
 #: src/api/logic/InstanceImportTask.cpp:120
 msgctxt "InstanceImportTask|"
@@ -1394,15 +1382,15 @@ msgid "Instance import has been aborted."
 msgstr "Импорт сборки был отменён."
 
 #: src/api/logic/InstanceList.cpp:105
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
-msgstr "Добавить сборку"
+msgstr "Сборка %1"
 
 #: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
-msgstr "Модификации"
+msgstr "Модификации загрузчика"
 
 #: src/application/InstancePageProvider.h:44
 msgctxt "InstancePageProvider|"
@@ -1428,7 +1416,7 @@ msgstr "Обзор..."
 #: src/application/pages/instance/InstanceSettingsPage.ui:84
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
-msgstr "Тест"
+msgstr "Проверка"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:116
 msgctxt "InstanceSettingsPage|"
@@ -1466,15 +1454,14 @@ msgid "Memor&y"
 msgstr "Память"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:29
-#, fuzzy
 msgctxt "InstanceSettingsPage|"
 msgid "Open Global Settings"
-msgstr "Настройки консоли"
+msgstr "Открыть глобальные настройки"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:32
 msgctxt "InstanceSettingsPage|"
 msgid "The settings here are overrides for global settings."
-msgstr ""
+msgstr "Настройки здесь переопределяют глобальные настройки."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
@@ -1491,7 +1478,7 @@ msgstr "Аргументы Java"
 #: src/application/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr "Окна"
+msgstr "Игровые окна"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:237
 msgctxt "InstanceSettingsPage|"
@@ -1536,7 +1523,7 @@ msgstr "Автоматически закрывать консоль при вы
 #: src/application/pages/instance/InstanceSettingsPage.ui:359
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
-msgstr "Дополнительные команды"
+msgstr "Пользовательские команды"
 
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
@@ -1558,7 +1545,7 @@ msgctxt "InstanceStaging|"
 msgid ""
 "Failed to commit instance, even after multiple retries. It is being blocked "
 "by something."
-msgstr "Не удалось создать сборку после нескольких попыток. Что-то мешает"
+msgstr "Не удалось создать сборку после нескольких попыток. Что-то мешает."
 
 #: src/application/InstanceWindow.cpp:39
 msgctxt "InstanceWindow|"
@@ -1676,7 +1663,7 @@ msgstr "Автоматический поиск..."
 #: src/application/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
 msgid "Test"
-msgstr "Тест"
+msgstr "Проверка"
 
 #: src/application/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
@@ -1786,7 +1773,7 @@ msgstr "Не видите свой язык или перевод плохой?"
 #: src/application/widgets/LanguageSelectionWidget.cpp:53
 msgctxt "LanguageSelectionWidget|"
 msgid "Help us with translations!"
-msgstr ""
+msgstr "Помогите нам с переводом!"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1934,7 +1921,7 @@ msgid ""
 "This can cause the instance to get corrupted and should only be used if "
 "Minecraft is frozen for some reason"
 msgstr ""
-"Эта может привести к нарушению работоспособность игры. Используйте только в "
+"Эта может привести к нарушению работоспособности игры. Используйте только в "
 "случае зависания клиента Minecraft по какой-либо причине"
 
 #: src/api/logic/launch/LaunchTask.cpp:215
@@ -1949,14 +1936,14 @@ msgstr ""
 "MultiMC прекратил наблюдать за журналом игры, так как его длина превысила %1 "
 "строк(у).\n"
 "Вам, возможно, нужно исправить модификации, так как игра продолжает "
-"записывать в журнал и, скорее всего, тратить свободное место диска с "
-"огромной скоростью!"
+"записывать в журнал и, скорее всего, тратит свободное место диска с огромной "
+"скоростью!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Wrapper-команда \"%1\" не может быть найдена."
+msgstr "Команда обертки \"%1\" не может быть найдена."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
@@ -1982,7 +1969,7 @@ msgstr "Устаревший"
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr "Создание сборки на основе версии %1"
+msgstr "Создание сборки на основе версии %1."
 
 #: src/application/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
@@ -2003,6 +1990,15 @@ msgid ""
 "p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel "
 "for testing here</a>.</p></body></html>"
 msgstr ""
+"<html><body><h1>Требуется обновление</h1><p>MultiMC теперь поддерживает "
+"старые версии Minecraft и все требуемые возможности в новом (1.6) формате "
+"cборок. Вследствие этого старый формат был полностью убран и старые сборки "
+"нуждаются в обновлении.</p><p>Обновление создаст новую сборку с таким же "
+"содержимым, что и раньше, но в новом формате. Старая сборка не будет "
+"затронута, на случай если что-то пойдет не так.</p><p>Пожалуйста, при "
+"появлении проблем сообщите о них на <a href=\"https://github.com/MultiMC/"
+"MultiMC5/issues\">странице проблем GitHub</a>.</p><p>Также у нас есть <a "
+"href=\"https://discord.gg/GtPmv93\">канал в Discord</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2023,7 +2019,7 @@ msgstr "Отмена"
 #, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
-msgstr "%1 (Migrated)"
+msgstr "%1 (Перемещено)"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -2060,7 +2056,7 @@ msgstr "Библиотеки для сборки %1"
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "В метаданных указан нулевой jar, отмена."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:58
 #, qt-format
@@ -2073,6 +2069,10 @@ msgid ""
 "them.\n"
 "You'll have to correct this problem manually."
 msgstr ""
+"Некоторым артефактам, помеченным как 'local', недостает файлов: %1\n"
+"\n"
+"Вам нужно либо добавить эти файлы, или убрать пакеты, которые их требуют.\n"
+"Вам придется вручную исправить эту ошибку."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -2186,13 +2186,13 @@ msgstr "Процесс упал."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1."
-msgstr "Процесс упал с кодом ответа %1."
+msgstr "Процесс упал с кодом завершения %1."
 
 #. Message displayed after the instance exits due to kill request
 #: src/api/logic/LoggedProcess.cpp:84
 msgctxt "LoggedProcess|"
 msgid "Process was killed by user."
-msgstr "Процесс был завершен пользователем."
+msgstr "Процесс был снят пользователем."
 
 #: src/api/logic/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -2242,7 +2242,7 @@ msgstr "Остановить"
 #: src/application/MainWindow.cpp:230
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "Остановить сборку"
+msgstr "Остановить запущенную сборку"
 
 #: src/application/MainWindow.cpp:259
 msgctxt "MainWindow|"
@@ -2454,7 +2454,7 @@ msgstr "Открыть папку конфигураций сборок."
 #: src/application/MainWindow.cpp:381
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
-msgstr "Пушистый котенок :3"
+msgstr "Это пушистый котенок :3"
 
 #: src/application/MainWindow.cpp:329
 msgctxt "MainWindow|"
@@ -2521,7 +2521,7 @@ msgstr "Папки"
 #: src/application/MainWindow.cpp:286
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
-msgstr "Откройте одну из папок, совместно используемых экземплярами."
+msgstr "Откройте одну из папок, совместно используемых сборками."
 
 #: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:625
 msgctxt "MainWindow|"
@@ -2536,12 +2536,12 @@ msgstr "Получить помощь с MultiMC или Minecraft."
 #: src/application/MainWindow.cpp:360
 msgctxt "MainWindow|"
 msgid "Update"
-msgstr "Обновить "
+msgstr "Обновить"
 
 #: src/application/MainWindow.cpp:371
 msgctxt "MainWindow|"
 msgid "Support MultiMC"
-msgstr "Помощь MultiMC"
+msgstr "Поддержать MultiMC"
 
 #: src/application/MainWindow.cpp:525
 msgctxt "MainWindow|"
@@ -2669,7 +2669,7 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
-msgstr ", наигранно %1"
+msgstr ", наиграно %1"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:760
 msgctxt "MinecraftInstance|"
@@ -2707,70 +2707,59 @@ msgid "Aborted by user."
 msgstr "Остановлен пользователем."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:368
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "Folder"
-msgstr "Папки"
+msgstr "Папка"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:370
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "File"
-msgstr "Файл скина"
+msgstr "Файл"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:464
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "Название"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:466
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "Версия"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:468
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "Последние изменения"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Модификация включена?"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Название модификации."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:481
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Версия модификации."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
-#, fuzzy
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Дата и время последнего изменения (или добавления) этого мода."
 
 #: src/application/pages/instance/ModFolderPage.ui:14
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "MainWindow"
-msgstr "Настройка окна игры"
+msgstr "MainWindow"
 
 #: src/application/pages/instance/ModFolderPage.ui:78
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "Actions"
-msgstr "Выбор"
+msgstr "Действия"
 
 #: src/application/pages/instance/ModFolderPage.ui:99
 msgctxt "ModFolderPage|"
@@ -2778,10 +2767,9 @@ msgid "&Add"
 msgstr "Добавить"
 
 #: src/application/pages/instance/ModFolderPage.ui:102
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "Add mods"
-msgstr "Модификации"
+msgstr "Добавить модификации"
 
 #: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
@@ -2789,13 +2777,11 @@ msgid "&Remove"
 msgstr "Удалить"
 
 #: src/application/pages/instance/ModFolderPage.ui:110
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "Remove selected mods"
-msgstr "Удалить выбранную сборку"
+msgstr "Удалить выбранные модификации"
 
 #: src/application/pages/instance/ModFolderPage.ui:115
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "&Enable"
 msgstr "Включить"
@@ -2803,28 +2789,24 @@ msgstr "Включить"
 #: src/application/pages/instance/ModFolderPage.ui:118
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr ""
+msgstr "Включить выбранные модификации"
 
 #: src/application/pages/instance/ModFolderPage.ui:123
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "&Disable"
 msgstr "Отключить"
 
 #: src/application/pages/instance/ModFolderPage.ui:126
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "Disable selected mods"
-msgstr "Не выбрана сборка"
+msgstr "Отключить выбранные модификации"
 
 #: src/application/pages/instance/ModFolderPage.ui:131
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "View &Configs"
-msgstr "Открыть папку 'configs'"
+msgstr "Открыть папку конфигурации"
 
 #: src/application/pages/instance/ModFolderPage.ui:139
-#, fuzzy
 msgctxt "ModFolderPage|"
 msgid "View &Folder"
 msgstr "Открыть папку"
@@ -2842,7 +2824,7 @@ msgstr "Фильтр:"
 #: src/application/pages/instance/ModFolderPage.cpp:168
 msgctxt "ModFolderPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Контекстное меню"
 
 #: src/application/pages/instance/ModFolderPage.cpp:281
 #, qt-format
@@ -2951,12 +2933,12 @@ msgstr "&Иконки"
 #: src/application/pages/global/MultiMCPage.ui:483
 msgctxt "MultiMCPage|"
 msgid "Analytics"
-msgstr "Аналитика"
+msgstr "Статистика"
 
 #: src/application/pages/global/MultiMCPage.ui:489
 msgctxt "MultiMCPage|"
 msgid "Analytics Settings"
-msgstr "Настройка аналитики"
+msgstr "Настройка статистики"
 
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
@@ -3135,7 +3117,7 @@ msgstr "Папка модификаций"
 #: src/application/pages/global/MultiMCPage.cpp:428
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr "[Something/ERROR] Ужасная ошибка!"
+msgstr "[Something/ERROR] Пугающая ошибка!"
 
 #: src/application/pages/global/MultiMCPage.cpp:437
 msgctxt "MultiMCPage|"
@@ -3145,7 +3127,7 @@ msgstr "[Test/INFO] Безобидное сообщение..."
 #: src/application/pages/global/MultiMCPage.cpp:446
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr "[Something/WARN] Не такое уж и ужасное предупреждение."
+msgstr "[Something/WARN] Не такое уж и устрашающее предупреждение."
 
 #: src/api/logic/net/NetJob.cpp:128
 #, qt-format
@@ -3268,7 +3250,7 @@ msgstr "Копировать"
 #: src/application/pages/instance/OtherLogsPage.ui:87
 msgctxt "OtherLogsPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "Загрузить журнал на сайт paste.ee - Он будет хранится в течение месяца"
+msgstr "Загрузить журнал на сайт paste.ee - он будет хранится в течение месяца"
 
 #: src/application/pages/instance/OtherLogsPage.ui:90
 msgctxt "OtherLogsPage|"
@@ -3450,7 +3432,7 @@ msgstr "Обновить индекс"
 #: src/application/pages/global/PackagesPage.h:37
 msgctxt "PackagesPage|"
 msgid "Packages"
-msgstr "Packages"
+msgstr "Пакеты"
 
 #: src/application/pages/global/PackagesPage.cpp:165
 #: src/application/pages/global/PackagesPage.cpp:204
@@ -3488,9 +3470,9 @@ msgid ""
 "paired with your account.</p></body></html>"
 msgstr ""
 "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> MultiMC "
-"использует это для загрузки log`ов. Если у вас есть <a href=\"https://paste."
-"ee\">paste.ee</a> аккаунт вы можете добавить свой API ключ здесь и получить "
-"ваши log`и на ваш аккаунт</p></body></html>"
+"использует это для загрузки логов. Если у вас есть <a href=\"https://paste.ee"
+"\">аккаунт на paste.ee</a>, вы можете добавить свой API-ключ здесь и "
+"получить ваши логи</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3636,12 +3618,12 @@ msgstr "&Не использовать"
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr "SOC&KS5"
+msgstr "SOCKS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr "H&TTP"
+msgstr "HTTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -3651,7 +3633,7 @@ msgstr "Адрес и порт"
 #: src/application/pages/global/ProxyPage.ui:139
 msgctxt "ProxyPage|"
 msgid "Authentication"
-msgstr "Проверка подлинности"
+msgstr "Аутентификация"
 
 #: src/application/pages/global/ProxyPage.ui:148
 msgctxt "ProxyPage|"
@@ -3669,8 +3651,8 @@ msgid ""
 "Note: Proxy username and password are stored in plain text inside MultiMC's "
 "configuration file!"
 msgstr ""
-"Внимание: адрес прокси-сервера и пароль хранятся в виде обычного текста "
-"внутри файла конфигурации MultiMC!"
+"Внимание: адрес прокси-сервера и пароль хранятся в незащищенном виде внутри "
+"файла конфигурации MultiMC!"
 
 #: src/application/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3791,14 +3773,14 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />Внимание:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />Предупреждения:<br /><font color=\"orange\">%1</font>"
 
 #: src/application/JavaCommon.cpp:42
 msgctxt "QObject|"
 msgid ""
 "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr ""
-"Указанная версия Java не работает c аргументами, которые вы прописали:<br />"
+"Указанная версия Java не работает c аргументами, которые вы указали:<br />"
 
 #: src/application/JavaCommon.cpp:50
 msgctxt "QObject|"
@@ -3954,13 +3936,13 @@ msgstr ""
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
-msgstr "Тестирование Java прошло успешно"
+msgstr "Проверка Java прошла успешно"
 
 #: src/application/JavaCommon.cpp:44 src/application/JavaCommon.cpp:53
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
-msgstr "Тестирование Java провалилось"
+msgstr "Проверка Java провалилась"
 
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
@@ -4039,7 +4021,7 @@ msgstr " (используется)"
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
-msgstr "Patch еще не загружен."
+msgstr "Патч еще не загружен."
 
 #: src/api/logic/minecraft/ComponentList.cpp:190
 #, qt-format
@@ -4051,7 +4033,7 @@ msgstr "Неверная версия файла, нужна %1"
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "Скачиваем %1 файла(ов) обновления."
+msgstr "Скачиваем %1 файла(ов) обновления"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
@@ -4067,7 +4049,7 @@ msgstr "Неизвестно"
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
 msgid "Minecraft Server"
-msgstr "Minecraft Сервер"
+msgstr "Minecraft-сервер"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -4085,7 +4067,7 @@ msgstr ""
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send an access token."
-msgstr "Сервер авторизации не отправил ключ клиента."
+msgstr "Сервер авторизации не отправил ключ доступа."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
@@ -4115,7 +4097,7 @@ msgstr "Скриншоты"
 #: src/application/pages/instance/ScreenshotsPage.cpp:273
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Контекстное меню"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:318
 #: src/application/pages/instance/ScreenshotsPage.cpp:356
@@ -4136,13 +4118,12 @@ msgid "Upload finished"
 msgstr "Загрузка завершена"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:329
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "ScreenshotsPage|"
 msgid ""
 "The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in "
 "your clipboard."
-msgstr ""
-"<a href=\"%1\">Ссылка загруженного журнала</a> была помещена в буфер обмена."
+msgstr "<a href=\"%1\">Ссылка на загруженный журнал</a> скопирована."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
@@ -4150,8 +4131,7 @@ msgctxt "ScreenshotsPage|"
 msgid ""
 "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your "
 "clipboard."
-msgstr ""
-"<a href=\"%1\">Ссылка загруженного альбома</a> была помещена в буфер обмена."
+msgstr "<a href=\"%1\">Ссылка на загруженный альбом</a> скопирована."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
@@ -4164,36 +4144,31 @@ msgid "This will delete all selected screenshots."
 msgstr "Это удалит все выбранные скриншоты."
 
 #: src/application/pages/instance/ScreenshotsPage.ui:14
-#, fuzzy
 msgctxt "ScreenshotsPage|"
 msgid "MainWindow"
-msgstr "Настройка окна игры"
+msgstr "MainWindow"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:44
 msgctxt "ScreenshotsPage|"
 msgid "toolBar"
-msgstr ""
+msgstr "toolBar"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:62
-#, fuzzy
 msgctxt "ScreenshotsPage|"
 msgid "Upload"
 msgstr "Загрузить"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:67
-#, fuzzy
 msgctxt "ScreenshotsPage|"
 msgid "Delete"
 msgstr "Удалить"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:72
-#, fuzzy
 msgctxt "ScreenshotsPage|"
 msgid "Rename"
 msgstr "Переименовать"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:77
-#, fuzzy
 msgctxt "ScreenshotsPage|"
 msgid "View Folder"
 msgstr "Открыть папку"
@@ -4251,37 +4226,34 @@ msgstr "Никогда не загружать"
 #: src/application/pages/instance/ServersPage.ui:101
 msgctxt "ServersPage|"
 msgid "Reso&urces"
-msgstr "Ресурс-пак:"
+msgstr "Ресурс-пак"
 
 #: src/application/pages/instance/ServersPage.ui:14
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "MainWindow"
-msgstr "Настройка окна игры"
+msgstr "MainWindow"
 
 #: src/application/pages/instance/ServersPage.ui:75
 msgctxt "ServersPage|"
 msgid "&Name"
-msgstr "&Название:"
+msgstr "&Название"
 
 #: src/application/pages/instance/ServersPage.ui:88
 msgctxt "ServersPage|"
 msgid "Address"
-msgstr "IP Адрес:"
+msgstr "IP Адрес"
 
 #: src/application/pages/instance/ServersPage.ui:133
 msgctxt "ServersPage|"
 msgid "toolBar"
-msgstr ""
+msgstr "toolBar"
 
 #: src/application/pages/instance/ServersPage.ui:157
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Add"
 msgstr "Добавить"
 
 #: src/application/pages/instance/ServersPage.ui:162
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Remove"
 msgstr "Удалить"
@@ -4304,27 +4276,27 @@ msgstr "Серверы"
 #: src/application/pages/instance/ServersPage.cpp:604
 msgctxt "ServersPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Контекстное меню"
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
 msgid "&Next >"
-msgstr "&Далее >"
+msgstr "Далее >"
 
 #: src/application/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
 msgid "< &Back"
-msgstr "< &Назад"
+msgstr "< Назад"
 
 #: src/application/setupwizard/SetupWizard.cpp:31
 msgctxt "SetupWizard|"
 msgid "&Finish"
-msgstr "&Финиш"
+msgstr "Завершить"
 
 #: src/application/setupwizard/SetupWizard.cpp:32
 msgctxt "SetupWizard|"
 msgid "&Refresh"
-msgstr "&Обновить"
+msgstr "Обновить"
 
 #: src/application/setupwizard/SetupWizard.cpp:33
 msgctxt "SetupWizard|"
@@ -4445,12 +4417,12 @@ msgstr "Язык"
 #: src/api/logic/translations/TranslationsModel.cpp:371
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr ""
+msgstr "Завершенность"
 
 #: src/api/logic/translations/TranslationsModel.cpp:381
 msgctxt "TranslationsModel|"
 msgid "The native language name."
-msgstr ""
+msgstr "Родное название языка."
 
 #: src/api/logic/translations/TranslationsModel.cpp:385
 msgctxt "TranslationsModel|"
@@ -4458,24 +4430,23 @@ msgid ""
 "Completeness is the percentage of fully translated strings, not counting "
 "automatically guessed ones."
 msgstr ""
+"Завершенность - это отношение переведенных строк к их общему количеству, не "
+"считая автоматически распознанные."
 
 #: src/application/pages/modplatform/TwitchPage.ui:20
-#, fuzzy
 msgctxt "TwitchPage|"
 msgid "Twitch URL:"
-msgstr "Twitch"
+msgstr "URL Twitch:"
 
 #: src/application/pages/modplatform/TwitchPage.ui:48
-#, fuzzy
 msgctxt "TwitchPage|"
 msgid "Check"
 msgstr "Проверить"
 
 #: src/application/pages/modplatform/TwitchPage.h:41
-#, fuzzy
 msgctxt "TwitchPage|"
 msgid "Twitch URL"
-msgstr "Twitch"
+msgstr "URL Twitch"
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -4579,17 +4550,17 @@ msgstr "Фильтр"
 #: src/application/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
 msgid "Releases"
-msgstr "Release`ы"
+msgstr "Релизы"
 
 #: src/application/pages/modplatform/VanillaPage.ui:64
 msgctxt "VanillaPage|"
 msgid "Snapshots"
-msgstr "Snapshot`ы"
+msgstr "Снапшоты"
 
 #: src/application/pages/modplatform/VanillaPage.ui:74
 msgctxt "VanillaPage|"
 msgid "Old Snapshots"
-msgstr "Старые Snapshot`ы"
+msgstr "Старые снапшоты"
 
 #: src/application/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
@@ -4604,7 +4575,7 @@ msgstr "Альфа"
 #: src/application/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
 msgid "Experiments"
-msgstr ""
+msgstr "Эксперименты"
 
 #: src/application/pages/modplatform/VanillaPage.ui:127
 msgctxt "VanillaPage|"
@@ -4614,7 +4585,7 @@ msgstr "Обновить"
 #: src/application/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Ваниль"
 
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
@@ -4677,15 +4648,14 @@ msgid "Customize selected package."
 msgstr "Настроить выбранный пакет."
 
 #: src/application/pages/instance/VersionPage.ui:14
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "MainWindow"
-msgstr "Настройка окна игры"
+msgstr "MainWindow"
 
 #: src/application/pages/instance/VersionPage.ui:67
 msgctxt "VersionPage|"
 msgid "toolBar"
-msgstr ""
+msgstr "toolBar"
 
 #: src/application/pages/instance/VersionPage.ui:138
 msgctxt "VersionPage|"
@@ -4748,16 +4718,14 @@ msgid "Add to Minecraft.jar"
 msgstr "Добавить мод в jar-файл Minecraft."
 
 #: src/application/pages/instance/VersionPage.ui:170
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install Fabric"
-msgstr "Установить Forge"
+msgstr "Установить Fabric"
 
 #: src/application/pages/instance/VersionPage.ui:173
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
-msgstr "Установить пакет LiteLoader."
+msgstr "Установить пакет загрузчика Fabric"
 
 #: src/application/pages/instance/VersionPage.ui:202
 msgctxt "VersionPage|"
@@ -4772,7 +4740,7 @@ msgstr "Добавить пустой файл"
 #: src/application/pages/instance/VersionPage.ui:210
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
-msgstr ""
+msgstr "Добавить пользовательский пустой пакет."
 
 #: src/application/pages/instance/VersionPage.ui:218
 msgctxt "VersionPage|"
@@ -4817,7 +4785,7 @@ msgstr "Не удалось загрузить профиль сборки."
 #: src/application/pages/instance/VersionPage.cpp:146
 msgctxt "VersionPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Контекстное меню"
 
 #: src/application/pages/instance/VersionPage.cpp:164
 #, qt-format
@@ -4853,17 +4821,15 @@ msgstr "Модификации Minecraft.jar (*.zip *.jar)"
 
 #: src/application/pages/instance/VersionPage.cpp:359
 #: src/application/pages/instance/VersionPage.cpp:444
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
-msgstr "Нет доступных версий."
+msgstr "Нет доступных версий загрузчика Fabric"
 
 #: src/application/pages/instance/VersionPage.cpp:360
 #: src/application/pages/instance/VersionPage.cpp:445
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "Не удалось загрузить список версий LiteLoader!"
+msgstr "Не удалось загрузить список версий загрузчика Fabric!"
 
 #: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
@@ -4877,10 +4843,9 @@ msgstr ""
 "Пожалуйста добавьте учётную запись Mojang или Minecraft."
 
 #: src/application/pages/instance/VersionPage.cpp:443
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
-msgstr "Выберите версию LiteLoader"
+msgstr "Выберите версию загрузчика Fabric"
 
 #: src/application/pages/instance/VersionPage.cpp:491
 msgctxt "VersionPage|"
@@ -4898,22 +4863,20 @@ msgid "Select Forge version"
 msgstr "Выберите версию Forge"
 
 #: src/application/pages/instance/VersionPage.cpp:296
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Select jar"
-msgstr "Выберите jar-файлы модификаций"
+msgstr "Выберите jar"
 
 #: src/application/pages/instance/VersionPage.cpp:296
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
-msgstr "Модификации Minecraft.jar (*.zip *.jar)"
+msgstr "Замена Minecraft.jar (*.jar)"
 
 #: src/application/pages/instance/VersionPage.cpp:356
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
-msgstr "Изменить версию"
+msgstr "Изменить версию %1"
 
 #: src/application/pages/instance/VersionPage.cpp:416
 msgctxt "VersionPage|"
@@ -4966,10 +4929,9 @@ msgid "Path"
 msgstr "Путь"
 
 #: src/application/VersionProxyModel.cpp:88
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Released"
-msgstr "Release"
+msgstr "Выпущено"
 
 #: src/application/VersionProxyModel.cpp:96
 msgctxt "VersionProxyModel|"
@@ -5002,16 +4964,15 @@ msgid "Filesystem path to this version"
 msgstr "Путь к этой версии"
 
 #: src/application/VersionProxyModel.cpp:108
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "Release date of this version"
-msgstr "Путь к этой версии"
+msgstr "Дата выпуска этой версии"
 
 #: src/application/VersionProxyModel.cpp:133
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "VersionProxyModel|"
 msgid "%1 (installed)"
-msgstr " (используется)"
+msgstr "%1 (используется)"
 
 #: src/application/VersionProxyModel.cpp:164
 msgctxt "VersionProxyModel|"
@@ -5060,10 +5021,9 @@ msgid "Name"
 msgstr "Название"
 
 #: src/api/logic/minecraft/WorldList.cpp:213
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Game Mode"
-msgstr "Модель игрока"
+msgstr "Режим игры"
 
 #: src/api/logic/minecraft/WorldList.cpp:215
 msgctxt "WorldList|"
@@ -5076,10 +5036,9 @@ msgid "The name of the world."
 msgstr "Название сохранения."
 
 #: src/api/logic/minecraft/WorldList.cpp:226
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Game mode of the world."
-msgstr "Название сохранения."
+msgstr "Режим игры в мире."
 
 #: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
@@ -5087,15 +5046,14 @@ msgid "Date and time the world was last played."
 msgstr "Дата и время последнего запуска сохранения."
 
 #: src/application/pages/instance/WorldListPage.ui:14
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "MainWindow"
-msgstr "Настройка окна игры"
+msgstr "MainWindow"
 
 #: src/application/pages/instance/WorldListPage.ui:62
 msgctxt "WorldListPage|"
 msgid "toolBar"
-msgstr ""
+msgstr "toolBar"
 
 #: src/application/pages/instance/WorldListPage.ui:92
 msgctxt "WorldListPage|"
@@ -5113,19 +5071,16 @@ msgid "Copy"
 msgstr "Копировать"
 
 #: src/application/pages/instance/WorldListPage.ui:107
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Remove"
 msgstr "Удалить"
 
 #: src/application/pages/instance/WorldListPage.ui:112
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr "Редактировать"
+msgstr "MCEdit"
 
 #: src/application/pages/instance/WorldListPage.ui:127
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "View Folder"
 msgstr "Открыть папку"
@@ -5180,7 +5135,7 @@ msgstr "MCEdit не найден или не установлен!"
 #: src/application/pages/instance/WorldListPage.cpp:76
 msgctxt "WorldListPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Контекстное меню"
 
 #: src/application/pages/instance/WorldListPage.cpp:208
 msgctxt "WorldListPage|"
@@ -5232,10 +5187,9 @@ msgid "Enter a new world name."
 msgstr "Введите название нового сохранения."
 
 #: src/application/pages/instance/WorldListPage.h:45
-#, fuzzy
 msgctxt "WorldListPage|"
 msgid "Worlds"
-msgstr "Сохранения"
+msgstr "Миры"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
@@ -5248,7 +5202,6 @@ msgid "Authentication operation cancelled."
 msgstr "Операция авторизации отменена."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
-#, fuzzy
 msgctxt "YggdrasilTask|"
 msgid ""
 "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/"
