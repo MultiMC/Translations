@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-29 19:31-0400\n"
-"PO-Revision-Date: 2019-09-06 22:43+0900\n"
+"PO-Revision-Date: 2019-09-07 06:44+0900\n"
 "Last-Translator: yuma140902 <yuma140902@gmail.com>\n"
 "Language-Team: Japanese <http://weblate.robotbrain.info/projects/multimc/"
 "multimc/ja/>\n"
@@ -89,7 +89,7 @@ msgstr ""
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
 msgid "© 2012-2019 MultiMC Contributors"
-msgstr "© 2012-2019 MultiMC Contributors"
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -100,7 +100,7 @@ msgstr "クレジット"
 #: src/application/dialogs/AboutDialog.ui:230
 msgctxt "AboutDialog|"
 msgid "No Language file loaded."
-msgstr "言語ファイルが読み込まれていません。"
+msgstr "最後の日本語翻訳: yuma140902, 2019/09/07."
 
 #: src/application/dialogs/AboutDialog.ui:241
 msgctxt "AboutDialog|"
@@ -209,7 +209,7 @@ msgstr "ビルドナンバー"
 #: src/application/dialogs/AboutDialog.cpp:108
 msgctxt "AboutDialog|"
 msgid "Channel"
-msgstr "キャンセル"
+msgstr "チャンネル"
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -281,7 +281,7 @@ msgstr "スキンをアップロード"
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "統計情報"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
@@ -304,11 +304,23 @@ msgid ""
 "settings.</li></ul><p>If we change the tracked information, you will see "
 "this page again.</p></body></html>"
 msgstr ""
+"<html><body><p>MultiMCは起動毎に利用状況に関する匿名のデータを送信します。こ"
+"の情報は開発チームがどのOSのどの問題に取り組むべきか決定するのに用いられま"
+"す。</p><p>このデータはGoogle Analyticsによって処理されるので、Google "
+"Analyticsの<a href=\"https://support.google.com/analytics/answer/6004245?"
+"hl=en\">関連記事</a>をご覧ください。</p><p>以下のデータが収集されます:</"
+"p><ul><li>ランダムで一意なMultiMCのインストールID<br />これはMultiMCの設定"
+"(multimc.cfg)に保存されています。</li><li>匿名化されたIPアドレスの一部</"
+"li><li>MultiMCのバージョン</li><li>OS名、バージョンおよびアーキテクチャ</"
+"li><li>CPUアーキテクチャ(Linuxではカーネルアーキテクチャ).</li><li>システムメ"
+"モリのサイズ</li><li>Javaのバージョン、アーキテクチャ、メモリの設定</li></"
+"ul><p>If we change the tracked information, you will see this page again.</"
+"p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr ""
+msgstr "統計情報を有効化"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:19
 msgctxt "AssetUpdateTask|"
@@ -324,7 +336,7 @@ msgstr "%1 のassetインデックス"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:68
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
-msgstr "assetsインデックスの読み込みに失敗しました!"
+msgstr "assetsインデックスの読み込みに失敗しました"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
@@ -401,7 +413,7 @@ msgstr "認証中：応答の処理中..."
 #: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
-msgstr ""
+msgstr "プロファイラは中断されました"
 
 #: src/api/logic/java/launch/CheckJava.cpp:36
 #, qt-format
@@ -444,7 +456,7 @@ msgstr "Javaを開始できませんでした!"
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr ""
+msgstr "Javaチェッカーは不明な値を返しました:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
@@ -453,6 +465,8 @@ msgid ""
 "Java is version %1, using %2-bit architecture.\n"
 "\n"
 msgstr ""
+"Java バージョン: %1、アーキテクチャ: %2-bit.\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
@@ -461,6 +475,9 @@ msgid ""
 "want to install a 64bit Operating System.\n"
 "\n"
 msgstr ""
+"あなたのCPUのアーキテクチャとシステムのアーキテクチャが一致しません。64bitの"
+"OSをインストールしたほうが良いかもしれません。\n"
+"\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
@@ -469,6 +486,9 @@ msgid ""
 "want to install a 64bit Java version.\n"
 "\n"
 msgstr ""
+"Javaのアーキテクチャとシステムのアーキテクチャが一致しません。64bitのJavaをイ"
+"ンストールしたほうが良いかもしれません。\n"
+"\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
@@ -850,12 +870,12 @@ msgstr "プライベート"
 #: src/application/pages/modplatform/FTBPage.ui:77
 msgctxt "FTBPage|"
 msgid "Add pack"
-msgstr "ModPackを追加"
+msgstr "Modパックを追加"
 
 #: src/application/pages/modplatform/FTBPage.ui:84
 msgctxt "FTBPage|"
 msgid "Remove selected pack"
-msgstr "選択したModPackを削除"
+msgstr "選択したModパックを削除"
 
 #: src/application/pages/modplatform/FTBPage.ui:100
 msgctxt "FTBPage|"
@@ -870,7 +890,7 @@ msgstr "FTB Legacy"
 #: src/application/pages/modplatform/FTBPage.cpp:189
 msgctxt "FTBPage|"
 msgid "FTB private packs"
-msgstr ""
+msgstr "FTB プライベート Modパック"
 
 #: src/application/pages/modplatform/FTBPage.cpp:190
 #, qt-format
@@ -883,7 +903,7 @@ msgstr ""
 #: src/application/pages/modplatform/FTBPage.cpp:328
 msgctxt "FTBPage|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "FTB Modパックを追加"
 
 #: src/application/pages/modplatform/FTBPage.cpp:329
 msgctxt "FTBPage|"
@@ -893,13 +913,13 @@ msgstr ""
 #: src/application/pages/modplatform/FTBPage.cpp:352
 msgctxt "FTBPage|"
 msgid "Remove pack"
-msgstr "ModPackを削除"
+msgstr "Modパックを削除"
 
 #: src/application/pages/modplatform/FTBPage.cpp:353
 #, qt-format
 msgctxt "FTBPage|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr "本当に ModPack %1 を削除しますか？"
+msgstr "本当に Modパック %1 を削除しますか？"
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
@@ -994,33 +1014,33 @@ msgstr "ゲームバージョンでソート"
 #: src/application/pages/modplatform/FtbListModel.cpp:80
 msgctxt "FtbListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "パブリックModパック"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:82
 msgctxt "FtbListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "サードパーティModパック"
 
 #: src/application/pages/modplatform/FtbListModel.cpp:84
 msgctxt "FtbListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "プライベートModパック"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:76
 msgctxt "FtbPackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "パブリックModパック"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:81
 msgctxt "FtbPackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "サードパーティModパック"
 
 #: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:86
 #, qt-format
 msgctxt "FtbPackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr "いくつかのModPackリストの読み込みに失敗しました: %1"
+msgstr "いくつかのModパックリストの読み込みに失敗しました: %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:27
 #, qt-format
@@ -1037,18 +1057,18 @@ msgstr "%1 のzipをダウンロードしています (%2%)"
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:77
 msgctxt "FtbPackInstallTask|"
 msgid "Extracting modpack"
-msgstr "ModPackを展開中"
+msgstr "Modパックを展開中"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:83
 #, qt-format
 msgctxt "FtbPackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr "ModPackファイル %1 を開けませんでした"
+msgstr "Modパックファイル %1 を開けませんでした"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:106
 msgctxt "FtbPackInstallTask|"
 msgid "Installing modpack"
-msgstr "ModPackをインストール中"
+msgstr "Modパックをインストール中"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:113
 msgctxt "FtbPackInstallTask|"
@@ -1063,12 +1083,12 @@ msgstr ""
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
-msgstr ""
+msgstr "キー"
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:84
 msgctxt "GameOptions|"
 msgid "Value"
-msgstr ""
+msgstr "値"
 
 #: src/application/pages/instance/GameOptionsPage.h:45
 msgctxt "GameOptionsPage|"
@@ -1182,17 +1202,17 @@ msgstr "参照"
 #: src/application/pages/modplatform/ImportPage.ui:31
 msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
-msgstr ""
+msgstr "ローカルファイルへのパスあるいは直接ダウンロードのリンク:"
 
 #: src/application/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
 msgid "Import from zip"
-msgstr "zipからインポート"
+msgstr "Zipからインポート"
 
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Choose modpack"
-msgstr "ModPackを選択"
+msgstr "Modパックを選択"
 
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
@@ -1223,12 +1243,12 @@ msgstr "インスタンス %1 をコピー中"
 #: src/api/logic/InstanceCopyTask.cpp:39
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
-msgstr "インスタンスフォルダーのコピーに失敗しました"
+msgstr "インスタンスフォルダーのコピーに失敗しました。"
 
 #: src/api/logic/InstanceCopyTask.cpp:54
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "インスタンスフォルダーのコピーは中断されました"
+msgstr "インスタンスフォルダーのコピーは中断されました。"
 
 #: src/api/logic/InstanceCreationTask.cpp:16
 #, qt-format
@@ -1259,7 +1279,7 @@ msgstr "Modパックを展開中"
 #: src/api/logic/InstanceImportTask.cpp:79
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr "指定したModPackのzipファイルを開けません"
+msgstr "指定したModPackのzipファイルを開けません。"
 
 #: src/api/logic/InstanceImportTask.cpp:104
 #: src/api/logic/InstanceImportTask.cpp:165
@@ -1729,7 +1749,7 @@ msgstr ""
 #: src/application/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: src/application/widgets/LanguageSelectionWidget.cpp:51
 msgctxt "LanguageSelectionWidget|"
@@ -1744,7 +1764,7 @@ msgstr "翻訳を手伝ってください!"
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:46
 msgctxt "LanguageWizardPage|"
@@ -2090,7 +2110,7 @@ msgstr "一番下までスクロール"
 #: src/application/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr "下へ"
+msgstr "一番下へ"
 
 #: src/application/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
@@ -2400,10 +2420,9 @@ msgid "It's a fluffy kitty :3"
 msgstr ""
 
 #: src/application/MainWindow.cpp:329
-#, fuzzy
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit."
-msgstr "MultiMC Patreonページを開きます。"
+msgstr "MultiMCのsubredditページを開きます。"
 
 #: src/application/MainWindow.cpp:321
 msgctxt "MainWindow|"
@@ -2772,12 +2791,12 @@ msgid "Context menu"
 msgstr ""
 
 #: src/application/pages/instance/ModFolderPage.cpp:281
-#, fuzzy, qt-format
+#, qt-format
 msgctxt ""
 "ModFolderPage|Select whatever type of files the page contains. Example: "
 "'Loader Mods'"
 msgid "Select %1"
-msgstr "アイコンの選択"
+msgstr ""
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:36
 #, fuzzy
@@ -2879,17 +2898,17 @@ msgstr "アイコン"
 #: src/application/pages/global/MultiMCPage.ui:483
 msgctxt "MultiMCPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "統計情報"
 
 #: src/application/pages/global/MultiMCPage.ui:489
 msgctxt "MultiMCPage|"
 msgid "Analytics Settings"
-msgstr "Analyticsの設定"
+msgstr "統計情報の設定"
 
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "利用状況に関する匿名のデータを送信しますか?"
 
 #: src/application/pages/global/MultiMCPage.ui:509
 msgctxt "MultiMCPage|"
@@ -2907,6 +2926,18 @@ msgid ""
 "</ul>\n"
 "</body></html>"
 msgstr ""
+"<html><head/>\n"
+"<body>\n"
+"<p>MultiMCは起動毎に利用状況に関する匿名のデータを送信します。</p><p>以下の"
+"データが収集されます:</p>\n"
+"<ul>\n"
+"<li>MultiMCのバージョン</li>\n"
+"<li>OS名、バージョンおよびアーキテクチャ</li>\n"
+"<li>CPUアーキテクチャ(Linuxではカーネルアーキテクチャ)</li>\n"
+"<li>システムメモリのサイズ</li>\n"
+"<li>Javaのバージョン、アーキテクチャ、メモリの設定</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/application/pages/global/MultiMCPage.ui:265
 msgctxt "MultiMCPage|"
@@ -3716,15 +3747,14 @@ msgstr ""
 "る、またはJava実行ファイルへのパスを設定する必要があります。"
 
 #: src/application/GuiUtil.cpp:29 src/application/GuiUtil.cpp:38
-#, fuzzy
 msgctxt "QObject|"
 msgid "Upload failed"
-msgstr "アップロード完了"
+msgstr "アップロード失敗"
 
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr ""
+msgstr "ログファイルが大きすぎます。手動でアップロードしてください。"
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
@@ -3732,14 +3762,14 @@ msgid "Upload finished"
 msgstr "アップロード完了"
 
 #: src/application/GuiUtil.cpp:48
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The <a href=\"%1\">link to the uploaded log</a> has been placed in your "
 "clipboard."
 msgstr ""
-"<a href=\"%1\">アップロードされたログのリンク</a>がデフォルトのブラウザで開か"
-"れクリップボードに保存されます。"
+"<a href=\"%1\">アップロードされたログのリンク</a>がクリップボードに保存されま"
+"す。"
 
 #: src/application/dialogs/AboutDialog.cpp:30
 #, qt-format
@@ -3765,10 +3795,9 @@ msgid ""
 msgstr ""
 
 #: src/application/dialogs/AboutDialog.cpp:62
-#, fuzzy
 msgctxt "QObject|"
 msgid "<p>Loading...</p>"
-msgstr "ニュースを読み込んでいます..."
+msgstr "<p>読込中...</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:121
 #, qt-format
@@ -3776,29 +3805,32 @@ msgctxt "QObject|"
 msgid ""
 "<p>There are no code changes between your current version and latest %1.</p>"
 msgstr ""
+"<p>現在使用しているバージョンと最新版 %1 にはコードの変更点がありません。</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:125
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
+msgstr "<p>以下のコミットが最後のアップデートから追加されました:<p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:132
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
 msgstr ""
+"<p>このアップデートは%1個のコミットを削除し、以下の%2個のコミットを追加しま"
+"す:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:135
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
+msgstr "<p>変更点を<a href=\"%1\">GitHubで変更点をみる</a>ことができます。</p>"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:153
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "processArguments が不明な値 '%1' にセットされています"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:178
 #, qt-format
@@ -3815,10 +3847,9 @@ msgid "Assets for %1"
 msgstr "%1のassets"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:281
-#, fuzzy
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "選択したファイルは実行可能ではないようです"
+msgstr ""
 
 #: src/application/widgets/JavaSettingsWidget.cpp:286
 msgctxt "QObject|"
@@ -3838,6 +3869,8 @@ msgid ""
 "Java test succeeded!<br />Platform reported: %1<br />Java version reported: "
 "%2<br />"
 msgstr ""
+"Javaのテストに成功しました<br />プラットフォーム情報: %1<br />Javaバージョン"
+"情報: %2<br />"
 
 #: src/application/JavaCommon.cpp:34
 #: src/application/widgets/JavaSettingsWidget.cpp:318
@@ -3912,38 +3945,35 @@ msgstr ""
 #: src/application/MainWindow.cpp:996
 msgctxt "QObject|"
 msgid " (in use)"
-msgstr ""
+msgstr " (使用中)"
 
 #: src/api/logic/minecraft/Component.cpp:247
-#, fuzzy
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
-msgstr "パスは存在しません"
+msgstr "パッチはまだ読み込まれていません。"
 
 #: src/api/logic/minecraft/ComponentList.cpp:190
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr "無効なオーダーファイルのバージョン、%1が予想されます"
+msgstr ""
 
 #: src/api/logic/meta/BaseEntity.cpp:117
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "ダウンロード中 %1 更新ファイル"
+msgstr "メタファイル %1 のダウンロード"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
-#, fuzzy
 msgctxt "QObject|"
 msgid "Unknown format version!"
-msgstr "不明なエラー"
+msgstr "不明なフォーマットバージョンです"
 
 #: src/api/logic/minecraft/World.cpp:50
-#, fuzzy
 msgctxt "QObject|"
 msgid "Unknown"
-msgstr "不明なエラー"
+msgstr "不明"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -4096,7 +4126,7 @@ msgstr "セッション"
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -4130,10 +4160,9 @@ msgid "Never download"
 msgstr "ダウンロードしない"
 
 #: src/application/pages/instance/ServersPage.ui:101
-#, fuzzy
 msgctxt "ServersPage|"
 msgid "Reso&urces"
-msgstr "リソースパック"
+msgstr ""
 
 #: src/application/pages/instance/ServersPage.ui:14
 #, fuzzy
@@ -4180,7 +4209,7 @@ msgstr "下へ移動"
 #: src/application/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
-msgstr ""
+msgstr "サーバー"
 
 #: src/application/pages/instance/ServersPage.cpp:604
 msgctxt "ServersPage|"
@@ -4190,34 +4219,32 @@ msgstr ""
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
 msgid "&Next >"
-msgstr ""
+msgstr "次(&N) >"
 
 #: src/application/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
 msgid "< &Back"
-msgstr ""
+msgstr "< 前(&B)"
 
 #: src/application/setupwizard/SetupWizard.cpp:31
 msgctxt "SetupWizard|"
 msgid "&Finish"
-msgstr ""
+msgstr "終了"
 
 #: src/application/setupwizard/SetupWizard.cpp:32
-#, fuzzy
 msgctxt "SetupWizard|"
 msgid "&Refresh"
-msgstr "&リフレッシュ"
+msgstr "リフレッシュ"
 
 #: src/application/setupwizard/SetupWizard.cpp:33
 msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
-msgstr ""
+msgstr "MultiMC クイックセットアップ"
 
 #: src/api/logic/minecraft/SkinUpload.cpp:46
-#, fuzzy
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
-msgstr "アップロード完了"
+msgstr "スキンをアップロード"
 
 #: src/application/dialogs/SkinUploadDialog.ui:14
 #: src/application/dialogs/SkinUploadDialog.cpp:23
@@ -4226,34 +4253,31 @@ msgstr "アップロード完了"
 #: src/application/dialogs/SkinUploadDialog.cpp:75
 #: src/application/dialogs/SkinUploadDialog.cpp:91
 #: src/application/dialogs/SkinUploadDialog.cpp:95
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Skin Upload"
-msgstr "アップロード"
+msgstr "スキンのアップロード"
 
 #: src/application/dialogs/SkinUploadDialog.ui:20
 msgctxt "SkinUploadDialog|"
 msgid "Skin File"
-msgstr ""
+msgstr "スキンファイル"
 
 #: src/application/dialogs/SkinUploadDialog.ui:51
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Player Model"
-msgstr "プレイヤー名"
+msgstr "プレイヤーモデル"
 
 #: src/application/dialogs/SkinUploadDialog.ui:57
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
-msgstr ""
+msgstr "スティーブ(クラシック)"
 
 #: src/application/dialogs/SkinUploadDialog.ui:67
 msgctxt "SkinUploadDialog|"
 msgid "Alex Model"
-msgstr ""
+msgstr "アレックス(スリム)"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Failed to login!"
 msgstr "認証に失敗しました。"
@@ -4261,47 +4285,47 @@ msgstr "認証に失敗しました。"
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
-msgstr ""
+msgstr "スキンの設定にリモートURLを使う機能は未実装です。"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
 msgid "You cannot use an invalid URL for uploading skins."
-msgstr ""
+msgstr "スキンのアップロードに正しくないURLを使用できません。"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:75
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Skin file does not exist!"
-msgstr "パスは存在しません"
+msgstr "スキンファイルが存在しません"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:91
-#, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Failed to upload skin!"
-msgstr "スクリーンショットをアップロードできませんでした!"
+msgstr "スキンをアップロードできませんでした"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:95
 msgctxt "SkinUploadDialog|"
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:101
 msgctxt "SkinUploadDialog|"
 msgid "Select Skin Texture"
-msgstr ""
+msgstr "スキンを選択"
 
 #: src/api/logic/status/StatusChecker.cpp:104
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "StatusChecker|"
 msgid ""
 "Failed to load status JSON:\n"
 "%1"
-msgstr "assetsのダウンロードに失敗しました!"
+msgstr ""
+"JSONの読み込みに失敗しました:\n"
+"%1"
 
 #: src/application/pages/modplatform/TechnicPage.h:40
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr ""
+msgstr "Technic"
 
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
@@ -4317,11 +4341,15 @@ msgid ""
 "%3 fuzzy\n"
 "%4 total"
 msgstr ""
+"%1:\n"
+"翻訳済み %2\n"
+"要確認 %3\n"
+"全体 %4"
 
 #: src/api/logic/translations/TranslationsModel.cpp:367
 msgctxt "TranslationsModel|"
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: src/api/logic/translations/TranslationsModel.cpp:371
 msgctxt "TranslationsModel|"
@@ -4343,10 +4371,9 @@ msgstr ""
 #: src/application/pages/modplatform/TwitchPage.ui:20
 msgctxt "TwitchPage|"
 msgid "Twitch URL:"
-msgstr ""
+msgstr "Twitch URL:"
 
 #: src/application/pages/modplatform/TwitchPage.ui:48
-#, fuzzy
 msgctxt "TwitchPage|"
 msgid "Check"
 msgstr "チェック"
@@ -4354,20 +4381,22 @@ msgstr "チェック"
 #: src/application/pages/modplatform/TwitchPage.h:41
 msgctxt "TwitchPage|"
 msgid "Twitch URL"
-msgstr ""
+msgstr "Twitch URL"
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
-msgstr ""
+msgstr "タスクは中断されました。"
 
 #: src/api/logic/launch/steps/Update.cpp:52
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "Update|"
 msgid ""
 "Instance update failed because: %1\n"
 "\n"
-msgstr "アップロード完了"
+msgstr ""
+"インスタンスのアップデートは失敗しました: %1\n"
+"\n"
 
 #: src/application/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
@@ -4375,7 +4404,6 @@ msgid "MultiMC Update"
 msgstr "MultiMCのアップデート"
 
 #: src/application/dialogs/UpdateDialog.ui:46
-#, fuzzy
 msgctxt "UpdateDialog|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -4390,16 +4418,6 @@ msgid ""
 "style=\" font-family:'Bitstream Vera Sans'; font-size:22pt;\">Loading "
 "changelog...</span></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">↵\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">↵\n"
-"p, li { white-space: pre-wrap; }↵\n"
-"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
-"size:11pt; font-weight:400; font-style:normal;\">↵\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
-"style=\" font-size:22pt;\">Loading changelog...</span></p></body></html>"
 
 #: src/application/dialogs/UpdateDialog.ui:68
 msgctxt "UpdateDialog|"
@@ -4430,14 +4448,14 @@ msgid "Close"
 msgstr "閉じる"
 
 #: src/application/dialogs/UpdateDialog.cpp:164
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid ""
 "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch "
 "changelog... Error: %1</span></p>"
 msgstr ""
 "<p align=\"center\" <span style=\"font-size:22pt;\">変更履歴の取得に失敗しま"
-"した...</span></p>"
+"した... エラー %1</span></p>"
 
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:55
 msgctxt "ValidateTask|"
@@ -4482,7 +4500,7 @@ msgstr "アルファ"
 #: src/application/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
 msgid "Experiments"
-msgstr ""
+msgstr "実験的なバージョン"
 
 #: src/application/pages/modplatform/VanillaPage.ui:127
 msgctxt "VanillaPage|"
@@ -4581,10 +4599,9 @@ msgid "Revert the selected package to default."
 msgstr "選択したパッケージをデフォルトの状態に戻す"
 
 #: src/application/pages/instance/VersionPage.ui:154
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Revert"
-msgstr "戻しますか?"
+msgstr "もとに戻す"
 
 #: src/application/pages/instance/VersionPage.ui:165
 msgctxt "VersionPage|"
@@ -4597,10 +4614,9 @@ msgid "Install Forge"
 msgstr "Forgeをインストール"
 
 #: src/application/pages/instance/VersionPage.ui:181
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
-msgstr "LiteLoaderのインストール"
+msgstr "LiteLoaderをインストール"
 
 #: src/application/pages/instance/VersionPage.ui:178
 msgctxt "VersionPage|"
@@ -4608,20 +4624,19 @@ msgid "Install LiteLoader"
 msgstr "LiteLoaderをインストール"
 
 #: src/application/pages/instance/VersionPage.ui:189
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install normal mods."
-msgstr "Forgeのインストール"
+msgstr "普通のMod (Forge Mod) を導入"
 
 #: src/application/pages/instance/VersionPage.ui:186
 msgctxt "VersionPage|"
 msgid "Install mods"
-msgstr "インストールされたMod"
+msgstr "Modを導入"
 
 #: src/application/pages/instance/VersionPage.ui:197
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
-msgstr "Minecraft.jarにModを導入"
+msgstr "minecraft.jarにModを導入"
 
 #: src/application/pages/instance/VersionPage.ui:194
 msgctxt "VersionPage|"
@@ -4631,13 +4646,12 @@ msgstr "Jar Modを追加"
 #: src/application/pages/instance/VersionPage.ui:170
 msgctxt "VersionPage|"
 msgid "Install Fabric"
-msgstr "Fabricのインストール"
+msgstr "Fabricをインストール"
 
 #: src/application/pages/instance/VersionPage.ui:173
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
-msgstr "LiteLoaderのインストール"
+msgstr "Fabricをインストール"
 
 #: src/application/pages/instance/VersionPage.ui:202
 msgctxt "VersionPage|"
@@ -4703,24 +4717,23 @@ msgstr ""
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
-msgstr ""
+msgstr "%1 に問題がある可能性があります"
 
 #: src/application/pages/instance/VersionPage.cpp:167
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
-msgstr ""
+msgstr "%1 に問題があります"
 
 #: src/application/pages/instance/VersionPage.cpp:181
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Error: "
-msgstr "エラー"
+msgstr "エラー: "
 
 #: src/application/pages/instance/VersionPage.cpp:185
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr ""
+msgstr "警告: "
 
 #: src/application/pages/instance/VersionPage.cpp:286
 msgctxt "VersionPage|"
@@ -4740,10 +4753,9 @@ msgstr "Fabricは現在使用できません。"
 
 #: src/application/pages/instance/VersionPage.cpp:360
 #: src/application/pages/instance/VersionPage.cpp:445
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "LiteLoaderのバージョンリストを読み込んでいます..."
+msgstr "Fabricのバージョンリストを読み込めませんでした"
 
 #: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
@@ -4752,8 +4764,8 @@ msgid ""
 "least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
-"あなたがアカウントを少なくとも一つを持っていて追加しない限りMultiMCは"
-"Minecraftのダウンロードまたはインスタンスの更新をすることはできません。\n"
+"あなたが少なくとも1つのアカウントを追加しない限り、MultiMCはMinecraftのダウン"
+"ロードまたはインスタンスの更新をすることができません。\n"
 "あなたのMojangまたはMinecraftのアカウントを追加してください。"
 
 #: src/application/pages/instance/VersionPage.cpp:443
@@ -4762,16 +4774,14 @@ msgid "Select Fabric Loader version"
 msgstr "Fabricのバージョンを選択してください"
 
 #: src/application/pages/instance/VersionPage.cpp:491
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
-msgstr "LiteLoaderのバージョンリストを読み込んでいます..."
+msgstr "LiteLoaderのバージョンリストが読み込めませんでした"
 
 #: src/application/pages/instance/VersionPage.cpp:537
-#, fuzzy
 msgctxt "VersionPage|"
 msgid "Error updating instance"
-msgstr "インスタンスの更新中にエラーが発生しました"
+msgstr "インスタンスのアップデート中にエラーが発生しました"
 
 #: src/application/pages/instance/VersionPage.cpp:414
 msgctxt "VersionPage|"
@@ -4848,13 +4858,12 @@ msgstr ""
 #: src/application/VersionProxyModel.cpp:88
 msgctxt "VersionProxyModel|"
 msgid "Released"
-msgstr "通常のリリース"
+msgstr ""
 
 #: src/application/VersionProxyModel.cpp:96
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "The name of the version."
-msgstr "バージョン名"
+msgstr ""
 
 #: src/application/VersionProxyModel.cpp:98
 msgctxt "VersionProxyModel|"
@@ -4862,16 +4871,14 @@ msgid "Minecraft version"
 msgstr "Minecraftのバージョン"
 
 #: src/application/VersionProxyModel.cpp:100
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "The version's branch"
-msgstr "バージョンのブランチ"
+msgstr ""
 
 #: src/application/VersionProxyModel.cpp:102
-#, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "The version's type"
-msgstr "バージョンタイプ"
+msgstr ""
 
 #: src/application/VersionProxyModel.cpp:104
 msgctxt "VersionProxyModel|"
@@ -4949,16 +4956,14 @@ msgid "Last Played"
 msgstr "最後のプレイ"
 
 #: src/api/logic/minecraft/WorldList.cpp:224
-#, fuzzy
 msgctxt "WorldList|"
 msgid "The name of the world."
-msgstr "Minecraftのバージョンを変更"
+msgstr "ワールドの名前"
 
 #: src/api/logic/minecraft/WorldList.cpp:226
-#, fuzzy
 msgctxt "WorldList|"
 msgid "Game mode of the world."
-msgstr "Minecraftのバージョンを変更"
+msgstr "ワールドのゲームモード"
 
 #: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
@@ -5044,11 +5049,13 @@ msgid ""
 "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr ""
+"MCEditの起動に失敗しました。\n"
+"MCEditの再インストールが必要なようです。"
 
 #: src/application/pages/instance/WorldListPage.cpp:207
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
-msgstr ""
+msgstr "MCEditが見つからないか設定されていません。"
 
 #: src/application/pages/instance/WorldListPage.cpp:76
 msgctxt "WorldListPage|"
@@ -5061,6 +5068,8 @@ msgid ""
 "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr ""
+"MCEditが設定されていないか、移動されたようです。\n"
+"グローバル設定で設定してください。"
 
 #: src/application/pages/instance/WorldListPage.cpp:264
 msgctxt "WorldListPage|"
@@ -5083,6 +5092,8 @@ msgid ""
 "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr ""
+"Minecraftの動作中にワールドに変更を加えるのは安全ではありません。\n"
+"本当に続けてよろしいですか?"
 
 #: src/application/pages/instance/WorldListPage.cpp:310
 #: src/application/pages/instance/WorldListPage.cpp:333
