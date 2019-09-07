@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-29 19:31-0400\n"
-"PO-Revision-Date: 2019-09-03 22:18-0300\n"
+"PO-Revision-Date: 2019-09-06 22:54-0300\n"
 "Last-Translator: RenanYudi <renanyaguinuma@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <http://weblate.robotbrain.info/projects/"
 "multimc/multimc/pt_BR/>\n"
@@ -91,6 +91,7 @@ msgctxt "AboutDialog|"
 msgid "Credits"
 msgstr "Créditos"
 
+# Alphabetical order
 #. Hey, Translator, feel free to put credit to you here
 #: src/application/dialogs/AboutDialog.ui:230
 msgctxt "AboutDialog|"
@@ -220,8 +221,8 @@ msgid ""
 "Minecraft account."
 msgstr ""
 "Bem-vindo!\n"
-"Se você é novo por aqui, você pode clicar no botão \"Adicionar\" para "
-"adicionar a sua conta da Mojang ou do Minecraft."
+"Se você é novo por aqui, clique no botão \"Adicionar\" para adicionar a sua "
+"conta da Mojang ou do Minecraft."
 
 #: src/application/pages/global/AccountListPage.cpp:77
 msgctxt "AccountListPage|"
@@ -270,6 +271,7 @@ msgctxt "AccountListPage|"
 msgid "Upload Skin"
 msgstr "Enviar skin"
 
+# Translates as "Análise de dados", "Análise" for short.
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
 msgid "Analytics"
@@ -501,7 +503,8 @@ msgstr "Algumas tarefas de carregamento de metadados de componente falharam."
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr "Requisitos conflitantes detectados na verificação de dependências!"
+msgstr ""
+"Requisitos conflitantes detectados durante a verificação de dependências!"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
 msgctxt "ComponentUpdateTask|"
@@ -953,6 +956,7 @@ msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed."
 msgstr "A resolução falhou."
 
+# Untranslated for debugging purposes
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing package root element."
@@ -1153,7 +1157,7 @@ msgstr "Baixando um arquivo de atualização."
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Baixando atualização... (%1 arquivos)"
+msgstr "Baixando %1 arquivos de atualização."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
@@ -3766,9 +3770,9 @@ msgstr ""
 "Você tentou ajustar manualmente a opção de memória do JVM (usando \"-XX:"
 "PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" ou \"-Xms"
 "\")\n"
-"        Existem lugares dedicados para estas configurações (aba Java, no "
-"grupo do topo chamado Memória).\n"
-"        Esta mensagem será exibida até que você remova os argumentos JVM."
+"Existem lugares dedicados para estas configurações (aba Java, no grupo "
+"Memória).\n"
+"Esta mensagem será exibida até que você remova os argumentos JVM."
 
 #: src/application/JavaCommon.cpp:32
 #, qt-format
@@ -4341,12 +4345,13 @@ msgstr "Modelo do Jogador"
 #: src/application/dialogs/SkinUploadDialog.ui:57
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
-msgstr "Modelo do Steve"
+msgstr "Modelo Steve"
 
+# "Alex" is gender-neutral, so it should be written as a male noun in Portuguese
 #: src/application/dialogs/SkinUploadDialog.ui:67
 msgctxt "SkinUploadDialog|"
 msgid "Alex Model"
-msgstr "Modelo do Alex"
+msgstr "Modelo Alex"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
 msgctxt "SkinUploadDialog|"
@@ -4356,12 +4361,12 @@ msgstr "Falha ao fazer login!"
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
-msgstr "Usar URLs remotas para colocar skins ainda não foi implementado."
+msgstr "Usar URLs remotos para definir skins ainda não foi implementado."
 
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
 msgid "You cannot use an invalid URL for uploading skins."
-msgstr "Você não pode usar uma URL inválida para enviar skins."
+msgstr "Você não pode usar um URL inválido para enviar skins."
 
 #: src/application/dialogs/SkinUploadDialog.cpp:75
 msgctxt "SkinUploadDialog|"
@@ -4401,7 +4406,7 @@ msgstr "Technic"
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
-msgstr "Packs de textura"
+msgstr "Pacotes de textura"
 
 #: src/api/logic/translations/TranslationsModel.cpp:349
 #, qt-format
@@ -4430,7 +4435,7 @@ msgstr "Completude"
 #: src/api/logic/translations/TranslationsModel.cpp:381
 msgctxt "TranslationsModel|"
 msgid "The native language name."
-msgstr "Nome da língua nativa."
+msgstr "Nome do idioma nativo."
 
 #: src/api/logic/translations/TranslationsModel.cpp:385
 msgctxt "TranslationsModel|"
@@ -4516,14 +4521,14 @@ msgstr "Não atualizar ainda"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "A new %1 update is available!"
-msgstr "Uma nova atualização %1  está disponível!"
+msgstr "Uma nova atualização %1 está disponível!"
 
 #: src/application/dialogs/UpdateDialog.cpp:21
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "No %1 updates found. You are running the latest version."
 msgstr ""
-"Nenhuma atualização %1  encontrada. Você está com a última versão do MultiMC."
+"Nenhuma atualização %1 encontrada. Você está com a última versão do MultiMC."
 
 #: src/application/dialogs/UpdateDialog.cpp:23
 msgctxt "UpdateDialog|"
@@ -5222,7 +5227,7 @@ msgstr ""
 "en-us/download/details.aspx?id=38918\">atualizar seus certificados</a></"
 "li><li>Alguns dispositivos em sua rede estão interferindo no tráfego SSL. "
 "Neste caso, você tem preocupações maiores do que o Minecraft não estar "
-"abrindo,</li><li>Possivelmente outra coisa. Verifique o arquivo de registro "
+"abrindo.</li><li>Provavelmente outra coisa. Verifique o arquivo de registro "
 "do MultiMC para obter mais detalhes</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
