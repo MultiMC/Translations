@@ -5,9 +5,10 @@ set -e
 ROOT=$PWD
 OUTPUT=$ROOT/build
 
-LCONVERT_BIN=${LCONVERT_BIN:-lconvert-qt5}
-LRELEASE_BIN=${LRELEASE_BIN:-lrelease-qt5}
-LUPDATE_BIN=${LUPDATE_BIN:-lupdate-qt5}
+LCONVERT_BIN=${LCONVERT_BIN:-lconvert}
+LRELEASE_BIN=${LRELEASE_BIN:-lrelease}
+LUPDATE_BIN=${LUPDATE_BIN:-lupdate}
+
 
 if [ ! -d $OUTPUT ]
 then

@@ -8,9 +8,9 @@ TEMPLATE_PO="$ROOT/template.pot"
 TEMPLATE_TS="$ROOT/template.ts"
 BASE_LST_FILE="$ROOT/base_lst_file"
 
-LCONVERT_BIN=${LCONVERT_BIN:-lconvert-qt5}
-LRELEASE_BIN=${LRELEASE_BIN:-lrelease-qt5}
-LUPDATE_BIN=${LUPDATE_BIN:-lupdate-qt5}
+LCONVERT_BIN=${LCONVERT_BIN:-lconvert}
+LRELEASE_BIN=${LRELEASE_BIN:-lrelease}
+LUPDATE_BIN=${LUPDATE_BIN:-lupdate}
 
 ###############################################################################
 
