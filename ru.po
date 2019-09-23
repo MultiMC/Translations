@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2019-09-23 15:45\n"
+"PO-Revision-Date: 2019-09-23 16:05\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -452,7 +452,7 @@ msgstr "Команда обёртки:"
 #: src/application/widgets/CustomCommands.ui:80
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Команда перед запуском выполняется перед стартом сборки, а по завершению процесса игры выполняется команда после выхода. Обе команды будут выполняться в рабочем каталоге MultiMC с INST_ID, INST_DIR и INST_NAME как переменные среды.</p><p>Команда обёртки позволяет запускать Java, используя внешнюю программу-обёртку (например 'optirun' на Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Команда перед запуском выполняется перед стартом сборки, а по завершению процесса игры выполняется команда после выхода. </p><p>Обе команды будут выполняться в рабочем каталоге MultiMC с дополнительными переменными среды:</p><ul><li>$INST_NAME - Имя сборки</li><li>$INST_ID - ID сборки (название её папки)</li><li>$INST_DIR - абсолютный путь сборки</li><li>$INST_MC_DIR - абсолютный путь Minecraft</li><li>$INST_JAVA - программа java, используемая при запуске</li><li>$INST_JAVA_ARGS - аргументы командной строки, используемые при запуске</li></ul><p>Команда обёртки позволяет запускать Java, используя внешнюю программу-обёртку (например 'optirun' на Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -533,7 +533,7 @@ msgstr "Проверить"
 #: src/application/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr "Внешние редакторы (Если значение пустое, то используется системное)"
+msgstr "Внешние редакторы (оставьте пустым, чтобы использовать системный редактор)"
 
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
@@ -688,7 +688,7 @@ msgstr "Не удалось загрузить следующие файлы:\n"
 #: src/application/pages/modplatform/FTBPage.ui:21
 msgctxt "FTBPage|"
 msgid "Public"
-msgstr "Публичная"
+msgstr "Общедоступная"
 
 #: src/application/pages/modplatform/FTBPage.ui:41
 msgctxt "FTBPage|"
