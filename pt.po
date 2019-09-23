@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
-"PO-Revision-Date: 2019-09-23 16:17\n"
+"PO-Revision-Date: 2019-09-23 16:40\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -222,7 +222,7 @@ msgstr "Nós coletamos algumas informações anónimas dos utilizadores."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>O MultiMC coleta dados anónimos em todos os arranques. Isso ajuda-nos a definir as plataformas e problemas nos quais devemos focar.</p><p>Os dados são processados pelo Google Analytics, veja este <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">artigo.</a>.</p><p>Os seguintes dados são recolhidos:</p><ul><li>Um ID aleatório e único do seu MultiMC.<br />Ele é armazenado no arquivo de configurações (multimc.cfg).</li><li>Endereços de IP parciais (anonimizados).</li><li>Versão do MultiMC.</li><li>Nome, versão e arquitetura do sistema operativo.</li><li>Arquitetura da CPU (do kernel no Linux).</li><li>Tamanho da memória do sistema.</li><li>Versão, arquitetura e configurações de memória do Java.</li></ul><p>Se nós mudarmos as informações, iremos mostrar esta página novamente.</p></body></html>"
+msgstr "<html><body><p>O MultiMC coleta dados anónimos em todos os arranques. Isso ajuda-nos a definir as plataformas e problemas nos quais devemos focar.</p><p>Os dados são processados pelo Google Analytics, veja este <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">artigo.</a>.</p><p>Os seguintes dados são recolhidos:</p><ul><li>Um ID aleatório e único do seu MultiMC.<br />Ele é armazenado no arquivo de definições (multimc.cfg).</li><li>Endereços de IP parciais (anonimizados).</li><li>Versão do MultiMC.</li><li>Nome, versão e arquitetura do sistema operativo.</li><li>Arquitetura da CPU (do kernel no Linux).</li><li>Tamanho da memória do sistema.</li><li>Versão, arquitetura e configurações de memória do Java.</li></ul><p>Se nós mudarmos as informações, iremos mostrar esta página novamente.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -310,7 +310,7 @@ msgstr "Profiler abortado"
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr "O binário java \"%1\" não pôde ser encontrado. Por favor corrija o caminho do java nas configurações da instância ou desative-o."
+msgstr "O binário Java \"%1\" não pôde ser encontrado. Por favor, corrija o caminho do Java nas definições da instância ou desative-o."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
@@ -1515,10 +1515,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "MultiMC will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr "Você não selecionou nenhuma versão do Java ou selecionou algo que não funciona.\n"
+msgstr "Não selecionaste nenhuma versão do Java ou selecionaste algo que não funciona.\n"
 "O MultiMC não vai poder iniciar o Minecraft.\n"
 "Quer continuar mesmo sem o Java?\n\n"
-"Você alterar a versão do Java nas configurações depois.\n"
+"Podes alterar a versão do Java nas definições depois.\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
@@ -1569,8 +1569,8 @@ msgstr "Java"
 msgctxt "JavaWizardPage|"
 msgid "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
-msgstr "Você não tem nenhum Java configurado ou ele está ausente.\n"
-"Por favor selecione um destes ou procure por um executável do Java."
+msgstr "Não tens nenhum Java configurado ou ele está ausente.\n"
+"Por favor selecione um destes ou procures por um executável do Java."
 
 #: src/application/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
@@ -1610,12 +1610,12 @@ msgstr "Nenhuma conta"
 #: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in to MultiMC.Would you like to open the account manager to add an account now?"
-msgstr "Para jogar Minecraft você deve ter pelo menos uma conta Mojang ou Minecraft conectada no MultiMC. Gostaria de abrir o gerenciador de contas agora para adicionar uma?"
+msgstr "Para jogar Minecraft deves ter pelo menos uma conta Mojang ou Minecraft conectada no MultiMC. Gostarias de abrir o gerenciador de contas agora para adicionar uma?"
 
 #: src/application/LaunchController.cpp:61
 msgctxt "LaunchController|"
 msgid "Which profile would you like to use?"
-msgstr "Qual perfil você gostaria de usar?"
+msgstr "Qual perfil gostarias de utilizar?"
 
 #: src/application/LaunchController.cpp:77
 msgctxt "LaunchController|"
@@ -2314,7 +2314,7 @@ msgstr ""
 #: src/application/MainWindow.cpp:972
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
-msgstr "O Profiler não foi instalado corretamente. Vá em configurações, \"Ferramentas Externas\"."
+msgstr "O Profiler não foi instalado corretamente. Vá em definições, \"Ferramentas Externas\"."
 
 #: src/application/MainWindow.cpp:1026
 msgctxt "MainWindow|"
@@ -2554,7 +2554,7 @@ msgstr "Desativar mods selecionados"
 #: src/application/pages/instance/ModFolderPage.ui:131
 msgctxt "ModFolderPage|"
 msgid "View &Configs"
-msgstr "Ver &configurações"
+msgstr "Ver &definições"
 
 #: src/application/pages/instance/ModFolderPage.ui:139
 msgctxt "ModFolderPage|"
@@ -2564,7 +2564,7 @@ msgstr "Ver &pasta"
 #: src/application/pages/instance/ModFolderPage.ui:134
 msgctxt "ModFolderPage|"
 msgid "Open the 'config' folder in the system file manager."
-msgstr "Abrir a pasta de configurações no explorador de arquivos."
+msgstr "Abrir a pasta de definições no explorador de arquivos."
 
 #: src/application/pages/instance/ModFolderPage.ui:42
 msgctxt "ModFolderPage|"
@@ -2616,7 +2616,7 @@ msgstr "O nome da versão."
 #: src/application/MultiMC.cpp:523
 msgctxt "MultiMC|"
 msgid "Settings"
-msgstr "Configurações"
+msgstr "Definições"
 
 #: src/application/pages/global/MultiMCPage.ui:45
 msgctxt "MultiMCPage|"
@@ -2626,7 +2626,7 @@ msgstr "Funções"
 #: src/application/pages/global/MultiMCPage.ui:51
 msgctxt "MultiMCPage|"
 msgid "Update Settings"
-msgstr "Atualizar configurações"
+msgstr "Atualizar definições"
 
 #: src/application/pages/global/MultiMCPage.ui:57
 msgctxt "MultiMCPage|"
@@ -2752,7 +2752,7 @@ msgstr "Consola"
 #: src/application/pages/global/MultiMCPage.ui:354
 msgctxt "MultiMCPage|"
 msgid "Console Settings"
-msgstr "Configurações da consola"
+msgstr "Definições da consola"
 
 #: src/application/pages/global/MultiMCPage.ui:360
 msgctxt "MultiMCPage|"
@@ -3299,12 +3299,12 @@ msgstr "Tipo"
 #: src/application/pages/global/ProxyPage.ui:61
 msgctxt "ProxyPage|"
 msgid "Uses your system's default proxy settings."
-msgstr "Usar as configurações padrões de proxy do sistema."
+msgstr "Usar as definições padrões de proxy do sistema."
 
 #: src/application/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr "Isto só se aplica ao MultiMC. O Minecraft não aceita configurações de proxy."
+msgstr "Isto só se aplica ao MultiMC. O Minecraft não aceita definições de proxy."
 
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
@@ -3451,9 +3451,9 @@ msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr "Você tentou ajustar manualmente a opção de memória do JVM (usando \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" ou \"-Xms\")\n"
-"        Existem lugares dedicados para estas configurações (aba Java, no grupo do topo chamado Memória).\n"
-"        Esta mensagem será exibida até que você remova os argumentos JVM."
+msgstr "Tentaste ajustar manualmente a opção de memória do JVM (usando \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" ou \"-Xms\")\n"
+"Existem lugares dedicados para estas definições (aba Java, no grupo do topo chamado Memória).\n"
+"Esta mensagem será exibida até que removas os argumentos JVM."
 
 #: src/application/JavaCommon.cpp:32
 #, qt-format
@@ -4754,7 +4754,7 @@ msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "O MCEdit foi movido ou não está configurado.\n"
-"Você pode configurar o MCEdit nas definiçõess globais."
+"Podes configurar o MCEdit nas definições globais."
 
 #: src/application/pages/instance/WorldListPage.cpp:264
 msgctxt "WorldListPage|"
