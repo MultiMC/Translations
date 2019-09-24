@@ -22,6 +22,12 @@ echo "    $(cat $BASE_LST_FILE | wc -l) files found"
 
 echo "Generating new template..."
 
+if [ -f $TEMPLATE_PO ]
+then
+    echo "    Converting .pot to .ts"
+    $LCONVERT_BIN -locations relative $TEMPLATE_PO -o $TEMPLATE_TS
+fi
+
 echo "    Generating .ts"
 rm -f "$TEMPLATE_TS"
 cd $SRC
