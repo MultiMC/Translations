@@ -2,7 +2,8 @@
 
 set -e
 
-ROOT="$PWD"
+ROOT=`pwd`
+SRC=${ROOT}/src
 TEMPLATE_PO="$ROOT/template.pot"
 TEMPLATE_TS="$ROOT/template.ts"
 BASE_LST_FILE="$ROOT/base_lst_file"
