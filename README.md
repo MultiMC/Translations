@@ -3,7 +3,7 @@ MultiMC5-translate
 
 Translations for MultiMC5
 
-To participate in the translation effort, go to [the MultiMC crowdin site](translate.multimc.org) and join the project.
+To participate in the translation effort, go to [the MultiMC crowdin site](https://translate.multimc.org) and join the project.
 
 Alternatively, you may want to grab the `.po` files you are interested in, make changes to them with [POEdit](https://poedit.net/) and then either make a pull request, or otherwise share the file(s).
 
