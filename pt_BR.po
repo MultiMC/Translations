@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2019-09-27 00:05\n"
+"PO-Revision-Date: 2019-09-27 00:27\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -90,12 +90,12 @@ msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR
 msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">O MultiMC é um projeto de código aberto, porque achamos importante poder visualizar o código de um projeto como este, e fazemos isso usando a licença Apache.</p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Parte da razão para usar a licença Apache é que nós não queremos que as pessoas usem o nome do &quot;MultiMC&quot; quando redistribuírem um projeto. Isso significa que as pessoas devem percorrer o código e remover todas as referências ao &quot;MultiMC&quot;, incluindo, mas não se limitando ao, ícone do projeto e aos títulos de janelas, (sem ter *MultiMC-fork* no título).</p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">A licença Apache cobre o uso razoável do nome - uma menção à origem do projeto no menu Sobre e na licença é aceitável. No entanto, deve ser claro que o projeto é um fork, <span style=\" font-weight:600;\">sem</span> insinuar que você tem a nossa permissão.</p></body></html>"
+"</style></head><body style=\" font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:11pt;\">O MultiMC é um projeto de código aberto, pois achamos importante poder visualizar o código de um projeto como este, e fazemos isso usando a licença Apache.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:11pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:11pt;\">Parte do motivo para usar esta licença é que não queremos que as pessoas usem o nome do &quot;MultiMC&quot; ao redistribuírem seus projetos. Isso significa que é necessário remover todas as referências ao &quot;MultiMC&quot; do código, incluindo, mas não se limitando ao ícone do projeto e aos títulos de janelas (sem ter *MultiMC-fork* no título).</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Bitstream Vera Sans'; font-size:11pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Bitstream Vera Sans'; font-size:11pt;\"> A licença Apache cobre uso razoável do nome, por exemplo, uma menção à origem do projeto no menu 'Sobre' e na licença é aceitável. No entanto, deve ser claro que o projeto é um fork, </span><span style=\" font-family:'Bitstream Vera Sans'; font-size:11pt; font-weight:600;\">sem</span><span style=\" font-family:'Bitstream Vera Sans'; font-size:11pt;\"> sugerir que você tem nossa permissão e aprovação.</span></p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:295
 msgctxt "AboutDialog|"
@@ -738,12 +738,12 @@ msgstr "Não é um URL da Twitch."
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Couldn't find the needle in the haystack..."
-msgstr "Não foi possível achar a agulha no palheiro…"
+msgstr "Não foi possível encontrar a agulha no palheiro..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Couldn't find the end of the needle in the haystack..."
-msgstr "Não foi possível achar a ponta da agulha no palheiro."
+msgstr "Não foi possível encontrar a ponta da agulha no palheiro..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
 msgctxt "Flame::UrlResolvingTask|"
@@ -3308,7 +3308,7 @@ msgstr "processArguments foi configurado como valor desconhecido '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr "O valor do 'minimumLauncherVersion' desta versão (%1) é maior que o suportado pelo MultiMC (%2). Isto não deve funcionar corretamente!"
+msgstr "O valor do 'minimumLauncherVersion' desta versão (%1) é maior que o suportado pelo MultiMC (%2). Isto pode não funcionar corretamente!"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -3528,7 +3528,7 @@ msgstr "Falha no envio"
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr "O arquivo de registro é muito grande. Você vai ter que enviar ele manualmente."
+msgstr "O arquivo de registro é muito grande. Você terá que enviar ele manualmente."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
