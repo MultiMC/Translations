@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
-"PO-Revision-Date: 2019-09-27 22:37\n"
+"PO-Revision-Date: 2019-09-29 18:35\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -172,7 +172,7 @@ msgstr "Menu de contexto"
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang or Minecraft account username and password to add your account."
-msgstr "Por favor, entra com a tua conta da Mojang ou do Minecraft."
+msgstr "Por favor, entra com a tua conta Mojang ou Minecraft."
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -187,7 +187,7 @@ msgstr "Nós coletamos algumas informações anónimas dos utilizadores."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>O MultiMC coleta dados anónimos em todos os arranques. Isso ajuda-nos a definir as plataformas e problemas nos quais devemos focar.</p><p>Os dados são processados pelo Google Analytics, vê este <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">artigo.</a>.</p><p>Os seguintes dados são recolhidos:</p><ul><li>Um ID aleatório e único do teu MultiMC.<br />Ele é armazenado no arquivo de definições (multimc.cfg).</li><li>Endereços de IP parciais (anonimizados).</li><li>Versão do MultiMC.</li><li>Nome, versão e arquitetura do sistema operativo.</li><li>Arquitetura da CPU (do kernel no Linux).</li><li>Tamanho da memória do sistema.</li><li>Versão, arquitetura e configurações de memória do Java.</li></ul><p>Se nós mudarmos as informações, iremos mostrar esta página novamente.</p></body></html>"
+msgstr "<html><body><p>O MultiMC coleta dados anónimos em todos os arranques. Isto ajuda-nos a definir em que plataformas e problemas nos quais devemos focar.</p><p>Os dados são processados pelo Google Analytics, vê este <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">artigo.</a>.</p><p>Os seguintes dados são recolhidos:</p><ul><li>Um ID aleatório e único do teu MultiMC.<br />Ele é armazenado no ficheiro de definições (multimc.cfg).</li><li>Endereços de IP parciais (anonimizados).</li><li>Versão do MultiMC.</li><li>Nome, versão e arquitetura do sistema operativo.</li><li>Arquitetura da CPU (do kernel no Linux).</li><li>Tamanho da memória do sistema.</li><li>Versão, arquitetura e configurações de memória do Java.</li></ul><p>Se nós mudarmos as informações, iremos mostrar esta página novamente.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -275,13 +275,13 @@ msgstr "Profiler abortado"
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr "O binário java \"%1\" não pôde ser encontrado. Por favor corrija o caminho do java nas configurações da instância ou desative-o."
+msgstr "O binário java \"%1\" não foi encontrado. Por favor corrige o caminho do java nas definições da instância ou desativa-o."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please set up java in the settings."
-msgstr "O binário java \"%1\" não pôde ser encontrado. Configure o java nas definições."
+msgstr "O binário java \"%1\" não foi encontrado. Configura o java nas definições."
 
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
@@ -359,7 +359,7 @@ msgstr "A instância tem dependências não resolvidas durante o carregamento/ve
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr "Falha na tarefa de atualização de metadados de componentes durante a transferência em servidor remoto:\n"
+msgstr "Falha na tarefa de atualização de metadados de componentes durante a transferência a partir de um servidor remoto:\n"
 "%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
@@ -579,7 +579,7 @@ msgstr "Pasta do MCEdit"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking MCEdit install:\n"
 "%1"
-msgstr "Um erro ocorreu enquanto a instalação do MCEdit era verificada:\n"
+msgstr "Ocorreu um erro enquanto a instalação do MCEdit era verificada:\n"
 "%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:195
@@ -641,7 +641,7 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr "Falha no download dos seguintes ficheiros:\n"
+msgstr "Falha na transferência dos seguintes ficheiros:\n"
 "%1\n"
 "Razão: %2\n"
 "Por favor tenta de novo."
@@ -697,7 +697,7 @@ msgstr "Adicionar um pacote FTB"
 #: src/application/pages/modplatform/FTBPage.cpp:329
 msgctxt "FTBPage|"
 msgid "Enter pack code:"
-msgstr "Insira o código do pacote:"
+msgstr "Insere o código do pacote:"
 
 #: src/application/pages/modplatform/FTBPage.cpp:352
 msgctxt "FTBPage|"
@@ -834,7 +834,7 @@ msgstr "Pacotes de terceiros"
 #, qt-format
 msgctxt "FtbPackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr "Falha ao baixar algumas listas de pacotes: %1"
+msgstr "Falha ao transferir algumas listas de pacotes: %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:27
 #, qt-format
@@ -917,17 +917,17 @@ msgstr "A carregar informações da versão..."
 #: src/api/logic/updater/DownloadTask.cpp:81
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr "Falha no download dos ficheiros de informação da versão."
+msgstr "Falha na transferência dos ficheiros de informação da versão."
 
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
-msgstr "A ler o ficheiro da lista de novas versões..."
+msgstr "A ler a lista de ficheiros para a nova versão..."
 
 #: src/api/logic/updater/DownloadTask.cpp:102
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
-msgstr "A ler o ficheiro da lista da versão atual..."
+msgstr "A ler a lista de ficheiros da versão atual..."
 
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
@@ -1056,7 +1056,7 @@ msgstr "A transferir modpack:\n"
 #: src/api/logic/InstanceImportTask.cpp:41
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr "Download do modpack"
+msgstr "Transferência do modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:71
 msgctxt "InstanceImportTask|"
@@ -1066,7 +1066,7 @@ msgstr "A extrair modpack"
 #: src/api/logic/InstanceImportTask.cpp:79
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr "Não foi possível abrir o zip do modpack fornecido."
+msgstr "Não foi possível abrir o ficheiro zip do modpack fornecido."
 
 #: src/api/logic/InstanceImportTask.cpp:104
 #: src/api/logic/InstanceImportTask.cpp:165
@@ -1126,7 +1126,7 @@ msgstr "Não foi possível mapear a versão recomendada do Forge para o Minecraf
 #: src/api/logic/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
-msgstr "Download do mod"
+msgstr "Transferência do mod"
 
 #: src/api/logic/InstanceImportTask.cpp:317
 #, qt-format
@@ -1138,7 +1138,7 @@ msgstr "Talvez esta 'Pasta' precise ser extraída: %1"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr "Agrupamento de modpacks em outros modpacks ainda não foi implementado, nada foi transferido: %1"
+msgstr "Agrupar modpacks noutros modpacks ainda não foi implementado, nada foi transferido: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
@@ -1665,7 +1665,7 @@ msgstr "Forçar o Minecraft a encerrar?"
 #: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr "Isto pode corromper a instância e só deve ser utilizado se o Minecraft estiver congelado por algum motivo"
+msgstr "Isto pode corromper a instância e só deve ser utilizado se o Minecraft estiver bloqueado por algum motivo"
 
 #: src/api/logic/launch/LaunchTask.cpp:215
 #, qt-format
@@ -1780,7 +1780,7 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "You'll have to correct this problem manually."
 msgstr "Alguns artefactos marcados como 'local' têm ficheiros ausentes:\n"
 "%1\n\n"
-"É necessário copiares os arquivos ou removeres os pacotes que precisam deles.\n"
+"É necessário copiares os ficheiros ou removeres os pacotes que precisam deles.\n"
 "Isto vai ter que ser corrigido manualmente."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
@@ -1816,7 +1816,7 @@ msgstr "&Copiar"
 #: src/application/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "Carregar o registo para paste.ee - ele ficará online por um mês"
+msgstr "Carregar o registo para o site paste.ee - ficará online por um mês"
 
 #: src/application/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
@@ -1862,18 +1862,18 @@ msgstr "Registo do Minecraft"
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr "MultiMC: Comando de envio de log recebido em %1"
+msgstr "MultiMC: Comando de envio de registo recebido em %1"
 
 #: src/application/pages/instance/LogPage.cpp:243
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr "MultiMC: Log enviado para %1"
+msgstr "MultiMC: Registo enviado para %1"
 
 #: src/application/pages/instance/LogPage.cpp:247
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr "MultiMC: Falha ao enviar o Log!"
+msgstr "MultiMC: Falha ao enviar o registo!"
 
 #. Message displayed on instance exit
 #: src/api/logic/LoggedProcess.cpp:68
@@ -2003,7 +2003,7 @@ msgstr "Reportar um erro"
 #: src/application/MainWindow.cpp:313
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
-msgstr "Abrir o rastreador de erros para reportar um erro com MultiMC."
+msgstr "Abrir o rastreador de erros para reportar um erro com o MultiMC."
 
 #: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
@@ -2276,7 +2276,7 @@ msgstr "Profilers"
 #: src/application/MainWindow.cpp:976
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
-msgstr "O Profiler não foi instalado corretamente. Vá em definições, \"Ferramentas Externas\"."
+msgstr "O Profiler não foi instalado corretamente. Podes ir nas definições, a \"Ferramentas Externas\"."
 
 #: src/application/MainWindow.cpp:1030
 msgctxt "MainWindow|"
@@ -2296,7 +2296,7 @@ msgstr "A carregar notícias…"
 #: src/application/MainWindow.cpp:1181
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr "Não há notícias novas."
+msgstr "Nenhuma notícia disponível."
 
 #: src/application/MainWindow.cpp:1264 src/application/MainWindow.cpp:1281
 msgctxt "MainWindow|"
@@ -2308,7 +2308,7 @@ msgstr "Erro"
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
-msgstr "Não foi possível criar uma pasta para as transferências de atualização:\n"
+msgstr "Não foi possível criar uma pasta para transferências das atualizações:\n"
 "%1"
 
 #: src/api/logic/meta/Index.cpp:71
@@ -2883,7 +2883,7 @@ msgstr "Notas"
 #: src/application/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
 msgid "Notification"
-msgstr "Notificações"
+msgstr "Notificação"
 
 #: src/application/dialogs/NotificationDialog.ui:65
 #: src/application/dialogs/NotificationDialog.cpp:30
@@ -2932,7 +2932,7 @@ msgstr "Apagar"
 #: src/application/pages/instance/OtherLogsPage.ui:87
 msgctxt "OtherLogsPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "A enviar o registo para o site paste.ee - ficará on-line por um mês"
+msgstr "Carregar o registo para o site paste.ee - ficará online por um mês"
 
 #: src/application/pages/instance/OtherLogsPage.ui:90
 msgctxt "OtherLogsPage|"
@@ -2971,7 +2971,7 @@ msgstr "Não foi possível abrir %1 para ler: %2"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
-msgstr "O ficheiro (%1) é muito grande. Podes abri-lo em um visualizador otimizado para ficheiro grandes."
+msgstr "O ficheiro (%1) é muito grande. Podes abri-lo num visualizador otimizado para ficheiro grandes."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:161
 #, qt-format
@@ -3241,7 +3241,7 @@ msgstr "Tipo"
 #: src/application/pages/global/ProxyPage.ui:61
 msgctxt "ProxyPage|"
 msgid "Uses your system's default proxy settings."
-msgstr "Usar as definições padrões de proxy do sistema."
+msgstr "Usar as definições padrão de proxy do sistema."
 
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
@@ -3422,7 +3422,7 @@ msgstr "O caminho está vazio"
 #: src/api/logic/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
-msgstr "O caminho não parece ser um caminho do MCEdit"
+msgstr "O caminho não parece ser do MCEdit"
 
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
@@ -3448,7 +3448,7 @@ msgstr "<p> Não existem mudanças de código entre esta versão e a última %1 
 #: src/application/dialogs/UpdateDialog.cpp:126
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Os seguintes commits foram adicionados desde a última atualização</p>"
+msgstr "<p>Os seguintes commits foram adicionados desde a última atualização:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:133
 #, qt-format
@@ -3511,8 +3511,8 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
-msgstr "A reversão falhou também.\n"
-"Vais ter que reparar MultiMC manualmente ou reinstalá-lo\n"
+msgstr "A reversão também falhou.\n"
+"Vais ter que reparar o MultiMC manualmente.\n"
 "Por favor, diz-nos porque e como isto aconteceu."
 
 #: src/application/MainWindow.cpp:1000
@@ -3628,7 +3628,7 @@ msgstr "Podes abrir um gzip tanto para leitura ou escrita. Qual opção?"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "Não foi possível a operação gzopen() no ficheiro"
+msgstr "Não foi possível executar a operação gzopen() no ficheiro"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
@@ -3738,7 +3738,7 @@ msgstr "Envio finalizado"
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in your clipboard."
-msgstr "O <a href=\"%1\">link da  captura de ecrã</a> foi copiado."
+msgstr "O <a href=\"%1\">link  da captura de ecrã</a> foi copiado."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
@@ -3930,7 +3930,7 @@ msgstr "Usar URLs remotas para colocar skins ainda não foi implementado."
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
 msgid "You cannot use an invalid URL for uploading skins."
-msgstr "Não pode usar uma URL inválida para enviar skins."
+msgstr "Não podes usar uma URL inválida para enviar skins."
 
 #: src/application/dialogs/SkinUploadDialog.cpp:75
 msgctxt "SkinUploadDialog|"
@@ -3957,7 +3957,7 @@ msgstr "Selecionar uma textura de skin"
 msgctxt "StatusChecker|"
 msgid "Failed to load status JSON:\n"
 "%1"
-msgstr "Falha ao carregar os status JSON:\n"
+msgstr "Falha ao carregar JSON de status:\n"
 "%1"
 
 #: src/application/pages/modplatform/TechnicPage.h:40
@@ -3995,7 +3995,7 @@ msgstr "Integralidade"
 #: src/api/logic/translations/TranslationsModel.cpp:386
 msgctxt "TranslationsModel|"
 msgid "The native language name."
-msgstr "Nome da língua nativa."
+msgstr "Nome da linguagem nativa."
 
 #: src/api/logic/translations/TranslationsModel.cpp:390
 msgctxt "TranslationsModel|"
@@ -4259,7 +4259,7 @@ msgstr "Adicionar um mod dentro da minecraft.jar."
 #: src/application/pages/instance/VersionPage.ui:199
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
-msgstr "Substituir a minecraft.jar"
+msgstr "Substituir minecraft.jar"
 
 #: src/application/pages/instance/VersionPage.ui:204
 msgctxt "VersionPage|"
@@ -4341,7 +4341,7 @@ msgstr "Não foi possível remover o ficheiro"
 #: src/application/pages/instance/VersionPage.cpp:286
 msgctxt "VersionPage|"
 msgid "Select jar mods"
-msgstr "Selecionar os arquivos jar dos Mods"
+msgstr "Selecionar os ficheiros jar dos Mods"
 
 #: src/application/pages/instance/VersionPage.cpp:286
 msgctxt "VersionPage|"
@@ -4374,13 +4374,13 @@ msgstr "Nenhuma versão do Fabric Loader está disponível atualmente."
 #: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "Não foi possível carregar/transferir a lista de versões do Fabric Loader!"
+msgstr "Não foi possível carregar ou transferir a lista de versões do Fabric Loader!"
 
 #: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr "O MuiltiMC não pode realizar o download ou atualizar o Minecraft sem ter ao menos uma conta adicionada.\n"
+msgstr "O MuiltiMC não pode transferir ou atualizar o Minecraft sem ter ao menos uma conta adicionada.\n"
 "Por favor adiciona a tua conta Mojang ou Minecraft."
 
 #: src/application/pages/instance/VersionPage.cpp:414
@@ -4668,12 +4668,12 @@ msgstr "O MCEdit falhou ao iniciar.\n"
 #: src/application/pages/instance/WorldListPage.cpp:264
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
-msgstr "Escolhe um mundo em um zip"
+msgstr "Escolhe um mundo em zip"
 
 #: src/application/pages/instance/WorldListPage.cpp:265
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr "Arquivo zip de mundo(*.zip)."
+msgstr "Ficheiro zip de mundo (*.zip)"
 
 #: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
@@ -4734,7 +4734,7 @@ msgstr "Falha ao analisar a resposta JSON do servidor de autenticação: %1 em %
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr "Um erro desconhecido ocorreu ao tentar se comunicar com o servidor de autenticação: %1"
+msgstr "Um erro desconhecido ocorreu ao tentar comunicar com o servidor de autenticação: %1"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:213
 msgctxt "YggdrasilTask|"
@@ -4759,7 +4759,7 @@ msgstr "Tarefa de autenticação bem sucedida."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:230
 msgctxt "YggdrasilTask|"
 msgid "Failed to contact the authentication server."
-msgstr "Falha ao contatar o servidor de autenticação."
+msgstr "Falha ao contactar o servidor de autenticação."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:232
 msgctxt "YggdrasilTask|"
