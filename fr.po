@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-10-03 06:27\n"
+"PO-Revision-Date: 2019-10-14 00:47\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -105,7 +105,9 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr ""
+msgstr "<p>Nous gardons MultiMC open source car nous pensons qu'il est important de pouvoir voir le code source d'un projet comme celui-ci, et nous le faisons en utilisant la licence Apache.</p>\n"
+"<p>La raison principale de l'utilisation de la licence Apache réside dans le fait que nous ne voulons pas que les gens utilisant le nom &quot;MultiMC&quot; lors de la redistribution du projet. Cela signifie que les gens doivent prendre le temps de passer via le code source et supprimer toute référence à &quot;MultiMC&quot;, incluant (mais sans s'y limiter) l'icône du projet et le titre des fenêtres, (<b>pas de dérivé de MultiMC</b> dans le titre).</p>\n"
+"<p>La licence Apache autorise une utilisation raisonnable du nom - une mention du projet d'origine et sa licence dans la fenêtre \"À propos\" est acceptable. Cependant, il devrait être très clair que le projet est un dérivé (de MultiMC) <b>sans</b> impliquer que vous avez notre bénédiction.</p>"
 
 #: src/application/pages/global/AccountListPage.ui:47
 msgctxt "AccountListPage|"
@@ -167,7 +169,7 @@ msgstr "Nous récupérons certaines données anonymes sur nos utilisateurs."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>MultiMC envoie des statistiques anonyme sur l'utilisation chaque fois que l'application démarre. Ceci nous aide dans notre decision sur quelles plateformes et problèmes on devrait se concentrer dessus.</p><p>Les statistiques sont procédés par Google Analytics, veuillez voir<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">l'article sur le sujet</a>.</p><p>Les données suivantes sont récoltées:</p><ul><li>Un numéro d'identification aléatoire de votre installation de MultiMC.<br />Il est sauvegardée dans les paramètres de l'application (multimc.cfg).</li><li>Votre adresse IP anonymisé (partielle).</li><li>Votre version de MultiMC.</li><li>Nom, version et architecture du système d'exploitation.</li><li>Architecture du CPU (Architecture du noyau sur Linux).</li><li>Quantité de mémoire système.</li><li>Version, architecture et configurations de mémoire pour Java.</li></ul><p>Si nous modifions les données récoltées, cette page va réapparaitre.</p></body></html>"
+msgstr "<html><body><p>MultiMC envoie des statistiques anonyme sur l'utilisation chaque fois que l'application démarre. Ceci nous aide dans notre decision sur quelles plateformes et problèmes on devrait se concentrer dessus.</p><p>Les statistiques sont procédés par Google Analytics, veuillez voir<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">l'article sur le sujet</a>.</p><p>Les données suivantes sont récoltées:</p><ul><li>Le numéro d'identification aléatoire de votre installation de MultiMC.<br />Il est sauvegardée dans les paramètres de l'application (multimc.cfg).</li><li>Votre adresse IP anonymisé (partielle).</li><li>Votre version de MultiMC.</li><li>Nom, version et architecture du système d'exploitation.</li><li>Architecture du CPU (Architecture du noyau sur Linux).</li><li>Quantité de mémoire système.</li><li>Version, architecture et configurations de mémoire pour Java.</li></ul><p>Dans le cas où les données analysées seraient modifiées, cette page réapparaîtra..</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -753,12 +755,12 @@ msgstr "Résolution échoué: Il manque le fichier de l'attribut"
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Failed to resolve projectId as a number."
-msgstr ""
+msgstr "Impossible de résoudre projectId en tant que nombre."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Failed to resolve fileId as a number."
-msgstr ""
+msgstr "Impossible de résoudre l'ID du fichier en tant que nombre."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
 msgctxt "Flame::UrlResolvingTask|"
@@ -1776,12 +1778,12 @@ msgstr "La mise à jour du jeu a échoué: il est impossible d'extraire les bibl
 #: src/application/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
 msgid "Keep updating"
-msgstr "Garder à jour"
+msgstr "Mise à jour dynamique"
 
 #: src/application/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr "Emballer les lignes"
+msgstr "Grouper les lignes"
 
 #: src/application/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
@@ -1821,7 +1823,7 @@ msgstr "Rechercher :"
 #: src/application/pages/instance/LogPage.ui:132
 msgctxt "LogPage|"
 msgid "Find"
-msgstr "Trouver"
+msgstr "Rechercher"
 
 #: src/application/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
@@ -1831,7 +1833,7 @@ msgstr "Défiler complètement vers le fond"
 #: src/application/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr "Fond"
+msgstr "Fin"
 
 #: src/application/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
@@ -1910,7 +1912,7 @@ msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "Tuer l'instance courante"
 
-#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:954
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:955
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Lancer"
@@ -1955,7 +1957,7 @@ msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Ouvrir le dossier des Mods central dans un explorateur de fichiers."
 
-#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:624
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:625
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Dossiers"
@@ -2015,7 +2017,7 @@ msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "Voir les informations à propos de MultiMC."
 
-#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:625
+#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:626
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Aide"
@@ -2038,7 +2040,7 @@ msgstr "Vérifier les nouvelles mises à jour pour MultiMC."
 #: src/application/MainWindow.cpp:371
 msgctxt "MainWindow|"
 msgid "Support MultiMC"
-msgstr "Supporter MultiMC"
+msgstr "Soutenir MultiMC"
 
 #: src/application/MainWindow.cpp:372
 msgctxt "MainWindow|"
@@ -2068,7 +2070,7 @@ msgstr "Barre d'outils des nouveautés"
 #: src/application/MainWindow.cpp:420
 msgctxt "MainWindow|"
 msgid "More news..."
-msgstr "Plus de nouvelles..."
+msgstr "Plus d'actualité..."
 
 #: src/application/MainWindow.cpp:421
 msgctxt "MainWindow|"
@@ -2100,7 +2102,7 @@ msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Renommer l'instance sélectionnée."
 
-#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:955
+#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:956
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Lancer Hors ligne"
@@ -2215,75 +2217,75 @@ msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Dupliquer l'instance sélectionnée."
 
-#: src/application/MainWindow.cpp:604
+#: src/application/MainWindow.cpp:605
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - Version %1"
 
-#: src/application/MainWindow.cpp:607
+#: src/application/MainWindow.cpp:608
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " sur %1"
 
-#: src/application/MainWindow.cpp:717
+#: src/application/MainWindow.cpp:718
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "Aucune instance sélectionnée"
 
-#: src/application/MainWindow.cpp:732 src/application/MainWindow.cpp:1128
+#: src/application/MainWindow.cpp:733 src/application/MainWindow.cpp:1129
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "Profils"
 
-#: src/application/MainWindow.cpp:887
+#: src/application/MainWindow.cpp:888
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Créer une instance"
 
-#: src/application/MainWindow.cpp:903
+#: src/application/MainWindow.cpp:904
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "Supprimer le groupe '%1'"
 
-#: src/application/MainWindow.cpp:964
+#: src/application/MainWindow.cpp:965
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Profiliers"
 
-#: src/application/MainWindow.cpp:976
+#: src/application/MainWindow.cpp:977
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "Le Profiler n'est pas configuré correctement. Allez dans Paramètres, \"Outils externes\"."
 
-#: src/application/MainWindow.cpp:1030
+#: src/application/MainWindow.cpp:1031
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Pas de comptes ajoutés!"
 
-#: src/application/MainWindow.cpp:1060
+#: src/application/MainWindow.cpp:1061
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Pas de compte par défaut"
 
-#: src/application/MainWindow.cpp:1168
+#: src/application/MainWindow.cpp:1169
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Chargement des nouvelles ..."
 
-#: src/application/MainWindow.cpp:1181
+#: src/application/MainWindow.cpp:1182
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Pas de nouvelles disponibles."
 
-#: src/application/MainWindow.cpp:1264 src/application/MainWindow.cpp:1281
+#: src/application/MainWindow.cpp:1265 src/application/MainWindow.cpp:1282
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Erreur"
 
-#: src/application/MainWindow.cpp:1264
+#: src/application/MainWindow.cpp:1265
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -2464,17 +2466,17 @@ msgstr "Supprimer le(s) mod(s) sélectionné(s)"
 #: src/application/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
 msgid "&Enable"
-msgstr ""
+msgstr "&Activer"
 
 #: src/application/pages/instance/ModFolderPage.ui:115
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr ""
+msgstr "Activer les mods sélectionnés"
 
 #: src/application/pages/instance/ModFolderPage.ui:120
 msgctxt "ModFolderPage|"
 msgid "&Disable"
-msgstr ""
+msgstr "&Désactiver"
 
 #: src/application/pages/instance/ModFolderPage.ui:123
 msgctxt "ModFolderPage|"
@@ -2484,7 +2486,7 @@ msgstr "Désactiver le(s) mod(s) sélectionné(s)"
 #: src/application/pages/instance/ModFolderPage.ui:128
 msgctxt "ModFolderPage|"
 msgid "View &Configs"
-msgstr ""
+msgstr "Voir les &configurations"
 
 #: src/application/pages/instance/ModFolderPage.ui:131
 msgctxt "ModFolderPage|"
@@ -2494,12 +2496,12 @@ msgstr "Ouvrir le dossier de configuration dans l'explorateur de fichiers du sys
 #: src/application/pages/instance/ModFolderPage.ui:136
 msgctxt "ModFolderPage|"
 msgid "View &Folder"
-msgstr ""
+msgstr "Voir le &dossier"
 
 #: src/application/pages/instance/ModFolderPage.cpp:168
 msgctxt "ModFolderPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Menu contextuel"
 
 #: src/application/pages/instance/ModFolderPage.cpp:281
 #, qt-format
@@ -2526,7 +2528,7 @@ msgstr "Échec de la creation du fichier jar de Minecraft personnalisée."
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
-msgstr ""
+msgstr "Actif ?"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:230
 msgctxt "MojangAccountList|"
@@ -2538,7 +2540,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "Le nom de la version."
 
-#: src/application/MultiMC.cpp:523
+#: src/application/MultiMC.cpp:522
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "Règlages"
@@ -2666,7 +2668,7 @@ msgstr "Couleurs"
 #: src/application/pages/global/MultiMCPage.ui:348
 msgctxt "MultiMCPage|"
 msgid "Console"
-msgstr ""
+msgstr "Console"
 
 #: src/application/pages/global/MultiMCPage.ui:354
 msgctxt "MultiMCPage|"
@@ -2809,10 +2811,10 @@ msgstr "Nom"
 #: src/application/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:143
+#: src/application/dialogs/NewInstanceDialog.cpp:141
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "Nouvelle instance"
@@ -2827,7 +2829,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "&Nom:"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:67
+#: src/application/dialogs/NewInstanceDialog.cpp:65
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "Aucun groupe"
@@ -2858,7 +2860,7 @@ msgstr "Auteur inconnu"
 #: src/application/pages/instance/NotesPage.h:38
 msgctxt "NotesPage|"
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #: src/application/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
@@ -3007,87 +3009,6 @@ msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "Autres logs"
 
-#: src/application/pages/global/PackagesPage.ui:14
-msgctxt "PackagesPage|"
-msgid "Form"
-msgstr "Forme"
-
-#: src/application/pages/global/PackagesPage.ui:36
-msgctxt "PackagesPage|"
-msgid "Tab 1"
-msgstr ""
-
-#: src/application/pages/global/PackagesPage.ui:42
-msgctxt "PackagesPage|"
-msgid "Versions"
-msgstr ""
-
-#: src/application/pages/global/PackagesPage.ui:48
-#: src/application/pages/global/PackagesPage.ui:161
-msgctxt "PackagesPage|"
-msgid "Search..."
-msgstr "Rechercher..."
-
-#: src/application/pages/global/PackagesPage.ui:70
-#: src/application/pages/global/PackagesPage.ui:183
-#: src/application/pages/global/PackagesPage.cpp:177
-#: src/application/pages/global/PackagesPage.cpp:217
-msgctxt "PackagesPage|"
-msgid "Refresh"
-msgstr "Actualiser"
-
-#: src/application/pages/global/PackagesPage.ui:81
-msgctxt "PackagesPage|"
-msgid "Version:"
-msgstr ""
-
-#: src/application/pages/global/PackagesPage.ui:95
-msgctxt "PackagesPage|"
-msgid "Time:"
-msgstr "Temps:"
-
-#: src/application/pages/global/PackagesPage.ui:109
-msgctxt "PackagesPage|"
-msgid "Type:"
-msgstr ""
-
-#: src/application/pages/global/PackagesPage.ui:123
-msgctxt "PackagesPage|"
-msgid "Dependencies:"
-msgstr "Dépendances:"
-
-#: src/application/pages/global/PackagesPage.ui:155
-msgctxt "PackagesPage|"
-msgid "Resources"
-msgstr "Packs de ressources"
-
-#: src/application/pages/global/PackagesPage.ui:194
-msgctxt "PackagesPage|"
-msgid "UID:"
-msgstr ""
-
-#: src/application/pages/global/PackagesPage.ui:208
-msgctxt "PackagesPage|"
-msgid "Name:"
-msgstr "Nom:"
-
-#: src/application/pages/global/PackagesPage.ui:240
-msgctxt "PackagesPage|"
-msgid "Refresh Index"
-msgstr "Actualiser l'index"
-
-#: src/application/pages/global/PackagesPage.h:37
-msgctxt "PackagesPage|"
-msgid "Packages"
-msgstr "Paquets"
-
-#: src/application/pages/global/PackagesPage.cpp:165
-#: src/application/pages/global/PackagesPage.cpp:204
-#, qt-format
-msgctxt "PackagesPage|"
-msgid "Refresh %1"
-msgstr "Actualiser %1"
-
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
@@ -3216,7 +3137,7 @@ msgstr "Ceci s'applique uniquement pour MultiMC. Minecraft n'accepte pas les ré
 #: src/application/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: src/application/pages/global/ProxyPage.ui:61
 msgctxt "ProxyPage|"
@@ -3446,7 +3367,7 @@ msgstr "<p>Vous pouvez <a href=\"%1\"> regarder les changements sur GitHub</a>.<
 #: src/application/dialogs/AboutDialog.cpp:52
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr ""
+msgstr "Patrons"
 
 #: src/application/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
@@ -3500,7 +3421,7 @@ msgstr "Le retour en arrière à échoué.\n"
 "Vous devez réparer MultiMC manuellement.\n"
 "S'il vous plaît laissez-nous savoir pourquoi et comment cela s'est passé."
 
-#: src/application/MainWindow.cpp:1000
+#: src/application/MainWindow.cpp:1001
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (en cours d’utilisation)"
@@ -3598,38 +3519,38 @@ msgstr "Serveur Minecraft"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append n'est pas pris en charge pour GZIP"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "L'ouverture de gzip pour la lecture et l'écriture n'est pas supportée"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "Vous pouvez ouvrir un gzip soit pour la lecture, soit pour l'écriture. Lequel est-ce ?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "Impossible d'ouvrir le fichier (Could not gzopen() file)"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append n'est pas supporté pour QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite n'est pas supporté pour QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "Erreur %1 API ZIP/UNZIP"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3669,17 +3590,17 @@ msgstr "Packs de ressources"
 #: src/application/pages/instance/ScreenshotsPage.ui:41
 msgctxt "ScreenshotsPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:59
 msgctxt "ScreenshotsPage|"
 msgid "Upload"
-msgstr ""
+msgstr "Envoyer"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:64
 msgctxt "ScreenshotsPage|"
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:69
 msgctxt "ScreenshotsPage|"
@@ -3699,7 +3620,7 @@ msgstr "Captures d'écrans"
 #: src/application/pages/instance/ScreenshotsPage.cpp:273
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Menu contextuel"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:318
 #: src/application/pages/instance/ScreenshotsPage.cpp:356
@@ -3749,7 +3670,7 @@ msgstr "Authentification"
 #: src/application/widgets/ServerStatus.cpp:68
 msgctxt "ServerStatus|"
 msgid "Session"
-msgstr ""
+msgstr "Session"
 
 #: src/application/widgets/ServerStatus.cpp:70
 msgctxt "ServerStatus|"
@@ -3759,7 +3680,7 @@ msgstr "Apparences"
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -3809,7 +3730,7 @@ msgstr "Jamais télécharger"
 #: src/application/pages/instance/ServersPage.ui:130
 msgctxt "ServersPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: src/application/pages/instance/ServersPage.ui:154
 msgctxt "ServersPage|"
@@ -3839,7 +3760,7 @@ msgstr "Serveurs"
 #: src/application/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Menu contextuel"
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -3945,11 +3866,6 @@ msgid "Failed to load status JSON:\n"
 msgstr "Échec eu chargeant lu status JSON:\n"
 "%1"
 
-#: src/application/pages/modplatform/TechnicPage.h:40
-msgctxt "TechnicPage|"
-msgid "Technic"
-msgstr ""
-
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
@@ -3975,7 +3891,7 @@ msgstr "Langage"
 #: src/api/logic/translations/TranslationsModel.cpp:376
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr "Complétude"
+msgstr "Progression"
 
 #: src/api/logic/translations/TranslationsModel.cpp:386
 msgctxt "TranslationsModel|"
@@ -3987,15 +3903,20 @@ msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "La complétude est le pourcentage de chaînes entièrement traduites, sans compter celles qui sont automatiquement devinées."
 
-#: src/application/pages/modplatform/TwitchPage.ui:20
+#: src/application/pages/modplatform/TwitchPage.ui:38
+msgctxt "TwitchPage|"
+msgid "Check"
+msgstr "Vérifier"
+
+#: src/application/pages/modplatform/TwitchPage.ui:45
 msgctxt "TwitchPage|"
 msgid "Twitch URL:"
 msgstr "URL Twitch:"
 
-#: src/application/pages/modplatform/TwitchPage.ui:48
+#: src/application/pages/modplatform/TwitchPage.ui:55
 msgctxt "TwitchPage|"
-msgid "Check"
-msgstr "Vérifier"
+msgid "Drag and drop an Install button from CurseForge into the are above."
+msgstr ""
 
 #: src/application/pages/modplatform/TwitchPage.h:41
 msgctxt "TwitchPage|"
@@ -4048,7 +3969,7 @@ msgstr "Fermer"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>Chargement du changelog...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
@@ -4074,12 +3995,12 @@ msgstr "Filtre"
 #: src/application/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
 msgid "Releases"
-msgstr ""
+msgstr "Releases"
 
 #: src/application/pages/modplatform/VanillaPage.ui:64
 msgctxt "VanillaPage|"
 msgid "Snapshots"
-msgstr ""
+msgstr "Snapshots"
 
 #: src/application/pages/modplatform/VanillaPage.ui:74
 msgctxt "VanillaPage|"
@@ -4089,7 +4010,7 @@ msgstr "Anciennes Snapshots"
 #: src/application/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
 msgid "Betas"
-msgstr ""
+msgstr "Betas"
 
 #: src/application/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
@@ -4109,7 +4030,7 @@ msgstr "Actualiser"
 #: src/application/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
@@ -4209,7 +4130,7 @@ msgstr "Installer Fabric"
 #: src/application/pages/instance/VersionPage.ui:170
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
-msgstr ""
+msgstr "Installer le fichier LiteLoader."
 
 #: src/application/pages/instance/VersionPage.ui:175
 msgctxt "VersionPage|"
@@ -4254,7 +4175,7 @@ msgstr "Ajouter un jar"
 #: src/application/pages/instance/VersionPage.ui:207
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
-msgstr ""
+msgstr "Ajouter un package personnalisé vide."
 
 #: src/application/pages/instance/VersionPage.ui:212
 msgctxt "VersionPage|"
