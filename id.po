@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
-"PO-Revision-Date: 2019-10-14 22:16\n"
+"PO-Revision-Date: 2019-10-17 00:48\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -2265,12 +2265,12 @@ msgstr "Tidak ada akun bawaan"
 #: src/application/MainWindow.cpp:1169
 msgctxt "MainWindow|"
 msgid "Loading news..."
-msgstr "Memuat Kabar..."
+msgstr "Memuat Berita..."
 
 #: src/application/MainWindow.cpp:1182
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr "Tidak ada kabar yang tersedia."
+msgstr "Tidak ada berita baru."
 
 #: src/application/MainWindow.cpp:1265 src/application/MainWindow.cpp:1282
 msgctxt "MainWindow|"
@@ -2787,7 +2787,8 @@ msgstr "[PERINGATAN/Sesuatu] Peringatan yang tidak terlalu menakutkan."
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "Pekerjaan '%1' gagal untuk memproses:\n"
+"%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
@@ -2883,7 +2884,7 @@ msgstr "Cari"
 #: src/application/pages/instance/OtherLogsPage.ui:67
 msgctxt "OtherLogsPage|"
 msgid "Copy the whole log into the clipboard"
-msgstr ""
+msgstr "Salin seluruh riwayat ke papan klip"
 
 #: src/application/pages/instance/OtherLogsPage.ui:70
 msgctxt "OtherLogsPage|"
@@ -3044,13 +3045,13 @@ msgstr "paste.ee kembali dengan sebuah error. Mohon konsultasikan daftar riwayat
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
-msgstr ""
+msgstr "Menjalankan perintah Post-Launch: %1"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:39
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Perintah Post-Launch gagal dengan kode %1.\n\n"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
@@ -3158,7 +3159,7 @@ msgstr "H&TTP"
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
 msgid "Address and Port"
-msgstr ""
+msgstr "Alamat dan Port"
 
 #: src/application/pages/global/ProxyPage.ui:139
 msgctxt "ProxyPage|"
@@ -3378,7 +3379,7 @@ msgstr "Pembaruan Gagal!"
 #: src/application/UpdateController.cpp:363
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr ""
+msgstr "Pengembalian gagal!"
 
 #: src/application/UpdateController.cpp:368
 #, qt-format
@@ -3393,20 +3394,24 @@ msgstr "Tidak dapat mengganti file %1. Perubahan akan dipulihkan.\n"
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "Tidak dapat menghapus file %1. Semua perubahan akan dikembalikan semula.\n"
+"Lihat daftar riwayat MultiMC untuk detail lebih lanjut."
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
-msgstr ""
+msgstr "Versi baru MultiMC tidak dapat dijalankan atau terlalu tua dan tidak merespon pemeriksaan penjalanan.\n\n"
+"Kembalikan ke versi sebelumnya?"
 
 #: src/application/UpdateController.cpp:406
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "Pengembalian gagal.\n"
+"Anda harus memperbaiki MultiMC secara manual.\n"
+"Tolong beritahu kami kenapa dan bagaimana hal ini terjadi."
 
 #: src/application/MainWindow.cpp:1001
 msgctxt "QObject|"
@@ -3439,12 +3444,14 @@ msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr ""
+msgstr "Anda mencoba untuk mengatur opsi memori JVM secara manual (menggunakan \"-XX:PermSize\",\"-XX-MaxHeapSize\",\"-XX:InitialHeapSize\",\"-Xmx\" or \"-Xms\").\n"
+"Terdapat kotak yang dikhususkan untuk pengaturan tersebut (didalam tab Java, dalam group Memori diatas).\n"
+"Pesan ini akan terus ditampilkan sampai anda menghapus mereka dari argumen JVM."
 
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr ""
+msgstr "Peringatan argument JVM"
 
 #: src/application/JavaCommon.cpp:26
 #: src/application/widgets/JavaSettingsWidget.cpp:309
@@ -3535,7 +3542,7 @@ msgstr ""
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "Error men-ZIP/UNZIP API %1"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3629,13 +3636,13 @@ msgstr "Berhasil mengunggah"
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in your clipboard."
-msgstr ""
+msgstr "Link <a href=\"%1\"> untuk mengupload screenshot</a> telah diletakkan kedalam papan kilp anda."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your clipboard."
-msgstr ""
+msgstr "Link <a href=\"%1\"> ke album yang terunggah</a> telah diletakkan kedalam papan klip anda."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
@@ -3791,12 +3798,12 @@ msgstr "Unggah Skin"
 #: src/application/dialogs/SkinUploadDialog.ui:20
 msgctxt "SkinUploadDialog|"
 msgid "Skin File"
-msgstr ""
+msgstr "File Skin"
 
 #: src/application/dialogs/SkinUploadDialog.ui:51
 msgctxt "SkinUploadDialog|"
 msgid "Player Model"
-msgstr ""
+msgstr "Model Pemain"
 
 #: src/application/dialogs/SkinUploadDialog.ui:57
 msgctxt "SkinUploadDialog|"
