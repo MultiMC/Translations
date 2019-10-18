@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2019-10-16 16:12\n"
+"PO-Revision-Date: 2019-10-18 11:42\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -169,7 +169,7 @@ msgstr "My sledujeme nejaké anonymní statistiky o uživatelých."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>MultiMC odesílá anonymní statistiky využití při každém startu aplikace. To nám pomáhá se rozhodnout na jakou platformu a problémy se zaměřit.</p><p>Data jsou zpracována službou Google Analytics, podívejte se na jejich<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">článek o této záležitosti</a>.</p><p>Shromažďujeme následující údaje:</p><ul><li>Náhodné unikátní ID instalace MultiMC.<br />To je uloženo v nastavení aplikace (multimc.cfg).</li><li>Anonymizovaná (částečná) IP adresa.</li><li>Verze MultiMC.</li><li>Název operačního systému, jeho verze a architektura.</li><li>Architektura CPU (Na linuxu architektura kernelu).</li><li>Velikost systémové paměti</li><li>Verze Javy, architektura a nastavení paměti.</li></ul><p>Pokud změníme seznam shromažďovaných informaci, uvidíte tuto stránku znovu.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -332,7 +332,7 @@ msgstr "Instance má konfliktní závislosti."
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
+msgstr "Instance má nevyřešené závislosti, zatímco načítá/kontroluje spuštění."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
 #, qt-format
@@ -526,7 +526,7 @@ msgstr "Instalace JProfiler se zdá být v pořádku"
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "Spustitelný soubor JVisualVM"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -600,7 +600,7 @@ msgstr "Stahování FML knihoven..."
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr ""
+msgstr "Kopíruji FML knihovny do instance..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
 msgctxt "FMLLibrariesTask|"
@@ -611,7 +611,7 @@ msgstr "Vytváření složky knihovy FLM uvnitř instance se nezdařilo."
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr ""
+msgstr "Kopírování Forge/FML knihoven selhalo: %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
 #, qt-format
@@ -620,7 +620,10 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr ""
+msgstr "Stahování následujících souborů selhalo:\n"
+"%1\n\n"
+"Důvod:%2\n"
+"Prosím zkuste to znovu."
 
 #: src/application/pages/modplatform/FTBPage.ui:21
 msgctxt "FTBPage|"
