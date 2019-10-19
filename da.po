@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
-"PO-Revision-Date: 2019-10-16 23:20\n"
+"PO-Revision-Date: 2019-10-19 20:52\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -281,216 +281,217 @@ msgstr "Kunne ikke starte Java:"
 #: src/api/logic/java/launch/CheckJava.cpp:90
 msgctxt "CheckJava|"
 msgid "Could not start java!"
-msgstr ""
+msgstr "Kunne ikke starte Java!"
 
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr ""
+msgstr "Under kontrol af Java returneredes ugyldig data, som MultiMC ikke forstår:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
 msgctxt "CheckJava|"
 msgid "Java is version %1, using %2-bit architecture.\n\n"
-msgstr ""
+msgstr "Java er version %1, og bruger %2-bit arkitektur.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
 msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr ""
+msgstr "CPU-arkitekturen stemmer ikke overens med systemarkitekturen. Der skal muligvis installeres et 64-bit operativsystem.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
 msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr ""
+msgstr "Java-arkitekturen stemmer ikke overens med systemarkitekturen. Der skal muligvis installeres en 64-bit Java-version.\n\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #: src/api/logic/minecraft/ComponentList.cpp:854
 msgctxt "ComponentList|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
-msgstr ""
+msgstr "Indlæsning af visse metadata-komponenter mislykkedes."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr ""
+msgstr "Der blev fundet modstridende krav under kontrol af nødvendige filer!"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr ""
+msgstr "Instansen har modstridende filkrav."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
+msgstr "Instansen fandt uløste filkrav under indlæsning/kontrol af indlæsning."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr ""
+msgstr "Opdatering af metadata-komponenter mislykkedes under overførsel fra fjernserver:\n"
+"%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr ""
+msgstr "Kopier instans"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:90
 msgctxt "CopyInstanceDialog|"
 msgid "&Group"
-msgstr ""
+msgstr "&Gruppe"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
-msgstr ""
+msgstr "Kopier gemte spil"
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Ingen gruppe"
 
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
 msgctxt "CreateServerResourcePacksFolder|"
 msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr ""
+msgstr "Kunne ikke oprette ‘serverressourcepakker’-mappen"
 
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
-msgstr ""
+msgstr "&Egne kommandoer"
 
 #: src/application/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr ""
+msgstr "Kommando til brug efter nedlukning:"
 
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
-msgstr ""
+msgstr "Kommando til brug før opstart:"
 
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr ""
+msgstr "Omslagskommando:"
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Kommandoer til før opstart køres før instansen startes og kommandoer til efter nedlukning kører efter instansen er lukket ned.</p><p>Begge bliver kørt i MultiMC’s arbejdsmappe med ekstra miljøvariable:</p><ul><li>$INST_NAME - Navn på instansen</li><li>$INST_ID - Instansen ID (navnet på mappen)</li><li>$INST_DIR - fulde sti til instansen</li><li>$INST_MC_DIR - fulde sti til Minecraft</li><li>$INST_JAVA - Java-binærfil brugt ved opstart</li><li>$INST_JAVA_ARGS - kommandolinjeparametre brugt ved opstart</li></ul><p>Omslagskommandoer tillader opstart ved brug af et ekstra omslagsprogram (såsom 'optirun' på Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr ""
+msgstr "Egne kommandoer"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Omslagskommandoen \"%1\" blev ikke fundet."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Kunne ikke starte Minecraft!"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:121
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "Minecraft proces-ID: %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Login"
-msgstr ""
+msgstr "Log ind"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email / Username"
-msgstr ""
+msgstr "E-mail/Brugernavn"
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
 msgid "Password"
-msgstr ""
+msgstr "Adgangskode"
 
 #: src/application/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr ""
+msgstr "Eksportér instans"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr ""
+msgstr "Eksportér %1"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
-msgstr ""
+msgstr "Overskriv?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "Denne fil eksisterer allerede. Vil du overskrive den?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
-msgstr ""
+msgstr "Fejl"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr ""
+msgstr "Kan ikke eksportere instans"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
 #: src/application/pages/global/ExternalToolsPage.ui:133
 msgctxt "ExternalToolsPage|"
 msgid "Check"
-msgstr ""
+msgstr "Kontroller"
 
 #: src/application/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr ""
+msgstr "Eksterne redigeringsprogrammer (lad være blank for at bruge systemstandard)"
 
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr ""
+msgstr "Tekstredigeringsprogram:"
 
 #: src/application/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
 msgid "External Tools"
-msgstr ""
+msgstr "Eksterne værktøjer"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr ""
+msgstr "JProfiler-mappe"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -500,7 +501,7 @@ msgstr ""
 #: src/application/pages/global/ExternalToolsPage.cpp:191
 msgctxt "ExternalToolsPage|"
 msgid "Error"
-msgstr ""
+msgstr "Fejl"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -508,24 +509,25 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr ""
+msgstr "Fejl under kontrol af JProfiler-installation:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "OK"
-msgstr ""
+msgstr "Ok"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr ""
+msgstr "JProfiler-opsætning ser ud til at være okay"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "JVisualVM-program"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -533,22 +535,23 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr ""
+msgstr "Error while checking JVisualVM install:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr ""
+msgstr "JVisualVM-opsætning ser ud til at være okay"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr ""
+msgstr "MCEdit-program"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr ""
+msgstr "MCEdit-mappe"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -880,106 +883,106 @@ msgstr ""
 #: src/api/logic/minecraft/World.cpp:46
 msgctxt "GameType|"
 msgid "Spectator"
-msgstr ""
+msgstr "Tilskuer"
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
-msgstr ""
+msgstr "Indlæser information om versionen..."
 
 #: src/api/logic/updater/DownloadTask.cpp:81
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr ""
+msgstr "Det lykkedes ikke at hente filer med information om versionen."
 
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
-msgstr ""
+msgstr "Læser filliste for ny version..."
 
 #: src/api/logic/updater/DownloadTask.cpp:102
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
-msgstr ""
+msgstr "Læser filliste for nuværende version..."
 
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr ""
+msgstr "Behandler fillister - finder en måde at installere opdateringen..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
-msgstr ""
+msgstr "Det lykkedes ikke at behandle opdateringslister..."
 
 #: src/api/logic/updater/DownloadTask.cpp:136
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr ""
+msgstr "Henter én opdateringsfil."
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr ""
+msgstr "Henter %1 opdateringsfiler."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr ""
+msgstr "Det lykkedes ikke at hente opdateringsfiler: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
 msgid "Pick icon"
-msgstr ""
+msgstr "Vælg ikon"
 
 #: src/application/dialogs/IconPickerDialog.cpp:65
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
-msgstr ""
+msgstr "Tilføj ikon"
 
 #: src/application/dialogs/IconPickerDialog.cpp:66
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
-msgstr ""
+msgstr "Fjern ikon"
 
 #: src/application/dialogs/IconPickerDialog.cpp:75
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
-msgstr ""
+msgstr "Åbn mappe"
 
 #. The title of the select icons open file dialog
 #: src/application/dialogs/IconPickerDialog.cpp:105
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
-msgstr ""
+msgstr "Vælg ikoner"
 
 #: src/application/dialogs/IconPickerDialog.cpp:108
 #, qt-format
 msgctxt "IconPickerDialog|"
 msgid "Icons %1"
-msgstr ""
+msgstr "Ikoner %1"
 
 #: src/application/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
 msgid "Browse"
-msgstr ""
+msgstr "Gennemse"
 
 #: src/application/pages/modplatform/ImportPage.ui:31
 msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
-msgstr ""
+msgstr "Lokal fil eller link til direkte download:"
 
 #: src/application/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
 msgid "Import from zip"
-msgstr ""
+msgstr "Importer fra zip-fil"
 
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Choose modpack"
-msgstr ""
+msgstr "Vælg modpack"
 
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
