@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2019-10-14 22:16\n"
+"PO-Revision-Date: 2019-10-20 12:25\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -105,7 +105,9 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr ""
+msgstr "<p>Necháváme MultiMC open source, jelikož si myslíme že je důležité, aby byl zdrojový kód projektu, jako je tento, vidět, a to děláme používáním licence Apache.</p>\n"
+"<p>Část důvodu proč používáme Apache licenci je to, že nechceme aby lidé při redistribuování projektu používali název &quot;MultiMC&quot;. To znamená, že si lidé musí udělat čas aby prošl zdrojový kód a odstranit jakoukoliv zmínku o &quot;MultiMC&quot;,včetně, ale ne omezeno na, ikonu projektu a název oken, (žádný <b>MultiMC-fork</b> v názvu).</p>\n"
+"<p>Apache licence zahrnuje rozumné použití názvu - zmínka ohledně původu projektu v sekci \"O nás\" a v licenci je přijatelné. Nicméně by mělo být zřejmé, že se jedná o fork <b>bez</b> naznačování, že máte naše požehnání.</p>"
 
 #: src/application/pages/global/AccountListPage.ui:47
 msgctxt "AccountListPage|"
@@ -167,7 +169,7 @@ msgstr "My sledujeme nejaké anonymní statistiky o uživatelých."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>MultiMC odesílá anonymní statistiky využití při každém startu aplikace. To nám pomáhá se rozhodnout na jakou platformu a problémy se zaměřit.</p><p>Data jsou zpracována službou Google Analytics, podívejte se na jejich<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">článek o této záležitosti</a>.</p><p>Shromažďujeme následující údaje:</p><ul><li>Náhodné unikátní ID instalace MultiMC.<br />To je uloženo v nastavení aplikace (multimc.cfg).</li><li>Anonymizovaná (částečná) IP adresa.</li><li>Verze MultiMC.</li><li>Název operačního systému, jeho verze a architektura.</li><li>Architektura CPU (Na linuxu architektura kernelu).</li><li>Velikost systémové paměti</li><li>Verze Javy, architektura a nastavení paměti.</li></ul><p>Pokud změníme seznam shromažďovaných informaci, uvidíte tuto stránku znovu.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -330,7 +332,7 @@ msgstr "Instance má konfliktní závislosti."
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
+msgstr "Instance má nevyřešené závislosti, zatímco načítá/kontroluje spuštění."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
 #, qt-format
@@ -514,7 +516,7 @@ msgstr "Chyba při kontrolování instalace JProfiler:↵\n"
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
@@ -524,7 +526,7 @@ msgstr "Instalace JProfiler se zdá být v pořádku"
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "Spustitelný soubor JVisualVM"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -598,7 +600,7 @@ msgstr "Stahování FML knihoven..."
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr ""
+msgstr "Kopíruji FML knihovny do instance..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
 msgctxt "FMLLibrariesTask|"
@@ -609,7 +611,7 @@ msgstr "Vytváření složky knihovy FLM uvnitř instance se nezdařilo."
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr ""
+msgstr "Kopírování Forge/FML knihoven selhalo: %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
 #, qt-format
@@ -618,7 +620,10 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr ""
+msgstr "Stahování následujících souborů selhalo:\n"
+"%1\n\n"
+"Důvod:%2\n"
+"Prosím zkuste to znovu."
 
 #: src/application/pages/modplatform/FTBPage.ui:21
 msgctxt "FTBPage|"
@@ -660,7 +665,8 @@ msgstr "Soukromé FTB balíčky"
 msgctxt "FTBPage|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr ""
+msgstr "Stahování informací o balíčku pro kód %1 selhalo.\n"
+"Chcete ho nyní odstranit?"
 
 #: src/application/pages/modplatform/FTBPage.cpp:328
 msgctxt "FTBPage|"
@@ -711,12 +717,12 @@ msgstr "To není URL Twitche."
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Couldn't find the needle in the haystack..."
-msgstr ""
+msgstr "Nemůžu najít jehlu v kupce sena..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Couldn't find the end of the needle in the haystack..."
-msgstr ""
+msgstr "Nemůžu najít konec jehly v kupce sena..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
 msgctxt "Flame::UrlResolvingTask|"
@@ -807,7 +813,7 @@ msgstr "Balíčky třetích stran"
 #, qt-format
 msgctxt "FtbPackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
+msgstr "Nepodařilo se stáhnout některé seznamy balíčků: %1"
 
 #: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:27
 #, qt-format
@@ -984,7 +990,7 @@ msgstr "Vyberte modpack"
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
-msgstr ""
+msgstr "Zip (*.zip)"
 
 #: src/application/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1045,12 +1051,12 @@ msgstr "Nebylo možné otevřít vybraný soubor Modpacku."
 #: src/api/logic/InstanceImportTask.cpp:165
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr ""
+msgstr "Archiv neobsahuje uznávaný typ modpacku."
 
 #: src/api/logic/InstanceImportTask.cpp:120
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr ""
+msgstr "Extrahování modpacku selhalo"
 
 #: src/api/logic/InstanceImportTask.cpp:147
 #, qt-format
@@ -1066,12 +1072,12 @@ msgstr "Importování instance bylo přerušeno."
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Nelze pochopit manifest balíčku:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr ""
+msgstr "Nemohl jsem přejmenovat přepisovací složku:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:210
 #, qt-format
@@ -1105,7 +1111,7 @@ msgstr "Stáhnout mod"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
-msgstr ""
+msgstr "Tato 'složka' může vyžadovat extrahování: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:329
 #, qt-format
@@ -1392,7 +1398,7 @@ msgstr "Velikost paměti k dispozici pro uložení načtení tříd Java."
 #: src/application/pages/global/JavaPage.ui:141
 msgctxt "JavaPage|"
 msgid "Java Runtime"
-msgstr ""
+msgstr "Java Runtime"
 
 #: src/application/pages/global/JavaPage.ui:153
 msgctxt "JavaPage|"
@@ -1417,7 +1423,7 @@ msgstr ""
 #: src/application/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: src/application/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
@@ -1527,7 +1533,7 @@ msgstr "Žádné účty"
 #: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in to MultiMC.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "Chcete-li hrát Minecraft, musíte se do MultiMC přihlásit pomocí alespoň jednoho Mojang nebo Minecraft účtu. Chcete nyní otevřít správu účtů a přidat účet?"
 
 #: src/application/LaunchController.cpp:61
 msgctxt "LaunchController|"
@@ -1537,12 +1543,12 @@ msgstr "Který účet chcete používat?"
 #: src/application/LaunchController.cpp:77
 msgctxt "LaunchController|"
 msgid "No account selected for launch."
-msgstr ""
+msgstr "Žádný účet nebyl vybrán pro spuštění."
 
 #: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
 msgid "Your account is currently not logged in. Please enter your password to log in again. <br /> <br /> This could be caused by a password change."
-msgstr ""
+msgstr "Váš účet není aktuálně přihlášený. Prosím zadejte své heslo pro přihlášení.<br /><br />Tohle může být způsobeno změnou hesla."
 
 #: src/application/LaunchController.cpp:101
 msgctxt "LaunchController|"
@@ -1573,7 +1579,7 @@ msgstr "Spuštění se nezdařilo."
 #: src/application/LaunchController.cpp:235
 msgctxt "LaunchController|"
 msgid "Error!"
-msgstr ""
+msgstr "Chyba!"
 
 #: src/application/LaunchController.cpp:195
 #: src/application/LaunchController.cpp:196
@@ -1603,7 +1609,7 @@ msgstr "Samotné zahájení Minecraft je odloženo do stisknutí tlačítka. Tot
 #: src/application/LaunchController.cpp:247
 msgctxt "LaunchController|"
 msgid "Waiting."
-msgstr ""
+msgstr "Čekám."
 
 #: src/application/LaunchController.cpp:249
 msgctxt "LaunchController|"
@@ -1641,7 +1647,8 @@ msgstr "Toto může způsobit poškození instance a měla by být použita pouz
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr ""
+msgstr "MultiMC přestal sledovat výpis z konzole, jelikož výpis přesáhl délku %1 řádků.\n"
+"Možná budete muset spravit své mody, jelikož hra stále generuje výpisy do souborů a nejspíš zbytečně využívají velkou rychlostí místo na disku!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
@@ -1664,7 +1671,7 @@ msgstr "Minecraft proces ID: %1\n\n"
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
 msgid "Legacy"
-msgstr ""
+msgstr "Starší verze"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
@@ -1674,7 +1681,7 @@ msgstr "Instance z minulých verzí."
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Je nutná aktualizace</h1><p>MultiMC nyní podporuje starší verze Minecraftu a všechny potřebné funkce v novém (OneSix) formátu. Kvůli tomu musely být staré (Legacy) formáty zakázány a staré instance musí být aktualizovány.</p><p>Aktualizace vytvoří novou instanci se stejným obsahem jako stará, ale v novém formátu. Originální instance zůstane nedotčena, pokud by se něco pokazilo.</p><p>Prosím nahlašte jakékoliv problémy na naši <a href=\"https://github.com/MultiMC/MultiMC5/issues\">GitHub stránku s problémy</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -1716,12 +1723,12 @@ msgstr "Kopírovaní složky instance nebylo selhalo."
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr ""
+msgstr "Nelze se rozhodnout o Minecraft verzi."
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "Kopírování složky instance bylo zrušeno."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:13
 msgctxt "LibrariesTask|"
@@ -1754,7 +1761,9 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr ""
+msgstr "Aktualizace hry selhala: nelze získat vyžadované knihovny.\n"
+"Důvod:\n"
+"%1"
 
 #: src/application/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
@@ -1819,7 +1828,7 @@ msgstr "Konec logu"
 #: src/application/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr ""
+msgstr "Výpis z Minecraftu"
 
 #: src/application/pages/instance/LogPage.cpp:239
 #, qt-format
@@ -1971,7 +1980,7 @@ msgstr "Otevře bug tracker pro oznámení bugu v MultiMC."
 #: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: src/application/MainWindow.cpp:321
 msgctxt "MainWindow|"
@@ -1981,7 +1990,7 @@ msgstr "Otevřít hlasový chat MultiMC na discordu."
 #: src/application/MainWindow.cpp:328
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: src/application/MainWindow.cpp:329
 msgctxt "MainWindow|"
@@ -2271,7 +2280,8 @@ msgstr "Chyba"
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
-msgstr ""
+msgstr "Nelze vytvořit složku pro stažení aktualizací:\n"
+"%1"
 
 #: src/api/logic/meta/Index.cpp:71
 msgctxt "Meta::Index|"
@@ -2281,40 +2291,40 @@ msgstr "Název"
 #: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:647
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:648
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:735
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1m %2s"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:739
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1h %2m"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1d %2h %3m"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:749
 msgctxt "MinecraftInstance|"
@@ -2325,7 +2335,7 @@ msgstr "rozbitý"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:756
 #, qt-format
@@ -2361,7 +2371,7 @@ msgstr "Šířka okna:"
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
 msgctxt "MinecraftUpdate|"
@@ -2718,7 +2728,17 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>MultiMC odesílá anonymní statistiky o využití při každém startu aplikace.</p><p>Následující data jsou sbírána:</p>\n"
+"<ul>\n"
+"<li>Verze MultiMC.</li>\n"
+"<li>Název operačního systému, jeho verze a architektura</li>\n"
+"<li>Architektura CPU (na linuxu architektura kernelu)</li>\n"
+"<li>Velikost sytémové paměti</li>\n"
+"<li>Verze javy, architektura a nastavení paměti</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/application/pages/global/MultiMCPage.cpp:97
 msgctxt "MultiMCPage|"
@@ -2781,7 +2801,7 @@ msgstr "Název"
 #: src/application/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 #: src/application/dialogs/NewInstanceDialog.cpp:141
@@ -3002,7 +3022,7 @@ msgstr "Sem vložte váš API klíč!"
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> je používá MultiMC pro nahrávání výpisů z konsole. Pokud máte účet na <a href=\"https://paste.ee\">paste.ee</a>, můžete sem přidat svůj API klíč a mít své výpisy spojené se svým účtem.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3017,7 +3037,7 @@ msgstr "Nahrávám na paste.ee"
 #: src/api/logic/net/PasteUpload.cpp:75
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "paste.ee vrátil chybu. Prosím zkontrolujte výpis pro více informací"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
@@ -3029,12 +3049,12 @@ msgstr "Spuštění příkazu po spuštění: %1"
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Příkaz spuštěný po zapnutí selhal s kódem %1.\n\n"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "Příkaz spuštěný po zapnutí byl proveden úspěšně.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
@@ -3046,12 +3066,12 @@ msgstr "Spuštění příkazu před spuštěním: %1"
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Příkaz spuštěný před zapnutím selhal s kódem %1.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "Příkaz spuštěný před zapnutím byl proveden úspěšně.\n\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
@@ -3102,7 +3122,7 @@ msgstr "Přeskočit"
 #: src/application/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Tohle se týká pouze MultiMC. Minecraft nepřijímá nastavení proxy."
 
 #: src/application/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3127,12 +3147,12 @@ msgstr "&Žádný"
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -3162,7 +3182,7 @@ msgstr "Poznámka: uživatelské jméno a heslo pro proxy server jsou uloženy v
 #: src/application/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
@@ -3932,7 +3952,7 @@ msgstr "Zavřít"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>Načítám seznam změn...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
@@ -3993,7 +4013,7 @@ msgstr "Obnovit"
 #: src/application/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
@@ -4003,7 +4023,7 @@ msgstr "Žádné verze jsou v současné době k dispozici."
 #: src/application/pages/instance/VersionPage.ui:64
 msgctxt "VersionPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Akce"
 
 #: src/application/pages/instance/VersionPage.ui:103
 msgctxt "VersionPage|"
@@ -4023,7 +4043,7 @@ msgstr "Posunout nahoru"
 #: src/application/pages/instance/VersionPage.ui:114
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr ""
+msgstr "Udělat aby byl vybraný balíček aplikován dříve."
 
 #: src/application/pages/instance/VersionPage.ui:119
 msgctxt "VersionPage|"
@@ -4033,7 +4053,7 @@ msgstr "Posunout dolu"
 #: src/application/pages/instance/VersionPage.ui:122
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr ""
+msgstr "Udělat aby byl vybraný balíček aplikován později."
 
 #: src/application/pages/instance/VersionPage.ui:127
 msgctxt "VersionPage|"
@@ -4305,7 +4325,7 @@ msgstr "Verze"
 #: src/application/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/application/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -4445,7 +4465,7 @@ msgstr "Den nebo čas kdy byl tento svět naposledy spuštěn."
 #: src/application/pages/instance/WorldListPage.ui:59
 msgctxt "WorldListPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Akce"
 
 #: src/application/pages/instance/WorldListPage.ui:89
 msgctxt "WorldListPage|"
@@ -4470,7 +4490,7 @@ msgstr "Smazat"
 #: src/application/pages/instance/WorldListPage.ui:109
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/application/pages/instance/WorldListPage.ui:114
 msgctxt "WorldListPage|"
@@ -4581,7 +4601,7 @@ msgstr "Operace ověřování zrušena."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL Handshake neuspěl.</b><br/>To může být způsobeno díky tomuto:<br/><ul><li>Používáte Windows XP a potřebujete <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">aktualizovat své kořenové certifikáty</a></li><li>Některá zařízení na vaší síti zasahují do SSL provozu. V tomto případě, mějte větší obavy ohledně toho že se Minecraft nespustí.</li><li>Možná něco jiného. Zkontrolujte soubor výpisu z MultiMC pro více detailů</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
