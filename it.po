@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2019-10-14 22:36\n"
+"PO-Revision-Date: 2019-11-16 23:35\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -598,7 +598,7 @@ msgstr "Verifica delle librerie FML..."
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr "Scaricando le librerie FML..."
+msgstr "Download delle librerie FML..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
 msgctxt "FMLLibrariesTask|"
@@ -627,75 +627,6 @@ msgstr "Impossibile scaricare i seguenti file:\n"
 "%1\n\n"
 "Causa: %2\n"
 "Per favore, prova di nuovo."
-
-#: src/application/pages/modplatform/FTBPage.ui:21
-msgctxt "FTBPage|"
-msgid "Public"
-msgstr "Pubblici"
-
-#: src/application/pages/modplatform/FTBPage.ui:41
-msgctxt "FTBPage|"
-msgid "3rd Party"
-msgstr "Terze parti"
-
-#: src/application/pages/modplatform/FTBPage.ui:61
-msgctxt "FTBPage|"
-msgid "Private"
-msgstr "Privati"
-
-#: src/application/pages/modplatform/FTBPage.ui:77
-msgctxt "FTBPage|"
-msgid "Add pack"
-msgstr "Aggiungi un pacchetto"
-
-#: src/application/pages/modplatform/FTBPage.ui:84
-msgctxt "FTBPage|"
-msgid "Remove selected pack"
-msgstr "Elimina il pacchetto selezionato"
-
-#: src/application/pages/modplatform/FTBPage.ui:100
-msgctxt "FTBPage|"
-msgid "Version selected:"
-msgstr "Versione selezionata:"
-
-#: src/application/pages/modplatform/FTBPage.cpp:189
-msgctxt "FTBPage|"
-msgid "FTB private packs"
-msgstr "Pacchetti FTB privati"
-
-#: src/application/pages/modplatform/FTBPage.cpp:190
-#, qt-format
-msgctxt "FTBPage|"
-msgid "Failed to download pack information for code %1.\n"
-"Should it be removed now?"
-msgstr "Impossibile scaricare le informazioni del pacchetto per il codice %1.\n"
-"Rimuoverlo?"
-
-#: src/application/pages/modplatform/FTBPage.cpp:328
-msgctxt "FTBPage|"
-msgid "Add FTB pack"
-msgstr "Aggiungi un pacchetto FTB"
-
-#: src/application/pages/modplatform/FTBPage.cpp:329
-msgctxt "FTBPage|"
-msgid "Enter pack code:"
-msgstr "Inserisci un codice pacchetto:"
-
-#: src/application/pages/modplatform/FTBPage.cpp:352
-msgctxt "FTBPage|"
-msgid "Remove pack"
-msgstr "Rimuovi il pacchetto"
-
-#: src/application/pages/modplatform/FTBPage.cpp:353
-#, qt-format
-msgctxt "FTBPage|"
-msgid "Are you sure you want to remove pack %1?"
-msgstr "Vuoi veramente cancellare il pacchetto %1?"
-
-#: src/application/pages/modplatform/FTBPage.h:50
-msgctxt "FTBPage|"
-msgid "FTB Legacy"
-msgstr "FTB Legacy"
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
@@ -777,85 +708,6 @@ msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
 msgstr "Impossibile creare la cartella per i file binari di minecraft."
 
-#: src/application/pages/modplatform/FtbListModel.cpp:18
-msgctxt "FtbFilterModel|"
-msgid "Sort by name"
-msgstr "Ordina per nome"
-
-#: src/application/pages/modplatform/FtbListModel.cpp:19
-msgctxt "FtbFilterModel|"
-msgid "Sort by game version"
-msgstr "Ordina per versione di gioco"
-
-#: src/application/pages/modplatform/FtbListModel.cpp:80
-msgctxt "FtbListModel|"
-msgid "Public Modpack"
-msgstr "Modpack pubblico"
-
-#: src/application/pages/modplatform/FtbListModel.cpp:82
-msgctxt "FtbListModel|"
-msgid "Third Party Modpack"
-msgstr "Modpack di terze parti"
-
-#: src/application/pages/modplatform/FtbListModel.cpp:84
-msgctxt "FtbListModel|"
-msgid "Private Modpack"
-msgstr "Modpack privato"
-
-#: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:76
-msgctxt "FtbPackFetchTask|"
-msgid "Public Packs"
-msgstr "Modpack pubblici"
-
-#: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:81
-msgctxt "FtbPackFetchTask|"
-msgid "Third Party Packs"
-msgstr "Modpack di terze parti"
-
-#: src/api/logic/modplatform/ftb/FtbPackFetchTask.cpp:86
-#, qt-format
-msgctxt "FtbPackFetchTask|"
-msgid "Failed to download some pack lists: %1"
-msgstr "Impossibile scaricare alcune liste di pacchetti: %1"
-
-#: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:27
-#, qt-format
-msgctxt "FtbPackInstallTask|"
-msgid "Downloading zip for %1"
-msgstr "Scaricando il pacchetto zip per %1"
-
-#: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:71
-#, qt-format
-msgctxt "FtbPackInstallTask|"
-msgid "Downloading zip for %1 (%2%)"
-msgstr "Scaricando il pacchetto zip di %1 (%2%)"
-
-#: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:77
-msgctxt "FtbPackInstallTask|"
-msgid "Extracting modpack"
-msgstr "Estraendo il pacchetto"
-
-#: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:83
-#, qt-format
-msgctxt "FtbPackInstallTask|"
-msgid "Failed to open modpack file %1!"
-msgstr "Impossibile aprire il file del pacchetto %1!"
-
-#: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:106
-msgctxt "FtbPackInstallTask|"
-msgid "Installing modpack"
-msgstr "Installando il pacchetto"
-
-#: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:113
-msgctxt "FtbPackInstallTask|"
-msgid "Failed to move unzipped minecraft!"
-msgstr "Impossibile spostare minecraft scompattato!"
-
-#: src/api/logic/modplatform/ftb/FtbPackInstallTask.cpp:181
-msgctxt "FtbPackInstallTask|"
-msgid "No installation method found!"
-msgstr "Nessun metodo di installazione trovato!"
-
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
@@ -924,13 +776,13 @@ msgstr "Impossibile processare le liste di aggiornamento..."
 #: src/api/logic/updater/DownloadTask.cpp:136
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr "Scaricando un file di aggiornamento."
+msgstr "Download di un file di aggiornamento in corso."
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Scaricando %1 file di aggiornamento."
+msgstr "Download di %1 file di aggiornamento in corso."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
@@ -1032,7 +884,7 @@ msgstr "Creando un'istanza dalla versione %1"
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
 "%1"
-msgstr "Scaricando il modpack:\n"
+msgstr "Download del modpack:\n"
 "%1"
 
 #: src/api/logic/InstanceImportTask.cpp:41
@@ -1086,7 +938,7 @@ msgstr "Impossibile rinominare la cartella degli override:\n"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr "La cartella di override specificata (%1) non esiste. Forse il pacchetto è già stato usato?"
+msgstr "La cartella di override specificata (%1) non esiste. Forse il modpack è già stato usato?"
 
 #: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
@@ -1097,7 +949,7 @@ msgstr "Mod loader sconosciuto trovato nel manifesto: %1"
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr "Puntini a fine frase misteriosi rimossi dalla versione di Minecraft durante l'importazione del pacchetto."
+msgstr "Misteriosi punti finali rimossi dalla versione di Minecraft durante l'importazione del pacchetto."
 
 #: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
@@ -1131,7 +983,7 @@ msgstr "PackageType sconosciuto/non gestito per: %1"
 #: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr "Scaricando le mod..."
+msgstr "Download delle mod in corso..."
 
 #: src/api/logic/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
@@ -1213,7 +1065,7 @@ msgstr "La quantità di memoria con cui avviare Minecraft."
 #: src/application/pages/instance/InstanceSettingsPage.ui:160
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "La quantità di memoria disponiblile per memorizzare le classi di Java."
+msgstr "La quantità di memoria disponibile per memorizzare le classi di Java."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
@@ -1223,7 +1075,7 @@ msgstr "Allocazione massima di memoria:"
 #: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr "Nota: Permgen viene automaticamente impostato in Java 8 e superiore"
+msgstr "Nota: Permgen viene impostato automaticamente da Java 8 e superiore"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:209
 msgctxt "InstanceSettingsPage|"
@@ -1243,7 +1095,7 @@ msgstr "Finestra di Gioco"
 #: src/application/pages/instance/InstanceSettingsPage.ui:249
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
-msgstr "Avviare minecraft con la finestra ingrandita?"
+msgstr "Avviare Minecraft massimizzato?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:258
 msgctxt "InstanceSettingsPage|"
@@ -1303,7 +1155,7 @@ msgstr "Impossibile inviare l'istanza nonostante tentativi multipli. L'invio vie
 #: src/application/InstanceWindow.cpp:39
 msgctxt "InstanceWindow|"
 msgid "Console window for "
-msgstr "Finestra della console per "
+msgstr "Finestra console di "
 
 #: src/application/InstanceWindow.cpp:63
 msgctxt "InstanceWindow|"
@@ -1366,7 +1218,7 @@ msgstr "Profiler interrotto"
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr "Verifica delle installazioni di Java..."
+msgstr "Rilevamento delle installazioni di Java..."
 
 #: src/application/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
@@ -1391,12 +1243,12 @@ msgstr "Allocazione massima di memoria:"
 #: src/application/pages/global/JavaPage.ui:87
 msgctxt "JavaPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "La quantità di memoria usata per avviare Minecraft."
+msgstr "La quantità di memoria usata con cui avviare Minecraft."
 
 #: src/application/pages/global/JavaPage.ui:116
 msgctxt "JavaPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "La quantità di memoria disponiblile per memorizzare le classi di Java."
+msgstr "La quantità di memoria disponibile per memorizzare le classi di Java."
 
 #: src/application/pages/global/JavaPage.ui:141
 msgctxt "JavaPage|"
@@ -1449,7 +1301,7 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "MultiMC will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr "Non hai selezionato una versione di Java o hai selezionato qualcosa che non funziona.\n"
+msgstr "Non hai selezionato una versione di Java o ne hai selezionata una che non funziona.\n"
 "MultiMC non riuscirà a far partire Minecraft.\n"
 "Vuoi procedere senza Java?\n\n"
 "Puoi cambiare la versione di Java nelle impostazioni più avanti.\n"
@@ -1503,7 +1355,7 @@ msgstr "Java"
 msgctxt "JavaWizardPage|"
 msgid "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
-msgstr "Non esiste nessuna installazione di Java o è stato impossibile trovarla.\n"
+msgstr "Non è stata impostata nessuna installazione di Java o è stato impossibile trovarla.\n"
 "Per favore seleziona una delle seguenti o cerca l'eseguibile di Java."
 
 #: src/application/pages/global/LanguagePage.h:35
@@ -1674,6 +1526,154 @@ msgstr "Impossibile avviare Minecraft!"
 msgctxt "LauncherPartLaunch|"
 msgid "Minecraft process ID: %1\n\n"
 msgstr "Id del Processo di Minecraft: %1\n\n"
+
+#: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:20
+msgctxt "LegacyFTB::FilterModel|"
+msgid "Sort by name"
+msgstr "Ordina per nome"
+
+#: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:21
+msgctxt "LegacyFTB::FilterModel|"
+msgid "Sort by game version"
+msgstr "Ordina per versione di gioco"
+
+#: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
+msgctxt "LegacyFTB::ListModel|"
+msgid "Public Modpack"
+msgstr "Modpack pubblico"
+
+#: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
+msgctxt "LegacyFTB::ListModel|"
+msgid "Third Party Modpack"
+msgstr "Modpack di terze parti"
+
+#: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
+msgctxt "LegacyFTB::ListModel|"
+msgid "Private Modpack"
+msgstr "Modpack privato"
+
+#: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
+msgctxt "LegacyFTB::PackFetchTask|"
+msgid "Public Packs"
+msgstr "Modpack pubblici"
+
+#: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:83
+msgctxt "LegacyFTB::PackFetchTask|"
+msgid "Third Party Packs"
+msgstr "Modpack di terze parti"
+
+#: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:88
+#, qt-format
+msgctxt "LegacyFTB::PackFetchTask|"
+msgid "Failed to download some pack lists: %1"
+msgstr "Impossibile scaricare alcune liste di modpack: %1"
+
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
+#, qt-format
+msgctxt "LegacyFTB::PackInstallTask|"
+msgid "Downloading zip for %1"
+msgstr "Scaricando il pacchetto zip di %1"
+
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:75
+#, qt-format
+msgctxt "LegacyFTB::PackInstallTask|"
+msgid "Downloading zip for %1 (%2%)"
+msgstr "Scaricando il pacchetto zip di %1 (%2%)"
+
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
+msgctxt "LegacyFTB::PackInstallTask|"
+msgid "Extracting modpack"
+msgstr "Estrazione del modpack"
+
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:87
+#, qt-format
+msgctxt "LegacyFTB::PackInstallTask|"
+msgid "Failed to open modpack file %1!"
+msgstr "Impossibile aprire il file modpack %1!"
+
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
+msgctxt "LegacyFTB::PackInstallTask|"
+msgid "Installing modpack"
+msgstr "Installazione modpack"
+
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:117
+msgctxt "LegacyFTB::PackInstallTask|"
+msgid "Failed to move unzipped minecraft!"
+msgstr "Impossibile spostare minecraft scompattato!"
+
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
+msgctxt "LegacyFTB::PackInstallTask|"
+msgid "No installation method found!"
+msgstr "Nessun metodo di installazione trovato!"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.ui:21
+msgctxt "LegacyFTB::Page|"
+msgid "Public"
+msgstr "Pubblici"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.ui:41
+msgctxt "LegacyFTB::Page|"
+msgid "3rd Party"
+msgstr "Terze parti"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.ui:61
+msgctxt "LegacyFTB::Page|"
+msgid "Private"
+msgstr "Privati"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.ui:77
+msgctxt "LegacyFTB::Page|"
+msgid "Add pack"
+msgstr "Aggiungi modpack"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.ui:84
+msgctxt "LegacyFTB::Page|"
+msgid "Remove selected pack"
+msgstr "Rimuovi il modpack selezionato"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.ui:100
+msgctxt "LegacyFTB::Page|"
+msgid "Version selected:"
+msgstr "Versione selezionata:"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "FTB Legacy"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
+msgctxt "LegacyFTB::Page|"
+msgid "FTB private packs"
+msgstr "Modpack FTB privati"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.cpp:192
+#, qt-format
+msgctxt "LegacyFTB::Page|"
+msgid "Failed to download pack information for code %1.\n"
+"Should it be removed now?"
+msgstr "Impossibile scaricare le informazioni del modpack del codice %1.\n"
+"Rimuoverlo?"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
+msgctxt "LegacyFTB::Page|"
+msgid "Add FTB pack"
+msgstr "Aggiungi modpack FTB"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.cpp:331
+msgctxt "LegacyFTB::Page|"
+msgid "Enter pack code:"
+msgstr "Inserisci codice modpack:"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.cpp:354
+msgctxt "LegacyFTB::Page|"
+msgid "Remove pack"
+msgstr "Rimuovi modpack"
+
+#: src/application/pages/modplatform/legacy_ftb/Page.cpp:355
+#, qt-format
+msgctxt "LegacyFTB::Page|"
+msgid "Are you sure you want to remove pack %1?"
+msgstr "Vuoi veramente cancellare il modpack %1?"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -1890,7 +1890,7 @@ msgstr "Il processo non è riuscito ad avviarsi."
 #: src/application/dialogs/LoginDialog.ui:20
 msgctxt "LoginDialog|"
 msgid "Add Account"
-msgstr "Aggiungi Account"
+msgstr "Aggiungi account"
 
 #: src/application/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
@@ -1985,7 +1985,7 @@ msgstr "Segnala un Bug"
 #: src/application/MainWindow.cpp:313
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
-msgstr "Apri il tracciatore di bug per segnalare un bug con MultiMC."
+msgstr "Apri il bug tracker per segnalare un bug con MultiMC."
 
 #: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
@@ -2005,7 +2005,7 @@ msgstr "Reddit"
 #: src/application/MainWindow.cpp:329
 msgctxt "MainWindow|"
 msgid "Open MultiMC subreddit."
-msgstr "Apri l subreddit di MultiMC."
+msgstr "Apri il subreddit di MultiMC."
 
 #: src/application/MainWindow.cpp:337
 msgctxt "MainWindow|"
@@ -2025,7 +2025,7 @@ msgstr "Aiuto"
 #: src/application/MainWindow.cpp:344
 msgctxt "MainWindow|"
 msgid "Get help with MultiMC or Minecraft."
-msgstr "Ottieni aiuto per MultiMC o Minecraft."
+msgstr "Ottieni aiuto con MultiMC o Minecraft."
 
 #: src/application/MainWindow.cpp:360
 msgctxt "MainWindow|"
@@ -2248,7 +2248,7 @@ msgstr "Crea istanza"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
-msgstr "Cancellare gruppo '%1'"
+msgstr "Eliminare gruppo '%1'"
 
 #: src/application/MainWindow.cpp:965
 msgctxt "MainWindow|"
@@ -2268,7 +2268,7 @@ msgstr "Nessun account aggiunto!"
 #: src/application/MainWindow.cpp:1061
 msgctxt "MainWindow|"
 msgid "No Default Account"
-msgstr "Nessun Account di Default"
+msgstr "Nessun account predefinito"
 
 #: src/application/MainWindow.cpp:1169
 msgctxt "MainWindow|"
@@ -2328,13 +2328,13 @@ msgstr "%1m %2s"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
-msgstr "%1h%2m"
+msgstr "%1o %2m"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr "%1d %2h %3m"
+msgstr "%1g %2o %3m"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:749
 msgctxt "MinecraftInstance|"
@@ -3289,7 +3289,7 @@ msgstr "Sconosciuto"
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "Scaricando del file metadata %1"
+msgstr "Download del file metadata %1"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
@@ -3541,18 +3541,18 @@ msgstr "File gzopen() non riuscito"
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr "QIODevice::Append non è supportato per GZIP"
+msgstr "QIODevice::Append non è supportato per QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr "QIODevice::Append non è supportato per GZIP"
+msgstr "QIODevice::ReadWrite non è supportato per QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr "ZIP/UNZIP API errore %1"
+msgstr "Errore API ZIP/UNZIP %1"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -4062,7 +4062,7 @@ msgstr "Sposta in alto"
 #: src/application/pages/instance/VersionPage.ui:114
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr "Applica il pacchetto selezionato prima."
+msgstr "Applica prima il pacchetto selezionato."
 
 #: src/application/pages/instance/VersionPage.ui:119
 msgctxt "VersionPage|"
