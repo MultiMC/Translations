@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
-"PO-Revision-Date: 2019-12-09 15:34\n"
+"PO-Revision-Date: 2019-12-09 15:52\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -2504,12 +2504,12 @@ msgstr "Kunde inte skapa en bin mapp till minecraft.jar"
 #, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
-msgstr ""
+msgstr "Kunde inte ta bort en stel jar fil:%1"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:57
 msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
-msgstr ""
+msgstr "Misslyckades att skapa en egen minecraft jar fil."
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
@@ -2609,12 +2609,12 @@ msgstr "Efter namn"
 #: src/application/pages/global/MultiMCPage.ui:234
 msgctxt "MultiMCPage|"
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #: src/application/pages/global/MultiMCPage.ui:240
 msgctxt "MultiMCPage|"
 msgid "&Icons"
-msgstr ""
+msgstr "&Ikoner"
 
 #: src/application/pages/global/MultiMCPage.ui:260
 msgctxt "MultiMCPage|"
@@ -2644,12 +2644,12 @@ msgstr "Simple (färgade ikoner)"
 #: src/application/pages/global/MultiMCPage.ui:300
 msgctxt "MultiMCPage|"
 msgid "Custom"
-msgstr ""
+msgstr "Egen"
 
 #: src/application/pages/global/MultiMCPage.ui:321
 msgctxt "MultiMCPage|"
 msgid "Colors"
-msgstr ""
+msgstr "Färger"
 
 #: src/application/pages/global/MultiMCPage.ui:348
 msgctxt "MultiMCPage|"
@@ -2674,7 +2674,7 @@ msgstr "Stäng konsolen automatiskt när spelet avslutas?"
 #: src/application/pages/global/MultiMCPage.ui:374
 msgctxt "MultiMCPage|"
 msgid "Show console when the game crashes?"
-msgstr ""
+msgstr "Visa konsol när spelet kraschar?"
 
 #: src/application/pages/global/MultiMCPage.ui:384
 msgctxt "MultiMCPage|"
@@ -2699,17 +2699,17 @@ msgstr "Konsolens typsnitt"
 #: src/application/pages/global/MultiMCPage.ui:483
 msgctxt "MultiMCPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "Analystik"
 
 #: src/application/pages/global/MultiMCPage.ui:489
 msgctxt "MultiMCPage|"
 msgid "Analytics Settings"
-msgstr ""
+msgstr "Analytisk inställningar"
 
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "Skicka anonyma användnings statistik?"
 
 #: src/application/pages/global/MultiMCPage.ui:509
 msgctxt "MultiMCPage|"
@@ -2724,12 +2724,22 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>MultiMC skickar anonyma användnings statistik på varje start av programmet.</p><p>Den följande datan är samlad:</p>\n"
+"<ul>\n"
+"<li>MultiMC Version.</li>\n"
+"<li>Operativ system namn, version och arkitektur.</li>\n"
+"<li>CPU Arkitektur (Kerner arkitektur på linux)</li>\n"
+"<li>Storlek av minne.</li>\n"
+"<li>Java version, arkitektur, och minne inställningar.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/application/pages/global/MultiMCPage.cpp:97
 msgctxt "MultiMCPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Mapp för instansen"
 
 #: src/application/pages/global/MultiMCPage.cpp:106
 msgctxt "MultiMCPage|"
@@ -2744,12 +2754,12 @@ msgstr "Vill du verkligen använda denna adress? Om du väljer \"Nej\" kommer de
 #: src/application/pages/global/MultiMCPage.cpp:129
 msgctxt "MultiMCPage|"
 msgid "Icons Folder"
-msgstr ""
+msgstr "Ikon mappen"
 
 #: src/application/pages/global/MultiMCPage.cpp:140
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "Mods mappen"
 
 #: src/application/pages/global/MultiMCPage.cpp:429
 msgctxt "MultiMCPage|"
@@ -2777,17 +2787,17 @@ msgstr "Jobb '%1' misslyckades:\n"
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "Lägg till tom komponent"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: src/application/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 #: src/application/dialogs/NewInstanceDialog.cpp:141
@@ -2803,7 +2813,7 @@ msgstr "&Grupp:"
 #: src/application/dialogs/NewInstanceDialog.ui:52
 msgctxt "NewInstanceDialog|"
 msgid "&Name:"
-msgstr ""
+msgstr "&Namn:"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:65
 msgctxt "NewInstanceDialog|"
@@ -2863,7 +2873,7 @@ msgstr "Okänd instanstyp"
 #: src/application/pages/instance/OtherLogsPage.ui:42
 msgctxt "OtherLogsPage|"
 msgid "Find"
-msgstr ""
+msgstr "Hitta"
 
 #: src/application/pages/instance/OtherLogsPage.ui:67
 msgctxt "OtherLogsPage|"
@@ -2910,7 +2920,7 @@ msgstr "Ladda om"
 #: src/application/pages/instance/OtherLogsPage.ui:126
 msgctxt "OtherLogsPage|"
 msgid "Search:"
-msgstr ""
+msgstr "Sök:"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:125
 #: src/application/pages/instance/OtherLogsPage.cpp:205
@@ -2964,7 +2974,7 @@ msgstr "Vill du verkligen ta bort alla loggfiler?"
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr ""
+msgstr "Vill du verkligen ta bort dessa filer? %1"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:255
 msgctxt "OtherLogsPage|"
@@ -3007,7 +3017,7 @@ msgstr "Klistra in din egna API-nyckel här!"
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a>är använt av MultiMC för log uppladdningar. Om du har en <a href=\"https://paste.ee\">paste.ee</a> konto, du kan lägga till din API nyckel här och har dina uppladdade logar synkade med ditt konto.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3061,33 +3071,33 @@ msgstr "\"Kommando före start\" kördes felfritt.\n\n"
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
 msgid "Select an Account"
-msgstr ""
+msgstr "Välj ett konto"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:20
 msgctxt "ProfileSelectDialog|"
 msgid "Select a profile."
-msgstr ""
+msgstr "Välj en profil."
 
 #: src/application/dialogs/ProfileSelectDialog.ui:38
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default?"
-msgstr ""
+msgstr "Använd som standard?"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:45
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr ""
+msgstr "Använd som standard bara på denna instansen?"
 
 #: src/application/dialogs/ProfileSelectDialog.cpp:41
 #: src/application/dialogs/ProfileSelectDialog.cpp:45
 msgctxt "ProfileSelectDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: src/application/dialogs/ProfileSelectDialog.cpp:56
 msgctxt "ProfileSelectDialog|"
 msgid " (in use)"
-msgstr ""
+msgstr " (I användning)"
 
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3107,7 +3117,7 @@ msgstr "Hoppa över"
 #: src/application/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Detta bara gäller MultiMC. Minecraft accepterar inte proxy inställningar."
 
 #: src/application/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3122,22 +3132,22 @@ msgstr "Använd systemets standard inställningar för proxy."
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
 msgid "&Default"
-msgstr ""
+msgstr "&Standard"
 
 #: src/application/pages/global/ProxyPage.ui:74
 msgctxt "ProxyPage|"
 msgid "&None"
-msgstr ""
+msgstr "&Ingen"
 
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -3167,18 +3177,18 @@ msgstr "Notering: Proxyns användarnamn och lösenord sparas i klartext i MultiM
 #: src/application/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
-msgstr ""
+msgstr "Patch är inte laddad ännu."
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:153
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "processArguments är valt på en okänt tal '%1'"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:178
 #, qt-format
