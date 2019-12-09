@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
-"PO-Revision-Date: 2019-12-09 16:08\n"
+"PO-Revision-Date: 2019-12-09 16:24\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -394,7 +394,7 @@ msgstr ""
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Innan start kommando körs innan instansen har startats och efter stängnings kommandot körs efter den har stängts</p><p>Båda kommer att köra i MultiMC's Funktioner Mapp med extra miljö variabler:</p><ul><li>$INST_NAME- Namnet av instansen</li><li>$INST_ID-ID av instansen (Mappens namn)</li><li>$INST_DIR- Absoluta vägen av instansen</li><li>$INST_MC_DIR-Absoluta vägen av minecraft</li><li>$INST_JAVA- Java binär används för starten.</li><li>$INST_JAVA_ARGS-Command-line parameters som används åt stard</li></ul><p>Omslag kommando tillåter start men användning av en extra omslag program(som 'optirun' på linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1606,59 +1606,60 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:41
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr ""
+msgstr "Tredje parti"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:61
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:77
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr ""
+msgstr "Lägg till pack"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:84
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr ""
+msgstr "Ta bort valt pack"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:100
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Version valt:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr ""
+msgstr "FTB Legacy"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr ""
+msgstr "FTB Privat pack"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:192
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr ""
+msgstr "Misslyckades att ladda mer pack information för kod %1.\n"
+"Ska den bli borttagen nu?"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
 msgctxt "LegacyFTB::Page|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "Lägg till FTB pack"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:331
 msgctxt "LegacyFTB::Page|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "Ange pack kod:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:354
 msgctxt "LegacyFTB::Page|"
 msgid "Remove pack"
-msgstr ""
+msgstr "Ta bort pack"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:355
 #, qt-format
@@ -2207,7 +2208,7 @@ msgstr "Kopiera den utvalda Instansen."
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
-msgstr ""
+msgstr "MultiMC 5 - Version %1"
 
 #: src/application/MainWindow.cpp:608
 #, qt-format
@@ -2234,7 +2235,7 @@ msgstr "Skapa Instans"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
-msgstr ""
+msgstr "Ta bort grupp '%1'"
 
 #: src/application/MainWindow.cpp:965
 msgctxt "MainWindow|"
@@ -2282,27 +2283,27 @@ msgstr "Kunde inte skapa mappen för att ladda ned uppdateringar:\n"
 #: src/api/logic/meta/Index.cpp:71
 msgctxt "Meta::Index|"
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:647
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:648
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:735
 #, qt-format
@@ -2331,7 +2332,7 @@ msgstr "trasig"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:756
 #, qt-format
@@ -2342,7 +2343,7 @@ msgstr ", har %1 spelats"
 #: src/api/logic/minecraft/MinecraftInstance.cpp:760
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
-msgstr ""
+msgstr ", har kraschat."
 
 #: src/application/pages/global/MinecraftPage.ui:48
 msgctxt "MinecraftPage|"
@@ -2367,67 +2368,67 @@ msgstr "Fönstrets bredd:"
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
 msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
-msgstr ""
+msgstr "Avbruten av användare."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:368
 msgctxt "ModFolderModel|"
 msgid "Folder"
-msgstr ""
+msgstr "Mapp"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
 msgid "File"
-msgstr ""
+msgstr "Fil"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:464
 msgctxt "ModFolderModel|"
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
 msgid "Last changed"
-msgstr ""
+msgstr "Senast ändrad"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Är modden påslagen?"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "Namnet av modden."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:481
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "Versionen av modden."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
-msgstr ""
+msgstr "Datumet och tiden som modden var senast ändrad (Eller tillagt)."
 
 #: src/application/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: src/application/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Åtgärder"
 
 #: src/application/pages/instance/ModFolderPage.ui:96
 msgctxt "ModFolderPage|"
@@ -2437,7 +2438,7 @@ msgstr "&Lägg till"
 #: src/application/pages/instance/ModFolderPage.ui:99
 msgctxt "ModFolderPage|"
 msgid "Add mods"
-msgstr ""
+msgstr "Lägg till mods"
 
 #: src/application/pages/instance/ModFolderPage.ui:104
 msgctxt "ModFolderPage|"
@@ -2447,17 +2448,17 @@ msgstr "Ta bort"
 #: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "Remove selected mods"
-msgstr ""
+msgstr "Ta bort markerade mods"
 
 #: src/application/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
 msgid "&Enable"
-msgstr ""
+msgstr "&Aktivera"
 
 #: src/application/pages/instance/ModFolderPage.ui:115
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr ""
+msgstr "Aktivera valde moddsen"
 
 #: src/application/pages/instance/ModFolderPage.ui:120
 msgctxt "ModFolderPage|"
@@ -3318,12 +3319,12 @@ msgstr ""
 #: src/application/themes/SystemTheme.cpp:44
 msgctxt "QObject|"
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: src/application/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
-msgstr ""
+msgstr "Ljust"
 
 #: src/application/dialogs/UpdateDialog.cpp:122
 #, qt-format
@@ -3904,13 +3905,13 @@ msgstr ""
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
-msgstr ""
+msgstr "Arbeter avbrutet."
 
 #: src/api/logic/launch/steps/Update.cpp:52
 #, qt-format
 msgctxt "Update|"
 msgid "Instance update failed because: %1\n\n"
-msgstr ""
+msgstr "Instans uppdateringen misslyckades för att: %1\n\n"
 
 #: src/application/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
@@ -3947,7 +3948,7 @@ msgstr "Stäng"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>Laddar ändringslogen...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
