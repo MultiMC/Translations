@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-12-30 18:26\n"
+"PO-Revision-Date: 2019-12-30 18:43\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -786,7 +786,7 @@ msgstr "Téléchargement de %1 fichiers de mise à jour."
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "Échec de téléchargement des fichiers de mise à jour: %1"
+msgstr "Échec du téléchargement des fichiers de mise à jour : %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -869,13 +869,13 @@ msgstr "La copie du dossier de l'instance a échoué."
 #: src/api/logic/InstanceCopyTask.cpp:54
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "La duplication du dossier d'instance à été annulée."
+msgstr "La copie du dossier de l'instance a été annulée."
 
 #: src/api/logic/InstanceCreationTask.cpp:16
 #, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "Création de l'instance à partir de la version %1"
+msgstr "Création d'une instance à partir de la version %1"
 
 #: src/api/logic/InstanceImportTask.cpp:35
 #, qt-format
@@ -920,7 +920,7 @@ msgstr "Impossible de réparer les permissions pour %1"
 #: src/api/logic/InstanceImportTask.cpp:172
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr "L’importation de l’instance a été abandonné."
+msgstr "L'importation de l'instance a été annulée."
 
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
@@ -964,7 +964,7 @@ msgstr "Téléchargement du mod"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
-msgstr "Le dossier à besoin d'être extrait: %1"
+msgstr "Ce \"dossier\" pourrait avoir besoin d'être extrait : %1"
 
 #: src/api/logic/InstanceImportTask.cpp:329
 #, qt-format
@@ -981,7 +981,7 @@ msgstr "Type de paquet méconnu ou pas pris en charge pour: %1"
 #: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr "Téléchargement de mods..."
+msgstr "Téléchargement des mods..."
 
 #: src/api/logic/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
@@ -992,7 +992,7 @@ msgstr "Impossible de résoudre les IDs des mods :\n"
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
-msgstr "%1 Instance"
+msgstr "Instance %1"
 
 #: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
@@ -1390,7 +1390,7 @@ msgstr "Aucun compte"
 #: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in to MultiMC.Would you like to open the account manager to add an account now?"
-msgstr "Pour jouer à Minecraft, vous devez avoir au moins un compte Mojang ou Minecraft connecté à MultiMC. Voulez vous ouvrir le gestionnaire de compte pour ajouter un compte maintenant ?"
+msgstr "Afin de jouer à Minecraft, vous devez avoir au moins un compte Mojang ou Minecraft connecté à MultiMC. Voulez-vous ouvrir le gestionnaire de comptes pour ajouter un compte maintenant ?"
 
 #: src/application/LaunchController.cpp:61
 msgctxt "LaunchController|"
@@ -1796,7 +1796,7 @@ msgstr "&Copier"
 #: src/application/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "Envoi des log sur paste.ee - il restera en ligne pendant un mois"
+msgstr "Envoyer le journal vers paste.ee - il restera en ligne pendant un mois"
 
 #: src/application/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
@@ -2148,7 +2148,7 @@ msgstr "Gérer les captures d'écran"
 #: src/application/MainWindow.cpp:510
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr "Voir et envoyer les captures d'écrans pour cette instance."
+msgstr "Voir et envoyer les captures d'écran de cette instance."
 
 #: src/application/MainWindow.cpp:516
 msgctxt "MainWindow|"
@@ -3035,17 +3035,17 @@ msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a>est utili
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
 msgid "Log Upload"
-msgstr "Envoi du journal"
+msgstr "Envoi des journaux"
 
 #: src/api/logic/net/PasteUpload.cpp:46
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
-msgstr "Envoi à paste.ee en cours"
+msgstr "Envoi vers paste.ee"
 
 #: src/api/logic/net/PasteUpload.cpp:75
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr "paste.ee a renvoyé une erreur. S'il vous plaît consulter les logs pour plus d'informations"
+msgstr "paste.ee a renvoyé une erreur. Veuillez consulter les journaux pour plus d'informations."
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
@@ -3392,16 +3392,16 @@ msgstr "La restauration a échoué !"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr "Impossible de remplacer le fichier %1. Les changements apportés vont être annulés.\n"
-"Voir les logs de MultiMC pour plus de détails."
+msgstr "Impossible de remplacer le fichier %1. Les modifications apportées vont être annulées.\n"
+"Voir le fichier journal de MultiMC pour plus de détails."
 
 #: src/application/UpdateController.cpp:376
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr "Impossible de supprimer le fichier %1. Les changements apportés vont être annulés.\n"
-"Voir les logs de MultiMC pour plus de détails."
+msgstr "Impossible de supprimer le fichier %1. Les modifications apportées vont être annulées.\n"
+"Voir le fichier journal de MultiMC pour plus de détails."
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
@@ -3432,7 +3432,7 @@ msgstr "L'envoi a échoué"
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Le fichier des log est trop lourd. Vous devez l'envoyer manuellement."
+msgstr "Le fichier journal est trop volumineux. Vous devez l'envoyer manuellement."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
@@ -3788,7 +3788,7 @@ msgstr "Configuration rapide de MultiMC"
 #: src/api/logic/minecraft/SkinUpload.cpp:46
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
-msgstr "Envoi du skin"
+msgstr "Chargement du skin"
 
 #: src/application/dialogs/SkinUploadDialog.ui:14
 #: src/application/dialogs/SkinUploadDialog.cpp:23
@@ -3849,7 +3849,7 @@ msgstr "Le chargement du skin a échoué !"
 #: src/application/dialogs/SkinUploadDialog.cpp:95
 msgctxt "SkinUploadDialog|"
 msgid "Success"
-msgstr "Succès"
+msgstr "Chargement terminé"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:101
 msgctxt "SkinUploadDialog|"
