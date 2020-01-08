@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2020-01-08 14:08\n"
+"PO-Revision-Date: 2020-01-08 14:33\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -512,7 +512,7 @@ msgstr "檢查JProfiler是否安裝時發生錯誤:\n"
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "OK"
-msgstr ""
+msgstr "確定"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
@@ -3390,14 +3390,17 @@ msgstr "無法移除檔案 %1。變更將會被復原。\n"
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
-msgstr ""
+msgstr "新版本未啟動或是其過舊且未回應啟動檢查。\n\n"
+"回退到上個版本?"
 
 #: src/application/UpdateController.cpp:406
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "回退程序也失敗了。\n"
+"你將需要手動修復 MultiMC。\n"
+"請讓我們知道這是為何且如何發生的。"
 
 #: src/application/MainWindow.cpp:1001
 msgctxt "QObject|"
@@ -3417,13 +3420,13 @@ msgstr "紀錄檔太大了，你必須手動上傳。"
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
 msgid "Upload finished"
-msgstr "上傳成功的結束"
+msgstr "上傳完成"
 
 #: src/application/GuiUtil.cpp:48
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">記錄檔連結</a>已經在你的剪貼簿中。"
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -3442,7 +3445,7 @@ msgstr "JVM參數警告"
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java測試成功!<br />平台已回報: %1<br />Java版本已回報: %2<br />"
+msgstr "Java測試成功!<br />回報的平台: %1<br />回報的Java版本: %2<br />"
 
 #: src/application/JavaCommon.cpp:32
 #, qt-format
@@ -3571,22 +3574,22 @@ msgstr ""
 #: src/application/pages/instance/ScreenshotsPage.ui:59
 msgctxt "ScreenshotsPage|"
 msgid "Upload"
-msgstr ""
+msgstr "上傳"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:64
 msgctxt "ScreenshotsPage|"
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:69
 msgctxt "ScreenshotsPage|"
 msgid "Rename"
-msgstr ""
+msgstr "重新命名"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:74
 msgctxt "ScreenshotsPage|"
 msgid "View Folder"
-msgstr ""
+msgstr "檢視資料夾"
 
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -3614,7 +3617,7 @@ msgstr "未知錯誤"
 #: src/application/pages/instance/ScreenshotsPage.cpp:366
 msgctxt "ScreenshotsPage|"
 msgid "Upload finished"
-msgstr "上傳成功的結束"
+msgstr "上傳完成"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:329
 #, qt-format
@@ -3641,7 +3644,7 @@ msgstr "這將會刪除全部的螢幕截圖。"
 #: src/application/widgets/ServerStatus.cpp:66
 msgctxt "ServerStatus|"
 msgid "Auth"
-msgstr "認證"
+msgstr "驗證"
 
 #: src/application/widgets/ServerStatus.cpp:68
 msgctxt "ServerStatus|"
@@ -3656,7 +3659,7 @@ msgstr "皮膚"
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -3671,7 +3674,7 @@ msgstr "位址"
 #: src/application/pages/instance/ServersPage.cpp:293
 msgctxt "ServersModel|"
 msgid "Latency"
-msgstr "延遲度"
+msgstr "延遲"
 
 #: src/application/pages/instance/ServersPage.ui:72
 msgctxt "ServersPage|"
@@ -3711,12 +3714,12 @@ msgstr ""
 #: src/application/pages/instance/ServersPage.ui:154
 msgctxt "ServersPage|"
 msgid "Add"
-msgstr ""
+msgstr "新增"
 
 #: src/application/pages/instance/ServersPage.ui:159
 msgctxt "ServersPage|"
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: src/application/pages/instance/ServersPage.ui:164
 msgctxt "ServersPage|"
@@ -3731,7 +3734,7 @@ msgstr "下移"
 #: src/application/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
-msgstr ""
+msgstr "伺服器"
 
 #: src/application/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
@@ -3854,7 +3857,10 @@ msgid "%1:\n"
 "%2 translated\n"
 "%3 fuzzy\n"
 "%4 total"
-msgstr ""
+msgstr "%1:\n"
+"已翻譯: %2\n"
+"模糊不清: %3\n"
+"總計: %4"
 
 #: src/api/logic/translations/TranslationsModel.cpp:372
 msgctxt "TranslationsModel|"
@@ -3864,27 +3870,27 @@ msgstr "語言"
 #: src/api/logic/translations/TranslationsModel.cpp:376
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr ""
+msgstr "完成度"
 
 #: src/api/logic/translations/TranslationsModel.cpp:386
 msgctxt "TranslationsModel|"
 msgid "The native language name."
-msgstr ""
+msgstr "原生語言名稱"
 
 #: src/api/logic/translations/TranslationsModel.cpp:390
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
-msgstr ""
+msgstr "完成度為完整翻譯的字串百分比，自動猜測的並不列入計算中。"
 
 #: src/application/pages/modplatform/TwitchPage.ui:38
 msgctxt "TwitchPage|"
 msgid "Check"
-msgstr ""
+msgstr "檢查"
 
 #: src/application/pages/modplatform/TwitchPage.ui:45
 msgctxt "TwitchPage|"
 msgid "Twitch URL:"
-msgstr ""
+msgstr "Twitch 網址:"
 
 #: src/application/pages/modplatform/TwitchPage.ui:55
 msgctxt "TwitchPage|"
