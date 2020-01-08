@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2020-01-08 15:23\n"
+"PO-Revision-Date: 2020-01-08 15:42\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -382,17 +382,17 @@ msgstr "結束後指令:"
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
-msgstr "啟動前指令:"
+msgstr "預啟動指令:"
 
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr ""
+msgstr "包裝指令:"
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而結束後指令則會在其結束後執行。</p><p>此兩者會在 MultiMC's 工作目錄中執行並附加額外的環境變數:</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的ID (其資料夾名稱)</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包裝指令允許啟動時使用額外的包裝程式 (如 Linux 中的 'optirun')</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -403,7 +403,7 @@ msgstr "自訂指令"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "無法找到包裝指令 \"%1\"。"
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -415,7 +415,7 @@ msgstr "無法啟動Minecraft!"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "Minecraft 處理序 ID: %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -548,7 +548,7 @@ msgstr "MCEdit程式"
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "組MCEdit資料夾"
+msgstr "MCEdit資料夾"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -583,7 +583,7 @@ msgstr "選擇的檔案似乎是不能執行的"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr ""
+msgstr "無法解開原生的 jar 檔案 '%1' 到目的地 '%2'"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
 msgctxt "FMLLibrariesTask|"
@@ -626,22 +626,22 @@ msgstr "下載下列檔案時發生錯誤:\n"
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "解析模組 ID 中..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
+msgstr "一些模組 ID 解析工作失敗。"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving URL..."
-msgstr ""
+msgstr "解析網址中..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Not a Twitch URL."
-msgstr ""
+msgstr "非 Twitch 網址。"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
 msgctxt "Flame::UrlResolvingTask|"
@@ -656,42 +656,42 @@ msgstr ""
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed."
-msgstr ""
+msgstr "解析失敗。"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing package root element."
-msgstr ""
+msgstr "解析失敗: 遺失安裝包根元素"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing project element."
-msgstr ""
+msgstr "解析失敗: 遺失專案元素"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing id attribute."
-msgstr ""
+msgstr "解析失敗: 遺失 id 屬性"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving failed: missing file attribute."
-msgstr ""
+msgstr "解析失敗: 遺失檔案屬性"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Failed to resolve projectId as a number."
-msgstr ""
+msgstr "無法將 projectId 解析為數字"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Failed to resolve fileId as a number."
-msgstr ""
+msgstr "無法將 fileId 解析為數字"
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
 msgctxt "Flame::UrlResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "解析模組 ID 中..."
 
 #: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
 msgctxt "Flame::UrlResolvingTask|"
