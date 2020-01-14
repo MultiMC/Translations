@@ -5,15 +5,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: multimc\n"
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/template.pot\n"
 "Project-Id-Version: multimc\n"
-"Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2019-11-03 23:08\n"
+"PO-Revision-Date: 2020-01-14 19:10\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -151,8 +149,8 @@ msgstr "Menü"
 
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
-msgid "Please enter your Mojang or Minecraft account username and password to add your account."
-msgstr "Kérlek írd be a Mojang vagy Minecraft fiókod felhasználónevét és jelszavát ahhoz hogy hozzád a fiókodhoz."
+msgid "Please enter your Minecraft account email and password to add your account."
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -319,22 +317,22 @@ msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
 msgstr "Néhány összetevő-metaadat betöltési feladat sikertelen."
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
 msgstr "A függőség ellenőrzése során ellentmondásos követelmények lettek találva!"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
 msgstr "A példánynak ellentmondó függőségei vannak."
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "A példány megoldatlan függősége van a betöltés/ellenőrzés során."
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
@@ -361,6 +359,11 @@ msgstr "C&soport"
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
 msgstr "Mentések másolása"
+
+#: src/application/dialogs/CopyInstanceDialog.ui:122
+msgctxt "CopyInstanceDialog|"
+msgid "Keep play time"
+msgstr ""
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
@@ -427,8 +430,8 @@ msgstr "Bejelentkezés"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
-msgid "Email / Username"
-msgstr "Email / Felhasználónév"
+msgid "Email"
+msgstr ""
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
@@ -636,71 +639,6 @@ msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "Néhány mod ID feloldási feladat sikertelen."
 
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving URL..."
-msgstr "URL feloldása..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Not a Twitch URL."
-msgstr "Nem egy Twich-es URL."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the needle in the haystack..."
-msgstr "Nem sikerült megtalálni a tűt a szénakazalban ..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the end of the needle in the haystack..."
-msgstr "Nem sikerült megtalálni a tű hegyét a szénakazalban ..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed."
-msgstr "Feloldás sikertelen."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing package root element."
-msgstr "Feloldás sikertelen: hiányzó csomag gyökér elem."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing project element."
-msgstr "Feloldás sikertelen: hiányzó projekt elem."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing id attribute."
-msgstr "Feloldás sikertelen: hiányzó ID tulajdonság."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing file attribute."
-msgstr "Feloldás sikertelen: hiányzó fájl tulajdonság."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve projectId as a number."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve fileId as a number."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving mod IDs..."
-msgstr "Mod ID-k feloldása..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve the modpack file."
-msgstr "A(z) %1 modulcsomag megnyitása sikertelen."
-
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
@@ -855,18 +793,18 @@ msgctxt "InstanceCardWidget|"
 msgid "&Group:"
 msgstr "C&soport:"
 
-#: src/api/logic/InstanceCopyTask.cpp:23
+#: src/api/logic/InstanceCopyTask.cpp:24
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
 msgstr "Példány %1 másolása"
 
-#: src/api/logic/InstanceCopyTask.cpp:39
+#: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
 msgstr "A példánymappa másolása sikertelen."
 
-#: src/api/logic/InstanceCopyTask.cpp:54
+#: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
 msgstr "A példánymappa másolása megszakadt."
@@ -1891,8 +1829,8 @@ msgstr "Felhasználó hozzáadása"
 
 #: src/application/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
-msgid "Email / Username"
-msgstr "Email / Felhasználónév"
+msgid "Email"
+msgstr ""
 
 #: src/application/dialogs/LoginDialog.ui:49
 msgctxt "LoginDialog|"
@@ -2495,12 +2433,12 @@ msgctxt "ModFolderPage|"
 msgid "View &Folder"
 msgstr "&Mappák megnézése"
 
-#: src/application/pages/instance/ModFolderPage.cpp:168
+#: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
 msgid "Context menu"
 msgstr "Menü"
 
-#: src/application/pages/instance/ModFolderPage.cpp:281
+#: src/application/pages/instance/ModFolderPage.cpp:301
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
@@ -2811,7 +2749,7 @@ msgid "uid"
 msgstr ""
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:141
+#: src/application/dialogs/NewInstanceDialog.cpp:132
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "Új példány"
@@ -2826,7 +2764,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "&Név:"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:65
+#: src/application/dialogs/NewInstanceDialog.cpp:64
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "Nincs csoport"
@@ -3900,26 +3838,6 @@ msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "A teljesség a teljesen lefordított karakterláncok százalékos aránya, nem számítva az automatikusan kitaláltakat."
 
-#: src/application/pages/modplatform/TwitchPage.ui:38
-msgctxt "TwitchPage|"
-msgid "Check"
-msgstr "Ellenőrzé"
-
-#: src/application/pages/modplatform/TwitchPage.ui:45
-msgctxt "TwitchPage|"
-msgid "Twitch URL:"
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.ui:55
-msgctxt "TwitchPage|"
-msgid "Drag and drop an Install button from CurseForge into the area above."
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.h:41
-msgctxt "TwitchPage|"
-msgid "Twitch URL"
-msgstr ""
-
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
@@ -4039,289 +3957,309 @@ msgctxt "VersionPage|"
 msgid "Actions"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:103
+#: src/application/pages/instance/VersionPage.ui:107
 msgctxt "VersionPage|"
 msgid "Change version"
 msgstr "Verzió változtatása"
 
-#: src/application/pages/instance/VersionPage.ui:106
+#: src/application/pages/instance/VersionPage.ui:110
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
 msgstr "A kiválasztott csomag verziójának módosítása."
 
-#: src/application/pages/instance/VersionPage.ui:111
+#: src/application/pages/instance/VersionPage.ui:115
 msgctxt "VersionPage|"
 msgid "Move up"
 msgstr "Mozgatás fel"
 
-#: src/application/pages/instance/VersionPage.ui:114
+#: src/application/pages/instance/VersionPage.ui:118
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
 msgstr "A kiválasztott csomag hamarabb érvényesüljön."
 
-#: src/application/pages/instance/VersionPage.ui:119
+#: src/application/pages/instance/VersionPage.ui:123
 msgctxt "VersionPage|"
 msgid "Move down"
 msgstr "Mozgatás le"
 
-#: src/application/pages/instance/VersionPage.ui:122
+#: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
 msgstr "A kiválasztott csomagot később alkalmazza."
 
-#: src/application/pages/instance/VersionPage.ui:127
+#: src/application/pages/instance/VersionPage.ui:131
 msgctxt "VersionPage|"
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: src/application/pages/instance/VersionPage.ui:130
+#: src/application/pages/instance/VersionPage.ui:134
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
 msgstr "A kiválasztott csomag eltávolítása a példányból."
 
-#: src/application/pages/instance/VersionPage.ui:135
+#: src/application/pages/instance/VersionPage.ui:139
 msgctxt "VersionPage|"
 msgid "Customize"
 msgstr "Testreszabás"
 
-#: src/application/pages/instance/VersionPage.ui:138
+#: src/application/pages/instance/VersionPage.ui:142
 msgctxt "VersionPage|"
 msgid "Customize selected package."
 msgstr "A kiválasztott csomag testreszabása."
 
-#: src/application/pages/instance/VersionPage.ui:143
+#: src/application/pages/instance/VersionPage.ui:147
 msgctxt "VersionPage|"
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: src/application/pages/instance/VersionPage.ui:146
+#: src/application/pages/instance/VersionPage.ui:150
 msgctxt "VersionPage|"
 msgid "Edit selected package."
 msgstr "A kiválasztott csomag szerkesztése."
 
-#: src/application/pages/instance/VersionPage.ui:151
+#: src/application/pages/instance/VersionPage.ui:155
 msgctxt "VersionPage|"
 msgid "Revert"
 msgstr "Visszaszállás"
 
-#: src/application/pages/instance/VersionPage.ui:154
+#: src/application/pages/instance/VersionPage.ui:158
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
 msgstr "Állítsa vissza a kiválasztott csomagot alapértelmezésre."
 
-#: src/application/pages/instance/VersionPage.ui:159
+#: src/application/pages/instance/VersionPage.ui:163
 msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr "A Forge telepítése"
 
-#: src/application/pages/instance/VersionPage.ui:162
+#: src/application/pages/instance/VersionPage.ui:166
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
 msgstr "Telepítse a Minecraft Forge csomagot."
 
-#: src/application/pages/instance/VersionPage.ui:167
+#: src/application/pages/instance/VersionPage.ui:171
 msgctxt "VersionPage|"
 msgid "Install Fabric"
 msgstr "A Fabric telepítése"
 
-#: src/application/pages/instance/VersionPage.ui:170
+#: src/application/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
 msgstr "A Fabric Loader csomag telepítése."
 
-#: src/application/pages/instance/VersionPage.ui:175
+#: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr "LiteLoader telepítése"
 
-#: src/application/pages/instance/VersionPage.ui:178
+#: src/application/pages/instance/VersionPage.ui:182
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr "Telepítse a LiteLoader csomagot."
 
-#: src/application/pages/instance/VersionPage.ui:183
+#: src/application/pages/instance/VersionPage.ui:187
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr "Telepítse a modokat"
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:190
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr "Telepítse a szokásos modokat."
 
-#: src/application/pages/instance/VersionPage.ui:191
+#: src/application/pages/instance/VersionPage.ui:195
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr "Hozzáadás a Minecraft.jar-hoz"
 
-#: src/application/pages/instance/VersionPage.ui:194
+#: src/application/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr "Adjon hozzá egy modot a Minecraft jar fájlba."
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:203
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr "Minecraft.jar kicserélése"
 
-#: src/application/pages/instance/VersionPage.ui:204
+#: src/application/pages/instance/VersionPage.ui:208
 msgctxt "VersionPage|"
 msgid "Add Empty"
 msgstr "Üres hozzáadása"
 
-#: src/application/pages/instance/VersionPage.ui:207
+#: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
 msgstr "Egy üres személyre szabott csomag hozzáadása."
 
-#: src/application/pages/instance/VersionPage.ui:212
+#: src/application/pages/instance/VersionPage.ui:216
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "Újratöltés"
 
-#: src/application/pages/instance/VersionPage.ui:215
+#: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Reload all packages."
 msgstr "Az összes csomag újratöltése."
 
-#: src/application/pages/instance/VersionPage.ui:220
+#: src/application/pages/instance/VersionPage.ui:224
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr "Mind letöltése"
 
-#: src/application/pages/instance/VersionPage.ui:223
+#: src/application/pages/instance/VersionPage.ui:227
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr "Töltse le a példány indításához szükséges fájlokat most."
 
-#: src/application/pages/instance/VersionPage.cpp:146
+#: src/application/pages/instance/VersionPage.ui:232
+msgctxt "VersionPage|"
+msgid "Open .minecraft"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:235
+msgctxt "VersionPage|"
+msgid "Open the instance's .minecraft folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:240
+msgctxt "VersionPage|"
+msgid "Open libraries"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:243
+msgctxt "VersionPage|"
+msgid "Open the instance's local libraries folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "Menü"
 
-#: src/application/pages/instance/VersionPage.cpp:164
+#: src/application/pages/instance/VersionPage.cpp:165
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "A(z) %1 esetleg problémákat okoz."
 
-#: src/application/pages/instance/VersionPage.cpp:167
+#: src/application/pages/instance/VersionPage.cpp:168
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "A(z) %1 problémákat okoz!"
 
-#: src/application/pages/instance/VersionPage.cpp:181
+#: src/application/pages/instance/VersionPage.cpp:182
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Hiba: "
 
-#: src/application/pages/instance/VersionPage.cpp:185
+#: src/application/pages/instance/VersionPage.cpp:186
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Figyelmeztetés: "
 
-#: src/application/pages/instance/VersionPage.cpp:243
-#: src/application/pages/instance/VersionPage.cpp:249
-#: src/application/pages/instance/VersionPage.cpp:268
-#: src/application/pages/instance/VersionPage.cpp:312
-#: src/application/pages/instance/VersionPage.cpp:325
-#: src/application/pages/instance/VersionPage.cpp:387
+#: src/application/pages/instance/VersionPage.cpp:244
+#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:269
+#: src/application/pages/instance/VersionPage.cpp:313
+#: src/application/pages/instance/VersionPage.cpp:326
+#: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Hiba"
 
-#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:251
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "Nem sikerült betölteni a példány profilt."
 
-#: src/application/pages/instance/VersionPage.cpp:268
+#: src/application/pages/instance/VersionPage.cpp:269
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "Nem sikerült eltávolítani a fájlt"
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Jar modok kiválasztássa"
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft.jar modok (* .zip * .jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Válassza ki a jar-t"
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Minecraft.jar cseréje (* .jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:356
+#: src/application/pages/instance/VersionPage.cpp:357
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "%1 verzió megváltoztatása"
 
-#: src/application/pages/instance/VersionPage.cpp:359
-#: src/application/pages/instance/VersionPage.cpp:444
+#: src/application/pages/instance/VersionPage.cpp:360
+#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "Jelenleg nincs elérhető Fabric Loader verzió."
 
-#: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
+#: src/application/pages/instance/VersionPage.cpp:361
+#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "Nem lehet betölteni vagy letölteni a Fabric Loader verziólistákat!"
 
-#: src/application/pages/instance/VersionPage.cpp:388
+#: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "A MultiMC nem töltheti le a Minecraft vagy frissítési példányokat, hacsak nem rendelkezik legalább egy fiókkal.\n"
 "Kérjük, adja meg Mojang vagy Minecraft fiókját."
 
-#: src/application/pages/instance/VersionPage.cpp:414
+#: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Válassza ki a Forge verziót"
 
-#: src/application/pages/instance/VersionPage.cpp:416
+#: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "Jelenleg nem áll rendelkezésre Forge verzió a Minecraft számára"
 
-#: src/application/pages/instance/VersionPage.cpp:417
+#: src/application/pages/instance/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Nem sikerült betölteni vagy letölteni a Forge verziólistákat!"
 
-#: src/application/pages/instance/VersionPage.cpp:443
+#: src/application/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Válassza ki a Fabric Loader verziót"
 
-#: src/application/pages/instance/VersionPage.cpp:488
+#: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Válassza ki a LiteLoader verziót"
 
-#: src/application/pages/instance/VersionPage.cpp:490
+#: src/application/pages/instance/VersionPage.cpp:491
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Jelenleg nincs elérhető LiteLoader verzió a Minecraft számára"
 
-#: src/application/pages/instance/VersionPage.cpp:491
+#: src/application/pages/instance/VersionPage.cpp:492
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Nem lehet betölteni vagy letölteni a LiteLoader verziólistákat!"
 
-#: src/application/pages/instance/VersionPage.cpp:537
+#: src/application/pages/instance/VersionPage.cpp:548
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Hiba történt a példány frissítésekor"
