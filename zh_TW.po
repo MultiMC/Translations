@@ -5,15 +5,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: multimc\n"
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: /master/template.pot\n"
 "Project-Id-Version: multimc\n"
-"Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-11-03 23:08\n"
+"PO-Revision-Date: 2020-01-14 19:11\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -48,7 +46,7 @@ msgstr "頻道:"
 #: src/application/dialogs/AboutDialog.ui:149
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>MultiMC is a custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>MultiMC是個第三方的啟動器，它讓你能夠在一個啟動器裡更輕鬆的管理多種情形的Minecraft。</p></body></html>"
+msgstr "<html><head/><body><p>MultiMC是個第三方的啟動器，它讓你能夠在同一個啟動器裡更輕鬆地管理多個實例的Minecraft。</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
@@ -93,7 +91,7 @@ msgstr "平台"
 #: src/application/dialogs/AboutDialog.cpp:92
 msgctxt "AboutDialog|"
 msgid "Build Number"
-msgstr "修訂版本號"
+msgstr "組建版本號"
 
 #: src/application/dialogs/AboutDialog.cpp:97
 msgctxt "AboutDialog|"
@@ -120,17 +118,17 @@ msgstr "移除"
 #: src/application/pages/global/AccountListPage.ui:57
 msgctxt "AccountListPage|"
 msgid "Set Default"
-msgstr "設為預設值"
+msgstr "設為預設帳號"
 
 #: src/application/pages/global/AccountListPage.ui:65
 msgctxt "AccountListPage|"
 msgid "No Default"
-msgstr ""
+msgstr "無預設帳號"
 
 #: src/application/pages/global/AccountListPage.ui:70
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
-msgstr ""
+msgstr "上傳皮膚"
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -147,12 +145,12 @@ msgstr "歡迎!\n"
 #: src/application/pages/global/AccountListPage.cpp:77
 msgctxt "AccountListPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "功能表"
 
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
-msgid "Please enter your Mojang or Minecraft account username and password to add your account."
-msgstr "請輸入你的Mojang或Minecraft帳號名稱與密碼來新增你的帳號。"
+msgid "Please enter your Minecraft account email and password to add your account."
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -177,37 +175,39 @@ msgstr "啟用統計資料"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:19
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
-msgstr ""
+msgstr "更新資源索引..."
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:25
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
-msgstr ""
+msgstr "資源索引 %1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:68
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
-msgstr ""
+msgstr "讀取資源索引失敗!"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr ""
+msgstr "從 Mojang 取得資源檔案..."
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:88
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr ""
+msgstr "下載資源索引失敗:\n"
+"%1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr ""
+msgstr "下載資源失敗:\n"
+"%1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
@@ -247,7 +247,7 @@ msgstr "驗證中:處理回應..."
 #: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
-msgstr "Profiler已終止"
+msgstr "分析器已終止"
 
 #: src/api/logic/java/launch/CheckJava.cpp:36
 #, qt-format
@@ -284,13 +284,13 @@ msgstr "無法啟動java!"
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr ""
+msgstr "Java 檢查器回傳了一些 MultiMC 無法理解的不合法資料:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
 msgctxt "CheckJava|"
 msgid "Java is version %1, using %2-bit architecture.\n\n"
-msgstr ""
+msgstr "Java 版本為 %1，使用%2位元架構.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
@@ -315,29 +315,30 @@ msgstr "版本"
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
-msgstr ""
+msgstr "部分組件中介資料載入作業失敗。"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr ""
+msgstr "相依性檢查時，發現衝突的需求!"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr ""
+msgstr "實例有衝突的依賴。"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
+msgstr "在啟動載入/檢查時，發現實例有未解決的相依性。"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr ""
+msgstr "從遠端伺服器下載組件中介資料的更新作業失敗:\n"
+"%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -359,6 +360,11 @@ msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
 msgstr "複製存檔"
 
+#: src/application/dialogs/CopyInstanceDialog.ui:122
+msgctxt "CopyInstanceDialog|"
+msgid "Keep play time"
+msgstr ""
+
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
@@ -372,38 +378,38 @@ msgstr "無法建立\"server-resource-packs\"資料夾"
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
-msgstr ""
+msgstr "自訂指令(&T)"
 
 #: src/application/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr ""
+msgstr "結束後指令:"
 
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
-msgstr ""
+msgstr "預啟動指令:"
 
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr ""
+msgstr "包裝指令:"
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而結束後指令則會在其結束後執行。</p><p>此兩者會在 MultiMC's 工作目錄中執行並附加額外的環境變數:</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的ID (其資料夾名稱)</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包裝指令允許啟動時使用額外的包裝程式 (如 Linux 中的 'optirun')</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr ""
+msgstr "自訂指令"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "無法找到包裝指令 \"%1\"。"
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -415,7 +421,7 @@ msgstr "無法啟動Minecraft!"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "Minecraft 處理序 ID: %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -424,8 +430,8 @@ msgstr "登入"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
-msgid "Email / Username"
-msgstr "電子郵件/使用者名稱"
+msgid "Email"
+msgstr ""
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
@@ -514,7 +520,7 @@ msgstr "檢查JProfiler是否安裝時發生錯誤:\n"
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "OK"
-msgstr ""
+msgstr "確定"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
@@ -548,7 +554,7 @@ msgstr "MCEdit程式"
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "組MCEdit資料夾"
+msgstr "MCEdit資料夾"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -583,7 +589,7 @@ msgstr "選擇的檔案似乎是不能執行的"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr ""
+msgstr "無法解開原生的 jar 檔案 '%1' 到目的地 '%2'"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
 msgctxt "FMLLibrariesTask|"
@@ -626,77 +632,12 @@ msgstr "下載下列檔案時發生錯誤:\n"
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "解析模組 ID 中..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving URL..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Not a Twitch URL."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the needle in the haystack..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the end of the needle in the haystack..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing package root element."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing project element."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing id attribute."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing file attribute."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve projectId as a number."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve fileId as a number."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving mod IDs..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve the modpack file."
-msgstr "打開模組包檔案 %1 失敗。"
+msgstr "一些模組 ID 解析工作失敗。"
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -706,12 +647,12 @@ msgstr "為Minecraft二進位檔案建立資料夾失敗。"
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
-msgstr ""
+msgstr "鍵"
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:84
 msgctxt "GameOptions|"
 msgid "Value"
-msgstr ""
+msgstr "值"
 
 #: src/application/pages/instance/GameOptionsPage.h:45
 msgctxt "GameOptionsPage|"
@@ -746,7 +687,7 @@ msgstr "載入版本資訊..."
 #: src/api/logic/updater/DownloadTask.cpp:81
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr "下載檔案版本資訊時發生錯誤。"
+msgstr "下載版本資訊檔案時發生錯誤。"
 
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
@@ -771,13 +712,13 @@ msgstr "處理更新清單失敗。"
 #: src/api/logic/updater/DownloadTask.cpp:136
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr ""
+msgstr "下載一個更新檔中。"
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "下載更新檔案%1中。"
+msgstr "下載%1個更新檔中。"
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
@@ -815,7 +756,7 @@ msgstr "選擇圖示"
 #, qt-format
 msgctxt "IconPickerDialog|"
 msgid "Icons %1"
-msgstr ""
+msgstr "圖示 %1"
 
 #: src/application/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -840,7 +781,7 @@ msgstr "選擇模組包"
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
-msgstr ""
+msgstr "Zip 壓縮檔 (*.zip)"
 
 #: src/application/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -852,21 +793,21 @@ msgctxt "InstanceCardWidget|"
 msgid "&Group:"
 msgstr "群組(&G):"
 
-#: src/api/logic/InstanceCopyTask.cpp:23
+#: src/api/logic/InstanceCopyTask.cpp:24
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
 msgstr "複製實例 %1"
 
-#: src/api/logic/InstanceCopyTask.cpp:39
+#: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
 msgstr "實例資料夾複製失敗。"
 
-#: src/api/logic/InstanceCopyTask.cpp:54
+#: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "實例資料夾複製已被中斷。"
 
 #: src/api/logic/InstanceCreationTask.cpp:16
 #, qt-format
@@ -895,13 +836,13 @@ msgstr "解壓縮模組包"
 #: src/api/logic/InstanceImportTask.cpp:79
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr ""
+msgstr "無法開啟提供的模組包壓縮檔。"
 
 #: src/api/logic/InstanceImportTask.cpp:104
 #: src/api/logic/InstanceImportTask.cpp:165
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr ""
+msgstr "壓縮檔未包含已知的模組包類型。"
 
 #: src/api/logic/InstanceImportTask.cpp:120
 msgctxt "InstanceImportTask|"
@@ -912,17 +853,17 @@ msgstr "模組包解壓縮失敗"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
-msgstr ""
+msgstr "無法修復 %1 的權限。"
 
 #: src/api/logic/InstanceImportTask.cpp:172
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "實例匯入已被中斷。"
 
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "無法理解模組包資訊:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
@@ -939,7 +880,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "在資訊中的未知模組載入器: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
@@ -967,7 +908,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr ""
+msgstr "巢狀模組包尚未實作，未下載任何東西: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
@@ -1010,12 +951,12 @@ msgstr "編輯實例(%1)"
 #: src/application/pages/instance/InstanceSettingsPage.ui:29
 msgctxt "InstanceSettingsPage|"
 msgid "Open Global Settings"
-msgstr ""
+msgstr "開啟全域設定"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:32
 msgctxt "InstanceSettingsPage|"
 msgid "The settings here are overrides for global settings."
-msgstr ""
+msgstr "此頁的設定會覆寫全域設定"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
@@ -1095,12 +1036,12 @@ msgstr "Minercaft啟動時最大化?"
 #: src/application/pages/instance/InstanceSettingsPage.ui:258
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
-msgstr "視窗寬度:"
+msgstr "視窗高度:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:265
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
-msgstr "視窗高度:"
+msgstr "視窗寬度:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:309
 msgctxt "InstanceSettingsPage|"
@@ -1175,7 +1116,7 @@ msgstr "強制關閉"
 #: src/application/InstanceWindow.cpp:126
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr ""
+msgstr "強制終止啟動中的實例"
 
 #: src/application/InstanceWindow.cpp:131
 #: src/application/InstanceWindow.cpp:138
@@ -1198,7 +1139,7 @@ msgstr "連接埠%1監聽中"
 #: src/api/logic/tools/JProfiler.cpp:41
 msgctxt "JProfiler|"
 msgid "Profiler aborted"
-msgstr "JProfiler已終止"
+msgstr "分析器已終止"
 
 #: src/api/logic/tools/JVisualVM.cpp:32
 msgctxt "JVisualVM|"
@@ -1208,7 +1149,7 @@ msgstr "JVisualVM已啟動"
 #: src/api/logic/tools/JVisualVM.cpp:39
 msgctxt "JVisualVM|"
 msgid "Profiler aborted"
-msgstr "JProfiler已終止"
+msgstr "分析器已終止"
 
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
@@ -1273,7 +1214,7 @@ msgstr "測試"
 #: src/application/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: src/application/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
@@ -1341,7 +1282,7 @@ msgstr "瀏覽"
 #: src/application/setupwizard/JavaWizardPage.cpp:92
 msgctxt "JavaWizardPage|"
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: src/application/setupwizard/JavaWizardPage.cpp:93
 msgctxt "JavaWizardPage|"
@@ -1373,7 +1314,7 @@ msgstr "選擇在MultiMC中使用的語言"
 #: src/application/LaunchController.cpp:27
 msgctxt "LaunchController|"
 msgid "No instance specified!"
-msgstr ""
+msgstr "沒有指定實例!"
 
 #: src/application/LaunchController.cpp:46
 msgctxt "LaunchController|"
@@ -1398,12 +1339,12 @@ msgstr ""
 #: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
 msgid "Your account is currently not logged in. Please enter your password to log in again. <br /> <br /> This could be caused by a password change."
-msgstr ""
+msgstr "您的帳號目前為未登入狀態。請輸入密碼以重新登入。<br /> <br />這有可能是因為密碼變更所造成的。"
 
 #: src/application/LaunchController.cpp:101
 msgctxt "LaunchController|"
 msgid "Play Offline"
-msgstr "Play(離線)"
+msgstr "離線遊玩"
 
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
@@ -1429,7 +1370,7 @@ msgstr "啟動失敗。"
 #: src/application/LaunchController.cpp:235
 msgctxt "LaunchController|"
 msgid "Error!"
-msgstr ""
+msgstr "錯誤！"
 
 #: src/application/LaunchController.cpp:195
 #: src/application/LaunchController.cpp:196
@@ -1446,19 +1387,20 @@ msgstr "啟動器無法實例化。"
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
-msgstr "無法啟動Profiler:%1"
+msgstr "無法啟動分析器: %1"
 
 #: src/application/LaunchController.cpp:244
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
-msgstr ""
+msgstr "遊戲啟動已暫停直到您按下按鈕。分析伺服器正在執行中，您現在可以設定分析器。\n\n"
+"%1"
 
 #: src/application/LaunchController.cpp:247
 msgctxt "LaunchController|"
 msgid "Waiting."
-msgstr ""
+msgstr "請稍後。"
 
 #: src/application/LaunchController.cpp:249
 msgctxt "LaunchController|"
@@ -1469,7 +1411,7 @@ msgstr "啟動"
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
-msgstr "無法啟動Profiler:%1"
+msgstr "無法啟動分析器: %1"
 
 #: src/application/LaunchController.cpp:258
 msgctxt "LaunchController|"
@@ -1479,7 +1421,7 @@ msgstr "錯誤"
 #: src/application/LaunchController.cpp:286
 msgctxt "LaunchController|"
 msgid "Abort"
-msgstr "退出"
+msgstr "中止"
 
 #: src/application/LaunchController.cpp:302
 msgctxt "LaunchController|"
@@ -1502,13 +1444,13 @@ msgstr ""
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "無法找到包裝指令 \"%1\"。"
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "無法啟動Minecraft!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:173
 #, qt-format
@@ -1519,37 +1461,37 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "依名稱排序"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:21
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
-msgstr ""
+msgstr "依遊戲版本排序"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "公開模組包"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "第三方模組包"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "私人模組包"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "公開模組包"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "第三方模組包"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:88
 #, qt-format
@@ -1561,69 +1503,69 @@ msgstr ""
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
+msgstr "正在下載壓縮檔 %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "正在下載壓縮檔 %1 (%2%)"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "正在解壓縮模組包"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "開啟模組包檔案 %1 失敗!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "正在安裝模組包"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr ""
+msgstr "移動解壓縮的minecraft失敗!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "找不到安裝方式!"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
 msgid "Public"
-msgstr ""
+msgstr "公開"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:41
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr ""
+msgstr "第三方"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:61
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr ""
+msgstr "私人"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:77
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr ""
+msgstr "新增模組包"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:84
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr ""
+msgstr "移除所選的模組包"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:100
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr ""
+msgstr "選擇版本:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
@@ -1633,7 +1575,7 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr ""
+msgstr "FTB 私人模組包"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:192
 #, qt-format
@@ -1645,23 +1587,23 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
 msgctxt "LegacyFTB::Page|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "新增FTB模組包"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:331
 msgctxt "LegacyFTB::Page|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "輸入模組包代碼:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:354
 msgctxt "LegacyFTB::Page|"
 msgid "Remove pack"
-msgstr ""
+msgstr "移除模組包"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:355
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr ""
+msgstr "您確定要移除模組包 %1 嗎？"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -1768,7 +1710,7 @@ msgstr "維持更新"
 #: src/application/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr ""
+msgstr "自動換行"
 
 #: src/application/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
@@ -1783,7 +1725,7 @@ msgstr "複製(&C)"
 #: src/application/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "上傳記錄檔至paste.ee - 這將會停留在線上1個月的時間"
+msgstr "上傳記錄檔至paste.ee - 這會保留在網路上1個月"
 
 #: src/application/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
@@ -1813,7 +1755,7 @@ msgstr "尋找"
 #: src/application/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr "滑動至底部"
+msgstr "捲動至底部"
 
 #: src/application/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
@@ -1835,7 +1777,7 @@ msgstr ""
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr "MultiMC:紀錄上傳到: %1"
+msgstr "MultiMC: 紀錄已上傳到: %1"
 
 #: src/application/pages/instance/LogPage.cpp:247
 msgctxt "LogPage|"
@@ -1879,8 +1821,8 @@ msgstr "新增帳號"
 
 #: src/application/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
-msgid "Email / Username"
-msgstr "電子郵件/使用者名稱"
+msgid "Email"
+msgstr ""
 
 #: src/application/dialogs/LoginDialog.ui:49
 msgctxt "LoginDialog|"
@@ -1890,12 +1832,12 @@ msgstr "密碼"
 #: src/application/MainWindow.cpp:229
 msgctxt "MainWindow|"
 msgid "Kill"
-msgstr "強制關閉"
+msgstr "強制終止"
 
 #: src/application/MainWindow.cpp:230
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "強制終止正在運作中的實例"
+msgstr "強制終止啟動中的實例"
 
 #: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:955
 msgctxt "MainWindow|"
@@ -1975,7 +1917,7 @@ msgstr "開啟Bug追蹤器以回報MultiMC的Bug。"
 #: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: src/application/MainWindow.cpp:321
 msgctxt "MainWindow|"
@@ -1985,7 +1927,7 @@ msgstr "開啟MultiMC discord語音群。"
 #: src/application/MainWindow.cpp:328
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: src/application/MainWindow.cpp:329
 msgctxt "MainWindow|"
@@ -2075,7 +2017,7 @@ msgstr "變更圖示"
 #: src/application/MainWindow.cpp:446
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
-msgstr "變更選擇實例的圖示。"
+msgstr "變更所選實例的圖示。"
 
 #: src/application/MainWindow.cpp:459
 msgctxt "MainWindow|"
@@ -2085,7 +2027,7 @@ msgstr "重新命名"
 #: src/application/MainWindow.cpp:460
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
-msgstr "重新命名選擇的實例。"
+msgstr "重新命名所選的實例。"
 
 #: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:956
 msgctxt "MainWindow|"
@@ -2095,7 +2037,7 @@ msgstr "離線啟動"
 #: src/application/MainWindow.cpp:480
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
-msgstr "在離線模式下啟動選擇的實例。"
+msgstr "在離線模式下啟動所選的實例。"
 
 #: src/application/MainWindow.cpp:488
 msgctxt "MainWindow|"
@@ -2110,12 +2052,12 @@ msgstr "變更實例的設定、模組與版本。"
 #: src/application/MainWindow.cpp:495
 msgctxt "MainWindow|"
 msgid "Edit Notes"
-msgstr "編輯筆記"
+msgstr "編輯註解"
 
 #: src/application/MainWindow.cpp:496
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
-msgstr "編輯選擇實例的筆記。"
+msgstr "編輯所選實例的註解。"
 
 #: src/application/MainWindow.cpp:502
 msgctxt "MainWindow|"
@@ -2135,7 +2077,7 @@ msgstr "管理螢幕截圖"
 #: src/application/MainWindow.cpp:510
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr "檢視和上傳實例的擷取畫面。"
+msgstr "檢視和上傳實例的螢幕截圖。"
 
 #: src/application/MainWindow.cpp:516
 msgctxt "MainWindow|"
@@ -2145,7 +2087,7 @@ msgstr "變更群組"
 #: src/application/MainWindow.cpp:517
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
-msgstr "變更選擇實例的群組。"
+msgstr "變更所選實例的群組。"
 
 #: src/application/MainWindow.cpp:525
 msgctxt "MainWindow|"
@@ -2190,7 +2132,7 @@ msgstr "刪除"
 #: src/application/MainWindow.cpp:556
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
-msgstr "刪除選擇的實例。"
+msgstr "刪除所選的實例。"
 
 #: src/application/MainWindow.cpp:563
 msgctxt "MainWindow|"
@@ -2200,7 +2142,7 @@ msgstr "複製實例"
 #: src/application/MainWindow.cpp:564
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
-msgstr "複製選擇的實例。"
+msgstr "複製所選的實例。"
 
 #: src/application/MainWindow.cpp:605
 #, qt-format
@@ -2238,17 +2180,17 @@ msgstr "刪除 '%1' 群組"
 #: src/application/MainWindow.cpp:965
 msgctxt "MainWindow|"
 msgid "Profilers"
-msgstr ""
+msgstr "分析器"
 
 #: src/application/MainWindow.cpp:977
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
-msgstr ""
+msgstr "分析器未正確設定。請開啟設定 > 外部工具。"
 
 #: src/application/MainWindow.cpp:1031
 msgctxt "MainWindow|"
 msgid "No accounts added!"
-msgstr "無帳號被新增!"
+msgstr "未新增任何帳號!"
 
 #: src/application/MainWindow.cpp:1061
 msgctxt "MainWindow|"
@@ -2263,7 +2205,7 @@ msgstr "正在載入消息..."
 #: src/application/MainWindow.cpp:1182
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr "沒有消息可用。"
+msgstr "無法取得消息。"
 
 #: src/application/MainWindow.cpp:1265 src/application/MainWindow.cpp:1282
 msgctxt "MainWindow|"
@@ -2275,7 +2217,7 @@ msgstr "錯誤"
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
-msgstr ""
+msgstr "無法建立下載更新所需的資料夾: %1"
 
 #: src/api/logic/meta/Index.cpp:71
 msgctxt "Meta::Index|"
@@ -2306,19 +2248,19 @@ msgstr "<設定檔ID>"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
-msgstr "%1分 %2秒"
+msgstr "%1分%2秒"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:739
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
-msgstr "%1小時 %2分"
+msgstr "%1小時%2分"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr "%1天 %2小時 %3分"
+msgstr "%1天%2小時%3分"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:749
 msgctxt "MinecraftInstance|"
@@ -2329,7 +2271,7 @@ msgstr ""
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:756
 #, qt-format
@@ -2360,62 +2302,62 @@ msgstr "視窗高度(&I):"
 #: src/application/pages/global/MinecraftPage.ui:73
 msgctxt "MinecraftPage|"
 msgid "W&indow width:"
-msgstr "視窗高度(&W):"
+msgstr "視窗寬度(&W):"
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
 msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
-msgstr ""
+msgstr "被使用者中止。"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:368
 msgctxt "ModFolderModel|"
 msgid "Folder"
-msgstr ""
+msgstr "資料夾"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
 msgid "File"
-msgstr ""
+msgstr "檔案"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:464
 msgctxt "ModFolderModel|"
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
 msgid "Last changed"
-msgstr ""
+msgstr "最後變更"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "此模組是否已啟用?"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "模組的名稱"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:481
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "模組的版本"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
-msgstr ""
+msgstr "此模組上次變更(或新增)的日期與時間"
 
 #: src/application/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
@@ -2435,7 +2377,7 @@ msgstr "新增(&A)"
 #: src/application/pages/instance/ModFolderPage.ui:99
 msgctxt "ModFolderPage|"
 msgid "Add mods"
-msgstr ""
+msgstr "新增模組"
 
 #: src/application/pages/instance/ModFolderPage.ui:104
 msgctxt "ModFolderPage|"
@@ -2445,49 +2387,49 @@ msgstr "移除(&R)"
 #: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "Remove selected mods"
-msgstr ""
+msgstr "移除所選的模組"
 
 #: src/application/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
 msgid "&Enable"
-msgstr ""
+msgstr "啟用(&E)"
 
 #: src/application/pages/instance/ModFolderPage.ui:115
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr ""
+msgstr "啟用所選的模組"
 
 #: src/application/pages/instance/ModFolderPage.ui:120
 msgctxt "ModFolderPage|"
 msgid "&Disable"
-msgstr ""
+msgstr "停用(&D)"
 
 #: src/application/pages/instance/ModFolderPage.ui:123
 msgctxt "ModFolderPage|"
 msgid "Disable selected mods"
-msgstr ""
+msgstr "停用所選的模組"
 
 #: src/application/pages/instance/ModFolderPage.ui:128
 msgctxt "ModFolderPage|"
 msgid "View &Configs"
-msgstr ""
+msgstr "檢視組態(&C)"
 
 #: src/application/pages/instance/ModFolderPage.ui:131
 msgctxt "ModFolderPage|"
 msgid "Open the 'config' folder in the system file manager."
-msgstr "在檔案瀏覽器裡打開\"Config\"資料夾。"
+msgstr "在檔案瀏覽器裡打開\"config\"資料夾。"
 
 #: src/application/pages/instance/ModFolderPage.ui:136
 msgctxt "ModFolderPage|"
 msgid "View &Folder"
-msgstr ""
+msgstr "檢視資料夾(&F)"
 
-#: src/application/pages/instance/ModFolderPage.cpp:168
+#: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "功能表"
 
-#: src/application/pages/instance/ModFolderPage.cpp:281
+#: src/application/pages/instance/ModFolderPage.cpp:301
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
@@ -2502,17 +2444,17 @@ msgstr ""
 #, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
-msgstr ""
+msgstr "無法移除舊的 jar 檔: %1"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:57
 msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
-msgstr ""
+msgstr "無法建立自訂的 Minecraft jar 檔。"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
-msgstr "活動?"
+msgstr "啟用?"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:230
 msgctxt "MojangAccountList|"
@@ -2562,7 +2504,7 @@ msgstr "資料夾"
 #: src/application/pages/global/MultiMCPage.ui:100
 msgctxt "MultiMCPage|"
 msgid "I&nstances:"
-msgstr "實例(%I):"
+msgstr "實例(&I):"
 
 #: src/application/pages/global/MultiMCPage.ui:120
 msgctxt "MultiMCPage|"
@@ -2647,7 +2589,7 @@ msgstr "自訂"
 #: src/application/pages/global/MultiMCPage.ui:321
 msgctxt "MultiMCPage|"
 msgid "Colors"
-msgstr ""
+msgstr "色彩"
 
 #: src/application/pages/global/MultiMCPage.ui:348
 msgctxt "MultiMCPage|"
@@ -2722,7 +2664,17 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>MultiMC會在每次啟動時傳送匿名的使用統計。</p><p>以下是所蒐集的資料:</p>\n"
+"<ul>\n"
+"<li>MultiMC版本</li>\n"
+"<li>作業系統名稱、版本及架構</li>\n"
+"<li>CPU架構 (或Linux核心架構)</li>\n"
+"<li>系統記憶體大小</li>\n"
+"<li>Java版本、架構及記憶體設定</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/application/pages/global/MultiMCPage.cpp:97
 msgctxt "MultiMCPage|"
@@ -2732,12 +2684,12 @@ msgstr "實例資料夾"
 #: src/application/pages/global/MultiMCPage.cpp:106
 msgctxt "MultiMCPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "你試圖指定的實例路徑中包含了至少一個 '!' 字元。已知Java會在此情況下發生問題，你的實例(可能)不會啟動！"
 
 #: src/application/pages/global/MultiMCPage.cpp:111
 msgctxt "MultiMCPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "你真的確定要使用此路徑？選擇 \"否\" 會關閉此對話框且不會修改實例路徑。"
 
 #: src/application/pages/global/MultiMCPage.cpp:129
 msgctxt "MultiMCPage|"
@@ -2774,7 +2726,7 @@ msgstr ""
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "新增空白組件"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -2787,7 +2739,7 @@ msgid "uid"
 msgstr ""
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:141
+#: src/application/dialogs/NewInstanceDialog.cpp:132
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "新實例"
@@ -2802,7 +2754,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "名稱(&N):"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:65
+#: src/application/dialogs/NewInstanceDialog.cpp:64
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "未分類"
@@ -2812,7 +2764,7 @@ msgstr "未分類"
 msgctxt "NewsChecker|"
 msgid "Failed to load news RSS feed:\n"
 "%1"
-msgstr "載入新聞RSS內容失敗:\n"
+msgstr "載入RSS新聞內容失敗:\n"
 "%1"
 
 #: src/api/logic/news/NewsEntry.cpp:24 src/api/logic/news/NewsEntry.cpp:60
@@ -2833,7 +2785,7 @@ msgstr "未知作者"
 #: src/application/pages/instance/NotesPage.h:38
 msgctxt "NotesPage|"
 msgid "Notes"
-msgstr "筆記"
+msgstr "註解"
 
 #: src/application/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
@@ -2887,7 +2839,7 @@ msgstr "刪除"
 #: src/application/pages/instance/OtherLogsPage.ui:87
 msgctxt "OtherLogsPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "上傳記錄檔至paste.ee - 這將會停留在線上1個月的時間"
+msgstr "上傳記錄檔至paste.ee - 這會保留在網路上1個月"
 
 #: src/application/pages/instance/OtherLogsPage.ui:90
 msgctxt "OtherLogsPage|"
@@ -2920,31 +2872,31 @@ msgstr "錯誤"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
-msgstr ""
+msgstr "無法以讀取模式開啟 %1: %2"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:146
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
-msgstr ""
+msgstr "檔案 (%1) 太大了。你可能會想用適合大型檔案的檢視器打開它。"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:161
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
-msgstr ""
+msgstr "檔案 (%1) 不可讀取。"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:197
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
-msgstr ""
+msgstr "你確定要刪除 %1 嗎?"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:205
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
-msgstr ""
+msgstr "無法刪除 %1: %2"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:220
 msgctxt "OtherLogsPage|"
@@ -3005,7 +2957,7 @@ msgstr "在這貼上你的API金鑰!"
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> 被 MultiMC 用來上傳記錄檔。若你擁有一個 <a href=\"https://paste.ee\">paste.ee</a> 帳號，你可以在此處新增你的API金鑰將紀錄檔上傳到你的帳號中。</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3020,7 +2972,7 @@ msgstr "正在上傳到paste.ee"
 #: src/api/logic/net/PasteUpload.cpp:75
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "paste.ee 回報錯誤。請檢閱記錄檔以獲得更多資訊"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
@@ -3059,22 +3011,22 @@ msgstr "預啟動指令已成功地執行。\n\n"
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
 msgid "Select an Account"
-msgstr ""
+msgstr "選擇一個帳號"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:20
 msgctxt "ProfileSelectDialog|"
 msgid "Select a profile."
-msgstr ""
+msgstr "選取一個設定檔"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:38
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default?"
-msgstr ""
+msgstr "作為預設值"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:45
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr ""
+msgstr "作為此實例的預設值"
 
 #: src/application/dialogs/ProfileSelectDialog.cpp:41
 #: src/application/dialogs/ProfileSelectDialog.cpp:45
@@ -3105,7 +3057,7 @@ msgstr "略過"
 #: src/application/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "這只會套用到 MultiMC。Minecraft 並不接受 Proxy 設定。"
 
 #: src/application/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3130,17 +3082,17 @@ msgstr "無(&N)"
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
 msgid "Address and Port"
-msgstr "帳號與連接埠"
+msgstr "位址與連接埠"
 
 #: src/application/pages/global/ProxyPage.ui:139
 msgctxt "ProxyPage|"
@@ -3150,7 +3102,7 @@ msgstr "驗證"
 #: src/application/pages/global/ProxyPage.ui:148
 msgctxt "ProxyPage|"
 msgid "Username:"
-msgstr "帳戶名稱:"
+msgstr "使用者名稱:"
 
 #: src/application/pages/global/ProxyPage.ui:155
 msgctxt "ProxyPage|"
@@ -3160,12 +3112,12 @@ msgstr "密碼:"
 #: src/application/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside MultiMC's configuration file!"
-msgstr ""
+msgstr "註: Proxy 的使用者名稱及密碼會以明文儲存在 MultiMC 的設定檔中!"
 
 #: src/application/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
@@ -3176,18 +3128,18 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "processArguments 被設為未知的值 '%1'"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:178
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr ""
+msgstr "此版本的 'minimumLauncherVersion' 值 (%1) 比 MultiMC 所支援的還要高 (%2)。有可能無法正常運作!"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr ""
+msgstr "版本檔同時有 '+libraries' 和 'libraries'。這已不再被支援。"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
 msgctxt "QObject|"
@@ -3231,25 +3183,25 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to open the version file %1: %2."
-msgstr ""
+msgstr "無法開啟版本檔 %1: %2。"
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:117
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr ""
+msgstr "無法處理版本檔 %1: %2 於第%3行第%4欄。"
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:157
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1."
-msgstr ""
+msgstr "無法處理版本檔 %1。"
 
 #: src/api/logic/minecraft/ComponentList.cpp:190
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr ""
+msgstr "無效的組件檔案版本，應為 %1"
 
 #: src/api/logic/minecraft/World.cpp:50
 msgctxt "QObject|"
@@ -3301,17 +3253,17 @@ msgstr "看起來不是MCEdit的路徑"
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
 msgid "Dark"
-msgstr ""
+msgstr "暗色"
 
 #: src/application/themes/SystemTheme.cpp:44
 msgctxt "QObject|"
 msgid "System"
-msgstr ""
+msgstr "系統"
 
 #: src/application/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
-msgstr ""
+msgstr "亮色"
 
 #: src/application/dialogs/UpdateDialog.cpp:122
 #, qt-format
@@ -3322,7 +3274,7 @@ msgstr ""
 #: src/application/dialogs/UpdateDialog.cpp:126
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
+msgstr "<p>以下為自上次更新以來所新增的提交:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:133
 #, qt-format
@@ -3334,23 +3286,23 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
+msgstr "<p>您可以<a href=\"%1\">在 github 上檢視變更</a>。</p>"
 
 #: src/application/dialogs/AboutDialog.cpp:31
 #: src/application/dialogs/AboutDialog.cpp:52
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr ""
+msgstr "贊助者"
 
 #: src/application/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
 msgid "MultiMC Developers"
-msgstr ""
+msgstr "MultiMC 開發者"
 
 #: src/application/dialogs/AboutDialog.cpp:44
 msgctxt "QObject|About Credits"
 msgid "With thanks to"
-msgstr ""
+msgstr "感謝"
 
 #: src/application/UpdateController.cpp:362
 msgctxt "QObject|"
@@ -3360,34 +3312,39 @@ msgstr "更新失敗!"
 #: src/application/UpdateController.cpp:363
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr ""
+msgstr "回退失敗!"
 
 #: src/application/UpdateController.cpp:368
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "無法取代檔案 %1。變更將會被復原。\n"
+"檢視 MultiMC 記錄檔以取得詳細資料。"
 
 #: src/application/UpdateController.cpp:376
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "無法移除檔案 %1。變更將會被復原。\n"
+"檢視 MultiMC 記錄檔以取得詳細資料。"
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
-msgstr ""
+msgstr "新版本未啟動或是其過舊且未回應啟動檢查。\n\n"
+"回退到上個版本?"
 
 #: src/application/UpdateController.cpp:406
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "回退程序也失敗了。\n"
+"你將需要手動修復 MultiMC。\n"
+"請讓我們知道這是為何且如何發生的。"
 
 #: src/application/MainWindow.cpp:1001
 msgctxt "QObject|"
@@ -3407,20 +3364,22 @@ msgstr "紀錄檔太大了，你必須手動上傳。"
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
 msgid "Upload finished"
-msgstr "上傳成功的結束"
+msgstr "上傳完成"
 
 #: src/application/GuiUtil.cpp:48
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">記錄檔連結</a>已經在你的剪貼簿中。"
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr ""
+msgstr "您嘗試手動指定 JVM 的記憶體選項 (\"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" 或 \"-Xms\")。\n"
+"這些選項在設定中有專門的欄位 (在 Java 頁中，上方的 Memory 群組)。\n"
+"此訊息會持續顯示，直到您將他們從 JVM 參數中移除。"
 
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
@@ -3432,7 +3391,7 @@ msgstr "JVM參數警告"
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java測試成功!<br />平台已回報: %1<br />Java版本已回報: %2<br />"
+msgstr "Java測試成功!<br />回報的平台: %1<br />回報的Java版本: %2<br />"
 
 #: src/application/JavaCommon.cpp:32
 #, qt-format
@@ -3485,7 +3444,7 @@ msgstr "Minecraft伺服器"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append 不支援 GZIP"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
@@ -3500,23 +3459,23 @@ msgstr ""
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "無法以 gzopen() 開啟檔案"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append 不支援 QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite 不支援 QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "ZIP/UNZIP API 錯誤 %1"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3561,22 +3520,22 @@ msgstr ""
 #: src/application/pages/instance/ScreenshotsPage.ui:59
 msgctxt "ScreenshotsPage|"
 msgid "Upload"
-msgstr ""
+msgstr "上傳"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:64
 msgctxt "ScreenshotsPage|"
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:69
 msgctxt "ScreenshotsPage|"
 msgid "Rename"
-msgstr ""
+msgstr "重新命名"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:74
 msgctxt "ScreenshotsPage|"
 msgid "View Folder"
-msgstr ""
+msgstr "檢視資料夾"
 
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -3586,7 +3545,7 @@ msgstr "螢幕截圖"
 #: src/application/pages/instance/ScreenshotsPage.cpp:273
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "功能表"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:318
 #: src/application/pages/instance/ScreenshotsPage.cpp:356
@@ -3604,19 +3563,19 @@ msgstr "未知錯誤"
 #: src/application/pages/instance/ScreenshotsPage.cpp:366
 msgctxt "ScreenshotsPage|"
 msgid "Upload finished"
-msgstr "上傳成功的結束"
+msgstr "上傳完成"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:329
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">上傳的螢幕截圖連結</a>已經在你的剪貼簿中。"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">上傳的相簿連結</a>已經在你的剪貼簿中。"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
@@ -3631,7 +3590,7 @@ msgstr "這將會刪除全部的螢幕截圖。"
 #: src/application/widgets/ServerStatus.cpp:66
 msgctxt "ServerStatus|"
 msgid "Auth"
-msgstr "認證"
+msgstr "驗證"
 
 #: src/application/widgets/ServerStatus.cpp:68
 msgctxt "ServerStatus|"
@@ -3646,7 +3605,7 @@ msgstr "皮膚"
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -3661,7 +3620,7 @@ msgstr "位址"
 #: src/application/pages/instance/ServersPage.cpp:293
 msgctxt "ServersModel|"
 msgid "Latency"
-msgstr "延遲度"
+msgstr "延遲"
 
 #: src/application/pages/instance/ServersPage.ui:72
 msgctxt "ServersPage|"
@@ -3701,12 +3660,12 @@ msgstr ""
 #: src/application/pages/instance/ServersPage.ui:154
 msgctxt "ServersPage|"
 msgid "Add"
-msgstr ""
+msgstr "新增"
 
 #: src/application/pages/instance/ServersPage.ui:159
 msgctxt "ServersPage|"
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: src/application/pages/instance/ServersPage.ui:164
 msgctxt "ServersPage|"
@@ -3721,12 +3680,12 @@ msgstr "下移"
 #: src/application/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
-msgstr ""
+msgstr "伺服器"
 
 #: src/application/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "功能表"
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -3802,7 +3761,7 @@ msgstr ""
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
 msgid "You cannot use an invalid URL for uploading skins."
-msgstr ""
+msgstr "不能使用無效的網址上傳皮膚。"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:75
 msgctxt "SkinUploadDialog|"
@@ -3822,7 +3781,7 @@ msgstr "成功"
 #: src/application/dialogs/SkinUploadDialog.cpp:101
 msgctxt "SkinUploadDialog|"
 msgid "Select Skin Texture"
-msgstr ""
+msgstr "選擇皮膚材質"
 
 #: src/api/logic/status/StatusChecker.cpp:104
 #, qt-format
@@ -3844,7 +3803,10 @@ msgid "%1:\n"
 "%2 translated\n"
 "%3 fuzzy\n"
 "%4 total"
-msgstr ""
+msgstr "%1:\n"
+"已翻譯: %2\n"
+"模糊不清: %3\n"
+"總計: %4"
 
 #: src/api/logic/translations/TranslationsModel.cpp:372
 msgctxt "TranslationsModel|"
@@ -3854,42 +3816,22 @@ msgstr "語言"
 #: src/api/logic/translations/TranslationsModel.cpp:376
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr ""
+msgstr "完成度"
 
 #: src/api/logic/translations/TranslationsModel.cpp:386
 msgctxt "TranslationsModel|"
 msgid "The native language name."
-msgstr ""
+msgstr "原生語言名稱"
 
 #: src/api/logic/translations/TranslationsModel.cpp:390
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.ui:38
-msgctxt "TwitchPage|"
-msgid "Check"
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.ui:45
-msgctxt "TwitchPage|"
-msgid "Twitch URL:"
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.ui:55
-msgctxt "TwitchPage|"
-msgid "Drag and drop an Install button from CurseForge into the area above."
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.h:41
-msgctxt "TwitchPage|"
-msgid "Twitch URL"
-msgstr ""
+msgstr "完成度為完整翻譯的字串百分比，自動猜測的並不列入計算中。"
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
-msgstr ""
+msgstr "工作中止。"
 
 #: src/api/logic/launch/steps/Update.cpp:52
 #, qt-format
@@ -3932,23 +3874,23 @@ msgstr "關閉"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>讀取更新日誌...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
-msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">取得變更紀錄失敗... 錯誤: %1</span></p>"
+msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">取得更新日誌失敗... 錯誤: %1</span></p>"
 
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:55
 msgctxt "ValidateTask|"
 msgid "Validating access token: Sending request..."
-msgstr ""
+msgstr "驗證存取憑證: 傳送請求中..."
 
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:57
 msgctxt "ValidateTask|"
 msgid "Validating access token: Processing response..."
-msgstr ""
+msgstr "驗證存取憑證: 處理回應..."
 
 #: src/application/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
@@ -3958,12 +3900,12 @@ msgstr "過濾器"
 #: src/application/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
 msgid "Releases"
-msgstr ""
+msgstr "發行版"
 
 #: src/application/pages/modplatform/VanillaPage.ui:64
 msgctxt "VanillaPage|"
 msgid "Snapshots"
-msgstr ""
+msgstr "快照版"
 
 #: src/application/pages/modplatform/VanillaPage.ui:74
 msgctxt "VanillaPage|"
@@ -3973,17 +3915,17 @@ msgstr "舊版快照"
 #: src/application/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
 msgid "Betas"
-msgstr ""
+msgstr "Beta版"
 
 #: src/application/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr ""
+msgstr "Alpha版"
 
 #: src/application/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
 msgid "Experiments"
-msgstr ""
+msgstr "實驗版"
 
 #: src/application/pages/modplatform/VanillaPage.ui:127
 msgctxt "VanillaPage|"
@@ -3993,300 +3935,321 @@ msgstr "重新整理"
 #: src/application/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "原版"
 
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
 msgid "No versions are currently available."
-msgstr ""
+msgstr "目前沒有可用的版本。"
 
 #: src/application/pages/instance/VersionPage.ui:64
 msgctxt "VersionPage|"
 msgid "Actions"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:103
+#: src/application/pages/instance/VersionPage.ui:107
 msgctxt "VersionPage|"
 msgid "Change version"
 msgstr "變更版本"
 
-#: src/application/pages/instance/VersionPage.ui:106
+#: src/application/pages/instance/VersionPage.ui:110
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
-msgstr ""
+msgstr "變更所選的安裝包版本。"
 
-#: src/application/pages/instance/VersionPage.ui:111
+#: src/application/pages/instance/VersionPage.ui:115
 msgctxt "VersionPage|"
 msgid "Move up"
 msgstr "上移"
 
-#: src/application/pages/instance/VersionPage.ui:114
+#: src/application/pages/instance/VersionPage.ui:118
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr ""
+msgstr "使所選的安裝包較早套用。"
 
-#: src/application/pages/instance/VersionPage.ui:119
+#: src/application/pages/instance/VersionPage.ui:123
 msgctxt "VersionPage|"
 msgid "Move down"
 msgstr "下移"
 
-#: src/application/pages/instance/VersionPage.ui:122
+#: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr ""
+msgstr "使所選的安裝包較晚套用。"
 
-#: src/application/pages/instance/VersionPage.ui:127
+#: src/application/pages/instance/VersionPage.ui:131
 msgctxt "VersionPage|"
 msgid "Remove"
 msgstr "移除"
 
-#: src/application/pages/instance/VersionPage.ui:130
+#: src/application/pages/instance/VersionPage.ui:134
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
-msgstr ""
+msgstr "從實例中移除所選的安裝包。"
 
-#: src/application/pages/instance/VersionPage.ui:135
+#: src/application/pages/instance/VersionPage.ui:139
 msgctxt "VersionPage|"
 msgid "Customize"
 msgstr "自訂"
 
-#: src/application/pages/instance/VersionPage.ui:138
+#: src/application/pages/instance/VersionPage.ui:142
 msgctxt "VersionPage|"
 msgid "Customize selected package."
-msgstr "自訂選擇的包。"
+msgstr "自訂所選的安裝包。"
 
-#: src/application/pages/instance/VersionPage.ui:143
+#: src/application/pages/instance/VersionPage.ui:147
 msgctxt "VersionPage|"
 msgid "Edit"
 msgstr "編輯"
 
-#: src/application/pages/instance/VersionPage.ui:146
+#: src/application/pages/instance/VersionPage.ui:150
 msgctxt "VersionPage|"
 msgid "Edit selected package."
-msgstr "編輯選擇的包。"
+msgstr "編輯所選的安裝包。"
 
-#: src/application/pages/instance/VersionPage.ui:151
+#: src/application/pages/instance/VersionPage.ui:155
 msgctxt "VersionPage|"
 msgid "Revert"
 msgstr "復原"
 
-#: src/application/pages/instance/VersionPage.ui:154
+#: src/application/pages/instance/VersionPage.ui:158
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
-msgstr "復原選擇的包至預設。"
+msgstr "將所選的安裝包復原為預設值。"
 
-#: src/application/pages/instance/VersionPage.ui:159
+#: src/application/pages/instance/VersionPage.ui:163
 msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr "安裝Forge"
 
-#: src/application/pages/instance/VersionPage.ui:162
+#: src/application/pages/instance/VersionPage.ui:166
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
 msgstr "安裝Minercaft Forge。"
 
-#: src/application/pages/instance/VersionPage.ui:167
+#: src/application/pages/instance/VersionPage.ui:171
 msgctxt "VersionPage|"
 msgid "Install Fabric"
 msgstr "安裝Fabric"
 
-#: src/application/pages/instance/VersionPage.ui:170
+#: src/application/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
 msgstr "安裝Fabric。"
 
-#: src/application/pages/instance/VersionPage.ui:175
+#: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr "安裝LiteLoader"
 
-#: src/application/pages/instance/VersionPage.ui:178
+#: src/application/pages/instance/VersionPage.ui:182
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr "安裝LiteLoader。"
 
-#: src/application/pages/instance/VersionPage.ui:183
+#: src/application/pages/instance/VersionPage.ui:187
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr "安裝模組"
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:190
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr "安裝普通模組。"
 
-#: src/application/pages/instance/VersionPage.ui:191
+#: src/application/pages/instance/VersionPage.ui:195
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr "新增到Minecraft.jar"
 
-#: src/application/pages/instance/VersionPage.ui:194
+#: src/application/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr "新增模組到Minecraft jar檔案。"
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:203
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr "取代Minecraft.jar"
 
-#: src/application/pages/instance/VersionPage.ui:204
+#: src/application/pages/instance/VersionPage.ui:208
 msgctxt "VersionPage|"
 msgid "Add Empty"
-msgstr ""
+msgstr "新增空白"
 
-#: src/application/pages/instance/VersionPage.ui:207
+#: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
-msgstr ""
+msgstr "新增空白的自訂安裝包"
 
-#: src/application/pages/instance/VersionPage.ui:212
+#: src/application/pages/instance/VersionPage.ui:216
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "重新載入"
 
-#: src/application/pages/instance/VersionPage.ui:215
+#: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Reload all packages."
-msgstr "重新載入所有包。"
+msgstr "重新載入所有安裝包。"
 
-#: src/application/pages/instance/VersionPage.ui:220
+#: src/application/pages/instance/VersionPage.ui:224
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr "下載全部"
 
-#: src/application/pages/instance/VersionPage.ui:223
+#: src/application/pages/instance/VersionPage.ui:227
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
+msgstr "立刻下載所有啟動此實例所需的檔案。"
+
+#: src/application/pages/instance/VersionPage.ui:232
+msgctxt "VersionPage|"
+msgid "Open .minecraft"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:146
+#: src/application/pages/instance/VersionPage.ui:235
+msgctxt "VersionPage|"
+msgid "Open the instance's .minecraft folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:240
+msgctxt "VersionPage|"
+msgid "Open libraries"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:243
+msgctxt "VersionPage|"
+msgid "Open the instance's local libraries folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "功能表"
 
-#: src/application/pages/instance/VersionPage.cpp:164
+#: src/application/pages/instance/VersionPage.cpp:165
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1可能發生問題。"
 
-#: src/application/pages/instance/VersionPage.cpp:167
+#: src/application/pages/instance/VersionPage.cpp:168
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1發生問題!"
 
-#: src/application/pages/instance/VersionPage.cpp:181
+#: src/application/pages/instance/VersionPage.cpp:182
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "錯誤: "
 
-#: src/application/pages/instance/VersionPage.cpp:185
+#: src/application/pages/instance/VersionPage.cpp:186
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "警告: "
 
-#: src/application/pages/instance/VersionPage.cpp:243
-#: src/application/pages/instance/VersionPage.cpp:249
-#: src/application/pages/instance/VersionPage.cpp:268
-#: src/application/pages/instance/VersionPage.cpp:312
-#: src/application/pages/instance/VersionPage.cpp:325
-#: src/application/pages/instance/VersionPage.cpp:387
+#: src/application/pages/instance/VersionPage.cpp:244
+#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:269
+#: src/application/pages/instance/VersionPage.cpp:313
+#: src/application/pages/instance/VersionPage.cpp:326
+#: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:251
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "無法載入實例設定檔。"
 
-#: src/application/pages/instance/VersionPage.cpp:268
+#: src/application/pages/instance/VersionPage.cpp:269
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "無法移除檔案"
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "選擇Jar模組"
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr ""
+msgstr "Minecraft.jar 模組 (*.zip *.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "選擇Jar"
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
-msgstr ""
+msgstr "Minecraft.jar 取代檔 (*.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:356
+#: src/application/pages/instance/VersionPage.cpp:357
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "變更%1版本"
 
-#: src/application/pages/instance/VersionPage.cpp:359
-#: src/application/pages/instance/VersionPage.cpp:444
+#: src/application/pages/instance/VersionPage.cpp:360
+#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "沒有可用的Fabric Loader版本可供Minecraft使用。"
 
-#: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
+#: src/application/pages/instance/VersionPage.cpp:361
+#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "無法下載或載入Fabric Loader版本清單!"
 
-#: src/application/pages/instance/VersionPage.cpp:388
+#: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr ""
+msgstr "MultiMC 無法下載 Minecraft 或更新實例除非你新增至少一個帳號。\n"
+"請新增你的 Mojang 或 Minecraft 帳號。"
 
-#: src/application/pages/instance/VersionPage.cpp:414
+#: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "選擇Forge版本"
 
-#: src/application/pages/instance/VersionPage.cpp:416
+#: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "沒有可用的Forge版本可供Minecraft使用 "
 
-#: src/application/pages/instance/VersionPage.cpp:417
+#: src/application/pages/instance/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "無法下載或載入Forge版本清單!"
 
-#: src/application/pages/instance/VersionPage.cpp:443
+#: src/application/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "選擇Fabric Loader版本"
 
-#: src/application/pages/instance/VersionPage.cpp:488
+#: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "選擇LiteLoader版本"
 
-#: src/application/pages/instance/VersionPage.cpp:490
+#: src/application/pages/instance/VersionPage.cpp:491
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "沒有可用的LiteLoader版本可供Minecraft使用 "
 
-#: src/application/pages/instance/VersionPage.cpp:491
+#: src/application/pages/instance/VersionPage.cpp:492
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "無法下載或載入LiteLoader版本清單!"
 
-#: src/application/pages/instance/VersionPage.cpp:537
+#: src/application/pages/instance/VersionPage.cpp:548
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "更新實例錯誤"
@@ -4304,7 +4267,7 @@ msgstr "版本"
 #: src/application/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/application/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -4329,7 +4292,7 @@ msgstr "路徑"
 #: src/application/VersionProxyModel.cpp:88
 msgctxt "VersionProxyModel|"
 msgid "Released"
-msgstr ""
+msgstr "發佈於"
 
 #: src/application/VersionProxyModel.cpp:96
 msgctxt "VersionProxyModel|"
@@ -4359,7 +4322,7 @@ msgstr "CPU架構"
 #: src/application/VersionProxyModel.cpp:106
 msgctxt "VersionProxyModel|"
 msgid "Filesystem path to this version"
-msgstr ""
+msgstr "此版本在檔案系統中的路徑"
 
 #: src/application/VersionProxyModel.cpp:108
 msgctxt "VersionProxyModel|"
@@ -4370,7 +4333,7 @@ msgstr "此版本的發布日期"
 #, qt-format
 msgctxt "VersionProxyModel|"
 msgid "%1 (installed)"
-msgstr ""
+msgstr "%1 (已安裝)"
 
 #: src/application/VersionProxyModel.cpp:164
 msgctxt "VersionProxyModel|"
@@ -4464,12 +4427,12 @@ msgstr "複製"
 #: src/application/pages/instance/WorldListPage.ui:104
 msgctxt "WorldListPage|"
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: src/application/pages/instance/WorldListPage.ui:109
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/application/pages/instance/WorldListPage.ui:114
 msgctxt "WorldListPage|"
@@ -4484,17 +4447,17 @@ msgstr "重新整理"
 #: src/application/pages/instance/WorldListPage.ui:124
 msgctxt "WorldListPage|"
 msgid "View Folder"
-msgstr ""
+msgstr "檢視資料夾"
 
 #: src/application/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
 msgid "Worlds"
-msgstr ""
+msgstr "世界"
 
 #: src/application/pages/instance/WorldListPage.cpp:76
 msgctxt "WorldListPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "功能表"
 
 #: src/application/pages/instance/WorldListPage.cpp:126
 msgctxt "WorldListPage|"
@@ -4531,7 +4494,8 @@ msgstr "MCEdit啟動失敗!"
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
-msgstr ""
+msgstr "MCEdit 啟動失敗。\n"
+"可能需要重新安裝它。"
 
 #: src/application/pages/instance/WorldListPage.cpp:264
 msgctxt "WorldListPage|"
@@ -4541,7 +4505,7 @@ msgstr "選擇Minecraft世界zip壓縮檔"
 #: src/application/pages/instance/WorldListPage.cpp:265
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr ""
+msgstr "Minecraft 世界 Zip 檔案 (*.zip)"
 
 #: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
@@ -4552,7 +4516,8 @@ msgstr "複製世界"
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
-msgstr ""
+msgstr "當 Minecraft 正在執行時變更一個世界具有潛在的風險。\n"
+"你還要繼續嗎?"
 
 #: src/application/pages/instance/WorldListPage.cpp:310
 #: src/application/pages/instance/WorldListPage.cpp:333
@@ -4583,30 +4548,30 @@ msgstr "驗證已取消。"
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL 交握失敗。</b><br/>這可能有幾種原因:<br/><ul><li>您使用 Windows XP 且需要<a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">更新您的根憑證</a></li><li>在您的網路中有一些裝置在干擾 SSL 流量。在此情況下，您有比無法啟動 Minecraft 還更大的擔憂。</li><li>可能是一些其他的原因。確認 MultiMC 的記錄檔以了解詳情</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr ""
+msgstr "驗證失敗由於網路錯誤: %1 (%2)"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:164
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "解析驗證伺服器的 JSON 回應失敗: %1 於位移 %2。"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:193
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "當與驗證伺服器溝通時發生未知的錯誤: %1"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:213
 msgctxt "YggdrasilTask|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "發生未知的 Yggdrasil 錯誤。"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:224
 msgctxt "YggdrasilTask|"
@@ -4636,5 +4601,5 @@ msgstr "驗證失敗。"
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:234
 msgctxt "YggdrasilTask|"
 msgid "..."
-msgstr ""
+msgstr "..."
 

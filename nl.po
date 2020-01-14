@@ -5,15 +5,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: multimc\n"
 "X-Crowdin-Language: nl\n"
 "X-Crowdin-File: /master/template.pot\n"
 "Project-Id-Version: multimc\n"
-"Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2019-11-03 23:08\n"
+"PO-Revision-Date: 2020-01-14 19:11\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -130,7 +128,7 @@ msgstr "Geen standaard"
 #: src/application/pages/global/AccountListPage.ui:70
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
-msgstr ""
+msgstr "Upload skin"
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -151,8 +149,8 @@ msgstr "Contextmenu"
 
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
-msgid "Please enter your Mojang or Minecraft account username and password to add your account."
-msgstr "Vul alsjeblieft je Mojang of Minecraft gebruikersnaam en wachtwoord in om je account toe te voegen."
+msgid "Please enter your Minecraft account email and password to add your account."
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -319,22 +317,22 @@ msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
 msgstr "Het laden van enkele component metadata is mislukt."
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
 msgstr "Conflicten in de vereisten gedetecteerd tijdens het controleren van dependencies!"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
 msgstr "De instance heeft conflicterende dependencies."
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "Instance heeft onopgeloste afhankelijkheden tijdens het laden/controleren op de lancering."
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
@@ -361,6 +359,11 @@ msgstr "&Groep"
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
 msgstr "Kopieer saves"
+
+#: src/application/dialogs/CopyInstanceDialog.ui:122
+msgctxt "CopyInstanceDialog|"
+msgid "Keep play time"
+msgstr ""
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
@@ -427,8 +430,8 @@ msgstr "Inloggen"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
-msgid "Email / Username"
-msgstr "Email / Gebruikersnaam"
+msgid "Email"
+msgstr ""
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
@@ -636,71 +639,6 @@ msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "Sommige mod ID-taken zijn mislukt."
 
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving URL..."
-msgstr "URL aan het zoeken..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Not a Twitch URL."
-msgstr "Is niet een Twitch link."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the needle in the haystack..."
-msgstr "Kon de naald niet in de hooiberg vinden..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the end of the needle in the haystack..."
-msgstr "Kon het eind van de naald niet in de hooiberg vinden..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed."
-msgstr "URL zoeken mislukt."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing package root element."
-msgstr "Zoeken mislukt: Pakket mist grond-element."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing project element."
-msgstr "Zoeken mislukt: Pakket mist project element."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing id attribute."
-msgstr "Zoeken mislukt: Pakket mist id attribuut."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing file attribute."
-msgstr "Zoeken mislukt: Pakket mist bestand attribuut."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve projectId as a number."
-msgstr "Kon geen nummer in het projectId vinden."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve fileId as a number."
-msgstr "Kon geen nummer in het veld vinden."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving mod IDs..."
-msgstr "Mod IDs aan het zoeken..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve the modpack file."
-msgstr "Fout bij het openen van modpack bestand."
-
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
@@ -855,18 +793,18 @@ msgctxt "InstanceCardWidget|"
 msgid "&Group:"
 msgstr "&Groep:"
 
-#: src/api/logic/InstanceCopyTask.cpp:23
+#: src/api/logic/InstanceCopyTask.cpp:24
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
 msgstr "Instance %1 aan het kopiëren"
 
-#: src/api/logic/InstanceCopyTask.cpp:39
+#: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
 msgstr "Kopiëren van instance map mislukt."
 
-#: src/api/logic/InstanceCopyTask.cpp:54
+#: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
 msgstr "Kopiëren van instance map is afgebroken."
@@ -1380,7 +1318,7 @@ msgstr "Selecteer de taal voor MultiMC"
 #: src/application/LaunchController.cpp:27
 msgctxt "LaunchController|"
 msgid "No instance specified!"
-msgstr ""
+msgstr "Geen server gespecificeerd!"
 
 #: src/application/LaunchController.cpp:46
 msgctxt "LaunchController|"
@@ -1405,7 +1343,7 @@ msgstr "Geen account geselecteerd voor lancering."
 #: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
 msgid "Your account is currently not logged in. Please enter your password to log in again. <br /> <br /> This could be caused by a password change."
-msgstr ""
+msgstr "Uw account is momenteel niet ingelogd. Voer uw wachtwoord in om opnieuw in te loggen. <br /> <br /> Dit kan worden veroorzaakt door een wachtwoordwijziging."
 
 #: src/application/LaunchController.cpp:101
 msgctxt "LaunchController|"
@@ -1466,7 +1404,7 @@ msgstr "Het starten van het spel is vertraagd totdat u op de knop drukt. Dit is 
 #: src/application/LaunchController.cpp:247
 msgctxt "LaunchController|"
 msgid "Waiting."
-msgstr ""
+msgstr "Wachten."
 
 #: src/application/LaunchController.cpp:249
 msgctxt "LaunchController|"
@@ -1504,172 +1442,174 @@ msgstr "Dit kan ertoe leiden dat de instantie beschadigd raakt en zou alleen geb
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr ""
+msgstr "MultiMC stopte met het kijken naar de log van het spel omdat de loglengte %1 regels heeft overschreden.\n"
+"Je moet misschien je mods repareren omdat het spel nog steeds vastloopt op bestanden en waarschijnlijk harddrive ruimte verspilt in een alarmerend tempo!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Het wrapper commando \"%1\" kon niet worden gevonden."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Kon minecraft niet starten!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:173
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "Minecraft proces ID: %1\n\n"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "Sorteer op naam"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:21
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
-msgstr ""
+msgstr "Sorteer op game versie"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "Publieke Modpack"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "Derde Partij Modpack"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "Privé Modpack"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "Publieke Packs"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "Derde Partij Packs"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:88
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
+msgstr "Fout bij het downloaden van updatebestanden: %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
+msgstr "Zip downloaden voor %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "Zip downloaden voor %1 (%2%)"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Modpack uitpakken"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "Fout bij het openen van modpack bestand %1!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Modpack installeren"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr ""
+msgstr "Fout bij het verplaatsen van uitgepakte Minecraft!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "Geen installatiemethode gevonden!"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
 msgid "Public"
-msgstr ""
+msgstr "Publiek"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:41
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr ""
+msgstr "3de partij"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:61
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr ""
+msgstr "Privé"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:77
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr ""
+msgstr "Voeg een pack toe"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:84
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr ""
+msgstr "Verwijder de geselecteerde pack"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:100
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Geselecteerde versie:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr ""
+msgstr "FTB Legacy"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr ""
+msgstr "FTB privé pakketten"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:192
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr ""
+msgstr "Downloaden van pack informatie mislukt met code %1.\n"
+"Moet het verwijderd worden?"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
 msgctxt "LegacyFTB::Page|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "Voeg FTB pack toe"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:331
 msgctxt "LegacyFTB::Page|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "Voer pack code in:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:354
 msgctxt "LegacyFTB::Page|"
 msgid "Remove pack"
-msgstr ""
+msgstr "Verwijder pack"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:355
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr ""
+msgstr "Weet je zeker dat je pack %1 wilt verwijderen?"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -1684,12 +1624,12 @@ msgstr "Instantie van vorige versies."
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Upgrade is vereist</h1><p>MultiMC ondersteunt nu oude Minecraft versies en alle benodigde functies in de nieuwe (OneSix) instance formaat. Als gevolg daarvan is het oude (Legacy) formaat volledig uitgeschakeld en moeten oude instanties worden bijgewerkt.</p><p>De upgrade maakt een nieuwe instantie met dezelfde inhoud als de huidige in de nieuwe opmaak. Het oorspronkelijke geval zal onaangeroerd blijven, in het geval er iets misgaat in het proces.</p><p>Gelieve problemen te melden op onze <a href=\"https://github.com/MultiMC/MultiMC5/issues\">GitHub probleempagina</a>.</p><p>Er is ook een <a href=\"https://discord.gg/GtPmv93\">discord kanaal voor testen</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr ""
+msgstr "Upgrade de instantie"
 
 #: src/application/pages/instance/LegacyUpgradePage.cpp:26
 msgctxt "LegacyUpgradePage|"
@@ -1721,7 +1661,7 @@ msgstr "Instance %1 aan het kopiëren"
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:59
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
-msgstr ""
+msgstr "Kopiëren van instance map mislukt."
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
@@ -1731,23 +1671,23 @@ msgstr "Kon de Minecraft versie niet detecteren."
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "Kopiëren van instance map is afgebroken."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:13
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr ""
+msgstr "De bibliotheekbestanden ophalen van Mojang..."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:21
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr ""
+msgstr "Bilbliotheek voor instantie %1"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "De nul-jar is gespecificeerd in de metadata, afbreken."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:58
 #, qt-format
@@ -1756,7 +1696,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "Sommige artefacten gemarkeerd als 'lokaal' missen hun bestanden:\n"
+"%1\n\n"
+"U moet de bestanden toevoegen, of heeft de pakketten verwijderd waarvoor ze nodig zijn.\n"
+"Je zult dit probleem handmatig moeten oplossen."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -1764,7 +1707,9 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr ""
+msgstr "Spelupdate mislukt: het was niet mogelijk om de vereiste bibliotheken op te halen.\n"
+"Reden:\n"
+"%1"
 
 #: src/application/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
@@ -1774,7 +1719,7 @@ msgstr "Blijven updaten"
 #: src/application/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr ""
+msgstr "Wikkel lijnen"
 
 #: src/application/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
@@ -1819,7 +1764,7 @@ msgstr "Vind"
 #: src/application/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr ""
+msgstr "Scroll helemaal naar beneden"
 
 #: src/application/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
@@ -1835,25 +1780,25 @@ msgstr "Minecraft Log"
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr ""
+msgstr "MultiMC: Log-upload geactiveerd op: %1"
 
 #: src/application/pages/instance/LogPage.cpp:243
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr ""
+msgstr "MultiMC: Log geüpload naar: %1"
 
 #: src/application/pages/instance/LogPage.cpp:247
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr ""
+msgstr "MultiMC: Log-upload mislukt!"
 
 #. Message displayed on instance exit
 #: src/api/logic/LoggedProcess.cpp:68
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1."
-msgstr ""
+msgstr "Proces is afgesloten met code %1."
 
 #. Message displayed on instance crashed
 #: src/api/logic/LoggedProcess.cpp:75
@@ -1871,12 +1816,12 @@ msgstr "Proces is gecrasht met code %1."
 #: src/api/logic/LoggedProcess.cpp:84
 msgctxt "LoggedProcess|"
 msgid "Process was killed by user."
-msgstr ""
+msgstr "Proces werd afgesloten door gebruiker."
 
 #: src/api/logic/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "The process failed to start."
-msgstr ""
+msgstr "Het proces kon niet worden gestart."
 
 #: src/application/dialogs/LoginDialog.ui:20
 msgctxt "LoginDialog|"
@@ -1885,8 +1830,8 @@ msgstr "Account toevoegen"
 
 #: src/application/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
-msgid "Email / Username"
-msgstr "Email / Gebruikersnaam"
+msgid "Email"
+msgstr ""
 
 #: src/application/dialogs/LoginDialog.ui:49
 msgctxt "LoginDialog|"
@@ -1901,7 +1846,7 @@ msgstr "Afbreken"
 #: src/application/MainWindow.cpp:230
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr ""
+msgstr "Beëindig het lopende proces"
 
 #: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:955
 msgctxt "MainWindow|"
@@ -1936,7 +1881,7 @@ msgstr "Toon Instance Map"
 #: src/application/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
-msgstr ""
+msgstr "Open de map van de instantie in een bestandsbrowser."
 
 #: src/application/MainWindow.cpp:279
 msgctxt "MainWindow|"
@@ -1946,7 +1891,7 @@ msgstr "Toon Centrale Mods Map"
 #: src/application/MainWindow.cpp:280
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
-msgstr ""
+msgstr "Open de centrale mods map in een bestandsbrowser."
 
 #: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:625
 msgctxt "MainWindow|"
@@ -2244,7 +2189,7 @@ msgstr "Verwijder groep '%1'"
 #: src/application/MainWindow.cpp:965
 msgctxt "MainWindow|"
 msgid "Profilers"
-msgstr ""
+msgstr "Profilers"
 
 #: src/application/MainWindow.cpp:977
 msgctxt "MainWindow|"
@@ -2325,7 +2270,7 @@ msgstr "%1uur %2m"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1d %2u %3m"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:749
 msgctxt "MinecraftInstance|"
@@ -2372,7 +2317,7 @@ msgstr "V&enster breedte:"
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
 msgctxt "MinecraftUpdate|"
@@ -2397,7 +2342,7 @@ msgstr "Naam"
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Version"
-msgstr ""
+msgstr "Versie"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
@@ -2407,32 +2352,32 @@ msgstr "Laatst gewijzigd"
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Is de mod ingeschakeld?"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "De naam van de mod."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:481
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "De versie van de mod."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
-msgstr ""
+msgstr "De datum en tijd waarop deze mod voor het laatst is gewijzigd (of toegevoegd)."
 
 #: src/application/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: src/application/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Acties"
 
 #: src/application/pages/instance/ModFolderPage.ui:96
 msgctxt "ModFolderPage|"
@@ -2442,7 +2387,7 @@ msgstr "&Toevoegen"
 #: src/application/pages/instance/ModFolderPage.ui:99
 msgctxt "ModFolderPage|"
 msgid "Add mods"
-msgstr ""
+msgstr "Mods toevoegen"
 
 #: src/application/pages/instance/ModFolderPage.ui:104
 msgctxt "ModFolderPage|"
@@ -2452,27 +2397,27 @@ msgstr "&Verwijderen"
 #: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "Remove selected mods"
-msgstr ""
+msgstr "Geselecteerde mod verwijderen"
 
 #: src/application/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
 msgid "&Enable"
-msgstr ""
+msgstr "&Inschakelen"
 
 #: src/application/pages/instance/ModFolderPage.ui:115
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr ""
+msgstr "Geselecteerde mod inschakelen"
 
 #: src/application/pages/instance/ModFolderPage.ui:120
 msgctxt "ModFolderPage|"
 msgid "&Disable"
-msgstr ""
+msgstr "&Deactiveer"
 
 #: src/application/pages/instance/ModFolderPage.ui:123
 msgctxt "ModFolderPage|"
 msgid "Disable selected mods"
-msgstr ""
+msgstr "Geselecteerde taken uitschakelen"
 
 #: src/application/pages/instance/ModFolderPage.ui:128
 msgctxt "ModFolderPage|"
@@ -2489,12 +2434,12 @@ msgctxt "ModFolderPage|"
 msgid "View &Folder"
 msgstr "Map tonen"
 
-#: src/application/pages/instance/ModFolderPage.cpp:168
+#: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
 msgid "Context menu"
 msgstr "Contextmenu"
 
-#: src/application/pages/instance/ModFolderPage.cpp:281
+#: src/application/pages/instance/ModFolderPage.cpp:301
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
@@ -2569,7 +2514,7 @@ msgstr "Mappen"
 #: src/application/pages/global/MultiMCPage.ui:100
 msgctxt "MultiMCPage|"
 msgid "I&nstances:"
-msgstr ""
+msgstr "I&nstanties:"
 
 #: src/application/pages/global/MultiMCPage.ui:120
 msgctxt "MultiMCPage|"
@@ -2659,7 +2604,7 @@ msgstr "Kleuren"
 #: src/application/pages/global/MultiMCPage.ui:348
 msgctxt "MultiMCPage|"
 msgid "Console"
-msgstr ""
+msgstr "Console"
 
 #: src/application/pages/global/MultiMCPage.ui:354
 msgctxt "MultiMCPage|"
@@ -2704,7 +2649,7 @@ msgstr "Console lettertype"
 #: src/application/pages/global/MultiMCPage.ui:483
 msgctxt "MultiMCPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "Statistieken"
 
 #: src/application/pages/global/MultiMCPage.ui:489
 msgctxt "MultiMCPage|"
@@ -2779,19 +2724,20 @@ msgstr "[Test/INFO] Een onschadelijk bericht..."
 #: src/application/pages/global/MultiMCPage.cpp:447
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Iets/WAARSCHUWING] Een minder griezelige waarschuwing."
 
 #: src/api/logic/net/NetJob.cpp:128
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "Taak '%1' is mislukt om te verwerken:\n"
+"%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "Lege component toevoegen"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -2804,7 +2750,7 @@ msgid "uid"
 msgstr "gid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:141
+#: src/application/dialogs/NewInstanceDialog.cpp:132
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "Nieuwe Instance"
@@ -2819,7 +2765,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "&Naam:"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:65
+#: src/application/dialogs/NewInstanceDialog.cpp:64
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "Geen groep"
@@ -3026,7 +2972,7 @@ msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> wordt do
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
 msgid "Log Upload"
-msgstr ""
+msgstr "Log upload"
 
 #: src/api/logic/net/PasteUpload.cpp:46
 msgctxt "PasteUpload|"
@@ -3048,12 +2994,12 @@ msgstr "Uitvoeren van post-lanceringsopdracht: %1"
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Post-Launch commando is mislukt met code %1.\n\n"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "Post-Launch commando werd met succes uitgevoerd.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
@@ -3065,12 +3011,12 @@ msgstr "Uitvoeren van pre-lanceringsopdracht: %1"
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Pre-Launch commando is mislukt met code %1.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "Pre-Launch commando succesvol uitgevoerd.\n\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
@@ -3101,7 +3047,7 @@ msgstr "Naam"
 #: src/application/dialogs/ProfileSelectDialog.cpp:56
 msgctxt "ProfileSelectDialog|"
 msgid " (in use)"
-msgstr ""
+msgstr " (in gebruik)"
 
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3121,7 +3067,7 @@ msgstr "Overslaan"
 #: src/application/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Dit geldt alleen voor MultiMC. Minecraft accepteert geen proxy-instellingen."
 
 #: src/application/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3131,7 +3077,7 @@ msgstr "Type"
 #: src/application/pages/global/ProxyPage.ui:61
 msgctxt "ProxyPage|"
 msgid "Uses your system's default proxy settings."
-msgstr ""
+msgstr "Gebruikt de standaard proxyinstellingen van uw systeem."
 
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
@@ -3146,7 +3092,7 @@ msgstr "&Geen"
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
@@ -3166,12 +3112,12 @@ msgstr "Authenticatie"
 #: src/application/pages/global/ProxyPage.ui:148
 msgctxt "ProxyPage|"
 msgid "Username:"
-msgstr ""
+msgstr "Gebruikersnaam:"
 
 #: src/application/pages/global/ProxyPage.ui:155
 msgctxt "ProxyPage|"
 msgid "Password:"
-msgstr ""
+msgstr "Wachtwoord:"
 
 #: src/application/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
@@ -3186,29 +3132,29 @@ msgstr "Proxy"
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
-msgstr ""
+msgstr "Patch is nog niet geladen."
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:153
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "processArgumenten zijn ingesteld op onbekende waarde '%1'"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:178
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr ""
+msgstr "De waarde van de 'minimumLauncherVersie' van deze versie (%1) is hoger dan ondersteund door MultiMC (%2). Het werkt mogelijk niet goed!"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr ""
+msgstr "Het versiebestand heeft zowel '+libraries' als 'libraries'. Dit wordt niet langer ondersteund."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
-msgstr ""
+msgstr "Versie-bestand bevat niet-ondersteund element 'tweakers'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
 msgctxt "QObject|"
@@ -3886,26 +3832,6 @@ msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr ""
 
-#: src/application/pages/modplatform/TwitchPage.ui:38
-msgctxt "TwitchPage|"
-msgid "Check"
-msgstr "Controleer"
-
-#: src/application/pages/modplatform/TwitchPage.ui:45
-msgctxt "TwitchPage|"
-msgid "Twitch URL:"
-msgstr "Twitch link:"
-
-#: src/application/pages/modplatform/TwitchPage.ui:55
-msgctxt "TwitchPage|"
-msgid "Drag and drop an Install button from CurseForge into the area above."
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.h:41
-msgctxt "TwitchPage|"
-msgid "Twitch URL"
-msgstr ""
-
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
@@ -4025,288 +3951,308 @@ msgctxt "VersionPage|"
 msgid "Actions"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:103
+#: src/application/pages/instance/VersionPage.ui:107
 msgctxt "VersionPage|"
 msgid "Change version"
 msgstr "Wijzig versie"
 
-#: src/application/pages/instance/VersionPage.ui:106
+#: src/application/pages/instance/VersionPage.ui:110
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
 msgstr "Wijzig de versie van het geselecteerde pakket."
 
-#: src/application/pages/instance/VersionPage.ui:111
+#: src/application/pages/instance/VersionPage.ui:115
 msgctxt "VersionPage|"
 msgid "Move up"
 msgstr "Verplaats omhoog"
 
-#: src/application/pages/instance/VersionPage.ui:114
+#: src/application/pages/instance/VersionPage.ui:118
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:119
+#: src/application/pages/instance/VersionPage.ui:123
 msgctxt "VersionPage|"
 msgid "Move down"
 msgstr "Verplaats omlaag"
 
-#: src/application/pages/instance/VersionPage.ui:122
+#: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:127
+#: src/application/pages/instance/VersionPage.ui:131
 msgctxt "VersionPage|"
 msgid "Remove"
 msgstr "Verwijder"
 
-#: src/application/pages/instance/VersionPage.ui:130
+#: src/application/pages/instance/VersionPage.ui:134
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:135
+#: src/application/pages/instance/VersionPage.ui:139
 msgctxt "VersionPage|"
 msgid "Customize"
 msgstr "Aanpassen"
 
-#: src/application/pages/instance/VersionPage.ui:138
+#: src/application/pages/instance/VersionPage.ui:142
 msgctxt "VersionPage|"
 msgid "Customize selected package."
 msgstr "Pas het geselecteerde pakket aan."
 
-#: src/application/pages/instance/VersionPage.ui:143
+#: src/application/pages/instance/VersionPage.ui:147
 msgctxt "VersionPage|"
 msgid "Edit"
 msgstr "Bewerk"
 
-#: src/application/pages/instance/VersionPage.ui:146
+#: src/application/pages/instance/VersionPage.ui:150
 msgctxt "VersionPage|"
 msgid "Edit selected package."
 msgstr "Wijzig het geselecteerde pakket."
 
-#: src/application/pages/instance/VersionPage.ui:151
+#: src/application/pages/instance/VersionPage.ui:155
 msgctxt "VersionPage|"
 msgid "Revert"
 msgstr "Ongedaan maken"
 
-#: src/application/pages/instance/VersionPage.ui:154
+#: src/application/pages/instance/VersionPage.ui:158
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:159
+#: src/application/pages/instance/VersionPage.ui:163
 msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr "Forge installeren"
 
-#: src/application/pages/instance/VersionPage.ui:162
+#: src/application/pages/instance/VersionPage.ui:166
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:167
+#: src/application/pages/instance/VersionPage.ui:171
 msgctxt "VersionPage|"
 msgid "Install Fabric"
 msgstr "Fabric Installeren"
 
-#: src/application/pages/instance/VersionPage.ui:170
+#: src/application/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
 msgstr "Installeer het Fabric Loader pakket."
 
-#: src/application/pages/instance/VersionPage.ui:175
+#: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr "LiteLoader installeren"
 
-#: src/application/pages/instance/VersionPage.ui:178
+#: src/application/pages/instance/VersionPage.ui:182
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr "Installeer het LiteLoader pakket."
 
-#: src/application/pages/instance/VersionPage.ui:183
+#: src/application/pages/instance/VersionPage.ui:187
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr "Installeer Mods"
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:190
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:191
+#: src/application/pages/instance/VersionPage.ui:195
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr "Voeg toe aan Minecraft.jar"
 
-#: src/application/pages/instance/VersionPage.ui:194
+#: src/application/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:203
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr "Vervang Minecraft.jar"
 
-#: src/application/pages/instance/VersionPage.ui:204
+#: src/application/pages/instance/VersionPage.ui:208
 msgctxt "VersionPage|"
 msgid "Add Empty"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:207
+#: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:212
+#: src/application/pages/instance/VersionPage.ui:216
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "Herladen"
 
-#: src/application/pages/instance/VersionPage.ui:215
+#: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Reload all packages."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:220
+#: src/application/pages/instance/VersionPage.ui:224
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr "Download alle"
 
-#: src/application/pages/instance/VersionPage.ui:223
+#: src/application/pages/instance/VersionPage.ui:227
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:146
+#: src/application/pages/instance/VersionPage.ui:232
+msgctxt "VersionPage|"
+msgid "Open .minecraft"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:235
+msgctxt "VersionPage|"
+msgid "Open the instance's .minecraft folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:240
+msgctxt "VersionPage|"
+msgid "Open libraries"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:243
+msgctxt "VersionPage|"
+msgid "Open the instance's local libraries folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "Contextmenu"
 
-#: src/application/pages/instance/VersionPage.cpp:164
+#: src/application/pages/instance/VersionPage.cpp:165
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:167
+#: src/application/pages/instance/VersionPage.cpp:168
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1 heeft problemen!"
 
-#: src/application/pages/instance/VersionPage.cpp:181
+#: src/application/pages/instance/VersionPage.cpp:182
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:185
+#: src/application/pages/instance/VersionPage.cpp:186
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:243
-#: src/application/pages/instance/VersionPage.cpp:249
-#: src/application/pages/instance/VersionPage.cpp:268
-#: src/application/pages/instance/VersionPage.cpp:312
-#: src/application/pages/instance/VersionPage.cpp:325
-#: src/application/pages/instance/VersionPage.cpp:387
+#: src/application/pages/instance/VersionPage.cpp:244
+#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:269
+#: src/application/pages/instance/VersionPage.cpp:313
+#: src/application/pages/instance/VersionPage.cpp:326
+#: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Error"
 
-#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:251
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:268
+#: src/application/pages/instance/VersionPage.cpp:269
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Selecteer Jar Mods"
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft.jar mods (*.zip *.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Selecteer Jar"
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Minecraft.jar vervanging (*.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:356
+#: src/application/pages/instance/VersionPage.cpp:357
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "Verander de %1-versie"
 
-#: src/application/pages/instance/VersionPage.cpp:359
-#: src/application/pages/instance/VersionPage.cpp:444
+#: src/application/pages/instance/VersionPage.cpp:360
+#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
+#: src/application/pages/instance/VersionPage.cpp:361
+#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:388
+#: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:414
+#: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:416
+#: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:417
+#: src/application/pages/instance/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:443
+#: src/application/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:488
+#: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:490
+#: src/application/pages/instance/VersionPage.cpp:491
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:491
+#: src/application/pages/instance/VersionPage.cpp:492
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:537
+#: src/application/pages/instance/VersionPage.cpp:548
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr ""

@@ -5,15 +5,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: multimc\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /master/template.pot\n"
 "Project-Id-Version: multimc\n"
-"Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2019-12-01 04:55\n"
+"PO-Revision-Date: 2020-01-14 19:11\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -153,8 +151,8 @@ msgstr "上下文菜单"
 
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
-msgid "Please enter your Mojang or Minecraft account username and password to add your account."
-msgstr "请输入你的Mojang或者Minecraft账户用户名和密码来添加你的帐号。"
+msgid "Please enter your Minecraft account email and password to add your account."
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -336,22 +334,22 @@ msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
 msgstr "部分组件元数据加载失败。"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
 msgstr "在依赖检测过程中检测到冲突的必要依赖项！"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
 msgstr "实例包含冲突的依赖项。"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "实例在运行时执行的加载/检查中发现了未解析的依赖项。"
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
@@ -378,6 +376,11 @@ msgstr "组(&G)"
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
 msgstr "拷贝存档"
+
+#: src/application/dialogs/CopyInstanceDialog.ui:122
+msgctxt "CopyInstanceDialog|"
+msgid "Keep play time"
+msgstr ""
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
@@ -444,8 +447,8 @@ msgstr "登录"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
-msgid "Email / Username"
-msgstr "邮箱/用户名"
+msgid "Email"
+msgstr ""
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
@@ -653,71 +656,6 @@ msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "无法解析部分mod ID。"
 
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving URL..."
-msgstr "正在解析 URL…"
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Not a Twitch URL."
-msgstr "非Twitch URL"
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the needle in the haystack..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the end of the needle in the haystack..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed."
-msgstr "解析失败。"
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing package root element."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing project element."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing id attribute."
-msgstr "解析失败：缺少 id 属性。"
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing file attribute."
-msgstr "解析失败：缺少文件属性。"
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve projectId as a number."
-msgstr "将 projectId 作为数字解析时出错。"
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve fileId as a number."
-msgstr "将 fileId 作为数字解析时出错。"
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving mod IDs..."
-msgstr "正在解析 mod ID..."
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve the modpack file."
-msgstr "下载整合包文件失败！"
-
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
@@ -872,18 +810,18 @@ msgctxt "InstanceCardWidget|"
 msgid "&Group:"
 msgstr "组(&G)："
 
-#: src/api/logic/InstanceCopyTask.cpp:23
+#: src/api/logic/InstanceCopyTask.cpp:24
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
 msgstr "正在复制实例%1"
 
-#: src/api/logic/InstanceCopyTask.cpp:39
+#: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
 msgstr "复制实例文件夹失败。"
 
-#: src/api/logic/InstanceCopyTask.cpp:54
+#: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
 msgstr "复制实例文件夹操作被中断。"
@@ -1570,7 +1508,7 @@ msgstr "私有整合包"
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "公共整合包"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
@@ -1909,8 +1847,8 @@ msgstr "添加帐号"
 
 #: src/application/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
-msgid "Email / Username"
-msgstr "邮箱/用户名"
+msgid "Email"
+msgstr ""
 
 #: src/application/dialogs/LoginDialog.ui:49
 msgctxt "LoginDialog|"
@@ -2513,12 +2451,12 @@ msgctxt "ModFolderPage|"
 msgid "View &Folder"
 msgstr "查看 &文件夹"
 
-#: src/application/pages/instance/ModFolderPage.cpp:168
+#: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
 msgid "Context menu"
 msgstr "上下文菜单"
 
-#: src/application/pages/instance/ModFolderPage.cpp:281
+#: src/application/pages/instance/ModFolderPage.cpp:301
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
@@ -2829,7 +2767,7 @@ msgid "uid"
 msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:141
+#: src/application/dialogs/NewInstanceDialog.cpp:132
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "新实例"
@@ -2844,7 +2782,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "名称："
 
-#: src/application/dialogs/NewInstanceDialog.cpp:65
+#: src/application/dialogs/NewInstanceDialog.cpp:64
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "无组"
@@ -3918,26 +3856,6 @@ msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "完整性是完全翻译字符串所占的百分比，不包括自动猜测的字符串。"
 
-#: src/application/pages/modplatform/TwitchPage.ui:38
-msgctxt "TwitchPage|"
-msgid "Check"
-msgstr "检查"
-
-#: src/application/pages/modplatform/TwitchPage.ui:45
-msgctxt "TwitchPage|"
-msgid "Twitch URL:"
-msgstr "Twitch URL:"
-
-#: src/application/pages/modplatform/TwitchPage.ui:55
-msgctxt "TwitchPage|"
-msgid "Drag and drop an Install button from CurseForge into the area above."
-msgstr "从CurseForge拖拽“安装”按钮到上方区域"
-
-#: src/application/pages/modplatform/TwitchPage.h:41
-msgctxt "TwitchPage|"
-msgid "Twitch URL"
-msgstr "Twitch URL"
-
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
@@ -4057,289 +3975,309 @@ msgctxt "VersionPage|"
 msgid "Actions"
 msgstr "行动"
 
-#: src/application/pages/instance/VersionPage.ui:103
+#: src/application/pages/instance/VersionPage.ui:107
 msgctxt "VersionPage|"
 msgid "Change version"
 msgstr "修改版本"
 
-#: src/application/pages/instance/VersionPage.ui:106
+#: src/application/pages/instance/VersionPage.ui:110
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
 msgstr "修改选定包的版本。"
 
-#: src/application/pages/instance/VersionPage.ui:111
+#: src/application/pages/instance/VersionPage.ui:115
 msgctxt "VersionPage|"
 msgid "Move up"
 msgstr "上移"
 
-#: src/application/pages/instance/VersionPage.ui:114
+#: src/application/pages/instance/VersionPage.ui:118
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
 msgstr "提前应用所选包。"
 
-#: src/application/pages/instance/VersionPage.ui:119
+#: src/application/pages/instance/VersionPage.ui:123
 msgctxt "VersionPage|"
 msgid "Move down"
 msgstr "下移"
 
-#: src/application/pages/instance/VersionPage.ui:122
+#: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
 msgstr "延后应用所选包。"
 
-#: src/application/pages/instance/VersionPage.ui:127
+#: src/application/pages/instance/VersionPage.ui:131
 msgctxt "VersionPage|"
 msgid "Remove"
 msgstr "删除"
 
-#: src/application/pages/instance/VersionPage.ui:130
+#: src/application/pages/instance/VersionPage.ui:134
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
 msgstr "从实例删除选定包。"
 
-#: src/application/pages/instance/VersionPage.ui:135
+#: src/application/pages/instance/VersionPage.ui:139
 msgctxt "VersionPage|"
 msgid "Customize"
 msgstr "自定义"
 
-#: src/application/pages/instance/VersionPage.ui:138
+#: src/application/pages/instance/VersionPage.ui:142
 msgctxt "VersionPage|"
 msgid "Customize selected package."
 msgstr "自定义选定包。"
 
-#: src/application/pages/instance/VersionPage.ui:143
+#: src/application/pages/instance/VersionPage.ui:147
 msgctxt "VersionPage|"
 msgid "Edit"
 msgstr "编辑"
 
-#: src/application/pages/instance/VersionPage.ui:146
+#: src/application/pages/instance/VersionPage.ui:150
 msgctxt "VersionPage|"
 msgid "Edit selected package."
 msgstr "编辑选定的包。"
 
-#: src/application/pages/instance/VersionPage.ui:151
+#: src/application/pages/instance/VersionPage.ui:155
 msgctxt "VersionPage|"
 msgid "Revert"
 msgstr "还原"
 
-#: src/application/pages/instance/VersionPage.ui:154
+#: src/application/pages/instance/VersionPage.ui:158
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
 msgstr "还原选定的包到默认状态。"
 
-#: src/application/pages/instance/VersionPage.ui:159
+#: src/application/pages/instance/VersionPage.ui:163
 msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr "安装Forge"
 
-#: src/application/pages/instance/VersionPage.ui:162
+#: src/application/pages/instance/VersionPage.ui:166
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
 msgstr "安装Minecraft Forge包。"
 
-#: src/application/pages/instance/VersionPage.ui:167
+#: src/application/pages/instance/VersionPage.ui:171
 msgctxt "VersionPage|"
 msgid "Install Fabric"
 msgstr "安装Fabric"
 
-#: src/application/pages/instance/VersionPage.ui:170
+#: src/application/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
 msgstr "安装Fabric Loader包。"
 
-#: src/application/pages/instance/VersionPage.ui:175
+#: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr "安装LiteLoader"
 
-#: src/application/pages/instance/VersionPage.ui:178
+#: src/application/pages/instance/VersionPage.ui:182
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr "安装LiteLoader包。"
 
-#: src/application/pages/instance/VersionPage.ui:183
+#: src/application/pages/instance/VersionPage.ui:187
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr "安装Mod"
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:190
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr "安装普通mod。"
 
-#: src/application/pages/instance/VersionPage.ui:191
+#: src/application/pages/instance/VersionPage.ui:195
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr "加入Minecraft.jar文件"
 
-#: src/application/pages/instance/VersionPage.ui:194
+#: src/application/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr "将一个mod加入Minecraft jar文件。"
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:203
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr "替换Minecraft.jar"
 
-#: src/application/pages/instance/VersionPage.ui:204
+#: src/application/pages/instance/VersionPage.ui:208
 msgctxt "VersionPage|"
 msgid "Add Empty"
 msgstr "添加空项"
 
-#: src/application/pages/instance/VersionPage.ui:207
+#: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
 msgstr "新建一个空的自定义包"
 
-#: src/application/pages/instance/VersionPage.ui:212
+#: src/application/pages/instance/VersionPage.ui:216
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr "重新加载"
 
-#: src/application/pages/instance/VersionPage.ui:215
+#: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Reload all packages."
 msgstr "重新加载所有包。"
 
-#: src/application/pages/instance/VersionPage.ui:220
+#: src/application/pages/instance/VersionPage.ui:224
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr "下载完整文件"
 
-#: src/application/pages/instance/VersionPage.ui:223
+#: src/application/pages/instance/VersionPage.ui:227
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr "立刻下载运行实例需要的文件。"
 
-#: src/application/pages/instance/VersionPage.cpp:146
+#: src/application/pages/instance/VersionPage.ui:232
+msgctxt "VersionPage|"
+msgid "Open .minecraft"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:235
+msgctxt "VersionPage|"
+msgid "Open the instance's .minecraft folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:240
+msgctxt "VersionPage|"
+msgid "Open libraries"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:243
+msgctxt "VersionPage|"
+msgid "Open the instance's local libraries folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "上下文菜单"
 
-#: src/application/pages/instance/VersionPage.cpp:164
+#: src/application/pages/instance/VersionPage.cpp:165
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1可能有问题。"
 
-#: src/application/pages/instance/VersionPage.cpp:167
+#: src/application/pages/instance/VersionPage.cpp:168
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1有问题！"
 
-#: src/application/pages/instance/VersionPage.cpp:181
+#: src/application/pages/instance/VersionPage.cpp:182
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "错误： "
 
-#: src/application/pages/instance/VersionPage.cpp:185
+#: src/application/pages/instance/VersionPage.cpp:186
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "警告： "
 
-#: src/application/pages/instance/VersionPage.cpp:243
-#: src/application/pages/instance/VersionPage.cpp:249
-#: src/application/pages/instance/VersionPage.cpp:268
-#: src/application/pages/instance/VersionPage.cpp:312
-#: src/application/pages/instance/VersionPage.cpp:325
-#: src/application/pages/instance/VersionPage.cpp:387
+#: src/application/pages/instance/VersionPage.cpp:244
+#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:269
+#: src/application/pages/instance/VersionPage.cpp:313
+#: src/application/pages/instance/VersionPage.cpp:326
+#: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "错误"
 
-#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:251
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "无法加载实例配置文件。"
 
-#: src/application/pages/instance/VersionPage.cpp:268
+#: src/application/pages/instance/VersionPage.cpp:269
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "无法删除文件"
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "选择Jar mod"
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft.jar的mod (*.zip *.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "选择Jar"
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "用于替换的Minecraft.jar (*.jar)"
 
-#: src/application/pages/instance/VersionPage.cpp:356
+#: src/application/pages/instance/VersionPage.cpp:357
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "修改%1版本"
 
-#: src/application/pages/instance/VersionPage.cpp:359
-#: src/application/pages/instance/VersionPage.cpp:444
+#: src/application/pages/instance/VersionPage.cpp:360
+#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "当前没有Fabric Loader版本可用。"
 
-#: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
+#: src/application/pages/instance/VersionPage.cpp:361
+#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "无法加载或下载Fabric Loader版本列表！"
 
-#: src/application/pages/instance/VersionPage.cpp:388
+#: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "在你至少添加一个帐号之前，MultiMC无法下载Minecraft或更新实例。\n"
 "请添加你的Mojang或Minecraft帐号。"
 
-#: src/application/pages/instance/VersionPage.cpp:414
+#: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "选择Forge版本"
 
-#: src/application/pages/instance/VersionPage.cpp:416
+#: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "当前没有适用于此Minecraft的Forge版本可用 "
 
-#: src/application/pages/instance/VersionPage.cpp:417
+#: src/application/pages/instance/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "无法加载或下载Forge版本列表！"
 
-#: src/application/pages/instance/VersionPage.cpp:443
+#: src/application/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "选择Fabric Loader版本"
 
-#: src/application/pages/instance/VersionPage.cpp:488
+#: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "选择LiteLoader版本"
 
-#: src/application/pages/instance/VersionPage.cpp:490
+#: src/application/pages/instance/VersionPage.cpp:491
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "当前没有适用于此Minecraft的LiteLoader版本可用 "
 
-#: src/application/pages/instance/VersionPage.cpp:491
+#: src/application/pages/instance/VersionPage.cpp:492
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "无法加载或下载LiteLoader版本列表！"
 
-#: src/application/pages/instance/VersionPage.cpp:537
+#: src/application/pages/instance/VersionPage.cpp:548
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "更新实例时出错"
