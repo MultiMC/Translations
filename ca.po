@@ -5,15 +5,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: multimc\n"
 "X-Crowdin-Language: ca\n"
 "X-Crowdin-File: /master/template.pot\n"
 "Project-Id-Version: multimc\n"
-"Last-Translator: Petr Mrázek (peterix)\n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
-"PO-Revision-Date: 2019-11-22 17:13\n"
+"PO-Revision-Date: 2020-01-14 19:11\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -153,8 +151,8 @@ msgstr "Menú contextual"
 
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
-msgid "Please enter your Mojang or Minecraft account username and password to add your account."
-msgstr "Introduïu el nom d’usuari i la contrasenya del vostre compte de Mojang o Minecraft per afegir el vostre compte."
+msgid "Please enter your Minecraft account email and password to add your account."
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -319,22 +317,22 @@ msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
 msgstr ""
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:521
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
 msgstr ""
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:540
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
 msgstr ""
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:547
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr ""
 
-#: src/api/logic/minecraft/ComponentUpdateTask.cpp:697
+#: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
@@ -359,6 +357,11 @@ msgstr ""
 #: src/application/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
+msgstr ""
+
+#: src/application/dialogs/CopyInstanceDialog.ui:122
+msgctxt "CopyInstanceDialog|"
+msgid "Keep play time"
 msgstr ""
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
@@ -426,7 +429,7 @@ msgstr ""
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
-msgid "Email / Username"
+msgid "Email"
 msgstr ""
 
 #: src/application/dialogs/EditAccountDialog.ui:43
@@ -629,71 +632,6 @@ msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
 
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:22
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving URL..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:26
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Not a Twitch URL."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:74
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the needle in the haystack..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:94
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Couldn't find the end of the needle in the haystack..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:103
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:108
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing package root element."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:113
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing project element."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:120
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing id attribute."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:125
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving failed: missing file attribute."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:134
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve projectId as a number."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:139
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve fileId as a number."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:148
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Resolving mod IDs..."
-msgstr ""
-
-#: src/api/logic/modplatform/flame/UrlResolvingTask.cpp:174
-msgctxt "Flame::UrlResolvingTask|"
-msgid "Failed to resolve the modpack file."
-msgstr ""
-
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
@@ -848,18 +786,18 @@ msgctxt "InstanceCardWidget|"
 msgid "&Group:"
 msgstr ""
 
-#: src/api/logic/InstanceCopyTask.cpp:23
+#: src/api/logic/InstanceCopyTask.cpp:24
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
 msgstr ""
 
-#: src/api/logic/InstanceCopyTask.cpp:39
+#: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
 msgstr ""
 
-#: src/api/logic/InstanceCopyTask.cpp:54
+#: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
 msgstr ""
@@ -1872,7 +1810,7 @@ msgstr ""
 
 #: src/application/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
-msgid "Email / Username"
+msgid "Email"
 msgstr ""
 
 #: src/application/dialogs/LoginDialog.ui:49
@@ -2475,12 +2413,12 @@ msgctxt "ModFolderPage|"
 msgid "View &Folder"
 msgstr ""
 
-#: src/application/pages/instance/ModFolderPage.cpp:168
+#: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
 msgid "Context menu"
 msgstr ""
 
-#: src/application/pages/instance/ModFolderPage.cpp:281
+#: src/application/pages/instance/ModFolderPage.cpp:301
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
@@ -2780,7 +2718,7 @@ msgid "uid"
 msgstr ""
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:141
+#: src/application/dialogs/NewInstanceDialog.cpp:132
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr ""
@@ -2795,7 +2733,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr ""
 
-#: src/application/dialogs/NewInstanceDialog.cpp:65
+#: src/application/dialogs/NewInstanceDialog.cpp:64
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr ""
@@ -3855,26 +3793,6 @@ msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr ""
 
-#: src/application/pages/modplatform/TwitchPage.ui:38
-msgctxt "TwitchPage|"
-msgid "Check"
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.ui:45
-msgctxt "TwitchPage|"
-msgid "Twitch URL:"
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.ui:55
-msgctxt "TwitchPage|"
-msgid "Drag and drop an Install button from CurseForge into the area above."
-msgstr ""
-
-#: src/application/pages/modplatform/TwitchPage.h:41
-msgctxt "TwitchPage|"
-msgid "Twitch URL"
-msgstr ""
-
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
@@ -3994,288 +3912,308 @@ msgctxt "VersionPage|"
 msgid "Actions"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:103
+#: src/application/pages/instance/VersionPage.ui:107
 msgctxt "VersionPage|"
 msgid "Change version"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:106
+#: src/application/pages/instance/VersionPage.ui:110
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:111
+#: src/application/pages/instance/VersionPage.ui:115
 msgctxt "VersionPage|"
 msgid "Move up"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:114
+#: src/application/pages/instance/VersionPage.ui:118
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:119
+#: src/application/pages/instance/VersionPage.ui:123
 msgctxt "VersionPage|"
 msgid "Move down"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:122
+#: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:127
+#: src/application/pages/instance/VersionPage.ui:131
 msgctxt "VersionPage|"
 msgid "Remove"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:130
+#: src/application/pages/instance/VersionPage.ui:134
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:135
+#: src/application/pages/instance/VersionPage.ui:139
 msgctxt "VersionPage|"
 msgid "Customize"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:138
+#: src/application/pages/instance/VersionPage.ui:142
 msgctxt "VersionPage|"
 msgid "Customize selected package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:143
+#: src/application/pages/instance/VersionPage.ui:147
 msgctxt "VersionPage|"
 msgid "Edit"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:146
+#: src/application/pages/instance/VersionPage.ui:150
 msgctxt "VersionPage|"
 msgid "Edit selected package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:151
+#: src/application/pages/instance/VersionPage.ui:155
 msgctxt "VersionPage|"
 msgid "Revert"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:154
+#: src/application/pages/instance/VersionPage.ui:158
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:159
+#: src/application/pages/instance/VersionPage.ui:163
 msgctxt "VersionPage|"
 msgid "Install Forge"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:162
+#: src/application/pages/instance/VersionPage.ui:166
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:167
+#: src/application/pages/instance/VersionPage.ui:171
 msgctxt "VersionPage|"
 msgid "Install Fabric"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:170
+#: src/application/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:175
+#: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:178
+#: src/application/pages/instance/VersionPage.ui:182
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:183
+#: src/application/pages/instance/VersionPage.ui:187
 msgctxt "VersionPage|"
 msgid "Install mods"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:186
+#: src/application/pages/instance/VersionPage.ui:190
 msgctxt "VersionPage|"
 msgid "Install normal mods."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:191
+#: src/application/pages/instance/VersionPage.ui:195
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:194
+#: src/application/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:199
+#: src/application/pages/instance/VersionPage.ui:203
 msgctxt "VersionPage|"
 msgid "Replace Minecraft.jar"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:204
+#: src/application/pages/instance/VersionPage.ui:208
 msgctxt "VersionPage|"
 msgid "Add Empty"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:207
+#: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:212
+#: src/application/pages/instance/VersionPage.ui:216
 msgctxt "VersionPage|"
 msgid "Reload"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:215
+#: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Reload all packages."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:220
+#: src/application/pages/instance/VersionPage.ui:224
 msgctxt "VersionPage|"
 msgid "Download All"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.ui:223
+#: src/application/pages/instance/VersionPage.ui:227
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:146
+#: src/application/pages/instance/VersionPage.ui:232
+msgctxt "VersionPage|"
+msgid "Open .minecraft"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:235
+msgctxt "VersionPage|"
+msgid "Open the instance's .minecraft folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:240
+msgctxt "VersionPage|"
+msgid "Open libraries"
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.ui:243
+msgctxt "VersionPage|"
+msgid "Open the instance's local libraries folder."
+msgstr ""
+
+#: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:164
+#: src/application/pages/instance/VersionPage.cpp:165
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:167
+#: src/application/pages/instance/VersionPage.cpp:168
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:181
+#: src/application/pages/instance/VersionPage.cpp:182
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:185
+#: src/application/pages/instance/VersionPage.cpp:186
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:243
-#: src/application/pages/instance/VersionPage.cpp:249
-#: src/application/pages/instance/VersionPage.cpp:268
-#: src/application/pages/instance/VersionPage.cpp:312
-#: src/application/pages/instance/VersionPage.cpp:325
-#: src/application/pages/instance/VersionPage.cpp:387
+#: src/application/pages/instance/VersionPage.cpp:244
+#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:269
+#: src/application/pages/instance/VersionPage.cpp:313
+#: src/application/pages/instance/VersionPage.cpp:326
+#: src/application/pages/instance/VersionPage.cpp:388
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:250
+#: src/application/pages/instance/VersionPage.cpp:251
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:268
+#: src/application/pages/instance/VersionPage.cpp:269
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:286
+#: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:296
+#: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:356
+#: src/application/pages/instance/VersionPage.cpp:357
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:359
-#: src/application/pages/instance/VersionPage.cpp:444
+#: src/application/pages/instance/VersionPage.cpp:360
+#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
+#: src/application/pages/instance/VersionPage.cpp:361
+#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:388
+#: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:414
+#: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:416
+#: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:417
+#: src/application/pages/instance/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:443
+#: src/application/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:488
+#: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:490
+#: src/application/pages/instance/VersionPage.cpp:491
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:491
+#: src/application/pages/instance/VersionPage.cpp:492
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr ""
 
-#: src/application/pages/instance/VersionPage.cpp:537
+#: src/application/pages/instance/VersionPage.cpp:548
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr ""
