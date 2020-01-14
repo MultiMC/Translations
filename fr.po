@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2020-01-14 20:17\n"
+"PO-Revision-Date: 2020-01-14 20:38\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -286,7 +286,7 @@ msgstr "Impossible de démarrer Java !"
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr "La vérification de Java à renvoyé des résultats invalide que MultiMC ne peut pas lire:"
+msgstr "La vérification de Java a renvoyé des résultats invalides que MultiMC ne peut pas lire :"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
@@ -297,12 +297,12 @@ msgstr "Java est à la version %1, et utilise une architecture %2 bits.\n\n"
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
 msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr "L'architecture du CPU n'est pas le même que celui du système. Il est fortement recommandé que vous installez un système d'exploitation 64-bit.\n\n"
+msgstr "L'architecture du CPU n'est pas la même que celle du système. Il est fortement recommandé que vous installiez un système d'exploitation 64 bits.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
 msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr "L'architecture de Java n'est pas la même que celui du système. Il est fortement recommandé que vous installez la version 64 bits de Java.\n\n"
+msgstr "L'architecture de Java n'est pas la même que celle du système. Il est fortement recommandé d'installer la version 64 bits de Java.\n\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
@@ -322,7 +322,7 @@ msgstr "Certaines tâches de chargement de métadonnées de composant ont échou
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr "Des conflits ont été détectées durant la verification des dépendances!"
+msgstr "Des conflits ont été détectés durant la vérification des dépendances !"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
@@ -332,14 +332,14 @@ msgstr "L'instance a des conflits de dépendances."
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr "L'instance a des dépendances non résolues pendant le chargement et la verification pour le lancement."
+msgstr "L'instance a des dépendances non résolues pendant le chargement et la vérification pour le lancement."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr "Échec de la tâche de mise à jour des métadonnées du composant lors du téléchargement depuis le serveur distant:\n"
+msgstr "Échec de la tâche de mise à jour des métadonnées du composant lors du téléchargement depuis le serveur distant :\n"
 "%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
@@ -395,12 +395,12 @@ msgstr "Commande de pré-lancement :"
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "Commande wrapper:"
+msgstr "Commande wrapper :"
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'il ferme.</p><p>Les deux vont être exécuté dans le fichier de travail de MultiMC avec des variables environnementales supplémentaires:</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du fichier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple: 'optirun' sur Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'il ferme.</p><p>Les deux vont être exécuté dans le répertoire de travail de MultiMC avec des variables d'environnement supplémentaires :</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du fichier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple : 'optirun' sur Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -704,7 +704,7 @@ msgstr "Lecture de la liste des fichiers pour la version actuelle en cours..."
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr "Traitement de la liste des fichiers - identification de la méthode d'installation de la mise à jour..."
+msgstr "Traitement de la liste des fichiers — identification de la méthode d'installation de la mise à jour..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
 msgctxt "GoUpdate::DownloadTask|"
@@ -844,7 +844,7 @@ msgstr "Impossible d'ouvrir le fichier zip du modpack."
 #: src/api/logic/InstanceImportTask.cpp:165
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr "L'archive ne contient pas un type de modpack reconnue."
+msgstr "L'archive ne contient pas un type de modpack reconnu."
 
 #: src/api/logic/InstanceImportTask.cpp:120
 msgctxt "InstanceImportTask|"
@@ -865,7 +865,7 @@ msgstr "L'importation de l'instance a été abandonnée."
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Impossible de lire le manifeste du paquet:\n"
+msgstr "Impossible de lire le manifeste du paquet :\n"
 
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
@@ -876,7 +876,7 @@ msgstr "Impossible de renommer le dossier \"overrides\":\n"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr "Le dossier spécifiée \"override\" (%1) est absent. Peut-être que le modpack était déjà utilisé auparavant?"
+msgstr "Le dossier spécifié \"override\" (%1) est absent. Peut-être que le modpack a déjà été utilisé auparavant ?"
 
 #: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
