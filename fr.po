@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2020-01-14 19:49\n"
+"PO-Revision-Date: 2020-01-14 21:02\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -152,7 +152,7 @@ msgstr "Menu contextuel"
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
-msgstr "Veuillez entrer le nom d'utilisateur et le mot de passe de votre compte Mojang ou Minecraft pour l'ajouter."
+msgstr "Veuillez entrer le nom d'utilisateur et le mot de passe de votre compte Minecraft pour l'ajouter."
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -286,7 +286,7 @@ msgstr "Impossible de démarrer Java !"
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr "La vérification de Java à renvoyé des résultats invalide que MultiMC ne peut pas lire:"
+msgstr "La vérification de Java a renvoyé des résultats invalides que MultiMC ne peut pas lire :"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
@@ -297,12 +297,12 @@ msgstr "Java est à la version %1, et utilise une architecture %2 bits.\n\n"
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
 msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr "L'architecture du CPU n'est pas le même que celui du système. Il est fortement recommandé que vous installez un système d'exploitation 64-bit.\n\n"
+msgstr "L'architecture du CPU n'est pas la même que celle du système. Il est fortement recommandé que vous installiez un système d'exploitation 64 bits.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
 msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr "L'architecture de Java n'est pas la même que celui du système. Il est fortement recommandé que vous installez la version 64 bits de Java.\n\n"
+msgstr "L'architecture de Java n'est pas la même que celle du système. Il est fortement recommandé d'installer la version 64 bits de Java.\n\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
@@ -322,7 +322,7 @@ msgstr "Certaines tâches de chargement de métadonnées de composant ont échou
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr "Des conflits ont été détectées durant la verification des dépendances!"
+msgstr "Des conflits ont été détectés durant la vérification des dépendances !"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
@@ -332,14 +332,14 @@ msgstr "L'instance a des conflits de dépendances."
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr "L'instance a des dépendances non résolues pendant le chargement et la verification pour le lancement."
+msgstr "L'instance a des dépendances non résolues pendant le chargement et la vérification pour le lancement."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr "Échec de la tâche de mise à jour des métadonnées du composant lors du téléchargement depuis le serveur distant:\n"
+msgstr "Échec de la tâche de mise à jour des métadonnées du composant lors du téléchargement depuis le serveur distant :\n"
 "%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
@@ -365,7 +365,7 @@ msgstr "Copier les sauvegardes"
 #: src/application/dialogs/CopyInstanceDialog.ui:122
 msgctxt "CopyInstanceDialog|"
 msgid "Keep play time"
-msgstr ""
+msgstr "Conserver le temps de jeu"
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
@@ -395,12 +395,12 @@ msgstr "Commande de pré-lancement :"
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "Commande wrapper:"
+msgstr "Commande wrapper :"
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'il ferme.</p><p>Les deux vont être exécuté dans le fichier de travail de MultiMC avec des variables environnementales supplémentaires:</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du fichier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple: 'optirun' sur Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'il ferme.</p><p>Les deux vont être exécuté dans le répertoire de travail de MultiMC avec des variables d'environnement supplémentaires :</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du fichier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple : 'optirun' sur Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -411,7 +411,7 @@ msgstr "Commandes personnalisées"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "La commande 'wrapper' \"%1\" ne peut pas être trouvée."
+msgstr "La commande 'wrapper' \"%1\" n'a pas pu être trouvée."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -423,7 +423,7 @@ msgstr "Impossible de lancer Minecraft !"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr "ID du processus de Minecraft: %1\n\n"
+msgstr "ID du processus Minecraft : %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -433,7 +433,7 @@ msgstr "Connexion"
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
@@ -591,7 +591,7 @@ msgstr "Le fichier choisi ne semble pas être un exécutable"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr "Impossible d'extraire le jar natif '%1' vers la destination '%2'"
+msgstr "Impossible d'extraire le fichier .jar natif '%1' vers la destination '%2'"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
 msgctxt "FMLLibrariesTask|"
@@ -617,7 +617,7 @@ msgstr "La création du dossier de la bibliothèque FML a l'intérieur de l'inst
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "Copie de la bibliothèque Forge/FML échoué : %1."
+msgstr "Échec lors de la copie de la bibliothèque Forge/FML : %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
 #, qt-format
@@ -626,9 +626,9 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr "Impossible de télécharger les fichiers suivants:\n"
+msgstr "Impossible de télécharger les fichiers suivants :\n"
 "%1\n\n"
-"Raison:%2\n"
+"Raison :%2\n"
 "Essayez à nouveau."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
@@ -639,7 +639,7 @@ msgstr "Résolution des IDs de mods..."
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr "Certains recherche d'ID de mods ont échoués."
+msgstr "Certaines résolutions d'ID de mods ont échoué."
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -704,7 +704,7 @@ msgstr "Lecture de la liste des fichiers pour la version actuelle en cours..."
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr "Traitement des listes de fichiers - détermine comment installer la mise à jour..."
+msgstr "Traitement de la liste des fichiers — identification de la méthode d'installation de la mise à jour..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
 msgctxt "GoUpdate::DownloadTask|"
@@ -844,7 +844,7 @@ msgstr "Impossible d'ouvrir le fichier zip du modpack."
 #: src/api/logic/InstanceImportTask.cpp:165
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr "L'archive ne contient pas un type de modpack reconnue."
+msgstr "L'archive ne contient pas un type de modpack reconnu."
 
 #: src/api/logic/InstanceImportTask.cpp:120
 msgctxt "InstanceImportTask|"
@@ -865,7 +865,7 @@ msgstr "L'importation de l'instance a été abandonnée."
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Impossible de lire le manifeste du paquet:\n"
+msgstr "Impossible de lire le manifeste du paquet :\n"
 
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
@@ -876,7 +876,7 @@ msgstr "Impossible de renommer le dossier \"overrides\":\n"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr "Le dossier spécifiée \"override\" (%1) est absent. Peut-être que le modpack était déjà utilisé auparavant?"
+msgstr "Le dossier spécifié \"override\" (%1) est absent. Peut-être que le modpack a déjà été utilisé auparavant ?"
 
 #: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
@@ -1833,7 +1833,7 @@ msgstr "Ajouter un compte"
 #: src/application/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: src/application/dialogs/LoginDialog.ui:49
 msgctxt "LoginDialog|"
@@ -4118,22 +4118,22 @@ msgstr "Télécharger maintenant les fichiers nécessaires au lancement de l'ins
 #: src/application/pages/instance/VersionPage.ui:232
 msgctxt "VersionPage|"
 msgid "Open .minecraft"
-msgstr ""
+msgstr "Ouvrir .minecraft"
 
 #: src/application/pages/instance/VersionPage.ui:235
 msgctxt "VersionPage|"
 msgid "Open the instance's .minecraft folder."
-msgstr ""
+msgstr "Ouvrir le dossier .minecraft de l'instance."
 
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
 msgid "Open libraries"
-msgstr ""
+msgstr "Ouvrir les librairies"
 
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Open the instance's local libraries folder."
-msgstr ""
+msgstr "Ouvrir le dossier des bibliothèques locales de l'instance."
 
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
