@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: English, United Kingdom\n"
 "Language: en_GB\n"
-"PO-Revision-Date: 2020-01-18 16:25\n"
+"PO-Revision-Date: 2020-01-18 16:35\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -105,7 +105,7 @@ msgid "<p>We keep MultiMC open source because we think it's important to be able
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 msgstr "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache licence is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
-"<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the licence is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
+"<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialogue and the licence is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 
 #: src/application/pages/global/AccountListPage.ui:47
 msgctxt "AccountListPage|"
@@ -281,38 +281,38 @@ msgstr "Could not start java:"
 #: src/api/logic/java/launch/CheckJava.cpp:90
 msgctxt "CheckJava|"
 msgid "Could not start java!"
-msgstr ""
+msgstr "Could not start java!"
 
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr ""
+msgstr "Java checker returned some invalid data MultiMC doesn't understand:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
 msgctxt "CheckJava|"
 msgid "Java is version %1, using %2-bit architecture.\n\n"
-msgstr ""
+msgstr "Java is version %1, using %2-bit architecture.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
 msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr ""
+msgstr "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
 msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr ""
+msgstr "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: src/api/logic/minecraft/ComponentList.cpp:854
 msgctxt "ComponentList|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
@@ -399,7 +399,7 @@ msgstr ""
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -442,13 +442,13 @@ msgstr ""
 #: src/application/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr ""
+msgstr "Export Instance"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr ""
+msgstr "Export %1"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
@@ -463,12 +463,12 @@ msgstr ""
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr ""
+msgstr "Unable to export instance"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
@@ -513,7 +513,8 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr ""
+msgstr "Error while checking JProfiler install:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 #: src/application/pages/global/ExternalToolsPage.cpp:154
@@ -538,7 +539,8 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr ""
+msgstr "Error while checking JVisualVM install:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
@@ -852,12 +854,12 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
-msgstr ""
+msgstr "Could not fix permissions for %1"
 
 #: src/api/logic/InstanceImportTask.cpp:172
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Instance import has been aborted."
 
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
@@ -873,7 +875,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr ""
+msgstr "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 
 #: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
@@ -884,13 +886,13 @@ msgstr ""
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "Mysterious trailing dots removed from Minecraft version while importing pack."
 
 #: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr ""
+msgstr "Could not map recommended forge version for Minecraft %1"
 
 #: src/api/logic/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
@@ -913,7 +915,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr ""
+msgstr "Unrecognized/unhandled PackageType for: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
@@ -985,7 +987,7 @@ msgstr ""
 #: src/application/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
-msgstr ""
+msgstr "Minimum memory allocation:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:116
 msgctxt "InstanceSettingsPage|"
@@ -1463,12 +1465,12 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "Sort by name"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:21
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
-msgstr ""
+msgstr "Sort by game version"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
@@ -1505,13 +1507,13 @@ msgstr ""
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
+msgstr "Downloading zip for %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "Downloading zip for %1 (%2%)"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
@@ -3121,7 +3123,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr ""
+msgstr "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -3856,7 +3858,7 @@ msgstr "<center><h1>Loading changelog...</h1></center>"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
-msgstr ""
+msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
 
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:55
 msgctxt "ValidateTask|"
