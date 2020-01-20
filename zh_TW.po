@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2020-01-20 10:28\n"
+"PO-Revision-Date: 2020-01-20 10:40\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -1240,7 +1240,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "MultiMC will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "你尚未選擇Java版本或指定了無效的Java。\n"
+"MultiMC將無法啟動Minecraft。\n"
+"你要忽略嗎？\n\n"
+"你之後可以在設定中更改Java的設定。\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
@@ -1337,7 +1340,7 @@ msgstr "你想使用哪一個設定檔？"
 #: src/application/LaunchController.cpp:77
 msgctxt "LaunchController|"
 msgid "No account selected for launch."
-msgstr ""
+msgstr "未選擇執行Minecarft用的帳號。"
 
 #: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
@@ -2712,24 +2715,25 @@ msgstr "模組資料夾"
 #: src/application/pages/global/MultiMCPage.cpp:429
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[某物/錯誤] 錯誤！"
 
 #: src/application/pages/global/MultiMCPage.cpp:438
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[測試/資訊] 無害的訊息..."
 
 #: src/application/pages/global/MultiMCPage.cpp:447
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[something/警告] 不嚴重的警告。"
 
 #: src/api/logic/net/NetJob.cpp:128
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "任務「%1」無法處理：\n"
+"%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
@@ -2744,7 +2748,7 @@ msgstr "名稱"
 #: src/application/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 #: src/application/dialogs/NewInstanceDialog.cpp:132
@@ -3488,22 +3492,22 @@ msgstr "ZIP/UNZIP API 錯誤 %1"
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "驗證伺服器沒有傳回客戶端權杖。"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "驗證伺服器嘗試更改客戶端權杖。此動作不被支援"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "驗證伺服器沒有傳回授權權杖。"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
-msgstr ""
+msgstr "驗證伺服器沒有指定預期的帳號。"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
@@ -3764,7 +3768,7 @@ msgstr "登入失敗!"
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
-msgstr ""
+msgstr "使用遠端URL設定skins尚未實現..."
 
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
