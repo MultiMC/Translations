@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2020-01-15 10:49\n"
+"PO-Revision-Date: 2020-01-29 21:44\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -942,7 +942,7 @@ msgstr "Mods"
 #: src/application/InstancePageProvider.h:44
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
-msgstr "Mods de base"
+msgstr "Mods principaux"
 
 #: src/application/InstancePageProvider.h:72
 #, qt-format
@@ -963,7 +963,7 @@ msgstr "Les paramètres sont ici outrepassés par les paramètres globaux."
 #: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr "Installation de Java"
+msgstr "Insta&llation Java"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
@@ -1018,7 +1018,7 @@ msgstr "Remarque : PermGen est automatiquement activé avec Java 8 et ultérieur
 #: src/application/pages/instance/InstanceSettingsPage.ui:209
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
-msgstr "Arguments Java"
+msgstr "Argumen&ts Java"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
@@ -1156,7 +1156,7 @@ msgstr "Profileur abandonné"
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr "Détection de l'installation de Java..."
+msgstr "Détection des installations Java..."
 
 #: src/application/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
@@ -1340,7 +1340,7 @@ msgstr "Quel profil voulez-vous utiliser ?"
 #: src/application/LaunchController.cpp:77
 msgctxt "LaunchController|"
 msgid "No account selected for launch."
-msgstr "Aucun compte sélectionné pour le démarrage."
+msgstr "Aucun compte sélectionné pour le lancement."
 
 #: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
@@ -1709,8 +1709,8 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr "La mise à jour du jeu a échoué: il est impossible d'extraire les bibliothèques requises.\n"
-"Raison:\n"
+msgstr "Échec de la mise à jour du jeu : les bibliothèques requises n'ont pas pu être récupérées.\n"
+"Raison :\n"
 "%1"
 
 #: src/application/pages/instance/LogPage.ui:60
@@ -2394,7 +2394,7 @@ msgstr "Ajouter des mods"
 #: src/application/pages/instance/ModFolderPage.ui:104
 msgctxt "ModFolderPage|"
 msgid "&Remove"
-msgstr "&Retirer"
+msgstr "&Supprimer"
 
 #: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
@@ -2661,7 +2661,7 @@ msgstr "Paramètres de l'analyse des données"
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr "Envoyer les statistiques d'utilisation anonymes ?"
+msgstr "Envoyer des statistiques d'utilisation anonymes ?"
 
 #: src/application/pages/global/MultiMCPage.ui:509
 msgctxt "MultiMCPage|"
@@ -2696,7 +2696,7 @@ msgstr "Dossier de l'instance"
 #: src/application/pages/global/MultiMCPage.cpp:106
 msgctxt "MultiMCPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr "Vous essayez de spécifier un dossier de l'instance qui contient au moins un '!' dans son chemin d'accès. Java est connu pour causer des problèmes avec ceci. Si c'est le cas, vos instances ne démarrent (probablement) pas !"
+msgstr "Vous essayez de spécifier un dossier d'instance qui contient au moins un \"!\" dans son chemin d'accès. Java provoque habituellement des problèmes dans ce genre de situations, ce qui peut vous empêcher de démarrer vos instances."
 
 #: src/application/pages/global/MultiMCPage.cpp:111
 msgctxt "MultiMCPage|"
@@ -3070,7 +3070,7 @@ msgstr "Passer"
 #: src/application/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr "Ceci s'applique uniquement pour MultiMC. Minecraft n'accepte pas les réglages de proxy."
+msgstr "Cela ne s'applique qu'à MultiMC. Minecraft n'accepte pas les paramètres de proxy."
 
 #: src/application/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3125,7 +3125,7 @@ msgstr "Mot de passe :"
 #: src/application/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside MultiMC's configuration file!"
-msgstr "Note: Le nom d'utilisateur et le mot de passe du proxy sont stockées en texte non crypté à l'intérieur du fichier de configuration de MultiMC !"
+msgstr "Remarque : le nom d'utilisateur et le mot de passe du proxy sont stockés en texte brut à l'intérieur du fichier de configuration de MultiMC !"
 
 #: src/application/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3404,7 +3404,7 @@ msgstr "Avertissement d'arguments JVM"
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Détection de java réussie!<br/>Plateforme détectée: %1<br/>Version de Java détectée: %2<br/>"
+msgstr "Détection de Java réussie !<br/>Plateforme détectée : %1<br/>Version de Java détectée : %2<br/>"
 
 #: src/application/JavaCommon.cpp:32
 #, qt-format
@@ -3416,7 +3416,7 @@ msgstr "<br />Alertes :<br /><font color=\"orange\">%1</font>"
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
-msgstr "Test de Java réussi"
+msgstr "Test Java réussi"
 
 #: src/application/JavaCommon.cpp:42
 msgctxt "QObject|"
@@ -3427,7 +3427,7 @@ msgstr "Le binaire Java spécifié n'a pas fonctionné avec les arguments fourni
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
-msgstr "Test de Java échoué"
+msgstr "Test Java échoué"
 
 #: src/application/JavaCommon.cpp:50
 msgctxt "QObject|"
@@ -3678,7 +3678,7 @@ msgstr "Ajouter"
 #: src/application/pages/instance/ServersPage.ui:159
 msgctxt "ServersPage|"
 msgid "Remove"
-msgstr "Retirer"
+msgstr "Supprimer"
 
 #: src/application/pages/instance/ServersPage.ui:164
 msgctxt "ServersPage|"
@@ -3968,7 +3968,7 @@ msgstr "Changer la version"
 #: src/application/pages/instance/VersionPage.ui:110
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
-msgstr "Changer les versions du fichier sélectionnée."
+msgstr "Changer la version du package sélectionné."
 
 #: src/application/pages/instance/VersionPage.ui:115
 msgctxt "VersionPage|"
@@ -3978,7 +3978,7 @@ msgstr "Déplacer vers le haut"
 #: src/application/pages/instance/VersionPage.ui:118
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr "Charge le fichier sélectionnée plus tôt."
+msgstr "Appliquer le package sélectionné plus tôt."
 
 #: src/application/pages/instance/VersionPage.ui:123
 msgctxt "VersionPage|"
@@ -3988,17 +3988,17 @@ msgstr "Déplacer vers le bas"
 #: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr "Charge le fichier sélectionnée plus tard."
+msgstr "Appliquer le package sélectionné plus tard."
 
 #: src/application/pages/instance/VersionPage.ui:131
 msgctxt "VersionPage|"
 msgid "Remove"
-msgstr "Retirer"
+msgstr "Supprimer"
 
 #: src/application/pages/instance/VersionPage.ui:134
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
-msgstr "Supprimer le package sélectionné de l'instance."
+msgstr "Retirer le package sélectionné de l'instance."
 
 #: src/application/pages/instance/VersionPage.ui:139
 msgctxt "VersionPage|"
@@ -4028,7 +4028,7 @@ msgstr "Annuler"
 #: src/application/pages/instance/VersionPage.ui:158
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
-msgstr "Annuler les modification du fichier sélectionné."
+msgstr "Rétablir le package sélectionné par défaut."
 
 #: src/application/pages/instance/VersionPage.ui:163
 msgctxt "VersionPage|"
@@ -4088,7 +4088,7 @@ msgstr "Remplacer Minecraft.jar"
 #: src/application/pages/instance/VersionPage.ui:208
 msgctxt "VersionPage|"
 msgid "Add Empty"
-msgstr "Ajouter un jar"
+msgstr "Ajouter un emplacement"
 
 #: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
@@ -4128,7 +4128,7 @@ msgstr "Ouvrir le dossier .minecraft de l'instance."
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
 msgid "Open libraries"
-msgstr "Ouvrir libraries"
+msgstr "Ouvrir \"libraries\""
 
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
@@ -4320,7 +4320,7 @@ msgstr "Version de Minecraft"
 #: src/application/VersionProxyModel.cpp:100
 msgctxt "VersionProxyModel|"
 msgid "The version's branch"
-msgstr "Version de la branche"
+msgstr "Branche de la version"
 
 #: src/application/VersionProxyModel.cpp:102
 msgctxt "VersionProxyModel|"
@@ -4357,7 +4357,7 @@ msgstr "Recommandée"
 #: src/application/VersionProxyModel.cpp:176
 msgctxt "VersionProxyModel|"
 msgid "Latest"
-msgstr "Dernier"
+msgstr "Dernière"
 
 #: src/application/dialogs/VersionSelectDialog.cpp:81
 msgctxt "VersionSelectDialog|"
@@ -4440,7 +4440,7 @@ msgstr "Copier"
 #: src/application/pages/instance/WorldListPage.ui:104
 msgctxt "WorldListPage|"
 msgid "Remove"
-msgstr "Retirer"
+msgstr "Supprimer"
 
 #: src/application/pages/instance/WorldListPage.ui:109
 msgctxt "WorldListPage|"
