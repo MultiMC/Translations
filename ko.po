@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2020-02-03 00:57\n"
+"PO-Revision-Date: 2020-02-03 01:06\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -1510,7 +1510,7 @@ msgstr "몇개의 팩을 다운로드 하는데 실패했습니다: %1"
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
+msgstr "%1의 압축 파일 다운로드 중"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
@@ -1589,7 +1589,8 @@ msgstr ""
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr ""
+msgstr "팩의 정보를 다운로드가 %1 코드를 리턴하며 실패하였습니다.\n"
+"지금 제거하시겠습니까?"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
 msgctxt "LegacyFTB::Page|"
@@ -3471,23 +3472,23 @@ msgstr ""
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "gzopen()으로 파일을 열 수 없었음"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append가 QuaZIODevice에서 지원되지 않음"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite가 QuaZIODevice에서 지원되지 않음"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "ZIP/UNZIP API 에러 %1"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3532,22 +3533,22 @@ msgstr ""
 #: src/application/pages/instance/ScreenshotsPage.ui:59
 msgctxt "ScreenshotsPage|"
 msgid "Upload"
-msgstr ""
+msgstr "업로드"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:64
 msgctxt "ScreenshotsPage|"
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:69
 msgctxt "ScreenshotsPage|"
 msgid "Rename"
-msgstr ""
+msgstr "이름 바꾸기"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:74
 msgctxt "ScreenshotsPage|"
 msgid "View Folder"
-msgstr ""
+msgstr "폴더 보기"
 
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -3557,7 +3558,7 @@ msgstr "스크린샷들"
 #: src/application/pages/instance/ScreenshotsPage.cpp:273
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:318
 #: src/application/pages/instance/ScreenshotsPage.cpp:356
@@ -3677,7 +3678,7 @@ msgstr "추가"
 #: src/application/pages/instance/ServersPage.ui:159
 msgctxt "ServersPage|"
 msgid "Remove"
-msgstr ""
+msgstr "제거"
 
 #: src/application/pages/instance/ServersPage.ui:164
 msgctxt "ServersPage|"
@@ -3697,7 +3698,7 @@ msgstr "서버"
 #: src/application/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -3886,7 +3887,7 @@ msgstr "닫기"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>변경사항 읽는 중...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
@@ -4042,12 +4043,12 @@ msgstr "마인크래프트 포지 패키지를 설치합니다."
 #: src/application/pages/instance/VersionPage.ui:171
 msgctxt "VersionPage|"
 msgid "Install Fabric"
-msgstr ""
+msgstr "패브릭 설치"
 
 #: src/application/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
-msgstr ""
+msgstr "패브릭 로더 패키지를 설치합니다."
 
 #: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
@@ -4127,12 +4128,12 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
 msgid "Open libraries"
-msgstr ""
+msgstr "라이브러리 열기"
 
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Open the instance's local libraries folder."
-msgstr ""
+msgstr "인스턴스의 로컬 라이브러리 폴더를 엽니다."
 
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
@@ -4439,12 +4440,12 @@ msgstr "복사"
 #: src/application/pages/instance/WorldListPage.ui:104
 msgctxt "WorldListPage|"
 msgid "Remove"
-msgstr ""
+msgstr "제거"
 
 #: src/application/pages/instance/WorldListPage.ui:109
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/application/pages/instance/WorldListPage.ui:114
 msgctxt "WorldListPage|"
@@ -4459,17 +4460,17 @@ msgstr "새로고침"
 #: src/application/pages/instance/WorldListPage.ui:124
 msgctxt "WorldListPage|"
 msgid "View Folder"
-msgstr ""
+msgstr "폴더 보기"
 
 #: src/application/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
 msgid "Worlds"
-msgstr ""
+msgstr "월드"
 
 #: src/application/pages/instance/WorldListPage.cpp:76
 msgctxt "WorldListPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/pages/instance/WorldListPage.cpp:126
 msgctxt "WorldListPage|"
@@ -4613,5 +4614,5 @@ msgstr "인증에 실패하였습니다."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:234
 msgctxt "YggdrasilTask|"
 msgid "..."
-msgstr ""
+msgstr "..."
 
