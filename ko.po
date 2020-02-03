@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2020-02-03 01:06\n"
+"PO-Revision-Date: 2020-02-03 01:15\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -1488,7 +1488,7 @@ msgstr "서드파티 모드팩"
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr "개인 모드팩"
+msgstr "비공개 모드팩"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
@@ -1516,33 +1516,33 @@ msgstr "%1의 압축 파일 다운로드 중"
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "%1의 압축 파일 다운로드 중 (%2)"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "모드팩 추출 중"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "모드팩 파일 %1을 여는 데에 실패했습니다!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "모드팩 설치 중"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr ""
+msgstr "압축 해제된 마인크래프트를 옮기는 데에 실패했습니다!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "설치 방법을 발견하지 못했습니다!"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
@@ -1552,7 +1552,7 @@ msgstr "공개"
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:41
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr ""
+msgstr "서드파티"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:61
 msgctxt "LegacyFTB::Page|"
@@ -1562,22 +1562,22 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:77
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr ""
+msgstr "팩 추가"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:84
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr ""
+msgstr "선택한 팩 제거"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:100
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr ""
+msgstr "선택된 버전:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr ""
+msgstr "레거시 FTB"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
 msgctxt "LegacyFTB::Page|"
@@ -2379,7 +2379,7 @@ msgstr "필터:"
 #: src/application/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/ModFolderPage.ui:96
 msgctxt "ModFolderPage|"
@@ -3528,7 +3528,7 @@ msgstr "리소스 팩"
 #: src/application/pages/instance/ScreenshotsPage.ui:41
 msgctxt "ScreenshotsPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:59
 msgctxt "ScreenshotsPage|"
@@ -3668,7 +3668,7 @@ msgstr "다운로드 금지"
 #: src/application/pages/instance/ServersPage.ui:130
 msgctxt "ServersPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/ServersPage.ui:154
 msgctxt "ServersPage|"
@@ -3958,7 +3958,7 @@ msgstr "현재 사용가능한 버전들이 없습니다."
 #: src/application/pages/instance/VersionPage.ui:64
 msgctxt "VersionPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/VersionPage.ui:107
 msgctxt "VersionPage|"
@@ -4093,7 +4093,7 @@ msgstr "빈 것 추가"
 #: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
-msgstr ""
+msgstr "비어있는 사용자 정의 패키지를 추가합니다."
 
 #: src/application/pages/instance/VersionPage.ui:216
 msgctxt "VersionPage|"
@@ -4118,12 +4118,12 @@ msgstr "인스턴스 실행에 필요한 모든 파일을 지금 다운로드합
 #: src/application/pages/instance/VersionPage.ui:232
 msgctxt "VersionPage|"
 msgid "Open .minecraft"
-msgstr ""
+msgstr ".minecraft 열기"
 
 #: src/application/pages/instance/VersionPage.ui:235
 msgctxt "VersionPage|"
 msgid "Open the instance's .minecraft folder."
-msgstr ""
+msgstr "인스턴스의 .minecraft 폴더를 엽니다."
 
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
@@ -4138,7 +4138,7 @@ msgstr "인스턴스의 로컬 라이브러리 폴더를 엽니다."
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/pages/instance/VersionPage.cpp:165
 #, qt-format
@@ -4420,7 +4420,7 @@ msgstr "월드가 마지막으로 플레이되었던 날짜와 시각."
 #: src/application/pages/instance/WorldListPage.ui:59
 msgctxt "WorldListPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/WorldListPage.ui:89
 msgctxt "WorldListPage|"
