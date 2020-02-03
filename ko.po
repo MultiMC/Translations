@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2020-01-27 09:13\n"
+"PO-Revision-Date: 2020-02-03 10:09\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -51,7 +51,7 @@ msgstr "<html><head/><body><p>MultiMC는 여러 마인크래프트 프로필들�
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
 msgid "© 2012-2019 MultiMC Contributors"
-msgstr "© 2012-2018 MultiMC Contributors"
+msgstr "© 2012-2019 MultiMC Contributors"
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -103,7 +103,9 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr ""
+msgstr "<p>MultiMC를 오픈 소스로 유지하고 있는 것은 이것과 같은 프로젝트에서 소스 코드를 볼 수 있는 것이 중요하다고 생각하기 때문이며, Apache(아파치) 라이센스를 사용하여 이를 실시하고 있습니다.</p>\n"
+"<p>Apache 라이센스를 채택한 이유 중 하나는 사람들이 이 프로젝트를 변형, 재배포할 때 &quot;MultiMC&quot; 라는 이름을 사용하지 않길 바란다는 점입니다. 이는 사람들이 소스코드를 하나 하나 살펴보고, 프로젝트의 아이콘과 창의 제목(<b>MultiMC-fork(포크)</b> 사용 불가) 등을 포함한 모든 곳에서 &quot;MultiMC&quot;라는 말의 사용을 제거해야 함을 의미합니다.</p>\n"
+"<p>Apache 라이센스는 이 프로젝트의 이름을 합리적인 범위 내에서 사용하는 것 - 정보(About) 및 라이센스 항목에서의 원래 프로젝트에 대한 언급이 있는 경우 - 은 허용합니다. 그러나, 이는 우리 <b>원작자들의 의사와 무관</b>하게 진행된 포크 프로젝트임을 명시할 때만 허용합니다.</p>"
 
 #: src/application/pages/global/AccountListPage.ui:47
 msgctxt "AccountListPage|"
@@ -170,7 +172,7 @@ msgstr "<html><body><p>MultiMC는 애플리케이션의 매 시작마다 익명 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr "정보 전송 활성화"
+msgstr "통계 전송 허용"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:19
 msgctxt "AssetUpdateTask|"
@@ -253,13 +255,13 @@ msgstr "프로파일러 중단됨"
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr "자바 바이너리 \"%1\"를 찾을 수 없습니다. 인스턴스 설정에서 자바 경로를 다시 설정하거나 이를 비활성화하십시오."
+msgstr "자바 바이너리 \"%1\"을(를) 찾을 수 없습니다. 인스턴스 설정에서 자바 경로를 다시 설정하거나 이를 비활성화하십시오."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please set up java in the settings."
-msgstr "자바 바이너리 \"%1\"를 찾을 수 없습니다. 설정에서 자바를 다시 설정해야 할 수 있습니다."
+msgstr "자바 바이너리 \"%1\"을(를) 찾을 수 없습니다. 설정에서 자바를 다시 설정해야 할 수 있습니다."
 
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
@@ -353,7 +355,7 @@ msgstr "이름"
 #: src/application/dialogs/CopyInstanceDialog.ui:90
 msgctxt "CopyInstanceDialog|"
 msgid "&Group"
-msgstr "그룹(&G)"
+msgstr "그룹 (&G)"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
@@ -363,7 +365,7 @@ msgstr "월드 복사"
 #: src/application/dialogs/CopyInstanceDialog.ui:122
 msgctxt "CopyInstanceDialog|"
 msgid "Keep play time"
-msgstr ""
+msgstr "총 실행 시간 정보 유지하기"
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
@@ -378,7 +380,7 @@ msgstr "'server-resource-packs'폴더를 생성하지 못했습니다"
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
-msgstr "사용자 정의 명령어들 (&T)"
+msgstr "사용자 정의 명령어 (&T)"
 
 #: src/application/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
@@ -474,12 +476,12 @@ msgstr "인스턴스 내보내기에 실패함"
 #: src/application/pages/global/ExternalToolsPage.ui:133
 msgctxt "ExternalToolsPage|"
 msgid "Check"
-msgstr "확인"
+msgstr "문제 여부 확인"
 
 #: src/application/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr "외부 편집기 (시스템 기본 편집기 사용시 빈칸으로)"
+msgstr "외부 편집기 (시스템 기본 편집기 사용시 빈칸으로 남겨두기)"
 
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
@@ -525,7 +527,7 @@ msgstr "확인"
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr "JProfiler 설치가 잘 된것 같습니다"
+msgstr "JProfiler 설치가 정상인 것으로 보임"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
@@ -544,7 +546,7 @@ msgstr "JVisualVM 설치 확인 중 오류 발생:\n"
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr "JVisualVM 설치가 잘 되어있는 것 같습니다"
+msgstr "JVisualVM 설치가 정상인 것으로 보임"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
@@ -712,7 +714,7 @@ msgstr "업데이트 목록 처리에 실패하였습니다..."
 #: src/api/logic/updater/DownloadTask.cpp:136
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr "업데이트 파일ㅇ 다운로드 하는 중."
+msgstr "업데이트 파일을 하나 다운로드 하는 중."
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
@@ -786,12 +788,12 @@ msgstr "Zip 압축파일 (*.zip)"
 #: src/application/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
 msgid "&Name:"
-msgstr "이름(&N):"
+msgstr "이름 (&N):"
 
 #: src/application/widgets/InstanceCardWidget.ui:40
 msgctxt "InstanceCardWidget|"
 msgid "&Group:"
-msgstr "그룹(&):"
+msgstr "그룹 (&G):"
 
 #: src/api/logic/InstanceCopyTask.cpp:24
 #, qt-format
@@ -914,7 +916,7 @@ msgstr "중첩된 구조, 즉 모드팩 안의 모드팩은 아직 구현되지 
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr "인식불가/사용불가인 패키지 타입: %1"
+msgstr "인식불가/사용불가인 패키지 유형(PackageType) 으로 나타남: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
@@ -961,7 +963,7 @@ msgstr "이곳의 설정들은 전역 설정을 오버라이딩합니다."
 #: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr "자바 설치본(&L)"
+msgstr "자바 설치본 (&L)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
@@ -981,7 +983,7 @@ msgstr "테스트"
 #: src/application/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
-msgstr "메모리(&Y)"
+msgstr "메모리 (&Y)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
@@ -1011,12 +1013,12 @@ msgstr "메모리 최대 할당량:"
 #: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr "참고: 펌젠(Permgen)은 자바8 이상일경우 자동설정됩니다."
+msgstr "참고: 펌젠(Permgen) 은 자바8 이상일 경우 자동설정됩니다."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:209
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
-msgstr "자바 명령행 인자(&T)"
+msgstr "자바 명령행 인자 (&T)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
@@ -1031,7 +1033,7 @@ msgstr "게임 창"
 #: src/application/pages/instance/InstanceSettingsPage.ui:249
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
-msgstr "마인크래프트를 최대화된 창 크기로 시작할까요?"
+msgstr "마인크래프트를 최대화된 상태로 시작할까요?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:258
 msgctxt "InstanceSettingsPage|"
@@ -1046,7 +1048,7 @@ msgstr "창 너비:"
 #: src/application/pages/instance/InstanceSettingsPage.ui:309
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
-msgstr "콘솔 설정(&L)"
+msgstr "콘솔 설정 (&L)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:321
 msgctxt "InstanceSettingsPage|"
@@ -1303,7 +1305,7 @@ msgstr "언어"
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr ""
+msgstr "당신의 언어가 지원되지 않거나 번역의 질이 좋지 않나요?<br/><a href=\"%1\">번역 작업을 도와주세요!</a>"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1476,27 +1478,27 @@ msgstr "게임 버전으로 정렬"
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "공개 모드팩"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "서드파티 모드팩"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "비공개 모드팩"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "공개 팩"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "서드파티 팩"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:88
 #, qt-format
@@ -1508,107 +1510,108 @@ msgstr "몇개의 팩을 다운로드 하는데 실패했습니다: %1"
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
+msgstr "%1의 압축 파일 다운로드 중"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "%1의 압축 파일 다운로드 중 (%2)"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "모드팩 추출 중"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "모드팩 파일 %1을 여는 데에 실패했습니다!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "모드팩 설치 중"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr ""
+msgstr "압축 해제된 마인크래프트를 옮기는 데에 실패했습니다!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "설치 방법을 발견하지 못했습니다!"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
 msgid "Public"
-msgstr ""
+msgstr "공개"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:41
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr ""
+msgstr "서드파티"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:61
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr ""
+msgstr "비공개"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:77
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr ""
+msgstr "팩 추가"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:84
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr ""
+msgstr "선택한 팩 제거"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:100
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr ""
+msgstr "선택된 버전:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr ""
+msgstr "레거시 FTB"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr ""
+msgstr "FTB 비공개 팩"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:192
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr ""
+msgstr "팩의 정보를 다운로드가 %1 코드를 리턴하며 실패하였습니다.\n"
+"지금 제거하시겠습니까?"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
 msgctxt "LegacyFTB::Page|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "FTB 팩 추가"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:331
 msgctxt "LegacyFTB::Page|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "팩 코드를 입력해 주세요:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:354
 msgctxt "LegacyFTB::Page|"
 msgid "Remove pack"
-msgstr ""
+msgstr "팩 제거"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:355
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr ""
+msgstr "정말 %1 팩을 제거하시겠습니까?"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -1728,7 +1731,7 @@ msgstr "로그 전체를 클립보드로 복사"
 #: src/application/pages/instance/LogPage.ui:96
 msgctxt "LogPage|"
 msgid "&Copy"
-msgstr "복사(&C)"
+msgstr "복사 (&C)"
 
 #: src/application/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
@@ -1797,7 +1800,7 @@ msgstr "MultiMC: 로그 업로드 실패!"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1."
-msgstr "마인크래프트가 종료 코드 %1와 함께 종료했습니다."
+msgstr "마인크래프트가 종료 코드 %1와(과) 함께 종료했습니다."
 
 #. Message displayed on instance crashed
 #: src/api/logic/LoggedProcess.cpp:75
@@ -1809,7 +1812,7 @@ msgstr "프로세스가 튕겼습니다."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1."
-msgstr "프로세스가 종료 코드 %1와 함께 튕겼습니다."
+msgstr "프로세스가 종료 코드 %1와(과) 함께 튕겼습니다."
 
 #. Message displayed after the instance exits due to kill request
 #: src/api/logic/LoggedProcess.cpp:84
@@ -1830,7 +1833,7 @@ msgstr "계정 추가"
 #: src/application/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
 msgid "Email"
-msgstr ""
+msgstr "이메일"
 
 #: src/application/dialogs/LoginDialog.ui:49
 msgctxt "LoginDialog|"
@@ -2236,22 +2239,22 @@ msgstr "이름"
 #: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:647
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:648
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:735
 #, qt-format
@@ -2306,12 +2309,12 @@ msgstr "마인크래프트를 최대화된 상태로 시작할까요?"
 #: src/application/pages/global/MinecraftPage.ui:63
 msgctxt "MinecraftPage|"
 msgid "Window hei&ght:"
-msgstr "창 높이(&G):"
+msgstr "창 높이 (&G):"
 
 #: src/application/pages/global/MinecraftPage.ui:73
 msgctxt "MinecraftPage|"
 msgid "W&indow width:"
-msgstr "창 너비(&I):"
+msgstr "창 너비 (&I):"
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -2326,47 +2329,47 @@ msgstr "사용자에 의해 강제로 중단됨."
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:368
 msgctxt "ModFolderModel|"
 msgid "Folder"
-msgstr ""
+msgstr "폴더"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
 msgid "File"
-msgstr ""
+msgstr "파일"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:464
 msgctxt "ModFolderModel|"
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Version"
-msgstr ""
+msgstr "버전"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
 msgid "Last changed"
-msgstr ""
+msgstr "마지막 수정일"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "모드가 활성 상태입니까?"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "모드의 이름입니다."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:481
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "모드의 버전입니다."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
-msgstr ""
+msgstr "이 모드가 마지막으로 수정( 또는 추가)된 시점입니다."
 
 #: src/application/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
@@ -2376,52 +2379,52 @@ msgstr "필터:"
 #: src/application/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/ModFolderPage.ui:96
 msgctxt "ModFolderPage|"
 msgid "&Add"
-msgstr "추가(&A)"
+msgstr "추가 (&A)"
 
 #: src/application/pages/instance/ModFolderPage.ui:99
 msgctxt "ModFolderPage|"
 msgid "Add mods"
-msgstr ""
+msgstr "모드 추가"
 
 #: src/application/pages/instance/ModFolderPage.ui:104
 msgctxt "ModFolderPage|"
 msgid "&Remove"
-msgstr "제거(&R)"
+msgstr "제거 (&R)"
 
 #: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "Remove selected mods"
-msgstr ""
+msgstr "선택된 모드 제거"
 
 #: src/application/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
 msgid "&Enable"
-msgstr ""
+msgstr "활성화 (&E)"
 
 #: src/application/pages/instance/ModFolderPage.ui:115
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr ""
+msgstr "선택된 모드 활성화"
 
 #: src/application/pages/instance/ModFolderPage.ui:120
 msgctxt "ModFolderPage|"
 msgid "&Disable"
-msgstr ""
+msgstr "비활성화 (&D)"
 
 #: src/application/pages/instance/ModFolderPage.ui:123
 msgctxt "ModFolderPage|"
 msgid "Disable selected mods"
-msgstr ""
+msgstr "선택된 모드 활성화"
 
 #: src/application/pages/instance/ModFolderPage.ui:128
 msgctxt "ModFolderPage|"
 msgid "View &Configs"
-msgstr ""
+msgstr "설정 보기 (&C)"
 
 #: src/application/pages/instance/ModFolderPage.ui:131
 msgctxt "ModFolderPage|"
@@ -2431,12 +2434,12 @@ msgstr "시스템 기본 파일 브라우저에서 설정 폴더를 엽니다."
 #: src/application/pages/instance/ModFolderPage.ui:136
 msgctxt "ModFolderPage|"
 msgid "View &Folder"
-msgstr ""
+msgstr "폴더 보기 (&F)"
 
 #: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/pages/instance/ModFolderPage.cpp:301
 #, qt-format
@@ -2498,7 +2501,7 @@ msgstr "MultiMC가 시작할 때 업데이트를 확인할까요?"
 #: src/application/pages/global/MultiMCPage.ui:64
 msgctxt "MultiMCPage|"
 msgid "Up&date Channel:"
-msgstr "업데이트 채널(&D):"
+msgstr "업데이트 채널 (&D):"
 
 #: src/application/pages/global/MultiMCPage.ui:81
 msgctxt "MultiMCPage|"
@@ -2513,17 +2516,17 @@ msgstr "폴더"
 #: src/application/pages/global/MultiMCPage.ui:100
 msgctxt "MultiMCPage|"
 msgid "I&nstances:"
-msgstr "인스턴스(&N):"
+msgstr "인스턴스 (&N):"
 
 #: src/application/pages/global/MultiMCPage.ui:120
 msgctxt "MultiMCPage|"
 msgid "&Mods:"
-msgstr "모드(&M):"
+msgstr "모드 (&M):"
 
 #: src/application/pages/global/MultiMCPage.ui:143
 msgctxt "MultiMCPage|"
 msgid "&Icons:"
-msgstr "아이콘(&I):"
+msgstr "아이콘 (&I):"
 
 #: src/application/pages/global/MultiMCPage.ui:177
 msgctxt "MultiMCPage|"
@@ -2548,12 +2551,12 @@ msgstr "인스턴스 보기 정렬 모드"
 #: src/application/pages/global/MultiMCPage.ui:211
 msgctxt "MultiMCPage|"
 msgid "By &last launched"
-msgstr "마지막 시작에 따라(&L)"
+msgstr "마지막 실행 시점순 (&L)"
 
 #: src/application/pages/global/MultiMCPage.ui:221
 msgctxt "MultiMCPage|"
 msgid "By &name"
-msgstr "이름에 따라(&N)"
+msgstr "이름순 (&N)"
 
 #: src/application/pages/global/MultiMCPage.ui:234
 msgctxt "MultiMCPage|"
@@ -2563,7 +2566,7 @@ msgstr "테마"
 #: src/application/pages/global/MultiMCPage.ui:240
 msgctxt "MultiMCPage|"
 msgid "&Icons"
-msgstr "아이콘(&I)"
+msgstr "아이콘 (&I)"
 
 #: src/application/pages/global/MultiMCPage.ui:260
 msgctxt "MultiMCPage|"
@@ -2746,7 +2749,7 @@ msgstr "이름"
 #: src/application/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 #: src/application/dialogs/NewInstanceDialog.cpp:132
@@ -2757,12 +2760,12 @@ msgstr "새 인스턴스"
 #: src/application/dialogs/NewInstanceDialog.ui:39
 msgctxt "NewInstanceDialog|"
 msgid "&Group:"
-msgstr "그룹(&G):"
+msgstr "그룹 (&G):"
 
 #: src/application/dialogs/NewInstanceDialog.ui:52
 msgctxt "NewInstanceDialog|"
 msgid "&Name:"
-msgstr "이름(&N):"
+msgstr "이름 (&N):"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:64
 msgctxt "NewInstanceDialog|"
@@ -2832,7 +2835,7 @@ msgstr "클립보드로 로그 전체 복사"
 #: src/application/pages/instance/OtherLogsPage.ui:70
 msgctxt "OtherLogsPage|"
 msgid "&Copy"
-msgstr "복사(&C)"
+msgstr "복사 (&C)"
 
 #: src/application/pages/instance/OtherLogsPage.ui:77
 #: src/application/pages/instance/OtherLogsPage.ui:97
@@ -2952,12 +2955,12 @@ msgstr "paste.ee API 키(key)"
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr "MultiMC key - 12MB 업로드 제한(&U)"
+msgstr "MultiMC key - 12MB 업로드 제한 (&U)"
 
 #: src/application/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr "당신만의 key - 12MB 업로드 제한(&Y):"
+msgstr "당신만의 key - 12MB 업로드 제한 (&Y):"
 
 #: src/application/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
@@ -3082,22 +3085,22 @@ msgstr "시스템의 기본 프록시 설정을 사용합니다."
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
 msgid "&Default"
-msgstr "기본값(&D)"
+msgstr "기본값 (&D)"
 
 #: src/application/pages/global/ProxyPage.ui:74
 msgctxt "ProxyPage|"
 msgid "&None"
-msgstr "없음(&N)"
+msgstr "없음 (&N)"
 
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -3302,17 +3305,17 @@ msgstr "<p> <a href=\"%1\">에서 깃헙에서의 변화를 볼 수 있습니다
 #: src/application/dialogs/AboutDialog.cpp:52
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr ""
+msgstr "후원자"
 
 #: src/application/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
 msgid "MultiMC Developers"
-msgstr ""
+msgstr "MultiMC 개발진"
 
 #: src/application/dialogs/AboutDialog.cpp:44
 msgctxt "QObject|About Credits"
 msgid "With thanks to"
-msgstr ""
+msgstr "다음 사람들에게 고마움을 표하며:"
 
 #: src/application/UpdateController.cpp:362
 msgctxt "QObject|"
@@ -3387,9 +3390,10 @@ msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr "당신은 수동으로 JVM 메모리 옵션을 설정하려 했습니다(\"-XX:PermSize\", \"-Xmx\" 또는 \"-Xms\" 사용) 설정에 메모리 설정을 위한 전용 옵션들이 있습니다. (자바 탭, 위에 메모리 그룹에서).\n"
+msgstr "당신은 수동으로 JVM 메모리 옵션을 설정하려 했습니다(\"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" 또는 \"-Xms\" 사용).\n"
+"설정에 메모리 설정을 위한 전용 옵션들이 있습니다. (자바 탭 가장 위쪽의 메모리 그룹).\n"
 "수동 설정은 전용 옵션에 의해 재정의 될 것입니다.\n"
-"이 메세지는 JVM 명령줄 인수에서 메모리 옵션을 지을때까지 표시됩니다."
+"이 메세지는 JVM 명령줄 인수에서 메모리 옵션을 지울때까지 표시됩니다."
 
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
@@ -3418,7 +3422,7 @@ msgstr "자바 테스트 성공"
 #: src/application/JavaCommon.cpp:42
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "지정된 자바 실행 파일이 제공된 인자들을 올바로 처리하지 못하였습니다:<br />"
+msgstr "지정된 자바 실행 파일에 제공된 명령행 인수들을 적용하여 실행하지 못하였습니다:<br />"
 
 #: src/application/JavaCommon.cpp:44 src/application/JavaCommon.cpp:53
 #: src/application/widgets/JavaSettingsWidget.cpp:318
@@ -3454,38 +3458,38 @@ msgstr "마인크래프트 서버"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append가 GZIP에서 지원되지 않음"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "Gzip을 동시에 읽기와 쓰기 모드로 여는 것은 지원되지 않습니다."
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "Gzip은 읽기 또는 쓰기 모드 중 하나로 열 수 있습니다. 어느 것을 택하시겠습니까?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "gzopen()으로 파일을 열 수 없었음"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append가 QuaZIODevice에서 지원되지 않음"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite가 QuaZIODevice에서 지원되지 않음"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "ZIP/UNZIP API 오류 %1"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3525,27 +3529,27 @@ msgstr "리소스 팩"
 #: src/application/pages/instance/ScreenshotsPage.ui:41
 msgctxt "ScreenshotsPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:59
 msgctxt "ScreenshotsPage|"
 msgid "Upload"
-msgstr ""
+msgstr "업로드"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:64
 msgctxt "ScreenshotsPage|"
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:69
 msgctxt "ScreenshotsPage|"
 msgid "Rename"
-msgstr ""
+msgstr "이름 바꾸기"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:74
 msgctxt "ScreenshotsPage|"
 msgid "View Folder"
-msgstr ""
+msgstr "폴더 보기"
 
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -3555,7 +3559,7 @@ msgstr "스크린샷들"
 #: src/application/pages/instance/ScreenshotsPage.cpp:273
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:318
 #: src/application/pages/instance/ScreenshotsPage.cpp:356
@@ -3615,7 +3619,7 @@ msgstr "스킨"
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: src/application/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -3635,7 +3639,7 @@ msgstr "지연시간"
 #: src/application/pages/instance/ServersPage.ui:72
 msgctxt "ServersPage|"
 msgid "&Name"
-msgstr "이름(&N)"
+msgstr "이름 (&N)"
 
 #: src/application/pages/instance/ServersPage.ui:85
 msgctxt "ServersPage|"
@@ -3645,7 +3649,7 @@ msgstr "주소와 포트"
 #: src/application/pages/instance/ServersPage.ui:98
 msgctxt "ServersPage|"
 msgid "Reso&urces"
-msgstr "리소스"
+msgstr "리소스 (U)"
 
 #: src/application/pages/instance/ServersPage.ui:109
 msgctxt "ServersPage|"
@@ -3665,17 +3669,17 @@ msgstr "다운로드 금지"
 #: src/application/pages/instance/ServersPage.ui:130
 msgctxt "ServersPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/ServersPage.ui:154
 msgctxt "ServersPage|"
 msgid "Add"
-msgstr ""
+msgstr "추가"
 
 #: src/application/pages/instance/ServersPage.ui:159
 msgctxt "ServersPage|"
 msgid "Remove"
-msgstr ""
+msgstr "제거"
 
 #: src/application/pages/instance/ServersPage.ui:164
 msgctxt "ServersPage|"
@@ -3695,27 +3699,27 @@ msgstr "서버"
 #: src/application/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
 msgid "&Next >"
-msgstr "다음(&N) >"
+msgstr "다음 (&N) >"
 
 #: src/application/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
 msgid "< &Back"
-msgstr "< 뒤로가기(&B)"
+msgstr "< 뒤로가기 (&B)"
 
 #: src/application/setupwizard/SetupWizard.cpp:31
 msgctxt "SetupWizard|"
 msgid "&Finish"
-msgstr "마침(&F)"
+msgstr "마침 (&F)"
 
 #: src/application/setupwizard/SetupWizard.cpp:32
 msgctxt "SetupWizard|"
 msgid "&Refresh"
-msgstr "새로고침(&R)"
+msgstr "새로고침 (&R)"
 
 #: src/application/setupwizard/SetupWizard.cpp:33
 msgctxt "SetupWizard|"
@@ -3884,7 +3888,7 @@ msgstr "닫기"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>변경사항 읽는 중...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
@@ -3955,7 +3959,7 @@ msgstr "현재 사용가능한 버전들이 없습니다."
 #: src/application/pages/instance/VersionPage.ui:64
 msgctxt "VersionPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/VersionPage.ui:107
 msgctxt "VersionPage|"
@@ -4040,12 +4044,12 @@ msgstr "마인크래프트 포지 패키지를 설치합니다."
 #: src/application/pages/instance/VersionPage.ui:171
 msgctxt "VersionPage|"
 msgid "Install Fabric"
-msgstr ""
+msgstr "패브릭 설치"
 
 #: src/application/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
-msgstr ""
+msgstr "패브릭 로더 패키지를 설치합니다."
 
 #: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
@@ -4090,7 +4094,7 @@ msgstr "빈 것 추가"
 #: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
-msgstr ""
+msgstr "비어있는 사용자 정의 패키지를 추가합니다."
 
 #: src/application/pages/instance/VersionPage.ui:216
 msgctxt "VersionPage|"
@@ -4115,27 +4119,27 @@ msgstr "인스턴스 실행에 필요한 모든 파일을 지금 다운로드합
 #: src/application/pages/instance/VersionPage.ui:232
 msgctxt "VersionPage|"
 msgid "Open .minecraft"
-msgstr ""
+msgstr ".minecraft 열기"
 
 #: src/application/pages/instance/VersionPage.ui:235
 msgctxt "VersionPage|"
 msgid "Open the instance's .minecraft folder."
-msgstr ""
+msgstr "인스턴스의 .minecraft 폴더를 엽니다."
 
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
 msgid "Open libraries"
-msgstr ""
+msgstr "라이브러리 열기"
 
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Open the instance's local libraries folder."
-msgstr ""
+msgstr "인스턴스의 로컬 라이브러리 폴더를 엽니다."
 
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/pages/instance/VersionPage.cpp:165
 #, qt-format
@@ -4369,7 +4373,7 @@ msgstr "버전 목록을 새로 고칩니다."
 #: src/application/dialogs/VersionSelectDialog.cpp:83
 msgctxt "VersionSelectDialog|"
 msgid "&Refresh"
-msgstr "새로고침(&R)"
+msgstr "새로고침 (&R)"
 
 #: src/application/widgets/VersionSelectWidget.cpp:125
 msgctxt "VersionSelectWidget|"
@@ -4417,7 +4421,7 @@ msgstr "월드가 마지막으로 플레이되었던 날짜와 시각."
 #: src/application/pages/instance/WorldListPage.ui:59
 msgctxt "WorldListPage|"
 msgid "Actions"
-msgstr ""
+msgstr "작업"
 
 #: src/application/pages/instance/WorldListPage.ui:89
 msgctxt "WorldListPage|"
@@ -4437,12 +4441,12 @@ msgstr "복사"
 #: src/application/pages/instance/WorldListPage.ui:104
 msgctxt "WorldListPage|"
 msgid "Remove"
-msgstr ""
+msgstr "제거"
 
 #: src/application/pages/instance/WorldListPage.ui:109
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/application/pages/instance/WorldListPage.ui:114
 msgctxt "WorldListPage|"
@@ -4457,17 +4461,17 @@ msgstr "새로고침"
 #: src/application/pages/instance/WorldListPage.ui:124
 msgctxt "WorldListPage|"
 msgid "View Folder"
-msgstr ""
+msgstr "폴더 보기"
 
 #: src/application/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
 msgid "Worlds"
-msgstr ""
+msgstr "월드"
 
 #: src/application/pages/instance/WorldListPage.cpp:76
 msgctxt "WorldListPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: src/application/pages/instance/WorldListPage.cpp:126
 msgctxt "WorldListPage|"
@@ -4611,5 +4615,5 @@ msgstr "인증에 실패하였습니다."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:234
 msgctxt "YggdrasilTask|"
 msgid "..."
-msgstr ""
+msgstr "..."
 
