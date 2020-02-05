@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
-"PO-Revision-Date: 2020-02-05 13:29\n"
+"PO-Revision-Date: 2020-02-05 13:40\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -1504,7 +1504,7 @@ msgstr "Zewnętrze paczki"
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
+msgstr "Nie udało się pobrać niektórych list paczek: %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
 #, qt-format
@@ -1527,7 +1527,7 @@ msgstr "Rozpakowywanie paczki modów"
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "Nie udało się otworzyć plików modpacka %1!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
@@ -1542,7 +1542,7 @@ msgstr "Nie udało się przenieść rozpakowanego Minecrafta!"
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "Nie odnaleziono żadnych metod instalacji!"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
@@ -1698,7 +1698,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "Niektórym pakietom oznaczonym jako 'lokalnym' brakuje plików:\n"
+"%1\n\n"
+"Musisz dodać pliki, bądź usunąć pakiety które ich wymagają.\n"
+"Musisz naprawić ten błąd manualnie."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -2436,7 +2439,7 @@ msgstr "Wyświetl &Folder"
 #: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Menu kontekstu"
 
 #: src/application/pages/instance/ModFolderPage.cpp:301
 #, qt-format
@@ -2911,7 +2914,7 @@ msgstr "Nie można usunąć %1: %2"
 #: src/application/pages/instance/OtherLogsPage.cpp:220
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
-msgstr ""
+msgstr "Wyczyść"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
@@ -3452,38 +3455,38 @@ msgstr "Serwer Minecrafta"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append nie jest wspierany dla GZIP"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "Otwieranie gzip zarówno dla czytania, jak i pisania nie jest wspierane"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "Możesz użyc gzip dla czytania albo pisania. Który to jest?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "Nie można otworzyć pliku gzopen()"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append nie jest wspierany dla QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite nie jest wspierany dla QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "ZIP/UNZIP Błąd Api %1"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3503,7 +3506,7 @@ msgstr "Serwer uwierzytelniania nie wysłał tokenu dostępu."
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
-msgstr ""
+msgstr "Serwer Autoryzacyjny nie określił tego samego pliku wstępnego, jak oczekiwano."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
@@ -3553,7 +3556,7 @@ msgstr "Zrzuty ekranu"
 #: src/application/pages/instance/ScreenshotsPage.cpp:273
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Menu kontekstowe"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:318
 #: src/application/pages/instance/ScreenshotsPage.cpp:356
@@ -4088,7 +4091,7 @@ msgstr "Dodaj pusty"
 #: src/application/pages/instance/VersionPage.ui:211
 msgctxt "VersionPage|"
 msgid "Add an empty custom package."
-msgstr ""
+msgstr "Dodaj pusty, niestandardowy pakiet."
 
 #: src/application/pages/instance/VersionPage.ui:216
 msgctxt "VersionPage|"
@@ -4123,12 +4126,12 @@ msgstr "Otwórz folder .minecraft instancji."
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
 msgid "Open libraries"
-msgstr ""
+msgstr "Otwórz folder Libraries"
 
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Open the instance's local libraries folder."
-msgstr ""
+msgstr "Otwórz Folder Libraries dla podanej instancji."
 
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
@@ -4213,7 +4216,7 @@ msgstr "Brak aktualnie dostępnych wersji Fabric Loadera."
 #: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr ""
+msgstr "Nie udało się załadować lub pobrać listy wersji Fabric Loadera!"
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
