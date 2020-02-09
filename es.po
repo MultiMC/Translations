@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2020-02-09 15:26\n"
+"PO-Revision-Date: 2020-02-09 15:36\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -400,103 +400,103 @@ msgstr "Comando de Wrapper:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>El comando de pre-lanzamiento se ejecuta antes de iniciar la instancia y el comando de post-salida se ejecuta cuando la instancia termina.</p><p>Ambos se ejecutan en el directorio de trabajo de MultiMC con variables del entorno adicionales:</p><ul><li>$INST_NAME - Nombre de la instancia</li><li>$INST_ID - ID de la instancia (el nombre de su directorio)</li><li>$INST_DIR - ruta absoluta de la instancia</li><li>$INST_MC_DIR - ruta absoluta de Minecraft</li><li>$INST_JAVA - binario de Java usado para iniciar</li><li>$INST_JAVA_ARGS - parametros de línea de comandos usados para el lanzamiento</li></ul><p>El comando de Wrapper permite iniciar Java usando un programa contenedor (como 'optirun' en el Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr ""
+msgstr "Comandos personalizados"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "No se pudo encontrar el comando de Wrapper \"%1\"."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "¡No se pudo ejecutar Minecraft!"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:121
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "ID de proceso de Minecraft: %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Login"
-msgstr ""
+msgstr "Iniciar sesión"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 #: src/application/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr ""
+msgstr "Exportar instancia"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr ""
+msgstr "Exportar %1"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
-msgstr ""
+msgstr "¿Sobrescribir?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "El archivo ya existe. ¿Deseás sobrescribirlo?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr ""
+msgstr "Imposible exportar instancia"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
 #: src/application/pages/global/ExternalToolsPage.ui:133
 msgctxt "ExternalToolsPage|"
 msgid "Check"
-msgstr ""
+msgstr "Verificar"
 
 #: src/application/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr ""
+msgstr "Editores externos (dejar vacío para el valor predeterminado del sistema)"
 
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr ""
+msgstr "Editor de texto:"
 
 #: src/application/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
 msgid "External Tools"
-msgstr ""
+msgstr "Herramientas externas"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr ""
+msgstr "Carpeta de JProfiler"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -506,7 +506,7 @@ msgstr ""
 #: src/application/pages/global/ExternalToolsPage.cpp:191
 msgctxt "ExternalToolsPage|"
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -514,24 +514,25 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr ""
+msgstr "Error comprobando la instalación de JProfiler:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr ""
+msgstr "La configuración de JProfiler parece estar en orden"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "Ejecutable de JVisualVM"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -539,17 +540,18 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr ""
+msgstr "Error verificando la instalación de JVisualVM:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr ""
+msgstr "La configuración de JVisualVM parece estar correcta"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr ""
+msgstr "Aplicación MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
@@ -1348,153 +1350,155 @@ msgstr ""
 #: src/application/LaunchController.cpp:101
 msgctxt "LaunchController|"
 msgid "Play Offline"
-msgstr ""
+msgstr "Jugar sin conexión"
 
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Se recibió un estado de sesión indeterminado durante el inicio de sesión."
 
 #: src/application/LaunchController.cpp:162
 msgctxt "LaunchController|"
 msgid "Player name"
-msgstr ""
+msgstr "Nombre del jugador"
 
 #: src/application/LaunchController.cpp:163
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
-msgstr ""
+msgstr "Elegí nombre de jugador para modo sin conexión."
 
 #: src/application/LaunchController.cpp:185
 msgctxt "LaunchController|"
 msgid "Failed to launch."
-msgstr ""
+msgstr "Error al iniciar."
 
 #: src/application/LaunchController.cpp:195
 #: src/application/LaunchController.cpp:235
 msgctxt "LaunchController|"
 msgid "Error!"
-msgstr ""
+msgstr "¡Error!"
 
 #: src/application/LaunchController.cpp:195
 #: src/application/LaunchController.cpp:196
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "No se pudo cargar el perfil de la instancia."
 
 #: src/application/LaunchController.cpp:203
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr ""
+msgstr "No se pudo instanciar un launcher."
 
 #: src/application/LaunchController.cpp:235
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
-msgstr ""
+msgstr "No se pudo iniciar el generador de perfiles: %1"
 
 #: src/application/LaunchController.cpp:244
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
-msgstr ""
+msgstr "El inicio del juego se va a retrasar hasta que presiones el botón. Este es el momento adecuado para configurar el generador de perfiles, ya que el servidor se está ejecutando ahora.\n\n"
+"%1"
 
 #: src/application/LaunchController.cpp:247
 msgctxt "LaunchController|"
 msgid "Waiting."
-msgstr ""
+msgstr "Esperando."
 
 #: src/application/LaunchController.cpp:249
 msgctxt "LaunchController|"
 msgid "Launch"
-msgstr ""
+msgstr "Iniciar"
 
 #: src/application/LaunchController.cpp:257
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
-msgstr ""
+msgstr "No se pudo iniciar el generador de perfiles: %1"
 
 #: src/application/LaunchController.cpp:258
 msgctxt "LaunchController|"
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: src/application/LaunchController.cpp:286
 msgctxt "LaunchController|"
 msgid "Abort"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/application/LaunchController.cpp:302
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
-msgstr ""
+msgstr "¿Forzar cierre de Minecraft?"
 
 #: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr ""
+msgstr "Esto puede causar que la instancia se corrompa y solo debe ser usado si Minecraft se queda congelado por algún motivo"
 
 #: src/api/logic/launch/LaunchTask.cpp:215
 #, qt-format
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr ""
+msgstr "MultiMC dejó de ver el registro del juego porque la longitud del registro superó %1 líneas.\n"
+"Es posible que tengas que arreglar tus mods porque el juego todavía está registrando archivos, ¡y probablemente desperdiciando espacio en el disco duro a un ritmo alarmante!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "No se pudo encontrar el comando de Wrapper \"%1\"."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "¡No se pudo ejecutar Minecraft!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:173
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "ID de proceso de Minecraft: %1\n\n"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "Ordenar por nombre"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:21
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
-msgstr ""
+msgstr "Ordenar por versión de juego"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "Modpack público"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "Modpack no oficial"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "Modpack privado"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "Modpacks públicos"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "Modpacks no oficiales"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:88
 #, qt-format
