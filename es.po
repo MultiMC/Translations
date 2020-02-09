@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2020-02-09 02:00\n"
+"PO-Revision-Date: 2020-02-09 02:06\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -1620,70 +1620,70 @@ msgstr "Instancia de versiones anteriores."
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Actualización requerida</h1><p>MultiMC ahora soporta versiones antiguas de Minecraft y todos los requerimientos del formato (OneSix) de instancia. En consecuencia, el viejo (Legacy) formato va a ser deshabilitado y las viejas instancias necesitarán actualizarse.</p><p>La actualización creará una nueva instancia con los mismos contenidos de esta, en el nuevo formato. La instancia original permanecerá intacta por si fall algo en el proceso.</p><p>Por favor, reportá tus incidencias en nuestra <a href=\"https://github.com/MultiMC/MultiMC5/issues\">página de incidencias de GitHub</a>.</p><p>Disponés de también un <a href=\"https://discord.gg/GtPmv93\">servidor de Discord para propósitos de testeo</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr ""
+msgstr "Actualizar instancia"
 
 #: src/application/pages/instance/LegacyUpgradePage.cpp:26
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: src/application/pages/instance/LegacyUpgradePage.cpp:29
 msgctxt "LegacyUpgradePage|"
 msgid "Abort"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/application/pages/instance/LegacyUpgradePage.cpp:38
 #, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
-msgstr ""
+msgstr "%1 (Migrado)"
 
 #: src/application/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade"
-msgstr ""
+msgstr "Actualización"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
-msgstr ""
+msgstr "Copiando instancia %1"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:59
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
-msgstr ""
+msgstr "Error al copiar la carpeta de la instancia."
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr ""
+msgstr "No se pudo decidir la versión de Minecraft."
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "La copia de la carpeta de la instancia se abortó."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:13
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr ""
+msgstr "Obteniendo los archivos de librería desde Mojang..."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:21
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr ""
+msgstr "Librerias para la instancia %1"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "Está especificado un jar inválido en el metadata. Cancelando."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:58
 #, qt-format
@@ -1692,7 +1692,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "A algunos artefactos marcados como 'local' les faltan archivos:\n"
+"%1\n\n"
+"Necesitás añadir los archivos, o eliminaste los paquetes que los requieren.\n"
+"Tendrás que corregir este problema manualmente."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -1700,96 +1703,98 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr ""
+msgstr "Error al actualizar el juego: fue imposible descargar las librerías requeridas.\n"
+"Motivo:\n"
+"%1"
 
 #: src/application/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
 msgid "Keep updating"
-msgstr ""
+msgstr "Seguir actualizando"
 
 #: src/application/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr ""
+msgstr "Ajustar líneas"
 
 #: src/application/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
 msgid "Copy the whole log into the clipboard"
-msgstr ""
+msgstr "Copiar todo el registro en el portapapeles"
 
 #: src/application/pages/instance/LogPage.ui:96
 msgctxt "LogPage|"
 msgid "&Copy"
-msgstr ""
+msgstr "&Copiar"
 
 #: src/application/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr ""
+msgstr "Subir el registro a paste.ee - estará disponible durante un mes"
 
 #: src/application/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
 msgid "Upload"
-msgstr ""
+msgstr "Subir"
 
 #: src/application/pages/instance/LogPage.ui:113
 msgctxt "LogPage|"
 msgid "Clear the log"
-msgstr ""
+msgstr "Borrar el registro"
 
 #: src/application/pages/instance/LogPage.ui:116
 msgctxt "LogPage|"
 msgid "Clear"
-msgstr ""
+msgstr "Borrar"
 
 #: src/application/pages/instance/LogPage.ui:125
 msgctxt "LogPage|"
 msgid "Search:"
-msgstr ""
+msgstr "Buscar:"
 
 #: src/application/pages/instance/LogPage.ui:132
 msgctxt "LogPage|"
 msgid "Find"
-msgstr ""
+msgstr "Buscar"
 
 #: src/application/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr ""
+msgstr "Desplazarse hasta el final"
 
 #: src/application/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr ""
+msgstr "Final"
 
 #: src/application/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr ""
+msgstr "Registro de Minecraft"
 
 #: src/application/pages/instance/LogPage.cpp:239
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr ""
+msgstr "MultiMC: Carga de registro activada en: %1"
 
 #: src/application/pages/instance/LogPage.cpp:243
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr ""
+msgstr "MultiMC: Registro subido a:%1"
 
 #: src/application/pages/instance/LogPage.cpp:247
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr ""
+msgstr "MultiMC: ¡Falló la carga del registro!"
 
 #. Message displayed on instance exit
 #: src/api/logic/LoggedProcess.cpp:68
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1."
-msgstr ""
+msgstr "El proceso se cerró con el código %1."
 
 #. Message displayed on instance crashed
 #: src/api/logic/LoggedProcess.cpp:75
