@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2020-02-09 02:47\n"
+"PO-Revision-Date: 2020-02-09 02:56\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -2670,17 +2670,27 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>MultiMC envía información de uso anónima cada vez que se inicia la application.</p><p>Los siguientes datos se envían:</p>\n"
+"<ul>\n"
+"<li>Versión de MultiMC</li>\n"
+"<li>Nombre, versión y arquitectura del sistema operativo</li>\n"
+"<li>Arquitectura de CPU (Arquitectura de Kernel en Linux).</li>\n"
+"<li>Tamaño de memoria del sistema</li>\n"
+"<li>Versión de Java, arquitectura y opciones de memoria.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/application/pages/global/MultiMCPage.cpp:97
 msgctxt "MultiMCPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Carpeta de la instancia"
 
 #: src/application/pages/global/MultiMCPage.cpp:106
 msgctxt "MultiMCPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Estás intentando especificar una ruta de carpeta que contiene el carácter '!'. Java suele causar problemas en estos casos. ¡Es (muy) posible que no te inicien las instancias!"
 
 #: src/application/pages/global/MultiMCPage.cpp:111
 msgctxt "MultiMCPage|"
