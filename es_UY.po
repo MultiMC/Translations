@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2020-02-12 22:37\n"
+"PO-Revision-Date: 2020-02-12 22:47\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -255,13 +255,13 @@ msgstr "Generador de perfiles abortado"
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr "El ejecutable  de java \"%1\" no se ha podido encontrar. Puede que tengas que configurar java si Minecraft no se inicia."
+msgstr "El binario de java \"%1\" no se encontró. Por favor, corrige la anulación de ruta de Java en la configuración de la instancia o desactívala."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please set up java in the settings."
-msgstr "El binario de Java \"%1\" no pudo encontrarse. Por favor, corregí la configuración de Java."
+msgstr "El binario de Java \"%1\" no pudo encontrarse. Por favor, corrige la configuración de Java."
 
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
@@ -459,7 +459,7 @@ msgstr "¿Sobrescribir?"
 #: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr "El archivo ya existe. ¿Deseás sobrescribirlo?"
+msgstr "El archivo ya existe. ¿Deseas sobrescribirlo?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
@@ -629,7 +629,7 @@ msgid "Failed to download the following files:\n"
 msgstr "Error al descargar los siguientes archivos:\n"
 "%1\n\n"
 "Motivo:%2\n"
-"Por favor intentalo nuevamente."
+"Por favor inténtalo nuevamente."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
@@ -1241,8 +1241,8 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "You can change the Java version in the settings later.\n"
 msgstr "No seleccionaste una versión de Java o seleccionaste algo que no funciona.\n"
 "MultiMC no va a poder iniciar Minecraft.\n"
-"¿Deseás continuar sin Java?\n\n"
-"Podés cambiar la versión de Java en la configuración más tarde.\n"
+"¿Deseas continuar sin Java?\n\n"
+"Puedes cambiar la versión de Java en la configuración más tarde.\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
@@ -1293,8 +1293,8 @@ msgstr "Java"
 msgctxt "JavaWizardPage|"
 msgid "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
-msgstr "Aún no tenés una configuración Java que funcione o desapareció.\n"
-"Por favor, seleccioná uno de los siguientes o buscá un ejecutable java."
+msgstr "Aún no tienes una configuración Java que funcione o desapareció.\n"
+"Por favor, selecciona uno de los siguientes o busca un ejecutable java."
 
 #: src/application/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
@@ -1305,7 +1305,7 @@ msgstr "Idioma"
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr "¿No está tu idioma o la traducción está chota?<br/><a href=\"%1\">¡Ayudanos con las traducciones!</a>"
+msgstr "¿No está tu idioma o la traducción está mal?<br/><a href=\"%1\">¡Ayúdanos con las traducciones!</a>"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1315,7 +1315,7 @@ msgstr "Idioma"
 #: src/application/setupwizard/LanguageWizardPage.cpp:46
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in MultiMC"
-msgstr "Elegí el idioma para usar en MultiMC"
+msgstr "Elige el idioma para usar en MultiMC"
 
 #: src/application/LaunchController.cpp:27
 msgctxt "LaunchController|"
@@ -1330,7 +1330,7 @@ msgstr "Sin cuentas"
 #: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in to MultiMC.Would you like to open the account manager to add an account now?"
-msgstr "Para jugar Minecraft, debés tener al menos una cuenta de Minecraft o Mojang en MultiMC. ¿Querés abrir el gestor de cuentas para agregar una ahora?"
+msgstr "Para jugar Minecraft, debes tener al menos una cuenta de Minecraft o Mojang en MultiMC. ¿Quieres abrir el gestor de cuentas para agregar una ahora?"
 
 #: src/application/LaunchController.cpp:61
 msgctxt "LaunchController|"
@@ -1345,7 +1345,7 @@ msgstr "Sin cuenta seleccionada para iniciar."
 #: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
 msgid "Your account is currently not logged in. Please enter your password to log in again. <br /> <br /> This could be caused by a password change."
-msgstr "Tu cuenta no está actualmente conectada. Por favor, introducí tu contraseña para iniciar sesión nuevamente. <br /> <br /> Esto puede haber sido causado por un cambio de contraseña."
+msgstr "Tu cuenta no está actualmente conectada. Por favor, introduce tu contraseña para iniciar sesión nuevamente. <br /> <br /> Esto puede haber sido causado por un cambio de contraseña."
 
 #: src/application/LaunchController.cpp:101
 msgctxt "LaunchController|"
@@ -1612,7 +1612,7 @@ msgstr "Eliminar modpack"
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr "¿Estás seguro de que querés borrar el modpack %1?"
+msgstr "¿Estás seguro de que quieres borrar el modpack %1?"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -1627,7 +1627,7 @@ msgstr "Instancia de versiones anteriores."
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr "<html><body><h1>Actualización requerida</h1><p>MultiMC ahora soporta versiones antiguas de Minecraft y todos los requerimientos del formato (OneSix) de instancia. En consecuencia, el viejo (Legacy) formato va a ser deshabilitado y las viejas instancias necesitarán actualizarse.</p><p>La actualización creará una nueva instancia con los mismos contenidos de esta, en el nuevo formato. La instancia original permanecerá intacta por si fall algo en el proceso.</p><p>Por favor, reportá tus incidencias en nuestra <a href=\"https://github.com/MultiMC/MultiMC5/issues\">página de incidencias de GitHub</a>.</p><p>Disponés de también un <a href=\"https://discord.gg/GtPmv93\">servidor de Discord para propósitos de testeo</a>.</p></body></html>"
+msgstr "<html><body><h1>Actualización requerida</h1><p>MultiMC ahora soporta versiones antiguas de Minecraft y todos los requerimientos del formato (OneSix) de instancia. En consecuencia, el viejo (Legacy) formato va a ser deshabilitado y las viejas instancias necesitarán actualizarse.</p><p>La actualización creará una nueva instancia con los mismos contenidos de esta, en el nuevo formato. La instancia original permanecerá intacta por si falla algo en el proceso.</p><p>Por favor, reporta tus incidencias en nuestra <a href=\"https://github.com/MultiMC/MultiMC5/issues\">página de incidencias de GitHub</a>.</p><p>Dispones de también un <a href=\"https://discord.gg/GtPmv93\">servidor de Discord para propósitos de testeo</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -1701,7 +1701,7 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "You'll have to correct this problem manually."
 msgstr "A algunos artefactos marcados como 'local' les faltan archivos:\n"
 "%1\n\n"
-"Necesitás añadir los archivos, o eliminaste los paquetes que los requieren.\n"
+"O necesitas añadir los archivos, o eliminaste los paquetes que los requieren.\n"
 "Tendrás que corregir este problema manualmente."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
@@ -2197,7 +2197,7 @@ msgstr "Generadores de perfiles"
 #: src/application/MainWindow.cpp:977
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
-msgstr "El generador de perfiles no está configurado correctamente. Andá a opciones, \"Herramientas externas\"."
+msgstr "El generador de perfiles no está configurado correctamente. Ve a opciones, \"Herramientas externas\"."
 
 #: src/application/MainWindow.cpp:1031
 msgctxt "MainWindow|"
@@ -2702,7 +2702,7 @@ msgstr "Estás intentando especificar una ruta de carpeta que contiene el carác
 #: src/application/pages/global/MultiMCPage.cpp:111
 msgctxt "MultiMCPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr "¿Estás seguro de que querés usar esta ruta? Seleccioná \"No\" para cerrar y no modificar la ruta de instancia."
+msgstr "¿Estás seguro de que quieres usar esta ruta? Selecciona \"No\" para cerrar y no modificar la ruta de instancia."
 
 #: src/application/pages/global/MultiMCPage.cpp:129
 msgctxt "MultiMCPage|"
@@ -2904,7 +2904,7 @@ msgstr "El archivo (%1) no es legible."
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
-msgstr "¿Estás seguro de que querés borrar %1?"
+msgstr "¿Estás seguro de que quieres borrar %1?"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:205
 #, qt-format
@@ -2920,14 +2920,14 @@ msgstr "Limpiar"
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr "¿Estás seguro de que querés eliminar todos los archivos de registro?"
+msgstr "¿Estás seguro de que quieres eliminar todos los archivos de registro?"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:228
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr "¿Realmente deseás eliminar estos archivos?\n"
+msgstr "¿Realmente deseas eliminar estos archivos?\n"
 "%1"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:255
@@ -2965,12 +2965,12 @@ msgstr "Tu propia clave - 12MB límite de subida:"
 #: src/application/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
-msgstr "¡Pegá tu clave API acá!"
+msgstr "¡Pega tu clave API aquí!"
 
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> es usado por MultiMC para subir los archivos de registro. Si tenés una cuenta en <a href=\"https://paste.ee\">paste.ee</a>, podés añadir tu propia clave API y tener tus registros subidos enlazados con tu cuenta.</p></body></html>"
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> es usado por MultiMC para subir los archivos de registro. Si tienes una cuenta en <a href=\"https://paste.ee\">paste.ee</a>, puedes añadir tu propia clave API y tener tus registros subidos enlazados con tu cuenta.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -2985,7 +2985,7 @@ msgstr "Subiendo a paste.ee"
 #: src/api/logic/net/PasteUpload.cpp:75
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr "paste.ee devolvió un error. Por favor, consultá los registros para más información"
+msgstr "paste.ee devolvió un error. Por favor, consulta los registros para más información"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
@@ -3024,12 +3024,12 @@ msgstr "El comando pre-lanzamiento se ejecutó correctamente.\n\n"
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
 msgid "Select an Account"
-msgstr "Seleccioná una cuenta"
+msgstr "Selecciona una cuenta"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:20
 msgctxt "ProfileSelectDialog|"
 msgid "Select a profile."
-msgstr "Seleccioná un perfil."
+msgstr "Selecciona un perfil."
 
 #: src/application/dialogs/ProfileSelectDialog.ui:38
 msgctxt "ProfileSelectDialog|"
@@ -3333,7 +3333,7 @@ msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr "No se pudo reemplazar el archivo %1. Los cambios se revertirán.\n"
-"Consultá el archivo de registro de MultiMC para más detalles."
+"Consulta el archivo de registro de MultiMC para más detalles."
 
 #: src/application/UpdateController.cpp:376
 #, qt-format
@@ -3341,7 +3341,7 @@ msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
 msgstr "No se pudo eliminar el archivo %1. Los cambios se revertirán.\n"
-"Consultá el archivo de registro de MultiMC para más detalles."
+"Consulta el archivo de registro de MultiMC para más detalles."
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
@@ -3356,8 +3356,8 @@ msgid "The rollback failed too.\n"
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
 msgstr "La reversión también falló.\n"
-"Tendrá que reparar MultiMC manualmente.\n"
-"Por favor, hacenos saber por qué y cómo sucedió esto."
+"Tendrás que reparar MultiMC manualmente.\n"
+"Por favor, haznos saber por qué y cómo sucedió esto."
 
 #: src/application/MainWindow.cpp:1001
 msgctxt "QObject|"
@@ -3372,7 +3372,7 @@ msgstr "Error al subir"
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr "El archivo de registro es demasiado grande. Debés subirlo manualmente."
+msgstr "El archivo de registro es demasiado grande. Debes subirlo manualmente."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
@@ -3433,7 +3433,7 @@ msgstr "Fallo en la prueba de Java"
 #: src/application/JavaCommon.cpp:50
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "El binario de java especificado no funcionó.<br />Debés usar la función de detección automática o establecer la ruta de acceso al ejecutable de Java.<br />"
+msgstr "El binario de java especificado no funcionó.<br />Debes usar la función de detección automática o establecer la ruta de acceso al ejecutable de Java.<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:281
 msgctxt "QObject|"
@@ -3468,7 +3468,7 @@ msgstr "La apertura de gzip para lectura y escritura no está soportada"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr "Podés abrir un gzip para leer o para escribir. ¿Cuál es?"
+msgstr "Puedes abrir un gzip para leer o para escribir. ¿Cuál es?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
