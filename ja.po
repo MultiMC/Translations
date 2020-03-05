@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2020-03-05 02:47\n"
+"PO-Revision-Date: 2020-03-05 03:00\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -396,7 +396,7 @@ msgstr ""
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Pre-launch コマンドはインスタンスの起動前に実行され、Post-Exitコマンドはインスタンスの終了後に起動します。</p><p>どちらのコマンドもMultiMCのワーキングフォルダーで実行されます。以下の環境変数が使えます:</p><ul><li>$INST_NAME - インスタンスの名前</li><li>$INST_ID - インスタンスのID (インスタンスのフォルダ名)</li><li>$INST_DIR - インスタンスへの絶対パス</li><li>$INST_MC_DIR - Minecraftの絶対パス</li><li>$INST_JAVA - 起動に使われるJavaのバイナリ</li><li>$INST_JAVA_ARGS - 起動に使われるコマンドライン引数</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -429,7 +429,7 @@ msgstr "ログイン"
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email"
-msgstr ""
+msgstr "メールアドレス"
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
@@ -587,7 +587,7 @@ msgstr "選択したファイルは実行可能ではないようです"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr ""
+msgstr "Matoba Jar '%1' を '%2' に展開できませんでした。"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
 msgctxt "FMLLibrariesTask|"
@@ -630,7 +630,7 @@ msgstr "以下のファイルのダウンロードに失敗しました:\n"
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "Mod ID を解決中..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
@@ -878,7 +878,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "マニフェストに不明なModローダーがあります: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
@@ -906,7 +906,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr ""
+msgstr "Modパックの中にさらにModパックが入ったものはサポートされていません。何もダウンロードされませんでした: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
