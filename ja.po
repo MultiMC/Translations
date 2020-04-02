@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2020-01-14 19:10\n"
+"PO-Revision-Date: 2020-03-05 03:28\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -149,7 +149,7 @@ msgstr "コンテキストメニュー"
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
-msgstr ""
+msgstr "Minecraftアカウントメールアドレスとパスワードを入力してアカウントを追加してください。"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -361,7 +361,7 @@ msgstr "ワールドをコピー"
 #: src/application/dialogs/CopyInstanceDialog.ui:122
 msgctxt "CopyInstanceDialog|"
 msgid "Keep play time"
-msgstr ""
+msgstr "プレイ時間をコピー"
 
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
@@ -396,7 +396,7 @@ msgstr ""
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Pre-launch コマンドはインスタンスの起動前に実行され、Post-Exitコマンドはインスタンスの終了後に起動します。</p><p>どちらのコマンドもMultiMCのワーキングフォルダーで実行されます。以下の環境変数が使えます:</p><ul><li>$INST_NAME - インスタンスの名前</li><li>$INST_ID - インスタンスのID (インスタンスのフォルダ名)</li><li>$INST_DIR - インスタンスへの絶対パス</li><li>$INST_MC_DIR - Minecraftの絶対パス</li><li>$INST_JAVA - 起動に使われるJavaのバイナリ</li><li>$INST_JAVA_ARGS - 起動に使われるコマンドライン引数</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -429,7 +429,7 @@ msgstr "ログイン"
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email"
-msgstr ""
+msgstr "メールアドレス"
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
@@ -587,7 +587,7 @@ msgstr "選択したファイルは実行可能ではないようです"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr ""
+msgstr "Matoba Jar '%1' を '%2' に展開できませんでした。"
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
 msgctxt "FMLLibrariesTask|"
@@ -630,7 +630,7 @@ msgstr "以下のファイルのダウンロードに失敗しました:\n"
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "Mod ID を解決中..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
@@ -878,7 +878,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "マニフェストに不明なModローダーがあります: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
@@ -906,7 +906,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr ""
+msgstr "Modパックの中にさらにModパックが入ったものはサポートされていません。何もダウンロードされませんでした: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
@@ -1235,7 +1235,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "MultiMC will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Javaのバージョンを選択が選択されなかったか、無効なものが選択されました。\n"
+"MultiMCはMinecraftを起動することができません。\n"
+"Javaなしで続行しますか？\n\n"
+"設定で後からJavaのバージョンを変更することができます。\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
@@ -1286,7 +1289,8 @@ msgstr "Java"
 msgctxt "JavaWizardPage|"
 msgid "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
-msgstr ""
+msgstr "Javaがインストールされていないか見つかりません。\n"
+"下から一つ選ぶか、Javaの実行ファイルを参照してください。"
 
 #: src/application/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
@@ -1297,7 +1301,7 @@ msgstr "言語"
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr ""
+msgstr "あなたの言語が見つからないか、質が低いですか？<br/><a href=\"%1\">翻訳を手伝ってください！</a>"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1337,7 +1341,7 @@ msgstr "起動用のアカウントが選択されていません。"
 #: src/application/LaunchController.cpp:86
 msgctxt "LaunchController|"
 msgid "Your account is currently not logged in. Please enter your password to log in again. <br /> <br /> This could be caused by a password change."
-msgstr ""
+msgstr "アカウントにログインしていません。パスワードを入力してログインし直してください。<br /> <br />これはパスワードの変更などで発生します。"
 
 #: src/application/LaunchController.cpp:101
 msgctxt "LaunchController|"
@@ -1537,42 +1541,42 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
 msgid "Public"
-msgstr ""
+msgstr "公開パック"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:41
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr ""
+msgstr "サードパーティ"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:61
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr ""
+msgstr "プライベートパック"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:77
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr ""
+msgstr "パックを追加"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:84
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr ""
+msgstr "選択したパックを除去"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:100
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr ""
+msgstr "選択されたバージョン:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr ""
+msgstr "FTB Legacy"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr ""
+msgstr "FTB プライベートパック"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:192
 #, qt-format
@@ -1584,28 +1588,28 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
 msgctxt "LegacyFTB::Page|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "FTB Modパックを追加"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:331
 msgctxt "LegacyFTB::Page|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "パックのコードを入力:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:354
 msgctxt "LegacyFTB::Page|"
 msgid "Remove pack"
-msgstr ""
+msgstr "パックを削除"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:355
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr ""
+msgstr "本当にパック %1 を削除しますか？"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
 msgid "Legacy"
-msgstr ""
+msgstr "旧式"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
@@ -2223,22 +2227,22 @@ msgstr "名前"
 #: src/api/logic/minecraft/MinecraftInstance.cpp:644
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:646
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:647
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:648
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:735
 #, qt-format
@@ -2267,7 +2271,7 @@ msgstr "破損"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:756
 #, qt-format
@@ -2303,7 +2307,7 @@ msgstr "ウィンドウの幅:"
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/api/logic/minecraft/MinecraftUpdate.cpp:90
 msgctxt "MinecraftUpdate|"
@@ -2423,18 +2427,18 @@ msgstr "フォルダーを表示"
 #: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "コンテキストメニュー"
 
 #: src/application/pages/instance/ModFolderPage.cpp:301
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
-msgstr ""
+msgstr "%1 を選択"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:36
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't create the bin folder for Minecraft.jar"
-msgstr ""
+msgstr "Minecraft.jar用に大きなフォルダを作成できませんでした。"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:42
 #, qt-format
@@ -2615,12 +2619,12 @@ msgstr "ゲームがクラッシュしたときにコンソールを表示しま
 #: src/application/pages/global/MultiMCPage.ui:384
 msgctxt "MultiMCPage|"
 msgid "History limit"
-msgstr ""
+msgstr "履歴の上限"
 
 #: src/application/pages/global/MultiMCPage.ui:390
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "ログがいっぱいになったときロギングを止める"
 
 #: src/application/pages/global/MultiMCPage.ui:403
 msgctxt "MultiMCPage|"
@@ -2717,12 +2721,12 @@ msgstr ""
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "ジョブ '%1' は処理に失敗しました: %2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "空のコンポーネントを追加"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -3077,12 +3081,12 @@ msgstr "なし"
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -3165,7 +3169,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
-msgstr ""
+msgstr "%1 のアセット"
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:51
 #, qt-format
@@ -3248,17 +3252,17 @@ msgstr "パスはMCEditのパスではないようです"
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
 msgid "Dark"
-msgstr ""
+msgstr "ダーク"
 
 #: src/application/themes/SystemTheme.cpp:44
 msgctxt "QObject|"
 msgid "System"
-msgstr ""
+msgstr "システム"
 
 #: src/application/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
-msgstr ""
+msgstr "ブライト"
 
 #: src/application/dialogs/UpdateDialog.cpp:122
 #, qt-format
@@ -3287,12 +3291,12 @@ msgstr "<p><a href=\"%1\">GitHubで変更点を見る</a>ことができます�
 #: src/application/dialogs/AboutDialog.cpp:52
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr ""
+msgstr "Patrons"
 
 #: src/application/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
 msgid "MultiMC Developers"
-msgstr ""
+msgstr "MultiMC の開発者"
 
 #: src/application/dialogs/AboutDialog.cpp:44
 msgctxt "QObject|About Credits"
