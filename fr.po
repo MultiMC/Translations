@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2020-02-17 13:25\n"
+"PO-Revision-Date: 2020-05-07 18:30\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -400,7 +400,7 @@ msgstr "Commande wrapper :"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'il ferme.</p><p>Les deux vont être exécuté dans le répertoire de travail de MultiMC avec des variables d'environnement supplémentaires :</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du fichier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple : 'optirun' sur Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'elle soit fermée.</p><p>Les deux vont être exécuté dans le répertoire de travail de MultiMC avec des variables d'environnement supplémentaires :</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du fichier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple : 'optirun' sur Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -626,15 +626,15 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr "Impossible de télécharger les fichiers suivants :\n"
+msgstr "Échec du téléchargement des fichiers suivants :\n"
 "%1\n\n"
-"Raison :%2\n"
-"Essayez à nouveau."
+"Raison : %2\n"
+"Veuillez réessayer."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr "Résolution des IDs de mods..."
+msgstr "Recherche des IDs de mods..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
@@ -752,7 +752,7 @@ msgstr "Ouvrir le dossier"
 #: src/application/dialogs/IconPickerDialog.cpp:105
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
-msgstr "Sélectionnez l'icône"
+msgstr "Sélectionnez les icônes"
 
 #: src/application/dialogs/IconPickerDialog.cpp:108
 #, qt-format
@@ -910,13 +910,13 @@ msgstr "Ce \"dossier\" pourrait avoir besoin d'être extrait : %1"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr "L'ajout de modpacks dans un modpack n'est pas disponible, rien n'a été téléchargé: %1"
+msgstr "Imbriquer des modpacks dans d'autres n'est pas implémenté, rien n'a été téléchargé: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr "Type de paquet méconnu ou pas pris en charge pour: %1"
+msgstr "Type de paquet inconnu ou pas pris en charge pour: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
@@ -1003,7 +1003,7 @@ msgstr "La quantité de mémoire avec laquelle Minecraft démarre."
 #: src/application/pages/instance/InstanceSettingsPage.ui:160
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "La quantité de mémoire disponible pour stocker et charger les classes Java."
+msgstr "La quantité de mémoire disponible pour stocker les classes Java chargées."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
@@ -1186,7 +1186,7 @@ msgstr "La quantité de mémoire avec laquelle Minecraft démarre."
 #: src/application/pages/global/JavaPage.ui:116
 msgctxt "JavaPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "La quantité de mémoire disponible pour stocker et charger les classes Java."
+msgstr "La quantité de mémoire disponible pour stocker les classes Java chargées."
 
 #: src/application/pages/global/JavaPage.ui:141
 msgctxt "JavaPage|"
@@ -1355,7 +1355,7 @@ msgstr "Jouer en hors ligne"
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr "Réception d'un status indéterminée pendant la connexion."
+msgstr "Statut de session indéterminé reçu lors de la connexion."
 
 #: src/application/LaunchController.cpp:162
 msgctxt "LaunchController|"
@@ -1766,7 +1766,7 @@ msgstr "Rechercher"
 #: src/application/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr "Défiler complètement jusqu'en bas"
+msgstr "Défiler jusqu'à tout en bas"
 
 #: src/application/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
@@ -4573,7 +4573,7 @@ msgstr "L'opération d'authentification a échoué en raison d'une erreur de ré
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr "Erreur d'analyse de la réponse du serveur d'authentification. Réponse JSON : %1 au decalage %2."
+msgstr "Erreur d'analyse de la réponse du serveur d'authentification. Réponse JSON : %1 au décalage %2."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:193
 #, qt-format
