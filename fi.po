@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-25 20:37\n"
+"PO-Revision-Date: 2020-05-25 20:56\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -183,7 +183,7 @@ msgstr "Päivitetään aineistoluetteloa..."
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
-msgstr "Aineistoindeksi resurssille %1"
+msgstr "Aineistoindeksi kohteelle %1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:68
 msgctxt "AssetUpdateTask|"
@@ -805,7 +805,7 @@ msgstr "Instanssikansion kopiointi epäonnistui."
 #: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "Peliversiokansion kopiointi keskeytetty."
 
 #: src/api/logic/InstanceCreationTask.cpp:16
 #, qt-format
@@ -851,7 +851,7 @@ msgstr "Modipaketin purku epäonnistui"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
-msgstr "Ei voitu korjata oikeuksia elementille %1"
+msgstr "Ei voitu korjata oikeuksia kohteelle %1"
 
 #: src/api/logic/InstanceImportTask.cpp:172
 msgctxt "InstanceImportTask|"
@@ -861,7 +861,7 @@ msgstr "Peliversion tuonti peruttu."
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Ei pystytty käsittämään paketin luetteloa:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
@@ -1327,7 +1327,7 @@ msgstr ""
 #: src/application/LaunchController.cpp:61
 msgctxt "LaunchController|"
 msgid "Which profile would you like to use?"
-msgstr ""
+msgstr "Mitä profiilia haluat käyttää?"
 
 #: src/application/LaunchController.cpp:77
 msgctxt "LaunchController|"
@@ -1357,7 +1357,7 @@ msgstr "Pelaajan nimi"
 #: src/application/LaunchController.cpp:163
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
-msgstr ""
+msgstr "Valitse pelaajanimesi offline-tilassa."
 
 #: src/application/LaunchController.cpp:185
 msgctxt "LaunchController|"
@@ -1766,7 +1766,7 @@ msgstr "Minecraft-loki"
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr ""
+msgstr "MultiMC: Lokin lähetys aloitettu kohteessa: %1"
 
 #: src/application/pages/instance/LogPage.cpp:243
 #, qt-format
@@ -2868,7 +2868,7 @@ msgstr "Virhe"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
-msgstr "Elementtiä %1 ei saada avattua luettavaksi: %2"
+msgstr "Kohdetta %1 ei saada avattua luettavaksi: %2"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:146
 #, qt-format
@@ -2892,7 +2892,7 @@ msgstr "Haluatko todella poistaa %1?"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
-msgstr "Ei voitu poistaa elementtiä %1: %2"
+msgstr "Ei voitu poistaa kohdetta %1: %2"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:220
 msgctxt "OtherLogsPage|"
@@ -2984,7 +2984,7 @@ msgstr "Käynnistystä seuraava komento epäonnistui koodilla %1.\n\n"
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr "Käynnistystä seuraava komento ajettiin onnistuneesti.\n\n"
+msgstr "Käynnistystä seuraava komento ajettu onnistuneesti.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
@@ -3001,7 +3001,7 @@ msgstr "Käynnistystä edeltävä komento epäonnistui koodilla %1.\n\n"
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr "Käynnistystä edeltävä komento ajettiin onnistuneesti.\n\n"
+msgstr "Käynnistystä edeltävä komento ajettu onnistuneesti.\n\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
@@ -3021,7 +3021,7 @@ msgstr "Käytä oletuksena?"
 #: src/application/dialogs/ProfileSelectDialog.ui:45
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr ""
+msgstr "Käytä oletuksena vain tälle peliversiolle?"
 
 #: src/application/dialogs/ProfileSelectDialog.cpp:41
 #: src/application/dialogs/ProfileSelectDialog.cpp:45
@@ -3165,7 +3165,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
-msgstr "Aineistot resurssille %1"
+msgstr "Aineistot kohteelle %1"
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:51
 #, qt-format
@@ -3243,7 +3243,7 @@ msgstr "Polku on tyhjä"
 #: src/api/logic/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
-msgstr ""
+msgstr "Polku ei vaikuta MCEdit-polulta"
 
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
@@ -3793,7 +3793,10 @@ msgid "%1:\n"
 "%2 translated\n"
 "%3 fuzzy\n"
 "%4 total"
-msgstr ""
+msgstr "%1:\n"
+"%2 käännetty\n"
+"%3 epäselvää\n"
+"%4 yhteensä"
 
 #: src/api/logic/translations/TranslationsModel.cpp:372
 msgctxt "TranslationsModel|"
@@ -3824,7 +3827,7 @@ msgstr "Tehtävä keskeytetty."
 #, qt-format
 msgctxt "Update|"
 msgid "Instance update failed because: %1\n\n"
-msgstr ""
+msgstr "Peliversion päivitys epäonnistui syystä: %1\n\n"
 
 #: src/application/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
@@ -4118,7 +4121,7 @@ msgstr "Pikavalikko"
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
-msgstr "Elementillä %1 voi olla ongelmia."
+msgstr "Kohteella %1 voi olla ongelmia."
 
 #: src/application/pages/instance/VersionPage.cpp:168
 #, qt-format
@@ -4149,7 +4152,7 @@ msgstr "Virhe"
 #: src/application/pages/instance/VersionPage.cpp:251
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "Ei voitu ladata peliversion profiilia."
 
 #: src/application/pages/instance/VersionPage.cpp:269
 msgctxt "VersionPage|"
@@ -4519,12 +4522,12 @@ msgstr "Anna uusi maailman nimi."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation timed out."
-msgstr ""
+msgstr "Todennustoiminto aikakatkaistu."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:117
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation cancelled."
-msgstr ""
+msgstr "Todennustoiminto peruttu."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
@@ -4562,12 +4565,12 @@ msgstr "Lähetetään pyyntöä kirjautumispalvelimille..."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:226
 msgctxt "YggdrasilTask|"
 msgid "Processing response from servers..."
-msgstr ""
+msgstr "Käsitellään vastausta palvelimilta..."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:228
 msgctxt "YggdrasilTask|"
 msgid "Authentication task succeeded."
-msgstr "Todennustehtävä onnistui."
+msgstr "Todennustoiminto onnistui."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:230
 msgctxt "YggdrasilTask|"
