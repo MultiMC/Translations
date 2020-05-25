@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-25 21:36\n"
+"PO-Revision-Date: 2020-05-25 21:57\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -374,7 +374,7 @@ msgstr "Ei ryhmää"
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
 msgctxt "CreateServerResourcePacksFolder|"
 msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr ""
+msgstr "Ei voitu luoda 'server-resource-packs'-kansiota"
 
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -640,7 +640,7 @@ msgstr "Osa moditunnisteiden selvitystehtävistä epäonnistui."
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr ""
+msgstr "Kansion luonti Minecraft-binääreille epäonnistui."
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1347,7 +1347,7 @@ msgstr "Pelaa offline-tilassa"
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Vastaanotettiin määrittämätön istuntotila kirjauduttaessa sisään."
 
 #: src/application/LaunchController.cpp:162
 msgctxt "LaunchController|"
@@ -1678,7 +1678,7 @@ msgstr "Kirjastot peliversiolle %1"
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "Null jar-tiedosto on määritelty metadatassa, keskeytetään."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:58
 #, qt-format
@@ -1887,7 +1887,7 @@ msgstr "Kansiot"
 #: src/application/MainWindow.cpp:286
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
-msgstr ""
+msgstr "Avaa yksi peliversioiden jakamista kansioista."
 
 #: src/application/MainWindow.cpp:301
 msgctxt "MainWindow|"
@@ -2072,7 +2072,7 @@ msgstr "Hallitse kuvakaappauksia"
 #: src/application/MainWindow.cpp:510
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr ""
+msgstr "Katsele ja lähetä näyttökuvia tälle peliversiolle."
 
 #: src/application/MainWindow.cpp:516
 msgctxt "MainWindow|"
@@ -2212,7 +2212,8 @@ msgstr "Virhe"
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
-msgstr ""
+msgstr "Ei voitu luoda kansiota päivityslatauksille:\n"
+"%1"
 
 #: src/api/logic/meta/Index.cpp:71
 msgctxt "Meta::Index|"
@@ -2433,7 +2434,7 @@ msgstr "Valitse %1"
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:36
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't create the bin folder for Minecraft.jar"
-msgstr ""
+msgstr "Ei voitu luoda bin-kansiota Minecraft.jar'lle"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:42
 #, qt-format
@@ -2444,7 +2445,7 @@ msgstr "Ei voitu poistaa vanhentunutta jar-tiedostoa: %1"
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:57
 msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
-msgstr ""
+msgstr "Mukautetun Minecraft jar-tiedoston luonti epäonnistui."
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
@@ -2886,7 +2887,7 @@ msgstr "Tiedosto (%1) ei ole luettavissa."
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
-msgstr "Haluatko todella poistaa %1?"
+msgstr "Haluatko varmasti poistaa kohteen %1?"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:205
 #, qt-format
@@ -2902,14 +2903,15 @@ msgstr "Tyhjennä"
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr "Haluatko varmasti poistaa kaikki loki tiedostot?"
+msgstr "Haluatko varmasti poistaa kaikki lokitiedostot?"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:228
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr ""
+msgstr "Haluatko varmasti poistaa nämä tiedostot?\n"
+"%1"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:255
 msgctxt "OtherLogsPage|"
@@ -3123,7 +3125,7 @@ msgstr "Korjauspäivitystä ei ole vielä ladattu."
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "processArguments:lle on asetettu tuntematon arvo '%1'"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:178
 #, qt-format
@@ -3387,7 +3389,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr ""
+msgstr "<br />Varoitukset:<br /><font color=\"orange\">%1</font>"
 
 #: src/application/JavaCommon.cpp:34
 #: src/application/widgets/JavaSettingsWidget.cpp:318
@@ -3424,7 +3426,7 @@ msgstr ""
 #: src/application/widgets/JavaSettingsWidget.cpp:298
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
+msgstr "Määritelty Java-binääri palautti odottamattomia tuloksia:<br />"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -3434,7 +3436,7 @@ msgstr "Minecraft palvelin"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append ei ole tuettu kohteelle GZIP"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
@@ -3454,7 +3456,7 @@ msgstr "Tiedostoa ei voitu avata gzopen()-toiminnolla"
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append ei ole tuettu kohteelle QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
@@ -3470,7 +3472,7 @@ msgstr "ZIP/UNZIP API-virhe %1"
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "Kirjautumispalvelin ei lähettänyt asiakastodistusta."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
@@ -3480,12 +3482,12 @@ msgstr ""
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "Kirjautumispalvelin ei lähettänyt pääsytodistusta."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
-msgstr ""
+msgstr "Kirjautumispalvelin ei määritellyt samaa profiilia kuin odotettiin."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
@@ -3864,7 +3866,7 @@ msgstr "Sulje"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>Ladataan muutoslokia...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
@@ -4110,7 +4112,7 @@ msgstr "Avaa kirjastot"
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Open the instance's local libraries folder."
-msgstr ""
+msgstr "Avaa peliversion paikallinen kirjastokansio."
 
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
@@ -4575,7 +4577,7 @@ msgstr "Todennustoiminto onnistui."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:230
 msgctxt "YggdrasilTask|"
 msgid "Failed to contact the authentication server."
-msgstr ""
+msgstr "Yhteydenotto kirjautumispalvelimeen epäonnistui."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:232
 msgctxt "YggdrasilTask|"
