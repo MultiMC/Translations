@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-25 20:07\n"
+"PO-Revision-Date: 2020-05-25 20:37\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -616,7 +616,7 @@ msgstr "FML kirjasto kansion luominen epäonnistui."
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "Epäonnistuminen Forge/FML kirjaston kopioinnissa: %1."
+msgstr "Forge/FML-kirjaston kopiointi epäonnistui: %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
 #, qt-format
@@ -878,7 +878,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "Tuntematon modilataaja luettelossa: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
@@ -889,7 +889,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr ""
+msgstr "Ei voitu kartoittaa suositeltua Forgen versiota Minecraftille %1"
 
 #: src/api/logic/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
@@ -1374,12 +1374,12 @@ msgstr "Virhe!"
 #: src/application/LaunchController.cpp:196
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "Ei voitu ladata peliversion profiilia."
 
 #: src/application/LaunchController.cpp:203
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr ""
+msgstr "Ei voitu luoda käynnistimen ilmentymää."
 
 #: src/application/LaunchController.cpp:235
 #, qt-format
@@ -1610,7 +1610,7 @@ msgstr "Vanha"
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr ""
+msgstr "Peliversio aiemmista versioista."
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
@@ -1657,7 +1657,7 @@ msgstr "Peliversio kansion kopiointi epäonnistui."
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr ""
+msgstr "Ei voitu valita Minecraft-versiota."
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
@@ -2243,19 +2243,19 @@ msgstr "<PROFIILITUNNISTE>"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
-msgstr "%1m %2s"
+msgstr "%1 min %2 s"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:739
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
-msgstr "%1h %2m"
+msgstr "%1 t %2 min"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr "%1d %2h %3m"
+msgstr "%1 vrk %2 t %3 min"
 
 #: src/api/logic/minecraft/MinecraftInstance.cpp:749
 msgctxt "MinecraftInstance|"
@@ -2439,7 +2439,7 @@ msgstr ""
 #, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
-msgstr ""
+msgstr "Ei voitu poistaa vanhentunutta jar-tiedostoa: %1"
 
 #: src/api/logic/minecraft/launch/ModMinecraftJar.cpp:57
 msgctxt "ModMinecraftJar|"
@@ -2760,7 +2760,8 @@ msgstr "Ei ryhmää"
 msgctxt "NewsChecker|"
 msgid "Failed to load news RSS feed:\n"
 "%1"
-msgstr ""
+msgstr "RSS-uutissyötteen lataus epäonnistui:\n"
+"%1"
 
 #: src/api/logic/news/NewsEntry.cpp:24 src/api/logic/news/NewsEntry.cpp:60
 msgctxt "NewsEntry|"
@@ -2867,7 +2868,7 @@ msgstr "Virhe"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
-msgstr ""
+msgstr "Elementtiä %1 ei saada avattua luettavaksi: %2"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:146
 #, qt-format
@@ -2936,12 +2937,12 @@ msgstr "paste.ee API-avain"
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr ""
+msgstr "MultiMC-avain - 12 Mt yläraja lähetyksille"
 
 #: src/application/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr ""
+msgstr "Oma avaimesi - 12 Mt yläraja lähetyksille:"
 
 #: src/application/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
@@ -4011,7 +4012,7 @@ msgstr "Asenna Forge"
 #: src/application/pages/instance/VersionPage.ui:166
 msgctxt "VersionPage|"
 msgid "Install the Minecraft Forge package."
-msgstr "Asenna Minecraft Forge paketti."
+msgstr "Asenna Minecraft Forge -paketti."
 
 #: src/application/pages/instance/VersionPage.ui:171
 msgctxt "VersionPage|"
@@ -4021,7 +4022,7 @@ msgstr "Asenna Fabric"
 #: src/application/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
 msgid "Install the Fabric Loader package."
-msgstr "Asenna Fabric Loader -paketti."
+msgstr "Asenna Fabric-lataajapaketti."
 
 #: src/application/pages/instance/VersionPage.ui:179
 msgctxt "VersionPage|"
@@ -4173,7 +4174,7 @@ msgstr "Valitse jar"
 #: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
-msgstr ""
+msgstr "Minecraft.jar-korvike (*.jar)"
 
 #: src/application/pages/instance/VersionPage.cpp:357
 #, qt-format
@@ -4185,13 +4186,13 @@ msgstr "Vaihda %1 versio"
 #: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
-msgstr ""
+msgstr "Fabric-lataajan versioita ei ole saatavilla."
 
 #: src/application/pages/instance/VersionPage.cpp:361
 #: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr ""
+msgstr "Ei voitu ladata Fabric-lataajan versiolistoja!"
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
@@ -4202,22 +4203,22 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
 msgid "Select Forge version"
-msgstr "Valitse Forge versio"
+msgstr "Valitse Forgen versio"
 
 #: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
-msgstr ""
+msgstr "Forgen versioita ei ole saatavilla Minecraftille "
 
 #: src/application/pages/instance/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
-msgstr ""
+msgstr "Ei voitu ladata Forgen versiolistoja!"
 
 #: src/application/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
-msgstr "Valitse Fabric Loader -versio"
+msgstr "Valitse Fabric-lataajan versio"
 
 #: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
@@ -4556,7 +4557,7 @@ msgstr "Tapahtui tuntematon Yggdrasil-virhe."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:224
 msgctxt "YggdrasilTask|"
 msgid "Sending request to auth servers..."
-msgstr ""
+msgstr "Lähetetään pyyntöä kirjautumispalvelimille..."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:226
 msgctxt "YggdrasilTask|"
