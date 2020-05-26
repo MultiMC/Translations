@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-26 11:27\n"
+"PO-Revision-Date: 2020-05-26 11:54\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -322,17 +322,17 @@ msgstr "Osa komponenttien metadatan lataustehtävistä epäonnistui."
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr "Riippuvuustarkistuksessa tunnistettu ristiriitaisia vaatimuksia!"
+msgstr "Riippuvaisuustarkistuksessa tunnistettu ristiriitaisia vaatimuksia!"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr "Peliversiossa on ristiriitaisia riippuvuuksia."
+msgstr "Peliversiossa on ristiriitaisia riippuvaisuuksia."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
+msgstr "Peliversiossa ilmenee ratkaisemattomia riippuvaisuuksia käynnistyksen latauksessa/tarkistuksessa."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
@@ -625,7 +625,10 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr ""
+msgstr "Seuraavien tiedostojen lataus epäonnistui:\n"
+"%1\n\n"
+"Syy:%2\n"
+"Yritä uudelleen."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
@@ -2680,7 +2683,7 @@ msgstr "Peliversiokansio"
 #: src/application/pages/global/MultiMCPage.cpp:106
 msgctxt "MultiMCPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr "Yrität valita peliversionkansion jonka ploku sisältää '!'-merkin. Tämän tunnetaan aiheuttavan ongelmia Javan kanssa, eivätkä peliversiosi (todennäköisesti) käynnisty!"
+msgstr "Yrität määrittää peliversiokansion, jonka polku sisältää huutomerkin '!'. Tämän tiedetään aiheuttavan ongelmia Javan kanssa eivätkä peliversiosi (luultavasti) käynnisty!"
 
 #: src/application/pages/global/MultiMCPage.cpp:111
 msgctxt "MultiMCPage|"
@@ -3446,7 +3449,7 @@ msgstr "gzip-tiedoston avaamista sekä luettavaksi että kirjoitettavaksi ei tue
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "Voit avata gzip-arkiston joko luettavaksi tai kirjoitettavaksi. Mitä haluat tehdä?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
