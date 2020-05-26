@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-26 12:15\n"
+"PO-Revision-Date: 2020-05-26 12:29\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -1700,7 +1700,9 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr ""
+msgstr "Pelin päivitys epäonnistui: vaadittujen kirjastojen nouto oli mahdotonta.\n"
+"Syy:\n"
+"%1"
 
 #: src/application/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
@@ -2880,7 +2882,7 @@ msgstr "Kohdetta %1 ei saada avattua luettavaksi: %2"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
-msgstr ""
+msgstr "Tiedosto (%1) on liian suuri. Saatat haluta avata sen suurille tiedostoille tarkoitetulla katseluohjelmalla."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:161
 #, qt-format
@@ -3141,7 +3143,7 @@ msgstr ""
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr ""
+msgstr "Versiotiedostossa on sekä '+libraries' että 'libraries'. Tätä ei enää tueta."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
 msgctxt "QObject|"
@@ -3328,7 +3330,8 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "Ei voitu poistaa tiedostoa %1. Muutokset perutaan.\n"
+"Katso lisätietoja MultiMC-lokitiedostosta."
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
@@ -3369,7 +3372,7 @@ msgstr "Lähetys suoritettu"
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">Linkki lähetettyyn lokiin</a> on kopioitu leikepöydällesi."
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -3388,7 +3391,7 @@ msgstr "JVM-argumenttien varoitus"
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr ""
+msgstr "Java-testi läpäisty!<br />Ilmoitettu alusta: %1<br />Ilmoitettu Java-versio: %2<br />"
 
 #: src/application/JavaCommon.cpp:32
 #, qt-format
@@ -3482,7 +3485,7 @@ msgstr "Kirjautumispalvelin ei lähettänyt asiakastodistusta."
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "Kirjautumispalvelin yritti muuttaa asiakastodistusta. Tätä ei tueta."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
@@ -3572,7 +3575,7 @@ msgstr ""
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">Linkki lähetettyyn albumiin</a> on kopioitu leikepöydällesi."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
@@ -4552,13 +4555,13 @@ msgstr "Todennustoiminto epäonnistui johtuen verkkovirheestä: %1 (%2)"
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "Kirjautumispalvelimen JSON-vastauksen jäsennys epäonnistui: %1 siirtymällä %2."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:193
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "Tapahtui tuntematon virhe yritettäessä viestiä kirjautumispalvelimelle: %1"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:213
 msgctxt "YggdrasilTask|"
