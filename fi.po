@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-26 12:29\n"
+"PO-Revision-Date: 2020-05-26 12:41\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -255,7 +255,7 @@ msgstr "Profiloija keskeytetty"
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr ""
+msgstr "Java-asennusta \"%1\" ei löytynyt. Korjaa Javan ohituspolku peliversion asetuksista tai deaktivoi se."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
@@ -876,7 +876,7 @@ msgstr "Ei voitu nimetä uudelleen ohituskansiota:\n"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr ""
+msgstr "Määritelty ohituskansio (%1) puuttuu. Ehkä modipakettia käytettiin jo aiemmin?"
 
 #: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
@@ -1156,7 +1156,7 @@ msgstr "Profiloija keskeytetty"
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr "Haetaan Java-asennuksia..."
+msgstr "Tunnistetaan Java-asennuksia..."
 
 #: src/application/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
@@ -2074,7 +2074,7 @@ msgstr "Katsele peliversion maailmoja."
 #: src/application/MainWindow.cpp:509
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
-msgstr "Hallitse kuvakaappauksia"
+msgstr "Hallitse näyttökuvia"
 
 #: src/application/MainWindow.cpp:510
 msgctxt "MainWindow|"
@@ -3323,7 +3323,8 @@ msgstr "Palautus epäonnistui!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "Ei voitu korvata tiedostoa %1. Muutokset perutaan.\n"
+"Katso lisätietoja MultiMC-lokitiedostosta."
 
 #: src/application/UpdateController.cpp:376
 #, qt-format
@@ -3429,12 +3430,12 @@ msgstr "Määritelty tiedosto ei joko ole olemassa tai kelpaa ajettavaksi."
 #: src/application/widgets/JavaSettingsWidget.cpp:286
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr "Määritelty Java-binääri ei käynnistynyt kelvollisesti.<br />"
+msgstr "Määritelty Java-asennus ei käynnistynyt kelvollisesti.<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:298
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Määritelty Java-binääri palautti odottamattomia tuloksia:<br />"
+msgstr "Määritelty Java-asennus palautti odottamattomia tuloksia:<br />"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -3540,7 +3541,7 @@ msgstr "Näytä kansio"
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
 msgid "Screenshots"
-msgstr "Kuvakaappaukset"
+msgstr "Näyttökuvat"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:273
 msgctxt "ScreenshotsPage|"
@@ -3551,7 +3552,7 @@ msgstr "Pikavalikko"
 #: src/application/pages/instance/ScreenshotsPage.cpp:356
 msgctxt "ScreenshotsPage|"
 msgid "Failed to upload screenshots!"
-msgstr "Kuvakaappausten lähetys epäonnistui!"
+msgstr "Näyttökuvien lähetys epäonnistui!"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:319
 #: src/application/pages/instance/ScreenshotsPage.cpp:357
@@ -3569,7 +3570,7 @@ msgstr "Lähetys suoritettu"
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">Linkki lähetettyyn näyttökuvaan</a> on kopioitu leikepöydällesi."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
@@ -3585,7 +3586,7 @@ msgstr "Oletko varma?"
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
-msgstr "Tämä poistaa kaikki valitut kuvakaappaukset."
+msgstr "Tämä poistaa kaikki valitut näyttökuvat."
 
 #: src/application/widgets/ServerStatus.cpp:66
 msgctxt "ServerStatus|"
@@ -4479,7 +4480,8 @@ msgstr "MCEditiä ei löytynyt tai sitä ei ole asennettu!"
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
-msgstr ""
+msgstr "MCEditiä ei ole asennettu tai se on siirretty.\n"
+"Voit asentaa sen yleisasetuksissa."
 
 #: src/application/pages/instance/WorldListPage.cpp:217
 msgctxt "WorldListPage|"
