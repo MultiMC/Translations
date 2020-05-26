@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-26 17:33\n"
+"PO-Revision-Date: 2020-05-26 18:04\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -1239,7 +1239,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "MultiMC will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Et valinnut Java-versiota tai valitsit jotain mikä ei toimi.\n"
+"MultiMC ei voi käynnistää Minecraftia.\n"
+"Haluatko jatkaa ilman mitään Javaa?\n\n"
+"Voit myöhemmin vaihtaa Java-version asetuksista.\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
@@ -1327,7 +1330,7 @@ msgstr "Ei tilejä"
 #: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in to MultiMC.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "Jotta voit pelata Minecraftia, sinulla pitää olla vähintään yksi Mojang- tai Minecraft-tili kirjautuneena MultiMC'hen. Haluatko avata tilihallinnan ja lisätä tilin nyt?"
 
 #: src/application/LaunchController.cpp:61
 msgctxt "LaunchController|"
@@ -1397,7 +1400,8 @@ msgstr "Ei voitu käynnistää profiloijaa: %1"
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
-msgstr ""
+msgstr "Pelin käynnistys viivästyy kunnes painat nappia. Nyt on oikea aika säätää profiloija, kun profiloijapalvelin on käynnissä.\n\n"
+"%1"
 
 #: src/application/LaunchController.cpp:247
 msgctxt "LaunchController|"
@@ -1440,7 +1444,8 @@ msgstr "Tämä voi korruptoida peliversion ja sitä tulisi käyttää vain jos M
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr ""
+msgstr "MultiMC keskeytti pelilokin tarkkailun, koska lokin pituus ylitti %1 riviä.\n"
+"Sinun tarvitsee korjata modisi koska peli kirjaa lokitiedostoa edelleen ja luultavasti haaskaa levytilaasi hälyttävään tahtiin!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
@@ -1693,7 +1698,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "Osalta paikallisiksi merkityistä 'local'-kohteista puuttuu tiedostoja:\n"
+"%1\n\n"
+"Sinun tulee joko lisätä tiedostot tai poistaa paketit jotka tarvitsevat niitä.\n"
+"Tämä on korjattava manuaalisesti."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -1990,7 +1998,7 @@ msgstr "Se on pörröinen kisu :3"
 #: src/application/MainWindow.cpp:389
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
-msgstr "Hallitse tilejä"
+msgstr "Tilien hallinta"
 
 #: src/application/MainWindow.cpp:415
 msgctxt "MainWindow|"
@@ -2075,7 +2083,7 @@ msgstr "Katsele peliversion maailmoja."
 #: src/application/MainWindow.cpp:509
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
-msgstr "Hallitse näyttökuvia"
+msgstr "Näyttökuvien hallinta"
 
 #: src/application/MainWindow.cpp:510
 msgctxt "MainWindow|"
@@ -2962,7 +2970,7 @@ msgstr "Liitä API-avaimesi tähän!"
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>MultiMC käyttää <a href=\"https://paste.ee\">paste.ee</a>-sivustoa lokilähetyksiin. Jos sinulla on <a href=\"https://paste.ee\">paste.ee</a>-tili, voit lisätä API-avaimesi tähän ja saat yhdistettyä lähettämäsi lokit tiliisi.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3364,7 +3372,7 @@ msgstr "Lähetys epäonnistui"
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Lokitiedosto on liian suuri. Sinun tarvitsee lähettää se manuaalisesti."
+msgstr "Lokitiedosto on liian suuri. Se on lähetettävä manuaalisesti."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
@@ -3382,7 +3390,9 @@ msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr ""
+msgstr "Yritit asettaa manuaalisesti JVM-muistiasetuksen (käyttäen \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"Näille on omistettu asetuksissa omat kenttänsä (Java-välilehti, Muisti-osion alussa).\n"
+"Tämä viesti näytetään kunnes poistat nämä JVM-argumenteista."
 
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
@@ -4214,7 +4224,8 @@ msgstr "Ei voitu ladata Fabric-lataajan versiolistoja!"
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr ""
+msgstr "MultiMC ei voi ladata Minecraftia tai päivittää peliversioita, ellet ole lisännyt vähintään yhtä pelitiliä.\n"
+"Lisääthän Mojang- tai Minecraft-tilisi."
 
 #: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
@@ -4549,7 +4560,7 @@ msgstr "Todennustoiminto peruttu."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL-kättely epäonnistui.</b><br/>Tälle voi olla muutamia syitä:<br/><ul><li>Käytät Windows XP'tä ja sinun pitää <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">päivittää root-sertifikaattisi</a></li><li>Jokin laite verkossasi sotkee SSL-liikennettä. Tässä tapauksessa sinulla on suurempia huolia kuin Minecraftin käynnistysongelmat.</li><li>Mahdollisesti jotain muuta. Tarkista lisätiedot MultiMC'n lokitiedostosta</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
