@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-26 13:01\n"
+"PO-Revision-Date: 2020-05-26 17:33\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -297,12 +297,12 @@ msgstr "Java versio on %1, käytetään %2-bittistä arkkitehtuuria.\n\n"
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
 msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr ""
+msgstr "Prosessoriarkkitehtuurisi ei vastaa järjestelmäarkkitehtuuriasi. Saatat haluta asentaa 64-bittisen käyttöjärjestelmän.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
 msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr ""
+msgstr "Java-arkkitehtuurisi ei vastaa järjestelmäarkkitehtuuriasi. Saatat haluta asentaa Javan 64-bittisen version.\n\n"
 
 #: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
@@ -1433,7 +1433,7 @@ msgstr "Kaada Minecraft?"
 #: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr ""
+msgstr "Tämä voi korruptoida peliversion ja sitä tulisi käyttää vain jos Minecraft jostain syystä jäätyy"
 
 #: src/api/logic/launch/LaunchTask.cpp:215
 #, qt-format
@@ -3139,7 +3139,7 @@ msgstr "processArguments:lle on asetettu tuntematon arvo '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr ""
+msgstr "Tämän version 'minimumLauncherVersion'-arvo (%1) on korkeampi kuin mitä MultiMC tukee (%2). Se ei välttämättä toimi!"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -3339,7 +3339,8 @@ msgstr "Ei voitu poistaa tiedostoa %1. Muutokset perutaan.\n"
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
-msgstr ""
+msgstr "Uusi versio ei käynnistynyt tai on liian vanha eikä vastaa käynnistystarkistuksiin.\n\n"
+"Palautetaanko edellinen versio?"
 
 #: src/application/UpdateController.cpp:406
 msgctxt "QObject|"
@@ -3828,7 +3829,7 @@ msgstr "Kielen oma nimi."
 #: src/api/logic/translations/TranslationsModel.cpp:390
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
-msgstr ""
+msgstr "Valmius on kokonaan käännettyjen merkkijonojen prosenttiosuus, poislukien automaattisesti veikatut."
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -3882,7 +3883,7 @@ msgstr "<center><h1>Ladataan muutoslokia...</h1></center>"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
-msgstr ""
+msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">Muutoslokin nouto epäonnistui... Virhe: %1</span></p>"
 
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:55
 msgctxt "ValidateTask|"
@@ -4470,7 +4471,8 @@ msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
 "Do you want to continue?"
-msgstr ""
+msgstr "Tämä poistaa valitun maailman pysyvästi. Pelimaailma poistuu lopullisesti (PITKÄ AIKA).\n\n"
+"Haluatko jatkaa?"
 
 #: src/application/pages/instance/WorldListPage.cpp:207
 msgctxt "WorldListPage|"
