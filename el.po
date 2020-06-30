@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2020-06-30 23:24\n"
+"PO-Revision-Date: 2020-06-30 23:39\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -202,19 +202,19 @@ msgstr "Λήψη αρχείων απο την Mojang..."
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr "Αποτυχία λήψης του δείκτη αρχείων:%1"
+msgstr "Αποτυχία ανάγνωσης του δείκτη αρχείων!"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr "Αποτυχία λήψης αρχείων:%1"
+msgstr "Αποτυχία λήψης φωτογραφίας: %@"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
-msgstr "Ο διακομιστής ελέγχου ταυτότητας δεν έστειλε διακριτικό πελάτη."
+msgstr "Ο διακομιστής ελέγχου ταυτότητας δεν έστειλε διακριτικό πρόσβασης."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
@@ -255,7 +255,7 @@ msgstr "Δημιουργός προφίλ διεκόπη"
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr ""
+msgstr "Το δυαδικό Java \"%1\" δεν βρέθηκε. Παρακαλώ διορθώστε την παράκαμψη διαδρομής Java στις ρυθμίσεις ή απενεργοποιήστε το."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
@@ -322,12 +322,12 @@ msgstr "Κάποιες εργασίες φορτώσεων των μεταστο
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr ""
+msgstr "Βρέθηκαν αντικρουόμενες απαιτήσεις κατά τον έλεγχο εξάρτησης!"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr ""
+msgstr "Το αντικείμενο έχει συγκρουόμενες εξαρτήσεις."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
