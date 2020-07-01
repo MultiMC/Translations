@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2020-06-30 23:55\n"
+"PO-Revision-Date: 2020-07-01 00:24\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -190,7 +190,7 @@ msgstr "Δείκτης αρχείων για %1"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:68
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
-msgstr "Αποτυχία ανάγνωσης δείκτη αρχείων!"
+msgstr "Αποτυχία λήψης δείκτη αρχείων: %1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
@@ -202,7 +202,8 @@ msgstr "Λήψη αρχείων απο την Mojang..."
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr "Αποτυχία ανάγνωσης του δείκτη αρχείων!"
+msgstr "Αποτυχία λήψης αρχείων:\n"
+"%1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
@@ -317,7 +318,7 @@ msgstr "Έκδοση"
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
-msgstr "Κάποιες εργασίες φορτώσεων των μεταστοιχείων εξαρτημάτων απέτυχαν."
+msgstr "Κάποιες εργασίες φορτώσεων των μεταστοιχείων εξαρτημάτως απέτυχαν."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
@@ -344,7 +345,7 @@ msgstr "Εργασία ενημέρωσης μεταστοιχείων εξαρ�
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr "Αντιγραφή Instance"
+msgstr "Αντιγραφή αντικειμένου"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
@@ -354,12 +355,12 @@ msgstr "Όνομα"
 #: src/application/dialogs/CopyInstanceDialog.ui:90
 msgctxt "CopyInstanceDialog|"
 msgid "&Group"
-msgstr "&Γκρούπ"
+msgstr "&Ομάδα"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
-msgstr "Αντιγραφή Save"
+msgstr "Αντιγραφή κόσμων"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:122
 msgctxt "CopyInstanceDialog|"
@@ -369,7 +370,7 @@ msgstr "Κρατήστε τον χρόνο παιχνιδιού"
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
-msgstr "Κανένα γκρούπ"
+msgstr "Καμία ομάδα"
 
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
 msgctxt "CreateServerResourcePacksFolder|"
@@ -379,60 +380,60 @@ msgstr "Αποτυχία δημιουργίας του φακέλου 'server-re
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
-msgstr ""
+msgstr "Προσαρμοσμένες εντολές"
 
 #: src/application/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr ""
+msgstr "Εντολή μετά την έξοδο:"
 
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
-msgstr ""
+msgstr "Εντολή πριν την εκκίνηση:"
 
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr ""
+msgstr "Εντολή Wrapper:"
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Η εντολή πριν την εκκίνηση τρέχει προτού γίνει η εκκίνηση του αντικειμένου και η εντολή μετά την έξοδο τρέχει αφου γίνει η έξοδος.</p><p>Οι 2 εντολές θα τρέξουν στον τρεχών φάκελο του MultiMC με κάποιες επιπλέον μεταβλητές περιβάλλοντος:</p><ul><li>$INST_NAME - Όνομα του αντικειμένου</li><li>$INST_ID - Ταυτότητα του αντικειμένου (το όνομα του φακέλου του)</li><li>$INST_DIR - Απόλυτη διαδρομή του αντικειμένου</li><li>$INST_MC_DIR - Απόλυτη διαδρομή του Minecraft</li><li>$INST_JAVA - Δυαδικό Java που χρησιμοποιείται για την εκκίνηση</li><li>$INST_JAVA_ARGS - Παράμετροι γραμμής εντολών που χρησιμοποιούνται για την εκκίνηση</li></ul><p>Εντολή Wrapper που επιτρέπει την εκκίνηση χρησιμοποιόντας ενα επιπλέον προγραμμα Wrapper (π. χ. το 'opti-run' στο Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr ""
+msgstr "Προσαρμοσμένες εντολές"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Η εντολή Wrapper \"%1\" δεν βρέθηκε."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Απέτυχε η εκκίνηση του MInecraft!"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:121
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "Ταυτότητα διεργασίας Minecraft: %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Login"
-msgstr ""
+msgstr "Είσοδος"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email"
-msgstr ""
+msgstr "Ηλεκτρονικό ταχυδρομείο"
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
@@ -442,13 +443,13 @@ msgstr "Κωδικός πρόσβασης"
 #: src/application/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr ""
+msgstr "Εξαγωγή αντικειμένου"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr ""
+msgstr "Εξαγωγή %1"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
@@ -458,7 +459,7 @@ msgstr "Αντικατάσταση;"
 #: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "Το αρχείο υπάρχει ήδη. Θέλετε να το αντικατασταστήσετε;"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
@@ -468,34 +469,34 @@ msgstr "Λάθος"
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr ""
+msgstr "Αποτυχία εξαγωγής αντικειμένου"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
 #: src/application/pages/global/ExternalToolsPage.ui:133
 msgctxt "ExternalToolsPage|"
 msgid "Check"
-msgstr ""
+msgstr "Έλεγχος"
 
 #: src/application/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr ""
+msgstr "Εξωτερικοί συντάκτες (αφήστε κενό για προεπιλογή συστήματος)"
 
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr ""
+msgstr "Επεξεργαστής κειμένου:"
 
 #: src/application/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
 msgid "External Tools"
-msgstr ""
+msgstr "Εξωτερικά Εργαλεία"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr ""
+msgstr "Φάκελος JProfiler"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -505,7 +506,7 @@ msgstr ""
 #: src/application/pages/global/ExternalToolsPage.cpp:191
 msgctxt "ExternalToolsPage|"
 msgid "Error"
-msgstr ""
+msgstr "Σφάλμα"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -513,24 +514,25 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr ""
+msgstr "Σφάλμα κατά τον έλεγχο της εγκατάστασης του JProfiler\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr ""
+msgstr "Η εγκατάσταση του JProfiler φαίνεται να είναι εντάξει"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "Εκτελέσιμο JVisualVM"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -538,7 +540,8 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr ""
+msgstr "Σφάλμα κατά τον έλεγχο της εγκατάστασης του JVisualVM\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
