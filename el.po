@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2020-07-01 01:45\n"
+"PO-Revision-Date: 2020-07-01 13:03\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -202,7 +202,7 @@ msgstr "Λήψη αρχείων απο την Mojang..."
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr "Αποτυχία λήψης αρχείων:\n"
+msgstr "Αποτυχία λήψης του δείκτη αρχείων:\n"
 "%1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
@@ -210,7 +210,8 @@ msgstr "Αποτυχία λήψης αρχείων:\n"
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr "Αποτυχία λήψης του δείκτη αρχείων: %1"
+msgstr "Αποτυχία λήψης αρχείων:\n"
+"%1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
@@ -240,12 +241,12 @@ msgstr "Ο διακομιστής πιστοποίησης καθόρισε έν
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Sending request..."
-msgstr "Έλεγχος ταυτότητας: Αποστολή αίτησης..."
+msgstr "Πιστοποίηση: Αποστολή αίτησης..."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:198
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
-msgstr "Έλεγχος ταυτότητας: Επεξεργασία απόκρισης..."
+msgstr "Πιστοποίηση: Επεξεργασία απόκρισης..."
 
 #: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -287,7 +288,7 @@ msgstr "Αποτυχία εκκίνησης Java!"
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr "Ο ελεγκτής Java επέστρεψε μερικά μη έγκυρα στοιχεία που το MultiMC δεν κατανόησε:"
+msgstr "Ο ελεγκτής Java επέστρεψε μερικά μη έγκυρα στοιχεία που το MultiMC δεν κατανοεί:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
@@ -417,7 +418,7 @@ msgstr "Η εντολή Wrapper \"%1\" δεν βρέθηκε."
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr "Απέτυχε η εκκίνηση του Minecraft!"
+msgstr "Αποτυχία εκκίνησης Minecraft!"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:121
 #, qt-format
@@ -556,7 +557,7 @@ msgstr "Εφαρμογή MCEdit"
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "MCEdit Ντοσιέ"
+msgstr "Φάκελος MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -564,7 +565,7 @@ msgstr "MCEdit Ντοσιέ"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking MCEdit install:\n"
 "%1"
-msgstr "Σφάλμα κατά τον έλεγχο της εγκατάστασης του MCEdit\n"
+msgstr "Σφάλμα κατά τον έλεγχο της εγκατάστασης του MCEdit:\n"
 "%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:195
@@ -601,23 +602,23 @@ msgstr "Έλεγχος για βιβλιοθήκες FML..."
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr "Λήψη των FML βιβλιοθηκών..."
+msgstr "Λήψη των βιβλιοθηκών FML..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "Αντιγραφή των FML βιβλιοθηκών στο αντικείμενο..."
+msgstr "Αντιγραφή των βιβλιοθηκών FML στο αντικείμενο..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "Αποτυχία δημιουργίας FML βιβλιοθήκης φακέλου στο αντικείμενο."
+msgstr "Αποτυχία δημιουργίας φακέλου βιβλιοθήκης FML στο αντικείμενο."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "Αποτυχία αντιγραφής Forge/FML βιβλιοθήκης: %1."
+msgstr "Αποτυχία αντιγραφής βιβλιοθήκης Forge/FML: %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
 #, qt-format
@@ -634,7 +635,7 @@ msgstr "Αποτυχία λήψης των παρακάτω αρχείων:\n"
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr "Επίλυση ταυτοτήτων τροποποίησης..."
+msgstr "Επίλυση ταυτοτήτων mod..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
@@ -778,7 +779,7 @@ msgstr ""
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Choose modpack"
-msgstr ""
+msgstr "Επιλέξτε modpack"
 
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
@@ -822,7 +823,8 @@ msgstr ""
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
 "%1"
-msgstr ""
+msgstr "Λήψη modpack:\n"
+"%1"
 
 #: src/api/logic/InstanceImportTask.cpp:41
 msgctxt "InstanceImportTask|"
@@ -832,7 +834,7 @@ msgstr ""
 #: src/api/logic/InstanceImportTask.cpp:71
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Εξαγωγή modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:79
 msgctxt "InstanceImportTask|"
@@ -848,7 +850,7 @@ msgstr ""
 #: src/api/logic/InstanceImportTask.cpp:120
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr ""
+msgstr "Αποτυχία εξαγωγής modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:147
 #, qt-format
@@ -1471,7 +1473,7 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "Κοινό Modpack"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
 msgctxt "LegacyFTB::ListModel|"
@@ -1481,7 +1483,7 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "Ιδιωτικό Modpack"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
@@ -1514,18 +1516,18 @@ msgstr ""
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Εξαγωγή modpack"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "Αποτυχία ανοίγματος αρχείου modpack %1!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Εγκατάσταση modpack"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
@@ -2340,17 +2342,17 @@ msgstr ""
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Είναι το mod ενεργό;"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
-msgstr ""
+msgstr "Το όνομα του mod."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:481
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
-msgstr ""
+msgstr "Η έκδοση του mod."
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
@@ -2375,7 +2377,7 @@ msgstr ""
 #: src/application/pages/instance/ModFolderPage.ui:99
 msgctxt "ModFolderPage|"
 msgid "Add mods"
-msgstr ""
+msgstr "Προσθήκη mods"
 
 #: src/application/pages/instance/ModFolderPage.ui:104
 msgctxt "ModFolderPage|"
@@ -2385,7 +2387,7 @@ msgstr ""
 #: src/application/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "Remove selected mods"
-msgstr ""
+msgstr "Αφαίρεση επιλεγμένων mods"
 
 #: src/application/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
@@ -2395,7 +2397,7 @@ msgstr ""
 #: src/application/pages/instance/ModFolderPage.ui:115
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr ""
+msgstr "Ενεργοποίηση επιλεγμένων mods"
 
 #: src/application/pages/instance/ModFolderPage.ui:120
 msgctxt "ModFolderPage|"
@@ -2405,7 +2407,7 @@ msgstr ""
 #: src/application/pages/instance/ModFolderPage.ui:123
 msgctxt "ModFolderPage|"
 msgid "Disable selected mods"
-msgstr ""
+msgstr "Απενεργοποίηση επιλεγμένων mods"
 
 #: src/application/pages/instance/ModFolderPage.ui:128
 msgctxt "ModFolderPage|"
@@ -2687,7 +2689,7 @@ msgstr ""
 #: src/application/pages/global/MultiMCPage.cpp:140
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "Φάκελος Mods"
 
 #: src/application/pages/global/MultiMCPage.cpp:429
 msgctxt "MultiMCPage|"
@@ -3714,17 +3716,17 @@ msgstr ""
 #: src/application/dialogs/SkinUploadDialog.ui:51
 msgctxt "SkinUploadDialog|"
 msgid "Player Model"
-msgstr ""
+msgstr "Μοντέλο Παίκτη"
 
 #: src/application/dialogs/SkinUploadDialog.ui:57
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
-msgstr ""
+msgstr "Μοντέλο Steve"
 
 #: src/application/dialogs/SkinUploadDialog.ui:67
 msgctxt "SkinUploadDialog|"
 msgid "Alex Model"
-msgstr ""
+msgstr "Μοντέλο Alex"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
 msgctxt "SkinUploadDialog|"
@@ -4024,12 +4026,12 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.ui:187
 msgctxt "VersionPage|"
 msgid "Install mods"
-msgstr ""
+msgstr "Εγκατάσταση mods"
 
 #: src/application/pages/instance/VersionPage.ui:190
 msgctxt "VersionPage|"
 msgid "Install normal mods."
-msgstr ""
+msgstr "Εγκατάσταση κανονικών mods."
 
 #: src/application/pages/instance/VersionPage.ui:195
 msgctxt "VersionPage|"
