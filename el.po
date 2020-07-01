@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2020-07-01 00:55\n"
+"PO-Revision-Date: 2020-07-01 01:05\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -215,27 +215,27 @@ msgstr "Αποτυχία λήψης του δείκτη αρχείων: %1"
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
-msgstr "Ο διακομιστής ελέγχου ταυτότητας δεν έστειλε διακριτικό πελάτη."
+msgstr "Ο διακομιστής πιστοποίησης δεν έστειλε διακριτικό πελάτη."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr "Ο διακομιστής ελέγχου ταυτότητας προσπάθησε να αλλάξει το διακριτικό πελάτη. Αυτό δεν υποστηρίζεται."
+msgstr "Ο διακομιστής πιστοποίησης προσπάθησε να αλλάξει το διακριτικό πελάτη. Αυτό δεν υποστηρίζεται."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send an access token."
-msgstr "Ο διακομιστής ελέγχου ταυτότητας δεν έστειλε διακριτικό πρόσβασης."
+msgstr "Ο διακομιστής πιστοποίησης δεν έστειλε διακριτικό πρόσβασης."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:154
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't specify a currently selected profile. The account exists, but likely isn't premium."
-msgstr "Ο διακομιστής ελέγχου ταυτότητας δεν καθόρισε ένα επιλεγμένο προφίλ. Ο λογαριασμός υπάρχει, αλλά πιθανόν δεν είναι premium."
+msgstr "Ο διακομιστής πιστοποίησης δεν καθόρισε ένα επιλεγμένο προφίλ. Ο λογαριασμός υπάρχει, αλλά πιθανόν δεν είναι premium."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:159
 msgctxt "AuthenticateTask|"
 msgid "Authentication server specified a selected profile that wasn't in the available profiles list."
-msgstr "Ο διακομιστής ελέγχου ταυτότητας καθόρισε ένα επιλεγμένο προφίλ που δεν ήταν στην λίστα των διαθέσιμων προφίλ."
+msgstr "Ο διακομιστής πιστοποίησης καθόρισε ένα επιλεγμένο προφίλ που δεν ήταν στην λίστα των διαθέσιμων προφίλ."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
@@ -3082,7 +3082,7 @@ msgstr ""
 #: src/application/pages/global/ProxyPage.ui:139
 msgctxt "ProxyPage|"
 msgid "Authentication"
-msgstr ""
+msgstr "Πιστοποίηση"
 
 #: src/application/pages/global/ProxyPage.ui:148
 msgctxt "ProxyPage|"
@@ -3458,17 +3458,17 @@ msgstr ""
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "Ο διακομιστής πιστοποίησης δεν έστειλε διακριτικό πελάτη."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "Ο διακομιστής πιστοποίησης προσπάθησε να αλλάξει το διακριτικό πελάτη. Αυτό δεν υποστηρίζεται."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "Ο διακομιστής πιστοποίησης δεν έστειλε διακριτικό πρόσβασης."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
@@ -4467,44 +4467,46 @@ msgstr "Αποτυχία έναρξης MCEdit!"
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
-msgstr ""
+msgstr "Αποτυχία έναρξης MCEdit.\n"
+"Μπορεί να είναι απαραίτητη η επανεγκατάσταση."
 
 #: src/application/pages/instance/WorldListPage.cpp:264
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
-msgstr ""
+msgstr "Επιλέξτε ένα zip Minecraft κόσμου"
 
 #: src/application/pages/instance/WorldListPage.cpp:265
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr ""
+msgstr "Αρχείο Zip Minecraft κόσμου (*.zip)"
 
 #: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
 msgid "Copy World"
-msgstr ""
+msgstr "Αντιγραφή Κόσμου"
 
 #: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
-msgstr ""
+msgstr "Η αλλαγή κόσμου όσο τρέχει το Minecraft είναι ενδεχομένως μή ασφαλής.\n"
+"Θέλετε να συνεχίσετε;"
 
 #: src/application/pages/instance/WorldListPage.cpp:310
 #: src/application/pages/instance/WorldListPage.cpp:333
 msgctxt "WorldListPage|"
 msgid "World name"
-msgstr ""
+msgstr "Όνομα κόσμου"
 
 #: src/application/pages/instance/WorldListPage.cpp:310
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
-msgstr ""
+msgstr "Εισάγετε ένα νέο όνομα για την αντιγραφή."
 
 #: src/application/pages/instance/WorldListPage.cpp:333
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
-msgstr ""
+msgstr "Εισάγετε ένα νεό όνομα κόσμου."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
