@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Slovak\n"
 "Language: sk_SK\n"
-"PO-Revision-Date: 2020-07-02 12:32\n"
+"PO-Revision-Date: 2020-07-02 12:52\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -105,7 +105,10 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr ""
+msgstr "<p>Udržiavame MultiMC open source, pretože si myslíme, že je dôležité vidieť zdrojový kód projektu ako je tento, a robíme to používaním licencie Apache.</p>\n"
+"<p>Časť dôvodu pre používanie licencie Apache je, že nechceme aby ľudia používali názov &quot;MultiMC&quot; pri redistribúcii projektu. Toto znamená, že ľudia musia prejsť celý kód a vymazať všetky zmienky o &quot;MultiMC&quot;, vrátane ikonky projektu a názvu okien (nie <b>MultiMC-vetva</b> v nadpise).\n"
+"</p>\n"
+"<p>Licencia Apache zahŕňa zmysluplné používanie názvu - ako zmienku pôvodu projektu v sekcii O projekte - a licencia je prijateľná. Platí však, že by malo byť hojne známe, že projekt je vetvou <b>bez</b> zahrnutia, že máte naše požehnanie.</p>"
 
 #: src/application/pages/global/AccountListPage.ui:47
 msgctxt "AccountListPage|"
@@ -167,7 +170,8 @@ msgstr "Zaznamenávame niektoré anonymné štatistiky o používateľoch."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>MultiMC odosiela anonymné štatistické správy o používaní pri každom spustení aplikácie. Toto nám pomáha rozhodnúť sa, na ktoré platformy a problémy sa máme zamerať.</p><p>Údaje sú spracovávané pomocou Google Analytics, pozrite si ich článok <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">na túto tému</a>.</p><p>Sú získavané nasledujúce údaje:\n"
+"</p><ul><li>Náhodné unikátne ID inštalácie MultiMC.<br />Je ukladané v nastaveniach aplikácie (multimc.cfg).</li><li>Anonymizovaná (čiastočná) IP adresa.</li><li>Verzia MultiMC.</li><li>Názov operačného systému, verzia a architektúra.</li><li>Architektúra CPU (kernelová architektúra na linuxe).</li><li>Veľkosť systémovej pamäte.</li><li>Verzia Java, architektúra a nastavenia pamäte.</li></ul><p>Ak zmeníme sledované údaje, znovu uvidíte túto stránku.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -4128,17 +4132,17 @@ msgstr "Otvorte priečinok inštancie .minecraft."
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
 msgid "Open libraries"
-msgstr ""
+msgstr "Otvoriť knižnice"
 
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Open the instance's local libraries folder."
-msgstr ""
+msgstr "Otvoriť súbor miestnych knižníc inštancie."
 
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Kontextové menu"
 
 #: src/application/pages/instance/VersionPage.cpp:165
 #, qt-format
@@ -4212,13 +4216,13 @@ msgstr "Zmeniť %1 verziu"
 #: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
-msgstr ""
+msgstr "Žiadne verzie Fabric Loadera nie sú momentálne dostupné."
 
 #: src/application/pages/instance/VersionPage.cpp:361
 #: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr ""
+msgstr "Nie je možné načítať alebo stiahnuť zoznam verzií Fabric Loader!"
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
@@ -4245,7 +4249,7 @@ msgstr "Nie je možné nahrať alebo stiahnuť zoznam verzií Forge!"
 #: src/application/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
-msgstr ""
+msgstr "Zvoľte verziu Fabric Loader"
 
 #: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
@@ -4470,7 +4474,7 @@ msgstr "Svety"
 #: src/application/pages/instance/WorldListPage.cpp:76
 msgctxt "WorldListPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Kontextové menu"
 
 #: src/application/pages/instance/WorldListPage.cpp:126
 msgctxt "WorldListPage|"
@@ -4584,7 +4588,7 @@ msgstr "Vyskytla sa neznáma chyba počas komunikácie s autentifikačným serve
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:213
 msgctxt "YggdrasilTask|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "Vyskytla sa neznáma Yggdrasil chyba."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:224
 msgctxt "YggdrasilTask|"
