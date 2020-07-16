@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2020-07-16 07:23\n"
+"PO-Revision-Date: 2020-07-16 07:42\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -204,49 +204,50 @@ msgstr "جار الحصول على ملفات الموارد من Mojang..."
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr ""
+msgstr "فشل تحميل فهرس الموارد: %1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr ""
+msgstr "فشل تحميل الموارد:\n"
+"%1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "خادم المصادقة لم يرسل رمز العميل."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "خادم المصادقة حاول تغيير رمز العميل. هذا ليس مدعوما."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "خادم المصادقة لم يرسل رمز الوصول."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:154
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't specify a currently selected profile. The account exists, but likely isn't premium."
-msgstr ""
+msgstr "لم يحدد خادم المصادقة الملف الشخصي المحدد حاليا. الحساب موجود, ولكن من المرجح أن يكون الحساب غير أصلي."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:159
 msgctxt "AuthenticateTask|"
 msgid "Authentication server specified a selected profile that wasn't in the available profiles list."
-msgstr ""
+msgstr "حدد خادم المصادقة ملفاً شخصيا لم يكن موجودا في قائمة الملفات الشخصية المتاحة."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Sending request..."
-msgstr ""
+msgstr "جار المصادقة: يتم إرسال طلب..."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:198
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
-msgstr ""
+msgstr "جار المصادقة: يتم تحليل الرد..."
 
 #: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -268,22 +269,22 @@ msgstr ""
 #: src/api/logic/java/launch/CheckJava.cpp:46
 msgctxt "CheckJava|"
 msgid "Java path is not valid."
-msgstr ""
+msgstr "مسار Java غير صالح."
 
 #: src/api/logic/java/launch/CheckJava.cpp:64
 msgctxt "CheckJava|"
 msgid "Checking Java version..."
-msgstr ""
+msgstr "جار التحقق من إصدار Java..."
 
 #: src/api/logic/java/launch/CheckJava.cpp:86
 msgctxt "CheckJava|"
 msgid "Could not start java:"
-msgstr ""
+msgstr "تعذر بدأ Java:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:90
 msgctxt "CheckJava|"
 msgid "Could not start java!"
-msgstr ""
+msgstr "تعذر بدأ Java!"
 
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
@@ -309,12 +310,12 @@ msgstr ""
 #: src/api/logic/minecraft/ComponentList.cpp:852
 msgctxt "ComponentList|"
 msgid "Name"
-msgstr ""
+msgstr "الاسم"
 
 #: src/api/logic/minecraft/ComponentList.cpp:854
 msgctxt "ComponentList|"
 msgid "Version"
-msgstr ""
+msgstr "الإصدار"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
@@ -346,12 +347,12 @@ msgstr ""
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr ""
+msgstr "نسخ النموذج"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
 msgid "Name"
-msgstr ""
+msgstr "الاسم"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:90
 msgctxt "CopyInstanceDialog|"
@@ -406,7 +407,7 @@ msgstr ""
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr ""
+msgstr "أوامر مخصصة"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
@@ -418,7 +419,7 @@ msgstr ""
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "تعذر تشغيل Minecraft!"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:121
 #, qt-format
@@ -429,22 +430,22 @@ msgstr ""
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Login"
-msgstr ""
+msgstr "تسجيل الدخول"
 
 #: src/application/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email"
-msgstr ""
+msgstr "البريد الإلكتروني"
 
 #: src/application/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
 msgid "Password"
-msgstr ""
+msgstr "كلمة المرور"
 
 #: src/application/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr ""
+msgstr "إستخراج النموذج"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
@@ -455,7 +456,7 @@ msgstr ""
 #: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
-msgstr ""
+msgstr "استبدال؟"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
