@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
-"PO-Revision-Date: 2020-09-08 11:39\n"
+"PO-Revision-Date: 2020-09-08 11:48\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -399,7 +399,7 @@ msgstr "Comandament contenidor:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>El comandament de pre-llençament s'executa abans d'iniciar l'instància, mentre que el comandament de post-sortida s'executa quan l'instància termina. </p><p>Ambdós s'executaran al directori de treball de MultiMC amb les següents variables d'entorn:</p><ul><li>$INST_NAME - Nom de l'instància</li><li>$INST_ID - ID de l'instància (el nom de la carpeta)</li><li>$INST_DIR - ruta absoluta de l'instància</li><li>$INST_MC_DIR - ruta absoluta de Minecraft</li><li>$INST_JAVA - binaris de Java utilitzats per el llençament</li><li>$INST_JAVA_ARGS - paràmetres de línia de comandaments utilitzats per al llençament</li></ul><p>El comandament contenidor permet executar Java utilitzant un programa contenidor (per exemple, 'optirun' a Linux)</p></body></html>"
+msgstr "<html><head/><body><p>El comandament de pre-llençament s'executa abans d'iniciar l'instància, mentre que el comandament de post-sortida s'executa quan l'instància termina. </p><p>Ambdós s'executaran al directori de treball de MultiMC amb les següents variables d'entorn:</p><ul><li>$INST_NAME - Nom de l'instància</li><li>$INST_ID - ID de l'instància (el nom de la carpeta)</li><li>$INST_DIR - ruta absoluta de la instància</li><li>$INST_MC_DIR - ruta absoluta de Minecraft</li><li>$INST_JAVA - binaris de Java utilitzats per el llençament</li><li>$INST_JAVA_ARGS - paràmetres de línia de comandaments utilitzats per al llençament</li></ul><p>El comandament contenidor permet executar Java utilitzant un programa contenidor (per exemple, 'optirun' a Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -468,7 +468,7 @@ msgstr "Error"
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr "No s'ha pogut exportar l'instància"
+msgstr "No s'ha pogut exportar la instància"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
@@ -610,7 +610,7 @@ msgstr "Copiant les llibreries FML a l'instància..."
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "S'ha produit un error mentre es creava la carpeta per guardar les llibreries FML dins de l'instància."
+msgstr "S'ha produit un error mentre es creava la carpeta per guardar les llibreries FML dins de la instància."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
 #, qt-format
@@ -881,7 +881,7 @@ msgstr "Falta la carpeta d'anul·lacions especificada (%1) Potser el modpack ja 
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr "Error desconegut mentre es carregava l'instància %1"
+msgstr "Error desconegut mentre es carregava la instància %1"
 
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
@@ -1087,7 +1087,7 @@ msgstr "Buscar executable de Java"
 #: src/api/logic/InstanceList.cpp:776
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
-msgstr "Error al confirmar l'instància, fins i tot després de diversos intents. Està sent bloquejat per alguna cosa."
+msgstr "Error al confirmar la instància, fins i tot després de diversos intents. Està sent bloquejat per alguna cosa."
 
 #: src/application/InstanceWindow.cpp:39
 msgctxt "InstanceWindow|"
@@ -1117,7 +1117,7 @@ msgstr "Finalitza"
 #: src/application/InstanceWindow.cpp:126
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr "Forçar el tancamant de l'instància"
+msgstr "Forçar el tancamant de la instància"
 
 #: src/application/InstanceWindow.cpp:131
 #: src/application/InstanceWindow.cpp:138
@@ -1129,103 +1129,103 @@ msgstr "Jugar"
 #: src/application/InstanceWindow.cpp:139
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "Iniciar l'instància"
+msgstr "Iniciar la instància"
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, qt-format
 msgctxt "JProfiler|"
 msgid "Listening on port: %1"
-msgstr ""
+msgstr "S'està escoltant al port: %1"
 
 #: src/api/logic/tools/JProfiler.cpp:41
 msgctxt "JProfiler|"
 msgid "Profiler aborted"
-msgstr ""
+msgstr "Perfil avortat"
 
 #: src/api/logic/tools/JVisualVM.cpp:32
 msgctxt "JVisualVM|"
 msgid "JVisualVM started"
-msgstr ""
+msgstr "JVisualVM iniciat"
 
 #: src/api/logic/tools/JVisualVM.cpp:39
 msgctxt "JVisualVM|"
 msgid "Profiler aborted"
-msgstr ""
+msgstr "Profiler avortat"
 
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr ""
+msgstr "Detectant instal·lacions de Java..."
 
 #: src/application/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
 msgid "Memory"
-msgstr ""
+msgstr "Memòria"
 
 #: src/application/pages/global/JavaPage.ui:51
 msgctxt "JavaPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr ""
+msgstr "La quantitat màxima de memòria permesa per a Minecraft."
 
 #: src/application/pages/global/JavaPage.ui:73
 msgctxt "JavaPage|"
 msgid "Minimum memory allocation:"
-msgstr ""
+msgstr "Assignació mínima de memòria:"
 
 #: src/application/pages/global/JavaPage.ui:80
 msgctxt "JavaPage|"
 msgid "Maximum memory allocation:"
-msgstr ""
+msgstr "Assignació màxima de memòria:"
 
 #: src/application/pages/global/JavaPage.ui:87
 msgctxt "JavaPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr ""
+msgstr "La quantitat de memòria amb la que Minecraft començarà."
 
 #: src/application/pages/global/JavaPage.ui:116
 msgctxt "JavaPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr ""
+msgstr "Quantitat de memòria disponible per emmagatzemar classes carregades de Java."
 
 #: src/application/pages/global/JavaPage.ui:141
 msgctxt "JavaPage|"
 msgid "Java Runtime"
-msgstr ""
+msgstr "Runtime de Java"
 
 #: src/application/pages/global/JavaPage.ui:153
 msgctxt "JavaPage|"
 msgid "Java path:"
-msgstr ""
+msgstr "Ruta de acceso de Java:"
 
 #: src/application/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
 msgid "JVM arguments:"
-msgstr ""
+msgstr "Arguments de JVM:"
 
 #: src/application/pages/global/JavaPage.ui:208
 msgctxt "JavaPage|"
 msgid "Auto-detect..."
-msgstr ""
+msgstr "Detecció automàtica..."
 
 #: src/application/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
 msgid "Test"
-msgstr ""
+msgstr "Provar"
 
 #: src/application/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: src/application/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
-msgstr ""
+msgstr "Seleccionar una versió de Java"
 
 #: src/application/pages/global/JavaPage.cpp:120
 msgctxt "JavaPage|"
 msgid "Find Java executable"
-msgstr ""
+msgstr "Buscar executable de Java"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:147
 msgctxt "JavaSettingsWidget|"
@@ -1621,7 +1621,7 @@ msgstr "Instància de versió anterior."
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr "<html><body><h1> Actualització requerida </h1><p> MultiMC ara suporta versions velles de Minecraft i tots els requeriments de el format (OneSix) d'instància. En conseqüència, el vell (Legacy) format serà deshabilitat i les velles instàncies necessitaran actualitzar-se. </p><p> L'actualització crearà una nova instància amb els mateixos continguts d'aquesta, al nou format. L'instància original romandrà intacta per si alguna cosa falla en el procés. </p><p> Si us plau, reporta les teves incidències a la nostra <a href=\"https://github.com/MultiMC/MultiMC5/issues\"> pàgina de incidències de GitHub </a>. </p><p> Disposes, també, d'un <a href=\"https://discord.gg/GtPmv93\"> canal de Discord per propòsits de testeig </a>. </p></body></html>"
+msgstr "<html><body><h1> Actualització requerida </h1><p> MultiMC ara suporta versions velles de Minecraft i tots els requeriments de el format (OneSix) d'instància. En conseqüència, el vell (Legacy) format serà deshabilitat i les velles instàncies necessitaran actualitzar-se. </p><p> L'actualització crearà una nova instància amb els mateixos continguts d'aquesta, al nou format. La instància original romandrà intacta per si alguna cosa falla en el procés. </p><p> Si us plau, reporta les teves incidències a la nostra <a href=\"https://github.com/MultiMC/MultiMC5/issues\"> pàgina de incidències de GitHub </a>. </p><p> Disposes, també, d'un <a href=\"https://discord.gg/GtPmv93\"> canal de Discord per propòsits de testeig </a>. </p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -1653,7 +1653,7 @@ msgstr "Actualitzar"
 #, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
-msgstr ""
+msgstr "Copiant la instància %1"
 
 #: src/api/logic/minecraft/legacy/LegacyUpgradeTask.cpp:59
 msgctxt "LegacyUpgradeTask|"
