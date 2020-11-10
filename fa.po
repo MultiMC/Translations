@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
-"PO-Revision-Date: 2020-11-09 06:37\n"
+"PO-Revision-Date: 2020-11-10 08:13\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -3264,24 +3264,24 @@ msgstr "روشن"
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>There are no code changes between your current version and latest %1.</p>"
-msgstr ""
+msgstr "<p>هیچ تغییری در کد بین نسخه فعلی و آخرین نسخه %1 وجود ندارد.</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:126
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
+msgstr "<p>دنباله این تغییرات از آخرین بروزرسانی اضافه شده اند:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:133
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr ""
+msgstr "<p>این بروزرسانی %1 اعمالات را حذف کرده و به دنبال آن %2 اضافه کرده:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:136
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
+msgstr "<p>شما می توانید <a href=\"%1\">تغییرات کامل را در گیت هاب ببینید</a>.</p>"
 
 #: src/application/dialogs/AboutDialog.cpp:31
 #: src/application/dialogs/AboutDialog.cpp:52
@@ -3307,54 +3307,59 @@ msgstr "بروزرسانی ناموفقیت آمیز بود!"
 #: src/application/UpdateController.cpp:363
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr ""
+msgstr "برگشتن ناموفق بود!"
 
 #: src/application/UpdateController.cpp:368
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "نمی توان فایل %1 را جایگذین کرد. تغییرات بازگردانده شدند.\n"
+"لاگ MultiMC را برای جزئیات بیشتر مشاهده نمایید."
 
 #: src/application/UpdateController.cpp:376
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "نمی توان فایل %1 را حذف کرد. تغییرات بازگردانده شدند.\n"
+"لاگ MultiMC را برای جزئیات بیشتر مشاهده نمایید."
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
-msgstr ""
+msgstr "نسخه جدید شروع نمی شود یا خیلی قدیمی است که به چک های راه انداز پاسخ نمی دهد.\n\n"
+"برگشتن به نسخه قبلی؟"
 
 #: src/application/UpdateController.cpp:406
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "برگشتن نیز ناموفق بود.\n"
+"شما باید خودتان دستی MultiMC را درست کنید.\n"
+"لطفا به ما اطلاع دهید چرا و چطور این اتفاق افتاد."
 
 #: src/application/MainWindow.cpp:1001
 msgctxt "QObject|"
 msgid " (in use)"
-msgstr ""
+msgstr " (در حال استفاده)"
 
 #: src/application/GuiUtil.cpp:29 src/application/GuiUtil.cpp:38
 msgctxt "QObject|"
 msgid "Upload failed"
-msgstr ""
+msgstr "آپلود ناموفق بود"
 
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr ""
+msgstr "فایل لاگ خیلی بزرگ است. شما باید خودتان دستی آپلودش کنید."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
 msgid "Upload finished"
-msgstr ""
+msgstr "آپلود کردن به اتمام رسید"
 
 #: src/application/GuiUtil.cpp:48
 #, qt-format
@@ -3437,12 +3442,12 @@ msgstr ""
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "باز کردن gzip برای هم خواندن و هم نوشتن پشتیبانی نشده"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "شما می توانید gzip را یا برای خواندن یا برای نوشتن استفاده کنید. کدام یک؟"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
@@ -3557,13 +3562,13 @@ msgstr "آپلود کردن به پایان رسید"
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">لینک آپلود عکس صفحه</a> در کلیپبورد شما کپی شد."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">لینک آپلود آلبوم</a> در کلیپبورد شما کپی شد."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
@@ -3613,12 +3618,12 @@ msgstr "تاخیر"
 #: src/application/pages/instance/ServersPage.ui:72
 msgctxt "ServersPage|"
 msgid "&Name"
-msgstr ""
+msgstr "نام"
 
 #: src/application/pages/instance/ServersPage.ui:85
 msgctxt "ServersPage|"
 msgid "Address"
-msgstr ""
+msgstr "آدرس"
 
 #: src/application/pages/instance/ServersPage.ui:98
 msgctxt "ServersPage|"
