@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2020-11-11 10:40\n"
+"PO-Revision-Date: 2020-11-11 11:13\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -105,7 +105,9 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr ""
+msgstr "<p>Me hoiame MultiMC lähtekoodi avatuna, kuna arvame et sellise projekti puhul on oluline lähtekoodi näha ning me teeme seda Apache litsentsi alusel.</p>\n"
+"<p>Osa põhjusest, miks me Apache litsentsi kasutame on see, et me ei taha et edasilevitamisel kasutataks nime &quot;MultiMC&quot;. See tähendab, et inimesed peavad võtma aega ja käima kogu lähtekoodi läbi, et eemaldada kõik viited nimele &quot;MultiMC&quot;, sealhulgas aga mitte ainult projekti ikoon ja akende pealkirjad, (pealkirjaks ei tohiks olla <b>MultiMC-fork</b>).</p>\n"
+"<p>Apache litsents katab nime mõistliku kasutuse - projekti algete mainimine teabedialoogis ning litsentsis on vastuvõetav. Siiski peaks olema täielikult selgeks tehtud, et projekt on kõigest fork, <b>ilma</b> et see vihjaks MultiMC põhiprojektiga koostöö tegemise või muul moel \"õnnistuse\" saamisele.</p>"
 
 #: src/application/pages/global/AccountListPage.ui:47
 msgctxt "AccountListPage|"
@@ -167,7 +169,7 @@ msgstr "Me kogume teatud anonüümset analüütikat oma kasutajate kohta."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>MultiMC saadab igal käivitusel anonüümset kasutusstatistikat. See aitab meil otsustada, milliste platvormidele ja probleemidele enim keskenduda.</p><p>Andmeid töötleb Google Analytics, vaata nende <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">sellekohast artiklit</a>.</p><p>Kogutakse järgnevaid andmeid:</p><ul><li>Juhuslik unikaalne MultiMC paigalduse ID.<br />Seda hoitakse programmi sätetes (multimc.cfg).</li><li>Anonüümitud (osaline) IP-aadress.</li><li>MultiMC versioon.</li><li>Operatsioonisüsteemi nimi, versioon ja arhitektuur.</li><li>Protsessori arhitektuur (Linuxil tuuma arhitektuur).</li><li>Süsteemi mälusuurus.</li><li>Java versioon, arhitektuur ja mälusätted.</li></ul><p>Kui me jälgitavat informatsiooni muudame, näed seda lehte uuesti.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -296,7 +298,7 @@ msgstr "Java versioon on %1, kasutab %2-bitist arhitektuuri.\n\n"
 #: src/api/logic/java/launch/CheckJava.cpp:127
 msgctxt "CheckJava|"
 msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr "Teie CPU arhitektuur ei sobi kokku teie süsteemi arhitektuuriga. Te võiksite installida 64bitise Operatsioonisüsteemi.\n\n"
+msgstr "Protsessori arhitektuur ei vasta selle süsteemi arhitektuurile. Soovitame paigaldada 64-bitise operatsioonisüsteemi.\n\n"
 
 #: src/api/logic/java/launch/CheckJava.cpp:133
 msgctxt "CheckJava|"
@@ -383,7 +385,7 @@ msgstr "Koh&andatud käsklused"
 #: src/application/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr "Pärast-väljumise käsklus:"
+msgstr "Väljumise-järgne käsklus:"
 
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
@@ -525,7 +527,7 @@ msgstr "OK"
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr "JProfiler seadistus tundub olevat korras"
+msgstr "JProfileri seadistus tundub olevat korras"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
@@ -1011,7 +1013,7 @@ msgstr "Maksimaalne mälueraldus:"
 #: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr "Märge: Permgen on seatud automaatselt Java 8 ja hiljema poolt"
+msgstr "Märkus: Permgen on Java 8 või hilisema poolt automaatselt määratud"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:209
 msgctxt "InstanceSettingsPage|"
@@ -1154,7 +1156,7 @@ msgstr "Profiiler katkestatud"
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr "Tuvastan Java paigaldusi..."
+msgstr "Java paigalduste tuvastamine..."
 
 #: src/application/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
@@ -1189,7 +1191,7 @@ msgstr "Saadaval mälu hulk, millega saab talletada laetud Java klasse."
 #: src/application/pages/global/JavaPage.ui:141
 msgctxt "JavaPage|"
 msgid "Java Runtime"
-msgstr "Java Käitusaeg"
+msgstr "Java Runtime"
 
 #: src/application/pages/global/JavaPage.ui:153
 msgctxt "JavaPage|"
@@ -1262,12 +1264,12 @@ msgstr "Minimaalne mälueraldus:"
 #: src/application/widgets/JavaSettingsWidget.cpp:424
 msgctxt "JavaSettingsWidget|"
 msgid "Maximum memory allocation:"
-msgstr "Maksimaalne mälu eraldus:"
+msgstr "Maksimaalne mälueraldus:"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:425
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Mälu hulk, millega koos Minecraft käivitatakse."
+msgstr "Mälu hulk, millega Minecraft käivitatakse."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:426
 msgctxt "JavaSettingsWidget|"
@@ -2664,13 +2666,13 @@ msgid "<html><head/>\n"
 "</body></html>"
 msgstr "<html><head/>\n"
 "<body>\n"
-"<p>MultiMC saadab anonüümset kasutamis statistikat igal rakenduse käivitumisel.</p><p>Kogutakse järgmisi andmeid:</p>\n"
+"<p>MultiMC saadab igal käivitusel anonüümset kasutusstatistikat.</p><p>Kogutakse järgnevaid andmeid:</p>\n"
 "<ul>\n"
 "<li>MultiMC versioon.</li>\n"
 "<li>Operatsioonisüsteemi nimi, versioon ja arhitektuur.</li>\n"
-"<li>CPU arhitektuur (linux'il kernel'i arhitektuur).</li>\n"
-"<li>Süsteemi mälu suurus.</li>\n"
-"<li>Java versioon, arhitektuur ja mälu sätted.</li>\n"
+"<li>Protsessori arhitektuur (Linuxil tuuma arhitektuur).</li>\n"
+"<li>Süsteemi mälusuurus.</li>\n"
+"<li>Java versioon, arhitektuur ja mälusätted.</li>\n"
 "</ul>\n"
 "</body></html>"
 
@@ -2955,7 +2957,7 @@ msgstr "Kleebi oma rakendusliidese võti siia!"
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a>'d kasutatakse MultiMC poolt logi ülesse laadimiseks. Kui teil on<a href=\"https://paste.ee\">paste.ee</a> konto, võite te oma API võtme siia lisada ja siduda üleslaetud logid oma kontoga.</p></body></html>"
+msgstr "<html><head/><body><p>MultiMC kasutab logide üleslaadimiseks teenust <a href=\"https://paste.ee\">paste.ee</a>. Kui sul on <a href=\"https://paste.ee\">paste.ee</a> konto, saad sa lisada siia oma rakendusliidese võtme ning siduda üleslaaditud logid oma kontoga.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
