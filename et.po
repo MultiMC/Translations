@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2020-11-11 11:13\n"
+"PO-Revision-Date: 2020-11-11 11:25\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -225,7 +225,7 @@ msgstr "Autentimisserver proovis klienditalongi muuta. See ei ole toetatud."
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "Autentimisserver ei saatnud pääsutalongi."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:154
 msgctxt "AuthenticateTask|"
@@ -694,12 +694,12 @@ msgstr "Versiooni info failide allalaadimine ebaõnnestus."
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
-msgstr ""
+msgstr "Uue versiooni faililoendi lugemine..."
 
 #: src/api/logic/updater/DownloadTask.cpp:102
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
-msgstr ""
+msgstr "Praeguse versiooni faililoendi lugemine..."
 
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
@@ -855,7 +855,7 @@ msgstr "Modipaki ekstrakimine ebaõnnestus"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
-msgstr ""
+msgstr "%1 lubade parandamine ebaõnnestus"
 
 #: src/api/logic/InstanceImportTask.cpp:172
 msgctxt "InstanceImportTask|"
@@ -865,7 +865,7 @@ msgstr "Eksemplari importimine on katkestatud."
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Paki manifestist ei saadud aru:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
@@ -882,7 +882,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "Manifest sisaldab tundmatut modilaadurit: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
@@ -926,7 +926,7 @@ msgstr "Modide allalaadimine..."
 #: src/api/logic/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
-msgstr ""
+msgstr "Modi IDde lahendamine ebaõnnestus:\n"
 
 #: src/api/logic/InstanceList.cpp:105
 #, qt-format
@@ -1274,7 +1274,7 @@ msgstr "Mälu hulk, millega Minecraft käivitatakse."
 #: src/application/widgets/JavaSettingsWidget.cpp:426
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "Saadaval mälu hulk, millega saab talletada laetud Java klasse."
+msgstr "Saadaval mälu hulk, millega talletatakse laaditud Java klasse."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:427
 msgctxt "JavaSettingsWidget|"
@@ -1361,7 +1361,7 @@ msgstr "Mängija nimi"
 #: src/application/LaunchController.cpp:163
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
-msgstr "Valige oma ühenduste režiimi mängija nimi."
+msgstr "Vali oma võrguta režiimi mängijanimi."
 
 #: src/application/LaunchController.cpp:185
 msgctxt "LaunchController|"
@@ -1619,7 +1619,7 @@ msgstr "Eksemplar eelmistest versioonidest."
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Nõutud on täiendamine</h1><p>MultiMC toetab nüüd vanu Minecrafti versioone ning kõiki nõutud funktsioone uues (OneSix) eksemplarivormingus. Selle tulemuseks on vana (pärand-) vorming täielikult keelatud ning vanad eksemplarid tuleb täiendada.</p><p>Täiendus loob uues vormingus uue eksemplari, mille sisu on sama, mis praegusel. Originaalne eksemplar jääb puutumatuks, juhuks kui midagi läheb protsessis valesti.</p><p>Palun teata mistahes vigadest meie <a href=\"https://github.com/MultiMC/MultiMC5/issues\">GitHubi vigade loetelus</a>.</p><p>Meil on testimiseks ka <a href=\"https://discord.gg/GtPmv93\">Discordi kanal</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2721,7 +2721,8 @@ msgstr "[Midagi/HOIATUS] Mitte nii õudne hoiatus."
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "Töö \"%1\" töötlemine ebaõnnestus:\n"
+"%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
@@ -2878,7 +2879,7 @@ msgstr "%1 lugemiseks avamine ebaõnnestus: %2"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
-msgstr ""
+msgstr "Fail (%1) on liiga suur. Võid tahta seda avada vaaturis, mis on optimeeritud suurte failide tarbeks."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:161
 #, qt-format
@@ -3144,27 +3145,27 @@ msgstr ""
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
-msgstr ""
+msgstr "Versioonifail sisaldab mittetoetatud elementi \"tweakers\""
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
+msgstr "Versioonifail sisaldab mittetoetatud elementi \"-libraries\""
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:237
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
+msgstr "Versioonifail sisaldab mittetoetatud elementi \"-tweakers\""
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:241
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr ""
+msgstr "Versioonifail sisaldab mittetoetatud elementi \"-minecraftArguments\""
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr ""
+msgstr "Versioonifail sisaldab mittetoetatud elementi \"+minecraftArguments\""
 
 #: src/api/logic/minecraft/AssetsUtils.cpp:321
 #, qt-format
@@ -3483,7 +3484,7 @@ msgstr "Autentimisserver proovis klienditalongi muuta. See ei ole toetatud."
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "Autentimisserver ei saatnud pääsutalongi."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
