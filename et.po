@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2020-11-11 19:41\n"
+"PO-Revision-Date: 2020-11-13 12:52\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -195,7 +195,7 @@ msgstr "Varade indeksi lugemine ebaõnnestus!"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr "Varade failide saamine Mojang'ilt..."
+msgstr "Varafailide Mojangilt hankimine..."
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:88
 #, qt-format
@@ -459,7 +459,7 @@ msgstr "Kirjutad üle?"
 #: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr "See fail on juba olemas. Kas te soovite seda üle kirjutada?"
+msgstr "See fail on juba olemas. Kas soovid selle üle kirjutada?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
@@ -540,7 +540,7 @@ msgstr "JVisualVM täitmisfail"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr "JVisualVM'i installi kontrollimisel ilmnes tõrge:\n"
+msgstr "JVisualVM paigalduse kontrollimisel ilmnes tõrge:\n"
 "%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
@@ -689,7 +689,7 @@ msgstr "Versiooni informatsiooni laadimine..."
 #: src/api/logic/updater/DownloadTask.cpp:81
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr "Versiooni info failide allalaadimine ebaõnnestus."
+msgstr "Versiooniinfo failide allalaadimine ebaõnnestus."
 
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
@@ -714,13 +714,13 @@ msgstr ""
 #: src/api/logic/updater/DownloadTask.cpp:136
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr "Laen alla ühte värskendus faili."
+msgstr "Ühe uuendusfaili allalaadimine."
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Laen alla %1 värskendusfaili."
+msgstr "%1 uuendusfaili allalaadimine."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
@@ -893,7 +893,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr ""
+msgstr "Soovitatud Forge versiooni Minecraft %1 jaoks ei suudetud kaardistada"
 
 #: src/api/logic/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
@@ -1427,7 +1427,7 @@ msgstr "Katkesta"
 #: src/application/LaunchController.cpp:302
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
-msgstr "Tapa Minecraft?"
+msgstr "Tapad Minecrafti?"
 
 #: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
@@ -1671,18 +1671,18 @@ msgstr "Eksemplari kausta kopeerimine katkestatud."
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:13
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr "Raamatukogu failide saamine Mojang'ilt."
+msgstr "Teegifailide Mojangilt hankimine..."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:21
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr "Raamatukogud eksemplari %1 jaoks"
+msgstr "Eksemplari %1 teegid"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "Metaandmetes on kirjeldatud null-jar, toiming katkestatud."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:58
 #, qt-format
@@ -1699,7 +1699,9 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr ""
+msgstr "Mängu uuendamine ebaõnnestus: nõutud teekide hankimine oli võimatu.\n"
+"Põhjus:\n"
+"%1"
 
 #: src/application/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
@@ -3140,7 +3142,7 @@ msgstr ""
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr ""
+msgstr "Versioonifailis on nii \"+libraries\" kui ka \"libraries\". See ei ole enam toetatud."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
 msgctxt "QObject|"
@@ -3239,7 +3241,7 @@ msgstr "Failiteed pole olemas"
 #: src/api/logic/tools/JProfiler.cpp:110
 msgctxt "QObject|"
 msgid "Invalid JProfiler install"
-msgstr "Sobimatu JProfiler'i seadistus"
+msgstr "Sobimatu JProfileri paigaldus"
 
 #: src/api/logic/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
@@ -3287,7 +3289,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Te saate <a href=\"%1\">vaadata muutusi github'is</a>.</p>"
+msgstr "<p>Muudatusi <a href=\"%1\">saab vaadata GitHubis</a>.</p>"
 
 #: src/application/dialogs/AboutDialog.cpp:31
 #: src/application/dialogs/AboutDialog.cpp:52
@@ -3308,7 +3310,7 @@ msgstr "Erilised tänud"
 #: src/application/UpdateController.cpp:362
 msgctxt "QObject|"
 msgid "Update failed!"
-msgstr "Värskendus ebaõnnestus!"
+msgstr "Uuendamine ebaõnnestus!"
 
 #: src/application/UpdateController.cpp:363
 msgctxt "QObject|"
@@ -3355,7 +3357,7 @@ msgstr "Üleslaadimine ebaõnnestus"
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Logi fail on liiga suur. Te peate seda manuaalselt üleslaadima."
+msgstr "Logifail on liiga suur. Pead selle üles laadima käsitsi."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
@@ -3366,7 +3368,7 @@ msgstr "Üleslaadimine lõpetatud"
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Logisse üleslaetud  link</a> on paigutatud teie lõikelauale."
+msgstr "<a href=\"%1\">Üles laaditud logi link</a> on lõikelauale asetatud."
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -3397,7 +3399,7 @@ msgstr "<br />Hoiatused:<br /><font color=\"orange\">%1</font>"
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
-msgstr "Edu Java katses"
+msgstr "Java katse edukas"
 
 #: src/application/JavaCommon.cpp:42
 msgctxt "QObject|"
@@ -3408,7 +3410,7 @@ msgstr "Valitud Java täitmisfail ei töötanud määratud argumentidega:<br />"
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
-msgstr "Tõrge Java katses"
+msgstr "Java katse ebaõnnestus"
 
 #: src/application/JavaCommon.cpp:50
 msgctxt "QObject|"
@@ -3433,22 +3435,22 @@ msgstr "Määratud Java täitmisfail tagastas ootamatuid tulemusi:<br />"
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
 msgid "Minecraft Server"
-msgstr "Minecraft'i Server"
+msgstr "Minecrafti server"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append ei ole GZIP jaoks toetatud"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "Gzip-i korraga avamine nii lugemiseks kui kirjutamiseks ei ole toetatud"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "Sa saad gzip-i avada lugemiseks või kirjutamiseks. Kumba soovid teha?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
@@ -3458,18 +3460,18 @@ msgstr "Faili ei saadud gzopen'i abil avada"
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append ei ole QuaZIODevice jaoks toetatud"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite ei ole QuaZIODevice jaoks toetatud"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "ZIP-arhiivi (lahti)pakkimise rakendusliidese viga %1"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -4244,7 +4246,7 @@ msgstr "Ei suutnud laadida või alla laadida LiteLoader'i versiooni loendeid!"
 #: src/application/pages/instance/VersionPage.cpp:548
 msgctxt "VersionPage|"
 msgid "Error updating instance"
-msgstr "Tõrge eksemplari uuendamisel"
+msgstr "Eksemplari uuendamisel esines tõrge"
 
 #: src/application/pages/instance/VersionPage.h:38
 msgctxt "VersionPage|"
@@ -4363,7 +4365,7 @@ msgstr "Viga"
 msgctxt "VersionSelectWidget|"
 msgid "List update failed:\n"
 "%1"
-msgstr "Loendi värskendamine ebaõnnestus\n"
+msgstr "Loendi värskendamine ebaõnnestus:\n"
 "%1"
 
 #: src/api/logic/minecraft/WorldList.cpp:211
@@ -4480,24 +4482,24 @@ msgstr "Teil ei ole MCEdit'it üles seatud või see oli teisaldatud.\n"
 #: src/application/pages/instance/WorldListPage.cpp:217
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
-msgstr "MCEdit'i käivitamine ebaõnnestus!"
+msgstr "MCEditi käivitamine ebaõnnestus!"
 
 #: src/application/pages/instance/WorldListPage.cpp:218
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
-msgstr "MCEdit'i käivitamine ebaõnnestus!\n"
-"Selle uuesti installimine võib vajalikuks osutada."
+msgstr "MCEditi käivitamine ebaõnnestus!\n"
+"Võimalik, et on vaja see uuesti paigaldada."
 
 #: src/application/pages/instance/WorldListPage.cpp:264
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
-msgstr "Vali Minecraft'i maailma zip"
+msgstr "Vali Minecrafti maailma ZIP"
 
 #: src/application/pages/instance/WorldListPage.cpp:265
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr "Minecraft'i Maailma Zip Fail (*.zip)"
+msgstr "Minecrafti maailma ZIP-fail (*.zip)"
 
 #: src/application/pages/instance/WorldListPage.cpp:286
 msgctxt "WorldListPage|"
