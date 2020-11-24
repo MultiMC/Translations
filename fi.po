@@ -6,12 +6,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: multimc\n"
+"X-Crowdin-Project-ID: 373791\n"
 "X-Crowdin-Language: fi\n"
 "X-Crowdin-File: /master/template.pot\n"
+"X-Crowdin-File-ID: 4\n"
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-05-26 20:56\n"
+"PO-Revision-Date: 2020-09-05 18:06\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -870,7 +872,7 @@ msgstr "Ei pystytty käsittelemään paketin luetteloa:\n"
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr "Ei voitu nimetä uudelleen ohituskansiota:\n"
+msgstr "Ei voitu uudelleennimetä ohituskansiota:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:210
 #, qt-format
@@ -1053,7 +1055,7 @@ msgstr "Konsoliasetukset"
 #: src/application/pages/instance/InstanceSettingsPage.ui:321
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
-msgstr "Näytä konsoli, kun peli on käynnissä?"
+msgstr "Näytä konsoli pelin aikana?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:328
 msgctxt "InstanceSettingsPage|"
@@ -1063,7 +1065,7 @@ msgstr "Sulje konsoli automaattisesti, kun peli suljetaan?"
 #: src/application/pages/instance/InstanceSettingsPage.ui:335
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr "Näytä konsoli, kun peli kaatuu?"
+msgstr "Näytä konsoli pelin kaatuessa?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:359
 msgctxt "InstanceSettingsPage|"
@@ -1736,7 +1738,7 @@ msgstr "&Kopioi"
 #: src/application/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "Lähetä loki paste.ee-sivustolle - se on saatavilla kuukauden ajan"
+msgstr "Lähetä loki paste.ee-sivustolle - se säilyy verkossa kuukauden ajan"
 
 #: src/application/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
@@ -2033,7 +2035,7 @@ msgstr "Vaihda valitun peliversion kuvake."
 #: src/application/MainWindow.cpp:459
 msgctxt "MainWindow|"
 msgid "Rename"
-msgstr "Nimeä uudelleen"
+msgstr "Nimeä"
 
 #: src/application/MainWindow.cpp:460
 msgctxt "MainWindow|"
@@ -2216,7 +2218,7 @@ msgstr "Ladataan uutisia..."
 #: src/application/MainWindow.cpp:1182
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr "Uutisia ei ole saatavilla."
+msgstr "Uutisia ei ole tarjolla."
 
 #: src/application/MainWindow.cpp:1265 src/application/MainWindow.cpp:1282
 msgctxt "MainWindow|"
@@ -2404,27 +2406,27 @@ msgstr "Poista valitut modit"
 #: src/application/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
 msgid "&Enable"
-msgstr "&Ota käyttöön"
+msgstr "&Käytä"
 
 #: src/application/pages/instance/ModFolderPage.ui:115
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr "Ota valitut modit käyttöön"
+msgstr "Kytke valitut modit käyttöön"
 
 #: src/application/pages/instance/ModFolderPage.ui:120
 msgctxt "ModFolderPage|"
 msgid "&Disable"
-msgstr "&Poista käytöstä"
+msgstr "Kytk&e pois"
 
 #: src/application/pages/instance/ModFolderPage.ui:123
 msgctxt "ModFolderPage|"
 msgid "Disable selected mods"
-msgstr "Poista valitut modit käytöstä"
+msgstr "Kytke valitut modit pois käytöstä"
 
 #: src/application/pages/instance/ModFolderPage.ui:128
 msgctxt "ModFolderPage|"
 msgid "View &Configs"
-msgstr "Näytä &Asetukset"
+msgstr "Näytä &asetukset"
 
 #: src/application/pages/instance/ModFolderPage.ui:131
 msgctxt "ModFolderPage|"
@@ -2434,7 +2436,7 @@ msgstr "Avaa 'config'-asetuskansio järjestelmän tiedostoselaimessa."
 #: src/application/pages/instance/ModFolderPage.ui:136
 msgctxt "ModFolderPage|"
 msgid "View &Folder"
-msgstr "Näytä &kansio"
+msgstr "&Näytä kansio"
 
 #: src/application/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
@@ -2496,12 +2498,12 @@ msgstr "Päivitysasetukset"
 #: src/application/pages/global/MultiMCPage.ui:57
 msgctxt "MultiMCPage|"
 msgid "Check for updates when MultiMC starts?"
-msgstr "Tarkista päivitykset kun MultiMC avataan?"
+msgstr "Tarkista päivitykset MultiMC:n käynnistyessä?"
 
 #: src/application/pages/global/MultiMCPage.ui:64
 msgctxt "MultiMCPage|"
 msgid "Up&date Channel:"
-msgstr "Ve&rsiokanava:"
+msgstr "Päivityskanava:"
 
 #: src/application/pages/global/MultiMCPage.ui:81
 msgctxt "MultiMCPage|"
@@ -2541,7 +2543,7 @@ msgstr "MultiMC-ilmoitukset"
 #: src/application/pages/global/MultiMCPage.ui:189
 msgctxt "MultiMCPage|"
 msgid "Reset hidden notifications"
-msgstr "Aseta oletukset piiloilmoituksiin"
+msgstr "Palauta piilotetut ilmoitukset"
 
 #: src/application/pages/global/MultiMCPage.ui:205
 msgctxt "MultiMCPage|"
@@ -2551,7 +2553,7 @@ msgstr "Peliversionäkymän lajittelu"
 #: src/application/pages/global/MultiMCPage.ui:211
 msgctxt "MultiMCPage|"
 msgid "By &last launched"
-msgstr "&Viime käynnistyksen mukaan"
+msgstr "&Käynnistysajankohdan mukaan"
 
 #: src/application/pages/global/MultiMCPage.ui:221
 msgctxt "MultiMCPage|"
@@ -2616,17 +2618,17 @@ msgstr "Konsoliasetukset"
 #: src/application/pages/global/MultiMCPage.ui:360
 msgctxt "MultiMCPage|"
 msgid "Show console while the game is running?"
-msgstr "Näytä konsoli kun peli on käynnissä?"
+msgstr "Näytä konsoli pelin aikana?"
 
 #: src/application/pages/global/MultiMCPage.ui:367
 msgctxt "MultiMCPage|"
 msgid "Automatically close console when the game quits?"
-msgstr "Sulje konsoli automaattisesti peli sulkeutuessa?"
+msgstr "Sulje konsoli automaattisesti pelin sulkeutuessa?"
 
 #: src/application/pages/global/MultiMCPage.ui:374
 msgctxt "MultiMCPage|"
 msgid "Show console when the game crashes?"
-msgstr "Näytä konsoli, kun peli kaatuu?"
+msgstr "Näytä konsoli pelin kaatuessa?"
 
 #: src/application/pages/global/MultiMCPage.ui:384
 msgctxt "MultiMCPage|"
@@ -2656,12 +2658,12 @@ msgstr "Analytiikka"
 #: src/application/pages/global/MultiMCPage.ui:489
 msgctxt "MultiMCPage|"
 msgid "Analytics Settings"
-msgstr "Analytiikka asetukset"
+msgstr "Analytiikan asetukset"
 
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr "Lähetä käyttötilastot anonyyminä?"
+msgstr "Lähetetäänkö anonyymeja käyttötilastoja?"
 
 #: src/application/pages/global/MultiMCPage.ui:509
 msgctxt "MultiMCPage|"
@@ -2678,13 +2680,13 @@ msgid "<html><head/>\n"
 "</body></html>"
 msgstr "<html><head/>\n"
 "<body>\n"
-"<p>MultiMC lähettää käyttötilastot anonyyminä sovelluksen käynnistyksen yhteydessä.</p><p>Seuraavat tiedot kerätään:</p>\n"
+"<p>MultiMC lähettää anonyymeja käyttötilastoja sovelluksen käynnistyessä.</p><p>Seuraavat tiedot kerätään:</p>\n"
 "<ul>\n"
-"<li>MultiMC versio.</li>\n"
+"<li>MultiMC-versio.</li>\n"
 "<li>Käyttöjärjestelmän nimi, versio ja arkkitehtuuri.</li>\n"
-"<li>CPU-arkkitehtuuri (ytimen arkkitehtuuri linuxissa).</li>\n"
+"<li>Suoritinarkkitehtuuri (Linuxilla ydinarkkitehtuuri).</li>\n"
 "<li>Järjestelmämuistin koko.</li>\n"
-"<li>Java versio, arkkitehtuuri ja muistiasetukset.</li>\n"
+"<li>Java-versio, arkkitehtuuri ja muistiasetukset.</li>\n"
 "</ul>\n"
 "</body></html>"
 
@@ -2701,17 +2703,17 @@ msgstr "Yrität määrittää peliversiokansion, jonka polku sisältää huutome
 #: src/application/pages/global/MultiMCPage.cpp:111
 msgctxt "MultiMCPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr "Haluatko todella käyttää tätä polkua? Jos valitset \"Ei\", tämä sulkeutuu eikä vaikuta peliversioidesi polkuun."
+msgstr "Haluatko varmasti käyttää tätä polkua? Jos valitset \"Ei\", tämä sulkeutuu eikä vaikuta peliversiosi polkuun."
 
 #: src/application/pages/global/MultiMCPage.cpp:129
 msgctxt "MultiMCPage|"
 msgid "Icons Folder"
-msgstr "Kuvakkeet kansio"
+msgstr "Kuvakkeet-kansio"
 
 #: src/application/pages/global/MultiMCPage.cpp:140
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
-msgstr "Modit kansio"
+msgstr "Modit-kansio"
 
 #: src/application/pages/global/MultiMCPage.cpp:429
 msgctxt "MultiMCPage|"
@@ -2835,7 +2837,7 @@ msgstr "Kopioi koko loki leikepöydälle"
 #: src/application/pages/instance/OtherLogsPage.ui:70
 msgctxt "OtherLogsPage|"
 msgid "&Copy"
-msgstr "&Kopio"
+msgstr "&Kopioi"
 
 #: src/application/pages/instance/OtherLogsPage.ui:77
 #: src/application/pages/instance/OtherLogsPage.ui:97
@@ -2852,7 +2854,7 @@ msgstr "Poista"
 #: src/application/pages/instance/OtherLogsPage.ui:87
 msgctxt "OtherLogsPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "Lähetä loki paste.ee-sivustolle - se pysyy tallennettuna kuukauden ajan"
+msgstr "Lähetä loki paste.ee-sivustolle - se säilyy verkossa kuukauden ajan"
 
 #: src/application/pages/instance/OtherLogsPage.ui:90
 msgctxt "OtherLogsPage|"
@@ -3276,7 +3278,7 @@ msgstr "Järjestelmä"
 #: src/application/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
-msgstr "Kirkas"
+msgstr "Vaalea"
 
 #: src/application/dialogs/UpdateDialog.cpp:122
 #, qt-format
@@ -3305,12 +3307,12 @@ msgstr "<p>Voit <a href=\"%1\">tarkastella muutoksia GitHubissa</a>.</p>"
 #: src/application/dialogs/AboutDialog.cpp:52
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr "Patronit"
+msgstr "Tukijat"
 
 #: src/application/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
 msgid "MultiMC Developers"
-msgstr "MultiMC kehittäjät"
+msgstr "MultiMC:n kehittäjät"
 
 #: src/application/dialogs/AboutDialog.cpp:44
 msgctxt "QObject|About Credits"
@@ -3397,7 +3399,7 @@ msgstr "Yritit asettaa manuaalisesti JVM-muistiasetuksen (käyttäen \"-XX:PermS
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr "JVM-argumenttien varoitus"
+msgstr "JVM-argumenttivaroitus"
 
 #: src/application/JavaCommon.cpp:26
 #: src/application/widgets/JavaSettingsWidget.cpp:309
@@ -3452,7 +3454,7 @@ msgstr "Määritelty Java-asennus palautti odottamattomia tuloksia:<br />"
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
 msgid "Minecraft Server"
-msgstr "Minecraft palvelin"
+msgstr "Minecraft-palvelin"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
@@ -3543,7 +3545,7 @@ msgstr "Poista"
 #: src/application/pages/instance/ScreenshotsPage.ui:69
 msgctxt "ScreenshotsPage|"
 msgid "Rename"
-msgstr "Nimeä uudelleen"
+msgstr "Nimeä"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:74
 msgctxt "ScreenshotsPage|"
@@ -3653,7 +3655,7 @@ msgstr "Res&urssit"
 #: src/application/pages/instance/ServersPage.ui:109
 msgctxt "ServersPage|"
 msgid "Ask to download"
-msgstr "Pyydä lataamista"
+msgstr "Kysy lataamista"
 
 #: src/application/pages/instance/ServersPage.ui:114
 msgctxt "ServersPage|"
@@ -3855,7 +3857,7 @@ msgstr "Peliversion päivitys epäonnistui syystä: %1\n\n"
 #: src/application/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
 msgid "MultiMC Update"
-msgstr "MultiMC päivitys"
+msgstr "MultiMC:n päivitys"
 
 #: src/application/dialogs/UpdateDialog.ui:61
 msgctxt "UpdateDialog|"
@@ -3908,7 +3910,7 @@ msgstr "Vahvistetaan pääsytodistusta: Käsitellään vastausta..."
 #: src/application/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
 msgid "Filter"
-msgstr "Suodatin"
+msgstr "Suodata"
 
 #: src/application/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
@@ -3918,12 +3920,12 @@ msgstr "Julkaisut"
 #: src/application/pages/modplatform/VanillaPage.ui:64
 msgctxt "VanillaPage|"
 msgid "Snapshots"
-msgstr "Snapshotit"
+msgstr "Vedokset"
 
 #: src/application/pages/modplatform/VanillaPage.ui:74
 msgctxt "VanillaPage|"
 msgid "Old Snapshots"
-msgstr "Vanhat snapshotit"
+msgstr "Vanhat vedokset"
 
 #: src/application/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
@@ -3953,7 +3955,7 @@ msgstr "Vanilla"
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
 msgid "No versions are currently available."
-msgstr "Ei päivityksiä saatavilla."
+msgstr "Versioita ei ole saatavilla."
 
 #: src/application/pages/instance/VersionPage.ui:64
 msgctxt "VersionPage|"
@@ -4063,12 +4065,12 @@ msgstr "Asenna LiteLoader-paketti."
 #: src/application/pages/instance/VersionPage.ui:187
 msgctxt "VersionPage|"
 msgid "Install mods"
-msgstr "Asenna modit"
+msgstr "Asenna modeja"
 
 #: src/application/pages/instance/VersionPage.ui:190
 msgctxt "VersionPage|"
 msgid "Install normal mods."
-msgstr "Asenna normaalit modit."
+msgstr "Asenna tavallisia modeja."
 
 #: src/application/pages/instance/VersionPage.ui:195
 msgctxt "VersionPage|"
@@ -4103,7 +4105,7 @@ msgstr "Lataa uudelleen"
 #: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Reload all packages."
-msgstr "Lataa uudelleen kaikki paketit."
+msgstr "Lataa kaikki paketit uudelleen."
 
 #: src/application/pages/instance/VersionPage.ui:224
 msgctxt "VersionPage|"
@@ -4185,7 +4187,7 @@ msgstr "Ei voitu poistaa tiedostoa"
 #: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Select jar mods"
-msgstr "Valitse jar modit"
+msgstr "Valitse jar-modit"
 
 #: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
@@ -4206,7 +4208,7 @@ msgstr "Minecraft.jar-korvike (*.jar)"
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
-msgstr "Vaihda %1 versio"
+msgstr "Vaihda kohteen %1 versio"
 
 #: src/application/pages/instance/VersionPage.cpp:360
 #: src/application/pages/instance/VersionPage.cpp:445
@@ -4367,7 +4369,7 @@ msgstr "Valitse versio"
 #: src/application/dialogs/VersionSelectDialog.cpp:82
 msgctxt "VersionSelectDialog|"
 msgid "Reloads the version list."
-msgstr "Lataa uudelleen versioluettelon."
+msgstr "Päivittää versioluettelon."
 
 #: src/application/dialogs/VersionSelectDialog.cpp:83
 msgctxt "VersionSelectDialog|"
@@ -4430,7 +4432,7 @@ msgstr "Lisää"
 #: src/application/pages/instance/WorldListPage.ui:94
 msgctxt "WorldListPage|"
 msgid "Rename"
-msgstr "Nimeä uudelleen"
+msgstr "Nimeä"
 
 #: src/application/pages/instance/WorldListPage.ui:99
 msgctxt "WorldListPage|"

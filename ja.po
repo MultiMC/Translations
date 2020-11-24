@@ -6,12 +6,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: multimc\n"
+"X-Crowdin-Project-ID: 373791\n"
 "X-Crowdin-Language: ja\n"
 "X-Crowdin-File: /master/template.pot\n"
+"X-Crowdin-File-ID: 4\n"
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2020-04-16 13:51\n"
+"PO-Revision-Date: 2020-09-10 20:57\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -330,14 +332,15 @@ msgstr "インスタンスの依存関係にコンフリクトがあります。
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr ""
+msgstr "起動の読み込み/確認中にインスタンスに依存関係が解決されていません。"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr ""
+msgstr "リモートサーバーからコンポーネントのメタデータをダウンロードするタスクが失敗しました:\n"
+"%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -392,7 +395,7 @@ msgstr "Pre-launch コマンド:"
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr ""
+msgstr "Wrapperのコマンド："
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
@@ -408,7 +411,7 @@ msgstr "カスタムコマンド"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Wrapperのコマンド \"%1\" は見つかりませんでした。"
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -636,7 +639,7 @@ msgstr "Mod ID を解決中..."
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
+msgstr "MOD　IDを解析するタスクがいくつか失敗しました。"
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -862,7 +865,7 @@ msgstr "インスタンスのインポートは中断されました。"
 #: src/api/logic/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "パック マニフェストが解析できませんでした：\n"
 
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
@@ -1463,12 +1466,12 @@ msgstr "Minecraft PID: %1\n\n"
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "名前でソート"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:21
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
-msgstr ""
+msgstr "ゲームバージョンでソート"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
@@ -1483,7 +1486,7 @@ msgstr ""
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "プライベートModパック"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
@@ -1499,45 +1502,45 @@ msgstr ""
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
+msgstr "いくつかのModパックリストのダウンロードが失敗しました: %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
+msgstr "%1 のzipをダウンロードしています"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "%1 のzipをダウンロードしています (%2%)"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Modパックを展開中"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "Modパックファイル %1 が開けられませんでした。"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Modパックをインストール中"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr ""
+msgstr "解凍した Minecraft が移動できませんでした。"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "インストール方法が見つかりませんでした。"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
@@ -1584,7 +1587,8 @@ msgstr "FTB プライベートパック"
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr ""
+msgstr "コード %1のパック情報のダウンロードに失敗しました。\n"
+"今すぐ削除しますか？"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
 msgctxt "LegacyFTB::Page|"
@@ -1620,7 +1624,7 @@ msgstr "以前のバージョンのインスタンスを読み込んでいます
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>アプリのアップデートが必要です。</h1><p>MultiMC は新たなインスタントフォーマット（OneSix）を導入するアップデートにより、古いバージョンの支援もできました。そのため、古くなった（Legacy）フォーマットは破棄されて、そのフォーマットを使ったインスタントの更新が必要です。</p><p>このアップデートは、新たなフォーマットで元のインスタントを更新するができます。元のインスタントはバックアップのためにそのままにします。</p><p>問題を発見した場合は、 <a href=\"https://github.com/MultiMC/MultiMC5/issues\">GitHubページまで</a>お願いします。</p><p><a href=\"https://discord.gg/GtPmv93\">ディスコードのテストチャんネルもございます。</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -1641,7 +1645,7 @@ msgstr "中断"
 #, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
-msgstr ""
+msgstr "%1 (移転済)"
 
 #: src/application/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
@@ -2705,17 +2709,17 @@ msgstr "Modフォルダー"
 #: src/application/pages/global/MultiMCPage.cpp:429
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Something/ERROR] 深刻なエラーだ！"
 
 #: src/application/pages/global/MultiMCPage.cpp:438
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] 無害なメッセージ..."
 
 #: src/application/pages/global/MultiMCPage.cpp:447
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Something/WARN] なんか不気味だそうな警告です。"
 
 #: src/api/logic/net/NetJob.cpp:128
 #, qt-format
@@ -3302,7 +3306,7 @@ msgstr "MultiMC の開発者"
 #: src/application/dialogs/AboutDialog.cpp:44
 msgctxt "QObject|About Credits"
 msgid "With thanks to"
-msgstr ""
+msgstr "こちらの方々に感謝を"
 
 #: src/application/UpdateController.cpp:362
 msgctxt "QObject|"

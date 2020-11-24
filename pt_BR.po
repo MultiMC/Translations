@@ -6,12 +6,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: multimc\n"
+"X-Crowdin-Project-ID: 373791\n"
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /master/template.pot\n"
+"X-Crowdin-File-ID: 4\n"
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2020-04-11 21:32\n"
+"PO-Revision-Date: 2020-10-08 19:37\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -152,7 +154,7 @@ msgstr "Menu de contexto"
 #: src/application/pages/global/AccountListPage.cpp:106
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
-msgstr "Por favor, entre com seu e-mail e senha para adicionar uma conta."
+msgstr "Insira o seu endereço de e-mail e senha para adicionar uma conta Minecraft."
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -172,7 +174,7 @@ msgstr "<html><body><p>O MultiMC coleta dados anônimos toda vez que inicia. Iss
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr "Ativar coleta de dados"
+msgstr "Ativar telemetria"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:19
 msgctxt "AssetUpdateTask|"
@@ -423,7 +425,7 @@ msgstr "Não foi possível iniciar o Minecraft!"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr "ID do Processo do Minecraft: %1\n\n"
+msgstr "ID do processo do Minecraft: %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -454,7 +456,7 @@ msgstr "Exportar %1"
 #: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
-msgstr "Sobrescrever?"
+msgstr "Substituir?"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
@@ -720,7 +722,7 @@ msgstr "Baixando um arquivo de atualização."
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Baixando %1 arquivos de atualização."
+msgstr "Baixando %1 arquivo(s) de atualização."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
@@ -988,7 +990,7 @@ msgstr "&Memória"
 #: src/application/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
-msgstr "Mínimo de alocação de memória:"
+msgstr "Alocação mínima de memória:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:116
 msgctxt "InstanceSettingsPage|"
@@ -1008,7 +1010,7 @@ msgstr "A quantidade de memória usada para armazenar classes Java carregadas."
 #: src/application/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
-msgstr "Máximo de alocação de memória:"
+msgstr "Alocação máxima de memória:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
@@ -1201,7 +1203,7 @@ msgstr "Caminho do Java:"
 #: src/application/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
 msgid "JVM arguments:"
-msgstr "Argumentos JVM:"
+msgstr "Argumentos da JVM:"
 
 #: src/application/pages/global/JavaPage.ui:208
 msgctxt "JavaPage|"
@@ -1468,12 +1470,12 @@ msgstr "ID do processo do Minecraft: %1\n\n"
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by name"
-msgstr "Organizar por nome"
+msgstr "Ordenar por nome"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:21
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
-msgstr "Organizar por versão do jogo"
+msgstr "Ordenar por versão"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
@@ -1918,7 +1920,7 @@ msgstr "Alterar configurações."
 #: src/application/MainWindow.cpp:312
 msgctxt "MainWindow|"
 msgid "Report a Bug"
-msgstr "Relatar um erro"
+msgstr "Informar um erro"
 
 #: src/application/MainWindow.cpp:313
 msgctxt "MainWindow|"
@@ -1953,7 +1955,7 @@ msgstr "Sobre o MultiMC"
 #: src/application/MainWindow.cpp:338
 msgctxt "MainWindow|"
 msgid "View information about MultiMC."
-msgstr "Ver informação sobre o MultiMC."
+msgstr "Ver informações sobre o MultiMC."
 
 #: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:626
 msgctxt "MainWindow|"
@@ -2159,7 +2161,7 @@ msgstr "Copiar a instância selecionada."
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
-msgstr "MultiMC 5 - Versão %1"
+msgstr "MultiMC 5 — Versão %1"
 
 #: src/application/MainWindow.cpp:608
 #, qt-format
@@ -2186,7 +2188,7 @@ msgstr "Criar instância"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
-msgstr "Apagar grupo '%1'"
+msgstr "Apagar grupo \"%1\""
 
 #: src/application/MainWindow.cpp:965
 msgctxt "MainWindow|"
@@ -2354,7 +2356,7 @@ msgstr "Última modificação"
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:477
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
-msgstr "O mod está habilitado?"
+msgstr "O mod está ativado?"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:479
 msgctxt "ModFolderModel|"
@@ -2404,22 +2406,22 @@ msgstr "Remover mods selecionados"
 #: src/application/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
 msgid "&Enable"
-msgstr "&Habilitar"
+msgstr "&Ativar"
 
 #: src/application/pages/instance/ModFolderPage.ui:115
 msgctxt "ModFolderPage|"
 msgid "Enable selected mods"
-msgstr "Habilitar mods selecionados"
+msgstr "Ativar mods selecionados"
 
 #: src/application/pages/instance/ModFolderPage.ui:120
 msgctxt "ModFolderPage|"
 msgid "&Disable"
-msgstr "&Desabilitar"
+msgstr "&Desativar"
 
 #: src/application/pages/instance/ModFolderPage.ui:123
 msgctxt "ModFolderPage|"
 msgid "Disable selected mods"
-msgstr "Desabilitar mods selecionados"
+msgstr "Desativar mods selecionados"
 
 #: src/application/pages/instance/ModFolderPage.ui:128
 msgctxt "ModFolderPage|"
@@ -2546,7 +2548,7 @@ msgstr "Redefinir notificações ocultas"
 #: src/application/pages/global/MultiMCPage.ui:205
 msgctxt "MultiMCPage|"
 msgid "Instance view sorting mode"
-msgstr "Organizar instâncias"
+msgstr "Ordenar instâncias"
 
 #: src/application/pages/global/MultiMCPage.ui:211
 msgctxt "MultiMCPage|"
@@ -2651,12 +2653,12 @@ msgstr "Fonte do console"
 #: src/application/pages/global/MultiMCPage.ui:483
 msgctxt "MultiMCPage|"
 msgid "Analytics"
-msgstr "Análise"
+msgstr "Telemetria"
 
 #: src/application/pages/global/MultiMCPage.ui:489
 msgctxt "MultiMCPage|"
 msgid "Analytics Settings"
-msgstr "Configurações de coleta de dados"
+msgstr "Configurações de telemetria"
 
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
@@ -2733,7 +2735,7 @@ msgstr "[Alguma coisa/WARN] Um aviso não tão assustador."
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr "Tarefa '%1' falhou em processar:\n"
+msgstr "Tarefa \"%1\" falhou ao processar:\n"
 "%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
@@ -2955,12 +2957,12 @@ msgstr "Chave de API do paste.ee"
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr "Chave do M&ultiMC - limite de 12MB por envio"
+msgstr "Chave do M&ultiMC — limite de 12MB por envio"
 
 #: src/application/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr "&Sua própria chave - limite de 12MB por envio:"
+msgstr "&Sua própria chave — limite de 12MB por envio:"
 
 #: src/application/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
@@ -3305,7 +3307,7 @@ msgstr "<p>Você pode <a href=\"%1\">ver as mudanças no GitHub</a>.</p>"
 #: src/application/dialogs/AboutDialog.cpp:52
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr "Patronos"
+msgstr "Apoiadores"
 
 #: src/application/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
@@ -3397,7 +3399,7 @@ msgstr "Você tentou ajustar manualmente a opção de memória do JVM (usando \"
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr "Aviso dos argumentos JVM"
+msgstr "Aviso dos argumentos da JVM"
 
 #: src/application/JavaCommon.cpp:26
 #: src/application/widgets/JavaSettingsWidget.cpp:309
@@ -3749,17 +3751,17 @@ msgstr "Arquivo da skin"
 #: src/application/dialogs/SkinUploadDialog.ui:51
 msgctxt "SkinUploadDialog|"
 msgid "Player Model"
-msgstr "Modelo do Jogador"
+msgstr "Modelo do jogador"
 
 #: src/application/dialogs/SkinUploadDialog.ui:57
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
-msgstr "Modelo Steve"
+msgstr "Modelo do Steve"
 
 #: src/application/dialogs/SkinUploadDialog.ui:67
 msgctxt "SkinUploadDialog|"
 msgid "Alex Model"
-msgstr "Modelo Alex"
+msgstr "Modelo da Alex"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
 msgctxt "SkinUploadDialog|"
@@ -3829,7 +3831,7 @@ msgstr "Idioma"
 #: src/api/logic/translations/TranslationsModel.cpp:376
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr "Completude"
+msgstr "Total"
 
 #: src/api/logic/translations/TranslationsModel.cpp:386
 msgctxt "TranslationsModel|"
@@ -3913,7 +3915,7 @@ msgstr "Filtrar"
 #: src/application/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
 msgid "Releases"
-msgstr "Versões estáveis"
+msgstr "Versões finais"
 
 #: src/application/pages/modplatform/VanillaPage.ui:64
 msgctxt "VanillaPage|"
@@ -3933,7 +3935,7 @@ msgstr "Betas"
 #: src/application/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr "Alphas"
+msgstr "Alfas"
 
 #: src/application/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
@@ -4073,7 +4075,7 @@ msgstr "Instalar mods comuns."
 #: src/application/pages/instance/VersionPage.ui:195
 msgctxt "VersionPage|"
 msgid "Add to Minecraft.jar"
-msgstr "Adicionar um mod dentro da minecraft.jar"
+msgstr "Adicionar um mod dentro do minecraft.jar"
 
 #: src/application/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
@@ -4599,7 +4601,7 @@ msgstr "Processando resposta dos servidores..."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:228
 msgctxt "YggdrasilTask|"
 msgid "Authentication task succeeded."
-msgstr "Tarefa de autenticação bem sucedida."
+msgstr "Tarefa de autenticação bem-sucedida."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:230
 msgctxt "YggdrasilTask|"
