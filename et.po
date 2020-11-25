@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2020-11-13 13:15\n"
+"PO-Revision-Date: 2020-11-25 07:36\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -390,7 +390,7 @@ msgstr "Väljumise-järgne käsklus:"
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
-msgstr "Eel-käivituse käsklus:"
+msgstr "Enne-käivitust käsklus:"
 
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
@@ -400,7 +400,7 @@ msgstr "Ümbriskäsklus:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Eel-käivitus käsklus käivitub enne eksemplari käivitumist and ja pärast-väljumise käsklus käivitub pärast selle väljumist.</p><p>Mõlemad käivitatakse MultiMC töötamis kaustast koos täiendavate keskkonna muutujatega:</p><ul><li>$INST_NAME - Muutuja nimi</li><li>$INST_ID - Muutuja ID (selle kausta nimi)</li><li>$INST_DIR - eksemplari absoluutne tee</li><li>$INST_MC_DIR - minecraft'i absoluutne tee</li><li>$INST_JAVA - käivitamiseks kasutatav java binaarne</li><li>$INST_JAVA_ARGS - käivitamiseks kasutatavad käsurea parameetrid</li></ul><p>Ümbris käsklus võimaldab käivitamist kasutades täiendavat ümbris programmi (nagu 'optirun' Linux'il)</p></body></html>"
+msgstr "<html><head/><body><p>Enne-käivitust käsklus käivitub enne eksemplari käivitumist ning peale-käivitust käsklus käivitub pärast selle sulgemist.</p><p>Mõlemad käitatakse MultiMC töötamiskaustas koos täiendavate keskkonnamuutujatega:</p><ul><li>$INST_NAME - eksemplari nimi</li><li>$INST_ID - eksemplari ID (selle kausta nimi)</li><li>$INST_DIR - eksemplari täielik failitee</li><li>$INST_MC_DIR - kausta \"minecraft\" täielik failitee</li><li>$INST_JAVA - käivituseks kasutatav Java täitmisfail</li><li>$INST_JAVA_ARGS - käivituseks kasutatavad käsurea parameetrid</li></ul><p>Ümbriskäsklus võimaldab täiendava ümbrisprogrammi käivitamist (näiteks Linuxil \"optirun\")</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -411,7 +411,7 @@ msgstr "Kohandatud käsklused"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Ümbrise käsklust \"%1\" ei suudetud leida."
+msgstr "Ümbriskäsklust \"%1\" ei leitud."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -1445,7 +1445,7 @@ msgstr ""
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Ümbrise käsklust \"%1\" ei suudetud leida."
+msgstr "Ümbriskäsklust \"%1\" ei leitud."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
@@ -2981,35 +2981,35 @@ msgstr "paste.ee tagastas tõrke. Lisateabe saamiseks vaata logisid"
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
-msgstr "Käivitan Peale-Käivitust käskluse: %1"
+msgstr "Peale-käivitust käskluse käivitamine: %1"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:39
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr "Peale-Käivitust käsklus ebaõnnestus andes koodi %1.\n\n"
+msgstr "Peale-käivitust käsklus ebaõnnestus koodiga %1.\n\n"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr "Peale-Käivitust käsklus käivitus edukalt.\n\n"
+msgstr "Peale-käivitust käsklus käivitus edukalt.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Running Pre-Launch command: %1"
-msgstr "Käivitan Eel-Käivituse käskluse: %1"
+msgstr "Enne-käivitust käskluse käivitamine: %1"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:40
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command failed with code %1.\n\n"
-msgstr "Eel-Käivituse käsklus ebaõnnestus andes koodi %1.\n"
+msgstr "Enne-käivitust käsklus ebaõnnestus koodiga %1.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr "Eel-Käivituse käsklus käivitus edukalt.\n\n"
+msgstr "Enne-käivitust käsklus käivitus edukalt.\n\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
