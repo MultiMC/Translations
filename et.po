@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2020-11-25 07:51\n"
+"PO-Revision-Date: 2020-11-25 08:16\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -400,7 +400,7 @@ msgstr "Ümbriskäsklus:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Enne-käivitust käsklus käivitub enne eksemplari käivitumist ning peale-käivitust käsklus käivitub pärast selle sulgemist.</p><p>Mõlemad käitatakse MultiMC töötamiskaustas koos täiendavate keskkonnamuutujatega:</p><ul><li>$INST_NAME - eksemplari nimi</li><li>$INST_ID - eksemplari ID (selle kausta nimi)</li><li>$INST_DIR - eksemplari täielik failitee</li><li>$INST_MC_DIR - kausta \"minecraft\" täielik failitee</li><li>$INST_JAVA - käivituseks kasutatav Java täitmisfail</li><li>$INST_JAVA_ARGS - käivituseks kasutatavad käsurea parameetrid</li></ul><p>Ümbriskäsklus võimaldab täiendava ümbrisprogrammi käivitamist (näiteks Linuxil \"optirun\")</p></body></html>"
+msgstr "<html><head/><body><p>Enne-käivitust käsklus käivitub enne eksemplari käivitumist ning väljumise-järgne käsklus käivitub pärast selle sulgemist.</p><p>Mõlemad käitatakse MultiMC töötamiskaustas koos täiendavate keskkonnamuutujatega:</p><ul><li>$INST_NAME - eksemplari nimi</li><li>$INST_ID - eksemplari ID (selle kausta nimi)</li><li>$INST_DIR - eksemplari täielik failitee</li><li>$INST_MC_DIR - kausta \"minecraft\" täielik failitee</li><li>$INST_JAVA - käivituseks kasutatav Java täitmisfail</li><li>$INST_JAVA_ARGS - käivituseks kasutatavad käsurea parameetrid</li></ul><p>Ümbriskäsklus võimaldab täiendava ümbrisprogrammi käivitamist (näiteks Linuxil \"optirun\")</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -887,7 +887,7 @@ msgstr "Manifest sisaldab tundmatut modilaadurit: %1"
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "Pakki importides eemaldati Minecrafti versioonist müstilised lõppu lisatud punktid."
 
 #: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
@@ -2630,7 +2630,7 @@ msgstr "Ajaloo limiit"
 #: src/application/pages/global/MultiMCPage.ui:390
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
-msgstr "Lõpeta logimine logi ületäitumisel"
+msgstr "Lõpeta logi ületäitumisel logimine"
 
 #: src/application/pages/global/MultiMCPage.ui:403
 msgctxt "MultiMCPage|"
@@ -2913,14 +2913,14 @@ msgstr "Puhasta"
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr "Kas te tõesti tahate kustutada kõiki logi faile?"
+msgstr "Kas soovid tõesti kõik logifailid kustutada?"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:228
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr "Kas te tõesti tahate kustutada neid faile?\n"
+msgstr "Kas soovid tõesti need failid kustutada?\n"
 "%1"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:255
@@ -3379,7 +3379,9 @@ msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr ""
+msgstr "Sa proovisid käsitsi JVM mäluvalikut määrata (sealhulgas \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" või \"-Xms\").\n"
+"Nende tarbeks on seadetes eraldi kastid (Java vahekaart, ülemine grupp Mälu).\n"
+"Seda sõnumit kuvatakse, kuni eemaldad need parameetrid oma JVM argumentidest."
 
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
@@ -3500,12 +3502,12 @@ msgstr ""
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
 msgid "Refreshing login token..."
-msgstr "Sisselogimis loa värskendamine..."
+msgstr "Autentimistalongi värskendamine..."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:140
 msgctxt "RefreshTask|"
 msgid "Refreshing login token: Processing response..."
-msgstr "Sisselogimis loa värskendamine: Vastuse töötlemine..."
+msgstr "Autentimistalongi värskendamine: vastuse töötlemine..."
 
 #: src/application/pages/instance/ResourcePackPage.h:11
 msgctxt "ResourcePackPage|"
@@ -3885,12 +3887,12 @@ msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">Muudatuste logi laad
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:55
 msgctxt "ValidateTask|"
 msgid "Validating access token: Sending request..."
-msgstr "Juurdepääsuloa valideerimine: Taotluse saatmine..."
+msgstr "Pääsutalongi valideerimine: taotluse saatmine..."
 
 #: src/api/logic/minecraft/auth/flows/ValidateTask.cpp:57
 msgctxt "ValidateTask|"
 msgid "Validating access token: Processing response..."
-msgstr "Juurdepääsuloa valideerimine: Vastuse töötlemine..."
+msgstr "Pääsutalongi valideerimine: vastuse töötlemine..."
 
 #: src/application/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
@@ -3975,7 +3977,7 @@ msgstr "Liiguta alla"
 #: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr "Tehke valitud pakett hiljem kehtima."
+msgstr "Pane valitud pakett hiljem rakenduma."
 
 #: src/application/pages/instance/VersionPage.ui:131
 msgctxt "VersionPage|"
@@ -4015,7 +4017,7 @@ msgstr "Taasta"
 #: src/application/pages/instance/VersionPage.ui:158
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
-msgstr "Taasta valitud pakett vaikimisi peale."
+msgstr "Lähtesta valitud pakett vaikeväärtusele."
 
 #: src/application/pages/instance/VersionPage.ui:163
 msgctxt "VersionPage|"
@@ -4162,7 +4164,7 @@ msgstr "Viga"
 #: src/application/pages/instance/VersionPage.cpp:251
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
-msgstr "Ei suutnud laadida eksemplari profiili."
+msgstr "Eksemplari profiili laadimine ebaõnnestus."
 
 #: src/application/pages/instance/VersionPage.cpp:269
 msgctxt "VersionPage|"
@@ -4401,7 +4403,7 @@ msgstr "Maailma mängurežiim."
 #: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
-msgstr "Kuupäev ja aeg, kuna maailma viimati mängiti."
+msgstr "Maailma viimati mängimise kuupäev ja kellaaeg."
 
 #: src/application/pages/instance/WorldListPage.ui:59
 msgctxt "WorldListPage|"
@@ -4469,8 +4471,8 @@ msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
 "Do you want to continue?"
 msgstr "See eemaldab valitud maailma jäädavalt.\n"
-"Maailm on igaveseks kadunud. (PIKK AEG).\n\n"
-"Kas te soovite jätkata?"
+"Maailm kaob igaveseks (PIKK AEG).\n\n"
+"Kas soovid jätkata?"
 
 #: src/application/pages/instance/WorldListPage.cpp:207
 msgctxt "WorldListPage|"
@@ -4481,8 +4483,8 @@ msgstr "MCEditit ei leitud või see pole seadistatud!"
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
-msgstr "Teil ei ole MCEdit'it üles seatud või see oli teisaldatud.\n"
-"Te saate selle üles seada globaalsetes sätetes."
+msgstr "MCEdit ei ole seadistatud või see on teisaldatud.\n"
+"Seda saab seadistada üldsätetes."
 
 #: src/application/pages/instance/WorldListPage.cpp:217
 msgctxt "WorldListPage|"
@@ -4515,8 +4517,8 @@ msgstr "Kopeeri maailm"
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
-msgstr "Maailma muutmine, kui Minecraft töötab on potentsiaalselt ohtlik.\n"
-"Kas te soovite jätkata?"
+msgstr "Minecrafti töötamise ajal maailma muutmine võib olla ohtlik.\n"
+"Kas soovid jätkata?"
 
 #: src/application/pages/instance/WorldListPage.cpp:310
 #: src/application/pages/instance/WorldListPage.cpp:333
@@ -4575,12 +4577,12 @@ msgstr "Ilmnes tundmatu Yggdrasil'i viga."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:224
 msgctxt "YggdrasilTask|"
 msgid "Sending request to auth servers..."
-msgstr "Taotluse saatmine autentimis serveritele..."
+msgstr "Autentimisserveritele taotluse saatmine..."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:226
 msgctxt "YggdrasilTask|"
 msgid "Processing response from servers..."
-msgstr "Vastuse töötlemine serveritelt..."
+msgstr "Serverite vastuse töötlemine..."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:228
 msgctxt "YggdrasilTask|"
