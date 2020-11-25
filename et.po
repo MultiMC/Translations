@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2020-11-25 07:36\n"
+"PO-Revision-Date: 2020-11-25 07:51\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -235,7 +235,7 @@ msgstr "Autentimisserver ei määratlenud hetkel valitud profiili. Konto eksiste
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:159
 msgctxt "AuthenticateTask|"
 msgid "Authentication server specified a selected profile that wasn't in the available profiles list."
-msgstr ""
+msgstr "Autentimisserver määratles valitud profiili, mida ei olnud saadaval profiilide nimekirjas."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
@@ -287,7 +287,7 @@ msgstr "Javat ei suudetud käivitada!"
 #: src/api/logic/java/launch/CheckJava.cpp:95
 msgctxt "CheckJava|"
 msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr ""
+msgstr "Java kontrollija tagastas sobimatuid andmeid, mida MultiMC ei mõista:"
 
 #: src/api/logic/java/launch/CheckJava.cpp:117
 #, qt-format
@@ -1239,7 +1239,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "MultiMC will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Sa ei valinud Java versiooni või valisid midagi, mis ei tööta.\n"
+"MultiMC ei saa Minecrafti käivitada.\n"
+"Kas soovid jätkata ilma Javata?\n\n"
+"Sa saad seadetes Java versiooni hiljem muuta.\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
@@ -1439,7 +1442,8 @@ msgstr "See võib eksemplari korrumpeerida ning seda peaks kasutama ainult siis,
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr ""
+msgstr "MultiMC lõpetas mängulogi jälgimise, kuna logi pikkus ületas %1 rida.\n"
+"Sa pead ilmselt oma modid parandama, kuna mäng ikka veel logib andmeid, ilmselt raisates kettaruumi kohutava kiirusega!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
@@ -4543,7 +4547,7 @@ msgstr "Autentimise operatsioon tühistati."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL-kätlus ebaõnnestus</b><br/>Sellel võivad olla mõned põhjused:<br/><ul><li>Sa kasutad aegunud operatsioonisüsteemi nagu Windows 7 või vanem. Kui nii, siis palun uuenda uusimale versioonile.</li><li>Mõni seade su võrgus segab SSL-liiklust. Sel juhul on sul suuremaid muresid kui mittekäivituv Minecraft.</li><li>Võimalik, et midagi muud. Kontrolli lisateabe saamiseks MultiMC logifaili</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
