@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Norwegian Bokmal\n"
 "Language: nb_NO\n"
-"PO-Revision-Date: 2020-12-01 12:57\n"
+"PO-Revision-Date: 2020-12-01 13:13\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -401,18 +401,18 @@ msgstr "Wrapper kommando:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Kommandoer før start kjører før instansen starter og Kommando ved avslutning kjører etter den lukkes.</p><p>Begge vil kjøre i MultiMCs arbeidsmappe med ekstra miljøvariabler:</p><ul><li>$INST_NAME - Navnet på instansen</li><li>$INST_ID - IDen på instansen (mappenavnet)</li><li>$INST_DIR - absolutt sti til instansen</li><li>$INST_MC_DIR - absolutt sti til Minecraft</li><li>$INST_JAVA - java-binær brukt ved oppstart</li><li>$INST_JAVA_ARGS - terminal-parametere brukt ved oppstart</li></ul><p>Wrapper kommando lar deg kjøre via et ekstra wrapper-program (som «optirun» for Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr ""
+msgstr "Egendefinerte kommandoer"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Wrapper-kommandoen «%1» ble ikke funnet."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -528,12 +528,12 @@ msgstr "OK"
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr "JProfiler-installasjon ser ut til å være OK"
+msgstr "JProfiler-installasjonen ser ut til å være OK"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "Kjørbar fil for JVisualVM"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -541,22 +541,23 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr ""
+msgstr "Feil under kontroll av JVisualVM-installasjon:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr ""
+msgstr "JVisualVM-installasjonen ser ut til å være OK"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr ""
+msgstr "MCEdit-application"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr ""
+msgstr "MCEdit-mappe"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -564,12 +565,13 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking MCEdit install:\n"
 "%1"
-msgstr ""
+msgstr "Feil under kontroll av MCEdit-installasjon:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
-msgstr ""
+msgstr "MCEdit-installasjonen ser ut til å være OK"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:202
 msgctxt "ExternalToolsPage|"
@@ -584,7 +586,7 @@ msgstr "Ugyldig"
 #: src/application/pages/global/ExternalToolsPage.cpp:225
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
-msgstr ""
+msgstr "Filen du har valgt ser ikke ut til å være en kjørbar fil"
 
 #: src/api/logic/minecraft/launch/ExtractNatives.cpp:86
 #, qt-format
@@ -595,28 +597,28 @@ msgstr ""
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr ""
+msgstr "Ser etter FML-bibliotek..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr ""
+msgstr "Laster ned FML-bibliotek..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr ""
+msgstr "Kopierer FML-bibliotek til instansen..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr ""
+msgstr "Kunne ikke opprette FML-bibliotekmappe i instansen."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr ""
+msgstr "Kunne ikke kopiere Forge/FML-bibliotek: %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
 #, qt-format
@@ -625,22 +627,25 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr ""
+msgstr "Kunne ikke laste ned følgende filer:\n"
+"%1\n\n"
+"Årsak:%2\n"
+"Vennligst prøv på nytt."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "Løser mod-IDer..."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:61
 msgctxt "Flame::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
+msgstr "Noen prosesser for løsning av mod-ID mislyktes."
 
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr ""
+msgstr "Kunne ikke opprette mappe for Minecraft-binærer."
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -690,39 +695,39 @@ msgstr "Kunne ikke laste ned versjon-infofiler."
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
-msgstr ""
+msgstr "Leser filliste for ny versjon..."
 
 #: src/api/logic/updater/DownloadTask.cpp:102
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
-msgstr ""
+msgstr "Leser filliste for nåværende versjon..."
 
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr ""
+msgstr "Behandler fillister - finner ut hvordan å installere oppdateringen..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
-msgstr ""
+msgstr "Kunne ikke behandle lister for oppdatering..."
 
 #: src/api/logic/updater/DownloadTask.cpp:136
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr ""
+msgstr "Laster ned én oppdateringsfil."
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr ""
+msgstr "Laster ned %1 oppdateringsfil."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr ""
+msgstr "Nedlasting av oppdateringsfiler mislyktes: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -800,12 +805,12 @@ msgstr "Kopierer instans %1"
 #: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
-msgstr ""
+msgstr "Kopiering av instansmappe mislyktes."
 
 #: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "Kopiering av instansmappe er avbrutt."
 
 #: src/api/logic/InstanceCreationTask.cpp:16
 #, qt-format
