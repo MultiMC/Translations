@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
-"PO-Revision-Date: 2020-12-03 11:50\n"
+"PO-Revision-Date: 2020-12-03 12:16\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -341,7 +341,8 @@ msgstr "نمایه دارای وابسته های حل نشده در هنگام 
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr ""
+msgstr "وضیفه بروزرسانی مولفه metadata شکست خورد درحین دانلود از سرور غیر مستقیم:\n"
+"%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -612,13 +613,13 @@ msgstr "در حال گپی کردن کتابخانه های FML به داخل ن
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr ""
+msgstr "شکست در ساختن پوشه کتابخانه های FML درون نمایه."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr ""
+msgstr "شکست در کپی کتابخانه Forge/FML: %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
 #, qt-format
@@ -627,7 +628,10 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr ""
+msgstr "شکست در دانلود فایل های زیر:\n"
+"%1\n\n"
+"دلیل: %2\n"
+"لطفا دوباره تلاش کنید."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
@@ -642,7 +646,7 @@ msgstr "وظیفه دریافت ID بعضی مود ها شکست خورد."
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr ""
+msgstr "ناتوانی در ساخت پوشه برای binary های ماینکرافت."
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -756,7 +760,7 @@ msgstr "انتخاب آیکن"
 #, qt-format
 msgctxt "IconPickerDialog|"
 msgid "Icons %1"
-msgstr ""
+msgstr "آیکن های %1"
 
 #: src/application/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -836,7 +840,7 @@ msgstr "استخراج مودپک"
 #: src/api/logic/InstanceImportTask.cpp:79
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr ""
+msgstr "ناتوانی در بازکردن فایل زیپ حاوی مودپک."
 
 #: src/api/logic/InstanceImportTask.cpp:104
 #: src/api/logic/InstanceImportTask.cpp:165
@@ -885,13 +889,13 @@ msgstr "بارگذار ناشناخته مود در manifest: %1"
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "نقاط پشت نوشتار(trailing dots) عجیبی از نسخه ماینکرافت حذف شده درحین وارد کردن مودپک."
 
 #: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr ""
+msgstr "نمی توان نسخه پیشنهادی forge را برای ماینکرافت طرح نمود %1"
 
 #: src/api/logic/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
@@ -908,13 +912,13 @@ msgstr "این 'Folder' شاید نیاز به استخراج داشته باش�
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr ""
+msgstr "مودپک های تو در تو در مودپک ها هنوز مطرح نشده، هیچ چیزی دانلود نشد: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr ""
+msgstr "PackageType ناشناخته/کنترل نشده برای: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
@@ -924,7 +928,7 @@ msgstr "درحال دانلود مودها..."
 #: src/api/logic/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
-msgstr ""
+msgstr "ناتوانی در دریافت ID مود ها:\n"
 
 #: src/api/logic/InstanceList.cpp:105
 #, qt-format
@@ -956,12 +960,12 @@ msgstr "باز کردن تنظیمات سراسری"
 #: src/application/pages/instance/InstanceSettingsPage.ui:32
 msgctxt "InstanceSettingsPage|"
 msgid "The settings here are overrides for global settings."
-msgstr ""
+msgstr "تنظیمات اینجا رونویسی می شو برای تنظیمات کلی."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr ""
+msgstr "نصب جاوا"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
@@ -1006,17 +1010,17 @@ msgstr "مقدار حافظه ای که برای ذخیره سازی کلاس ه
 #: src/application/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
-msgstr ""
+msgstr "حداکثر مقدار حافظه اختصاص‌داده شده:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr ""
+msgstr "نکته: Permgen به طور خودکار روی جاوا 8 یا بالاتر تنظیم شده"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:209
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
-msgstr ""
+msgstr "آرگومان های جاوا"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
@@ -1687,7 +1691,7 @@ msgstr "کتابخانه های نمایه %1"
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "Null jar در metadata مشخص شد، در حال لغو کردن."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:58
 #, qt-format
@@ -1696,7 +1700,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "بعضی از محصولات به عنوان 'local' فایل هایشان را گم کرده‌اند:\n"
+"%1\n\n"
+"شما باید یا فایل ها را اضافه کنید یا بسته هایی که به آن ها نیازمندند را حذف کنید.\n"
+"شما باید به طور دستی این مشکل را برطرف سازید."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -1716,7 +1723,7 @@ msgstr "ادامه بروزرسانی"
 #: src/application/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr ""
+msgstr "سر خط‌ها"
 
 #: src/application/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
@@ -2734,7 +2741,7 @@ msgstr "کار '%1' در پردازش ناموفق بود:\n"
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "اضافه کردن مولفه خالی"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -2950,17 +2957,17 @@ msgstr "paste.ee API key"
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr ""
+msgstr "کلید MultiMC - محدودیت آپلود 12 مگابایت"
 
 #: src/application/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr ""
+msgstr "کلید خود شما - محدودیت 12 مگابایت:"
 
 #: src/application/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
-msgstr ""
+msgstr "کلید API خود را اینجا وارد کنید!"
 
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
@@ -2986,30 +2993,30 @@ msgstr "paste.ee خطایی را بازگشت داد. لطفا برای اطلا
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
-msgstr ""
+msgstr "اجرای دستور پس‌اجرایی: %1"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:39
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "دستور پس‌اجرایی با کد %1 شکست خورد.\n\n"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "دستور پس‌اجرایی با موفقیت اجرا شد.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Running Pre-Launch command: %1"
-msgstr ""
+msgstr "درحال اجرای دستور پیش‌اجرایی: %1"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:40
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "دستور پیش‌اجرایی با کد %1 شکست خورد.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
@@ -3130,7 +3137,7 @@ msgstr "پروکسی"
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
-msgstr ""
+msgstr "بسته(Patch) هنوز بارگزاری نشده."
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:153
 #, qt-format
@@ -3178,13 +3185,13 @@ msgstr "نسخه فایل حاوی المان های پشتیبانی نشده�
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
-msgstr ""
+msgstr "ابزارها برای %1"
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:51
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid order file version, expected %1"
-msgstr "ترتیب نسخه فایل نامعتبر، اتفاق در %1"
+msgstr "ترتیب نسخه فایل نامعتبر، اتفاق افتاده در %1"
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:96
 #: src/api/logic/minecraft/ProfileUtils.cpp:149
@@ -3209,7 +3216,7 @@ msgstr "ناتوانی در پردازش نسخه فایل %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr ""
+msgstr "مولفه نسخه فایل نامعتبر، اتفاق افتاده در %1"
 
 #: src/api/logic/minecraft/World.cpp:50
 msgctxt "QObject|"
