@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2020-12-31 15:28\n"
+"PO-Revision-Date: 2020-12-31 15:39\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -402,7 +402,7 @@ msgstr "Commande wrapper :"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>La commande de pré-lancement s'exécute avant le lancement de l'instance et la commande post-arrêt s'exécute après son arrêt.</p><p>Les deux s'exécutent dans le dossier de travail de MultiMC avec des variables d'environnement suplémentaires :</p><ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (nom du fichier)</li><li>$INST_DIR - Chemin d'accès absolu de l'instance</li><li>$INST_MC_DIR - Chemin d'accès absolu de Minecraft</li><li>$INST_JAVA - Binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet le lancement via un programme wrapper externe (comme \"optirun\" sur Linux)</p></body></html>"
+msgstr "<html><head/><body><p>La commande de pré-lancement s'exécute avant le lancement de l'instance et la commande post-arrêt s'exécute après son arrêt.</p><p>Les deux s'exécutent dans le dossier de travail de MultiMC avec des variables d'environnement suplémentaires :</p><ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (nom du fichier)</li><li>$INST_DIR - Chemin d'accès absolu de l'instance</li><li>$INST_MC_DIR - Chemin d'accès absolu de Minecraft</li><li>$INST_JAVA - Binaire Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet le lancement via un programme wrapper externe (comme \"optirun\" sur Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -2198,7 +2198,7 @@ msgstr "Profileurs"
 #: src/application/MainWindow.cpp:977
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
-msgstr "Le profileur n'est pas configuré correctement. Allez dans la section \"Outils externes\" des paramètres."
+msgstr "Le profileur n'est pas configuré correctement. Allez dans l'onglet \"Outils externes\" des paramètres."
 
 #: src/application/MainWindow.cpp:1031
 msgctxt "MainWindow|"
@@ -4563,7 +4563,7 @@ msgstr "L'opération d'authentification a été annulée."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr "<b>La liaison SSL n’a pas pu être établie.</b><br/>Il pourrait y avoir quelques causes pour cela :<br/><ul><li>Vous utilisez Windows XP et vous devez <a href=\"http://www.microsoft.com/fr-fr/download/details.aspx?id=38918\">mettre à jour vos certificats ROOT</a></li><li>Certains appareils sur votre réseau interfèrent avec le trafic SSL. Dans ce cas, vous avez de plus grands soucis que votre Minecraft qui ne démarre pas.</li><li>Peut-être quelque chose d'autre. Consultez le fichier de logs de MultiMC pour plus de détails.</li></ul>"
+msgstr "<b>Échec de la négociation SSL.</b><br/>Il peut y avoir plusieurs causes à cela :<br/><ul><li>Vous utilisez Windows XP et vous devez <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">mettre à jour vos certificats racine</a></li><li>Un appareil de votre réseau interfère avec le trafic SSL. Dans ce cas, vous avez de plus grands soucis qu'un problème de démarrage de Minecraft.</li><li>Peut-être quelque chose d'autre. Consultez le fichier journal de MultiMC pour plus de détails</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
