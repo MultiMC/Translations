@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2020-12-02 13:47\n"
+"PO-Revision-Date: 2021-01-05 13:32\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -105,7 +105,7 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr ""
+msgstr "<p>私たちはMultiMCをオープンソースとして維持しています。なぜなら、このようなプロジェクトのソースコードを見ることが重要だと考えているからです。私たちはApacheライセンスを使用しています。</p><p>Apacheライセンスを使用する理由の一部は、プロジェクトを再配布する際に&quot;MultiMC&quot;の名前を使わないようにするためです。これは、人々が時間をかけてソースコードをチェックし、&quot;MultiMC&quot;へのすべての参照を削除する必要があることを意味します。これには、プロジェクトアイコンとウィンドウのタイトル(タイトルに<b>MultiMCフォーク</b>が含まれていません)が含まれます。</p></b><p>Apacheライセンスでは、適切な名前の使用がカバーされています。これは、Aboutダイアログでプロジェクトの起源について言及したもので、ライセンスは受け入れられます。しかも、そのプロジェクトが我々の承認<b>なしに実施されたフォーク</b>であり、非常に明確です。</p>"
 
 #: src/application/pages/global/AccountListPage.ui:47
 msgctxt "AccountListPage|"
@@ -870,13 +870,13 @@ msgstr "パック マニフェストが解析できませんでした：\n"
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr ""
+msgstr "上書きフォルダの名前を変更できませんでした:"
 
 #: src/api/logic/InstanceImportTask.cpp:210
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr ""
+msgstr "指定された上書きフォルダ(%1)がありません。modpackは以前から使われていたのでしょうか?"
 
 #: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
@@ -887,7 +887,7 @@ msgstr "マニフェストに不明なModローダーがあります: %1"
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "パックのインポート中にMinecraftバージョンから謎のドットが削除されました。"
 
 #: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
@@ -904,7 +904,7 @@ msgstr "Mod ダウンロード"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
-msgstr ""
+msgstr "このフォルダは抽出が必要な場合があります: %1."
 
 #: src/api/logic/InstanceImportTask.cpp:329
 #, qt-format
@@ -916,7 +916,7 @@ msgstr "Modパックの中にさらにModパックが入ったものはサポー
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr ""
+msgstr "%1のパッケージタイプが認識できません"
 
 #: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
@@ -1355,7 +1355,7 @@ msgstr "オフラインプレイ"
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "ログイン中に不明のセッションステータスを受信しました。"
 
 #: src/application/LaunchController.cpp:162
 msgctxt "LaunchController|"
@@ -1400,7 +1400,7 @@ msgstr "プロファイラを開始できませんでした: %1"
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
-msgstr ""
+msgstr "ボタンを押すまで、ゲームの開始は遅れます。プロファイラサーバーが実行中なので、これはプロファイラを設定するのに適切なタイミングです。%1"
 
 #: src/application/LaunchController.cpp:247
 msgctxt "LaunchController|"
@@ -1443,13 +1443,13 @@ msgstr "これはインスタンスの破損を引き起こす可能性がある
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr ""
+msgstr "ログの長さが %1 行を超えたため、MultiMCはゲームログの監視を停止しました。ゲームがまだファイルにログインしていて、ハードドライブのスペースを危険なほどに浪費している可能性があるので、あなたの変更を修正する必要があるかもしれません。"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Wrapperのコマンド \"%1\" は見つかりませんでした。"
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
@@ -1476,12 +1476,12 @@ msgstr "ゲームバージョンでソート"
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "公開Modpack"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "サードパーティModpack"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
@@ -1491,12 +1491,12 @@ msgstr "プライベートModパック"
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "公開パック"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "サードパーティパック"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:88
 #, qt-format
@@ -1687,7 +1687,7 @@ msgstr "インスタンス %1 のライブラリ"
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "メタデータにnull jarが指定されています。中断します。"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:58
 #, qt-format
@@ -1696,7 +1696,7 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "'local'とマークされたアーティファクトのファイルがありません: %1 ファイルを追加するか、それらを必要とするパッケージを削除する必要があります。この問題は手動で修正する必要があります。"
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -1704,7 +1704,7 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr ""
+msgstr "ゲームの更新に失敗しました: 必要なライブラリを取得できませんでした。理由: %1"
 
 #: src/application/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
@@ -1775,18 +1775,18 @@ msgstr "Minecraftのログ"
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr ""
+msgstr "MultiMC: ログのアップロードがトリガされました: %1"
 
 #: src/application/pages/instance/LogPage.cpp:243
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr ""
+msgstr "MultiMC: ログが %1 へアップロードされました"
 
 #: src/application/pages/instance/LogPage.cpp:247
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr ""
+msgstr "MultiMC: ログアップロードが失敗しました!"
 
 #. Message displayed on instance exit
 #: src/api/logic/LoggedProcess.cpp:68
@@ -1896,7 +1896,7 @@ msgstr "フォルダ"
 #: src/application/MainWindow.cpp:286
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
-msgstr ""
+msgstr "インスタンス間で共有されているフォルダの1つを開きます。"
 
 #: src/application/MainWindow.cpp:301
 msgctxt "MainWindow|"
@@ -2918,8 +2918,7 @@ msgstr "本当にすべてのログファイルを削除しますか？"
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr "本当にこれらのファイルを削除しますか?\n"
-"%1"
+msgstr "本当にこれらのファイルを削除しますか?%1"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:255
 msgctxt "OtherLogsPage|"
@@ -3138,7 +3137,7 @@ msgstr "processArguments が不明な値 '%1' にセットされています"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr ""
+msgstr "このバージョン (%1) の'minimumLauncherVersion'値は、MultiMC (%2) でサポートされている値よりも大きくなっています。 正しく動作しない可能性があります。"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -3168,7 +3167,7 @@ msgstr "バージョンファイルにサポートされていない要素 \"-mi
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr ""
+msgstr "バージョンファイルにサポートされていない要素  \"+minecraftArguments\" があります"
 
 #: src/api/logic/minecraft/AssetsUtils.cpp:321
 #, qt-format
@@ -3205,7 +3204,7 @@ msgstr "バージョンファイル %1を処理できません。"
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr ""
+msgstr "無効なコンポーネントファイルのバージョンです。期待するバージョンは、%1です"
 
 #: src/api/logic/minecraft/World.cpp:50
 msgctxt "QObject|"
@@ -3323,27 +3322,27 @@ msgstr "ロールバック失敗!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "ファイル %1 を置き換えることができませんでした。変更は元に戻されます。詳細はMultiMCのログを参照してください。"
 
 #: src/application/UpdateController.cpp:376
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "ファイル %1 を削除できませんでした。変更は元に戻されます。詳細はMultiMCのログを参照してください。"
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
-msgstr ""
+msgstr "The new version didn't start or is too old and doesn't respond to startup checks. 前のバージョンにロールバックしますか?"
 
 #: src/application/UpdateController.cpp:406
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "ロールバックにも失敗しました。この問題は手動で修正する必要があります。なぜ、発生したのか、原因を教えてください。"
 
 #: src/application/MainWindow.cpp:1001
 msgctxt "QObject|"
@@ -3376,7 +3375,7 @@ msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr ""
+msgstr "JVMメモリオプションを(\"-XX:PermSize\",\"-XX-MaxHeapSize\",\"-XX:InitialHeapSize\",\"-Xmx\"または\"-Xms\"を使用して)手動で設定しようとしました。設定にはこれらのための専用のボックスがあります(上部のJavaタブのMemoryグループ)。このメッセージは、JVM引数から削除するまで表示されます。"
 
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
@@ -3394,7 +3393,7 @@ msgstr "Javaのテストに成功しました<br />プラットフォーム情�
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr ""
+msgstr "<br />修正に失敗しました:</b>%1</span><br />警告:<br /><font color=\"orange\">%1</font>"
 
 #: src/application/JavaCommon.cpp:34
 #: src/application/widgets/JavaSettingsWidget.cpp:318
@@ -3405,7 +3404,7 @@ msgstr "Javaのテストに成功しました"
 #: src/application/JavaCommon.cpp:42
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr ""
+msgstr "指定されたJavaバイナリは、指定された引数では動作しませんでした:<br />"
 
 #: src/application/JavaCommon.cpp:44 src/application/JavaCommon.cpp:53
 #: src/application/widgets/JavaSettingsWidget.cpp:318
@@ -3416,22 +3415,22 @@ msgstr "Javaのテストに失敗しました"
 #: src/application/JavaCommon.cpp:50
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr ""
+msgstr "指定されたJavaバイナリが動作しませんでした。<br />自動検出地物を使用するか、Java実行ファイルへのパスを設定してください。<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:281
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr ""
+msgstr "指定されたファイルは存在しないか、適切な実行可能ファイルではありません。"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:286
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
+msgstr "指定されたJavaバイナリが正しく起動しませんでした。<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:298
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
+msgstr "指定されたJavaバイナリは予期しない結果を返しました:<br />"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -3441,7 +3440,7 @@ msgstr "Minecraft サーバー"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append はGZIPではサポートされていません"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
@@ -3451,22 +3450,22 @@ msgstr "gzipの読み込みと書き込みはサポートされていません"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "gzipを読むためにも書くためにも開けますが、どっちですか？"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "ファイルを、 gzopen() できませんでした"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append  は、 QuaZIODeviceでサポートされません。"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite は、 QuaZIODevice でサポートされません"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
@@ -3512,7 +3511,7 @@ msgstr "リソースパック"
 #: src/application/pages/instance/ScreenshotsPage.ui:41
 msgctxt "ScreenshotsPage|"
 msgid "Actions"
-msgstr ""
+msgstr "アクション"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:59
 msgctxt "ScreenshotsPage|"
@@ -3652,7 +3651,7 @@ msgstr "ダウンロードしない"
 #: src/application/pages/instance/ServersPage.ui:130
 msgctxt "ServersPage|"
 msgid "Actions"
-msgstr ""
+msgstr "アクション"
 
 #: src/application/pages/instance/ServersPage.ui:154
 msgctxt "ServersPage|"
@@ -3682,7 +3681,7 @@ msgstr "サーバー"
 #: src/application/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "コンテキストメニュー"
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -3823,7 +3822,7 @@ msgstr "母国語"
 #: src/api/logic/translations/TranslationsModel.cpp:390
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
-msgstr ""
+msgstr "完全性は、完全に翻訳された文字列のパーセントです。自動的に推測されたものは含まれません。"
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -3871,7 +3870,7 @@ msgstr "閉じる"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>変更履歴の読み込み中...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
@@ -3942,7 +3941,7 @@ msgstr "バージョンが現在使用できません。"
 #: src/application/pages/instance/VersionPage.ui:64
 msgctxt "VersionPage|"
 msgid "Actions"
-msgstr ""
+msgstr "アクション"
 
 #: src/application/pages/instance/VersionPage.ui:107
 msgctxt "VersionPage|"
@@ -4404,7 +4403,7 @@ msgstr "ワールドを最後にプレイした日時"
 #: src/application/pages/instance/WorldListPage.ui:59
 msgctxt "WorldListPage|"
 msgid "Actions"
-msgstr ""
+msgstr "アクション"
 
 #: src/application/pages/instance/WorldListPage.ui:89
 msgctxt "WorldListPage|"
