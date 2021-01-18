@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2020-11-16 20:51\n"
+"PO-Revision-Date: 2021-01-18 17:39\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -179,7 +179,7 @@ msgstr "Povolit Analitiku"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:19
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
-msgstr ""
+msgstr "Probíhá aktualizace indexů..."
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:25
 #, qt-format
@@ -190,7 +190,7 @@ msgstr "Index herních souborů pro %1"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:68
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
-msgstr ""
+msgstr "Nepodařilo se přečíst indexy!"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
@@ -202,14 +202,16 @@ msgstr "Získávání souborů z Mojangu..."
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr ""
+msgstr "Nepodařilo se stáhnout indexy:\n"
+"%1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr ""
+msgstr "Nepodařilo se stáhnout assety:\n"
+"%1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
@@ -339,7 +341,8 @@ msgstr "Instance má nevyřešené závislosti, zatímco načítá/kontroluje sp
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr ""
+msgstr "Součást aktualizace metadat selhala při stahovaní ze vzdáleného serveru:\n"
+"%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -410,7 +413,7 @@ msgstr "Vlastní příkazy"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Příkaz wrapperu \"%1\" nebyl nalezen."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -875,7 +878,7 @@ msgstr "Nemohl jsem přejmenovat přepisovací složku:\n"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr ""
+msgstr "Daná přepisující složka (%1) chybí. Možná byl modpack již použit?"
 
 #: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
@@ -886,13 +889,13 @@ msgstr "Neznámý mod loader v manifestu: %1"
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "Při importu balíčku byly z Minecraft verze odstraněny tajemné koncové tečky."
 
 #: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr ""
+msgstr "Nebylo možno zmapovat doporučenou verzi forge pro Minecraft %1"
 
 #: src/api/logic/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
@@ -909,13 +912,13 @@ msgstr "Tato 'složka' může vyžadovat extrahování: %1"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr ""
+msgstr "Nestavování modpacků v modpaccích není implementováno, nic nebylo staženo: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:334
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr ""
+msgstr "Nerozpoznaný/nepodporovaný typ balíčku: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:354
 msgctxt "InstanceImportTask|"
@@ -957,7 +960,7 @@ msgstr "Otevřít globální nastavení"
 #: src/application/pages/instance/InstanceSettingsPage.ui:32
 msgctxt "InstanceSettingsPage|"
 msgid "The settings here are overrides for global settings."
-msgstr ""
+msgstr "Tato nastavení přepíší globální nastavení."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
@@ -1087,7 +1090,7 @@ msgstr "Najdi spustitelný soubor Javy"
 #: src/api/logic/InstanceList.cpp:776
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
-msgstr ""
+msgstr "Nepodařilo se commitnout instanci, i po několika pokusech. Něčím je blokováno."
 
 #: src/application/InstanceWindow.cpp:39
 msgctxt "InstanceWindow|"
@@ -1292,7 +1295,8 @@ msgstr "Java"
 msgctxt "JavaWizardPage|"
 msgid "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
-msgstr ""
+msgstr "Zatím nemáte funkční Java nastavení, nebo zmizelo.\n"
+"Vyberte prosím jeden z následujících nebo vyberte spustitelný soubor java."
 
 #: src/application/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
@@ -1303,7 +1307,7 @@ msgstr "Jazyk"
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr ""
+msgstr "Nevidíš svůj jazyk, nebo jeho kvalita je špatná?<br/><a href=\"%1\">pomož nám s překladem!</a>"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1318,7 +1322,7 @@ msgstr "Zvolte jazyk který bude používán v MultiMC"
 #: src/application/LaunchController.cpp:27
 msgctxt "LaunchController|"
 msgid "No instance specified!"
-msgstr ""
+msgstr "Žádná instance nebyla vybrána!"
 
 #: src/application/LaunchController.cpp:46
 msgctxt "LaunchController|"
@@ -1353,7 +1357,7 @@ msgstr "Hrát offline"
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Byl přijat neurčený stav relace během přihlášení."
 
 #: src/application/LaunchController.cpp:162
 msgctxt "LaunchController|"
@@ -1449,7 +1453,7 @@ msgstr "MultiMC přestal sledovat výpis z konzole, jelikož výpis přesáhl d�
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Příkaz wrapper \"%1\" nebyl nalezen."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
@@ -1502,7 +1506,7 @@ msgstr "Balíčky třetích stran"
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
+msgstr "Nepodařilo se stáhnout balíčky aktualizací: %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
 #, qt-format
@@ -1540,7 +1544,7 @@ msgstr "Nepodařilo se přesunout rozbalený minecraft!"
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "Nebyla nalezena žádná metoda instalace!"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
@@ -1575,7 +1579,7 @@ msgstr "Zvolená verze:"
 #: src/application/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr ""
+msgstr "FTB Legacy"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
 msgctxt "LegacyFTB::Page|"
@@ -1696,7 +1700,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "Některým artefaktům označeným jako 'lokální' chybí jejich soubory:\n"
+"%1\n\n"
+"Je třeba přidat tyto soubory, nebo odebrat balíčky, které je vyžadují.\n"
+"Tento problém budete muset opravit ručně."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -3136,33 +3143,33 @@ msgstr "Patch není zatím nahrán."
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "processArguments je nastaven na neznámou hodnotu '%1'"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:178
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr ""
+msgstr "Hodnota 'minimumLauncherVersion' této verze (%1) je vyšší, než podporována MultiMC (%2). Nemusí fungovat správně!"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr ""
+msgstr "Soubor verze obsahuje '+libraries' a 'libraries'. Toto již není podporováno."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
-msgstr ""
+msgstr "Soubor verze obsahuje nepodporovaný prvek 'tweakers'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
+msgstr "Soubor verze obsahuje nepodporovaný prvek '-libraries'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:237
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
+msgstr "Soubor verze obsahuje nepodporovaný prvek '-tweakers'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:241
 msgctxt "QObject|"
@@ -3172,7 +3179,7 @@ msgstr "Verze soubor obsahuje nepodporovaný prvek '-minecraftArguments'"
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr ""
+msgstr "Soubor verze obsahuje nepodporovaný prvek '+minecraftArguments'"
 
 #: src/api/logic/minecraft/AssetsUtils.cpp:321
 #, qt-format
@@ -3467,7 +3474,7 @@ msgstr "Gzip lze otevřít pouze pro čtení nebo zapisování. Který to je?"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "Soubor nebylo možno otevřít použitím gzopen()"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
