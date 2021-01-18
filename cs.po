@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2021-01-18 17:21\n"
+"PO-Revision-Date: 2021-01-18 17:32\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -1321,7 +1321,7 @@ msgstr "Zvolte jazyk který bude používán v MultiMC"
 #: src/application/LaunchController.cpp:27
 msgctxt "LaunchController|"
 msgid "No instance specified!"
-msgstr ""
+msgstr "Žádná instance nebyla vybrána!"
 
 #: src/application/LaunchController.cpp:46
 msgctxt "LaunchController|"
@@ -1356,7 +1356,7 @@ msgstr "Hrát offline"
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Byl přijat neurčený stav relace během přihlášení."
 
 #: src/application/LaunchController.cpp:162
 msgctxt "LaunchController|"
@@ -1452,7 +1452,7 @@ msgstr "MultiMC přestal sledovat výpis z konzole, jelikož výpis přesáhl d�
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Příkaz wrapper \"%1\" nebyl nalezen."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
@@ -1505,7 +1505,7 @@ msgstr "Balíčky třetích stran"
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
+msgstr "Nepodařilo se stáhnout balíčky aktualizací: %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
 #, qt-format
@@ -1699,7 +1699,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "Některým artefaktům označeným jako 'lokální' chybí jejich soubory:\n"
+"%1\n\n"
+"Je třeba přidat tyto soubory, nebo odebrat balíčky, které je vyžadují.\n"
+"Tento problém budete muset opravit ručně."
 
 #: src/api/logic/minecraft/update/LibrariesTask.cpp:75
 #, qt-format
@@ -3139,33 +3142,33 @@ msgstr "Patch není zatím nahrán."
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr ""
+msgstr "processArguments je nastaven na neznámou hodnotu '%1'"
 
 #: src/api/logic/minecraft/MojangVersionFormat.cpp:178
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr ""
+msgstr "Hodnota 'minimumLauncherVersion' této verze (%1) je vyšší, než podporována MultiMC (%2). Nemusí fungovat správně!"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr ""
+msgstr "Soubor verze obsahuje '+libraries' a 'libraries'. Toto již není podporováno."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
-msgstr ""
+msgstr "Soubor verze obsahuje nepodporovaný prvek 'tweakers'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
+msgstr "Soubor verze obsahuje nepodporovaný prvek '-libraries'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:237
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
+msgstr "Soubor verze obsahuje nepodporovaný prvek '-tweakers'"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:241
 msgctxt "QObject|"
@@ -3175,7 +3178,7 @@ msgstr "Verze soubor obsahuje nepodporovaný prvek '-minecraftArguments'"
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr ""
+msgstr "Soubor verze obsahuje nepodporovaný prvek '+minecraftArguments'"
 
 #: src/api/logic/minecraft/AssetsUtils.cpp:321
 #, qt-format
@@ -3470,7 +3473,7 @@ msgstr "Gzip lze otevřít pouze pro čtení nebo zapisování. Který to je?"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "Soubor nebylo možno otevřít použitím gzopen()"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
