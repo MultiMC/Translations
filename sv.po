@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
-"PO-Revision-Date: 2021-02-11 22:08\n"
+"PO-Revision-Date: 2021-02-11 22:16\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -385,7 +385,7 @@ msgstr "Egna kommandon"
 #: src/application/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr "Efter-Läming kommando:"
+msgstr "Efter avslutskommando:"
 
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
@@ -395,12 +395,12 @@ msgstr "Innan-start Kommando:"
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "Omslags kommando:"
+msgstr "Omslutningskommando:"
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Innan start kommando körs innan instansen har startats och efter stängnings kommandot körs efter den har stängts</p><p>Båda kommer att köra i MultiMC's Funktioner Mapp med extra miljö variabler:</p><ul><li>$INST_NAME- Namnet av instansen</li><li>$INST_ID-ID av instansen (Mappens namn)</li><li>$INST_DIR- Absoluta vägen av instansen</li><li>$INST_MC_DIR-Absoluta vägen av minecraft</li><li>$INST_JAVA- Java binär används för starten.</li><li>$INST_JAVA_ARGS-Command-line parameters som används åt stard</li></ul><p>Omslag kommando tillåter start men användning av en extra omslag program(som 'optirun' på linux)</p></body></html>"
+msgstr "<html><head/><body><p>Före-start kommando körs innan instansen har startats och efter stängnings kommandot körs efter den har avslutats</p><p>Båda kommer att köras i MultiMC's funktionsmapp med extra miljövariabler:</p><ul><li>$INST_NAME- Namnet på instansen</li><li>$INST_ID-ID av instansen (Mappnamnet)</li><li>$INST_DIR- Absoluta sökvägen till instansen</li><li>$INST_MC_DIR-Absoluta sökvägen till minecraft</li><li>$INST_JAVA- Javabinär som används för starten.</li><li>$INST_JAVA_ARGS-Command-line parametrar som används vid start</li></ul><p>Omslutningskommando tillåter start men användning av en extra omslutningsprogram(som 'optirun' på linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -411,7 +411,7 @@ msgstr "Egna Kommandon"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Omslags kommando \"%1\" hittades inte."
+msgstr "Omslutningskommando \"%1\" hittades inte."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -423,7 +423,7 @@ msgstr "Kunde inte starta Minecraft!"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr "Minecraft process ID: %1 \n\n"
+msgstr "Minecrafts processidentifierare: %1 \n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -496,7 +496,7 @@ msgstr "Externa verktyg"
 #: src/application/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr "JProfiler Mapp"
+msgstr "JProfiler-mapp"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -532,7 +532,7 @@ msgstr "JProfiler inställningarna verkar vara okej"
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr "JVisualVM Applikationen"
+msgstr "JVisualVM-applikationen"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -551,12 +551,12 @@ msgstr "JVisualVM inställningarna verkar vara okej"
 #: src/application/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr "MCEdit Applikationen"
+msgstr "MCEdit-applikationen"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "MCEdit Mapp"
+msgstr "MCEdit-mapp"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -570,12 +570,12 @@ msgstr "Ett fel uppträde vid kontroll av MCEdit:\n"
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
-msgstr "MCEdit inställningarna verkar vara okej"
+msgstr "MCEdit-inställningarna verkar vara okej"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:202
 msgctxt "ExternalToolsPage|"
 msgid "JSON Editor"
-msgstr "JSON Redigerare"
+msgstr "JSON-redigerare"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:224
 msgctxt "ExternalToolsPage|"
