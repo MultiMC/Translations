@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
-"PO-Revision-Date: 2021-02-13 16:25\n"
+"PO-Revision-Date: 2021-02-19 13:53\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -385,33 +385,33 @@ msgstr "Egna kommandon"
 #: src/application/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr "Efter avslutskommando:"
+msgstr "Efter-avslutskommando:"
 
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
-msgstr "Innan-start Kommando:"
+msgstr "Före-startskommando:"
 
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "Omslutningskommando:"
+msgstr "Wrapper-kommando:"
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Före-start kommando körs innan instansen har startats och efter stängnings kommandot körs efter den har avslutats</p><p>Båda kommer att köras i MultiMC's funktionsmapp med extra miljövariabler:</p><ul><li>$INST_NAME- Namnet på instansen</li><li>$INST_ID-ID av instansen (Mappnamnet)</li><li>$INST_DIR- Absoluta sökvägen till instansen</li><li>$INST_MC_DIR-Absoluta sökvägen till minecraft</li><li>$INST_JAVA- Javabinär som används för starten.</li><li>$INST_JAVA_ARGS-Command-line parametrar som används vid start</li></ul><p>Omslutningskommando tillåter start men användning av en extra omslutningsprogram(som 'optirun' på linux)</p></body></html>"
+msgstr "<html><head/><body><p>Före-start-kommandot körs innan instansen har startats och efter stängningskommandot körs efter den har avslutats</p><p>Båda kommer att köras i MultiMC's funktionsmapp med extra miljövariabler:</p><ul><li>$INST_NAME- Namnet på instansen</li><li>$INST_ID-ID av instansen (Mappnamnet)</li><li>$INST_DIR- Absoluta sökvägen till instansen</li><li>$INST_MC_DIR-Absoluta sökvägen till minecraft</li><li>$INST_JAVA- Javabinär som används för starten.</li><li>$INST_JAVA_ARGS-Command-line parametrar som används vid start</li></ul><p>Wrapper-kommando tillåter start med användning av ett extra wrapper-program(som 'optirun' på linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr "Egna Kommandon"
+msgstr "Egna kommandon"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Omslutningskommando \"%1\" hittades inte."
+msgstr "Wrapper-kommando \"%1\" hittades inte."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -1775,7 +1775,7 @@ msgstr "Botten"
 #: src/application/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr "Minecraftloggen"
+msgstr "Minecraft-logg"
 
 #: src/application/pages/instance/LogPage.cpp:239
 #, qt-format
@@ -2072,7 +2072,7 @@ msgstr "Redigera anteckningar för den utvalda instansen."
 #: src/application/MainWindow.cpp:502
 msgctxt "MainWindow|"
 msgid "View Worlds"
-msgstr "Visa Världar"
+msgstr "Visa världar"
 
 #: src/application/MainWindow.cpp:503
 msgctxt "MainWindow|"
@@ -2082,7 +2082,7 @@ msgstr "Visa denna instansens världar."
 #: src/application/MainWindow.cpp:509
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
-msgstr "Hantera Skärmdumpar"
+msgstr "Hantera skärmdumpar"
 
 #: src/application/MainWindow.cpp:510
 msgctxt "MainWindow|"
@@ -2102,7 +2102,7 @@ msgstr "Ändra den utvalda instansens grupp."
 #: src/application/MainWindow.cpp:525
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
-msgstr "Minecraftmappen"
+msgstr "Minecraft-mapp"
 
 #: src/application/MainWindow.cpp:526
 msgctxt "MainWindow|"
@@ -2122,7 +2122,7 @@ msgstr "Öppna instansens konfigurationsmapp."
 #: src/application/MainWindow.cpp:539
 msgctxt "MainWindow|"
 msgid "Instance Folder"
-msgstr "Mapp för instansen"
+msgstr "Instansmapp"
 
 #: src/application/MainWindow.cpp:540
 msgctxt "MainWindow|"
@@ -2968,7 +2968,7 @@ msgstr "Klistra in din egna API-nyckel här!"
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a>används av MultiMC för logguppladdningar. Om du har ett <a href=\"https://paste.ee\">paste.ee</a>-konto, kan du lägga till din API-nyckel här och ha dina uppladdade loggar synkade med ditt konto.</p></body></html>"
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> används av MultiMC för logguppladdningar. Om du har ett <a href=\"https://paste.ee\">paste.ee</a>-konto kan du lägga till din API-nyckel här och ha dina uppladdade loggar synkade med ditt konto.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
