@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2021-02-21 13:45\n"
+"PO-Revision-Date: 2021-02-21 14:05\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -402,7 +402,7 @@ msgstr "Команда обгортки:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Команда перед запуском виконується перед стартом збірки, а після завершення процесу гри виконується команда після виходу. </p><p>Обидві команди будуть виконуватись в робочому каталозі MultiMC з додатковими змінними середовища:</p><ul><li>$INST_NAME - Ім'я збірки</li><li>$INST_ID - ID збірки (назва її каталогу)</li><li>$INST_DIR - абсолютний шлях збірки</li><li>$INST_MC_DIR - абсолютний шлях Minecraft</li><li>$INST_JAVA - програма java, використовувана при запускові</li><li>$INST_JAVA_ARGS - аргументи командного рядка, використовувані при запускові</li></ul><p>Команда обгортки дозволяє запускати Java, використовуючи зовнішню програму-обгортку (наприклад 'optirun' на Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -425,7 +425,7 @@ msgstr "Не вдалося запустити minecraft!"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "ID процесу Minecraft: %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -553,7 +553,7 @@ msgstr "Налаштування JVisualVM здається виконано у�
 #: src/application/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr ""
+msgstr "Застосунок MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
