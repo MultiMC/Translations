@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2021-02-21 23:55\n"
+"PO-Revision-Date: 2021-02-22 15:51\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -377,7 +377,7 @@ msgstr "Без групи"
 #: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
 msgctxt "CreateServerResourcePacksFolder|"
 msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr "Не вдається створити каталог 'server-resource-packs'"
+msgstr "Не вдається створити теку 'server-resource-packs'"
 
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -402,7 +402,7 @@ msgstr "Команда обгортки:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Команда перед запуском виконується перед стартом збірки, а після завершення процесу гри виконується команда після виходу. </p><p>Обидві команди будуть виконуватись в робочому каталозі MultiMC з додатковими змінними середовища:</p><ul><li>$INST_NAME - Ім'я збірки</li><li>$INST_ID - ID збірки (назва її каталогу)</li><li>$INST_DIR - абсолютний шлях збірки</li><li>$INST_MC_DIR - абсолютний шлях Minecraft</li><li>$INST_JAVA - програма java, використовувана при запускові</li><li>$INST_JAVA_ARGS - аргументи командного рядка, використовувані при запускові</li></ul><p>Команда обгортки дозволяє запускати Java, використовуючи зовнішню програму-обгортку (наприклад 'optirun' на Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Команда перед запуском виконується перед стартом збірки, а після завершення процесу гри виконується команда після виходу. </p><p>Обидві команди будуть виконуватись в робочій теці MultiMC з додатковими змінними середовища:</p><ul><li>$INST_NAME - Ім'я збірки</li><li>$INST_ID - ID збірки (назва її каталогу)</li><li>$INST_DIR - абсолютний шлях збірки</li><li>$INST_MC_DIR - абсолютний шлях Minecraft</li><li>$INST_JAVA - програма java, використовувана при запускові</li><li>$INST_JAVA_ARGS - аргументи командного рядка, використовувані при запускові</li></ul><p>Команда обгортки дозволяє запускати Java, використовуючи зовнішню програму-обгортку (наприклад 'optirun' на Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -498,7 +498,7 @@ msgstr "Зовнішні інструменти"
 #: src/application/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr "Каталог JProfiler"
+msgstr "Тека JProfiler"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -558,7 +558,7 @@ msgstr "Застосунок MCEdit"
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr "Каталог MCEdit"
+msgstr "Тека MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -613,7 +613,7 @@ msgstr "Копіювання бібліотек FML в збірку..."
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "Не вдалося створити каталог бібліотеки FML в збірці."
+msgstr "Не вдалося створити теку бібліотеки FML в збірці."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
 #, qt-format
@@ -646,7 +646,7 @@ msgstr "Не вдалося виправити деякі проблеми з і
 #: src/api/logic/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr "Не вдалося створити каталог для виконавчих файлів minecraft."
+msgstr "Не вдалося створити теку для виконавчих файлів minecraft."
 
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -748,7 +748,7 @@ msgstr "Видалити іконку"
 #: src/application/dialogs/IconPickerDialog.cpp:75
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
-msgstr "Відкрити каталог"
+msgstr "Відкрити теку"
 
 #. The title of the select icons open file dialog
 #: src/application/dialogs/IconPickerDialog.cpp:105
@@ -806,12 +806,12 @@ msgstr "Копіювання збірки %1"
 #: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
-msgstr "Не вдалося скопіювати каталог збірки."
+msgstr "Не вдалося скопіювати теку збірки."
 
 #: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "Копіювання каталогу збірки було відмінено."
+msgstr "Копіювання теки збірки було відмінено."
 
 #: src/api/logic/InstanceCreationTask.cpp:16
 #, qt-format
@@ -872,24 +872,24 @@ msgstr "Не вдалося зрозуміти маніфест пакету:\n"
 #: src/api/logic/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr ""
+msgstr "Не вдалося перейменувати теку перевизначення:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:210
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr ""
+msgstr "Відсутня вказана тека перевизначень (%1). Можливо, мод-пак уже використовувався раніше?"
 
 #: src/api/logic/InstanceImportTask.cpp:224
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "Невідомий завантажувач модів в маніфесті: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "Таємничі кінцеві точки видалені із версії Minecraft під час імпортування пакету."
 
 #: src/api/logic/InstanceImportTask.cpp:253
 #, qt-format
@@ -2318,7 +2318,7 @@ msgstr ""
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:368
 msgctxt "ModFolderModel|"
 msgid "Folder"
-msgstr ""
+msgstr "Тека"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
