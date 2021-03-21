@@ -13,7 +13,90 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
-"PO-Revision-Date: 2020-09-05 18:05\n"
+"PO-Revision-Date: 2021-03-21 21:00\n"
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Could not understand pack manifest:\n"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:76
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:82
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:157
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to get local metadata index for "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:144
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown mod type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:274
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown or unsupported download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:367
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Downloading configs..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:368
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Config download"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:400
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Extracting configs..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:407
+#, qt-format
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to open pack configs %1!"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:426
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Downloading mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:429
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Mod download"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:440
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unsupported download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:446
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:545
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to extract mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Extracting mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:618
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Installing modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:655
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown loader type: "
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -52,8 +135,8 @@ msgstr "<html><head/><body><p>MultiMC adalah sebuah peluncur khusus yang dapat m
 
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
-msgid "© 2012-2019 MultiMC Contributors"
-msgstr "Hak Cipta 2012-2019 Kontributor MultiMC"
+msgid "© 2012-2021 MultiMC Contributors"
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -80,27 +163,27 @@ msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "Tutup"
 
-#: src/application/dialogs/AboutDialog.cpp:88
+#: src/application/dialogs/AboutDialog.cpp:89
 msgctxt "AboutDialog|"
 msgid "Version"
 msgstr "Versi"
 
-#: src/application/dialogs/AboutDialog.cpp:89
+#: src/application/dialogs/AboutDialog.cpp:90
 msgctxt "AboutDialog|"
 msgid "Platform"
 msgstr "Platform"
 
-#: src/application/dialogs/AboutDialog.cpp:92
+#: src/application/dialogs/AboutDialog.cpp:93
 msgctxt "AboutDialog|"
 msgid "Build Number"
 msgstr "Nomor Bentukan"
 
-#: src/application/dialogs/AboutDialog.cpp:97
+#: src/application/dialogs/AboutDialog.cpp:98
 msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "Saluran"
 
-#: src/application/dialogs/AboutDialog.cpp:101
+#: src/application/dialogs/AboutDialog.cpp:102
 msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
@@ -109,52 +192,78 @@ msgstr "<p>Kami menjaga MultiMC untuk tetap menjadi sumber terbuka karena kami p
 "<p>Salah satu dari alasan kenapa untuk menggunakan lisensi Apache adalah karena kami tidak ingin orang untuk menggunakan nama&quot;MultiMC&quot; disaat mendistribusikan proyek tersebut. Ini berarti setiap orang harus menghabiskan waktu untuk menelusuri kedalam kode sumber dan menghapus semua referensi yang merujuk ke &quot;MultiMC&quot;,termasuk tapi tidak terbatas ke ikon proyek dan judul dari jendela,(bukan<b>cabang-MultiMC</b>di dalam judul).</p>\n"
 "<p>Lisensi Apache mencakup penggunaan nama yang sewajarnya - dalam menyebutkan dari sebuah asal usul proyek di dialog bagian tentang dan lisensi tersebut dapat diterima. Namun, proyek cabang ini harus jelas dalam menjelaskan bahwa proyek ini adalah sebuah cabang <b>yang</b> berarti anda mendapatkan restu kami.</p>"
 
-#: src/application/pages/global/AccountListPage.ui:47
+#: src/application/pages/global/AccountListPage.ui:49
 msgctxt "AccountListPage|"
 msgid "Add"
 msgstr "Tambah"
 
-#: src/application/pages/global/AccountListPage.ui:52
+#: src/application/pages/global/AccountListPage.ui:54
 msgctxt "AccountListPage|"
 msgid "Remove"
 msgstr "Hapus"
 
-#: src/application/pages/global/AccountListPage.ui:57
+#: src/application/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
 msgid "Set Default"
 msgstr "Jadikan Default"
 
-#: src/application/pages/global/AccountListPage.ui:65
+#: src/application/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
 msgid "No Default"
 msgstr "Tidak Default"
 
-#: src/application/pages/global/AccountListPage.ui:70
+#: src/application/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
 msgstr "Unggah Skin"
+
+#: src/application/pages/global/AccountListPage.ui:77
+msgctxt "AccountListPage|"
+msgid "Delete Skin"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.ui:80
+msgctxt "AccountListPage|"
+msgid "Delete the currently active skin and go back to the default one"
+msgstr ""
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
 msgstr "Akun"
 
-#: src/application/pages/global/AccountListPage.cpp:41
+#: src/application/pages/global/AccountListPage.cpp:43
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
 msgstr "Selamat Datang!\n"
 "Jika anda baru disini, anda dapat menekan tombol \"tambah\" untuk menambahkan akun Mojang atau Minecraft anda."
 
-#: src/application/pages/global/AccountListPage.cpp:77
+#: src/application/pages/global/AccountListPage.cpp:79
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "Menu Konteks"
 
-#: src/application/pages/global/AccountListPage.cpp:106
+#: src/application/pages/global/AccountListPage.cpp:108
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
 msgstr "Mohon masukkan email dan kata sandi akun Minecraft anda untuk menambahkan akun anda."
+
+#: src/application/pages/global/AccountListPage.cpp:209
+#: src/application/pages/global/AccountListPage.cpp:214
+msgctxt "AccountListPage|"
+msgid "Skin Delete"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:209
+msgctxt "AccountListPage|"
+msgid "Failed to login!"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:214
+msgctxt "AccountListPage|"
+msgid "Failed to delete current skin!"
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -213,6 +322,46 @@ msgid "Failed to download assets:\n"
 msgstr "Gagal mengunduh aset:\n"
 "%1"
 
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
+msgctxt "Atl::FilterModel|"
+msgid "Sort by popularity"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
+msgctxt "Atl::FilterModel|"
+msgid "Sort by name"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
+msgctxt "Atl::FilterModel|"
+msgid "Sort by game version"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
+msgctxt "AtlPage|"
+msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
+msgctxt "AtlPage|"
+msgid "Version selected:"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:71
+msgctxt "AtlPage|"
+msgid "Reset"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:78
+msgctxt "AtlPage|"
+msgid "Search and filter ..."
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.h:43
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
+
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
@@ -252,69 +401,6 @@ msgstr "Autentikasi: Mengolah respon..."
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
 msgstr "Profiler dibatalkan"
-
-#: src/api/logic/java/launch/CheckJava.cpp:36
-#, qt-format
-msgctxt "CheckJava|"
-msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr "Pemasangan java pada %1 tidak dapat ditemukan. Mohon perbaiki letaki java dan timpa di pengaturan instansi atau nonaktifkan."
-
-#: src/api/logic/java/launch/CheckJava.cpp:42
-#, qt-format
-msgctxt "CheckJava|"
-msgid "The java binary \"%1\" couldn't be found. Please set up java in the settings."
-msgstr "Pemasangan java pada \"%1\" tidak dapat ditemukan. Mohon atur java di dalam pengaturan."
-
-#: src/api/logic/java/launch/CheckJava.cpp:46
-msgctxt "CheckJava|"
-msgid "Java path is not valid."
-msgstr "Jalur java tidak sah."
-
-#: src/api/logic/java/launch/CheckJava.cpp:64
-msgctxt "CheckJava|"
-msgid "Checking Java version..."
-msgstr "Memeriksa versi Java..."
-
-#: src/api/logic/java/launch/CheckJava.cpp:86
-msgctxt "CheckJava|"
-msgid "Could not start java:"
-msgstr "Tidak dapat memulai java:"
-
-#: src/api/logic/java/launch/CheckJava.cpp:90
-msgctxt "CheckJava|"
-msgid "Could not start java!"
-msgstr "Tidak dapat memulai java!"
-
-#: src/api/logic/java/launch/CheckJava.cpp:95
-msgctxt "CheckJava|"
-msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr "Pengecek Java kembali dengan beberapa data tidak sah,MultiMC tidak dapat mengerti:"
-
-#: src/api/logic/java/launch/CheckJava.cpp:117
-#, qt-format
-msgctxt "CheckJava|"
-msgid "Java is version %1, using %2-bit architecture.\n\n"
-msgstr "Versi Java %1, Menggunakan arsitektur %2-bit.\n\n"
-
-#: src/api/logic/java/launch/CheckJava.cpp:127
-msgctxt "CheckJava|"
-msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr "Arsitektur CPU anda tidak sesuai dengan arsitektur sistem anda. Anda mungkin ingin menginstall Sistem Operasi 64bit.\n\n"
-
-#: src/api/logic/java/launch/CheckJava.cpp:133
-msgctxt "CheckJava|"
-msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr "Arsitektur Java anda tidak sesuai dengan arsitektur sistem anda. Anda mungkin ingin menginstall Java versi 64bit.\n\n"
-
-#: src/api/logic/minecraft/ComponentList.cpp:852
-msgctxt "ComponentList|"
-msgid "Name"
-msgstr "Nama"
-
-#: src/api/logic/minecraft/ComponentList.cpp:854
-msgctxt "ComponentList|"
-msgid "Version"
-msgstr "Versi"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
@@ -373,11 +459,6 @@ msgstr "Simpan waktu bermain"
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
 msgstr "Tidak ada grup"
-
-#: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
-msgctxt "CreateServerResourcePacksFolder|"
-msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr "Tidak dapat membuat folder 'server-resource-packs'"
 
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -589,39 +670,39 @@ msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "File yang dipilih tampaknya tidak dapat dieksekusi"
 
-#: src/api/logic/minecraft/launch/ExtractNatives.cpp:86
+#: src/api/logic/minecraft/launch/ExtractNatives.cpp:97
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
 msgstr "Tidak dapat mengekstrak jar asli '%1' ke tujuan '%2'"
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:37
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
 msgstr "Memeriksa perpustakaan FML..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:61
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
 msgstr "Mengunduh perpustakaan FML..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:88
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
 msgstr "Menyalin perpustakaan FML kedalam instansi..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:99
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
 msgstr "Gagal membuat folder perpustakaan FML didalam instansi."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:104
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
 msgstr "Gagal menyalin perpustakaan FML/Forge: %1."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:117
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed to download the following files:\n"
@@ -648,6 +729,36 @@ msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
 msgstr "Gagal membuat folder untuk binari minecraft."
 
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:13
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by plays"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:14
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by installs"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:15
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by name"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.ui:22
+msgctxt "FtbPage|"
+msgid "Version selected:"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.ui:40
+msgctxt "FtbPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.h:43
+msgctxt "FtbPage|"
+msgid "FTB"
+msgstr ""
+
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
@@ -663,25 +774,36 @@ msgctxt "GameOptionsPage|"
 msgid "Game Options"
 msgstr "Opsi Game"
 
-#: src/api/logic/minecraft/World.cpp:40
+#: src/api/logic/minecraft/World.cpp:69
 msgctxt "GameType|"
 msgid "Survival"
 msgstr "Bertahan Hidup"
 
-#: src/api/logic/minecraft/World.cpp:42
+#: src/api/logic/minecraft/World.cpp:71
 msgctxt "GameType|"
 msgid "Creative"
 msgstr "Kreatif"
 
-#: src/api/logic/minecraft/World.cpp:44
+#: src/api/logic/minecraft/World.cpp:73
 msgctxt "GameType|"
 msgid "Adventure"
 msgstr "Petualangan"
 
-#: src/api/logic/minecraft/World.cpp:46
+#: src/api/logic/minecraft/World.cpp:75
 msgctxt "GameType|"
 msgid "Spectator"
 msgstr "Penonton"
+
+#: src/api/logic/minecraft/World.cpp:80
+#, qt-format
+msgctxt "GameType|"
+msgid "Unknown (%1)"
+msgstr ""
+
+#: src/api/logic/minecraft/World.cpp:82
+msgctxt "GameType|"
+msgid "Undefined"
+msgstr ""
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
@@ -819,7 +941,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "Membuat instansi dari versi %1"
 
-#: src/api/logic/InstanceImportTask.cpp:35
+#: src/api/logic/InstanceImportTask.cpp:50
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -827,105 +949,105 @@ msgid "Downloading modpack:\n"
 msgstr "Mengunduh modpack:\n"
 "%1"
 
-#: src/api/logic/InstanceImportTask.cpp:41
+#: src/api/logic/InstanceImportTask.cpp:56
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Unduh modpack"
 
-#: src/api/logic/InstanceImportTask.cpp:71
+#: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Mengekstrak Modpack"
 
-#: src/api/logic/InstanceImportTask.cpp:79
+#: src/api/logic/InstanceImportTask.cpp:94
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Tidak dapat membuka file zip modpack yang disediakan."
 
-#: src/api/logic/InstanceImportTask.cpp:104
-#: src/api/logic/InstanceImportTask.cpp:165
+#: src/api/logic/InstanceImportTask.cpp:127
+#: src/api/logic/InstanceImportTask.cpp:191
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "Berkas tidak berisi tipe modpack yang diketahui."
 
-#: src/api/logic/InstanceImportTask.cpp:120
+#: src/api/logic/InstanceImportTask.cpp:143
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Gagal mengekstrak modpack"
 
-#: src/api/logic/InstanceImportTask.cpp:147
+#: src/api/logic/InstanceImportTask.cpp:170
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Tidak dapat memperbaiki perizinan untuk %1"
 
-#: src/api/logic/InstanceImportTask.cpp:172
+#: src/api/logic/InstanceImportTask.cpp:198
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Proses impor instansi telah dibatalkan."
 
-#: src/api/logic/InstanceImportTask.cpp:193
+#: src/api/logic/InstanceImportTask.cpp:219
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Tidak dapat memahami manifest paket:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:204
+#: src/api/logic/InstanceImportTask.cpp:230
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Tidak dapat menamai ulang folder yang bertindihan:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:210
+#: src/api/logic/InstanceImportTask.cpp:236
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "Folder override (%1) yang ditentukan tidak ada. Mungkin modpack pernah digunakan sebelumnya?"
 
-#: src/api/logic/InstanceImportTask.cpp:224
+#: src/api/logic/InstanceImportTask.cpp:250
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "Mod loader tidak dikenal dalam manifes: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:237
+#: src/api/logic/InstanceImportTask.cpp:263
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "Titik jejak misterius dihapus dari versi Minecraft saat mengimpor paket."
 
-#: src/api/logic/InstanceImportTask.cpp:253
+#: src/api/logic/InstanceImportTask.cpp:279
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Tidak dapat memetakan versi forge yang direkomendasikan untuk Minecraft %1"
 
-#: src/api/logic/InstanceImportTask.cpp:301
+#: src/api/logic/InstanceImportTask.cpp:327
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Unduh Mod"
 
-#: src/api/logic/InstanceImportTask.cpp:317
+#: src/api/logic/InstanceImportTask.cpp:343
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "'Folder' ini mungkin perlu diekstrak: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:329
+#: src/api/logic/InstanceImportTask.cpp:355
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "Modpack bersarang di modpack tidak diimplementasikan, tidak ada yang diunduh: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:334
+#: src/api/logic/InstanceImportTask.cpp:360
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "PackageType tidak dikenal / tidak ditangani untuk: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:354
+#: src/api/logic/InstanceImportTask.cpp:380
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Mengunduh mod..."
 
-#: src/api/logic/InstanceImportTask.cpp:361
+#: src/api/logic/InstanceImportTask.cpp:387
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "Tidak dapat menyelesaikan ID mod:\n"
@@ -1072,17 +1194,37 @@ msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "Perintah Kustom"
 
+#: src/application/pages/instance/InstanceSettingsPage.ui:369
+msgctxt "InstanceSettingsPage|"
+msgid "Workarounds"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:378
+msgctxt "InstanceSettingsPage|"
+msgid "Native libraries"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:390
+msgctxt "InstanceSettingsPage|"
+msgid "Use system installation of GLFW"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:397
+msgctxt "InstanceSettingsPage|"
+msgid "Use system installation of OpenAL"
+msgstr ""
+
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Pengaturan"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:228
+#: src/application/pages/instance/InstanceSettingsPage.cpp:247
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "Pilih versi Java"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:246
+#: src/application/pages/instance/InstanceSettingsPage.cpp:265
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Cari file Java"
@@ -1117,19 +1259,19 @@ msgctxt "InstanceWindow|"
 msgid "Kill"
 msgstr "Matikan"
 
-#: src/application/InstanceWindow.cpp:126
+#: src/application/InstanceWindow.cpp:127
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
 msgstr "Matikan instansi yang sedang berjalan"
 
-#: src/application/InstanceWindow.cpp:131
-#: src/application/InstanceWindow.cpp:138
+#: src/application/InstanceWindow.cpp:132
+#: src/application/InstanceWindow.cpp:140
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Jalankan"
 
-#: src/application/InstanceWindow.cpp:132
-#: src/application/InstanceWindow.cpp:139
+#: src/application/InstanceWindow.cpp:134
+#: src/application/InstanceWindow.cpp:142
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
 msgstr "Jalankan instansi"
@@ -1540,7 +1682,7 @@ msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
 msgstr "Gagal untuk memindahkan hasil ekstrak dari minecraft!"
 
-#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:186
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
 msgstr "Tidak ada metode instalasi yang dapat ditemukan!"
@@ -1692,7 +1834,7 @@ msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
 msgstr "Jar kosong ditentukan dalam metadata, membatalkan."
 
-#: src/api/logic/minecraft/update/LibrariesTask.cpp:58
+#: src/api/logic/minecraft/update/LibrariesTask.cpp:59
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Some artifacts marked as 'local' are missing their files:\n"
@@ -1704,7 +1846,7 @@ msgstr "Beberapa artefak yang ditandai sebagai 'lokal' kehilangan file nya:\n"
 "Anda perlu menambahkan file, atau menghapus paket yang membutuhkannya.\n"
 "Anda harus memperbaiki masalah ini secara manual."
 
-#: src/api/logic/minecraft/update/LibrariesTask.cpp:75
+#: src/api/logic/minecraft/update/LibrariesTask.cpp:76
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
@@ -1851,7 +1993,7 @@ msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "Matikan instansi yang sedang berjalan"
 
-#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:955
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:957
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Jalankan"
@@ -1896,7 +2038,7 @@ msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Buka folder utama mod di dalam browser."
 
-#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:625
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:627
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Folder"
@@ -1956,7 +2098,7 @@ msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "Lihat informasi mengenai MultiMC."
 
-#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:626
+#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:628
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Bantuan"
@@ -2041,7 +2183,7 @@ msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Namai ulang instansi yang dipilih."
 
-#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:956
+#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:958
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Jalankan secara Offline"
@@ -2156,75 +2298,75 @@ msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Salin instansi yang terpilih."
 
-#: src/application/MainWindow.cpp:605
+#: src/application/MainWindow.cpp:607
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - Versi %1"
 
-#: src/application/MainWindow.cpp:608
+#: src/application/MainWindow.cpp:610
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " pada %1"
 
-#: src/application/MainWindow.cpp:718
+#: src/application/MainWindow.cpp:720
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "Tidak instansi yang dipilih"
 
-#: src/application/MainWindow.cpp:733 src/application/MainWindow.cpp:1129
+#: src/application/MainWindow.cpp:735 src/application/MainWindow.cpp:1131
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "Profil"
 
-#: src/application/MainWindow.cpp:888
+#: src/application/MainWindow.cpp:890
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Buat instansi"
 
-#: src/application/MainWindow.cpp:904
+#: src/application/MainWindow.cpp:906
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "Hapus grup '%1'"
 
-#: src/application/MainWindow.cpp:965
+#: src/application/MainWindow.cpp:967
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Profiler"
 
-#: src/application/MainWindow.cpp:977
+#: src/application/MainWindow.cpp:979
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "Profiler tidak diatur secara baik. Pergi ke pengaturan dibagian tab \"Perkakas Eksternal\"."
 
-#: src/application/MainWindow.cpp:1031
+#: src/application/MainWindow.cpp:1033
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Tidak ada akun yang ditambahkan!"
 
-#: src/application/MainWindow.cpp:1061
+#: src/application/MainWindow.cpp:1063
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Tidak ada akun bawaan"
 
-#: src/application/MainWindow.cpp:1169
+#: src/application/MainWindow.cpp:1171
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Memuat Berita..."
 
-#: src/application/MainWindow.cpp:1182
+#: src/application/MainWindow.cpp:1184
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Tidak ada berita baru."
 
-#: src/application/MainWindow.cpp:1265 src/application/MainWindow.cpp:1282
+#: src/application/MainWindow.cpp:1267 src/application/MainWindow.cpp:1284
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Error"
 
-#: src/application/MainWindow.cpp:1265
+#: src/application/MainWindow.cpp:1267
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -2237,62 +2379,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "Nama"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:644
+#: src/api/logic/minecraft/MinecraftInstance.cpp:650
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SESSION ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:646
+#: src/api/logic/minecraft/MinecraftInstance.cpp:652
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ACCESS TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:647
+#: src/api/logic/minecraft/MinecraftInstance.cpp:653
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:648
+#: src/api/logic/minecraft/MinecraftInstance.cpp:654
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:735
+#: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1 menit %2s"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:739
+#: src/api/logic/minecraft/MinecraftInstance.cpp:745
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1 Jam %2 Menit"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:741
+#: src/api/logic/minecraft/MinecraftInstance.cpp:747
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1d %2 Jam %3 Menit"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:749
+#: src/api/logic/minecraft/MinecraftInstance.cpp:755
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "rusak"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:753
+#: src/api/logic/minecraft/MinecraftInstance.cpp:759
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:756
+#: src/api/logic/minecraft/MinecraftInstance.cpp:762
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", dimainkan selama %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:760
+#: src/api/logic/minecraft/MinecraftInstance.cpp:766
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", telah crash."
@@ -2317,12 +2459,27 @@ msgctxt "MinecraftPage|"
 msgid "W&indow width:"
 msgstr "&Lebar Jendela:"
 
+#: src/application/pages/global/MinecraftPage.ui:117
+msgctxt "MinecraftPage|"
+msgid "Native library workarounds"
+msgstr ""
+
+#: src/application/pages/global/MinecraftPage.ui:123
+msgctxt "MinecraftPage|"
+msgid "Use system installation of GLFW"
+msgstr ""
+
+#: src/application/pages/global/MinecraftPage.ui:130
+msgctxt "MinecraftPage|"
+msgid "Use system installation of OpenAL"
+msgstr ""
+
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
 msgstr "Minecraft"
 
-#: src/api/logic/minecraft/MinecraftUpdate.cpp:90
+#: src/api/logic/minecraft/MinecraftUpdate.cpp:88
 msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "Dibatalkan oleh pengguna."
@@ -2464,6 +2621,26 @@ msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
 msgstr "Gagal membuat file jar kustom minecraft."
 
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:74
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Could not understand pack manifest:\n"
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:90
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Downloading mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:92
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Mod download"
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:129
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Installing modpack"
+msgstr ""
+
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
@@ -2479,7 +2656,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "Nama versi."
 
-#: src/application/MultiMC.cpp:522
+#: src/application/MultiMC.cpp:561
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "Pengaturan"
@@ -2753,7 +2930,7 @@ msgid "uid"
 msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:132
+#: src/application/dialogs/NewInstanceDialog.cpp:143
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "Instansi Baru"
@@ -2768,7 +2945,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "&Nama:"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:64
+#: src/application/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "Tidak ada grup"
@@ -2947,6 +3124,16 @@ msgstr "Tidak dapat menghapus beberapa berkas:\n"
 msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "Daftar riwayat lainnya"
+
+#: src/api/logic/minecraft/PackProfile.cpp:852
+msgctxt "PackProfile|"
+msgid "Name"
+msgstr ""
+
+#: src/api/logic/minecraft/PackProfile.cpp:854
+msgctxt "PackProfile|"
+msgid "Version"
+msgstr ""
 
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
@@ -3150,32 +3337,43 @@ msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
 msgstr "Nilai 'minimumLauncherVersion' versi ini (%1) lebih tinggi daripada yang didukung oleh MultiMC (%2). Mungkin tidak dapat berfungsi dengan baik!"
 
+#: src/api/logic/minecraft/PackProfile.cpp:190
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Versi file komponen tidak valid, diharapkan %1"
+
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
 msgstr "File versi memiliki '+libraries' dan 'libraries'. Hal ini tidak lagi didukung."
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:203
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr ""
+
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:236
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
 msgstr "File versi berisikan elemen 'pengatur' yang tidak didukung"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:240
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
 msgstr "File versi berisikan elemen '-libraries' yang tidak didukung"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:237
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:244
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
 msgstr "File versi berisikan elemen '-pengatur' yang tidak didukung"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:241
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:248
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
 msgstr "File versi berisikan elemen '-minecraftArgument' yang tidak didukung"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:252
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "File versi berisikan elemen '+minecraftArgument' yang tidak didukung"
@@ -3211,18 +3409,7 @@ msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "Tidak dapat memporses file versi %1."
 
-#: src/api/logic/minecraft/ComponentList.cpp:190
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Versi file komponen tidak valid, diharapkan %1"
-
-#: src/api/logic/minecraft/World.cpp:50
-msgctxt "QObject|"
-msgid "Unknown"
-msgstr "Tidak diketahui"
-
-#: src/api/logic/meta/BaseEntity.cpp:117
+#: src/api/logic/meta/BaseEntity.cpp:123
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
@@ -3303,7 +3490,7 @@ msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Anda dapat <a href=\"%1\">melihat perubahan di github</a>.</p>"
 
 #: src/application/dialogs/AboutDialog.cpp:31
-#: src/application/dialogs/AboutDialog.cpp:52
+#: src/application/dialogs/AboutDialog.cpp:53
 msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr "Patrons"
@@ -3360,7 +3547,7 @@ msgstr "Pengembalian gagal.\n"
 "Anda harus memperbaiki MultiMC secara manual.\n"
 "Tolong beritahu kami kenapa dan bagaimana hal ini terjadi."
 
-#: src/application/MainWindow.cpp:1001
+#: src/application/MainWindow.cpp:1003
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (Sedang digunakan)"
@@ -3401,36 +3588,35 @@ msgid "JVM arguments warning"
 msgstr "Peringatan argument JVM"
 
 #: src/application/JavaCommon.cpp:26
-#: src/application/widgets/JavaSettingsWidget.cpp:309
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Pengetesan Java sukses<br />Platform dilaporkan: %1<br />Versi java dilaporkan: %2<br />"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr ""
 
-#: src/application/JavaCommon.cpp:32
+#: src/application/JavaCommon.cpp:33
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />Peringatan:<br /><font color=\"orange\">%1</font>"
 
-#: src/application/JavaCommon.cpp:34
+#: src/application/JavaCommon.cpp:35
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
 msgstr "Tes Java sukses"
 
-#: src/application/JavaCommon.cpp:42
+#: src/application/JavaCommon.cpp:43
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr "Biner java yang ditentukan tidak berfungsi dengan argumen yang Anda berikan:<br />"
 
-#: src/application/JavaCommon.cpp:44 src/application/JavaCommon.cpp:53
+#: src/application/JavaCommon.cpp:45 src/application/JavaCommon.cpp:54
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
 msgstr "Test java gagal"
 
-#: src/application/JavaCommon.cpp:50
+#: src/application/JavaCommon.cpp:51
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Biner java yang ditentukan tidak bekerja.<br /> anda sebaiknya menggunakan fitur deteksi otomatis, atau tentukan jalur menuju program java.<br />"
@@ -3449,6 +3635,12 @@ msgstr "Biner java yang ditentukan tidak mulai dengan benar.<br />"
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
 msgstr "Biner java yang ditentukan mengembalikan hasil yang tidak terduga: <br />"
+
+#: src/application/widgets/JavaSettingsWidget.cpp:309
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Pengetesan Java sukses<br />Platform dilaporkan: %1<br />Versi java dilaporkan: %2<br />"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -3726,7 +3918,12 @@ msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
 msgstr "Pengaturan Cepat MultiMC"
 
-#: src/api/logic/minecraft/SkinUpload.cpp:46
+#: src/api/logic/minecraft/services/SkinDelete.cpp:18
+msgctxt "SkinDelete|"
+msgid "Deleting skin"
+msgstr ""
+
+#: src/api/logic/minecraft/services/SkinUpload.cpp:43
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
 msgstr "Unggah Skin"
@@ -3805,12 +4002,167 @@ msgid "Failed to load status JSON:\n"
 msgstr "Gagal untuk memuat status JSON: \n"
 "%1"
 
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:33
+#, qt-format
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Downloading modpack:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:38
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Modpack download"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:50
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Extracting modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:58
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Unable to open supplied modpack zip file."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:84
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Failed to extract modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:111
+#, qt-format
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Could not fix permissions for %1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:128
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Instance import has been aborted."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:32
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Finding recommended version:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:33
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Finding recommended version"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:57
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Resolving modpack files:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:58
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Resolving modpack files"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:68
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Downloading modpack:"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:90
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Downloading modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:109
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Extracting modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:148
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Failed to extract modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:175
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Could not fix permissions for %1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:192
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Instance import has been aborted."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:58
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"bin/modpack.jar\" file!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:70
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"fmlversion.properties\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:84
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:139
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"version.json\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:93
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:107
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"forgeversion.properties\""
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:122
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Invalid \"forgeversion.properties\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:148
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to find a \"version.json\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:161
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not understand \"version.json\":\n"
+"inheritsFrom is missing"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:202
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not understand \"version.json\":\n"
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.ui:35
+msgctxt "TechnicPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.cpp:185
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.h:45
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr ""
+
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "Paket Tekstur"
 
-#: src/api/logic/translations/TranslationsModel.cpp:354
+#: src/api/logic/translations/TranslationsModel.cpp:355
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -3822,25 +4174,40 @@ msgstr "%1:\n"
 "%3 kabur\n"
 "%4 jumlah"
 
-#: src/api/logic/translations/TranslationsModel.cpp:372
+#: src/api/logic/translations/TranslationsModel.cpp:373
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "Bahasa"
 
-#: src/api/logic/translations/TranslationsModel.cpp:376
+#: src/api/logic/translations/TranslationsModel.cpp:377
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "Kelengkapan"
 
-#: src/api/logic/translations/TranslationsModel.cpp:386
+#: src/api/logic/translations/TranslationsModel.cpp:387
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "Nama bahasa asli."
 
-#: src/api/logic/translations/TranslationsModel.cpp:390
+#: src/api/logic/translations/TranslationsModel.cpp:391
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "Kelengkapan adalah persentase dari deretan yang telah diterjemahkan sepenuhnya, tidak termasuk yang ditebak secara otomatis."
+
+#: src/application/pages/modplatform/twitch/TwitchPage.ui:20
+msgctxt "TwitchPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/twitch/TwitchPage.cpp:85
+msgctxt "TwitchPage|"
+msgid " by "
+msgstr ""
+
+#: src/application/pages/modplatform/twitch/TwitchPage.h:45
+msgctxt "TwitchPage|"
+msgid "Twitch"
+msgstr ""
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -4210,16 +4577,14 @@ msgid "Change %1 version"
 msgstr "Ubah versi %1"
 
 #: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
-msgid "No Fabric Loader versions are currently available."
-msgstr "Tidak ada versi pemuat Fabric yang tersedia saat ini."
+msgid "No intermediary mappings versions are currently available."
+msgstr ""
 
 #: src/application/pages/instance/VersionPage.cpp:361
-#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
-msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "Tidak dapat memuat atau mengunduh daftar versi Pemuat Fabric!"
+msgid "Couldn't load or download the intermediary mappings version lists!"
+msgstr ""
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
@@ -4247,6 +4612,16 @@ msgstr "Tidak dapat memuat atau mengunduh daftar versi Forge!"
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Pilih versi Pemuat Fabric"
+
+#: src/application/pages/instance/VersionPage.cpp:445
+msgctxt "VersionPage|"
+msgid "No Fabric Loader versions are currently available."
+msgstr "Tidak ada versi pemuat Fabric yang tersedia saat ini."
+
+#: src/application/pages/instance/VersionPage.cpp:446
+msgctxt "VersionPage|"
+msgid "Couldn't load or download the Fabric Loader version lists!"
+msgstr "Tidak dapat memuat atau mengunduh daftar versi Pemuat Fabric!"
 
 #: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
@@ -4388,97 +4763,117 @@ msgid "List update failed:\n"
 msgstr "Daftar pembaruan gagal: \n"
 "%1"
 
-#: src/api/logic/minecraft/WorldList.cpp:211
+#: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
 msgid "Name"
 msgstr "Nama"
 
-#: src/api/logic/minecraft/WorldList.cpp:213
+#: src/api/logic/minecraft/WorldList.cpp:230
 msgctxt "WorldList|"
 msgid "Game Mode"
 msgstr "Mode Game"
 
-#: src/api/logic/minecraft/WorldList.cpp:215
+#: src/api/logic/minecraft/WorldList.cpp:232
 msgctxt "WorldList|"
 msgid "Last Played"
 msgstr "Terakhir kali dimainkan"
 
-#: src/api/logic/minecraft/WorldList.cpp:224
+#: src/api/logic/minecraft/WorldList.cpp:241
 msgctxt "WorldList|"
 msgid "The name of the world."
 msgstr "Nama dunia."
 
-#: src/api/logic/minecraft/WorldList.cpp:226
+#: src/api/logic/minecraft/WorldList.cpp:243
 msgctxt "WorldList|"
 msgid "Game mode of the world."
 msgstr "Mode Game dunia."
 
-#: src/api/logic/minecraft/WorldList.cpp:228
+#: src/api/logic/minecraft/WorldList.cpp:245
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
 msgstr "Tanggal dan waktu dunia terakhir dimainkan."
 
-#: src/application/pages/instance/WorldListPage.ui:59
+#: src/application/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
 msgid "Actions"
 msgstr "Tindakan"
 
-#: src/application/pages/instance/WorldListPage.ui:89
+#: src/application/pages/instance/WorldListPage.ui:97
 msgctxt "WorldListPage|"
 msgid "Add"
 msgstr "Tambah"
 
-#: src/application/pages/instance/WorldListPage.ui:94
+#: src/application/pages/instance/WorldListPage.ui:102
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "Namai Ulang"
 
-#: src/application/pages/instance/WorldListPage.ui:99
+#: src/application/pages/instance/WorldListPage.ui:107
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "Salin"
 
-#: src/application/pages/instance/WorldListPage.ui:104
+#: src/application/pages/instance/WorldListPage.ui:112
 msgctxt "WorldListPage|"
 msgid "Remove"
 msgstr "Hapus"
 
-#: src/application/pages/instance/WorldListPage.ui:109
+#: src/application/pages/instance/WorldListPage.ui:117
 msgctxt "WorldListPage|"
 msgid "MCEdit"
 msgstr "MCEdit"
 
-#: src/application/pages/instance/WorldListPage.ui:114
+#: src/application/pages/instance/WorldListPage.ui:122
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
 msgstr "Salin Seed"
 
-#: src/application/pages/instance/WorldListPage.ui:119
+#: src/application/pages/instance/WorldListPage.ui:127
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "Segarkan Ulang"
 
-#: src/application/pages/instance/WorldListPage.ui:124
+#: src/application/pages/instance/WorldListPage.ui:132
 msgctxt "WorldListPage|"
 msgid "View Folder"
 msgstr "Lihat Folder"
+
+#: src/application/pages/instance/WorldListPage.ui:137
+msgctxt "WorldListPage|"
+msgid "Reset Icon"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:140
+msgctxt "WorldListPage|"
+msgid "Remove world icon to make the game re-generate it on next load."
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:145
+msgctxt "WorldListPage|"
+msgid "Datapacks"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:148
+msgctxt "WorldListPage|"
+msgid "Manage datapacks inside the world."
+msgstr ""
 
 #: src/application/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
 msgid "Worlds"
 msgstr "Dunia"
 
-#: src/application/pages/instance/WorldListPage.cpp:76
+#: src/application/pages/instance/WorldListPage.cpp:104
 msgctxt "WorldListPage|"
 msgid "Context menu"
 msgstr "Menu Konteks"
 
-#: src/application/pages/instance/WorldListPage.cpp:126
+#: src/application/pages/instance/WorldListPage.cpp:154
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "Apakah anda yakin?"
 
-#: src/application/pages/instance/WorldListPage.cpp:127
+#: src/application/pages/instance/WorldListPage.cpp:155
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
@@ -4487,64 +4882,64 @@ msgstr "Hal ini akan menghapus dunia yang dipilih secara permanen.\n"
 "Dunia ini akan hilang selamanya (WAKTU YANG PANJANG).\n\n"
 "Apakah anda ingin melanjutkan?"
 
-#: src/application/pages/instance/WorldListPage.cpp:207
+#: src/application/pages/instance/WorldListPage.cpp:266
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "Tidak ada MCEdit yang ditemukan atau ter atur!"
 
-#: src/application/pages/instance/WorldListPage.cpp:208
+#: src/application/pages/instance/WorldListPage.cpp:267
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "Anda tidak memiliki MCEdit yang ter atur atau MCEdit terpindahkan.\n"
 "Anda dapat mengaturnya di pengaturan global."
 
-#: src/application/pages/instance/WorldListPage.cpp:217
+#: src/application/pages/instance/WorldListPage.cpp:276
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "MCEdit gagal dijalankan!"
 
-#: src/application/pages/instance/WorldListPage.cpp:218
+#: src/application/pages/instance/WorldListPage.cpp:277
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr "MCEdit gagal dijalankan.\n"
 "Disarankan untuk menginstall ulang MCEdit."
 
-#: src/application/pages/instance/WorldListPage.cpp:264
+#: src/application/pages/instance/WorldListPage.cpp:325
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "Pilih dunia Minecraft yang berbentuk zip"
 
-#: src/application/pages/instance/WorldListPage.cpp:265
+#: src/application/pages/instance/WorldListPage.cpp:326
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Minecraft World Zip File (*.zip)"
 
-#: src/application/pages/instance/WorldListPage.cpp:286
+#: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "Salin Dunia"
 
-#: src/application/pages/instance/WorldListPage.cpp:286
+#: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr "Mengubah dunia disaat minecraft sedang berjalan berpotensi tidak aman.\n"
 "Apakah anda ingin melanjutkan?"
 
-#: src/application/pages/instance/WorldListPage.cpp:310
-#: src/application/pages/instance/WorldListPage.cpp:333
+#: src/application/pages/instance/WorldListPage.cpp:371
+#: src/application/pages/instance/WorldListPage.cpp:394
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "Nama Dunia"
 
-#: src/application/pages/instance/WorldListPage.cpp:310
+#: src/application/pages/instance/WorldListPage.cpp:371
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "Masukkan nama baru untuk salinan."
 
-#: src/application/pages/instance/WorldListPage.cpp:333
+#: src/application/pages/instance/WorldListPage.cpp:394
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Masukkan nama baru dunia."
