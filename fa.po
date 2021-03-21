@@ -13,7 +13,90 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
-"PO-Revision-Date: 2020-12-03 12:16\n"
+"PO-Revision-Date: 2021-03-21 21:00\n"
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Could not understand pack manifest:\n"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:76
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:82
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:157
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to get local metadata index for "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:144
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown mod type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:274
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown or unsupported download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:367
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Downloading configs..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:368
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Config download"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:400
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Extracting configs..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:407
+#, qt-format
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to open pack configs %1!"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:426
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Downloading mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:429
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Mod download"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:440
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unsupported download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:446
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:545
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to extract mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Extracting mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:618
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Installing modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:655
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown loader type: "
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -52,8 +135,8 @@ msgstr "<html><head/><body><p> لانچر MultiMC یک لانچر سفارشی �
 
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
-msgid "© 2012-2019 MultiMC Contributors"
-msgstr "© 2012-2019 مشارکان MultiMC"
+msgid "© 2012-2021 MultiMC Contributors"
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -80,27 +163,27 @@ msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "بستن"
 
-#: src/application/dialogs/AboutDialog.cpp:88
+#: src/application/dialogs/AboutDialog.cpp:89
 msgctxt "AboutDialog|"
 msgid "Version"
 msgstr "نسخه"
 
-#: src/application/dialogs/AboutDialog.cpp:89
+#: src/application/dialogs/AboutDialog.cpp:90
 msgctxt "AboutDialog|"
 msgid "Platform"
 msgstr "پلتفرم"
 
-#: src/application/dialogs/AboutDialog.cpp:92
+#: src/application/dialogs/AboutDialog.cpp:93
 msgctxt "AboutDialog|"
 msgid "Build Number"
 msgstr "شماره ساخت"
 
-#: src/application/dialogs/AboutDialog.cpp:97
+#: src/application/dialogs/AboutDialog.cpp:98
 msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "کانال"
 
-#: src/application/dialogs/AboutDialog.cpp:101
+#: src/application/dialogs/AboutDialog.cpp:102
 msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
@@ -109,52 +192,78 @@ msgstr "<p>ما MultiMC را متن باز نگه داشتیم چرا که فک�
 "<p>یک قسمت از دلایلی که ما از آپاچی استفاده می کنیم این است که نمی خواهیم مردم از نام &quot;MultiMC&quot; در جهت بازسازی این پروژه استفاده کنند. این یعنی اینکه کردم باید وقت بگذارند و هر چیزی که در منبع(سورس) کد مربوط یا اشاره به &quot;MultiMC&quot; می شود را پاک کنند، به علاوه آیکن عنوان ویندوز پروژه که فقط هم به این محدود نمی شود، (بدون هیچ <b>MultiMC-fork</b> ای در عنوان).</p>\n"
 "<p>مجوز گواهی آپاچی استفاده قابل توجیه را در نام، اشاره به ریشه پروژه در قسمت دیالوگ درباره و گواهی را پوشش می دهد و قابل پذیرش است. ولی، این باید به شدت تاکید شود که پروژه یک fork است، <b>بدون اینکه</b> درباره بخشش یا گذشت ما در این مورد اشاره شود.</p>"
 
-#: src/application/pages/global/AccountListPage.ui:47
+#: src/application/pages/global/AccountListPage.ui:49
 msgctxt "AccountListPage|"
 msgid "Add"
 msgstr "افزودن"
 
-#: src/application/pages/global/AccountListPage.ui:52
+#: src/application/pages/global/AccountListPage.ui:54
 msgctxt "AccountListPage|"
 msgid "Remove"
 msgstr "حذف کردن"
 
-#: src/application/pages/global/AccountListPage.ui:57
+#: src/application/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
 msgid "Set Default"
 msgstr "تنظیم پیش فرض"
 
-#: src/application/pages/global/AccountListPage.ui:65
+#: src/application/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
 msgid "No Default"
 msgstr "بدون پیش فرض"
 
-#: src/application/pages/global/AccountListPage.ui:70
+#: src/application/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
 msgstr "آپلود کردن پوسته"
+
+#: src/application/pages/global/AccountListPage.ui:77
+msgctxt "AccountListPage|"
+msgid "Delete Skin"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.ui:80
+msgctxt "AccountListPage|"
+msgid "Delete the currently active skin and go back to the default one"
+msgstr ""
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
 msgstr "حساب ها"
 
-#: src/application/pages/global/AccountListPage.cpp:41
+#: src/application/pages/global/AccountListPage.cpp:43
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
 msgstr "خوش آمدید!\n"
 "اگر اینجا تازه وارد هستید، می توانید با زدن روی دکمه \"افزودن\" حساب موجانگ یا ماینکرافت خود را اضافه کنید."
 
-#: src/application/pages/global/AccountListPage.cpp:77
+#: src/application/pages/global/AccountListPage.cpp:79
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "منوی راست کلیک"
 
-#: src/application/pages/global/AccountListPage.cpp:106
+#: src/application/pages/global/AccountListPage.cpp:108
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
 msgstr "لطفا ایمیل حساب ماینکرافت و رمز عبور خود را برای اضافه کردن حساب وارد کنید."
+
+#: src/application/pages/global/AccountListPage.cpp:209
+#: src/application/pages/global/AccountListPage.cpp:214
+msgctxt "AccountListPage|"
+msgid "Skin Delete"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:209
+msgctxt "AccountListPage|"
+msgid "Failed to login!"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:214
+msgctxt "AccountListPage|"
+msgid "Failed to delete current skin!"
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -213,6 +322,46 @@ msgid "Failed to download assets:\n"
 msgstr "شکست در دانلود ابزارها:\n"
 "%1"
 
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
+msgctxt "Atl::FilterModel|"
+msgid "Sort by popularity"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
+msgctxt "Atl::FilterModel|"
+msgid "Sort by name"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
+msgctxt "Atl::FilterModel|"
+msgid "Sort by game version"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
+msgctxt "AtlPage|"
+msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
+msgctxt "AtlPage|"
+msgid "Version selected:"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:71
+msgctxt "AtlPage|"
+msgid "Reset"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:78
+msgctxt "AtlPage|"
+msgid "Search and filter ..."
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.h:43
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
+
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
@@ -252,69 +401,6 @@ msgstr "تائیدکردن: پردازش پاسخ..."
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
 msgstr "پروفیلر لغو گشت"
-
-#: src/api/logic/java/launch/CheckJava.cpp:36
-#, qt-format
-msgctxt "CheckJava|"
-msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr "Binary جاوا \"%1\" یافت نمی شود. لطفا مسیر رونویسی شده جاوا را در تنظیمات نمایه درست کنید یا غیر فعالش کنید."
-
-#: src/api/logic/java/launch/CheckJava.cpp:42
-#, qt-format
-msgctxt "CheckJava|"
-msgid "The java binary \"%1\" couldn't be found. Please set up java in the settings."
-msgstr "Binary جاوا \"%1\" یافت نمی شود. لطفا جاوا را در تنظیمات راه‌اندازی کنید."
-
-#: src/api/logic/java/launch/CheckJava.cpp:46
-msgctxt "CheckJava|"
-msgid "Java path is not valid."
-msgstr "مسیر جاوا معتبر نیست."
-
-#: src/api/logic/java/launch/CheckJava.cpp:64
-msgctxt "CheckJava|"
-msgid "Checking Java version..."
-msgstr "چک کردن نسخه جاوا..."
-
-#: src/api/logic/java/launch/CheckJava.cpp:86
-msgctxt "CheckJava|"
-msgid "Could not start java:"
-msgstr "جاوا نتوانست باز شود:"
-
-#: src/api/logic/java/launch/CheckJava.cpp:90
-msgctxt "CheckJava|"
-msgid "Could not start java!"
-msgstr "جاوا نتوانست باز شود!"
-
-#: src/api/logic/java/launch/CheckJava.cpp:95
-msgctxt "CheckJava|"
-msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr "چک کننده جاوا با مقداری اطلاعات نامشخص بازگشت جوری که MultiMC نمی تواند متوجه شود:"
-
-#: src/api/logic/java/launch/CheckJava.cpp:117
-#, qt-format
-msgctxt "CheckJava|"
-msgid "Java is version %1, using %2-bit architecture.\n\n"
-msgstr "نسخه جاوا %1 است، که از معماری bit-%2 استفاده می کند.\n\n"
-
-#: src/api/logic/java/launch/CheckJava.cpp:127
-msgctxt "CheckJava|"
-msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr "معماری CPU شما با سیستم‌تان سازگار نیست. شاید بخواهید که سیستم عاملی 64bit نصب کنید.\n\n"
-
-#: src/api/logic/java/launch/CheckJava.cpp:133
-msgctxt "CheckJava|"
-msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr "معماری طراحی شده نسخه جاوا شما با سیستم‌تان همخوانی ندارد. شاید بخواهید که نسخه‌ی 64bit جاوا را نصب کنید.\n\n"
-
-#: src/api/logic/minecraft/ComponentList.cpp:852
-msgctxt "ComponentList|"
-msgid "Name"
-msgstr "نام"
-
-#: src/api/logic/minecraft/ComponentList.cpp:854
-msgctxt "ComponentList|"
-msgid "Version"
-msgstr "نسخه"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
@@ -373,11 +459,6 @@ msgstr "مدت زمان بازی کردن را نگه دار"
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
 msgstr "بدون گروه"
-
-#: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
-msgctxt "CreateServerResourcePacksFolder|"
-msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr "نتوانست پوشه 'server-resource-packs' ساخته شود"
 
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -589,39 +670,39 @@ msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "فایلی که انتخاب کرده‌اید به نظر می آید که قابل اجرا نیست"
 
-#: src/api/logic/minecraft/launch/ExtractNatives.cpp:86
+#: src/api/logic/minecraft/launch/ExtractNatives.cpp:97
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
 msgstr "نمی توان jar اصلی '%1' را به مقصد '%2' استخراج نمود"
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:37
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
 msgstr "درحال چک کردن برای کتابخانه های FML..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:61
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
 msgstr "درحال دانلود کتابخانه های FML..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:88
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
 msgstr "در حال گپی کردن کتابخانه های FML به داخل نمایه..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:99
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
 msgstr "شکست در ساختن پوشه کتابخانه های FML درون نمایه."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:104
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
 msgstr "شکست در کپی کتابخانه Forge/FML: %1."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:117
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed to download the following files:\n"
@@ -648,6 +729,36 @@ msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
 msgstr "ناتوانی در ساخت پوشه برای binary های ماینکرافت."
 
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:13
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by plays"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:14
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by installs"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:15
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by name"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.ui:22
+msgctxt "FtbPage|"
+msgid "Version selected:"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.ui:40
+msgctxt "FtbPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.h:43
+msgctxt "FtbPage|"
+msgid "FTB"
+msgstr ""
+
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
@@ -663,25 +774,36 @@ msgctxt "GameOptionsPage|"
 msgid "Game Options"
 msgstr "تنظیمات بازی"
 
-#: src/api/logic/minecraft/World.cpp:40
+#: src/api/logic/minecraft/World.cpp:69
 msgctxt "GameType|"
 msgid "Survival"
 msgstr "حالت بقا"
 
-#: src/api/logic/minecraft/World.cpp:42
+#: src/api/logic/minecraft/World.cpp:71
 msgctxt "GameType|"
 msgid "Creative"
 msgstr "حالت خلاقیت"
 
-#: src/api/logic/minecraft/World.cpp:44
+#: src/api/logic/minecraft/World.cpp:73
 msgctxt "GameType|"
 msgid "Adventure"
 msgstr "حالت ماجراجویی"
 
-#: src/api/logic/minecraft/World.cpp:46
+#: src/api/logic/minecraft/World.cpp:75
 msgctxt "GameType|"
 msgid "Spectator"
 msgstr "حالت مشاهده‌گر"
+
+#: src/api/logic/minecraft/World.cpp:80
+#, qt-format
+msgctxt "GameType|"
+msgid "Unknown (%1)"
+msgstr ""
+
+#: src/api/logic/minecraft/World.cpp:82
+msgctxt "GameType|"
+msgid "Undefined"
+msgstr ""
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
@@ -819,7 +941,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "ساختن نمایه ای از نسخه %1"
 
-#: src/api/logic/InstanceImportTask.cpp:35
+#: src/api/logic/InstanceImportTask.cpp:50
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -827,105 +949,105 @@ msgid "Downloading modpack:\n"
 msgstr "درحال دانلود مودپک: \n"
 "%1"
 
-#: src/api/logic/InstanceImportTask.cpp:41
+#: src/api/logic/InstanceImportTask.cpp:56
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "دانلود مودپک"
 
-#: src/api/logic/InstanceImportTask.cpp:71
+#: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "استخراج مودپک"
 
-#: src/api/logic/InstanceImportTask.cpp:79
+#: src/api/logic/InstanceImportTask.cpp:94
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "ناتوانی در بازکردن فایل زیپ حاوی مودپک."
 
-#: src/api/logic/InstanceImportTask.cpp:104
-#: src/api/logic/InstanceImportTask.cpp:165
+#: src/api/logic/InstanceImportTask.cpp:127
+#: src/api/logic/InstanceImportTask.cpp:191
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "آرشیو دارای نوع مودپک قابل تشخیص نیست."
 
-#: src/api/logic/InstanceImportTask.cpp:120
+#: src/api/logic/InstanceImportTask.cpp:143
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "ناتوانی در استخراج مودپک"
 
-#: src/api/logic/InstanceImportTask.cpp:147
+#: src/api/logic/InstanceImportTask.cpp:170
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "نمی توان دسترسی ها را برای %1 مشخص کرد"
 
-#: src/api/logic/InstanceImportTask.cpp:172
+#: src/api/logic/InstanceImportTask.cpp:198
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "وارد کردن نمایه متوقف گشت."
 
-#: src/api/logic/InstanceImportTask.cpp:193
+#: src/api/logic/InstanceImportTask.cpp:219
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "عدم توانایی در فهمیدن manifest بسته:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:204
+#: src/api/logic/InstanceImportTask.cpp:230
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "نمی توان نام پوشه overrides را تغییر داد:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:210
+#: src/api/logic/InstanceImportTask.cpp:236
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "پوشه overrides مشخص شده (%1) یافت نمی شود. شاید مودپک از قبل استفاده شده؟"
 
-#: src/api/logic/InstanceImportTask.cpp:224
+#: src/api/logic/InstanceImportTask.cpp:250
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "بارگذار ناشناخته مود در manifest: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:237
+#: src/api/logic/InstanceImportTask.cpp:263
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "نقاط پشت نوشتار(trailing dots) عجیبی از نسخه ماینکرافت حذف شده درحین وارد کردن مودپک."
 
-#: src/api/logic/InstanceImportTask.cpp:253
+#: src/api/logic/InstanceImportTask.cpp:279
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "نمی توان نسخه پیشنهادی forge را برای ماینکرافت طرح نمود %1"
 
-#: src/api/logic/InstanceImportTask.cpp:301
+#: src/api/logic/InstanceImportTask.cpp:327
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "دانلود مود"
 
-#: src/api/logic/InstanceImportTask.cpp:317
+#: src/api/logic/InstanceImportTask.cpp:343
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "این 'Folder' شاید نیاز به استخراج داشته باشد: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:329
+#: src/api/logic/InstanceImportTask.cpp:355
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "مودپک های تو در تو در مودپک ها هنوز مطرح نشده، هیچ چیزی دانلود نشد: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:334
+#: src/api/logic/InstanceImportTask.cpp:360
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "PackageType ناشناخته/کنترل نشده برای: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:354
+#: src/api/logic/InstanceImportTask.cpp:380
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "درحال دانلود مودها..."
 
-#: src/api/logic/InstanceImportTask.cpp:361
+#: src/api/logic/InstanceImportTask.cpp:387
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "ناتوانی در دریافت ID مود ها:\n"
@@ -1072,17 +1194,37 @@ msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "دستور های اختصاصی"
 
+#: src/application/pages/instance/InstanceSettingsPage.ui:369
+msgctxt "InstanceSettingsPage|"
+msgid "Workarounds"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:378
+msgctxt "InstanceSettingsPage|"
+msgid "Native libraries"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:390
+msgctxt "InstanceSettingsPage|"
+msgid "Use system installation of GLFW"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:397
+msgctxt "InstanceSettingsPage|"
+msgid "Use system installation of OpenAL"
+msgstr ""
+
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:228
+#: src/application/pages/instance/InstanceSettingsPage.cpp:247
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "انتخاب یک نسخه جاوا"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:246
+#: src/application/pages/instance/InstanceSettingsPage.cpp:265
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "پیدا کردن اجرایی جاوا"
@@ -1117,19 +1259,19 @@ msgctxt "InstanceWindow|"
 msgid "Kill"
 msgstr "به اتمام رساندن"
 
-#: src/application/InstanceWindow.cpp:126
+#: src/application/InstanceWindow.cpp:127
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
 msgstr "به اتمام رساندن نمایه در حال اجرا"
 
-#: src/application/InstanceWindow.cpp:131
-#: src/application/InstanceWindow.cpp:138
+#: src/application/InstanceWindow.cpp:132
+#: src/application/InstanceWindow.cpp:140
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "اجرا"
 
-#: src/application/InstanceWindow.cpp:132
-#: src/application/InstanceWindow.cpp:139
+#: src/application/InstanceWindow.cpp:134
+#: src/application/InstanceWindow.cpp:142
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
 msgstr "اجرای نمایه"
@@ -1541,7 +1683,7 @@ msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
 msgstr "شکست در انتقال فایل زیپ نشده به ماینکرافت!"
 
-#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:186
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
 msgstr "هیچ روش نصبی پیدا نشد!"
@@ -1693,7 +1835,7 @@ msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
 msgstr "Null jar در metadata مشخص شد، در حال لغو کردن."
 
-#: src/api/logic/minecraft/update/LibrariesTask.cpp:58
+#: src/api/logic/minecraft/update/LibrariesTask.cpp:59
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Some artifacts marked as 'local' are missing their files:\n"
@@ -1705,7 +1847,7 @@ msgstr "بعضی از محصولات به عنوان 'local' فایل هایشا
 "شما باید یا فایل ها را اضافه کنید یا بسته هایی که به آن ها نیازمندند را حذف کنید.\n"
 "شما باید به طور دستی این مشکل را برطرف سازید."
 
-#: src/api/logic/minecraft/update/LibrariesTask.cpp:75
+#: src/api/logic/minecraft/update/LibrariesTask.cpp:76
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
@@ -1852,7 +1994,7 @@ msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "به اتمام رساندن نمایه در حال اجرا"
 
-#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:955
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:957
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "اجرا"
@@ -1897,7 +2039,7 @@ msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "باز کردن پوشه اصلی مود ها در یک مرورگر فایل."
 
-#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:625
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:627
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "پوشه ها"
@@ -1957,7 +2099,7 @@ msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "نمایش اطلاعات درباره MultiMC."
 
-#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:626
+#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:628
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "راهنما"
@@ -2042,7 +2184,7 @@ msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "تغییر نام نمایه انتخاب شده."
 
-#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:956
+#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:958
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "اجرای آفلاین"
@@ -2157,75 +2299,75 @@ msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "کپی نمایه انتخاب شده."
 
-#: src/application/MainWindow.cpp:605
+#: src/application/MainWindow.cpp:607
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - نسخه %1"
 
-#: src/application/MainWindow.cpp:608
+#: src/application/MainWindow.cpp:610
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " روی %1"
 
-#: src/application/MainWindow.cpp:718
+#: src/application/MainWindow.cpp:720
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "هیچ نمایه ای انتخاب نشده"
 
-#: src/application/MainWindow.cpp:733 src/application/MainWindow.cpp:1129
+#: src/application/MainWindow.cpp:735 src/application/MainWindow.cpp:1131
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "پروفایل ها"
 
-#: src/application/MainWindow.cpp:888
+#: src/application/MainWindow.cpp:890
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "ساخت نمایه"
 
-#: src/application/MainWindow.cpp:904
+#: src/application/MainWindow.cpp:906
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "حذف گروه '%1'"
 
-#: src/application/MainWindow.cpp:965
+#: src/application/MainWindow.cpp:967
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "پروفیلر ها"
 
-#: src/application/MainWindow.cpp:977
+#: src/application/MainWindow.cpp:979
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "پروفیلر به طور صحیح راه‌اندازی نشده. به تنظیمات قسمت \"ابزار های خارجی\" بروید."
 
-#: src/application/MainWindow.cpp:1031
+#: src/application/MainWindow.cpp:1033
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "هیچ حسابی اضافه نشده!"
 
-#: src/application/MainWindow.cpp:1061
+#: src/application/MainWindow.cpp:1063
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "بدون حساب پیشفرض"
 
-#: src/application/MainWindow.cpp:1169
+#: src/application/MainWindow.cpp:1171
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "بارگذاری اخبار..."
 
-#: src/application/MainWindow.cpp:1182
+#: src/application/MainWindow.cpp:1184
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "هیچ خبری در دسترس نیست."
 
-#: src/application/MainWindow.cpp:1265 src/application/MainWindow.cpp:1282
+#: src/application/MainWindow.cpp:1267 src/application/MainWindow.cpp:1284
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "خطا"
 
-#: src/application/MainWindow.cpp:1265
+#: src/application/MainWindow.cpp:1267
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -2238,62 +2380,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "نام"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:644
+#: src/api/logic/minecraft/MinecraftInstance.cpp:650
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SESSION ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:646
+#: src/api/logic/minecraft/MinecraftInstance.cpp:652
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ACCESS TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:647
+#: src/api/logic/minecraft/MinecraftInstance.cpp:653
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:648
+#: src/api/logic/minecraft/MinecraftInstance.cpp:654
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:735
+#: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1 دقیقه %2s ثانیه"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:739
+#: src/api/logic/minecraft/MinecraftInstance.cpp:745
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1 ساعت %2 دقیقه"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:741
+#: src/api/logic/minecraft/MinecraftInstance.cpp:747
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1d روز %2 ساعت %3 دقیقه"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:749
+#: src/api/logic/minecraft/MinecraftInstance.cpp:755
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "خراب شده"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:753
+#: src/api/logic/minecraft/MinecraftInstance.cpp:759
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "ماینکرافت %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:756
+#: src/api/logic/minecraft/MinecraftInstance.cpp:762
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr "، بازی شده به مدت %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:760
+#: src/api/logic/minecraft/MinecraftInstance.cpp:766
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr "، خراب شد."
@@ -2318,12 +2460,27 @@ msgctxt "MinecraftPage|"
 msgid "W&indow width:"
 msgstr "طول پنجره:"
 
+#: src/application/pages/global/MinecraftPage.ui:117
+msgctxt "MinecraftPage|"
+msgid "Native library workarounds"
+msgstr ""
+
+#: src/application/pages/global/MinecraftPage.ui:123
+msgctxt "MinecraftPage|"
+msgid "Use system installation of GLFW"
+msgstr ""
+
+#: src/application/pages/global/MinecraftPage.ui:130
+msgctxt "MinecraftPage|"
+msgid "Use system installation of OpenAL"
+msgstr ""
+
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
 msgstr "ماینکرافت"
 
-#: src/api/logic/minecraft/MinecraftUpdate.cpp:90
+#: src/api/logic/minecraft/MinecraftUpdate.cpp:88
 msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "توسط کاربر لغو گشت."
@@ -2465,6 +2622,26 @@ msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
 msgstr "عدم موفقیت در ساخت پوشه سفارشی برای فایل Minecraft jar."
 
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:74
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Could not understand pack manifest:\n"
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:90
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Downloading mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:92
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Mod download"
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:129
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Installing modpack"
+msgstr ""
+
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
@@ -2480,7 +2657,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "نام نسخه."
 
-#: src/application/MultiMC.cpp:522
+#: src/application/MultiMC.cpp:561
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "تنظیمات"
@@ -2754,7 +2931,7 @@ msgid "uid"
 msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:132
+#: src/application/dialogs/NewInstanceDialog.cpp:143
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "نمایه جدید"
@@ -2769,7 +2946,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "نام:"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:64
+#: src/application/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "بدون گروه"
@@ -2948,6 +3125,16 @@ msgstr "نمی توان بعضی فایل ها را حذف نمود:\n"
 msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "دیگر لاگ‌ها"
+
+#: src/api/logic/minecraft/PackProfile.cpp:852
+msgctxt "PackProfile|"
+msgid "Name"
+msgstr ""
+
+#: src/api/logic/minecraft/PackProfile.cpp:854
+msgctxt "PackProfile|"
+msgid "Version"
+msgstr ""
 
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
@@ -3151,32 +3338,43 @@ msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
 msgstr "مقدار 'minimumLauncherVersion' در این نسخه (%1) بالاتر از مقدار پشتیبانی شده توسط MultiMC می باشد (%2). این ممکن است که درست کار نکند!"
 
+#: src/api/logic/minecraft/PackProfile.cpp:190
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "مولفه نسخه فایل نامعتبر، اتفاق افتاده در %1"
+
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
 msgstr "نسخه فایل دارای هر دو '+libraries' و 'libraries' می باشد. این مورد دیگر پشتیبانی نمی شود."
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:203
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr ""
+
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:236
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
 msgstr "نسخه فایل حاوی المان های پشتیبانی نشده‌ای 'tweakers' می باشد"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:240
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
 msgstr "نسخه فایل حاوی المان های پشتیبانی نشده‌ای '-libraries' می باشد"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:237
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:244
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
 msgstr "نسخه فایل حاوی المان های پشتیبانی نشده‌ای '-tweakers' می باشد"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:241
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:248
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
 msgstr "نسخه فایل حاوی المان های پشتیبانی نشده‌ای ''-minecraftArguments' می باشد"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:252
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "نسخه فایل حاوی المان های پشتیبانی نشده‌ای ''+minecraftArguments' می باشد"
@@ -3212,18 +3410,7 @@ msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "ناتوانی در پردازش نسخه فایل %1."
 
-#: src/api/logic/minecraft/ComponentList.cpp:190
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "مولفه نسخه فایل نامعتبر، اتفاق افتاده در %1"
-
-#: src/api/logic/minecraft/World.cpp:50
-msgctxt "QObject|"
-msgid "Unknown"
-msgstr "ناشناس"
-
-#: src/api/logic/meta/BaseEntity.cpp:117
+#: src/api/logic/meta/BaseEntity.cpp:123
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
@@ -3304,7 +3491,7 @@ msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>شما می توانید <a href=\"%1\">تغییرات کامل را در گیت هاب ببینید</a>.</p>"
 
 #: src/application/dialogs/AboutDialog.cpp:31
-#: src/application/dialogs/AboutDialog.cpp:52
+#: src/application/dialogs/AboutDialog.cpp:53
 msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr "Patrons"
@@ -3361,7 +3548,7 @@ msgstr "برگشتن نیز ناموفق بود.\n"
 "شما باید خودتان دستی MultiMC را درست کنید.\n"
 "لطفا به ما اطلاع دهید چرا و چطور این اتفاق افتاد."
 
-#: src/application/MainWindow.cpp:1001
+#: src/application/MainWindow.cpp:1003
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (در حال استفاده)"
@@ -3402,36 +3589,35 @@ msgid "JVM arguments warning"
 msgstr "هشدار آرگومان JVM"
 
 #: src/application/JavaCommon.cpp:26
-#: src/application/widgets/JavaSettingsWidget.cpp:309
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "تست جاوا موفقیت آمیز بود!<br />پلتفرم گزارش شده: %1<br />نسخه جاوای گزارش شده: %2<br />"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr ""
 
-#: src/application/JavaCommon.cpp:32
+#: src/application/JavaCommon.cpp:33
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />اخطار ها:<br /><font color=\"orange\">%1</font>"
 
-#: src/application/JavaCommon.cpp:34
+#: src/application/JavaCommon.cpp:35
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
 msgstr "تست جاوا موفق بود"
 
-#: src/application/JavaCommon.cpp:42
+#: src/application/JavaCommon.cpp:43
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr "binary جاوای مشخص شده با آرگومان هایی که شما ارائه دادید کار نکرد:<br />"
 
-#: src/application/JavaCommon.cpp:44 src/application/JavaCommon.cpp:53
+#: src/application/JavaCommon.cpp:45 src/application/JavaCommon.cpp:54
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
 msgstr "تست جاوا ناموفق بود"
 
-#: src/application/JavaCommon.cpp:50
+#: src/application/JavaCommon.cpp:51
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "binary جاوای مشخص شده کار نکرد.<br />شما باید از ویژگی auto-detect استفاده کنید، یا اینکه مسیر را به اجرایی جاوا تنظیم کنید.<br />"
@@ -3450,6 +3636,12 @@ msgstr "binary جاوای مشخص شده درست شروع به کار نکرد
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
 msgstr "binary جاوای مشخص شده با نتایج غیر‌قابل پیشبینی بازگشت:<br />"
+
+#: src/application/widgets/JavaSettingsWidget.cpp:309
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "تست جاوا موفقیت آمیز بود!<br />پلتفرم گزارش شده: %1<br />نسخه جاوای گزارش شده: %2<br />"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -3727,7 +3919,12 @@ msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
 msgstr "تنظیم سریع MultiMC"
 
-#: src/api/logic/minecraft/SkinUpload.cpp:46
+#: src/api/logic/minecraft/services/SkinDelete.cpp:18
+msgctxt "SkinDelete|"
+msgid "Deleting skin"
+msgstr ""
+
+#: src/api/logic/minecraft/services/SkinUpload.cpp:43
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
 msgstr "آپلود کردن پوسته"
@@ -3806,12 +4003,167 @@ msgid "Failed to load status JSON:\n"
 msgstr "شکست در بارگذاری وضعیت JSON:\n"
 "%1"
 
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:33
+#, qt-format
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Downloading modpack:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:38
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Modpack download"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:50
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Extracting modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:58
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Unable to open supplied modpack zip file."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:84
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Failed to extract modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:111
+#, qt-format
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Could not fix permissions for %1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:128
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Instance import has been aborted."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:32
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Finding recommended version:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:33
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Finding recommended version"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:57
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Resolving modpack files:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:58
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Resolving modpack files"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:68
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Downloading modpack:"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:90
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Downloading modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:109
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Extracting modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:148
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Failed to extract modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:175
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Could not fix permissions for %1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:192
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Instance import has been aborted."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:58
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"bin/modpack.jar\" file!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:70
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"fmlversion.properties\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:84
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:139
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"version.json\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:93
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:107
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"forgeversion.properties\""
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:122
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Invalid \"forgeversion.properties\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:148
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to find a \"version.json\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:161
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not understand \"version.json\":\n"
+"inheritsFrom is missing"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:202
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not understand \"version.json\":\n"
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.ui:35
+msgctxt "TechnicPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.cpp:185
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.h:45
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr ""
+
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "بسته های ظاهری(Texture packs)"
 
-#: src/api/logic/translations/TranslationsModel.cpp:354
+#: src/api/logic/translations/TranslationsModel.cpp:355
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -3823,25 +4175,40 @@ msgstr "%1:\n"
 "%3 جفنگ\n"
 "%4 درکل"
 
-#: src/api/logic/translations/TranslationsModel.cpp:372
+#: src/api/logic/translations/TranslationsModel.cpp:373
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "زبان"
 
-#: src/api/logic/translations/TranslationsModel.cpp:376
+#: src/api/logic/translations/TranslationsModel.cpp:377
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "تکمیل شده"
 
-#: src/api/logic/translations/TranslationsModel.cpp:386
+#: src/api/logic/translations/TranslationsModel.cpp:387
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "نام اصلی زبان."
 
-#: src/api/logic/translations/TranslationsModel.cpp:390
+#: src/api/logic/translations/TranslationsModel.cpp:391
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "تکمیل شده میزان درصد رشته های کاملا ترجمه شده است، به طور خودکار شمرده نشده‌اند بلکه حدس زده شده‌اند."
+
+#: src/application/pages/modplatform/twitch/TwitchPage.ui:20
+msgctxt "TwitchPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/twitch/TwitchPage.cpp:85
+msgctxt "TwitchPage|"
+msgid " by "
+msgstr ""
+
+#: src/application/pages/modplatform/twitch/TwitchPage.h:45
+msgctxt "TwitchPage|"
+msgid "Twitch"
+msgstr ""
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -4211,16 +4578,14 @@ msgid "Change %1 version"
 msgstr "تغییر نسخه %1"
 
 #: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
-msgid "No Fabric Loader versions are currently available."
-msgstr "هیچ نسخه‌ای از Fabric Loader در حال حاضر در دسترس نیست."
+msgid "No intermediary mappings versions are currently available."
+msgstr ""
 
 #: src/application/pages/instance/VersionPage.cpp:361
-#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
-msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "نمی توان لیست نسخه های Fabric Loader را بارگذاری یا دانلود کرد!"
+msgid "Couldn't load or download the intermediary mappings version lists!"
+msgstr ""
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
@@ -4247,6 +4612,16 @@ msgstr "نمی توان لیست نسخه های Forge را دانلود یا ب
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "انتخاب نسخه Fabric Loader"
+
+#: src/application/pages/instance/VersionPage.cpp:445
+msgctxt "VersionPage|"
+msgid "No Fabric Loader versions are currently available."
+msgstr "هیچ نسخه‌ای از Fabric Loader در حال حاضر در دسترس نیست."
+
+#: src/application/pages/instance/VersionPage.cpp:446
+msgctxt "VersionPage|"
+msgid "Couldn't load or download the Fabric Loader version lists!"
+msgstr "نمی توان لیست نسخه های Fabric Loader را بارگذاری یا دانلود کرد!"
 
 #: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
@@ -4388,97 +4763,117 @@ msgid "List update failed:\n"
 msgstr "بروزکردن لیست ناموفق بود:\n"
 "%1"
 
-#: src/api/logic/minecraft/WorldList.cpp:211
+#: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
 msgid "Name"
 msgstr "نام"
 
-#: src/api/logic/minecraft/WorldList.cpp:213
+#: src/api/logic/minecraft/WorldList.cpp:230
 msgctxt "WorldList|"
 msgid "Game Mode"
 msgstr "حالت بازی"
 
-#: src/api/logic/minecraft/WorldList.cpp:215
+#: src/api/logic/minecraft/WorldList.cpp:232
 msgctxt "WorldList|"
 msgid "Last Played"
 msgstr "آخرین دفعه بازی شده"
 
-#: src/api/logic/minecraft/WorldList.cpp:224
+#: src/api/logic/minecraft/WorldList.cpp:241
 msgctxt "WorldList|"
 msgid "The name of the world."
 msgstr "نام دنیا."
 
-#: src/api/logic/minecraft/WorldList.cpp:226
+#: src/api/logic/minecraft/WorldList.cpp:243
 msgctxt "WorldList|"
 msgid "Game mode of the world."
 msgstr "حالت بازی دنیا."
 
-#: src/api/logic/minecraft/WorldList.cpp:228
+#: src/api/logic/minecraft/WorldList.cpp:245
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
 msgstr "تاریخ و زمانی که بازیکن آخرین بار بازی کرده."
 
-#: src/application/pages/instance/WorldListPage.ui:59
+#: src/application/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
 msgid "Actions"
 msgstr "اقدامات"
 
-#: src/application/pages/instance/WorldListPage.ui:89
+#: src/application/pages/instance/WorldListPage.ui:97
 msgctxt "WorldListPage|"
 msgid "Add"
 msgstr "افزودن"
 
-#: src/application/pages/instance/WorldListPage.ui:94
+#: src/application/pages/instance/WorldListPage.ui:102
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "تغییرنام"
 
-#: src/application/pages/instance/WorldListPage.ui:99
+#: src/application/pages/instance/WorldListPage.ui:107
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "کپی"
 
-#: src/application/pages/instance/WorldListPage.ui:104
+#: src/application/pages/instance/WorldListPage.ui:112
 msgctxt "WorldListPage|"
 msgid "Remove"
 msgstr "حذف"
 
-#: src/application/pages/instance/WorldListPage.ui:109
+#: src/application/pages/instance/WorldListPage.ui:117
 msgctxt "WorldListPage|"
 msgid "MCEdit"
 msgstr "MCEdit"
 
-#: src/application/pages/instance/WorldListPage.ui:114
+#: src/application/pages/instance/WorldListPage.ui:122
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
 msgstr "کپی کردن سید"
 
-#: src/application/pages/instance/WorldListPage.ui:119
+#: src/application/pages/instance/WorldListPage.ui:127
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "تازه‌کردن"
 
-#: src/application/pages/instance/WorldListPage.ui:124
+#: src/application/pages/instance/WorldListPage.ui:132
 msgctxt "WorldListPage|"
 msgid "View Folder"
 msgstr "مشاهده پوشه"
+
+#: src/application/pages/instance/WorldListPage.ui:137
+msgctxt "WorldListPage|"
+msgid "Reset Icon"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:140
+msgctxt "WorldListPage|"
+msgid "Remove world icon to make the game re-generate it on next load."
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:145
+msgctxt "WorldListPage|"
+msgid "Datapacks"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:148
+msgctxt "WorldListPage|"
+msgid "Manage datapacks inside the world."
+msgstr ""
 
 #: src/application/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
 msgid "Worlds"
 msgstr "دنیاها"
 
-#: src/application/pages/instance/WorldListPage.cpp:76
+#: src/application/pages/instance/WorldListPage.cpp:104
 msgctxt "WorldListPage|"
 msgid "Context menu"
 msgstr "منوی راست کلیک"
 
-#: src/application/pages/instance/WorldListPage.cpp:126
+#: src/application/pages/instance/WorldListPage.cpp:154
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "آیا مطمئن هستید?"
 
-#: src/application/pages/instance/WorldListPage.cpp:127
+#: src/application/pages/instance/WorldListPage.cpp:155
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
@@ -4487,64 +4882,64 @@ msgstr "این باعث می شود که دنیای انتخاب شده برای
 "این دنیا برای همیشه خواهد رفت(مدتی خیلی طولانی).\n\n"
 "آیا مطمئن هستید که می خواهید ادامه دهید?"
 
-#: src/application/pages/instance/WorldListPage.cpp:207
+#: src/application/pages/instance/WorldListPage.cpp:266
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "هیچ تنظیمی برای MCEdit یا خود MCEdit یافت نشد!"
 
-#: src/application/pages/instance/WorldListPage.cpp:208
+#: src/application/pages/instance/WorldListPage.cpp:267
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "شما امکانات MCEdit را ندارید یا جا‌به‌جا شده.\n"
 "شما می توانید این امکانات را در تنظیمات عمومی مشخص کنید."
 
-#: src/application/pages/instance/WorldListPage.cpp:217
+#: src/application/pages/instance/WorldListPage.cpp:276
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "شکست در اجرای MCEdit!"
 
-#: src/application/pages/instance/WorldListPage.cpp:218
+#: src/application/pages/instance/WorldListPage.cpp:277
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr "MCEdit نتوانست باز شود.\n"
 "احتمالا لازم باشد که دوباره آن را نصب کنید."
 
-#: src/application/pages/instance/WorldListPage.cpp:264
+#: src/application/pages/instance/WorldListPage.cpp:325
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "یک دنیای ماینکرافت زیپ شده را انتخاب کنید"
 
-#: src/application/pages/instance/WorldListPage.cpp:265
+#: src/application/pages/instance/WorldListPage.cpp:326
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "فایل زیپ شده دنیای ماینکرافت (*.zip)"
 
-#: src/application/pages/instance/WorldListPage.cpp:286
+#: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "کپی دنیا"
 
-#: src/application/pages/instance/WorldListPage.cpp:286
+#: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr "تغییر دنیا هنگامی که ماینکرافت در حال اجراست به احتمال خیلی قویی امن نیست.\n"
 "آیا می خواهید که ادامه دهید?"
 
-#: src/application/pages/instance/WorldListPage.cpp:310
-#: src/application/pages/instance/WorldListPage.cpp:333
+#: src/application/pages/instance/WorldListPage.cpp:371
+#: src/application/pages/instance/WorldListPage.cpp:394
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "نام دنیا"
 
-#: src/application/pages/instance/WorldListPage.cpp:310
+#: src/application/pages/instance/WorldListPage.cpp:371
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "یک نام برای کپی وارد کنید."
 
-#: src/application/pages/instance/WorldListPage.cpp:333
+#: src/application/pages/instance/WorldListPage.cpp:394
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "وارد کردن نام دنیای جدید."

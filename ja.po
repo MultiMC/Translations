@@ -13,7 +13,90 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2021-01-09 13:58\n"
+"PO-Revision-Date: 2021-03-21 21:00\n"
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Could not understand pack manifest:\n"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:76
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:82
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:157
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to get local metadata index for "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:144
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown mod type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:274
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown or unsupported download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:367
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Downloading configs..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:368
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Config download"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:400
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Extracting configs..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:407
+#, qt-format
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to open pack configs %1!"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:426
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Downloading mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:429
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Mod download"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:440
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unsupported download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:446
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:545
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to extract mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Extracting mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:618
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Installing modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:655
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown loader type: "
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -52,8 +135,8 @@ msgstr "<html><head/><body><p>MultiMCは一度に複数の環境を より簡単
 
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
-msgid "© 2012-2019 MultiMC Contributors"
-msgstr "© 2012-2019 MultiMC 貢献者"
+msgid "© 2012-2021 MultiMC Contributors"
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -80,79 +163,105 @@ msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "閉じる"
 
-#: src/application/dialogs/AboutDialog.cpp:88
+#: src/application/dialogs/AboutDialog.cpp:89
 msgctxt "AboutDialog|"
 msgid "Version"
 msgstr "バージョン"
 
-#: src/application/dialogs/AboutDialog.cpp:89
+#: src/application/dialogs/AboutDialog.cpp:90
 msgctxt "AboutDialog|"
 msgid "Platform"
 msgstr "プラットフォーム"
 
-#: src/application/dialogs/AboutDialog.cpp:92
+#: src/application/dialogs/AboutDialog.cpp:93
 msgctxt "AboutDialog|"
 msgid "Build Number"
 msgstr "ビルドナンバー"
 
-#: src/application/dialogs/AboutDialog.cpp:97
+#: src/application/dialogs/AboutDialog.cpp:98
 msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "チャンネル"
 
-#: src/application/dialogs/AboutDialog.cpp:101
+#: src/application/dialogs/AboutDialog.cpp:102
 msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 msgstr "<p>私たちはMultiMCをオープンソースとして維持しています。なぜなら、このようなプロジェクトのソースコードを見ることが重要だと考えているからです。私たちはApacheライセンスを使用しています。</p><p>Apacheライセンスを使用する理由の一部は、プロジェクトを再配布する際に&quot;MultiMC&quot;の名前を使わないようにするためです。これは、人々が時間をかけてソースコードをチェックし、&quot;MultiMC&quot;へのすべての参照を削除する必要があることを意味します。これには、プロジェクトアイコンとウィンドウのタイトル(タイトルに<b>MultiMCフォーク</b>が含まれていません)が含まれます。</p></b><p>Apacheライセンスでは、適切な名前の使用がカバーされています。これは、Aboutダイアログでプロジェクトの起源について言及したもので、ライセンスは受け入れられます。しかも、そのプロジェクトが我々の承認<b>なしに実施されたフォーク</b>であり、非常に明確です。</p>"
 
-#: src/application/pages/global/AccountListPage.ui:47
+#: src/application/pages/global/AccountListPage.ui:49
 msgctxt "AccountListPage|"
 msgid "Add"
 msgstr "追加"
 
-#: src/application/pages/global/AccountListPage.ui:52
+#: src/application/pages/global/AccountListPage.ui:54
 msgctxt "AccountListPage|"
 msgid "Remove"
 msgstr "削除"
 
-#: src/application/pages/global/AccountListPage.ui:57
+#: src/application/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
 msgid "Set Default"
 msgstr "デフォルトに設定"
 
-#: src/application/pages/global/AccountListPage.ui:65
+#: src/application/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
 msgid "No Default"
 msgstr "デフォルトなし"
 
-#: src/application/pages/global/AccountListPage.ui:70
+#: src/application/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
 msgstr "スキンをアップロード"
+
+#: src/application/pages/global/AccountListPage.ui:77
+msgctxt "AccountListPage|"
+msgid "Delete Skin"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.ui:80
+msgctxt "AccountListPage|"
+msgid "Delete the currently active skin and go back to the default one"
+msgstr ""
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
 msgstr "アカウント"
 
-#: src/application/pages/global/AccountListPage.cpp:41
+#: src/application/pages/global/AccountListPage.cpp:43
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
 msgstr "ようこそ！\n"
 "初めて使う場合は、「追加」ボタンを押してあなたのMojangアカウントかMinecraftアカウントを追加して下さい。"
 
-#: src/application/pages/global/AccountListPage.cpp:77
+#: src/application/pages/global/AccountListPage.cpp:79
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "コンテキストメニュー"
 
-#: src/application/pages/global/AccountListPage.cpp:106
+#: src/application/pages/global/AccountListPage.cpp:108
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
 msgstr "Minecraftアカウントメールアドレスとパスワードを入力してアカウントを追加してください。"
+
+#: src/application/pages/global/AccountListPage.cpp:209
+#: src/application/pages/global/AccountListPage.cpp:214
+msgctxt "AccountListPage|"
+msgid "Skin Delete"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:209
+msgctxt "AccountListPage|"
+msgid "Failed to login!"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:214
+msgctxt "AccountListPage|"
+msgid "Failed to delete current skin!"
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -211,6 +320,46 @@ msgid "Failed to download assets:\n"
 msgstr "assetsのダウンロードに失敗しました! :\n"
 "%1"
 
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
+msgctxt "Atl::FilterModel|"
+msgid "Sort by popularity"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
+msgctxt "Atl::FilterModel|"
+msgid "Sort by name"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
+msgctxt "Atl::FilterModel|"
+msgid "Sort by game version"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
+msgctxt "AtlPage|"
+msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
+msgctxt "AtlPage|"
+msgid "Version selected:"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:71
+msgctxt "AtlPage|"
+msgid "Reset"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:78
+msgctxt "AtlPage|"
+msgid "Search and filter ..."
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.h:43
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
+
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
@@ -250,69 +399,6 @@ msgstr "認証中：応答の処理中..."
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
 msgstr "プロファイラは中断されました"
-
-#: src/api/logic/java/launch/CheckJava.cpp:36
-#, qt-format
-msgctxt "CheckJava|"
-msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr "Javaのバイナリ \"%1\"は見つかりませんでした。 インスタンスの設定でJavaのパスの設定を修正するか無効にしてください。"
-
-#: src/api/logic/java/launch/CheckJava.cpp:42
-#, qt-format
-msgctxt "CheckJava|"
-msgid "The java binary \"%1\" couldn't be found. Please set up java in the settings."
-msgstr "Javaのバイナリ \"%1\"は見つかりませんでした。 Javaの設定をしてください。"
-
-#: src/api/logic/java/launch/CheckJava.cpp:46
-msgctxt "CheckJava|"
-msgid "Java path is not valid."
-msgstr "Javaのパスが正しくありません"
-
-#: src/api/logic/java/launch/CheckJava.cpp:64
-msgctxt "CheckJava|"
-msgid "Checking Java version..."
-msgstr "Javaのバージョンを確認中..."
-
-#: src/api/logic/java/launch/CheckJava.cpp:86
-msgctxt "CheckJava|"
-msgid "Could not start java:"
-msgstr "Javaを開始できませんでした:"
-
-#: src/api/logic/java/launch/CheckJava.cpp:90
-msgctxt "CheckJava|"
-msgid "Could not start java!"
-msgstr "Javaを開始できませんでした!"
-
-#: src/api/logic/java/launch/CheckJava.cpp:95
-msgctxt "CheckJava|"
-msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr "Javaチェッカーは不明な値を返しました:"
-
-#: src/api/logic/java/launch/CheckJava.cpp:117
-#, qt-format
-msgctxt "CheckJava|"
-msgid "Java is version %1, using %2-bit architecture.\n\n"
-msgstr "Java バージョン: %1、アーキテクチャ: %2-bit.\n\n"
-
-#: src/api/logic/java/launch/CheckJava.cpp:127
-msgctxt "CheckJava|"
-msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr "あなたのCPUのアーキテクチャとシステムのアーキテクチャが一致しません。64bitのOSをインストールしたほうが良いかもしれません。\n\n"
-
-#: src/api/logic/java/launch/CheckJava.cpp:133
-msgctxt "CheckJava|"
-msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr "Javaのアーキテクチャとシステムのアーキテクチャが一致しません。64bitのJavaをインストールしたほうが良いかもしれません。\n\n"
-
-#: src/api/logic/minecraft/ComponentList.cpp:852
-msgctxt "ComponentList|"
-msgid "Name"
-msgstr "名前"
-
-#: src/api/logic/minecraft/ComponentList.cpp:854
-msgctxt "ComponentList|"
-msgid "Version"
-msgstr "バージョン"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
@@ -371,11 +457,6 @@ msgstr "プレイ時間をコピー"
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
 msgstr "グループがありません"
-
-#: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
-msgctxt "CreateServerResourcePacksFolder|"
-msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr "'server-resource-packs' フォルダーを作成できませんでした"
 
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -587,39 +668,39 @@ msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "選択したファイルは実行可能ではないようです"
 
-#: src/api/logic/minecraft/launch/ExtractNatives.cpp:86
+#: src/api/logic/minecraft/launch/ExtractNatives.cpp:97
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
 msgstr "Matoba Jar '%1' を '%2' に展開できませんでした。"
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:37
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
 msgstr "FMLライブラリをチェックしています..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:61
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
 msgstr "FMLライブラリをダウンロードしています..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:88
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
 msgstr "インスタンスにFMLライブラリをコピーしています..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:99
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
 msgstr "インスタンス内にFMLライブラリフォルダを作成することができませんでした。"
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:104
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
 msgstr "失敗: Forge/FMLライブラリのコピー : %1."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:117
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed to download the following files:\n"
@@ -646,6 +727,36 @@ msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
 msgstr "Minecraftのバイナリのフォルダの作成に失敗しました。"
 
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:13
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by plays"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:14
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by installs"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:15
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by name"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.ui:22
+msgctxt "FtbPage|"
+msgid "Version selected:"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.ui:40
+msgctxt "FtbPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.h:43
+msgctxt "FtbPage|"
+msgid "FTB"
+msgstr ""
+
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
@@ -661,25 +772,36 @@ msgctxt "GameOptionsPage|"
 msgid "Game Options"
 msgstr "ゲームオプション"
 
-#: src/api/logic/minecraft/World.cpp:40
+#: src/api/logic/minecraft/World.cpp:69
 msgctxt "GameType|"
 msgid "Survival"
 msgstr "サバイバル"
 
-#: src/api/logic/minecraft/World.cpp:42
+#: src/api/logic/minecraft/World.cpp:71
 msgctxt "GameType|"
 msgid "Creative"
 msgstr "クリエイティブ"
 
-#: src/api/logic/minecraft/World.cpp:44
+#: src/api/logic/minecraft/World.cpp:73
 msgctxt "GameType|"
 msgid "Adventure"
 msgstr "アドベンチャー"
 
-#: src/api/logic/minecraft/World.cpp:46
+#: src/api/logic/minecraft/World.cpp:75
 msgctxt "GameType|"
 msgid "Spectator"
 msgstr "スペクテイター"
+
+#: src/api/logic/minecraft/World.cpp:80
+#, qt-format
+msgctxt "GameType|"
+msgid "Unknown (%1)"
+msgstr ""
+
+#: src/api/logic/minecraft/World.cpp:82
+msgctxt "GameType|"
+msgid "Undefined"
+msgstr ""
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
@@ -817,7 +939,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "バージョン %1 からインスタンスを作成中"
 
-#: src/api/logic/InstanceImportTask.cpp:35
+#: src/api/logic/InstanceImportTask.cpp:50
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -825,105 +947,105 @@ msgid "Downloading modpack:\n"
 msgstr "Modパックをダウンロード中:\n"
 "%1"
 
-#: src/api/logic/InstanceImportTask.cpp:41
+#: src/api/logic/InstanceImportTask.cpp:56
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Modパック ダウンロード"
 
-#: src/api/logic/InstanceImportTask.cpp:71
+#: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Modパックを展開中"
 
-#: src/api/logic/InstanceImportTask.cpp:79
+#: src/api/logic/InstanceImportTask.cpp:94
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "指定したModPackのzipファイルを開けません。"
 
-#: src/api/logic/InstanceImportTask.cpp:104
-#: src/api/logic/InstanceImportTask.cpp:165
+#: src/api/logic/InstanceImportTask.cpp:127
+#: src/api/logic/InstanceImportTask.cpp:191
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "アーカイブにはModパックが含まれていないようです。"
 
-#: src/api/logic/InstanceImportTask.cpp:120
+#: src/api/logic/InstanceImportTask.cpp:143
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Modパックの展開に失敗"
 
-#: src/api/logic/InstanceImportTask.cpp:147
+#: src/api/logic/InstanceImportTask.cpp:170
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "%1 の権限を修正できませんでした"
 
-#: src/api/logic/InstanceImportTask.cpp:172
+#: src/api/logic/InstanceImportTask.cpp:198
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "インスタンスのインポートは中断されました。"
 
-#: src/api/logic/InstanceImportTask.cpp:193
+#: src/api/logic/InstanceImportTask.cpp:219
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "パック マニフェストが解析できませんでした：\n"
 
-#: src/api/logic/InstanceImportTask.cpp:204
+#: src/api/logic/InstanceImportTask.cpp:230
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "上書きフォルダの名前を変更できませんでした:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:210
+#: src/api/logic/InstanceImportTask.cpp:236
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "指定された上書きフォルダ(%1)がありません。modpackは以前から使われていたのでしょうか?"
 
-#: src/api/logic/InstanceImportTask.cpp:224
+#: src/api/logic/InstanceImportTask.cpp:250
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "マニフェストに不明なModローダーがあります: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:237
+#: src/api/logic/InstanceImportTask.cpp:263
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "パックのインポート中にMinecraftバージョンから謎のドットが削除されました。"
 
-#: src/api/logic/InstanceImportTask.cpp:253
+#: src/api/logic/InstanceImportTask.cpp:279
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Minecraft %1 のForgeのバージョンファイルを処理できませんでした"
 
-#: src/api/logic/InstanceImportTask.cpp:301
+#: src/api/logic/InstanceImportTask.cpp:327
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod ダウンロード"
 
-#: src/api/logic/InstanceImportTask.cpp:317
+#: src/api/logic/InstanceImportTask.cpp:343
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "このフォルダは抽出が必要な場合があります: %1."
 
-#: src/api/logic/InstanceImportTask.cpp:329
+#: src/api/logic/InstanceImportTask.cpp:355
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "Modパックの中にさらにModパックが入ったものはサポートされていません。何もダウンロードされませんでした: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:334
+#: src/api/logic/InstanceImportTask.cpp:360
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "%1のパッケージタイプが認識できません"
 
-#: src/api/logic/InstanceImportTask.cpp:354
+#: src/api/logic/InstanceImportTask.cpp:380
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Modをダウンロードしています..."
 
-#: src/api/logic/InstanceImportTask.cpp:361
+#: src/api/logic/InstanceImportTask.cpp:387
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "Mod ID を処理できません。\n"
@@ -1070,17 +1192,37 @@ msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "カスタムコマンド"
 
+#: src/application/pages/instance/InstanceSettingsPage.ui:369
+msgctxt "InstanceSettingsPage|"
+msgid "Workarounds"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:378
+msgctxt "InstanceSettingsPage|"
+msgid "Native libraries"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:390
+msgctxt "InstanceSettingsPage|"
+msgid "Use system installation of GLFW"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:397
+msgctxt "InstanceSettingsPage|"
+msgid "Use system installation of OpenAL"
+msgstr ""
+
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "設定"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:228
+#: src/application/pages/instance/InstanceSettingsPage.cpp:247
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "Javaのバージョンを選択します"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:246
+#: src/application/pages/instance/InstanceSettingsPage.cpp:265
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Java実行可能ファイルを探します"
@@ -1115,19 +1257,19 @@ msgctxt "InstanceWindow|"
 msgid "Kill"
 msgstr "強制終了"
 
-#: src/application/InstanceWindow.cpp:126
+#: src/application/InstanceWindow.cpp:127
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
 msgstr "実行中のインスタンスを強制終了します"
 
-#: src/application/InstanceWindow.cpp:131
-#: src/application/InstanceWindow.cpp:138
+#: src/application/InstanceWindow.cpp:132
+#: src/application/InstanceWindow.cpp:140
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "起動"
 
-#: src/application/InstanceWindow.cpp:132
-#: src/application/InstanceWindow.cpp:139
+#: src/application/InstanceWindow.cpp:134
+#: src/application/InstanceWindow.cpp:142
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
 msgstr "選択したインスタンスを起動します"
@@ -1537,7 +1679,7 @@ msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
 msgstr "解凍した Minecraft が移動できませんでした。"
 
-#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:186
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
 msgstr "インストール方法が見つかりませんでした。"
@@ -1689,7 +1831,7 @@ msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
 msgstr "メタデータにnull jarが指定されています。中断します。"
 
-#: src/api/logic/minecraft/update/LibrariesTask.cpp:58
+#: src/api/logic/minecraft/update/LibrariesTask.cpp:59
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Some artifacts marked as 'local' are missing their files:\n"
@@ -1698,7 +1840,7 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "You'll have to correct this problem manually."
 msgstr "'local'とマークされたアーティファクトのファイルがありません: %1 ファイルを追加するか、それらを必要とするパッケージを削除する必要があります。この問題は手動で修正する必要があります。"
 
-#: src/api/logic/minecraft/update/LibrariesTask.cpp:75
+#: src/api/logic/minecraft/update/LibrariesTask.cpp:76
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
@@ -1843,7 +1985,7 @@ msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "起動しているインスタンスを強制終了"
 
-#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:955
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:957
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "起動"
@@ -1888,7 +2030,7 @@ msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "ファイルブラウザでCentral Modsフォルダを開きます。"
 
-#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:625
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:627
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "フォルダ"
@@ -1948,7 +2090,7 @@ msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "MultiMCについての情報を表示します。"
 
-#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:626
+#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:628
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "ヘルプ"
@@ -2033,7 +2175,7 @@ msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "選択したインスタンスの名前を変更します。"
 
-#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:956
+#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:958
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "オフラインプレイ"
@@ -2148,75 +2290,75 @@ msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "選択したインスタンスをコピーします。"
 
-#: src/application/MainWindow.cpp:605
+#: src/application/MainWindow.cpp:607
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - バージョン %1"
 
-#: src/application/MainWindow.cpp:608
+#: src/application/MainWindow.cpp:610
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " on %1"
 
-#: src/application/MainWindow.cpp:718
+#: src/application/MainWindow.cpp:720
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "インスタンスが選択されていません"
 
-#: src/application/MainWindow.cpp:733 src/application/MainWindow.cpp:1129
+#: src/application/MainWindow.cpp:735 src/application/MainWindow.cpp:1131
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "プロファイル"
 
-#: src/application/MainWindow.cpp:888
+#: src/application/MainWindow.cpp:890
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "インスタンスの作成"
 
-#: src/application/MainWindow.cpp:904
+#: src/application/MainWindow.cpp:906
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "グループ '%1' を削除"
 
-#: src/application/MainWindow.cpp:965
+#: src/application/MainWindow.cpp:967
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "プロファイラ"
 
-#: src/application/MainWindow.cpp:977
+#: src/application/MainWindow.cpp:979
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "プロファイラーが正しくセットアップされていません。設定の、「外部ツール」に移動します。"
 
-#: src/application/MainWindow.cpp:1031
+#: src/application/MainWindow.cpp:1033
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "アカウントが追加されていません!"
 
-#: src/application/MainWindow.cpp:1061
+#: src/application/MainWindow.cpp:1063
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "デフォルトアカウントがありません"
 
-#: src/application/MainWindow.cpp:1169
+#: src/application/MainWindow.cpp:1171
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "ニュースを読み込んでいます..."
 
-#: src/application/MainWindow.cpp:1182
+#: src/application/MainWindow.cpp:1184
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "ニュースはありません。"
 
-#: src/application/MainWindow.cpp:1265 src/application/MainWindow.cpp:1282
+#: src/application/MainWindow.cpp:1267 src/application/MainWindow.cpp:1284
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "エラー"
 
-#: src/application/MainWindow.cpp:1265
+#: src/application/MainWindow.cpp:1267
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -2229,62 +2371,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "名前"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:644
+#: src/api/logic/minecraft/MinecraftInstance.cpp:650
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SESSION ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:646
+#: src/api/logic/minecraft/MinecraftInstance.cpp:652
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ACCESS TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:647
+#: src/api/logic/minecraft/MinecraftInstance.cpp:653
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:648
+#: src/api/logic/minecraft/MinecraftInstance.cpp:654
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:735
+#: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1分%2秒"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:739
+#: src/api/logic/minecraft/MinecraftInstance.cpp:745
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1時間%2分"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:741
+#: src/api/logic/minecraft/MinecraftInstance.cpp:747
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1日と%2時間%3分"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:749
+#: src/api/logic/minecraft/MinecraftInstance.cpp:755
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "破損"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:753
+#: src/api/logic/minecraft/MinecraftInstance.cpp:759
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:756
+#: src/api/logic/minecraft/MinecraftInstance.cpp:762
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", プレイ時間: %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:760
+#: src/api/logic/minecraft/MinecraftInstance.cpp:766
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", クラッシュしました。"
@@ -2309,12 +2451,27 @@ msgctxt "MinecraftPage|"
 msgid "W&indow width:"
 msgstr "ウィンドウの幅:"
 
+#: src/application/pages/global/MinecraftPage.ui:117
+msgctxt "MinecraftPage|"
+msgid "Native library workarounds"
+msgstr ""
+
+#: src/application/pages/global/MinecraftPage.ui:123
+msgctxt "MinecraftPage|"
+msgid "Use system installation of GLFW"
+msgstr ""
+
+#: src/application/pages/global/MinecraftPage.ui:130
+msgctxt "MinecraftPage|"
+msgid "Use system installation of OpenAL"
+msgstr ""
+
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
 msgstr "Minecraft"
 
-#: src/api/logic/minecraft/MinecraftUpdate.cpp:90
+#: src/api/logic/minecraft/MinecraftUpdate.cpp:88
 msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "ユーザーによって中断されました。"
@@ -2456,6 +2613,26 @@ msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
 msgstr "カスタム Minecraft jar ファイルの作成に失敗しました。"
 
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:74
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Could not understand pack manifest:\n"
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:90
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Downloading mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:92
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Mod download"
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:129
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Installing modpack"
+msgstr ""
+
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
@@ -2471,7 +2648,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "バージョンの名前"
 
-#: src/application/MultiMC.cpp:522
+#: src/application/MultiMC.cpp:561
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "設定"
@@ -2744,7 +2921,7 @@ msgid "uid"
 msgstr "UID"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:132
+#: src/application/dialogs/NewInstanceDialog.cpp:143
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "新規インスタンス"
@@ -2759,7 +2936,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "名前:"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:64
+#: src/application/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "グループなし"
@@ -2936,6 +3113,16 @@ msgstr "ファイルを削除できませんでした: %1"
 msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "その他のログ"
+
+#: src/api/logic/minecraft/PackProfile.cpp:852
+msgctxt "PackProfile|"
+msgid "Name"
+msgstr ""
+
+#: src/api/logic/minecraft/PackProfile.cpp:854
+msgctxt "PackProfile|"
+msgid "Version"
+msgstr ""
 
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
@@ -3139,32 +3326,43 @@ msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
 msgstr "このバージョン (%1) の'minimumLauncherVersion'値は、MultiMC (%2) でサポートされている値よりも大きくなっています。 正しく動作しない可能性があります。"
 
+#: src/api/logic/minecraft/PackProfile.cpp:190
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "無効なコンポーネントファイルのバージョンです。期待するバージョンは、%1です"
+
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
 msgstr "バージョンファイルには \"+libraries\" と \"libraries\" の両方が含まれています。これはもうサポートされていません。"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:203
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr ""
+
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:236
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
 msgstr "バージョンファイルにサポートされていない要素 \"tweakers\" があります"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:240
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
 msgstr "バージョンファイルにサポートされていない要素 \"-libraries\" があります"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:237
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:244
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
 msgstr "バージョンファイルにサポートされていない要素 \"-tweakers\" があります"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:241
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:248
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
 msgstr "バージョンファイルにサポートされていない要素 \"-minecraftArguments\" があります"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:252
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "バージョンファイルにサポートされていない要素  \"+minecraftArguments\" があります"
@@ -3200,18 +3398,7 @@ msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "バージョンファイル %1を処理できません。"
 
-#: src/api/logic/minecraft/ComponentList.cpp:190
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "無効なコンポーネントファイルのバージョンです。期待するバージョンは、%1です"
-
-#: src/api/logic/minecraft/World.cpp:50
-msgctxt "QObject|"
-msgid "Unknown"
-msgstr "不明"
-
-#: src/api/logic/meta/BaseEntity.cpp:117
+#: src/api/logic/meta/BaseEntity.cpp:123
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
@@ -3292,7 +3479,7 @@ msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p><a href=\"%1\">GitHubで変更点を見る</a>ことができます。</p>"
 
 #: src/application/dialogs/AboutDialog.cpp:31
-#: src/application/dialogs/AboutDialog.cpp:52
+#: src/application/dialogs/AboutDialog.cpp:53
 msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr "Patrons"
@@ -3344,7 +3531,7 @@ msgid "The rollback failed too.\n"
 "Please let us know why and how this happened."
 msgstr "ロールバックにも失敗しました。この問題は手動で修正する必要があります。なぜ、発生したのか、原因を教えてください。"
 
-#: src/application/MainWindow.cpp:1001
+#: src/application/MainWindow.cpp:1003
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (使用中)"
@@ -3383,36 +3570,35 @@ msgid "JVM arguments warning"
 msgstr "JVM引数の警告"
 
 #: src/application/JavaCommon.cpp:26
-#: src/application/widgets/JavaSettingsWidget.cpp:309
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Javaのテストに成功しました<br />プラットフォーム情報: %1<br />Javaバージョン情報: %2<br />"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr ""
 
-#: src/application/JavaCommon.cpp:32
+#: src/application/JavaCommon.cpp:33
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />修正に失敗しました:</b>%1</span><br />警告:<br /><font color=\"orange\">%1</font>"
 
-#: src/application/JavaCommon.cpp:34
+#: src/application/JavaCommon.cpp:35
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
 msgstr "Javaのテストに成功しました"
 
-#: src/application/JavaCommon.cpp:42
+#: src/application/JavaCommon.cpp:43
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr "指定されたJavaバイナリは、指定された引数では動作しませんでした:<br />"
 
-#: src/application/JavaCommon.cpp:44 src/application/JavaCommon.cpp:53
+#: src/application/JavaCommon.cpp:45 src/application/JavaCommon.cpp:54
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
 msgstr "Javaのテストに失敗しました"
 
-#: src/application/JavaCommon.cpp:50
+#: src/application/JavaCommon.cpp:51
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "指定されたJavaバイナリが動作しませんでした。<br />自動検出地物を使用するか、Java実行ファイルへのパスを設定してください。<br />"
@@ -3431,6 +3617,12 @@ msgstr "指定されたJavaバイナリが正しく起動しませんでした�
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
 msgstr "指定されたJavaバイナリは予期しない結果を返しました:<br />"
+
+#: src/application/widgets/JavaSettingsWidget.cpp:309
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Javaのテストに成功しました<br />プラットフォーム情報: %1<br />Javaバージョン情報: %2<br />"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -3708,7 +3900,12 @@ msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
 msgstr "MultiMC クイックセットアップ"
 
-#: src/api/logic/minecraft/SkinUpload.cpp:46
+#: src/api/logic/minecraft/services/SkinDelete.cpp:18
+msgctxt "SkinDelete|"
+msgid "Deleting skin"
+msgstr ""
+
+#: src/api/logic/minecraft/services/SkinUpload.cpp:43
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
 msgstr "スキンをアップロード"
@@ -3787,12 +3984,167 @@ msgid "Failed to load status JSON:\n"
 msgstr "JSONの読み込みに失敗しました:\n"
 "%1"
 
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:33
+#, qt-format
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Downloading modpack:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:38
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Modpack download"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:50
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Extracting modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:58
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Unable to open supplied modpack zip file."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:84
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Failed to extract modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:111
+#, qt-format
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Could not fix permissions for %1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:128
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Instance import has been aborted."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:32
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Finding recommended version:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:33
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Finding recommended version"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:57
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Resolving modpack files:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:58
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Resolving modpack files"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:68
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Downloading modpack:"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:90
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Downloading modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:109
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Extracting modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:148
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Failed to extract modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:175
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Could not fix permissions for %1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:192
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Instance import has been aborted."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:58
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"bin/modpack.jar\" file!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:70
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"fmlversion.properties\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:84
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:139
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"version.json\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:93
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:107
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"forgeversion.properties\""
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:122
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Invalid \"forgeversion.properties\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:148
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to find a \"version.json\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:161
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not understand \"version.json\":\n"
+"inheritsFrom is missing"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:202
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not understand \"version.json\":\n"
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.ui:35
+msgctxt "TechnicPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.cpp:185
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.h:45
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr ""
+
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "テクスチャーパック"
 
-#: src/api/logic/translations/TranslationsModel.cpp:354
+#: src/api/logic/translations/TranslationsModel.cpp:355
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -3804,25 +4156,40 @@ msgstr "%1:\n"
 "要確認 %3\n"
 "全体 %4"
 
-#: src/api/logic/translations/TranslationsModel.cpp:372
+#: src/api/logic/translations/TranslationsModel.cpp:373
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "言語"
 
-#: src/api/logic/translations/TranslationsModel.cpp:376
+#: src/api/logic/translations/TranslationsModel.cpp:377
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "完成度"
 
-#: src/api/logic/translations/TranslationsModel.cpp:386
+#: src/api/logic/translations/TranslationsModel.cpp:387
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "母国語"
 
-#: src/api/logic/translations/TranslationsModel.cpp:390
+#: src/api/logic/translations/TranslationsModel.cpp:391
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "完全性は、完全に翻訳された文字列のパーセントです。自動的に推測されたものは含まれません。"
+
+#: src/application/pages/modplatform/twitch/TwitchPage.ui:20
+msgctxt "TwitchPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/twitch/TwitchPage.cpp:85
+msgctxt "TwitchPage|"
+msgid " by "
+msgstr ""
+
+#: src/application/pages/modplatform/twitch/TwitchPage.h:45
+msgctxt "TwitchPage|"
+msgid "Twitch"
+msgstr ""
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -4192,16 +4559,14 @@ msgid "Change %1 version"
 msgstr "%1のバージョンを変更"
 
 #: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
-msgid "No Fabric Loader versions are currently available."
-msgstr "Fabricは現在使用できません。"
+msgid "No intermediary mappings versions are currently available."
+msgstr ""
 
 #: src/application/pages/instance/VersionPage.cpp:361
-#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
-msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "Fabricのバージョンリストを読み込めませんでした"
+msgid "Couldn't load or download the intermediary mappings version lists!"
+msgstr ""
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
@@ -4229,6 +4594,16 @@ msgstr "Forgeのバージョンリストを読み込めないかダウンロー�
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Fabricのバージョンを選択してください"
+
+#: src/application/pages/instance/VersionPage.cpp:445
+msgctxt "VersionPage|"
+msgid "No Fabric Loader versions are currently available."
+msgstr "Fabricは現在使用できません。"
+
+#: src/application/pages/instance/VersionPage.cpp:446
+msgctxt "VersionPage|"
+msgid "Couldn't load or download the Fabric Loader version lists!"
+msgstr "Fabricのバージョンリストを読み込めませんでした"
 
 #: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
@@ -4370,97 +4745,117 @@ msgid "List update failed:\n"
 msgstr "リストの更新に失敗しました:\n"
 "%1"
 
-#: src/api/logic/minecraft/WorldList.cpp:211
+#: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
 msgid "Name"
 msgstr "名前"
 
-#: src/api/logic/minecraft/WorldList.cpp:213
+#: src/api/logic/minecraft/WorldList.cpp:230
 msgctxt "WorldList|"
 msgid "Game Mode"
 msgstr "ゲームモード"
 
-#: src/api/logic/minecraft/WorldList.cpp:215
+#: src/api/logic/minecraft/WorldList.cpp:232
 msgctxt "WorldList|"
 msgid "Last Played"
 msgstr "最後のプレイ"
 
-#: src/api/logic/minecraft/WorldList.cpp:224
+#: src/api/logic/minecraft/WorldList.cpp:241
 msgctxt "WorldList|"
 msgid "The name of the world."
 msgstr "ワールドの名前"
 
-#: src/api/logic/minecraft/WorldList.cpp:226
+#: src/api/logic/minecraft/WorldList.cpp:243
 msgctxt "WorldList|"
 msgid "Game mode of the world."
 msgstr "ワールドのゲームモード"
 
-#: src/api/logic/minecraft/WorldList.cpp:228
+#: src/api/logic/minecraft/WorldList.cpp:245
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
 msgstr "ワールドを最後にプレイした日時"
 
-#: src/application/pages/instance/WorldListPage.ui:59
+#: src/application/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
 msgid "Actions"
 msgstr "アクション"
 
-#: src/application/pages/instance/WorldListPage.ui:89
+#: src/application/pages/instance/WorldListPage.ui:97
 msgctxt "WorldListPage|"
 msgid "Add"
 msgstr "追加"
 
-#: src/application/pages/instance/WorldListPage.ui:94
+#: src/application/pages/instance/WorldListPage.ui:102
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "リネーム"
 
-#: src/application/pages/instance/WorldListPage.ui:99
+#: src/application/pages/instance/WorldListPage.ui:107
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "コピー"
 
-#: src/application/pages/instance/WorldListPage.ui:104
+#: src/application/pages/instance/WorldListPage.ui:112
 msgctxt "WorldListPage|"
 msgid "Remove"
 msgstr "削除"
 
-#: src/application/pages/instance/WorldListPage.ui:109
+#: src/application/pages/instance/WorldListPage.ui:117
 msgctxt "WorldListPage|"
 msgid "MCEdit"
 msgstr "MCEdit"
 
-#: src/application/pages/instance/WorldListPage.ui:114
+#: src/application/pages/instance/WorldListPage.ui:122
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
 msgstr "シード値をコピー"
 
-#: src/application/pages/instance/WorldListPage.ui:119
+#: src/application/pages/instance/WorldListPage.ui:127
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "リフレッシュ"
 
-#: src/application/pages/instance/WorldListPage.ui:124
+#: src/application/pages/instance/WorldListPage.ui:132
 msgctxt "WorldListPage|"
 msgid "View Folder"
 msgstr "フォルダーを表示"
+
+#: src/application/pages/instance/WorldListPage.ui:137
+msgctxt "WorldListPage|"
+msgid "Reset Icon"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:140
+msgctxt "WorldListPage|"
+msgid "Remove world icon to make the game re-generate it on next load."
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:145
+msgctxt "WorldListPage|"
+msgid "Datapacks"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:148
+msgctxt "WorldListPage|"
+msgid "Manage datapacks inside the world."
+msgstr ""
 
 #: src/application/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
 msgid "Worlds"
 msgstr "ワールド"
 
-#: src/application/pages/instance/WorldListPage.cpp:76
+#: src/application/pages/instance/WorldListPage.cpp:104
 msgctxt "WorldListPage|"
 msgid "Context menu"
 msgstr "コンテキストメニュー"
 
-#: src/application/pages/instance/WorldListPage.cpp:126
+#: src/application/pages/instance/WorldListPage.cpp:154
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "よろしいですか?"
 
-#: src/application/pages/instance/WorldListPage.cpp:127
+#: src/application/pages/instance/WorldListPage.cpp:155
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
@@ -4468,64 +4863,64 @@ msgid "This will remove the selected world permenantly.\n"
 msgstr "選択されたワールドは完全に削除されます\n\n"
 "よろしいですか?"
 
-#: src/application/pages/instance/WorldListPage.cpp:207
+#: src/application/pages/instance/WorldListPage.cpp:266
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "MCEditが見つからないか設定されていません。"
 
-#: src/application/pages/instance/WorldListPage.cpp:208
+#: src/application/pages/instance/WorldListPage.cpp:267
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "MCEditが設定されていないか、移動されたようです。\n"
 "グローバル設定で設定してください。"
 
-#: src/application/pages/instance/WorldListPage.cpp:217
+#: src/application/pages/instance/WorldListPage.cpp:276
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "MCEditの起動に失敗しました"
 
-#: src/application/pages/instance/WorldListPage.cpp:218
+#: src/application/pages/instance/WorldListPage.cpp:277
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr "MCEditの起動に失敗しました。\n"
 "MCEditの再インストールが必要なようです。"
 
-#: src/application/pages/instance/WorldListPage.cpp:264
+#: src/application/pages/instance/WorldListPage.cpp:325
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "Minecraftのワールドを選択"
 
-#: src/application/pages/instance/WorldListPage.cpp:265
+#: src/application/pages/instance/WorldListPage.cpp:326
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Minecraftのワールド (*.zip)"
 
-#: src/application/pages/instance/WorldListPage.cpp:286
+#: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "ワールドをコピー"
 
-#: src/application/pages/instance/WorldListPage.cpp:286
+#: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr "Minecraftの動作中にワールドに変更を加えるのは安全ではありません。\n"
 "本当に続けてよろしいですか?"
 
-#: src/application/pages/instance/WorldListPage.cpp:310
-#: src/application/pages/instance/WorldListPage.cpp:333
+#: src/application/pages/instance/WorldListPage.cpp:371
+#: src/application/pages/instance/WorldListPage.cpp:394
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "ワールド名"
 
-#: src/application/pages/instance/WorldListPage.cpp:310
+#: src/application/pages/instance/WorldListPage.cpp:371
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "新しいワールド名を入力してください"
 
-#: src/application/pages/instance/WorldListPage.cpp:333
+#: src/application/pages/instance/WorldListPage.cpp:394
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "新しいワールド名を入力してください"
