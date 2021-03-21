@@ -13,7 +13,90 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-09-05 18:06\n"
+"PO-Revision-Date: 2021-03-21 21:13\n"
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Could not understand pack manifest:\n"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:76
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:82
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:157
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to get local metadata index for "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:144
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown mod type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:274
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown or unsupported download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:367
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Downloading configs..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:368
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Config download"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:400
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Extracting configs..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:407
+#, qt-format
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to open pack configs %1!"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:426
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Downloading mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:429
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Mod download"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:440
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unsupported download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:446
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown download type: "
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:545
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Failed to extract mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Extracting mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:618
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Installing modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:655
+msgctxt "ATLauncher::PackInstallTask|"
+msgid "Unknown loader type: "
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -48,12 +131,12 @@ msgstr "Versiokanava:"
 #: src/application/dialogs/AboutDialog.ui:149
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>MultiMC is a custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>MultiMC on mukautettu käynnistin, jolla voit ylläpitää useita Minecraft-versioita rinnakkain ja helpottaa näin Minecraftin hallintaa.</p></body></html>"
+msgstr "<html><head/><body><p>MultiMC on mukautettu käynnistin, jolla voit ylläpitää useita Minecraft-pelipaketteja rinnakkain ja helpottaa näin Minecraftin hallintaa.</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
-msgid "© 2012-2019 MultiMC Contributors"
-msgstr "© 2012-2019 MultiMC-avustajat"
+msgid "© 2012-2021 MultiMC Contributors"
+msgstr ""
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -80,27 +163,27 @@ msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "Sulje"
 
-#: src/application/dialogs/AboutDialog.cpp:88
+#: src/application/dialogs/AboutDialog.cpp:89
 msgctxt "AboutDialog|"
 msgid "Version"
 msgstr "Versio"
 
-#: src/application/dialogs/AboutDialog.cpp:89
+#: src/application/dialogs/AboutDialog.cpp:90
 msgctxt "AboutDialog|"
 msgid "Platform"
 msgstr "Alusta"
 
-#: src/application/dialogs/AboutDialog.cpp:92
+#: src/application/dialogs/AboutDialog.cpp:93
 msgctxt "AboutDialog|"
 msgid "Build Number"
 msgstr "Aliversionumero"
 
-#: src/application/dialogs/AboutDialog.cpp:97
+#: src/application/dialogs/AboutDialog.cpp:98
 msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "Versiokanava"
 
-#: src/application/dialogs/AboutDialog.cpp:101
+#: src/application/dialogs/AboutDialog.cpp:102
 msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
@@ -109,52 +192,78 @@ msgstr "<p>Pidämme MultiMC:n lähdekoodin avoimena, koska katsomme tärkeäksi,
 "<p>Yksi syy Apache-lisenssin käyttöön on, ettemme halua muiden käyttävän nimeä &quot;MultiMC&quot; uudelleenjakaessaan projektia. Tämä tarkoittaa, että muiden tulee tarkistaa lähdekoodi ajan kanssa ja poistaa kaikki viitteet nimeen &quot;MultiMC&quot;, mukaan lukien muttei rajaten sovelluksen kuvakkeeseen ja ikkunoiden otsakkeisiin (ei tekstiä <b>MultiMC-fork</b> otsakkeessa).</p>\n"
 "<p>Apache-lisenssi kattaa nimen kohtuullisen käytön – maininta projektin lähteistä Tietoja-osiossa ja lisenssissä on hyväksyttävää. Projektisi tulee kuitenkin tehdä selväksi, että se on forkkaus <b>ilman,</b> että väität saaneesi sille siunauksemme.</p>"
 
-#: src/application/pages/global/AccountListPage.ui:47
+#: src/application/pages/global/AccountListPage.ui:49
 msgctxt "AccountListPage|"
 msgid "Add"
 msgstr "Lisää"
 
-#: src/application/pages/global/AccountListPage.ui:52
+#: src/application/pages/global/AccountListPage.ui:54
 msgctxt "AccountListPage|"
 msgid "Remove"
 msgstr "Poista"
 
-#: src/application/pages/global/AccountListPage.ui:57
+#: src/application/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
 msgid "Set Default"
 msgstr "Aseta oletukseksi"
 
-#: src/application/pages/global/AccountListPage.ui:65
+#: src/application/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
 msgid "No Default"
 msgstr "Ei oletusta"
 
-#: src/application/pages/global/AccountListPage.ui:70
+#: src/application/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
 msgstr "Lähetä skini"
+
+#: src/application/pages/global/AccountListPage.ui:77
+msgctxt "AccountListPage|"
+msgid "Delete Skin"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.ui:80
+msgctxt "AccountListPage|"
+msgid "Delete the currently active skin and go back to the default one"
+msgstr ""
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
 msgstr "Tilit"
 
-#: src/application/pages/global/AccountListPage.cpp:41
+#: src/application/pages/global/AccountListPage.cpp:43
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
 msgstr "Tervetuloa!\n"
 "Jos olet uusi täällä, voit klikata \"Lisää\"-painiketta lisätäksesi Mojang- tai Minecraft-tilisi."
 
-#: src/application/pages/global/AccountListPage.cpp:77
+#: src/application/pages/global/AccountListPage.cpp:79
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "Pikavalikko"
 
-#: src/application/pages/global/AccountListPage.cpp:106
+#: src/application/pages/global/AccountListPage.cpp:108
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
 msgstr "Syötä Minecraft-tilisi sähköposti ja salasana lisätäksesi tilisi."
+
+#: src/application/pages/global/AccountListPage.cpp:209
+#: src/application/pages/global/AccountListPage.cpp:214
+msgctxt "AccountListPage|"
+msgid "Skin Delete"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:209
+msgctxt "AccountListPage|"
+msgid "Failed to login!"
+msgstr ""
+
+#: src/application/pages/global/AccountListPage.cpp:214
+msgctxt "AccountListPage|"
+msgid "Failed to delete current skin!"
+msgstr ""
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -213,6 +322,46 @@ msgid "Failed to download assets:\n"
 msgstr "Virhe ladattaessa aineistoja:\n"
 "%1"
 
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
+msgctxt "Atl::FilterModel|"
+msgid "Sort by popularity"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
+msgctxt "Atl::FilterModel|"
+msgid "Sort by name"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
+msgctxt "Atl::FilterModel|"
+msgid "Sort by game version"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
+msgctxt "AtlPage|"
+msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
+msgctxt "AtlPage|"
+msgid "Version selected:"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:71
+msgctxt "AtlPage|"
+msgid "Reset"
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.ui:78
+msgctxt "AtlPage|"
+msgid "Search and filter ..."
+msgstr ""
+
+#: src/application/pages/modplatform/atlauncher/AtlPage.h:43
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
+
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
@@ -253,69 +402,6 @@ msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
 msgstr "Profiloija keskeytetty"
 
-#: src/api/logic/java/launch/CheckJava.cpp:36
-#, qt-format
-msgctxt "CheckJava|"
-msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr "Java-asennusta \"%1\" ei löytynyt. Korjaa Javan ohituspolku peliversion asetuksista tai deaktivoi se."
-
-#: src/api/logic/java/launch/CheckJava.cpp:42
-#, qt-format
-msgctxt "CheckJava|"
-msgid "The java binary \"%1\" couldn't be found. Please set up java in the settings."
-msgstr "Java-asennusta \"%1\" ei löytynyt. Säädä Asetuksista Java-asetukset."
-
-#: src/api/logic/java/launch/CheckJava.cpp:46
-msgctxt "CheckJava|"
-msgid "Java path is not valid."
-msgstr "Java-polku ei kelpaa."
-
-#: src/api/logic/java/launch/CheckJava.cpp:64
-msgctxt "CheckJava|"
-msgid "Checking Java version..."
-msgstr "Tarkistetaan Java-versiota..."
-
-#: src/api/logic/java/launch/CheckJava.cpp:86
-msgctxt "CheckJava|"
-msgid "Could not start java:"
-msgstr "Javaa ei voitu käynnistää:"
-
-#: src/api/logic/java/launch/CheckJava.cpp:90
-msgctxt "CheckJava|"
-msgid "Could not start java!"
-msgstr "Javaa ei voitu käynnistää!"
-
-#: src/api/logic/java/launch/CheckJava.cpp:95
-msgctxt "CheckJava|"
-msgid "Java checker returned some invalid data MultiMC doesn't understand:"
-msgstr "Java-tarkistus palautti jotain virheellistä dataa, jota MultiMC ei osaa käsitellä:"
-
-#: src/api/logic/java/launch/CheckJava.cpp:117
-#, qt-format
-msgctxt "CheckJava|"
-msgid "Java is version %1, using %2-bit architecture.\n\n"
-msgstr "Java-versio on %1, käytetään %2-bittistä arkkitehtuuria.\n\n"
-
-#: src/api/logic/java/launch/CheckJava.cpp:127
-msgctxt "CheckJava|"
-msgid "Your CPU architecture is not matching your system architecture. You might want to install a 64bit Operating System.\n\n"
-msgstr "Prosessoriarkkitehtuurisi ei vastaa järjestelmäarkkitehtuuriasi. Saatat haluta asentaa 64-bittisen käyttöjärjestelmän.\n\n"
-
-#: src/api/logic/java/launch/CheckJava.cpp:133
-msgctxt "CheckJava|"
-msgid "Your Java architecture is not matching your system architecture. You might want to install a 64bit Java version.\n\n"
-msgstr "Java-arkkitehtuurisi ei vastaa järjestelmäarkkitehtuuriasi. Saatat haluta asentaa Javan 64-bittisen version.\n\n"
-
-#: src/api/logic/minecraft/ComponentList.cpp:852
-msgctxt "ComponentList|"
-msgid "Name"
-msgstr "Nimi"
-
-#: src/api/logic/minecraft/ComponentList.cpp:854
-msgctxt "ComponentList|"
-msgid "Version"
-msgstr "Versio"
-
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
@@ -347,7 +433,7 @@ msgstr "Komponenttien metadatan päivitystehtävä epäonnistui ladattaessa ulko
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr "Kopioi peliversio"
+msgstr "Kopioi pelipaketti"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
@@ -373,11 +459,6 @@ msgstr "Säilytä peliaika"
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
 msgstr "Ei ryhmää"
-
-#: src/api/logic/minecraft/launch/CreateServerResourcePacksFolder.cpp:16
-msgctxt "CreateServerResourcePacksFolder|"
-msgid "Couldn't create the 'server-resource-packs' folder"
-msgstr "Ei voitu luoda 'server-resource-packs'-kansiota"
 
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -589,39 +670,39 @@ msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "Valittu tiedosto ei vaikuta olevan suoritettava ohjelma"
 
-#: src/api/logic/minecraft/launch/ExtractNatives.cpp:86
+#: src/api/logic/minecraft/launch/ExtractNatives.cpp:97
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
 msgstr "Ei voitu purkaa natiivia jar-tiedostoa '%1' kohteeseen '%2'"
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:36
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:37
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
 msgstr "Tarkistetaan FML-kirjastoja..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:60
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:61
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
 msgstr "Ladataan FML-kirjastoja..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:87
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:88
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
 msgstr "Kopioidaan FML-kirjastoja peliversioon..."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:98
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:99
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
 msgstr "FML-kirjastokansion luonti peliversioon epäonnistui."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:103
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:104
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
 msgstr "Forge/FML-kirjaston kopiointi epäonnistui: %1."
 
-#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:116
+#: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:117
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed to download the following files:\n"
@@ -648,6 +729,36 @@ msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
 msgstr "Kansion luonti Minecraft-binääreille epäonnistui."
 
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:13
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by plays"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:14
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by installs"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:15
+msgctxt "Ftb::FilterModel|"
+msgid "Sort by name"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.ui:22
+msgctxt "FtbPage|"
+msgid "Version selected:"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.ui:40
+msgctxt "FtbPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/ftb/FtbPage.h:43
+msgctxt "FtbPage|"
+msgid "FTB"
+msgstr ""
+
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
@@ -663,25 +774,36 @@ msgctxt "GameOptionsPage|"
 msgid "Game Options"
 msgstr "Peliasetukset"
 
-#: src/api/logic/minecraft/World.cpp:40
+#: src/api/logic/minecraft/World.cpp:69
 msgctxt "GameType|"
 msgid "Survival"
 msgstr "Selviytyminen"
 
-#: src/api/logic/minecraft/World.cpp:42
+#: src/api/logic/minecraft/World.cpp:71
 msgctxt "GameType|"
 msgid "Creative"
 msgstr "Luova"
 
-#: src/api/logic/minecraft/World.cpp:44
+#: src/api/logic/minecraft/World.cpp:73
 msgctxt "GameType|"
 msgid "Adventure"
 msgstr "Seikkailu"
 
-#: src/api/logic/minecraft/World.cpp:46
+#: src/api/logic/minecraft/World.cpp:75
 msgctxt "GameType|"
 msgid "Spectator"
 msgstr "Katsoja"
+
+#: src/api/logic/minecraft/World.cpp:80
+#, qt-format
+msgctxt "GameType|"
+msgid "Unknown (%1)"
+msgstr ""
+
+#: src/api/logic/minecraft/World.cpp:82
+msgctxt "GameType|"
+msgid "Undefined"
+msgstr ""
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
@@ -817,9 +939,9 @@ msgstr "Peliversiokansion kopiointi keskeytetty."
 #, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "Luodaan peliversio versiosta %1"
+msgstr "Luodaan pelipaketti versiosta %1"
 
-#: src/api/logic/InstanceImportTask.cpp:35
+#: src/api/logic/InstanceImportTask.cpp:50
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -827,105 +949,105 @@ msgid "Downloading modpack:\n"
 msgstr "Ladataan modipakettia:\n"
 "%1"
 
-#: src/api/logic/InstanceImportTask.cpp:41
+#: src/api/logic/InstanceImportTask.cpp:56
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Modipaketin lataus"
 
-#: src/api/logic/InstanceImportTask.cpp:71
+#: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Puretaan modipakettia"
 
-#: src/api/logic/InstanceImportTask.cpp:79
+#: src/api/logic/InstanceImportTask.cpp:94
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Kyseistä modipaketin zip-arkistoa ei voida avata."
 
-#: src/api/logic/InstanceImportTask.cpp:104
-#: src/api/logic/InstanceImportTask.cpp:165
+#: src/api/logic/InstanceImportTask.cpp:127
+#: src/api/logic/InstanceImportTask.cpp:191
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "Arkisto ei sisällä tunnistettavaa modipakettityyppiä."
 
-#: src/api/logic/InstanceImportTask.cpp:120
+#: src/api/logic/InstanceImportTask.cpp:143
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Modipaketin purku epäonnistui"
 
-#: src/api/logic/InstanceImportTask.cpp:147
+#: src/api/logic/InstanceImportTask.cpp:170
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Ei voitu korjata oikeuksia kohteelle %1"
 
-#: src/api/logic/InstanceImportTask.cpp:172
+#: src/api/logic/InstanceImportTask.cpp:198
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Peliversion tuonti keskeytetty."
 
-#: src/api/logic/InstanceImportTask.cpp:193
+#: src/api/logic/InstanceImportTask.cpp:219
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Ei pystytty käsittelemään paketin luetteloa:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:204
+#: src/api/logic/InstanceImportTask.cpp:230
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Ei voitu uudelleennimetä ohituskansiota:\n"
 
-#: src/api/logic/InstanceImportTask.cpp:210
+#: src/api/logic/InstanceImportTask.cpp:236
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "Määritelty ohituskansio (%1) puuttuu. Ehkä modipakettia käytettiin jo aiemmin?"
 
-#: src/api/logic/InstanceImportTask.cpp:224
+#: src/api/logic/InstanceImportTask.cpp:250
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "Tuntematon modilataaja luettelossa: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:237
+#: src/api/logic/InstanceImportTask.cpp:263
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "Salaperäiset pistejäljet poistettu Minecraft-versiosta pakettia tuodessa."
 
-#: src/api/logic/InstanceImportTask.cpp:253
+#: src/api/logic/InstanceImportTask.cpp:279
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Ei voitu kartoittaa suositeltua Forgen versiota Minecraftille %1"
 
-#: src/api/logic/InstanceImportTask.cpp:301
+#: src/api/logic/InstanceImportTask.cpp:327
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Modin lataus"
 
-#: src/api/logic/InstanceImportTask.cpp:317
+#: src/api/logic/InstanceImportTask.cpp:343
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "Tämä 'Kansio' voi vaatia purkamista: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:329
+#: src/api/logic/InstanceImportTask.cpp:355
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "Sisäkkäisiä modipaketteja ei ole toteutettu, eikä mitään ladattu: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:334
+#: src/api/logic/InstanceImportTask.cpp:360
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Tunnistamaton/käsittelemätön PackageType-pakettityyppi kohteelle: %1"
 
-#: src/api/logic/InstanceImportTask.cpp:354
+#: src/api/logic/InstanceImportTask.cpp:380
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Ladataan modeja..."
 
-#: src/api/logic/InstanceImportTask.cpp:361
+#: src/api/logic/InstanceImportTask.cpp:387
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "Ei voitu selvittää moditunnisteita:\n"
@@ -1072,17 +1194,37 @@ msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr "Omat komennot"
 
+#: src/application/pages/instance/InstanceSettingsPage.ui:369
+msgctxt "InstanceSettingsPage|"
+msgid "Workarounds"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:378
+msgctxt "InstanceSettingsPage|"
+msgid "Native libraries"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:390
+msgctxt "InstanceSettingsPage|"
+msgid "Use system installation of GLFW"
+msgstr ""
+
+#: src/application/pages/instance/InstanceSettingsPage.ui:397
+msgctxt "InstanceSettingsPage|"
+msgid "Use system installation of OpenAL"
+msgstr ""
+
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Asetukset"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:228
+#: src/application/pages/instance/InstanceSettingsPage.cpp:247
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "Valitse Java-versio"
 
-#: src/application/pages/instance/InstanceSettingsPage.cpp:246
+#: src/application/pages/instance/InstanceSettingsPage.cpp:265
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Etsi Java-ohjelma"
@@ -1117,19 +1259,19 @@ msgctxt "InstanceWindow|"
 msgid "Kill"
 msgstr "Kaada"
 
-#: src/application/InstanceWindow.cpp:126
+#: src/application/InstanceWindow.cpp:127
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
 msgstr "Pakota lopettamaan käynnissä oleva peliversio"
 
-#: src/application/InstanceWindow.cpp:131
-#: src/application/InstanceWindow.cpp:138
+#: src/application/InstanceWindow.cpp:132
+#: src/application/InstanceWindow.cpp:140
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Käynnistä"
 
-#: src/application/InstanceWindow.cpp:132
-#: src/application/InstanceWindow.cpp:139
+#: src/application/InstanceWindow.cpp:134
+#: src/application/InstanceWindow.cpp:142
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
 msgstr "Käynnistä peliversio"
@@ -1541,7 +1683,7 @@ msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
 msgstr "Puretun Minecraftin siirto epäonnistui!"
 
-#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:185
+#: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:186
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
 msgstr "Asennusmenetelmää ei löytynyt!"
@@ -1693,7 +1835,7 @@ msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
 msgstr "Null jar-tiedosto on määritelty metadatassa, keskeytetään."
 
-#: src/api/logic/minecraft/update/LibrariesTask.cpp:58
+#: src/api/logic/minecraft/update/LibrariesTask.cpp:59
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Some artifacts marked as 'local' are missing their files:\n"
@@ -1705,7 +1847,7 @@ msgstr "Osalta paikallisiksi merkityistä 'local'-kohteista puuttuu tiedostoja:\
 "Sinun tulee joko lisätä tiedostot tai poistaa paketit jotka tarvitsevat niitä.\n"
 "Tämä on korjattava manuaalisesti."
 
-#: src/api/logic/minecraft/update/LibrariesTask.cpp:75
+#: src/api/logic/minecraft/update/LibrariesTask.cpp:76
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
@@ -1852,7 +1994,7 @@ msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "Pakota lopettamaan käynnissä oleva peliversio"
 
-#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:955
+#: src/application/MainWindow.cpp:234 src/application/MainWindow.cpp:957
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Käynnistä"
@@ -1860,7 +2002,7 @@ msgstr "Käynnistä"
 #: src/application/MainWindow.cpp:235
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
-msgstr "Käynnistä valittu peliversio."
+msgstr "Käynnistä valittu pelipaketti."
 
 #: src/application/MainWindow.cpp:253
 msgctxt "MainWindow|"
@@ -1870,22 +2012,22 @@ msgstr "Päätyökalupalkki"
 #: src/application/MainWindow.cpp:258
 msgctxt "MainWindow|"
 msgid "Add Instance"
-msgstr "Lisää peliversio"
+msgstr "Lisää pelipaketti"
 
 #: src/application/MainWindow.cpp:259
 msgctxt "MainWindow|"
 msgid "Add a new instance."
-msgstr "Lisää uusi peliversio."
+msgstr "Lisää uusi pelipaketti."
 
 #: src/application/MainWindow.cpp:271
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
-msgstr "Näytä peliversiokansio"
+msgstr "Näytä pelipakettikansio"
 
 #: src/application/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
-msgstr "Avaa peliversiokansio tiedostoselaimessa."
+msgstr "Avaa pelipakettikansio tiedostoselaimessa."
 
 #: src/application/MainWindow.cpp:279
 msgctxt "MainWindow|"
@@ -1897,7 +2039,7 @@ msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Avaa keskusmodikansio tiedostoselaimessa."
 
-#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:625
+#: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:627
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Kansiot"
@@ -1957,7 +2099,7 @@ msgctxt "MainWindow|"
 msgid "View information about MultiMC."
 msgstr "Näytä lisätietoja MultiMC:stä."
 
-#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:626
+#: src/application/MainWindow.cpp:343 src/application/MainWindow.cpp:628
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Ohje"
@@ -2020,7 +2162,7 @@ msgstr "Avaa MultiMC:n kehitysblogi lukeaksesi lisää uutisia MultiMC:stä."
 #: src/application/MainWindow.cpp:438
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
-msgstr "Peliversiopalkki"
+msgstr "Pelipakettipalkki"
 
 #: src/application/MainWindow.cpp:445
 msgctxt "MainWindow|"
@@ -2042,7 +2184,7 @@ msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Nimeä valittu peliversio uudelleen."
 
-#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:956
+#: src/application/MainWindow.cpp:479 src/application/MainWindow.cpp:958
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Käynnistä offline-tilassa"
@@ -2055,12 +2197,12 @@ msgstr "Käynnistä valittu peliversio offline-tilassa."
 #: src/application/MainWindow.cpp:488
 msgctxt "MainWindow|"
 msgid "Edit Instance"
-msgstr "Muokkaa peliversiota"
+msgstr "Muokkaa pelipakettia"
 
 #: src/application/MainWindow.cpp:489
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
-msgstr "Muuta peliversion asetuksia, modeja ja versioita."
+msgstr "Muuta pelipaketin asetuksia, modeja ja versioita."
 
 #: src/application/MainWindow.cpp:495
 msgctxt "MainWindow|"
@@ -2120,7 +2262,7 @@ msgstr "Asetuskansio"
 #: src/application/MainWindow.cpp:533
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
-msgstr "Avaa peliversion asetuskansio."
+msgstr "Avaa pelipaketin asetuskansio."
 
 #: src/application/MainWindow.cpp:539
 msgctxt "MainWindow|"
@@ -2130,7 +2272,7 @@ msgstr "Peliversiokansio"
 #: src/application/MainWindow.cpp:540
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
-msgstr "Avaa valitun peliversion juurikansio tiedostoselaimessa."
+msgstr "Avaa valitun pelipaketin juurikansio tiedostoselaimessa."
 
 #: src/application/MainWindow.cpp:548
 msgctxt "MainWindow|"
@@ -2145,87 +2287,87 @@ msgstr "Poista"
 #: src/application/MainWindow.cpp:556
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
-msgstr "Poista valittu peliversio."
+msgstr "Poista valittu pelipaketti."
 
 #: src/application/MainWindow.cpp:563
 msgctxt "MainWindow|"
 msgid "Copy Instance"
-msgstr "Kopioi peliversio"
+msgstr "Kopioi pelipaketti"
 
 #: src/application/MainWindow.cpp:564
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
-msgstr "Kopioi valittu peliversio."
+msgstr "Kopioi valittu pelipaketti."
 
-#: src/application/MainWindow.cpp:605
+#: src/application/MainWindow.cpp:607
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
 msgstr "MultiMC 5 - Versio %1"
 
-#: src/application/MainWindow.cpp:608
+#: src/application/MainWindow.cpp:610
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " alustalla %1"
 
-#: src/application/MainWindow.cpp:718
+#: src/application/MainWindow.cpp:720
 msgctxt "MainWindow|"
 msgid "No instance selected"
-msgstr "Peliversiota ei ole valittu"
+msgstr "Pelipakettia ei ole valittu"
 
-#: src/application/MainWindow.cpp:733 src/application/MainWindow.cpp:1129
+#: src/application/MainWindow.cpp:735 src/application/MainWindow.cpp:1131
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "Profiilit"
 
-#: src/application/MainWindow.cpp:888
+#: src/application/MainWindow.cpp:890
 msgctxt "MainWindow|"
 msgid "Create instance"
-msgstr "Luo peliversio"
+msgstr "Luo pelipaketti"
 
-#: src/application/MainWindow.cpp:904
+#: src/application/MainWindow.cpp:906
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "Poista ryhmä '%1'"
 
-#: src/application/MainWindow.cpp:965
+#: src/application/MainWindow.cpp:967
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Profiloijat"
 
-#: src/application/MainWindow.cpp:977
+#: src/application/MainWindow.cpp:979
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "Profiloijaa ei ole määritetty oikein. Katso Asetukset, \"Ulkoiset työkalut\"."
 
-#: src/application/MainWindow.cpp:1031
+#: src/application/MainWindow.cpp:1033
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Tilejä ei ole lisätty!"
 
-#: src/application/MainWindow.cpp:1061
+#: src/application/MainWindow.cpp:1063
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Oletustiliä ei ole asetettu"
 
-#: src/application/MainWindow.cpp:1169
+#: src/application/MainWindow.cpp:1171
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Ladataan uutisia..."
 
-#: src/application/MainWindow.cpp:1182
+#: src/application/MainWindow.cpp:1184
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Uutisia ei ole tarjolla."
 
-#: src/application/MainWindow.cpp:1265 src/application/MainWindow.cpp:1282
+#: src/application/MainWindow.cpp:1267 src/application/MainWindow.cpp:1284
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Virhe"
 
-#: src/application/MainWindow.cpp:1265
+#: src/application/MainWindow.cpp:1267
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -2238,62 +2380,62 @@ msgctxt "Meta::Index|"
 msgid "Name"
 msgstr "Nimi"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:644
+#: src/api/logic/minecraft/MinecraftInstance.cpp:650
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<ISTUNTOTUNNISTE>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:646
+#: src/api/logic/minecraft/MinecraftInstance.cpp:652
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<PÄÄSYTODISTUS>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:647
+#: src/api/logic/minecraft/MinecraftInstance.cpp:653
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<ASIAKASTODISTUS>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:648
+#: src/api/logic/minecraft/MinecraftInstance.cpp:654
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFIILITUNNISTE>"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:735
+#: src/api/logic/minecraft/MinecraftInstance.cpp:741
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1m %2s"
 msgstr "%1 min %2 s"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:739
+#: src/api/logic/minecraft/MinecraftInstance.cpp:745
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
 msgstr "%1 t %2 min"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:741
+#: src/api/logic/minecraft/MinecraftInstance.cpp:747
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
 msgstr "%1 vrk %2 t %3 min"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:749
+#: src/api/logic/minecraft/MinecraftInstance.cpp:755
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "viallinen"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:753
+#: src/api/logic/minecraft/MinecraftInstance.cpp:759
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:756
+#: src/api/logic/minecraft/MinecraftInstance.cpp:762
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", played for %1"
 msgstr ", pelattu %1"
 
-#: src/api/logic/minecraft/MinecraftInstance.cpp:760
+#: src/api/logic/minecraft/MinecraftInstance.cpp:766
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", on kaatunut."
@@ -2318,12 +2460,27 @@ msgctxt "MinecraftPage|"
 msgid "W&indow width:"
 msgstr "Ikkunan &leveys:"
 
+#: src/application/pages/global/MinecraftPage.ui:117
+msgctxt "MinecraftPage|"
+msgid "Native library workarounds"
+msgstr ""
+
+#: src/application/pages/global/MinecraftPage.ui:123
+msgctxt "MinecraftPage|"
+msgid "Use system installation of GLFW"
+msgstr ""
+
+#: src/application/pages/global/MinecraftPage.ui:130
+msgctxt "MinecraftPage|"
+msgid "Use system installation of OpenAL"
+msgstr ""
+
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
 msgstr "Minecraft"
 
-#: src/api/logic/minecraft/MinecraftUpdate.cpp:90
+#: src/api/logic/minecraft/MinecraftUpdate.cpp:88
 msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "Käyttäjän keskeyttämä."
@@ -2465,6 +2622,26 @@ msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
 msgstr "Mukautetun Minecraft jar-tiedoston luonti epäonnistui."
 
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:74
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Could not understand pack manifest:\n"
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:90
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Downloading mods..."
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:92
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Mod download"
+msgstr ""
+
+#: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:129
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Installing modpack"
+msgstr ""
+
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
@@ -2480,7 +2657,7 @@ msgctxt "MojangAccountList|"
 msgid "The name of the version."
 msgstr "Version nimi."
 
-#: src/application/MultiMC.cpp:522
+#: src/application/MultiMC.cpp:561
 msgctxt "MultiMC|"
 msgid "Settings"
 msgstr "Asetukset"
@@ -2548,7 +2725,7 @@ msgstr "Palauta piilotetut ilmoitukset"
 #: src/application/pages/global/MultiMCPage.ui:205
 msgctxt "MultiMCPage|"
 msgid "Instance view sorting mode"
-msgstr "Peliversionäkymän lajittelu"
+msgstr "Pelipakettinäkymän lajittelu"
 
 #: src/application/pages/global/MultiMCPage.ui:211
 msgctxt "MultiMCPage|"
@@ -2754,10 +2931,10 @@ msgid "uid"
 msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
-#: src/application/dialogs/NewInstanceDialog.cpp:132
+#: src/application/dialogs/NewInstanceDialog.cpp:143
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
-msgstr "Uusi peliversio"
+msgstr "Uusi pelipaketti"
 
 #: src/application/dialogs/NewInstanceDialog.ui:39
 msgctxt "NewInstanceDialog|"
@@ -2769,7 +2946,7 @@ msgctxt "NewInstanceDialog|"
 msgid "&Name:"
 msgstr "&Nimi:"
 
-#: src/application/dialogs/NewInstanceDialog.cpp:64
+#: src/application/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "Ei ryhmää"
@@ -2948,6 +3125,16 @@ msgstr "Ei voitu poistaa osaa tiedostoista:\n"
 msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "Muut lokit"
+
+#: src/api/logic/minecraft/PackProfile.cpp:852
+msgctxt "PackProfile|"
+msgid "Name"
+msgstr ""
+
+#: src/api/logic/minecraft/PackProfile.cpp:854
+msgctxt "PackProfile|"
+msgid "Version"
+msgstr ""
 
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
@@ -3151,32 +3338,43 @@ msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
 msgstr "Tämän version 'minimumLauncherVersion'-arvo (%1) on korkeampi kuin mitä MultiMC tukee (%2). Se ei välttämättä toimi!"
 
+#: src/api/logic/minecraft/PackProfile.cpp:190
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Virheellinen komponenttitiedostoversio, odotettiin versiota %1"
+
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
 msgstr "Versiotiedostossa on sekä '+libraries' että 'libraries'. Tätä ei enää tueta."
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:229
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:203
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr ""
+
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:236
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
 msgstr "Versiotiedosto sisältää elementin 'tweakers', jota ei tueta"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:233
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:240
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
 msgstr "Versiotiedosto sisältää elementin '-libraries', jota ei tueta"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:237
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:244
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
 msgstr "Versiotiedosto sisältää elementin '-tweakers', jota ei tueta"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:241
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:248
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
 msgstr "Versiotiedosto sisältää elementin '-minecraftArguments', jota ei tueta"
 
-#: src/api/logic/minecraft/OneSixVersionFormat.cpp:245
+#: src/api/logic/minecraft/OneSixVersionFormat.cpp:252
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "Versiotiedosto sisältää elementin '+minecraftArguments', jota ei tueta"
@@ -3212,18 +3410,7 @@ msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "Ei voida käsitellä versiotiedostoa %1."
 
-#: src/api/logic/minecraft/ComponentList.cpp:190
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Virheellinen komponenttitiedostoversio, odotettiin versiota %1"
-
-#: src/api/logic/minecraft/World.cpp:50
-msgctxt "QObject|"
-msgid "Unknown"
-msgstr "Tuntematon"
-
-#: src/api/logic/meta/BaseEntity.cpp:117
+#: src/api/logic/meta/BaseEntity.cpp:123
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
@@ -3304,7 +3491,7 @@ msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Voit <a href=\"%1\">tarkastella muutoksia GitHubissa</a>.</p>"
 
 #: src/application/dialogs/AboutDialog.cpp:31
-#: src/application/dialogs/AboutDialog.cpp:52
+#: src/application/dialogs/AboutDialog.cpp:53
 msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr "Tukijat"
@@ -3361,7 +3548,7 @@ msgstr "Myös palautus epäonnistui.\n"
 "MultiMC on korjattava manuaalisesti.\n"
 "Kerrothan meille, miksi ja kuinka tämä tapahtui."
 
-#: src/application/MainWindow.cpp:1001
+#: src/application/MainWindow.cpp:1003
 msgctxt "QObject|"
 msgid " (in use)"
 msgstr " (käytössä)"
@@ -3402,36 +3589,35 @@ msgid "JVM arguments warning"
 msgstr "JVM-argumenttivaroitus"
 
 #: src/application/JavaCommon.cpp:26
-#: src/application/widgets/JavaSettingsWidget.cpp:309
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java-testi läpäisty!<br />Ilmoitettu alusta: %1<br />Ilmoitettu Java-versio: %2<br />"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr ""
 
-#: src/application/JavaCommon.cpp:32
+#: src/application/JavaCommon.cpp:33
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />Varoitukset:<br /><font color=\"orange\">%1</font>"
 
-#: src/application/JavaCommon.cpp:34
+#: src/application/JavaCommon.cpp:35
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
 msgstr "Java-testi onnistui"
 
-#: src/application/JavaCommon.cpp:42
+#: src/application/JavaCommon.cpp:43
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr "Määritelty Java-asennus ei toiminut tarjotuilla argumenteilla:<br />"
 
-#: src/application/JavaCommon.cpp:44 src/application/JavaCommon.cpp:53
+#: src/application/JavaCommon.cpp:45 src/application/JavaCommon.cpp:54
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
 msgstr "Java-testi epäonnistui"
 
-#: src/application/JavaCommon.cpp:50
+#: src/application/JavaCommon.cpp:51
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Määritelty Java-asennus ei toiminut.<br />Käytä automaattista tunnistustoimintoa tai aseta polku Java-ohjelmaan.<br />"
@@ -3450,6 +3636,12 @@ msgstr "Määritelty Java-asennus ei käynnistynyt kelvollisesti.<br />"
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
 msgstr "Määritelty Java-asennus palautti odottamattomia tuloksia:<br />"
+
+#: src/application/widgets/JavaSettingsWidget.cpp:309
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Java-testi läpäisty!<br />Ilmoitettu alusta: %1<br />Ilmoitettu Java-versio: %2<br />"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -3727,7 +3919,12 @@ msgctxt "SetupWizard|"
 msgid "MultiMC Quick Setup"
 msgstr "MultiMC pika-asennus"
 
-#: src/api/logic/minecraft/SkinUpload.cpp:46
+#: src/api/logic/minecraft/services/SkinDelete.cpp:18
+msgctxt "SkinDelete|"
+msgid "Deleting skin"
+msgstr ""
+
+#: src/api/logic/minecraft/services/SkinUpload.cpp:43
 msgctxt "SkinUpload|"
 msgid "Uploading skin"
 msgstr "Lähetetään skiniä"
@@ -3806,12 +4003,167 @@ msgid "Failed to load status JSON:\n"
 msgstr "Tilan JSONin lataus epäonnistui:\n"
 "%1"
 
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:33
+#, qt-format
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Downloading modpack:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:38
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Modpack download"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:50
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Extracting modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:58
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Unable to open supplied modpack zip file."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:84
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Failed to extract modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:111
+#, qt-format
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Could not fix permissions for %1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:128
+msgctxt "Technic::SingleZipPackInstallTask|"
+msgid "Instance import has been aborted."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:32
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Finding recommended version:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:33
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Finding recommended version"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:57
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Resolving modpack files:\n"
+"%1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:58
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Resolving modpack files"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:68
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Downloading modpack:"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:90
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Downloading modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:109
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Extracting modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:148
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Failed to extract modpack"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:175
+#, qt-format
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Could not fix permissions for %1"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:192
+msgctxt "Technic::SolderPackInstallTask|"
+msgid "Instance import has been aborted."
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:58
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"bin/modpack.jar\" file!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:70
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"fmlversion.properties\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:84
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:139
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"version.json\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:93
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:107
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to open \"forgeversion.properties\""
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:122
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Invalid \"forgeversion.properties\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:148
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Unable to find a \"version.json\"!"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:161
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not understand \"version.json\":\n"
+"inheritsFrom is missing"
+msgstr ""
+
+#: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:202
+msgctxt "Technic::TechnicPackProcessor|"
+msgid "Could not understand \"version.json\":\n"
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.ui:35
+msgctxt "TechnicPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.cpp:185
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr ""
+
+#: src/application/pages/modplatform/technic/TechnicPage.h:45
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr ""
+
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "Tekstuuripaketit"
 
-#: src/api/logic/translations/TranslationsModel.cpp:354
+#: src/api/logic/translations/TranslationsModel.cpp:355
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -3823,25 +4175,40 @@ msgstr "%1:\n"
 "%3 epäselvää\n"
 "%4 yhteensä"
 
-#: src/api/logic/translations/TranslationsModel.cpp:372
+#: src/api/logic/translations/TranslationsModel.cpp:373
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "Kieli"
 
-#: src/api/logic/translations/TranslationsModel.cpp:376
+#: src/api/logic/translations/TranslationsModel.cpp:377
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "Valmius"
 
-#: src/api/logic/translations/TranslationsModel.cpp:386
+#: src/api/logic/translations/TranslationsModel.cpp:387
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "Kielen oma nimi."
 
-#: src/api/logic/translations/TranslationsModel.cpp:390
+#: src/api/logic/translations/TranslationsModel.cpp:391
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "Valmius on kokonaan käännettyjen merkkijonojen prosenttiosuus, poislukien automaattisesti veikatut."
+
+#: src/application/pages/modplatform/twitch/TwitchPage.ui:20
+msgctxt "TwitchPage|"
+msgid "Search"
+msgstr ""
+
+#: src/application/pages/modplatform/twitch/TwitchPage.cpp:85
+msgctxt "TwitchPage|"
+msgid " by "
+msgstr ""
+
+#: src/application/pages/modplatform/twitch/TwitchPage.h:45
+msgctxt "TwitchPage|"
+msgid "Twitch"
+msgstr ""
 
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
@@ -4211,16 +4578,14 @@ msgid "Change %1 version"
 msgstr "Vaihda kohteen %1 versio"
 
 #: src/application/pages/instance/VersionPage.cpp:360
-#: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
-msgid "No Fabric Loader versions are currently available."
-msgstr "Fabric-lataajan versioita ei ole saatavilla."
+msgid "No intermediary mappings versions are currently available."
+msgstr ""
 
 #: src/application/pages/instance/VersionPage.cpp:361
-#: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
-msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "Ei voitu ladata Fabric-lataajan versiolistoja!"
+msgid "Couldn't load or download the intermediary mappings version lists!"
+msgstr ""
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
@@ -4248,6 +4613,16 @@ msgstr "Ei voitu ladata Forgen versiolistoja!"
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Valitse Fabric-lataajan versio"
+
+#: src/application/pages/instance/VersionPage.cpp:445
+msgctxt "VersionPage|"
+msgid "No Fabric Loader versions are currently available."
+msgstr "Fabric-lataajan versioita ei ole saatavilla."
+
+#: src/application/pages/instance/VersionPage.cpp:446
+msgctxt "VersionPage|"
+msgid "Couldn't load or download the Fabric Loader version lists!"
+msgstr "Ei voitu ladata Fabric-lataajan versiolistoja!"
 
 #: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
@@ -4389,97 +4764,117 @@ msgid "List update failed:\n"
 msgstr "Listan päivitys epäonnistui:\n"
 "%1"
 
-#: src/api/logic/minecraft/WorldList.cpp:211
+#: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
 msgid "Name"
 msgstr "Nimi"
 
-#: src/api/logic/minecraft/WorldList.cpp:213
+#: src/api/logic/minecraft/WorldList.cpp:230
 msgctxt "WorldList|"
 msgid "Game Mode"
 msgstr "Pelimuoto"
 
-#: src/api/logic/minecraft/WorldList.cpp:215
+#: src/api/logic/minecraft/WorldList.cpp:232
 msgctxt "WorldList|"
 msgid "Last Played"
 msgstr "Viimeksi pelattu"
 
-#: src/api/logic/minecraft/WorldList.cpp:224
+#: src/api/logic/minecraft/WorldList.cpp:241
 msgctxt "WorldList|"
 msgid "The name of the world."
 msgstr "Pelimaailman nimi."
 
-#: src/api/logic/minecraft/WorldList.cpp:226
+#: src/api/logic/minecraft/WorldList.cpp:243
 msgctxt "WorldList|"
 msgid "Game mode of the world."
 msgstr "Maailman pelimuoto."
 
-#: src/api/logic/minecraft/WorldList.cpp:228
+#: src/api/logic/minecraft/WorldList.cpp:245
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
 msgstr "Päivämäärä ja aika kun maailmaa viimeksi pelattiin."
 
-#: src/application/pages/instance/WorldListPage.ui:59
+#: src/application/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
 msgid "Actions"
 msgstr "Toiminnot"
 
-#: src/application/pages/instance/WorldListPage.ui:89
+#: src/application/pages/instance/WorldListPage.ui:97
 msgctxt "WorldListPage|"
 msgid "Add"
 msgstr "Lisää"
 
-#: src/application/pages/instance/WorldListPage.ui:94
+#: src/application/pages/instance/WorldListPage.ui:102
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "Nimeä"
 
-#: src/application/pages/instance/WorldListPage.ui:99
+#: src/application/pages/instance/WorldListPage.ui:107
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "Kopioi"
 
-#: src/application/pages/instance/WorldListPage.ui:104
+#: src/application/pages/instance/WorldListPage.ui:112
 msgctxt "WorldListPage|"
 msgid "Remove"
 msgstr "Poista"
 
-#: src/application/pages/instance/WorldListPage.ui:109
+#: src/application/pages/instance/WorldListPage.ui:117
 msgctxt "WorldListPage|"
 msgid "MCEdit"
 msgstr "MCEdit"
 
-#: src/application/pages/instance/WorldListPage.ui:114
+#: src/application/pages/instance/WorldListPage.ui:122
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
 msgstr "Kopioi lähtöarvo"
 
-#: src/application/pages/instance/WorldListPage.ui:119
+#: src/application/pages/instance/WorldListPage.ui:127
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "Päivitä"
 
-#: src/application/pages/instance/WorldListPage.ui:124
+#: src/application/pages/instance/WorldListPage.ui:132
 msgctxt "WorldListPage|"
 msgid "View Folder"
 msgstr "Näytä kansio"
+
+#: src/application/pages/instance/WorldListPage.ui:137
+msgctxt "WorldListPage|"
+msgid "Reset Icon"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:140
+msgctxt "WorldListPage|"
+msgid "Remove world icon to make the game re-generate it on next load."
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:145
+msgctxt "WorldListPage|"
+msgid "Datapacks"
+msgstr ""
+
+#: src/application/pages/instance/WorldListPage.ui:148
+msgctxt "WorldListPage|"
+msgid "Manage datapacks inside the world."
+msgstr ""
 
 #: src/application/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
 msgid "Worlds"
 msgstr "Pelimaailmat"
 
-#: src/application/pages/instance/WorldListPage.cpp:76
+#: src/application/pages/instance/WorldListPage.cpp:104
 msgctxt "WorldListPage|"
 msgid "Context menu"
 msgstr "Pikavalikko"
 
-#: src/application/pages/instance/WorldListPage.cpp:126
+#: src/application/pages/instance/WorldListPage.cpp:154
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "Oletko varma?"
 
-#: src/application/pages/instance/WorldListPage.cpp:127
+#: src/application/pages/instance/WorldListPage.cpp:155
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
@@ -4487,64 +4882,64 @@ msgid "This will remove the selected world permenantly.\n"
 msgstr "Tämä poistaa valitun maailman pysyvästi. Pelimaailma poistuu lopullisesti (PITKÄ AIKA).\n\n"
 "Haluatko jatkaa?"
 
-#: src/application/pages/instance/WorldListPage.cpp:207
+#: src/application/pages/instance/WorldListPage.cpp:266
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "MCEditiä ei löytynyt tai sitä ei ole asennettu!"
 
-#: src/application/pages/instance/WorldListPage.cpp:208
+#: src/application/pages/instance/WorldListPage.cpp:267
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "MCEditiä ei ole asennettu tai se on siirretty.\n"
 "Voit asentaa sen yleisasetuksissa."
 
-#: src/application/pages/instance/WorldListPage.cpp:217
+#: src/application/pages/instance/WorldListPage.cpp:276
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "MCEditin käynnistys epäonnistui!"
 
-#: src/application/pages/instance/WorldListPage.cpp:218
+#: src/application/pages/instance/WorldListPage.cpp:277
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr "MCEditin käynnistys epäonnistui.\n"
 "Se saattaa vaatia uudelleenasennusta."
 
-#: src/application/pages/instance/WorldListPage.cpp:264
+#: src/application/pages/instance/WorldListPage.cpp:325
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "Valitse zip-arkistoitu Minecraft-maailma"
 
-#: src/application/pages/instance/WorldListPage.cpp:265
+#: src/application/pages/instance/WorldListPage.cpp:326
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Minecraft-maailman zip-arkisto (*.zip)"
 
-#: src/application/pages/instance/WorldListPage.cpp:286
+#: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "Kopioi maailma"
 
-#: src/application/pages/instance/WorldListPage.cpp:286
+#: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr "Pelimaailman muuttaminen Minecraftin ollessa käynnissä voi olla vaarallista.\n"
 "Haluatko jatkaa?"
 
-#: src/application/pages/instance/WorldListPage.cpp:310
-#: src/application/pages/instance/WorldListPage.cpp:333
+#: src/application/pages/instance/WorldListPage.cpp:371
+#: src/application/pages/instance/WorldListPage.cpp:394
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "Maailman nimi"
 
-#: src/application/pages/instance/WorldListPage.cpp:310
+#: src/application/pages/instance/WorldListPage.cpp:371
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "Anna kopiolle uusi nimi."
 
-#: src/application/pages/instance/WorldListPage.cpp:333
+#: src/application/pages/instance/WorldListPage.cpp:394
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Anna pelimaailmalle uusi nimi."
