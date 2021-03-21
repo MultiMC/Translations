@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2020-12-25 13:10\n"
+"PO-Revision-Date: 2021-02-09 13:21\n"
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -169,7 +169,7 @@ msgstr "אנו עוקבים אחר נתונים סטטיסטיים של משתמ
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>MultiMC שולח נתוני שימוש אנונימיים בכל תחילת יישום. זה עוזר לנו להחליט באילו פלטפורמות ונושאים להתמקד.</p><p>הנתונים מעובדים על ידי גוגל אנליטיקס, עיין ב<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">מאמר שלהם בנושא</a>.</p><p>הנתונים הבאים נאספים:</p><ul><li>מזהה ייחודי אקראי של התקנת MultiMC.<br />הוא נשמר בהגדרות היישום (multimc.cfg).</li><li>כתובת IP אנונימית (חלקית).</li><li>גרסת MultiMC.</li><li>שם מערכת ההפעלה, גירסה וארכיטקטורה.</li><li>ארכיטקטורת CPU (ארכיטקטורת ליבה בלינוקס).</li><li>גודל זיכרון המערכת.</li><li>גרסת Java, ארכיטקטורה והגדרות זיכרון.</li></ul><p>אם תשנה את המידע הנמצא במעקב, תראה דף זה שוב.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -195,21 +195,23 @@ msgstr "קריאת מדד הנכסים נכשלה!"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr ""
+msgstr "מקבל את קבצי הנכסים ממוג'אנג..."
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:88
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr ""
+msgstr "הורדת מפתח הנכסים נכשלה:\n"
+"%1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr ""
+msgstr "הורדת הנכסים נכשלה:\n"
+"%1"
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
@@ -219,43 +221,43 @@ msgstr "שרת האימות לא שלח אסימון לקוח."
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "שרת האימות ניסה לשנות את אסימון הלקוח. זה לא נתמך."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "שרת האימות לא שלח אסימון גישה."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:154
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't specify a currently selected profile. The account exists, but likely isn't premium."
-msgstr ""
+msgstr "שרת האימות לא ציין פרופיל שנבחר כעת. החשבון קיים, אבל סביר להניח שהוא לא פרימיום."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:159
 msgctxt "AuthenticateTask|"
 msgid "Authentication server specified a selected profile that wasn't in the available profiles list."
-msgstr ""
+msgstr "שרת האימות ציין פרופיל נבחר שלא היה ברשימת הפרופילים הזמינים."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Sending request..."
-msgstr ""
+msgstr "מאמת: שולח בקשה..."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:198
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
-msgstr ""
+msgstr "מאמת: מעבד תגובה..."
 
 #: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
-msgstr ""
+msgstr "הפרופילר בוטל"
 
 #: src/api/logic/java/launch/CheckJava.cpp:36
 #, qt-format
 msgctxt "CheckJava|"
 msgid "The java binary \"%1\" couldn't be found. Please fix the java path override in the instance's settings or disable it."
-msgstr ""
+msgstr "לא הייתה אפשרות למצוא את הjava הבינארי \"%1\". נא תקן את דריסת נתיב הJava בהגדרות המופע או הפוך אותו ללא זמין."
 
 #: src/api/logic/java/launch/CheckJava.cpp:42
 #, qt-format
@@ -571,7 +573,7 @@ msgstr ""
 #: src/application/pages/global/ExternalToolsPage.cpp:202
 msgctxt "ExternalToolsPage|"
 msgid "JSON Editor"
-msgstr ""
+msgstr "עורך JSON"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:224
 msgctxt "ExternalToolsPage|"
@@ -713,7 +715,7 @@ msgstr ""
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr ""
+msgstr "מתקין %1 קבצי עדכון."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
@@ -776,7 +778,7 @@ msgstr "בחר מודפאק"
 #: src/application/pages/modplatform/ImportPage.cpp:102
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
-msgstr ""
+msgstr "Zip (*.zip)"
 
 #: src/application/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1015,7 +1017,7 @@ msgstr ""
 #: src/application/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr ""
+msgstr "חלונות משחק"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:237
 msgctxt "InstanceSettingsPage|"
@@ -2353,7 +2355,7 @@ msgstr ""
 #: src/application/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "סינון:"
 
 #: src/application/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
@@ -2445,7 +2447,7 @@ msgstr ""
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
-msgstr ""
+msgstr "פעיל?"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:230
 msgctxt "MojangAccountList|"
