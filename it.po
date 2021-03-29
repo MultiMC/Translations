@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2021-03-29 11:41\n"
+"PO-Revision-Date: 2021-03-29 11:58\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2635,7 +2635,7 @@ msgstr "Download delle mod in corso..."
 #: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:92
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
-msgstr ""
+msgstr "Download delle mod"
 
 #: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:129
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -2645,7 +2645,7 @@ msgstr "Installazione del modpack in corso"
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
-msgstr "Attivarlo?"
+msgstr "Attivo"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:230
 msgctxt "MojangAccountList|"
@@ -2859,7 +2859,6 @@ msgstr "<html><head/>\n"
 "<body>\n"
 "<p>MultiMC invia statistiche di utilizzo anonime ad ogni avvio dell'applicazione.</p><p>Vengono raccolti i seguenti dati:</p>\n"
 "<ul>\n"
-" \n"
 "<li>Versione di MultiMC.</li>\n"
 "<li>Versione, nome e architettura del sistema operativo.</li>\n"
 "<li>Architettua della CPU (del kernel se su sistemi linux).</li>\n"
@@ -3071,13 +3070,13 @@ msgstr "Impossibile aprire il file della versione %1: %2"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
-msgstr "Il file %1 è troppo grande. Dovresti aprirlo con un editor ottimizzato per questi tipi di file."
+msgstr "Il file %1 è troppo grande. Dovresti aprirlo con un editor ottimizzato per file di grandi dimensioni."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:161
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
-msgstr "Impossibile legger eil file %1."
+msgstr "Impossibile leggere il file %1."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:197
 #, qt-format
@@ -3160,7 +3159,7 @@ msgstr "Incollare qui la propria API Key!"
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> è usato da MultiMC per caricare i log. Se hai un account <a href=\"https://paste.ee\">paste.ee</a> , puoi aggiungere la tua API Key qui per caricare i log nel tuo account.</p></body></html>"
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> è usato da MultiMC per caricare i log. Se hai un account <a href=\"https://paste.ee\">paste.ee</a>, puoi aggiungere la tua API Key qui per caricare i log nel tuo account.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3170,47 +3169,46 @@ msgstr "Carica log"
 #: src/api/logic/net/PasteUpload.cpp:46
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
-msgstr "Carcando il log su paste.ee"
+msgstr "Caricamento del log su paste.ee"
 
 #: src/api/logic/net/PasteUpload.cpp:75
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr "paste.ee ha riscontrato un errore. Per favore consulta i logs per ulteriori informazioni"
+msgstr "paste.ee ha riscontrato un errore. Per favore consulta i log per ulteriori informazioni"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
-msgstr "Esecuzione del comando Post-Uscita: %1"
+msgstr "Avvio del comando di post-uscita: %1"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:39
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr "Il comando Post-Uscita è fallito con codice %1.\n\n"
+msgstr "Il comando di post-uscita è fallito con codice %1.\n\n"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr "Ilcomando Post-Uscita si è avviato correttamente.\n\n"
-" \n"
+msgstr "Il comando di post-uscita è stato eseguito correttamente.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Running Pre-Launch command: %1"
-msgstr "Avvio del comando Pre-Avvio: %1"
+msgstr "Avvio del comando di pre-avvio: %1"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:40
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command failed with code %1.\n\n"
-msgstr "Il comando Pre-Avvio è fallito con codice %1.\n\n"
+msgstr "Il comando di pre-avvio è fallito con codice %1.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr "Il comando Per-Avvio si è avviato correttamente.\n\n"
+msgstr "Il comando di pre-avvio è stato eseguito correttamente.\n\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
@@ -3225,12 +3223,12 @@ msgstr "Seleziona un profilo."
 #: src/application/dialogs/ProfileSelectDialog.ui:38
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default?"
-msgstr "Usarlo di default?"
+msgstr "Usa come predefinito"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:45
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr "Usarlo di default solo per questa istanza?"
+msgstr "Usa come profilo predefinito per questa istanza"
 
 #: src/application/dialogs/ProfileSelectDialog.cpp:41
 #: src/application/dialogs/ProfileSelectDialog.cpp:45
@@ -3251,7 +3249,7 @@ msgstr "Attendere prego..."
 #: src/application/dialogs/ProgressDialog.ui:32
 msgctxt "ProgressDialog|"
 msgid "Task Status..."
-msgstr "Status delle Attività..."
+msgstr "Stato di attività..."
 
 #: src/application/dialogs/ProgressDialog.ui:58
 msgctxt "ProgressDialog|"
@@ -3286,12 +3284,12 @@ msgstr "&Nessuno"
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr "SOCKS5"
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr "HTTP"
+msgstr "H&TTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -3354,7 +3352,7 @@ msgstr "Il file versioni ha sia '+libraries' che 'libraries'. Questo non è più
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:203
 msgctxt "QObject|"
 msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr ""
+msgstr "L'URL per il jar principale non può essere determinato - Mojang ha rimosso il server che usavamo come fallback."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:236
 msgctxt "QObject|"
@@ -3588,13 +3586,13 @@ msgstr "Hai provato a impostare manualmente un opzione di memoria JVM (usando \"
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr "Attenzione agli argomenti JVM"
+msgstr "Avvisi degli argomenti JVM"
 
 #: src/application/JavaCommon.cpp:26
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr ""
+msgstr "Verfica di Java conclusa con successo!<br />Piattaforma riportata: %1<br />Versione Java riportata: %2<br />Distributore di Java riportato: %3<br />"
 
 #: src/application/JavaCommon.cpp:33
 #, qt-format
@@ -3622,7 +3620,7 @@ msgstr "Test di Java fallito"
 #: src/application/JavaCommon.cpp:51
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "Il binario Java specificato non ha ì funzionato.<br /> Dovresti usare la funzione di auto-riconoscimento, o impostare il percorso per l'eseguibile Java.<br />"
+msgstr "Il binario Java specificato non funziona.<br /> Dovresti usare la funzione di auto-riconoscimento, o impostare il percorso per l'eseguibile Java.<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:281
 msgctxt "QObject|"
@@ -3668,7 +3666,7 @@ msgstr "Puoi aprire un gzip o per la lettura o per la scrittura. Quale?"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "File gzopen() non riuscito"
+msgstr "Impossibile aprire il file con gzopen()"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
@@ -4109,18 +4107,18 @@ msgstr "Impossibile aprire il file \"bin/modpack.jar\"!"
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:70
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"fmlversion.properties\"!"
-msgstr ""
+msgstr "Impossibile aprire \"fmlversion.properties\"!"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:84
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:139
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"version.json\"!"
-msgstr ""
+msgstr "Impossibile aprire \"version.json\"!"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:93
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
-msgstr ""
+msgstr "Impossibile trovare \"version.json\" all'interno di \"bin/modpack.jar\", ma la versione di minecraft è sconosciuta"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:107
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4141,12 +4139,13 @@ msgstr "Impossibile trovare un file \"version.json\"!"
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
 "inheritsFrom is missing"
-msgstr ""
+msgstr "Impossibile interpretare \"version.json\":\n"
+"inheritsFrom mancante"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:202
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
-msgstr ""
+msgstr "Impossibile interpretare \"version.json\":\n"
 
 #: src/application/pages/modplatform/technic/TechnicPage.ui:35
 msgctxt "TechnicPage|"
@@ -4585,12 +4584,12 @@ msgstr "Cambia la versione di %1"
 #: src/application/pages/instance/VersionPage.cpp:360
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
-msgstr ""
+msgstr "Al momento non sono disponibili versioni di mappature intermedie."
 
 #: src/application/pages/instance/VersionPage.cpp:361
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
-msgstr ""
+msgstr "Impossibile caricare o scaricare le liste di versioni di mappature intermediarie!"
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
