@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2021-03-29 07:23\n"
+"PO-Revision-Date: 2021-03-29 07:32\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -131,7 +131,7 @@ msgstr "Κανάλι:"
 #: src/application/dialogs/AboutDialog.ui:149
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>MultiMC is a custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>Το MultiMC είναι ένας custom launcher που κάνει τη διαχείριση του Minecraft ευκολότερη επιτρέποντας την ύπαρξη πολλών Minecraft instances την ίδια στιγμή.</p></body></html>"
+msgstr "<html><head/><body><p>Το MultiMC είναι ένας custom launcher που κάνει τη διαχείριση του Minecraft ευκολότερη επιτρέποντας την ύπαρξη πολλών εγκαταστάσεων Minecraft την ίδια στιγμή.</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
@@ -415,12 +415,12 @@ msgstr "Βρέθηκαν αντικρουόμενες απαιτήσεις κα�
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:544
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr "Το αντικείμενο έχει συγκρουόμενες εξαρτήσεις."
+msgstr "Η εγκατάσταση έχει συγκρουόμενες εξαρτήσεις."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr "Αντικείμενο έχει άλυτες εξαρτήσεις κατά την φόρτωση/έλεγχο για την εκκίνηση."
+msgstr "Η εγκατάσταση έχει άλυτες εξαρτήσεις κατά την φόρτωση/έλεγχο για την εκκίνηση."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
@@ -432,7 +432,7 @@ msgstr "Εργασία ενημέρωσης μεταστοιχείων εξαρ�
 #: src/application/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr "Αντιγραφή Instance"
+msgstr "Αντιγραφή εγκατάστασης"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
@@ -482,7 +482,7 @@ msgstr "Εντολή Wrapper:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Η εντολή πριν την εκκίνηση τρέχει προτού γίνει η εκκίνηση του αντικειμένου και η εντολή μετά την έξοδο τρέχει αφου γίνει η έξοδος.</p><p>Οι 2 εντολές θα τρέξουν στον τρεχών φάκελο του MultiMC με κάποιες επιπλέον μεταβλητές περιβάλλοντος:</p><ul><li>$INST_NAME - Όνομα του αντικειμένου</li><li>$INST_ID - Ταυτότητα του αντικειμένου (το όνομα του φακέλου του)</li><li>$INST_DIR - Απόλυτη διαδρομή του αντικειμένου</li><li>$INST_MC_DIR - Απόλυτη διαδρομή του Minecraft</li><li>$INST_JAVA - Δυαδικό Java που χρησιμοποιείται για την εκκίνηση</li><li>$INST_JAVA_ARGS - Παράμετροι γραμμής εντολών που χρησιμοποιούνται για την εκκίνηση</li></ul><p>Εντολή Wrapper που επιτρέπει την εκκίνηση χρησιμοποιόντας ενα επιπλέον προγραμμα Wrapper (π. χ. το 'opti-run' στο Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Η εντολή προ-εκκίνησης τρέχει προτού γίνει η εκκίνηση της εγκατάστασης και η εντολή μετά την έξοδο τρέχει αφου γίνει η έξοδος.</p><p>Οι 2 εντολές θα τρέξουν στον τρεχών φάκελο του MultiMC με κάποιες επιπλέον μεταβλητές περιβάλλοντος:</p><ul><li>$INST_NAME - Όνομα εγκατάστασης</li><li>$INST_ID - Ταυτότητα εγκατάστασης (το όνομα του φακέλου της)</li><li>$INST_DIR - Απόλυτη διαδρομή της εγκατάστασης</li><li>$INST_MC_DIR - Απόλυτη διαδρομή του Minecraft</li><li>$INST_JAVA - Εκτελούμενο Java που χρησιμοποιείται για την εκκίνηση</li><li>$INST_JAVA_ARGS - Παράμετροι γραμμής εντολών που χρησιμοποιούνται για την εκκίνηση</li></ul><p>Η εντολή Wrapper που επιτρέπει την εκκίνηση χρησιμοποιόντας ενα επιπλέον προγραμμα Wrapper (π. χ. το 'opti-run' στο Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -688,7 +688,7 @@ msgstr "Λήψη των βιβλιοθηκών FML..."
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:88
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "Αντιγραφή των βιβλιοθηκών FML στο αντικείμενο..."
+msgstr "Αντιγραφή των βιβλιοθηκών FML στην εγκατάσταση..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:99
 msgctxt "FMLLibrariesTask|"
@@ -922,7 +922,7 @@ msgstr "&Ομάδα:"
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
-msgstr "Αντιγραφή instance %1"
+msgstr "Αντιγραφή εγκατάστασης %1"
 
 #: src/api/logic/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
@@ -932,13 +932,13 @@ msgstr "Αδυναμία αντιγραφής φακέλου εγκατάστα�
 #: src/api/logic/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "Αντιγραφή του φακέλου εγκατάστασης ματαιώθηκε."
+msgstr "Η αντιγραφή του φακέλου εγκατάστασης ματαιώθηκε."
 
 #: src/api/logic/InstanceCreationTask.cpp:16
 #, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "Δημιουργία αντικειμένου από έκδοση %1"
+msgstr "Δημιουργία εγκατάστασης από την έκδοση %1"
 
 #: src/api/logic/InstanceImportTask.cpp:50
 #, qt-format
@@ -1761,12 +1761,12 @@ msgstr "Παλαιού τύπου"
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr "Αντικείμενο από προηγούμενες εκδόσεις."
+msgstr "Εγκατάσταση από προηγούμενες εκδόσεις."
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr "<html><body><h1>Απαιτείται αναβάθμιση</h1><p>Το MultiMC πλέον υποστηρίζει παλιές εκδόσεις Minecraft και όλες τις απαιτούμενες δυνατότητες στην νέα (OneSix) μορφή εγκαταστάσεων. Κατά συνέπεια, η παλαιά μορφή (Legacy) έχει απενεργοποιηθεί πλήρως και οι παλαιές εγκατατστάσεις θα πρέπει να ενημερωθούν.</p><p>Η ενημέρωση θα δημιουργήσει μια καινούργια εγκατάσταση με τα ίδια περιεχόμενα όπως η τρέχουσα, στην νέα μορφή. Η προηγούμενη εγκατάσταση θα παραμείνει ανέγγιχτη αν κάτι στην διαδικασία πάει λάθος.</p><p>Παρακαλούμε αναφέρετε τυχών προβλήματα στο<a href=\"https://github.com/MultiMC/MultiMC5/issues\">αποθετήριο στο GitHub</a>.</p><p>Υπάρχει επίσης ένα <a href=\"https://discord.gg/GtPmv93\">κανάλι Discord για δοκιμές εδώ</a>.</p></body></html>"
+msgstr "<html><body><h1>Απαιτείται αναβάθμιση</h1><p>Το MultiMC πλέον υποστηρίζει παλιές εκδόσεις Minecraft και όλες τις απαιτούμενες δυνατότητες στην νέα (OneSix) μορφή εγκαταστάσεων. Κατά συνέπεια, η παλαιά μορφή (Legacy) έχει απενεργοποιηθεί πλήρως και οι παλαιές εγκατατστάσεις θα πρέπει να ενημερωθούν.</p><p>Η ενημέρωση θα δημιουργήσει μια καινούργια εγκατάσταση με τα ίδια περιεχόμενα όπως η τρέχουσα, στην νέα μορφή. Η προηγούμενη εγκατάσταση θα παραμείνει ανέγγιχτη αν κάτι στην διαδικασία πάει λάθος.</p><p>Παρακαλούμε αναφέρετε τυχών προβλήματα στο<a href=\"https://github.com/MultiMC/MultiMC5/issues\">αποθετήριο στο GitHub</a>.</p><p>Υπάρχει επίσης ένα <a href=\"https://discord.gg/GtPmv93\">κανάλι Discord για δοκιμές</a>.</p></body></html>"
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -1993,7 +1993,7 @@ msgstr "Έναρξη"
 #: src/application/MainWindow.cpp:235
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
-msgstr "Εκκίνηση του επιλεγμένου instance."
+msgstr "Εκκίνηση της επιλεγμένης εγκατάστασης."
 
 #: src/application/MainWindow.cpp:253
 msgctxt "MainWindow|"
@@ -2278,7 +2278,7 @@ msgstr "Διαγραφή"
 #: src/application/MainWindow.cpp:556
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
-msgstr "Διαγράψτε αυτό το instance."
+msgstr "Διαγραφή της επιλεγμένης εγκατάστασης."
 
 #: src/application/MainWindow.cpp:563
 msgctxt "MainWindow|"
@@ -4453,7 +4453,7 @@ msgstr "Λήψη Όλων"
 #: src/application/pages/instance/VersionPage.ui:227
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
-msgstr "Λήψη των αρχείων για την εκκίνηση του αντικειμένου τώρα."
+msgstr "Λήψη των αρχείων για την εκκίνηση της εγκατάστασης άμεσα."
 
 #: src/application/pages/instance/VersionPage.ui:232
 msgctxt "VersionPage|"
@@ -4463,7 +4463,7 @@ msgstr "Άνοιγμα .minecraft"
 #: src/application/pages/instance/VersionPage.ui:235
 msgctxt "VersionPage|"
 msgid "Open the instance's .minecraft folder."
-msgstr "Άνοιγμα του φακέλου .minecraft του αντικειμένου."
+msgstr "Άνοιγμα του φακέλου .minecraft της εγκατάστασης."
 
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
@@ -4473,7 +4473,7 @@ msgstr "Άνοιγμα βιβλιοθηκών"
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Open the instance's local libraries folder."
-msgstr "Άνοιγμα του φακέλου τοπικών βιβλιοθηκών του αντικειμένου."
+msgstr "Άνοιγμα του φακέλου τοπικών βιβλιοθηκών της εγκατάστασης."
 
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
@@ -4515,7 +4515,7 @@ msgstr "Σφάλμα"
 #: src/application/pages/instance/VersionPage.cpp:251
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
-msgstr "Αδυναμία φόρτωσης του προφίλ αντικειμένου."
+msgstr "Αδυναμία φόρτωσης του προφίλ εγκατάστασης."
 
 #: src/application/pages/instance/VersionPage.cpp:269
 msgctxt "VersionPage|"
@@ -4613,7 +4613,7 @@ msgstr "Αδυναμία λήψης ή φόρτωσης λίστας εκδόσ�
 #: src/application/pages/instance/VersionPage.cpp:548
 msgctxt "VersionPage|"
 msgid "Error updating instance"
-msgstr "Σφάλμα κατά την ενημέρωση αντικειμένου"
+msgstr "Σφάλμα κατά την ενημέρωση εγκατάστασης"
 
 #: src/application/pages/instance/VersionPage.h:38
 msgctxt "VersionPage|"
