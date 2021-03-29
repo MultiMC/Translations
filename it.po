@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2021-03-29 11:58\n"
+"PO-Revision-Date: 2021-03-29 12:20\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3661,7 +3661,7 @@ msgstr "Aprire file gzip sia in lettura che in scrittura non è supportato"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr "Puoi aprire un gzip o per la lettura o per la scrittura. Quale?"
+msgstr "Puoi aprire un gzip solo in lettura o solo in scrittura. Quale ti interessa?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
@@ -3702,7 +3702,7 @@ msgstr "Il server di autenticazione non ha fornito un token di accesso."
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:99
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't specify the same prefile as expected."
-msgstr "Il server di autenticazione non ha specificato lo stesso prefile di quello aspettato."
+msgstr "Il server di autenticazione non ha specificato lo stesso profilo di quello previsto."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
@@ -4187,7 +4187,7 @@ msgstr "Lingua"
 #: src/api/logic/translations/TranslationsModel.cpp:377
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr "Completamento"
+msgstr "Completezza"
 
 #: src/api/logic/translations/TranslationsModel.cpp:387
 msgctxt "TranslationsModel|"
@@ -4197,7 +4197,7 @@ msgstr "Il nome della lingua nativa."
 #: src/api/logic/translations/TranslationsModel.cpp:391
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
-msgstr "Il completamento è la percentuale di stringhe interamente tradotte, escludendo quelle automaticamente create."
+msgstr "La completezza è la percentuale di stringhe interamente tradotte, escludendo quelle automaticamente create."
 
 #: src/application/pages/modplatform/twitch/TwitchPage.ui:20
 msgctxt "TwitchPage|"
@@ -4361,7 +4361,7 @@ msgstr "Sposta in basso"
 #: src/application/pages/instance/VersionPage.ui:126
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr "Applica il paccetto selezionato dopo."
+msgstr "Applica il pacchetto selezionato dopo."
 
 #: src/application/pages/instance/VersionPage.ui:131
 msgctxt "VersionPage|"
@@ -4476,7 +4476,7 @@ msgstr "Aggiorna"
 #: src/application/pages/instance/VersionPage.ui:219
 msgctxt "VersionPage|"
 msgid "Reload all packages."
-msgstr "Ricarica i pacchetti."
+msgstr "Ricarica tutti i pacchetti."
 
 #: src/application/pages/instance/VersionPage.ui:224
 msgctxt "VersionPage|"
@@ -4563,7 +4563,7 @@ msgstr "Seleziona le mod Jar"
 #: src/application/pages/instance/VersionPage.cpp:287
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr "Mod in minecraft.jar"
+msgstr "Mod per minecraft.jar (*.zip *.jar)"
 
 #: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
@@ -4573,7 +4573,7 @@ msgstr "Seleziona il jar"
 #: src/application/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
-msgstr "Rimpiazzo per minecraft.jar (*.jar)"
+msgstr "Minecraft.jar sostitutivo (*.jar)"
 
 #: src/application/pages/instance/VersionPage.cpp:357
 #, qt-format
@@ -4962,7 +4962,7 @@ msgstr "Autenticazione annullata."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr "<b>Trattativa SSL fallita.</b><br/>Potrebbero esserci varie cause:<br/><ul><li>Stai usando Windows XP e devi <a href=\"http://www.microsoft.com/fr-fr/download/details.aspx?id=38918\">aggiornare i tuoi certificati di root</a></li><li>Alcuni dispositivi sulla tua rete stanno interferendo con il traffico SSL. In quel caso, hai preoccupazioni ben più grosse di Minecraft che non parte.</li><li>Forse anche altro. Consulta il log di MultiMC per i dettagli</li></ul>"
+msgstr "<b>Trattativa SSL fallita.</b><br/>Potrebbero esserci varie cause:<br/><ul><li>Stai usando Windows XP e devi <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">aggiornare i tuoi certificati di radice</a></li><li>Alcuni dispositivi sulla tua rete stanno interferendo con il traffico SSL. In quel caso, hai preoccupazioni ben più grosse di Minecraft che non si avvia.</li><li>Forse anche altro. Consulta il log di MultiMC per ulteriori dettagli</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
@@ -4974,7 +4974,7 @@ msgstr "Operazione di autenticazione fallita a causa di un errore di rete: %1 (%
 #, qt-format
 msgctxt "YggdrasilTask|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr "Impossibile analizzare la risposta del server di autenticazione: %1 offset %2."
+msgstr "Impossibile analizzare la risposta JSON del server di autenticazione: %1 offset %2."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:193
 #, qt-format
@@ -4985,7 +4985,7 @@ msgstr "C'è stato un errore sconosciuto durante il tentativo di comunicare con 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:213
 msgctxt "YggdrasilTask|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr "C'è stato un errore sconosciuto di Yggdrasil."
+msgstr "Si è verificato un errore sconosciuto di Yggdrasil."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:224
 msgctxt "YggdrasilTask|"
@@ -5015,5 +5015,5 @@ msgstr "Impossibile autenticarsi."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:234
 msgctxt "YggdrasilTask|"
 msgid "..."
-msgstr "…"
+msgstr "..."
 
