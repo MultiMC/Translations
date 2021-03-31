@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
-"PO-Revision-Date: 2021-03-31 17:51\n"
+"PO-Revision-Date: 2021-03-31 18:01\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -71,32 +71,32 @@ msgstr "Pobieranie Modyfikacji"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:440
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unsupported download type: "
-msgstr ""
+msgstr "Nieobsługiwany typ pobierania: "
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:446
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown download type: "
-msgstr ""
+msgstr "Nieznany typ pobierania: "
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:545
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr ""
+msgstr "Nie udało się rozpakować modów..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr ""
+msgstr "Rozpakowywanie modów..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:618
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Instalowanie modpacka"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:655
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr ""
+msgstr "Nieznany typ loadera: "
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -340,7 +340,7 @@ msgstr "Sortuj według wersji gry"
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr ""
+msgstr "Ostrzeżenie: To jest wciąż w rozwoju. Jeśli napotkasz problemy z zaimportowanym modpackiem, to może być błąd."
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
 msgctxt "AtlPage|"
@@ -732,12 +732,12 @@ msgstr "Nie udało się utworzyć folderu dla binarek Minecrafta."
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:13
 msgctxt "Ftb::FilterModel|"
 msgid "Sort by plays"
-msgstr ""
+msgstr "Sortuj według ilości uruchomień"
 
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:14
 msgctxt "Ftb::FilterModel|"
 msgid "Sort by installs"
-msgstr ""
+msgstr "Sortuj według ilości instalacji"
 
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:15
 msgctxt "Ftb::FilterModel|"
@@ -1197,7 +1197,7 @@ msgstr "Własne komendy"
 #: src/application/pages/instance/InstanceSettingsPage.ui:369
 msgctxt "InstanceSettingsPage|"
 msgid "Workarounds"
-msgstr ""
+msgstr "Obejścia"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:378
 msgctxt "InstanceSettingsPage|"
@@ -1207,12 +1207,12 @@ msgstr "Natywne biblioteki"
 #: src/application/pages/instance/InstanceSettingsPage.ui:390
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of GLFW"
-msgstr ""
+msgstr "Użyj systemowej instalacji GLFW"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:397
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of OpenAL"
-msgstr ""
+msgstr "Użyj systemowej instalacji OpenAL"
 
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
@@ -2463,17 +2463,17 @@ msgstr "Szerokość okna:"
 #: src/application/pages/global/MinecraftPage.ui:117
 msgctxt "MinecraftPage|"
 msgid "Native library workarounds"
-msgstr ""
+msgstr "Obejścia natywnych bibliotek"
 
 #: src/application/pages/global/MinecraftPage.ui:123
 msgctxt "MinecraftPage|"
 msgid "Use system installation of GLFW"
-msgstr ""
+msgstr "Użyj systemowej instalacji GLFW"
 
 #: src/application/pages/global/MinecraftPage.ui:130
 msgctxt "MinecraftPage|"
 msgid "Use system installation of OpenAL"
-msgstr ""
+msgstr "Użyj systemowej instalacji OpenAL"
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3920,7 +3920,7 @@ msgstr "Szybka konfiguracja MultiMC"
 #: src/api/logic/minecraft/services/SkinDelete.cpp:18
 msgctxt "SkinDelete|"
 msgid "Deleting skin"
-msgstr ""
+msgstr "Usuwanie skórki"
 
 #: src/api/logic/minecraft/services/SkinUpload.cpp:43
 msgctxt "SkinUpload|"
@@ -4006,7 +4006,8 @@ msgstr "Nie udało się załadować JSONa ze statusem:\n"
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Downloading modpack:\n"
 "%1"
-msgstr ""
+msgstr "Pobieranie modpacka:\n"
+"%1"
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:38
 msgctxt "Technic::SingleZipPackInstallTask|"
@@ -4032,41 +4033,43 @@ msgstr "Nie udało się rozpakować modpacka"
 #, qt-format
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Could not fix permissions for %1"
-msgstr ""
+msgstr "Nie można naprawić uprawnień dla %1"
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:128
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Importowanie instancji zostało anulowane."
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:32
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Finding recommended version:\n"
 "%1"
-msgstr ""
+msgstr "Znajdowanie zalecanej wersji:\n"
+"%1"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:33
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Finding recommended version"
-msgstr ""
+msgstr "Znajdowanie zalecanej wersji"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:57
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Resolving modpack files:\n"
 "%1"
-msgstr ""
+msgstr "Rozwiązywanie plików paczki:\n"
+"%1"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:58
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Resolving modpack files"
-msgstr ""
+msgstr "Rozwiązywanie plików paczki"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:68
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Downloading modpack:"
-msgstr ""
+msgstr "Pobieranie modpacka:"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:90
 msgctxt "Technic::SolderPackInstallTask|"
