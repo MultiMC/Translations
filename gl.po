@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
-"PO-Revision-Date: 2021-04-06 14:25\n"
+"PO-Revision-Date: 2021-04-06 14:33\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -483,7 +483,7 @@ msgstr "Orde contedora:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>As tarefas previas á execución inicianse antes de que a instancia arranque, e as tarefas posteriores á saída execútanse despois de que a instancia termine.</p><p>Todas elas execútanse no cartafol de traballode MultiMC con variables engadidas ao ambiente:</p><ul><li>$INST_NAME - Nome da instancia</li><li>$INST_ID - Identificador da instancia (nome do seu cartafol)</li><li>$INST_DIR - Ruta absoluta da instancia</li><li>$INST_MC_DIR - Ruta absoluta do minecraft</li><li>$INST_JAVA - Binario de Java usado para a execución</li><li>$INST_JAVA_ARGS - Parámetros da liña de ordes para a execución</li></ul><p>A orde contedora permite executar usando un programa contedor engadido (por exemplo «optirun» en Linux)</p></body></html>"
+msgstr "<html><head/><body><p>As tarefas previas á execución inicianse antes de que a instancia arranque, e as tarefas posteriores á saída execútanse despois de que a instancia termine.</p><p>Todas elas execútanse no cartafol de traballode MultiMC con variables engadidas ao ambiente:</p><ul><li>$INST_NAME - Nome da instancia</li><li>$INST_ID - Identificador da instancia (nome do seu cartafol)</li><li>$INST_DIR - Ruta absoluta da instancia</li><li>$INST_MC_DIR - Ruta absoluta do Minecraft</li><li>$INST_JAVA - Binario de Java usado para a execución</li><li>$INST_JAVA_ARGS - Parámetros da liña de ordes para a execución</li></ul><p>A orde contedora permite executar usando un programa contedor engadido (por exemplo «optirun» en Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -494,19 +494,19 @@ msgstr "Ordes personalizadas"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Non se puido atopar a orde «%1» contedora."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Non se puido executar Minecraft!"
 
 #: src/api/logic/minecraft/launch/DirectJavaLaunch.cpp:121
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "Identificador do proceso de Minecraft: %1\n\n"
 
 #: src/application/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -532,7 +532,7 @@ msgstr "Exportar instancia"
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr ""
+msgstr "Exportar %1"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
@@ -552,7 +552,7 @@ msgstr "Erro"
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr ""
+msgstr "Non se puido exportar a instancia"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
@@ -564,7 +564,7 @@ msgstr "Verificar"
 #: src/application/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr ""
+msgstr "Editores externos (deixar baleiro para usar o predeterminado polo sistema)"
 
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
@@ -574,12 +574,12 @@ msgstr "Editor de texto:"
 #: src/application/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
 msgid "External Tools"
-msgstr ""
+msgstr "Ferramentas Externas"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr ""
+msgstr "Cartafol de JProfiler"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:98
 #: src/application/pages/global/ExternalToolsPage.cpp:113
@@ -597,7 +597,8 @@ msgstr "Erro"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr ""
+msgstr "Fallou a comprobación da instalación de JProfiler:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 #: src/application/pages/global/ExternalToolsPage.cpp:154
@@ -609,12 +610,12 @@ msgstr "OK"
 #: src/application/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr ""
+msgstr "A configuración de JProfiler semella axeitada"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr ""
+msgstr "Executable de JVisualVM"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:135
 #: src/application/pages/global/ExternalToolsPage.cpp:150
@@ -622,22 +623,23 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr ""
+msgstr "Fallou a comprobación da instalación de JVisualVM:\n"
+"%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr ""
+msgstr "A configuración de JVisualVM semella axeitada"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr ""
+msgstr "Aplicación MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
-msgstr ""
+msgstr "Cartafol de MCEdit"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:176
 #: src/application/pages/global/ExternalToolsPage.cpp:191
@@ -982,12 +984,12 @@ msgstr ""
 #: src/api/logic/InstanceImportTask.cpp:219
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Non se puido entender o manifest do paquete:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:230
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr ""
+msgstr "Non se puido renomear o cartafol «overrides»:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:236
 #, qt-format
