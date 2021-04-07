@@ -13,19 +13,19 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2021-04-07 14:36\n"
+"PO-Revision-Date: 2021-04-07 14:45\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "无法解析包清单：\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:76
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:82
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:157
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for "
-msgstr ""
+msgstr "获取本地元数据索引失败 "
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:144
 msgctxt "ATLauncher::PackInstallTask|"
@@ -35,12 +35,12 @@ msgstr "未知模组类型： "
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:274
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown or unsupported download type: "
-msgstr ""
+msgstr "未知或不支持的下载类型： "
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:367
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading configs..."
-msgstr ""
+msgstr "正在下载配置文件..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:368
 msgctxt "ATLauncher::PackInstallTask|"
@@ -50,13 +50,13 @@ msgstr "下载配置"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:400
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting configs..."
-msgstr ""
+msgstr "正在解压配置文件..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:407
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to open pack configs %1!"
-msgstr ""
+msgstr "无法打开整合包文件 %1！"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:426
 msgctxt "ATLauncher::PackInstallTask|"
@@ -66,7 +66,7 @@ msgstr "正在下载模组…"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:429
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Mod download"
-msgstr ""
+msgstr "模组下载"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:440
 msgctxt "ATLauncher::PackInstallTask|"
@@ -96,7 +96,7 @@ msgstr "正在安装整合包"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:655
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr ""
+msgstr "未知的加载器类型： "
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -136,7 +136,7 @@ msgstr "<html><head/><body><p>MultiMC是一个Minecraft的第三方启动器，�
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
 msgid "© 2012-2021 MultiMC Contributors"
-msgstr ""
+msgstr "© 2012-2021 MultiMC 贡献者"
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -225,7 +225,7 @@ msgstr "删除皮肤"
 #: src/application/pages/global/AccountListPage.ui:80
 msgctxt "AccountListPage|"
 msgid "Delete the currently active skin and go back to the default one"
-msgstr ""
+msgstr "删除当前激活的皮肤并恢复到默认皮肤"
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -355,12 +355,12 @@ msgstr "按游戏版本排序"
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr ""
+msgstr "警告：这是一个未完成的功能。如果你导入整合遇到问题，这可能是一个错误。"
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
 msgctxt "AtlPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "选择的版本："
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:71
 msgctxt "AtlPage|"
@@ -752,7 +752,7 @@ msgstr ""
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:14
 msgctxt "Ftb::FilterModel|"
 msgid "Sort by installs"
-msgstr ""
+msgstr "按安装数量排序"
 
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:15
 msgctxt "Ftb::FilterModel|"
@@ -2640,7 +2640,7 @@ msgstr "无法创建自定义Minecraft jar 文件。"
 #: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:74
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "无法解析包清单：\n"
 
 #: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:90
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3367,7 +3367,7 @@ msgstr "版本文件同时包含\"+libraries\"和\"libraries\"，这不再受到
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:203
 msgctxt "QObject|"
 msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr ""
+msgstr "无法确定主 Jar 的网址 - Mojang 删除了我们用作备份的服务器。"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:236
 msgctxt "QObject|"
