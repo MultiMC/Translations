@@ -54,6 +54,10 @@ do
     if [ "$lang" = "en" ]; then
         lang="en_GB"
     fi
+    if [ "$lang" = "pt" ]; then
+        lang="pt_PT"
+    fi
+    echo "    Converting $po_file to $lang.ts"
     echo "    Converting $po_file to $lang.ts"
     $LCONVERT_BIN -locations relative $po_file -o $lang.ts
     echo "    Create $lang.qm"
