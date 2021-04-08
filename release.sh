@@ -58,7 +58,6 @@ do
         lang="pt_PT"
     fi
     echo "    Converting $po_file to $lang.ts"
-    echo "    Converting $po_file to $lang.ts"
     $LCONVERT_BIN -locations relative $po_file -o $lang.ts
     echo "    Create $lang.qm"
     $LRELEASE_BIN $lang.ts -qm $OUTPUT/$lang.qm
