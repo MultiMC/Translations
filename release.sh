@@ -51,6 +51,9 @@ do
 
     # gets everything up to the first dot
     lang=$(echo $po_file | grep -oP "^[^\.]*")
+    if [ "$lang" = "en" ]; then
+        lang="en_GB"
+    fi
     echo "    Converting $po_file to $lang.ts"
     $LCONVERT_BIN -locations relative $po_file -o $lang.ts
     echo "    Create $lang.qm"
