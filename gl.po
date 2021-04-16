@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
-"PO-Revision-Date: 2021-04-16 14:30\n"
+"PO-Revision-Date: 2021-04-16 14:47\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -400,7 +400,7 @@ msgstr "Autenticando: Procesando resposta..."
 #: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
-msgstr "Perfilador abortado"
+msgstr "Analizador abortado"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
@@ -957,7 +957,7 @@ msgstr "Descarga do paquete de mods"
 #: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr "Extraíndo paquete de mods"
+msgstr "Extraendo paquete de mods"
 
 #: src/api/logic/InstanceImportTask.cpp:94
 msgctxt "InstanceImportTask|"
@@ -1285,7 +1285,7 @@ msgstr "Escoitando no porto %1"
 #: src/api/logic/tools/JProfiler.cpp:41
 msgctxt "JProfiler|"
 msgid "Profiler aborted"
-msgstr "Perfilador abortado"
+msgstr "Analizador abortado"
 
 #: src/api/logic/tools/JVisualVM.cpp:32
 msgctxt "JVisualVM|"
@@ -1295,7 +1295,7 @@ msgstr "Iniciado JVisualVM"
 #: src/api/logic/tools/JVisualVM.cpp:39
 msgctxt "JVisualVM|"
 msgid "Profiler aborted"
-msgstr "Perfilador abortado"
+msgstr "Analizador abortado"
 
 #: src/api/logic/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
@@ -1499,22 +1499,22 @@ msgstr "Xogar sen conexión"
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr ""
+msgstr "Recibíuse un estado de sesión indeterminado durante o inicio de sesión."
 
 #: src/application/LaunchController.cpp:162
 msgctxt "LaunchController|"
 msgid "Player name"
-msgstr ""
+msgstr "Nome do xogador"
 
 #: src/application/LaunchController.cpp:163
 msgctxt "LaunchController|"
 msgid "Choose your offline mode player name."
-msgstr ""
+msgstr "Escolle o nome do xogador para o modo sen conexión."
 
 #: src/application/LaunchController.cpp:185
 msgctxt "LaunchController|"
 msgid "Failed to launch."
-msgstr ""
+msgstr "Non se puido iniciar."
 
 #: src/application/LaunchController.cpp:195
 #: src/application/LaunchController.cpp:235
@@ -1526,25 +1526,26 @@ msgstr "Erro!"
 #: src/application/LaunchController.cpp:196
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "Non se puido cargar o perfil da instancia."
 
 #: src/application/LaunchController.cpp:203
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr ""
+msgstr "Non se puido iniciar o lanzador."
 
 #: src/application/LaunchController.cpp:235
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
-msgstr ""
+msgstr "Non se puido iniciar o analizador: %1"
 
 #: src/application/LaunchController.cpp:244
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
-msgstr ""
+msgstr "Esperaremos ata que premas o botón para iniciar o xogo. Este é o momento de configurar o analizador, posto que estase executando o servidor do analizador.\n\n"
+"%1"
 
 #: src/application/LaunchController.cpp:247
 msgctxt "LaunchController|"
@@ -1560,7 +1561,7 @@ msgstr "Lanzar"
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
-msgstr ""
+msgstr "Non se puido iniciar o analizador: %1"
 
 #: src/application/LaunchController.cpp:258
 msgctxt "LaunchController|"
@@ -1580,32 +1581,33 @@ msgstr "Forzar peche de Minecraft?"
 #: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr ""
+msgstr "Isto pode corromper a instancia e só se debe usar se, polo motivo que for, Minecraft deixa de responder"
 
 #: src/api/logic/launch/LaunchTask.cpp:215
 #, qt-format
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr ""
+msgstr "MultiMC deixou de vixiar o rexistro do xogo porque superou as %1 liñas.\n"
+"Ao millor tes que arranxar os teus mods, por que o xogo inda segue gardando os rexistros, ¡e é probable que esteas a gastar espazo no disco a fume de carozo!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Non se puido atopar a orde «%1» contedora."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Non se puido executar Minecraft!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:173
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "Minecraft process ID: %1\n\n"
-msgstr ""
+msgstr "Identificador do proceso de Minecraft: %1\n\n"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
@@ -1615,144 +1617,145 @@ msgstr "Ordenar por nome"
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:21
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
-msgstr ""
+msgstr "Amañar por versión do xogo"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:82
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr ""
+msgstr "Paquete de mods público"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr ""
+msgstr "Paquete de mods de terceiros"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr ""
+msgstr "Paquete de mods privado"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr ""
+msgstr "Paquetes de mods públicos"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Third Party Packs"
-msgstr ""
+msgstr "Paquetes de mods de terceiros"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:88
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr ""
+msgstr "Non se puideron descargar algúnhas listas de paquetes: %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr ""
+msgstr "Descargando zip para %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr ""
+msgstr "Descargando zip para %1 (%2%)"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Extraendo paquete de mods"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr ""
+msgstr "¡Non se puido abrir o ficheiro %1 do paquete de mods!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Instalando paquete de mods"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr ""
+msgstr "Non se puido mover o Minecraft descomprimido!"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:186
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr ""
+msgstr "Non se atopou o método de instalación!"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
 msgid "Public"
-msgstr ""
+msgstr "Público"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:41
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr ""
+msgstr "De terceiros"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:61
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr ""
+msgstr "Privado"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:77
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr ""
+msgstr "Engadir paquete"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:84
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr ""
+msgstr "Eliminar paquete seleccionado"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:100
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Versión seleccionada:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr ""
+msgstr "Antigo FTB"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:191
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr ""
+msgstr "Paquetes de FTP privados"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:192
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr ""
+msgstr "Non se puido descargar a información do paquete. Código %1.\n"
+"Debería eliminarse agora?"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:330
 msgctxt "LegacyFTB::Page|"
 msgid "Add FTB pack"
-msgstr ""
+msgstr "Engadir paquete de FTB"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:331
 msgctxt "LegacyFTB::Page|"
 msgid "Enter pack code:"
-msgstr ""
+msgstr "Engadir código do paquete:"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:354
 msgctxt "LegacyFTB::Page|"
 msgid "Remove pack"
-msgstr ""
+msgstr "Eliminar paquete"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.cpp:355
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr ""
+msgstr "Estas seguro de que queres eliminar o paquete %1?"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -1762,7 +1765,7 @@ msgstr "Herdado"
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr ""
+msgstr "Instancia das versións anteriores."
 
 #: src/application/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
@@ -3987,7 +3990,7 @@ msgstr ""
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:50
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Extraendo paquete de mods"
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:58
 msgctxt "Technic::SingleZipPackInstallTask|"
@@ -4047,7 +4050,7 @@ msgstr ""
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:109
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Extracting modpack"
-msgstr ""
+msgstr "Extraendo paquete de mods"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:148
 msgctxt "Technic::SolderPackInstallTask|"
