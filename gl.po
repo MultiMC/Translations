@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
-"PO-Revision-Date: 2021-04-17 08:45\n"
+"PO-Revision-Date: 2021-04-17 08:55\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2855,22 +2855,32 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>MultiMC envía estadísticas de uso anónimas en cada inicio.</p><p>Enviamos estes datos:</p>\n"
+"<ul>\n"
+"<li>Versión de MultiMC.</li>\n"
+"<li>Nome, versión e arquitectura do sistema operativo.</li>\n"
+"<li>Arquitectura da CPU (en Linux do núcleo)</li>\n"
+"<li>Cantidade de memoria no sistema</li>\n"
+"<li>Versión, arquitectura e configuración da memoria de Java.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/application/pages/global/MultiMCPage.cpp:97
 msgctxt "MultiMCPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Cartafol da instancia"
 
 #: src/application/pages/global/MultiMCPage.cpp:106
 msgctxt "MultiMCPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Intentaches usar un cartafol dunha instancia cuxa ruta contén como mínimo un «!». Sábese que Java pode dar problemas nese caso, ¡é probable que non se che inicie a instancia!"
 
 #: src/application/pages/global/MultiMCPage.cpp:111
 msgctxt "MultiMCPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Seguro que queres usar esta ruta? Escolle «Non» para pechar isto e non cambiar a ruta da instancia."
 
 #: src/application/pages/global/MultiMCPage.cpp:129
 msgctxt "MultiMCPage|"
@@ -2880,34 +2890,35 @@ msgstr "Cartafoles de iconas"
 #: src/application/pages/global/MultiMCPage.cpp:140
 msgctxt "MultiMCPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "Cartafol de mods"
 
 #: src/application/pages/global/MultiMCPage.cpp:429
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Algo/ERRO] Un erro arrepiante!"
 
 #: src/application/pages/global/MultiMCPage.cpp:438
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Probas/INFO] Unha mensaxe inocua..."
 
 #: src/application/pages/global/MultiMCPage.cpp:447
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Algo/AVISO] Un aviso menos arrepiante."
 
 #: src/api/logic/net/NetJob.cpp:128
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "Non se puido procesar a tarefa «%1»:\n"
+"%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "Engadir compoñente baleiro"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -2960,7 +2971,7 @@ msgstr "Sen contido."
 #: src/api/logic/news/NewsEntry.cpp:27 src/api/logic/news/NewsEntry.cpp:63
 msgctxt "NewsEntry|"
 msgid "Unknown Author"
-msgstr ""
+msgstr "Autor descoñecido"
 
 #: src/application/pages/instance/NotesPage.h:38
 msgctxt "NotesPage|"
@@ -2970,29 +2981,29 @@ msgstr "Notas"
 #: src/application/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
 msgid "Notification"
-msgstr ""
+msgstr "Notificación"
 
 #: src/application/dialogs/NotificationDialog.ui:65
 #: src/application/dialogs/NotificationDialog.cpp:30
 msgctxt "NotificationDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "Non amosar de novo"
 
 #: src/application/dialogs/NotificationDialog.ui:75
 #: src/application/dialogs/NotificationDialog.cpp:31
 msgctxt "NotificationDialog|"
 msgid "Close"
-msgstr ""
+msgstr "Pechar"
 
 #: src/api/logic/NullInstance.h:20
 msgctxt "NullInstance|"
 msgid "Unknown instance type"
-msgstr ""
+msgstr "Tipo de instancia descoñecido"
 
 #: src/application/pages/instance/OtherLogsPage.ui:42
 msgctxt "OtherLogsPage|"
 msgid "Find"
-msgstr ""
+msgstr "Atopar"
 
 #: src/application/pages/instance/OtherLogsPage.ui:67
 msgctxt "OtherLogsPage|"
@@ -3260,52 +3271,52 @@ msgstr ""
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
 msgid "&Default"
-msgstr ""
+msgstr "Por &defecto"
 
 #: src/application/pages/global/ProxyPage.ui:74
 msgctxt "ProxyPage|"
 msgid "&None"
-msgstr ""
+msgstr "&Ningún"
 
 #: src/application/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/application/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/application/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
 msgid "Address and Port"
-msgstr ""
+msgstr "Dirección e porto"
 
 #: src/application/pages/global/ProxyPage.ui:139
 msgctxt "ProxyPage|"
 msgid "Authentication"
-msgstr ""
+msgstr "Identificación"
 
 #: src/application/pages/global/ProxyPage.ui:148
 msgctxt "ProxyPage|"
 msgid "Username:"
-msgstr ""
+msgstr "Nome de usuario:"
 
 #: src/application/pages/global/ProxyPage.ui:155
 msgctxt "ProxyPage|"
 msgid "Password:"
-msgstr ""
+msgstr "Contrasinal:"
 
 #: src/application/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside MultiMC's configuration file!"
-msgstr ""
+msgstr "Nota: O nome de usuario e o contrasinal do proxy gárdanse textualmente no ficheiro de configuración de MultiMC!"
 
 #: src/application/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: src/api/logic/minecraft/Component.cpp:247
 msgctxt "QObject|"
