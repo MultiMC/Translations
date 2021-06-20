@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
-"PO-Revision-Date: 2021-06-20 12:04\n"
+"PO-Revision-Date: 2021-06-20 12:15\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -161,7 +161,7 @@ msgstr "Về Qt"
 #: src/application/dialogs/AboutDialog.ui:294
 msgctxt "AboutDialog|"
 msgid "Close"
-msgstr "Thoát"
+msgstr "Đóng"
 
 #: src/application/dialogs/AboutDialog.cpp:89
 msgctxt "AboutDialog|"
@@ -200,7 +200,7 @@ msgstr "Thêm"
 #: src/application/pages/global/AccountListPage.ui:54
 msgctxt "AccountListPage|"
 msgid "Remove"
-msgstr "Xoá"
+msgstr "Loại bỏ"
 
 #: src/application/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
@@ -215,7 +215,7 @@ msgstr "Không có mặc định"
 #: src/application/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
-msgstr "Chọn skin"
+msgstr "Tải lên skin"
 
 #: src/application/pages/global/AccountListPage.ui:77
 msgctxt "AccountListPage|"
@@ -253,7 +253,7 @@ msgstr "Vui lòng nhập email và mật khẩu tài khoản Minecraft của b�
 #: src/application/pages/global/AccountListPage.cpp:214
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
-msgstr "Xóa Skin"
+msgstr "Xóa skin"
 
 #: src/application/pages/global/AccountListPage.cpp:209
 msgctxt "AccountListPage|"
@@ -278,12 +278,12 @@ msgstr "Chúng tôi theo dõi một số thống kê nhỏ về người dùng."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>MultiMC gửi dữ liệu ẩn danh trong mỗi lần khởi động ứng dụng. Điều này sẽ giúp chúng tôi quyết định những nền tảng và lỗi nào cần tập trung vào. </p><p>Dữ liệu được thống kê bởi Google Analytics, xem bài báo của họ <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\"> về vấn đề này</a>.</p><p>Dữ liệu được thu thập:</p><ul><li>Một ID ngẫu nhiên duy nhất của trình tải MultiMC.<br /> Nó đã được lưu trữ ở phần cài đặt dữ liệu (multimc.cfg).</li><li>Địa chỉ IP (một phần) ẩn danh.</li><li>Phiên bản MultiMC.</li><li>Tên hệ điều hành, phiên bản và kiến trúc máy tính.</li><li>Kiến trúc CPU (kiến trúc hạt nhân trên linux).</li><li>Kích thước bộ nhớ hệ thống.</li><li>Phiên bản Java, cài đặt kiến ​​trúc và bộ nhớ.</li></ul><p>Nếu chúng tôi thay đổi thông tin đã theo dõi, bạn sẽ thấy lại trang này.</p></body></html>"
+msgstr "<html><body><p>MultiMC gửi dữ liệu ẩn danh trong mỗi lần khởi động ứng dụng. Điều này sẽ giúp chúng tôi quyết định những nền tảng và lỗi nào cần tập trung vào. </p><p>Dữ liệu được thống kê bởi Google Analytics, xem bài báo của họ <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\"> về vấn đề này</a>.</p><p>Dữ liệu được thu thập:</p><ul><li>Một ID ngẫu nhiên duy nhất của trong quá trình cài đặt MultiMC.<br /> Nó được lưu trữ ở phần cài đặt ứng dụng (multimc.cfg).</li><li>Địa chỉ IP (một phần) ẩn danh.</li><li>Phiên bản MultiMC.</li><li>Tên hệ điều hành, phiên bản và kiến trúc máy tính.</li><li>Kiến trúc CPU (kiến trúc hạt nhân trên linux).</li><li>Kích thước bộ nhớ hệ thống.</li><li>Phiên bản Java, cài đặt kiến ​​trúc và bộ nhớ.</li></ul><p>Nếu chúng tôi thay đổi thông tin đã theo dõi, bạn sẽ thấy lại trang này.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr "Bật Thông tích"
+msgstr "Bật phân tích"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:19
 msgctxt "AssetUpdateTask|"
@@ -311,14 +311,16 @@ msgstr "Đang tải dữ liệu từ Mojang..."
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr "Không thể đọc được dữ liệu: %1"
+msgstr "Không tải xuống được chỉ mục dữ liệu:\n"
+"%1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr "Không thể tải được dữ liệu: %1"
+msgstr "Không tải xuống được dữ liệu: \n"
+"%1"
 
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
 msgctxt "Atl::FilterModel|"
@@ -363,17 +365,17 @@ msgstr "ATLauncher"
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
-msgstr "Máy chủ xác thực không gửi token cho client."
+msgstr "Máy chủ xác thực không gửi client token."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr "Máy chủ xác thực đã thử đổi token của client. Việc này chưa được hỗ trợ."
+msgstr "Máy chủ xác thực đã thử đổi client token. Việc này chưa được hỗ trợ."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send an access token."
-msgstr "Máy chủ xác thực không gửi token vào."
+msgstr "Máy chủ xác thực không gửi token truy cập."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:154
 msgctxt "AuthenticateTask|"
@@ -388,12 +390,12 @@ msgstr "Máy chủ xác thực chỉ định cấu hình được chọn không 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Sending request..."
-msgstr "Máy chủ xác thực: Đang gửi yêu cầu..."
+msgstr "Xác thực: Đang gửi yêu cầu..."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:198
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
-msgstr "Máy chủ xác thực: Đang xử lí thông tin vào..."
+msgstr "Xác thực: Đang xử lí phản hồi..."
 
 #: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
