@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
-"PO-Revision-Date: 2021-06-20 11:45\n"
+"PO-Revision-Date: 2021-06-20 11:56\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -480,7 +480,7 @@ msgstr "Lệnh Wrapper:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Lệnh trước khởi chạy trước khi phiên bản khởi chạy và lệnh sau thoát chạy sau khi thoát.</p><p>Cả hai sẽ được chạy trong thư mục làm việc của MultiMC với các biến môi trường bổ sung:</p><ul><li>$INST_NAME - Tên của instance</li><li>$INST_ID - ID của instance (tên thư mục của nó)</li><li>$INST_DIR - đường dẫn tuyệt đối của instance</li><li>$INST_MC_DIR - đường dẫn tuyệt đối của minecraft</li><li>$INST_JAVA - java nhị phân được sử dụng để khởi chạy</li><li>$INST_JAVA_ARGS - các tham số dòng lệnh được sử dụng để khởi chạy </li></ul><p>Lệnh Wrapper cho phép khởi chạy bằng một chương trình wrapper bổ sung (như 'optirun' trên Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -3177,35 +3177,35 @@ msgstr "paste.ee trả lại lỗi. Vui lòng tham khảo nhật ký để biế
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
-msgstr ""
+msgstr "Đang chạy lệnh lệnh thoát: %1"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:39
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Lệnh sau thoát không thành công với mã %1.\n\n"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "Lệnh thoát đã chạy thành công.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Running Pre-Launch command: %1"
-msgstr ""
+msgstr "Đang chạy lệnh khởi động: %1"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:40
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Lệnh khởi động không thành công với mã %1.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "Lệnh trước khởi động đã chạy thành công.\n\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
@@ -3236,7 +3236,7 @@ msgstr "Tên"
 #: src/application/dialogs/ProfileSelectDialog.cpp:56
 msgctxt "ProfileSelectDialog|"
 msgid " (in use)"
-msgstr ""
+msgstr " (đang sử dụng)"
 
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -4037,7 +4037,7 @@ msgstr "Không thể sửa quyền hạn cho %1"
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:128
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Xuất instance đã huỷ bỏ."
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:32
 #, qt-format
@@ -4094,7 +4094,7 @@ msgstr "Không thể sửa quyền hạn cho %1"
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:192
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Xuất instance đã huỷ bỏ."
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:58
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4698,7 +4698,7 @@ msgstr "Phiên bản Minecraft"
 #: src/application/VersionProxyModel.cpp:100
 msgctxt "VersionProxyModel|"
 msgid "The version's branch"
-msgstr ""
+msgstr "Nhánh phiên bản"
 
 #: src/application/VersionProxyModel.cpp:102
 msgctxt "VersionProxyModel|"
@@ -4863,7 +4863,7 @@ msgstr "Quản lí datapack trong thế giới."
 #: src/application/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
 msgid "Worlds"
-msgstr ""
+msgstr "Thế giới"
 
 #: src/application/pages/instance/WorldListPage.cpp:104
 msgctxt "WorldListPage|"
@@ -4916,7 +4916,7 @@ msgstr "Chọn tệp nén thế giới Minecraft"
 #: src/application/pages/instance/WorldListPage.cpp:326
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr ""
+msgstr "Tệp nén thế giới Minecraft (*.zip)"
 
 #: src/application/pages/instance/WorldListPage.cpp:347
 msgctxt "WorldListPage|"
