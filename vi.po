@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
-"PO-Revision-Date: 2021-06-20 12:15\n"
+"PO-Revision-Date: 2021-06-25 05:06\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -50,7 +50,7 @@ msgstr "Tải xuống config"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:400
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting configs..."
-msgstr "Đang giải nén..."
+msgstr "Đang giải nén config..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:407
 #, qt-format
@@ -86,7 +86,7 @@ msgstr "Giải nén mod thất bại..."
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr "Đang giải nén..."
+msgstr "Đang giải nén mod..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:618
 msgctxt "ATLauncher::PackInstallTask|"
@@ -131,7 +131,7 @@ msgstr "Kênh:"
 #: src/application/dialogs/AboutDialog.ui:149
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>MultiMC is a custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>MultiMC là một launcher mà khiến cho việc chơi Minecraft của bạn dễ dàng hơn bằng cách tạo ra nhiều phiên bản Minecraft khác nhau.</p></body></html>"
+msgstr "<html><head/><body><p>MultiMC là một launcher mà khiến cho việc quản lí Minecraft dễ dàng hơn bằng cách tạo ra nhiều phiên bản Minecraft khác nhau.</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
@@ -220,7 +220,7 @@ msgstr "Tải lên skin"
 #: src/application/pages/global/AccountListPage.ui:77
 msgctxt "AccountListPage|"
 msgid "Delete Skin"
-msgstr "Xoá Skin"
+msgstr "Xoá skin"
 
 #: src/application/pages/global/AccountListPage.ui:80
 msgctxt "AccountListPage|"
@@ -247,7 +247,7 @@ msgstr "Menu ngữ cảnh"
 #: src/application/pages/global/AccountListPage.cpp:108
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
-msgstr "Vui lòng nhập email và mật khẩu tài khoản Minecraft của bạn để cho vào đây."
+msgstr "Vui lòng nhập email và mật khẩu tài khoản Minecraft của bạn để thêm tài khoản vào."
 
 #: src/application/pages/global/AccountListPage.cpp:209
 #: src/application/pages/global/AccountListPage.cpp:214
@@ -462,7 +462,7 @@ msgstr "Không thuộc nhóm nào"
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
-msgstr "Lệnh tùy &chỉnh"
+msgstr "Lệnh &tùy chỉnh"
 
 #: src/application/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
@@ -525,7 +525,7 @@ msgstr "Mật khẩu"
 #: src/application/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr "Xuất Phiên Bản"
+msgstr "Xuất phiên bản"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
@@ -551,7 +551,7 @@ msgstr "Lỗi"
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr "Không thể xuất gói trò chơi"
+msgstr "Không thể xuất gói phiên bản"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
@@ -568,12 +568,12 @@ msgstr "Trình chỉnh sửa bên ngoài (để trống cho mặc định)"
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr "Chỉnh sửa Plugin:"
+msgstr "Trình chỉnh sửa văn bản:"
 
 #: src/application/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
 msgid "External Tools"
-msgstr "Nâng cao"
+msgstr "Các công cụ khác"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
@@ -596,7 +596,7 @@ msgstr "Lỗi"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr "Có khổi khi kiểm tra JProfiler:\n"
+msgstr "Có lỗi khi kiểm tra JProfiler:\n"
 "%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:117
@@ -622,7 +622,7 @@ msgstr "JVisualVM thực thi"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr "Có lỗi khi đang kiểm tra cài đặt JVisualVM:\n"
+msgstr "Có lỗi khi đang kiểm tra JVisualVM:\n"
 "%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:154
@@ -646,13 +646,13 @@ msgstr "Thư mục MCEdit"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking MCEdit install:\n"
 "%1"
-msgstr "Có lỗi khi đang kiểm tra cài đặt MCEdit:\n"
+msgstr "Có lỗi khi đang kiểm tra MCEdit:\n"
 "%1"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
-msgstr "Ứng dụng MCEdit có vẻ đã hoạt động ổn định"
+msgstr "MCEdit có vẻ đã hoạt động ổn định"
 
 #: src/application/pages/global/ExternalToolsPage.cpp:202
 msgctxt "ExternalToolsPage|"
@@ -678,28 +678,28 @@ msgstr "Không thể trích xuất jar gốc '%1' đến '%2'"
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:37
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr "Đang kiểm tra FML libraries..."
+msgstr "Đang kiểm tra thư viện FML..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:61
 msgctxt "FMLLibrariesTask|"
 msgid "Dowloading FML libraries..."
-msgstr "Đang tải FML libraries..."
+msgstr "Đang tải thư viện FML..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:88
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "Đang sao chép FML libraries vào phiên bản..."
+msgstr "Đang sao chép thư viện FML vào phiên bản..."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:99
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "Thất bại trong việc tạo thư mục FML library vào phiên bản."
+msgstr "Thất bại trong việc tạo thư mục thư viện FML vào phiên bản."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:104
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "Sao chép Forge/FML library thất bại: %1."
+msgstr "Sao chép thư viện Forge/FML thất bại: %1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:117
 #, qt-format
@@ -746,12 +746,12 @@ msgstr "Sắp xếp theo tên"
 #: src/application/pages/modplatform/ftb/FtbPage.ui:22
 msgctxt "FtbPage|"
 msgid "Version selected:"
-msgstr "Phiên bản lựa chọn:"
+msgstr "Phiên bản đã chọn:"
 
 #: src/application/pages/modplatform/ftb/FtbPage.ui:40
 msgctxt "FtbPage|"
 msgid "Search"
-msgstr "Tìm Kiếm"
+msgstr "Tìm kiếm"
 
 #: src/application/pages/modplatform/ftb/FtbPage.h:43
 msgctxt "FtbPage|"
@@ -766,43 +766,43 @@ msgstr "Mã"
 #: src/api/logic/minecraft/gameoptions/GameOptions.cpp:84
 msgctxt "GameOptions|"
 msgid "Value"
-msgstr "Giá Trị"
+msgstr "Giá trị"
 
 #: src/application/pages/instance/GameOptionsPage.h:45
 msgctxt "GameOptionsPage|"
 msgid "Game Options"
-msgstr "Cài đặt Game"
+msgstr "Cài đặt game"
 
 #: src/api/logic/minecraft/World.cpp:69
 msgctxt "GameType|"
 msgid "Survival"
-msgstr "Sinh Tồn"
+msgstr "Sinh tồn"
 
 #: src/api/logic/minecraft/World.cpp:71
 msgctxt "GameType|"
 msgid "Creative"
-msgstr "Sáng Tạo"
+msgstr "Sáng tạo"
 
 #: src/api/logic/minecraft/World.cpp:73
 msgctxt "GameType|"
 msgid "Adventure"
-msgstr "Phiêu Lưu"
+msgstr "Phiêu lưu"
 
 #: src/api/logic/minecraft/World.cpp:75
 msgctxt "GameType|"
 msgid "Spectator"
-msgstr "Khán Giả"
+msgstr "Khán giả"
 
 #: src/api/logic/minecraft/World.cpp:80
 #, qt-format
 msgctxt "GameType|"
 msgid "Unknown (%1)"
-msgstr "Không Xác Định (%1)"
+msgstr "Không xác định (%1)"
 
 #: src/api/logic/minecraft/World.cpp:82
 msgctxt "GameType|"
 msgid "Undefined"
-msgstr "Chưa Xác Định"
+msgstr "Chưa xác định"
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
@@ -827,7 +827,7 @@ msgstr "Đang đọc danh sách tập tin cho phiên bản hiện tại..."
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr "Đang xử lý danh sách tập tin - đang tìm cách cài bản cập nhật..."
+msgstr "Đang xử lý danh sách tệp - đang tìm cách cài bản cập nhật..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
 msgctxt "GoUpdate::DownloadTask|"
@@ -837,7 +837,7 @@ msgstr "Xử lý thất bại danh sách cập nhật..."
 #: src/api/logic/updater/DownloadTask.cpp:136
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr "Đang tải về các file cập nhật."
+msgstr "Đang tải về các tệp cập nhật."
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
@@ -849,7 +849,7 @@ msgstr "Đang tải %1 files."
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "Không thể tải về %1 files cập nhật"
+msgstr "Không thể tải về các tệp cập nhật sau: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -859,12 +859,12 @@ msgstr "Chọn một biểu tượng"
 #: src/application/dialogs/IconPickerDialog.cpp:65
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
-msgstr "Thêm Biểu tượng"
+msgstr "Thêm biểu tượng"
 
 #: src/application/dialogs/IconPickerDialog.cpp:66
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
-msgstr "Xóa biểu tượng"
+msgstr "Loại bỏ biểu tượng"
 
 #: src/application/dialogs/IconPickerDialog.cpp:75
 msgctxt "IconPickerDialog|"
@@ -875,7 +875,7 @@ msgstr "Mở thư mục"
 #: src/application/dialogs/IconPickerDialog.cpp:105
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
-msgstr "Chọn Biểu tượng"
+msgstr "Chọn biểu tượng"
 
 #: src/application/dialogs/IconPickerDialog.cpp:108
 #, qt-format
@@ -891,7 +891,7 @@ msgstr "Chọn"
 #: src/application/pages/modplatform/ImportPage.ui:31
 msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
-msgstr "Xác định vị trí tệp hoặc đường dẫn hướng đến chỗ tải xuống:"
+msgstr "Vị trí tệp hoặc đường dẫn để trực tiếp tải xuống:"
 
 #: src/application/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
@@ -951,7 +951,7 @@ msgstr "Đang tải modpack:\n"
 #: src/api/logic/InstanceImportTask.cpp:56
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr "Tải modpack"
+msgstr "Tải xuống modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
@@ -988,7 +988,7 @@ msgstr "Xuất phiên bản đã huỷ bỏ."
 #: src/api/logic/InstanceImportTask.cpp:219
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Không thể hiểu rõ gói pack manifest:\n"
+msgstr "Không thể hiểu rõ gói manifest:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:230
 msgctxt "InstanceImportTask|"
@@ -1016,7 +1016,7 @@ msgstr "Các dấu chấm bí ẩn đã xóa khỏi phiên bản Minecraft khi �
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr "Không thể lập bản đồ ở phiên bản forge cho Minecraft %1"
+msgstr "Không thể lập bản đồ phiên bản khuyến khích Forge cho Minecraft %1"
 
 #: src/api/logic/InstanceImportTask.cpp:327
 msgctxt "InstanceImportTask|"
@@ -1039,12 +1039,12 @@ msgstr "Việc lồng các modpack trong modpack không thể bắt đầu, khô
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr "Chưa được công nhận/chưa xử lý loại gói cho: %1"
+msgstr "Chưa được công nhận/chưa xử lý PackageType cho: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:380
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr "Đang tải mod..."
+msgstr "Đang tải xuống mod..."
 
 #: src/api/logic/InstanceImportTask.cpp:387
 msgctxt "InstanceImportTask|"
@@ -1055,7 +1055,7 @@ msgstr "Không thể giải quyết mod IDs:\n"
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
-msgstr "%1 Phiên Bản"
+msgstr "Phiên bản %1"
 
 #: src/application/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
@@ -1065,13 +1065,13 @@ msgstr "Loader mods"
 #: src/application/InstancePageProvider.h:44
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
-msgstr "Lõi mods"
+msgstr "Mod lõi"
 
 #: src/application/InstancePageProvider.h:72
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
-msgstr "Chỉnh Sửa Phiên Bản (%1)"
+msgstr "Chỉnh sửa phiên bản (%1)"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:29
 msgctxt "InstanceSettingsPage|"
@@ -1086,7 +1086,7 @@ msgstr "Những thiết lập này sẽ ghi đè các cài đặt chung."
 #: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr "Cài&đặt Java"
+msgstr "Cài đặt Java"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
@@ -1101,17 +1101,17 @@ msgstr "Chọn..."
 #: src/application/pages/instance/InstanceSettingsPage.ui:84
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
-msgstr "Thử nghiệm"
+msgstr "Kiểm tra"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
-msgstr "Bộ &nhớ"
+msgstr "Bộ nhớ"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
-msgstr "Cấp phát bộ nhớ tối thiểu:"
+msgstr "Bộ nhớ cấp phát tối thiểu:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:116
 msgctxt "InstanceSettingsPage|"
@@ -1121,7 +1121,7 @@ msgstr "Dung lượng bộ nhớ tối đa mà Minecraft được phép sử d�
 #: src/application/pages/instance/InstanceSettingsPage.ui:138
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Dung lượng bộ nhớ mà Minecraft cần khởi động với."
+msgstr "Dung lượng bộ nhớ mà Minecraft khởi động với."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:160
 msgctxt "InstanceSettingsPage|"
@@ -1131,7 +1131,7 @@ msgstr "Dung lượng bộ nhớ có sẵn để lưu trữ các lớp Java đã
 #: src/application/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
-msgstr "Cấp phát bộ nhớ tối đa:"
+msgstr "Bộ nhớ cấp phát tối đa:"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
@@ -1146,17 +1146,17 @@ msgstr "Giá &trị Java"
 #: src/application/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr "Cửa sổ game"
+msgstr "Cửa sổ trò chơi"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:237
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
-msgstr "Chế độ cửa sổ game"
+msgstr "Chỉnh sửa cửa sổ trò chơi"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:249
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
-msgstr "Bắt đầu với tối đa hóa Minecraft?"
+msgstr "Khởi động Minecraft tối đa cửa sổ?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:258
 msgctxt "InstanceSettingsPage|"
@@ -1171,22 +1171,22 @@ msgstr "Chiều rộng cửa sổ:"
 #: src/application/pages/instance/InstanceSettingsPage.ui:309
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
-msgstr "Cài Đặt Conso&le"
+msgstr "Cài đặt Conso&le"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:321
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
-msgstr "Bật console trong khi game vẫn đang chạy?"
+msgstr "Hiện bảng điều khiển khi trò chơi đang chạy?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:328
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
-msgstr "Tự động tắt console khi thoát game?"
+msgstr "Tự động đóng bảng điều khiển khi thoát trò chơi?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:335
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr "Mở console khi game bị crash?"
+msgstr "Hiển bảng điều khiển khi trò chơi gặp sự cố?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:359
 msgctxt "InstanceSettingsPage|"
@@ -1201,7 +1201,7 @@ msgstr "Cách giải quyết"
 #: src/application/pages/instance/InstanceSettingsPage.ui:378
 msgctxt "InstanceSettingsPage|"
 msgid "Native libraries"
-msgstr "Native libraries"
+msgstr "Thư viện native"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:390
 msgctxt "InstanceSettingsPage|"
@@ -1216,7 +1216,7 @@ msgstr "Sử dụng hệ thống cài đặt của OpenAL"
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
-msgstr "Cài Đặt"
+msgstr "Cài đặt"
 
 #: src/application/pages/instance/InstanceSettingsPage.cpp:247
 msgctxt "InstanceSettingsPage|"
@@ -1226,7 +1226,7 @@ msgstr "Chọn phiên bản Java"
 #: src/application/pages/instance/InstanceSettingsPage.cpp:265
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
-msgstr "Tìm tệp Java"
+msgstr "Tìm tệp thực thi Java"
 
 #: src/api/logic/InstanceList.cpp:776
 msgctxt "InstanceStaging|"
@@ -1236,7 +1236,7 @@ msgstr "Không uỷ thác được phiên bản, ngay cả sau nhiều lần th�
 #: src/application/InstanceWindow.cpp:39
 msgctxt "InstanceWindow|"
 msgid "Console window for "
-msgstr "Cửa sổ Console cho "
+msgstr "Cửa sổ bảng điều khiển cho "
 
 #: src/application/InstanceWindow.cpp:63
 msgctxt "InstanceWindow|"
@@ -1246,7 +1246,7 @@ msgstr "Hỗ trợ"
 #: src/application/InstanceWindow.cpp:76
 msgctxt "InstanceWindow|"
 msgid "Launch Offline"
-msgstr "Chơi Ngoại Tuyến"
+msgstr "Chơi ngoại tuyến"
 
 #: src/application/InstanceWindow.cpp:81
 msgctxt "InstanceWindow|"
@@ -1267,13 +1267,13 @@ msgstr "Tắt tiến trình đang chạy"
 #: src/application/InstanceWindow.cpp:140
 msgctxt "InstanceWindow|"
 msgid "Launch"
-msgstr "Chạy"
+msgstr "Khởi động"
 
 #: src/application/InstanceWindow.cpp:134
 #: src/application/InstanceWindow.cpp:142
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "Chạy phiên bản"
+msgstr "Khởi động phiên bản"
 
 #: src/api/logic/tools/JProfiler.cpp:34
 #, qt-format
@@ -1314,12 +1314,12 @@ msgstr "Dung lượng bộ nhớ tối đa mà Minecraft được phép sử d�
 #: src/application/pages/global/JavaPage.ui:73
 msgctxt "JavaPage|"
 msgid "Minimum memory allocation:"
-msgstr "Cấp phát bộ nhớ tối thiểu:"
+msgstr "Bộ nhớ cấp phát tối thiểu:"
 
 #: src/application/pages/global/JavaPage.ui:80
 msgctxt "JavaPage|"
 msgid "Maximum memory allocation:"
-msgstr "Cấp phát bộ nhớ tối đa:"
+msgstr "Bộ nhớ cấp phát tối đa:"
 
 #: src/application/pages/global/JavaPage.ui:87
 msgctxt "JavaPage|"
@@ -1344,7 +1344,7 @@ msgstr "Đường dẫn Java:"
 #: src/application/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
 msgid "JVM arguments:"
-msgstr "Giá trị Java:"
+msgstr "Giá trị JVM:"
 
 #: src/application/pages/global/JavaPage.ui:208
 msgctxt "JavaPage|"
@@ -1354,7 +1354,7 @@ msgstr "Tự động phát hiện..."
 #: src/application/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
 msgid "Test"
-msgstr "Thử nghiệm"
+msgstr "Kiểm tra"
 
 #: src/application/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
@@ -1369,7 +1369,7 @@ msgstr "Chọn phiên bản Java"
 #: src/application/pages/global/JavaPage.cpp:120
 msgctxt "JavaPage|"
 msgid "Find Java executable"
-msgstr "Tìm tệp Java"
+msgstr "Tìm tệp thực thi Java"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:147
 msgctxt "JavaSettingsWidget|"
@@ -1384,13 +1384,13 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "You can change the Java version in the settings later.\n"
 msgstr "You chưa chọn một phiên bản Java hoặc chọn cái gì đó không hoạt động.\n"
 "MultiMC sẽ không thể khởi động Minecraft.\n"
-"Bạn có muốn thực hiện không cần Java?\n\n"
+"Bạn có muốn thực hiện mà không cần Java?\n\n"
 "Bạn có thể thay đổi phiên bản Java ở phần cài đặt ở lần sau.\n"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:261
 msgctxt "JavaSettingsWidget|"
 msgid "Find Java executable"
-msgstr "Tìm tệp Java"
+msgstr "Tìm tệp thực thi Java"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:421
 msgctxt "JavaSettingsWidget|"
@@ -1405,17 +1405,17 @@ msgstr "Dung lượng bộ nhớ tối đa mà Minecraft được phép sử d�
 #: src/application/widgets/JavaSettingsWidget.cpp:423
 msgctxt "JavaSettingsWidget|"
 msgid "Minimum memory allocation:"
-msgstr "Cấp phát bộ nhớ tối thiểu:"
+msgstr "Bộ nhớ cấp phát tối thiểu:"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:424
 msgctxt "JavaSettingsWidget|"
 msgid "Maximum memory allocation:"
-msgstr "Cấp phát bộ nhớ tối đa:"
+msgstr "Bộ nhớ cấp phát tối đa:"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:425
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Dung lượng bộ nhớ mà Minecraft cần khởi động với."
+msgstr "Dung lượng bộ nhớ mà Minecraft khởi động với."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:426
 msgctxt "JavaSettingsWidget|"
@@ -1436,7 +1436,7 @@ msgstr "Java"
 msgctxt "JavaWizardPage|"
 msgid "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
-msgstr "Bạn không có một phiên bản Java để hoạt động hoặc đã mất.\n"
+msgstr "Bạn không có một phiên bản Java để hoạt động hoặc nó biến mất.\n"
 "Hãy chọn một trong những tuỳ chọn sau để tìm tệp Java."
 
 #: src/application/pages/global/LanguagePage.h:35
@@ -1448,7 +1448,7 @@ msgstr "Ngôn ngữ"
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr "Không tìm thấy ngôn ngữ của bạn hoặc chất lượng thấp?<br/><a href=\"%1\">Hãy tham gia vào nhóm dịch với chúng tôi!</a>"
+msgstr "Không thấy ngôn ngữ của bạn hoặc chất lượng thấp?<br/><a href=\"%1\">Hãy tham gia vào nhóm dịch với chúng tôi!</a>"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1468,7 +1468,7 @@ msgstr "Không có phiên bản được chỉ định!"
 #: src/application/LaunchController.cpp:46
 msgctxt "LaunchController|"
 msgid "No Accounts"
-msgstr "Không Có Tài Khoản"
+msgstr "Không Tài khoản"
 
 #: src/application/LaunchController.cpp:47
 msgctxt "LaunchController|"
