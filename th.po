@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
-"PO-Revision-Date: 2021-07-20 19:17\n"
+"PO-Revision-Date: 2021-07-20 19:32\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -25,7 +25,7 @@ msgstr "ไม่สามารถเข้าใจแพ็ครายกา
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:157
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for "
-msgstr "ไม่สามารถรับดัชนีข้อมูลเมตาดาต้าในเครื่องสำหรับการ"
+msgstr "เกิดข้อผิดพลาดในการรับดัชนีข้อมูลเมตาดาต้าในเครื่องสำหรับการ"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:144
 msgctxt "ATLauncher::PackInstallTask|"
@@ -56,7 +56,7 @@ msgstr "กำลังแยกค่ากำหนด..."
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to open pack configs %1!"
-msgstr "เกิดข้อผิดผลาดในการเปิดแพ็คค่ากำหนด %1!"
+msgstr "เกิดข้อผิดพลาดในการเปิดแพ็คค่ากำหนด %1!"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:426
 msgctxt "ATLauncher::PackInstallTask|"
@@ -81,7 +81,7 @@ msgstr "ประเภทการดาวน์โหลดที่ไม่
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:545
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr "เกิดข้อผิดผลาดในการแยกม็อด..."
+msgstr "เกิดข้อผิดพลาดในการแยกม็อด..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
 msgctxt "ATLauncher::PackInstallTask|"
@@ -111,7 +111,7 @@ msgstr "เกี่ยวกับ"
 #: src/application/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "Version:"
-msgstr "เวอร์ชั่น:"
+msgstr "เวอร์ชัน:"
 
 #: src/application/dialogs/AboutDialog.ui:116
 msgctxt "AboutDialog|"
@@ -166,7 +166,7 @@ msgstr "ปิด"
 #: src/application/dialogs/AboutDialog.cpp:89
 msgctxt "AboutDialog|"
 msgid "Version"
-msgstr "เวอร์ชั่น"
+msgstr "เวอร์ชัน"
 
 #: src/application/dialogs/AboutDialog.cpp:90
 msgctxt "AboutDialog|"
@@ -188,7 +188,9 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr ""
+msgstr "<p>เราทำให้ MultiMC เป็นโอเพ่นซอร์ส เพราะเราคิดว่าการที่สามารถดูซอร์สโค้ดของโปรเจ็กต์เช่นนี้ได้ ถือว่าเป็นเรื่องสำคัญ และเราทำเช่นนั้นด้วยการใช้ใบอนุญาต Apache</p>\n"
+"<p>เหตุผลส่วนหนึ่งในการใช้ใบอนุญาต Apache คือเราไม่ต้องการให้ผู้อื่นใช้ชื่อ &quot;MultiMC&quot; เมื่อจะทำการแจกจ่ายโปรเจ็กต์ใหม่ ซึ่งหมายความว่าคนคนนั้นจะต้องใช้เวลาในการค้นหาซอร์สโค้ดและลบข้อความที่มีการอ้างอิงถึง &quot;MultiMC&quot; ทั้งหมดออก ซึ่งรวมถึงทั้งไอคอนโปรเจ็กต์และชื่อหน้าต่าง (จะต้องไม่ใช้ชื่อ <b>MultiMC-fork</b>)</p>\n"
+"<p>ใบอนุญาต Apache ครอบคลุมการใช้ชื่ออย่างสมเหตุสมผล - การกล่าวถึงที่มาของโครงการในกล่องไดอะล็อก \"เกี่ยวกับ\" และใบอนุญาตใหม่เป็นที่ยอมรับได้ อย่างไรก็ตาม ควรมีข้อความบอกชัดเจนให้ประจักษ์ชัดว่าโครงการนี้เป็นโครงการแยก <b>โดยห้าม</b>เออออไปเองว่าโครงการเป็นโครงการที่ได้รับการสนับสนุนจากโครงการหลัก</p>"
 
 #: src/application/pages/global/AccountListPage.ui:49
 msgctxt "AccountListPage|"
@@ -198,7 +200,7 @@ msgstr "เพิ่ม"
 #: src/application/pages/global/AccountListPage.ui:54
 msgctxt "AccountListPage|"
 msgid "Remove"
-msgstr "ลบ"
+msgstr "นำออก"
 
 #: src/application/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
@@ -208,22 +210,22 @@ msgstr "ตั้งเป็นค่าเริ่มต้น"
 #: src/application/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
 msgid "No Default"
-msgstr "รีเซตค่าเริ่มต้น"
+msgstr "ไม่มีค่าเริ่มต้น"
 
 #: src/application/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
-msgstr "อัพโหลดสกิน"
+msgstr "อัปโหลดสกิน"
 
 #: src/application/pages/global/AccountListPage.ui:77
 msgctxt "AccountListPage|"
 msgid "Delete Skin"
-msgstr ""
+msgstr "ลบสกิน"
 
 #: src/application/pages/global/AccountListPage.ui:80
 msgctxt "AccountListPage|"
 msgid "Delete the currently active skin and go back to the default one"
-msgstr ""
+msgstr "ลบสกินที่ใช้งานอยู่ในปัจจุบันและกลับไปใช้สกินเริ่มต้น"
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -234,34 +236,34 @@ msgstr "บัญชี"
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "ยินดีต้อนรับ\n"
-"ถ้าคุณเป็นผู้ใช้ใหม่กดปุ่ม \"เพิ่ม\" เพื่อเพิ่มบัญชี Mojang หรือ บัญชี Minecraft ของคุณ"
+msgstr "ยินดีต้อนรับ!\n"
+"ถ้าคุณเป็นผู้ใช้ใหม่กดปุ่ม \"เพิ่ม\" เพื่อเพิ่มบัญชี Mojang หรือบัญชี Minecraft"
 
 #: src/application/pages/global/AccountListPage.cpp:79
 msgctxt "AccountListPage|"
 msgid "Context menu"
-msgstr "เนื้อหารายการ"
+msgstr "เมนูเนื้อหา"
 
 #: src/application/pages/global/AccountListPage.cpp:108
 msgctxt "AccountListPage|"
 msgid "Please enter your Minecraft account email and password to add your account."
-msgstr "กรุณาใส่ อีเมล์ และ รหัสผ่าน Minecraft ของคุณเพื่อเพิ่มบัญชี"
+msgstr "กรุณาป้อนอีเมลและรหัสผ่าน Minecraft เพื่อเพิ่มบัญชี"
 
 #: src/application/pages/global/AccountListPage.cpp:209
 #: src/application/pages/global/AccountListPage.cpp:214
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
-msgstr ""
+msgstr "ลบสกิน"
 
 #: src/application/pages/global/AccountListPage.cpp:209
 msgctxt "AccountListPage|"
 msgid "Failed to login!"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการเข้าสู่ระบบ!"
 
 #: src/application/pages/global/AccountListPage.cpp:214
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการลบสกินปัจจุบัน!"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -271,7 +273,7 @@ msgstr "การวิเคราะห์สถิติ"
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
 msgid "We track some anonymous statistics about users."
-msgstr "พวกเราเก็บข้อมูลไม่ระบุตัวตนเกี่ยวกับผู้ใช้"
+msgstr "เราทำการเก็บข้อมูลโดยไม่ระบุตัวตนผู้ใช้"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
@@ -806,12 +808,12 @@ msgstr ""
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
-msgstr "กำลังโหลดรายละเอียดของเวอร์ชั่น..."
+msgstr "กำลังโหลดรายละเอียดของเวอร์ชัน..."
 
 #: src/api/logic/updater/DownloadTask.cpp:81
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr "ไม่สามารถดาวน์โหลดรายละเอียดของเวอร์ชั่น."
+msgstr "เกิดข้อผิดพลาดในการดาวน์โหลดรายละเอียดของเวอร์ชัน"
 
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
@@ -937,7 +939,7 @@ msgstr "การคัดลอกอินสแตนซ์ถูกยกเ
 #, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "สร้างอินสแตนซ์จากเวอร์ชั่น %1"
+msgstr "สร้างอินสแตนซ์จากเวอร์ชัน %1"
 
 #: src/api/logic/InstanceImportTask.cpp:50
 #, qt-format
@@ -1219,7 +1221,7 @@ msgstr ""
 #: src/application/pages/instance/InstanceSettingsPage.cpp:247
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
-msgstr "เลือกเวอร์ชั่นของจาวา"
+msgstr "เลือกเวอร์ชันของจาวา"
 
 #: src/application/pages/instance/InstanceSettingsPage.cpp:265
 msgctxt "InstanceSettingsPage|"
@@ -1362,7 +1364,7 @@ msgstr "จาวา"
 #: src/application/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
-msgstr "เลือกเวอร์ชั่นของจาวา"
+msgstr "เลือกเวอร์ชันของจาวา"
 
 #: src/application/pages/global/JavaPage.cpp:120
 msgctxt "JavaPage|"
@@ -2487,7 +2489,7 @@ msgstr "ชื่อ"
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Version"
-msgstr "เวอร์ชั่น"
+msgstr "เวอร์ชัน"
 
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
@@ -4605,12 +4607,12 @@ msgstr ""
 #: src/application/pages/instance/VersionPage.h:38
 msgctxt "VersionPage|"
 msgid "Version"
-msgstr "เวอร์ชั่น"
+msgstr "เวอร์ชัน"
 
 #: src/application/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
 msgid "Version"
-msgstr "เวอร์ชั่น"
+msgstr "เวอร์ชัน"
 
 #: src/application/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
