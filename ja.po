@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2021-06-28 14:29\n"
+"PO-Revision-Date: 2021-07-24 03:15\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -323,12 +323,12 @@ msgstr "assetsのダウンロードに失敗しました! :\n"
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
 msgctxt "Atl::FilterModel|"
 msgid "Sort by popularity"
-msgstr "人気順で並び替え"
+msgstr "人気順"
 
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
 msgctxt "Atl::FilterModel|"
 msgid "Sort by name"
-msgstr "名前順で並び替え"
+msgstr "名前順"
 
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
 msgctxt "Atl::FilterModel|"
@@ -338,7 +338,7 @@ msgstr "ゲームバージョン順で並び替え"
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr ""
+msgstr "警告：これはまだ開発中の機能です。インポートしたmodpackで問題が発生した場合、バグの可能性があります。"
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
 msgctxt "AtlPage|"
@@ -348,12 +348,12 @@ msgstr ""
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:71
 msgctxt "AtlPage|"
 msgid "Reset"
-msgstr ""
+msgstr "リセット"
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:78
 msgctxt "AtlPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "検索..."
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.h:43
 msgctxt "AtlPage|"
@@ -476,7 +476,7 @@ msgstr "Pre-launch コマンド:"
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "Wrapperのコマンド："
+msgstr "Wrapper コマンド："
 
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
@@ -1095,7 +1095,7 @@ msgstr "自動検出..."
 #: src/application/pages/instance/InstanceSettingsPage.ui:77
 msgctxt "InstanceSettingsPage|"
 msgid "Browse..."
-msgstr "ブラウザで開く..."
+msgstr "参照..."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:84
 msgctxt "InstanceSettingsPage|"
@@ -1205,12 +1205,12 @@ msgstr ""
 #: src/application/pages/instance/InstanceSettingsPage.ui:390
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of GLFW"
-msgstr ""
+msgstr "システムにインストールされたGLFWを使用"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:397
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of OpenAL"
-msgstr ""
+msgstr "システムにインストールされたOpenALを使用"
 
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
@@ -2238,17 +2238,17 @@ msgstr "選択したインスタンスのグループを変更します。"
 #: src/application/MainWindow.cpp:525
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
-msgstr "Minecraftのフォルダー"
+msgstr "Minecraft フォルダー"
 
 #: src/application/MainWindow.cpp:526
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
-msgstr "ファイルブラウザで選択したインスタンスのルートフォルダを開きます。"
+msgstr "ファイルブラウザで選択したインスタンスの.minecraftフォルダを開きます。"
 
 #: src/application/MainWindow.cpp:532
 msgctxt "MainWindow|"
 msgid "Config Folder"
-msgstr "Configのフォルダ"
+msgstr "Config フォルダ"
 
 #: src/application/MainWindow.cpp:533
 msgctxt "MainWindow|"
@@ -2341,7 +2341,7 @@ msgstr "アカウントが追加されていません!"
 #: src/application/MainWindow.cpp:1063
 msgctxt "MainWindow|"
 msgid "No Default Account"
-msgstr "デフォルトアカウントがありません"
+msgstr "デフォルトアカウントなし"
 
 #: src/application/MainWindow.cpp:1171
 msgctxt "MainWindow|"
@@ -2459,12 +2459,12 @@ msgstr ""
 #: src/application/pages/global/MinecraftPage.ui:123
 msgctxt "MinecraftPage|"
 msgid "Use system installation of GLFW"
-msgstr ""
+msgstr "システムにインストールされたGLFWを使用"
 
 #: src/application/pages/global/MinecraftPage.ui:130
 msgctxt "MinecraftPage|"
 msgid "Use system installation of OpenAL"
-msgstr ""
+msgstr "システムにインストールされたOpenALを使用"
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -2896,7 +2896,7 @@ msgstr "[Test/INFO] 無害なメッセージ..."
 #: src/application/pages/global/MultiMCPage.cpp:447
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr "[Something/WARN] なんか不気味だそうな警告です。"
+msgstr "[Something/WARN] それほど不気味ではない警告"
 
 #: src/api/logic/net/NetJob.cpp:128
 #, qt-format
@@ -3573,7 +3573,7 @@ msgstr "JVM引数の警告"
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr ""
+msgstr "Javaのテストに成功しました！<br />プラットフォーム: %1<br />Javaバージョン: %2<br />Javaベンダー: %3<br />"
 
 #: src/application/JavaCommon.cpp:33
 #, qt-format
@@ -3622,7 +3622,7 @@ msgstr "指定されたJavaバイナリは予期しない結果を返しまし�
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Javaのテストに成功しました<br />プラットフォーム情報: %1<br />Javaバージョン情報: %2<br />"
+msgstr "Javaのテストに成功しました！<br />プラットフォーム: %1<br />Javaバージョン: %2<br />"
 
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
