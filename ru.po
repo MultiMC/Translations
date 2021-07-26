@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2021-07-26 05:34\n"
+"PO-Revision-Date: 2021-07-26 05:45\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -892,7 +892,7 @@ msgstr "Обзор"
 #: src/application/pages/modplatform/ImportPage.ui:31
 msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
-msgstr "Выберите файл, нажав на кнопку «Обзор» или вставьте прямую ссылку на загрузку:"
+msgstr "Путь до файла или ссылка для загрузки:"
 
 #: src/application/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
@@ -946,13 +946,13 @@ msgstr "Создание сборки на основе версии %1"
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
 "%1"
-msgstr "Загрузка готовой сборки:\n"
+msgstr "Получение сборки:\n"
 "%1"
 
 #: src/api/logic/InstanceImportTask.cpp:56
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr "Загрузка модпака"
+msgstr "Получение сборки"
 
 #: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
@@ -1022,7 +1022,7 @@ msgstr "Не удалось отобразить рекомендуемую ве
 #: src/api/logic/InstanceImportTask.cpp:327
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
-msgstr "Скачать мод"
+msgstr "Получение мода"
 
 #: src/api/logic/InstanceImportTask.cpp:343
 #, qt-format
@@ -1034,7 +1034,7 @@ msgstr "Этой 'Папке' возможно нужна распаковка: 
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr "Вложенность модпака в модпак не реализована, ничего не скачано: %1"
+msgstr "Вложение сборки в сборку не реализовано, ничего не было получено: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:360
 #, qt-format
@@ -1045,7 +1045,7 @@ msgstr "Нераспознанный/необработанный PackageType д
 #: src/api/logic/InstanceImportTask.cpp:380
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr "Загрузка модов..."
+msgstr "Получение модов..."
 
 #: src/api/logic/InstanceImportTask.cpp:387
 msgctxt "InstanceImportTask|"
@@ -1648,7 +1648,7 @@ msgstr "Сторонние сборки"
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr "Не удалось загрузить некоторые списки модпаков: %1"
+msgstr "Не удалось получить некоторые списки сборок: %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
 #, qt-format
@@ -2371,7 +2371,7 @@ msgstr "Ошибка"
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
-msgstr "Не удалось создать папку для загрузки обновлений:\n"
+msgstr "Не удалось создать папку для получения обновлений:\n"
 "%1"
 
 #: src/api/logic/meta/Index.cpp:71
@@ -3413,7 +3413,7 @@ msgstr "Не удалось обработать файл версии %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "Скачиваем %1 файла(ов) обновления"
+msgstr "Получение метафайла файла: %1"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
@@ -3845,7 +3845,7 @@ msgstr "Рес&урс-пак"
 #: src/application/pages/instance/ServersPage.ui:109
 msgctxt "ServersPage|"
 msgid "Ask to download"
-msgstr "Спросить перед загрузкой"
+msgstr "Спрашивать"
 
 #: src/application/pages/instance/ServersPage.ui:114
 msgctxt "ServersPage|"
