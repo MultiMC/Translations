@@ -13,12 +13,12 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2021-06-11 18:57\n"
+"PO-Revision-Date: 2021-07-27 02:46\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Не удалось понять манифест набора данных:\n"
+msgstr "Невозможно разобрать манифест сборки:\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:76
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:82
@@ -40,12 +40,12 @@ msgstr "Неизвестный или неподдерживаемый тип з
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:367
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading configs..."
-msgstr "Загрузка настроек..."
+msgstr "Получение настроек..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:368
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Config download"
-msgstr "Загрузка настроек"
+msgstr "Получение настроек"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:400
 msgctxt "ATLauncher::PackInstallTask|"
@@ -56,17 +56,17 @@ msgstr "Извлечение настроек..."
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to open pack configs %1!"
-msgstr "Не удалось открыть настройки мод-пака %1!"
+msgstr "Не удалось открыть настройки сборки %1!"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:426
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading mods..."
-msgstr "Загрузка модов..."
+msgstr "Получение модов..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:429
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Mod download"
-msgstr "Скачать мод"
+msgstr "Получение мода"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:440
 msgctxt "ATLauncher::PackInstallTask|"
@@ -81,17 +81,17 @@ msgstr "Неизвестный тип загрузки: "
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:545
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr "Не удалось извлечь моды..."
+msgstr "Не удалось распаковать моды..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr "Извлечение модов..."
+msgstr "Распаковка модов..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:618
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Установка мод-пака"
+msgstr "Установка сборки"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:655
 msgctxt "ATLauncher::PackInstallTask|"
@@ -195,12 +195,12 @@ msgstr "<p>Мы сохраняем MultiMC с открытым исходным 
 #: src/application/pages/global/AccountListPage.ui:49
 msgctxt "AccountListPage|"
 msgid "Add"
-msgstr "Добавить аккаунт"
+msgstr "Добавить"
 
 #: src/application/pages/global/AccountListPage.ui:54
 msgctxt "AccountListPage|"
 msgid "Remove"
-msgstr "Удалить аккаунт"
+msgstr "Убрать"
 
 #: src/application/pages/global/AccountListPage.ui:59
 msgctxt "AccountListPage|"
@@ -225,7 +225,7 @@ msgstr "Удалить скин"
 #: src/application/pages/global/AccountListPage.ui:80
 msgctxt "AccountListPage|"
 msgid "Delete the currently active skin and go back to the default one"
-msgstr "Удалить текущий активный скин и вернуться к стандартному скину"
+msgstr "Удалить текущий скин и вернуться к стандартному"
 
 #: src/application/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -325,27 +325,27 @@ msgstr "Не удалось загрузить ресурсы:\n"
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
 msgctxt "Atl::FilterModel|"
 msgid "Sort by popularity"
-msgstr "Сортировать по популярности"
+msgstr "Упорядочить по популярности"
 
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
 msgctxt "Atl::FilterModel|"
 msgid "Sort by name"
-msgstr "Сортировка по названию"
+msgstr "Упорядочить по названию"
 
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
 msgctxt "Atl::FilterModel|"
 msgid "Sort by game version"
-msgstr "Сортировка по версии игры"
+msgstr "Упорядочить по версии игры"
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr "Предупреждение: Это всё ещё в разработке. Если вы столкнулись с проблемами с импортированным модпаком, это может быть багом."
+msgstr "Предупреждение: Это всё ещё в разработке. Если вы столкнулись с проблемами с импортированной сборкой, это может быть багом."
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
 msgctxt "AtlPage|"
 msgid "Version selected:"
-msgstr "Выбранная версия:"
+msgstr "Версия:"
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:71
 msgctxt "AtlPage|"
@@ -458,7 +458,7 @@ msgstr "Перенести время игры"
 #: src/application/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
-msgstr "без группы"
+msgstr "Без группы"
 
 #: src/application/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -709,7 +709,7 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr "Не удалось загрузить следующие файлы:\n"
+msgstr "Не удалось получить следующие файлы:\n"
 "%1\n\n"
 "Причина:%2\n"
 "Пожалуйста, попробуйте еще раз."
@@ -732,22 +732,22 @@ msgstr "Не удалось создать папку для файлов minecr
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:13
 msgctxt "Ftb::FilterModel|"
 msgid "Sort by plays"
-msgstr ""
+msgstr "Упорядочить по запускам"
 
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:14
 msgctxt "Ftb::FilterModel|"
 msgid "Sort by installs"
-msgstr "Сортировать по установкам"
+msgstr "Упорядочить по установкам"
 
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:15
 msgctxt "Ftb::FilterModel|"
 msgid "Sort by name"
-msgstr "Сортировать по имени"
+msgstr "Упорядочить по названию"
 
 #: src/application/pages/modplatform/ftb/FtbPage.ui:22
 msgctxt "FtbPage|"
 msgid "Version selected:"
-msgstr "Выбранная версия:"
+msgstr "Версия:"
 
 #: src/application/pages/modplatform/ftb/FtbPage.ui:40
 msgctxt "FtbPage|"
@@ -798,22 +798,22 @@ msgstr "Наблюдатель"
 #, qt-format
 msgctxt "GameType|"
 msgid "Unknown (%1)"
-msgstr ""
+msgstr "Неизвестный (%1)"
 
 #: src/api/logic/minecraft/World.cpp:82
 msgctxt "GameType|"
 msgid "Undefined"
-msgstr "Не определено"
+msgstr "Неопределённый"
 
 #: src/api/logic/updater/DownloadTask.cpp:44
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
-msgstr "Загрузка информации о версии..."
+msgstr "Получение информации о версии..."
 
 #: src/api/logic/updater/DownloadTask.cpp:81
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr "Не удалось загрузить файлы информации о версии."
+msgstr "Не удалось получить файлы информации о версии."
 
 #: src/api/logic/updater/DownloadTask.cpp:89
 msgctxt "GoUpdate::DownloadTask|"
@@ -828,7 +828,7 @@ msgstr "Чтение списка файлов для текущей верси�
 #: src/api/logic/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr "Обработка списков файлов - выясняем способ установки обновления..."
+msgstr "Обработка списков файлов - вычисляем способ установки обновления..."
 
 #: src/api/logic/updater/DownloadTask.cpp:125
 msgctxt "GoUpdate::DownloadTask|"
@@ -838,19 +838,19 @@ msgstr "Не удалось обработать список обновлени
 #: src/api/logic/updater/DownloadTask.cpp:136
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr "Загрузка файла обновления."
+msgstr "Получение файла обновления."
 
 #: src/api/logic/updater/DownloadTask.cpp:140
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Загрузка %1 файла(ов) обновления."
+msgstr "Получение %1 файла(ов) обновления."
 
 #: src/api/logic/updater/DownloadTask.cpp:155
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "Не удалось загрузить файлы обновления: %1"
+msgstr "Не удалось получить файлы обновления: %1"
 
 #: src/application/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -892,7 +892,7 @@ msgstr "Обзор"
 #: src/application/pages/modplatform/ImportPage.ui:31
 msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
-msgstr "Выберите файл, нажав на кнопку «Обзор» или вставьте прямую ссылку на загрузку:"
+msgstr "Путь до файла или ссылка для загрузки:"
 
 #: src/application/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
@@ -946,18 +946,18 @@ msgstr "Создание сборки на основе версии %1"
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
 "%1"
-msgstr "Загрузка готовой сборки:\n"
+msgstr "Получение сборки:\n"
 "%1"
 
 #: src/api/logic/InstanceImportTask.cpp:56
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr "Загрузка модпака"
+msgstr "Получение сборки"
 
 #: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr "Извлечение готовой сборки"
+msgstr "Распаковка сборки"
 
 #: src/api/logic/InstanceImportTask.cpp:94
 msgctxt "InstanceImportTask|"
@@ -973,7 +973,7 @@ msgstr "Файл архива не содержит instance.cfg."
 #: src/api/logic/InstanceImportTask.cpp:143
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr "Не удалось извлечь готовую сборку"
+msgstr "Не удалось распаковать сборку"
 
 #: src/api/logic/InstanceImportTask.cpp:170
 #, qt-format
@@ -989,7 +989,7 @@ msgstr "Импорт сборки был отменён."
 #: src/api/logic/InstanceImportTask.cpp:219
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Не удалось понять manifest pack:\n"
+msgstr "Невозможно разобрать манифест сборки:\n"
 
 #: src/api/logic/InstanceImportTask.cpp:230
 msgctxt "InstanceImportTask|"
@@ -1022,19 +1022,19 @@ msgstr "Не удалось отобразить рекомендуемую ве
 #: src/api/logic/InstanceImportTask.cpp:327
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
-msgstr "Скачать мод"
+msgstr "Получение мода"
 
 #: src/api/logic/InstanceImportTask.cpp:343
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
-msgstr "Возможно, потребуется извлечь эту папку: %1"
+msgstr "Этой 'Папке' возможно нужна распаковка: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:355
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr "Вложенность модпака в модпак не реализована, ничего не скачано: %1"
+msgstr "Вложение сборки в сборку не реализовано, ничего не было получено: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:360
 #, qt-format
@@ -1045,7 +1045,7 @@ msgstr "Нераспознанный/необработанный PackageType д
 #: src/api/logic/InstanceImportTask.cpp:380
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr "Загрузка модов..."
+msgstr "Получение модов..."
 
 #: src/api/logic/InstanceImportTask.cpp:387
 msgctxt "InstanceImportTask|"
@@ -1107,7 +1107,7 @@ msgstr "Проверка"
 #: src/application/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
-msgstr "Настройки памяти"
+msgstr "Память"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
@@ -1157,7 +1157,7 @@ msgstr "Настройка окна игры"
 #: src/application/pages/instance/InstanceSettingsPage.ui:249
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
-msgstr "Запускать Minecraft в полноэкранном режиме"
+msgstr "Запускать Minecraft в полноэкранном режиме?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:258
 msgctxt "InstanceSettingsPage|"
@@ -1177,7 +1177,7 @@ msgstr "Настройки консоли"
 #: src/application/pages/instance/InstanceSettingsPage.ui:321
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
-msgstr "Показывать окно консоли во время игры"
+msgstr "Показывать окно консоли во время игры?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:328
 msgctxt "InstanceSettingsPage|"
@@ -1187,7 +1187,7 @@ msgstr "Автоматически закрывать консоль при вы
 #: src/application/pages/instance/InstanceSettingsPage.ui:335
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr "Показать окно консоли после вылета игры"
+msgstr "Показать окно консоли при вылете игры?"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:359
 msgctxt "InstanceSettingsPage|"
@@ -1197,22 +1197,22 @@ msgstr "Пользовательские команды"
 #: src/application/pages/instance/InstanceSettingsPage.ui:369
 msgctxt "InstanceSettingsPage|"
 msgid "Workarounds"
-msgstr "Обходные пути"
+msgstr "Альтернативы"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:378
 msgctxt "InstanceSettingsPage|"
 msgid "Native libraries"
-msgstr "Собственные библиотеки"
+msgstr "Нативные библиотеки"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:390
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of GLFW"
-msgstr "Использовать системную установку GLFW"
+msgstr "Использовать установленную в системе GLFW"
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:397
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of OpenAL"
-msgstr "Использовать системную установку OpenAL"
+msgstr "Использовать установленную в системе OpenAL"
 
 #: src/application/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
@@ -1648,7 +1648,7 @@ msgstr "Сторонние сборки"
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr "Не удалось загрузить некоторые списки модпаков: %1"
+msgstr "Не удалось получить некоторые списки сборок: %1"
 
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:31
 #, qt-format
@@ -2371,7 +2371,7 @@ msgstr "Ошибка"
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
-msgstr "Не удалось создать папку для загрузки обновлений:\n"
+msgstr "Не удалось создать папку для получения обновлений:\n"
 "%1"
 
 #: src/api/logic/meta/Index.cpp:71
@@ -2447,7 +2447,7 @@ msgstr "Размер окна"
 #: src/application/pages/global/MinecraftPage.ui:54
 msgctxt "MinecraftPage|"
 msgid "Start Minecraft maximized?"
-msgstr "Запускать Minecraft в полноэкранном режиме"
+msgstr "Запускать Minecraft в полноэкранном режиме?"
 
 #: src/application/pages/global/MinecraftPage.ui:63
 msgctxt "MinecraftPage|"
@@ -2462,17 +2462,17 @@ msgstr "Ширина &окна:"
 #: src/application/pages/global/MinecraftPage.ui:117
 msgctxt "MinecraftPage|"
 msgid "Native library workarounds"
-msgstr ""
+msgstr "Альтернативные нативные библиотеки"
 
 #: src/application/pages/global/MinecraftPage.ui:123
 msgctxt "MinecraftPage|"
 msgid "Use system installation of GLFW"
-msgstr "Использовать системную установку GLFW"
+msgstr "Использовать установленную в системе GLFW"
 
 #: src/application/pages/global/MinecraftPage.ui:130
 msgctxt "MinecraftPage|"
 msgid "Use system installation of OpenAL"
-msgstr "Использовать системную установку OpenAL"
+msgstr "Использовать установленную в системе OpenAL"
 
 #: src/application/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -2624,32 +2624,32 @@ msgstr "Не удалось создать пользовательский jar-
 #: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:74
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Невозможно разобрать манифест сборки:\n"
 
 #: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:90
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Downloading mods..."
-msgstr "Загрузка модов..."
+msgstr "Получение модов..."
 
 #: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:92
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
-msgstr "Скачать мод"
+msgstr "Получение мода"
 
 #: src/api/logic/modplatform/modpacksch/FTBPackInstallTask.cpp:129
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Установка мод-пака"
+msgstr "Установка сборки"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:227
 msgctxt "MojangAccountList|"
 msgid "Active?"
-msgstr "Активная"
+msgstr "Активная?"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:230
 msgctxt "MojangAccountList|"
 msgid "Name"
-msgstr "Название или адрес эл. почты"
+msgstr "Имя или адрес эл. почты"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:240
 msgctxt "MojangAccountList|"
@@ -2794,7 +2794,7 @@ msgstr "Настройки консоли"
 #: src/application/pages/global/MultiMCPage.ui:360
 msgctxt "MultiMCPage|"
 msgid "Show console while the game is running?"
-msgstr "Показывать окно консоли во время игры"
+msgstr "Показывать окно консоли во время игры?"
 
 #: src/application/pages/global/MultiMCPage.ui:367
 msgctxt "MultiMCPage|"
@@ -2804,17 +2804,17 @@ msgstr "Автоматически закрывать консоль при вы
 #: src/application/pages/global/MultiMCPage.ui:374
 msgctxt "MultiMCPage|"
 msgid "Show console when the game crashes?"
-msgstr "Показать окно консоли после вылета игры"
+msgstr "Показать окно консоли при вылете игры?"
 
 #: src/application/pages/global/MultiMCPage.ui:384
 msgctxt "MultiMCPage|"
 msgid "History limit"
-msgstr "Лимит журнала"
+msgstr "Предел журнала"
 
 #: src/application/pages/global/MultiMCPage.ui:390
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
-msgstr "Прекратить запись журнала при его переполнении"
+msgstr "Прекратить запись в журнал при его переполнении"
 
 #: src/application/pages/global/MultiMCPage.ui:403
 msgctxt "MultiMCPage|"
@@ -2839,7 +2839,7 @@ msgstr "Настройка статистики"
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr "Анонимно отправлять статистику использования"
+msgstr "Анонимно отправлять статистику использования?"
 
 #: src/application/pages/global/MultiMCPage.ui:509
 msgctxt "MultiMCPage|"
@@ -2856,12 +2856,12 @@ msgid "<html><head/>\n"
 "</body></html>"
 msgstr "<html><head/>\n"
 "<body>\n"
-"<p>При включенном параметре MultiMC будет анонимно отправлять статистику использования при каждом старте.</p><p>Собираемые данные:</p>\n"
+"<p>MultiMC будет анонимно отправлять статистику использования при каждом запуске приложения.</p><p>Собираемые:</p>\n"
 "<ul>\n"
 "<li>Версия MultiMC.</li>\n"
-"<li>Имя, версия и архитектура операционной системы.</li>\n"
+"<li>Название, версия и архитектура операционной системы.</li>\n"
 "<li>Архитектура CPU (архитектура ядра для linux).</li>\n"
-"<li>Размер памяти системы.</li>\n"
+"<li>Размер памяти в системе.</li>\n"
 "<li>Версия, архитектура и настройки памяти Java.</li>\n"
 "</ul>\n"
 "</body></html>"
@@ -2948,7 +2948,7 @@ msgstr "&Название:"
 #: src/application/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
-msgstr "без группы"
+msgstr "Без группы"
 
 #: src/api/logic/news/NewsChecker.cpp:97
 #, qt-format
@@ -3153,12 +3153,12 @@ msgstr "&Ваш собственный ключ - лимит загрузки 12
 #: src/application/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
-msgstr "Вставьте свой API-ключ сюда"
+msgstr "Вставьте ваш API-ключ сюда!"
 
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p>MultiMC использует <a href=\"https://paste.ee\">paste.ee</a> для загрузки логов. Если у вас есть аккаунт на <a href=\"https://paste.ee\">paste.ee</a>, вы можете добавить свой API-ключ здесь и получить доступ к журналам прямо из лаунчера.</p></body></html>"
+msgstr "<html><head/><body><p>MultiMC использует <a href=\"https://paste.ee\">paste.ee</a> для загрузки журналов. Если у вас есть учётная запись на <a href=\"https://paste.ee\">paste.ee</a>, вы можете добавить свой API-ключ здесь и журналы будут привязаны к вашей учётной записи.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3313,7 +3313,7 @@ msgstr "Пароль:"
 #: src/application/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside MultiMC's configuration file!"
-msgstr "Обратите внимание, что данные прокси-сервера, включая логин и пароль, хранятся в незащищённом виде внутри файла конфигурации MultiMC."
+msgstr "Внимание: адрес прокси-сервера и пароль хранятся в незащищенном виде внутри файла конфигурации MultiMC!"
 
 #: src/application/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3351,7 +3351,7 @@ msgstr "В версии файла имеется '+libraries' и 'libraries'. �
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:203
 msgctxt "QObject|"
 msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr ""
+msgstr "URL до main jar не может быть определен - Mojang убрала сервер, который мы использовали как запасной."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:236
 msgctxt "QObject|"
@@ -3413,7 +3413,7 @@ msgstr "Не удалось обработать файл версии %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "Скачиваем %1 файла(ов) обновления"
+msgstr "Получение метафайла: %1"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
@@ -3590,7 +3590,7 @@ msgstr "Предупреждение для JVM аргументов"
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr ""
+msgstr "Проверка Java прошла успешно!<br />Платформа: %1<br />Версия Java: %2<br />Поставщик Java: %3<br />"
 
 #: src/application/JavaCommon.cpp:33
 #, qt-format
@@ -4006,27 +4006,28 @@ msgstr "Не удалось загрузить JSON статус:\n"
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Downloading modpack:\n"
 "%1"
-msgstr ""
+msgstr "Получение сборки:\n"
+"%1"
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:38
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Modpack download"
-msgstr "Загрузка модпака"
+msgstr "Получение сборки"
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:50
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Extracting modpack"
-msgstr "Распаковка мод-пака"
+msgstr "Распаковка сборки"
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:58
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr ""
+msgstr "Не удалось открыть zip-файл сборки."
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:84
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Failed to extract modpack"
-msgstr ""
+msgstr "Не удалось распаковать сборку"
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:111
 #, qt-format
@@ -4037,109 +4038,112 @@ msgstr "Не удалось исправить разрешения для %1"
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:128
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Импорт сборки был отменён."
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:32
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Finding recommended version:\n"
 "%1"
-msgstr ""
+msgstr "Поиск рекомендованной версии:\n"
+"%1"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:33
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Finding recommended version"
-msgstr ""
+msgstr "Поиск рекомендованной версии"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:57
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Resolving modpack files:\n"
 "%1"
-msgstr ""
+msgstr "Получение файлов сборки:\n"
+"%1"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:58
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Resolving modpack files"
-msgstr ""
+msgstr "Получение файлов сборки"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:68
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Downloading modpack:"
-msgstr "Загрузка мод-пака:"
+msgstr "Получение сборки:"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:90
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Downloading modpack"
-msgstr "Загрузка мод-пака"
+msgstr "Получение сборки"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:109
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Extracting modpack"
-msgstr "Распаковка мод-пака"
+msgstr "Распаковка сборки"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:148
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Failed to extract modpack"
-msgstr "Не удалось извлечь готовую сборку"
+msgstr "Не удалось распаковать сборку"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:175
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not fix permissions for %1"
-msgstr ""
+msgstr "Не удалось исправить разрешения для %1"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:192
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Импорт сборки был отменён."
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:58
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"bin/modpack.jar\" file!"
-msgstr ""
+msgstr "Не удалось открыть файл \"bin/modpack.jar\"!"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:70
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"fmlversion.properties\"!"
-msgstr ""
+msgstr "Не удалось открыть \"fmlversion.properties\"!"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:84
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:139
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"version.json\"!"
-msgstr ""
+msgstr "Не удалось открыть \"version.json\"!"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:93
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
-msgstr ""
+msgstr "Не удалось найти \"version.json\" внутри \"bin/modpack.jar\", но версия minecraft неизвестна"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:107
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"forgeversion.properties\""
-msgstr ""
+msgstr "Не удалось открыть \"forgeversion.properties\""
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:122
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Invalid \"forgeversion.properties\"!"
-msgstr ""
+msgstr "Неправильный \"forgeversion.properties\"!"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:148
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to find a \"version.json\"!"
-msgstr ""
+msgstr "Не удалось найти \"version.json\"!"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:161
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
 "inheritsFrom is missing"
-msgstr ""
+msgstr "Невозможно разобрать \"version.json\":\n"
+"inheritsFrom отсутствует"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:202
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
-msgstr ""
+msgstr "Невозможно разобрать \"version.json\":\n"
 
 #: src/application/pages/modplatform/technic/TechnicPage.ui:35
 msgctxt "TechnicPage|"
@@ -4275,7 +4279,7 @@ msgstr "Проверка ключа доступа: Обработка отве�
 #: src/application/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
 msgid "Filter"
-msgstr "Показывать"
+msgstr "Фильтр"
 
 #: src/application/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
@@ -4295,12 +4299,12 @@ msgstr "Старые снапшоты"
 #: src/application/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
 msgid "Betas"
-msgstr "Беты"
+msgstr "Бета"
 
 #: src/application/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr "Альфы"
+msgstr "Альфа"
 
 #: src/application/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
@@ -4480,7 +4484,7 @@ msgstr "Скачать всё"
 #: src/application/pages/instance/VersionPage.ui:227
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
-msgstr "Загрузить файлы, необходимые для запуска"
+msgstr "Сразу получить файлы, необходимые для запуска."
 
 #: src/application/pages/instance/VersionPage.ui:232
 msgctxt "VersionPage|"
@@ -4578,12 +4582,12 @@ msgstr "Изменить версию %1"
 #: src/application/pages/instance/VersionPage.cpp:360
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
-msgstr ""
+msgstr "В настоящее время нет доступных версий intermediary mappings."
 
 #: src/application/pages/instance/VersionPage.cpp:361
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
-msgstr ""
+msgstr "Не удалось получить или загрузить список версий intermediary mappings!"
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
@@ -4605,7 +4609,7 @@ msgstr "В данный момент нет доступных версий Forg
 #: src/application/pages/instance/VersionPage.cpp:418
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
-msgstr "Не удалось загрузить список версий Forge!"
+msgstr "Не удалось получить список версий Forge!"
 
 #: src/application/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
@@ -4620,7 +4624,7 @@ msgstr "Нет доступных версий загрузчика Fabric"
 #: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "Не удалось загрузить список версий загрузчика Fabric!"
+msgstr "Не удалось получить список версий Fabric!"
 
 #: src/application/pages/instance/VersionPage.cpp:489
 msgctxt "VersionPage|"
@@ -4635,7 +4639,7 @@ msgstr "В данный момент нет доступных версий Lite
 #: src/application/pages/instance/VersionPage.cpp:492
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
-msgstr "Не удалось загрузить список версий LiteLoader!"
+msgstr "Не удалось получить список версий LiteLoader!"
 
 #: src/application/pages/instance/VersionPage.cpp:548
 msgctxt "VersionPage|"
@@ -4845,7 +4849,7 @@ msgstr "Сбросить иконку"
 #: src/application/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
 msgid "Remove world icon to make the game re-generate it on next load."
-msgstr "Удалите иконку мира, чтобы игра пересоздала её при следующей загрузке."
+msgstr "Удалить иконку мира, чтобы игра пересоздала её при следующем запуске."
 
 #: src/application/pages/instance/WorldListPage.ui:145
 msgctxt "WorldListPage|"
@@ -4956,7 +4960,7 @@ msgstr "Операция авторизации отменена."
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr "<b>Ошибка подтверждения SSL</b><br/>Может быть несколько причин для этого:<br/><ul><li>Вы пользуетесь Windows XP и нужно <a href=\"http://www.microsoft.com/en-us/download/details.aspx?id=38918\">обновить корневые сертификаты</a></li><li>Некоторые устройства в сети мешает SSL-трафику. В этом случае, у Вас есть проблема побольше, чем ошибка запуска Minecraft.</li><li>Возможно, что-то другое. Проверьте файл журнала MultiMC для детальной информации</li></ul>"
+msgstr "<b>SSL-рукопожатие не удалось.</b><br/>У этого может быть несколько причин:<br/><ul><li>Вы используете Windows XP и нужно <a href=\"http://www.microsoft.com/en-us/download/details.aspx?id=38918\">обновить корневые сертификаты</a></li><li>Некоторые устройства в вашей сети вмешиваются в SSL-трафик. В этом случае, у Вас есть проблема побольше, чем ошибка запуска Minecraft.</li><li>Возможно, что-то другое. Проверьте файл журнала MultiMC для детальной информации</li></ul>"
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:138
 #, qt-format
