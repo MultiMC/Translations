@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2021-09-06 19:15\n"
+"PO-Revision-Date: 2021-09-06 19:27\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3388,7 +3388,7 @@ msgstr "Στοιχεία για %1"
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid order file version, expected %1"
-msgstr ""
+msgstr "Μη έγκυρη έκδοση αρχείου σειράς, αναμενόταν %1"
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:96
 #: src/api/logic/minecraft/ProfileUtils.cpp:149
@@ -3401,19 +3401,19 @@ msgstr "Αδυναμία ανοίγματος αρχείου έκδοσης %1: 
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr ""
+msgstr "Αδυναμία επεξεργασίας του αρχείου έκδοσης %1: %2 στη γραμμή %3, στήλη %4."
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:157
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1."
-msgstr ""
+msgstr "Αδυναμία επεξεργασίας αρχείου έκδοσης %1."
 
 #: src/api/logic/meta/BaseEntity.cpp:123
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr ""
+msgstr "Λήψη του μετα-αρχείου %1"
 
 #: src/api/logic/meta/JsonFormat.cpp:140 src/api/logic/meta/JsonFormat.cpp:153
 #: src/api/logic/meta/JsonFormat.cpp:166
@@ -3454,40 +3454,40 @@ msgstr "Η διαδρομή δεν φαίνεται να είναι διαδρο
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
 msgid "Dark"
-msgstr ""
+msgstr "Σκούρο"
 
 #: src/application/themes/SystemTheme.cpp:44
 msgctxt "QObject|"
 msgid "System"
-msgstr ""
+msgstr "Προεπιλογή συστήματος"
 
 #: src/application/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
-msgstr ""
+msgstr "Ανοιχτόχρωμο"
 
 #: src/application/dialogs/UpdateDialog.cpp:122
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>There are no code changes between your current version and latest %1.</p>"
-msgstr ""
+msgstr "<p>Δεν υπάρχουν αλλαγές κώδικα μεταξύ της τρέχουσας έκδοσης και της τελευταίας %1.</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:126
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
+msgstr "<p>Τα παρακάτω στοιχεία προστέθηκαν από την τελευταία ενημέρωση:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:133
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr ""
+msgstr "<p>Η ενημέρωση αφαιρεί %1 commits και προσθέτει τα ακόλουθα %2:</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:136
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
+msgstr "<p>Μπορείτε <a href=\"%1\">να δείτε τις αλλαγές στο GitHub</a>.</p>"
 
 #: src/application/dialogs/AboutDialog.cpp:31
 #: src/application/dialogs/AboutDialog.cpp:53
@@ -3508,26 +3508,28 @@ msgstr "Με ευχαριστίες σε"
 #: src/application/UpdateController.cpp:362
 msgctxt "QObject|"
 msgid "Update failed!"
-msgstr ""
+msgstr "Η ενημέρωση απέτυχε!"
 
 #: src/application/UpdateController.cpp:363
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr ""
+msgstr "Η επααφορά απέτυχε!"
 
 #: src/application/UpdateController.cpp:368
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "Αδύνατη η αντικατάσταση του αρχείου %1. Οι αλλαγές θα επαναφερθούν.\n"
+"Δείτε το αρχείο καταγραφής MultiMC για λεπτομέρειες."
 
 #: src/application/UpdateController.cpp:376
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the MultiMC log file for details."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η αφαίρεση του αρχείου %1. Θα γίνει επαναφορά των αλλαγών.\n"
+"Δείτε το αρχείο καταγραφής MultiMC για λεπτομέρειες."
 
 #: src/application/UpdateController.cpp:384
 msgctxt "QObject|"
@@ -3541,45 +3543,49 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair MultiMC manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "Η επαναφορά απέτυχε επίσης.\n"
+"Θα πρέπει να διορθώσετε το MultiMC χειροκίνητα.\n"
+"Παρακαλούμε ενημερώστε μας γιατί και πώς συνέβη αυτό."
 
 #: src/application/MainWindow.cpp:1003
 msgctxt "QObject|"
 msgid " (in use)"
-msgstr ""
+msgstr " (σε χρήση)"
 
 #: src/application/GuiUtil.cpp:29 src/application/GuiUtil.cpp:38
 msgctxt "QObject|"
 msgid "Upload failed"
-msgstr ""
+msgstr "Αποτυχία μεταφόρτωσης"
 
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr ""
+msgstr "Το αρχείο καταγραφής είναι πολύ μεγάλο. Θα πρέπει να το μεταφορτώσετε χειροκίνητα."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
 msgid "Upload finished"
-msgstr ""
+msgstr "Η μεταφόρτωση ολοκληρώθηκε"
 
 #: src/application/GuiUtil.cpp:48
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr ""
+msgstr "Ο <a href=\"%1\">σύνδεσμος για το αρχείο καταγραφής που ανεβάσατε</a> έχει τοποθετηθεί στο πρόχειρο."
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr ""
+msgstr "Προσπαθήσατε να ορίσετε χειροκίνητα μια επιλογή μνήμης JVM (χρησιμοποιώντας \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\", \"-Xmx\" ή \"-Xms\").\n"
+"Υπάρχουν ειδικά πεδία για αυτά στις ρυθμίσεις (καρτέλα Java, στην ομάδα επιλογών \"Μνήμη\" στην κορυφή).\n"
+"Αυτό το μήνυμα θα εμφανιστεί μέχρι να αφαιρέσετε την επιλογή μνήμης από τις επιλογές JVM."
 
 #: src/application/JavaCommon.cpp:15
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr ""
+msgstr "Προειδοποίηση παραμέτρων JVM"
 
 #: src/application/JavaCommon.cpp:26
 #, qt-format
@@ -3591,44 +3597,44 @@ msgstr "Εξέταση Java πέτυχε!<br />Αναφέρθηκε η πλατ�
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr ""
+msgstr "<br />Προειδοποιήσεις:<br /><font color=\"orange\">%1</font>"
 
 #: src/application/JavaCommon.cpp:35
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test success"
-msgstr ""
+msgstr "Δοκιμή Java επιτυχής"
 
 #: src/application/JavaCommon.cpp:43
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr ""
+msgstr "Το συγκεκριμένο εκτελέσιμο java δεν λειτούργησε με τις παραμέτρους που έχετε δώσει:<br />"
 
 #: src/application/JavaCommon.cpp:45 src/application/JavaCommon.cpp:54
 #: src/application/widgets/JavaSettingsWidget.cpp:318
 msgctxt "QObject|"
 msgid "Java test failure"
-msgstr ""
+msgstr "Σφάλμα δοκιμής Java"
 
 #: src/application/JavaCommon.cpp:51
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr ""
+msgstr "Το εκτελέσιμο αρχείο java δεν δούλεψε.<br />Θα πρέπει να χρησιμοποιήσετε τη λειτουργία αυτόματης ανίχνευσης, ή να ορίσετε τη διαδρομή προς το εκτελέσιμο αρχείο Java.<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:281
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr ""
+msgstr "Το καθορισμένο εκτελέσιμο είτε δεν υπάρχει είτε δεν είναι κατάλληλα εκτελέσιμο."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:286
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
+msgstr "Το συγκεκριμένο εκτελέσιμο java δεν λειτούργησε με τις παραμέτρους που έχετε δώσει:<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:298
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
+msgstr "Το συγκεκριμένο εκτελέσιμο java επέστρεψε απροσδόκητα αποτελέσματα:<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:309
 #, qt-format
@@ -3644,7 +3650,7 @@ msgstr "Διακομιστής Minecraft"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Το Append δεν υποστηρίζεται για το GZIP"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
@@ -3664,18 +3670,18 @@ msgstr "Αδυναμία ανοίγματος αρχείου gzopen()"
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "Το QIODevice::Append δεν υποστηρίζεται για QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "Το QIODevice::ReadWrite δεν υποστηρίζεται για QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "Σφάλμα του ZIP/UNZIP API %1"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
@@ -3700,37 +3706,37 @@ msgstr "Ο διακομιστής πιστοποίησης δεν καθόρισ
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:138
 msgctxt "RefreshTask|"
 msgid "Refreshing login token..."
-msgstr ""
+msgstr "Ανανέωση διακριτικού σύνδεσης..."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:140
 msgctxt "RefreshTask|"
 msgid "Refreshing login token: Processing response..."
-msgstr ""
+msgstr "Ανανέωση διακριτικού σύνδεσης: Επεξεργασία απάντησης..."
 
 #: src/application/pages/instance/ResourcePackPage.h:11
 msgctxt "ResourcePackPage|"
 msgid "Resource packs"
-msgstr ""
+msgstr "Πακέτα πόρων"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:41
 msgctxt "ScreenshotsPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Ενέργειες"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:59
 msgctxt "ScreenshotsPage|"
 msgid "Upload"
-msgstr ""
+msgstr "Μεταφόρτωση"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:64
 msgctxt "ScreenshotsPage|"
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:69
 msgctxt "ScreenshotsPage|"
 msgid "Rename"
-msgstr ""
+msgstr "Μετονομασία"
 
 #: src/application/pages/instance/ScreenshotsPage.ui:74
 msgctxt "ScreenshotsPage|"
@@ -3740,30 +3746,30 @@ msgstr "Προβολή Φακέλου"
 #: src/application/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
 msgid "Screenshots"
-msgstr ""
+msgstr "Στιγμιότυπα οθόνης"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:273
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
-msgstr ""
+msgstr "Μενού περιβάλλοντος"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:318
 #: src/application/pages/instance/ScreenshotsPage.cpp:356
 msgctxt "ScreenshotsPage|"
 msgid "Failed to upload screenshots!"
-msgstr ""
+msgstr "Απέτυχε η μεταφόρτωση των στιγμιοτύπων οθόνης!"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:319
 #: src/application/pages/instance/ScreenshotsPage.cpp:357
 msgctxt "ScreenshotsPage|"
 msgid "Unknown error"
-msgstr ""
+msgstr "Άγνωστο σφάλμα"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:328
 #: src/application/pages/instance/ScreenshotsPage.cpp:366
 msgctxt "ScreenshotsPage|"
 msgid "Upload finished"
-msgstr ""
+msgstr "Η μεταφόρτωση ολοκληρώθηκε"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:329
 #, qt-format
