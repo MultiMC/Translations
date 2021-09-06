@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2021-09-06 18:55\n"
+"PO-Revision-Date: 2021-09-06 19:06\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2809,22 +2809,22 @@ msgstr "Εμφάνιση κονσόλας όταν το παιχνίδι κατ�
 #: src/application/pages/global/MultiMCPage.ui:384
 msgctxt "MultiMCPage|"
 msgid "History limit"
-msgstr ""
+msgstr "Όριο ιστορικού"
 
 #: src/application/pages/global/MultiMCPage.ui:390
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "Παύση καταγραφής όταν η καταγραφή υπερβεί το όριο"
 
 #: src/application/pages/global/MultiMCPage.ui:403
 msgctxt "MultiMCPage|"
 msgid " lines"
-msgstr ""
+msgstr " γραμμές"
 
 #: src/application/pages/global/MultiMCPage.ui:431
 msgctxt "MultiMCPage|"
 msgid "Console font"
-msgstr ""
+msgstr "Γραμματοσειρά κονσόλας"
 
 #: src/application/pages/global/MultiMCPage.ui:483
 msgctxt "MultiMCPage|"
@@ -2839,7 +2839,7 @@ msgstr "Ρυθμίσεις στατιστικών"
 #: src/application/pages/global/MultiMCPage.ui:495
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "Αποστολή ανώνυμων στατιστικών χρήσης;"
 
 #: src/application/pages/global/MultiMCPage.ui:509
 msgctxt "MultiMCPage|"
@@ -2854,7 +2854,17 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>Το MultiMC αποστέλλει ανώνυμα στατιστικά χρήσης σε κάθε εκκίνηση της εφαρμογής.</p><p>Συλλέγονται τα ακόλουθα δεδομένα:</p>\n"
+"<ul>\n"
+"<li>Έκδοση MultiMC.</li>\n"
+"<li>Όνομα λειτουργικού συστήματος, έκδοση και αρχιτεκτονική</li>\n"
+"<li>Αρχιτεκτονική της CPU (αρχιτεκτονική πυρήνα σε linux).</li>\n"
+"<li>Μέγεθος μνήμης συστήματος.</li>\n"
+"<li>Έκδοση Java, αρχιτεκτονική και ρυθμίσεις μνήμης.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/application/pages/global/MultiMCPage.cpp:97
 msgctxt "MultiMCPage|"
@@ -2884,39 +2894,40 @@ msgstr "Φάκελος Mods"
 #: src/application/pages/global/MultiMCPage.cpp:429
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Something/ERROR] Ένα τρομακτικό σφάλμα!"
 
 #: src/application/pages/global/MultiMCPage.cpp:438
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Ένα ακίνδυνο μήνυμα..."
 
 #: src/application/pages/global/MultiMCPage.cpp:447
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Something/WARN] Μια όχι και τόσο τρομακτική προειδοποίηση."
 
 #: src/api/logic/net/NetJob.cpp:128
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "Η διεργασία '%1' απέτυχε να ολοκληρωθεί:\n"
+"%2"
 
 #: src/application/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "Προσθήκη Κενού Στοιχείου"
 
 #: src/application/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: src/application/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/application/dialogs/NewInstanceDialog.ui:17
 #: src/application/dialogs/NewInstanceDialog.cpp:143
@@ -2927,61 +2938,62 @@ msgstr "Νέα εγκατάσταση"
 #: src/application/dialogs/NewInstanceDialog.ui:39
 msgctxt "NewInstanceDialog|"
 msgid "&Group:"
-msgstr ""
+msgstr "Ομάδα:"
 
 #: src/application/dialogs/NewInstanceDialog.ui:52
 msgctxt "NewInstanceDialog|"
 msgid "&Name:"
-msgstr ""
+msgstr "Όνομα:"
 
 #: src/application/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Χωρίς ομάδα"
 
 #: src/api/logic/news/NewsChecker.cpp:97
 #, qt-format
 msgctxt "NewsChecker|"
 msgid "Failed to load news RSS feed:\n"
 "%1"
-msgstr ""
+msgstr "Αποτυχία φόρτωσης ροής RSS ειδήσεων:\n"
+"%1"
 
 #: src/api/logic/news/NewsEntry.cpp:24 src/api/logic/news/NewsEntry.cpp:60
 msgctxt "NewsEntry|"
 msgid "Untitled"
-msgstr ""
+msgstr "Χωρίς τίτλο"
 
 #: src/api/logic/news/NewsEntry.cpp:25 src/api/logic/news/NewsEntry.cpp:61
 msgctxt "NewsEntry|"
 msgid "No content."
-msgstr ""
+msgstr "Δεν υπάρχει περιεχόμενο."
 
 #: src/api/logic/news/NewsEntry.cpp:27 src/api/logic/news/NewsEntry.cpp:63
 msgctxt "NewsEntry|"
 msgid "Unknown Author"
-msgstr ""
+msgstr "Άγνωστος Συντάκτης"
 
 #: src/application/pages/instance/NotesPage.h:38
 msgctxt "NotesPage|"
 msgid "Notes"
-msgstr ""
+msgstr "Σημειώσεις"
 
 #: src/application/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
 msgid "Notification"
-msgstr ""
+msgstr "Ειδοποίηση"
 
 #: src/application/dialogs/NotificationDialog.ui:65
 #: src/application/dialogs/NotificationDialog.cpp:30
 msgctxt "NotificationDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "Να μην εμφανιστεί ξανά"
 
 #: src/application/dialogs/NotificationDialog.ui:75
 #: src/application/dialogs/NotificationDialog.cpp:31
 msgctxt "NotificationDialog|"
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 #: src/api/logic/NullInstance.h:20
 msgctxt "NullInstance|"
@@ -2991,61 +3003,61 @@ msgstr "Άγνωστος τύπος εγκατάστασης"
 #: src/application/pages/instance/OtherLogsPage.ui:42
 msgctxt "OtherLogsPage|"
 msgid "Find"
-msgstr ""
+msgstr "Εύρεση"
 
 #: src/application/pages/instance/OtherLogsPage.ui:67
 msgctxt "OtherLogsPage|"
 msgid "Copy the whole log into the clipboard"
-msgstr ""
+msgstr "Αντιγραφή oλόκληρης της καταγραφής στο πρόχειρο"
 
 #: src/application/pages/instance/OtherLogsPage.ui:70
 msgctxt "OtherLogsPage|"
 msgid "&Copy"
-msgstr ""
+msgstr "Αντιγραφή"
 
 #: src/application/pages/instance/OtherLogsPage.ui:77
 #: src/application/pages/instance/OtherLogsPage.ui:97
 msgctxt "OtherLogsPage|"
 msgid "Clear the log"
-msgstr ""
+msgstr "Καθαρισμός του αρχείου καταγραφής"
 
 #: src/application/pages/instance/OtherLogsPage.ui:80
 #: src/application/pages/instance/OtherLogsPage.cpp:196
 msgctxt "OtherLogsPage|"
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: src/application/pages/instance/OtherLogsPage.ui:87
 msgctxt "OtherLogsPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr ""
+msgstr "Μεταφορτώστε το αρχείο καταγραφής στο paste.ee - θα παραμείνει online για ένα μήνα"
 
 #: src/application/pages/instance/OtherLogsPage.ui:90
 msgctxt "OtherLogsPage|"
 msgid "Upload"
-msgstr ""
+msgstr "Μεταφόρτωση"
 
 #: src/application/pages/instance/OtherLogsPage.ui:100
 msgctxt "OtherLogsPage|"
 msgid "Clean"
-msgstr ""
+msgstr "Καθαρισμός"
 
 #: src/application/pages/instance/OtherLogsPage.ui:107
 msgctxt "OtherLogsPage|"
 msgid "Reload"
-msgstr ""
+msgstr "Επαναφόρτωση"
 
 #: src/application/pages/instance/OtherLogsPage.ui:126
 msgctxt "OtherLogsPage|"
 msgid "Search:"
-msgstr ""
+msgstr "Αναζήτηση:"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:125
 #: src/application/pages/instance/OtherLogsPage.cpp:205
 #: src/application/pages/instance/OtherLogsPage.cpp:252
 msgctxt "OtherLogsPage|"
 msgid "Error"
-msgstr ""
+msgstr "Σφάλμα"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:125
 #, qt-format
@@ -3063,53 +3075,55 @@ msgstr "Το αρχείο (%1) είναι πολύ μεγάλο. Ίσως θέλ
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
-msgstr ""
+msgstr "Το αρχείο (%1) δεν είναι αναγνώσιμο."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:197
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να προχωρήσετε στη διαγραφή του %1;"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:205
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή του %1: %2"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:220
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
-msgstr ""
+msgstr "Εκκαθάριση"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να διαγράψετε όλα τα αρχεία καταγραφής;"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:228
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr ""
+msgstr "Θέλετε σίγουρα να διαγράψετε τα παρακάτω αρχεία;\n"
+"%1"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:255
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
-msgstr ""
+msgstr "Αδυναμία διαγραφής κάποιων αρχείων!"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:260
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files:\n"
 "%1"
-msgstr ""
+msgstr "Αδυναμία διαγραφής κάποιων αρχείων!\n"
+"%1"
 
 #: src/application/pages/instance/OtherLogsPage.h:45
 msgctxt "OtherLogsPage|"
 msgid "Other logs"
-msgstr ""
+msgstr "Άλλα αρχεία καταγραφής"
 
 #: src/api/logic/minecraft/PackProfile.cpp:852
 msgctxt "PackProfile|"
@@ -3124,7 +3138,7 @@ msgstr "Έκδοση"
 #: src/application/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
-msgstr ""
+msgstr "Κλειδί API για το paste.ee"
 
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
