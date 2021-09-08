@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2021-09-08 11:28\n"
+"PO-Revision-Date: 2021-09-08 11:42\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1310,7 +1310,7 @@ msgstr "Hafıza"
 #: src/application/pages/global/JavaPage.ui:51
 msgctxt "JavaPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr "Minecraft'a ayrılan en yüksek hafıza kullanımı."
+msgstr "Minecraft'ın kullanabileceği en yüksek hafıza miktarı."
 
 #: src/application/pages/global/JavaPage.ui:73
 msgctxt "JavaPage|"
@@ -1401,7 +1401,7 @@ msgstr "Hafıza"
 #: src/application/widgets/JavaSettingsWidget.cpp:422
 msgctxt "JavaSettingsWidget|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr "Minecraft'a ayrılan en yüksek hafıza miktarı."
+msgstr "Minecraft'ın kullanabileceği en yüksek hafıza miktarı."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:423
 msgctxt "JavaSettingsWidget|"
@@ -1416,12 +1416,12 @@ msgstr "En yüksek hafıza paylaşımı:"
 #: src/application/widgets/JavaSettingsWidget.cpp:425
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Minecraft'ın başlayacağı hafıza."
+msgstr "Minecraft başlayınca ayrılacak olan hafıza."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:426
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "Yüklenen java sınıflarını saklayacak hafıza limiti."
+msgstr "Yüklü Java class'larını tutmaya müsait olan hafıza miktarı."
 
 #: src/application/widgets/JavaSettingsWidget.cpp:427
 msgctxt "JavaSettingsWidget|"
@@ -1544,7 +1544,7 @@ msgstr "Profilleyici başlatılamadı: %1"
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
-msgstr "Oyun gecikmesi butona basana kadar devam edecektir. Bu profilleri ayarlamak için doğru şeydir.\n\n"
+msgstr "Oyunun başlaması siz tuşa basana kadar ertelenmiştir. Şu an profilleyici sunucusu çalıştığı için profilleyiciyi kurmak için doğru zaman.\n\n"
 "%1"
 
 #: src/application/LaunchController.cpp:247
@@ -2527,7 +2527,7 @@ msgstr "Modun sürümü."
 #: src/api/logic/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
-msgstr "Bu modun son değiştirirdiği (veya eklendiği) tarih."
+msgstr "Bu modun en son değiştirildiği (veya eklendiği) tarih ve zaman"
 
 #: src/application/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
@@ -2814,7 +2814,7 @@ msgstr "Geçmiş sınırı"
 #: src/application/pages/global/MultiMCPage.ui:390
 msgctxt "MultiMCPage|"
 msgid "Stop logging when log overflows"
-msgstr "Aşırı kayıt olunca kaydetmeyi durdur"
+msgstr "Sistem kaydı taştığında kaydı durdur"
 
 #: src/application/pages/global/MultiMCPage.ui:403
 msgctxt "MultiMCPage|"
@@ -3069,13 +3069,13 @@ msgstr "Okumak için %1 dosyası açılamadı: %2"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
-msgstr "Bu dosya (%1) çok büyük. Büyük dosyalar için yapılan programları kullanmayıtercih edebilirsiniz."
+msgstr "Bu dosya (%1) çok büyük. Büyük dosyalar için optimize edilmiş bir programda açmak isteyebilirsiniz."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:161
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
-msgstr "%1 dosyası okunamaz."
+msgstr "%1 dosyası okunmuyor."
 
 #: src/application/pages/instance/OtherLogsPage.cpp:197
 #, qt-format
@@ -3335,7 +3335,7 @@ msgstr "processArguments bilinmeyen (%1) değerine atanmış"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by MultiMC (%2). It might not work properly!"
-msgstr "Bu sürüm (%1) için 'minimumLauncherVersion' MultiMC'nin desteklendiğinden (%2) daha fazla. Muhtemelen düzgün çalışmayacaktır!"
+msgstr "Bu sürüm için 'minimumLauncherVersion' değeri (%1) MultiMC'nin desteklediğinden (%2) daha fazla. Muhtemelen düzgün çalışmayacaktır!"
 
 #: src/api/logic/minecraft/PackProfile.cpp:190
 #, qt-format
@@ -3560,7 +3560,7 @@ msgstr "Yükleme başarısız oldu"
 #: src/application/GuiUtil.cpp:30
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Kayıt dosyaysı çok büyük. Dosyayı manuel olarak yüklemeniz gerekecek."
+msgstr "Sistem kayıt dosyası çok büyük. Dosyayı elle olarak yüklemeniz gerekecek."
 
 #: src/application/GuiUtil.cpp:47
 msgctxt "QObject|"
@@ -3571,7 +3571,7 @@ msgstr "Yükleme tamamlandı"
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Yüklemenizin</a> adresi panonuza kopyalandı."
+msgstr "<a href=\"%1\">Yüklenmiş sistem kaydına giden bağlantı</a> panoya kopyalandı."
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -3774,13 +3774,13 @@ msgstr "Yükleme tamamlandı"
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Yüklediğiniz ekran alıntısının</a> adresi panonuza kopyalandı."
+msgstr "<a href=\"%1\">Yüklenmiş ekran görüntüsüne giden bağlantı</a> panoya kopyalandı."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:367
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Yüklemenizin</a> bağlantısı panonuza kopyalandı."
+msgstr "<a href=\"%1\">Yüklenmiş albüme olan bağlantı</a> panoya kopyalandı."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
@@ -4157,7 +4157,7 @@ msgstr " tarafından "
 #: src/application/pages/modplatform/technic/TechnicPage.h:45
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr "Teknik"
+msgstr "Technic"
 
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
