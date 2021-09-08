@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2021-09-08 10:31\n"
+"PO-Revision-Date: 2021-09-08 10:39\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "Çıkış komutu:"
 #: src/application/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
-msgstr "Başlangıç komutu:"
+msgstr "Başlatma öncesi komutu:"
 
 #: src/application/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
@@ -1494,7 +1494,7 @@ msgstr "Hesabınız şu anda aktif değil. Lütfen şifrenizi tekrar girin. <br 
 #: src/application/LaunchController.cpp:101
 msgctxt "LaunchController|"
 msgid "Play Offline"
-msgstr "Çevrımdışı Oyna"
+msgstr "Çevrım Dışı Oyna"
 
 #: src/application/LaunchController.cpp:121
 msgctxt "LaunchController|"
@@ -1504,7 +1504,7 @@ msgstr "Giriş sırasında belirsiz oturum geldi."
 #: src/application/LaunchController.cpp:162
 msgctxt "LaunchController|"
 msgid "Player name"
-msgstr "Oyuncu adı"
+msgstr "Oyuncu ismi"
 
 #: src/application/LaunchController.cpp:163
 msgctxt "LaunchController|"
@@ -1631,7 +1631,7 @@ msgstr "Üçüncü Parti Modpack"
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr "Özel Modpack"
+msgstr "Özel Mod Paketi"
 
 #: src/api/logic/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
@@ -1943,25 +1943,25 @@ msgstr "MultiMC: Sistem kayıt yüklenmesi başarısız!"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1."
-msgstr "Oyundan çıkıldı. Hata kodu: %1."
+msgstr "İşlem şu kod ile bitti: %1."
 
 #. Message displayed on instance crashed
 #: src/api/logic/LoggedProcess.cpp:75
 msgctxt "LoggedProcess|"
 msgid "Process crashed."
-msgstr "Oyun çöktü."
+msgstr "İşlem çöktü."
 
 #: src/api/logic/LoggedProcess.cpp:77
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1."
-msgstr "Oyun çöktü. Hata kodu: %1."
+msgstr "İşlem şu hata koduyla çöktü: %1."
 
 #. Message displayed after the instance exits due to kill request
 #: src/api/logic/LoggedProcess.cpp:84
 msgctxt "LoggedProcess|"
 msgid "Process was killed by user."
-msgstr "İşlem kullanıcı tarafından kapatıldı."
+msgstr "İşlem kullanıcı tarafından durduruldu."
 
 #: src/api/logic/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -3173,7 +3173,7 @@ msgstr "Paste.ee 'ye yükleniyor"
 #: src/api/logic/net/PasteUpload.cpp:75
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr "paste.ee bir hata gerçekleşti. Daha fazla ayrıntı için kayıt dosyalarına bakın"
+msgstr "paste.ee bir hata verdi. Daha fazla ayrıntı için sistem kayıtlarına bakın"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
@@ -3185,12 +3185,12 @@ msgstr "Oyun-sonrası komut çalıştırılıyor: %1"
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr "Oyun-sonrası komutu hata verdi. Kod: %1.\n\n"
+msgstr "Başlatma sonrası komutu şu kodda hatalı: %1.\n\n"
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr "Oyun-sonrası komutu başarıyla çalıştı.\n"
+msgstr "Başlatma sonrası komutu başarıyla çalıştı.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
@@ -3202,12 +3202,12 @@ msgstr "Önceden tanımlanmış komut çalışıyor: %1"
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command failed with code %1.\n\n"
-msgstr "Oyun-öncesi tanımlı komut başarısız oldu. Kod:  %1.\n\n"
+msgstr "Başlatma öncesi komut şu kodda hatalı: %1.\n\n"
 
 #: src/api/logic/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr "Oyun-öncesi komutu başarıyla çalıştı.\n\n"
+msgstr "Başlatma öncesi komutu başarıyla çalıştı.\n\n"
 
 #: src/application/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
@@ -3243,7 +3243,7 @@ msgstr " (kullanımda)"
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
 msgid "Please wait..."
-msgstr "Lütfen Bekleyiniz..."
+msgstr "Lütfen bekleyin..."
 
 #: src/application/dialogs/ProgressDialog.ui:32
 msgctxt "ProgressDialog|"
@@ -3434,7 +3434,7 @@ msgstr "Geçersiz JVisualVM dizin yolu"
 #: src/api/logic/tools/JProfiler.cpp:105 src/api/logic/tools/MCEditTool.cpp:37
 msgctxt "QObject|"
 msgid "Path does not exist"
-msgstr "Yol geçersiz"
+msgstr "Böyle bir dizin yolu yok"
 
 #: src/api/logic/tools/JProfiler.cpp:110
 msgctxt "QObject|"
@@ -3444,12 +3444,12 @@ msgstr "Geçersiz JProfiler yükelemesi"
 #: src/api/logic/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
 msgid "Path is empty"
-msgstr "Konum boş"
+msgstr "Dizin yolu boş"
 
 #: src/api/logic/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
-msgstr "Konum MCEdit'in bulunduğu konum gibi durmuyor"
+msgstr "Bu dizin yolu, MCEdit dizin yolu gibi görünmüyor"
 
 #: src/application/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
@@ -4678,7 +4678,7 @@ msgstr "Mimari"
 #: src/application/VersionProxyModel.cpp:86
 msgctxt "VersionProxyModel|"
 msgid "Path"
-msgstr "Konum"
+msgstr "Dizin Yolu"
 
 #: src/application/VersionProxyModel.cpp:88
 msgctxt "VersionProxyModel|"
