@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2021-09-08 11:49\n"
+"PO-Revision-Date: 2021-09-08 12:06\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -552,7 +552,7 @@ msgstr "Hata"
 #: src/application/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr "Profil dışa aktarılamaz"
+msgstr "Profil dışa aktarılamıyor"
 
 #: src/application/pages/global/ExternalToolsPage.ui:59
 #: src/application/pages/global/ExternalToolsPage.ui:96
@@ -1000,7 +1000,7 @@ msgstr "Üzerine yazılanlar (overrides) klasörü yeniden adlandırılamadı:\n
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr "Belirlenen üzerine yazılanlar (override) klasörü (%1) bulunamıyor. Belki de bu mod paketi zaten daha önce kullanılmıştı?"
+msgstr "Belirlenmiş üzerine yazılanlar (override) klasörü (%1) kayıp. Belki de bu mod paketi daha önce kullanılmıştı?"
 
 #: src/api/logic/InstanceImportTask.cpp:250
 #, qt-format
@@ -1581,7 +1581,7 @@ msgstr "Minecraft'ı durdur?"
 #: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr "Bu işlemi gerçekleştirmek kötü sonuçlar doğurabilir, bunu sadece Minecraft donduysa veya benzer sorunlarda kullanınız"
+msgstr "Bu işlem, profilin bozulmasına neden olabilir ve sadece Minecraft herhangi bir sebepten dolayı donduğunda kullanılmalıdır."
 
 #: src/api/logic/launch/LaunchTask.cpp:215
 #, qt-format
@@ -1626,7 +1626,7 @@ msgstr "Herkese Açık Mod Paketi"
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:84
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr "Üçüncü Parti Modpack"
+msgstr "Üçüncü Parti Mod Paketi"
 
 #: src/application/pages/modplatform/legacy_ftb/ListModel.cpp:86
 msgctxt "LegacyFTB::ListModel|"
@@ -3258,7 +3258,7 @@ msgstr "Atla"
 #: src/application/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr "Bu sadece MultiMC'yi etkileyecektir. Minecraft proxy ayarlarını kabul etmeyecektir."
+msgstr "Bu sadece MultiMC'yi etkiler. Minecraft vekil sunucu ayarlarını kabul etmez."
 
 #: src/application/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3401,7 +3401,7 @@ msgstr "Sürüm dosyası %1 açılamadı: %2."
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Sürüm dosyası %1 işelenemiyor: %2, %3 'üncü satır %4 'inci sütun."
+msgstr "Sürüm dosyası %1 işlenemiyor: %2, %3 'üncü satır %4 'inci sütun."
 
 #: src/api/logic/minecraft/ProfileUtils.cpp:157
 #, qt-format
@@ -3633,7 +3633,7 @@ msgstr "Belirlenmiş Java konumu düzgün başlatılamadı.<br />"
 #: src/application/widgets/JavaSettingsWidget.cpp:298
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Java konumu beklenmedik sonuçlar gönderdi:<br />"
+msgstr "Belirlenmiş Java konumu beklenmedik sonuçlar gönderdi:<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:309
 #, qt-format
@@ -3790,7 +3790,7 @@ msgstr "Emin misiniz?"
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
-msgstr "Bu seçenek tüm seçili ekran görüntülerini silecektir."
+msgstr "Bu tüm seçili ekran görüntülerini silecektir."
 
 #: src/application/widgets/ServerStatus.cpp:66
 msgctxt "ServerStatus|"
@@ -4022,7 +4022,7 @@ msgstr "Mod paketi dışa aktarılıyor"
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:58
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr "Seçilen modpaketi zip dosyası açılamadı."
+msgstr "Seçili mod paketinin zip dosyası açılamadı."
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:84
 msgctxt "Technic::SingleZipPackInstallTask|"
@@ -4130,7 +4130,7 @@ msgstr "\"forgeversion.properties\" geçersiz!"
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:148
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to find a \"version.json\"!"
-msgstr "\"version.json\" bulunamadı!"
+msgstr "Bir \"version.json\" bulunamadı!"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:161
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4698,7 +4698,7 @@ msgstr "Minecraft sürümü"
 #: src/application/VersionProxyModel.cpp:100
 msgctxt "VersionProxyModel|"
 msgid "The version's branch"
-msgstr "Bu sürümün yeri"
+msgstr "Bu sürümün branşı"
 
 #: src/application/VersionProxyModel.cpp:102
 msgctxt "VersionProxyModel|"
@@ -4880,8 +4880,8 @@ msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
 "Do you want to continue?"
-msgstr "Bu işlem seçilen dünyayı kalıcı olarak silecektir.\n"
-"Dünya uzun bir zaman dek yok olacaktır (ÇOK UZUN BİR ZAMAN).\n\n"
+msgstr "Bu, seçili dünyayı kalıcı olarak silecektir.\n"
+"Dünya sonsuza dek yok olacaktır (ÇOK UZUN BİR ZAMAN).\n\n"
 "Devam etmek istiyor musun?"
 
 #: src/application/pages/instance/WorldListPage.cpp:266
