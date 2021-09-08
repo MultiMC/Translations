@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2021-09-08 09:25\n"
+"PO-Revision-Date: 2021-09-08 10:25\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1011,7 +1011,7 @@ msgstr "Manifest içerisinde bilinmeyen mod yükleyicisi: %1"
 #: src/api/logic/InstanceImportTask.cpp:263
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr "Paket içeri aktarırken, gizemli izleme noktaları Minecraft'tan silindi."
+msgstr "Paket içeri aktarılırken, gizemli izleme noktaları Minecraft'tan kaldırıldı."
 
 #: src/api/logic/InstanceImportTask.cpp:279
 #, qt-format
@@ -1588,8 +1588,7 @@ msgstr "Bu işlemi gerçekleştirmek kötü sonuçlar doğurabilir, bunu sadece 
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr "MultiMC, izin verilen %1 satır sınırı aşıldığından dolayı kayıt tutmayı durdurdu. \n"
-"Modlarınızı veya sınırınızı tekrar ayarlamalısınız; aksi taktirde harddiskiniz'de yer kalmayabilir!"
+msgstr "MultiMC, oyunun sistem kaydınız izlemeyi durdurdu çünkü sistem kaydının satır sayısı %1 satırını aştı. Modlarınızı düzeltmeniz gerekebilir çünkü oyun hala sistem kaydı yapmakta ve büyük ihtimalle disk alanını endişe verici derecede israf ediyor!"
 
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:121
 #, qt-format
@@ -1686,7 +1685,7 @@ msgstr "ZIP'ten çıkartılmış Minecraft taşınamadı!"
 #: src/api/logic/modplatform/legacy_ftb/PackInstallTask.cpp:186
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr "Herhangi bir yükleme metodu bulanamadı!"
+msgstr "Herhangi bir kurulum metodu bulunamadı!"
 
 #: src/application/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
@@ -1926,18 +1925,18 @@ msgstr "Minecraft Sistem Kayıtları"
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload triggered at: %1"
-msgstr "MultiMC: Kayıt yüklemesi %1 tarafından tetiklendi"
+msgstr "MultiMC: Sistem kayıt yüklemesi burada tetiklendi: %1"
 
 #: src/application/pages/instance/LogPage.cpp:243
 #, qt-format
 msgctxt "LogPage|"
 msgid "MultiMC: Log uploaded to: %1"
-msgstr "MultiMC: Kayıtlar yüklendi: %1"
+msgstr "MultiMC: Sistem kayıtları buraya yüklendi: %1"
 
 #: src/application/pages/instance/LogPage.cpp:247
 msgctxt "LogPage|"
 msgid "MultiMC: Log upload failed!"
-msgstr "MultiMC: Kayıt yüklenmesi başarısız!"
+msgstr "MultiMC: Sistem kayıt yüklenmesi başarısız!"
 
 #. Message displayed on instance exit
 #: src/api/logic/LoggedProcess.cpp:68
@@ -2027,7 +2026,7 @@ msgstr "Profil Klasörünü Göster"
 #: src/application/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
-msgstr "Profil klasörünü dosya gezgininde aç."
+msgstr "Profil klasörünü dosya tarayıcısında aç."
 
 #: src/application/MainWindow.cpp:279
 msgctxt "MainWindow|"
@@ -2037,7 +2036,7 @@ msgstr "Genel Mod Klasörünü Göster"
 #: src/application/MainWindow.cpp:280
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
-msgstr "Genel mod klasörünü dosya gezgininde aç."
+msgstr "Merkezi mod klasörünü dosya tarayıcısında aç."
 
 #: src/application/MainWindow.cpp:285 src/application/MainWindow.cpp:627
 msgctxt "MainWindow|"
@@ -2047,7 +2046,7 @@ msgstr "Klasörler"
 #: src/application/MainWindow.cpp:286
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
-msgstr "Profiller arasında paylaştırılan bir klasörü aç."
+msgstr "Profiller arasında paylaştırılan klasörlerden birisini aç."
 
 #: src/application/MainWindow.cpp:301
 msgctxt "MainWindow|"
@@ -2067,7 +2066,7 @@ msgstr "Hata Bildir"
 #: src/application/MainWindow.cpp:313
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
-msgstr "MultiMC'ye hataları göndermek için hata yakalayıcıyı aç."
+msgstr "MultiMC'ye sorun bildirmek için hata yakalayıcıyı aç."
 
 #: src/application/MainWindow.cpp:320
 msgctxt "MainWindow|"
@@ -2077,7 +2076,7 @@ msgstr "Discord"
 #: src/application/MainWindow.cpp:321
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat."
-msgstr "MultiMC'nin Discord'unu aç."
+msgstr "MultiMC'nin Discord sesli sohbetini aç."
 
 #: src/application/MainWindow.cpp:328
 msgctxt "MainWindow|"
@@ -2147,7 +2146,7 @@ msgstr "Hesapları Yönet"
 #: src/application/MainWindow.cpp:415
 msgctxt "MainWindow|"
 msgid "News Toolbar"
-msgstr "Haberler Çubuğu"
+msgstr "Haberler Araç Çubuğu"
 
 #: src/application/MainWindow.cpp:420
 msgctxt "MainWindow|"
@@ -2350,7 +2349,7 @@ msgstr "Hiç profil eklenmemiş!"
 #: src/application/MainWindow.cpp:1063
 msgctxt "MainWindow|"
 msgid "No Default Account"
-msgstr "Varsayılan Profil Yok"
+msgstr "Varsayılan Hesap Yok"
 
 #: src/application/MainWindow.cpp:1171
 msgctxt "MainWindow|"
@@ -2360,7 +2359,7 @@ msgstr "Haberler yükleniyor..."
 #: src/application/MainWindow.cpp:1184
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr "Yeni haberler yok."
+msgstr "Yeni haber yok."
 
 #: src/application/MainWindow.cpp:1267 src/application/MainWindow.cpp:1284
 msgctxt "MainWindow|"
@@ -2588,7 +2587,7 @@ msgstr "Ayarları &Görüntüle"
 #: src/application/pages/instance/ModFolderPage.ui:131
 msgctxt "ModFolderPage|"
 msgid "Open the 'config' folder in the system file manager."
-msgstr "Yapılandırma klasörünü sistem dosya yöneticisinde aç."
+msgstr "Yapılandırma (config) klasörünü sistem dosya yöneticisinde aç."
 
 #: src/application/pages/instance/ModFolderPage.ui:136
 msgctxt "ModFolderPage|"
@@ -2650,7 +2649,7 @@ msgstr "Aktif?"
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:230
 msgctxt "MojangAccountList|"
 msgid "Name"
-msgstr "Adı"
+msgstr "İsim"
 
 #: src/api/logic/minecraft/auth/MojangAccountList.cpp:240
 msgctxt "MojangAccountList|"
@@ -2685,7 +2684,7 @@ msgstr "Gü&ncelleme Kanalı:"
 #: src/application/pages/global/MultiMCPage.ui:81
 msgctxt "MultiMCPage|"
 msgid "No channel selected."
-msgstr "Hiçbir kanal seçilmedi."
+msgstr "Hiçbir kanal seçili değil."
 
 #: src/application/pages/global/MultiMCPage.ui:94
 msgctxt "MultiMCPage|"
@@ -3144,7 +3143,7 @@ msgstr "paste.ee API anahtarı"
 #: src/application/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr "MultiMC anahtarı - &yükleme sınırı 12MB"
+msgstr "MultiMC anahtarı - 12MB &yükleme sınırı "
 
 #: src/application/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
@@ -3314,7 +3313,7 @@ msgstr "Şifre:"
 #: src/application/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside MultiMC's configuration file!"
-msgstr "Not: Proxy kullanıcı adı ve şifresi MultiMC'nin düzenleme dosyasında yer alacaktır!"
+msgstr "Not: Proxy kullanıcı adı ve şifresi MultiMC'nin yapılandırma dosyasında düz metin olarak tutulacaktır!"
 
 #: src/application/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -4248,7 +4247,7 @@ msgstr "Yeni bir %1 güncellemesi mevcut!"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "No %1 updates found. You are running the latest version."
-msgstr "Herhangi bir\"%1\" güncellemesi bulunamadı. Zaten son sürümü kullanıyorsunuz."
+msgstr "Herhangi bir %1 güncellemesi bulunmadı. Zaten son sürümü kullanıyorsunuz."
 
 #: src/application/dialogs/UpdateDialog.cpp:23
 msgctxt "UpdateDialog|"
@@ -4324,7 +4323,7 @@ msgstr "Vanilya"
 #: src/application/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
 msgid "No versions are currently available."
-msgstr "Şuanda hiç sürüm bulunamadı."
+msgstr "Şu anda yeni sürüm mevcut değil."
 
 #: src/application/pages/instance/VersionPage.ui:64
 msgctxt "VersionPage|"
@@ -4494,7 +4493,7 @@ msgstr ".minecraft Klasörünü Aç"
 #: src/application/pages/instance/VersionPage.ui:235
 msgctxt "VersionPage|"
 msgid "Open the instance's .minecraft folder."
-msgstr "Profilin .minecraft dosyasını açar."
+msgstr "Profilin .minecraft dosyasını aç."
 
 #: src/application/pages/instance/VersionPage.ui:240
 msgctxt "VersionPage|"
@@ -4504,7 +4503,7 @@ msgstr "Kütüphane klasörünü aç"
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Open the instance's local libraries folder."
-msgstr "Kütüphane klasörünü açar."
+msgstr "Profilin yerel kitaplık klasörünü açar."
 
 #: src/application/pages/instance/VersionPage.cpp:147
 msgctxt "VersionPage|"
@@ -4582,7 +4581,7 @@ msgstr "%1 sürümünü değiştir"
 #: src/application/pages/instance/VersionPage.cpp:360
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
-msgstr "Şu anda hiçbir aracı eşleme sürümü mevcut değil."
+msgstr "Hiçbir Intermediary Mappings sürümü mevcut değil."
 
 #: src/application/pages/instance/VersionPage.cpp:361
 msgctxt "VersionPage|"
@@ -4593,8 +4592,8 @@ msgstr "Intermediary Mappings sürüm listesi yüklenemedi veya indirilemedi!"
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr "MultiMC Mineceraft'ı indiremedi veya güncelleme yapamadı En az bir hesap ekleyin.\n"
-"Lütfen Mojang ya da Minecraft hesabınızı ekleyin."
+msgstr "MultiMC, Minecraft'ı indiremez veya profilleri güncelleyemez. Tabii en az bir hesap ekli değilse.\n"
+"Lütfen Mojang veya Minecraft hesabınızı ekleyin."
 
 #: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
@@ -4604,7 +4603,7 @@ msgstr "Forge sürümünü seç"
 #: src/application/pages/instance/VersionPage.cpp:417
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
-msgstr "Bu Minecraft sürümü için şuanda bir Forge sürümü yok "
+msgstr "Şu anda Minecraft için hiçbir mevcut Forge sürümü yok."
 
 #: src/application/pages/instance/VersionPage.cpp:418
 msgctxt "VersionPage|"
@@ -4619,7 +4618,7 @@ msgstr "Fabric Loader versiyonu seç"
 #: src/application/pages/instance/VersionPage.cpp:445
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
-msgstr "Şu an da hiç bir Fabric Loader sürümü yok."
+msgstr "Şu anda hiçbir mevcut Fabric Loader sürümü yok."
 
 #: src/application/pages/instance/VersionPage.cpp:446
 msgctxt "VersionPage|"
@@ -4888,7 +4887,7 @@ msgstr "Bu işlem seçilen dünyayı kalıcı olarak silecektir.\n"
 #: src/application/pages/instance/WorldListPage.cpp:266
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
-msgstr "MCEdit ya da yükleme dosyası bulunamadı!"
+msgstr "MCEdit bulunmadı veya kurulmadı!"
 
 #: src/application/pages/instance/WorldListPage.cpp:267
 msgctxt "WorldListPage|"
