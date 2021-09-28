@@ -7,13 +7,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: multimc\n"
 "X-Crowdin-Project-ID: 373791\n"
-"X-Crowdin-Language: de-CH\n"
+"X-Crowdin-Language: de\n"
 "X-Crowdin-File: /master/template.pot\n"
 "X-Crowdin-File-ID: 4\n"
 "Project-Id-Version: multimc\n"
-"Language-Team: German, Switzerland\n"
-"Language: de_CH\n"
-"PO-Revision-Date: 2021-09-27 11:51\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2021-09-28 20:02\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -25,7 +25,7 @@ msgstr "Konnte die Paket-Manifest-Datei nicht interpretieren:\n"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:157
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for "
-msgstr "Abrufen der lokalen Metadaten fehlgeschlagen "
+msgstr "Abrufen der localen Metadaten fehlgeschlagen "
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:144
 msgctxt "ATLauncher::PackInstallTask|"
@@ -76,12 +76,12 @@ msgstr "Nicht unterstützter Download-Typ: "
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:446
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown download type: "
-msgstr "Unbekannter Download-Typ: "
+msgstr "Unbekannter Downloadtyp: "
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:545
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr "Entpacken der Mods fehlgeschlagen..."
+msgstr "Extrahieren der Modpacks fehlgeschlagen..."
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
 msgctxt "ATLauncher::PackInstallTask|"
@@ -96,7 +96,7 @@ msgstr "Modpack installieren"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:655
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr "Unbekannter Loader-Typ: "
+msgstr "Unbekannter Ladetyp: "
 
 #: src/application/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -161,7 +161,7 @@ msgstr "Über Qt"
 #: src/application/dialogs/AboutDialog.ui:294
 msgctxt "AboutDialog|"
 msgid "Close"
-msgstr "Schliessen"
+msgstr "Schließen"
 
 #: src/application/dialogs/AboutDialog.cpp:89
 msgctxt "AboutDialog|"
@@ -189,7 +189,7 @@ msgid "<p>We keep MultiMC open source because we think it's important to be able
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 msgstr "<p>Wir halten MultiMC quelloffen weil wir finden, dass es wichtig ist den Quellcode für ein Projekt wie dieses einsehen zu können. Daher setzen wir hierfür die Apache-Lizenz ein.</p>\n"
-"<p>Das tun wir auch deshalb, weil wir nicht möchten, dass der Name &quot;MultiMC&quot; missbräuchlich verwendet wird. Das bedeutet, dass sich jemand die Zeit nehmen müsste durch den gesamten Quellcode zu gehen und alle Referenzen zu &quot;MultiMC&quot;, einschliesslich aber nicht darauf beschränkt auf das Projektsymbol und die Fenstertitel, (kein <b>MultiMC-fork</b> im Titel).</p>\n"
+"<p>Das tun wir auch deshalb, weil wir nicht möchten, dass der Name &quot;MultiMC&quot; missbräuchlich verwendet wird. Das bedeutet, dass sich jemand die Zeit nehmen müsste durch den gesamten Quellcode zu gehen und alle Referenzen zu &quot;MultiMC&quot;, einschließlich aber nicht darauf beschränkt auf das Projektsymbol und die Fenstertitel, (kein <b>MultiMC-fork</b> im Titel).</p>\n"
 "<p>Die Apache-Lizenz deckt einen angemessenen Rahmen für den Namen ab - eine Erwähnung des Ursprungprojektes in einem \"About\" Dialog und der Lizenz ist akzeptabel. Dennoch muss klar erkennbar sein, dass es sich dabei um einen Fork handelt <b>ohne</b> einen etwaigen Segen zu implizieren.</p>"
 
 #: src/application/pages/global/AccountListPage.ui:49
@@ -210,7 +210,7 @@ msgstr "Als Standard setzen"
 #: src/application/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
 msgid "No Default"
-msgstr "Kein Standard"
+msgstr "Keine Voreinstellung"
 
 #: src/application/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
@@ -278,12 +278,12 @@ msgstr "Wir zeichnen anonyme Statistiken über Benutzer auf."
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>MultiMC sammelt anonyme Nutzungsdaten bei jedem Programmstart. Dies hilft uns dabei bestimmte Plattformen und Probleme auszuwerten.</p><p>Die Daten werden von Google Analytics verarbeitet, siehe ihren <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">Artikel zu diesem Thema</a>.</p><p>Folgende Daten werden gesammelt:</p><ul><li>Eine zufällige eindeutige ID der MultiMC-Installation.<br />Diese ist in den Programmeinstellungen (multimc.cfg) gespeichert.</li><li>Anonymisierte (Teil-) IP-Adresse.</li><li>MultiMC Version.</li><li>Betriebssystem, Version und Architektur.</li><li>CPU Architektur (Kernel Architektur bei Linux).</li><li>Grösse des Arbeitsspeichers.</li><li>Java Version, Architektur und Arbeitsspeicher Einstellungen.</li></ul><p>Wenn wir die Sammeldaten ändern, siehst du diese Seite noch mal.</p></body></html>"
+msgstr "<html><body><p>MultiMC sammelt anonyme Nutzungsdaten bei jedem Programmstart. Dies hilft uns dabei bestimmte Plattformen und Probleme auszuwerten.</p><p>Die Daten werden von Google Analytics verarbeitet, siehe ihren <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">Artikel zu diesem Thema</a>.</p><p>Folgende Daten werden gesammelt:</p><ul><li>Eine zufällige eindeutige ID der MultiMC-Installation.<br />Diese ist in den Programmeinstellungen (multimc.cfg) gespeichert.</li><li>Anonymisierte (Teil-) IP-Adresse.</li><li>MultiMC Version.</li><li>Betriebssystem, Version und Architektur.</li><li>CPU Architektur (Kernel Architektur bei Linux).</li><li>Größe des Arbeitsspeichers.</li><li>Java Version, Architektur und Arbeitsspeicher Einstellungen.</li></ul><p>Wenn wir die Sammeldaten ändern, siehst du diese Seite noch mal.</p></body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr "Anonyme Nutzungsdaten senden"
+msgstr "anonyme Nutzungsdaten senden"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:19
 msgctxt "AssetUpdateTask|"
@@ -311,7 +311,7 @@ msgstr "Daten werden von Mojang geholt..."
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr "Herunterladen des Datenindex fehlgeschlagen:\n"
+msgstr "Herunterladen des Asset-Index fehlgeschlagen:\n"
 "%1"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:93
@@ -330,7 +330,7 @@ msgstr "Nach Beliebheit sortieren"
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
 msgctxt "Atl::FilterModel|"
 msgid "Sort by name"
-msgstr "Nach Name sortieren"
+msgstr "Nach Namen sortieren"
 
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
 msgctxt "Atl::FilterModel|"
@@ -340,7 +340,7 @@ msgstr "Nach Spielversion sortieren"
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr "Warnung: Dies ist noch in Arbeit. Wenn du Probleme mit dem importierten Modpack hast, kann es ein Fehler sein."
+msgstr "Warnung: Das ist noch nicht fertig. Falls du Probleme mit dem importierten Modpack hast, kann es ein Bug sein."
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
 msgctxt "AtlPage|"
@@ -365,27 +365,27 @@ msgstr "ATLauncher"
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:92
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send a client token."
-msgstr "Authentifizierungsserver hat kein Client-Token gesendet."
+msgstr "Authentifizierungsserver hat keinen Client-Token gesendet."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr "Authentifizierungsserver hat versucht, den Client-Token zu verändern. Dies wird nicht unterstützt."
+msgstr "Authentifizierungsserver hat versucht den Client-Token zu ändern. Dies wird nicht unterstützt."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't send an access token."
-msgstr "Authentifizierungsserver hat kein Zugriffs-Token gesendet."
+msgstr "Authentifizierungsserver hat keinen Zugriffs-Token gesendet."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:154
 msgctxt "AuthenticateTask|"
 msgid "Authentication server didn't specify a currently selected profile. The account exists, but likely isn't premium."
-msgstr "Authentifizierungsserver hat kein aktuell ausgewähltes Profil angegeben. Das Konto existiert bereits, aber wahrscheinlich ist es nicht Premium."
+msgstr "Authentifizierungsserver hat kein aktuell ausgewähltes Profil angeben. Das Konto existiert, ist aber wahrscheinlich nicht Premium."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:159
 msgctxt "AuthenticateTask|"
 msgid "Authentication server specified a selected profile that wasn't in the available profiles list."
-msgstr "Authentifizierungsserver hat ein ausgewähltes Profil angegeben, das nicht in der Liste verfügbarer Profile enthalten ist."
+msgstr "Authentifizierungsserver hat ein ausgewähltes Profil angegeben, welches nicht in der Liste der verfügbaren Profile existiert."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:196
 msgctxt "AuthenticateTask|"
@@ -395,17 +395,17 @@ msgstr "Authentifizierung: Sende Anfrage..."
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:198
 msgctxt "AuthenticateTask|"
 msgid "Authenticating: Processing response..."
-msgstr "Authentifizierung: Verarbeite Antwort..."
+msgstr "Authentifizierung: Bearbeite Antwort..."
 
 #: src/api/logic/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
 msgid "Profiler aborted"
-msgstr "Profiler abgebrochen"
+msgstr "Profiler gestoppt"
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
-msgstr "Das Laden einiger Komponenten-Metadaten ist fehlgeschlagen."
+msgstr "Das Laden der Komponenten-Metadaten ist fehlgeschlagen."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:525
 msgctxt "ComponentUpdateTask|"
@@ -427,7 +427,7 @@ msgstr "Die Instanz hat nicht aufgelöste Abhängigkeiten, die zum Starten / Pr�
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr "Metadaten-Update der Komponente fehlgeschlagen beim Herunterladen vom Remote-Server:\n"
+msgstr "Komponenten-Metadaten-Update-Aufgabe fehlgeschlagen beim Herunterladen von entferntem Server:\n"
 "%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
@@ -448,7 +448,7 @@ msgstr "&Gruppe"
 #: src/application/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
-msgstr "Speicherstände kopieren"
+msgstr "Welten kopieren"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:122
 msgctxt "CopyInstanceDialog|"
@@ -483,7 +483,7 @@ msgstr "Wrapper-Befehl:"
 #: src/application/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in MultiMC's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Vor-Start-Befehle werden ausgeführt, bevor die Instanz startet, Nach-Beenden-Befehle nachdem die Instanz beendet wurde.</p><p>Beide werden im Hauptverzeichnis von MultiMC mit zusätzlichen Umgebungsvariablen gestartet:</p><ul><li>$INST_NAME - Name der Instanz</li><li>$INST_ID - ID der Instanz (der Name des Instanzordners)</li><li>$INST_DIR - Absoluter Pfad der Instanz</li><li>$INST_MC_DIR - Absoluter Pfad von Minecraft</li><li>$INST_JAVA - Für den Start genutzte Java-Instanz</li><li>$INST_JAVA_ARGS - Für den Start genutzte Konsolen-Parameter</li></ul><p>Wrapper-Befehle erlauben es, Java mittels eines Wrapper-Programms auszuführen (wie z. B. 'optirun' unter Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Vor-Start-Befehle werden ausgeführt, bevor die Instanz startet, Nach-Beenden-Befehle nachdem die Instanz beendet wurde.</p><p>Beide werden im Hauptverzeichnis von MultiMC mit zusätzlichen Umgebungsvariablen gestartet:</p><ul><li>$INST_NAME - Name der Instanz</li><li>$INST_ID - ID der Instanz (der Name des Instanzordners)</li><li>$INST_DIR - Absoluter Pfad der Instanz</li><li>$INST_MC_DIR - Absoluter Pfad von Minecraft</li><li>$INST_JAVA - Für den Start genutzte Java-Instanz</li><li>$INST_JAVA_ARGS - Für den Start genutzte Konsolen-Parameter</li></ul><p>Wrapper-Befehle erlauben es, Java mittels eines Wrapper-Programms auszuführen (wie z.B. 'optirun' unter Linux)</p></body></html>"
 
 #: src/application/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -564,7 +564,7 @@ msgstr "Überprüfen"
 #: src/application/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr "Externe Editor-Anwendungen (leer lassen, um die System-Standard zu nutzen)"
+msgstr "Externe Editor-Anwendungen (leer lassen, um die System-Voreinstellung zu benutzen)"
 
 #: src/application/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
@@ -674,7 +674,7 @@ msgstr "Die ausgewählte Datei scheint keine Anwendung zu sein"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr "Konnte native jar '%1' nicht nach '%2' extrahieren"
+msgstr "Konnte native jar '%1' nicht nach '%2' extrahieren."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:37
 msgctxt "FMLLibrariesTask|"
@@ -957,7 +957,7 @@ msgstr "Modpack Download"
 #: src/api/logic/InstanceImportTask.cpp:86
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr "Entpacke Modpack"
+msgstr "Extrahiere Modpack"
 
 #: src/api/logic/InstanceImportTask.cpp:94
 msgctxt "InstanceImportTask|"
