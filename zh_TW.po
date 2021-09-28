@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2021-08-21 06:05\n"
+"PO-Revision-Date: 2021-09-25 15:26\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -340,12 +340,12 @@ msgstr "依遊戲版本排序"
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr "警告: 這仍是一個未完成的功能，如果你導入的模組包遇到問題，這可能是一個Bug。"
+msgstr "警告：本功能尚在開發中（WIP）。若匯入的模組包有任何問題，有可能是 bug。"
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
 msgctxt "AtlPage|"
 msgid "Version selected:"
-msgstr "選擇版本:"
+msgstr "選擇版本："
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:71
 msgctxt "AtlPage|"
@@ -355,7 +355,7 @@ msgstr "重設"
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:78
 msgctxt "AtlPage|"
 msgid "Search and filter ..."
-msgstr "搜尋和過濾..."
+msgstr "搜尋並篩選…"
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.h:43
 msgctxt "AtlPage|"
@@ -700,7 +700,7 @@ msgstr "在實例中建立FML函式庫資料夾時失敗。"
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "複製Forge/FML程式庫時失敗:%1."
+msgstr "複製Forge/FML函式庫時失敗:%1."
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:117
 #, qt-format
@@ -732,12 +732,12 @@ msgstr "為Minecraft二進位檔案建立資料夾失敗。"
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:13
 msgctxt "Ftb::FilterModel|"
 msgid "Sort by plays"
-msgstr "依照遊玩排序"
+msgstr "依遊玩量排序"
 
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:14
 msgctxt "Ftb::FilterModel|"
 msgid "Sort by installs"
-msgstr "依照安裝排序"
+msgstr "依安裝量排序"
 
 #: src/application/pages/modplatform/ftb/FtbFilterModel.cpp:15
 msgctxt "Ftb::FilterModel|"
@@ -747,7 +747,7 @@ msgstr "依名稱排序"
 #: src/application/pages/modplatform/ftb/FtbPage.ui:22
 msgctxt "FtbPage|"
 msgid "Version selected:"
-msgstr "選擇版本:"
+msgstr "選擇版本："
 
 #: src/application/pages/modplatform/ftb/FtbPage.ui:40
 msgctxt "FtbPage|"
@@ -1449,7 +1449,7 @@ msgstr "語言"
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr "找不到您的語言或是品質很差?<br/><a href=\"%1\">協助我們翻譯!</a>"
+msgstr "找不到您的語言？或是翻譯品質很差？<br/><a href=\"%1\">協助我們翻譯！</a>"
 
 #: src/application/setupwizard/LanguageWizardPage.cpp:45
 msgctxt "LanguageWizardPage|"
@@ -1576,7 +1576,7 @@ msgstr "中止"
 #: src/application/LaunchController.cpp:302
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
-msgstr "強制關閉Minecraft?"
+msgstr "強制關閉 Minecraft？"
 
 #: src/application/LaunchController.cpp:303
 msgctxt "LaunchController|"
@@ -1755,7 +1755,7 @@ msgstr "移除模組包"
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr "您確定要移除模組包 %1 嗎？"
+msgstr "您確定要移除 %1 模組包嗎？"
 
 #: src/api/logic/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -2247,7 +2247,7 @@ msgstr "變更所選實例的群組。"
 #: src/application/MainWindow.cpp:525
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
-msgstr "Minecraft資料夾"
+msgstr "Minecraft 資料夾"
 
 #: src/application/MainWindow.cpp:526
 msgctxt "MainWindow|"
@@ -2462,7 +2462,7 @@ msgstr "視窗寬度(&W):"
 #: src/application/pages/global/MinecraftPage.ui:117
 msgctxt "MinecraftPage|"
 msgid "Native library workarounds"
-msgstr "原生程式庫解決方案"
+msgstr "原生函式庫解決方案"
 
 #: src/application/pages/global/MinecraftPage.ui:123
 msgctxt "MinecraftPage|"
@@ -3081,7 +3081,7 @@ msgstr "檔案 (%1) 不可讀取。"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
-msgstr "你確定要刪除 %1 嗎?"
+msgstr "您確定要刪除 %1 嗎？"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:205
 #, qt-format
@@ -3097,14 +3097,14 @@ msgstr "清除"
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr "你真的確定要刪除全部的紀錄檔?"
+msgstr "您確定要刪除全部的紀錄檔？"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:228
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr "你真的確定要刪除這些檔案?\n"
+msgstr "您確定要刪除下列檔案？\n"
 "%1"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:255
@@ -3153,7 +3153,7 @@ msgstr "你自己的金鑰(&Y) - 12MB 上傳限制:"
 #: src/application/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
-msgstr "在這貼上你的API金鑰!"
+msgstr "在此貼上您的 API 金鑰！"
 
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
@@ -3268,7 +3268,7 @@ msgstr "類型"
 #: src/application/pages/global/ProxyPage.ui:61
 msgctxt "ProxyPage|"
 msgid "Uses your system's default proxy settings."
-msgstr "使用系統預設的proxy設定。"
+msgstr "使用系統預設的 proxy 設定。"
 
 #: src/application/pages/global/ProxyPage.ui:64
 msgctxt "ProxyPage|"
@@ -3608,7 +3608,7 @@ msgstr "Java測試成功"
 #: src/application/JavaCommon.cpp:43
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "指定的Java二進位檔案無法使用你提供的參數:<br />"
+msgstr "指定的 Java 二進位檔無法使用您提供的參數：<br />"
 
 #: src/application/JavaCommon.cpp:45 src/application/JavaCommon.cpp:54
 #: src/application/widgets/JavaSettingsWidget.cpp:318
@@ -3619,7 +3619,7 @@ msgstr "Java測試失敗"
 #: src/application/JavaCommon.cpp:51
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "選擇的Java二進位檔案無法使用。<br />你應該使用自動偵測功能，或者設定Java可執行檔的路徑。<br />"
+msgstr "指定的 Java 二進位檔無法使用。<br />應使用自動偵測功能，或者設定 Java 可執行檔的路徑。<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:281
 msgctxt "QObject|"
@@ -3645,7 +3645,7 @@ msgstr "Java測試成功!<br />回報的平台: %1<br />回報的Java版本: %2<
 #: src/application/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
 msgid "Minecraft Server"
-msgstr "Minecraft伺服器"
+msgstr "Minecraft 伺服器"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
@@ -3786,7 +3786,7 @@ msgstr "<a href=\"%1\">上傳的相簿連結</a>已經在你的剪貼簿中。"
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
 msgid "Are you sure?"
-msgstr "你確定?"
+msgstr "確定？"
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
@@ -3806,7 +3806,7 @@ msgstr "程序"
 #: src/application/widgets/ServerStatus.cpp:70
 msgctxt "ServerStatus|"
 msgid "Skins"
-msgstr "皮膚"
+msgstr "Skin"
 
 #: src/application/widgets/ServerStatus.cpp:72
 msgctxt "ServerStatus|"
@@ -4034,7 +4034,7 @@ msgstr "模組包解壓縮失敗"
 #, qt-format
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Could not fix permissions for %1"
-msgstr "無法修復 %1 的權限。"
+msgstr "無法修正 %1 的權限"
 
 #: src/api/logic/modplatform/technic/SingleZipPackInstallTask.cpp:128
 msgctxt "Technic::SingleZipPackInstallTask|"
@@ -4091,7 +4091,7 @@ msgstr "模組包解壓縮失敗"
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not fix permissions for %1"
-msgstr "無法修復 %1 的權限。"
+msgstr "無法修正 %1 的權限"
 
 #: src/api/logic/modplatform/technic/SolderPackInstallTask.cpp:192
 msgctxt "Technic::SolderPackInstallTask|"
@@ -4101,18 +4101,18 @@ msgstr "實例匯入已被中斷。"
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:58
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"bin/modpack.jar\" file!"
-msgstr "無法開啟 \"bin/modpack.jar\" 檔案!"
+msgstr "無法開啟「bin/modpack.jar」檔案！"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:70
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"fmlversion.properties\"!"
-msgstr "無法開啟 \"fmlversion.properties\"!"
+msgstr "無法開啟「fmlversion.properties」！"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:84
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:139
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"version.json\"!"
-msgstr "無法開啟 \"version.json\"!"
+msgstr "無法開啟「version.json」！"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:93
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4122,17 +4122,17 @@ msgstr "在 \"bin/modpack.jar\" 中找不到 \"version.json\"，Minecraft版本�
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:107
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"forgeversion.properties\""
-msgstr "無法開啟 \"forgeversion.properties\""
+msgstr "無法開啟「forgeversion.properties」"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:122
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Invalid \"forgeversion.properties\"!"
-msgstr "無效的 \"forgeversion.properties\"!"
+msgstr "此「forgeversion.properties」無效！"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:148
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to find a \"version.json\"!"
-msgstr "找不到 \"version.json\"!"
+msgstr "找不到「version.json」！"
 
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:161
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4144,7 +4144,7 @@ msgstr "無法解析 \"version.json\":\n"
 #: src/api/logic/modplatform/technic/TechnicPackProcessor.cpp:202
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
-msgstr "無法解析 \"version.json\":\n"
+msgstr "無法解析「version.json」：\n"
 
 #: src/application/pages/modplatform/technic/TechnicPage.ui:35
 msgctxt "TechnicPage|"
@@ -4249,7 +4249,7 @@ msgstr "新的%1更新已可使用!"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "No %1 updates found. You are running the latest version."
-msgstr "沒有找到%1更新，你現在正在使用最新版本。"
+msgstr "未找到 %1 版的更新。您正在使用最新版本。"
 
 #: src/application/dialogs/UpdateDialog.cpp:23
 msgctxt "UpdateDialog|"
@@ -4588,14 +4588,14 @@ msgstr "目前沒有intermediary mappings版本"
 #: src/application/pages/instance/VersionPage.cpp:361
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
-msgstr "無法下載或載入intermediary mappings版本清單!"
+msgstr "無法載入或下載 intermediary mappings 版本清單！"
 
 #: src/application/pages/instance/VersionPage.cpp:389
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "MultiMC 需要至少一個帳號才能下載 Minecraft 或更新實例。\n"
-"請新增你的 Mojang 或 Minecraft 帳號。"
+"請新增您的 Mojang 或 Minecraft 帳號。"
 
 #: src/application/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
@@ -4695,7 +4695,7 @@ msgstr "版本名稱。"
 #: src/application/VersionProxyModel.cpp:98
 msgctxt "VersionProxyModel|"
 msgid "Minecraft version"
-msgstr "Minecraft版本"
+msgstr "Minecraft 版本"
 
 #: src/application/VersionProxyModel.cpp:100
 msgctxt "VersionProxyModel|"
@@ -4875,16 +4875,16 @@ msgstr "功能表"
 #: src/application/pages/instance/WorldListPage.cpp:154
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
-msgstr "你確定?"
+msgstr "確定？"
 
 #: src/application/pages/instance/WorldListPage.cpp:155
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
 "Do you want to continue?"
-msgstr "這將會永久移除已選擇的世界。\n"
-"此世界將會永遠消失(非常之久)。\n\n"
-"你真的要繼續嗎?"
+msgstr "將會永久移除所選的世界。\n"
+"此世界將會永遠消失（非 常 久）。\n\n"
+"您真的要繼續嗎？"
 
 #: src/application/pages/instance/WorldListPage.cpp:266
 msgctxt "WorldListPage|"
@@ -4895,8 +4895,8 @@ msgstr "未找到MCEdit或尚未設定!"
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
-msgstr "MCEdit尚未設定或路徑已變更。\n"
-"你可以在全域設定裡設定。"
+msgstr "MCEdit 尚未設定，或路徑已變更。\n"
+"您可以在全域設定裡設定。"
 
 #: src/application/pages/instance/WorldListPage.cpp:276
 msgctxt "WorldListPage|"

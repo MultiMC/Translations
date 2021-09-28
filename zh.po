@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2021-07-28 05:26\n"
+"PO-Revision-Date: 2021-09-16 14:38\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -25,12 +25,12 @@ msgstr "无法解析包清单：\n"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:157
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for "
-msgstr "无法获取本地元数据索引 "
+msgstr "无法获取本地元数据索引"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:144
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown mod type: "
-msgstr "未知模组类型： "
+msgstr "未知模组类型："
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:274
 msgctxt "ATLauncher::PackInstallTask|"
@@ -40,7 +40,7 @@ msgstr "未知或不支持的下载类型： "
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:367
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading configs..."
-msgstr "正在下载配置文件..."
+msgstr "正在下载配置文件……"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:368
 msgctxt "ATLauncher::PackInstallTask|"
@@ -50,7 +50,7 @@ msgstr "下载配置"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:400
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting configs..."
-msgstr "正在解压配置文件..."
+msgstr "正在解压配置文件……"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:407
 #, qt-format
@@ -61,7 +61,7 @@ msgstr "无法打开整合包文件 %1！"
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:426
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading mods..."
-msgstr "正在下载模组…"
+msgstr "正在下载模组……"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:429
 msgctxt "ATLauncher::PackInstallTask|"
@@ -86,7 +86,7 @@ msgstr "解压模组失败..."
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:556
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr "正在解压模组..."
+msgstr "正在解压模组……"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:618
 msgctxt "ATLauncher::PackInstallTask|"
@@ -131,7 +131,7 @@ msgstr "频道："
 #: src/application/dialogs/AboutDialog.ui:149
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>MultiMC is a custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>MultiMC是一个Minecraft的第三方启动器，它可以让你在一个软件里更容易的管理不同版本的Minecraft。</p></body></html>"
+msgstr "<html><head/><body><p>MultiMC是一个Minecraft的第三方启动器，它可以让你更便捷地管理不同版本的Minecraft。</p></body></html>"
 
 #: src/application/dialogs/AboutDialog.ui:168
 msgctxt "AboutDialog|"
@@ -151,7 +151,7 @@ msgstr "许可"
 #: src/application/dialogs/AboutDialog.ui:252
 msgctxt "AboutDialog|"
 msgid "Forking/Redistribution"
-msgstr "分支/重新发布"
+msgstr "派生/重新发布"
 
 #: src/application/dialogs/AboutDialog.ui:274
 msgctxt "AboutDialog|"
@@ -273,26 +273,25 @@ msgstr "统计数据"
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
 msgid "We track some anonymous statistics about users."
-msgstr "我们会统计一些关于用户的匿名统计数据。"
+msgstr "我们会收集一些关于用户的匿名统计数据。"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><head/>\n"
-"<body>\n"
-"<p>MultiMC在每次启动时发送匿名使用数据。这将会帮助我们关注哪些平台和问题。</p>\n"
-"<p>数据由Google Analytics处理，见就此事的文章<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\"></p>\n"
+msgstr "<html><body>\n"
+"<p>MultiMC 在每次启动时发送匿名使用数据, 这些数据将会帮助我们决定目前的工作重心。</p>\n"
+"<p>数据由 Google Analytics 处理, <a href=\"https://support.google.com/analytics/answer/6004245?hl=zh-cn\">关于其匿名性</a></p>\n"
 "<p>下列数据将会被收集:</p>\n"
 "<ul>\n"
-"<li>一个MultiMC安装的唯一随机ID.<br />其存放在程序设置文件(multimc.cfg)中.</li>\n"
-"<li>匿名化的(部分) IP地址.</li>\n"
+"<li>每个 MultiMC 安装时产生的唯一随机 ID.<br />其存放在程序设置文件(multimc.cfg)中.</li>\n"
+"<li>匿名化的 (部分) IP地址.</li>\n"
 "<li>MultiMC 版本.</li>\n"
-"<li>操作系统名称，版本和架构.</li>\n"
-"<li>CPU架构(Linux的内核架构).</li>\n"
+"<li>操作系统名称, 版本和架构.</li>\n"
+"<li>CPU架构 (Linux的内核架构).</li>\n"
 "<li>系统内存大小.</li>\n"
-"<li>Java版本，架构和内存设定.</li>\n"
+"<li>Java版本, 架构和内存设定.</li>\n"
 "</ul>\n"
-"<p>如果我们变更了这些跟踪的信息，你将会再次看到这个页面。</p>\n"
+"<p>如果我们变更了这些跟踪的信息, 你将会再次看到这个页面。</p>\n"
 "</body></html>"
 
 #: src/application/setupwizard/AnalyticsWizardPage.cpp:62
@@ -319,7 +318,7 @@ msgstr "读取资源索引错误！"
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:74
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr "正在从Mojang获取assets资源文件..."
+msgstr "正在从Mojang获取assets资源文件……"
 
 #: src/api/logic/minecraft/update/AssetUpdateTask.cpp:88
 #, qt-format
@@ -340,7 +339,7 @@ msgstr "下载assets资源时出错：\n"
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
 msgctxt "Atl::FilterModel|"
 msgid "Sort by popularity"
-msgstr "按受欢迎程度排序"
+msgstr "按热度排序"
 
 #: src/application/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
 msgctxt "Atl::FilterModel|"
@@ -355,7 +354,7 @@ msgstr "按游戏版本排序"
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:39
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr "警告：这是一个未完成的功能。如果你导入整合包遇到问题，这可能是一个漏洞。"
+msgstr "警告：这是一个未完成的功能。程序漏洞可能会导致你导入的整合包存在问题。"
 
 #: src/application/pages/modplatform/atlauncher/AtlPage.ui:56
 msgctxt "AtlPage|"
@@ -547,7 +546,7 @@ msgstr "导出实例"
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr "导出%1"
+msgstr "导出 %1"
 
 #: src/application/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
@@ -2297,7 +2296,7 @@ msgstr "导出实例"
 #: src/application/MainWindow.cpp:555
 msgctxt "MainWindow|"
 msgid "Delete"
-msgstr "删除"
+msgstr "移除实例"
 
 #: src/application/MainWindow.cpp:556
 msgctxt "MainWindow|"
@@ -3174,7 +3173,7 @@ msgstr "将你的API密钥粘贴到这里!"
 #: src/application/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p>MultiMC用 <a href=\"https://paste.ee\">paste.ee</a> 来上传日志. 如果你有一个 <a href=\"https://paste.ee\">paste.ee</a> 帐号, 你可以在这里添加你的API密钥Key并将你上传的日志与你的帐号关联.</p></body></html>"
+msgstr "<html><head/><body><p>MultiMC用 <a href=\"https://paste.ee\">paste.ee</a> 来上传日志. 如果你有一个 <a href=\"https://paste.ee\">paste.ee</a> 帐号, 你可以在这里添加你的API密钥并将你上传的日志与你的帐号关联.</p></body></html>"
 
 #: src/application/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3259,7 +3258,7 @@ msgstr " （使用中)"
 #: src/application/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
 msgid "Please wait..."
-msgstr "请稍后..."
+msgstr "请稍候…"
 
 #: src/application/dialogs/ProgressDialog.ui:32
 msgctxt "ProgressDialog|"
