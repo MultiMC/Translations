@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2021-09-29 15:10\n"
+"PO-Revision-Date: 2021-09-29 15:24\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -668,13 +668,13 @@ msgstr "Inválido"
 #: src/application/pages/global/ExternalToolsPage.cpp:225
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
-msgstr "O arquivo escolhido não parece ser um executável"
+msgstr "O arquivo selecionado não parece ser um executável"
 
 #: src/api/logic/minecraft/launch/ExtractNatives.cpp:97
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr "Não foi possível extrair o native jar '%1' para '%2'"
+msgstr "Não foi possível extrair o .jar nativo \"%1\" para \"%2\""
 
 #: src/api/logic/minecraft/update/FMLLibrariesTask.cpp:37
 msgctxt "FMLLibrariesTask|"
@@ -968,7 +968,7 @@ msgstr "Não foi possível abrir o .zip do modpack fornecido."
 #: src/api/logic/InstanceImportTask.cpp:191
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr "O arquivo não contém um tipo de modpack reconhecível."
+msgstr "O arquivo não contém um tipo de modpack legível."
 
 #: src/api/logic/InstanceImportTask.cpp:143
 msgctxt "InstanceImportTask|"
@@ -1082,7 +1082,7 @@ msgstr "Abrir definições gerais"
 #: src/application/pages/instance/InstanceSettingsPage.ui:32
 msgctxt "InstanceSettingsPage|"
 msgid "The settings here are overrides for global settings."
-msgstr "As configurações daqui sobrescrevem as gerais."
+msgstr "As definições daqui sobrescrevem as gerais."
 
 #: src/application/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
@@ -1595,7 +1595,7 @@ msgstr "O MultiMC parou de atualizar o registro porque o mesmo ultrapassou %1 li
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "O comando de wrapper \"%1\" não foi encontrado."
+msgstr "Não foi possível encontrar o comando de wrapper \"%1\"."
 
 #. Error message displayed if instace can't start
 #: src/api/logic/minecraft/launch/LauncherPartLaunch.cpp:143
@@ -2800,7 +2800,7 @@ msgstr "Abrir console enquanto o jogo estiver rodando?"
 #: src/application/pages/global/MultiMCPage.ui:367
 msgctxt "MultiMCPage|"
 msgid "Automatically close console when the game quits?"
-msgstr "Fechar console automaticamente ao fechar o jogo?"
+msgstr "Fechar console automaticamente ao encerrar o jogo?"
 
 #: src/application/pages/global/MultiMCPage.ui:374
 msgctxt "MultiMCPage|"
@@ -3098,14 +3098,14 @@ msgstr "Apagar"
 #: src/application/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr "Deseja apagar todos os arquivos de registros?"
+msgstr "Deseja mesmo apagar todos os arquivos de registros?"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:228
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr "Deseja excluir esses arquivos?\n"
+msgstr "Deseja mesmo excluir esses arquivos?\n"
 "%1"
 
 #: src/application/pages/instance/OtherLogsPage.cpp:255
@@ -3342,7 +3342,7 @@ msgstr "O valor do 'minimumLauncherVersion' desta versão (%1) é maior que o su
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr "Versão do arquivo de componente inválida, esperava-se %1"
+msgstr "Versão do arquivo do componente inválida, espera-se %1"
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -3357,17 +3357,17 @@ msgstr "A URL do arquivo .jar principal não pode ser determinada – a Mojang r
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:236
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
-msgstr "O arquivo de versão tem o elemento não suportado 'tweakers'"
+msgstr "O arquivo de versão contém o elemento incompatível \"tweakers\""
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:240
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr "O arquivo de versão tem o elemento não suportado '-libraries'"
+msgstr "O arquivo de versão contém o elemento incompatível \"-libraries\""
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:244
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr "O arquivo de versão tem o elemento não suportado '-tweakers'"
+msgstr "O arquivo de versão contém o elemento incompatível \"-tweakers\""
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:248
 msgctxt "QObject|"
@@ -3630,7 +3630,7 @@ msgstr "O arquivo escolhido ou não existe, ou não é um executável."
 #: src/application/widgets/JavaSettingsWidget.cpp:286
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr "O binário Java especificado não iniciou corretamente.<br />"
+msgstr "O binário de Java especificado não iniciou corretamente.<br />"
 
 #: src/application/widgets/JavaSettingsWidget.cpp:298
 msgctxt "QObject|"
@@ -3651,12 +3651,12 @@ msgstr "Servidor de Minecraft"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr "QIODevice::Append não é suportado para GZIP"
+msgstr "QIODevice::Append é incompatível com o GZIP"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr "Abrir gzip para ambas leitura e escrita não é suportado"
+msgstr "Não é possível abrir um gzip para leitura e escrita"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
@@ -3671,12 +3671,12 @@ msgstr "Não foi possível executar a operação gzopen() no arquivo"
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr "QIODevice::Append não é suportado para QuaZIODevice"
+msgstr "QIODevice::Append é incompatível com o QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr "QIODevice::ReadWrite não é suportado para QuaZIODevice"
+msgstr "QIODevice::ReadWrite é incompatível com o QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
@@ -4250,7 +4250,7 @@ msgstr "Uma nova atualização do canal %1 está disponível!"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "No %1 updates found. You are running the latest version."
-msgstr "Nenhuma atualização disponível. Você está rodando a última versão."
+msgstr "Nenhuma atualização disponível no canal %1. Você está atualizado."
 
 #: src/application/dialogs/UpdateDialog.cpp:23
 msgctxt "UpdateDialog|"
@@ -4260,7 +4260,7 @@ msgstr "Fechar"
 #: src/application/dialogs/UpdateDialog.cpp:25
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr "<center><h1>Carregando changelog...</h1></center>"
+msgstr "<center><h1>Carregando registro de alterações...</h1></center>"
 
 #: src/application/dialogs/UpdateDialog.cpp:165
 #, qt-format
@@ -4584,7 +4584,7 @@ msgstr "Alterar versão do %1"
 #: src/application/pages/instance/VersionPage.cpp:360
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
-msgstr "Não há versões de mapeamentos intermediários disponíveis atualmente."
+msgstr "Nenhuma versão de mapping intermediário disponível atualmente."
 
 #: src/application/pages/instance/VersionPage.cpp:361
 msgctxt "VersionPage|"
