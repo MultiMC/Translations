@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2021-09-30 13:02\n"
+"PO-Revision-Date: 2021-09-30 13:09\n"
 
 #: src/api/logic/modplatform/atlauncher/ATLPackInstallTask.cpp:68
 msgctxt "ATLauncher::PackInstallTask|"
@@ -370,7 +370,7 @@ msgstr "O servidor de autenticação não enviou um token de cliente."
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:97
 msgctxt "AuthenticateTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr "O servidor de autenticação tentou mudar o token do cliente. Isto não é suportado."
+msgstr "O servidor de autenticação tentou alterar o token do cliente. Não é mais possível fazer isso."
 
 #: src/api/logic/minecraft/auth/flows/AuthenticateTask.cpp:109
 msgctxt "AuthenticateTask|"
@@ -420,14 +420,14 @@ msgstr "A instância possui dependências conflitantes."
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:551
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr "A instância tem dependências não resolvidas durante o carregamento/a verificação de inicialização."
+msgstr "A instância contém dependências não resolvidas durante o carregamento/verificação de inicialização."
 
 #: src/api/logic/minecraft/ComponentUpdateTask.cpp:701
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
-msgstr "Falha na tarefa de atualização de metadados de componentes durante o download em servidor remoto:\n"
+msgstr "Falha ao atualizar metadados de componentes durante o download de um servidor remoto:\n"
 "%1"
 
 #: src/application/dialogs/CopyInstanceDialog.ui:17
@@ -709,10 +709,10 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr "Falha no download dos seguintes arquivos:\n"
+msgstr "Falha ao baixar os seguintes arquivos:\n"
 "%1\n"
-"Razão:%2\n"
-"Por favor, tente novamente."
+"Motivo: %2\n"
+"Tente novamente."
 
 #: src/api/logic/modplatform/flame/FileResolvingTask.cpp:15
 msgctxt "Flame::FileResolvingTask|"
@@ -1011,7 +1011,7 @@ msgstr "Mod loader desconhecido no manifesto: %1"
 #: src/api/logic/InstanceImportTask.cpp:263
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr "Pontos misteriosos foram removidos da versão do Minecraft quando o modpack foi importado."
+msgstr "Pontos misteriosos foram removidos da versão do Minecraft ao importar o modpack."
 
 #: src/api/logic/InstanceImportTask.cpp:279
 #, qt-format
@@ -1034,7 +1034,7 @@ msgstr "Talvez essa \"pasta\" precise ser extraída: %1"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr "Agrupar modpacks em outros modpacks ainda não foi implementado, nada foi baixado: %1"
+msgstr "O agrupamento de modpacks em outros ainda não foi implementado, nada foi baixado: %1"
 
 #: src/api/logic/InstanceImportTask.cpp:360
 #, qt-format
@@ -1853,7 +1853,7 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr "A atualização do jogo falhou: não foi possível encontrar as bibliotecas necessárias.\n"
+msgstr "Falha ao atualizar o jogo. Não foi possível buscar as bibliotecas necessárias.\n"
 "Motivo:\n"
 "%1"
 
@@ -3174,7 +3174,7 @@ msgstr "Carregando para o paste.ee"
 #: src/api/logic/net/PasteUpload.cpp:75
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr "O paste.ee retornou um erro. Por favor, consulte o registro para obter mais informações"
+msgstr "O paste.ee informou um erro. Verifique os registros para saber mais."
 
 #: src/api/logic/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
@@ -3347,7 +3347,7 @@ msgstr "Versão do arquivo do componente inválida, espera-se %1"
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "O arquivo de versão tem ambos '+libraries' e 'libraries'. Isto não é mais suportado."
+msgstr "O arquivo de versão contém ambos os \"+libraries\" e \"libraries\". Não é mais possível fazer isso."
 
 #: src/api/logic/minecraft/OneSixVersionFormat.cpp:203
 msgctxt "QObject|"
@@ -3471,7 +3471,7 @@ msgstr "Claro"
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>There are no code changes between your current version and latest %1.</p>"
-msgstr "<p>Nenhuma alteração de código detectada entre a versão atual e a mais recente %1.</p>"
+msgstr "<p>Nenhuma alteração detectada entre a versão atual e a mais \"%1\" mais recente.</p>"
 
 #: src/application/dialogs/UpdateDialog.cpp:126
 msgctxt "QObject|"
@@ -3572,7 +3572,7 @@ msgstr "Carregamento concluído"
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "O <a href=\"%1\">link para o registro enviado </a> foi copiado."
+msgstr "O <a href=\"%1\">link do registro</a> foi copiado."
 
 #: src/application/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -3692,7 +3692,7 @@ msgstr "O servidor de autenticação não enviou um token de cliente."
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr "O servidor de autenticação tentou mudar o token do cliente. Isto não é suportado."
+msgstr "O servidor de autenticação tentou alterar o token do cliente. Não é possível fazer isso."
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
@@ -3782,7 +3782,7 @@ msgstr "O <a href=\"%1\">link da captura de tela</a> foi copiado."
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your clipboard."
-msgstr "O <a href=\"%1\">link  do álbum enviado </a> foi copiado."
+msgstr "O <a href=\"%1\">link do álbum carregado</a> foi copiado."
 
 #: src/application/pages/instance/ScreenshotsPage.cpp:377
 msgctxt "ScreenshotsPage|"
