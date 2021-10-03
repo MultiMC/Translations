@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2021-10-03 02:34\n"
+"PO-Revision-Date: 2021-10-03 03:54\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:74
 msgctxt "ATLauncher::PackInstallTask|"
@@ -43,7 +43,7 @@ msgstr "未知模组类型：%1"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr ""
+msgstr "找不到 %1 的加载器版本"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:209
 msgctxt "ATLauncher::PackInstallTask|"
@@ -80,7 +80,7 @@ msgstr "无法打开整合包文件 %1！"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:484
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Selecting optional mods..."
-msgstr ""
+msgstr "选择可选的 mod..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:488
 msgctxt "ATLauncher::PackInstallTask|"
@@ -553,7 +553,7 @@ msgstr ""
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.cpp:148
 msgctxt "AtlPage|"
 msgid "No versions are currently available"
-msgstr ""
+msgstr "当前没有版本可用"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.cpp:150
 msgctxt "AtlPage|"
@@ -568,17 +568,17 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:97
 msgctxt "AuthContext|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "Mojang 用户验证失败。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:119
 msgctxt "AuthContext|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "Microsoft 用户验证失败。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:127
 msgctxt "AuthContext|"
 msgid "Microsoft user authentication ended with an impossible state (succeeded, but not succeeded at the same time)."
-msgstr ""
+msgstr "Microsoft 用户身份验证以不可能的状态结束(成功，但同时未成功)。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:148
 msgctxt "AuthContext|"
@@ -593,7 +593,7 @@ msgstr "XBox 用户验证失败。"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:319
 msgctxt "AuthContext|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "Xbox 用户认证响应无法识别。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:325
 msgctxt "AuthContext|"
@@ -604,7 +604,7 @@ msgstr "正在开始 XBox 身份验证"
 #, qt-format
 msgctxt "AuthContext|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "此 Microsoft 帐户没有 Xbox Live 个人信息。先在 %1 购买游戏。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:638
 msgctxt "AuthContext|"
@@ -616,7 +616,8 @@ msgstr "XBox Live 服务在您的国家不可用。您的登录请求已被屏�
 msgctxt "AuthContext|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "此 Microsoft 帐户拥有者未成年，且未链接到一个家庭。\n\n"
+"请根据 %1 设置您的帐户。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:655
 #, qt-format
@@ -629,19 +630,21 @@ msgstr "XSTS 身份验证触发了未知的错误:\n\n"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:660
 msgctxt "AuthContext|"
 msgid "XBox and/or Mojang authentication steps did not succeed"
-msgstr ""
+msgstr "Xbox 和/或Mojang认证步骤未成功"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:747
 msgctxt "AuthContext|"
 msgid "Starting minecraft profile acquisition"
-msgstr ""
+msgstr "开始获取 Minecraft 资料"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:771
 msgctxt "AuthContext|"
 msgid "Account is missing a Minecraft Java profile.\n\n"
 "While the Microsoft account is valid, it does not own the game.\n\n"
 "You might own Bedrock on this account, but that does not give you access to Java currently."
-msgstr ""
+msgstr "帐户无 Minecraft Java 版个人信息。\n\n"
+"微软帐户是有效的，但帐户并不拥有游戏。\n\n"
+"此帐户可能拥有基岩版，但目前它并不会给你 Java 版权限。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:776
 msgctxt "AuthContext|"
@@ -651,12 +654,12 @@ msgstr "Minecraft Java 配置获取失败。"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:782
 msgctxt "AuthContext|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "Minecraft Java 版个人信息响应无法解析"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:796
 msgctxt "AuthContext|"
 msgid "Starting check for migration eligibility"
-msgstr ""
+msgstr "开始检查迁移资格"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:851
 msgctxt "AuthContext|"
@@ -1889,7 +1892,7 @@ msgstr "为了正常运行Minecraft，你必须有至少一个已经登录的Moj
 #: src/launcher/LaunchController.cpp:68
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
-msgstr ""
+msgstr "你想使用哪个帐户?"
 
 #: src/launcher/LaunchController.cpp:87
 msgctxt "LaunchController|"
@@ -1914,7 +1917,7 @@ msgstr "登录时收到了不确定的会话状态。"
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Microsoft account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "Microsoft 帐户已过期，需要手动重新登录。"
 
 #: src/launcher/LaunchController.cpp:177
 msgctxt "LaunchController|"
@@ -2404,7 +2407,7 @@ msgstr "添加微软账户"
 #, qt-format
 msgctxt "MSALoginDialog|"
 msgid "<p>Please open up %1 in a browser and put in the code <b>%2</b> to proceed with login.</p>"
-msgstr ""
+msgstr "<p>请在浏览器中打开 %1 并放入代码 <b>%2</b> 以继续登录。</p>"
 
 #: src/launcher/MainWindow.cpp:243
 msgctxt "MainWindow|"
@@ -3074,7 +3077,7 @@ msgstr "无法创建自定义Minecraft jar 文件。"
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr ""
+msgstr "无法找到包版本 %1"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:80
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3812,7 +3815,7 @@ msgstr "该版本(%1)的“最低启动器版本(minimumLauncherVersion)”比Mu
 #, qt-format
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
-msgstr ""
+msgstr "库 %1 的名称已损坏，不能处理。"
 
 #: src/launcher/minecraft/PackProfile.cpp:190
 #, qt-format
@@ -4164,7 +4167,7 @@ msgstr "资源包的版本"
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:16
 msgctxt "ResourcePackFolderModel|"
 msgid "The date and time this resource pack was last changed (or added)."
-msgstr ""
+msgstr "此资源包最后一次修改 (或添加) 的日期和时间。"
 
 #: src/launcher/pages/instance/ResourcePackPage.h:12
 msgctxt "ResourcePackPage|"
@@ -4657,7 +4660,7 @@ msgstr "材质包的版本"
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr ""
+msgstr "此材质包最后一次修改 (或添加) 的日期和时间。"
 
 #: src/launcher/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -5443,12 +5446,12 @@ msgstr "验证服务器未发送客户端令牌(Client Token)"
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:204
 msgctxt "Yggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "验证服务器尝试修改客户端令牌。该操作不被支持。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:214
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "验证服务器没有提供访问令牌（Access Token）。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:236
 msgctxt "Yggdrasil|"
@@ -5480,16 +5483,16 @@ msgstr "身份验证操作因为一个网络错误而失败: %1 (%2)"
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "解析验证服务器JSON回复失败：%1 %2 位置。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:321
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "尝试与认证服务器通信时发生未知错误：%1"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:346
 msgctxt "Yggdrasil|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "发生未知Yggdrasil错误。"
 
