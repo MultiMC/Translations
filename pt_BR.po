@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2021-10-03 00:05\n"
+"PO-Revision-Date: 2021-10-03 00:22\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:74
 msgctxt "ATLauncher::PackInstallTask|"
@@ -31,7 +31,7 @@ msgstr "Falha ao obter o índice de metadados locais para %1"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "Falha ao obter o índice de metadados locais para \"%1\" v%2"
+msgstr "Falha ao obter o índice de metadados locais em \"%1\" v%2"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:150
 #, qt-format
@@ -48,7 +48,7 @@ msgstr "Falha ao buscar a versão para o loader %1"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:209
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "Nenhuma versão de loader definida para essa versão!"
+msgstr "Nenhuma versão de loader definida nessa versão!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:313
 #, qt-format
@@ -80,7 +80,7 @@ msgstr "Falha ao abrir as definições do modpack %1!"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:484
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Selecting optional mods..."
-msgstr "Selecionando mods adicionais..."
+msgstr "Selecionando mods opcionais..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:488
 msgctxt "ATLauncher::PackInstallTask|"
@@ -271,7 +271,7 @@ msgstr "Nome de usuário da conta."
 #: src/launcher/minecraft/auth/AccountList.cpp:267
 msgctxt "AccountList|"
 msgid "Type of the account - Mojang or MSA."
-msgstr "Tipo de conta — Mojang ou MSA."
+msgstr "O tipo de conta — Mojang ou MSA."
 
 #: src/launcher/minecraft/auth/AccountList.cpp:269
 msgctxt "AccountList|"
@@ -359,7 +359,7 @@ msgstr "Insira o seu e-mail e senha da conta Mojang para adicionar uma conta."
 #: src/launcher/pages/global/AccountListPage.cpp:134
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
-msgstr "Contas Microsoft estão indisponíveis"
+msgstr "Contas Microsoft não estão disponíveis"
 
 #: src/launcher/pages/global/AccountListPage.cpp:135
 msgctxt "AccountListPage|"
@@ -545,7 +545,7 @@ msgstr "Nenhuma versão está disponível atualmente"
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.cpp:150
 msgctxt "AtlPage|"
 msgid "Couldn't load or download the version lists!"
-msgstr "Não foi possível carregar ou baixar as listas de versão!"
+msgstr "Não foi possível carregar ou baixar as listas de versões!"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.h:44
 msgctxt "AtlPage|"
@@ -629,7 +629,9 @@ msgctxt "AuthContext|"
 msgid "Account is missing a Minecraft Java profile.\n\n"
 "While the Microsoft account is valid, it does not own the game.\n\n"
 "You might own Bedrock on this account, but that does not give you access to Java currently."
-msgstr ""
+msgstr "Essa conta não possui um perfil de Minecraft: Java Edition.\n\n"
+"Apesar de ser uma conta Microsoft válida, ela não contém o jogo.\n\n"
+"Você possui a Bedrock Edition nessa conta, mas não a Java Edition atualmente."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:776
 msgctxt "AuthContext|"
@@ -639,7 +641,7 @@ msgstr "Falha ao adquirir o perfil do Minecraft: Java Edition"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:782
 msgctxt "AuthContext|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr "A resposta do perfil do Minecraft: Java Edition não pôde ser analisada"
+msgstr "Não foi possível analisar a resposta do perfil de Minecraft: Java Edition"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:796
 msgctxt "AuthContext|"
@@ -675,7 +677,7 @@ msgstr "Iniciando sessão com os serviços Xbox e Mojang"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:898
 msgctxt "AuthContext|"
 msgid "Getting Minecraft profile"
-msgstr "Buscando perfil de Minecraft"
+msgstr "Obtendo perfil de Minecraft"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:900
 msgctxt "AuthContext|"
@@ -685,7 +687,7 @@ msgstr "Verificando a possibilidade de migração"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:902
 msgctxt "AuthContext|"
 msgid "Getting Minecraft skin"
-msgstr "Buscando skin de Minecraft"
+msgstr "Obtendo skin de Minecraft"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:904
 msgctxt "AuthContext|"
@@ -1082,7 +1084,7 @@ msgstr "Ordenar por autor"
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:29
 msgctxt "FlamePage|"
 msgid "Sort by total downloads"
-msgstr "Ordenar por número de downloads"
+msgstr "Ordenar por downloads"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:102
 msgctxt "FlamePage|"
@@ -1587,7 +1589,7 @@ msgstr "Usar instalação do OpenAL do sistema"
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellanous"
-msgstr "Diversos"
+msgstr "Diversas"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
@@ -1912,7 +1914,7 @@ msgstr "Falha ao atualizar a conta Microsoft"
 #: src/launcher/LaunchController.cpp:187
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr ""
+msgstr "Essa conta já não existe nos servidores. Pode ter sido migrada. Se for o caso, adicione a nova conta migrada."
 
 #: src/launcher/LaunchController.cpp:190
 msgctxt "LaunchController|"
@@ -2854,7 +2856,7 @@ msgstr ", jogada pela última vez por %1"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr ""
+msgstr ", jogada por %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:810
 msgctxt "MinecraftInstance|"
@@ -5452,7 +5454,7 @@ msgstr "A operação de autenticação foi cancelada."
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:244
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr ""
+msgstr "<b>Falha ao iniciar o handshake de SSL.</b><br/>As causas possíveis:<br/><ul><li>Você está rodando o Windows XP e precisa<a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">atualizar os certificados raiz</a></li><li>Algum dispositivo em sua rede está interferindo com o tráfego de SSL. Se for o caso, verifique a situação imediatamente.</li><li>Outra causa possível. Verifique os registros do MultiMC para saber mais.</li></ul>"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:261
 msgctxt "Yggdrasil|"
