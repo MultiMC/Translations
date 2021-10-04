@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
-"PO-Revision-Date: 2021-10-04 10:27\n"
+"PO-Revision-Date: 2021-10-04 10:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:74
 msgctxt "ATLauncher::PackInstallTask|"
@@ -122,7 +122,7 @@ msgstr "Đang cài đặt modpack"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:712
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
-msgstr ""
+msgstr "Không tạo được thành phần thư viện"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:736
 msgctxt "ATLauncher::PackInstallTask|"
@@ -132,7 +132,7 @@ msgstr "Loại loader không xác định: "
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:750
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
-msgstr ""
+msgstr "Không tạo được thành phần gói"
 
 #: src/launcher/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -611,7 +611,8 @@ msgstr "Tài khoản Microsoft này không được phân cấp và không đư�
 msgctxt "AuthContext|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "Xác thực XSTS đã kết thúc với (các) lỗi không nhận dạng được:\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:660
 msgctxt "AuthContext|"
@@ -628,7 +629,9 @@ msgctxt "AuthContext|"
 msgid "Account is missing a Minecraft Java profile.\n\n"
 "While the Microsoft account is valid, it does not own the game.\n\n"
 "You might own Bedrock on this account, but that does not give you access to Java currently."
-msgstr ""
+msgstr "Tài khoản thiếu hồ sơ Minecraft Java.\n\n"
+"Mặc dù tài khoản Microsoft hợp lệ, nó không sở hữu trò chơi.\n\n"
+"Bạn có thể sở hữu Bedrock trên tài khoản này, nhưng điều đó không cấp cho bạn quyền truy cập vào Java hiện tại."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:776
 msgctxt "AuthContext|"
@@ -2902,12 +2905,12 @@ msgstr ""
 #: src/launcher/pages/global/MinecraftPage.ui:146
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing instances"
-msgstr ""
+msgstr "Hiển thị thời gian đã chơi của phiên bản này"
 
 #: src/launcher/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Record time spent playing instances"
-msgstr ""
+msgstr "Ghi lại thời gian đã chơi của phiên bản này"
 
 #: src/launcher/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3060,7 +3063,7 @@ msgstr "Không thể tạo tập tin tuỳ chỉnh Minecraft jar."
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr ""
+msgstr "Không tìm thấy phiên bản gói %1"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:80
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -4643,7 +4646,7 @@ msgstr "Phiên bản của texture pack."
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr ""
+msgstr "Ngày và giờ gói tài nguyên này được thay đổi (hoặc thêm vào) lần cuối."
 
 #: src/launcher/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -5450,7 +5453,7 @@ msgstr "Thao tác xác thực đã bị hủy."
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:244
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr ""
+msgstr "<b> SSL Handshake không thành công. </b><br/> Có thể có một vài nguyên nhân:<br/><ul><li> Bạn sử dụng Windows XP và cần <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">cập nhật chứng chỉ gốc của bạn</a></li><li> Một số thiết bị trên mạng của bạn đang cản trở lưu lượng SSL. Trong trường hợp đó, bạn còn lo lắng hơn là Minecraft không khởi động được.</li><li>Có thể là điều gì đó khác. Kiểm tra tệp nhật ký MultiMC để biết chi tiết</li></ul>"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:261
 msgctxt "Yggdrasil|"
