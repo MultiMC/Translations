@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2021-10-05 21:56\n"
+"PO-Revision-Date: 2021-10-05 22:15\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:74
 msgctxt "ATLauncher::PackInstallTask|"
@@ -534,7 +534,7 @@ msgstr "검색 및 필터..."
 #, qt-format
 msgctxt "AtlPage|"
 msgid "No versions are currently available for Minecraft %1"
-msgstr ""
+msgstr "마인크래프트 %1에 사용가능한 버전이 없습니다."
 
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.cpp:148
 msgctxt "AtlPage|"
@@ -590,7 +590,7 @@ msgstr "XBox 유저 인증 시작"
 #, qt-format
 msgctxt "AuthContext|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "이 Microsoft 계정은 XBox Live 프로필을 가지고 있지 않습니다. 먼저 %1에서 게임을 구입하십시오."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:638
 msgctxt "AuthContext|"
@@ -602,7 +602,9 @@ msgstr "해당 국가에서는 XBox Live를 사용할 수 없습니다. 당신�
 msgctxt "AuthContext|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "이 Microsoft 계정은 나이가 낮으며 가족 계정에 연결되어 있지 않습니다.\n"
+" \n"
+"%1를 따라 계정을 설정해주세요."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:655
 #, qt-format
@@ -614,7 +616,7 @@ msgstr ""
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:660
 msgctxt "AuthContext|"
 msgid "XBox and/or Mojang authentication steps did not succeed"
-msgstr ""
+msgstr "XBox 및/또는 Mojang 인증 단계를 마치지 못했습니다"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:747
 msgctxt "AuthContext|"
@@ -677,7 +679,7 @@ msgstr ""
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:900
 msgctxt "AuthContext|"
 msgid "Checking for migration eligibility"
-msgstr ""
+msgstr "마이그레이션 자격 확인중"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:902
 msgctxt "AuthContext|"
@@ -1589,17 +1591,17 @@ msgstr "기타"
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
 msgid "Override global game time settings"
-msgstr ""
+msgstr "전역 게임 시간 설정을 오버라이드"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:442
 msgctxt "InstanceSettingsPage|"
 msgid "Show time spent playing this instance"
-msgstr ""
+msgstr "인스턴스에서 플레이 한 시간 보기"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:449
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
-msgstr ""
+msgstr "인스턴스에서 플레이 한 시간 기록"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
@@ -1899,17 +1901,17 @@ msgstr "로그인 과정에서 불분명한 세션 상태를 수신함."
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Microsoft account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "Microsoft 계정이 만료되었으므로 수동으로 다시 로그인해야 합니다."
 
 #: src/launcher/LaunchController.cpp:177
 msgctxt "LaunchController|"
 msgid "Microsoft Account refresh failed"
-msgstr ""
+msgstr "Microsoft 계정 새로 고침 실패"
 
 #: src/launcher/LaunchController.cpp:187
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr ""
+msgstr "계정이 서버에 더 이상 존재하지 않습니다. 마이그레이션되었을 수 있으므로 이 계정을 마이그레이션한 새 계정을 추가하십시오."
 
 #: src/launcher/LaunchController.cpp:190
 msgctxt "LaunchController|"
@@ -2851,7 +2853,7 @@ msgstr ", %1동안 지난 플레이함"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr ""
+msgstr ", %1동안 총 플레이함"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:810
 msgctxt "MinecraftInstance|"
@@ -2901,12 +2903,12 @@ msgstr "게임 시간"
 #: src/launcher/pages/global/MinecraftPage.ui:146
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing instances"
-msgstr ""
+msgstr "인스턴스에서 플레이 한 시간 보기"
 
 #: src/launcher/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Record time spent playing instances"
-msgstr ""
+msgstr "인스턴스에서 플레이 한 시간 기록"
 
 #: src/launcher/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -5466,16 +5468,16 @@ msgstr "인증 작업이 네트워크 오류로 인해 실패하였습니다: %1
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "인증 서버 응답의 JSON 응답을 파싱하는 데 실패하였습니다: 오프셋 %2의 %1."
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:321
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "인증 서버와 통신을 시도하는데 알 수 없는 오류가 발생했습니다: %1"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:346
 msgctxt "Yggdrasil|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "알 수 없는 Yggdrasil 오류가 발생했습니다."
 
