@@ -13,12 +13,12 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
-"PO-Revision-Date: 2021-10-19 15:30\n"
+"PO-Revision-Date: 2021-11-20 12:00\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:74
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Nevarēja saprast paka manifestu:\n"
+msgstr "Nevarēja saprast pakas manifestu:\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:82
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:163
@@ -1999,7 +1999,7 @@ msgstr "Apstādināt Minecraft?"
 #: src/launcher/LaunchController.cpp:388
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr ""
+msgstr "Izmantojot šo jūsu instance var tikt bojāta un ir ieteicams to izmantot tikai ja Minecraft ir sasalis dēļ kāda iemesla"
 
 #: src/launcher/launch/LaunchTask.cpp:215
 #, qt-format
@@ -2188,12 +2188,12 @@ msgstr "Instance no iepriekšējām versijām."
 #: src/launcher/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/MultiMC5/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Atjauninājums ir nepieciešams</h1><p>MultiMC tagad atbalsta vecās Minecraft versijas un visas nepieciešamās funkcijas jaunajā (OneSix) instanču formātā. Kā sekas, vecais (Legacy) formāts ir pilnībā izslēgts un vecās instances ir nepieciešams atjaunināt.</p><p>Atjauninājums izveidos jaunu instanci ar to pašu saturu kā iepriekšējo instanci, bet jaunajā formātā. Vecajai instancei nekas nenotiks, ja nu kaut kas aiziet greizi procesā.</p><p>Lūdzu paziņojiet par kļūdām mūsu <a href=\"https://github.com/MultiMC/MultiMC5/issues\"> github problēmu lapā</a>.</p><p>Ir arī <a href=\"https://discord.gg/GtPmv93\">discord kanāls priekš testēšanas</a>.</p></body></html>"
 
 #: src/launcher/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr ""
+msgstr "Atjaunināt instanci"
 
 #: src/launcher/pages/instance/LegacyUpgradePage.cpp:26
 msgctxt "LegacyUpgradePage|"
@@ -2209,12 +2209,12 @@ msgstr "Pārtraukt"
 #, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
-msgstr ""
+msgstr "%1 (Migrēts)"
 
 #: src/launcher/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade"
-msgstr ""
+msgstr "Atjaunināt"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -2230,28 +2230,28 @@ msgstr "Neizdevās kopēt instances mapi."
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr ""
+msgstr "Nevarēja izvēlēties Minecraft versiju."
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr ""
+msgstr "Instances mapes kopija tika apstādināta."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:13
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr ""
+msgstr "Ņem nepieciešamās datnes no Mojang..."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:21
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr ""
+msgstr "Dati priekš instances %1"
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:32
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "Null jar ir specificēts datos, process tiek beigts."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:59
 #, qt-format
@@ -2260,7 +2260,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "Daži artifakti marķēti kā 'local' nav to failu:\n"
+"%1\n\n"
+"Just vajadzēs pievienot šos failus, vai noņemt pakas kurām tie ir nepieciešami.\n"
+"Jums vajadzēs šo kļūdu salabot manuāli."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:76
 #, qt-format
@@ -2268,12 +2271,14 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr ""
+msgstr "Spēles atjauninājums nenostrādāja: Bija neiespējami iegūt nepieciešamās datnes.\n"
+"Iemesls:\n"
+"%1"
 
 #: src/launcher/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
 msgid "Keep updating"
-msgstr ""
+msgstr "Turpināt atjaunināt"
 
 #: src/launcher/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
@@ -2283,87 +2288,87 @@ msgstr ""
 #: src/launcher/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
 msgid "Copy the whole log into the clipboard"
-msgstr ""
+msgstr "Copēt logu starpliktuvē"
 
 #: src/launcher/pages/instance/LogPage.ui:96
 msgctxt "LogPage|"
 msgid "&Copy"
-msgstr ""
+msgstr "&Kopēt"
 
 #: src/launcher/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr ""
+msgstr "Augšupielādējiet logu paste.ee - tas tur paliks uz mēnesi"
 
 #: src/launcher/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
 msgid "Upload"
-msgstr ""
+msgstr "Augšupielādēt"
 
 #: src/launcher/pages/instance/LogPage.ui:113
 msgctxt "LogPage|"
 msgid "Clear the log"
-msgstr ""
+msgstr "Notīrīt logu"
 
 #: src/launcher/pages/instance/LogPage.ui:116
 msgctxt "LogPage|"
 msgid "Clear"
-msgstr ""
+msgstr "Notīrīt"
 
 #: src/launcher/pages/instance/LogPage.ui:125
 msgctxt "LogPage|"
 msgid "Search:"
-msgstr ""
+msgstr "Meklēt:"
 
 #: src/launcher/pages/instance/LogPage.ui:132
 msgctxt "LogPage|"
 msgid "Find"
-msgstr ""
+msgstr "Meklēt"
 
 #: src/launcher/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr ""
+msgstr "Skrullēt uz pašu apakšu"
 
 #: src/launcher/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr ""
+msgstr "Uz apakšu"
 
 #: src/launcher/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr ""
+msgstr "Minecraft Logs"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:68
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1."
-msgstr ""
+msgstr "Process beidzās ar kodu %1."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:75
 msgctxt "LoggedProcess|"
 msgid "Process crashed."
-msgstr ""
+msgstr "Process nogāja greizi."
 
 #: src/launcher/LoggedProcess.cpp:77
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1."
-msgstr ""
+msgstr "Process beidzās ar kodu %1."
 
 #. Message displayed after the instance exits due to kill request
 #: src/launcher/LoggedProcess.cpp:84
 msgctxt "LoggedProcess|"
 msgid "Process was killed by user."
-msgstr ""
+msgstr "Lietotājs beidza procesu."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "The process failed to start."
-msgstr ""
+msgstr "Process nevarēja sākties."
 
 #: src/launcher/dialogs/LoginDialog.ui:20
 msgctxt "LoginDialog|"
@@ -2419,7 +2424,7 @@ msgstr "Galvenā Rīkjosla"
 #: src/launcher/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Add Instance"
-msgstr "Pievienot Instanci"
+msgstr "Pievienot instanci"
 
 #: src/launcher/MainWindow.cpp:273
 msgctxt "MainWindow|"
@@ -2474,7 +2479,7 @@ msgstr "Paziņot par kļūdu"
 #: src/launcher/MainWindow.cpp:328
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with MultiMC."
-msgstr ""
+msgstr "Atvērt kļūdu pārvaldītāju lai paziņotu par MultiMC kļūdu."
 
 #: src/launcher/MainWindow.cpp:337
 msgctxt "MainWindow|"
@@ -2484,7 +2489,7 @@ msgstr "Discord"
 #: src/launcher/MainWindow.cpp:338
 msgctxt "MainWindow|"
 msgid "Open MultiMC discord voice chat."
-msgstr ""
+msgstr "Atvērt MultiMC discord skaņas čatu."
 
 #: src/launcher/MainWindow.cpp:347
 msgctxt "MainWindow|"
@@ -2514,7 +2519,7 @@ msgstr "Palīdzība"
 #: src/launcher/MainWindow.cpp:364
 msgctxt "MainWindow|"
 msgid "Get help with MultiMC or Minecraft."
-msgstr ""
+msgstr "Saņemt palīdzību ar MultiMC vai Minecraft."
 
 #: src/launcher/MainWindow.cpp:380
 msgctxt "MainWindow|"
@@ -2524,7 +2529,7 @@ msgstr "Atjaunināt"
 #: src/launcher/MainWindow.cpp:381
 msgctxt "MainWindow|"
 msgid "Check for new updates for MultiMC."
-msgstr ""
+msgstr "Pārbaudīt MultiMC atjauninājumus."
 
 #: src/launcher/MainWindow.cpp:391
 msgctxt "MainWindow|"
@@ -2684,7 +2689,7 @@ msgstr ""
 #: src/launcher/MainWindow.cpp:568
 msgctxt "MainWindow|"
 msgid "Export Instance"
-msgstr ""
+msgstr "Eksportēt Instanci"
 
 #: src/launcher/MainWindow.cpp:575
 msgctxt "MainWindow|"
@@ -2704,24 +2709,24 @@ msgstr "Kopēt Instanci"
 #: src/launcher/MainWindow.cpp:584
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
-msgstr ""
+msgstr "Kopējiet izvēlēto instanci."
 
 #: src/launcher/MainWindow.cpp:627
 #, qt-format
 msgctxt "MainWindow|"
 msgid "MultiMC 5 - Version %1"
-msgstr ""
+msgstr "MultiMC 5 - Version %1"
 
 #: src/launcher/MainWindow.cpp:630
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
-msgstr ""
+msgstr " par %1"
 
 #: src/launcher/MainWindow.cpp:740 src/launcher/MainWindow.cpp:852
 msgctxt "MainWindow|"
 msgid "No instance selected"
-msgstr ""
+msgstr "Nav specificētas instances"
 
 #: src/launcher/MainWindow.cpp:741
 msgctxt "MainWindow|"
@@ -2731,23 +2736,23 @@ msgstr "Kopējais spēles laiks: 0s."
 #: src/launcher/MainWindow.cpp:846 src/launcher/MainWindow.cpp:1127
 msgctxt "MainWindow|"
 msgid "Profiles"
-msgstr ""
+msgstr "Profili"
 
 #: src/launcher/MainWindow.cpp:906
 msgctxt "MainWindow|"
 msgid "Create instance"
-msgstr ""
+msgstr "Izveidot Instanci"
 
 #: src/launcher/MainWindow.cpp:922
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
-msgstr ""
+msgstr "Dzēst grupu '%1'"
 
 #: src/launcher/MainWindow.cpp:983
 msgctxt "MainWindow|"
 msgid "Profilers"
-msgstr ""
+msgstr "Profili"
 
 #: src/launcher/MainWindow.cpp:995
 msgctxt "MainWindow|"
@@ -2757,22 +2762,22 @@ msgstr ""
 #: src/launcher/MainWindow.cpp:1036
 msgctxt "MainWindow|"
 msgid "No accounts added!"
-msgstr ""
+msgstr "Neviens konts nav pievienots!"
 
 #: src/launcher/MainWindow.cpp:1063
 msgctxt "MainWindow|"
 msgid "No Default Account"
-msgstr ""
+msgstr "Nav Noklusējuma Konta"
 
 #: src/launcher/MainWindow.cpp:1167
 msgctxt "MainWindow|"
 msgid "Loading news..."
-msgstr ""
+msgstr "Lādē jaunumus..."
 
 #: src/launcher/MainWindow.cpp:1180
 msgctxt "MainWindow|"
 msgid "No news available."
-msgstr ""
+msgstr "Jaunumi nav pieejami."
 
 #: src/launcher/MainWindow.cpp:1263 src/launcher/MainWindow.cpp:1280
 msgctxt "MainWindow|"
@@ -2784,7 +2789,8 @@ msgstr "Kļūda"
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
-msgstr ""
+msgstr "Nevarēja izveidot mapi priekš atjauninājuma lejupielādes:\n"
+"%1"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Meta::Index|"
@@ -2794,22 +2800,22 @@ msgstr "Vārds"
 #: src/launcher/minecraft/MinecraftInstance.cpp:696
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:698
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:700
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:702
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:779
 #, qt-format
@@ -2821,13 +2827,13 @@ msgstr "%1m %2s"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1h %2m"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:785
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1d %2h %3m"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:793
 msgctxt "MinecraftInstance|"
@@ -2844,13 +2850,13 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
-msgstr ""
+msgstr ", pēdējo reizi spēlēts %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:805
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr ""
+msgstr ", kopā spēlēts %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:810
 msgctxt "MinecraftInstance|"
@@ -2870,12 +2876,12 @@ msgstr "Atvērt Minecraft maksimizētu?"
 #: src/launcher/pages/global/MinecraftPage.ui:63
 msgctxt "MinecraftPage|"
 msgid "Window hei&ght:"
-msgstr ""
+msgstr "Loga garums:"
 
 #: src/launcher/pages/global/MinecraftPage.ui:73
 msgctxt "MinecraftPage|"
 msgid "W&indow width:"
-msgstr ""
+msgstr "Loga platums:"
 
 #: src/launcher/pages/global/MinecraftPage.ui:117
 msgctxt "MinecraftPage|"
@@ -2915,7 +2921,7 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/MinecraftUpdate.cpp:88
 msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
-msgstr ""
+msgstr "Lietotājs beidza procesu."
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:368
 msgctxt "ModFolderModel|"
@@ -3015,7 +3021,7 @@ msgstr "Atspējot izvēlētās modifikācijas"
 #: src/launcher/pages/instance/ModFolderPage.ui:128
 msgctxt "ModFolderPage|"
 msgid "View &Configs"
-msgstr ""
+msgstr "&Konfigurācija"
 
 #: src/launcher/pages/instance/ModFolderPage.ui:131
 msgctxt "ModFolderPage|"
@@ -3025,7 +3031,7 @@ msgstr ""
 #: src/launcher/pages/instance/ModFolderPage.ui:136
 msgctxt "ModFolderPage|"
 msgid "View &Folder"
-msgstr ""
+msgstr "Skatīt Mapi"
 
 #: src/launcher/pages/instance/ModFolderPage.cpp:188
 msgctxt "ModFolderPage|"
@@ -3036,7 +3042,7 @@ msgstr "Konteksta izvēlne"
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
-msgstr ""
+msgstr "Izvēlēties %1"
 
 #: src/launcher/minecraft/launch/ModMinecraftJar.cpp:36
 msgctxt "ModMinecraftJar|"
@@ -3058,7 +3064,7 @@ msgstr "Nevarēja izveidot personalizēto Minecraft jar failu."
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr ""
+msgstr "Nevarēja atrast pakas versiju %1"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:80
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3078,17 +3084,17 @@ msgstr "Modifikāciju lejuplāde"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:149
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
-msgstr ""
+msgstr "Kopē modpaku failus"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
-msgstr ""
+msgstr "Failu kopēšana neizdevās"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:162
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Instalē modpaku"
 
 #: src/launcher/MultiMC.cpp:693
 msgctxt "MultiMC|"
@@ -3143,7 +3149,7 @@ msgstr "&Ikonas:"
 #: src/launcher/pages/global/MultiMCPage.ui:163
 msgctxt "MultiMCPage|"
 msgid "Move MultiMC data to new location (will restart MultiMC)"
-msgstr ""
+msgstr "Pārvietot MultiMC datus uz citu vietu (restartēs MultiMC)"
 
 #: src/launcher/pages/global/MultiMCPage.ui:184
 msgctxt "MultiMCPage|"
@@ -3158,22 +3164,22 @@ msgstr "MultiMC notifikācijas"
 #: src/launcher/pages/global/MultiMCPage.ui:196
 msgctxt "MultiMCPage|"
 msgid "Reset hidden notifications"
-msgstr ""
+msgstr "Noņemt paslēptos paziņojumus"
 
 #: src/launcher/pages/global/MultiMCPage.ui:212
 msgctxt "MultiMCPage|"
 msgid "Instance view sorting mode"
-msgstr ""
+msgstr "Instanču skata kārtošanas veids"
 
 #: src/launcher/pages/global/MultiMCPage.ui:218
 msgctxt "MultiMCPage|"
 msgid "By &last launched"
-msgstr ""
+msgstr "Pēc pēdējās palaišanas reizes"
 
 #: src/launcher/pages/global/MultiMCPage.ui:228
 msgctxt "MultiMCPage|"
 msgid "By &name"
-msgstr ""
+msgstr "Pēc vārda"
 
 #: src/launcher/pages/global/MultiMCPage.ui:241
 msgctxt "MultiMCPage|"
@@ -3203,7 +3209,7 @@ msgstr "Vienkāršs (Gaišas Ikonas)"
 #: src/launcher/pages/global/MultiMCPage.ui:282
 msgctxt "MultiMCPage|"
 msgid "Simple (Blue Icons)"
-msgstr ""
+msgstr "Vienkāršs (Zilas ikonas)"
 
 #: src/launcher/pages/global/MultiMCPage.ui:287
 msgctxt "MultiMCPage|"
@@ -3243,7 +3249,7 @@ msgstr "Automātiski aizvērt konsoli kad spēle aizverās?"
 #: src/launcher/pages/global/MultiMCPage.ui:381
 msgctxt "MultiMCPage|"
 msgid "Show console when the game crashes?"
-msgstr ""
+msgstr "Rādīt konsoli kad spēle nobrūk?"
 
 #: src/launcher/pages/global/MultiMCPage.ui:391
 msgctxt "MultiMCPage|"
@@ -3278,7 +3284,7 @@ msgstr "Analītikas Iestatījumi"
 #: src/launcher/pages/global/MultiMCPage.ui:502
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "Sūtīt anonīmas izmantošanas statistikas?"
 
 #: src/launcher/pages/global/MultiMCPage.ui:516
 msgctxt "MultiMCPage|"
@@ -3293,7 +3299,17 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>MultiMC sūta anonīmas statistikas katrā programmas startēšanas reizē.</p><p>Sekojošie dati tiek vākti:</p>\n"
+"<ul>\n"
+"<li>MultiMC versija.</li>\n"
+"<li>Operētājsistēmas vārds, versija, un arhitektūra.</li>\n"
+"<li>CPU arhitektūra (kodola arhitektūra operētājsistēmai Linux).</li>\n"
+"<li>Operatīās atmiņas daudzums.</li>\n"
+"<li>Java versija, arhitektūra un operatīvās atmiņas iestatījumi.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/pages/global/MultiMCPage.cpp:106
 msgctxt "MultiMCPage|"
@@ -3323,29 +3339,29 @@ msgstr "Modu Mape"
 #: src/launcher/pages/global/MultiMCPage.cpp:445
 msgctxt "MultiMCPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Something/ERROR] Spocīga kļūda!"
 
 #: src/launcher/pages/global/MultiMCPage.cpp:454
 msgctxt "MultiMCPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Nevainīga ziņa..."
 
 #: src/launcher/pages/global/MultiMCPage.cpp:463
 msgctxt "MultiMCPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Something/WARN] Ne tik biedējošs brīdinājums."
 
 #: src/launcher/net/NetJob.cpp:128
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "Darbs '%1' nevarēja beight procesu: %2"
 
 #: src/launcher/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "Pievienot Tukšu Daļu"
 
 #: src/launcher/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -3376,7 +3392,7 @@ msgstr "&Vārds:"
 #: src/launcher/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Bez grupas"
 
 #: src/launcher/news/NewsChecker.cpp:97
 #, qt-format
@@ -3388,12 +3404,12 @@ msgstr ""
 #: src/launcher/news/NewsEntry.cpp:24 src/launcher/news/NewsEntry.cpp:60
 msgctxt "NewsEntry|"
 msgid "Untitled"
-msgstr ""
+msgstr "Bez nosaukuma"
 
 #: src/launcher/news/NewsEntry.cpp:25 src/launcher/news/NewsEntry.cpp:61
 msgctxt "NewsEntry|"
 msgid "No content."
-msgstr ""
+msgstr "Nav satura."
 
 #: src/launcher/news/NewsEntry.cpp:27 src/launcher/news/NewsEntry.cpp:63
 msgctxt "NewsEntry|"
@@ -3425,17 +3441,17 @@ msgstr "Aizvērt"
 #: src/launcher/NullInstance.h:20
 msgctxt "NullInstance|"
 msgid "Unknown instance type"
-msgstr ""
+msgstr "Nezināms instances veids"
 
 #: src/launcher/pages/instance/OtherLogsPage.ui:42
 msgctxt "OtherLogsPage|"
 msgid "Find"
-msgstr ""
+msgstr "Meklēt"
 
 #: src/launcher/pages/instance/OtherLogsPage.ui:67
 msgctxt "OtherLogsPage|"
 msgid "Copy the whole log into the clipboard"
-msgstr ""
+msgstr "Copēt logu starpliktuvē"
 
 #: src/launcher/pages/instance/OtherLogsPage.ui:70
 msgctxt "OtherLogsPage|"
@@ -3446,7 +3462,7 @@ msgstr "&Kopēt"
 #: src/launcher/pages/instance/OtherLogsPage.ui:97
 msgctxt "OtherLogsPage|"
 msgid "Clear the log"
-msgstr ""
+msgstr "Notīrīt logu"
 
 #: src/launcher/pages/instance/OtherLogsPage.ui:80
 #: src/launcher/pages/instance/OtherLogsPage.cpp:196
@@ -3457,7 +3473,7 @@ msgstr "Dzēst"
 #: src/launcher/pages/instance/OtherLogsPage.ui:87
 msgctxt "OtherLogsPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr ""
+msgstr "Augšupielādējiet logu paste.ee - tas tur paliks uz mēnesi"
 
 #: src/launcher/pages/instance/OtherLogsPage.ui:90
 msgctxt "OtherLogsPage|"
@@ -3490,60 +3506,60 @@ msgstr "Kļūda"
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
-msgstr ""
+msgstr "Nevarēja atvērt %1 lai nolasītu: %2"
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:146
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
-msgstr ""
+msgstr "Fails (%1) ir pārāk liels. Jums ir nepieciešams to atvērt lasītājā kas ir optimizēts priekš lieliem failiem."
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:161
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
-msgstr ""
+msgstr "Fails (%1) nav nolasāms."
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:197
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
-msgstr ""
+msgstr "Vai tiešām vēlaties izdzēst %1?"
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:205
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
-msgstr ""
+msgstr "Nevarēja dzēst %1: %2"
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:220
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
-msgstr ""
+msgstr "Satīrīt"
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:223
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
-msgstr ""
+msgstr "Vai jūs tiešām gribat izdzēst visus logu failus?"
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:228
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
 "%1"
-msgstr ""
+msgstr "Vai tiešām vēlaties dzēst šos failus? %1"
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:255
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
-msgstr ""
+msgstr "Neizdevās izdzēst dažus failus!"
 
 #: src/launcher/pages/instance/OtherLogsPage.cpp:260
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files:\n"
 "%1"
-msgstr ""
+msgstr "Neizdevās izdzēst dažus failus: %1"
 
 #: src/launcher/pages/instance/OtherLogsPage.h:45
 msgctxt "OtherLogsPage|"
@@ -3553,37 +3569,37 @@ msgstr "Citi logi"
 #: src/launcher/minecraft/PackProfile.cpp:852
 msgctxt "PackProfile|"
 msgid "Name"
-msgstr ""
+msgstr "Vārds"
 
 #: src/launcher/minecraft/PackProfile.cpp:854
 msgctxt "PackProfile|"
 msgid "Version"
-msgstr ""
+msgstr "Versija"
 
 #: src/launcher/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
-msgstr ""
+msgstr "paste.ee API atslēga"
 
 #: src/launcher/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr ""
+msgstr "MultiMC atslēga - 12MB &augšupielādes limits"
 
 #: src/launcher/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr ""
+msgstr "&Pašam sava atslēga - 12MB augšupielādes limits:"
 
 #: src/launcher/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
-msgstr ""
+msgstr "Ielīmē savu API atslēgu šeit!"
 
 #: src/launcher/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a>izmanto MultiMC logu augšupielādēm. Ja tev ir <a href=\"https://paste.ee\">paste.ee</a> konts, tu vari pievienot šeit savu API atslēgu un tevis augšupielādētie logi būs savienoti ar tavu kontu.</p></body></html>"
 
 #: src/launcher/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3598,93 +3614,93 @@ msgstr "Augšupielādē uz paste.ee"
 #: src/launcher/net/PasteUpload.cpp:76
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "paste.ee iedeva kļūdu. Lūdzu konsultējaties ar logiem priekš vairāk informācijas"
 
 #: src/launcher/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
-msgstr ""
+msgstr "Tiek veikta pēc-startēšanas komanda: %1"
 
 #: src/launcher/launch/steps/PostLaunchCommand.cpp:39
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Pēc-startēšanas komandu neizdevās pabeigt ar kodu %1.\n\n"
 
 #: src/launcher/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "Pēc-startēšanas komanda veiksmīgi veikta.\n\n"
 
 #: src/launcher/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Running Pre-Launch command: %1"
-msgstr ""
+msgstr "Tiek veikta pirms-startēšanas komanda: %1"
 
 #: src/launcher/launch/steps/PreLaunchCommand.cpp:40
 #, qt-format
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command failed with code %1.\n\n"
-msgstr ""
+msgstr "Pirms-startēšanas komandu neizdevās pabeigt ar kodu %1.\n\n"
 
 #: src/launcher/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr ""
+msgstr "Pirms-startēšanas komanda veiksmīgi veikta.\n\n"
 
 #: src/launcher/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
 msgid "Select an Account"
-msgstr ""
+msgstr "Izvēlieties Kontu"
 
 #: src/launcher/dialogs/ProfileSelectDialog.ui:20
 msgctxt "ProfileSelectDialog|"
 msgid "Select a profile."
-msgstr ""
+msgstr "Izvēlieties profilu."
 
 #: src/launcher/dialogs/ProfileSelectDialog.ui:38
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default?"
-msgstr ""
+msgstr "Izmantot kā noklusējumu?"
 
 #: src/launcher/dialogs/ProfileSelectDialog.ui:45
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr ""
+msgstr "Izmantot kā noklusējumu tikai šavai instancei?"
 
 #: src/launcher/dialogs/ProfileSelectDialog.cpp:42
 #: src/launcher/dialogs/ProfileSelectDialog.cpp:46
 msgctxt "ProfileSelectDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Vārds"
 
 #: src/launcher/dialogs/ProfileSelectDialog.cpp:54
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (Tiek izmantots)"
 
 #: src/launcher/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
 msgid "Please wait..."
-msgstr ""
+msgstr "Lūdzu uzgaidiet..."
 
 #: src/launcher/dialogs/ProgressDialog.ui:32
 msgctxt "ProgressDialog|"
 msgid "Task Status..."
-msgstr ""
+msgstr "Uzdevuma Statuss..."
 
 #: src/launcher/dialogs/ProgressDialog.ui:58
 msgctxt "ProgressDialog|"
 msgid "Skip"
-msgstr ""
+msgstr "Izlaist"
 
 #: src/launcher/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to MultiMC. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Šis ir tikai MultiMC. Minecraft neatbalsta starpniekserveru iestatījumus."
 
 #: src/launcher/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3739,7 +3755,7 @@ msgstr "Parole:"
 #: src/launcher/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside MultiMC's configuration file!"
-msgstr ""
+msgstr "Piezīme: Starpniekservera vārds un parole ir saglabāti MultiMC konfigurācijas failā!"
 
 #: src/launcher/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3829,13 +3845,13 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
-msgstr ""
+msgstr "Faili priekš %1"
 
 #: src/launcher/minecraft/ProfileUtils.cpp:51
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid order file version, expected %1"
-msgstr ""
+msgstr "Nederīga pieprasītā faila versija, gaidīja %1"
 
 #: src/launcher/minecraft/ProfileUtils.cpp:96
 #: src/launcher/minecraft/ProfileUtils.cpp:149
@@ -4708,7 +4724,7 @@ msgstr ""
 #: src/launcher/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
 msgid "Filter"
-msgstr "Filtrs"
+msgstr "Filtri"
 
 #: src/launcher/pages/modplatform/VanillaPage.ui:51
 msgctxt "VanillaPage|"
@@ -4723,22 +4739,22 @@ msgstr "Snapšoti"
 #: src/launcher/pages/modplatform/VanillaPage.ui:74
 msgctxt "VanillaPage|"
 msgid "Old Snapshots"
-msgstr "Veci Snapšoti"
+msgstr "Vecie snapšoti"
 
 #: src/launcher/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
 msgid "Betas"
-msgstr "Betas"
+msgstr "Beta versijas"
 
 #: src/launcher/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr "Alfas"
+msgstr "Alfa versijas"
 
 #: src/launcher/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
 msgid "Experiments"
-msgstr "Experimenti"
+msgstr "Eksperimentālās"
 
 #: src/launcher/pages/modplatform/VanillaPage.ui:127
 msgctxt "VanillaPage|"
@@ -4748,7 +4764,7 @@ msgstr "Pārlādēt"
 #: src/launcher/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr "Vaneļa"
+msgstr "Vaniļa"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:19
 msgctxt "VerifyJavaInstall|"

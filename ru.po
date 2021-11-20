@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2021-10-05 09:39\n"
+"PO-Revision-Date: 2021-11-20 12:01\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:74
 msgctxt "ATLauncher::PackInstallTask|"
@@ -59,12 +59,12 @@ msgstr "Неизвестный или неподдерживаемый тип з
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:406
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading configs..."
-msgstr "Получение настроек..."
+msgstr "Загрузка настроек..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:407
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Config download"
-msgstr "Получение настроек"
+msgstr "Загрузка настроек"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:447
 msgctxt "ATLauncher::PackInstallTask|"
@@ -85,12 +85,12 @@ msgstr "Выбор необязательных модов..."
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:488
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading mods..."
-msgstr "Получение модов..."
+msgstr "Загрузка модов..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:491
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Mod download"
-msgstr "Получение мода"
+msgstr "Скачивание мода"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:505
 #, qt-format
@@ -107,12 +107,12 @@ msgstr "Неизвестный тип загрузки: %1"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:625
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr "Не удалось распаковать моды..."
+msgstr "Не удалось извлечь моды..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:636
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr "Распаковка модов..."
+msgstr "Извлечение модов..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:698
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,9 +224,9 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr "<p>Мы сохраняем MultiMC с открытым исходным кодом, потому что считаем важным видеть исходный код подобного проекта, и делаем это, используя лицензию Apache.</p>\n"
-"<p>Одна из причин использования лицензии Apache заключается в том, что мы не хотим, чтобы люди использовали название &quot;MultiMC&quot;, распространяя проект. Это означает, что люди должны потратить время, чтобы просмотреть исходный код и удалить все ссылки на &quot;MultiMC&quot;, включая, в частности, иконку проекта и заголовки окон (но не <b>форк MultiMC</b> в заголовке).</p>\n"
-"<p>Лицензия Apache подразумевает разумное использование названия — упоминание о происхождении проекта в диалоговом окне «О программе» и лицензия допустимы. Тем не менее, должно быть совершенно ясно, что проект является форком, <b>не</b> подразумевающим, что у вас есть наше благословение.</p>"
+msgstr "<p>При разработке MultiMC мы придерживаемся политики открытого кода, потому что считаем важным иметь возможность в любой момент увидеть исходный код подобного проекта. Для распространения исходного кода мы используем лицензию Apache.</p>\n"
+"<p>Одна из причин использов</b>ания лицензии Apache заключается в том, что мы не хотим, чтобы люди использовали название &quot;MultiMC&quot;, распространяя проект. Это означает, что люди должны удалить все ссылки на &quot;MultiMC&quot; из исходного кода проекта, включая, в частности, иконку проекта и заголовки окон (исключая <b>на базе MultiMC</b> в заголовке).</p>\n"
+"<p>Лицензия Apache подразумевает разумное использование названия — упоминание об оригинальном проекте в окне «О программе» и лицензия допустимы. Тем не менее должно быть совершенно ясно, что ваш проект лишь использует оригинальный исходный код, <b>не</b> подразумевая, что мы поддерживаем его разработку.</p>"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:210
 msgctxt "AccountList|Can Migrate?"
@@ -291,7 +291,7 @@ msgstr "Войти через Mojang"
 #: src/launcher/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
 msgid "Remove"
-msgstr "Убрать"
+msgstr "Удалить"
 
 #: src/launcher/pages/global/AccountListPage.ui:77
 msgctxt "AccountListPage|"
@@ -354,7 +354,7 @@ msgstr "Контекстное меню"
 #: src/launcher/pages/global/AccountListPage.cpp:145
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr "Пожалуйста, введите почту и пароль учётной записи Mojang чтобы войти в неё."
+msgstr "Пожалуйста, введите почту и пароль учётной записи Mojang, чтобы войти в неё."
 
 #: src/launcher/pages/global/AccountListPage.cpp:134
 msgctxt "AccountListPage|"
@@ -427,7 +427,7 @@ msgstr "Мы собираем анонимные данные пользоват
 #: src/launcher/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>MultiMC sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the MultiMC installation.<br />It is stored in the application settings (multimc.cfg).</li><li>Anonymized (partial) IP address.</li><li>MultiMC version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>MultiMC отправляет анонимную статистику использования при каждом запуске программы. Это помогает нам решать проблемы быстрее и принимать правильные решения при разработке.</p><p>Собираемые данные обрабатываются Google Analytics, см. их <a href=\"https://support.google.com/analytics/answer/6004245?hl=ru\">статью по этому вопросу</a>.</p><p>Собираются следующие данные:</p><ul><li>Случайный уникальный идентификатор установки MultiMC.<br />Он хранится в настройках программы (multimc.cfg).</li><li>Анонимный (частичный) IP-адрес.</li><li>Версия MultiMC.</li><li>Название, версия и архитектура операционной системы.</li><li>Архитектура процессора (архитектура ядра в Linux).</li><li>Размер системной памяти.</li><li>Версия, архитектура Java и настройки памяти .</li></ul><p>Если перечень собираемых данных изменится, вы снова увидите эту страницу.</p></body></html>"
+msgstr "<html><body><p>MultiMC отправляет анонимную статистику использования при каждом запуске программы. Это помогает нам решать проблемы быстрее и принимать правильные решения при разработке.</p><p>Собираемые данные обрабатываются через Google Аналитику, см. \"Безопасность данных\"(<a href=\"https://support.google.com/analytics/answer/6004245?hl=ru\"></a>).</p><p>Мы собираем следующие данные:</p><ul><li>Случайный уникальный идентификатор установки MultiMC.<br />Он хранится в настройках программы (multimc.cfg).</li><li>Анонимный (частичный) IP-адрес.</li><li>Версия MultiMC.</li><li>Название, версия и архитектура операционной системы.</li><li>Архитектура процессора (архитектура ядра в Linux).</li><li>Размер системной памяти.</li><li>Версия Java и настройки памяти и архитектуры.</li></ul><p>Если перечень собираемых данных изменится, вы снова увидите эту страницу.</p></body></html>"
 
 #: src/launcher/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -504,7 +504,7 @@ msgstr "Выбрать рекомендуемые"
 #: src/launcher/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:40
 msgctxt "AtlOptionalModDialog|"
 msgid "Use Share Code"
-msgstr ""
+msgstr "Использовать «Открытый код»"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:47
 msgctxt "AtlOptionalModDialog|"
@@ -575,120 +575,124 @@ msgstr "Начало аутентификации пользователя"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:311
 msgctxt "AuthContext|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "Ошибка аутентификации пользователя Xbox."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:319
 msgctxt "AuthContext|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "Не удалось понять ответ аутентификации пользователя Xbox."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:325
 msgctxt "AuthContext|"
 msgid "Starting XBox authentication"
-msgstr ""
+msgstr "Запуск аутентификации Xbox"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:630
 #, qt-format
 msgctxt "AuthContext|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "Эта учетная запись Microsoft не имеет профиля XBox Live. Сначала купите игру на %1."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:638
 msgctxt "AuthContext|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "XBox Live не доступен в вашей стране. Вы были заблокированы."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:644
 #, qt-format
 msgctxt "AuthContext|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "Эта учетная запись Microsoft ниже требуемого возраста и не привязана к семье.\n\n"
+"Пожалуйста, настройте свою учетную запись в соответствии с %1."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:655
 #, qt-format
 msgctxt "AuthContext|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "Аутентификация XSTS закончилась нераспознанными ошибками:\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:660
 msgctxt "AuthContext|"
 msgid "XBox and/or Mojang authentication steps did not succeed"
-msgstr ""
+msgstr "Этапы аутентификации XBox и/или Mojang завершились не успешно"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:747
 msgctxt "AuthContext|"
 msgid "Starting minecraft profile acquisition"
-msgstr ""
+msgstr "Получаем аккаунт Minecraft"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:771
 msgctxt "AuthContext|"
 msgid "Account is missing a Minecraft Java profile.\n\n"
 "While the Microsoft account is valid, it does not own the game.\n\n"
 "You might own Bedrock on this account, but that does not give you access to Java currently."
-msgstr ""
+msgstr "В учетной записи отсутствует профиль Minecraft Java.\n\n"
+"Хотя учетная запись Microsoft действительна, на ней отсутствует игра.\n\n"
+"Вы можете владеть Bedrock на своем аккаунте, но у вас нет доступа к Java на данный момент."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:776
 msgctxt "AuthContext|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "Во время получения профиля Minecraft Java произошла ошибка."
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:782
 msgctxt "AuthContext|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "Мы не смогли получить ответ от серверов Mojang"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:796
 msgctxt "AuthContext|"
 msgid "Starting check for migration eligibility"
-msgstr ""
+msgstr "Проверяем возможность миграции в Microsoft"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:851
 msgctxt "AuthContext|"
 msgid "Fetching player skin"
-msgstr ""
+msgstr "Получение скина игрока"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:870
 msgctxt "AuthContext|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "Вход произведён успешно"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:885
 #, qt-format
 msgctxt "AuthContext|"
 msgid "Logging in as %1 user"
-msgstr ""
+msgstr "Входим через сервисы %1"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:894
 msgctxt "AuthContext|"
 msgid "Logging in as XBox user"
-msgstr ""
+msgstr "Вход через аккаунт XBox"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:896
 msgctxt "AuthContext|"
 msgid "Logging in with XBox and Mojang services"
-msgstr ""
+msgstr "Входим в сервисы Mojang и XBox"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:898
 msgctxt "AuthContext|"
 msgid "Getting Minecraft profile"
-msgstr ""
+msgstr "Получение профиля Minecraft"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:900
 msgctxt "AuthContext|"
 msgid "Checking for migration eligibility"
-msgstr ""
+msgstr "Проверяем возможность миграции в Microsoft"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:902
 msgctxt "AuthContext|"
 msgid "Getting Minecraft skin"
-msgstr ""
+msgstr "Скачивание скина"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:904
 msgctxt "AuthContext|"
 msgid "Finished"
-msgstr ""
+msgstr "Завершено"
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -698,12 +702,12 @@ msgstr "Профилировщик прерван"
 #: src/launcher/minecraft/services/CapeChange.cpp:17
 msgctxt "CapeChange|"
 msgid "Equipping cape"
-msgstr ""
+msgstr "Надеваем плащ"
 
 #: src/launcher/minecraft/services/CapeChange.cpp:31
 msgctxt "CapeChange|"
 msgid "Removing cape"
-msgstr ""
+msgstr "Убираем плащ"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
@@ -766,7 +770,7 @@ msgstr "Без группы"
 #: src/launcher/minecraft/launch/CreateGameFolders.cpp:18
 msgctxt "CreateGameFolders|"
 msgid "Couldn't create the main game folder"
-msgstr ""
+msgstr "Не удалось создать главную папку игры"
 
 #: src/launcher/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -1115,7 +1119,7 @@ msgstr "Версия:"
 #: src/launcher/pages/modplatform/ftb/FtbPage.ui:37
 msgctxt "FtbPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "Поиск и фильтрация..."
 
 #: src/launcher/pages/modplatform/ftb/FtbPage.ui:44
 msgctxt "FtbPage|"
@@ -1196,7 +1200,7 @@ msgstr "Чтение списка файлов для текущей верси�
 #: src/launcher/updater/DownloadTask.cpp:117
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr "Обработка списков файлов - вычисляем способ установки обновления..."
+msgstr "Обработка списков файлов - выясняем способ установки обновления..."
 
 #: src/launcher/updater/DownloadTask.cpp:125
 msgctxt "GoUpdate::DownloadTask|"
@@ -1900,22 +1904,22 @@ msgstr "Получен неизвестный статус сессии во в�
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Microsoft account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "Истек срок действия учетной записи Майкрософт и необходимо войти в систему вручную."
 
 #: src/launcher/LaunchController.cpp:177
 msgctxt "LaunchController|"
 msgid "Microsoft Account refresh failed"
-msgstr ""
+msgstr "Не удалось обновить аккаунт Майкрософт"
 
 #: src/launcher/LaunchController.cpp:187
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr ""
+msgstr "Аккаунт больше не существует на серверах. Возможно, он был перенесен, в этом случае добавьте новый аккаунт, на который вы перенесли нынешний."
 
 #: src/launcher/LaunchController.cpp:190
 msgctxt "LaunchController|"
 msgid "Account gone"
-msgstr ""
+msgstr "Учетная запись исчезла"
 
 #: src/launcher/LaunchController.cpp:205
 msgctxt "LaunchController|"
@@ -2389,7 +2393,7 @@ msgstr "Добавление учетной записи Microsoft"
 #, qt-format
 msgctxt "MSALoginDialog|"
 msgid "<p>Please open up %1 in a browser and put in the code <b>%2</b> to proceed with login.</p>"
-msgstr ""
+msgstr "<p>Пожалуйста, перейдите по ссылке %1 и введите код <b>%2</b> для входа в систему.</p>"
 
 #: src/launcher/MainWindow.cpp:243
 msgctxt "MainWindow|"
@@ -2726,7 +2730,7 @@ msgstr "Не выбрана сборка"
 #: src/launcher/MainWindow.cpp:741
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s."
-msgstr "Всего наиграно: 0с."
+msgstr "Вы играли: 0с."
 
 #: src/launcher/MainWindow.cpp:846 src/launcher/MainWindow.cpp:1127
 msgctxt "MainWindow|"
@@ -2845,13 +2849,13 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
-msgstr ""
+msgstr ", %1 за последнее время"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:805
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr ""
+msgstr ", %1 за всё время"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:810
 msgctxt "MinecraftInstance|"
@@ -3059,7 +3063,7 @@ msgstr "Не удалось создать пользовательский jar-
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr ""
+msgstr "Не удалось найти сборку версии %1"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:80
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3079,12 +3083,12 @@ msgstr "Получение мода"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:149
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
-msgstr ""
+msgstr "Копирование файлов сборки"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
-msgstr ""
+msgstr "Не удалось скопировать файлы"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:162
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3144,7 +3148,7 @@ msgstr "&Иконки:"
 #: src/launcher/pages/global/MultiMCPage.ui:163
 msgctxt "MultiMCPage|"
 msgid "Move MultiMC data to new location (will restart MultiMC)"
-msgstr ""
+msgstr "Сменить место хранения файлов MultiMC (Программа будет перезагружена)"
 
 #: src/launcher/pages/global/MultiMCPage.ui:184
 msgctxt "MultiMCPage|"
@@ -3279,7 +3283,7 @@ msgstr "Настройка статистики"
 #: src/launcher/pages/global/MultiMCPage.ui:502
 msgctxt "MultiMCPage|"
 msgid "Send anonymous usage statistics?"
-msgstr "Анонимно отправлять статистику использования?"
+msgstr "Отправлять анонимную статистику использования?"
 
 #: src/launcher/pages/global/MultiMCPage.ui:516
 msgctxt "MultiMCPage|"
@@ -3679,7 +3683,7 @@ msgstr "Название"
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (используется)"
 
 #: src/launcher/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3797,7 +3801,7 @@ msgstr "Значение 'minimumLauncherVersion' текущей версии (%
 #, qt-format
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
-msgstr ""
+msgstr "Имя библиотеки %1 повреждено и не может быть обработано."
 
 #: src/launcher/minecraft/PackProfile.cpp:190
 #, qt-format
@@ -3956,7 +3960,7 @@ msgstr "Не удалось откатить.\n"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (используется)"
 
 #: src/launcher/GuiUtil.cpp:29 src/launcher/GuiUtil.cpp:38
 msgctxt "QObject|"
@@ -4626,22 +4630,22 @@ msgstr "Technic"
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
 msgid "Is the texture pack enabled?"
-msgstr ""
+msgstr "Включён ли набор ресурсов?"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:12
 msgctxt "TexturePackFolderModel|"
 msgid "The name of the texture pack."
-msgstr ""
+msgstr "Название набора ресурсов."
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:14
 msgctxt "TexturePackFolderModel|"
 msgid "The version of the texture pack."
-msgstr ""
+msgstr "Версия набора ресурсов."
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr ""
+msgstr "Дата и время последнего изменения текстурпака."
 
 #: src/launcher/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -5423,27 +5427,27 @@ msgstr "Введите название нового сохранения."
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:197
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "Сервер авторизации не отправил токен клиента."
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:204
 msgctxt "Yggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "Сервер авторизации попытался изменить токен клиента. Это действие не поддерживается."
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:214
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "Сервер авторизации не отправил токен доступа."
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:236
 msgctxt "Yggdrasil|"
 msgid "Authentication operation timed out."
-msgstr ""
+msgstr "Время на авторизацию истекло."
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:239
 msgctxt "Yggdrasil|"
 msgid "Authentication operation cancelled."
-msgstr ""
+msgstr "Операция авторизации отменена."
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:244
 msgctxt "Yggdrasil|"
@@ -5459,22 +5463,22 @@ msgstr "Аккаунт Mojang больше не существует. Возмо
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr ""
+msgstr "Не удалось произвести авторизацию из-за сетевой ошибки: %1 (%2)"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:295
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "Не удалось разобрать ответ сервера аутентификации, JSON-ответ: %1 со смещением %2."
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:321
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "Произошла неизвестная ошибка при попытке установить связь с сервером авторизации: %1"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:346
 msgctxt "Yggdrasil|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "При работе Yggdrasil произошла неизвестная ошибка."
 
