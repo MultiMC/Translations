@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2021-12-07 04:36\n"
+"PO-Revision-Date: 2021-12-07 04:45\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:74
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1082,12 +1082,12 @@ msgstr "作成者順で並び替え"
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:29
 msgctxt "FlamePage|"
 msgid "Sort by total downloads"
-msgstr ""
+msgstr "総ダウンロード数で並び替え"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:102
 msgctxt "FlamePage|"
 msgid " by "
-msgstr ""
+msgstr " 作成: "
 
 #: src/launcher/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -1117,7 +1117,7 @@ msgstr "バージョン:"
 #: src/launcher/pages/modplatform/ftb/FtbPage.ui:37
 msgctxt "FtbPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "検索とフィルタ"
 
 #: src/launcher/pages/modplatform/ftb/FtbPage.ui:44
 msgctxt "FtbPage|"
@@ -1587,32 +1587,32 @@ msgstr "システムにインストールされたOpenALを使用"
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellanous"
-msgstr ""
+msgstr "その他"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
 msgid "Override global game time settings"
-msgstr ""
+msgstr "グローバル設定のゲーム時間設定を上書き"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:442
 msgctxt "InstanceSettingsPage|"
 msgid "Show time spent playing this instance"
-msgstr ""
+msgstr "このインスタンスのプレイ時間を表示する"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:449
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
-msgstr ""
+msgstr "このインスタンスのプレイ時間を記録"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
 msgid "Set a server to join on launch"
-msgstr ""
+msgstr "起動時にサーバーを設定する"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:479
 msgctxt "InstanceSettingsPage|"
 msgid "Server address:"
-msgstr ""
+msgstr "サーバーアドレス："
 
 #: src/launcher/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
@@ -1877,7 +1877,7 @@ msgstr "Minecraftをプレイするためには、少なくとも一つのMojang
 #: src/launcher/LaunchController.cpp:68
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
-msgstr ""
+msgstr "どのアカウントを利用しますか？"
 
 #: src/launcher/LaunchController.cpp:87
 msgctxt "LaunchController|"
@@ -1902,12 +1902,12 @@ msgstr "ログイン中に不明のセッションステータスを受信しま
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Microsoft account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "Microsoft アカウントの有効期限が切れているため、手動で再度ログインする必要があります。"
 
 #: src/launcher/LaunchController.cpp:177
 msgctxt "LaunchController|"
 msgid "Microsoft Account refresh failed"
-msgstr ""
+msgstr "Microsoft アカウントの更新に失敗しました"
 
 #: src/launcher/LaunchController.cpp:187
 msgctxt "LaunchController|"
@@ -5434,33 +5434,33 @@ msgstr "認証操作がキャンセルされました。"
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:244
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL ハンドシェイクに失敗しました。</b><br/>いくつかの原因が考えられます:<br/><ul><li>Windows XP を使っていて、<a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">ルート証明書を更新</a>する必要がある</li><li>ネットワーク上の何らかの機器がSSLのトラフィックに干渉している。この場合、Minecraftが起動しないこと以上に心配すべきことがあります</li><li>あるいはその他の原因の可能性もあります。 詳細はMultiMCのログを参照してください</li></ul>"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:261
 msgctxt "Yggdrasil|"
 msgid "The Mojang account no longer exists. It may have been migrated to a Microsoft account."
-msgstr ""
+msgstr "この Mojang アカウントはもう存在しません。Microsoft アカウントに移行されている可能性があります。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:267
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr ""
+msgstr "ネットワークエラーが発生したため、認証操作に失敗しました: %1 (%2)"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:295
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "認証サーバから応答されたJSONレスポンスの解析に失敗しました: %1 at offset %2。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:321
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "認証サーバーと通信しようとしたときに不明なエラーが発生しました: %1"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:346
 msgctxt "Yggdrasil|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "不明なYggdrasilのエラーが発生しました。"
 
