@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2021-12-04 07:36\n"
+"PO-Revision-Date: 2021-12-07 04:55\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:74
 msgctxt "ATLauncher::PackInstallTask|"
@@ -25,13 +25,13 @@ msgstr "パック マニフェストを解析できませんでした：\n"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr ""
+msgstr "これらのローカルメタデータインデックスが取得できませんでした: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:88
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr ""
+msgstr "これらのローカルメタデータインデックスが取得できませんでした: '%1' v%2"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:150
 #, qt-format
@@ -80,7 +80,7 @@ msgstr "%1 パックコンフィグを開けませんでした"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:484
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Selecting optional mods..."
-msgstr ""
+msgstr "オプションのModを選択してください…"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:488
 msgctxt "ATLauncher::PackInstallTask|"
@@ -122,7 +122,7 @@ msgstr "Mod パックをインストールしています…"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:712
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
-msgstr ""
+msgstr "ライブラリコンポーネントの作成に失敗しました"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:736
 msgctxt "ATLauncher::PackInstallTask|"
@@ -132,7 +132,7 @@ msgstr "不明なローダータイプです: "
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:750
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
-msgstr ""
+msgstr "パックコンポーネントの作成に失敗しました"
 
 #: src/launcher/dialogs/AboutDialog.ui:20
 msgctxt "AboutDialog|"
@@ -279,7 +279,7 @@ msgstr "このアカウントはマイクロソフトに移行できますか？
 #: src/launcher/minecraft/auth/AccountList.cpp:271
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
-msgstr ""
+msgstr "アカウントに関連付けられている Minecraft プロファイルの名前です。"
 
 #: src/launcher/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
@@ -410,7 +410,7 @@ msgstr "認証に失敗しました。このアカウントは存在しません
 #: src/launcher/minecraft/auth/AccountTask.cpp:55
 msgctxt "AccountTask|"
 msgid "..."
-msgstr ""
+msgstr "…"
 
 #: src/launcher/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -487,7 +487,7 @@ msgstr "ゲームバージョン順"
 #: src/launcher/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:14
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Mods To Install"
-msgstr ""
+msgstr "インストールするModを選択します"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:20
 msgctxt "AtlOptionalModDialog|"
@@ -497,17 +497,17 @@ msgstr "インストール"
 #: src/launcher/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:30
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Recommended"
-msgstr ""
+msgstr "推奨を選択"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:40
 msgctxt "AtlOptionalModDialog|"
 msgid "Use Share Code"
-msgstr ""
+msgstr "共有コードの使用"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:47
 msgctxt "AtlOptionalModDialog|"
 msgid "Clear All"
-msgstr ""
+msgstr "全てをクリア"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.ui:42
 msgctxt "AtlPage|"
@@ -533,17 +533,17 @@ msgstr "検索..."
 #, qt-format
 msgctxt "AtlPage|"
 msgid "No versions are currently available for Minecraft %1"
-msgstr ""
+msgstr "現在、Minecraft %1 で利用可能なバージョンはありません"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.cpp:148
 msgctxt "AtlPage|"
 msgid "No versions are currently available"
-msgstr ""
+msgstr "現在利用可能なバージョンはありません"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.cpp:150
 msgctxt "AtlPage|"
 msgid "Couldn't load or download the version lists!"
-msgstr ""
+msgstr "バージョン一覧を読み込みまたはダウンロードできませんでした！"
 
 #: src/launcher/pages/modplatform/atlauncher/AtlPage.h:44
 msgctxt "AtlPage|"
@@ -553,140 +553,144 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:97
 msgctxt "AuthContext|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "Mojang のユーザー認証に失敗しました。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:119
 msgctxt "AuthContext|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "Microsoft のユーザー認証に失敗しました。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:127
 msgctxt "AuthContext|"
 msgid "Microsoft user authentication ended with an impossible state (succeeded, but not succeeded at the same time)."
-msgstr ""
+msgstr "Microsoft のユーザー認証が不明な状態で終了しました(succeeded, but not succeeded at the same time)。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:148
 msgctxt "AuthContext|"
 msgid "Starting user authentication"
-msgstr ""
+msgstr "ユーザー認証を開始しています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:311
 msgctxt "AuthContext|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "XBox のユーザー認証に失敗しました。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:319
 msgctxt "AuthContext|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "XBox ユーザー認証からの応答が理解できませんでした。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:325
 msgctxt "AuthContext|"
 msgid "Starting XBox authentication"
-msgstr ""
+msgstr "XBox ユーザー認証を開始しています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:630
 #, qt-format
 msgctxt "AuthContext|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "この Microsoft アカウントには XBox Live プロファイルがありません。まず %1 でゲームを購入してください。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:638
 msgctxt "AuthContext|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "XBox Liveは、お住まいの国/地域ではご利用いただけません。ブロックされています。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:644
 #, qt-format
 msgctxt "AuthContext|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "この Microsoft アカウントは、家族のメンバにリンクされていない未成年アカウントです。\n\n"
+" %1 を参照して、アカウントを設定してください。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:655
 #, qt-format
 msgctxt "AuthContext|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "XSTS認証は不明なエラーで終了しました:\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:660
 msgctxt "AuthContext|"
 msgid "XBox and/or Mojang authentication steps did not succeed"
-msgstr ""
+msgstr "XBox および/または Mojang 認証は失敗しました"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:747
 msgctxt "AuthContext|"
 msgid "Starting minecraft profile acquisition"
-msgstr ""
+msgstr "Minecraft プロファイルの取得を開始しています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:771
 msgctxt "AuthContext|"
 msgid "Account is missing a Minecraft Java profile.\n\n"
 "While the Microsoft account is valid, it does not own the game.\n\n"
 "You might own Bedrock on this account, but that does not give you access to Java currently."
-msgstr ""
+msgstr "アカウントに Java 版 Minecraft のプロファイルがありません。\n\n"
+"Microsoft アカウントは有効ですが、ゲームを所有しているわけではありません。\n\n"
+"このアカウントでは Bedrock 版 Minecraft を所有しているかもしれませんが、それでは Java 版の利用はできません。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:776
 msgctxt "AuthContext|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "Java 版 Minecraft プロファイルの取得に失敗しました。"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:782
 msgctxt "AuthContext|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "Java 版 Minecraft プロファイルの応答を解析できませんでした"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:796
 msgctxt "AuthContext|"
 msgid "Starting check for migration eligibility"
-msgstr ""
+msgstr "マイグレーション資格の確認を開始しています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:851
 msgctxt "AuthContext|"
 msgid "Fetching player skin"
-msgstr ""
+msgstr "プレイヤーのスキンを取得中"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:870
 msgctxt "AuthContext|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "すべての認証手順が完了しました"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:885
 #, qt-format
 msgctxt "AuthContext|"
 msgid "Logging in as %1 user"
-msgstr ""
+msgstr "ユーザー %1 としてログインしています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:894
 msgctxt "AuthContext|"
 msgid "Logging in as XBox user"
-msgstr ""
+msgstr "XBox ユーザーとしてログインしています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:896
 msgctxt "AuthContext|"
 msgid "Logging in with XBox and Mojang services"
-msgstr ""
+msgstr "XBox と Mojang のサービスでログインしています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:898
 msgctxt "AuthContext|"
 msgid "Getting Minecraft profile"
-msgstr ""
+msgstr "Minecraft プロファイルを取得しています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:900
 msgctxt "AuthContext|"
 msgid "Checking for migration eligibility"
-msgstr ""
+msgstr "マイグレーション資格を確認しています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:902
 msgctxt "AuthContext|"
 msgid "Getting Minecraft skin"
-msgstr ""
+msgstr "Minecraft のスキンを取得しています"
 
 #: src/launcher/minecraft/auth/flows/AuthContext.cpp:904
 msgctxt "AuthContext|"
 msgid "Finished"
-msgstr ""
+msgstr "完了"
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -696,12 +700,12 @@ msgstr "プロファイラは中断されました"
 #: src/launcher/minecraft/services/CapeChange.cpp:17
 msgctxt "CapeChange|"
 msgid "Equipping cape"
-msgstr ""
+msgstr "マントを装備しています"
 
 #: src/launcher/minecraft/services/CapeChange.cpp:31
 msgctxt "CapeChange|"
 msgid "Removing cape"
-msgstr ""
+msgstr "マントを外しています"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:269
 msgctxt "ComponentUpdateTask|"
@@ -764,7 +768,7 @@ msgstr "グループがありません"
 #: src/launcher/minecraft/launch/CreateGameFolders.cpp:18
 msgctxt "CreateGameFolders|"
 msgid "Couldn't create the main game folder"
-msgstr ""
+msgstr "メインゲームフォルダを作成できませんでした"
 
 #: src/launcher/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -812,7 +816,7 @@ msgstr "Minecraftを起動できませんでした!"
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:110
 msgctxt "DirectJavaLaunch|"
 msgid "Game crashed."
-msgstr ""
+msgstr "ゲームがクラッシュしました。"
 
 #: src/launcher/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -1033,57 +1037,57 @@ msgstr "Mod IDを解決するタスクが失敗しました。"
 #: src/launcher/pages/modplatform/flame/FlamePage.ui:52
 msgctxt "FlamePage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "選択されたバージョン:"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.ui:67
 msgctxt "FlamePage|"
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.ui:74
 msgctxt "FlamePage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "検索とフィルタ…"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.h:45
 msgctxt "FlamePage|"
 msgid "CurseForge"
-msgstr ""
+msgstr "CurseForge"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:24
 msgctxt "FlamePage|"
 msgid "Sort by featured"
-msgstr ""
+msgstr "注目順で並べ替え"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:25
 msgctxt "FlamePage|"
 msgid "Sort by popularity"
-msgstr ""
+msgstr "人気順で並び替え"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:26
 msgctxt "FlamePage|"
 msgid "Sort by last updated"
-msgstr ""
+msgstr "更新日順で並べ替え"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:27
 msgctxt "FlamePage|"
 msgid "Sort by name"
-msgstr ""
+msgstr "名前順で並べ替え"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:28
 msgctxt "FlamePage|"
 msgid "Sort by author"
-msgstr ""
+msgstr "作成者順で並び替え"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:29
 msgctxt "FlamePage|"
 msgid "Sort by total downloads"
-msgstr ""
+msgstr "総ダウンロード数で並び替え"
 
 #: src/launcher/pages/modplatform/flame/FlamePage.cpp:102
 msgctxt "FlamePage|"
 msgid " by "
-msgstr ""
+msgstr " 作成: "
 
 #: src/launcher/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
@@ -1113,7 +1117,7 @@ msgstr "バージョン:"
 #: src/launcher/pages/modplatform/ftb/FtbPage.ui:37
 msgctxt "FtbPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "検索とフィルタ"
 
 #: src/launcher/pages/modplatform/ftb/FtbPage.ui:44
 msgctxt "FtbPage|"
@@ -1583,32 +1587,32 @@ msgstr "システムにインストールされたOpenALを使用"
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellanous"
-msgstr ""
+msgstr "その他"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
 msgid "Override global game time settings"
-msgstr ""
+msgstr "グローバル設定のゲーム時間設定を上書き"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:442
 msgctxt "InstanceSettingsPage|"
 msgid "Show time spent playing this instance"
-msgstr ""
+msgstr "このインスタンスのプレイ時間を表示する"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:449
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
-msgstr ""
+msgstr "このインスタンスのプレイ時間を記録"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
 msgid "Set a server to join on launch"
-msgstr ""
+msgstr "起動時にサーバーを設定する"
 
 #: src/launcher/pages/instance/InstanceSettingsPage.ui:479
 msgctxt "InstanceSettingsPage|"
 msgid "Server address:"
-msgstr ""
+msgstr "サーバーアドレス："
 
 #: src/launcher/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
@@ -1873,7 +1877,7 @@ msgstr "Minecraftをプレイするためには、少なくとも一つのMojang
 #: src/launcher/LaunchController.cpp:68
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
-msgstr ""
+msgstr "どのアカウントを利用しますか？"
 
 #: src/launcher/LaunchController.cpp:87
 msgctxt "LaunchController|"
@@ -1898,22 +1902,22 @@ msgstr "ログイン中に不明のセッションステータスを受信しま
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Microsoft account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "Microsoft アカウントの有効期限が切れているため、手動で再度ログインする必要があります。"
 
 #: src/launcher/LaunchController.cpp:177
 msgctxt "LaunchController|"
 msgid "Microsoft Account refresh failed"
-msgstr ""
+msgstr "Microsoft アカウントの更新に失敗しました"
 
 #: src/launcher/LaunchController.cpp:187
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr ""
+msgstr "このアカウントはもうサーバーに存在しません。 移行された可能性があります。この場合、移行したアカウントを追加してください。"
 
 #: src/launcher/LaunchController.cpp:190
 msgctxt "LaunchController|"
 msgid "Account gone"
-msgstr ""
+msgstr "アカウントが削除されました"
 
 #: src/launcher/LaunchController.cpp:205
 msgctxt "LaunchController|"
@@ -2017,7 +2021,7 @@ msgstr "Minecraftを起動できませんでした!"
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:162
 msgctxt "LauncherPartLaunch|"
 msgid "Game crashed."
-msgstr ""
+msgstr "ゲームがクラッシュしました。"
 
 #: src/launcher/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
@@ -2375,13 +2379,13 @@ msgstr "パスワード"
 #: src/launcher/dialogs/MSALoginDialog.ui:20
 msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
-msgstr ""
+msgstr "Microsoft アカウントを追加"
 
 #: src/launcher/dialogs/MSALoginDialog.cpp:83
 #, qt-format
 msgctxt "MSALoginDialog|"
 msgid "<p>Please open up %1 in a browser and put in the code <b>%2</b> to proceed with login.</p>"
-msgstr ""
+msgstr "<p>ブラウザで %1 を開き、コード <b>%2</b> を入力してログインを続行してください。</p>"
 
 #: src/launcher/MainWindow.cpp:243
 msgctxt "MainWindow|"
@@ -2718,7 +2722,7 @@ msgstr "インスタンスが選択されていません"
 #: src/launcher/MainWindow.cpp:741
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s."
-msgstr ""
+msgstr "総プレイ時間: 0秒"
 
 #: src/launcher/MainWindow.cpp:846 src/launcher/MainWindow.cpp:1127
 msgctxt "MainWindow|"
@@ -2837,13 +2841,13 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
-msgstr ""
+msgstr ", 最後のプレイ時間: %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:805
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr ""
+msgstr ", 総プレイ時間: %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:810
 msgctxt "MinecraftInstance|"
@@ -2888,17 +2892,17 @@ msgstr "システムにインストールされたOpenALを使用"
 #: src/launcher/pages/global/MinecraftPage.ui:140
 msgctxt "MinecraftPage|"
 msgid "Game time"
-msgstr ""
+msgstr "ゲーム内時間"
 
 #: src/launcher/pages/global/MinecraftPage.ui:146
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing instances"
-msgstr ""
+msgstr "インスタンスのプレイ時間を表示する"
 
 #: src/launcher/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Record time spent playing instances"
-msgstr ""
+msgstr "インスタンスのプレイ時間を記録する"
 
 #: src/launcher/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3051,7 +3055,7 @@ msgstr "カスタム Minecraft jar ファイルの作成に失敗しました。
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr ""
+msgstr "パックのバージョン %1 が見つかりませんでした"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:80
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3071,12 +3075,12 @@ msgstr "Mod のダウンロード"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:149
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
-msgstr ""
+msgstr "モッドパックのファイルをコピーしています"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
-msgstr ""
+msgstr "ファイルのコピーに失敗しました。"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:162
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3136,7 +3140,7 @@ msgstr "アイコン:"
 #: src/launcher/pages/global/MultiMCPage.ui:163
 msgctxt "MultiMCPage|"
 msgid "Move MultiMC data to new location (will restart MultiMC)"
-msgstr ""
+msgstr "MultiMC のデータを新しい場所に移動(MultiMCが再起動します)"
 
 #: src/launcher/pages/global/MultiMCPage.ui:184
 msgctxt "MultiMCPage|"
@@ -3668,7 +3672,7 @@ msgstr "名前"
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (使用中)"
 
 #: src/launcher/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3786,7 +3790,7 @@ msgstr "このバージョン (%1) の'minimumLauncherVersion'値は、MultiMC (
 #, qt-format
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
-msgstr ""
+msgstr "ライブラリ %1 の名前が壊れているため処理できません。"
 
 #: src/launcher/minecraft/PackProfile.cpp:190
 #, qt-format
@@ -3940,7 +3944,7 @@ msgstr "ロールバックにも失敗しました。この問題は手動で修
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (使用中)"
 
 #: src/launcher/GuiUtil.cpp:29 src/launcher/GuiUtil.cpp:38
 msgctxt "QObject|"
@@ -4116,22 +4120,22 @@ msgstr "ZIP/UNZIP API エラー %1"
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
 msgid "Is the resource pack enabled?"
-msgstr ""
+msgstr "リソースパックは有効になっていますか？"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:12
 msgctxt "ResourcePackFolderModel|"
 msgid "The name of the resource pack."
-msgstr ""
+msgstr "リソース パックの名前。"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:14
 msgctxt "ResourcePackFolderModel|"
 msgid "The version of the resource pack."
-msgstr ""
+msgstr "リソース パックのバージョン。"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:16
 msgctxt "ResourcePackFolderModel|"
 msgid "The date and time this resource pack was last changed (or added)."
-msgstr ""
+msgstr "このリソースパックが最後に変更(または追加) された日時です。"
 
 #: src/launcher/pages/instance/ResourcePackPage.h:12
 msgctxt "ResourcePackPage|"
@@ -4306,7 +4310,7 @@ msgstr "下へ移動"
 #: src/launcher/pages/instance/ServersPage.ui:175
 msgctxt "ServersPage|"
 msgid "Join"
-msgstr ""
+msgstr "参加する"
 
 #: src/launcher/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
@@ -4346,7 +4350,7 @@ msgstr "MultiMC クイックセットアップ"
 #: src/launcher/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
 msgid "Shader packs"
-msgstr ""
+msgstr "シェーダーパック"
 
 #: src/launcher/minecraft/services/SkinDelete.cpp:18
 msgctxt "SkinDelete|"
@@ -4392,7 +4396,7 @@ msgstr "アレックス(スリム)"
 #: src/launcher/dialogs/SkinUploadDialog.ui:77
 msgctxt "SkinUploadDialog|"
 msgid "Cape"
-msgstr ""
+msgstr "マント"
 
 #: src/launcher/dialogs/SkinUploadDialog.cpp:28
 msgctxt "SkinUploadDialog|"
@@ -4432,7 +4436,7 @@ msgstr "スキンを選択"
 #: src/launcher/dialogs/SkinUploadDialog.cpp:128
 msgctxt "SkinUploadDialog|"
 msgid "No Cape"
-msgstr ""
+msgstr "マントなし"
 
 #: src/launcher/status/StatusChecker.cpp:104
 #, qt-format
@@ -4589,7 +4593,7 @@ msgstr "\"version.json\" が解釈できませんでした:\n"
 #: src/launcher/pages/modplatform/technic/TechnicPage.ui:32
 msgctxt "TechnicPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "検索＆フィルタ…"
 
 #: src/launcher/pages/modplatform/technic/TechnicPage.ui:39
 msgctxt "TechnicPage|"
@@ -4609,22 +4613,22 @@ msgstr "技術"
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
 msgid "Is the texture pack enabled?"
-msgstr ""
+msgstr "テクスチャパックは有効ですか?"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:12
 msgctxt "TexturePackFolderModel|"
 msgid "The name of the texture pack."
-msgstr ""
+msgstr "テクスチャパックの名前です。"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:14
 msgctxt "TexturePackFolderModel|"
 msgid "The version of the texture pack."
-msgstr ""
+msgstr "テクスチャパックのバージョンです。"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr ""
+msgstr "このリソースパックが最後に変更(または追加) された日時です。"
 
 #: src/launcher/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -4765,12 +4769,12 @@ msgstr "バニラ"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:19
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr ""
+msgstr "Minecraft 21w19a 以降では、Java 16 を使用する必要があります"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:28
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a and above require the use of Java 8"
-msgstr ""
+msgstr "Minecraft 17w13a以降では、Java 8 を使用する必要があります"
 
 #: src/launcher/widgets/VersionListView.cpp:27
 msgctxt "VersionListView|"
@@ -4780,7 +4784,7 @@ msgstr "バージョンが現在使用できません。"
 #: src/launcher/pages/instance/VersionPage.ui:60
 msgctxt "VersionPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "フィルター:"
 
 #: src/launcher/pages/instance/VersionPage.ui:82
 msgctxt "VersionPage|"
@@ -5405,58 +5409,58 @@ msgstr "新しいワールド名を入力してください"
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:197
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "認証サーバは、クライアントトークンを送信しませんでした。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:204
 msgctxt "Yggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "認証サーバは、クライアントトークンを変更しようとしました。これはサポートされていません。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:214
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "認証サーバは、アクセストークンを送信しませんでした。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:236
 msgctxt "Yggdrasil|"
 msgid "Authentication operation timed out."
-msgstr ""
+msgstr "認証操作がタイムアウトしました。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:239
 msgctxt "Yggdrasil|"
 msgid "Authentication operation cancelled."
-msgstr ""
+msgstr "認証操作がキャンセルされました。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:244
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows XP and need to <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">update your root certificates</a></li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the MultiMC log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL ハンドシェイクに失敗しました。</b><br/>いくつかの原因が考えられます:<br/><ul><li>Windows XP を使っていて、<a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=38918\">ルート証明書を更新</a>する必要がある</li><li>ネットワーク上の何らかの機器がSSLのトラフィックに干渉している。この場合、Minecraftが起動しないこと以上に心配すべきことがあります</li><li>あるいはその他の原因の可能性もあります。 詳細はMultiMCのログを参照してください</li></ul>"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:261
 msgctxt "Yggdrasil|"
 msgid "The Mojang account no longer exists. It may have been migrated to a Microsoft account."
-msgstr ""
+msgstr "この Mojang アカウントはもう存在しません。Microsoft アカウントに移行されている可能性があります。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:267
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr ""
+msgstr "ネットワークエラーが発生したため、認証操作に失敗しました: %1 (%2)"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:295
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "認証サーバから応答されたJSONレスポンスの解析に失敗しました: %1 at offset %2。"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:321
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "認証サーバーと通信しようとしたときに不明なエラーが発生しました: %1"
 
 #: src/launcher/minecraft/auth/flows/Yggdrasil.cpp:346
 msgctxt "Yggdrasil|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "不明なYggdrasilのエラーが発生しました。"
 
