@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2021-12-08 01:36\n"
+"PO-Revision-Date: 2021-12-08 09:08\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -142,7 +142,7 @@ msgstr "关于"
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>这是一个 Minecraft 的第三方启动器，它可以让你更便捷地管理不同版本的 Minecraft。</p></body></html>"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
@@ -193,7 +193,7 @@ msgstr "关闭"
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "About %1"
-msgstr ""
+msgstr "关于 %1"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:94
 msgctxt "AboutDialog|"
@@ -227,37 +227,37 @@ msgstr "<p>我们保持 MultiMC 开源，因为我们认为能够看到像这样
 #: src/launcher/minecraft/auth/AccountList.cpp:277
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
-msgstr ""
+msgstr "未检查"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr ""
+msgstr "离线"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:283
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr ""
+msgstr "在线"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
 msgid "Working"
-msgstr ""
+msgstr "检查中"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:289
 msgctxt "AccountList|Account status"
 msgid "Errored"
-msgstr ""
+msgstr "错误"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:292
 msgctxt "AccountList|Account status"
 msgid "Expired"
-msgstr ""
+msgstr "已过期"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr ""
+msgstr "不复存在"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
@@ -282,12 +282,12 @@ msgstr "账户名"
 #: src/launcher/minecraft/auth/AccountList.cpp:348
 msgctxt "AccountList|"
 msgid "Type"
-msgstr "类型"
+msgstr "账户类型"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:350
 msgctxt "AccountList|"
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:352
 msgctxt "AccountList|"
@@ -312,7 +312,7 @@ msgstr "账户类型 - Mojang 账户或微软账户。"
 #: src/launcher/minecraft/auth/AccountList.cpp:367
 msgctxt "AccountList|"
 msgid "Current status of the account."
-msgstr ""
+msgstr "账户的当前状态。"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
@@ -436,12 +436,12 @@ msgstr "连接身份验证服务器失败。"
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "在身份验证过程中出现错误。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr ""
+msgstr "认证失败。会话已过期。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -713,7 +713,7 @@ msgstr "包装命令："
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>预执行命令会在实例开始之前运行，后执行命令会在实例结束之后运行。</p><p>它们均会在在本启动器的工作目录执行，并带有以下额外环境变量：</p><ul><li>$INST_NAME - 实例名称</li><li>$INST_ID - 实例 ID (其文件夹名)</li><li>$INST_DIR - 实例的绝对路径</li><li>$INST_MC_DIR - Minecraft 的绝对路径</li><li>$INST_JAVA - 运行所使用的 Java 可执行文件</li><li>$INST_JAVA_ARGS - 运行所使用的命令行参数</li></ul><p>包装命令允许使用一个额外的包装程序来运行游戏（例如Linux上的 \"optirun\"）</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1675,12 +1675,12 @@ msgstr "Java 运行环境"
 #: src/launcher/ui/pages/global/JavaPage.ui:153
 msgctxt "JavaPage|"
 msgid "Java path:"
-msgstr "Java路径："
+msgstr "Java 路径："
 
 #: src/launcher/ui/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
 msgid "JVM arguments:"
-msgstr "JVM参数："
+msgstr "JVM 参数："
 
 #: src/launcher/ui/pages/global/JavaPage.ui:208
 msgctxt "JavaPage|"
