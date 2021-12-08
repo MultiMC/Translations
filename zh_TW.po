@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2021-12-08 15:04\n"
+"PO-Revision-Date: 2021-12-08 15:16\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -257,7 +257,7 @@ msgstr "已過期"
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr ""
+msgstr "未存在的"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
@@ -437,7 +437,7 @@ msgstr "無法連線至驗證伺服器。"
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "在身份驗證過程中出現錯誤。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
@@ -601,12 +601,12 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "完成所有驗證步驟"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
 msgid "Initializing"
-msgstr ""
+msgstr "初始化中"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
@@ -714,7 +714,7 @@ msgstr "包裝指令:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而結束後指令則會在其結束後執行。</p><p>此兩者會在登入器的工作目錄中執行並附加額外的環境變數:</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的 ID (其資料夾名稱)</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包裝指令允許啟動時使用額外的包裝程式 (如 Linux 中的 'optirun')</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -757,12 +757,12 @@ msgstr "密碼"
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:14
 msgctxt "EntitlementsStep|"
 msgid "Determining game ownership."
-msgstr ""
+msgstr "正在檢查你是否購買了遊戲。"
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "已購買過遊戲了"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
@@ -1104,12 +1104,12 @@ msgstr "未定義"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr ""
+msgstr "正在獲取 Skin。"
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr ""
+msgstr "已獲取 Skin"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1523,7 +1523,7 @@ msgstr "使用系統安裝的 OpenAL"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "雜項"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
@@ -1844,7 +1844,7 @@ msgstr "此帳號沒有擁有 Minecraft。您需要購買遊戲才能遊玩。"
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
 msgid "Missing Minecraft profile"
-msgstr ""
+msgstr "缺少 Minecraft 個人資料"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
@@ -1957,7 +1957,7 @@ msgstr "MultiMC 已停止監控遊戲紀錄檔，因為紀錄檔長度超過了%
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "正在訪問 Mojang 服務。"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
@@ -1988,32 +1988,32 @@ msgstr "啟動器開啟時檢查更新？"
 #: src/launcher/ui/pages/global/LauncherPage.ui:64
 msgctxt "LauncherPage|"
 msgid "Up&date Channel:"
-msgstr ""
+msgstr "更新通道："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:81
 msgctxt "LauncherPage|"
 msgid "No channel selected."
-msgstr ""
+msgstr "沒有選擇頻道。"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:94
 msgctxt "LauncherPage|"
 msgid "Folders"
-msgstr ""
+msgstr "資料夾"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:100
 msgctxt "LauncherPage|"
 msgid "I&nstances:"
-msgstr ""
+msgstr "實例："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:120
 msgctxt "LauncherPage|"
 msgid "&Mods:"
-msgstr ""
+msgstr "模組："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:143
 msgctxt "LauncherPage|"
 msgid "&Icons:"
-msgstr ""
+msgstr "圖示："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:163
 msgctxt "LauncherPage|"
@@ -2028,7 +2028,7 @@ msgstr "使用者介面"
 #: src/launcher/ui/pages/global/LauncherPage.ui:190
 msgctxt "LauncherPage|"
 msgid "Launcher notifications"
-msgstr ""
+msgstr "啟動器通知"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
@@ -2038,7 +2038,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
 msgid "Instance view sorting mode"
-msgstr ""
+msgstr "實例檢視排序模式"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:218
 msgctxt "LauncherPage|"
@@ -2058,7 +2058,7 @@ msgstr "主題"
 #: src/launcher/ui/pages/global/LauncherPage.ui:247
 msgctxt "LauncherPage|"
 msgid "&Icons"
-msgstr "&圖示"
+msgstr "圖示(&I)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
@@ -2088,7 +2088,7 @@ msgstr "精簡（彩色圖示）"
 #: src/launcher/ui/pages/global/LauncherPage.ui:307
 msgctxt "LauncherPage|"
 msgid "Custom"
-msgstr ""
+msgstr "自定義"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:328
 msgctxt "LauncherPage|"
@@ -2098,57 +2098,57 @@ msgstr "顏色"
 #: src/launcher/ui/pages/global/LauncherPage.ui:355
 msgctxt "LauncherPage|"
 msgid "Console"
-msgstr ""
+msgstr "控制台"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:361
 msgctxt "LauncherPage|"
 msgid "Console Settings"
-msgstr ""
+msgstr "控制台設定"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:367
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
-msgstr ""
+msgstr "遊戲執行時顯示控制台"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:374
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
-msgstr ""
+msgstr "離開遊戲時自動關閉控制台"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:381
 msgctxt "LauncherPage|"
 msgid "Show console when the game crashes?"
-msgstr ""
+msgstr "遊戲崩潰時顯示控制台"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:391
 msgctxt "LauncherPage|"
 msgid "History limit"
-msgstr ""
+msgstr "歷史紀錄限制"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:397
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "當記錄過多時停止紀錄"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:410
 msgctxt "LauncherPage|"
 msgid " lines"
-msgstr ""
+msgstr " 行"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:438
 msgctxt "LauncherPage|"
 msgid "Console font"
-msgstr ""
+msgstr "控制台字型"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:490
 msgctxt "LauncherPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "統計"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:496
 msgctxt "LauncherPage|"
 msgid "Analytics Settings"
-msgstr ""
+msgstr "統計設定"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:502
 msgctxt "LauncherPage|"
@@ -2173,7 +2173,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "實例資料夾"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
@@ -2188,12 +2188,12 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
-msgstr ""
+msgstr "圖示資料夾"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:149
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "模組資料夾"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
@@ -5518,7 +5518,7 @@ msgstr ""
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "此 Microsoft 帳號沒有 XBox Live 個人資料。請先在 %1 上購買遊戲。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
@@ -5530,7 +5530,8 @@ msgstr ""
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "此 Microsoft 帳號未成年，也未連結到家庭群組。\n\n"
+"請依照 %1 設定您的帳號。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:151
 #, qt-format
@@ -5635,7 +5636,7 @@ msgstr "發生未知的 Yggdrasil 錯誤。"
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:17
 msgctxt "YggdrasilStep|"
 msgid "Logging in with Mojang account."
-msgstr ""
+msgstr "使用 Mojang 帳號登入。"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
