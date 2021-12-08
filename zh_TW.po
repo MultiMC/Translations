@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2021-12-08 15:16\n"
+"PO-Revision-Date: 2021-12-08 15:31\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "我們追蹤一些有關使用者的匿名統計資料。"
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>啟動器在每次啟動時皆會傳送匿名的統計資料。這讓我們瞭解要專注在哪種平台或問題上。</p><p>這些資料由 Google Analytics 處理，<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">瞭解詳情</a>。</p><p>以下的資料會被收集：</p><ul><li>一個隨機的啟動器安裝 ID<br />儲存在設定檔文件中。</li><li>一部份的 IP 位置。</li><li>啟動器版本。</li><li>作業系統名稱、版本、架構。</li><li>CPU 架構(Linux 的核心(kernel)架構)。</li><li>記憶體大小。</li><li>Java 版本、架構、記憶體設定。</li></ul><p>若這些資訊有調整，你將會再次看到此頁面。</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -1003,7 +1003,7 @@ msgstr "按最後更新時間排序"
 #: src/launcher/ui/pages/modplatform/flame/FlamePage.cpp:28
 msgctxt "FlamePage|"
 msgid "Sort by name"
-msgstr "按名稱排序"
+msgstr "依名稱排序"
 
 #: src/launcher/ui/pages/modplatform/flame/FlamePage.cpp:29
 msgctxt "FlamePage|"
@@ -1720,7 +1720,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "你尚未選擇 Java 版本或指定了無效的 Java。\n"
+"%1 將無法啟動 Minecraft。\n"
+"你要忽略嗎？\n\n"
+"你之後可以在設定中更改 Java 的設定。\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1794,7 +1797,7 @@ msgstr "語言"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr ""
+msgstr "選擇在 %1 中使用的語言"
 
 #: src/launcher/LaunchController.cpp:34
 msgctxt "LaunchController|"
@@ -1973,7 +1976,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
 msgid "Features"
-msgstr ""
+msgstr "功能"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
@@ -2018,7 +2021,7 @@ msgstr "圖示："
 #: src/launcher/ui/pages/global/LauncherPage.ui:163
 msgctxt "LauncherPage|"
 msgid "Move the data to new location (will restart the launcher)"
-msgstr ""
+msgstr "移動登入器資料至其他位置（將會重新啟動登入器）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:184
 msgctxt "LauncherPage|"
@@ -2033,7 +2036,7 @@ msgstr "啟動器通知"
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "Reset hidden notifications"
-msgstr ""
+msgstr "重設被隱藏的提醒"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
@@ -2043,12 +2046,12 @@ msgstr "實例檢視排序模式"
 #: src/launcher/ui/pages/global/LauncherPage.ui:218
 msgctxt "LauncherPage|"
 msgid "By &last launched"
-msgstr ""
+msgstr "依照上次啟動時間"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:228
 msgctxt "LauncherPage|"
 msgid "By &name"
-msgstr ""
+msgstr "依照名稱"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:241
 msgctxt "LauncherPage|"
@@ -2153,7 +2156,7 @@ msgstr "統計設定"
 #: src/launcher/ui/pages/global/LauncherPage.ui:502
 msgctxt "LauncherPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "發送匿名的使用統計？"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:516
 msgctxt "LauncherPage|"
@@ -2168,7 +2171,17 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>啟動器會在每次啟動時傳送匿名的使用統計。</p><p>以下是所蒐集的資料:</p>\n"
+"<ul>\n"
+"<li>啟動器版本</li>\n"
+"<li>作業系統名稱、版本及架構</li>\n"
+"<li>CPU架構 (或Linux核心架構)</li>\n"
+"<li>系統記憶體大小</li>\n"
+"<li>Java版本、架構及記憶體設定</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
@@ -2178,12 +2191,12 @@ msgstr "實例資料夾"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "指定的實例路徑中包含了至少一個 '!' 字元。已知Java會在這種情況下發生問題，實例（可能）無法啟動！"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "你真的確定要使用此路徑？選擇 \"否\" 會關閉此對話框且不會修改實例路徑。"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
@@ -2198,17 +2211,17 @@ msgstr "模組資料夾"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[某物/錯誤] 錯誤！"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[測試/資訊] 無害的訊息..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[something/警告] 不嚴重的警告。"
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2389,7 +2402,7 @@ msgstr "建立之前版本的實例"
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>需要升級</h1><p>MultiMC 在新的 OneSix 實例格式中開始支援舊的 Minecraft 版本。因此，MultiMC 將完全停用舊版格式，而舊的實例需要升級。</p><p>本次升級將會建立一個新格式的實例，且複製目前版本的內容。原本的實例將不會被更動，以防萬一。</p><p>若遇到問題請在我們的<a href=\"https://github.com/MultiMC/Launcher/issues\">github issues 頁面</a>回報。</p><p>此外，我們有一個<a href=\"https://discord.gg/GtPmv93\">Discord 頻道</a></p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2605,7 +2618,7 @@ msgstr "使用 Microsoft 帳號登入。"
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:86
 msgctxt "MSAStep|"
 msgid "Got "
-msgstr ""
+msgstr "已獲得 "
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
@@ -2722,7 +2735,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "開啟 %1 Discord 語音群。"
 
 #: src/launcher/ui/MainWindow.cpp:360
 msgctxt "MainWindow|"
@@ -2733,19 +2746,19 @@ msgstr "Reddit"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "打開 %1 Subreddit。"
 
 #: src/launcher/ui/MainWindow.cpp:370
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
-msgstr ""
+msgstr "關於 %1"
 
 #: src/launcher/ui/MainWindow.cpp:371
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr ""
+msgstr "顯示 %1 的相關資訊"
 
 #: src/launcher/ui/MainWindow.cpp:376 src/launcher/ui/MainWindow.cpp:661
 msgctxt "MainWindow|"
@@ -2756,7 +2769,7 @@ msgstr "幫助"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
-msgstr ""
+msgstr "取得關於 %1 或 Minecraft 的幫助。"
 
 #: src/launcher/ui/MainWindow.cpp:393
 msgctxt "MainWindow|"
@@ -2773,13 +2786,13 @@ msgstr "檢查 %1 是否有更新。"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
-msgstr ""
+msgstr "支持 %1"
 
 #: src/launcher/ui/MainWindow.cpp:405
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
-msgstr ""
+msgstr "開啟 %1 在 Patreon 的頁面。"
 
 #: src/launcher/ui/MainWindow.cpp:413
 msgctxt "MainWindow|"
@@ -2810,7 +2823,7 @@ msgstr "更多消息..."
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
-msgstr ""
+msgstr "開啟開發部落格以閱讀更多有關 %1 的最新消息。"
 
 #: src/launcher/ui/MainWindow.cpp:471
 msgctxt "MainWindow|"
@@ -2956,7 +2969,7 @@ msgstr "複製所選的實例。"
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr ""
+msgstr "%1 - 版本 %2"
 
 #: src/launcher/ui/MainWindow.cpp:643
 #, qt-format
@@ -2972,7 +2985,7 @@ msgstr "沒有選擇實例"
 #: src/launcher/ui/MainWindow.cpp:754
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
-msgstr ""
+msgstr "總遊戲時間: 0s"
 
 #: src/launcher/ui/MainWindow.cpp:857 src/launcher/ui/MainWindow.cpp:1147
 msgctxt "MainWindow|"
@@ -3040,7 +3053,7 @@ msgstr "名稱"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "正在檢查轉移資格."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
@@ -3103,7 +3116,7 @@ msgstr "視窗大小"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:54
 msgctxt "MinecraftPage|"
 msgid "Start Minecraft maximized?"
-msgstr "Minercaft啟動時最大化"
+msgstr "Minercaft 啟動時最大化"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:63
 msgctxt "MinecraftPage|"
@@ -3143,7 +3156,7 @@ msgstr "顯示本實例遊玩時數"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "顯示所有實例總遊玩時數"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
@@ -3158,7 +3171,7 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "正在取得 Minecraft 個人資料。"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
@@ -3168,17 +3181,17 @@ msgstr "此帳號沒有 Minecraft 個人資料。"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:61
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "取得 Minecraft Java 個人資料失敗。"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "無法解析 Minecraft Java 個人資料回應"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:81
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "取得 Minecraft Java 個人資料成功。"
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3696,7 +3709,7 @@ msgstr "%1 (使用中)"
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "選擇 Minecraft 名稱"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
@@ -3713,13 +3726,13 @@ msgstr ""
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "名為 %1 的 Minecraft 個人資料已存在。"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
-msgstr ""
+msgstr "不允許使用此 %1 名稱"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:170
 #, qt-format
@@ -3864,7 +3877,7 @@ msgstr "贊助者"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:37
 msgctxt "QObject|About Credits"
 msgid "Developers"
-msgstr ""
+msgstr "開發人員"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:45
 msgctxt "QObject|About Credits"
@@ -4082,19 +4095,19 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1 分 %2 秒"
 
 #: src/launcher/MMCTime.cpp:18
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1 小時 %2 分"
 
 #: src/launcher/MMCTime.cpp:20
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1 天 %2 小時 %3 分"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
