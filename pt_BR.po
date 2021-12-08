@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2021-12-08 23:27\n"
+"PO-Revision-Date: 2021-12-08 23:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -220,9 +220,7 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr "<p>O MultiMC é disponibilizado em código aberto porque acreditamos na importância de verificar o código-fonte em projetos como esse. Portanto, adotamos a licença Apache.</p>\n"
-"<p>Um dos motivos para utilizar a licença Apache é inibir o uso do nome &quot;MultiMC&quot; ao redistribuir o projeto. Isso exige uma verificação no código-fonte para que as todas as referências ao &quot;MultiMC&quot; sejam removidas, incluindo os ícones e títulos de janelas (sem <b>MultiMC-fork</b> no título).</p>\n"
-"<p>A licença Apache permite o uso aceitável do nome, ou seja, uma menção ao projeto original na seção \"Sobre\" e a licença é concedida. Entretanto, deve ficar absolutamente claro de que o projeto é uma ramificação sem a aprovação e supervisão dos contribuidores originais do MultiMC.</p>"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:277
 msgctxt "AccountList|Account status"
@@ -232,12 +230,12 @@ msgstr "Não verificada"
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr "Offline"
+msgstr "Off-line"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:283
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr "Online"
+msgstr "On-line"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
@@ -473,7 +471,7 @@ msgstr "Coletamos alguns dados anônimos sobre os usuários."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>O MultiMC envia estatísticas anônimas de uso em cada inicialização. Isso nos ajuda a priorizar as plataformas e os problemas mais importantes.</p><p>Os dados são processados pelo Google Analytics, confira o <a href=\"https://support.google.com/analytics/answer/6004245?hl=pt-BR\">artigo para saber mais</a>.</p><p>Os seguintes dados são coletados:</p><ul><li>Um ID aleatório da instalação do MultiMC.<br />Armazenado no arquivo de configurações do MultiMC.</li><li>Endereço IP anônimo (parcial).</li><li>Versão do MultiMC.</li><li>Nome, versão e arquitetura do sistema operacional.</li><li>Arquitetura do CPU (Arquitetura do Kernel no Linux).</li><li>Tamanho da memória do sistema.</li><li>Versão, arquitetura e configurações de memória do Java.</li></ul><p>Caso haja uma mudança na coleta de dados, essa página será exibida novamente.</p></body></html>"
+msgstr ""
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -714,7 +712,7 @@ msgstr "Comando do wrapper:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Os comandos de pré-inicialização são executados antes da instância abrir e os de pós-saída são executados depois de fechar.</p><p>Os dois vão ser executados na pasta ativa do MultiMC com variáveis de ambiente extras:</p><ul><li>$INST_NAME - Nome da instância</li><li>$INST_ID - ID da instância (o nome da pasta)</li><li>$INST_DIR - caminho absoluto da pasta da instância</li><li>$INST_MC_DIR - caminho absoluto da pasta do Minecraft</li><li>$INST_JAVA - binário do Java usado para inicialização</li><li>$INST_JAVA_ARGS - parâmetros de linha de comando usados para inicialização</li></ul><p>Comandos do Wrapper permitem abrir a instância usando um programa wrapper extra(como o 'optirun' no Linux)</p></body></html>"
+msgstr ""
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1720,7 +1718,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Você não selecionou uma versão do Java ou ela não funciona.\n"
+"%1 não poderá iniciar o Minecraft.\n"
+"Deseja continuar sem o Java?\n\n"
+"Altere a versão do Java depois nas definições.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1844,7 +1845,7 @@ msgstr "A conta não tem o Minecraft. Compre o jogo para poder jogá-lo."
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
 msgid "Missing Minecraft profile"
-msgstr "Perfil de Minecraft ausente"
+msgstr "Perfil do Minecraft ausente"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
@@ -2464,7 +2465,7 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 msgstr "Alguns artefatos marcados como \"local\" não contêm os arquivos necessários:\n"
 "%1\n\n"
 "Adicione os arquivos ou remova os pacotes que os exigem.\n"
-"Você precisa corrigir esse problema manualmente."
+"Corrija esse problema manualmente."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:78
 #, qt-format
@@ -3164,7 +3165,7 @@ msgstr "Buscando o perfil do Minecraft."
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr "A conta não possui um perfil do Minecraft."
+msgstr "A conta não tem um perfil do Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:61
 msgctxt "MinecraftProfileStep|"
@@ -3643,7 +3644,7 @@ msgstr "O comando de pós-inicialização falhou com o código %1.\n\n"
 #: src/launcher/launch/steps/PostLaunchCommand.cpp:62
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
-msgstr "O comando de pós-inicialização foi executado com êxito.\n\n"
+msgstr "O comando de pós-inicialização foi executado.\n\n"
 
 #: src/launcher/launch/steps/PreLaunchCommand.cpp:32
 #, qt-format
@@ -3660,7 +3661,7 @@ msgstr "O comando de pré-inicialização falhou com o código %1.\n\n"
 #: src/launcher/launch/steps/PreLaunchCommand.cpp:63
 msgctxt "PreLaunchCommand|"
 msgid "Pre-Launch command ran successfully.\n\n"
-msgstr "O comando de pré-inicialização foi executado com êxito.\n\n"
+msgstr "O comando de pré-inicialização foi executado.\n\n"
 
 #: src/launcher/ui/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
@@ -4838,7 +4839,7 @@ msgstr "A pre-release 2 do Minecraft 1.18 e acima exigem o uso do Java 17"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:28
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr "A partir da versão 21w19a, o Minecraft exige a instalação do Java 16"
+msgstr "A partir da versão 21w19a, o Minecraft exige a instalação do Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:37
 msgctxt "VerifyJavaInstall|"
@@ -5308,7 +5309,7 @@ msgstr "Modo de jogo"
 #: src/launcher/minecraft/WorldList.cpp:231
 msgctxt "WorldList|"
 msgid "Last Played"
-msgstr "Último acesso"
+msgstr "Último uso"
 
 #: src/launcher/minecraft/WorldList.cpp:240
 msgctxt "WorldList|"
@@ -5522,7 +5523,7 @@ msgstr "O elemento XErr não está na resposta de erro de autorização do %1."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr "Essa conta Microsoft não possui um perfil do Xbox Live. Primeiro, compre o jogo na %1."
+msgstr "Essa conta Microsoft não tem um perfil do Xbox Live. Primeiro, compre o jogo na %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
