@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2021-12-08 09:51\n"
+"PO-Revision-Date: 2021-12-08 10:00\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2171,47 +2171,57 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>Der Launcher sammelt bei jedem Programmstart anonyme Nutzungsdaten.</p><p>Folgende Daten werden gesammelt:</p>\n"
+"<ul>\n"
+"<li>Launcher-Version.</li>\n"
+"<li>Betriebssystem, Version und Architektur.</li>\n"
+"<li>CPU Architektur (Kernel Architektur bei Linux).</li>\n"
+"<li>Größe des Arbeitsspeichers.</li>\n"
+"<li>Java Version, Architektur und Arbeitsspeicher Einstellungen.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Instanz-Ordner"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Du versuchst einen Instanz-Ordner auszuwählen, dessen Pfad mindestens ein '!' enthält. Unter diesen Umständen ist Java dafür bekannt, Probleme zu verursachen. Deine Instanzen werden (vermutlich) nicht starten!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Willst du wirklich diesen Pfad benutzen? \"Nein\" schließt diese Warnung und dein Instanz-Pfad wird nicht verändert."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
-msgstr ""
+msgstr "Icons Ordner"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:149
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "Mods Ordner"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Etwas/ERROR] Ein gruseliger Fehler!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Eine harmlose Mitteilung..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Etwas/WARN] Eine weniger gruselige Warnung."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2392,7 +2402,7 @@ msgstr "Lade Liste von früheren Minecraft-Versionen."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Upgrade ist benötigt</h1><p>MultiMC unterstützt jetzt alte Minecraft-Versionen und alles was benötigt wird für das neue \"OneSix\" Instanz-Format. Als Konsequenz müssen alte Formate abgeschaltet und alte Instanzen aktualisiert werden.</p><p>Das Upgrade wird eine neue Instanz mit dem selben Inhalt wie die momentane, jedoch im neuen Format, erstellen. Das Original bleibt unberührt, falls etwas schief gehen sollte während des Prozesses.</p><p>Bitte berichte jeden Fehler auf unserer <a href=\"https://github.com/MultiMC/Launcher/issues\">GitHub Fehler Website</a>.</p><p>Es gibt auch einen <a href=\"https://discord.gg/GtPmv93\">Discord-Kanal zum Testen</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2603,32 +2613,32 @@ msgstr "<p>Bitte öffne %1 in einem Browser und fügen diesen Code <b>%2</b> ein
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
 msgid "Logging in with Microsoft account."
-msgstr ""
+msgstr "Mit Microsoft-Konto anmelden."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:86
 msgctxt "MSAStep|"
 msgid "Got "
-msgstr ""
+msgstr "Erhalten "
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "Die Microsoft-Benutzerauthentifizierung endete mit einem Netzwerkfehler."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "Microsoft-Benutzerauthentifizierung fehlgeschlagen - Benutzer existiert nicht mehr."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "Microsoft Benutzerauthentifizierung fehlgeschlagen."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "Microsoft-Benutzerauthentifizierung mit einem nicht bekannten Ergebnis abgeschlossen."
 
 #: src/launcher/ui/MainWindow.cpp:256
 msgctxt "MainWindow|"
@@ -2714,7 +2724,7 @@ msgstr "Fehler melden"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "Öffne den Bug-Tracker, um einen Fehler mit %1 zu melden."
 
 #: src/launcher/ui/MainWindow.cpp:350
 msgctxt "MainWindow|"
@@ -2725,7 +2735,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "Öffne %1's Discord Chat."
 
 #: src/launcher/ui/MainWindow.cpp:360
 msgctxt "MainWindow|"
@@ -2736,19 +2746,19 @@ msgstr "Reddit"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "Öffne %1's Subreddit."
 
 #: src/launcher/ui/MainWindow.cpp:370
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
-msgstr ""
+msgstr "Über %1"
 
 #: src/launcher/ui/MainWindow.cpp:371
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr ""
+msgstr "Informationen über %1 anzeigen."
 
 #: src/launcher/ui/MainWindow.cpp:376 src/launcher/ui/MainWindow.cpp:661
 msgctxt "MainWindow|"
@@ -2759,7 +2769,7 @@ msgstr "Hilfe"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
-msgstr ""
+msgstr "Hilfe mit %1 oder Minecraft bekommen."
 
 #: src/launcher/ui/MainWindow.cpp:393
 msgctxt "MainWindow|"
@@ -2770,7 +2780,7 @@ msgstr "Aktualisieren"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
-msgstr ""
+msgstr "Nach Updates für %1 suchen."
 
 #: src/launcher/ui/MainWindow.cpp:404
 #, qt-format
