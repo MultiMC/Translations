@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2021-12-08 20:21\n"
+"PO-Revision-Date: 2021-12-08 20:34\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -395,7 +395,7 @@ msgstr "Kontextmenü"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:146
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr "Bitte gib die E-Mail und das Passwort deines Mojang-Kontos ein, um es hinzuzufügen."
+msgstr "Bitte gebe die E-Mail und das Passwort deines Mojang-Kontos ein, um dich anzumelden."
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:135
 msgctxt "AccountListPage|"
@@ -1203,7 +1203,7 @@ msgstr "Lokale Datei oder Link zum Direktdownload:"
 #: src/launcher/ui/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
 msgid "Import from zip"
-msgstr "Importiere Zip-Datei"
+msgstr "Importiere ZIP-Datei"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:106
 msgctxt "ImportPage|"
@@ -1213,7 +1213,7 @@ msgstr "Modpack auswählen"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:106
 msgctxt "ImportPage|"
 msgid "Zip (*.zip)"
-msgstr "Zip (*.zip)"
+msgstr "ZIP (*.zip)"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1268,7 +1268,7 @@ msgstr "Entpacke Modpack"
 #: src/launcher/InstanceImportTask.cpp:96
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr "Die Modpack-Zip-Datei kann nicht geöffnet werden."
+msgstr "Die Modpack ZIP-Datei kann nicht geöffnet werden."
 
 #: src/launcher/InstanceImportTask.cpp:129
 #: src/launcher/InstanceImportTask.cpp:193
@@ -2286,13 +2286,13 @@ msgstr "Fehler beim Herunterladen einiger Modpack-Listen: %1"
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr "Lade zip für %1 herunter"
+msgstr "ZIP für %1 wird heruntergeladen"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr "Lade zip für %1 (%2%) herunter"
+msgstr "ZIP für %1 (%2) wird heruntergeladen"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
@@ -4199,12 +4199,12 @@ msgstr "QIODevice::Append wird für GZIP nicht unterstützt"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr "Das Öffnen von gzip-Archiven sowohl zum Lesen als auch Schreiben wird nicht unterstützt"
+msgstr "Das Öffnen von GZIP-Archiven sowohl zum Lesen als auch Schreiben wird nicht unterstützt"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr "Sie können ein gzip-Archiv entweder zum Lesen oder Schreiben öffnen. Was soll es sein?"
+msgstr "Du kannst ein GZIP-Archiv entweder zum Lesen oder Schreiben öffnen. Was soll es sein?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
@@ -4544,7 +4544,7 @@ msgstr "Entpacke Modpack"
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:69
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr "Die Modpack-Zip-Datei kann nicht geöffnet werden."
+msgstr "Die Modpack ZIP-Datei kann nicht geöffnet werden."
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:97
 msgctxt "Technic::SingleZipPackInstallTask|"
@@ -5371,7 +5371,7 @@ msgstr "MCEdit"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:122
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
-msgstr "Startwert kopieren"
+msgstr "Startwert (Seed) kopieren"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:127
 msgctxt "WorldListPage|"
@@ -5454,12 +5454,12 @@ msgstr "MCEdit konnte nicht gestartet werden.\n"
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:330
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
-msgstr "Minecraft Welt Zip auswählen"
+msgstr "Minecraft Welt ZIP auswählen"
 
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:331
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr "Minecraft Welt Zip Datei (*.zip)"
+msgstr "Minecraft Welt ZIP-Datei (*.zip)"
 
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:352
 msgctxt "WorldListPage|"
@@ -5493,43 +5493,43 @@ msgstr "Gebe einen neuen Weltnamen ein."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "Autorisierung um auf %1 Dienste zuzugreifen wird geladen."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %1."
-msgstr "Fehler beim Laden der Berechtigung für %1 Dienste. Fehler %1."
+msgstr "Fehler beim Laden der Autorisierung für %1 Dienste. Fehler %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "Autorisierungs-Antwort konnte für den Zugriff auf %1 Dienste nicht verarbeitet werden."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "Server hat den %1 Autorisierungsnutzer-Hash in der Antwort geändert. Irgendetwas stimmt nicht."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr "Zugriffsberechtigung für %1 erhalten"
+msgstr "Autorisierung für %1 erhalten"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "Kann %1 Autorisierungsfehler nicht als JSON verarbeiten: %2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "XErr Element fehlt in der %1 Autorisierungsfehler-Antwort."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
