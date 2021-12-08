@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2021-12-08 15:31\n"
+"PO-Revision-Date: 2021-12-08 16:21\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -43,12 +43,12 @@ msgstr "未知的模組類型：%1"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr "尋找載入器%1的版本失敗"
+msgstr "尋找載入器 %1 的版本失敗"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:212
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "沒有為模組包設置載入器版本!"
+msgstr "沒有為模組包設置載入器版本！"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:316
 #, qt-format
@@ -142,7 +142,7 @@ msgstr "關於"
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>是個第三方的啟動器，它讓你能夠在同一個啟動器裡更輕鬆地管理多個實例的Minecraft。</p></body></html>"
+msgstr "<html><head/><body><p>是個第三方的啟動器，它讓你能夠在同一個啟動器裡更輕鬆地管理多個實例的 Minecraft。</p></body></html>"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
@@ -162,7 +162,7 @@ msgstr "組建版本號："
 #: src/launcher/ui/dialogs/AboutDialog.ui:187
 msgctxt "AboutDialog|"
 msgid "Channel:"
-msgstr "頻道:"
+msgstr "頻道："
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:211
 msgctxt "AboutDialog|"
@@ -242,7 +242,7 @@ msgstr "線上"
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
 msgid "Working"
-msgstr ""
+msgstr "處理中"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:289
 msgctxt "AccountList|Account status"
@@ -383,8 +383,8 @@ msgstr "帳號"
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "歡迎!\n"
-"如果你剛來到這裡，你可以點擊「新增」按鈕來新增你的Mojang或Minecraft帳號。"
+msgstr "歡迎！\n"
+"如果你剛來到這裡，你可以點擊「新增」按鈕來新增你的 Mojang 或 Minecraft 帳號。"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:87
 msgctxt "AccountListPage|"
@@ -442,7 +442,7 @@ msgstr "在身份驗證過程中出現錯誤。"
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr ""
+msgstr "驗證失敗。會話已過期。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -611,7 +611,7 @@ msgstr "初始化中"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
 msgid "Working..."
-msgstr ""
+msgstr "處理中..."
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -714,7 +714,7 @@ msgstr "包裝指令:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而結束後指令則會在其結束後執行。</p><p>此兩者會在登入器的工作目錄中執行並附加額外的環境變數:</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的 ID (其資料夾名稱)</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包裝指令允許啟動時使用額外的包裝程式 (如 Linux 中的 'optirun')</p></body></html>"
+msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而結束後指令則會在其結束後執行。</p><p>此兩者會在啟動器的工作目錄中執行並附加額外的環境變數:</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的 ID (其資料夾名稱)</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包裝指令允許啟動時使用額外的包裝程式 (如 Linux 中的 'optirun')</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -731,7 +731,7 @@ msgstr "無法找到包裝指令 \"%1\"。"
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr "無法啟動Minecraft!"
+msgstr "無法啟動 Minecraft！"
 
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:100
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:110
@@ -810,7 +810,7 @@ msgstr "外部編輯器(留空以使用系統預設值)"
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr "文字編輯器:"
+msgstr "文字編輯器："
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
@@ -864,13 +864,13 @@ msgstr "JVisualVM可執行檔"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr "檢查JVisualVM是否安裝時發生錯誤:\n"
+msgstr "檢查 JVisualVM 是否安裝時發生錯誤：\n"
 "%1"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr "JVisualVM已正確的設定且安裝"
+msgstr "JVisualVM 已正確的設定且安裝"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
@@ -888,7 +888,7 @@ msgstr "MCEdit資料夾"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking MCEdit install:\n"
 "%1"
-msgstr "檢查MCEdit是否安裝時發生錯誤:\n"
+msgstr "檢查 MCEdit 是否安裝時發生錯誤：\n"
 "%1"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:195
@@ -1156,7 +1156,7 @@ msgstr "下載%1個更新檔中。"
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "下載更新檔案失敗:%1"
+msgstr "下載更新檔案失敗：%1"
 
 #: src/launcher/ui/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
@@ -1245,14 +1245,14 @@ msgstr "實例資料夾複製已被中斷。"
 #, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "正在從版本%1建立實例中"
+msgstr "正在從版本 %1 建立實例中"
 
 #: src/launcher/InstanceImportTask.cpp:52
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
 "%1"
-msgstr "正在下載模組包:\n"
+msgstr "正在下載模組包：\n"
 "%1"
 
 #: src/launcher/InstanceImportTask.cpp:58
@@ -1433,7 +1433,7 @@ msgstr "Minecraft 啟動時的記憶體使用量。"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:160
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "用於儲存Java類別的記憶體使用量。"
+msgstr "用於儲存 Java 類別的記憶體使用量。"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
@@ -1728,7 +1728,7 @@ msgstr "你尚未選擇 Java 版本或指定了無效的 Java。\n"
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
 msgid "Find Java executable"
-msgstr "尋找Java可執行檔"
+msgstr "尋找 Java 可執行檔"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:425
 msgctxt "JavaSettingsWidget|"
@@ -1947,7 +1947,7 @@ msgstr "強制關閉 Minecraft？"
 #: src/launcher/LaunchController.cpp:380
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr "這可能造成實例發生錯誤，只應該在Minecraft因某些原因而沒有回應時使用"
+msgstr "這可能造成實例發生錯誤，只應該在 Minecraft 因某些原因而沒有回應時使用"
 
 #: src/launcher/launch/LaunchTask.cpp:215
 #, qt-format
@@ -1966,12 +1966,12 @@ msgstr "正在訪問 Mojang 服務。"
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr ""
+msgstr "無法獲取 Minecraft 訪問憑證：%1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "無法解析 Minecraft 訪問憑證響應。"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
@@ -2021,7 +2021,7 @@ msgstr "圖示："
 #: src/launcher/ui/pages/global/LauncherPage.ui:163
 msgctxt "LauncherPage|"
 msgid "Move the data to new location (will restart the launcher)"
-msgstr "移動登入器資料至其他位置（將會重新啟動登入器）"
+msgstr "移動啟動器資料至其他位置（將會重新啟動啟動器）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:184
 msgctxt "LauncherPage|"
@@ -2061,7 +2061,7 @@ msgstr "主題"
 #: src/launcher/ui/pages/global/LauncherPage.ui:247
 msgctxt "LauncherPage|"
 msgid "&Icons"
-msgstr "圖示(&I)"
+msgstr "圖示"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
@@ -2512,7 +2512,7 @@ msgstr "複製(&C)"
 #: src/launcher/ui/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "上傳記錄檔至paste.ee - 這會保留在網路上1個月"
+msgstr "上傳記錄檔至 paste.ee - 這會保留在網路上1個月"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
@@ -2623,22 +2623,22 @@ msgstr "已獲得 "
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "Microsoft 使用者身分認證時遇到了網絡錯誤。"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "Microsoft 使用者身份驗證失敗 - 使用者不再存在。"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "Microsoft 使用者驗證失敗。"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "Microsoft 使用者身份驗證已完成，但結果無法識別。"
 
 #: src/launcher/ui/MainWindow.cpp:256
 msgctxt "MainWindow|"
@@ -2724,7 +2724,7 @@ msgstr "Bug回報"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "開啟Bug追蹤器以回報 %1 的Bug。"
 
 #: src/launcher/ui/MainWindow.cpp:350
 msgctxt "MainWindow|"
@@ -3058,7 +3058,7 @@ msgstr "正在檢查轉移資格."
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "已獲取遷移標誌"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:701
 msgctxt "MinecraftInstance|"
@@ -3575,14 +3575,14 @@ msgstr "您確定要刪除下列檔案？\n"
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:256
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
-msgstr "無法刪除一些檔案!"
+msgstr "無法刪除一些檔案！"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:261
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files:\n"
 "%1"
-msgstr "無法刪除一些檔案:\n"
+msgstr "無法刪除一些檔案！\n"
 "%1"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.h:45
@@ -3608,7 +3608,7 @@ msgstr "paste.ee API 金鑰"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr "MultiMC金鑰(&U) - 12MB 上傳限制"
+msgstr "MultiMC 金鑰(&U) - 12MB 上傳限制"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
@@ -3633,7 +3633,7 @@ msgstr "上傳紀錄"
 #: src/launcher/net/PasteUpload.cpp:48
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
-msgstr "正在上傳到paste.ee"
+msgstr "正在上傳到 paste.ee"
 
 #: src/launcher/net/PasteUpload.cpp:77
 msgctxt "PasteUpload|"
@@ -3715,12 +3715,13 @@ msgstr "選擇 Minecraft 名稱"
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "您只需要再邁出一步即可在此帳號上玩 Minecraft。\n\n"
+"請謹慎選擇你的名字："
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "名稱太短 - 長度必須在 3 到 16 個字符之間。"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
@@ -3738,17 +3739,17 @@ msgstr "不允許使用此 %1 名稱"
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr ""
+msgstr "未處理的設定檔文件名稱狀態：%1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
-msgstr ""
+msgstr "未能檢查用戶名是否可用。"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "伺服器返回以下錯誤："
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3768,7 +3769,7 @@ msgstr "略過"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "這只會套用到啟動器。Minecraft 並不接受 Proxy 設定。"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3818,12 +3819,12 @@ msgstr "使用者名稱："
 #: src/launcher/ui/pages/global/ProxyPage.ui:155
 msgctxt "ProxyPage|"
 msgid "Password:"
-msgstr "密碼:"
+msgstr "密碼："
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "註：Proxy 的使用者名稱及密碼會以明文儲存在啟動器的設定檔中！"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3936,13 +3937,13 @@ msgstr "Java測試成功!<br />回報的平台: %1<br />回報的Java版本: %2<
 #: src/launcher/JavaCommon.cpp:35
 msgctxt "QObject|"
 msgid "Java test success"
-msgstr "Java測試成功"
+msgstr "Java 測試成功"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
 #: src/launcher/JavaCommon.cpp:45 src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
 msgid "Java test failure"
-msgstr "Java測試失敗"
+msgstr "Java 測試失敗"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -3964,7 +3965,7 @@ msgstr "processArguments 被設為未知的值 '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "此版本的 'minimumLauncherVersion' 值 (%1) 比 %3 所支援的還要高 (%2)。有可能無法正常運作!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4089,7 +4090,9 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "回退程序也失敗了。\n"
+"你將需要手動修復 %1。\n"
+"請讓我們知道這是為何且如何發生的。"
 
 #: src/launcher/MMCTime.cpp:14
 #, qt-format
@@ -4133,7 +4136,7 @@ msgstr "Java測試成功！<br />平台報告: %1<br />Java版本報告: %2<br /
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />警告:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />警告：<br /><font color=\"orange\">%1</font>"
 
 #: src/launcher/JavaCommon.cpp:43
 msgctxt "QObject|"
@@ -4287,7 +4290,7 @@ msgstr "功能表"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:357
 msgctxt "ScreenshotsPage|"
 msgid "Failed to upload screenshots!"
-msgstr "螢幕截圖上傳失敗!"
+msgstr "螢幕截圖上傳失敗！"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:320
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:358
@@ -4432,7 +4435,7 @@ msgstr "重新整理(&R)"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr ""
+msgstr "%1 快速設定"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
@@ -4661,7 +4664,7 @@ msgstr "無法解析 \"version.json\":\n"
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:202
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
-msgstr "無法解析 \"version.json\":\n"
+msgstr "無法解析 \"version.json\"：\n"
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:32
 msgctxt "TechnicPage|"
@@ -4842,7 +4845,7 @@ msgstr "原版"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:19
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr ""
+msgstr "Minecraft 從 1.18 Pre Release 2 開始需使用 Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:28
 msgctxt "VerifyJavaInstall|"
@@ -5489,54 +5492,54 @@ msgstr "輸入新世界的名稱。"
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "正在獲得訪問 %1 服務的授權。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %1."
-msgstr ""
+msgstr "無法獲得 %1 服務的授權。錯誤 %1。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "無法解析訪問 %1 服務的授權響應。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "伺服器已更改響應中的 %1 授權使用者哈希值。有點不對勁。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr ""
+msgstr "已獲得了訪問 %1 的授權"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "無法將 %1 授權錯誤響應解析為 JSON：%2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "%1 授權錯誤響應中缺少 XErr 元素。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr "此 Microsoft 帳號沒有 XBox Live 個人資料。請先在 %1 上購買遊戲。"
+msgstr "此 Microsoft 帳號沒有 Xbox Live 個人資料。請先在 %1 上購買遊戲。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "XBox Live 無法在您的國家使用。您被阻擋了。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:143
 #, qt-format
@@ -5551,42 +5554,43 @@ msgstr "此 Microsoft 帳號未成年，也未連結到家庭群組。\n\n"
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "XSTS 驗證以無法辨識的錯誤結束：\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr ""
+msgstr "正在獲取 Xbox 個人資料。"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "無法獲取 Xbox 個人資料。"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr ""
+msgstr "已獲取 Xbox 個人資料"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
 msgid "Logging in as an Xbox user."
-msgstr ""
+msgstr "正在以 Xbox 使用者登入。"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:56
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "XBox 使用者驗證失敗。"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "無法理解 XBox 使用者驗證回應。"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:67
 msgctxt "XboxUserStep|"
 msgid "Got Xbox user token"
-msgstr ""
+msgstr "已獲取 Xbox 使用者憑證"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:188
 msgctxt "Yggdrasil|"
@@ -5616,7 +5620,7 @@ msgstr "驗證已取消。"
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL 交握失敗。</b><br/>這可能有幾種原因:<br/><ul><li>您使用 Windows 且需要更新您的根憑證，請安裝任何未完成的更新。</li><li>在您的網路中有一些裝置在干擾 SSL 流量。在此情況下，您有比無法啟動 Minecraft 還更大的擔憂。</li><li>可能是一些其他的原因。確認記錄檔以了解詳情</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
@@ -5654,15 +5658,15 @@ msgstr "使用 Mojang 帳號登入。"
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
 msgid "Logged in with Mojang"
-msgstr ""
+msgstr "使用 Mojang 登入"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "Mojang 使用者驗證失敗。"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
-msgstr ""
+msgstr "Mojang 使用者身分認證時遇到了網絡錯誤。"
 
