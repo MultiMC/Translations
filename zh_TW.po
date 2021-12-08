@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2021-12-08 16:21\n"
+"PO-Revision-Date: 2021-12-08 16:29\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -220,9 +220,9 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr "<p>我們公開MultiMC的原始碼是因為我們認為能夠看見這種專案的原始碼是很重要的，而我們透過Apache授權條約(Apache license)來達成公開原始碼的目的</p>\n"
-"<p>其中一個我們使用Apache授權條約的理由為：我們不想讓人們使用&quot;MultiMC&quot;這個名字來重新發佈專案。這表示人們必須花時間檢視整個原始碼並移除所有與&quot;MultiMC&quot;有關的元素，包含但不限於專案圖示(icon)和視窗標題(title of windows)，(不得有<b>MultiMC分支</b>在標題中)</p>\n"
-"<p>Apache授權條約允許合理的使用名字--例如：在關於對話框(About dialog)和授權中中提及本專案名稱。但是必須要完整的聲明你的專案為本專案的分支，且與我們<b>沒有</b>任何關係</p>"
+msgstr "<p>我們公開 MultiMC 的原始碼是因為我們認為能夠看見這種專案的原始碼是很重要的，而我們透過 Apache 授權條約(Apache license)來達成公開原始碼的目的</p>\n"
+"<p>其中一個我們使用 Apache 授權條約的理由為：我們不想讓人們使用 &quot;MultiMC&quot; 這個名字來重新發佈專案。這表示人們必須花時間檢視整個原始碼並移除所有與 &quot;MultiMC&quot; 有關的元素，包含但不限於專案圖示(icon)和視窗標題(title of windows)，(不得有 <b>MultiMC分支</b> 在標題中)</p>\n"
+"<p>Apache 授權條約允許合理的使用名字 - 例如：在關於對話框(About dialog)和授權中中提及本專案名稱。但是必須要完整的聲明你的專案為本專案的分支，且與我們<b>沒有</b>任何關係</p>"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:277
 msgctxt "AccountList|Account status"
@@ -292,7 +292,7 @@ msgstr "狀態"
 #: src/launcher/minecraft/auth/AccountList.cpp:352
 msgctxt "AccountList|"
 msgid "Can Migrate?"
-msgstr "能否轉移"
+msgstr "能否轉移？"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:354
 msgctxt "AccountList|"
@@ -511,7 +511,7 @@ msgstr "從 Mojang 取得資源檔案..."
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr "下載資源索引失敗:\n"
+msgstr "下載資源索引失敗：\n"
 "%1"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:95
@@ -519,7 +519,7 @@ msgstr "下載資源索引失敗:\n"
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr "下載資源失敗:\n"
+msgstr "下載資源失敗：\n"
 "%1"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
@@ -699,7 +699,7 @@ msgstr "自訂指令(&T)"
 #: src/launcher/ui/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr "結束後指令:"
+msgstr "結束後指令："
 
 #: src/launcher/ui/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
@@ -709,12 +709,12 @@ msgstr "預啟動指令:"
 #: src/launcher/ui/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "包裝指令:"
+msgstr "包裝指令："
 
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而結束後指令則會在其結束後執行。</p><p>此兩者會在啟動器的工作目錄中執行並附加額外的環境變數:</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的 ID (其資料夾名稱)</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包裝指令允許啟動時使用額外的包裝程式 (如 Linux 中的 'optirun')</p></body></html>"
+msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而結束後指令則會在其結束後執行。</p><p>此兩者會在啟動器的工作目錄中執行並附加額外的環境變數：</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的 ID (其資料夾名稱)</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包裝指令允許啟動時使用額外的包裝程式 (如 Linux 中的 'optirun')</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -783,7 +783,7 @@ msgstr "覆蓋?"
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr "此檔案已存在，你想要覆蓋它嗎?"
+msgstr "此檔案已存在，你想要覆蓋它嗎？"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
@@ -805,7 +805,7 @@ msgstr "檢查"
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr "外部編輯器(留空以使用系統預設值)"
+msgstr "外部編輯器（留空以使用系統預設值）"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
@@ -820,7 +820,7 @@ msgstr "外部工具"
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
-msgstr "JProfiler資料夾"
+msgstr "JProfiler 資料夾"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:98
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:113
@@ -838,7 +838,7 @@ msgstr "錯誤"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr "檢查JProfiler是否安裝時發生錯誤:\n"
+msgstr "檢查 JProfiler 是否安裝時發生錯誤：\n"
 "%1"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
@@ -920,7 +920,7 @@ msgstr "無法解開原生的 jar 檔案 '%1' 到目的地 '%2'"
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:39
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr "正在檢查FML函式庫..."
+msgstr "正在檢查 FML 函式庫..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
@@ -930,18 +930,18 @@ msgstr "正在下載 FML 函式庫......"
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "複製FML函式庫至實例中..."
+msgstr "複製 FML 函式庫至實例中..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:101
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "在實例中建立FML函式庫資料夾時失敗。"
+msgstr "在實例中建立 FML 函式庫資料夾時失敗。"
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:106
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "複製Forge/FML函式庫時失敗:%1."
+msgstr "複製 Forge/FML 函式庫時失敗：%1。"
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:119
 #, qt-format
@@ -1023,7 +1023,7 @@ msgstr " 作者："
 #: src/launcher/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr "為Minecraft二進位檔案建立資料夾失敗。"
+msgstr "為 Minecraft 二進位檔案建立資料夾失敗。"
 
 #: src/launcher/ui/pages/modplatform/ftb/FtbFilterModel.cpp:13
 msgctxt "Ftb::FilterModel|"
@@ -1150,7 +1150,7 @@ msgstr "下載1個更新檔中。"
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "下載%1個更新檔中。"
+msgstr "下載 %1 個更新檔中。"
 
 #: src/launcher/updater/DownloadTask.cpp:159
 #, qt-format
@@ -1198,7 +1198,7 @@ msgstr "瀏覽"
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:31
 msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
-msgstr "本機檔案或直接下載的連結:"
+msgstr "本機檔案或直接下載的連結："
 
 #: src/launcher/ui/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
@@ -1218,12 +1218,12 @@ msgstr "Zip 壓縮檔 (*.zip)"
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
 msgid "&Name:"
-msgstr "名稱(&N):"
+msgstr "名稱(&N)："
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:40
 msgctxt "InstanceCardWidget|"
 msgid "&Group:"
-msgstr "群組(&G):"
+msgstr "群組(&G)："
 
 #: src/launcher/InstanceCopyTask.cpp:24
 #, qt-format
@@ -1295,12 +1295,12 @@ msgstr "實例匯入已被中斷。"
 #: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "無法理解模組包資訊:\n"
+msgstr "無法理解模組包資訊：\n"
 
 #: src/launcher/InstanceImportTask.cpp:232
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr "無法重新命名覆蓋的資料夾:\n"
+msgstr "無法重新命名覆蓋的資料夾：\n"
 
 #: src/launcher/InstanceImportTask.cpp:238
 #, qt-format
@@ -1312,18 +1312,18 @@ msgstr "找不到指定的目錄 (%1) 以覆寫。或許有模組包已經使用
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr "在資訊中的未知模組載入器: %1"
+msgstr "在資訊中的未知模組載入器：%1"
 
 #: src/launcher/InstanceImportTask.cpp:272
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr "匯入包裝時移除了Minecraft版本的追蹤點"
+msgstr "匯入包裝時移除了Minecraft版本的追蹤點。"
 
 #: src/launcher/InstanceImportTask.cpp:288
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr "無法為Minecraft %1 提供推薦的Forge版本"
+msgstr "無法為 Minecraft %1 提供推薦的 Forge 版本"
 
 #: src/launcher/InstanceImportTask.cpp:340
 msgctxt "InstanceImportTask|"
