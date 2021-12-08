@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2021-12-08 09:30\n"
+"PO-Revision-Date: 2021-12-08 09:44\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -5507,91 +5507,93 @@ msgstr "无法获得 %1 服务的授权。错误 %1。"
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "无法解析访问 %1 服务的授权响应。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "服务器更改了响应中的 %1 授权用户哈希值。有点不对劲。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr ""
+msgstr "成功获得了访问 %1 的授权"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "无法将 %1 的授权错误响应解析为 JSON：%2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "%1 授权错误响应中缺少 XErr 元素。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "此微软帐户没有 XBox Live 个人资料。请先在 %1 购买游戏。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "XBox Live 服务在您的国家或地区不可用。您的登录请求已被屏蔽。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:143
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "此微软帐户拥有者未成年，且未链接到一个家庭。\n\n"
+"请根据 %1 设置您的帐户。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:151
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "XSTS 身份验证触发了未知的错误：\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr ""
+msgstr "正在获取 Xbox 个人资料。"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "获取 Xbox 个人资料失败。"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr ""
+msgstr "成功获取 Xbox 个人资料"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
 msgid "Logging in as an Xbox user."
-msgstr ""
+msgstr "以 XBox 用户身份登录。"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:56
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "XBox 用户验证失败。"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "XBox 用户认证响应无法识别。"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:67
 msgctxt "XboxUserStep|"
 msgid "Got Xbox user token"
-msgstr ""
+msgstr "成功获取 Xbox 用户令牌"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:188
 msgctxt "Yggdrasil|"
@@ -5621,7 +5623,7 @@ msgstr "身份验证操作已取消。"
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL 握手失败。</b><br/>可能的原因如下：<br/><ul><li>你正在使用 Windows 并且你需要更新你的根证书，请在系统更新处安装任何突出显示的更新。</li><li>或者在你的网络上有一些设备正在干扰 SSL 流量，在这种情况下，你应该比 Minecraft 无法启动更加担心。</li><li>可能原因还有很多，查看日志文件以获取详细信息</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
@@ -5654,20 +5656,20 @@ msgstr "发生未知 Yggdrasil 错误。"
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:17
 msgctxt "YggdrasilStep|"
 msgid "Logging in with Mojang account."
-msgstr ""
+msgstr "正在使用 Mojang 账户登录"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
 msgid "Logged in with Mojang"
-msgstr ""
+msgstr "已使用 Mojang 账户登录"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "Mojang 用户验证失败。"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
-msgstr ""
+msgstr "Mojang 账户认证时遇到了网络错误。"
 
