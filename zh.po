@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2021-12-08 09:08\n"
+"PO-Revision-Date: 2021-12-08 09:19\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -457,7 +457,7 @@ msgstr "..."
 #, qt-format
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
-msgstr ""
+msgstr "未知账户工作状态： %1"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -472,7 +472,21 @@ msgstr "我们会收集一些关于用户的匿名统计数据。"
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body>\n"
+"<p>本启动器会在每次启动时发送匿名使用数据，这些数据将会帮助我们决定目前的工作重心。</p>\n"
+"<p>数据由 Google Analytics 处理，<a href=\"https://support.google.com/analytics/answer/6004245?hl=zh-cn\">关于其匿名性</a></p>\n"
+"<p>下列数据将会被收集：</p>\n"
+"<ul>\n"
+"<li>启动器安装时产生的唯一随机 ID。<br />它存储在启动器设置文件中。</li>\n"
+"<li>匿名化的 (部分) IP地址。</li>\n"
+"<li>启动器版本。</li>\n"
+"<li>操作系统名称, 版本和架构。</li>\n"
+"<li>CPU 架构 (Linux 还会收集内核架构)。</li>\n"
+"<li>系统内存大小。</li>\n"
+"<li>Java 版本，架构和内存设定。</li>\n"
+"</ul>\n"
+"<p>如果我们更改了这些跟踪的信息，你将会再次看到这个页面。</p>\n"
+"</body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -482,7 +496,7 @@ msgstr "启用统计数据"
 #: src/launcher/Application.cpp:715
 msgctxt "Application|"
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
@@ -600,17 +614,17 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "已完成所有身份认证步骤"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
 msgid "Initializing"
-msgstr ""
+msgstr "正在初始化"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
 msgid "Working..."
-msgstr ""
+msgstr "正在处理……"
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -756,12 +770,12 @@ msgstr "密码"
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:14
 msgctxt "EntitlementsStep|"
 msgid "Determining game ownership."
-msgstr ""
+msgstr "正在检查你是否购买了游戏。"
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "已经购买过游戏了"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
@@ -924,7 +938,7 @@ msgstr "正在检查 FML 库文件……"
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr ""
+msgstr "下载 FML 库文件中……"
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
@@ -1103,12 +1117,12 @@ msgstr "未定义"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr ""
+msgstr "正在获取皮肤。"
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr ""
+msgstr "已获取到皮肤"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1522,7 +1536,7 @@ msgstr "使用系统中的 OpenAL"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "杂项"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
@@ -1719,7 +1733,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "你没有选择 Java 版本或选择了无效的版本。\n"
+"%1 将无法启动 Minecraft。\n"
+"你想在没有任何 Java 的情况下继续吗？\n\n"
+"你可以在设置里面修改 Java 版本。\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1793,7 +1810,7 @@ msgstr "语言"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr ""
+msgstr "设置 %1 使用的语言"
 
 #: src/launcher/LaunchController.cpp:34
 msgctxt "LaunchController|"
@@ -1808,7 +1825,7 @@ msgstr "无帐户"
 #: src/launcher/LaunchController.cpp:57
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "要游玩 Minecraft，您必须要登录至少一个 Minecraft 帐户（包括微软帐户和 Mojang 帐户），您想现在打开帐户界面来添加一个帐户吗？"
 
 #: src/launcher/LaunchController.cpp:76
 msgctxt "LaunchController|"
@@ -1838,12 +1855,12 @@ msgstr "选择离线游戏时的玩家名称。"
 #: src/launcher/LaunchController.cpp:152
 msgctxt "LaunchController|"
 msgid "The account does not own Minecraft. You need to purchase the game first to play it."
-msgstr ""
+msgstr "此帐户不拥有 Minecraft。您需要先购买游戏才能玩。"
 
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
 msgid "Missing Minecraft profile"
-msgstr ""
+msgstr "缺少 Minecraft 个人资料"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
@@ -1858,12 +1875,12 @@ msgstr "离线游戏"
 #: src/launcher/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "帐户已过期，需要手动重新登录。"
 
 #: src/launcher/LaunchController.cpp:208
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr ""
+msgstr "账户刷新失败"
 
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
@@ -1956,23 +1973,23 @@ msgstr "MultiMC停止监听游戏日志，因为日志长度超过了%1行。\n"
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "正在访问 Mojang 服务。"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr ""
+msgstr "获取 Minecraft 访问令牌失败：%1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "解析 Minecraft 访问令牌响应失败。"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
 msgid "Features"
-msgstr ""
+msgstr "功能"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
