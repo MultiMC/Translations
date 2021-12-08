@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2021-12-08 10:48\n"
+"PO-Revision-Date: 2021-12-08 10:58\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -714,7 +714,7 @@ msgstr "Команда обёртки:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Команда перед запуском выполняется перед запуском сборки, а команда после выхода когда она закрылась.</p><p>Обе команды будут выполняться в папке MultiMC с дополнительными переменными среды:</p><ul><li>$INST_NAME - Имя сборки</li><li>$INST_ID - ID сборки (название её папки)</li><li>$INST_DIR - полный путь до сборки</li><li>$INST_MC_DIR - полный путь до Minecraft</li><li>$INST_JAVA - java файл, используемый при запуске</li><li>$INST_JAVA_ARGS - аргументы командной строки, используемые при запуске</li></ul><p>Команда обёртки позволяет запускать Java, используя дополнительную программу-обёртку (например 'optirun' на Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1523,7 +1523,7 @@ msgstr "Использовать установленную в системе Op
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Прочие"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
@@ -1720,7 +1720,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Вы не выбрали ни версию Java или выбрали что-то не рабочее.\n"
+"%1 не сможет запустить Minecraft.\n"
+"Вы хотите продолжить без Java?\n\n"
+"Вы сможете изменить версию Java в настройках позже.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"

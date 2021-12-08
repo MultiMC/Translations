@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2021-12-08 10:31\n"
+"PO-Revision-Date: 2021-12-08 12:54\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -142,7 +142,7 @@ msgstr "Über"
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Ein alternativer Minecraft Launcher, der das Management vereinfacht und es dir erlaubt gleichzeitig mehrere Installationen von Minecraft zu verwalten.</p></body></html>"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
@@ -473,7 +473,7 @@ msgstr "Wir zeichnen anonyme Statistiken über Benutzer auf."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>Der Launcher sammelt anonyme Nutzungsdaten bei jedem Programmstart. Dies hilft uns dabei bestimmte Plattformen und Probleme auszuwerten.</p><p>Die Daten werden von Google Analytics verarbeitet, siehe diesen <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">Artikel zu dem Thema</a>.</p><p>Folgende Daten werden gesammelt:</p><ul><li>Eine zufällige eindeutige ID der Launcher Installation.<br />Diese ist in den Programmeinstellungs-Datei gespeichert.</li><li>Anonymisierte (Teil-) IP-Adresse.</li><li>Launcher Version.</li><li>Betriebssystem, Version und Architektur.</li><li>CPU Architektur (Kernel Architektur bei Linux).</li><li>Größe des Arbeitsspeichers.</li><li>Java Version, Architektur und Arbeitsspeicher Einstellungen.</li></ul><p>Wenn wir die gesammelten Daten ändern, siehst du diese Seite noch mal.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -714,7 +714,7 @@ msgstr "Wrapper-Befehl:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Vor-Start-Befehle werden ausgeführt, bevor die Instanz startet, Nach-Beenden-Befehle nachdem die Instanz beendet wurde.</p><p>Beide werden im Hauptverzeichnis vom Launcher mit zusätzlichen Umgebungsvariablen gestartet:</p><ul><li>$INST_NAME - Name der Instanz</li><li>$INST_ID - ID der Instanz (der Name des Instanzordners)</li><li>$INST_DIR - Absoluter Pfad der Distanz</li><li>$INST_MC_DIR - Absoluter Pfad von Minecraft</li><li>$INST_JAVA - Für den Start genutzte Java-Instanz</li><li>$INST_JAVA_ARGS - Für den Start genutzte Konsolen-Paramter</li></ul><p>Wrapper-Befehle erlauben es, Java mittels eines Wrapper-Programms auszuführen (wie z.B. 'optirun' unter Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -3172,7 +3172,7 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr "Minecraft-Profil wird geladen."
+msgstr "Minecraft Profil wird geladen."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
@@ -3966,7 +3966,7 @@ msgstr "processArguments ist auf unbekannten Wert '%1' gesetzt"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "Der angegebene Wert in 'minimumLauncherVersion' für diese Version (%1) ist höher als von %3 unterstützt wird (%2). Möglicherweise können Probleme auftreten!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4099,19 +4099,19 @@ msgstr "Das Zurücksetzen ist auch fehlgeschlagen.\n"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1min %2s"
 
 #: src/launcher/MMCTime.cpp:18
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1h %2min"
 
 #: src/launcher/MMCTime.cpp:20
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1d %2h %3min"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4436,7 +4436,7 @@ msgstr "&Aktualisieren"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr ""
+msgstr "%1 Ersteinrichtung"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
@@ -4846,7 +4846,7 @@ msgstr "Vanilla"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:19
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr ""
+msgstr "Minecraft 1.18 Pre-Release 2 und neuer benötigen Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:28
 msgctxt "VerifyJavaInstall|"
@@ -5499,7 +5499,7 @@ msgstr ""
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %1."
-msgstr ""
+msgstr "Fehler beim Laden der Berechtigung für %1 Dienste. Fehler %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
@@ -5517,7 +5517,7 @@ msgstr ""
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr ""
+msgstr "Zugriffsberechtigung für %1 erhalten"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
@@ -5535,61 +5535,63 @@ msgstr ""
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "Dieses Microsoft Konto hat kein Xbox Live Profil. Kaufe zuerst das Spiel auf %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "Xbox Live ist in deinem Land nicht verfügbar. Du wurdest blockiert."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:143
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "Dieses Microsoft-Konto ist minderjährig und ist nicht mit einer Familie verknüpft.\n\n"
+"Bitte richte dein Konto gemäß %1 ein."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:151
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "XSTS-Authentifizierung endete mit unbekannten Fehlern:\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr ""
+msgstr "Xbox Profil wird geladen."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "Xbox Profil konnte nicht geladen werden."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr ""
+msgstr "Xbox Profil erhalten"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
 msgid "Logging in as an Xbox user."
-msgstr ""
+msgstr "Anmeldung mit Xbox Benutzer."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:56
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "Xbox Benutzerauthentifizierung fehlgeschlagen."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "Xbox Benutzerauthentifizierungsantwort konnte nicht verstanden werden."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:67
 msgctxt "XboxUserStep|"
 msgid "Got Xbox user token"
-msgstr ""
+msgstr "Xbox Benutzertoken erhalten"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:188
 msgctxt "Yggdrasil|"
@@ -5619,7 +5621,7 @@ msgstr "Authentifizierungsvorgang abgebrochen."
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL-Handshake fehlgeschlagen.</b><br/>Es kann mehrere Erklärungen geben:<br/><ul><li>Du benutzt Windows und musst deine Stammzertifikate aktualisieren, bitte installiere alle ausstehenden Updates.</li><li>Ein Gerät in deinem Netzwerk mischt sich in den SSL-Verkehr ein. In diesem Fall hast du größere Probleme, als dass Minecraft nicht gestartet werden kann.</li><li>Möglicherweise etwas anderes. Prüfe die MultiMC Log-Datei für Details</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
@@ -5652,20 +5654,20 @@ msgstr "Ein unbekannter Yggdrasil-Fehler ist aufgetreten."
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:17
 msgctxt "YggdrasilStep|"
 msgid "Logging in with Mojang account."
-msgstr ""
+msgstr "Mit Mojang Konto anmelden."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
 msgid "Logged in with Mojang"
-msgstr ""
+msgstr "Angemeldet mit Mojang"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "Mojang Benutzerauthentifizierung fehlgeschlagen."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
-msgstr ""
+msgstr "Die Mojang-Benutzerauthentifizierung endete mit einem Netzwerkfehler."
 
