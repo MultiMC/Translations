@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2021-12-08 16:53\n"
+"PO-Revision-Date: 2021-12-08 17:00\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "我們追蹤一些有關使用者的匿名統計資料。"
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>啟動器在每次啟動時皆會傳送匿名的統計資料。這讓我們瞭解要專注在哪種平台或問題上。</p><p>這些資料由 Google Analytics 處理，<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">瞭解詳情</a>。</p><p>以下的資料會被收集：</p><ul><li>一個隨機的啟動器安裝 ID<br />儲存在設定檔文件中。</li><li>一部份的 IP 位置。</li><li>啟動器版本。</li><li>作業系統名稱、版本、架構。</li><li>CPU 架構(Linux 的核心(kernel)架構)。</li><li>記憶體大小。</li><li>Java 版本、架構、記憶體設定。</li></ul><p>若這些資訊有調整，你將會再次看到此頁面。</p></body></html>"
+msgstr "<html><body><p>啟動器在每次啟動時皆會傳送匿名的統計資料。這讓我們瞭解要專注在哪種平台或問題上。</p><p>這些資料由 Google Analytics 處理，<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">瞭解詳情</a>。</p><p>以下的資料會被收集：</p><ul><li>一個隨機的啟動器安裝 ID<br />儲存在設定檔中。</li><li>一部份的 IP 位置。</li><li>啟動器版本。</li><li>作業系統名稱、版本、架構。</li><li>CPU 架構(Linux 的核心(kernel)架構)。</li><li>記憶體大小。</li><li>Java 版本、架構、記憶體設定。</li></ul><p>若這些資訊有調整，你將會再次看到此頁面。</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -4637,7 +4637,7 @@ msgstr "無法開啟「version.json」！"
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:93
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
-msgstr "在 \"bin/modpack.jar\" 中找不到 \"version.json\"，Minecraft版本不明。"
+msgstr "在 \"bin/modpack.jar\" 中找不到 \"version.json\"，Minecraft 版本不明。"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:107
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4658,7 +4658,7 @@ msgstr "找不到「version.json」！"
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
 "inheritsFrom is missing"
-msgstr "無法解析 \"version.json\":\n"
+msgstr "無法解析 \"version.json\"：\n"
 "inheritsFrom 參數缺失"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:202
@@ -4689,7 +4689,7 @@ msgstr "Technic"
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
 msgid "Is the texture pack enabled?"
-msgstr "啟用材質包了嗎?"
+msgstr "啟用材質包了嗎？"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:12
 msgctxt "TexturePackFolderModel|"
@@ -4704,7 +4704,7 @@ msgstr "材質包的版本。"
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr "此材質包上次變更(或新增)的日期與時間"
+msgstr "此材質包上次變更（或新增）的日期與時間"
 
 #: src/launcher/ui/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -4718,10 +4718,10 @@ msgid "%1:\n"
 "%2 translated\n"
 "%3 fuzzy\n"
 "%4 total"
-msgstr "%1:\n"
-"已翻譯: %2\n"
-"模糊不清: %3\n"
-"總計: %4"
+msgstr "%1：\n"
+"已翻譯：%2\n"
+"模糊不清：%3\n"
+"總計：%4"
 
 #: src/launcher/translations/TranslationsModel.cpp:385
 msgctxt "TranslationsModel|"
@@ -4795,7 +4795,7 @@ msgstr "<center><h1>正在載入更新日誌……</h1></center>"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
-msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">取得更新日誌失敗... 錯誤: %1</span></p>"
+msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">取得更新日誌失敗... 錯誤：%1</span></p>"
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
@@ -5056,7 +5056,7 @@ msgstr "功能表"
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
-msgstr "%1可能發生問題。"
+msgstr "%1 可能發生問題。"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:176
 #, qt-format
@@ -5118,12 +5118,12 @@ msgstr "Minecraft.jar 取代檔 (*.jar)"
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
-msgstr "變更%1版本"
+msgstr "變更 %1 版本"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:369
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
-msgstr "目前沒有intermediary mappings版本"
+msgstr "目前沒有 intermediary mappings 版本"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:370
 msgctxt "VersionPage|"
@@ -5145,7 +5145,7 @@ msgstr "選擇 Forge 版本"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:426
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
-msgstr "沒有可用的Forge版本可供Minecraft使用 "
+msgstr "沒有可用的 Forge 版本可供 Minecraft 使用 "
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:427
 msgctxt "VersionPage|"
@@ -5160,7 +5160,7 @@ msgstr "選擇 Fabric Loader 版本"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:454
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
-msgstr "沒有可用的Fabric Loader版本可供Minecraft使用。"
+msgstr "沒有可用的 Fabric Loader 版本可供 Minecraft 使用。"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:455
 msgctxt "VersionPage|"
@@ -5175,7 +5175,7 @@ msgstr "選擇 LiteLoader 版本"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:500
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
-msgstr "沒有可用的LiteLoader版本可供Minecraft使用 "
+msgstr "沒有可用的 LiteLoader 版本可供 Minecraft 使用 "
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:501
 msgctxt "VersionPage|"
