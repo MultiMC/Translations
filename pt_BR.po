@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2021-12-09 00:37\n"
+"PO-Revision-Date: 2021-12-09 16:59\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -393,7 +393,7 @@ msgstr "Menu de contexto"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:146
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr "Insira o seu e-mail e senha da conta Mojang para adicioná-la."
+msgstr "Insira o seu e-mail e senha da conta Mojang."
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:135
 msgctxt "AccountListPage|"
@@ -471,7 +471,7 @@ msgstr "Coletamos alguns dados anônimos sobre os usuários."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>O launcher envia estatísticas anônimas de uso em cada inicialização. Isso nos ajuda a resolver problemas e priorizar plataformas.</p><p>Os dados são processados pelo Google Analytics, confira o <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">artigo</a>.</p><p>Os seguintes dados são coletados:</p><ul><li>ID aleatório e único da instalação.<br />Armazenado no arquivo de configurações do aplicativo.</li><li>Endereço IP parcialmente anônimo.</li><li>Versão do launcher.</li><li>Nome, versão e arquitetura do sistema operacional.</li><li>Arquitetura do CPU (arquitetura do kernel no Linux).</li><li>Tamanho de memória do sistema.</li><li>Versão, arquitetura e definições de memória do Java.</li></ul><p>Se houver uma alteração na coleta de dados, essa página será exibida.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -712,7 +712,7 @@ msgstr "Comando do wrapper:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Os comandos de pré-inicialização e pós-inicialização são rodados, respectivamente, antes e após a inicialização da instância.</p><p>Ambos serão rodados na pasta de trabalho do launcher com variáveis adicionais de ambiente:</p><ul><li>$INST_NAME — Nome da instância</li><li>$INST_ID — ID da instância (nome da pasta)</li><li>$INST_DIR — Caminho absoluto da instância</li><li>$INST_MC_DIR — Caminho absoluto do Minecraft</li><li>$INST_JAVA — Binário do Java usado na inicialização</li><li>$INST_JAVA_ARGS — Parâmetros de linha de comando usados na inicialização</li></ul><p>Comandos de wrapper permitem o uso de um programa adicional de wrapper, como \"optirun\" no Linux.</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -803,7 +803,7 @@ msgstr "Verificar"
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr "Editores externos (deixe vazio para usar o padrão do sistema)"
+msgstr "Editores externos (deixe em branco para usar o padrão do sistema)"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
@@ -2400,7 +2400,7 @@ msgstr "Instância de versões anteriores."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Atualização necessária</h1><p>O MultiMC agora é compatível com versões antigas do Minecraft e todos os recursos necessários no novo formato de instâncias (OneSix). Ou seja, o formato antigo (Legacy) foi completamente abandonado e as instâncias antigas precisam ser atualizadas.</p><p>A atualização criará uma nova instância no novo formato, com o conteúdo idêntico ao da atual. A instância original não será alterada, caso haja um problema no processo.</p><p>Informe eventuais problemas em nossa <a href=\"https://github.com/MultiMC/Launcher/issues\">página no GitHub</a>.</p><p>Acesse também o <a href=\"https://discord.gg/GtPmv93\">nosso servidor oficial no Discord</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -3240,7 +3240,7 @@ msgstr "Versão do mod."
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
-msgstr "O período em que o mod foi adicionado ou alterado."
+msgstr "Data de adição ou modificação do mod."
 
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
@@ -4162,7 +4162,7 @@ msgstr "Versão de formato desconhecida!"
 #: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
 msgid "Empty path"
-msgstr "Caminho vazio"
+msgstr "O caminho está vazio"
 
 #: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
@@ -4243,7 +4243,7 @@ msgstr "Versão do pacote de recursos."
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:16
 msgctxt "ResourcePackFolderModel|"
 msgid "The date and time this resource pack was last changed (or added)."
-msgstr "O período em que o pacote de recursos foi adicionado ou modificado pela última vez."
+msgstr "Data de adição ou modificação do pacote de recursos."
 
 #: src/launcher/ui/pages/instance/ResourcePackPage.h:12
 msgctxt "ResourcePackPage|"
@@ -4703,7 +4703,7 @@ msgstr "Nome do pacote de texturas."
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr "O período em que o pacote de texturas foi adicionado ou modificado pela última vez."
+msgstr "Data de adição ou modificação do pacote de texturas."
 
 #: src/launcher/ui/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -4969,7 +4969,7 @@ msgstr "Instalar LiteLoader"
 #: src/launcher/ui/pages/instance/VersionPage.ui:200
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
-msgstr "Instalar pacote do LiteLoader."
+msgstr "Instalar o pacote do LiteLoader."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:205
 msgctxt "VersionPage|"
@@ -5334,7 +5334,7 @@ msgstr "Modo de jogo do mundo."
 #: src/launcher/minecraft/WorldList.cpp:244
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
-msgstr "O período em que o mundo foi jogado pela última vez."
+msgstr "Data da última modificação do mundo."
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
@@ -5619,7 +5619,7 @@ msgstr "A operação de autenticação foi cancelada."
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>O handshake de SSL falhou.</b><br/>O que pode ter causado isso?:<br/><ul><li>No Windows, atualize os certificados raiz e instale as atualizações necessárias.</li><li>Um dispositivo em sua rede pode estar interferindo com o tráfego de SSL. Se for o caso, verifique a situação imediatamente.</li><li>Outro problema. Confira o arquivo de registro para saber mais.</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
