@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2021-12-11 18:28\n"
+"PO-Revision-Date: 2021-12-11 18:36\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2403,7 +2403,7 @@ msgstr "Instancia de versiones anteriores."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Actualización requerida</h1><p>MultiMC ahora soporta versiones de Minecraft viejas y todas las funciones requeridas en el nuevo formato de instancia (OneSix). En consecuencia, el formato viejo (Legacy) fue completamente deshabilitado y las instancias viejas deben ser actualizadas.</p><p>La actualización va a crear una nueva instancia con los mismos componentes que la actual, en el nuevo formato. La instancia original va a permanecer intacta, en caso de que algo salga mal durante el proceso.</p><p>Por favor reporta cualquier problema en nuestra <a href=\"https://github.com/MultiMC/Launcher/issues\">página de problemas en github</a>.</p><p>También ahí un <a href=\"https://discord.gg/GtPmv93\">canal de discord para pruebas acá</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -3971,7 +3971,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
-msgstr "El nombre de la biblioteca %1 está roto y no se puede procesar."
+msgstr "El nombre de la librería %1 está roto y no se puede procesar."
 
 #: src/launcher/minecraft/PackProfile.cpp:191
 #, qt-format
@@ -4049,7 +4049,7 @@ msgstr "No pudo procesarse el archivo de versión %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
-msgstr ""
+msgstr "Sin perfil (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4066,14 +4066,16 @@ msgstr "¡Retroceso falló!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "No se pudo reemplazar el archivo %1. Los cambios se revertirán.\n"
+"Consulta el archivo de registro %2 para detalles."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "No se pudo remover el archivo %1. Los cambios se revertirán.\n"
+"Consulta el archivo de registro %2 para detalles."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
@@ -4088,25 +4090,27 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "La reversión también falló.\n"
+"Tendrás que reparar %1 manualmente.\n"
+"Por favor, haznos saber por qué y cómo sucedió esto."
 
 #: src/launcher/MMCTime.cpp:14
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1m %2s"
 
 #: src/launcher/MMCTime.cpp:18
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1h %2m"
 
 #: src/launcher/MMCTime.cpp:20
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1d %2h %3m"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4225,7 +4229,7 @@ msgstr "Error de la API ZIP/UNZIP %1"
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
 msgid "Is the resource pack enabled?"
-msgstr "¿Está habilitado el paquete de recursos?"
+msgstr "¿El paquete de recursos está habilitado?"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:12
 msgctxt "ResourcePackFolderModel|"
@@ -4240,7 +4244,7 @@ msgstr "La versión del paquete de recursos."
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:16
 msgctxt "ResourcePackFolderModel|"
 msgid "The date and time this resource pack was last changed (or added)."
-msgstr "La fecha y la hora en la que este paquete de recursos se modificó por última vez (o se creó)."
+msgstr "La fecha y la hora en la que este paquete de recursos se modificó por última vez (o se agregó)."
 
 #: src/launcher/ui/pages/instance/ResourcePackPage.h:12
 msgctxt "ResourcePackPage|"
@@ -4431,12 +4435,12 @@ msgstr "&Refrescar"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr ""
+msgstr "%1 Configuración rápida"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
 msgid "Shader packs"
-msgstr "Shaders"
+msgstr "Paquetes de Shader"
 
 #: src/launcher/minecraft/services/SkinDelete.cpp:20
 msgctxt "SkinDelete|"
@@ -4665,7 +4669,7 @@ msgstr "No se pudo entender \"version.json\":\n"
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:32
 msgctxt "TechnicPage|"
 msgid "Search and filter ..."
-msgstr "Buscar y filtrar..."
+msgstr "Buscar y filtrar ..."
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:39
 msgctxt "TechnicPage|"
@@ -4685,7 +4689,7 @@ msgstr "Technic"
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
 msgid "Is the texture pack enabled?"
-msgstr "¿Está habilitado el paquete de texturas?"
+msgstr "¿El paquete de texturas está habilitado?"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:12
 msgctxt "TexturePackFolderModel|"
@@ -4700,7 +4704,7 @@ msgstr "La versión del paquete de texturas."
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr "La fecha y la hora en la que este paquete de texturas se modificó por última vez (o se creó)."
+msgstr "La fecha y la hora en la que este paquete de texturas se modificó por última vez (o se agregó)."
 
 #: src/launcher/ui/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -4841,12 +4845,12 @@ msgstr "Vanilla"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:19
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr ""
+msgstr "Minecraft 1.18 Pre Lanzamiento 2 y superior requieren el uso de Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:28
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr "Minecraft 21w19a y superior requieren el uso the Java 16"
+msgstr "Minecraft 21w19a y superior requieren el uso de Java 16"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:37
 msgctxt "VerifyJavaInstall|"
@@ -4861,7 +4865,7 @@ msgstr "No hay versiones disponibles."
 #: src/launcher/ui/pages/instance/VersionPage.ui:60
 msgctxt "VersionPage|"
 msgid "Filter:"
-msgstr "Filtrar:"
+msgstr "Filtro:"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:82
 msgctxt "VersionPage|"
@@ -5488,61 +5492,62 @@ msgstr "Introduce un nombre nuevo para el mundo."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "Obteniendo autorización para acceder a los servicios de %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %1."
-msgstr ""
+msgstr "Error al obtener la autorización para los servicios de %1. Error %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "No se pudo analizar la respuesta de autorización para acceder a los servicios de %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "El server cambió el hash de autorización %1 en la respuesta. Algo salió mal."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr ""
+msgstr "Se obtuvo la autorización para acceder a %1"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "Incapaz de analizar la respuesta de error de autorización de %1 como JSON: %2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "Falta el elemento XErr en la respuesta de error de autorización %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "Esta cuenta de Microsoft no tiene un perfil de XBox Live. Compra el juego en %1 primero."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "XBox Live no está disponible en tu país. Fuiste bloqueado."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:143
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "Esta cuenta de Microsoft es de un menor de edad y no está vinculada a una familia.\n\n"
+"Por favor, configura tu cuenta como se indica en %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:151
 #, qt-format
