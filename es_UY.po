@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2021-12-11 18:19\n"
+"PO-Revision-Date: 2021-12-11 18:28\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2171,27 +2171,37 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>El launcher envía estadísticas anónimas de uso en cada inicio de la aplicación.</p><p>Los datos siguientes son recopilados:</p>\n"
+"<ul>\n"
+"<li>Versión del launcher.</li>\n"
+"<li>Nombre del sistema operativo, versión y arquitectura.</li>\n"
+"<li>Arquitectura de la CPU (arquitectura del kernel en linux).</li>\n"
+"<li>Tamaño de la memoria del sistema.</li>\n"
+"<li>Versión de Java, arquitectura y configuración de la memoria.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Carpeta de la instancia"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Estás intentando especificar una carpeta que su ruta contiene al menos un '!'. Se sabe que Java causa problemas si ese es el caso, es (muy) probable que tus instancias no inicien!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "¿Realmente quieres usar esta ruta? Si seleccionas \"No\" esto se va a cerrar y no se va a ver modificada la ruta de la instancia."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
-msgstr ""
+msgstr "Carpeta de íconos"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:149
 msgctxt "LauncherPage|"
@@ -2201,17 +2211,17 @@ msgstr "Carpeta de mods"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Algo/ERROR] ¡Un error de lo más extraño!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Prueba/INFO] Un mensaje inofensivo..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Algo/AVISO] Un aviso no muy siniestro."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2229,7 +2239,7 @@ msgstr "¡No se pudo ejecutar Minecraft!"
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:163
 msgctxt "LauncherPartLaunch|"
 msgid "Game crashed."
-msgstr "El juego ha crasheado."
+msgstr "El juego se cerró de forma inesperada."
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:19
 msgctxt "LegacyFTB::FilterModel|"
