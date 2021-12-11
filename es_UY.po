@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2021-12-11 08:15\n"
+"PO-Revision-Date: 2021-12-11 08:27\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3840,7 +3840,7 @@ msgstr "Claro"
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>There are no code changes between your current version and latest %1.</p>"
-msgstr "<p>No hay cambios de código entre tu versión actual y la última %1.</p>"
+msgstr "<p>No hay cambios de código entre tu versión actual y la más reciente %1.</p>"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:126
 msgctxt "QObject|"
@@ -3933,12 +3933,12 @@ msgstr "Prueba de Java exitosa"
 #: src/launcher/JavaCommon.cpp:45 src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
 msgid "Java test failure"
-msgstr "Fallo en la prueba de Java"
+msgstr "Prueba de Java fracasada"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
 msgid "Minecraft Server"
-msgstr "Servidor de Minecraft"
+msgstr "Server de Minecraft"
 
 #: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
@@ -3949,7 +3949,7 @@ msgstr "El parche no se cargó todavía."
 #, qt-format
 msgctxt "QObject|"
 msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments está establecido en valor desconocido '%1'"
+msgstr "processArguments está establecido a un valor desconocido '%1'"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:179
 #, qt-format
@@ -3967,17 +3967,17 @@ msgstr "El nombre de la biblioteca %1 está roto y no se puede procesar."
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr "Versión de archivo de componente no válida, se esperaba %1"
+msgstr "Versión de archivo de componente no válida, esperado %1"
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "El archivo de versión tiene tanto '+libraries' como 'libraries'. Esto ya no está soportado."
+msgstr "El archivo de versión tiene ambos '+libraries' y 'libraries'. Esto ya no está soportado."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:202
 msgctxt "QObject|"
 msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "No se pudo determinar la URL del jar principal - Mojang eliminó el servidor que usamos como reserva."
+msgstr "No se pudo determinar la URL del jar principal - Mojang eliminó el server que usamos como reserva."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:235
 msgctxt "QObject|"
@@ -4014,7 +4014,7 @@ msgstr "Recursos para %1"
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid order file version, expected %1"
-msgstr "Orden de versión de archivo no válida, se esperaba %1"
+msgstr "Orden de versión de archivo no válida, esperado %1"
 
 #: src/launcher/minecraft/ProfileUtils.cpp:96
 #: src/launcher/minecraft/ProfileUtils.cpp:149
@@ -4049,7 +4049,7 @@ msgstr "¡Error al actualizar!"
 #: src/launcher/UpdateController.cpp:367
 msgctxt "QObject|"
 msgid "Rollback failed!"
-msgstr "¡El retroceso falló!"
+msgstr "¡Retroceso falló!"
 
 #: src/launcher/UpdateController.cpp:372
 #, qt-format
@@ -4070,7 +4070,7 @@ msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
 msgstr "La nueva versión no se inició o es demasiado antigua y no responde a las comprobaciones de inicio.\n\n"
-"¿Volver a la versión anterior?"
+"¿Retrocesar a la versión anterior?"
 
 #: src/launcher/UpdateController.cpp:414
 #, qt-format
@@ -4103,15 +4103,14 @@ msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr "Intentaste configurar la opción de memoria JVM manualmente (usando \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"Hay casillas dedicadas para estas configuraciones en las opciones (Pestaña Java, en el grupo \"Memoria\" en la parte superior).\n"
-"Tu configuración manual va a ser reemplazada por las opciones dedicadas.\n"
-"Este mensaje será mostrado hasta que las quites de los argumentos JVM."
+msgstr "Intentaste configurar la opción de memoria de JVM manualmente (usando \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" o \"-Xms\").\n"
+"Hay casillas dedicadas para estas configuraciones en las opciones (en la pestaña de Java, bajo el grupo \"Memoria\" en la parte superior).\n"
+"Este mensaje será mostrado hasta que quites eso de los argumentos de JVM."
 
 #: src/launcher/JavaCommon.cpp:15
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr "Aviso de los argumentos JVM"
+msgstr "Aviso de argumentos de JVM"
 
 #: src/launcher/JavaCommon.cpp:26
 #, qt-format
@@ -4139,13 +4138,13 @@ msgstr "El binario de Java especificado no funcionó.<br />Debes usar la funció
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
-msgstr "Descarga del archivo metadata %1"
+msgstr "Descarga del archivo meta %1"
 
 #: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
 #: src/launcher/meta/JsonFormat.cpp:166
 msgctxt "QObject|"
 msgid "Unknown format version!"
-msgstr "¡Versión de formato desconocido!"
+msgstr "¡Versión de formato desconocida!"
 
 #: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
