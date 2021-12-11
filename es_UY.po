@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2021-12-11 18:36\n"
+"PO-Revision-Date: 2021-12-11 18:46\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -540,7 +540,7 @@ msgstr "Ordenar por versión del juego"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:14
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Mods To Install"
-msgstr "Selecciona mods para instalar"
+msgstr "Seleccionar mods para instalar"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:20
 msgctxt "AtlOptionalModDialog|"
@@ -581,17 +581,17 @@ msgstr "Buscar y filtrar ..."
 #, qt-format
 msgctxt "AtlPage|"
 msgid "No versions are currently available for Minecraft %1"
-msgstr "No se han encontrado versiones disponibles para Minecraft %1"
+msgstr "No se encontraron versiones disponibles para Minecraft %1"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:144
 msgctxt "AtlPage|"
 msgid "No versions are currently available"
-msgstr "No se han encontrado versiones disponibles"
+msgstr "No hay versiones disponibles"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:146
 msgctxt "AtlPage|"
 msgid "Couldn't load or download the version lists!"
-msgstr "¡No se han podido descargar las listas de versiones!"
+msgstr "¡No se pudo descargar las listas de versiones!"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:44
 msgctxt "AtlPage|"
@@ -601,7 +601,7 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr "Se han completado todos los pasos de la autentificación"
+msgstr "Todos los pasos de la autentificación terminados"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
@@ -611,7 +611,7 @@ msgstr "Inicializando"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
 msgid "Working..."
-msgstr ""
+msgstr "Trabajando..."
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -5554,62 +5554,63 @@ msgstr "Esta cuenta de Microsoft es de un menor de edad y no está vinculada a u
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "La autentificación de XSTS finalizó con error(es) desconocido(s):\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr ""
+msgstr "Obteniendo el perfil de Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "Error al obtener el perfil de Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr ""
+msgstr "Se obtuvo el perfil de Xbox"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
 msgid "Logging in as an Xbox user."
-msgstr ""
+msgstr "Iniciando sesión como usuario de Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:56
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "La autenticación del usuario de XBox falló."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "No se pudo entender la respuesta de autenticación del usuario de XBox."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:67
 msgctxt "XboxUserStep|"
 msgid "Got Xbox user token"
-msgstr ""
+msgstr "Se obtuvo el token de usuario Xbox"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:188
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send a client token."
-msgstr "El servidor de autentificación no envió un token para el cliente."
+msgstr "El server de autenticación no envió un token de cliente."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:195
 msgctxt "Yggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr "El servidor de autentificación trató de cambiar el token del cliente. Esto no está soportado."
+msgstr "El server de autenticación intentó cambiar el token de cliente. Esto no está soportado."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:204
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr "El servidor de autentificación no envió un token de acceso."
+msgstr "El server de autenticación no envió un token de acceso."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:226
 msgctxt "Yggdrasil|"
 msgid "Authentication operation timed out."
-msgstr "Tiempo de espera agotado para la autentificación."
+msgstr "Tiempo de espera agotado para la autenticación."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:229
 msgctxt "Yggdrasil|"
@@ -5619,7 +5620,7 @@ msgstr "Autentificación cancelada."
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>Error durante la operación de SSL Handshake.</b><br/>Puede haber unas causas para esto:<br/><ul><li>Usas Windows y necesitas actualizar tus certificados raíz, por favor instala cualquier actualización destacada.</li><li>Algún dispositivo en tu red está interfiriendo con el tráfico de SSL. En ese caso, tienes problemas mayores que Minecraft.</li><li>Posiblemente algo más. Consulta el archivo de registro para detalles</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
