@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2021-12-11 18:46\n"
+"PO-Revision-Date: 2021-12-13 00:18\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -714,7 +714,7 @@ msgstr "Comando de Wrapper:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>El comando de pre-lanzamiento es ejecutado antes del inicio de la instancia, y el comando de post-lanzamiento es ejecutado cuando termine.</p><p>Los dos se ejecutan en el directorio de trabajo del launcher con variables de entorno adicionales:</p><ul><li>$INST_NAME - Nombre de la instancia</li><li>$INST_ID - ID de la instancia (el nombre de su carpeta)</li><li>$INST_DIR - ruta absoluta de la instancia</li><li>$INST_MC_DIR - ruta absoluta de minecraft</li><li>$INST_JAVA - binario de java usado al iniciar</li><li>$INST_JAVA_ARGS - parámetros de la línea de comando usados al iniciar</li></ul><p>Los comandos de wrapper permiten que el launcher use un programa de wrapper extra (como 'optirun' de Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -737,7 +737,7 @@ msgstr "¡No se pudo ejecutar Minecraft!"
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:110
 msgctxt "DirectJavaLaunch|"
 msgid "Game crashed."
-msgstr "El juego ha crasheado."
+msgstr "El juego se cerró de forma inesperada."
 
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -757,12 +757,12 @@ msgstr "Contraseña"
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:14
 msgctxt "EntitlementsStep|"
 msgid "Determining game ownership."
-msgstr "Determinando la propiedad del juego."
+msgstr "Determinando propiedad del juego."
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "Se obtuvieron los derechos"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
@@ -925,7 +925,7 @@ msgstr "Comprobando librerías de FML..."
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr ""
+msgstr "Descargando librerías de FML..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
@@ -978,7 +978,7 @@ msgstr "Buscar"
 #: src/launcher/ui/pages/modplatform/flame/FlamePage.ui:74
 msgctxt "FlamePage|"
 msgid "Search and filter ..."
-msgstr "Buscar y filtrar..."
+msgstr "Buscar y filtrar ..."
 
 #: src/launcher/ui/pages/modplatform/flame/FlamePage.h:45
 msgctxt "FlamePage|"
@@ -1048,7 +1048,7 @@ msgstr "Versión seleccionada:"
 #: src/launcher/ui/pages/modplatform/ftb/FtbPage.ui:37
 msgctxt "FtbPage|"
 msgid "Search and filter ..."
-msgstr "Buscar y filtrar..."
+msgstr "Buscar y filtrar ..."
 
 #: src/launcher/ui/pages/modplatform/ftb/FtbPage.h:43
 msgctxt "FtbPage|"
@@ -1104,12 +1104,12 @@ msgstr "Sin definir"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr "Obteniendo aspecto."
+msgstr "Obteniendo skin."
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr "Se ha obtenido el aspecto"
+msgstr "Se obtuvo la skin"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1533,22 +1533,22 @@ msgstr "Sustituir ajustes globales de tiempo de juego"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:442
 msgctxt "InstanceSettingsPage|"
 msgid "Show time spent playing this instance"
-msgstr "Mostrar tiempo jugando a esta instancia"
+msgstr "Mostrar el tiempo de juego de esta instancia"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:449
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
-msgstr "Grabar tiempo jugando a esta instancia"
+msgstr "Grabar el tiempo de juego de esta instancia"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
 msgid "Set a server to join on launch"
-msgstr "Establecer un servidor al que unirse al lanzar"
+msgstr "Establecer un server al que unirse al lanzar"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:479
 msgctxt "InstanceSettingsPage|"
 msgid "Server address:"
-msgstr "Dirección del servidor:"
+msgstr "Dirección del server:"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.h:42
 msgctxt "InstanceSettingsPage|"
@@ -1720,8 +1720,8 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr "No has seleccionado una versión de Java o has seleccionado una que no funciona.\n"
-"%1 no podrá iniciar Minecraft.\n"
+msgstr "No seleccionaste una versión de Java o seleccionaste una que no funciona.\n"
+"%1 no va a poder iniciar Minecraft.\n"
 "¿Quieres proceder sin ningún Java?\n\n"
 "Puedes cambiar la versión de Java en los ajustes más tarde.\n"
 
@@ -1812,7 +1812,7 @@ msgstr "Sin cuentas"
 #: src/launcher/LaunchController.cpp:57
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr "Para poder jugar a Minecraft necesitas tener al menos una cuenta de Mojang o Microsoft conectada. ¿Quieres abrir el gestor de cuentas para añadir una cuenta ahora?"
+msgstr "Para poder jugar Minecraft necesitas tener al menos una cuenta de Mojang o Microsoft conectada. ¿Quieres abrir el gestor de cuentas para añadir una cuenta ahora?"
 
 #: src/launcher/LaunchController.cpp:76
 msgctxt "LaunchController|"
@@ -1847,7 +1847,7 @@ msgstr "La cuenta no posee Minecraft. Necesitas comprar el juego para poder juga
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
 msgid "Missing Minecraft profile"
-msgstr "Perfil de Minecraft desaparecido"
+msgstr "Perfil de Minecraft ausente"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
@@ -1862,7 +1862,7 @@ msgstr "Jugar offline"
 #: src/launcher/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually again."
-msgstr "La sesión de la cuenta ha expirado y necesita ser iniciada de nuevo manualmente."
+msgstr "La sesión de la cuenta expiró y necesita ser iniciada de nuevo manualmente."
 
 #: src/launcher/LaunchController.cpp:208
 msgctxt "LaunchController|"
@@ -1872,7 +1872,7 @@ msgstr "Error al recargar la cuenta"
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr "La cuenta ya no existe en los servidores. Puede que haya sido migrada, en tal caso, por favor, añade la nueva cuenta a la que migraste esta."
+msgstr "La cuenta ya no existe en los servers. Puede que haya sido migrada, en tal caso, por favor, añade la nueva cuenta a la que migraste esta."
 
 #: src/launcher/LaunchController.cpp:220
 msgctxt "LaunchController|"
@@ -2614,32 +2614,32 @@ msgstr "<p>Por favor, abre %1 en un navegador y coloca el código <b>%2</b> para
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
 msgid "Logging in with Microsoft account."
-msgstr ""
+msgstr "Iniciando sesión con la cuenta de Microsoft."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:86
 msgctxt "MSAStep|"
 msgid "Got "
-msgstr ""
+msgstr "Obtenido "
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "Hubo un error de red durante la autenticación de usuario de Mojang."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "Falló la autenticación de usuario de Microsoft - el usuario ya no existe."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "La autenticación de usuario de Microsoft falló."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "Autenticación de usuario de Microsoft completada con un resultado no reconocido."
 
 #: src/launcher/ui/MainWindow.cpp:256
 msgctxt "MainWindow|"
@@ -2725,7 +2725,7 @@ msgstr "Reportar un bug"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "Abrir el buscador de errores para comunicar un error con %1."
 
 #: src/launcher/ui/MainWindow.cpp:350
 msgctxt "MainWindow|"
@@ -2736,7 +2736,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "Abrir el chat de voz de Discord de %1."
 
 #: src/launcher/ui/MainWindow.cpp:360
 msgctxt "MainWindow|"
@@ -2747,19 +2747,19 @@ msgstr "Reddit"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "Abrir el subreddit %1."
 
 #: src/launcher/ui/MainWindow.cpp:370
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
-msgstr ""
+msgstr "Acerca de %1"
 
 #: src/launcher/ui/MainWindow.cpp:371
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr ""
+msgstr "Ver información sobre %1."
 
 #: src/launcher/ui/MainWindow.cpp:376 src/launcher/ui/MainWindow.cpp:661
 msgctxt "MainWindow|"
@@ -2770,7 +2770,7 @@ msgstr "Ayuda"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
-msgstr ""
+msgstr "Obtener ayuda con %1 o Minecraft."
 
 #: src/launcher/ui/MainWindow.cpp:393
 msgctxt "MainWindow|"
@@ -2781,19 +2781,19 @@ msgstr "Actualizar"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
-msgstr ""
+msgstr "Buscar actualizaciones para %1."
 
 #: src/launcher/ui/MainWindow.cpp:404
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
-msgstr ""
+msgstr "Apoyar %1"
 
 #: src/launcher/ui/MainWindow.cpp:405
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
-msgstr ""
+msgstr "Abrir la página de Patreon de %1."
 
 #: src/launcher/ui/MainWindow.cpp:413
 msgctxt "MainWindow|"
@@ -2824,7 +2824,7 @@ msgstr "Más noticias..."
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
-msgstr ""
+msgstr "Abre el blog de desarrollo para leer más noticias sobre %1."
 
 #: src/launcher/ui/MainWindow.cpp:471
 msgctxt "MainWindow|"
@@ -2970,7 +2970,7 @@ msgstr "Copiar la instancia seleccionada."
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr ""
+msgstr "%1 - Versión %2"
 
 #: src/launcher/ui/MainWindow.cpp:643
 #, qt-format
@@ -2986,7 +2986,7 @@ msgstr "Sin instancia seleccionada"
 #: src/launcher/ui/MainWindow.cpp:754
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
-msgstr ""
+msgstr "Tiempo de juego total: 0s"
 
 #: src/launcher/ui/MainWindow.cpp:857 src/launcher/ui/MainWindow.cpp:1147
 msgctxt "MainWindow|"
@@ -3055,12 +3055,12 @@ msgstr "Nombre"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Comprobando elegibilidad para la migración."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "Se obtuvieron las banderas de migración"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:701
 msgctxt "MinecraftInstance|"
@@ -3097,13 +3097,13 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
-msgstr ", la última vez se jugó por %1"
+msgstr ", la última vez se jugó %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:791
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr ", se ha jugado un total de %1"
+msgstr ", se jugó un total de %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:796
 msgctxt "MinecraftInstance|"
@@ -3153,17 +3153,17 @@ msgstr "Tiempo de juego"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:146
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing instances"
-msgstr "Mostrar tiempo jugando a instancias"
+msgstr "Mostrar el tiempo de juego de instancias"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "Mostrar el tiempo de juego de todas las instancias"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
 msgid "Record time spent playing instances"
-msgstr "Grabar tiempo jugando a instancias"
+msgstr "Grabar el tiempo de juego de instancias"
 
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3173,27 +3173,27 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Obteniendo perfil de Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "La cuenta no tiene perfil de Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:61
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "Error en la adquisición del perfil de Minecraft Java."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "No se pudo analizar la respuesta del perfil de Minecraft Java"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:81
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "Error en la adquisición del perfil de Minecraft Java."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3341,7 +3341,7 @@ msgstr "Error al crear el archivo jar personalizado de Minecraft."
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr "No se ha podido encontrar la versión del paquete %1"
+msgstr "No se pudo encontrar la versión del paquete %1"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:81
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3710,46 +3710,47 @@ msgstr "%1 (en uso)"
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "Elegir nombre de Minecraft"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "Solo hace falta un paso más para poder jugar Minecraft con esta cuenta.\n\n"
+"Elige tu nombre cuidadosamente:"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "El nombre es demasiado corto - debe tener entre 3 y 16 caracteres."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "Un perfil de Minecraft con el nombre de %1 ya existe."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
-msgstr ""
+msgstr "El nombre %1 no está permitido."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:170
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr ""
+msgstr "Estado de nombre de perfil no controlado: %1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
-msgstr ""
+msgstr "Error al comprobar la disponibilidad del nombre."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "El servidor devolvió el siguiente error:"
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3769,7 +3770,7 @@ msgstr "Saltar"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Esto solo se aplica al launcher. Minecraft no acepta configuraciones de proxy."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3824,7 +3825,7 @@ msgstr "Contraseña:"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "Aviso: ¡El nombre de usuario y contraseña del proxy se almacenan en archivos de texto plano dentro del archivo de configuración del launcher!"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3878,7 +3879,7 @@ msgstr "Donadores"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:37
 msgctxt "QObject|About Credits"
 msgid "Developers"
-msgstr ""
+msgstr "Desarrolladores"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:45
 msgctxt "QObject|About Credits"
@@ -3965,7 +3966,7 @@ msgstr "processArguments está establecido a un valor desconocido '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "El valor 'minimumLauncherVersion' de esta versión (%1) es mayor que el admitido por %3 (%2). ¡Puede que no funcione correctamente!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -5631,39 +5632,39 @@ msgstr "La cuenta de Mojang ya no existe. Puede que haya sido migrada a una cuen
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr "La autentificación falló debido a un error de red: %1 (%2)"
+msgstr "La operación de autenticación falló debido a un error de red: %1 (%2)"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:283
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr "Error al analizar la respuesta JSON del servidor de autentificación: %1 en el offset %2."
+msgstr "Error al analizar la respuesta JSON del servidor de autenticación: %1 en el offset %2."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:307
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr "Un error desconocido ocurrió al tratar de comunicarse con el servidor de autentificación: %1"
+msgstr "Un error desconocido se produjo al intentar comunicar con el server de autenticación: %1"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:329
 msgctxt "Yggdrasil|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr "Ha ocurrido un error desconocido de Yggdrasil."
+msgstr "Se produjo un error desconocido de Yggdrasil."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:17
 msgctxt "YggdrasilStep|"
 msgid "Logging in with Mojang account."
-msgstr ""
+msgstr "Iniciando sesión con la cuenta de Microsoft."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
 msgid "Logged in with Mojang"
-msgstr ""
+msgstr "Sesión iniciada con Mojang"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "La autenticación de usuario de Mojang falló."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
