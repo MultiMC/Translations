@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2021-12-11 11:58\n"
+"PO-Revision-Date: 2021-12-14 13:12\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -601,7 +601,7 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "Вход произведён успешно"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
@@ -2131,7 +2131,7 @@ msgstr "Лимит строк журнала"
 #: src/launcher/ui/pages/global/LauncherPage.ui:397
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "Прекратить запись в журнал при его переполнении"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:410
 msgctxt "LauncherPage|"
@@ -2191,12 +2191,12 @@ msgstr "Папка установок"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Вы пытаетесь указать папку сборки, путь к которой содержит по крайней мере один символ '!'. Это может вызвать проблемы с Java, и если проблема возникнет, то ваши сборки (возможно) не запустятся!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Вы действительно хотите использовать этот путь? Выбрав \"Нет\", вы закроете это окно и путь к сборке не будет изменен."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
@@ -2622,22 +2622,22 @@ msgstr "Получено "
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "Аутентификация пользователя Microsoft не удалась из-за проблем с сетью."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "Ошибка аутентификации пользователя Microsoft - пользователь не существует."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "Ошибка аутентификации пользователя Microsoft."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "Аутентификация пользователя Microsoft завершилась с неизвестным результатом."
 
 #: src/launcher/ui/MainWindow.cpp:256
 msgctxt "MainWindow|"
@@ -2723,7 +2723,7 @@ msgstr "Сообщить об ошибке"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "Открыть баг-трекер и сообщить об ошибке в %1."
 
 #: src/launcher/ui/MainWindow.cpp:350
 msgctxt "MainWindow|"
@@ -2734,7 +2734,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "Открыть голосовой чат %1 в Discord."
 
 #: src/launcher/ui/MainWindow.cpp:360
 msgctxt "MainWindow|"
@@ -2745,19 +2745,19 @@ msgstr "Reddit"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "Открыть сабреддит %1."
 
 #: src/launcher/ui/MainWindow.cpp:370
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
-msgstr ""
+msgstr "О %1"
 
 #: src/launcher/ui/MainWindow.cpp:371
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr ""
+msgstr "Посмотреть информацию о %1."
 
 #: src/launcher/ui/MainWindow.cpp:376 src/launcher/ui/MainWindow.cpp:661
 msgctxt "MainWindow|"
@@ -2768,7 +2768,7 @@ msgstr "Помощь"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
-msgstr ""
+msgstr "Получить помощь с %1 или Minecraft."
 
 #: src/launcher/ui/MainWindow.cpp:393
 msgctxt "MainWindow|"
@@ -2779,19 +2779,19 @@ msgstr "Обновить "
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
-msgstr ""
+msgstr "Проверка новых обновлений для %1."
 
 #: src/launcher/ui/MainWindow.cpp:404
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
-msgstr ""
+msgstr "Поддержка %1"
 
 #: src/launcher/ui/MainWindow.cpp:405
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
-msgstr ""
+msgstr "Открыть страницу Patreon %1."
 
 #: src/launcher/ui/MainWindow.cpp:413
 msgctxt "MainWindow|"
@@ -2822,7 +2822,7 @@ msgstr "Больше новостей…"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
-msgstr ""
+msgstr "Открыть Блог разработчиков, чтобы прочитать больше новостей о %1."
 
 #: src/launcher/ui/MainWindow.cpp:471
 msgctxt "MainWindow|"
@@ -2968,7 +2968,7 @@ msgstr "Копировать выбранную сборку."
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr ""
+msgstr "%1 - Версия %2"
 
 #: src/launcher/ui/MainWindow.cpp:643
 #, qt-format
@@ -2984,7 +2984,7 @@ msgstr "Не выбрана сборка"
 #: src/launcher/ui/MainWindow.cpp:754
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
-msgstr ""
+msgstr "Всего наиграно: 0с"
 
 #: src/launcher/ui/MainWindow.cpp:857 src/launcher/ui/MainWindow.cpp:1147
 msgctxt "MainWindow|"
@@ -3053,12 +3053,12 @@ msgstr "Название"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Проверяем возможность миграции в Microsoft."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "Получены флаги миграции"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:701
 msgctxt "MinecraftInstance|"
@@ -3156,7 +3156,7 @@ msgstr "Показать время проведённое в сборках"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "Показать время проведённое во всех сборках"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
@@ -3171,27 +3171,27 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Получение профиля Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "У аккаунта нет профиля Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:61
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "Во время получения профиля Minecraft Java произошла ошибка."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "Не удалось получить ответ профиля Minecraft Java"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:81
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "Доступ профиля Minecraft Java выполнено успешно."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3709,7 +3709,7 @@ msgstr "%1 (используется)"
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "Выберите имя Minecraft"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
@@ -4093,19 +4093,19 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1мин %2сек"
 
 #: src/launcher/MMCTime.cpp:18
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1ч %2мин"
 
 #: src/launcher/MMCTime.cpp:20
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1д %2ч %3мин"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4429,7 +4429,7 @@ msgstr "&Обновить"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr ""
+msgstr "%1 Быстрая установка"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
@@ -4839,7 +4839,7 @@ msgstr "Стандартные"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:19
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr ""
+msgstr "Minecraft 1.18 Пре-релиз 2 и выше требует использования Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:28
 msgctxt "VerifyJavaInstall|"
@@ -5486,13 +5486,13 @@ msgstr "Введите название нового сохранения."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "Получение авторизации для доступа к сервисам %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %1."
-msgstr ""
+msgstr "Не удалось получить авторизацию для служб %1. Ошибка %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
@@ -5572,12 +5572,12 @@ msgstr "Вход через аккаунт Xbox..."
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:56
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "Ошибка аутентификации пользователя Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "Не удалось понять ответ аутентификации пользователя Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:67
 msgctxt "XboxUserStep|"
@@ -5645,7 +5645,7 @@ msgstr "При работе Yggdrasil произошла неизвестная 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:17
 msgctxt "YggdrasilStep|"
 msgid "Logging in with Mojang account."
-msgstr ""
+msgstr "Вход с помощью аккаунта Mojang."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
@@ -5660,5 +5660,5 @@ msgstr "Ошибка аутентификации аккаунта Mojang."
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
-msgstr ""
+msgstr "Аутентификация пользователя Mojang не удалась из-за проблем с сетью."
 

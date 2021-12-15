@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2021-12-10 00:06\n"
+"PO-Revision-Date: 2021-12-14 04:15\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -162,7 +162,7 @@ msgstr "組建版本號："
 #: src/launcher/ui/dialogs/AboutDialog.ui:187
 msgctxt "AboutDialog|"
 msgid "Channel:"
-msgstr "頻道："
+msgstr "通道："
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:211
 msgctxt "AboutDialog|"
@@ -213,7 +213,7 @@ msgstr "組建版本號"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:103
 msgctxt "AboutDialog|"
 msgid "Channel"
-msgstr "頻道"
+msgstr "通道"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:107
 msgctxt "AboutDialog|"
@@ -257,7 +257,7 @@ msgstr "已過期"
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr "未存在的"
+msgstr "無"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
@@ -312,7 +312,7 @@ msgstr "帳號類型 - Mojang 或 MSA"
 #: src/launcher/minecraft/auth/AccountList.cpp:367
 msgctxt "AccountList|"
 msgid "Current status of the account."
-msgstr "帳號的當前狀態。"
+msgstr "帳號目前的狀態。"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
@@ -925,7 +925,7 @@ msgstr "正在檢查 FML 函式庫..."
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr "正在下載 FML 函式庫......"
+msgstr "正在下載 FML 函式庫..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
@@ -1104,12 +1104,12 @@ msgstr "未定義"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr "正在獲取 Skin。"
+msgstr "正在取得 Skin。"
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr "已獲取 Skin"
+msgstr "取得 Skin"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1523,7 +1523,7 @@ msgstr "使用系統安裝的 OpenAL"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellaneous"
-msgstr "雜項"
+msgstr "其他"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
@@ -1812,7 +1812,8 @@ msgstr "無帳號"
 #: src/launcher/LaunchController.cpp:57
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr "為了遊玩 Minecraft，你至少要擁有一個 Mojang 或 Minecraft 的帳號。你想要立即開啟帳號管理器且新增一個帳號嗎?"
+msgstr "要玩 Minecraft 的話，需要有 Mojang 或 Minecraft 帳號。\n"
+"是否開啟帳號管理器且新增一個帳號？"
 
 #: src/launcher/LaunchController.cpp:76
 msgctxt "LaunchController|"
@@ -1842,7 +1843,7 @@ msgstr "選擇你在離線模式的玩家名稱。"
 #: src/launcher/LaunchController.cpp:152
 msgctxt "LaunchController|"
 msgid "The account does not own Minecraft. You need to purchase the game first to play it."
-msgstr "此帳號沒有擁有 Minecraft。您需要購買遊戲才能遊玩。"
+msgstr "此帳號名下沒有 Minecraft。請先購買遊戲。"
 
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
@@ -1867,7 +1868,7 @@ msgstr "帳號已過期了，請手動重新登入。"
 #: src/launcher/LaunchController.cpp:208
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr "帳號刷新失敗"
+msgstr "帳號重新整理失敗"
 
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
@@ -1960,18 +1961,18 @@ msgstr "MultiMC 已停止監控遊戲紀錄檔，因為紀錄檔長度超過了%
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr "正在訪問 Mojang 服務。"
+msgstr "正在存取 Mojang 服務。"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr "無法獲取 Minecraft 訪問憑證：%1"
+msgstr "取得 Minecraft 存取憑證失敗：%1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr "無法解析 Minecraft 訪問憑證響應。"
+msgstr "解析 Minecraft 存取憑證回應失敗。"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
@@ -1991,12 +1992,12 @@ msgstr "啟動器開啟時檢查更新？"
 #: src/launcher/ui/pages/global/LauncherPage.ui:64
 msgctxt "LauncherPage|"
 msgid "Up&date Channel:"
-msgstr "更新通道："
+msgstr "更新通道（&U）："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:81
 msgctxt "LauncherPage|"
 msgid "No channel selected."
-msgstr "沒有選擇頻道。"
+msgstr "未選擇通道。"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:94
 msgctxt "LauncherPage|"
@@ -2006,17 +2007,17 @@ msgstr "資料夾"
 #: src/launcher/ui/pages/global/LauncherPage.ui:100
 msgctxt "LauncherPage|"
 msgid "I&nstances:"
-msgstr "實例："
+msgstr "實例（&I）："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:120
 msgctxt "LauncherPage|"
 msgid "&Mods:"
-msgstr "模組："
+msgstr "模組（&M）："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:143
 msgctxt "LauncherPage|"
 msgid "&Icons:"
-msgstr "圖示："
+msgstr "圖示（&I）："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:163
 msgctxt "LauncherPage|"
@@ -2036,7 +2037,7 @@ msgstr "啟動器通知"
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "Reset hidden notifications"
-msgstr "重設被隱藏的提醒"
+msgstr "重設已隱藏的通知"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
@@ -2046,12 +2047,12 @@ msgstr "實例檢視排序模式"
 #: src/launcher/ui/pages/global/LauncherPage.ui:218
 msgctxt "LauncherPage|"
 msgid "By &last launched"
-msgstr "依照上次啟動時間"
+msgstr "依上次啟動時間（&L）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:228
 msgctxt "LauncherPage|"
 msgid "By &name"
-msgstr "依照名稱"
+msgstr "依名稱（&N）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:241
 msgctxt "LauncherPage|"
@@ -2061,7 +2062,7 @@ msgstr "主題"
 #: src/launcher/ui/pages/global/LauncherPage.ui:247
 msgctxt "LauncherPage|"
 msgid "&Icons"
-msgstr "圖示"
+msgstr "圖示（&I）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
@@ -2071,17 +2072,17 @@ msgstr "預設"
 #: src/launcher/ui/pages/global/LauncherPage.ui:272
 msgctxt "LauncherPage|"
 msgid "Simple (Dark Icons)"
-msgstr "精簡（深色系圖示）"
+msgstr "精簡（深色圖示）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:277
 msgctxt "LauncherPage|"
 msgid "Simple (Light Icons)"
-msgstr "精簡（淺色系圖示）"
+msgstr "精簡（淺色圖示）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:282
 msgctxt "LauncherPage|"
 msgid "Simple (Blue Icons)"
-msgstr "精簡（藍色系圖示）"
+msgstr "精簡（藍色圖示）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:287
 msgctxt "LauncherPage|"
@@ -2146,17 +2147,17 @@ msgstr "控制台字型"
 #: src/launcher/ui/pages/global/LauncherPage.ui:490
 msgctxt "LauncherPage|"
 msgid "Analytics"
-msgstr "統計"
+msgstr "統計資料"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:496
 msgctxt "LauncherPage|"
 msgid "Analytics Settings"
-msgstr "統計設定"
+msgstr "統計資料設定"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:502
 msgctxt "LauncherPage|"
 msgid "Send anonymous usage statistics?"
-msgstr "發送匿名的使用統計？"
+msgstr "是否傳送匿名的統計資料？"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:516
 msgctxt "LauncherPage|"
@@ -2623,12 +2624,12 @@ msgstr "已獲得 "
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr "Microsoft 使用者身分認證時遇到了網絡錯誤。"
+msgstr "Microsoft 使用者驗證程序因網路問題而終止。"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr "Microsoft 使用者身份驗證失敗 - 使用者不再存在。"
+msgstr "Microsoft 使用者身份驗證失敗，因為此使用者已不存在。"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
@@ -2969,7 +2970,7 @@ msgstr "複製所選的實例。"
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr "%1 - 版本 %2"
+msgstr "%1 %2 版"
 
 #: src/launcher/ui/MainWindow.cpp:643
 #, qt-format
@@ -2985,7 +2986,7 @@ msgstr "沒有選擇實例"
 #: src/launcher/ui/MainWindow.cpp:754
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
-msgstr "總遊戲時間：0s"
+msgstr "總遊戲時間：0 秒"
 
 #: src/launcher/ui/MainWindow.cpp:857 src/launcher/ui/MainWindow.cpp:1147
 msgctxt "MainWindow|"
@@ -3068,12 +3069,12 @@ msgstr "<程序ID>"
 #: src/launcher/minecraft/MinecraftInstance.cpp:703
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr "<帳號憑證>"
+msgstr "<ACCESS TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:705
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr "<用戶端憑證>"
+msgstr "<CLIENT TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:707
 msgctxt "MinecraftInstance|"
@@ -3452,7 +3453,7 @@ msgstr "通知"
 #: src/launcher/ui/dialogs/NotificationDialog.cpp:30
 msgctxt "NotificationDialog|"
 msgid "Don't show again"
-msgstr "不要再顯示"
+msgstr "不再顯示"
 
 #: src/launcher/ui/dialogs/NotificationDialog.ui:75
 #: src/launcher/ui/dialogs/NotificationDialog.cpp:31
@@ -3715,31 +3716,31 @@ msgstr "選擇 Minecraft 名稱"
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr "您只需要再邁出一步即可在此帳號上玩 Minecraft。\n\n"
-"請謹慎選擇你的名字："
+msgstr "只要再一步就可以用這個帳號玩 Minecraft 了。\n\n"
+"謹慎選擇你的名字："
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr "名稱太短 - 長度必須在 3 到 16 個字符之間。"
+msgstr "名稱太短，長度必須在 3～16 個字元之間。"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr "名為 %1 的 Minecraft 個人資料已存在。"
+msgstr "已有名為 %1 的 Minecraft 個人資料。"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
-msgstr "不允許使用此 %1 名稱"
+msgstr "名稱「%1」不予使用。"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:170
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr "未處理的設定檔文件名稱狀態：%1"
+msgstr "個人資料名稱未處理，狀況：%1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
@@ -5516,7 +5517,7 @@ msgstr "伺服器已更改響應中的 %1 授權使用者哈希值。有點不�
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr "已獲得了訪問 %1 的授權"
+msgstr "已獲權存取 %1"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
@@ -5605,7 +5606,7 @@ msgstr "驗證伺服器嘗試修改用戶端憑證。尚未支援此動作。"
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:204
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr "驗證伺服器未回傳用戶憑證。"
+msgstr "驗證伺服器未傳送存取憑證。"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:226
 msgctxt "Yggdrasil|"
@@ -5658,7 +5659,7 @@ msgstr "使用 Mojang 帳號登入。"
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
 msgid "Logged in with Mojang"
-msgstr "使用 Mojang 登入"
+msgstr "成功以 Mojang 帳號登入"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
@@ -5668,5 +5669,5 @@ msgstr "Mojang 使用者驗證失敗。"
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
-msgstr "Mojang 使用者身分認證時遇到了網絡錯誤。"
+msgstr "Mojang 使用者驗證程序因網路問題而終止。"
 
