@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2021-12-13 15:22\n"
+"PO-Revision-Date: 2021-12-17 22:47\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -142,7 +142,7 @@ msgstr "À propos"
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Un lanceur personnalisé qui facilite la gestion de Minecraft en vous permettant d'avoir plusieurs instances de Minecraft à la fois.</p></body></html>"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
@@ -193,7 +193,7 @@ msgstr "Fermer"
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "About %1"
-msgstr ""
+msgstr "À propos de %1"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:94
 msgctxt "AboutDialog|"
@@ -227,37 +227,37 @@ msgstr "<p>Nous gardons MultiMC open source car nous pensons qu'il est important
 #: src/launcher/minecraft/auth/AccountList.cpp:277
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
-msgstr ""
+msgstr "Non coché"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr ""
+msgstr "Hors-Ligne"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:283
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr ""
+msgstr "En ligne"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
 msgid "Working"
-msgstr ""
+msgstr "Fonctionne"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:289
 msgctxt "AccountList|Account status"
 msgid "Errored"
-msgstr ""
+msgstr "Erronée"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:292
 msgctxt "AccountList|Account status"
 msgid "Expired"
-msgstr ""
+msgstr "Expiré"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr ""
+msgstr "Absent"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
@@ -287,7 +287,7 @@ msgstr "Type"
 #: src/launcher/minecraft/auth/AccountList.cpp:350
 msgctxt "AccountList|"
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:352
 msgctxt "AccountList|"
@@ -312,7 +312,7 @@ msgstr "Type de compte - Mojang ou MSA."
 #: src/launcher/minecraft/auth/AccountList.cpp:367
 msgctxt "AccountList|"
 msgid "Current status of the account."
-msgstr ""
+msgstr "Statut actuel du compte."
 
 #: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
@@ -437,7 +437,7 @@ msgstr "Impossible de contacter le serveur d'authentification."
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "Une erreur s'est produite lors de l'authentification."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
@@ -483,7 +483,7 @@ msgstr "Activer l'analyse des données"
 #: src/launcher/Application.cpp:715
 msgctxt "Application|"
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
@@ -601,17 +601,17 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "Toutes les étapes d'authentification sont terminées"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
 msgid "Initializing"
-msgstr ""
+msgstr "Initialisation en cours"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
 msgid "Working..."
-msgstr ""
+msgstr "Travail en cours..."
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -714,7 +714,7 @@ msgstr "Commande wrapper :"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'il ferme.</p><p>Les deux vont être exécuté dans le fichier de travail de MultiMC avec des variables environnementales supplémentaires:</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du fichier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple: 'optirun' sur Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -757,7 +757,7 @@ msgstr "Mot de passe"
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:14
 msgctxt "EntitlementsStep|"
 msgid "Determining game ownership."
-msgstr ""
+msgstr "Détermination de la propriété du jeu."
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
@@ -925,7 +925,7 @@ msgstr "Vérification des bibliothèques de FML..."
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr ""
+msgstr "Téléchargement des bibliothèques de FML..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
@@ -1104,12 +1104,12 @@ msgstr "Indéfini"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr ""
+msgstr "Récupération du skin."
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr ""
+msgstr "Skin obtenu"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1523,7 +1523,7 @@ msgstr "Utiliser l'installation système d'OpenAL"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Divers"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
@@ -1720,7 +1720,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Vous n'avez pas sélectionné une version de Java ou avez sélectionné quelque chose qui ne fonctionne pas.\n"
+"%1 ne pourra pas lancer Minecraft.\n"
+"Voulez-vous continuer sans Java ?\n\n"
+"Vous pourrez ultérieurement changer la version de Java dans les paramètres.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1794,7 +1797,7 @@ msgstr "Langue"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr ""
+msgstr "Sélectionnez la langue à utiliser sur %1"
 
 #: src/launcher/LaunchController.cpp:34
 msgctxt "LaunchController|"
@@ -1809,7 +1812,7 @@ msgstr "Aucun compte"
 #: src/launcher/LaunchController.cpp:57
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "Afin de jouer à Minecraft, vous devez avoir au moins un compte Mojang ou Minecraft connecté à MultiMC. Voulez-vous ouvrir le gestionnaire de comptes pour ajouter un compte maintenant ?"
 
 #: src/launcher/LaunchController.cpp:76
 msgctxt "LaunchController|"
@@ -1839,12 +1842,12 @@ msgstr "Choisissez votre nom de joueur pour le mode hors ligne."
 #: src/launcher/LaunchController.cpp:152
 msgctxt "LaunchController|"
 msgid "The account does not own Minecraft. You need to purchase the game first to play it."
-msgstr ""
+msgstr "Ce compte ne possède pas Minecraft. Vous devez d'abord acheter le jeu pour y jouer."
 
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
 msgid "Missing Minecraft profile"
-msgstr ""
+msgstr "Profil Minecraft manquant"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
@@ -1859,12 +1862,12 @@ msgstr "Jouer en hors ligne"
 #: src/launcher/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "Le compte a expiré et doit être reconnecté manuellement."
 
 #: src/launcher/LaunchController.cpp:208
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr ""
+msgstr "Rafraîchissement du compte échoué"
 
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
@@ -1957,53 +1960,53 @@ msgstr "MultiMC a arrêté d'actualiser le journal du jeu car sa longueur a dép
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "Accès aux services de Mojang."
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr ""
+msgstr "Impossible d'obtenir le jeton d'accès à Minecraft : %1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "Impossible d'analyser la réponse du jeton d'accès Minecraft."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
 msgid "Features"
-msgstr ""
+msgstr "Fonctionnalités"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
 msgid "Update Settings"
-msgstr ""
+msgstr "Mettre à jour les paramètres"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:57
 msgctxt "LauncherPage|"
 msgid "Check for updates on start?"
-msgstr ""
+msgstr "Vérifier les mises à jour au démarrage?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:64
 msgctxt "LauncherPage|"
 msgid "Up&date Channel:"
-msgstr ""
+msgstr "Canal de mise à jour:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:81
 msgctxt "LauncherPage|"
 msgid "No channel selected."
-msgstr ""
+msgstr "Aucun canal sélectionné."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:94
 msgctxt "LauncherPage|"
 msgid "Folders"
-msgstr ""
+msgstr "Dossiers"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:100
 msgctxt "LauncherPage|"
 msgid "I&nstances:"
-msgstr ""
+msgstr "Instances:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:120
 msgctxt "LauncherPage|"
