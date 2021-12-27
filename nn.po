@@ -13,12 +13,12 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Norwegian Nynorsk\n"
 "Language: nn_NO\n"
-"PO-Revision-Date: 2021-12-27 21:37\n"
+"PO-Revision-Date: 2021-12-27 21:45\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Klarte ikkje forstå pakkemanifestet:\n"
+msgstr "Forsto ikkje pakkemanifestet:\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:85
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:166
@@ -37,7 +37,7 @@ msgstr "Klarte ikkje henta den lokale metadataindeksen for «%1» v%2"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown mod type: %1"
-msgstr "Ukjend mod-type: %1"
+msgstr "Ukjend moddtype: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:198
 #, qt-format
@@ -90,7 +90,7 @@ msgstr "Lastar ned moddar …"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:494
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Mod download"
-msgstr "Moddnedlasting"
+msgstr "Lastar ned modd"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:508
 #, qt-format
@@ -221,7 +221,7 @@ msgid "<p>We keep MultiMC open source because we think it's important to be able
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 msgstr "<p>MultiMC er open kildekode fordi me tenkjer at det er viktig å kunne sjå kildekoden prosjekt som dette, og me gjer dette med Apache-lisensen.</p>\n"
-"<p>Noko av grunnen til at me bruker Apache-lisensen er fordi me ønsker at folk ikkje brukar namnet &laquo;MultiMC&raquo; viss dei endrer på programmet. Dette betyr at du må gå gjennom kildekoden og fjerna alle referansar til &laquo;MultiMC&raquo;, som prosjektikonet og tittelen på vindauga (ingen <b>MultiMC-fork</b> i tittelen).</p>\n"
+"<p>Noko av grunnen til at me bruker Apache-lisensen er fordi me ønsker at folk ikkje brukar namnet &laquo;MultiMC&raquo; viss dei endrar på programmet. Dette betyr at du må gå gjennom kildekoden og fjerna alle referansar til &laquo;MultiMC&raquo;, som prosjektikonet og tittelen på vindauga (ingen <b>basert på MultiMC</b> i tittelen).</p>\n"
 "<p>Apache-lisensen dekker rimeleg bruk av namnet. Ei tilvising til MultiMC i &laquo;Om&raquo;-dialogen og i lisensen er akseptabelt, men det bør vera svært tydeleg at programmet er ein forgreining <b>utan</b> å hentyda at du har vår tillatelse.</p>"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:277
@@ -337,7 +337,7 @@ msgstr "Fjern"
 #: src/launcher/ui/pages/global/AccountListPage.ui:77
 msgctxt "AccountListPage|"
 msgid "Set Default"
-msgstr "Bruk vald som standard"
+msgstr "Bruk som standard"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:85
 msgctxt "AccountListPage|"
@@ -412,12 +412,12 @@ msgstr "Microsoft-brukarar er kun støtta på MacOS 10.13 eller nyare, når Mult
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
-msgstr "Slett en"
+msgstr "Slett skal"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
-msgstr "Klarte ikkje sletta en."
+msgstr "Klarte ikkje sletta skalet."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -810,7 +810,7 @@ msgstr "Eksternt skriveprogram (hald tom for å bruka systemstandarden)"
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr "Skriveproram:"
+msgstr "Skriveprogram:"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
@@ -899,7 +899,7 @@ msgstr "MCEdit-oppsett er OK"
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:202
 msgctxt "ExternalToolsPage|"
 msgid "JSON Editor"
-msgstr "JSON-skriveprogram"
+msgstr "Skriveprogram for JSON"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:224
 msgctxt "ExternalToolsPage|"
@@ -2333,7 +2333,7 @@ msgstr "Tredjeparts"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:67
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr ""
+msgstr "Private"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:86
 msgctxt "LegacyFTB::Page|"
@@ -2512,7 +2512,7 @@ msgstr "Kopier"
 #: src/launcher/ui/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "Last opp loggen til paste.ee. Den vil verta tilgjengeleg i ein månad"
+msgstr "Last opp loggen til paste.ee. Den vil verta tilgjengeleg i ein månad."
 
 #: src/launcher/ui/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
@@ -2729,7 +2729,7 @@ msgstr "Opne %1 sin feilsporing for å rapportera ein feil"
 #: src/launcher/ui/MainWindow.cpp:350
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: src/launcher/ui/MainWindow.cpp:351
 #, qt-format
@@ -2740,7 +2740,7 @@ msgstr "Opne %1 sin talekanal på Discord"
 #: src/launcher/ui/MainWindow.cpp:360
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: src/launcher/ui/MainWindow.cpp:361
 #, qt-format
@@ -3090,7 +3090,7 @@ msgstr "øydelagd"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:787
 #, qt-format
@@ -3167,7 +3167,7 @@ msgstr "Ta opp tida som vart brukt på å spele på førekomstane"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3840,7 +3840,7 @@ msgstr "Mørk"
 #: src/launcher/ui/themes/SystemTheme.cpp:47
 msgctxt "QObject|"
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
@@ -4684,7 +4684,7 @@ msgstr "av"
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:45
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr ""
+msgstr "Technic"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -4795,7 +4795,7 @@ msgstr "<center><h1>Henter versjonslogg …</h1></center>"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
-msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">Klarte ikkje henta versjonsloggen. Feil: %1</span></p>"
+msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">Klarte ikkje henta versjonsloggen. Feilmelding: %1</span></p>"
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
@@ -4840,7 +4840,7 @@ msgstr "Oppdater"
 #: src/launcher/ui/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:19
 msgctxt "VerifyJavaInstall|"
@@ -5200,7 +5200,7 @@ msgstr "Versjon"
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -5210,7 +5210,7 @@ msgstr "Grein"
 #: src/launcher/VersionProxyModel.cpp:82
 msgctxt "VersionProxyModel|"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: src/launcher/VersionProxyModel.cpp:84
 msgctxt "VersionProxyModel|"
@@ -5364,7 +5364,7 @@ msgstr "Fjern"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:117
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:122
 msgctxt "WorldListPage|"
