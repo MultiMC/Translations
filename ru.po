@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2021-12-28 16:47\n"
+"PO-Revision-Date: 2021-12-28 16:57\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -762,7 +762,7 @@ msgstr "Проверка наличия лицензии игры в вашей 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "Получил права"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
@@ -3739,7 +3739,7 @@ msgstr "Имя %1 не разрешено."
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr ""
+msgstr "Необработанный статус профиля: %1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
@@ -3965,7 +3965,7 @@ msgstr "В processArguments установлено неизвестное зна
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "Значение 'minimumLauncherVersion' текущей версии (%1) выше, чем поддерживается %3 (%2). Лаунчер может работать неправильно!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4066,14 +4066,16 @@ msgstr "Не удалось откатить!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Не удалось заменить файл %1. Изменения будут отменены.\n"
+"Смотрите файл журнала %2 для подробностей."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Не удалось удалить файл %1. Изменения будут отменены.\n"
+"Смотрите лог файл %2 для подробностей."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
@@ -4088,7 +4090,9 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "Откат не удался.\n"
+"Вам придется починить %1 вручную.\n"
+"Пожалуйста, дайте нам знать, почему и как это произошло."
 
 #: src/launcher/MMCTime.cpp:14
 #, qt-format
@@ -5499,13 +5503,13 @@ msgstr "Не удалось получить авторизацию для сл�
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "Не удалось разобрать ответ авторизации для доступа к службам %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "Сервер изменил хэш пользователя авторизации %1 в ответе. Что-то не так."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
@@ -5517,13 +5521,13 @@ msgstr "Получено разрешение на доступ к %1"
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "Не удается разобрать ответ на ошибку %1 авторизации как JSON: %2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "Элемент XErr отсутствует в ответе на ошибку авторизации %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
@@ -5541,14 +5545,16 @@ msgstr "XBox Live не доступен в вашей стране. Вас за�
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "Эта учетная запись Microsoft ниже требуемого возраста и не привязана к семье.\n\n"
+"Пожалуйста, настройте свою учетную запись в соответствии с %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:151
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "Аутентификация XSTS закончилась нераспознанными ошибками:\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
@@ -5558,7 +5564,7 @@ msgstr "Получение профиля Xbox..."
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "Ошибка при получении профиля Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
