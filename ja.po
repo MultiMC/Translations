@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2021-12-08 01:36\n"
+"PO-Revision-Date: 2021-12-20 04:57\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -193,7 +193,7 @@ msgstr "閉じる"
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "About %1"
-msgstr ""
+msgstr "%1について"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:94
 msgctxt "AboutDialog|"
@@ -230,32 +230,32 @@ msgstr ""
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr ""
+msgstr "オフライン"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:283
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr ""
+msgstr "オンライン"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
 msgid "Working"
-msgstr ""
+msgstr "正常"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:289
 msgctxt "AccountList|Account status"
 msgid "Errored"
-msgstr ""
+msgstr "エラー"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:292
 msgctxt "AccountList|Account status"
 msgid "Expired"
-msgstr ""
+msgstr "期限切れ"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr ""
+msgstr "消滅"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
@@ -285,7 +285,7 @@ msgstr "タイプ"
 #: src/launcher/minecraft/auth/AccountList.cpp:350
 msgctxt "AccountList|"
 msgid "Status"
-msgstr ""
+msgstr "状態"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:352
 msgctxt "AccountList|"
@@ -310,7 +310,7 @@ msgstr "アカウントの種類-Mojangまたはマイクロソフト。"
 #: src/launcher/minecraft/auth/AccountList.cpp:367
 msgctxt "AccountList|"
 msgid "Current status of the account."
-msgstr ""
+msgstr "現在のアカウントの状態。"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
@@ -435,12 +435,12 @@ msgstr "認証サーバーへの接続に失敗しました。"
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "認証中にエラーが発生しました。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr ""
+msgstr "認証に失敗しました。セッションの有効期限が切れています。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -471,7 +471,7 @@ msgstr "私たちはユーザーについての匿名の統計情報を収集し
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>MultiMCは起動毎に利用状況に関する匿名のデータを送信します。この情報は開発チームがどのOSのどの問題に取り組むべきか決定するのに用いられます。</p><p>このデータはGoogle Analyticsによって処理されるので、Google Analyticsの<a href=\"https://support.google.com/analytics/answer/6004245?hl=ja\">データの保護に関する記事</a>をご覧ください。</p><p>収集されるデータは以下の通りです:</p><ul><li>ランダムで一意なMultiMCのインストールID<br />これはMultiMCの設定(multimc.cfg)に保存されています。</li><li>匿名化されたIPアドレスの一部</li><li>MultiMCのバージョン</li><li>OS名、バージョンおよびアーキテクチャ</li><li>CPUアーキテクチャ (Linuxではカーネル情報)</li><li>システムメモリの容量</li><li>Javaのバージョン、アーキテクチャ、メモリの設定</li></ul><p>もし収集されるデータに変更があれば、再びこのページが表示されます。</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -481,7 +481,7 @@ msgstr "統計情報を有効化"
 #: src/launcher/Application.cpp:715
 msgctxt "Application|"
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
@@ -599,17 +599,17 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "すべての認証が完了…"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
 msgid "Initializing"
-msgstr ""
+msgstr "初期化中…"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
 msgid "Working..."
-msgstr ""
+msgstr "処理中…"
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"

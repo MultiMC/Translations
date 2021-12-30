@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2021-12-18 18:03\n"
+"PO-Revision-Date: 2021-12-28 16:57\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "Мы собираем анонимные данные пользоват
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>Лаунчер отправляет анонимную статистику использования при каждом запуске программы. Это помогает нам решить, на каких платформах и проблемах сосредоточиться.</p><p>Данные обрабатываются через Google Аналитику, смотрите их <a href=\"https://support.google.com/analytics/answer/6004245?hl=ru\">статью об этом</a>.</p><p>Собираются следующие данные:</p><ul><li>Случайный уникальный идентификатор установки.<br/>Он хранится в файле настроек приложения.</li><li>Анонимизированный (частичный) IP-адрес.</li><li>Версия лаунчера.</li><li>Название, версия и архитектура операционной системы.</li><li>Архитектура процессора (архитектура ядра в Linux).</li><li>Размер системной памяти.</li><li>Версия Java, архитектура и настройки памяти.</li></ul><p>Если перечень собираемых данных изменится, Вам снова покажет эту страницу.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -762,7 +762,7 @@ msgstr "Проверка наличия лицензии игры в вашей 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "Получил права"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
@@ -2402,7 +2402,7 @@ msgstr "Создание сборки на основе версии %1."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Требуется обновление</h1><p>MultiMC теперь поддерживает старые версии Minecraft и все требуемые возможности в новом (OneSix) формате сборок. Вследствие этого старый формат (Устаревший) был полностью отключён и старые сборки нуждаются в обновлении.</p><p>Обновление создаст новую сборку с таким же содержимым, что и раньше, но в новом формате. Изначальная сборка не будет затронута, на случай если что-то пойдет не так.</p><p>Пожалуйста, сообщайте о любых проблемах на нашей <a href=\"https://github.com/MultiMC/Launcher/issues\">странице проблем GitHub</a>.</p><p>Также у нас есть <a href=\"https://discord.gg/GtPmv93\">канал в Discord для проверки</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -3715,18 +3715,19 @@ msgstr "Выберите имя Minecraft"
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "Вам просто нужно сделать еще один шаг, чтобы иметь возможность играть в Minecraft на этом аккаунте.\n\n"
+"Внимательно и аккуратно выберите ваше имя:"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "Имя слишком короткое - должно быть от 3 до 16 символов."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "Профиль Minecraft с именем %1 уже существует."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
@@ -3738,17 +3739,17 @@ msgstr "Имя %1 не разрешено."
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr ""
+msgstr "Необработанный статус профиля: %1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
-msgstr ""
+msgstr "Не удалось проверить доступность имени."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "Сервер вернул ошибку:"
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3768,7 +3769,7 @@ msgstr "Пропустить"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Это применимо только для лаунчера. Minecraft не принимает настройки прокси."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3823,7 +3824,7 @@ msgstr "Пароль:"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "Примечание: Имя пользователя и пароль от прокси хранится обычным текстом внутри файла настроек лаунчера!"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3964,7 +3965,7 @@ msgstr "В processArguments установлено неизвестное зна
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "Значение 'minimumLauncherVersion' текущей версии (%1) выше, чем поддерживается %3 (%2). Лаунчер может работать неправильно!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4048,7 +4049,7 @@ msgstr "Не удалось обработать файл версии %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
-msgstr ""
+msgstr "Нет профиля (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4065,14 +4066,16 @@ msgstr "Не удалось откатить!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Не удалось заменить файл %1. Изменения будут отменены.\n"
+"Смотрите файл журнала %2 для подробностей."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Не удалось удалить файл %1. Изменения будут отменены.\n"
+"Смотрите лог файл %2 для подробностей."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
@@ -4087,7 +4090,9 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "Откат не удался.\n"
+"Вам придется починить %1 вручную.\n"
+"Пожалуйста, дайте нам знать, почему и как это произошло."
 
 #: src/launcher/MMCTime.cpp:14
 #, qt-format
@@ -5498,56 +5503,58 @@ msgstr "Не удалось получить авторизацию для сл�
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "Не удалось разобрать ответ авторизации для доступа к службам %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "Сервер изменил хэш пользователя авторизации %1 в ответе. Что-то не так."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr ""
+msgstr "Получено разрешение на доступ к %1"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "Не удается разобрать ответ на ошибку %1 авторизации как JSON: %2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "Элемент XErr отсутствует в ответе на ошибку авторизации %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "Эта учетная запись Microsoft не имеет профиля XBox Live. Купите игру на %1 сначала."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "XBox Live не доступен в вашей стране. Вас заблокировали."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:143
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "Эта учетная запись Microsoft ниже требуемого возраста и не привязана к семье.\n\n"
+"Пожалуйста, настройте свою учетную запись в соответствии с %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:151
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "Аутентификация XSTS закончилась нераспознанными ошибками:\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
@@ -5557,7 +5564,7 @@ msgstr "Получение профиля Xbox..."
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "Ошибка при получении профиля Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
