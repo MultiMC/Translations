@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
-"PO-Revision-Date: 2022-01-07 21:08\n"
+"PO-Revision-Date: 2022-01-07 21:17\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -714,7 +714,7 @@ msgstr "Iesaiņojuma Komanda:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Pirms-darbināšanas komanda iet pirms instance darbinās un pēc izejas Komanda iet pēc iziešanas.</p><p>Abi ies iekšā palaidēja strādājošā mapē ar papildus vides mainīgajiem:</p><ul><li>$INST_NAME - Loga vārds</li><li>$INST_ID - Loga ID (tā mapes nosaukums)</li><li>$INST_DIR - absolūtā loga lokācija </li><li>$INST_MC_DIR - minecraft absolūtā lokācija</li><li>$INST_JAVA - java binārija izmantota;</li><li>$INST_JAVA_ARGS - command-līnijas parametri izmantoti </li></ul><p>Iesaiņojuma komandas ļauj darbināšanu izmantojot papildus iesaiņošanas programu (piem. 'optirun' Linukssā)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -757,12 +757,12 @@ msgstr "Parole"
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:14
 msgctxt "EntitlementsStep|"
 msgid "Determining game ownership."
-msgstr ""
+msgstr "Spēļu īpašumtiesību noteikšana."
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "Dabuju tiesības"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
@@ -925,7 +925,7 @@ msgstr "Pārbauda FML bibliotēkas..."
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr ""
+msgstr "Lejupielādē FML..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
@@ -1104,12 +1104,12 @@ msgstr "Nenoteikts"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr ""
+msgstr "Ādas iegūšana."
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr ""
+msgstr "Dabuja ādu"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1523,7 +1523,7 @@ msgstr "Izmantot sistēmas OpenAL instalāciju"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Citi"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
@@ -1720,7 +1720,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Neizvēlējāties Java versiju vai izvēlējāties kaut ko, kas nedarbojas.\n"
+"%1 nevarēs palaist Minecraft.\n"
+"Vai vēlaties turpināt bez Java?\n\n"
+"Java versiju var mainīt iestatījumos vēlāk.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1794,7 +1797,7 @@ msgstr "Valoda"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr ""
+msgstr "Izvēlieties valodu, kas tiks izmantota %1"
 
 #: src/launcher/LaunchController.cpp:34
 msgctxt "LaunchController|"
@@ -1809,7 +1812,7 @@ msgstr "Nav Kontu"
 #: src/launcher/LaunchController.cpp:57
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "Lai spēlētu Minecraft, jums ir jābūt pieslēgtam vismaz vienam Mojang vai Minecraft kontam. Vai vēlaties atvērt kontu pārvaldnieku, lai pievienotu kontu?"
 
 #: src/launcher/LaunchController.cpp:76
 msgctxt "LaunchController|"
@@ -1839,12 +1842,12 @@ msgstr "Izvēlaties Bezsaistes Spēlētaja Vārdu."
 #: src/launcher/LaunchController.cpp:152
 msgctxt "LaunchController|"
 msgid "The account does not own Minecraft. You need to purchase the game first to play it."
-msgstr ""
+msgstr "Kontam nepieder Minecraft. Lai to spēlētu, vispirms ir jāiegādājas spēle."
 
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
 msgid "Missing Minecraft profile"
-msgstr ""
+msgstr "Trūkst Minecraft profila"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
@@ -1859,12 +1862,12 @@ msgstr "Spēlēt bezsaistē"
 #: src/launcher/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "Konta sesija ir beigusies, un kontā autentifikācijās manuāli."
 
 #: src/launcher/LaunchController.cpp:208
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr ""
+msgstr "Konta atjaunināšana neizdevās"
 
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
@@ -1957,33 +1960,33 @@ msgstr "MultiMC beidza skatīties spēļu žurnālu jo žurnāla garums pārsnie
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "Pievienojamies Mojang pakalpojumiem."
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr ""
+msgstr "Neizdevās iegūt Minecraft piekļuves informāciju: %1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "Neizdevās parsēt Minecraft piekļuves informācijas atbildi."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
 msgid "Features"
-msgstr ""
+msgstr "Funkcijas"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
 msgid "Update Settings"
-msgstr ""
+msgstr "Mainīt iestatījumus"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:57
 msgctxt "LauncherPage|"
 msgid "Check for updates on start?"
-msgstr ""
+msgstr "Pārbaudīt, vai ir atjauninājumi aplikācijai?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:64
 msgctxt "LauncherPage|"
