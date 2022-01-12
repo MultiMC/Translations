@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2021-12-29 16:35\n"
+"PO-Revision-Date: 2022-01-08 22:35\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -312,7 +312,7 @@ msgstr "Тип облікового запису - Mojang або MSA."
 #: src/launcher/minecraft/auth/AccountList.cpp:367
 msgctxt "AccountList|"
 msgid "Current status of the account."
-msgstr ""
+msgstr "Поточний стан облікового запису."
 
 #: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
@@ -422,22 +422,22 @@ msgstr "Не вдалося видалити поточний скін!"
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
 msgid "Sending request to auth servers..."
-msgstr ""
+msgstr "Надсилання запиту до серверів авторизації..."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:43
 msgctxt "AccountTask|"
 msgid "Authentication task succeeded."
-msgstr ""
+msgstr "Завдання аутентифікації виконано успішно."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:45
 msgctxt "AccountTask|"
 msgid "Failed to contact the authentication server."
-msgstr ""
+msgstr "Не вдалося зв'язатися з сервером автентифікації."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "Трапилась помилка під час автентифікації."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
@@ -473,7 +473,7 @@ msgstr "Ми відстежуємо деякі анонімні дані про 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>Програма відправляє анонімну статистику використання при кожному запуску програми. Це допомагає нам вирішувати на яких платформах і проблемах фокусуватися.</p><p>Зібрані дані оброблюються Google Analytics, дивіться їх <a href=\"https://support.google.com/analytics/answer/6004245?hl=ru\">статтю по цьому питанню</a>.</p><p>Збираються наступні дані:</p><ul><li>Випадковий унікальний ідентифікатор установки.<br />Він зберігається в налаштуваннях програми.</li><li>Анонімний (частково) IP-адрес.</li><li>Версія програми.</li><li>Назва, версія та архітектура операційної системи.</li><li>Архітектура процесора (архітектура ядра в Linux).</li><li>Розмір системної пам'яті.</li><li>Версія, архітектура Java і налаштування пам'яті.</li></ul><p>Якщо ми змінимо перелік зібраних даних, ви знову побачите цю сторінку.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -483,7 +483,7 @@ msgstr "Увімкнути аналітику"
 #: src/launcher/Application.cpp:715
 msgctxt "Application|"
 msgid "Settings"
-msgstr ""
+msgstr "Налаштування"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
@@ -540,7 +540,7 @@ msgstr "Сортувати за версією гри"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:14
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Mods To Install"
-msgstr ""
+msgstr "Оберіть модифікації для встановлення"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:20
 msgctxt "AtlOptionalModDialog|"
@@ -581,12 +581,12 @@ msgstr "Пошук і фільтрування..."
 #, qt-format
 msgctxt "AtlPage|"
 msgid "No versions are currently available for Minecraft %1"
-msgstr ""
+msgstr "На цей момент немає доступних версій для Minecraft %1"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:144
 msgctxt "AtlPage|"
 msgid "No versions are currently available"
-msgstr ""
+msgstr "Наразі оновлення відсутні"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:146
 msgctxt "AtlPage|"
@@ -606,12 +606,12 @@ msgstr ""
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
 msgid "Initializing"
-msgstr ""
+msgstr "Ініціалізація"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
 msgid "Working..."
-msgstr ""
+msgstr "Обробка..."
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -714,7 +714,7 @@ msgstr "Команда обгортки:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Команда перед запуском виконується перед стартом збірки, а після завершення процесу гри виконується команда після виходу. </p><p>Обидві команди будуть виконуватись в робочій теці лаунчера з додатковими змінними середовища:</p><ul><li>$INST_NAME - Ім'я збірки</li><li>$INST_ID - ID збірки (назва її каталогу)</li><li>$INST_DIR - абсолютний шлях збірки</li><li>$INST_MC_DIR - абсолютний шлях Minecraft</li><li>$INST_JAVA - програма java, використовувана при запускові</li><li>$INST_JAVA_ARGS - аргументи командного рядка, використовувані при запускові</li></ul><p>Команда обгортки дозволяє запускати Java, використовуючи зовнішню програму-обгортку (наприклад 'optirun' на Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -925,7 +925,7 @@ msgstr "Перевірка бібліотек FML..."
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr ""
+msgstr "Завантаження бібліотек FML..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
@@ -978,7 +978,7 @@ msgstr "Пошук"
 #: src/launcher/ui/pages/modplatform/flame/FlamePage.ui:74
 msgctxt "FlamePage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "Пошук і фільтр ..."
 
 #: src/launcher/ui/pages/modplatform/flame/FlamePage.h:45
 msgctxt "FlamePage|"
@@ -1048,7 +1048,7 @@ msgstr "Вибрана версія:"
 #: src/launcher/ui/pages/modplatform/ftb/FtbPage.ui:37
 msgctxt "FtbPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "Пошук та фільтрація ..."
 
 #: src/launcher/ui/pages/modplatform/ftb/FtbPage.h:43
 msgctxt "FtbPage|"
@@ -1104,7 +1104,7 @@ msgstr "Невизначений"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr ""
+msgstr "Отримання скіну."
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
@@ -1720,7 +1720,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Ви не вибрали версію Java, або вибрали щось що не працює.\n"
+"%1 неспроможний запустити Minecraft.\n"
+"Ви бажаєте продовжити без Java?\n\n"
+"Ви можете змінити версію Java в налаштуваннях пізніше.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1794,7 +1797,7 @@ msgstr "Мова"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr ""
+msgstr "Виберіть мову інтерфейсу %1"
 
 #: src/launcher/LaunchController.cpp:34
 msgctxt "LaunchController|"
@@ -1809,12 +1812,12 @@ msgstr "Немає облікового запису"
 #: src/launcher/LaunchController.cpp:57
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "Для того, щоб грати Minecraft, ви повинні увійти, як мінімум, в один обліковий запис Mojang, або Minecraft. Відкрити керування обліковими записами для додавання обліківки?"
 
 #: src/launcher/LaunchController.cpp:76
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
-msgstr ""
+msgstr "Який обліковий запис Ви хочете використовувати?"
 
 #: src/launcher/LaunchController.cpp:100
 msgctxt "LaunchController|"
@@ -1844,7 +1847,7 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
 msgid "Missing Minecraft profile"
-msgstr ""
+msgstr "Відсутній профіль Minecraft"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
@@ -1978,42 +1981,42 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
 msgid "Update Settings"
-msgstr ""
+msgstr "Оновити налаштування"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:57
 msgctxt "LauncherPage|"
 msgid "Check for updates on start?"
-msgstr ""
+msgstr "Перевіряти наявність оновлень при запуску?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:64
 msgctxt "LauncherPage|"
 msgid "Up&date Channel:"
-msgstr ""
+msgstr "Канал оновлень:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:81
 msgctxt "LauncherPage|"
 msgid "No channel selected."
-msgstr ""
+msgstr "Канал не вибрано."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:94
 msgctxt "LauncherPage|"
 msgid "Folders"
-msgstr ""
+msgstr "Теки"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:100
 msgctxt "LauncherPage|"
 msgid "I&nstances:"
-msgstr ""
+msgstr "&Збірки:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:120
 msgctxt "LauncherPage|"
 msgid "&Mods:"
-msgstr ""
+msgstr "&Модифікації:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:143
 msgctxt "LauncherPage|"
 msgid "&Icons:"
-msgstr ""
+msgstr "&Значки:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:163
 msgctxt "LauncherPage|"
@@ -2023,137 +2026,137 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:184
 msgctxt "LauncherPage|"
 msgid "User Interface"
-msgstr ""
+msgstr "Інтерфейс користувача"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:190
 msgctxt "LauncherPage|"
 msgid "Launcher notifications"
-msgstr ""
+msgstr "Сповіщення програми"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "Reset hidden notifications"
-msgstr ""
+msgstr "Скинути приховані сповіщення"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
 msgid "Instance view sorting mode"
-msgstr ""
+msgstr "Режим сортування збірок"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:218
 msgctxt "LauncherPage|"
 msgid "By &last launched"
-msgstr ""
+msgstr "За &часом запуску"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:228
 msgctxt "LauncherPage|"
 msgid "By &name"
-msgstr ""
+msgstr "За &назвою"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:241
 msgctxt "LauncherPage|"
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:247
 msgctxt "LauncherPage|"
 msgid "&Icons"
-msgstr ""
+msgstr "&Значки"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
 msgid "Default"
-msgstr ""
+msgstr "Стандартний"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:272
 msgctxt "LauncherPage|"
 msgid "Simple (Dark Icons)"
-msgstr ""
+msgstr "Проста (Темні значки)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:277
 msgctxt "LauncherPage|"
 msgid "Simple (Light Icons)"
-msgstr ""
+msgstr "Проста (Світлі значки)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:282
 msgctxt "LauncherPage|"
 msgid "Simple (Blue Icons)"
-msgstr ""
+msgstr "Проста (Сині значки)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:287
 msgctxt "LauncherPage|"
 msgid "Simple (Colored Icons)"
-msgstr ""
+msgstr "Проста (Кольорові значки)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:307
 msgctxt "LauncherPage|"
 msgid "Custom"
-msgstr ""
+msgstr "Власний"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:328
 msgctxt "LauncherPage|"
 msgid "Colors"
-msgstr ""
+msgstr "Кольори"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:355
 msgctxt "LauncherPage|"
 msgid "Console"
-msgstr ""
+msgstr "Консоль"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:361
 msgctxt "LauncherPage|"
 msgid "Console Settings"
-msgstr ""
+msgstr "Налаштування консолі"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:367
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
-msgstr ""
+msgstr "Показувати консоль під час гри?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:374
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
-msgstr ""
+msgstr "Автоматично закривати консоль при виході із гри?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:381
 msgctxt "LauncherPage|"
 msgid "Show console when the game crashes?"
-msgstr ""
+msgstr "Показувати вікно консолі після аварійного завершення гри?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:391
 msgctxt "LauncherPage|"
 msgid "History limit"
-msgstr ""
+msgstr "Ліміт журналу"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:397
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "Припинити запис журналу при його переповненні"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:410
 msgctxt "LauncherPage|"
 msgid " lines"
-msgstr ""
+msgstr " рядків"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:438
 msgctxt "LauncherPage|"
 msgid "Console font"
-msgstr ""
+msgstr "Шрифт консолі"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:490
 msgctxt "LauncherPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "Аналітика"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:496
 msgctxt "LauncherPage|"
 msgid "Analytics Settings"
-msgstr ""
+msgstr "Налаштування аналітики"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:502
 msgctxt "LauncherPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "Надсилати анонімну статистику використання?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:516
 msgctxt "LauncherPage|"
@@ -2168,47 +2171,57 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>Програма відправляє анонімну статистику використання при кожному старті.</p><p>Збираються наступні дані:</p>\n"
+"<ul>\n"
+"<li>Версія програми.</li>\n"
+"<li>Ім'я, версія та архітектура операційної системи.</li>\n"
+"<li>Архітектура CPU (архітектура ядра для linux).</li>\n"
+"<li>Розмір пам'яті системи.</li>\n"
+"<li>Версія, архітектура і налаштування пам'яті Java.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Тека збірки"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Ви намагаєтеся вказати шлях до теки, яка містить у своєму шляху принаймні один символ '!'. Це може викликати проблеми із Java, і ваші збірки (ймовірно) не запустяться!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Ви дійсно хочете використовувати цей шлях? При виборі \"Ні\", ви закриєте це вікно і не зміните шлях вашої збірки."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
-msgstr ""
+msgstr "Тека значків"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:149
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "Тека модифікацій"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Що-небудь/ERROR] Жахлива помилка!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Тест/INFO] Нешкідливе повідомлення..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Що-небудь/WARN] Не таке ж і жахливе попередження."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2389,7 +2402,7 @@ msgstr "Збірка на основі попередніх версій."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Вимагається оновлення</h1><p>MultiMC тепер підтримує старі версії Minecraft і всі необхідні можливості в новому (OneSix) форматі збірок. Внаслідок цього старий (Legacy) формат був повністю виключений і старі збірки потребують оновлення.</p><p>Оновлення створить нову збірку із таким самим вмістом, що і раніше, але в новому форматі. Стару збірку не буде порушено, на випадок якщо щось піде не так.</p><p>Будь ласка, при появі проблем повідомте про них на <a href=\"https://github.com/MultiMC/Launcher/issues\">сторінці проблем GitHub</a>.</p><p>Також у нас є <a href=\"https://discord.gg/GtPmv93\">канал в Discord</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2721,7 +2734,7 @@ msgstr "Дискорд"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "Відкрити голосовий чат %1 в discord."
 
 #: src/launcher/ui/MainWindow.cpp:360
 msgctxt "MainWindow|"
@@ -2738,13 +2751,13 @@ msgstr ""
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
-msgstr ""
+msgstr "Про %1"
 
 #: src/launcher/ui/MainWindow.cpp:371
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr ""
+msgstr "Переглянути інформацію про %1."
 
 #: src/launcher/ui/MainWindow.cpp:376 src/launcher/ui/MainWindow.cpp:661
 msgctxt "MainWindow|"
@@ -2755,7 +2768,7 @@ msgstr "Допомога"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
-msgstr ""
+msgstr "Отримати допомогу з %1 або Minecraft."
 
 #: src/launcher/ui/MainWindow.cpp:393
 msgctxt "MainWindow|"
@@ -2766,19 +2779,19 @@ msgstr "Оновити"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
-msgstr ""
+msgstr "Перевірити наявність нових оновлень для %1."
 
 #: src/launcher/ui/MainWindow.cpp:404
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
-msgstr ""
+msgstr "Підтримка %1"
 
 #: src/launcher/ui/MainWindow.cpp:405
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
-msgstr ""
+msgstr "Відкрити сторінку Patreon %1."
 
 #: src/launcher/ui/MainWindow.cpp:413
 msgctxt "MainWindow|"
@@ -2809,7 +2822,7 @@ msgstr "Більше новин..."
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
-msgstr ""
+msgstr "Відкрити блог розробників, щоб прочитати більше новин про %1."
 
 #: src/launcher/ui/MainWindow.cpp:471
 msgctxt "MainWindow|"
@@ -2955,7 +2968,7 @@ msgstr "Копіювати обрану збірку."
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr ""
+msgstr "%1, версія %2"
 
 #: src/launcher/ui/MainWindow.cpp:643
 #, qt-format
@@ -3040,7 +3053,7 @@ msgstr "Назва"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Перевірка можливості міграції."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
@@ -3158,12 +3171,12 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Отримання профілю Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "Обліковий запис не має профілю Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:61
 msgctxt "MinecraftProfileStep|"
@@ -3346,12 +3359,12 @@ msgstr "Завантажити мод"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:150
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
-msgstr ""
+msgstr "Копіювання файлів пакунку модифікацій"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:158
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
-msgstr ""
+msgstr "Не вдалося скопіювати файли"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:163
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3690,7 +3703,7 @@ msgstr "Назва"
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (використовується)"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
@@ -3706,7 +3719,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "Ім'я закоротке - довжина імені має становити від 3 до 16 символів."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
@@ -3734,7 +3747,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "Сервер повернув наступну помилку:"
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3754,7 +3767,7 @@ msgstr "Пропустити"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Цей параметр застосовується лише до запускача. Minecraft не приймає параметри проксі-сервера."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3809,7 +3822,7 @@ msgstr "Пароль:"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "Примітка: Ім'я користувача і пароль проксі-сервера зберігаються у відкритому вигляді всередині файлу конфігурації програми!"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3863,7 +3876,7 @@ msgstr "Меценати"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:37
 msgctxt "QObject|About Credits"
 msgid "Developers"
-msgstr ""
+msgstr "Розробники"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:45
 msgctxt "QObject|About Credits"
@@ -3874,7 +3887,7 @@ msgstr "Дякуємо"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (використовується)"
 
 #: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
 msgctxt "QObject|"
@@ -3950,7 +3963,7 @@ msgstr "в processArguments задано невідоме значення '%1"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "Значення «minimumLauncherVersion» цієї версії (%1) вище, ніж підтримується у %3 (%2). Це може працювати некоректно!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4079,19 +4092,19 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1 хв %2 сек"
 
 #: src/launcher/MMCTime.cpp:18
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1 год %2 хв"
 
 #: src/launcher/MMCTime.cpp:20
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1 д %2 год %3 хв"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4215,17 +4228,17 @@ msgstr ""
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:12
 msgctxt "ResourcePackFolderModel|"
 msgid "The name of the resource pack."
-msgstr ""
+msgstr "Назва пакунка ресурсів."
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:14
 msgctxt "ResourcePackFolderModel|"
 msgid "The version of the resource pack."
-msgstr ""
+msgstr "Версія пакунка ресурсів."
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:16
 msgctxt "ResourcePackFolderModel|"
 msgid "The date and time this resource pack was last changed (or added)."
-msgstr ""
+msgstr "Дата і час останньої зміни (або додавання) цього пакунка ресурсів."
 
 #: src/launcher/ui/pages/instance/ResourcePackPage.h:12
 msgctxt "ResourcePackPage|"
@@ -4421,7 +4434,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
 msgid "Shader packs"
-msgstr ""
+msgstr "Пакунки шейдерів"
 
 #: src/launcher/minecraft/services/SkinDelete.cpp:20
 msgctxt "SkinDelete|"
@@ -4675,17 +4688,17 @@ msgstr ""
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:12
 msgctxt "TexturePackFolderModel|"
 msgid "The name of the texture pack."
-msgstr ""
+msgstr "Назва пакунка текстур."
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:14
 msgctxt "TexturePackFolderModel|"
 msgid "The version of the texture pack."
-msgstr ""
+msgstr "Версія пакунка текстур."
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr ""
+msgstr "Дата і час останньої зміни (або додавання) цього пакунка текстур."
 
 #: src/launcher/ui/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -4826,17 +4839,17 @@ msgstr "Ваніла"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:19
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr ""
+msgstr "Minecraft 1.18 Pre Release 2 та вище потребує Java версії 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:28
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr ""
+msgstr "Minecraft 21w19a та вище потребує Java версії 16"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:37
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a and above require the use of Java 8"
-msgstr ""
+msgstr "Minecraft 17w13a та вище потребує Java версії 8"
 
 #: src/launcher/ui/widgets/VersionListView.cpp:26
 msgctxt "VersionListView|"
@@ -5539,7 +5552,7 @@ msgstr ""
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr ""
+msgstr "Отримання профілю Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
@@ -5642,7 +5655,7 @@ msgstr ""
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "Помилка автентифікації Mojang користувача."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
