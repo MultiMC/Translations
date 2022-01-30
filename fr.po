@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2022-01-08 19:06\n"
+"PO-Revision-Date: 2022-01-21 12:20\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -762,7 +762,7 @@ msgstr "Détermination de la propriété du jeu."
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "Droits obtenus"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
@@ -2171,7 +2171,17 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>Le launcher envoi des statistiques d'utilisation anonyme a chaque démarrage de l'application.</p><p>Les statistiques suivant sont collectées:</p>\n"
+"<ul>\n"
+"<li>Version du Launcher</li>\n"
+"<li>Le nom et version et l'artitecture du système d'exploitation.</li>\n"
+"<li>l'artitecture du CPU (L'artitecture du kernel sur Linux).</li>\n"
+"<li>la quantité de la mémoire système.</li>\n"
+"<li>La version Java, artitecture et les réglages de la mémoire.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
@@ -2392,7 +2402,7 @@ msgstr "Instance d'anciennes versions."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Mise à jour nécessaire</h1><p>MultiMC maintenant supports les anciens versions de minecraft et tous les fonctionnalités nécessaires dans le nouveau (OneSix) format d'instance. Par conséquant, L'ancien (Legacy) format a été entièrement désactivé et tous les anciens instances doivent être mise à jour.</p><p> La mise à jour vas créés une nouvelle instance avec le même contenu de l'ancien, dans le nouveau format. L'instance original va rester inchangé, si quelque chose fonctionne incorrectement durant le processus.</p><p>Veuillez signaler n'importe quel problème sur notre <a href=\"https://github.com/MultiMC/Launcher/issues\"> page de problème github</a>.</p><p> il y'a aussi une <a href=\"https://discord.gg/GtPmv93\"> chaîne Discord pour tester ici</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -3049,7 +3059,7 @@ msgstr "Vérification de l'éligibilité à la migration."
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "Reçu les drapeau de migration"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:701
 msgctxt "MinecraftInstance|"
@@ -3177,12 +3187,12 @@ msgstr "Échec de la récupération du profil Minecraft Java."
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "La réponse du profil Java Minecraft n'a pas pu être analysée"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:81
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "L'acquisition du profile Minecraft Java a réussi."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3700,46 +3710,47 @@ msgstr "%1 (en cours d'utilisation)"
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "Choisir le nom d'utilisateur Minecraft"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "Plus que une étape pour pouvoir jouer à Minecraft avec ce compte.\n\n"
+"Réfléchissez et choisissez votre nom d'utilisateur :"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "Ce nom d'utilisateur est trop court - il doit être entre 3 et 16 caractères."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "Le nom %1 est déjà associé à un compte Minecraft."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
-msgstr ""
+msgstr "Le nom %1 est interdit. Veuillez en choisir un autre."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:170
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr ""
+msgstr "Statut du nom de profil non géré : %1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
-msgstr ""
+msgstr "Impossible de vérifier la disponibilité de ce nom d'utilisateur. Veuillez réessayer plus tard."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "Le serveur a retourné l'erreur suivante :"
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3759,7 +3770,7 @@ msgstr "Passer"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Cala ne s'applique qu'aux launcher. Minecraft n'accept pad les paramètres de proxy."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3814,7 +3825,7 @@ msgstr "Mot de passe :"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "Remarque: le nom d'utilisateur et le mot de passe du proxy sont stockés en texte brut à l'intérieur du fichier de configuration du launcher!"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3868,7 +3879,7 @@ msgstr "Patrons"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:37
 msgctxt "QObject|About Credits"
 msgid "Developers"
-msgstr ""
+msgstr "Développeurs"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:45
 msgctxt "QObject|About Credits"
@@ -4039,7 +4050,7 @@ msgstr "Impossible de traiter le fichier de la version %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
-msgstr ""
+msgstr "Aucun profil (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4078,7 +4089,9 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "La restauration a également échoué.\n"
+"Vous devez réparer %1 manuellement.\n"
+"Veuillez nous indiquer pourquoi et comment cela s'est produit."
 
 #: src/launcher/MMCTime.cpp:14
 #, qt-format
@@ -5477,13 +5490,13 @@ msgstr "Entrez un nouveau nom pour le monde."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "Récupération de l'autorisation d'accéder aux services %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %1."
-msgstr ""
+msgstr "Impossible d'obtenir l'autorisation pour les services de %1. Erreur %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
@@ -5647,10 +5660,10 @@ msgstr "Connecté avec Mojang"
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "L'authentification de l'utilisateur Mojang a échouée."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
-msgstr ""
+msgstr "L'authentification de l'utilisateur Mojang s'est terminée avec une erreur d'internet."
 

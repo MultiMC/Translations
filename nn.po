@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Norwegian Nynorsk\n"
 "Language: nn_NO\n"
-"PO-Revision-Date: 2022-01-12 20:59\n"
+"PO-Revision-Date: 2022-01-29 11:55\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -96,7 +96,7 @@ msgstr "Lastar ned modd"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unsupported download type: %1"
-msgstr "Ustøtta nedlastingstype: %1"
+msgstr "Nedlastingstypen er ikkje støtta: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:514
 #, qt-format
@@ -262,7 +262,7 @@ msgstr "Borte"
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
 msgid "N/A"
-msgstr "I/T"
+msgstr "–"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Can Migrate?"
@@ -473,7 +473,7 @@ msgstr "Det blir samla inn anonym statistikk ved bruk av programmet."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>MultiMC sender anonym bruksstatistikk kvar gong den starter opp. Dette hjelper oss med å veta kva plattformar og problem me bør fokusera på.</p><p>Dataa vert behandla av Google Analytics. Sjå <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">artikkelen deira</a> for meir informasjon.</p><p>De følgjande dataa vert samla inn:</p><ul><li>Ein tilfeldig ID som er unik til installasjonen.<br />Den er lagra i innstillingsfila.</li><li>Anonym (delvis) IP-adresse.</li><li>Programversjon.</li><li>Namn, versjon og arkitektur til operativsystemet.</li><li>CPU-arkitektur (kjerne-arkitektur på Linux).</li><li>Kor mykje minne datamaskinen har.</li><li>Versjon, arkitektur og minneval til Java.</li></ul><p>Viss vi endrar på dataa me samler inn, vil vi visa denne sida igjen.</p></body></html>"
+msgstr "<html><body><p>MultiMC sender anonym bruksstatistikk kvar gong den startar opp. Dette hjelper oss med å veta kva plattformar og problem me bør fokusera på.</p><p>Dataa vert behandla av Google Analytics. Sjå <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">artikkelen deira</a> for meir informasjon.</p><p>De følgjande dataa vert samla inn:</p><ul><li>Ein tilfeldig ID som er unik til installasjonen.<br />Den er lagra i innstillingsfila.</li><li>Anonym (delvis) IP-adresse.</li><li>Programversjon.</li><li>Namn, versjon og arkitektur til operativsystemet.</li><li>CPU-arkitektur (kjerne-arkitektur på Linux).</li><li>Kor mykje minne datamaskinen har.</li><li>Versjon, arkitektur og minneval til Java.</li></ul><p>Viss vi endrar på dataa me samler inn, vil vi visa denne sida igjen.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -494,7 +494,7 @@ msgstr "Oppdaterer ressursindeksen …"
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
-msgstr "Ressursindeks for %1"
+msgstr "Ressursindeks for «%1»"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:70
 msgctxt "AssetUpdateTask|"
@@ -641,7 +641,7 @@ msgstr "Motstridande krav vart oppdaga under avhengnadssjekken."
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:545
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
-msgstr "Førekomst har motstridande avhengnadar."
+msgstr "Førekomsten har motstridande avhengnadar."
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:552
 msgctxt "ComponentUpdateTask|"
@@ -731,7 +731,7 @@ msgstr "Fann ikkje wrapper-kommandoen «%1»."
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr "Klarte ikkje å starte Minecraft."
+msgstr "Klarte ikkje å starta Minecraft."
 
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:100
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:110
@@ -1428,12 +1428,12 @@ msgstr "Største mengde minne som Minecraft kan bruka."
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:138
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Mengde minne som Minecraft starter med."
+msgstr "Kor mykje minne som Minecraft startar med"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:160
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "Mengde minne for å lagra innlasta Java-klassar."
+msgstr "Kor mykje minne som kan brukast for å lagra innlasta Java-klassar"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
@@ -1483,12 +1483,12 @@ msgstr "Val for konsoll"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:321
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
-msgstr "Opna konsollen når spelet starter"
+msgstr "Opna konsollen når spelet startar"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:328
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
-msgstr "Lukk konsollen når spelet avsluttes"
+msgstr "Lukk konsollen når spelet avsluttas"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:335
 msgctxt "InstanceSettingsPage|"
@@ -1543,7 +1543,7 @@ msgstr "Ta opp tid brukt på å spela førekomsten"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
 msgid "Set a server to join on launch"
-msgstr "Vel ein tenar til å kopla til når førekomsten starter"
+msgstr "Vel ein tenar til å kopla til når førekomsten startar"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:479
 msgctxt "InstanceSettingsPage|"
@@ -1646,7 +1646,7 @@ msgstr "Minne"
 #: src/launcher/ui/pages/global/JavaPage.ui:51
 msgctxt "JavaPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr "Største mengde minne som Minecraft kan bruka."
+msgstr "Største mengde minne som Minecraft kan bruka"
 
 #: src/launcher/ui/pages/global/JavaPage.ui:73
 msgctxt "JavaPage|"
@@ -1661,12 +1661,12 @@ msgstr "Maksimum minneallokering:"
 #: src/launcher/ui/pages/global/JavaPage.ui:87
 msgctxt "JavaPage|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Mengde minne som Minecraft starter med."
+msgstr "Kor mykje minne som Minecraft startar med"
 
 #: src/launcher/ui/pages/global/JavaPage.ui:116
 msgctxt "JavaPage|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "Mengde minne for å lagra innlasta Java-klassar."
+msgstr "Kor mykje minne som kan brukast for å lagra innlasta Java-klassar"
 
 #: src/launcher/ui/pages/global/JavaPage.ui:141
 msgctxt "JavaPage|"
@@ -1738,7 +1738,7 @@ msgstr "Minne"
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:426
 msgctxt "JavaSettingsWidget|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr "Største mengde minne som Minecraft kan bruka."
+msgstr "Største mengde minne som Minecraft kan bruka"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:427
 msgctxt "JavaSettingsWidget|"
@@ -1753,12 +1753,12 @@ msgstr "Maksimum minneallokering:"
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:429
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory Minecraft is started with."
-msgstr "Mengde minne som Minecraft starter med."
+msgstr "Kor mykje minne som Minecraft startar med"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:430
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory available to store loaded Java classes."
-msgstr "Mengde minne for å lagra innlasta Java-klassar."
+msgstr "Kor mykje minne som kan brukast for å lagra innlasta Java-klassar"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:431
 msgctxt "JavaSettingsWidget|"
@@ -1882,7 +1882,7 @@ msgstr "Kontoen er borte"
 #: src/launcher/LaunchController.cpp:230
 msgctxt "LaunchController|"
 msgid "Failed to launch."
-msgstr "Fekk ikkje til å starte."
+msgstr "Klarte ikkje starta."
 
 #: src/launcher/LaunchController.cpp:240 src/launcher/LaunchController.cpp:312
 msgctxt "LaunchController|"
@@ -1910,7 +1910,7 @@ msgstr "Klarte ikkje starta profiler: %1"
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
-msgstr "Spelet starter ikkje før du trykker «Start». Dette er eit godt tidspunkt til å setja opp profileren, sidan profiler-tenaren køyrer no.\n\n"
+msgstr "Spelet vil ikkje starta før du trykkjer på «Start». Dette er eit godt tidspunkt til å setja opp profileren, sidan profiler-tenaren køyrer no.\n\n"
 "%1"
 
 #: src/launcher/LaunchController.cpp:324
@@ -1927,7 +1927,7 @@ msgstr "Start"
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
-msgstr "Klarte ikkje starte profilaren: %1"
+msgstr "Klarte ikkje starta profilaren: %1"
 
 #: src/launcher/LaunchController.cpp:335
 msgctxt "LaunchController|"
@@ -2111,12 +2111,12 @@ msgstr "Val for konsoll"
 #: src/launcher/ui/pages/global/LauncherPage.ui:367
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
-msgstr "Opna konsollen når spelet starter"
+msgstr "Opna konsollen når spelet startar"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:374
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
-msgstr "Lukk konsollen når spelet avsluttes"
+msgstr "Lukk konsollen når spelet avsluttas"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:381
 msgctxt "LauncherPage|"
@@ -2173,12 +2173,12 @@ msgid "<html><head/>\n"
 "</body></html>"
 msgstr "<html><head/>\n"
 "<body>\n"
-"<p>MultiMC vil sende anonym bruksstatistikk kvar gong den starter.</p><p>Dei følgjande dataa vart samla inn:</p>\n"
+"<p>MultiMC vil senda anonym bruksstatistikk kvar gong den startar.</p><p>Dei følgjande dataa vart samla inn:</p>\n"
 "<ul>\n"
 "<li>MCEdit-versjon.</li>\n"
 "<li>Namn, versjon and arkitektur på operativsystemet.</li>\n"
 "<li>CPU-arkitektur (kjernearkitektur på Linux).</li>\n"
-"<li>Mengde minne.</li>\n"
+"<li>Kor mykje minne datamaskinen har.</li>\n"
 "<li>Versjonen, arkitekturen og minnevala til Java.</li>\n"
 "</ul>\n"
 "</body></html>"
@@ -4099,19 +4099,19 @@ msgstr "Klarte ikkje gjenoppretta tidlegare versjon.\n"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr "%1:%2"
+msgstr "%1m %2s"
 
 #: src/launcher/MMCTime.cpp:18
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr "%1 t %2 m"
+msgstr "%1t %2m"
 
 #: src/launcher/MMCTime.cpp:20
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr "%1 dag og %2:%3"
+msgstr "%1d %2t %3m"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4120,7 +4120,7 @@ msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"
 "This message will be displayed until you remove them from the JVM arguments."
 msgstr "Du prøver å endra minnevala til JVM manuelt (ved å bruka «-XX:PermSize», «-XX-MaxHeapSize», «-XX:InitialHeapSize», «-Xmx» eller «-Xms»).\n"
 "Det finst eigne val for dette i innstillingane (Innstillingar → Java → Minne).\n"
-"Denne åtvaringa vil ikkje forsvinna før du fjerner dei frå JVM-argumenta."
+"Denne åtvaringa vil ikkje forsvinna før du fjernar desse JVM-argumenta."
 
 #: src/launcher/JavaCommon.cpp:15
 msgctxt "QObject|"
@@ -4757,7 +4757,7 @@ msgstr "Klarte ikkje oppdatera førekomst fordi: %1\n\n"
 #: src/launcher/ui/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
 msgid "MultiMC Update"
-msgstr "Oppdatering til MultiMC"
+msgstr "Oppdater MultiMC"
 
 #: src/launcher/ui/dialogs/UpdateDialog.ui:61
 msgctxt "UpdateDialog|"
@@ -4779,7 +4779,7 @@ msgstr "Ein ny oppdatering for %1 er tilgjengeleg."
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "No %1 updates found. You are running the latest version."
-msgstr "Ingen %1-oppdateringar vart funne. Du brukar den nyaste versjonen."
+msgstr "Ingen oppdateringar for «%1» vart funne. Du brukar den nyaste versjonen."
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:23
 msgctxt "UpdateDialog|"
