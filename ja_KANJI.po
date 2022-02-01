@@ -13,12 +13,12 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese (kanji)\n"
 "Language: jpn_KANJI\n"
-"PO-Revision-Date: 2022-02-01 01:05\n"
+"PO-Revision-Date: 2022-02-01 10:48\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "パック マニフェストを解析できませんでした：\n"
+msgstr "整合包の Mod 声明文件を解析できませんでした: \n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:85
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:166
@@ -43,12 +43,12 @@ msgstr "不明なmodの種類: %1"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr "%1ローダーのバージョンを見つけられませんでした"
+msgstr "Mod 装載器 %1 の指定した版次が見つかりませんでした"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:212
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "Modパックのローダーのバージョンが設定されていません"
+msgstr "Mod 装載器の版次がまだ設定していません!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:316
 #, qt-format
@@ -127,7 +127,7 @@ msgstr "ライブラリコンポーネントの作成に失敗しました"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:739
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr "不明なローダータイプです: "
+msgstr "不明な Mod 装載器種類です: "
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:753
 msgctxt "ATLauncher::PackInstallTask|"
@@ -182,7 +182,7 @@ msgstr "派生・再配布"
 #: src/launcher/ui/dialogs/AboutDialog.ui:278
 msgctxt "AboutDialog|"
 msgid "About Qt"
-msgstr "Qtについて"
+msgstr "Qt について"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:298
 msgctxt "AboutDialog|"
@@ -230,12 +230,12 @@ msgstr "未確認"
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr "オフライン"
+msgstr "脱機"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:283
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr "オンライン"
+msgstr "登入済"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
@@ -275,7 +275,7 @@ msgstr "いいえ"
 #: src/launcher/minecraft/auth/AccountList.cpp:346
 msgctxt "AccountList|"
 msgid "Account"
-msgstr "アカウント"
+msgstr "帳戸情報"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:348
 msgctxt "AccountList|"
@@ -295,37 +295,37 @@ msgstr "移行できますか?"
 #: src/launcher/minecraft/auth/AccountList.cpp:354
 msgctxt "AccountList|"
 msgid "Profile"
-msgstr "プロフィール"
+msgstr "Minecraft ID名"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:363
 msgctxt "AccountList|"
 msgid "User name of the account."
-msgstr "アカウントのユーザー名。"
+msgstr "帳戸の使用者名。"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:365
 msgctxt "AccountList|"
 msgid "Type of the account - Mojang or MSA."
-msgstr "アカウントの種類-Mojangまたはマイクロソフト。"
+msgstr "帳戸種類 - Mojang または Microsoft。"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:367
 msgctxt "AccountList|"
 msgid "Current status of the account."
-msgstr "現在のアカウントの状態。"
+msgstr "現在の帳戸状態。"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
 msgid "Can this account migrate to Microsoft account?"
-msgstr "このアカウントはマイクロソフトに移行できますか？"
+msgstr "この帳戸は Microsoft に移行できますか?"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:371
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
-msgstr "アカウントに関連付けられている Minecraft プロファイルの名前です。"
+msgstr "帳戸に関連付けられている Minecraft ID 名です。"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
 msgid "Add Mojang"
-msgstr "Mojangアカウントを追加"
+msgstr "Mojang 帳戸を追加"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
@@ -345,22 +345,22 @@ msgstr "既定を解除"
 #: src/launcher/ui/pages/global/AccountListPage.ui:90
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
-msgstr "スキンをアップロード"
+msgstr "外見相(見た目)の設定"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:95
 msgctxt "AccountListPage|"
 msgid "Delete Skin"
-msgstr "スキンを削除"
+msgstr "外見相の設定解除"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:98
 msgctxt "AccountListPage|"
 msgid "Delete the currently active skin and go back to the default one"
-msgstr "現在使用中のスキンを削除し、デフォルトのスキンに戻す"
+msgstr "現在使用中の外見相設定を削除し、既定値に戻す"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:103
 msgctxt "AccountListPage|"
 msgid "Add Microsoft"
-msgstr "Microsoftアカウントを追加"
+msgstr "Microsoft 帳戸を追加"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:108
 msgctxt "AccountListPage|"
@@ -370,93 +370,93 @@ msgstr "再読込"
 #: src/launcher/ui/pages/global/AccountListPage.ui:111
 msgctxt "AccountListPage|"
 msgid "Refresh the account tokens"
-msgstr "アカウントのトークンを更新"
+msgstr "帳戸の認証情報を更新する"
 
 #: src/launcher/ui/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
-msgstr "アカウント"
+msgstr "帳戸管理"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:46
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "ようこそ！\n"
-"初めて使う場合は、「追加」ボタンを押してあなたのMojangアカウントかMinecraftアカウントを追加して下さい。"
+msgstr "ようこそ!\n"
+"初めて使う場合は「追加」押鈕を押して，あなたの Mojang 帳戸か Minecraft 帳戸を追加して下さい。"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:87
 msgctxt "AccountListPage|"
 msgid "Context menu"
-msgstr "コンテキストメニュー"
+msgstr "制御選単"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:118
 #: src/launcher/ui/pages/global/AccountListPage.cpp:146
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr "Mojangのアカウントを使うにはメールアドレスとパスワードを入力してください"
+msgstr "Mojang の帳戸を追加するには，あなたの電郵番号と認証番号を入力してください。"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:135
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
-msgstr "マイクロソフトアカウントは利用できません"
+msgstr "Microsoft 帳戸は利用できません"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:136
 msgctxt "AccountListPage|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
-msgstr "Microsoftアカウントは最新版のMultiMCかつ、macOS 10.13以降でのみ使用できます。\n\n"
+msgstr "Microsoft 帳戸は，macOS 10.13以降と最新版のMultiMCでのみ使用できます。\n\n"
 "macOSとMultiMCを更新してください。"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
-msgstr "スキン削除"
+msgstr "外見相の削除"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
-msgstr "現在のスキンの削除に失敗しました"
+msgstr "現在の外見相を削除できませんでした!"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
 msgid "Sending request to auth servers..."
-msgstr "認証サーバーにリクエスト中…"
+msgstr "伺伝機に認証要求を送信しています..."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:43
 msgctxt "AccountTask|"
 msgid "Authentication task succeeded."
-msgstr "認証に成功しました。"
+msgstr "認証処理が成功しました。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:45
 msgctxt "AccountTask|"
 msgid "Failed to contact the authentication server."
-msgstr "認証サーバーへの接続に失敗しました。"
+msgstr "認証伺伝機に接続できませんでした。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr "認証中にエラーが発生しました。"
+msgstr "認証中に錯誤が発生しました。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr "認証に失敗しました。セッションの有効期限が切れています。"
+msgstr "認証に失敗しました。会話有効期限切れです。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account no longer exists."
-msgstr "認証に失敗しました。このアカウントは存在しません。"
+msgstr "認証に失敗しました。この帳戸は存在しません。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:53
 msgctxt "AccountTask|"
 msgid "..."
-msgstr "…"
+msgstr "..."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:100
 #, qt-format
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
-msgstr ""
+msgstr "不明な帳戸作動状態: %1"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -466,7 +466,7 @@ msgstr "統計情報"
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
 msgid "We track some anonymous statistics about users."
-msgstr "私たちはユーザーについての匿名の統計情報を収集します"
+msgstr "私たちは使用者についての匿名統計情報を収集します"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
@@ -476,7 +476,7 @@ msgstr "<html><body><p>MultiMCは起動毎に利用状況に関する匿名の�
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr "統計情報を有効化"
+msgstr "統計情報収集を有効化"
 
 #: src/launcher/Application.cpp:715
 msgctxt "Application|"
@@ -486,13 +486,13 @@ msgstr "設定"
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
-msgstr "assetsインデックスを更新しています..."
+msgstr "資源文件(assets)を更新しています..."
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:27
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
-msgstr "%1 のassetインデックス"
+msgstr "%1 の資源文件(asset)の索引"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:70
 msgctxt "AssetUpdateTask|"
@@ -502,7 +502,7 @@ msgstr "assetsインデックスの読み込みに失敗しました"
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:76
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr "Mojangからassetsファイルを取得しています..."
+msgstr "Mojang から資源文件(assets)を取得しています..."
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:90
 #, qt-format
@@ -568,12 +568,12 @@ msgstr "警告：これはまだ開発中の機能です。インポートした
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:59
 msgctxt "AtlPage|"
 msgid "Version selected:"
-msgstr "バージョン:"
+msgstr "選択された版次:"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:74
 msgctxt "AtlPage|"
 msgid "Search and filter ..."
-msgstr "検索..."
+msgstr "検索と濾過..."
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:141
 #, qt-format

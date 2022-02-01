@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2021-12-09 17:21\n"
+"PO-Revision-Date: 2022-02-01 10:31\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -25,13 +25,13 @@ msgstr "Paket manifesti anlaşılamadı:\n"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr "%1 için yerel meta veri dizinine ulaşılamadı"
+msgstr "%1 için yerel üst veri dizinine ulaşılamadı"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:91
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "'%1' v%2 için yerel meta veri dizinine ulaşılamadı"
+msgstr "'%1' v%2 için yerel üst veri dizinine ulaşılamadı"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:153
 #, qt-format
@@ -232,12 +232,12 @@ msgstr ""
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr "Çevrimdışı"
+msgstr "Çevrim dışı"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:283
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr "Çevrimiçi"
+msgstr "Çevrim içi"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
@@ -383,7 +383,7 @@ msgstr "Hesaplar"
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "Hoşgeldiniz!\n"
+msgstr "Hoş geldiniz!\n"
 "Burada yeniyseniz, \"Ekle\" düğmesine basarak Mojang veya Minecraft hesabınızı ekleyebilirsiniz."
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:87
@@ -483,7 +483,7 @@ msgstr "İstatistikleri Etkinleştir"
 #: src/launcher/Application.cpp:715
 msgctxt "Application|"
 msgid "Settings"
-msgstr ""
+msgstr "Ayarlar"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
@@ -601,17 +601,17 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "Tüm kimlik doğrulama adımları tamamlandı"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
 msgid "Initializing"
-msgstr ""
+msgstr "Başlatılıyor"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
 msgid "Working..."
-msgstr ""
+msgstr "Üzerinde Çalışılıyor..."
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -925,7 +925,7 @@ msgstr "FML kütüphaneleri denetleniyor..."
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr ""
+msgstr "FML kütüphaneleri indiriliyor..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
@@ -1104,12 +1104,12 @@ msgstr "Tanımsız"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr ""
+msgstr "Cilt alınıyor."
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr ""
+msgstr "Cilt alındı"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1720,7 +1720,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "Bir Java sürümü seçmediniz veya çalışmayan bir şey seçtiniz.\n"
+"%1, Minecraft'ı açamayacak.\n"
+"Herhangi bir Java olmadan devam etmek ister misiniz?\n\n"
+"Daha sonra, Java sürümünü ayarlardan değiştirebilirsiniz.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1793,7 +1796,7 @@ msgstr "Dil"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr ""
+msgstr "%1'de kullanmak istediğiniz dili seçin"
 
 #: src/launcher/LaunchController.cpp:34
 msgctxt "LaunchController|"
@@ -1858,12 +1861,12 @@ msgstr "Çevrım Dışı Oyna"
 #: src/launcher/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "Hesabın süresi geçmiş ve yeniden elle giriş yapılması gerekiyor."
 
 #: src/launcher/LaunchController.cpp:208
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr ""
+msgstr "Hesap yenilemesi başarısız"
 
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
@@ -1955,18 +1958,18 @@ msgstr "MultiMC, oyunun sistem kaydınız izlemeyi durdurdu çünkü sistem kayd
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "Mojang servislerine erişiliyor."
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr ""
+msgstr "Minecraft erişim belirteci alma başarısız: %1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "Minecraft erişim belirteci yanıtı ayrıştırılamadı."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
@@ -2016,12 +2019,12 @@ msgstr "&İkonlar:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:163
 msgctxt "LauncherPage|"
 msgid "Move the data to new location (will restart the launcher)"
-msgstr ""
+msgstr "Veriyi yeni bir konuma taşı (başlatıcı, yeniden başlatılacak)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:184
 msgctxt "LauncherPage|"
 msgid "User Interface"
-msgstr ""
+msgstr "Kullanıcı Arabirimi"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:190
 msgctxt "LauncherPage|"
@@ -2031,7 +2034,7 @@ msgstr "Başlatıcı bildirimleri"
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "Reset hidden notifications"
-msgstr ""
+msgstr "Gizli bildirimleri sıfırla"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
@@ -2176,12 +2179,12 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Dizin yolunda en az bir \"!\" işareti içeren bir profil klasörü belirlemeye çalışıyorsunuz. Java, bunun gibi durumlarda sorun çıkarmasıyla bilinir; eğer durum buysa profiliniz (muhtemelen) başlamayacak!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Bu dizin yolunu kullanmak istediğinizden emin misiniz? \"Hayır\"ı seçmek, bu uyarıyı kapatacak ve profil dizin yolunu değiştirmeyecek."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
@@ -2201,12 +2204,12 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Zararsız bir mesaj..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Something/WARN] Çok da korkunç olmayan bir hata."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2598,32 +2601,32 @@ msgstr "<p>Lütfen %1 bağlantısını bir tarayıcıda açın ve giriş yapmaya
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
 msgid "Logging in with Microsoft account."
-msgstr ""
+msgstr "Microsoft hesabıyla oturum açılıyor."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:86
 msgctxt "MSAStep|"
 msgid "Got "
-msgstr ""
+msgstr "Alındı "
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "Microsoft kullanıcı kimlik doğrulaması bir ağ hatasıyla sona erdi."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "Microsoft kullanıcı doğrulaması başarısız - kullanıcı, artık yok."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "Microsoft kullanıcı kimlik doğrulaması başarısız."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "Microsoft kullanıcı kimlik doğrulaması, tanınmayan bir sonuçla tamamlandı."
 
 #: src/launcher/ui/MainWindow.cpp:256
 msgctxt "MainWindow|"
@@ -3142,7 +3145,7 @@ msgstr "Profillerde oynanan süreyi göster"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "Tüm profillerde harcanan süreyi göster"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
@@ -3157,12 +3160,12 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Minecraft profili alınıyor."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "Hesap, Minecraft profiline sahip değil."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:61
 msgctxt "MinecraftProfileStep|"
@@ -3695,13 +3698,14 @@ msgstr "%1 (kullanımda)"
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "Minecraft adı seçin"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "Bu hesapta Minecraft oynamak için bir adım daha tamamlamalısınız.\n\n"
+"İsminizi özenle seçin:"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
@@ -3712,7 +3716,7 @@ msgstr "Kullanıcı adı çok kısa. 3-16 karakter arasında olmalı."
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "%1 adlı Minecraft profili zaten var."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
@@ -3734,7 +3738,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "Sunucu, şu hatayı döndürdü:"
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3754,7 +3758,7 @@ msgstr "Atla"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Bu, yalnızca başlatıcıya uygulanır. Minecraft, vekil sunucu ayarlarını kabul etmez."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3809,7 +3813,7 @@ msgstr "Parola:"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "Not: Vekil sunucu kullanıcı adı ve parolası, başlatıcının yapılandırma dosyasında düz metin olarak tutulur!"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -5114,7 +5118,7 @@ msgstr "Intermediary Mappings sürüm listesi yüklenemedi veya indirilemedi!"
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr "MultiMC, Minecraft'ı indiremez veya profilleri güncelleyemez. Tabii en az bir hesap ekli değilse.\n"
+msgstr "En az bir hesap ekli olmadıkça MultiMC, Minecraft'ı indiremez veya profilleri güncelleyemez.\n"
 "Lütfen Mojang veya Minecraft hesabınızı ekleyin."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:424
@@ -5548,12 +5552,12 @@ msgstr ""
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr ""
+msgstr "Xbox profili alındı"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
 msgid "Logging in as an Xbox user."
-msgstr ""
+msgstr "Xbox kullanıcısı olarak giriş yapılıyor."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:56
 msgctxt "XboxUserStep|"
