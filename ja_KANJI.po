@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese (kanji)\n"
 "Language: jpn_KANJI\n"
-"PO-Revision-Date: 2022-02-02 08:32\n"
+"PO-Revision-Date: 2022-02-02 08:56\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -707,12 +707,24 @@ msgstr "起動前指令:"
 #: src/launcher/ui/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "内包指令 (Wrapper):"
+msgstr "包装器指令:"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body>\n"
+"<p><u>起動前指令</u>は構成実例の起動の前に実行される。<u>終了後指令</u>は構成実例の終了の後に実行される。</p>\n"
+"<p>どちらの指令も MultiMC の作動場所で実行され，以下の環境変数も使える:</p>\n"
+"<ul>\n"
+"<li>$INST_NAME - 構成実例の名前</li>\n"
+"<li>$INST_ID - 構成実例の識別子 (その文件集の名前)</li>\n"
+"<li>$INST_DIR - 構成実例への絶対経路</li>\n"
+"<li>$INST_MC_DIR - Minecraft への絶対経路</li>\n"
+"<li>$INST_JAVA - 実行に使われる Java の実行可能文件</li>\n"
+"<li>$INST_JAVA_ARGS - 実行に使われる命令行の引数</li>\n"
+"</ul>\n"
+"<p><u>内包指令 (wrapper command)</u>は，追加の包装程式 (wrapper program) を使って，構成実例を起動する (Linux の \"optirun\"のような程式)。</p>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -723,7 +735,7 @@ msgstr "自定指令管理"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "Wrapperのコマンド \"%1\" は見つかりませんでした。"
+msgstr "包装器指令 \"%1\" が見つかりませんでした。"
 
 #. Error message displayed if instance can't start
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -913,27 +925,27 @@ msgstr "選択した文件は実行可能ではないようです"
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr "Matoba Jar '%1' を '%2' に展開できませんでした。"
+msgstr "原生の Jar '%1' を '%2' の展開に失敗しました。"
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:39
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr "FMLライブラリをチェックしています..."
+msgstr "FML 庫を検査中..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr ""
+msgstr "FML 庫を受信中..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "インスタンスにFMLライブラリをコピーしています..."
+msgstr "FML 庫を構成実例に複製中..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:101
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "インスタンス内にFMLライブラリフォルダを作成することができませんでした。"
+msgstr "構成実例の文件集に庫文件集の作成に失敗しました。"
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:106
 #, qt-format
@@ -1411,7 +1423,7 @@ msgstr "テスト"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
-msgstr "メモリ"
+msgstr "実行域を個別指定 (&Y)"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
@@ -1639,7 +1651,7 @@ msgstr "Javaのインストールを検出中..."
 #: src/launcher/ui/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
 msgid "Memory"
-msgstr "メモリ"
+msgstr "実行域を個別指定"
 
 #: src/launcher/ui/pages/global/JavaPage.ui:51
 msgctxt "JavaPage|"
