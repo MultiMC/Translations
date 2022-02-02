@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese (kanji)\n"
 "Language: jpn_KANJI\n"
-"PO-Revision-Date: 2022-02-02 09:07\n"
+"PO-Revision-Date: 2022-02-02 09:16\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -951,7 +951,7 @@ msgstr "構成実例の文件集に庫文件集の作成に失敗しました。
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "失敗: Forge/FMLライブラリのコピー : %1."
+msgstr "Forge/FML 庫の複製に失敗しました: %1。"
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:119
 #, qt-format
@@ -960,7 +960,7 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr "以下のファイルのダウンロードに失敗しました:\n"
+msgstr "以下の文件の受信に失敗しました:\n"
 "%1\n\n"
 "理由: %2\n"
 "もう一度やり直してください。"
@@ -1249,13 +1249,13 @@ msgstr "構成実例の文件集の複製に失敗しました。"
 #: src/launcher/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "インスタンスフォルダーのコピーは中断されました。"
+msgstr "構成実例の文件集の複製は中断されました。"
 
 #: src/launcher/InstanceCreationTask.cpp:16
 #, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "バージョン %1 からインスタンスを作成中"
+msgstr "版次 %1 から構成実例を作成中"
 
 #: src/launcher/InstanceImportTask.cpp:52
 #, qt-format
@@ -1278,24 +1278,24 @@ msgstr "Mod 整合包を展開中"
 #: src/launcher/InstanceImportTask.cpp:96
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr "指定したModPackのzipファイルを開けません。"
+msgstr "指定した Mod 整合包の zip 圧縮文件を開けません。"
 
 #: src/launcher/InstanceImportTask.cpp:129
 #: src/launcher/InstanceImportTask.cpp:193
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr "アーカイブにはModパックが含まれていないようです。"
+msgstr "圧縮包には型識別不能な Mod 整合包が含まれていようです。"
 
 #: src/launcher/InstanceImportTask.cpp:145
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr "Modパックの展開に失敗"
+msgstr "Mod 整合包の展開に失敗しました"
 
 #: src/launcher/InstanceImportTask.cpp:172
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
-msgstr "%1 の権限を修正できませんでした"
+msgstr "%1 の権限の修正に失敗しました"
 
 #: src/launcher/InstanceImportTask.cpp:200
 msgctxt "InstanceImportTask|"
@@ -1305,24 +1305,24 @@ msgstr "構成実例の導入は中断されました。"
 #: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "パック マニフェストが解析できませんでした：\n"
+msgstr "整合包の Mod 声明文件を解析できませんでした:\n"
 
 #: src/launcher/InstanceImportTask.cpp:232
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
-msgstr "上書きフォルダの名前を変更できませんでした:\n"
+msgstr "上書き文件集の名前変更に失敗しました:\n"
 
 #: src/launcher/InstanceImportTask.cpp:238
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr "指定された上書きフォルダ(%1)がありません。modpackは以前から使われていたのでしょうか?"
+msgstr "指定された上書き文件集 (%1) がありません。この Mod 整合包は以前から使われていたのでしょうか?"
 
 #: src/launcher/InstanceImportTask.cpp:259
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr "マニフェストに不明なModローダーがあります: %1"
+msgstr "Mod 声明文件に不明な Mod 装載器があります: %1"
 
 #: src/launcher/InstanceImportTask.cpp:272
 msgctxt "InstanceImportTask|"
