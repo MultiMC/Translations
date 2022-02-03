@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2022-02-03 23:17\n"
+"PO-Revision-Date: 2022-02-03 23:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "Teniamo traccia di alcune informazioni anonime sugli utenti."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>Il launcher invia statistiche di utilizzo anonime ad ogni avvio dell'applicazione. Questi dati ci fanno capire quali problemi risolvere prima.</p><p>I dati sono elaborati dalla pattaforma Google Analytics, leggi il loro <a href=\"https://support.google.com/analytics/answer/6004245?hl=it\">articolo a riguardo</a>.</p><p>Sono raccolti i seguenti dati:</p><ul><li>ID univoco dell'installazione.<br />Risiede nel file di configurazione.</li><li>Indirizzo IP (parziale).</li><li>Versione del launcher.</li><li>Nome, versione e architettura del sistema operativo.</li><li>Architettura del processore (del kernel se su linux).</li><li>Quantità di memoria RAM.</li><li>Versione, architettura e impostazioni di memoria di Java.</li></ul><p>Se le informazioni raccolte cambieranno, vedrai questa pagina nuovamente.</p></body></html>"
+msgstr "<html><body><p>Il launcher invia statistiche di utilizzo anonime ad ogni avvio dell'applicazione. Questi dati ci aiutano a decidere quali problemi risolvere prima.</p><p>I dati sono elaborati dalla pattaforma Google Analytics, leggi il loro <a href=\"https://support.google.com/analytics/answer/6004245?hl=it\">articolo a riguardo</a>.</p><p>Sono raccolti i seguenti dati:</p><ul><li>ID casuale univoco dell'installazione.<br />Risiede nel file di configurazione dell'applicazione.</li><li>Indirizzo IP anonimizzato (parziale).</li><li>Versione del launcher.</li><li>Nome, versione e architettura del sistema operativo.</li><li>Architettura del processore (del kernel se su Linux).</li><li>Quantità di memoria RAM.</li><li>Versione, architettura e impostazioni di memoria di Java.</li></ul><p>Se le informazioni raccolte cambieranno, vedrai questa pagina nuovamente.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -2186,7 +2186,7 @@ msgstr "<html><head/>\n"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr "Cartella dell'Istanza"
+msgstr "Cartella Istanza"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
@@ -2402,7 +2402,7 @@ msgstr "Istanza di versioni precedenti."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr "<html><body><h1>Un aggiornamento è richiesto</h1><p>MultiMC adesso supporta le vecchie versioni di Minecraft e tutte le funzioni richieste nel nuovo formato (OneSix). Di conseguenza, il vecchio formato (Legacy) è stato del tutto disabilitato e le vecchie istanze devono essere aggiornate.</p><p>L'aggiornamento creerà una nuova istanza con lo stesso contenuto di quella corrente, nel nuovo formato. L'istanza originale rimarrà intatta, in caso qualcosa andasse storto durante il processo.</p><p>Perfavore segnala ogni problema sul nostro <a href=\"https://github.com/MultiMC/Launcher/issues\">bug tracker</a>.</p><p>C'è anche un <a href=\"https://discord.gg/GtPmv93\">canale discord per i test qui</a>.</p></body></html>"
+msgstr "<html><body><h1>Un aggiornamento è richiesto</h1><p>MultiMC adesso supporta le vecchie versioni di Minecraft e tutte le funzioni richieste nel nuovo formato (OneSix). Di conseguenza, il vecchio formato (Legacy) è stato del tutto disabilitato e le vecchie istanze devono essere aggiornate.</p><p>L'aggiornamento creerà una nuova istanza nel nuovo formato con lo stesso contenuto di quella corrente. L'istanza originale rimarrà intatta, in caso qualcosa andasse male durante il processo.</p><p>Si prega di segnalare ogni problema sul nostro <a href=\"https://github.com/MultiMC/Launcher/issues\">bug tracker</a>.</p><p>C'è anche un <a href=\"https://discord.gg/GtPmv93\">canale discord dedicato ai test qui</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -4230,7 +4230,7 @@ msgstr "Errore API ZIP/UNZIP %1"
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
 msgid "Is the resource pack enabled?"
-msgstr "Il pacchetto di risorse è attivato?"
+msgstr "Il pacchetto di risorse è abilitato?"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:12
 msgctxt "ResourcePackFolderModel|"
@@ -4436,7 +4436,7 @@ msgstr "&Aggiorna"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr "Setup veloce di %1"
+msgstr "Configurazione rapida di %1"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
@@ -5493,7 +5493,7 @@ msgstr "Inserisci il nome del nuovo mondo."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr "Ottenendo l'autorizzazione per accedere ai servizi %1."
+msgstr "Ottenendo autorizzazione per accedere ai servizi %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
