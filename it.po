@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2022-02-03 22:18\n"
+"PO-Revision-Date: 2022-02-03 22:27\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -714,7 +714,7 @@ msgstr "Comando del wrapper:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Il comando di pre-avvio parte prima che l'istanza si avvii e il comando di post-uscita parte dopo che si è chiusa. Entrambe saranno eseguite in nella cartella di lavoro del launcher con le variabili d'ambiente:</p><ul><li>$INST_NAME - Nome dell'istanza</li><li>$INST_ID - ID dell'istanza (il nome della sua cartella)</li><li>$INST_DIR - percorso assoluto dell'istanza</li><li>$INST_MC_DIR - percorso assoluto di Minecraft</li><li>$INST_JAVA - binario java usato per l'avvio</li><li>$INST_JAVA_ARGS - parametri a riga di comando usati per l'avvio</li></ul><p>Il comando del wrapper permette di avviare java utilizzando programmi di pre-avvio extra (come 'optirun' su Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Il comando di pre-avvio viene eseguito prima che l'istanza si avvii e il comando di post-uscita viene eseguito dopo che si è chiusa.</p><p>Entrambi saranno eseguiti nella cartella di lavoro del launcher con le variabili d'ambiente:</p><ul><li>$INST_NAME - Nome dell'istanza</li><li>$INST_ID - ID dell'istanza (il nome della sua cartella)</li><li>$INST_DIR - percorso assoluto dell'istanza</li><li>$INST_MC_DIR - percorso assoluto di Minecraft</li><li>$INST_JAVA - binario java usato per l'avvio</li><li>$INST_JAVA_ARGS - parametri a riga di comando usati per l'avvio</li></ul><p>Il comando wrapper permette di avviare java utilizzando altri programmi wrapper (come 'optirun' su Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -925,7 +925,7 @@ msgstr "Verifica delle librerie FML..."
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr "Download delle librerie FML..."
+msgstr "Download delle librerie FML in corso..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
@@ -1104,7 +1104,7 @@ msgstr "Non definito"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr "Ottenimento della skin."
+msgstr "Acquisizione della skin."
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
@@ -1842,7 +1842,7 @@ msgstr "Scegli il nome del tuo personaggio offline."
 #: src/launcher/LaunchController.cpp:152
 msgctxt "LaunchController|"
 msgid "The account does not own Minecraft. You need to purchase the game first to play it."
-msgstr "L'account non possiede Minecraft. È necessario acquistare il gioco prima per giocare."
+msgstr "L'account non possiede Minecraft. È necessario prima acquistare il gioco per poter giocare."
 
 #: src/launcher/LaunchController.cpp:155
 msgctxt "LaunchController|"
@@ -1862,22 +1862,22 @@ msgstr "Avvia Offline"
 #: src/launcher/LaunchController.cpp:205
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually again."
-msgstr "L'account è scaduto e deve essere nuovamente connesso manualmente."
+msgstr "L'account è scaduto e deve essere rieseguito l'accesso manualmente."
 
 #: src/launcher/LaunchController.cpp:208
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr "Ricaricamento account non riuscito"
+msgstr "Aggiornamento account fallito"
 
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr "L'account non esiste più sui server. Potrebbe essere stato migrato, in questo caso si prega di aggiungere il nuovo account a cui hai migrato."
+msgstr "L'account non esiste più sui server. Potrebbe essere stato migrato, in questo caso si prega di aggiungere il nuovo account a cui è stato migrato."
 
 #: src/launcher/LaunchController.cpp:220
 msgctxt "LaunchController|"
 msgid "Account gone"
-msgstr "Account scomparso"
+msgstr "Account non più esistente"
 
 #: src/launcher/LaunchController.cpp:230
 msgctxt "LaunchController|"
