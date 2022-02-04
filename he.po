@@ -13,12 +13,12 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2022-02-04 14:22\n"
+"PO-Revision-Date: 2022-02-04 14:30\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "לא הצליח להבין את הmanifest של החבילה:\n"
+msgstr "לא ניתן היה להבין את המניפסט של החבילה:\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:85
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:166
@@ -473,7 +473,7 @@ msgstr "אנו עוקבים אחר נתונים סטטיסטיים של משתמ
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>המשגר שולח מידע סטטיסטי אנונימי על השימוש בכל הפעלה של הישום. זה עוזר לנו להחליט באילו פלטפורמות ובעיות להתמקד.</p><p>המידע מעובד על ידי Google Analytics, ראה את <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">הכתבה שלהם בנושא</a>.</p><p>המידע הבא נאסף:</p><ul><li>מזהה יחודי של ההתקנה.<br />הוא מאוחסן בקובץ ההגדרות של היישום.</li><li>כתובת IP אנונימית (חלקית).</li><li>גרסת המשגר.</li><li>שם, גרסת וארכיטקטורת מערכת ההפעלה.</li><li>ארכיטקטורת המעבד (ארכיטקטורת הליבה בלינוקס).</li><li>גודל זיכרון המערכת.</li><li>הגרסה והארכיטקורה של ג'אוה, וכן הגדרות הזיכרון.</li></ul><p>אם נשנה את המידע שנאסף, תראה את הדף הזה שוב.</p></body></html>"
+msgstr "<html><body><p>המשגר שולח מידע סטטיסטי אנונימי על השימוש בכל הפעלה של הישום. זה עוזר לנו להחליט באילו פלטפורמות ובעיות להתמקד.</p><p>המידע מעובד על ידי Google Analytics, ראה את <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">הכתבה שלהם בנושא</a>.</p><p>המידע הבא נאסף:</p><ul><li>מזהה יחודי של ההתקנה.<br />הוא מאוחסן בקובץ ההגדרות של היישום.</li><li>כתובת IP אנונימית (חלקית).</li><li>גרסת המשגר.</li><li>שם, גרסת וארכיטקטורת מערכת ההפעלה.</li><li>ארכיטקטורת המעבד (ארכיטקטורת הליבה בלינוקס).</li><li>גודל זיכרון המערכת.</li><li>הגרסה והארכיטקורה של Java, וכן הגדרות הזיכרון.</li></ul><p>אם נשנה את המידע שנאסף, תראה את הדף הזה שוב.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -1293,7 +1293,7 @@ msgstr ""
 #: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "לא ניתן היה להבין את המניפסט של החבילה:\n"
 
 #: src/launcher/InstanceImportTask.cpp:232
 msgctxt "InstanceImportTask|"
@@ -1310,7 +1310,7 @@ msgstr "תיקיית העקיפות שצוינה (%1) חסרה. ייתכן שה�
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "מטען מודים לא מוכר במניפסט: %1"
 
 #: src/launcher/InstanceImportTask.cpp:272
 msgctxt "InstanceImportTask|"
@@ -1391,7 +1391,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr "התקנת ג'אווה"
+msgstr "התקנת Java"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
@@ -1614,7 +1614,7 @@ msgstr "הפעל את המופע"
 #, qt-format
 msgctxt "JProfiler|"
 msgid "Listening on port: %1"
-msgstr ""
+msgstr "מאזין בפורט: %1"
 
 #: src/launcher/tools/JProfiler.cpp:41
 msgctxt "JProfiler|"
@@ -1624,7 +1624,7 @@ msgstr ""
 #: src/launcher/tools/JVisualVM.cpp:32
 msgctxt "JVisualVM|"
 msgid "JVisualVM started"
-msgstr ""
+msgstr "JVisualVM הופעל"
 
 #: src/launcher/tools/JVisualVM.cpp:39
 msgctxt "JVisualVM|"
@@ -1634,7 +1634,7 @@ msgstr ""
 #: src/launcher/java/JavaInstallList.cpp:147
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
-msgstr ""
+msgstr "מזהה התקנות Java..."
 
 #: src/launcher/ui/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
@@ -1694,7 +1694,7 @@ msgstr "בדוק"
 #: src/launcher/ui/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
 msgid "Java"
-msgstr "ג'אווה"
+msgstr "Java"
 
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
@@ -1763,7 +1763,7 @@ msgstr "עיון"
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:94
 msgctxt "JavaWizardPage|"
 msgid "Java"
-msgstr "ג'אווה"
+msgstr "Java"
 
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:95
 msgctxt "JavaWizardPage|"
@@ -3320,7 +3320,7 @@ msgstr "לא ניתן היה למצוא את גרסה %1 של החבילה"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:81
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "לא ניתן היה להבין את המניפסט של החבילה:\n"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:97
 msgctxt "ModpacksCH::PackInstallTask|"
