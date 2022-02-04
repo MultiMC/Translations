@@ -13,12 +13,12 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese (kanji)\n"
 "Language: jpn_KANJI\n"
-"PO-Revision-Date: 2022-02-03 14:31\n"
+"PO-Revision-Date: 2022-02-04 11:18\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "整合包の Mod 声明文件を解析できませんでした: \n"
+msgstr "整合包の Mod 声明文件の解析に失敗しました: \n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:85
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:166
@@ -502,7 +502,7 @@ msgstr "資源文件(asset)索引の読込が失敗した!"
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:76
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr "Mojang から資源文件(assets)を取得しています..."
+msgstr "Mojang から資源文件 (assets) を取得しています..."
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:90
 #, qt-format
@@ -1249,7 +1249,7 @@ msgstr "構成実例の文件集の複製に失敗しました。"
 #: src/launcher/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "構成実例の文件集の複製は中断されました。"
+msgstr "構成実例の文件集の複製は中止されました。"
 
 #: src/launcher/InstanceCreationTask.cpp:16
 #, qt-format
@@ -1305,7 +1305,7 @@ msgstr "構成実例の導入は中断されました。"
 #: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "整合包の Mod 声明文件を解析できませんでした:\n"
+msgstr "整合包の Mod 声明文件の解析に失敗しました: \n"
 
 #: src/launcher/InstanceImportTask.cpp:232
 msgctxt "InstanceImportTask|"
@@ -2201,12 +2201,12 @@ msgstr "構成実例の格納用文件集"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "あなたが選択した文件集の経路には，少なくとも一つの \"!\" (英字感嘆符) があります。これは Java の問題を起こしますが，構成実例が起動不能の可能性もあります。"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "本当にこの経路を使用しますか? \"いいえ\"を選択すると，文件集選択を中止して，既存の格納用文件集設定も未変更のままにします。"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
@@ -2279,125 +2279,125 @@ msgstr "私有な Mod 整合包"
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr "公開パック"
+msgstr "公開 Mod 包"
 
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Third Party Packs"
-msgstr "サードパーティパック"
+msgstr "第三者 Mod 包"
 
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:88
 #, qt-format
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Failed to download some pack lists: %1"
-msgstr "いくつかのModパックリストのダウンロードが失敗しました: %1"
+msgstr "一部の Mod 包の列表の読込に失敗しました: %1"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:32
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr "%1 のzipをダウンロードしています"
+msgstr "Mod 包 %1 の zip 圧縮文件を受信中"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr "%1 のzipをダウンロードしています (%2%)"
+msgstr "Mod 包 %1 の zip 圧縮文件を受信中 (進捗率 %2%)"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr "Modパックを展開中"
+msgstr "Mod 整合包を展開中"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr "Modパックファイル %1 が開けられませんでした。"
+msgstr "Mod 整合包 %1 の開くに失敗しました!"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Modパックをインストール中"
+msgstr "Mod 整合包を装入中"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to move unzipped minecraft!"
-msgstr "解凍した Minecraft を移動できませんでした。"
+msgstr "解凍した Minecraft の文件の移動に失敗しました!"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:186
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "No installation method found!"
-msgstr "インストール方法が見つかりませんでした。"
+msgstr "装入方式が未発見!"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
 msgid "Public"
-msgstr "公開パック"
+msgstr "公開 Mod 包"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:44
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr "サードパーティ"
+msgstr "第三者 Mod 包"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:67
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr "プライベートパック"
+msgstr "私有 Mod 包"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:86
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr "パックを追加"
+msgstr "Mod 包を追加"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:93
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr "選択したパックを除去"
+msgstr "選択した Mod 包を除去"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:109
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr "バージョン:"
+msgstr "選択された版次:"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr "FTB Legacy"
+msgstr "FTB (旧式)"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr "FTB プライベートパック"
+msgstr "FTB 私有包"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:195
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr "コード %1のパック情報のダウンロードに失敗しました。\n"
-"今すぐ削除しますか？"
+msgstr "受信用文 %1 は受信不能です。\n"
+"今すぐ受信列表から消去しますか?"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:333
 msgctxt "LegacyFTB::Page|"
 msgid "Add FTB pack"
-msgstr "FTB Modパックを追加"
+msgstr "FTB Mod 包を追加"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:334
 msgctxt "LegacyFTB::Page|"
 msgid "Enter pack code:"
-msgstr "パックのコードを入力:"
+msgstr "Mod 包の受信用文 (pack code) を入力してください:"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:357
 msgctxt "LegacyFTB::Page|"
 msgid "Remove pack"
-msgstr "パックを削除"
+msgstr "Mod 包の削除"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:358
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr "本当にパック %1 を削除しますか？"
+msgstr "本当に Mod包 %1 を削除しますか?"
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -2407,7 +2407,7 @@ msgstr "旧式"
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr "以前のバージョンのインスタンスを読み込んでいます..."
+msgstr "以前の版次の構成実例。"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
@@ -2417,65 +2417,65 @@ msgstr ""
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr "インスタンスをアップグレード"
+msgstr "構成実例の拡張更新"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
-msgstr "エラー"
+msgstr "錯誤"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:30
 msgctxt "LegacyUpgradePage|"
 msgid "Abort"
-msgstr "中断"
+msgstr "中止"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:39
 #, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
-msgstr "%1 (変換済み)"
+msgstr "%1 (移行済)"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade"
-msgstr "アップグレード"
+msgstr "拡張更新"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
-msgstr "インスタンスのコピー中: %1"
+msgstr "構成実例 %1 を複製中"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:59
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
-msgstr "インスタンスのフォルダーのコピーに失敗しました。"
+msgstr "構成実例の文件集の複製に失敗しました。"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
 msgid "Could not decide Minecraft version."
-msgstr "Minecraftのバージョンを決定できませんでした。"
+msgstr "Minecraft の版次が決定不能です。"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "インスタンスのフォルダーのコピーは中断されました。"
+msgstr "構成実例の文件集の複製は中止されました。"
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:15
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr "Mojangからライブラリファイルを取得しています..."
+msgstr "Mojang から依存庫 (library) を取得しています..."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:23
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr "インスタンス %1 のライブラリ"
+msgstr "構成実例 %1 の依存庫文件"
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:34
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr "メタデータにnull jarが指定されています。中断します。"
+msgstr "上位数元は空白・異常な .jar 文件を指定されていますので，中止します。"
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:61
 #, qt-format
@@ -2484,7 +2484,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr "'local'とマークされたアーティファクトのファイルがありません: %1 ファイルを追加するか、それらを必要とするパッケージを削除する必要があります。この問題は手動で修正する必要があります。"
+msgstr "\"本機にいる\"と印付けたの一部の Mod 包は実際，文件が欠落しています:\n"
+"%1\n\n"
+"必要な文件を追加するか，それらを必要とするの Mod 包を列表から消去してください。\n"
+"この問題は手動で修正する必要があります。"
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:78
 #, qt-format
@@ -2492,7 +2495,9 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr "ゲームの更新に失敗しました: 必要なライブラリを取得できませんでした。理由: %1"
+msgstr "遊戯の更新に失敗しました: 必要な依存庫文件を取得不能でした。\n"
+"理由:\n"
+"%1"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
@@ -2502,37 +2507,37 @@ msgstr "更新し続ける"
 #: src/launcher/ui/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr "行を折り返し"
+msgstr "行を折り返す"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
 msgid "Copy the whole log into the clipboard"
-msgstr "クリップボードにログ全体をコピーします"
+msgstr "貼付板に履録全体を複製します"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:96
 msgctxt "LogPage|"
 msgid "&Copy"
-msgstr "コピー"
+msgstr "複製 (&C)"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "paste.eeにログをアップロードする - １か月間閲覧可能です"
+msgstr "履録を paste.ee (線上にある貼付板) に複製する - 1か月間の保存期限があります"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
 msgid "Upload"
-msgstr "アップロード"
+msgstr "送信"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:113
 msgctxt "LogPage|"
 msgid "Clear the log"
-msgstr "ログをクリア"
+msgstr "履録を消去する"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:116
 msgctxt "LogPage|"
 msgid "Clear"
-msgstr "クリア"
+msgstr "消去"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:125
 msgctxt "LogPage|"
@@ -2547,7 +2552,7 @@ msgstr "次を検索"
 #: src/launcher/ui/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
 msgid "Scroll all the way to bottom"
-msgstr "一番下までスクロール"
+msgstr "一番下まで頁巻く"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
@@ -2557,7 +2562,7 @@ msgstr "一番下へ"
 #: src/launcher/ui/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr "Minecraftのログ"
+msgstr "Minecraft の履録"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:68
