@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
-"PO-Revision-Date: 2022-02-11 22:17\n"
+"PO-Revision-Date: 2022-02-11 22:26\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -436,28 +436,28 @@ msgstr "Nepavyko susisiekti su autentifikavimo serveriu."
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "Autentifikavimo metu įvyko klaida."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr ""
+msgstr "Nepavyko autentifikuoti. Sesija baigėsi."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account no longer exists."
-msgstr ""
+msgstr "Nepavyko autentifikuoti. Paskyra nebeegzistuoja."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:53
 msgctxt "AccountTask|"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:100
 #, qt-format
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
-msgstr ""
+msgstr "Nežinoma paskyros užduoties būsena: %1"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -472,7 +472,7 @@ msgstr "Mes išgauname šiek tiek anoniminės statistikos apie naudotojus."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>MultiMC siunčia anonimines naudojimo statistikas kiekvieną aplikacijos paleidimą. Tai padeda mums nuspresti ties kokiomis platformomis ir problemomis susitelkti.</p><p>Duomenys apdorojami Google Analytics, pažiūrėkite jų <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">straipsnį tuo klausimu</a>.</p>Šie duomenys yra renkami:</p><ul><li>Atsitiktinis unikalus ID apie MultiMC instaliaciją.<br />Jis laikomas aplikacijos nustatymuose (multimc.cfg).</li><li>Anoniminis (dalinis) IP adresas.</li><li>MultiMC versija.</li></li>Operacinės sistemos pavadinimas, versija ir architektūra.</li></li>CPU architektūra (branduolio architektūra per Linux).</li><li>Sitemos atminties dydis.</li><li>Java versija, architektūra ir atminties nustatymai.</li></ul><p>Jei mes pakeisime sekamą informaciją, jūs matysite šį puslapį vėl.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -482,42 +482,44 @@ msgstr "Įgalinti analitiką"
 #: src/launcher/Application.cpp:715
 msgctxt "Application|"
 msgid "Settings"
-msgstr ""
+msgstr "nustatymai"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
-msgstr ""
+msgstr "Atnaujinamas išteklių indeksas..."
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:27
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
-msgstr ""
+msgstr "Išteklių indeksas %1"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:70
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
-msgstr ""
+msgstr "Nepavyko nuskaityti išteklių indekso!"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:76
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr ""
+msgstr "Gaunami išteklių failai iš Mojang..."
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:90
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr ""
+msgstr "Nepavyko atsiūsti išteklių indekso:\n"
+"%1"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:95
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr ""
+msgstr "Nepavyko atsiūsti išteklių:\n"
+"%1"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
 msgctxt "Atl::FilterModel|"
@@ -527,7 +529,7 @@ msgstr "Rūšiuoti pagal populiarumą"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
 msgctxt "Atl::FilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "Rušiuoti pagal pavadinimą"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
 msgctxt "Atl::FilterModel|"
@@ -537,7 +539,7 @@ msgstr "Rūšiuoti pagal žaidimo versiją"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:14
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Mods To Install"
-msgstr ""
+msgstr "Pasirinkti Kuriuos Mod'us Įdiegti"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:20
 msgctxt "AtlOptionalModDialog|"
