@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
-"PO-Revision-Date: 2022-01-18 13:00\n"
+"PO-Revision-Date: 2022-02-11 22:30\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -142,7 +142,7 @@ msgstr "Apie"
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p> MultiMC yra paleidimo programa (Launch'eris), kuri leidžia lengviau valdyti Minecraft leisdama turėti kelias instancijas vienu metu. </p></body></html>"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
@@ -321,7 +321,7 @@ msgstr "Ar ši paskyra gali migruoti į Microsoft parkyrą?"
 #: src/launcher/minecraft/auth/AccountList.cpp:371
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
-msgstr ""
+msgstr "Minecraft profilio asocijuoto su paskyra pavadinimas."
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
@@ -394,69 +394,70 @@ msgstr "Kontekstinis meniu"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:146
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr ""
+msgstr "Prašome įvesti savo Mojang paskyros el. paštą ir slaptažodį norint pridėti savo paskyrą."
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:135
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
-msgstr ""
+msgstr "Microsoft Paskyros nėra pasiekiamos"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:136
 msgctxt "AccountListPage|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
-msgstr ""
+msgstr "Microsoft paskyros galimos naudoti tik ant macOS 10.13 arba naujesnę, su pilnai atnaujintu MultiMC.\n\n"
+"Prašome atsinaujinti operacinę sistemą ir MultiMC."
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
-msgstr ""
+msgstr "Ištrinti skin'ą"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
-msgstr ""
+msgstr "Nepavyko ištrinti dabartinio skin'o!"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
 msgid "Sending request to auth servers..."
-msgstr ""
+msgstr "Siunčiamas prašymas į autentifikavimo serverius..."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:43
 msgctxt "AccountTask|"
 msgid "Authentication task succeeded."
-msgstr ""
+msgstr "Autentifikavimas baigtas."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:45
 msgctxt "AccountTask|"
 msgid "Failed to contact the authentication server."
-msgstr ""
+msgstr "Nepavyko susisiekti su autentifikavimo serveriu."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "Autentifikavimo metu įvyko klaida."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr ""
+msgstr "Nepavyko autentifikuoti. Sesija baigėsi."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account no longer exists."
-msgstr ""
+msgstr "Nepavyko autentifikuoti. Paskyra nebeegzistuoja."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:53
 msgctxt "AccountTask|"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:100
 #, qt-format
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
-msgstr ""
+msgstr "Nežinoma paskyros užduoties būsena: %1"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -471,7 +472,7 @@ msgstr "Mes išgauname šiek tiek anoniminės statistikos apie naudotojus."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>MultiMC siunčia anonimines naudojimo statistikas kiekvieną aplikacijos paleidimą. Tai padeda mums nuspresti ties kokiomis platformomis ir problemomis susitelkti.</p><p>Duomenys apdorojami Google Analytics, pažiūrėkite jų <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">straipsnį tuo klausimu</a>.</p>Šie duomenys yra renkami:</p><ul><li>Atsitiktinis unikalus ID apie MultiMC instaliaciją.<br />Jis laikomas aplikacijos nustatymuose (multimc.cfg).</li><li>Anoniminis (dalinis) IP adresas.</li><li>MultiMC versija.</li></li>Operacinės sistemos pavadinimas, versija ir architektūra.</li></li>CPU architektūra (branduolio architektūra per Linux).</li><li>Sitemos atminties dydis.</li><li>Java versija, architektūra ir atminties nustatymai.</li></ul><p>Jei mes pakeisime sekamą informaciją, jūs matysite šį puslapį vėl.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -481,42 +482,44 @@ msgstr "Įgalinti analitiką"
 #: src/launcher/Application.cpp:715
 msgctxt "Application|"
 msgid "Settings"
-msgstr ""
+msgstr "nustatymai"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
-msgstr ""
+msgstr "Atnaujinamas išteklių indeksas..."
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:27
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
-msgstr ""
+msgstr "Išteklių indeksas %1"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:70
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
-msgstr ""
+msgstr "Nepavyko nuskaityti išteklių indekso!"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:76
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr ""
+msgstr "Gaunami išteklių failai iš Mojang..."
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:90
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
-msgstr ""
+msgstr "Nepavyko atsiūsti išteklių indekso:\n"
+"%1"
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:95
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
 "%1"
-msgstr ""
+msgstr "Nepavyko atsiūsti išteklių:\n"
+"%1"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:14
 msgctxt "Atl::FilterModel|"
@@ -526,7 +529,7 @@ msgstr "Rūšiuoti pagal populiarumą"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:15
 msgctxt "Atl::FilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "Rušiuoti pagal pavadinimą"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:16
 msgctxt "Atl::FilterModel|"
@@ -536,32 +539,32 @@ msgstr "Rūšiuoti pagal žaidimo versiją"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:14
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Mods To Install"
-msgstr ""
+msgstr "Pasirinkti Kuriuos Mod'us Įdiegti"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:20
 msgctxt "AtlOptionalModDialog|"
 msgid "Install"
-msgstr ""
+msgstr "Įdiegti"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:30
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Recommended"
-msgstr ""
+msgstr "Pasirinkti rekomenduojamą"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:40
 msgctxt "AtlOptionalModDialog|"
 msgid "Use Share Code"
-msgstr ""
+msgstr "Naudoti dalijimosi kodą"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:47
 msgctxt "AtlOptionalModDialog|"
 msgid "Clear All"
-msgstr ""
+msgstr "Išvalyti viską"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:42
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr ""
+msgstr "Įspėjimas: Tai vis dar nebaigta. Jei kyla problemų dėl importuoto modpack'o, tai gali būti klaida."
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:59
 msgctxt "AtlPage|"
@@ -577,17 +580,17 @@ msgstr "Paieška ir filtravimas..."
 #, qt-format
 msgctxt "AtlPage|"
 msgid "No versions are currently available for Minecraft %1"
-msgstr ""
+msgstr "Šiuo metu nėra Minecraft versijų %1"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:144
 msgctxt "AtlPage|"
 msgid "No versions are currently available"
-msgstr ""
+msgstr "Šiuo metu versijų nėra"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:146
 msgctxt "AtlPage|"
 msgid "Couldn't load or download the version lists!"
-msgstr ""
+msgstr "Nepavyko įkelti arba atsisiųsti versijų sąrašų!"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:44
 msgctxt "AtlPage|"
@@ -597,17 +600,17 @@ msgstr "ATLauncher"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "Baigti visi autentifikavimo veiksmai"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
 msgid "Initializing"
-msgstr ""
+msgstr "Inicijuojama"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
 msgid "Working..."
-msgstr ""
+msgstr "Dirbama..."
 
 #: src/launcher/tools/BaseProfiler.cpp:30
 msgctxt "BaseProfiler|"
@@ -617,12 +620,12 @@ msgstr "Profileris nutrauktas"
 #: src/launcher/minecraft/services/CapeChange.cpp:19
 msgctxt "CapeChange|"
 msgid "Equipping cape"
-msgstr ""
+msgstr "Uždedamas cape'as"
 
 #: src/launcher/minecraft/services/CapeChange.cpp:33
 msgctxt "CapeChange|"
 msgid "Removing cape"
-msgstr ""
+msgstr "Pašalinamas cape'as"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:270
 msgctxt "ComponentUpdateTask|"
@@ -632,7 +635,7 @@ msgstr "Nepavyko atlikti kai kurių komponentų metaduomenų įkėlimo užduoči
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:526
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
-msgstr ""
+msgstr "Priklausomybės tikrinimo metu aptikti prieštaraujantys reikalavimai!"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:545
 msgctxt "ComponentUpdateTask|"
@@ -685,7 +688,7 @@ msgstr "Be grupės"
 #: src/launcher/minecraft/launch/CreateGameFolders.cpp:18
 msgctxt "CreateGameFolders|"
 msgid "Couldn't create the main game folder"
-msgstr ""
+msgstr "Nepavyko sukurti pagrindinio žaidimo aplanko"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -710,18 +713,18 @@ msgstr "Įvyniojimo komanda:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Prieš-paleidimo komanda vykdoma prieš paleidžiant egzempliorių, o po-išėjimo komanda vykdoma jam išėjus.</p><p>Abi bus paleistos paleidimo priemonės darbo aplanke su papildomais aplinkos kintamaisiais:</p><ul><li>$INST_NAME – Egzemplioriaus pavadinimas</li><li>$INST_ID – Egzemplioriaus ID (jo aplanko pavadinimas)</li><li>$INST_DIR – absoliutus egzemplioriaus kelias</li><li>$INST_MC_DIR – absoliutus minecraft kelias</li><li>$INST_JAVA – java dvejetainis failas, naudojamas paleidimui</li><li>$INST_JAVA_ARGS – komandinės eilutės parametrai, naudojami paleidimui </li></ul><p>„Wrapper“ komanda leidžia paleisti naudojant papildomą įvyniojimo programą (pvz., „Optirun“ sistemoje „Linux“)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr "Įvairios komandos"
+msgstr "Pasirinktinės komandos"
 
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Nepavyko rasti įvyniojimo komandos \"%1\"."
 
 #. Error message displayed if instance can't start
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -733,7 +736,7 @@ msgstr "Nepavyko paleisti Minecraft!"
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:110
 msgctxt "DirectJavaLaunch|"
 msgid "Game crashed."
-msgstr ""
+msgstr "Žaidimas mirė (crash'ino)."
 
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -753,17 +756,17 @@ msgstr "Slaptažodis"
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:14
 msgctxt "EntitlementsStep|"
 msgid "Determining game ownership."
-msgstr ""
+msgstr "Nustatome žaidimo nuosavybę."
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "Gautos teisės žaisti"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr ""
+msgstr "Eksportuoti instancija"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
@@ -789,7 +792,7 @@ msgstr "Klaida"
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr ""
+msgstr "Nepavyko eksportuoti instancijos"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:96
@@ -801,7 +804,7 @@ msgstr "Patikrinti"
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr ""
+msgstr "Išoriniai Redaktoriai (palikite tuščią sistemos numatytiesiems)"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
@@ -834,7 +837,8 @@ msgstr "Klaida"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr ""
+msgstr "Klaida tikrinant JProfiler diegimą:\n"
+"%1"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154

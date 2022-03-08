@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
-"PO-Revision-Date: 2022-01-12 08:29\n"
+"PO-Revision-Date: 2022-03-05 09:26\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -232,12 +232,12 @@ msgstr "No seleccionado"
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr "Desconectado/a"
+msgstr "Sin conexión"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:283
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr "Conectado/a"
+msgstr "En línea"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
@@ -257,7 +257,7 @@ msgstr "Expirado"
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr "Ido"
+msgstr "Ausente"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
@@ -367,7 +367,7 @@ msgstr "Añadir Microsoft"
 #: src/launcher/ui/pages/global/AccountListPage.ui:108
 msgctxt "AccountListPage|"
 msgid "Refresh"
-msgstr "Recargar"
+msgstr "Refrescar"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:111
 msgctxt "AccountListPage|"
@@ -714,7 +714,7 @@ msgstr "Comando de wrapper:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>El comando de pre-lanzamiento se ejecuta antes que la instancia, mientras que el comando de post-salida se ejecuta cuando esta termina.</p><p>Los dos serán ejecutados en la carpeta de trabajo del lanzador con variables de entorno adicionales:</p><ul><li>$INST_NAME - nombre de la instancia</li><li>$INST_ID - ID de la instancia (el nombre de su carpeta)</li><li>$INST_DIR - ruta absoluta de la instancia</li><li>$INST_MC_DIR - ruta absoluta de Minecraft</li><li>$INST_JAVA - binario de Java usado para ejecutar</li><li>$INST_JAVA_ARGS - parámetros de la línea de comandos usados para ejecutar</li></ul><p>El comando de wrapper permite ejecutar usando un programa de wrapper adicional (como 'optirun' en Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1786,7 +1786,7 @@ msgstr "Idioma"
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr "¿No ves tu idioma o la calidad es mala?<br/><a href=\"%1\">¡Ayúdenos con las traducciones!</a>"
+msgstr "¿No está tu idioma o la traducción está mal?<br/><a href=\"%1\">¡Ayúdanos con las traducciones!</a>"
 
 #: src/launcher/ui/setupwizard/LanguageWizardPage.cpp:46
 msgctxt "LanguageWizardPage|"
@@ -1827,7 +1827,7 @@ msgstr "Sin cuenta seleccionada para lanzamiento."
 #: src/launcher/LaunchController.cpp:109
 msgctxt "LaunchController|"
 msgid "Your account is currently not logged in. Please enter your password to log in again. <br /> <br /> This could be caused by a password change."
-msgstr "Su cuenta no está actualmente conectada. Por favor, introduce tu contraseña para iniciar sesión nuevamente. <br /> <br /> Esto puede haber sido causado por un cambio de contraseña."
+msgstr "Tu cuenta no ha iniciado sesión. Por favor, introduce tu contraseña para iniciar sesión de nuevo. <br /> <br /> Esto podría ser causado por un cambio de contraseña."
 
 #: src/launcher/LaunchController.cpp:130
 msgctxt "LaunchController|"
@@ -2211,17 +2211,17 @@ msgstr "Carpeta de mods"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Algo/ERROR] ¡Un error espeluznante!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Prueba/INFO] Un mensaje inofensivo..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Algo/AVISO] Una advertencia no tan espeluznante."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2353,7 +2353,7 @@ msgstr "Versión seleccionada:"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr "FTB legado"
+msgstr "FTB Legacy"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
@@ -2402,7 +2402,7 @@ msgstr "Cargando lista de versiones anteriores de la instancia."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Actualización requerida</h1><p>MultiMC ahora soporta versiones antiguas de Minecraft y todas las características requeridas en el nuevo formato de instancias (OneSix). En consecuencia, el formato antiguo (Legacy) ha sido deshabilitado por completo y las instancias antiguas necesitan ser actualizadas.</p><p>La actualización creará una nueva instancia con los mismo contenidos que la actual, en el nuevo formato. La instancia original se mantendrá intacta, en caso de que algo salga mal en el proceso.</p><p>Por favor, reporta cualquier problema en nuestra <a href=\"https://github.com/MultiMC/Launcher/issues\">página de problemas de GitHub</a>.</p><p>También hay un <a href=\"https://discord.gg/GtPmv93\">canal de Discord para pruebas aquí</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2613,32 +2613,32 @@ msgstr "<p>Por favor, abre %1 en un navegador y coloca el código <b>%2</b> para
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
 msgid "Logging in with Microsoft account."
-msgstr ""
+msgstr "Iniciando sesión con cuenta de Microsoft."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:86
 msgctxt "MSAStep|"
 msgid "Got "
-msgstr ""
+msgstr "Obtenido "
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "La autenticación de usuario de Microsoft ha terminado con un error de red."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "Autenticación de usuario de Microsoft fallida - el usuario ya no existe."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "La autenticación de usuario de Microsoft ha fallado."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "Autenticación de usuario de Microsoft completada con un resultado no reconocido."
 
 #: src/launcher/ui/MainWindow.cpp:256
 msgctxt "MainWindow|"
@@ -2668,7 +2668,7 @@ msgstr "Barra de herramientas principal"
 #: src/launcher/ui/MainWindow.cpp:285
 msgctxt "MainWindow|"
 msgid "Add Instance"
-msgstr "Agregar una instancia"
+msgstr "Agregar instancia"
 
 #: src/launcher/ui/MainWindow.cpp:286
 msgctxt "MainWindow|"
@@ -2724,7 +2724,7 @@ msgstr "Reportar un error"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "Abrir el buscador de errores para reportar un error con %1."
 
 #: src/launcher/ui/MainWindow.cpp:350
 msgctxt "MainWindow|"
@@ -2735,7 +2735,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "Abrir el canal de voz de Discord de %1."
 
 #: src/launcher/ui/MainWindow.cpp:360
 msgctxt "MainWindow|"
@@ -2746,19 +2746,19 @@ msgstr "Reddit"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "Abrir el subreddit de %1."
 
 #: src/launcher/ui/MainWindow.cpp:370
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
-msgstr ""
+msgstr "Acerca de %1"
 
 #: src/launcher/ui/MainWindow.cpp:371
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr ""
+msgstr "Ver información acerca de %1."
 
 #: src/launcher/ui/MainWindow.cpp:376 src/launcher/ui/MainWindow.cpp:661
 msgctxt "MainWindow|"
@@ -2769,7 +2769,7 @@ msgstr "Ayuda"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
-msgstr ""
+msgstr "Obtener ayuda con %1 o Minecraft."
 
 #: src/launcher/ui/MainWindow.cpp:393
 msgctxt "MainWindow|"
@@ -2780,19 +2780,19 @@ msgstr "Actualizar"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
-msgstr ""
+msgstr "Buscar actualizaciones de %1."
 
 #: src/launcher/ui/MainWindow.cpp:404
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
-msgstr ""
+msgstr "Apoyar a %1"
 
 #: src/launcher/ui/MainWindow.cpp:405
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
-msgstr ""
+msgstr "Abrir la página de %1 en Patreon."
 
 #: src/launcher/ui/MainWindow.cpp:413
 msgctxt "MainWindow|"
@@ -2823,7 +2823,7 @@ msgstr "Más noticias..."
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
-msgstr ""
+msgstr "Abre el blog de desarrollo para leer más noticias sobre %1."
 
 #: src/launcher/ui/MainWindow.cpp:471
 msgctxt "MainWindow|"
@@ -2883,12 +2883,12 @@ msgstr "Editar notas de la instancia seleccionada."
 #: src/launcher/ui/MainWindow.cpp:535
 msgctxt "MainWindow|"
 msgid "View Worlds"
-msgstr "Ver Mundos"
+msgstr "Ver mundos"
 
 #: src/launcher/ui/MainWindow.cpp:536
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
-msgstr "Verlos mundos de esta instancia."
+msgstr "Ver los mundos de esta instancia."
 
 #: src/launcher/ui/MainWindow.cpp:542
 msgctxt "MainWindow|"
@@ -2923,7 +2923,7 @@ msgstr "Abrir la carpeta de Minecraft de la instancia seleccionada en el navegad
 #: src/launcher/ui/MainWindow.cpp:565
 msgctxt "MainWindow|"
 msgid "Config Folder"
-msgstr "Carpeta config"
+msgstr "Carpeta de configuración"
 
 #: src/launcher/ui/MainWindow.cpp:566
 msgctxt "MainWindow|"
@@ -2969,7 +2969,7 @@ msgstr "Copiar la instancia seleccionada."
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr ""
+msgstr "%1 - Versión %2"
 
 #: src/launcher/ui/MainWindow.cpp:643
 #, qt-format
@@ -2985,7 +2985,7 @@ msgstr "No hay una instancia seleccionada"
 #: src/launcher/ui/MainWindow.cpp:754
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
-msgstr ""
+msgstr "Tiempo de juego total: 0s"
 
 #: src/launcher/ui/MainWindow.cpp:857 src/launcher/ui/MainWindow.cpp:1147
 msgctxt "MainWindow|"
@@ -3054,12 +3054,12 @@ msgstr "Nombre"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Comprobando elegibilidad para la migración."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "Banderas de migración obtenidas"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:701
 msgctxt "MinecraftInstance|"
@@ -3157,7 +3157,7 @@ msgstr "Mostrar tiempo jugando a instancias"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "Mostrar tiempo de juego entre todas las instancias"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
@@ -3172,27 +3172,27 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Obteniendo el perfil de Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "La cuenta no tiene un perfil de Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:61
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "Adquisición del perfil de Minecraft Java fallida."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "No se pudo analizar la respuesta del perfil de Minecraft Java"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:81
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "Adquisición del perfil de Minecraft Java con éxito."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3602,7 +3602,7 @@ msgstr "Versión"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
-msgstr "paste.ee clave API"
+msgstr "Clave API de paste.ee"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
@@ -3622,12 +3622,12 @@ msgstr "¡Pega tu clave API aquí!"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> es usado por MultiMC para subir los logs. si dispones de una cuenta href=\"https://paste.ee\">paste.ee</a>, puedes añadir tu propia clave API aquí y tener tus logs subidos enlzados con tu cuenta.</p></body></html>"
+msgstr "MultiMC usa <html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> para la subida de registros. Si dispones de una cuenta de href=\"https://paste.ee\">paste.ee</a>, puedes añadir tu propia clave API para tener tus registros subidos enlazados con tu cuenta.</p></body></html>"
 
 #: src/launcher/ui/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
 msgid "Log Upload"
-msgstr "Subir Log"
+msgstr "Subida de registro"
 
 #: src/launcher/net/PasteUpload.cpp:48
 msgctxt "PasteUpload|"
@@ -3708,46 +3708,47 @@ msgstr "%1 (en uso)"
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "Elegir nombre de Minecraft"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "Solo te falta un paso para poder jugar a Minecraft en esta cuenta.\n\n"
+"Elije tu nombre con cuidado:"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "El nombre es demasiado corto - debe tener entre 3 y 16 caracteres."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "Ya existe un perfil de Minecraft con el nombre %1."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
-msgstr ""
+msgstr "El nombre %1 no está permitido."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:170
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr ""
+msgstr "Estado del nombre de perfil no controlado: %1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
-msgstr ""
+msgstr "Error al comprobar la disponibilidad del nombre."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "El servidor devolvió el siguiente error:"
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3767,7 +3768,7 @@ msgstr "Saltar"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Esto solo se aplica al lanzador. Minecraft no acepta configuraciones de proxy."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3822,7 +3823,7 @@ msgstr "Contraseña:"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "Nota: ¡El nombre de usuario y la contraseña del proxy son almacenados como texto plano en el archivo de configuración del lanzador!"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3876,7 +3877,7 @@ msgstr "Patrones"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:37
 msgctxt "QObject|About Credits"
 msgid "Developers"
-msgstr ""
+msgstr "Desarrolladores"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:45
 msgctxt "QObject|About Credits"
@@ -3963,7 +3964,7 @@ msgstr "processArguments se establece en el valor desconocido '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "El valor 'minimumLauncherVersion' de esta versión (%1) es mayor que lo soportado por %3 (%2). ¡Es posible que no funcione correctamente!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4047,7 +4048,7 @@ msgstr "No se ha podido procesar el archivo de versión %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
-msgstr ""
+msgstr "No hay perfil (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4064,14 +4065,16 @@ msgstr "¡El retroceso ha fallado!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "No se pudo reemplazar el archivo %1. Los cambios serán revertidos.\n"
+"Consulta el archivo de registro de %2 para más detalles."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "No se pudo eliminar el archivo %1. Los cambios serán revertidos.\n"
+"Consulta el archivo de registro de %2 para más detalles."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
@@ -4086,19 +4089,21 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "La reversión también ha fallado.\n"
+"Tendrás que reparar %1 manualmente.\n"
+"Por favor, haznos saber por qué y cómo ha pasado esto."
 
 #: src/launcher/MMCTime.cpp:14
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1m %2s"
 
 #: src/launcher/MMCTime.cpp:18
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1h %2m"
 
 #: src/launcher/MMCTime.cpp:20
 #, qt-format
@@ -4810,7 +4815,7 @@ msgstr "Snapshots"
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:74
 msgctxt "VanillaPage|"
 msgid "Old Snapshots"
-msgstr "Viejas Snapshots"
+msgstr "Snapshots antiguas"
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
@@ -5315,7 +5320,7 @@ msgstr "Modo de juego"
 #: src/launcher/minecraft/WorldList.cpp:231
 msgctxt "WorldList|"
 msgid "Last Played"
-msgstr "Último Jugado"
+msgstr "Jugado por última vez"
 
 #: src/launcher/minecraft/WorldList.cpp:240
 msgctxt "WorldList|"
@@ -5330,7 +5335,7 @@ msgstr "Modo de juego del mundo."
 #: src/launcher/minecraft/WorldList.cpp:244
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
-msgstr "Fecha y hora en que se jugó por última vez el mundo."
+msgstr "Fecha y hora en la que se jugó al mundo por última vez."
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
