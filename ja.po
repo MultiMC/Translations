@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2022-03-08 12:41\n"
+"PO-Revision-Date: 2022-03-09 08:28\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -657,7 +657,7 @@ msgstr "リモートサーバーからコンポーネントのメタデータを
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr "インスタンスのコピー"
+msgstr "起動構成のコピー"
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
@@ -765,7 +765,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr "インスタンスをエクスポート"
+msgstr "起動構成をエクスポート"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
@@ -791,7 +791,7 @@ msgstr "エラー"
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr "インスタンスをエクスポートできません"
+msgstr "起動構成をエクスポートできません"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:96
@@ -1227,23 +1227,23 @@ msgstr "グループ:"
 #, qt-format
 msgctxt "InstanceCopyTask|"
 msgid "Copying instance %1"
-msgstr "インスタンス %1 をコピー中"
+msgstr "起動構成 %1 をコピー中"
 
 #: src/launcher/InstanceCopyTask.cpp:40
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy failed."
-msgstr "インスタンスフォルダーのコピーに失敗しました。"
+msgstr "起動構成フォルダーのコピーに失敗しました。"
 
 #: src/launcher/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "インスタンスフォルダーのコピーは中断されました。"
+msgstr "起動構成フォルダーのコピーは中断されました。"
 
 #: src/launcher/InstanceCreationTask.cpp:16
 #, qt-format
 msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
-msgstr "バージョン %1 からインスタンスを作成中"
+msgstr "バージョン %1 から起動構成を作成中"
 
 #: src/launcher/InstanceImportTask.cpp:52
 #, qt-format
@@ -1288,7 +1288,7 @@ msgstr "%1 の権限を修正できませんでした"
 #: src/launcher/InstanceImportTask.cpp:200
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
-msgstr "インスタンスのインポートは中断されました。"
+msgstr "起動構成のインポートは中断されました。"
 
 #: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
@@ -1360,7 +1360,7 @@ msgstr "Mod ID を処理できません。\n"
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
-msgstr "インスタンス %1"
+msgstr "起動構成 %1"
 
 #: src/launcher/InstancePageProvider.h:40
 msgctxt "InstancePageProvider|"
@@ -1376,7 +1376,7 @@ msgstr "Core mod"
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
-msgstr "インスタンスの編集 (%1)"
+msgstr "起動構成の編集 (%1)"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:29
 msgctxt "InstanceSettingsPage|"
@@ -1531,12 +1531,12 @@ msgstr "グローバル設定のゲーム時間設定を上書き"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:442
 msgctxt "InstanceSettingsPage|"
 msgid "Show time spent playing this instance"
-msgstr "このインスタンスのプレイ時間を表示する"
+msgstr "この起動構成のプレイ時間を表示する"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:449
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
-msgstr "このインスタンスのプレイ時間を記録"
+msgstr "この起動構成のプレイ時間を記録"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
@@ -1566,7 +1566,7 @@ msgstr "Java実行可能ファイルを探します"
 #: src/launcher/InstanceList.cpp:832
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
-msgstr "複数回施行しましたが、インスタンスをコミットできませんでした。なにかがブロックしているようです。"
+msgstr "複数回試しましたが、この起動構成を起動出来ませんでした。なにかがブロックしているようです。"
 
 #: src/launcher/ui/InstanceWindow.cpp:40
 msgctxt "InstanceWindow|"
@@ -1596,7 +1596,7 @@ msgstr "強制終了"
 #: src/launcher/ui/InstanceWindow.cpp:128
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr "実行中のインスタンスを強制終了します"
+msgstr "実行中の起動構成を強制終了します"
 
 #: src/launcher/ui/InstanceWindow.cpp:133
 #: src/launcher/ui/InstanceWindow.cpp:141
@@ -1608,7 +1608,7 @@ msgstr "起動"
 #: src/launcher/ui/InstanceWindow.cpp:143
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
-msgstr "選択したインスタンスを起動します"
+msgstr "選択した起動構成を起動します"
 
 #: src/launcher/tools/JProfiler.cpp:34
 #, qt-format
@@ -2179,7 +2179,7 @@ msgstr "<html><head/>\n"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "起動構成のフォルダー"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
@@ -2390,7 +2390,7 @@ msgstr "旧式"
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:225
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
-msgstr "以前のバージョンのインスタンスを読み込んでいます..."
+msgstr "以前のバージョンの起動構成を読み込んでいます..."
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
