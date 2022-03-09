@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2022-03-09 09:19\n"
+"PO-Revision-Date: 2022-03-09 11:47\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:77
 msgctxt "ATLauncher::PackInstallTask|"
@@ -712,7 +712,7 @@ msgstr "Wrapper コマンド："
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>起動前コマンドは起動構成が起動する前に実行され、終了後コマンドは起動構成が終了した後に実行されます。</p><p>どちらもランチャーの作業フォルダで、環境変数を追加して実行されます。</p><ul><li>$INST_NAME - 起動構成の名前</li><li>$INST_ID - 起動構成のID (its folder name)</li><li>$INST_DIR - 起動構成ディレクトリの絶対パス</li><li>$INST_MC_DIR - マインクラフトの絶対パス</li><li>$INST_JAVA - 起動に使用するJavaのバイナリ</li><li>$INST_JAVA_ARGS - 起動に使用するコマンドラインパラメータ</li></ul><p>Wrapperコマンドは追加のwrapper programを使って起動することが出来ます。(Linux の'optirun'のようなもの)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -928,12 +928,12 @@ msgstr ""
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "インスタンスにFMLライブラリをコピーしています..."
+msgstr "起動構成にFMLライブラリをコピーしています..."
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:101
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "インスタンス内にFMLライブラリフォルダを作成することができませんでした。"
+msgstr "起動構成内にFMLライブラリフォルダを作成することができませんでした。"
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:106
 #, qt-format
@@ -1797,7 +1797,7 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:34
 msgctxt "LaunchController|"
 msgid "No instance specified!"
-msgstr "インスタンスが選択されていません!"
+msgstr "起動構成が選択されていません!"
 
 #: src/launcher/LaunchController.cpp:56
 msgctxt "LaunchController|"
@@ -1887,7 +1887,7 @@ msgstr "エラー!"
 #: src/launcher/LaunchController.cpp:240 src/launcher/LaunchController.cpp:241
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
-msgstr "インスタンスプロファイルをロードできませんでした。"
+msgstr "起動構成の設定をロードできませんでした。"
 
 #: src/launcher/LaunchController.cpp:248
 msgctxt "LaunchController|"
@@ -1941,7 +1941,7 @@ msgstr "Minecraftを強制終了しますか?"
 #: src/launcher/LaunchController.cpp:380
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr "これはインスタンスの破損を引き起こす可能性があるので、Minecraftがフリーズした場合にのみ使用してください"
+msgstr "これは起動構成の破損を引き起こす可能性があるので、Minecraftがフリーズした場合にのみ使用してください"
 
 #: src/launcher/launch/LaunchTask.cpp:215
 #, qt-format
@@ -2034,7 +2034,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
 msgid "Instance view sorting mode"
-msgstr ""
+msgstr "起動構成表示の並べ替えモード"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:218
 msgctxt "LauncherPage|"
@@ -2189,7 +2189,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "本当にこのパスを使用しますか? ｢いいえ｣を選択すると、起動構成のパスは変更されません。"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
@@ -2427,12 +2427,12 @@ msgstr "アップグレード"
 #, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
-msgstr "インスタンスのコピー中: %1"
+msgstr "起動構成のコピー中: %1"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:59
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy failed."
-msgstr "インスタンスのフォルダーのコピーに失敗しました。"
+msgstr "起動構成のフォルダーのコピーに失敗しました。"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:82
 msgctxt "LegacyUpgradeTask|"
@@ -2442,7 +2442,7 @@ msgstr "Minecraftのバージョンを決定できませんでした。"
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
 msgid "Instance folder copy has been aborted."
-msgstr "インスタンスのフォルダーのコピーは中断されました。"
+msgstr "起動構成のフォルダーのコピーは中断されました。"
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:15
 msgctxt "LibrariesTask|"
@@ -2453,7 +2453,7 @@ msgstr "Mojangからライブラリファイルを取得しています..."
 #, qt-format
 msgctxt "LibrariesTask|"
 msgid "Libraries for instance %1"
-msgstr "インスタンス %1 のライブラリ"
+msgstr "起動構成 %1 のライブラリ"
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:34
 msgctxt "LibrariesTask|"
@@ -2636,7 +2636,7 @@ msgstr "強制終了"
 #: src/launcher/ui/MainWindow.cpp:257
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
-msgstr "起動しているインスタンスを強制終了"
+msgstr "起動している起動構成を強制終了"
 
 #: src/launcher/ui/MainWindow.cpp:261 src/launcher/ui/MainWindow.cpp:983
 msgctxt "MainWindow|"
@@ -2646,7 +2646,7 @@ msgstr "起動"
 #: src/launcher/ui/MainWindow.cpp:262
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
-msgstr "選択したインスタンスを起動します。"
+msgstr "選択した起動構成を起動します。"
 
 #: src/launcher/ui/MainWindow.cpp:280
 msgctxt "MainWindow|"
@@ -2656,22 +2656,22 @@ msgstr "メインツールバー"
 #: src/launcher/ui/MainWindow.cpp:285
 msgctxt "MainWindow|"
 msgid "Add Instance"
-msgstr "インスタンスの追加"
+msgstr "起動構成の追加"
 
 #: src/launcher/ui/MainWindow.cpp:286
 msgctxt "MainWindow|"
 msgid "Add a new instance."
-msgstr "新しいインスタンスを追加します。"
+msgstr "新しい起動構成を追加します。"
 
 #: src/launcher/ui/MainWindow.cpp:298
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
-msgstr "インスタンスフォルダを開きます"
+msgstr "起動構成のフォルダを開きます"
 
 #: src/launcher/ui/MainWindow.cpp:299
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
-msgstr "ファイルブラウザでインスタンスフォルダを開きます。"
+msgstr "ファイルブラウザで起動構成のフォルダを開きます。"
 
 #: src/launcher/ui/MainWindow.cpp:306
 msgctxt "MainWindow|"
@@ -2691,7 +2691,7 @@ msgstr "フォルダ"
 #: src/launcher/ui/MainWindow.cpp:313
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
-msgstr "インスタンス間で共有されているフォルダの1つを開きます。"
+msgstr "起動構成間で共有されているフォルダの1つを開きます。"
 
 #: src/launcher/ui/MainWindow.cpp:328
 msgctxt "MainWindow|"
@@ -2816,7 +2816,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:471
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
-msgstr "インスタンスツールバー"
+msgstr "起動構成ツールバー"
 
 #: src/launcher/ui/MainWindow.cpp:478
 msgctxt "MainWindow|"
@@ -2826,7 +2826,7 @@ msgstr "アイコンの変更"
 #: src/launcher/ui/MainWindow.cpp:479
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
-msgstr "選択したインスタンスのアイコンを変更します。"
+msgstr "選択した起動構成のアイコンを変更します。"
 
 #: src/launcher/ui/MainWindow.cpp:492
 msgctxt "MainWindow|"
@@ -2836,7 +2836,7 @@ msgstr "名前を変更"
 #: src/launcher/ui/MainWindow.cpp:493
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
-msgstr "選択したインスタンスの名前を変更します。"
+msgstr "選択した起動構成の名前を変更します。"
 
 #: src/launcher/ui/MainWindow.cpp:512 src/launcher/ui/MainWindow.cpp:984
 msgctxt "MainWindow|"
@@ -2846,17 +2846,17 @@ msgstr "オフラインプレイ"
 #: src/launcher/ui/MainWindow.cpp:513
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
-msgstr "オフラインモードで選択したインスタンスを起動します。"
+msgstr "オフラインモードで選択した起動構成を起動します。"
 
 #: src/launcher/ui/MainWindow.cpp:521
 msgctxt "MainWindow|"
 msgid "Edit Instance"
-msgstr "インスタンスの編集"
+msgstr "起動構成の編集"
 
 #: src/launcher/ui/MainWindow.cpp:522
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
-msgstr "インスタンスの設定、Modやバージョンを変更します。"
+msgstr "起動構成の設定、Modやバージョンを変更します。"
 
 #: src/launcher/ui/MainWindow.cpp:528
 msgctxt "MainWindow|"
@@ -2866,7 +2866,7 @@ msgstr "メモの編集"
 #: src/launcher/ui/MainWindow.cpp:529
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
-msgstr "選択したインスタンスのメモを編集します。"
+msgstr "選択した起動構成のメモを編集します。"
 
 #: src/launcher/ui/MainWindow.cpp:535
 msgctxt "MainWindow|"
@@ -2876,7 +2876,7 @@ msgstr "ワールドを表示"
 #: src/launcher/ui/MainWindow.cpp:536
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
-msgstr "選択したインスタンスのワールドを表示します。"
+msgstr "選択した起動構成のワールドを表示します。"
 
 #: src/launcher/ui/MainWindow.cpp:542
 msgctxt "MainWindow|"
@@ -2886,7 +2886,7 @@ msgstr "スクリーンショットの管理"
 #: src/launcher/ui/MainWindow.cpp:543
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr "このインスタンスのスクリーンショットの表示およびアップロード"
+msgstr "この起動構成のスクリーンショットの表示およびアップロード"
 
 #: src/launcher/ui/MainWindow.cpp:549
 msgctxt "MainWindow|"
@@ -2896,7 +2896,7 @@ msgstr "グループ変更"
 #: src/launcher/ui/MainWindow.cpp:550
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
-msgstr "選択したインスタンスのグループを変更します。"
+msgstr "選択した起動構成のグループを変更します。"
 
 #: src/launcher/ui/MainWindow.cpp:558
 msgctxt "MainWindow|"
@@ -2906,7 +2906,7 @@ msgstr "Minecraft フォルダー"
 #: src/launcher/ui/MainWindow.cpp:559
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
-msgstr "ファイルブラウザで選択したインスタンスの.minecraftフォルダを開きます。"
+msgstr "ファイルブラウザで選択した起動構成の .minecraftフォルダを開きます。"
 
 #: src/launcher/ui/MainWindow.cpp:565
 msgctxt "MainWindow|"
@@ -2916,22 +2916,22 @@ msgstr "Config フォルダ"
 #: src/launcher/ui/MainWindow.cpp:566
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
-msgstr "インスタンスのconfigフォルダを開きます。"
+msgstr "起動構成のconfigフォルダを開きます。"
 
 #: src/launcher/ui/MainWindow.cpp:572
 msgctxt "MainWindow|"
 msgid "Instance Folder"
-msgstr "インスタンスのフォルダ"
+msgstr "起動構成のフォルダ"
 
 #: src/launcher/ui/MainWindow.cpp:573
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
-msgstr "ファイルブラウザで選択したインスタンスのルートフォルダを開きます。"
+msgstr "ファイルブラウザで選択した起動構成のルートフォルダを開きます。"
 
 #: src/launcher/ui/MainWindow.cpp:581
 msgctxt "MainWindow|"
 msgid "Export Instance"
-msgstr "インスタンスをエクスポート"
+msgstr "起動構成をエクスポート"
 
 #: src/launcher/ui/MainWindow.cpp:588
 msgctxt "MainWindow|"
@@ -2941,17 +2941,17 @@ msgstr "削除"
 #: src/launcher/ui/MainWindow.cpp:589
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
-msgstr "選択したインスタンスを削除します。"
+msgstr "選択した起動構成を削除します。"
 
 #: src/launcher/ui/MainWindow.cpp:596
 msgctxt "MainWindow|"
 msgid "Copy Instance"
-msgstr "インスタンスをコピー"
+msgstr "起動構成をコピー"
 
 #: src/launcher/ui/MainWindow.cpp:597
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
-msgstr "選択したインスタンスをコピーします。"
+msgstr "選択した起動構成をコピーします。"
 
 #: src/launcher/ui/MainWindow.cpp:640
 #, qt-format
@@ -2968,7 +2968,7 @@ msgstr " on %1"
 #: src/launcher/ui/MainWindow.cpp:753 src/launcher/ui/MainWindow.cpp:863
 msgctxt "MainWindow|"
 msgid "No instance selected"
-msgstr "インスタンスが選択されていません"
+msgstr "起動構成が選択されていません"
 
 #: src/launcher/ui/MainWindow.cpp:754
 msgctxt "MainWindow|"
@@ -2983,7 +2983,7 @@ msgstr "プロファイル"
 #: src/launcher/ui/MainWindow.cpp:916
 msgctxt "MainWindow|"
 msgid "Create instance"
-msgstr "インスタンスの作成"
+msgstr "起動構成の作成"
 
 #: src/launcher/ui/MainWindow.cpp:932
 #, qt-format
@@ -3140,12 +3140,12 @@ msgstr "ゲーム内時間"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:146
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing instances"
-msgstr "インスタンスのプレイ時間を表示する"
+msgstr "起動構成のプレイ時間を表示する"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "全ての起動構成での再生時間を表示"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
