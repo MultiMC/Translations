@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
-"PO-Revision-Date: 2022-03-21 18:39\n"
+"PO-Revision-Date: 2022-03-21 18:52\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -714,7 +714,7 @@ msgstr "Orde contedora:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>As tarefas previas á execución inicianse antes de que a instancia arranque, e as tarefas posteriores á saída execútanse despois de que a instancia termine.</p><p>Todas elas execútanse en cadanseu cartafol de traballo con variables engadidas ao ambiente:</p><ul><li>$INST_NAME - Nome da instancia</li><li>$INST_ID - Identificador da instancia (nome do seu cartafol)</li><li>$INST_DIR - Ruta absoluta da instancia</li><li>$INST_MC_DIR - Ruta absoluta do Minecraft</li><li>$INST_JAVA - Binario de Java usado para a execución</li><li>$INST_JAVA_ARGS - Parámetros da liña de ordes para a execución</li></ul><p>A orde contedora permite executar usando un programa contedor engadido (por exemplo «optirun» en Linux)</p></body></html>"
+msgstr "<html><head/><body><p>As tarefas previas á execución inícianse antes de que a instancia arranque, e as tarefas posteriores á saída execútanse despois de que a instancia termine.</p><p>Todas elas execútanse en cadanseu cartafol de traballo con variables engadidas ao ambiente:</p><ul><li>$INST_NAME - Nome da instancia</li><li>$INST_ID - Identificador da instancia (nome do seu cartafol)</li><li>$INST_DIR - Ruta absoluta da instancia</li><li>$INST_MC_DIR - Ruta absoluta do Minecraft</li><li>$INST_JAVA - Binario de Java usado para a execución</li><li>$INST_JAVA_ARGS - Parámetros da liña de ordes para a execución</li></ul><p>A orde contedora permite executar usando un programa contedor engadido (por exemplo «optirun» en Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1109,7 +1109,7 @@ msgstr "Descargando apariencia."
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr "Apariencia cargada"
+msgstr "Aparencia cargada"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1812,7 +1812,7 @@ msgstr "Sen contas"
 #: src/launcher/LaunchController.cpp:58
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "Para poder xogar a Minecraft necesita ter como mínimo unha conta de Mojang ou Minecraft aberta. Queres abrir o xestor de contas para engadir unha conta agora?"
 
 #: src/launcher/LaunchController.cpp:77
 msgctxt "LaunchController|"
@@ -1847,29 +1847,30 @@ msgstr "Recibíuse un estado de sesión indeterminado durante o inicio de sesió
 #: src/launcher/LaunchController.cpp:171
 msgctxt "LaunchController|"
 msgid "Play demo?"
-msgstr ""
+msgstr "Xogar demo?"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
 msgid "This account does not own Minecraft.\n"
 "You need to purchase the game first to play it.\n\n"
 "Do you want to play the demo?"
-msgstr ""
+msgstr "Esta conta non posúe Minecraft. Antes de poder xogar terá que mercalo.\n\n"
+"Quere xogar á demo?"
 
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Play Demo"
-msgstr ""
+msgstr "Xogar Demo"
 
 #: src/launcher/LaunchController.cpp:175
 msgctxt "LaunchController|"
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/launcher/LaunchController.cpp:185
 msgctxt "LaunchController|"
 msgid "Launch cancelled - account does not own Minecraft."
-msgstr ""
+msgstr "Cancelouse a execución - esta conta non posúe o Minecraft."
 
 #: src/launcher/LaunchController.cpp:201
 msgctxt "LaunchController|"
@@ -1879,12 +1880,12 @@ msgstr "Xogar sen conexión"
 #: src/launcher/LaunchController.cpp:214
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "A sesión expirou. Terá que iniciar sesión de novo."
 
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr ""
+msgstr "Non se puido actualizar a conta"
 
 #: src/launcher/LaunchController.cpp:226
 msgctxt "LaunchController|"
@@ -1977,23 +1978,23 @@ msgstr "MultiMC deixou de vixiar o rexistro do xogo porque superou as %1 liñas.
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "Accedendo aos servizos de Mojang."
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr ""
+msgstr "Non se puido obter a testemuña de acceso: %1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "Non se puido interpretar a testemuña de resposta de Minecraft."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
 msgid "Features"
-msgstr ""
+msgstr "Características"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
