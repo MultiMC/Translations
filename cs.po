@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2022-03-23 12:13\n"
+"PO-Revision-Date: 2022-03-23 12:32\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -714,7 +714,7 @@ msgstr "Příkaz wrapperu:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Příkaz před spuštěním je spuštěn před spuštěním instance a příkaz po ukončení je spuštěn po jejím ukončení.</p><p>Oba budou probíhat v pracovním adresáři launcheru s těmito proměnnými prostředí navíc:</p><ul><li>$INST_NAME - Název instance</li><li>$INST_ID - ID instance (název její složky)</li><li>$INST_DIR - absolutní cesta k instanci</li><li>$INST_MC_DIR - absolutní cesta k Minecraftu</li><li>$INST_JAVA - binary Javy použitá ke spuštění</li><li>$INST_JAVA_ARGS - parametry příkazové řádky použité ke spuštění</li></ul><p>Wrapper příkaz umožňuje spuštění jiného wrapper programu (např. 'optirun' na Linuxu)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1847,29 +1847,31 @@ msgstr "Byl přijat neurčený stav relace během přihlášení."
 #: src/launcher/LaunchController.cpp:171
 msgctxt "LaunchController|"
 msgid "Play demo?"
-msgstr ""
+msgstr "Hrát demo?"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
 msgid "This account does not own Minecraft.\n"
 "You need to purchase the game first to play it.\n\n"
 "Do you want to play the demo?"
-msgstr ""
+msgstr "Tento účet nevlastní Minecraft.\n"
+"Před hraním hry je potřeba si ji zakoupit.\n\n"
+"Chcete spustit demo verzi?"
 
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Play Demo"
-msgstr ""
+msgstr "Hrát demo"
 
 #: src/launcher/LaunchController.cpp:175
 msgctxt "LaunchController|"
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: src/launcher/LaunchController.cpp:185
 msgctxt "LaunchController|"
 msgid "Launch cancelled - account does not own Minecraft."
-msgstr ""
+msgstr "Spouštění zrušeno - účet nevlastní Minecraft."
 
 #: src/launcher/LaunchController.cpp:201
 msgctxt "LaunchController|"
@@ -1977,18 +1979,18 @@ msgstr "MultiMC přestal sledovat výpis z konzole, jelikož výpis přesáhl d�
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "Přístup ke službám Mojangu."
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr ""
+msgstr "Nepodařilo se získat přístupový token Minecraftu: %1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "Nepodařilo se zpracovat odpověď pro Minecraft access token."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
@@ -2008,7 +2010,7 @@ msgstr "Mám při spuštění kontrolovat aktualizace?"
 #: src/launcher/ui/pages/global/LauncherPage.ui:64
 msgctxt "LauncherPage|"
 msgid "Up&date Channel:"
-msgstr ""
+msgstr "Aktualizovat kanál:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:81
 msgctxt "LauncherPage|"
@@ -2208,12 +2210,12 @@ msgstr "Složky s instancemi"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Cesta ke složce s instancemi obsahuje alespoň jeden vykřičník. Java je známá tím, že má s vykřičníky v cestách problémy. Vaše instance se (pravděpodobně) nespustí!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Opravdu chcete použít tuto cestu? Volba \"Ne\" zavře toto okno a nezmění cestu instance."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
@@ -2228,17 +2230,17 @@ msgstr "Složka s módy"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Něco/ERROR] Nějaká děsivá chyba!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Nějaká neškodná zpráva..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Něco/WARN] Ne až tak děsivé varování."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2419,7 +2421,7 @@ msgstr "Instance z minulých verzí."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Je nutná aktualizace</h1><p>MultiMC nyní podporuje starší verze Minecraftu a všechny potřebné funkce v novém (OneSix) formátu instancí. Kvůli tomu musely být staré (Legacy) formáty zakázány a staré instance musí být aktualizovány.</p><p>Aktualizace vytvoří novou instanci se stejným obsahem jako stará, ale v novém formátu. Originální instance zůstane nedotčena, pro případ, kdy by se něco pokazilo.</p><p>Prosím nahlašte jakékoliv problémy na naši <a href=\"https://github.com/MultiMC/MultiMC/issues\">GitHub stránku s problémy</a>.</p><p>Také mame <a href=\"https://discord.gg/GtPmv93\">Discord kanál pro testování</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2741,7 +2743,7 @@ msgstr "Oznámit chybu"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "Otevřít bug tracker pro nahlášení chyby s %1."
 
 #: src/launcher/ui/MainWindow.cpp:352
 msgctxt "MainWindow|"
@@ -2752,7 +2754,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "Otevřít hlasový kanál Discordu %1."
 
 #: src/launcher/ui/MainWindow.cpp:362
 msgctxt "MainWindow|"
@@ -2763,7 +2765,7 @@ msgstr "Reddit"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "Otevřít subreddit %1."
 
 #: src/launcher/ui/MainWindow.cpp:372
 #, qt-format
@@ -2809,7 +2811,7 @@ msgstr "Podpořit %1"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
-msgstr ""
+msgstr "Otevřít Patreon stránku %1."
 
 #: src/launcher/ui/MainWindow.cpp:415
 msgctxt "MainWindow|"
@@ -2840,7 +2842,7 @@ msgstr "Další novinky…"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
-msgstr ""
+msgstr "Otevřít vývojářský blog pro dočtení se více novinek o %1."
 
 #: src/launcher/ui/MainWindow.cpp:473
 msgctxt "MainWindow|"
@@ -2900,12 +2902,12 @@ msgstr "Upravuje poznámky vybrané instance."
 #: src/launcher/ui/MainWindow.cpp:537
 msgctxt "MainWindow|"
 msgid "View Mods"
-msgstr ""
+msgstr "Zobrazit módy"
 
 #: src/launcher/ui/MainWindow.cpp:538
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
-msgstr ""
+msgstr "Zobrazit módy této instance."
 
 #: src/launcher/ui/MainWindow.cpp:544
 msgctxt "MainWindow|"
@@ -2975,7 +2977,7 @@ msgstr "Exportovat instanci"
 #: src/launcher/ui/MainWindow.cpp:600
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
-msgstr ""
+msgstr "Exportovat vybranou instanci jako zip soubor."
 
 #: src/launcher/ui/MainWindow.cpp:606
 msgctxt "MainWindow|"
@@ -3001,7 +3003,7 @@ msgstr "Kopíruje vybranou instanci."
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr ""
+msgstr "%1 - Verze %2"
 
 #: src/launcher/ui/MainWindow.cpp:661
 #, qt-format
@@ -3086,12 +3088,12 @@ msgstr "Název"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Kontrola způsobilosti k migraci."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "Vlajky migrace získány"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:703
 msgctxt "MinecraftInstance|"
@@ -3189,7 +3191,7 @@ msgstr "Zobrazit čas strávený hraním instancí"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "Zobrazit čas strávený hraním napříč instancemi"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
@@ -3204,7 +3206,7 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Načítání Minecraft profilu."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
@@ -3214,12 +3216,12 @@ msgstr "Účet nemá Minecraft profil."
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "Získání profilu Minecraft Java se nezdařilo."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:77
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "Odpověď na Minecraft Java profil nelze zpracovat"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:89
 msgctxt "MinecraftProfileStep|"
