@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2022-03-26 15:36\n"
+"PO-Revision-Date: 2022-03-26 15:45\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -48,7 +48,7 @@ msgstr "Falha ao buscar a versão para o loader %1"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:229
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "Nenhuma versão de loader definida nessa versão."
+msgstr "Nenhuma versão do loader definida nessa versão!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:333
 #, qt-format
@@ -1827,7 +1827,7 @@ msgstr "Nenhuma conta selecionada para jogar."
 #: src/launcher/LaunchController.cpp:110
 msgctxt "LaunchController|"
 msgid "Your account is currently not logged in. Please enter your password to log in again. <br /> <br /> This could be caused by a password change."
-msgstr "Sua sessão não foi iniciada. Insira a senha novamente. <br/><br/> Isso pode ter sido causado por uma troca de senha."
+msgstr "Não foi possível iniciar a sessão. Insira a senha novamente. <br/><br/> Isso pode ter sido causado por uma troca de senha."
 
 #: src/launcher/LaunchController.cpp:131
 msgctxt "LaunchController|"
@@ -1974,7 +1974,7 @@ msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
 msgstr "O MultiMC interrompeu o log ao exceder %1 linhas.\n"
-"Verifique se os mods estão forçando o jogo a continuar registrando e ocupando espaço em disco numa velocidade alarmante."
+"Verifique se os mods estão forçando o jogo a continuar registrando e ocupando espaço em disco numa velocidade alarmante!"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
@@ -2210,7 +2210,7 @@ msgstr "Pasta da instância"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr "Você está tentando especificar uma pasta de instância cujo caminho contém um \"!\". O Java pode apresentar problemas se for o caso e suas instâncias podem não iniciar."
+msgstr "Você está tentando especificar uma pasta de instância cujo caminho contém um \"!\". O Java pode apresentar problemas se for o caso e suas instâncias podem não iniciar!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
@@ -2647,7 +2647,7 @@ msgstr "A autenticação do usuário Microsoft finalizou com um erro de rede."
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr "A autenticação de usuário Microsoft falhou. O usuário não existe."
+msgstr "A autenticação de usuário Microsoft falhou. O usuário não existe mais."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
@@ -3859,7 +3859,7 @@ msgstr "Senha:"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr "Aviso: o nome de usuário e senha do proxy são armazenados em texto simples no arquivo de ajustes do launcher."
+msgstr "Aviso: o nome de usuário e senha do proxy são armazenados em texto simples no arquivo de ajustes do launcher!"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3966,7 +3966,7 @@ msgstr "O binário do Java especificado não funcionou com os argumentos forneci
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "O teste do Java foi concluído.<br />Plataforma: %1<br />Versão do Java: %2<br />"
+msgstr "O teste do Java foi concluído!<br />Plataforma: %1<br />Versão do Java: %2<br />"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
 #: src/launcher/JavaCommon.cpp:45 src/launcher/JavaCommon.cpp:54
@@ -4165,7 +4165,7 @@ msgstr "Aviso de argumentos da JVM"
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "O teste do Java foi concluído.<br />Plataforma: %1<br />Versão: %2<br />Fornecedor: %3<br />"
+msgstr "O teste do Java foi concluído!<br />Plataforma: %1<br />Versão: %2<br />Fornecedor: %3<br />"
 
 #: src/launcher/JavaCommon.cpp:33
 #, qt-format
@@ -4238,12 +4238,12 @@ msgstr "Não é possível abrir um gzip para leitura e escrita"
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr "Você pode abrir um gzip para leitura ou escrita. Qual a opção?"
+msgstr "Você pode abrir um gzip para leitura ou escrita. Como deseja?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "Não foi possível executar a operação gzopen() no arquivo"
+msgstr "Não foi possível rodar a operação gzopen() no arquivo"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
@@ -4673,7 +4673,7 @@ msgstr "Não foi possível abrir o \"bin/modpack.jar\"!"
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:70
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"fmlversion.properties\"!"
-msgstr "Não foi possível abrir o \"fmlversion.properties\"."
+msgstr "Não foi possível abrir o \"fmlversion.properties\"!"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:84
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:139
@@ -5227,7 +5227,7 @@ msgstr "Nenhuma versão do LiteLoader está disponível para o Minecraft "
 #: src/launcher/ui/pages/instance/VersionPage.cpp:501
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
-msgstr "Não foi possível carregar ou baixar a lista de versões do LiteLoader."
+msgstr "Não foi possível carregar ou baixar a lista de versões do LiteLoader!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:557
 msgctxt "VersionPage|"
