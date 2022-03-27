@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
-"PO-Revision-Date: 2022-03-27 16:07\n"
+"PO-Revision-Date: 2022-03-27 16:19\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2196,55 +2196,55 @@ msgstr "Папка на инстанцията"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Пробвате се да зададете папка на инстанцията, която съдържа '!'. Известно е, че Java създава проблеми в такива случаи, така че вашата инстанция вероятно няма да стартира."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Наистина ли искате да използвате тази пътека? Ако изберете „не“, този прозорец ще се затвори и пътеката към инстанцията ви ще остане непроменена."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
-msgstr ""
+msgstr "Папка с икони"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:149
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "Папка с модове"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Something/ERROR] Страховита грешка (кой е оставил това в кода)!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Безобидно съобщение..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Something/WARN] Не толкова плашешто претупреждение."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Wrapper командата „%1“ не е намерена."
 
 #. Error message displayed if instace can't start
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:144
 msgctxt "LauncherPartLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Провал при стартирането на Minecraft!"
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:153
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:163
 msgctxt "LauncherPartLaunch|"
 msgid "Game crashed."
-msgstr ""
+msgstr "Играта крашна."
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:19
 msgctxt "LegacyFTB::FilterModel|"
@@ -2370,7 +2370,8 @@ msgstr "FTB частни пакети"
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr ""
+msgstr "Провал при изтеглянето на информацията за модпака за код %1.\n"
+"Трябва ли да се премахне сега?"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:333
 msgctxt "LegacyFTB::Page|"
@@ -2406,7 +2407,13 @@ msgstr "Инстанция от минали версии."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body>\n"
+"<h1>Нужно е обновление</h1>\n"
+"<p>MultiMC вече поддържа стари версии на Minecraft и всички нужни свойства за новият (OneSix) формат на инстанция. В следствие, старият формат е напълно премахнат и старите инстанции трябва да бъдат обновени.</p>\n"
+"<p>Обновлението ще създаде нова инстанция със същото съдържание на сегашната, в новия формат. Тази инстанция ще остане не докосната, ако нещо се обърка по време на процеса.</p>\n"
+"<p>Моля, докладвайте за проблеми на нашата <a href=\"https://github.com/MultiMC/Launcher/issues\">страница за проблеми в Github</a>.</p>\n"
+"<p>Също има и <a href=\"https://discord.gg/GtPmv93\">дискорд канал за тестване</a>.</p>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2469,7 +2476,7 @@ msgstr "Библиотеки за инстанция %1"
 #: src/launcher/minecraft/update/LibrariesTask.cpp:34
 msgctxt "LibrariesTask|"
 msgid "Null jar is specified in the metadata, aborting."
-msgstr ""
+msgstr "Нулев .jar файл е зададен в метаданните, отказ."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:61
 #, qt-format
@@ -2478,7 +2485,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr ""
+msgstr "Има няколко артефакта, маркирани като „локални“, на които им липсват файловете:\n"
+"%1\n\n"
+"Трябва или да добавите файловете, или да премахнете пакетите, които ги изискват.\n"
+"Ще трябва да поправите този проблем ръчно."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:78
 #, qt-format
@@ -2486,7 +2496,9 @@ msgctxt "LibrariesTask|"
 msgid "Game update failed: it was impossible to fetch the required libraries.\n"
 "Reason:\n"
 "%1"
-msgstr ""
+msgstr "Обновлението на играта се провали: беше невъзможно да се вземат изискваните библиотеки.\n"
+"Причина:\n"
+"%1"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:60
 msgctxt "LogPage|"
@@ -2496,7 +2508,7 @@ msgstr "Продължаване на актуализирането"
 #: src/launcher/ui/pages/instance/LogPage.ui:70
 msgctxt "LogPage|"
 msgid "Wrap lines"
-msgstr ""
+msgstr "Пренасяне на редовете"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
