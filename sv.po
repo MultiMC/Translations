@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
-"PO-Revision-Date: 2022-03-20 22:26\n"
+"PO-Revision-Date: 2022-03-26 17:16\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "Vi spårar lite anonym information om användarna."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>Launchern skickar anonym användningsstatistik vid varje start. Detta hjälper oss fokusera på vilka plattformar och problem vi ska fokusera på.</p><p>Uppgifterna behandlas av Google Analytics, se deras <a href=”https://support.google.com/analytics/answer/6004245?hl=en”>artikel för information</a>.</p><p>De följande uppgifterna samlas in:</p><ul><li>Ett slumpmässigt unikt ID för installationen.<br />Det sparas i programinställningsfilen.</li><li>(Delvis) anonymiserade IP-adresser.</li><li>Launcher-version.</li><li>Operativsystemets namn, version och arkitektur.</li><li>Processorarkitektur (kernel-arkitektur på linux).</li><li>Storlek på systemminne.</li><li>Javas version, arkitektur och minnesinställningar.</li></ul><p>Om vi förändrar den spårade informationen kommer du att få se denna sida igen.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -1844,29 +1844,31 @@ msgstr "Mottog obestämd sessions-status under inloggning."
 #: src/launcher/LaunchController.cpp:171
 msgctxt "LaunchController|"
 msgid "Play demo?"
-msgstr ""
+msgstr "Spela demo?"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
 msgid "This account does not own Minecraft.\n"
 "You need to purchase the game first to play it.\n\n"
 "Do you want to play the demo?"
-msgstr ""
+msgstr "Denna kontot äger inte Minecraft.\n"
+"Du måste köpa spelet först för att kunna spela det.\n\n"
+"Vill du spela demo-versionen?"
 
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Play Demo"
-msgstr ""
+msgstr "Spela demo"
 
 #: src/launcher/LaunchController.cpp:175
 msgctxt "LaunchController|"
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: src/launcher/LaunchController.cpp:185
 msgctxt "LaunchController|"
 msgid "Launch cancelled - account does not own Minecraft."
-msgstr ""
+msgstr "Start avbruten - kontot äger inte Minecraft."
 
 #: src/launcher/LaunchController.cpp:201
 msgctxt "LaunchController|"
@@ -2190,42 +2192,42 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Instansmapp"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Du håller på att välja en instansmapp med en adress som innehåller minst ett '!'. Java är känt för att ha problem med detta, och dina instanser kommer (troligen) inte att starta!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Vill du verkligen använda denna adress? Om du väljer \"Nej\" kommer denna dialog att stängas och inte ändra din instansadress."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
-msgstr ""
+msgstr "Ikonmapp"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:149
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "Modmapp"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Någonting/ERROR] Ett läskigt fel!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Ett ofarligt meddelande..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Någonting/WARN] En inte helt så läskig varning."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2617,32 +2619,32 @@ msgstr "<p>Vänligen öppna %1 i en webbläsare och skriv in koden <b>%2</b> fö
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
 msgid "Logging in with Microsoft account."
-msgstr ""
+msgstr "Loggar in med Microsoft-konto."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:86
 msgctxt "MSAStep|"
 msgid "Got "
-msgstr ""
+msgstr "Fick "
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "Microsoft-användarautentisering slutade med ett nätverksfel."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "Microsoft-användarautentisering misslyckades - användaren finns inte längre."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "Microsoft-användarautentisering misslyckades."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "Microsoft-användarautentisering slutförd med ett okänt resultat."
 
 #: src/launcher/ui/MainWindow.cpp:258
 msgctxt "MainWindow|"
@@ -2728,7 +2730,7 @@ msgstr "Rapportera en bugg"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "Öppna bugg-trackern för att rapportera en bugg med %1."
 
 #: src/launcher/ui/MainWindow.cpp:352
 msgctxt "MainWindow|"
@@ -2739,7 +2741,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "Öppna %1s discord-ljudchatt."
 
 #: src/launcher/ui/MainWindow.cpp:362
 msgctxt "MainWindow|"
@@ -2750,19 +2752,19 @@ msgstr "Reddit"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "Öppna %1s subreddit."
 
 #: src/launcher/ui/MainWindow.cpp:372
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
-msgstr ""
+msgstr "Om %1"
 
 #: src/launcher/ui/MainWindow.cpp:373
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr ""
+msgstr "Visa information om %1."
 
 #: src/launcher/ui/MainWindow.cpp:378 src/launcher/ui/MainWindow.cpp:679
 msgctxt "MainWindow|"
@@ -2773,7 +2775,7 @@ msgstr "Hjälp"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
-msgstr ""
+msgstr "Få hjälp med %1 eller Minecraft."
 
 #: src/launcher/ui/MainWindow.cpp:395
 msgctxt "MainWindow|"
@@ -2784,19 +2786,19 @@ msgstr "Uppdatera"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
-msgstr ""
+msgstr "Leta efter nya uppdateringar för %1."
 
 #: src/launcher/ui/MainWindow.cpp:406
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
-msgstr ""
+msgstr "Stöd %1"
 
 #: src/launcher/ui/MainWindow.cpp:407
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
-msgstr ""
+msgstr "Öppna %1s Patreon-sida."
 
 #: src/launcher/ui/MainWindow.cpp:415
 msgctxt "MainWindow|"
@@ -2827,7 +2829,7 @@ msgstr "Fler nyheter..."
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
-msgstr ""
+msgstr "Öppna utvecklingsbloggen för att läsa fler nyheter om %1."
 
 #: src/launcher/ui/MainWindow.cpp:473
 msgctxt "MainWindow|"
@@ -2887,12 +2889,12 @@ msgstr "Redigera anteckningar för den utvalda instansen."
 #: src/launcher/ui/MainWindow.cpp:537
 msgctxt "MainWindow|"
 msgid "View Mods"
-msgstr ""
+msgstr "Visa mods"
 
 #: src/launcher/ui/MainWindow.cpp:538
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
-msgstr ""
+msgstr "Visa denna instans mods."
 
 #: src/launcher/ui/MainWindow.cpp:544
 msgctxt "MainWindow|"
@@ -2962,7 +2964,7 @@ msgstr "Exportera instansen"
 #: src/launcher/ui/MainWindow.cpp:600
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
-msgstr ""
+msgstr "Exportera den valda instansen som en zip-fil."
 
 #: src/launcher/ui/MainWindow.cpp:606
 msgctxt "MainWindow|"
@@ -3004,7 +3006,7 @@ msgstr "Ingen instans vald"
 #: src/launcher/ui/MainWindow.cpp:772
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
-msgstr ""
+msgstr "Total speltid: 0s"
 
 #: src/launcher/ui/MainWindow.cpp:875 src/launcher/ui/MainWindow.cpp:1165
 msgctxt "MainWindow|"
@@ -3073,12 +3075,12 @@ msgstr "Namn"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Kontrollerar migreringsbehörighet."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "Fick migreringsflaggor"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:703
 msgctxt "MinecraftInstance|"
@@ -3176,7 +3178,7 @@ msgstr "Visa tid tillbringad på att spela instanser"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "Visa spenderad speltid över alla instanser"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
@@ -3191,27 +3193,27 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Hämtar Minecraft-profilen."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "Kontot har ingen Minecraft-profil."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "Övertagande av Minecraft Java-profil misslyckades."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:77
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "Minecraft Java-profilsvar kunde inte analyseras"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:89
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "Övertagande av Minecraft Java-profil lyckades."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3728,46 +3730,47 @@ msgstr "%1 (används)"
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "Välj Minecraft-namn"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "Du behöver bara genomföra ett steg till för att kunna spela Minecraft på detta konto.\n\n"
+"Välj ditt namn noggrant:"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "Namnet är för kort - måste vara mellan 3 och 16 tecken."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "Minecraft-profil med namnet %1 finns redan."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
-msgstr ""
+msgstr "Namnet %1 tillåts inte."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:170
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr ""
+msgstr "Ohanterat profilnamnsstatus: %1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
-msgstr ""
+msgstr "Misslyckades med att kontrollera namnets tillgänglighet."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "Servern svarade med följande fel:"
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3787,7 +3790,7 @@ msgstr "Hoppa över"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "Denna gäller bara launchern. Minecraft accepterar inte proxy-inställningar."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3842,7 +3845,7 @@ msgstr "Lösenord:"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "Notera: Proxyns användarnamn och lösenord sparas i klartext i launcherns konfigurationsfil."
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3896,7 +3899,7 @@ msgstr "Patrons"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:37
 msgctxt "QObject|About Credits"
 msgid "Developers"
-msgstr ""
+msgstr "Utvecklare"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:45
 msgctxt "QObject|About Credits"
@@ -3983,7 +3986,7 @@ msgstr "processArguments är satt till ett okänt tal '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "Det angivna 'minimumLauncherVersion’-värdet för denna version (%1) är högre än vad som stöds av %3 (%2). Det kommer kanske inte fungera korrekt!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4067,7 +4070,7 @@ msgstr "Kunde inte läsa versionsfilen %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
-msgstr ""
+msgstr "Ingen profil (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4084,14 +4087,15 @@ msgstr "Tillbakarullning misslyckades!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Kunde inte byta ut filen %1. Ändringar kommer återställas.\n"
+"Se loggfilen %2 för detaljer."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Kunde inte ta bort filen %1. Ändringar kommer återställas. Se loggfiler %2 för detaljer."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
@@ -4106,25 +4110,27 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "Tillbakarullningen misslyckades också.\n"
+"Du kommer behöva reparera %1 manuellt.\n"
+"Vänligen låt oss veta hur och varför detta hände."
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1min %2s"
 
 #: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1h %2min"
 
 #: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1d %2h %3min"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4238,7 +4244,7 @@ msgstr "QIODevice::ReadWrite stöds inte för QuaZIODevice"
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr "ZIP/UNZIP API fel %1"
+msgstr "ZIP/UNZIP API-fel %1"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -4294,13 +4300,13 @@ msgstr "Visa mapp"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:84
 msgctxt "ScreenshotsPage|"
 msgid "Copy Image"
-msgstr ""
+msgstr "Kopiera bild"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:89
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:92
 msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
-msgstr ""
+msgstr "Kopiera filer"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -4461,7 +4467,7 @@ msgstr "&Uppdatera"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr ""
+msgstr "%1-snabbsetup"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
@@ -4531,7 +4537,7 @@ msgstr "Skinfil existerar inte!"
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:93
 msgctxt "SkinUploadDialog|"
 msgid "Failed to upload skin!"
-msgstr "Misslyckades att ladda upp skin!"
+msgstr "Misslyckades med att ladda upp skin!"
 
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:97
 msgctxt "SkinUploadDialog|"
@@ -4871,7 +4877,7 @@ msgstr "Vanilla"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr ""
+msgstr "Minecraft 1.18 Pre Release 2 och högre kräver användning av Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
@@ -5517,13 +5523,13 @@ msgstr "Ange ett nytt namn."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "Hämtar tillåtelse för att komma åt %1s tjänster."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %2."
-msgstr ""
+msgstr "Misslyckades med att få tillåtelse för %1s tjänster. Fel %2."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
