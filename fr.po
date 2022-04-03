@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2022-03-20 23:45\n"
+"PO-Revision-Date: 2022-04-01 14:12\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -31,7 +31,7 @@ msgstr "Échec de l’obtention d’index des métadonnées locales pour %1"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "Échec de l’obtention d’index des métadonnées locales pour %1' v%2"
+msgstr "Échec de l'obtention de l'index local des métadonnées pour '%1' v%2"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:170
 #, qt-format
@@ -43,7 +43,7 @@ msgstr "Type de mod inconnu : %1"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr "La version du chargeur %1 n'a pas pu être trouvée"
+msgstr "Impossible de déterminer la version du chargeur %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:229
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "Nous récupérons certaines données anonymes sur nos utilisateurs."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr "<html><body><p>MultiMC envoie des statistiques d'utilisation anonymes à chaque démarrage de l'application. Cela nous aide à mieux déterminer les plateformes et problèmes sur lesquels nous concentrer.</p><p>Les données sont traitées par Google Analytics, consultez leur <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article sur le sujet</a>.</p><p>Les données suivantes sont collectées :</p><ul><li>Un identifiant unique aléatoire de votre installation de MultiMC.<br />Cet identifiant est stocké dans les paramètres de l'application (multimc.cfg).</li><li>Votre adresse IP anonymisée (partiellement).</li><li>Votre version de MultiMC.</li><li>Le nom, la version et l'architecture du système d'exploitation.</li><li>L'architecture de l'UC (architecture du noyau sur Linux).</li><li>La quantité de mémoire système.</li><li>La version, l'architecture et les paramètres de mémoire de Java.</li></ul><p>Dans le cas où les données analysées seraient modifiées, cette page vous sera à nouveau affichée.</p></body></html>"
+msgstr "<html><body><p>MultiMC envoie des statistiques d'utilisation anonymes à chaque démarrage de l'application. Cela nous aide à mieux déterminer les plateformes et problèmes sur lesquels nous concentrer.</p><p>Les données sont traitées par Google Analytics, consultez leur <a href=\"https://support.google.com/analytics/answer/6004245?hl=fr\">article sur le sujet</a>.</p><p>Les données suivantes sont collectées :</p><ul><li>Un identifiant unique aléatoire de votre installation de MultiMC.<br />Cet identifiant est stocké dans les paramètres de l'application (multimc.cfg).</li><li>Votre adresse IP anonymisée (partiellement).</li><li>Votre version de MultiMC.</li><li>Le nom, la version et l'architecture du système d'exploitation.</li><li>L'architecture de l'UC (architecture du noyau sur Linux).</li><li>La quantité de mémoire système.</li><li>La version, l'architecture et les paramètres de mémoire de Java.</li></ul><p>Dans le cas où les données analysées seraient modifiées, cette page vous sera à nouveau affichée.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -581,12 +581,12 @@ msgstr "Rechercher et filtrer..."
 #, qt-format
 msgctxt "AtlPage|"
 msgid "No versions are currently available for Minecraft %1"
-msgstr "Aucune version n'est actuellement disponible pour Minecraft %1"
+msgstr "Aucune version n'est disponible actuellement pour Minecraft %1"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:161
 msgctxt "AtlPage|"
 msgid "No versions are currently available"
-msgstr "Aucune version n'est actuellement disponible"
+msgstr "Aucune version n'est disponible actuellement"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:163
 msgctxt "AtlPage|"
@@ -626,7 +626,7 @@ msgstr "Équipement de la cape"
 #: src/launcher/minecraft/services/CapeChange.cpp:33
 msgctxt "CapeChange|"
 msgid "Removing cape"
-msgstr "Suppression de la cape"
+msgstr "Enlèvement de la cape"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:270
 msgctxt "ComponentUpdateTask|"
@@ -714,7 +714,7 @@ msgstr "Commande wrapper :"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'il ferme.</p><p>Les deux vont être exécuté dans le fichier de travail de MultiMC avec des variables environnementales supplémentaires:</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du fichier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple: 'optirun' sur Linux)</p></body></html>"
+msgstr "<html><head/><body><p>Les commandes de pré-lancement s'exécutent avant le lancement de l'instance, et les commandes de post-arrêt s'exécutent après qu'il se soit fermé.</p><p>Les deux vont être exécutées dans le dossier de travail de MultiMC avec des variables d'environnement supplémentaires:</p> <ul><li>$INST_NAME - Nom de l'instance</li><li>$INST_ID - ID de l'instance (Nom du dossier)</li><li>$INST_DIR - Chemin absolu de l'instance</li><li>$INST_MC_DIR - Chemin absolu de Minecraft</li><li>$INST_JAVA - Le binaire de Java utilisé pour le lancement</li><li>$INST_JAVA_ARGS - Paramètres de la ligne de commande utilisés pour le lancement</li></ul><p>La commande wrapper permet de démarrer en utilisant un programme externe (exemple: 'optirun' sur Linux)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -737,7 +737,7 @@ msgstr "Impossible de lancer Minecraft !"
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:110
 msgctxt "DirectJavaLaunch|"
 msgid "Game crashed."
-msgstr "Le jeu a planté."
+msgstr "Le jeu a cessé de fonctionner."
 
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -1346,7 +1346,7 @@ msgstr "L'imbrication des packs de mods n'est pas implémentée. Rien n'a été 
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr "Type de paquet inconnu ou pas pris en charge pour: %1"
+msgstr "Type de paquet inconnu ou non pris en charge pour : %1"
 
 #: src/launcher/InstanceImportTask.cpp:393
 msgctxt "InstanceImportTask|"
@@ -1528,7 +1528,7 @@ msgstr "Divers"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
 msgid "Override global game time settings"
-msgstr "Remplacer les paramètres globaux de l'heure du jeu"
+msgstr "Remplacer les paramètres globaux de temps de jeu"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:442
 msgctxt "InstanceSettingsPage|"
@@ -1720,7 +1720,7 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr "Vous n'avez pas sélectionné une version de Java ou avez sélectionné quelque chose qui ne fonctionne pas.\n"
+msgstr "Vous n'avez pas sélectionné une version de Java ou vous avez sélectionné quelque chose qui ne fonctionne pas.\n"
 "%1 ne pourra pas lancer Minecraft.\n"
 "Voulez-vous continuer sans Java ?\n\n"
 "Vous pourrez ultérieurement changer la version de Java dans les paramètres.\n"
@@ -1812,7 +1812,7 @@ msgstr "Aucun compte"
 #: src/launcher/LaunchController.cpp:58
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr "Afin de jouer à Minecraft, vous devez avoir au moins un compte Mojang ou Minecraft connecté à MultiMC. Voulez-vous ouvrir le gestionnaire de comptes pour ajouter un compte maintenant ?"
+msgstr "Pour jouer à Minecraft, vous devez avoir au moins un compte Mojang ou Minecraft connecté. Souhaitez-vous ouvrir le gestionnaire de compte pour ajouter un compte maintenant ?"
 
 #: src/launcher/LaunchController.cpp:77
 msgctxt "LaunchController|"
@@ -1886,7 +1886,7 @@ msgstr "Le compte a expiré et doit être reconnecté manuellement."
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr "Rafraîchissement du compte échoué"
+msgstr "Échec de rafraîchissement du compte"
 
 #: src/launcher/LaunchController.cpp:226
 msgctxt "LaunchController|"
@@ -4000,7 +4000,7 @@ msgstr "processArguments possède une valeur inconnu '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "La valeur 'minimumLauncherVersion' de cette version (%1) est plus élevée que celle supportée par %3 (%2). Cela pourrait ne pas fonctionner correctement !"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4101,14 +4101,16 @@ msgstr "La restauration a échoué !"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Impossible de remplacer le fichier %1. Les modifications vont être annulées.\n"
+"Voir le fichier journal %2 pour plus de détails."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Impossible de supprimer le fichier %1. Les modifications vont être annulées.\n"
+"Voir le fichier journal %2 pour plus de détails."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
@@ -4131,13 +4133,13 @@ msgstr "La restauration a également échoué.\n"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1min %2s"
 
 #: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1h %2min"
 
 #: src/launcher/MMCTime.cpp:37
 #, qt-format
@@ -5554,25 +5556,25 @@ msgstr "Impossible d'analyser la réponse d'autorisation pour accéder aux servi
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "Le serveur a modifié le hash d'autorisation de l'utilisateur %1 dans la réponse. Quelque chose ne va pas."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr ""
+msgstr "Autorisation d'accès à %1 accordée"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "Impossible d'analyser la réponse d'erreur d'autorisation de %1 comme JSON : %2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "L'élément XErr est manquant dans la réponse d'erreur d'autorisation de %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
@@ -5598,7 +5600,8 @@ msgstr "Ce compte Microsoft est mineur et n'est pas lié à une famille.\n\n"
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "L'authentification XSTS s'est terminée par un(des) erreur(s) non reconnue(s) :\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
@@ -5663,7 +5666,7 @@ msgstr "Opération d’authentification annulée."
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>Échec de la négociation SSL.</b><br/>Il peut y avoir plusieurs causes à cela :<br/><ul><li>Vous utilisez Windows et vous devez mettre à jour vos certificats racine</li><li>Un appareil de votre réseau interfère avec le trafic SSL. Dans ce cas, vous avez de plus grands soucis qu'un problème de démarrage de Minecraft.</li><li>Peut-être quelque chose d'autre. Consultez le fichier journal pour plus de détails</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
