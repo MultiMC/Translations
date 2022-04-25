@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2022-04-25 12:59\n"
+"PO-Revision-Date: 2022-04-25 13:29\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -714,7 +714,7 @@ msgstr "أمر المُغَلّف:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body dir=\"rtl\"><p>أمر قبل-التشغيل، يؤدي مهمة معينة قبل أن يتم تشغيل النموذج، أما أمر بعد-الإنتهاء فيتم تأديته بعد توقف النموذج عن العمل</p><p>يتم استدعاء الأمران داخل مشغل العمل مع دعم المتغيرات والعوامل الآتية:</p><ul><li>$INST_NAME - اسم النموذج</li><li>$INST_ID - رمز تعريف النموذج (ألا وهو اسم مجلد النموذج)</li><li>$INST_DIR - مسار النموذج الثابت</li><li>$INST_MC_DIR - مسار ماينكرافت الثابت</li><li>$INST_JAVA - الجافا المستخدم لتشغيل النموذج</li><li>$INST_JAVA_ARGS - مدخلات سطر الأوامر المستخدمة في التشغيل</li></ul><p>أمر المُغَلِّف يسمح بالتشغيل باستخدام برامج مُغَلِّفَة إضافية (مثل 'optirun' على نظام لينكس)</p></body></html>"
+msgstr "<html><head/><body dir=\"rtl\"><p>أمر قبل-التشغيل، يؤدي مهمة معينة قبل أن يتم تشغيل النسخة، أما أمر بعد-الإنتهاء فيتم تأديته بعد توقف النسخة</p><p>يتم استدعاء الأمران داخل مشغل العمل مع دعم المتغيرات والعوامل التالية:</p><ul><li>$INST_NAME - اسم النسخة</li><li>$INST_ID - رمز تعريف النسخة(ألا وهو اسم مجلد النموذج)</li><li>$INST_DIR - مسار النسخة الثابت</li><li>$INST_MC_DIR - مسار ماينكرافت الثابت</li><li>$INST_JAVA - الجافا المستخدم لتشغيل النسخة</li><li>$INST_JAVA_ARGS - مدخلات سطر الأوامر المستخدمة في التشغيل</li></ul><p>أمر المُغَلِّف يسمح بالتشغيل باستخدام برامج مُغَلِّفَة إضافية (مثل 'optirun' على نظام لينكس)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1538,12 +1538,12 @@ msgstr "إظهار الوقت المقضي في تشغيل هذا المظهر"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:449
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
-msgstr ""
+msgstr "سجل الوقت المنقضي في تشغيل هذه النسخة"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
 msgid "Set a server to join on launch"
-msgstr ""
+msgstr "تعيين خادم للانضمام عند التشغيل"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:479
 msgctxt "InstanceSettingsPage|"
@@ -1720,7 +1720,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "لم تقم بتحديد إصدار الجافا أو قمت بتحديد إصدار لا يعمل.\n"
+"%1 لن يستطيع MultiMC تشغيل ماينكرافت.\n"
+"هل ترغب في المضي قدمًا دون أي جافا؟\n\n"
+"تستطيع تغيير إصدار الجافا في الإعدادات لاحقًا.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1794,7 +1797,7 @@ msgstr "اللغة"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr ""
+msgstr "اختر اللغة التي ترغب في استخدامها في %1"
 
 #: src/launcher/LaunchController.cpp:35
 msgctxt "LaunchController|"
@@ -1809,12 +1812,12 @@ msgstr "لا حسابات متوفرة"
 #: src/launcher/LaunchController.cpp:58
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "للعب ماينكرافت، عليك أن تمتلك حساب موجانغ (Mojang) أو حساب ماينكرافت مسجل. هل تريد فتح مدير الحسابات لإضافة حساب الآن؟"
 
 #: src/launcher/LaunchController.cpp:77
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
-msgstr ""
+msgstr "أي حساب ترغب في استخدامه؟"
 
 #: src/launcher/LaunchController.cpp:101
 msgctxt "LaunchController|"
