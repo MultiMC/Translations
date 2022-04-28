@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2022-04-06 21:25\n"
+"PO-Revision-Date: 2022-04-25 16:39\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -714,7 +714,7 @@ msgstr "أمر المُغَلّف:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body dir=\"rtl\"><p>أمر قبل-التشغيل، يؤدي مهمة معينة قبل أن يتم تشغيل النسخة، أما أمر بعد-الإنتهاء فيتم تأديته بعد توقف النسخة</p><p>يتم استدعاء الأمران داخل مشغل العمل مع دعم المتغيرات والعوامل التالية:</p><ul><li>$INST_NAME - اسم النسخة</li><li>$INST_ID - رمز تعريف النسخة(ألا وهو اسم مجلد النموذج)</li><li>$INST_DIR - مسار النسخة الثابت</li><li>$INST_MC_DIR - مسار ماينكرافت الثابت</li><li>$INST_JAVA - الجافا المستخدم لتشغيل النسخة</li><li>$INST_JAVA_ARGS - مدخلات سطر الأوامر المستخدمة في التشغيل</li></ul><p>أمر المُغَلِّف يسمح بالتشغيل باستخدام برامج مُغَلِّفَة إضافية (مثل 'optirun' على نظام لينكس)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1538,12 +1538,12 @@ msgstr "إظهار الوقت المقضي في تشغيل هذا المظهر"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:449
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
-msgstr ""
+msgstr "سجل الوقت المنقضي في تشغيل هذه النسخة"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
 msgid "Set a server to join on launch"
-msgstr ""
+msgstr "تعيين خادم للانضمام عند التشغيل"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:479
 msgctxt "InstanceSettingsPage|"
@@ -1720,7 +1720,10 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr ""
+msgstr "لم تقم بتحديد إصدار الجافا أو قمت بتحديد إصدار لا يعمل.\n"
+"%1 لن يستطيع MultiMC تشغيل ماينكرافت.\n"
+"هل ترغب في المضي قدمًا دون أي جافا؟\n\n"
+"تستطيع تغيير إصدار الجافا في الإعدادات لاحقًا.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
@@ -1794,7 +1797,7 @@ msgstr "اللغة"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr ""
+msgstr "اختر اللغة التي ترغب في استخدامها في %1"
 
 #: src/launcher/LaunchController.cpp:35
 msgctxt "LaunchController|"
@@ -1809,12 +1812,12 @@ msgstr "لا حسابات متوفرة"
 #: src/launcher/LaunchController.cpp:58
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "للعب ماينكرافت، عليك أن تمتلك حساب موجانغ (Mojang) أو حساب ماينكرافت مسجل. هل تريد فتح مدير الحسابات لإضافة حساب الآن؟"
 
 #: src/launcher/LaunchController.cpp:77
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
-msgstr ""
+msgstr "أي حساب ترغب في استخدامه؟"
 
 #: src/launcher/LaunchController.cpp:101
 msgctxt "LaunchController|"
@@ -1844,29 +1847,31 @@ msgstr "لم يتم تحديد حالة الجلسة أثناء عملية تس�
 #: src/launcher/LaunchController.cpp:171
 msgctxt "LaunchController|"
 msgid "Play demo?"
-msgstr ""
+msgstr "تشغيل الإصدار التجريبي؟"
 
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
 msgid "This account does not own Minecraft.\n"
 "You need to purchase the game first to play it.\n\n"
 "Do you want to play the demo?"
-msgstr ""
+msgstr "هذا الحساب لا يمتلك ماينكرافت.\n"
+"يجب أن تشتري اللعبة أولا لتلعب.\n\n"
+"هل تريد تشغيل الإصدار التجريبي؟"
 
 #: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Play Demo"
-msgstr ""
+msgstr "تشغيل الإصدار التجريبي"
 
 #: src/launcher/LaunchController.cpp:175
 msgctxt "LaunchController|"
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"
 
 #: src/launcher/LaunchController.cpp:185
 msgctxt "LaunchController|"
 msgid "Launch cancelled - account does not own Minecraft."
-msgstr ""
+msgstr "تم إلغاء التشغيل - الحساب لا يمتلك ماينكرافت."
 
 #: src/launcher/LaunchController.cpp:201
 msgctxt "LaunchController|"
@@ -1876,22 +1881,22 @@ msgstr "اللعب دون اتصال"
 #: src/launcher/LaunchController.cpp:214
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually again."
-msgstr ""
+msgstr "انتهت صلاحية الحساب سجل الدخول يدوياً مرةً أخرى."
 
 #: src/launcher/LaunchController.cpp:217
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
-msgstr ""
+msgstr "فشل تحديث الحساب"
 
 #: src/launcher/LaunchController.cpp:226
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr ""
+msgstr "الحساب لم يعد موجوداً على الخوادم. ربما تم ترحيل هذا الحساب, في هذه الحالة يرجى إضافة الحساب الجديد الذي نقلت حسابك إليه."
 
 #: src/launcher/LaunchController.cpp:229
 msgctxt "LaunchController|"
 msgid "Account gone"
-msgstr ""
+msgstr "ذهب الحساب"
 
 #: src/launcher/LaunchController.cpp:239
 msgctxt "LaunchController|"
@@ -1974,73 +1979,73 @@ msgstr "توقف MultiMC عن متابعة سجلات اللعبة إذ أن ع�
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "الوصول إلى خدمات Mojang."
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:61
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr ""
+msgstr "فشل الحصول على رمز الوصول لماينكرافت: %1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:73
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "فشل تحليل استجابة رمز الوصول إلى ماينكرافت."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
 msgid "Features"
-msgstr ""
+msgstr "المميزات"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
 msgid "Update Settings"
-msgstr ""
+msgstr "تحديث الإعدادات"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:57
 msgctxt "LauncherPage|"
 msgid "Check for updates on start?"
-msgstr ""
+msgstr "التحقق من وجود تحديثات عند البدء؟"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:64
 msgctxt "LauncherPage|"
 msgid "Up&date Channel:"
-msgstr ""
+msgstr "&تحديث القناة:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:81
 msgctxt "LauncherPage|"
 msgid "No channel selected."
-msgstr ""
+msgstr "لم يتم تحديد أي قناة."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:94
 msgctxt "LauncherPage|"
 msgid "Folders"
-msgstr ""
+msgstr "المجلدات"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:100
 msgctxt "LauncherPage|"
 msgid "I&nstances:"
-msgstr ""
+msgstr "&النسخ:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:120
 msgctxt "LauncherPage|"
 msgid "&Mods:"
-msgstr ""
+msgstr "&الإضافات:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:143
 msgctxt "LauncherPage|"
 msgid "&Icons:"
-msgstr ""
+msgstr "&الأيقونات:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:163
 msgctxt "LauncherPage|"
 msgid "Move the data to new location (will restart the launcher)"
-msgstr ""
+msgstr "أُنقل البيانات إلى موقع جديد (سيتم إعادة تشغيل المشغل)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:184
 msgctxt "LauncherPage|"
 msgid "User Interface"
-msgstr ""
+msgstr "واجهة المستخدم"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:190
 msgctxt "LauncherPage|"
@@ -2050,42 +2055,42 @@ msgstr "إشعارات المشغل"
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "Reset hidden notifications"
-msgstr ""
+msgstr "إعادة تعيين الإشعارات المخفية"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
 msgid "Instance view sorting mode"
-msgstr ""
+msgstr "طريقة ترتيب عرض النوافذ"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:218
 msgctxt "LauncherPage|"
 msgid "By &last launched"
-msgstr ""
+msgstr "بحسب &التشغيل الأخير"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:228
 msgctxt "LauncherPage|"
 msgid "By &name"
-msgstr ""
+msgstr "بحسب &الاسم"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:241
 msgctxt "LauncherPage|"
 msgid "Theme"
-msgstr ""
+msgstr "السمة"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:247
 msgctxt "LauncherPage|"
 msgid "&Icons"
-msgstr ""
+msgstr "&الأيقونات"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
 msgid "Default"
-msgstr ""
+msgstr "الإفتراضي"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:272
 msgctxt "LauncherPage|"
 msgid "Simple (Dark Icons)"
-msgstr ""
+msgstr "مبسّط (أيقونات داكنة)‫"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:277
 msgctxt "LauncherPage|"
@@ -2140,7 +2145,7 @@ msgstr "هل تريد إظهار وحدة التحكم عندما تتعطل ا�
 #: src/launcher/ui/pages/global/LauncherPage.ui:391
 msgctxt "LauncherPage|"
 msgid "History limit"
-msgstr ""
+msgstr "الحد الأقصى للتاريخ"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:397
 msgctxt "LauncherPage|"
@@ -2150,7 +2155,7 @@ msgstr "توقف عن التسجيل عندما يتدفق السجل"
 #: src/launcher/ui/pages/global/LauncherPage.ui:410
 msgctxt "LauncherPage|"
 msgid " lines"
-msgstr ""
+msgstr " الأسطر"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:438
 msgctxt "LauncherPage|"
@@ -2185,12 +2190,22 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>يقوم المشغل بإرسال إحصائيات استخدام مجهولة المصدر في كل بداية تشغيل للتطبيق.</p><p>يتم جمع البيانات التالية:</p>\n"
+"<ul>\n"
+"<li>إصدار مشغل النظام.</li>\n"
+"<li>اسم نظام التشغيل وإصداره والهندسة المعمارية.</li>\n"
+"<li>معمارية المعالج ( معمارية النواة في لينكس).</li>\n"
+"<li>حجم ذاكرة النظام.</li>\n"
+"<li>إصدار الجافا والمعمارية وإعدادات الذاكرة.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "مجلد النافذة"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
@@ -2200,7 +2215,7 @@ msgstr "حاولت تحديد مجلد نموذج مساره يحتوي على �
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "هل أنت متأكد أنك تريد استخدام هذا المسار؟ اختيارك لـ\"لا\" سيؤدي إلى إغلاق هذه الواجهة دون التعديل على مسار النافذة."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
@@ -2215,17 +2230,17 @@ msgstr "مجلد المودات"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[شيء/خطأ] خطأ مثير للقلق!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[تجربة/معلومة] رسالة غير ضارة..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[شيء/تحذير] تحذير قد لا يثير القلق كثيرًا."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2243,7 +2258,7 @@ msgstr "تعذر تشغيل ماينكرافت!"
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:163
 msgctxt "LauncherPartLaunch|"
 msgid "Game crashed."
-msgstr ""
+msgstr "تعطلت اللعبة."
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:19
 msgctxt "LegacyFTB::FilterModel|"
@@ -2406,7 +2421,7 @@ msgstr "نموذج من الإصدارات السابقة."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body dir=\"rtl\"><h1>يتوجب الترقية</h1><p>أصبحت MultiMC تدعم إصدارات ماينكرافت القديمة وكل ما قد تحتاجه من المميزات في صيغة النافذة الجديدة (OneSize). كتأثير جانبي لهذا، الصيغة القديمة (Legacy) تم إلغاؤها تمامًا، مما يعني أنه يتوجب عليك ترقية النوافذ القديمة</p><p>سينشأ عن عملية الترقية نافذة جديدة بنفس محتويات النافذة القديمة، ولكن باستخدام الصيغة الجديدة. النافذة القديمة ستبقى موجودة دون تعديلات، تحسبًا في حالة حصول خطأ ما أثناء العملية.</p><p>يرجى الإبلاغ عن أي مشاكل تواجهك على<a href=\"https://github.com/MultiMC/MultiMC5/issues\">صفحة github للمشاكل</a>.</p><p>تستطيع أيضًا استخدام<a href=\"https://discord.gg/GtPmv93\">قناتنا على الديسكورد لإختبار الأخطاء</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2606,43 +2621,43 @@ msgstr "كلمة المرور"
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:20
 msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
-msgstr ""
+msgstr "إضافة حساب Microsoft"
 
 #: src/launcher/ui/dialogs/MSALoginDialog.cpp:83
 #, qt-format
 msgctxt "MSALoginDialog|"
 msgid "<p>Please open up %1 in a browser and put in the code <b>%2</b> to proceed with login.</p>"
-msgstr ""
+msgstr "<p>الرجاء فتح %1 في المتصفح ووضع الرمز <b>%2</b> لمتابعة تسجيل الدخول.</p>"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
 msgid "Logging in with Microsoft account."
-msgstr ""
+msgstr "تسجيل الدخول باستخدام حساب مايكروسوفت."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:86
 msgctxt "MSAStep|"
 msgid "Got "
-msgstr ""
+msgstr "حصل "
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "انتهت عملية مصادقة مستخدم مايكروسوفت بخطأ في الشبكة."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "فشلت مصادقة مستخدم مايكروسوفت - لم يعد المستخدم موجودا."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "فشلت مصادقة مستخدم مايكروسوفت."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "اكتملت مصادقة مستخدم مايكروسوفت بنتيجة غير معترف بها."
 
 #: src/launcher/ui/MainWindow.cpp:258
 msgctxt "MainWindow|"
@@ -2728,7 +2743,7 @@ msgstr "الإبلاغ عن خلل"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "قم بفتح متعقب الأخطاء للإبلاغ عن خلل بـ %1."
 
 #: src/launcher/ui/MainWindow.cpp:352
 msgctxt "MainWindow|"
@@ -2739,7 +2754,7 @@ msgstr "ديسكورد"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "افتح القناة الصوتية %1 على الديسكورد."
 
 #: src/launcher/ui/MainWindow.cpp:362
 msgctxt "MainWindow|"
@@ -2750,19 +2765,19 @@ msgstr "ريديت"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "افتح %1 subreddit."
 
 #: src/launcher/ui/MainWindow.cpp:372
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
-msgstr ""
+msgstr "حول %1"
 
 #: src/launcher/ui/MainWindow.cpp:373
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr ""
+msgstr "أظهر المعلومات حول %1."
 
 #: src/launcher/ui/MainWindow.cpp:378 src/launcher/ui/MainWindow.cpp:679
 msgctxt "MainWindow|"
@@ -2773,7 +2788,7 @@ msgstr "المساعدة"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
-msgstr ""
+msgstr "احصل على المساعدة حيال استخدام %1 أو ماينكرافت."
 
 #: src/launcher/ui/MainWindow.cpp:395
 msgctxt "MainWindow|"
@@ -2784,19 +2799,19 @@ msgstr "تحديث"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
-msgstr ""
+msgstr "تحقق من وجود تحديثات جديدة لـ %1."
 
 #: src/launcher/ui/MainWindow.cpp:406
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
-msgstr ""
+msgstr "الدعم الفني %1"
 
 #: src/launcher/ui/MainWindow.cpp:407
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
-msgstr ""
+msgstr "افتح صفحة %1 على Patreon."
 
 #: src/launcher/ui/MainWindow.cpp:415
 msgctxt "MainWindow|"
@@ -2827,7 +2842,7 @@ msgstr "المزيد من الأخبار..."
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
-msgstr ""
+msgstr "افتح المدونة لقراءة المزيد من الأخبار حول %1."
 
 #: src/launcher/ui/MainWindow.cpp:473
 msgctxt "MainWindow|"
@@ -2887,12 +2902,12 @@ msgstr "تحرير الملاحظات للنموذج المحدد."
 #: src/launcher/ui/MainWindow.cpp:537
 msgctxt "MainWindow|"
 msgid "View Mods"
-msgstr ""
+msgstr "عرض التعديلات"
 
 #: src/launcher/ui/MainWindow.cpp:538
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
-msgstr ""
+msgstr "عرض تعديلات هذه النافذة."
 
 #: src/launcher/ui/MainWindow.cpp:544
 msgctxt "MainWindow|"
@@ -2962,7 +2977,7 @@ msgstr "تصدير النموذج"
 #: src/launcher/ui/MainWindow.cpp:600
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
-msgstr ""
+msgstr "تصدير هذه النافذة كملف مضغوط."
 
 #: src/launcher/ui/MainWindow.cpp:606
 msgctxt "MainWindow|"
@@ -2988,7 +3003,7 @@ msgstr "انسخ النموذج المحدد."
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr ""
+msgstr "%1 - الإصدار %2"
 
 #: src/launcher/ui/MainWindow.cpp:661
 #, qt-format
@@ -3004,7 +3019,7 @@ msgstr "لا يوجد نموذج محدد"
 #: src/launcher/ui/MainWindow.cpp:772
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
-msgstr ""
+msgstr "إجمالي وقت اللعب: 0 ثانية"
 
 #: src/launcher/ui/MainWindow.cpp:875 src/launcher/ui/MainWindow.cpp:1165
 msgctxt "MainWindow|"
@@ -3073,12 +3088,12 @@ msgstr "الاسم"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "التحقق من أهلية نقل الحساب."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "حصلت على أعلام الترحيل"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:703
 msgctxt "MinecraftInstance|"
@@ -3115,13 +3130,13 @@ msgstr "ماينكرافت %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
-msgstr ""
+msgstr "، تم اللعب لـ %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:793
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr ""
+msgstr "، إجمالي اللعب ل %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:798
 msgctxt "MinecraftInstance|"
@@ -3166,22 +3181,22 @@ msgstr "استخدم نسخة النظام من OpenAL"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:140
 msgctxt "MinecraftPage|"
 msgid "Game time"
-msgstr ""
+msgstr "وقت اللعبة"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:146
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing instances"
-msgstr ""
+msgstr "أظهر الوقت المنقضي في تشغيل النافذة"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "أظهر الوقت المنقضي في تشغيل كافة النوافذ"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
 msgid "Record time spent playing instances"
-msgstr ""
+msgstr "سجل الوقت المنقضي في تشغيل هذه النسخة"
 
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3191,27 +3206,27 @@ msgstr "ماينكرافت"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "جلب ملف ماينكرافت الشخصي."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "الحساب لا يحتوي على ملف شخصي لماينكرافت."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "فشل الحصول على الملف الشخصي لـ ماينكرافت جافا."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:77
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "لا يمكن تحليل استجابة ملف ماينكرافت جافا الشخصي"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:89
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "نجح الحصول على الملف الشخصي لماينكرافت جافا."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3359,7 +3374,7 @@ msgstr "فشل في إنشاء ملف Minecraft jar مخصص."
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr ""
+msgstr "فشل العثور على إصدار الحزمة %1"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:97
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3379,12 +3394,12 @@ msgstr "تنزيل إضافة"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:166
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
-msgstr ""
+msgstr "نسخ ملفات حزمة التعديل"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:174
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
-msgstr ""
+msgstr "فشل نسخ الملف"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:179
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3723,51 +3738,52 @@ msgstr "الاسم"
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (قيد الاستخدام)"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "اختر اسم ماينكرافت"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "تحتاج فقط إلى اتخاذ خطوة واحدة أخرى لتتمكن من لعب ماينكرافت في هذا الحساب.\n\n"
+"اختر اسمك بعناية:"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "الاسم قصير جداً - يجب أن يكون بين 3 و 16 حرفاً."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "ملف الشخصي لماينكرافت بالاسم %1 موجود مسبقا."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
-msgstr ""
+msgstr "هذا الاسم %1 غير مسموح به."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:170
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr ""
+msgstr "حالة اسم الملف الشخصي الغير معالجة: %1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
-msgstr ""
+msgstr "فشل التحقق من توفر الاسم."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:251
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
-msgstr ""
+msgstr "أعاد الخادم الخطأ التالي:"
 
 #: src/launcher/ui/dialogs/ProgressDialog.ui:26
 msgctxt "ProgressDialog|"
@@ -3787,7 +3803,7 @@ msgstr "تخطي"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher. Minecraft does not accept proxy settings."
-msgstr ""
+msgstr "ينطبق هذا على المشغل فحسب. أما ماينكرافت فإنها لا تقبل إعدادات الوكيل (بروكسي)."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3842,7 +3858,7 @@ msgstr "كلمة المرور:"
 #: src/launcher/ui/pages/global/ProxyPage.ui:169
 msgctxt "ProxyPage|"
 msgid "Note: Proxy username and password are stored in plain text inside the launcher's configuration file!"
-msgstr ""
+msgstr "ملاحظة: اسم مستخدم الوكيل (بروكسي) وكلمه مروره يتم تخزينهما بالصيغة النصية -دون تشفير- في ملف تكوينات المشغل!"
 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
@@ -3896,7 +3912,7 @@ msgstr "المعيلون (Patrons)"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:37
 msgctxt "QObject|About Credits"
 msgid "Developers"
-msgstr ""
+msgstr "المطورون"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:45
 msgctxt "QObject|About Credits"
@@ -3907,7 +3923,7 @@ msgstr "مع الشكر إلى"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (قيد الاستخدام)"
 
 #: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
 msgctxt "QObject|"
@@ -3983,13 +3999,13 @@ msgstr "لقد تم إعطاء processArguments قيمة مجهولة '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "القيمة 'الحد الأدنى لنسخة المشغل ' لهذا الإصدار (%1) أعلى من القيمة التي يدعمها %3 (%2). قد لا يعمل بشكل صحيح!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
-msgstr ""
+msgstr "تم كسر اسم المكتبة %1 ولا يمكن معالجتها."
 
 #: src/launcher/minecraft/PackProfile.cpp:191
 #, qt-format
@@ -4067,7 +4083,7 @@ msgstr "لا يمكن معالجة ملف الإصدار %1."
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
-msgstr ""
+msgstr "لا يوجد ملف شخصي (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4084,14 +4100,16 @@ msgstr "الرجوع باء بالفشل!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "تعذر استبدال الملف %1. سيتم عكس التغييرات.\n"
+"انظر ملف السجل %2 للحصول على التفاصيل."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "تعذر إزالة الملف %1. سيتم إرجاع التغييرات.\n"
+"راجع ملف السجل %2 للحصول على التفاصيل."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
@@ -4106,25 +4124,27 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "فشل التراجع أيضًا.\n"
+"يجب عليك إصلاح %1 يدوياً.\n"
+"الرجاء إخبارنا لماذا وكيف حدث هذا."
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1د%2s"
 
 #: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1س %2د"
 
 #: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1d %2ساعة %3دقيقة"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4243,22 +4263,22 @@ msgstr "خطأ في واجهة ZIP/UNZIP البرمجية %1"
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
 msgid "Is the resource pack enabled?"
-msgstr ""
+msgstr "هل حزمة الموارد مفعلة؟"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:12
 msgctxt "ResourcePackFolderModel|"
 msgid "The name of the resource pack."
-msgstr ""
+msgstr "اسم حزمة الموارد."
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:14
 msgctxt "ResourcePackFolderModel|"
 msgid "The version of the resource pack."
-msgstr ""
+msgstr "نسخة حزمة الموارد."
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:16
 msgctxt "ResourcePackFolderModel|"
 msgid "The date and time this resource pack was last changed (or added)."
-msgstr ""
+msgstr "تاريخ ووقت آخر تغيير لحزمة الموارد هذه (أو إضافتها)."
 
 #: src/launcher/ui/pages/instance/ResourcePackPage.h:12
 msgctxt "ResourcePackPage|"
@@ -4294,13 +4314,13 @@ msgstr "عرض المجلد"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:84
 msgctxt "ScreenshotsPage|"
 msgid "Copy Image"
-msgstr ""
+msgstr "نسخ الصورة"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:89
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:92
 msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
-msgstr ""
+msgstr "نسخ الملف (الملفات)"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -4425,7 +4445,7 @@ msgstr "التحريك للأسفل"
 #: src/launcher/ui/pages/instance/ServersPage.ui:175
 msgctxt "ServersPage|"
 msgid "Join"
-msgstr ""
+msgstr "الانضمام"
 
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
@@ -4461,12 +4481,12 @@ msgstr "إ&نعاش"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr ""
+msgstr "%1 الإعداد السريع"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
 msgid "Shader packs"
-msgstr ""
+msgstr "حزمة التظليل"
 
 #: src/launcher/minecraft/services/SkinDelete.cpp:20
 msgctxt "SkinDelete|"
@@ -4511,7 +4531,7 @@ msgstr "شخصية أليكس"
 #: src/launcher/ui/dialogs/SkinUploadDialog.ui:77
 msgctxt "SkinUploadDialog|"
 msgid "Cape"
-msgstr ""
+msgstr "الوشاح"
 
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:44
 msgctxt "SkinUploadDialog|"
@@ -4546,7 +4566,7 @@ msgstr "اختر شكل المظهر"
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:120
 msgctxt "SkinUploadDialog|"
 msgid "No Cape"
-msgstr ""
+msgstr "بلا وشاح"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:42
 #, qt-format
@@ -4694,7 +4714,7 @@ msgstr "تعذرت معالحة \"version.json\":\n"
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:32
 msgctxt "TechnicPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "بحث وتصفية ..."
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:39
 msgctxt "TechnicPage|"
@@ -4714,22 +4734,22 @@ msgstr "Technic"
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
 msgid "Is the texture pack enabled?"
-msgstr ""
+msgstr "هل حزمة الرسوميات مفعلة؟"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:12
 msgctxt "TexturePackFolderModel|"
 msgid "The name of the texture pack."
-msgstr ""
+msgstr "اسم حزمة الرسوميات."
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:14
 msgctxt "TexturePackFolderModel|"
 msgid "The version of the texture pack."
-msgstr ""
+msgstr "نسخة حزمة الرسوميات."
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
 msgid "The date and time this texture pack was last changed (or added)."
-msgstr ""
+msgstr "تاريخ ووقت آخر تغيير لحزمة الرسوميات هذه (أو إضافتها)."
 
 #: src/launcher/ui/pages/instance/TexturePackPage.h:12
 msgctxt "TexturePackPage|"
@@ -4870,17 +4890,17 @@ msgstr "فانيلا"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr ""
+msgstr "ماينكرافت 1.18 قبل الإصدار 2 وما فوقه تتطلب استخدام جافا 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr ""
+msgstr "ماينكرافت 21w19a وما فوقها تتطلب استخدام جافا 16"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a and above require the use of Java 8"
-msgstr ""
+msgstr "ماينكرافت 17w13a أ وما فوقها تتطلب استخدام جافا 8"
 
 #: src/launcher/ui/widgets/VersionListView.cpp:26
 msgctxt "VersionListView|"
@@ -4890,7 +4910,7 @@ msgstr "لا يوجد إصدارات متوفرة حاليًا."
 #: src/launcher/ui/pages/instance/VersionPage.ui:60
 msgctxt "VersionPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "المرشّح:"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:82
 msgctxt "VersionPage|"
@@ -5517,179 +5537,181 @@ msgstr "أدخل اسم جديد للعالم."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "الحصول على إذن للوصول إلى خدمات %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %2."
-msgstr ""
+msgstr "فشل الحصول على إذن خدمات %1. خطأ %2."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "لا يمكن تحليل استجابة الإذن للوصول إلى خدمات %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "قام الخادم بتغيير %1 إذن المستخدم في الرد. هناك خطأ ما."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr ""
+msgstr "حصلت على إذن للوصول إلى %1"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "لا يمكن تحليل %1 رد خطأ في التفويض كJSON:%2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "عنصر XErr مفقود من %1 رد خطأ في التخويل."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "حساب مايكروسوفت هذا ليس لديه ملف تعريف مباشر لـ XBox. اشتري اللعبة في %1 أولا."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "XBox Live غير متوفر في بلدك. لقد تم حظرك."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:143
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "حساب مايكروسوفت هذا دون السن القانونية ولا يرتبط بعائلة.\n\n"
+"الرجاء إعداد حسابك وفقا لـ %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:151
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "انتهت مصادقة XSTS بأخطاء غير معروفة:\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr ""
+msgstr "جلب ملف Xbox الشخصي."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "فشل استرداد ملف Xbox الشخصي."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr ""
+msgstr "الحصول على ملف Xbox الشخصي"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
 msgid "Logging in as an Xbox user."
-msgstr ""
+msgstr "تسجيل الدخول كمستخدم Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:56
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "فشلت مصادقة مستخدم Xbox."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "تعذر فهم استجابة مصادقة المستخدم XBox."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:67
 msgctxt "XboxUserStep|"
 msgid "Got Xbox user token"
-msgstr ""
+msgstr "الحصول على بطاقة مصادقة مستخدم Xbox"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:188
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "خادم المصادقة لم يرسل رمز بطاقة مصادقة العميل."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:195
 msgctxt "Yggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "حاول خادم المصادقة تغيير بطاقة المصادقة للعميل. هذا غير مدعوم."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:204
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "خادم المصادقة لم يرسل رمز بطاقة مصادقة الوصول."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:226
 msgctxt "Yggdrasil|"
 msgid "Authentication operation timed out."
-msgstr ""
+msgstr "انتهت مهلة عملية المصادقة."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:229
 msgctxt "Yggdrasil|"
 msgid "Authentication operation cancelled."
-msgstr ""
+msgstr "تم إلغاء عملية المصادقة."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>مصافحة SSL فشلت.</b><br/>قد تكون هناك بعض الأسباب لها:<br/><ul><li>أنت تستخدم ويندوز وتحتاج إلى تحديث شهادات الجذر، الرجاء تثبيت أي تحديثات معلقة.</li><li>بعض الأجهزة على الشبكة الخاصة بك تتداخل مع حركة مرور SSL. في هذه الحالة، لديك مخاوف أكبر من عدم بدء تشغيل Minecraft.</li><li>ربما شيء آخر. تحقق من ملف السجل للحصول على التفاصيل</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
 msgid "The Mojang account no longer exists. It may have been migrated to a Microsoft account."
-msgstr ""
+msgstr "حساب Mojang لم يعد موجودا. ربما تم تحويله إلى حساب ماينكرافت."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:258
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr ""
+msgstr "عملية المصادقة باءت بالفشل بسبب خطأ في الشابكة: %1 (%2)"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:283
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "فشل تحليل مصادقة رد الخادم JSON: %1 عند خصم %2."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:307
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "حدث خطأ غير معروف عند محاولة التواصل مع خادم المصادقة: %1"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:329
 msgctxt "Yggdrasil|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "حدث خطأ مجهول في عملية Yggdrasil."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:17
 msgctxt "YggdrasilStep|"
 msgid "Logging in with Mojang account."
-msgstr ""
+msgstr "تسجيل الدخول باستخدام حساب Mojang."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
 msgid "Logged in with Mojang"
-msgstr ""
+msgstr "تم تسجيل الدخول باستخدام Mojang"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "فشلت مصادقة مستخدم Mojang."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
-msgstr ""
+msgstr "انتهت عملية مصادقة مستخدم Mojangبخطأ في الشبكة."
 
