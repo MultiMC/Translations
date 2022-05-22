@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2022-05-22 15:16\n"
+"PO-Revision-Date: 2022-05-22 15:26\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3216,17 +3216,17 @@ msgstr "A fióknak nincs Minecraft profilja."
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "A Minecraft Java profil beszerzése sikertelen."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:77
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "A Minecraft Java-profil válasza nem értelmezhető"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:89
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "A Minecraft Java profil beszerzése sikerült."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3374,7 +3374,7 @@ msgstr "Nem sikerült létrehozni az egyéni Minecraft jar fájlt."
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr ""
+msgstr "Nem sikerült megtalálni a csomag %1 verzióját"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:97
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3394,12 +3394,12 @@ msgstr "Mod letöltés"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:166
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
-msgstr ""
+msgstr "Modpack fájlok másolása"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:174
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
-msgstr ""
+msgstr "Nem sikerült másolni a fájlokat"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:179
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3739,35 +3739,36 @@ msgstr "Név"
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (használatban)"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "Válassza a Minecraft nevet"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "Csak még egy lépést kell tenned, hogy ezen a fiókon tudj Minecraftot játszani.\n\n"
+"Gondosan válassza ki a nevét:"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr ""
+msgstr "A név túl rövid – 3 és 16 karakter közötti hosszúságúnak kell lennie."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr ""
+msgstr "A %1 nevű Minecraft profil már létezik."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
-msgstr ""
+msgstr "A %1 név nem engedélyezett."
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:170
 #, qt-format
@@ -5174,7 +5175,7 @@ msgstr "Jelenleg nem állnak rendelkezésre közvetítő leképezési verziók."
 #: src/launcher/ui/pages/instance/VersionPage.cpp:370
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
-msgstr ""
+msgstr "Nem sikerült betölteni vagy letölteni a közvetítő leképezések verziólistáit!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:398
 msgctxt "VersionPage|"
@@ -5431,22 +5432,22 @@ msgstr "&Mappák megnézése"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:137
 msgctxt "WorldListPage|"
 msgid "Reset Icon"
-msgstr ""
+msgstr "Ikon visszaállítása"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
 msgid "Remove world icon to make the game re-generate it on next load."
-msgstr ""
+msgstr "Távolítsa el a világ ikont, hogy a játék újragenerálja a következő betöltéskor."
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:145
 msgctxt "WorldListPage|"
 msgid "Datapacks"
-msgstr ""
+msgstr "Adatcsomagok"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:148
 msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
-msgstr ""
+msgstr "Adatcsomagok kezelése a világon."
 
 #: src/launcher/ui/pages/instance/WorldListPage.h:45
 msgctxt "WorldListPage|"
@@ -5538,179 +5539,181 @@ msgstr "Adjon meg egy új világnevet."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "Engedély megszerzése a %1 szolgáltatások eléréséhez."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %2."
-msgstr ""
+msgstr "Nem sikerült jogosultságot szerezni a %1 szolgáltatásokhoz. Hiba %2."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "Could not parse authorization response for access to %1 services."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "Server has changed %1 authorization user hash in the reply. Something is wrong."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Got authorization to access %1"
-msgstr ""
+msgstr "Engedélyt kapott a %1 eléréséhez"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:109
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr ""
+msgstr "Cannot parse %1 authorization error response as JSON: %2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:119
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "Az XErr elem hiányzik a %1 engedélyezési hibaválaszból."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:127
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "Ez a Microsoft-fiók nem rendelkezik XBox Live profillal. Először vásárolja meg a játékot a %1 webhelyen."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "Az XBox Live nem érhető el az Ön országában. Letiltották."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:143
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "Ez a Microsoft-fiók kiskorú, és nincs családhoz kötve.\n\n"
+"Kérjük, állítsa be fiókját a %1 szerint."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:151
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "Az XSTS hitelesítés fel nem ismert hibával (hibákkal) fejeződött be:\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr ""
+msgstr "Xbox-profil lekérése."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "Nem sikerült lekérni az Xbox-profilt."
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr ""
+msgstr "Megvan az Xbox profil"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
 msgid "Logging in as an Xbox user."
-msgstr ""
+msgstr "Bejelentkezés Xbox felhasználóként."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:56
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication failed."
-msgstr ""
+msgstr "Az XBox felhasználó hitelesítése nem sikerült."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "Az XBox felhasználói hitelesítési válasza nem értelmezhető."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:67
 msgctxt "XboxUserStep|"
 msgid "Got Xbox user token"
-msgstr ""
+msgstr "Megvan az Xbox felhasználói token"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:188
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "A hitelesítési kiszolgáló nem küldött kliens tokent."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:195
 msgctxt "Yggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "A hitelesítési szerver megpróbálta megváltoztatni a kliens tokent. Ez nem támogatott."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:204
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "A hitelesítési szerver nem küldött hozzáférési tokent."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:226
 msgctxt "Yggdrasil|"
 msgid "Authentication operation timed out."
-msgstr ""
+msgstr "A hitelesítési művelet lejárt."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:229
 msgctxt "Yggdrasil|"
 msgid "Authentication operation cancelled."
-msgstr ""
+msgstr "A hitelesítési művelet megszakadt."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>Az SSL kézfogás meghiúsult.</b><br/>Több oka lehet ennek:<br/><ul><li>Windows rendszert használ, és frissítenie kell a gyökértanúsítványait. Kérjük, telepítse a függőben lévő frissítéseket.</li><li>A hálózaton lévő egyes eszközök zavarják az SSL-forgalmat. Ebben az esetben nagyobb aggodalma van, mint az, hogy a Minecraft nem indul el.</li><li>Lehet, hogy valami más. A részletekért ellenőrizze a naplófájlt</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
 msgid "The Mojang account no longer exists. It may have been migrated to a Microsoft account."
-msgstr ""
+msgstr "A Mojang-fiók már nem létezik. Lehetséges, hogy áttelepítették egy Microsoft-fiókba."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:258
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr ""
+msgstr "A hitelesítési művelet hálózati hiba miatt nem sikerült: %1 (%2)"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:283
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "Nem sikerült elemezni a hitelesítési szerver válasz JSON válaszát: %1 az %2 eltolásnál."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:307
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "Ismeretlen hiba történt a hitelesítési szerverrel való kommunikáció során: %1"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:329
 msgctxt "Yggdrasil|"
 msgid "An unknown Yggdrasil error occurred."
-msgstr ""
+msgstr "Ismeretlen Yggdrasil hiba történt."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:17
 msgctxt "YggdrasilStep|"
 msgid "Logging in with Mojang account."
-msgstr ""
+msgstr "Bejelentkezés Mojang fiókkal."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:34
 msgctxt "YggdrasilStep|"
 msgid "Logged in with Mojang"
-msgstr ""
+msgstr "Mojanggal bejelentkezve"
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:43
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication failed."
-msgstr ""
+msgstr "A Mojang felhasználó hitelesítése nem sikerült."
 
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
-msgstr ""
+msgstr "A Mojang felhasználói hitelesítés hálózati hibával ért véget."
 
