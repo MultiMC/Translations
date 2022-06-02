@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
-"PO-Revision-Date: 2022-06-02 07:30\n"
+"PO-Revision-Date: 2022-06-02 07:40\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -48,7 +48,7 @@ msgstr "ไม่พบเวอร์ชันโหลดเดอร์ %1"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:229
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "ไม่ได้ตั้งค่าเวอร์ชันตัวโหลดสำหรับ modpack!"
+msgstr "ไม่มีค่ากำหนดเวอร์ชันโหลดเดอร์ของม็อดแพ็ค!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:333
 #, qt-format
@@ -122,7 +122,7 @@ msgstr "กำลังติดตั้งม็อดแพ็ค"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:732
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
-msgstr "ไม่สามารถสร้างส่วนประกอบไลบรารี"
+msgstr "ล้มเหลวในการสร้างส่วนประกอบไลบรารี"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:756
 msgctxt "ATLauncher::PackInstallTask|"
@@ -132,7 +132,7 @@ msgstr "ประเภทโหลดเดอร์ที่ไม่รู้
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:770
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
-msgstr "สร้างองค์ประกอบแพ็คไม่สำเร็จ"
+msgstr "ล้มเหลวในการสร้างองค์ประกอบแพ็ค"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:97
 msgctxt "AboutDialog|"
@@ -142,7 +142,7 @@ msgstr "เกี่ยวกับ"
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>ลอนเชอร์พิเศษที่ช่วยให้การจัดการ Minecraft ง่ายดายมากขึ้น ทำให้คุณสามารถมี Minecraft ได้หลายอินสแตนซ์ในคราวเดียว</p></body></html>"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
@@ -221,13 +221,13 @@ msgid "<p>We keep MultiMC open source because we think it's important to be able
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 msgstr "<p>เราทำให้ MultiMC เป็นโอเพ่นซอร์ส เพราะเราคิดว่าการที่สามารถดูซอร์สโค้ดของโปรเจ็กต์เช่นนี้ได้ ถือว่าเป็นเรื่องสำคัญ และเราทำเช่นนั้นด้วยการใช้ใบอนุญาต Apache</p>\n"
-"<p>เหตุผลส่วนหนึ่งในการใช้ใบอนุญาต Apache คือเราไม่ต้องการให้ผู้อื่นใช้ชื่อ &quot;MultiMC&quot; เมื่อจะทำการแจกจ่ายโปรเจ็กต์ใหม่ ซึ่งหมายความว่าคนคนนั้นจะต้องใช้เวลาในการค้นหาซอร์สโค้ดและลบข้อความที่มีการอ้างอิงถึง &quot;MultiMC&quot; ทั้งหมดออก ซึ่งรวมถึงทั้งไอคอนโปรเจ็กต์และชื่อหน้าต่าง (จะต้องไม่ใช้ชื่อ <b>MultiMC-fork</b>)</p>\n"
+"<p>เหตุผลส่วนหนึ่งในการใช้ใบอนุญาต Apache คือเราไม่ต้องการให้ผู้อื่นใช้ชื่อ &quot;MultiMC&quot; ซึ่งหมายความว่าเมื่อจะทำการแจกจ่ายโปรเจ็กต์ใหม่ คนคนนั้นจะต้องใช้เวลาในการค้นหาซอร์สโค้ดและลบข้อความที่มีการอ้างอิงถึง &quot;MultiMC&quot; ทั้งหมดออก ซึ่งรวมถึงทั้งไอคอนโปรเจ็กต์และชื่อหน้าต่าง (จะต้องไม่มี <b>MultiMC-fork</b> ในชื่อ)</p>\n"
 "<p>ใบอนุญาต Apache ครอบคลุมการใช้ชื่ออย่างสมเหตุสมผล - การกล่าวถึงที่มาของโครงการในกล่องไดอะล็อก \"เกี่ยวกับ\" และใบอนุญาตใหม่เป็นที่ยอมรับได้ อย่างไรก็ตาม ควรมีข้อความบอกชัดเจนให้ประจักษ์ชัดว่าโครงการนี้เป็นโครงการแยก <b>โดยห้าม</b>เออออไปเองว่าโครงการเป็นโครงการที่ได้รับการสนับสนุนจากโครงการหลัก</p>"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:277
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
-msgstr ""
+msgstr "ยังไม่ยืนยัน"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
@@ -257,7 +257,7 @@ msgstr "หมดอายุ"
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr ""
+msgstr "หายไป"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
