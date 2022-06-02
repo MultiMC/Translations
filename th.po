@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
-"PO-Revision-Date: 2022-06-02 07:40\n"
+"PO-Revision-Date: 2022-06-02 07:53\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -262,7 +262,7 @@ msgstr "หายไป"
 #: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Can Migrate?"
 msgid "N/A"
-msgstr "N/A"
+msgstr "ไม่ทราบ"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Can Migrate?"
@@ -272,7 +272,7 @@ msgstr "ใช่"
 #: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Can Migrate?"
 msgid "No"
-msgstr "ไม่ใช่"
+msgstr "ไม่"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:346
 msgctxt "AccountList|"
@@ -292,7 +292,7 @@ msgstr "สถานะ"
 #: src/launcher/minecraft/auth/AccountList.cpp:352
 msgctxt "AccountList|"
 msgid "Can Migrate?"
-msgstr "โยกย้ายได้?"
+msgstr "Migrate ได้?"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:354
 msgctxt "AccountList|"
@@ -317,12 +317,12 @@ msgstr "สถานะของบัญชีในขณะนี้"
 #: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
 msgid "Can this account migrate to Microsoft account?"
-msgstr "บัญชีนี้สามารถโยกย้ายไปยังบัญชี Microsoft ได้หรือไม่?"
+msgstr "บัญชีนี้สามารถ Migrate ไปยังบัญชี Microsoft ได้หรือไม่?"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:371
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
-msgstr "ชื่อของโปรไฟล์ Minecraft ที่เชื่อมโยงกับบัญชี"
+msgstr "ชื่อของโปรไฟล์ Minecraft ที่เชื่อมโยงกับบัญชีผู้ใช้"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
@@ -377,7 +377,7 @@ msgstr "รีเฟรชโทเค็นของบัญชี"
 #: src/launcher/ui/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
-msgstr "บัญชี"
+msgstr "บัญชีผู้ใช้"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:46
 msgctxt "AccountListPage|"
@@ -395,7 +395,7 @@ msgstr "เมนูเนื้อหา"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:146
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr "กรุณาป้อนอีเมลและรหัสผ่าน Minecraft เพื่อเพิ่มบัญชี"
+msgstr "กรุณาป้อนอีเมลและรหัสผ่าน Minecraft เพื่อเพิ่มบัญชีผูัใช้"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:135
 msgctxt "AccountListPage|"
@@ -406,7 +406,7 @@ msgstr "บัญชี Microsoft ไม่พร้อมใช้งาน"
 msgctxt "AccountListPage|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
-msgstr "บัญชี Microsoft ใช้งานได้บน macOS 10.13 หรือใหม่กว่าเท่านั้น, ด้วย MultiMC ที่อัปเดตอย่างเต็มที่\n"
+msgstr "บัญชี Microsoft ใช้งานได้บน macOS 10.13 หรือใหม่กว่าเท่านั้นด้วย MultiMC ที่อัปเดตเวอร์ชันล่าสุด\n\n"
 "โปรดอัปเดตทั้งระบบปฏิบัติการและ MultiMC ของคุณ"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
@@ -427,17 +427,17 @@ msgstr "กำลังส่งคำขอไปยังเซิร์ฟเ
 #: src/launcher/minecraft/auth/AccountTask.cpp:43
 msgctxt "AccountTask|"
 msgid "Authentication task succeeded."
-msgstr "การเข้าสู่ระบบสำเร็จ"
+msgstr "ตรวจสอบสิทธิ์สำเร็จ"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:45
 msgctxt "AccountTask|"
 msgid "Failed to contact the authentication server."
-msgstr "ไม่สามารถติดต่อเซิร์ฟเวอร์การตรวจสอบสิทธิ์"
+msgstr "ไม่สามารถติดต่อเซิร์ฟเวอร์ตรวจสอบสิทธิ์"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "พบข้อผิดพลาดระหว่างการตรวจสอบสิทธิ์"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
@@ -458,7 +458,7 @@ msgstr "..."
 #, qt-format
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
-msgstr ""
+msgstr "สถานะงานบัญชีที่ไม่รู้จัก: %1"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
