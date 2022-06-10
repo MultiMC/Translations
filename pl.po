@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
-"PO-Revision-Date: 2022-06-09 22:49\n"
+"PO-Revision-Date: 2022-06-10 14:01\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -262,7 +262,7 @@ msgstr "Nieobecny"
 #: src/launcher/minecraft/auth/AccountList.cpp:298
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
-msgstr ""
+msgstr "Wymuszona migracja"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Can Migrate?"
@@ -447,7 +447,7 @@ msgstr "Wystąpił błąd podczas uwierzytelniania."
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr ""
+msgstr "Nie udało się zalogować. Konto musi zostać przeniesione na konto Microsoft, aby można było z niego korzystać."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -973,17 +973,17 @@ msgstr "Nie udało się utworzyć folderu dla binarek Minecrafta."
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:15
 msgctxt "ForcedMigrationStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Sprawdzanie możliwości do migracji."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Konto musi zostać przeniesione na konto Microsoft."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
 msgid "Got forced migration flags"
-msgstr ""
+msgstr "Otrzymane flagi wymuszonej migracji"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1123,7 +1123,7 @@ msgstr "Ikony %1"
 #: src/launcher/ui/pages/modplatform/import_ftb/FTBAPage.h:41
 msgctxt "ImportFTB::FTBAPage|"
 msgid "FTB App Import"
-msgstr ""
+msgstr "Importuj z aplikacji FTB"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -1148,7 +1148,7 @@ msgstr "Wybierz modpack"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr ""
+msgstr "ZIP (*.zip *.mrpack)"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1230,7 +1230,7 @@ msgstr "Importowanie instancji zostało anulowane."
 #: src/launcher/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
-msgstr ""
+msgstr "Nie można zrozumieć indeksu paczki:\n"
 
 #: src/launcher/InstanceImportTask.cpp:368
 msgctxt "InstanceImportTask|"
@@ -1696,7 +1696,7 @@ msgstr "Nie wybrano instancji!"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr ""
+msgstr "Podano nieprawidłowe argumenty Javy. Proszę najpierw to naprawić."
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -1795,12 +1795,12 @@ msgstr "Konto zniknęło"
 #: src/launcher/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Konto musi zostać przeniesione na konto Microsoft."
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Account requires migration"
-msgstr ""
+msgstr "Konto wymaga migracji"
 
 #: src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
@@ -2482,7 +2482,7 @@ msgstr "Logi Minecrafta"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1 (0x%2)."
-msgstr ""
+msgstr "Proces zakończony z kodem %1 (0x%2)."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2494,34 +2494,34 @@ msgstr "Proces został nieoczekiwanie zamknięty."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr ""
+msgstr "Proces uległ awarii z kodem wyjścia %1 (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "Below is an analysis of the exit code. THIS MAY BE INCORRECT AND SHOULD BE TAKEN WITH A GRAIN OF SALT!"
-msgstr ""
+msgstr "Poniżej znajduje się analiza kodu wyjścia. To może być niepoprawne i powinno być traktowane z przymrużeniem oka!"
 
 #: src/launcher/LoggedProcess.cpp:99
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code name: %1"
-msgstr ""
+msgstr "Nazwa kodu wyjścia systemu: %1"
 
 #: src/launcher/LoggedProcess.cpp:104
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code description: %1"
-msgstr ""
+msgstr "Opis kodu wyjścia systemu: %1"
 
 #: src/launcher/LoggedProcess.cpp:109
 msgctxt "LoggedProcess|"
 msgid "Please note that usually neither the exit code, nor its description are enough to diagnose issues!"
-msgstr ""
+msgstr "Należy pamiętać, że do debugowania problemów zwykle nie wystarczy podać tylko kod wyjścia lub jego opis!"
 
 #: src/launcher/LoggedProcess.cpp:110
 msgctxt "LoggedProcess|"
 msgid "Always upload the entire log and not just the exit code."
-msgstr ""
+msgstr "Zawsze przesyłaj cały log, a nie tylko kod wyjścia."
 
 #. Message displayed after the instance exits due to kill request
 #: src/launcher/LoggedProcess.cpp:115
@@ -3304,57 +3304,57 @@ msgstr "Nie udało się utworzyć zmodyfikowanego pliku Minecraft jar."
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "Wyszukaj i filtruj..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:26
 msgctxt "ModrinthPage|"
 msgid "Search"
-msgstr ""
+msgstr "Szukaj"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:70
 msgctxt "ModrinthPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Wybrana wersja:"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
-msgstr ""
+msgstr "Modrinth"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
-msgstr ""
+msgstr "Sortuj według trafności"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:40
 msgctxt "ModrinthPage|"
 msgid "Sort by total downloads"
-msgstr ""
+msgstr "Sortuj według sumy pobrań"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:41
 msgctxt "ModrinthPage|"
 msgid "Sort by follow count"
-msgstr ""
+msgstr "Sortuj wg liczby obserwowanych"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:42
 msgctxt "ModrinthPage|"
 msgid "Sort by creation date"
-msgstr ""
+msgstr "Sortuj według daty utworzenia"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:43
 msgctxt "ModrinthPage|"
 msgid "Sort by last updated"
-msgstr ""
+msgstr "Sortuj według ostatniej aktualizacji"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:165
 msgctxt "ModrinthPage|"
 msgid "Failed to get Modrinth modpack details..."
-msgstr ""
+msgstr "Nie udało się uzyskać szczegółów paczki modów od Modrinth..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:169
 msgctxt "ModrinthPage|"
 msgid "Loading..."
-msgstr ""
+msgstr "Ładuję..."
 
 #: src/launcher/net/NetJob.cpp:128
 #, qt-format
@@ -3936,7 +3936,7 @@ msgstr "Serwer Minecrafta"
 #: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
-msgstr ""
+msgstr "Brak opisu w instancji aplikacji FTB."
 
 #: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
@@ -4118,7 +4118,8 @@ msgstr "Ostrzeżenie o argumentach JVM"
 msgctxt "QObject|"
 msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
 "This message will be displayed until you remove this from the JVM arguments."
-msgstr ""
+msgstr "Podjęto próbę przekazania argumentu wersji Java do JVM (przy użyciu \"-version=xxx\"). Jest to niebezpieczne i nie będzie dozwolone.\n"
+"Ten komunikat będzie wyświetlany, dopóki argument nie zostanie usunięty z argumentów JVM."
 
 #: src/launcher/JavaCommon.cpp:37
 #, qt-format
@@ -4971,12 +4972,12 @@ msgstr "Zainstaluj pakiet Fabric Loadera."
 #: src/launcher/ui/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
 msgid "Install Quilt"
-msgstr ""
+msgstr "Zainstaluj Quilt"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:201
 msgctxt "VersionPage|"
 msgid "Install the Quilt Loader package."
-msgstr ""
+msgstr "Zainstaluj pakiet Quilt Loadera."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:206
 msgctxt "VersionPage|"
@@ -5186,17 +5187,17 @@ msgstr "Nie udało się załadować lub pobrać listy wersji Fabric Loadera!"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:481
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
-msgstr ""
+msgstr "Wybierz wersję Quilt Loadera"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:482
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
-msgstr ""
+msgstr "Brak aktualnie dostępnych wersji Quilt Loadera."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:483
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
-msgstr ""
+msgstr "Nie udało się załadować lub pobrać listy wersji Quilt Loadera!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
