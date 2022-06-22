@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
-"PO-Revision-Date: 2022-06-21 16:13\n"
+"PO-Revision-Date: 2022-06-22 00:11\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -25,13 +25,13 @@ msgstr "Não foi possível entender o manifesto do pacote:\n"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr "Falha ao obter o índice de meta dados local para %1"
+msgstr "Falha ao obter o índice de metadados locais para %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:108
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "Falha ao obter o índice de meta dados local para '%1' v%2"
+msgstr "Falha ao obter o índice de metadados locais em \"%1\" v%2"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:170
 #, qt-format
@@ -43,18 +43,18 @@ msgstr "Tipo de mod desconhecido: %1"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr "Não foi possível localizar a versão do loader %1"
+msgstr "Falha ao buscar a versão para o loader %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:229
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "Nenhuma versão do loader definida para o modpack!"
+msgstr "Nenhuma versão do loader definida nessa versão!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:333
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown or unsupported download type: %1"
-msgstr "Tipo de download desconhecido ou não suportado: %1"
+msgstr "Tipo de download desconhecido ou incompatível: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:450
 msgctxt "ATLauncher::PackInstallTask|"
@@ -96,7 +96,7 @@ msgstr "Transferência do mod"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unsupported download type: %1"
-msgstr "Tipo de download não suportado: %1"
+msgstr "Tipo de download incompatível: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:555
 #, qt-format
@@ -122,7 +122,7 @@ msgstr "A instalar modpack"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:767
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
-msgstr "Falha ao criar componente de bibliotecas"
+msgstr "Falha ao criar o componente de bibliotecas"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:791
 msgctxt "ATLauncher::PackInstallTask|"
@@ -132,7 +132,7 @@ msgstr "Tipo de loader desconhecido: "
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:805
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
-msgstr "Falha ao criar componente de pacote"
+msgstr "Falha ao criar o componente do modpack"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:97
 msgctxt "AboutDialog|"
@@ -142,7 +142,7 @@ msgstr "Acerca"
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>Um launcher personalizado que facilita o gerenciamento do Minecraft ao permitir ter múltiplas instâncias do Minecraft de uma só vez.</p></body></html>"
+msgstr "<html><head/><body><p>Um launcher para usuários avançados que facilita o uso de várias instâncias do Minecraft.</p></body></html>"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
@@ -312,7 +312,7 @@ msgstr "Nome de utilizador da conta."
 #: src/launcher/minecraft/auth/AccountList.cpp:368
 msgctxt "AccountList|"
 msgid "Type of the account - Mojang or MSA."
-msgstr "Tipo de conta - Mojang ou MSA."
+msgstr "Tipo de conta (MSA ou Mojang)."
 
 #: src/launcher/minecraft/auth/AccountList.cpp:370
 msgctxt "AccountList|"
@@ -447,7 +447,7 @@ msgstr "Ocorreu um erro durante a autenticação."
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr ""
+msgstr "Falha ao autenticar-se. Para continuar jogando, migre para uma conta Microsoft."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -973,12 +973,12 @@ msgstr "Falha ao criar a pasta de binários do Minecraft."
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:15
 msgctxt "ForcedMigrationStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "A verificar a possibilidade de migração."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Migra para uma conta Microsoft."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
@@ -1230,7 +1230,7 @@ msgstr "A importação da instância foi cancelada."
 #: src/launcher/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
-msgstr ""
+msgstr "Não foi possível entender o índice do pacote:\n"
 
 #: src/launcher/InstanceImportTask.cpp:368
 msgctxt "InstanceImportTask|"
@@ -1696,7 +1696,7 @@ msgstr "Nenhuma instância especificada!"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr ""
+msgstr "Os argumentos Java fornecidos são inválidos. Ajuste-os primeiro."
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -1795,7 +1795,7 @@ msgstr "Conta terminada"
 #: src/launcher/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Migra para uma conta Microsoft."
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
@@ -1989,7 +1989,7 @@ msgstr "&Ícones"
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
 msgid "Default"
-msgstr ""
+msgstr "Predefinida"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:272
 msgctxt "LauncherPage|"
@@ -2482,7 +2482,7 @@ msgstr "Registo do Minecraft"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1 (0x%2)."
-msgstr ""
+msgstr "O processo foi encerrado com o código %1 (0x%2)."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2494,12 +2494,12 @@ msgstr "O processo parou de funcionar."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr ""
+msgstr "O processo parou de funcionar com o código de saída %1 (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "Below is an analysis of the exit code. THIS MAY BE INCORRECT AND SHOULD BE TAKEN WITH A GRAIN OF SALT!"
-msgstr ""
+msgstr "Segue abaixo a análise do código de saída. AS INFORMAÇÕES PODEM ESTAR INCORRETAS E SÃO DUVIDOSAS!"
 
 #: src/launcher/LoggedProcess.cpp:99
 #, qt-format
@@ -2511,17 +2511,17 @@ msgstr "Nome do código de saída do sistema: %1"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code description: %1"
-msgstr ""
+msgstr "Descrição do código de saída do sistema: %1"
 
 #: src/launcher/LoggedProcess.cpp:109
 msgctxt "LoggedProcess|"
 msgid "Please note that usually neither the exit code, nor its description are enough to diagnose issues!"
-msgstr ""
+msgstr "Lembre-se de que o código de saída e a descrição são insuficientes para diagnosticar problemas!"
 
 #: src/launcher/LoggedProcess.cpp:110
 msgctxt "LoggedProcess|"
 msgid "Always upload the entire log and not just the exit code."
-msgstr ""
+msgstr "Sempre faça o upload completo do log e não só o código de saída."
 
 #. Message displayed after the instance exits due to kill request
 #: src/launcher/LoggedProcess.cpp:115
@@ -3349,7 +3349,7 @@ msgstr "Ordenar por última atualização"
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:165
 msgctxt "ModrinthPage|"
 msgid "Failed to get Modrinth modpack details..."
-msgstr ""
+msgstr "Falha ao obter os detalhes do modpack da Modrinth..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:169
 msgctxt "ModrinthPage|"
@@ -3938,7 +3938,7 @@ msgstr "Servidor de Minecraft"
 #: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
-msgstr ""
+msgstr "A instância do FTB App não contém uma descrição."
 
 #: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
@@ -4120,7 +4120,8 @@ msgstr "Aviso de argumentos da JVM"
 msgctxt "QObject|"
 msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
 "This message will be displayed until you remove this from the JVM arguments."
-msgstr ""
+msgstr "Você tentou enviar o argumento da versão Java necessário para a JVM (com \"-version=xxx\"). Isso não será permitido por segurança.\n"
+"A mensagem será exibida até que você remova isso dos argumentos da JVM."
 
 #: src/launcher/JavaCommon.cpp:37
 #, qt-format
@@ -4407,7 +4408,7 @@ msgstr "Mover para baixo"
 #: src/launcher/ui/pages/instance/ServersPage.ui:175
 msgctxt "ServersPage|"
 msgid "Join"
-msgstr ""
+msgstr "Entrar"
 
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
@@ -4978,7 +4979,7 @@ msgstr "Instalar Quilt"
 #: src/launcher/ui/pages/instance/VersionPage.ui:201
 msgctxt "VersionPage|"
 msgid "Install the Quilt Loader package."
-msgstr ""
+msgstr "Instalar o pacote do Quilt Loader."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:206
 msgctxt "VersionPage|"
@@ -5193,12 +5194,12 @@ msgstr "Selecionar versão do Quilt Loader"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:482
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
-msgstr ""
+msgstr "Nenhuma versão do Quilt Loader está disponível atualmente."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:483
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
-msgstr ""
+msgstr "Não foi possível carregar ou baixar a lista de versões do Quilt Loader."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
