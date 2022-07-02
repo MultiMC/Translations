@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
-"PO-Revision-Date: 2022-07-02 14:21\n"
+"PO-Revision-Date: 2022-07-02 15:21\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -220,57 +220,59 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr ""
+msgstr "<p>MultiMC ohranjamo odprtokoden, saj menimo, da je pomembno, da je možno videti izvorno kodo za tak projekt. To dosežemo z uporabo Apache licence. </p>\n"
+"<p>Del razloga za uporabo Apache licence je, da nočemo, da bi ljudje uporabljali ime &quot;MultiMC&quot;, ko bi razširjali projekt. To pomeni, da si morajo ljudje vzeti čas, iti čez izvorno kodo in odstraniti vse reference do &quot;MultiMC&quot;, vključno z in ne omejeno na ikono projekta in naslov okna (nobenega <b>MultiMC-fork</b> v naslovu).</p>\n"
+"<p>Apache licenca pokriva razumevajočo uporabo imena - omemba izvora projekta v O dialogu in licenci je sprejemljivo. Vendar mora biti zelo jasno, da je ta projekt fork <b>brez</b> namigovanja, da imaš naše dovoljenje.</p>"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:277
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
-msgstr ""
+msgstr "Neoznačen"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr ""
+msgstr "Brez povezave"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:283
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr ""
+msgstr "Povezan"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
 msgid "Working"
-msgstr ""
+msgstr "Delam"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:289
 msgctxt "AccountList|Account status"
 msgid "Errored"
-msgstr ""
+msgstr "Napaka"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:292
 msgctxt "AccountList|Account status"
 msgid "Expired"
-msgstr ""
+msgstr "Potekel"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr ""
+msgstr "Odsoten"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:298
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
-msgstr ""
+msgstr "Mora biti migriran"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Can Migrate?"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Can Migrate?"
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Can Migrate?"
@@ -285,7 +287,7 @@ msgstr "Račun"
 #: src/launcher/minecraft/auth/AccountList.cpp:351
 msgctxt "AccountList|"
 msgid "Type"
-msgstr ""
+msgstr "Vrsta"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:353
 msgctxt "AccountList|"
@@ -681,143 +683,143 @@ msgstr ""
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
-msgstr ""
+msgstr "Kopiraj svetove"
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:122
 msgctxt "CopyInstanceDialog|"
 msgid "Keep play time"
-msgstr ""
+msgstr "Ohrani čas igranja"
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
-msgstr ""
+msgstr "Ni skupine"
 
 #: src/launcher/minecraft/launch/CreateGameFolders.cpp:18
 msgctxt "CreateGameFolders|"
 msgid "Couldn't create the main game folder"
-msgstr ""
+msgstr "Glavne mape za igro ni bilo mogoče ustvariti"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
 msgid "Cus&tom Commands"
-msgstr ""
+msgstr "Uka&zi po meri"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr ""
+msgstr "Ukaz po izhodu:"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
 msgid "Pre-launch command:"
-msgstr ""
+msgstr "Ukaz pred zagonom:"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr ""
+msgstr "Wrapper ukaz:"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Ukaz pred zagonom se izvede, preden se zažene instanca, ukaz po zagonu pa se zažene, ko se zaustavi.</p><p>Oba bosta zagnana v delovni mapi zaganjalnika z dodatnimi okoljskimi spremenljivkami:</p><ul><li>$INST_NAME - Ime instance</li><li>$INST_ID - ID instance (ime mape)</li><li>$INST_DIR - absolutna pot do instance</li><li>$INST_MC_DIR - absolutna pot minecrafta</li><li>$INST_JAVA - java uporabljena za zagon</li><li>$INST_JAVA_ARGS - parametri ukazne vrtice, uporabljeni za zagon</li></ul><p>Wrapper ukazi omogočajo zagon z dodatnim wrapper programom (kot 'optirun' na Linuxu)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr ""
+msgstr "Ukazi po meri"
 
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr ""
+msgstr "Wrapper ukaz \"%1\" ni bilo mogoče najti."
 
 #. Error message displayed if instance can't start
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:91
 msgctxt "DirectJavaLaunch|"
 msgid "Could not launch minecraft!"
-msgstr ""
+msgstr "Ni bilo mogoče zagnati minecraft!"
 
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:100
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:110
 msgctxt "DirectJavaLaunch|"
 msgid "Game crashed."
-msgstr ""
+msgstr "Igra se je sesula."
 
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Login"
-msgstr ""
+msgstr "Prijava"
 
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
 msgid "Email"
-msgstr ""
+msgstr "E-pošta"
 
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
 msgid "Password"
-msgstr ""
+msgstr "Geslo"
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:14
 msgctxt "EntitlementsStep|"
 msgid "Determining game ownership."
-msgstr ""
+msgstr "Določanje lastništva igre."
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr ""
+msgstr "Pridobljene novice"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
-msgstr ""
+msgstr "Izvozi instanco"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:384
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
-msgstr ""
+msgstr "Izvozi %1"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
-msgstr ""
+msgstr "Prepiši?"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "Datoteka že obstaja. Jo želiš prepisati?"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
-msgstr ""
+msgstr "Napaka"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
-msgstr ""
+msgstr "Instance ni bilo mogoče izvoziti"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:96
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:133
 msgctxt "ExternalToolsPage|"
 msgid "Check"
-msgstr ""
+msgstr "Kontrola"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr ""
+msgstr "Zunanju urejevalniki (pusti prazno za sistemsko privzet)"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
-msgstr ""
+msgstr "Urejevalnik besedila:"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.h:37
 msgctxt "ExternalToolsPage|"
@@ -970,17 +972,17 @@ msgstr "Izdelava mape za minecraft binarne datoteke je bila neuspešna."
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:15
 msgctxt "ForcedMigrationStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Preverjanje primernosti migracije."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Račun mora biti migriran na Microsoftov račun."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
 msgid "Got forced migration flags"
-msgstr ""
+msgstr "Pridobil vsiljene migracijske zastave"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1021,7 +1023,7 @@ msgstr "Opazovalni način"
 #, qt-format
 msgctxt "GameType|"
 msgid "Unknown (%1)"
-msgstr ""
+msgstr "Neznan (%1)"
 
 #: src/launcher/minecraft/World.cpp:82
 msgctxt "GameType|"
