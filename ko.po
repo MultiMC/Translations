@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2022-06-09 22:49\n"
+"PO-Revision-Date: 2022-07-03 08:29\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -262,7 +262,7 @@ msgstr "사라짐"
 #: src/launcher/minecraft/auth/AccountList.cpp:298
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
-msgstr ""
+msgstr "마이그레이션을 해야합니다."
 
 #: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Can Migrate?"
@@ -405,7 +405,7 @@ msgstr "계정을 추가하기 위해 Mojang 계정 이메일과 비밀번호를
 #: src/launcher/ui/pages/global/AccountListPage.cpp:135
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
-msgstr "마이크로소프트 계정은 사용할 수 없습니다."
+msgstr "Microsoft 계정은 사용할 수 없습니다."
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:136
 msgctxt "AccountListPage|"
@@ -446,7 +446,7 @@ msgstr "인증 중 오류가 발생했습니다."
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr ""
+msgstr "인증에 실패하였습니다. 계정을 사용하려면 Microsoft 계정에 마이그레이션 해야합니다."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -972,17 +972,17 @@ msgstr "마인크래프트 바이너리 폴더를 생성할 수 없습니다."
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:15
 msgctxt "ForcedMigrationStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "마이그레이션 자격 확인중."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "계정을 사용하려면 Microsoft 계정에 마이그레이션 해야합니다."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
 msgid "Got forced migration flags"
-msgstr ""
+msgstr "강제 마이그레이션 플래그 받기"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1122,7 +1122,7 @@ msgstr "아이콘(들) %1"
 #: src/launcher/ui/pages/modplatform/import_ftb/FTBAPage.h:41
 msgctxt "ImportFTB::FTBAPage|"
 msgid "FTB App Import"
-msgstr ""
+msgstr "FTB App 가져오기"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -1147,7 +1147,7 @@ msgstr "모드팩 선택"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr ""
+msgstr "압축파일 (*.zip *.mrpack)"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1229,7 +1229,7 @@ msgstr "인스턴스 읽어들이기가 중단되었습니다."
 #: src/launcher/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
-msgstr ""
+msgstr "팩 index를 해석하지 못함:\n"
 
 #: src/launcher/InstanceImportTask.cpp:368
 msgctxt "InstanceImportTask|"
@@ -1695,7 +1695,7 @@ msgstr "선택한 인스턴스 없음!"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr ""
+msgstr "잘못된 Java 인수를 지정했습니다. 이것을 우선적으로 고쳐주세요."
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -1705,7 +1705,7 @@ msgstr "계정 없음"
 #: src/launcher/LaunchController.cpp:61
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr "마인크래프트를 이용하시려면, 반드시 최소 하나 이상의 모장 또는 마인크래프트 계정으로 로그인해야합니다. 계정 추가를 위해 계정 관리자를 여시겠습니까?"
+msgstr "마인크래프트를 이용하시려면, 반드시 최소 하나 이상의 Mojang 또는 마인크래프트 계정으로 로그인해야합니다. 계정 추가를 위해 계정 관리자를 여시겠습니까?"
 
 #: src/launcher/LaunchController.cpp:80
 msgctxt "LaunchController|"
@@ -1794,12 +1794,12 @@ msgstr "계정이 없어짐"
 #: src/launcher/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "계정을 사용하려면 Microsoft 계정에 마이그레이션 해야합니다."
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Account requires migration"
-msgstr ""
+msgstr "마이그레이션이 필요한 계정입니다."
 
 #: src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
@@ -2481,7 +2481,7 @@ msgstr "마인크래프트 로그"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1 (0x%2)."
-msgstr ""
+msgstr "마인크래프트가 종료 코드 %1 (0x%2) 와(과) 함께 종료했습니다."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2493,34 +2493,34 @@ msgstr "프로세스가 충돌했습니다."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr ""
+msgstr "프로세스가 종료 코드 %1 (0x%2) 와(과) 함께 충돌했습니다."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "Below is an analysis of the exit code. THIS MAY BE INCORRECT AND SHOULD BE TAKEN WITH A GRAIN OF SALT!"
-msgstr ""
+msgstr "아래는 종료 코드에 대한 분석입니다. 분석은 정확하지 않을 수 있으므로, 그대로 받아들이면 안됩니다!"
 
 #: src/launcher/LoggedProcess.cpp:99
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code name: %1"
-msgstr ""
+msgstr "시스템 종료 코드 이름: %1"
 
 #: src/launcher/LoggedProcess.cpp:104
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code description: %1"
-msgstr ""
+msgstr "시스템 종료 코드 설명: %1"
 
 #: src/launcher/LoggedProcess.cpp:109
 msgctxt "LoggedProcess|"
 msgid "Please note that usually neither the exit code, nor its description are enough to diagnose issues!"
-msgstr ""
+msgstr "일반적으로 종료 코드나 종료 코드 설명만으로는 문제를 진단할 수 없습니다!"
 
 #: src/launcher/LoggedProcess.cpp:110
 msgctxt "LoggedProcess|"
 msgid "Always upload the entire log and not just the exit code."
-msgstr ""
+msgstr "종료 코드뿐만 아니라 전체 로그를 항상 업로드합니다."
 
 #. Message displayed after the instance exits due to kill request
 #: src/launcher/LoggedProcess.cpp:115
@@ -3303,57 +3303,57 @@ msgstr "커스텀 마인크래프트 jar 파일을 생성하는 데에 실패하
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "검색 및 필터..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:26
 msgctxt "ModrinthPage|"
 msgid "Search"
-msgstr ""
+msgstr "검색"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:70
 msgctxt "ModrinthPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "선택된 버전:"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
-msgstr ""
+msgstr "Modrinth"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
-msgstr ""
+msgstr "연관성으로 정렬"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:40
 msgctxt "ModrinthPage|"
 msgid "Sort by total downloads"
-msgstr ""
+msgstr "다운로드 수순 정렬"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:41
 msgctxt "ModrinthPage|"
 msgid "Sort by follow count"
-msgstr ""
+msgstr "팔로우 수로 정렬"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:42
 msgctxt "ModrinthPage|"
 msgid "Sort by creation date"
-msgstr ""
+msgstr "만든 날짜 순으로 정렬"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:43
 msgctxt "ModrinthPage|"
 msgid "Sort by last updated"
-msgstr ""
+msgstr "최신 업데이트로 정렬"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:165
 msgctxt "ModrinthPage|"
 msgid "Failed to get Modrinth modpack details..."
-msgstr ""
+msgstr "Modrinth 모드팩 세부 정보를 가져오지 못했습니다..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:169
 msgctxt "ModrinthPage|"
 msgid "Loading..."
-msgstr ""
+msgstr "불러오는 중…"
 
 #: src/launcher/net/NetJob.cpp:128
 #, qt-format
@@ -3937,7 +3937,7 @@ msgstr "마인크래프트 서버"
 #: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
-msgstr ""
+msgstr "FTB App 인스턴스에 설명이 없습니다."
 
 #: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
@@ -4120,7 +4120,8 @@ msgstr "JVM 명령줄 인수 경고"
 msgctxt "QObject|"
 msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
 "This message will be displayed until you remove this from the JVM arguments."
-msgstr ""
+msgstr "당신은 JVM에 java 버전 인수를 사용하려 했습니다. (해당 인수: \"-version=xxx\"). 이 인수은 안전하지 않으며 허용되지 않습니다.\n"
+"이 메시지는 JVM 인수에서 이 인수를 제거할 때까지 표시됩니다."
 
 #: src/launcher/JavaCommon.cpp:37
 #, qt-format
@@ -4972,12 +4973,12 @@ msgstr "패브릭 로더 패키지를 설치합니다."
 #: src/launcher/ui/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
 msgid "Install Quilt"
-msgstr ""
+msgstr "퀼트 로더 설치"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:201
 msgctxt "VersionPage|"
 msgid "Install the Quilt Loader package."
-msgstr ""
+msgstr "퀼트 로더 패키지를 설치합니다."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:206
 msgctxt "VersionPage|"
@@ -5187,17 +5188,17 @@ msgstr "패브릭 로더 버전 목록을 불러오거나 다운로드하는 데
 #: src/launcher/ui/pages/instance/VersionPage.cpp:481
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
-msgstr ""
+msgstr "퀼트 로더 버전을 선택하세요"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:482
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
-msgstr ""
+msgstr "현재 사용가능한 퀼트 로더 버전(들)이 없습니다."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:483
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
-msgstr ""
+msgstr "퀼트 로더 버전 목록을 불러오거나 다운로드하는 데에 실패하였습니다!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
