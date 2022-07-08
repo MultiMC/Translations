@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2022-07-05 09:10\n"
+"PO-Revision-Date: 2022-07-08 17:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -483,7 +483,7 @@ msgstr "Keräämme käyttäjistä joitakin anonyymejä tilastotietoja."
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>Sovellus lähettää anonyymejä käyttötilastoja jokaisella käynnistyskerralla. Tämä auttaa meitä päättämään, mihin alustoihin ja ongelmiin keskittyä.</p><p>Data prosessoidaan Googlen analytiikalla, katso heidän<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">artikkelinsa aiheesta </a>.</p><p>Seuraavat tiedot kerätään:</p><ul><li>Satunnainen ainutlaatuinen ID asennuksesta.<br />Se varastoidaan sovelluksen asetustiedostoihin.</li><li>Anonymoitu (osittainen) IP-osoite.</li><li>Sovelluksen versio.</li><li>Käyttöjärjestelmän nimi, versio ja arkkitehtuuri.</li><li>Prosessorin arkkitehtuuri (kernelin arkkitehtuuri Linuxilla).</li><li>RAM-muistin määrä.</li><li>Javan versio, arkkitehtuuri ja muistin asetukset.</li></ul><p>Jos muutamme kerättäviä tietoja, näet tämän sivun uudestaan.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -973,12 +973,12 @@ msgstr "Kansion luonti Minecraft-binääreille epäonnistui."
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:15
 msgctxt "ForcedMigrationStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Tarkistetaan siirtokelpoisuutta."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Käyttäjä täytyy siirtää Microsoft-käyttäjäksi."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
@@ -1148,7 +1148,7 @@ msgstr "Valitse modipaketti"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr ""
+msgstr "Zip (*.zip *.mrpack)"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1696,7 +1696,7 @@ msgstr "Peliversiota ei ole määritetty!"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr ""
+msgstr "Virheellisiä Java-argumentteja määritetty. Korjaa tämä ensin."
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -1706,7 +1706,7 @@ msgstr "Ei tilejä"
 #: src/launcher/LaunchController.cpp:61
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr ""
+msgstr "Pelataksesi Minecraftia sinulla täytyy olla vähintään yksi Mojang- tai Microsoft-tili sisäänkirjautuneena. Haluatko avata käyttäjien hallinnan lisätäksesi käyttäjän nyt?"
 
 #: src/launcher/LaunchController.cpp:80
 msgctxt "LaunchController|"
@@ -1741,14 +1741,16 @@ msgstr "Vastaanotettiin määrittämätön istuntotila kirjauduttaessa sisään.
 #: src/launcher/LaunchController.cpp:183
 msgctxt "LaunchController|"
 msgid "Play demo?"
-msgstr ""
+msgstr "Pelaa demoa?"
 
 #: src/launcher/LaunchController.cpp:184
 msgctxt "LaunchController|"
 msgid "This account does not own Minecraft.\n"
 "You need to purchase the game first to play it.\n\n"
 "Do you want to play the demo?"
-msgstr ""
+msgstr "Tällä käyttäjällä ei ole Minecraftia.\n"
+"Sinun täytää ostaa peli ensin pelataksesi sitä.\n\n"
+"Haluatko pelata demoa?"
 
 #: src/launcher/LaunchController.cpp:186
 msgctxt "LaunchController|"
@@ -1758,12 +1760,12 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:187
 msgctxt "LaunchController|"
 msgid "Cancel"
-msgstr ""
+msgstr "Peruuta"
 
 #: src/launcher/LaunchController.cpp:197
 msgctxt "LaunchController|"
 msgid "Launch cancelled - account does not own Minecraft."
-msgstr ""
+msgstr "Käynnistys peruutettu - käyttäjä ei omista Minecraftia."
 
 #: src/launcher/LaunchController.cpp:213
 msgctxt "LaunchController|"
@@ -1793,12 +1795,12 @@ msgstr "Tili poistettu"
 #: src/launcher/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Käyttäjä täytyy siirtää Microsoft-tiliksi."
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Account requires migration"
-msgstr ""
+msgstr "Käyttäjä täytyy siirtää"
 
 #: src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
@@ -1881,7 +1883,7 @@ msgstr "MultiMC keskeytti pelilokin tarkkailun, koska lokin pituus ylitti %1 riv
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr ""
+msgstr "Haetaan Mojangin palveluita."
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:60
 #, qt-format
@@ -1897,17 +1899,17 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
 msgid "Features"
-msgstr ""
+msgstr "Ominaisuudet"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
 msgid "Update Settings"
-msgstr ""
+msgstr "Päivitysasetukset"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:57
 msgctxt "LauncherPage|"
 msgid "Check for updates on start?"
-msgstr ""
+msgstr "Tarkista päivitykset käynnistettäessä?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:64
 msgctxt "LauncherPage|"
@@ -1952,7 +1954,7 @@ msgstr "Käyttöliittymä"
 #: src/launcher/ui/pages/global/LauncherPage.ui:190
 msgctxt "LauncherPage|"
 msgid "Launcher notifications"
-msgstr ""
+msgstr "Sovelluksen ilmoitukset"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
@@ -1977,12 +1979,12 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:241
 msgctxt "LauncherPage|"
 msgid "Theme"
-msgstr ""
+msgstr "Teema"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:247
 msgctxt "LauncherPage|"
 msgid "&Icons"
-msgstr ""
+msgstr "&Kuvakkeet"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
@@ -2012,32 +2014,32 @@ msgstr "Yksinkertainen (Värilliset kuvakkeet)"
 #: src/launcher/ui/pages/global/LauncherPage.ui:307
 msgctxt "LauncherPage|"
 msgid "Custom"
-msgstr ""
+msgstr "Mukautettu"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:328
 msgctxt "LauncherPage|"
 msgid "Colors"
-msgstr ""
+msgstr "Värit"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:355
 msgctxt "LauncherPage|"
 msgid "Console"
-msgstr ""
+msgstr "Konsoli"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:361
 msgctxt "LauncherPage|"
 msgid "Console Settings"
-msgstr ""
+msgstr "Konsolin asetukset"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:367
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
-msgstr ""
+msgstr "Näytä konsoli pelin ollessa käynnissä?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:374
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
-msgstr ""
+msgstr "Sulje konsoli automaattisesti kun peli sammuu?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:381
 msgctxt "LauncherPage|"
@@ -2047,7 +2049,7 @@ msgstr "Näytä konsoli pelin kaatuessa?"
 #: src/launcher/ui/pages/global/LauncherPage.ui:391
 msgctxt "LauncherPage|"
 msgid "History limit"
-msgstr ""
+msgstr "Historian rajoitus"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:397
 msgctxt "LauncherPage|"
@@ -2062,22 +2064,22 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:438
 msgctxt "LauncherPage|"
 msgid "Console font"
-msgstr ""
+msgstr "Konsolin fontti"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:490
 msgctxt "LauncherPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "Analytiikka"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:496
 msgctxt "LauncherPage|"
 msgid "Analytics Settings"
-msgstr ""
+msgstr "Analytiikan asetukset"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:502
 msgctxt "LauncherPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "Lähetä anonyymejä käyttötilastoja?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:516
 msgctxt "LauncherPage|"
@@ -2092,17 +2094,28 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>Sovellus lähettää anonyymejä käyttötilastoja jokaisen käynnistyksen yhteydessä.</p><p>Seuraavat tiedot kerätään:\n"
+"</p>\n"
+"<ul>\n"
+"<li>Sovelluksen versio.</li>\n"
+"<li>Käyttöjärjestelmän nimi, versio ja arkkitehtuuri.</li>\n"
+"<li>Prosessorin arkkitehtuuri (kernelin arkitehtuuri Linuxilla).</li>\n"
+"<li>RAM-muistin määrä.</li>\n"
+"<li>Javan version, arkiitehtuuri ja muistiasetukset.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Pelipakettikansio"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Yrität määrittää pelipakettikansion, jonka polussa on vähintään yksi '!'. Javan tiedetään aiheuttavan ongelmia tällaisissa tapauksissa, joten sinun pelipakettisi eivät (luultavasti) käynnisty!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
@@ -2922,7 +2935,7 @@ msgstr "Kopioi valittu pelipaketti."
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr ""
+msgstr "%1- Versio %2"
 
 #: src/launcher/ui/MainWindow.cpp:661
 #, qt-format
@@ -2938,7 +2951,7 @@ msgstr "Pelipakettia ei ole valittu"
 #: src/launcher/ui/MainWindow.cpp:772
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
-msgstr ""
+msgstr "Pelaamisaikaa yhteensä"
 
 #: src/launcher/ui/MainWindow.cpp:875 src/launcher/ui/MainWindow.cpp:1165
 msgctxt "MainWindow|"
@@ -3110,7 +3123,7 @@ msgstr "Näytä instansseja pelattu aika"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr ""
+msgstr "Näytä kaikkien pelipakettien yhteenlaskettu pelaamisaika"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
@@ -3125,7 +3138,7 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Haetaan Minecraft-profiilia."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
