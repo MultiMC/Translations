@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
-"PO-Revision-Date: 2022-07-02 13:21\n"
+"PO-Revision-Date: 2022-07-16 20:33\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -447,7 +447,7 @@ msgstr "Autentifikācijas laikā konstatēta kļūda."
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr ""
+msgstr "Nevarēja autentificēt. Kontam ir jābūt migrētam uz Microsoft kontu, lai to varētu lietot."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -973,12 +973,12 @@ msgstr "Neizdevās izveidot mapi priekš Minecraft binārajiem failiem."
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:15
 msgctxt "ForcedMigrationStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Pārbauda migrācijas pieejamību."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Kontam jābūt migrētam uz Microsoft kontu."
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
@@ -1123,7 +1123,7 @@ msgstr "Ikonas %1"
 #: src/launcher/ui/pages/modplatform/import_ftb/FTBAPage.h:41
 msgctxt "ImportFTB::FTBAPage|"
 msgid "FTB App Import"
-msgstr ""
+msgstr "FTB App Imports"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -1230,7 +1230,7 @@ msgstr "Instances imports tika apstādināts."
 #: src/launcher/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
-msgstr ""
+msgstr "Nevarēja saprast pakas indeksu:\n"
 
 #: src/launcher/InstanceImportTask.cpp:368
 msgctxt "InstanceImportTask|"
@@ -1696,7 +1696,7 @@ msgstr "Nav specificētas instances!"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr ""
+msgstr "Nepareizi Java argumenti specificēti. Vispirms šo salabojiet."
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -1741,29 +1741,31 @@ msgstr "Saņemts nenoteikts sesijas statuss pieslēgšanās laikā."
 #: src/launcher/LaunchController.cpp:183
 msgctxt "LaunchController|"
 msgid "Play demo?"
-msgstr ""
+msgstr "Spēlēt demo režīmā?"
 
 #: src/launcher/LaunchController.cpp:184
 msgctxt "LaunchController|"
 msgid "This account does not own Minecraft.\n"
 "You need to purchase the game first to play it.\n\n"
 "Do you want to play the demo?"
-msgstr ""
+msgstr "Šim kontam nepieder Minecraft.\n"
+"Lai spēlētu, jums ir jāiegādājas Minecraft.\n\n"
+"Vai jūs vēlaties spēlēt demo versiju?"
 
 #: src/launcher/LaunchController.cpp:186
 msgctxt "LaunchController|"
 msgid "Play Demo"
-msgstr ""
+msgstr "Spēlēt demo režīmā"
 
 #: src/launcher/LaunchController.cpp:187
 msgctxt "LaunchController|"
 msgid "Cancel"
-msgstr ""
+msgstr "Atcelt"
 
 #: src/launcher/LaunchController.cpp:197
 msgctxt "LaunchController|"
 msgid "Launch cancelled - account does not own Minecraft."
-msgstr ""
+msgstr "Palaišana atcelta - kontam nepieder Minecraft."
 
 #: src/launcher/LaunchController.cpp:213
 msgctxt "LaunchController|"
@@ -1793,12 +1795,12 @@ msgstr "Konts pazudis"
 #: src/launcher/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Kontam jābūt migrētam uz Microsoft kontu."
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Account requires migration"
-msgstr ""
+msgstr "Kontam nepieciešama migrācija"
 
 #: src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
@@ -1987,7 +1989,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
 msgid "Default"
-msgstr ""
+msgstr "Noklusējums"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:272
 msgctxt "LauncherPage|"
@@ -2107,17 +2109,17 @@ msgstr "<html><head/>\n"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Instances Mape"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Jūs mēģināt atlasīt instances mapi, kuras ceļā ir vismaz viens '!'. Līdz ar to, Java varētu būt problēmas, un instance (visticamāk) nepalaidīsies!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Vai tiešām vēlaties izmantot šo ceļu? Izvēloties \"Nē\" šis tiks aizvērts, un nemainīs jūsu instances ceļu."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
@@ -2323,7 +2325,7 @@ msgstr "Instance no iepriekšējām versijām."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Atjauninājums ir nepieciešams</h1><p>MultiMC tagad atbalsta vecās Minecraft versijas un visas nepieciešamās funkcijas jaunajā (OneSix) instanču formātā. Kā sekas, vecais (Legacy) formāts ir pilnībā izslēgts un vecās instances ir nepieciešams atjaunināt.</p><p>Atjauninājums izveidos jaunu instanci ar to pašu saturu kā iepriekšējo instanci, bet jaunajā formātā. Vecajai instancei nekas nenotiks, ja nu kaut kas aiziet greizi procesā.</p><p>Lūdzu paziņojiet par kļūdām mūsu <a href=\"https://github.com/MultiMC/Launcher/issues\"> github problēmu lapā</a>.</p><p>Ir arī <a href=\"https://discord.gg/GtPmv93\">discord kanāls priekš testēšanas</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2492,7 +2494,7 @@ msgstr "Process nogāja greizi."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr ""
+msgstr "Process nobruka ar kodu %1 (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
