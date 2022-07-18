@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
-"PO-Revision-Date: 2022-07-18 11:51\n"
+"PO-Revision-Date: 2022-07-18 12:53\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -132,7 +132,7 @@ msgstr "Tipus de carregador desconegut: "
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:805
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
-msgstr ""
+msgstr "Error en crear component del paquet"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:97
 msgctxt "AboutDialog|"
@@ -744,7 +744,7 @@ msgstr "No s'ha pogut executar Minecraft!"
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:110
 msgctxt "DirectJavaLaunch|"
 msgid "Game crashed."
-msgstr "El joc ha fallat."
+msgstr "El joc s'ha tancat de forma inesperada."
 
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
@@ -1981,102 +1981,102 @@ msgstr "Tema"
 #: src/launcher/ui/pages/global/LauncherPage.ui:247
 msgctxt "LauncherPage|"
 msgid "&Icons"
-msgstr ""
+msgstr "&Icones"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:267
 msgctxt "LauncherPage|"
 msgid "Default"
-msgstr ""
+msgstr "Per defecte"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:272
 msgctxt "LauncherPage|"
 msgid "Simple (Dark Icons)"
-msgstr ""
+msgstr "Simple (Icones Fosques)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:277
 msgctxt "LauncherPage|"
 msgid "Simple (Light Icons)"
-msgstr ""
+msgstr "Simple (Icones Lluminoses)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:282
 msgctxt "LauncherPage|"
 msgid "Simple (Blue Icons)"
-msgstr ""
+msgstr "Simple (Icones Blaves)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:287
 msgctxt "LauncherPage|"
 msgid "Simple (Colored Icons)"
-msgstr ""
+msgstr "Simple (Icones Colorades)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:307
 msgctxt "LauncherPage|"
 msgid "Custom"
-msgstr ""
+msgstr "Personalitzades"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:328
 msgctxt "LauncherPage|"
 msgid "Colors"
-msgstr ""
+msgstr "Colors"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:355
 msgctxt "LauncherPage|"
 msgid "Console"
-msgstr ""
+msgstr "Consola"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:361
 msgctxt "LauncherPage|"
 msgid "Console Settings"
-msgstr ""
+msgstr "Preferències de la Consola"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:367
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
-msgstr ""
+msgstr "Mostrar la consola mentre el joc s'està executant?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:374
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
-msgstr ""
+msgstr "Tancar la consola automàticament quan es tanqui el joc?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:381
 msgctxt "LauncherPage|"
 msgid "Show console when the game crashes?"
-msgstr ""
+msgstr "Mostrar la consola quan el joc es tanca de forma inesperada?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:391
 msgctxt "LauncherPage|"
 msgid "History limit"
-msgstr ""
+msgstr "Límit de l'historial"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:397
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "Atureu l'enregistrament quan el registre sobrecreixi"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:410
 msgctxt "LauncherPage|"
 msgid " lines"
-msgstr ""
+msgstr " línies"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:438
 msgctxt "LauncherPage|"
 msgid "Console font"
-msgstr ""
+msgstr "Font de la consola"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:490
 msgctxt "LauncherPage|"
 msgid "Analytics"
-msgstr ""
+msgstr "Analítiques"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:496
 msgctxt "LauncherPage|"
 msgid "Analytics Settings"
-msgstr ""
+msgstr "Preferències d'Analítiques"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:502
 msgctxt "LauncherPage|"
 msgid "Send anonymous usage statistics?"
-msgstr ""
+msgstr "Envia estadístiques d'ús de forma anònima?"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:516
 msgctxt "LauncherPage|"
@@ -2091,47 +2091,58 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr ""
+msgstr "<html><head/>\n"
+"<body>\n"
+"<p>El llançador envia estadístiques d'ús cada cop que s'inicia l'aplicació.\n"
+"</p><p>Es recullen les següents dades:</p>\n"
+"<ul>\n"
+"<li>Versió del llançador.</li>\n"
+"<li>Nom, versió i arquitectura del sistema operatiu.</li>\n"
+"<li>Arquitectura del processador (arquitectura del nucli a Linux).</li>\n"
+"<li>Mida de la memòria del sistema.</li>\n"
+"<li>Versió, arquitectura i preferències de memòria del Java.</li>\n"
+"</ul>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr ""
+msgstr "Carpeta d'Instàncies"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr ""
+msgstr "Esteu intentant especificar una carpeta d'instàncies tal que la seva ruta conté com a mínim una '!'. És sabut que Java provoca problemes en aquesta situació. Les teves instàncies (probablement) no s'iniciïn!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr ""
+msgstr "Esteu segurs d'utilitzar aquesta carpeta? Si seleccioneu \"No\" es tancarà aquesta finestra i no s'alterarà la vostra carpeta d'instàncies."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:138
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
-msgstr ""
+msgstr "Carpetes d'Icones"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:149
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
-msgstr ""
+msgstr "Carpeta de Mods"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:445
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
-msgstr ""
+msgstr "[Quelcom/ERROR] Un error esgarrifós!"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:454
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr ""
+msgstr "[Test/INFO] Un missatge inofensiu..."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:463
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
-msgstr ""
+msgstr "[Quelcom/WARN] Una advertència no tan esgarrifosa."
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2149,7 +2160,7 @@ msgstr "No s'ha pogut executar Minecraft!"
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:163
 msgctxt "LauncherPartLaunch|"
 msgid "Game crashed."
-msgstr ""
+msgstr "El joc s'ha tancat de forma inesperada."
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:19
 msgctxt "LegacyFTB::FilterModel|"
@@ -2312,7 +2323,7 @@ msgstr "Instància de versió anterior."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr ""
+msgstr "<html><body><h1>Actualització requerida</h1><p>El MultiMC ara suporta versions antigues de Minecraft i totes les característiques requerides en el nou (OneSix) format d'instància. En conseqüència, el format antic (Legacy) ha estat deshabilitat i les instàncies velles requereixen ser actualitzades.</p><p>L'actualització crearà una nova instància amb els mateixos continguts d'aquesta, en el nou format. La instància original romandrà intacta per si quelcom no funcionés en el procés.</p><p>Si us plau, informeu-nos de qualsevol incidència a la nostra <a href=\"https://github.com/MultiMC/Launcher/issues\">pàgina d'incidències de GitHub</a>.</p><p>També disposeu d'un <a href=\"https://discord.gg/GtPmv93\">canal de Discord per propòsits de testatge</a>.</p></body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -2469,46 +2480,46 @@ msgstr "Registre de Minecraft"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1 (0x%2)."
-msgstr ""
+msgstr "El procés ha finalitzat amb el codi %1 (0x%2)."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
 msgctxt "LoggedProcess|"
 msgid "Process crashed."
-msgstr "Procés fallit."
+msgstr "El procés s'ha tancat de forma inesperada."
 
 #: src/launcher/LoggedProcess.cpp:79
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr ""
+msgstr "El procés s'ha tancat de forma inesperada amb el codi de sortida %1 (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "Below is an analysis of the exit code. THIS MAY BE INCORRECT AND SHOULD BE TAKEN WITH A GRAIN OF SALT!"
-msgstr ""
+msgstr "Més avall es troba una anàlisi del codi de sortida. AQUESTA POT SER INCORRECTA I S'HA DE PRENDRE AMB PRECAUCIÓ!"
 
 #: src/launcher/LoggedProcess.cpp:99
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code name: %1"
-msgstr ""
+msgstr "Nom del codi de sortida del sistema: %1"
 
 #: src/launcher/LoggedProcess.cpp:104
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code description: %1"
-msgstr ""
+msgstr "Descripció del codi de sortida del sistema: %1"
 
 #: src/launcher/LoggedProcess.cpp:109
 msgctxt "LoggedProcess|"
 msgid "Please note that usually neither the exit code, nor its description are enough to diagnose issues!"
-msgstr ""
+msgstr "Si us plau, tingueu en compte que molts cops no és possible diagnosticar problemes només amb el codi de sortida o la seva descripció!"
 
 #: src/launcher/LoggedProcess.cpp:110
 msgctxt "LoggedProcess|"
 msgid "Always upload the entire log and not just the exit code."
-msgstr ""
+msgstr "Sempre actualitzeu el registre sencer i no només el codi de sortida."
 
 #. Message displayed after the instance exits due to kill request
 #: src/launcher/LoggedProcess.cpp:115
@@ -2539,43 +2550,43 @@ msgstr "Clau d'accés"
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:20
 msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
-msgstr ""
+msgstr "Afegeix Compte de Microsoft"
 
 #: src/launcher/ui/dialogs/MSALoginDialog.cpp:83
 #, qt-format
 msgctxt "MSALoginDialog|"
 msgid "<p>Please open up %1 in a browser and put in the code <b>%2</b> to proceed with login.</p>"
-msgstr ""
+msgstr "<p>Si us plau, obriu %1 en un navegador i introduïu el codi <b>%2</b> per a continuar amb l'inici de sessió.</p>"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
 msgid "Logging in with Microsoft account."
-msgstr ""
+msgstr "Iniciant sessió amb un Compte de Microsoft."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:86
 msgctxt "MSAStep|"
 msgid "Got "
-msgstr ""
+msgstr "S'ha obtingut "
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:92
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication ended with a network error."
-msgstr ""
+msgstr "L'autenticació amb usuari de Microsoft ha finalitzat amb un error de xarxa."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:97
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed - user no longer exists."
-msgstr ""
+msgstr "Autenticació amb usuari de Microsoft fallida - l'usuari ja no existeix."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:102
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication failed."
-msgstr ""
+msgstr "Autenticació amb usuari de Microsoft fallida."
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:107
 msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
-msgstr ""
+msgstr "Autenticació amb usuari de Microsoft completada amb un resultat no reconegut."
 
 #: src/launcher/ui/MainWindow.cpp:258
 msgctxt "MainWindow|"
@@ -2661,7 +2672,7 @@ msgstr "Informa d'un error"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
-msgstr ""
+msgstr "Obriu el seguidor d'errors per a informar d'un error amb %1."
 
 #: src/launcher/ui/MainWindow.cpp:352
 msgctxt "MainWindow|"
@@ -2672,7 +2683,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr ""
+msgstr "Obriu el xat de veu a Discord de %1."
 
 #: src/launcher/ui/MainWindow.cpp:362
 msgctxt "MainWindow|"
@@ -2683,7 +2694,7 @@ msgstr "Reddit"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "Obriu el subreddit de %1."
 
 #: src/launcher/ui/MainWindow.cpp:372
 #, qt-format
@@ -3059,7 +3070,7 @@ msgstr ", jugat en total durant %1"
 #: src/launcher/minecraft/MinecraftInstance.cpp:797
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
-msgstr ", ha fallat."
+msgstr ", s'ha tancat de forma inesperada."
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:48
 msgctxt "MinecraftPage|"
@@ -3124,27 +3135,27 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "Obtenint el perfil de Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "El compte no té cap perfil de Minecraft."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "L'obtenció del perfil de Minecraft Java ha fallat."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:77
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr ""
+msgstr "La resposta del perfil de Minecraft Java no ha pogut ser analitzada"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:89
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "S'ha obtingut el perfil de Minecraft Java amb èxit."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3291,69 +3302,69 @@ msgstr "No s'ha pogut crear l'arxiu jar de Minecraft personalitzat."
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "Cerca i filtra..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:26
 msgctxt "ModrinthPage|"
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:70
 msgctxt "ModrinthPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Versió seleccionada:"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
-msgstr ""
+msgstr "Modrinth"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
-msgstr ""
+msgstr "Ordena per rellevància"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:40
 msgctxt "ModrinthPage|"
 msgid "Sort by total downloads"
-msgstr ""
+msgstr "Ordena per descàrregues totals"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:41
 msgctxt "ModrinthPage|"
 msgid "Sort by follow count"
-msgstr ""
+msgstr "Ordena per recompte de seguidors"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:42
 msgctxt "ModrinthPage|"
 msgid "Sort by creation date"
-msgstr ""
+msgstr "Ordena per data de creació"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:43
 msgctxt "ModrinthPage|"
 msgid "Sort by last updated"
-msgstr ""
+msgstr "Ordena per darrera actualització"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:165
 msgctxt "ModrinthPage|"
 msgid "Failed to get Modrinth modpack details..."
-msgstr ""
+msgstr "Error en obtenir els detalls del modpack..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:169
 msgctxt "ModrinthPage|"
 msgid "Loading..."
-msgstr ""
+msgstr "Carregant..."
 
 #: src/launcher/net/NetJob.cpp:128
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
 "%2"
-msgstr ""
+msgstr "La tasca '%1' no ha pogut processar-se: %2"
 
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:17
 msgctxt "NewComponentDialog|"
 msgid "Add Empty Component"
-msgstr ""
+msgstr "Afegeix Component Buit"
 
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
@@ -3363,18 +3374,18 @@ msgstr "Nom"
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:142
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
-msgstr ""
+msgstr "Instància nova"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:39
 msgctxt "NewInstanceDialog|"
 msgid "&Group:"
-msgstr ""
+msgstr "&Grup:"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:52
 msgctxt "NewInstanceDialog|"
@@ -3391,7 +3402,7 @@ msgstr "Sense grup"
 msgctxt "NewsChecker|"
 msgid "Failed to load news RSS feed:\n"
 "%1"
-msgstr ""
+msgstr "Error en carregar la font de notícies RSS: %1"
 
 #: src/launcher/news/NewsEntry.cpp:24 src/launcher/news/NewsEntry.cpp:60
 msgctxt "NewsEntry|"
@@ -3416,13 +3427,13 @@ msgstr "Notes"
 #: src/launcher/ui/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
 msgid "Notification"
-msgstr ""
+msgstr "Notificació"
 
 #: src/launcher/ui/dialogs/NotificationDialog.ui:65
 #: src/launcher/ui/dialogs/NotificationDialog.cpp:30
 msgctxt "NotificationDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "No tornis a mostrar-ho"
 
 #: src/launcher/ui/dialogs/NotificationDialog.ui:75
 #: src/launcher/ui/dialogs/NotificationDialog.cpp:31
@@ -3578,37 +3589,37 @@ msgstr "Clau d'API de paste.ee"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:45
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
-msgstr ""
+msgstr "Cla&u de MultiMC - Límit de càrrega de 12 MB"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:55
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
-msgstr ""
+msgstr "La &teva pròpia clau - Límit de càrrega de 12 MB:"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
-msgstr ""
+msgstr "Enganxa la teva clau API aquí!"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>MultiMC utilitza <a href=\"https://paste.ee\">paste.ee</a> per a pujar registres. Si teniu un compte a <a href=\"https://paste.ee\">paste.ee</a>, podeu afegir la vostra clau API aquí perquè els vostres registres s'associïn amb el vostre compte.</p></body></html>"
 
 #: src/launcher/ui/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
 msgid "Log Upload"
-msgstr ""
+msgstr "Pujada de Registres"
 
 #: src/launcher/net/PasteUpload.cpp:48
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
-msgstr ""
+msgstr "Pujant a paste.ee"
 
 #: src/launcher/net/PasteUpload.cpp:77
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "paste.ee ha retornat un error. Si us plau, consulteu els registres per a més informació"
 
 #: src/launcher/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
@@ -3647,39 +3658,39 @@ msgstr "L'ordre de preexecució s'ha executat amb èxit.\n\n"
 #: src/launcher/ui/dialogs/ProfileSelectDialog.ui:14
 msgctxt "ProfileSelectDialog|"
 msgid "Select an Account"
-msgstr ""
+msgstr "Trieu un Compte"
 
 #: src/launcher/ui/dialogs/ProfileSelectDialog.ui:20
 msgctxt "ProfileSelectDialog|"
 msgid "Select a profile."
-msgstr ""
+msgstr "Trieu un perfil."
 
 #: src/launcher/ui/dialogs/ProfileSelectDialog.ui:38
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default?"
-msgstr ""
+msgstr "Usar com a predeterminat?"
 
 #: src/launcher/ui/dialogs/ProfileSelectDialog.ui:45
 msgctxt "ProfileSelectDialog|"
 msgid "Use as default for this instance only?"
-msgstr ""
+msgstr "Usar com a predeterminat només a aquesta instància?"
 
 #: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:41
 #: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:45
 msgctxt "ProfileSelectDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:53
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
-msgstr ""
+msgstr "%1 (en ús)"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:14
 msgctxt "ProfileSetupDialog|"
 msgid "Choose Minecraft name"
-msgstr ""
+msgstr "Trieu un nom de Minecraft"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.ui:26
 msgctxt "ProfileSetupDialog|"
