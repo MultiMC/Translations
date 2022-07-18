@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2022-07-10 18:06\n"
+"PO-Revision-Date: 2022-07-14 15:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1230,7 +1230,7 @@ msgstr "Peliversion tuonti keskeytetty."
 #: src/launcher/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
-msgstr ""
+msgstr "Paketin indeksiä ei voitu ymmärtää:\n"
 
 #: src/launcher/InstanceImportTask.cpp:368
 msgctxt "InstanceImportTask|"
@@ -1894,7 +1894,7 @@ msgstr "Minecraftin pääsytunnusta ei voitu hakea: %1"
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:72
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr ""
+msgstr "Minecraftin pääsytunnuksen vastausta ei voitu jäsentää."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
@@ -1959,7 +1959,7 @@ msgstr "Sovelluksen ilmoitukset"
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "Reset hidden notifications"
-msgstr ""
+msgstr "Palauta piilotetut ilmoitukset"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
@@ -3020,7 +3020,7 @@ msgstr "Nimi"
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "Tarkistetaan siirtokelpoisuutta."
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
@@ -3939,7 +3939,7 @@ msgstr "Minecraft-palvelin"
 #: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
-msgstr ""
+msgstr "Kuvaus puuttuu FTB -sovelluksen pelipaketissa."
 
 #: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
@@ -3978,7 +3978,7 @@ msgstr "Versiotiedostossa on sekä '+libraries' että 'libraries'. Tätä ei en�
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:202
 msgctxt "QObject|"
 msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr ""
+msgstr "URL -osoitetta tärkeimmälle jar -tiedostolle ei voitu määrittää - Mojang poisti palvelimen, joka oli varasuunnitelmamme."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:235
 msgctxt "QObject|"
@@ -4057,14 +4057,16 @@ msgstr "Palautus epäonnistui!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Ei voitu korvata tiedostoa %1. Muutokset perutaan.\n"
+"Katso lisätietoja MultiMC-lokitiedostosta."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Ei voitu poistaa tiedostoa %1. Muutokset perutaan.\n"
+"Katso lisätietoja MultiMC-lokitiedostosta."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
@@ -4079,25 +4081,27 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "Myös palautus epäonnistui.\n"
+"MultiMC on korjattava manuaalisesti.\n"
+"Kerrothan meille, miksi ja miten tämä tapahtui."
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1min %2s"
 
 #: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
 msgid "%1h %2m"
-msgstr ""
+msgstr "%1h %2min"
 
 #: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr ""
+msgstr "%1d%2h %3min"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4117,7 +4121,7 @@ msgstr "JVM-argumenttivaroitus"
 msgctxt "QObject|"
 msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
 "This message will be displayed until you remove this from the JVM arguments."
-msgstr ""
+msgstr "Yritit saada läpi vaaditun Java -version argumentin JVM:lle (käyttämällä \"-version=xxx\"). Tämä ei ole turvallista eikä sitä sallita. Tämä viesti näytetään, kunnes poistat tämän JVM:n argumenteista."
 
 #: src/launcher/JavaCommon.cpp:37
 #, qt-format
@@ -4273,13 +4277,13 @@ msgstr "Näytä kansio"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:84
 msgctxt "ScreenshotsPage|"
 msgid "Copy Image"
-msgstr ""
+msgstr "Kopioi kuva"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:89
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:92
 msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
-msgstr ""
+msgstr "Kopioi Tiedosto(t)"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -4440,7 +4444,7 @@ msgstr "&Päivitä"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr ""
+msgstr "%1 Pika-asennus"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
@@ -4640,7 +4644,7 @@ msgstr "Kohdetta \"version.json\" ei voitu avata!"
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:93
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
-msgstr ""
+msgstr "Tiedostoa \"version.json\" ei löydetty tiedostosta \"bin/modpack.jar\", mutta Minecraft -versio on tuntematon"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:107
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4973,7 +4977,7 @@ msgstr "Asenna Quilt"
 #: src/launcher/ui/pages/instance/VersionPage.ui:201
 msgctxt "VersionPage|"
 msgid "Install the Quilt Loader package."
-msgstr ""
+msgstr "Asenna Quilt -lataajapaketti."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:206
 msgctxt "VersionPage|"
@@ -5597,7 +5601,7 @@ msgstr "Xbox -profiilin noutaminen epäonnistui."
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr ""
+msgstr "On Xbox -profiili"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
@@ -5617,7 +5621,7 @@ msgstr "XBox -käyttäjän todennusvastausta ei voitu ymmärtää."
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:67
 msgctxt "XboxUserStep|"
 msgid "Got Xbox user token"
-msgstr ""
+msgstr "On Xbox -käyttäjätunnus"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:188
 msgctxt "Yggdrasil|"
