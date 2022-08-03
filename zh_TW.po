@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2022-08-02 22:40\n"
+"PO-Revision-Date: 2022-08-03 00:07\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -302,7 +302,7 @@ msgstr "是否能夠遷移？"
 #: src/launcher/minecraft/auth/AccountList.cpp:357
 msgctxt "AccountList|"
 msgid "Profile"
-msgstr "個人資料"
+msgstr "個人檔案"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:366
 msgctxt "AccountList|"
@@ -322,12 +322,12 @@ msgstr "帳號目前的狀態。"
 #: src/launcher/minecraft/auth/AccountList.cpp:372
 msgctxt "AccountList|"
 msgid "Can this account migrate to Microsoft account?"
-msgstr "這個帳號是否能夠轉移到 Microsoft 帳號？"
+msgstr "這個帳號是否能夠遷移至 Microsoft 帳號？"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:374
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
-msgstr "屬於該帳號的 Minecraft 個人資料名稱。"
+msgstr "屬於該帳號的 Minecraft 個人檔案名稱。"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:67
 msgctxt "AccountListPage|"
@@ -447,7 +447,7 @@ msgstr "在驗證過程中出現錯誤。"
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr ""
+msgstr "驗證失敗。這個帳號必須遷移至 Microsoft 帳號才能使用。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -978,7 +978,7 @@ msgstr "正在檢查遷移資格。"
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "這個帳號必須遷移至 Microsoft 帳號。"
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
@@ -1712,7 +1712,7 @@ msgstr "要玩 Minecraft 的話，需要有 Mojang 或 Minecraft 帳號。\n"
 #: src/launcher/LaunchController.cpp:80
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
-msgstr "你想使用哪一個帳號？"
+msgstr "您想使用哪一個帳號？"
 
 #: src/launcher/LaunchController.cpp:104
 msgctxt "LaunchController|"
@@ -1749,9 +1749,9 @@ msgctxt "LaunchController|"
 msgid "This account does not own Minecraft.\n"
 "You need to purchase the game first to play it.\n\n"
 "Do you want to play the demo?"
-msgstr "此帳號尚未擁有 Minecraft。\n"
+msgstr "這個帳號尚未擁有 Minecraft。\n"
 "您需要先購買遊戲才能進行遊玩。\n\n"
-"你想要先體驗遊玩試玩版嗎？"
+"您想要先遊玩試玩版嗎？"
 
 #: src/launcher/LaunchController.cpp:186
 msgctxt "LaunchController|"
@@ -1766,7 +1766,7 @@ msgstr "取消"
 #: src/launcher/LaunchController.cpp:197
 msgctxt "LaunchController|"
 msgid "Launch cancelled - account does not own Minecraft."
-msgstr "啟動已取消 - 此帳號尚未擁有 Minecraft。"
+msgstr "啟動已取消 - 這個帳號尚未擁有 Minecraft。"
 
 #: src/launcher/LaunchController.cpp:213
 msgctxt "LaunchController|"
@@ -1786,7 +1786,7 @@ msgstr "帳號重新整理失敗"
 #: src/launcher/LaunchController.cpp:238
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr "該帳號不再存在於伺服器上。它可能已被遷移，在這種情況下，請添加您遷移到的新帳號。"
+msgstr "這個帳號不再存在於伺服器上。它可能已被遷移。如果是這樣，請新增您遷移後的新帳號。"
 
 #: src/launcher/LaunchController.cpp:241
 msgctxt "LaunchController|"
@@ -1796,7 +1796,7 @@ msgstr "帳號遺失"
 #: src/launcher/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "這個帳號必須遷移至 Microsoft 帳號。"
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
@@ -2483,7 +2483,7 @@ msgstr "Minecraft 紀錄"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1 (0x%2)."
-msgstr ""
+msgstr "程序已退出，結束代碼：%1 (0x%2)。"
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2495,34 +2495,34 @@ msgstr "程序已崩潰。"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr ""
+msgstr "程序已崩潰，結束代碼：%1 (0x%2)。"
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "Below is an analysis of the exit code. THIS MAY BE INCORRECT AND SHOULD BE TAKEN WITH A GRAIN OF SALT!"
-msgstr ""
+msgstr "下面是結束代碼的分析。這可能是不正確的，應該持予保留態度！"
 
 #: src/launcher/LoggedProcess.cpp:99
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code name: %1"
-msgstr ""
+msgstr "系統結束代碼名稱：%1"
 
 #: src/launcher/LoggedProcess.cpp:104
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code description: %1"
-msgstr ""
+msgstr "系統結束代碼描述：%1"
 
 #: src/launcher/LoggedProcess.cpp:109
 msgctxt "LoggedProcess|"
 msgid "Please note that usually neither the exit code, nor its description are enough to diagnose issues!"
-msgstr ""
+msgstr "請注意，結束代碼或其描述通常都不足以診斷問題！"
 
 #: src/launcher/LoggedProcess.cpp:110
 msgctxt "LoggedProcess|"
 msgid "Always upload the entire log and not just the exit code."
-msgstr ""
+msgstr "始終上傳整個日誌，而不僅僅是結束代碼。"
 
 #. Message displayed after the instance exits due to kill request
 #: src/launcher/LoggedProcess.cpp:115
@@ -3044,7 +3044,7 @@ msgstr "<用戶端權杖>"
 #: src/launcher/minecraft/MinecraftInstance.cpp:708
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr "<設定檔ID>"
+msgstr "<設定檔 ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:780
 msgctxt "MinecraftInstance|"
@@ -3137,27 +3137,27 @@ msgstr "Minecraft"
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr "正在取得 Minecraft 個人資料。"
+msgstr "正在取得 Minecraft 個人檔案。"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr "此帳號沒有 Minecraft 個人資料。"
+msgstr "這個帳號沒有 Minecraft 個人檔案。"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr "取得 Minecraft Java 個人資料失敗。"
+msgstr "取得 Minecraft Java 個人檔案失敗。"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:77
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile response could not be parsed"
-msgstr "無法解析 Minecraft Java 個人資料回應"
+msgstr "無法解析 Minecraft Java 個人檔案的回應"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:89
 msgctxt "MinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr "取得 Minecraft Java 個人資料成功。"
+msgstr "取得 Minecraft Java 個人檔案成功。"
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:87
 msgctxt "MinecraftUpdate|"
@@ -3608,7 +3608,7 @@ msgstr "在此貼上您的 API 金鑰！"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> 被 MultiMC 用來上傳記錄檔。若你擁有一個 <a href=\"https://paste.ee\">paste.ee</a> 帳號，你可以在此處新增你的 API 金鑰將紀錄檔上傳到你的帳號中。</p></body></html>"
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> 被 MultiMC 用來上傳記錄檔。若您擁有一個 <a href=\"https://paste.ee\">paste.ee</a> 帳號，您可以在此處新增您的 API 金鑰將紀錄檔上傳到您的帳號中。</p></body></html>"
 
 #: src/launcher/ui/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3701,18 +3701,18 @@ msgctxt "ProfileSetupDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
 msgstr "只要再一步就可以用這個帳號玩 Minecraft 了。\n\n"
-"謹慎選擇你的名字："
+"謹慎選擇您的名稱："
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:104
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr "名稱太短，長度必須在 3～16 個字元之間。"
+msgstr "名稱太短，長度必須在 3 至 16 個字元之間。"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:164
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr "已有名為 %1 的 Minecraft 個人資料。"
+msgstr "已有名為 %1 的 Minecraft 個人檔案。"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:167
 #, qt-format
@@ -3724,7 +3724,7 @@ msgstr "名稱「%1」不予使用。"
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
-msgstr "個人資料名稱未處理，狀況：%1"
+msgstr "個人檔案名稱未處理，狀況：%1"
 
 #: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:174
 msgctxt "ProfileSetupDialog|"
@@ -4039,7 +4039,7 @@ msgstr "無法處理版本檔 %1。"
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
-msgstr "沒有個人資料（%1）"
+msgstr "沒有個人檔案（%1）"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4655,7 +4655,7 @@ msgstr "無法開啟「forgeversion.properties」"
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:122
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Invalid \"forgeversion.properties\"!"
-msgstr "此「forgeversion.properties」無效！"
+msgstr "無效的「forgeversion.properties」！"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:148
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4666,13 +4666,13 @@ msgstr "找不到「version.json」！"
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
 "inheritsFrom is missing"
-msgstr "無法解析 \"version.json\"：\n"
+msgstr "無法解析「version.json」：\n"
 "inheritsFrom 參數缺失"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:206
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
-msgstr "無法解析 \"version.json\"：\n"
+msgstr "無法解析「version.json」：\n"
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:32
 msgctxt "TechnicPage|"
@@ -5567,7 +5567,7 @@ msgstr "%1 授權錯誤響應中缺少 XErr 元素。"
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr "這個 Microsoft 帳號沒有 Xbox Live 個人資料。請先在 %1 上購買遊戲。"
+msgstr "這個 Microsoft 帳號沒有 Xbox Live 個人檔案。請先在 %1 上購買遊戲。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:136
 msgctxt "XboxAuthorizationStep|"
@@ -5593,17 +5593,17 @@ msgstr "XSTS 驗證以無法辨識的錯誤結束：\n\n"
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr "正在獲取 Xbox 個人資料。"
+msgstr "正在獲取 Xbox 個人檔案。"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:63
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr "無法獲取 Xbox 個人資料。"
+msgstr "無法獲取 Xbox 個人檔案。"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:72
 msgctxt "XboxProfileStep|"
 msgid "Got Xbox profile"
-msgstr "已獲取 Xbox 個人資料"
+msgstr "已獲取 Xbox 個人檔案"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:15
 msgctxt "XboxUserStep|"
@@ -5658,7 +5658,7 @@ msgstr "<b>SSL 交握失敗。</b><br/>這可能有幾種原因：<br/><ul><li>�
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
 msgid "The Mojang account no longer exists. It may have been migrated to a Microsoft account."
-msgstr "這個 Mojang 帳號不存在。可能是已移轉至 Microsoft 帳號。"
+msgstr "這個 Mojang 帳號不存在。可能是已遷移至 Microsoft 帳號。"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:258
 #, qt-format
