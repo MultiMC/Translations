@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2022-08-09 06:17\n"
+"PO-Revision-Date: 2022-08-09 07:43\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -59,7 +59,7 @@ msgstr "未知或不支持的下载类型：%1"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:450
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading configs..."
-msgstr "正在下载配置文件…"
+msgstr "下载配置文件中…"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:451
 msgctxt "ATLauncher::PackInstallTask|"
@@ -69,23 +69,23 @@ msgstr "下载配置"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:491
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting configs..."
-msgstr "正在提取配置文件…"
+msgstr "提取配置文件中…"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:498
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to open pack configs %1!"
-msgstr "无法打开整合包文件 %1！"
+msgstr "无法打开整合包配置文件 %1！"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:528
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Selecting optional mods..."
-msgstr "选择可选模组……"
+msgstr "选择可选模组中……"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:532
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading mods..."
-msgstr "正在下载模组……"
+msgstr "下载模组中..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:535
 msgctxt "ATLauncher::PackInstallTask|"
@@ -107,32 +107,32 @@ msgstr "未知的下载类型: %1"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:669
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr "解压模组失败……"
+msgstr "提取模组失败…"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:680
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr "正在解压模组……"
+msgstr "提取模组中…"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:753
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "正在安装整合包"
+msgstr "安装整合包中"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:767
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
-msgstr "未能创建库组件"
+msgstr "创建库组件失败"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:791
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr "未知的加载器类型： "
+msgstr "未知加载器类型： "
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:805
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
-msgstr "未能创建包组件"
+msgstr "创建包组件失败"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:97
 msgctxt "AboutDialog|"
@@ -172,12 +172,12 @@ msgstr "制作人员"
 #: src/launcher/ui/dialogs/AboutDialog.ui:228
 msgctxt "AboutDialog|"
 msgid "License"
-msgstr "许可证"
+msgstr "开源许可"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:256
 msgctxt "AboutDialog|"
 msgid "Forking/Redistribution"
-msgstr "分支项目/重分发"
+msgstr "分支/重新发布"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:278
 msgctxt "AboutDialog|"
@@ -227,7 +227,7 @@ msgstr "<p>我们保持 MultiMC 开源，因为我们认为能够看到像这样
 #: src/launcher/minecraft/auth/AccountList.cpp:277
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
-msgstr "未检查"
+msgstr "未选中"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:280
 msgctxt "AccountList|Account status"
@@ -257,7 +257,7 @@ msgstr "已过期"
 #: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr "不复存在"
+msgstr "无"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:298
 msgctxt "AccountList|Account status"
@@ -267,7 +267,7 @@ msgstr "必须迁移"
 #: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Can Migrate?"
 msgid "N/A"
-msgstr "不适用"
+msgstr "N/A"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Can Migrate?"
@@ -287,7 +287,7 @@ msgstr "账户"
 #: src/launcher/minecraft/auth/AccountList.cpp:351
 msgctxt "AccountList|"
 msgid "Type"
-msgstr "账户类型"
+msgstr "类型"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:353
 msgctxt "AccountList|"
@@ -297,12 +297,12 @@ msgstr "状态"
 #: src/launcher/minecraft/auth/AccountList.cpp:355
 msgctxt "AccountList|"
 msgid "Can Migrate?"
-msgstr "是否可迁移"
+msgstr "可迁移吗？"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:357
 msgctxt "AccountList|"
 msgid "Profile"
-msgstr "用户名"
+msgstr "个人资料"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:366
 msgctxt "AccountList|"
@@ -312,7 +312,7 @@ msgstr "账户用户名。"
 #: src/launcher/minecraft/auth/AccountList.cpp:368
 msgctxt "AccountList|"
 msgid "Type of the account - Mojang or MSA."
-msgstr "账户类型 - Mojang 账户或微软账户。"
+msgstr "账户类型 - Mojang 或微软账户。"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:370
 msgctxt "AccountList|"
