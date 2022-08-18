@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2022-08-18 01:43\n"
+"PO-Revision-Date: 2022-08-18 02:41\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -709,7 +709,7 @@ msgstr "自訂指令(&T)"
 #: src/launcher/ui/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr "結束後指令："
+msgstr "終止後指令："
 
 #: src/launcher/ui/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
@@ -719,12 +719,12 @@ msgstr "預啟動指令："
 #: src/launcher/ui/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "包裝指令："
+msgstr "封套指令："
 
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而結束後指令則會在其結束後執行。</p><p>此兩者會在啟動器的工作目錄中執行並附加額外的環境變數：</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的 ID（其資料夾名稱）</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包裝指令允許啟動時使用額外的包裝程式（如 Linux 中的 'optirun'）</p></body></html>"
+msgstr "<html><head/><body><p>預啟動指令會在實例啟動前執行，而終止後指令則會在其結束後執行。</p><p>此兩者會在啟動器的工作目錄中執行並附加額外的環境變數：</p><ul><li>$INST_NAME - 實例的名稱</li><li>$INST_ID - 實例的 ID（其資料夾名稱）</li><li>$INST_DIR - 實例的絕對路徑</li><li>$INST_MC_DIR - Minecraft 的絕對路徑</li><li>$INST_JAVA - 啟動所用的 java 執行檔</li><li>$INST_JAVA_ARGS - 啟動所用的命令列參數</li></ul><p>包封套指令允許啟動時使用額外的封套程式（如 Linux 中的「optirun」）</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -735,7 +735,7 @@ msgstr "自訂指令"
 #, qt-format
 msgctxt "DirectJavaLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "無法找到包裝指令 \"%1\"。"
+msgstr "無法找到封套指令「%1」。"
 
 #. Error message displayed if instance can't start
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:91
@@ -1332,7 +1332,7 @@ msgstr "允許使用的最大記憶體使用量："
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:196
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
-msgstr "備註：Permgen 在 Java 8 及之後版本會自動設定"
+msgstr "備註：Permgen 在 Java 8 及之後的版本中會自動設定"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:209
 msgctxt "InstanceSettingsPage|"
@@ -1570,7 +1570,7 @@ msgstr "Java 路徑："
 #: src/launcher/ui/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
 msgid "JVM arguments:"
-msgstr "JVM 參數："
+msgstr "JVM 引數："
 
 #: src/launcher/ui/pages/global/JavaPage.ui:208
 msgctxt "JavaPage|"
@@ -1632,12 +1632,12 @@ msgstr "允許 Minecraft 使用的最大記憶體使用量。"
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:427
 msgctxt "JavaSettingsWidget|"
 msgid "Minimum memory allocation:"
-msgstr "允許使用的最小記憶體使用量："
+msgstr "允許使用的最小記憶體分配量："
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:428
 msgctxt "JavaSettingsWidget|"
 msgid "Maximum memory allocation:"
-msgstr "允許使用的最大記憶體使用量："
+msgstr "允許使用的最大記憶體分配量："
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:429
 msgctxt "JavaSettingsWidget|"
@@ -1664,7 +1664,7 @@ msgctxt "JavaWizardPage|"
 msgid "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
 msgstr "缺少能夠執行的 Java。\n"
-"請在下方選擇或是指定一個 Java 執行檔。"
+"請在下方選擇，或是指派一個 Java 執行檔。"
 
 #: src/launcher/ui/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
@@ -1696,7 +1696,7 @@ msgstr "沒有指定實例！"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr "指定的 Java 參數無效。請先修正此問題。"
+msgstr "指定的 Java 引數無效。請先修正此問題。"
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -2099,11 +2099,11 @@ msgstr "<html><head/>\n"
 "<body>\n"
 "<p>啟動器會在每次啟動時傳送匿名的使用統計。</p><p>以下是所蒐集的資料：</p>\n"
 "<ul>\n"
-"<li>啟動器版本</li>\n"
-"<li>作業系統名稱、版本及架構</li>\n"
-"<li>CPU 架構（或 Linux 核心架構）</li>\n"
-"<li>系統記憶體大小</li>\n"
-"<li>Java 版本、架構及記憶體設定</li>\n"
+"<li>啟動器版本。</li>\n"
+"<li>作業系統名稱、版本及架構。</li>\n"
+"<li>CPU 架構（或 Linux 核心架構）。</li>\n"
+"<li>系統記憶體大小。</li>\n"
+"<li>Java 版本、架構及記憶體設定。</li>\n"
 "</ul>\n"
 "</body></html>"
 
@@ -2115,7 +2115,7 @@ msgstr "實例資料夾"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:115
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr "指定的實例路徑中包含了至少一個 '!' 字元。已知 Java 會在這種情況下發生問題，實例（可能）無法啟動！"
+msgstr "在您指定的實例路徑中，包含了至少一個「!」字元。已知 Java 會在這種情況下發生問題，實例（可能會）無法啟動！"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:120
 msgctxt "LauncherPage|"
@@ -2151,7 +2151,7 @@ msgstr "[something/警告] 不嚴重的警告。"
 #, qt-format
 msgctxt "LauncherPartLaunch|"
 msgid "The wrapper command \"%1\" couldn't be found."
-msgstr "無法找到包裝指令 \"%1\"。"
+msgstr "無法找到封套指令「%1」。"
 
 #. Error message displayed if instace can't start
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:144
@@ -3900,23 +3900,23 @@ msgstr "<a href=\"%1\">上傳的記錄檔連結</a>已經在您的剪貼簿中�
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "選擇的檔案不存在或是無法執行。"
+msgstr "選擇的檔案不存在或不是正確的可執行檔。"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr "指定的 java 二進位檔案未正常啟動。<br />"
+msgstr "指定的 Java 二進制檔案未正常啟動。<br />"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr "指定的 java 二進位檔案回傳了預期外的結果：<br />"
+msgstr "指定的 Java 二進制檔案回傳了預期外的結果：<br />"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java 測試成功！<br />回報的平台：%1<br />回報的 Java 版本：%2<br />"
+msgstr "Java 測試成功！<br />平台報告：%1<br />Java 版本報告：%2<br />"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
 #: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
@@ -4107,14 +4107,14 @@ msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr "您嘗試手動指定 JVM 的記憶體選項（\"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" 或 \"-Xms\"）。\n"
-"這些選項在設定中有專門的欄位（在 Java 頁中，上方的 Memory 群組）。\n"
-"此訊息會持續顯示，直到您將他們從 JVM 參數中移除。"
+msgstr "您嘗試手動指定 JVM 的記憶體選項（「-XX:PermSize」、「-XX-MaxHeapSize」、「-XX:InitialHeapSize」、「-Xmx」或「-Xms」）。\n"
+"這些選項在設定中有專門的欄位（在 Java 分頁上方的 Memory 群組中）。\n"
+"此訊息會持續顯示，直到您將他們從 JVM 引數中移除。"
 
 #: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr "JVM 參數警告"
+msgstr "JVM 引數警告"
 
 #: src/launcher/JavaCommon.cpp:22
 msgctxt "QObject|"
@@ -4854,12 +4854,12 @@ msgstr "原版"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr "Minecraft 從 1.18 Pre Release 2 開始需使用 Java 17"
+msgstr "從 1.18 Pre Release 2 版本開始，Minecraft 需要使用 Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr "Minecraft 從 21w19a 開始需使用 Java 16"
+msgstr "從 21w19a 版本開始，Minecraft 需要使用 Java 16"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
