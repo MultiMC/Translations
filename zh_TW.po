@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2022-08-21 14:43\n"
+"PO-Revision-Date: 2022-08-21 16:01\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -452,7 +452,7 @@ msgstr "無法驗證。這個帳號必須遷移至 Microsoft 帳號才能使用�
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr "無法驗證。會話已過期。"
+msgstr "無法驗證。對話已過期。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:53
 msgctxt "AccountTask|"
@@ -1707,7 +1707,7 @@ msgstr "無帳號"
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
 msgstr "要玩 Minecraft 的話，需要有 Mojang 或 Minecraft 帳號。\n"
-"是否開啟帳號管理器且新增一個帳號？"
+"您是否要開啟帳號管理器來新增一個帳號？"
 
 #: src/launcher/LaunchController.cpp:80
 msgctxt "LaunchController|"
@@ -1737,7 +1737,7 @@ msgstr "選擇您在離線模式時的玩家名稱。"
 #: src/launcher/LaunchController.cpp:172
 msgctxt "LaunchController|"
 msgid "Received undetermined session status during login."
-msgstr "在登入時接收到無法確定的會話狀態。"
+msgstr "在登入時接收到無法確定的對話狀態。"
 
 #: src/launcher/LaunchController.cpp:183
 msgctxt "LaunchController|"
@@ -1871,7 +1871,7 @@ msgstr "強制終止 Minecraft？"
 #: src/launcher/LaunchController.cpp:413
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr "這可能造成實例發生錯誤，只應該在 Minecraft 因某些原因而沒有回應時使用"
+msgstr "這可能導致實例發生錯誤，並且只應在 Minecraft 因為某些原因而沒有回應時使用"
 
 #: src/launcher/launch/LaunchTask.cpp:215
 #, qt-format
@@ -2426,7 +2426,7 @@ msgstr "自動換行"
 #: src/launcher/ui/pages/instance/LogPage.ui:93
 msgctxt "LogPage|"
 msgid "Copy the whole log into the clipboard"
-msgstr "複製整個記錄到剪貼簿"
+msgstr "複製整個紀錄至剪貼簿"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:96
 msgctxt "LogPage|"
@@ -2436,7 +2436,7 @@ msgstr "複製(&C)"
 #: src/launcher/ui/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "上傳紀錄檔至 paste.ee──這將會在網路上保留 1 個月"
+msgstr "上傳記錄檔至 paste.ee──這將會在網路上保留 1 個月"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
@@ -3480,7 +3480,7 @@ msgstr "刪除"
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:87
 msgctxt "OtherLogsPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "上傳紀錄檔至 paste.ee──這將會在網路上保留 1 個月"
+msgstr "上傳記錄檔至 paste.ee──這將會在網路上保留 1 個月"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:90
 msgctxt "OtherLogsPage|"
@@ -3608,7 +3608,7 @@ msgstr "在此貼上您的 API 金鑰！"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:82
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> 被 MultiMC 用來上傳紀錄檔。若您擁有一個 <a href=\"https://paste.ee\">paste.ee</a> 帳號，您可以在此處新增您的 API 金鑰，將紀錄檔上傳到您的帳號中。</p></body></html>"
+msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> 被 MultiMC 用來上傳記錄檔。若您擁有一個 <a href=\"https://paste.ee\">paste.ee</a> 帳號，您可以在此處新增您的 API 金鑰，將記錄檔上傳到您的帳號中。</p></body></html>"
 
 #: src/launcher/ui/pages/global/PasteEEPage.h:37
 msgctxt "PasteEEPage|"
@@ -3623,7 +3623,7 @@ msgstr "正在上傳至 paste.ee"
 #: src/launcher/net/PasteUpload.cpp:77
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
-msgstr "paste.ee 回報錯誤。請檢視紀錄檔以獲得更多資訊"
+msgstr "paste.ee 回報錯誤。請檢視記錄檔以獲得更多資訊"
 
 #: src/launcher/launch/steps/PostLaunchCommand.cpp:31
 #, qt-format
@@ -4071,8 +4071,8 @@ msgstr "無法移除檔案 %1。變更將會被復原。\n"
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
-msgstr "新版本未啟動或是其過舊且未回應啟動檢查。\n\n"
-"回退到上個版本？"
+msgstr "新的版本沒有啟動，或是其版本過舊以至於未回應啟動檢查。\n\n"
+"還原到上個版本？"
 
 #: src/launcher/UpdateController.cpp:414
 #, qt-format
@@ -4499,7 +4499,7 @@ msgstr "披風"
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:44
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
-msgstr "使用遠端 URL 設定外觀尚未實裝。"
+msgstr "尚未實裝使用遠端 URL 設定外觀的功能。"
 
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:56
 msgctxt "SkinUploadDialog|"
@@ -5654,7 +5654,7 @@ msgstr "已取消驗證。"
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr "<b>SSL 交握失敗。</b><br/>這可能有幾種原因：<br/><ul><li> 您使用 Windows 且需要更新您的根憑證，請安裝任何未完成的更新。</li><li> 在您的網路中有一些裝置在干擾 SSL 流量。在此情況下，您有比無法啟動 Minecraft 還更大的擔憂。</li><li> 可能是一些其他的原因。確認記錄檔以了解詳情</li></ul>"
+msgstr "<b>SSL 交握失敗。</b><br/>這可能有幾種原因：<br/><ul><li> 您使用 Windows 並需要更新您的根憑證，請安裝任何未完成的更新。</li><li> 在您的網路中有一些裝置正在干擾 SSL 流量。在此情況下，您有比無法啟動 Minecraft 還更大的擔憂。</li><li> 亦可能是一些其他的原因。確認記錄檔以了解詳情。</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
