@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese (kanji)\n"
 "Language: jpn_KANJI\n"
-"PO-Revision-Date: 2022-10-21 12:42\n"
+"PO-Revision-Date: 2022-10-21 13:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -993,7 +993,7 @@ msgstr "この帳戸は Microsoft に移行する必要があります。"
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
 msgid "Got forced migration flags"
-msgstr "強制的に移行されたフラグを取得しました"
+msgstr "強制移行標識を取得しました"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1133,7 +1133,7 @@ msgstr "図標 %1"
 #: src/launcher/ui/pages/modplatform/import_ftb/FTBAPage.h:41
 msgctxt "ImportFTB::FTBAPage|"
 msgid "FTB App Import"
-msgstr "FTB Appのインポート"
+msgstr "FTB App の導入"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -1158,7 +1158,7 @@ msgstr "Mod 整合包を選択する"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr "Zip (*.zip *.mrpack)"
+msgstr "圧縮文件 (*.zip *.mrpack)"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1240,7 +1240,7 @@ msgstr "構成実例の導入は中断されました。"
 #: src/launcher/InstanceImportTask.cpp:361
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
-msgstr ""
+msgstr "整合包の索引の解析に失敗しました: \n"
 
 #: src/launcher/InstanceImportTask.cpp:368
 msgctxt "InstanceImportTask|"
@@ -1706,7 +1706,7 @@ msgstr "構成実例が選択されていません!"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr "無効なJava引数が指定されています。修正してください。"
+msgstr "無効なJava引数が指定されていました。先ずはこれを修正してください。"
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -1803,12 +1803,12 @@ msgstr "帳戸が消去されました"
 #: src/launcher/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr "Microsoftアカウントに移行する必要があります。"
+msgstr "この帳戸は Microsoft に移行する必要があります。"
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Account requires migration"
-msgstr "アカウントを移行する必要があります。"
+msgstr "帳戸の移行が必要"
 
 #: src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
@@ -2490,7 +2490,7 @@ msgstr "Minecraft の履録"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1 (0x%2)."
-msgstr "Minecraftのプロセスが終了されました code: %1 (0x%2)"
+msgstr "程務は終了戻り値 %1 (0x%2) で終了しました。"
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2502,12 +2502,12 @@ msgstr "程務が崩れた。"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr "Minecraftのプロセスがクラッシュしました exitcode: %1 (0x%2)"
+msgstr "程務は終了戻り値 %1 (%2) で崩れた。"
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "Below is an analysis of the exit code. THIS MAY BE INCORRECT AND SHOULD BE TAKEN WITH A GRAIN OF SALT!"
-msgstr "これは出力コードの分析です。これは正しくなく、当てにならない可能性があります。"
+msgstr "以下の内容は程務の戻り値の分析です。でも，これは正しくないの可能性があります，注意して読んでください!"
 
 #: src/launcher/LoggedProcess.cpp:99
 #, qt-format
