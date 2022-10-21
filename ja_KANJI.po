@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese (kanji)\n"
 "Language: jpn_KANJI\n"
-"PO-Revision-Date: 2022-06-09 22:50\n"
+"PO-Revision-Date: 2022-10-21 12:42\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -260,7 +260,7 @@ msgstr "無くなった"
 #: src/launcher/minecraft/auth/AccountList.cpp:298
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
-msgstr ""
+msgstr "移行が必要"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Can Migrate?"
@@ -445,7 +445,7 @@ msgstr "認証中に錯誤が発生しました。"
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr ""
+msgstr "認証に失敗しました。 この帳戸を使用するには，Microsoft に移行する必要があります。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
@@ -983,17 +983,17 @@ msgstr "Minecraft の二進文件の文件集の作成に失敗しました。"
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:15
 msgctxt "ForcedMigrationStep|"
 msgid "Checking for migration eligibility."
-msgstr ""
+msgstr "移行の可能性を確認しています。"
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "この帳戸は Microsoft に移行する必要があります。"
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
 msgid "Got forced migration flags"
-msgstr ""
+msgstr "強制的に移行されたフラグを取得しました"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1133,7 +1133,7 @@ msgstr "図標 %1"
 #: src/launcher/ui/pages/modplatform/import_ftb/FTBAPage.h:41
 msgctxt "ImportFTB::FTBAPage|"
 msgid "FTB App Import"
-msgstr ""
+msgstr "FTB Appのインポート"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -1158,7 +1158,7 @@ msgstr "Mod 整合包を選択する"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr ""
+msgstr "Zip (*.zip *.mrpack)"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1706,7 +1706,7 @@ msgstr "構成実例が選択されていません!"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr ""
+msgstr "無効なJava引数が指定されています。修正してください。"
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -1803,12 +1803,12 @@ msgstr "帳戸が消去されました"
 #: src/launcher/LaunchController.cpp:250
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr ""
+msgstr "Microsoftアカウントに移行する必要があります。"
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Account requires migration"
-msgstr ""
+msgstr "アカウントを移行する必要があります。"
 
 #: src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
@@ -2490,7 +2490,7 @@ msgstr "Minecraft の履録"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1 (0x%2)."
-msgstr ""
+msgstr "Minecraftのプロセスが終了されました code: %1 (0x%2)"
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2502,34 +2502,34 @@ msgstr "程務が崩れた。"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr ""
+msgstr "Minecraftのプロセスがクラッシュしました exitcode: %1 (0x%2)"
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "Below is an analysis of the exit code. THIS MAY BE INCORRECT AND SHOULD BE TAKEN WITH A GRAIN OF SALT!"
-msgstr ""
+msgstr "これは出力コードの分析です。これは正しくなく、当てにならない可能性があります。"
 
 #: src/launcher/LoggedProcess.cpp:99
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code name: %1"
-msgstr ""
+msgstr "システムの終了コード: %1"
 
 #: src/launcher/LoggedProcess.cpp:104
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "System exit code description: %1"
-msgstr ""
+msgstr "システムの終了コードの説明: %1"
 
 #: src/launcher/LoggedProcess.cpp:109
 msgctxt "LoggedProcess|"
 msgid "Please note that usually neither the exit code, nor its description are enough to diagnose issues!"
-msgstr ""
+msgstr "一般的に、終了コードもその説明もそれらの問題を診断するのには十分でないことをご留意ください。"
 
 #: src/launcher/LoggedProcess.cpp:110
 msgctxt "LoggedProcess|"
 msgid "Always upload the entire log and not just the exit code."
-msgstr ""
+msgstr "常に終了コードだけではなく、ログ全体をアップロードしてください。"
 
 #. Message displayed after the instance exits due to kill request
 #: src/launcher/LoggedProcess.cpp:115
@@ -3032,7 +3032,7 @@ msgstr "マイグレーション資格を確認しています."
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:44
 msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
-msgstr ""
+msgstr "移行フラグがあります"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:702
 msgctxt "MinecraftInstance|"
@@ -3150,7 +3150,7 @@ msgstr "Minecraft プロファイルを取得しています."
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:54
 msgctxt "MinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "アカウントにマインクラフトの情報がありません。"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:69
 msgctxt "MinecraftProfileStep|"
@@ -3312,57 +3312,57 @@ msgstr "カスタム Minecraft jar ファイルの作成に失敗しました。
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "検索とフィルタ ..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:26
 msgctxt "ModrinthPage|"
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:70
 msgctxt "ModrinthPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "選択されたバージョン:"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
-msgstr ""
+msgstr "Modrinth"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
-msgstr ""
+msgstr "関連順に並び替え"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:40
 msgctxt "ModrinthPage|"
 msgid "Sort by total downloads"
-msgstr ""
+msgstr "ダウンロード数順で並び替え"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:41
 msgctxt "ModrinthPage|"
 msgid "Sort by follow count"
-msgstr ""
+msgstr "回数順で並び替え"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:42
 msgctxt "ModrinthPage|"
 msgid "Sort by creation date"
-msgstr ""
+msgstr "作成日順で並び替え"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:43
 msgctxt "ModrinthPage|"
 msgid "Sort by last updated"
-msgstr ""
+msgstr "更新日時順で並び替え"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:165
 msgctxt "ModrinthPage|"
 msgid "Failed to get Modrinth modpack details..."
-msgstr ""
+msgstr "Modrinth modpack の詳細を取得できませんでした..."
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:169
 msgctxt "ModrinthPage|"
 msgid "Loading..."
-msgstr ""
+msgstr "読み込み中…"
 
 #: src/launcher/net/NetJob.cpp:128
 #, qt-format
@@ -3943,7 +3943,7 @@ msgstr "Minecraft サーバー"
 #: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
-msgstr ""
+msgstr "FTB App のインスタンスの説明がありません。"
 
 #: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
@@ -3960,7 +3960,7 @@ msgstr "processArguments が不明な値 '%1' にセットされています"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "このバージョンでの 'minimumLauncherVersion' 値: %1 がMultiMCでサポートされている値: %3(%2) より大きく、正しい動作ができない可能性があります。"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4013,7 +4013,7 @@ msgstr "バージョンファイルにサポートされていない要素  \"+m
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
-msgstr "%1 のアセット"
+msgstr "%1 のassets"
 
 #: src/launcher/minecraft/ProfileUtils.cpp:51
 #, qt-format
@@ -4044,7 +4044,7 @@ msgstr "版次文件 %1 を処理できません。"
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
-msgstr ""
+msgstr "プロファイルがありません (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4274,7 +4274,7 @@ msgstr "フォルダーを表示"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:84
 msgctxt "ScreenshotsPage|"
 msgid "Copy Image"
-msgstr ""
+msgstr "画像をコピー"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:89
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:92
@@ -4971,12 +4971,12 @@ msgstr "Fabricをインストール"
 #: src/launcher/ui/pages/instance/VersionPage.ui:198
 msgctxt "VersionPage|"
 msgid "Install Quilt"
-msgstr ""
+msgstr "Quiltをインストール"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:201
 msgctxt "VersionPage|"
 msgid "Install the Quilt Loader package."
-msgstr ""
+msgstr "Quilt Loader パッケージをインストールします。"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:206
 msgctxt "VersionPage|"
@@ -5186,17 +5186,17 @@ msgstr "Fabricのバージョンリストを読み込めませんでした"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:481
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
-msgstr ""
+msgstr "Quilt Loader のバージョンの選択"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:482
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
-msgstr ""
+msgstr "利用可能な Quilt Loader のバージョンがありません。"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:483
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
-msgstr ""
+msgstr "Quilt Loader のバージョンリストを読み込めませんでした。"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
@@ -5522,7 +5522,7 @@ msgstr "新しいワールド名を入力してください"
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "%1 サービスへのアクセス許可を取得しています。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
