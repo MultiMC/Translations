@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2022-07-17 23:19\n"
+"PO-Revision-Date: 2022-10-18 15:39\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
 msgctxt "ATLauncher::PackInstallTask|"
@@ -514,7 +514,7 @@ msgstr "Impossibile leggere l'indice delle risorse!"
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:79
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr "Ottenimento dei file di risorsa da Mojang..."
+msgstr "Download dei file di risorsa da Mojang..."
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
@@ -1696,7 +1696,7 @@ msgstr "Nessuna istanza specificata!"
 #: src/launcher/LaunchController.cpp:40
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr "Specificati argomenti Java non validi. Per favore correggili."
+msgstr "Argomenti Java specificati non validi. Si prega di correggerli."
 
 #: src/launcher/LaunchController.cpp:60
 msgctxt "LaunchController|"
@@ -2377,7 +2377,7 @@ msgstr "La copia della cartella dell'istanza è stata annullata."
 #: src/launcher/minecraft/update/LibrariesTask.cpp:15
 msgctxt "LibrariesTask|"
 msgid "Getting the library files from Mojang..."
-msgstr "Recupero delle librerie da Mojang..."
+msgstr "Download delle librerie da Mojang..."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:23
 #, qt-format
@@ -2482,7 +2482,7 @@ msgstr "Log di Minecraft"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with code %1 (0x%2)."
-msgstr "Il processo si è chiuso con codice %1 (0x%2)."
+msgstr "Processo terminato con codice %1 (0x%2)."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2494,7 +2494,7 @@ msgstr "Il processo si è chiuso improvvisamente."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr "Il processo è crashato con codice di uscita %1 (0x%2)."
+msgstr "Processo terminato inaspettatamente con codice di uscita %1 (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -2708,7 +2708,7 @@ msgstr "Informazioni su %1"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
-msgstr "Mostra informazioni su %1."
+msgstr "Visualizza informazioni su %1."
 
 #: src/launcher/ui/MainWindow.cpp:378 src/launcher/ui/MainWindow.cpp:679
 msgctxt "MainWindow|"
@@ -2833,22 +2833,22 @@ msgstr "Modifica le note per l'istanza selezionata."
 #: src/launcher/ui/MainWindow.cpp:537
 msgctxt "MainWindow|"
 msgid "View Mods"
-msgstr "Mostra Mod"
+msgstr "Visualizza le Mod"
 
 #: src/launcher/ui/MainWindow.cpp:538
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
-msgstr "Mostra le mod di questa istanza."
+msgstr "Visualizza le mod di questa istanza."
 
 #: src/launcher/ui/MainWindow.cpp:544
 msgctxt "MainWindow|"
 msgid "View Worlds"
-msgstr "Vedi Mondi"
+msgstr "Visualizza i Mondi"
 
 #: src/launcher/ui/MainWindow.cpp:545
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
-msgstr "Vedi i mondi di questa istanza."
+msgstr "Visualizza i mondi di questa istanza."
 
 #: src/launcher/ui/MainWindow.cpp:551
 msgctxt "MainWindow|"
@@ -2858,7 +2858,7 @@ msgstr "Gestisci gli Screenshot"
 #: src/launcher/ui/MainWindow.cpp:552
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
-msgstr "Vedi e carica gli screenshot di questa istanza."
+msgstr "Visualizza e carica gli screenshot di questa istanza."
 
 #: src/launcher/ui/MainWindow.cpp:558
 msgctxt "MainWindow|"
@@ -3955,7 +3955,7 @@ msgstr "processArguments è impostato ad un valore sconosciuto'%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Il valore 'minimumLauncherVersion' di questa versione (%1) è superiore di quello che può supportare %3 (%2). Potrebbe non funzionare correttamente!"
+msgstr "Il valore 'minimumLauncherVersion' di questa versione (%1) è superiore di quello supportato da %3 (%2). Potrebbe non funzionare correttamente!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4056,7 +4056,7 @@ msgstr "Reversione fallita!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr "Impossibile rimpiazzare il file %1. I cambiamenti saranno annullati.\n"
+msgstr "Impossibile sostituire il file %1. I cambiamenti saranno annullati.\n"
 "Controlla il log di %2 per ulteriori dettagli."
 
 #: src/launcher/UpdateController.cpp:382
@@ -5654,7 +5654,7 @@ msgstr "Operazione di autenticazione annullata."
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr "<b>Handshake SSL non riuscito.</b><br/>Ci potrebbero essere alcune cause per questo:<br/><ul><li>Utilizzi Windows e devi aggiornare i certificati di root, per favore installa ogni aggiornamento.</li><li>Alcuni dispositivi della tua rete stanno interferendo con il traffico SSL. In questo caso, dovresti avere preoccupazioni più grandi di Minecraft che non si avvia.</li><li>Forse qualcos'altro. Controlla il file di log per maggiori dettagli</li></ul>"
+msgstr "<b>Handshake SSL non riuscito.</b><br/>Ci potrebbero essere alcune cause per questo:<br/><ul><li>Utilizzi Windows e devi aggiornare i certificati radice, per favore installa ogni aggiornamento in sospeso.</li><li>Alcuni dispositivi della tua rete stanno interferendo con il traffico SSL. In questo caso, dovresti avere preoccupazioni più grandi di Minecraft che non si avvia.</li><li>Forse qualcos'altro. Controlla il file di log per maggiori dettagli</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
