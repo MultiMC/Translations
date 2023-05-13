@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2023-05-13 03:07\n"
+"PO-Revision-Date: 2023-05-13 04:14\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1326,7 +1326,7 @@ msgstr "无法重命名覆盖的目录：\n"
 #: src/launcher/InstanceImportTask.cpp:428
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
-msgstr ""
+msgstr "无法合并覆盖的文件夹：\n"
 
 #: src/launcher/InstanceImportTask.cpp:456
 msgctxt "InstanceImportTask|"
@@ -1865,7 +1865,7 @@ msgstr "离线游戏"
 #: src/launcher/LaunchController.cpp:228
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually. Press OK to log in again."
-msgstr ""
+msgstr "账号已过期，需要手动重新登录。点按OK来重新登录。"
 
 #: src/launcher/LaunchController.cpp:231
 msgctxt "LaunchController|"
@@ -1875,28 +1875,29 @@ msgstr "账户刷新失败"
 #: src/launcher/LaunchController.cpp:246
 msgctxt "LaunchController|"
 msgid "Microsoft Accounts not available"
-msgstr ""
+msgstr "微软账号不可用"
 
 #: src/launcher/LaunchController.cpp:247
 msgctxt "LaunchController|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
-msgstr ""
+msgstr "微软账号仅在macOS 10.13或更新版本可用，且需要更新至最新版本的MultiMC。\n\n"
+"请确保更新了你的操作系统和MultiMC。"
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Attempted to re-login to a Microsoft account on an unsupported platform"
-msgstr ""
+msgstr "尝试在不支持的平台上重新登录微软账号"
 
 #: src/launcher/LaunchController.cpp:258 src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr ""
+msgstr "请输入你的Mojang账户邮箱和密码来添加你的账户。"
 
 #: src/launcher/LaunchController.cpp:275
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
-msgstr ""
+msgstr "账户过期且尝试重新登录失败"
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2586,12 +2587,12 @@ msgstr "运行日志"
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
-msgstr ""
+msgstr "上传日志"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:245
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload a log file?"
-msgstr ""
+msgstr "你确定要上传日志文件吗？"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -2673,7 +2674,7 @@ msgstr "添加Microsoft账户"
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:56
 msgctxt "MSALoginDialog|"
 msgid "Copy Code"
-msgstr ""
+msgstr "拷贝代码"
 
 #: src/launcher/ui/dialogs/MSALoginDialog.cpp:87
 #, qt-format
@@ -3024,12 +3025,12 @@ msgstr "在文件资源管理器中打开实例的根文件夹。"
 #: src/launcher/ui/MainWindow.cpp:602
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
-msgstr ""
+msgstr "创建快捷方式"
 
 #: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
-msgstr ""
+msgstr "创建一个用于启动选定实例的快捷方式"
 
 #: src/launcher/ui/MainWindow.cpp:609
 msgctxt "MainWindow|"
@@ -3102,12 +3103,12 @@ msgstr "删除组 \"%1\""
 #: src/launcher/ui/MainWindow.cpp:989
 msgctxt "MainWindow|"
 msgid "Format"
-msgstr ""
+msgstr "格式"
 
 #: src/launcher/ui/MainWindow.cpp:992
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr ""
+msgstr "Modrinth (开发中的功能)"
 
 #: src/launcher/ui/MainWindow.cpp:1047
 msgctxt "MainWindow|"
@@ -3202,7 +3203,7 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
-msgstr ""
+msgstr ", 上次游玩时长: %1 小时"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:802
 #, qt-format
@@ -3214,7 +3215,7 @@ msgstr "，最后一次游玩时长: %1"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
-msgstr ""
+msgstr ", 总游玩时长: %1 小时"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:810
 #, qt-format
@@ -3285,7 +3286,7 @@ msgstr "记录单实例的游玩时间"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:167
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing in hours only"
-msgstr ""
+msgstr "以小时为单位显示游玩时长"
 
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3462,27 +3463,27 @@ msgstr "无法创建自定义 Minecraft jar 文件。"
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
-msgstr ""
+msgstr "在Modrinth上查找所需文件…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:78
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr ""
+msgstr "导出Modrinth包"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:113
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
-msgstr ""
+msgstr "在Modrinth上查找文件…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:118
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
-msgstr ""
+msgstr "创建整合包元数据…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:197
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
-msgstr ""
+msgstr "拷贝文件到整合包…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:211
 #, qt-format
@@ -3493,17 +3494,17 @@ msgstr ""
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:228
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
-msgstr ""
+msgstr "压缩整合包…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:230
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
-msgstr ""
+msgstr "创建zip文件失败"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:234
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create temporary directory"
-msgstr ""
+msgstr "创建临时目录失败"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
 msgctxt "ModrinthExportDialog|"
@@ -3513,110 +3514,111 @@ msgstr ""
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:41
 msgctxt "ModrinthExportDialog|"
 msgid "Export Modrinth modpack"
-msgstr ""
+msgstr "导出Modrinth整合包"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:54
 msgctxt "ModrinthExportDialog|"
 msgid "Metadata"
-msgstr ""
+msgstr "元数据"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:71
 msgctxt "ModrinthExportDialog|"
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:81
 msgctxt "ModrinthExportDialog|"
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:88
 msgctxt "ModrinthExportDialog|"
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:107
 msgctxt "ModrinthExportDialog|"
 msgid "Export Options"
-msgstr ""
+msgstr "导出选项"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:127
 msgctxt "ModrinthExportDialog|"
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:137
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:195
 msgctxt "ModrinthExportDialog|"
 msgid "Browse..."
-msgstr ""
+msgstr "浏览…"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:146
 msgctxt "ModrinthExportDialog|"
 msgid "Include Minecraft config"
-msgstr ""
+msgstr "包括Minecraft配置"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:156
 msgctxt "ModrinthExportDialog|"
 msgid "Include mod configs"
-msgstr ""
+msgstr "包括模组配置"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:166
 msgctxt "ModrinthExportDialog|"
 msgid "Include resource packs"
-msgstr ""
+msgstr "包括资源包"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:173
 msgctxt "ModrinthExportDialog|"
 msgid "Include shader packs"
-msgstr ""
+msgstr "包括光影包"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:182
 msgctxt "ModrinthExportDialog|"
 msgid "Use this if your modpack contains a mod which adds global datapacks."
-msgstr ""
+msgstr "如果你的整合包含有添加全局数据包的模组，请使用此项。"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:185
 msgctxt "ModrinthExportDialog|"
 msgid "Include global datapacks folder:"
-msgstr ""
+msgstr "包括全局数据包文件夹："
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:45
 msgctxt "ModrinthExportDialog|"
 msgid "Select modpack file"
-msgstr ""
+msgstr "选择整合包文件"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:61
 msgctxt "ModrinthExportDialog|"
 msgid "Select global datapacks folder"
-msgstr ""
+msgstr "选择全局数据包文件夹"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:97
 msgctxt "ModrinthExportDialog|"
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:98
 #, qt-format
 msgctxt "ModrinthExportDialog|"
 msgid "Instance contains a custom component: %1\n"
 "This cannot be exported to a Modrinth pack; the exported pack may not work correctly!"
-msgstr ""
+msgstr "实例包含自定义组件: %1\n"
+"无法导出到Modrinth包，导出的包可能无法正常工作！"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:122
 msgctxt "ModrinthExportDialog|"
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:129
 msgctxt "ModrinthExportDialog|"
 msgid "Warnings"
-msgstr ""
+msgstr "警告"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:133
 msgctxt "ModrinthExportDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "中断"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
@@ -3715,7 +3717,7 @@ msgstr "组（&G）："
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:72
 msgctxt "NewInstanceDialog|"
 msgid "Reset"
-msgstr ""
+msgstr "重置"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
@@ -4627,13 +4629,13 @@ msgstr "上下文菜单"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:317
 msgctxt "ScreenshotsPage|"
 msgid "Upload screenshot to imgur.com?"
-msgstr ""
+msgstr "上传截图到imgur.com？"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:319
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "Upload %1 screenshots to imgur.com?"
-msgstr ""
+msgstr "上传 %1 张截图到imgur.com？"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:323
 msgctxt "ScreenshotsPage|"
@@ -4930,7 +4932,7 @@ msgstr "正在下载整合包"
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:79
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "无法解析包内清单：\n"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:115
 msgctxt "Technic::SolderPackInstallTask|"
@@ -5112,12 +5114,12 @@ msgstr "现在不升级"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:16
 msgctxt "UpdateDialog|"
 msgid "A new update is available!"
-msgstr ""
+msgstr "新更新可用！"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:20
 msgctxt "UpdateDialog|"
 msgid "No updates found. You are running the latest version."
-msgstr ""
+msgstr "没有找到更新，你正在运行最新版本。"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:22
 msgctxt "UpdateDialog|"
