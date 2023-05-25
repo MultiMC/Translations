@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2023-05-13 16:58\n"
+"PO-Revision-Date: 2023-05-25 15:54\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -490,7 +490,7 @@ msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
 msgstr "啟用統計資料"
 
-#: src/launcher/Application.cpp:769
+#: src/launcher/Application.cpp:797
 msgctxt "Application|"
 msgid "Settings"
 msgstr "設定"
@@ -723,40 +723,50 @@ msgstr "建立捷徑"
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:36
 msgctxt "CreateShortcutDialog|"
-msgid "Launch in offline mode"
-msgstr "以離線模式啟動"
-
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:43
-msgctxt "CreateShortcutDialog|"
 msgid "Shortcut path:"
 msgstr "捷徑路徑："
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:50
-msgctxt "CreateShortcutDialog|"
-msgid "Browse"
-msgstr "瀏覽"
-
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:66
-msgctxt "CreateShortcutDialog|"
-msgid "Set offline mode username:"
-msgstr "設定離線模式的使用者名稱："
-
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:73
-msgctxt "CreateShortcutDialog|"
-msgid "Join server on launch:"
-msgstr "在啟動時加入伺服器："
-
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:80
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:43
 msgctxt "CreateShortcutDialog|"
 msgid "Use specific profile:"
 msgstr "使用指定的設定檔："
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:110
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:57
+msgctxt "CreateShortcutDialog|"
+msgid "Launch in offline mode"
+msgstr "以離線模式啟動"
+
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:71
+msgctxt "CreateShortcutDialog|"
+msgid "Join world on launch:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:98
+msgctxt "CreateShortcutDialog|"
+msgid "Set offline mode username:"
+msgstr "設定離線模式的使用者名稱："
+
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:108
+msgctxt "CreateShortcutDialog|"
+msgid "Singleplayer world:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:115
+msgctxt "CreateShortcutDialog|"
+msgid "Browse"
+msgstr "瀏覽"
+
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:125
+msgctxt "CreateShortcutDialog|"
+msgid "Server address:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:152
 msgctxt "CreateShortcutDialog|"
 msgid "Create script instead of shortcut"
 msgstr "建立腳本而非捷徑"
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:72
+#: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:101
 msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr "選擇捷徑路徑"
@@ -1497,25 +1507,30 @@ msgstr "記錄本實例遊玩時數"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
-msgid "Set a server to join on launch"
-msgstr "啟動遊戲後直接加入伺服器"
+msgid "Set a world to join on launch"
+msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:479
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:473
 msgctxt "InstanceSettingsPage|"
 msgid "Server address:"
 msgstr "伺服器位址："
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:42
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:483
+msgctxt "InstanceSettingsPage|"
+msgid "Singleplayer world:"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "設定"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:283
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:335
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "選擇 Java 版本"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:301
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:353
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "尋找 Java 可執行檔"
@@ -2568,15 +2583,15 @@ msgstr "上傳記錄檔"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:245
 msgctxt "LogPage|"
-msgid "Are you sure you want to upload a log file?"
-msgstr "您確定要上傳記錄檔嗎？"
+msgid "Are you sure you want to upload this log file?"
+msgstr ""
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
 #, qt-format
 msgctxt "LoggedProcess|"
-msgid "Process exited with code %1 (0x%2)."
-msgstr "已退出程序。結束代碼：%1 (0x%2)。"
+msgid "Process exited with exit code %1 (0x%2)."
+msgstr ""
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2587,8 +2602,8 @@ msgstr "程序已崩潰。"
 #: src/launcher/LoggedProcess.cpp:79
 #, qt-format
 msgctxt "LoggedProcess|"
-msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr "程序已崩潰。結束代碼：%1 (0x%2)。"
+msgid "Process crashed with exit code %1 (0x%2)."
+msgstr ""
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -3144,62 +3159,62 @@ msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
 msgstr "已取得遷移標記"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:713
+#: src/launcher/minecraft/MinecraftInstance.cpp:726
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<對話 ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:715
+#: src/launcher/minecraft/MinecraftInstance.cpp:728
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<存取權杖>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:717
+#: src/launcher/minecraft/MinecraftInstance.cpp:730
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<用戶端權杖>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:719
+#: src/launcher/minecraft/MinecraftInstance.cpp:732
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<設定檔 ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:791
+#: src/launcher/minecraft/MinecraftInstance.cpp:804
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "已損壞"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:795
+#: src/launcher/minecraft/MinecraftInstance.cpp:808
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:800
+#: src/launcher/minecraft/MinecraftInstance.cpp:813
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
 msgstr "，上次已遊玩 %1 小時"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:802
+#: src/launcher/minecraft/MinecraftInstance.cpp:815
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
 msgstr "，上次已遊玩 %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:808
+#: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
 msgstr "，共遊玩 %1 小時"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:810
+#: src/launcher/minecraft/MinecraftInstance.cpp:823
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
 msgstr "，共遊玩 %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:816
+#: src/launcher/minecraft/MinecraftInstance.cpp:829
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr "，程序已崩潰。"
@@ -3441,52 +3456,48 @@ msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
 msgstr "在 Modrinth 上找詢所需檔案..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:78
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
 msgstr "匯出 Modrinth 包"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:113
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
 msgstr "在 Modrinth 上查詢所需檔案..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:118
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
 msgstr "正在建立模組包的後設資料..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:197
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:219
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
 msgstr "正在複製檔案至模組包..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:211
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:233
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
 msgstr "無法將檔案 %1 複製到覆蓋處"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:228
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:250
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
 msgstr "正在壓縮模組包..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:230
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:252
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
 msgstr "無法建立壓縮檔"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:234
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create temporary directory"
 msgstr "無法建立暫存資料夾"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
-msgctxt "ModrinthExportDialog|"
-msgid "ModrinthExportDialog"
-msgstr "Modrinth 匯出對話框"
-
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:41
 msgctxt "ModrinthExportDialog|"
 msgid "Export Modrinth modpack"
@@ -3523,7 +3534,7 @@ msgid "File"
 msgstr "檔案"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:137
-#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:195
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:205
 msgctxt "ModrinthExportDialog|"
 msgid "Browse..."
 msgstr "瀏覽…"
@@ -3548,12 +3559,22 @@ msgctxt "ModrinthExportDialog|"
 msgid "Include shader packs"
 msgstr "包含光影包"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:182
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:180
+msgctxt "ModrinthExportDialog|"
+msgid "If enabled, all mods, shaders and resource packs that are available on Modrinth will be treated as optional on both client and server. Files that are unavailable on Modrinth will simply retain the \".disabled\" extension as Modrinth packs don't support optional overrides."
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:183
+msgctxt "ModrinthExportDialog|"
+msgid "Treat disabled mods, shaders and resource packs as optional"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:192
 msgctxt "ModrinthExportDialog|"
 msgid "Use this if your modpack contains a mod which adds global datapacks."
 msgstr "若您的模組包包含了加入全域資料包的模組，請使用本項。"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:185
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:195
 msgctxt "ModrinthExportDialog|"
 msgid "Include global datapacks folder:"
 msgstr "包含全域模組包資料夾："
@@ -3568,12 +3589,12 @@ msgctxt "ModrinthExportDialog|"
 msgid "Select global datapacks folder"
 msgstr "選擇全域模組包資料夾"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:97
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:98
 msgctxt "ModrinthExportDialog|"
 msgid "Warning"
 msgstr "警告"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:98
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:99
 #, qt-format
 msgctxt "ModrinthExportDialog|"
 msgid "Instance contains a custom component: %1\n"
@@ -3581,17 +3602,17 @@ msgid "Instance contains a custom component: %1\n"
 msgstr "實例包含一個自訂元件：%1\n"
 "它無法匯出至 Modrinth 包中；匯出的包可能無法正常運作！"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:122
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:123
 msgctxt "ModrinthExportDialog|"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:129
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:130
 msgctxt "ModrinthExportDialog|"
 msgid "Warnings"
 msgstr "警告"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:133
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:134
 msgctxt "ModrinthExportDialog|"
 msgid "Abort"
 msgstr "中止"
@@ -3834,8 +3855,8 @@ msgstr "上傳記錄檔"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
 msgctxt "OtherLogsPage|"
-msgid "Are you sure you want to upload a log file?"
-msgstr "您確定要上傳記錄檔嗎？"
+msgid "Are you sure you want to upload this log file?"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:211
 #, qt-format
@@ -5684,62 +5705,82 @@ msgctxt "WorldListPage|"
 msgid "Actions"
 msgstr "動作"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:97
+#: src/launcher/ui/pages/instance/WorldListPage.ui:99
 msgctxt "WorldListPage|"
 msgid "Add"
 msgstr "新增"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:102
+#: src/launcher/ui/pages/instance/WorldListPage.ui:104
+msgctxt "WorldListPage|"
+msgid "Join"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.ui:107
+msgctxt "WorldListPage|"
+msgid "Launch the instance directly into the selected world"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.ui:112
+msgctxt "WorldListPage|"
+msgid "Join offline"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.ui:115
+msgctxt "WorldListPage|"
+msgid "Launch the instance in offline mode directly into the selected world"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.ui:120
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "重新命名"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:107
+#: src/launcher/ui/pages/instance/WorldListPage.ui:125
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "複製"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:112
+#: src/launcher/ui/pages/instance/WorldListPage.ui:130
 msgctxt "WorldListPage|"
 msgid "Remove"
 msgstr "移除"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:117
+#: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
 msgstr "MCEdit"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:122
+#: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
 msgstr "複製種子碼"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:127
+#: src/launcher/ui/pages/instance/WorldListPage.ui:145
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "重新整理"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:132
+#: src/launcher/ui/pages/instance/WorldListPage.ui:150
 msgctxt "WorldListPage|"
 msgid "View Folder"
 msgstr "檢視資料夾"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:137
+#: src/launcher/ui/pages/instance/WorldListPage.ui:155
 msgctxt "WorldListPage|"
 msgid "Reset Icon"
 msgstr "重設圖示"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:140
+#: src/launcher/ui/pages/instance/WorldListPage.ui:158
 msgctxt "WorldListPage|"
 msgid "Remove world icon to make the game re-generate it on next load."
 msgstr "刪除世界圖示，並讓遊戲在下次載入世界時重新產生它。"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:145
+#: src/launcher/ui/pages/instance/WorldListPage.ui:163
 msgctxt "WorldListPage|"
 msgid "Datapacks"
 msgstr "資料包"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:148
+#: src/launcher/ui/pages/instance/WorldListPage.ui:166
 msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "管理這個世界中的資料包。"
@@ -5749,17 +5790,17 @@ msgctxt "WorldListPage|"
 msgid "Worlds"
 msgstr "世界"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:108
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
 msgstr "功能表"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:158
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:160
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "您確定嗎？"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:159
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:161
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
@@ -5768,64 +5809,64 @@ msgstr "這將會永久移除所選的世界。\n"
 "此世界將會永遠消失（非 常 久）。\n\n"
 "您真的要繼續嗎？"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:270
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "沒有找到 MCEdit 或尚未設定！"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:271
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:273
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "您尚未設定 MCEdit，或其路徑已被變更。\n"
 "您可以在全域設定中進行設定。"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:280
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:282
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "無法啟動 MCEdit！"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:281
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:283
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr "無法啟動 MCEdit。\n"
 "可能需要重新安裝它。"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:330
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:339
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "選擇 Minecraft 世界的 .zip 檔"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:331
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:340
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Minecraft 世界的 .zip 檔 (*.zip)"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:352
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:361
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "複製世界"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:352
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:361
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr "當 Minecraft 正在執行時，變更世界可能是不安全的。\n"
 "您還要繼續嗎？"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:376
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:399
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:385
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:408
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "世界名稱"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:376
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:385
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "輸入新複製檔的名稱。"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:399
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:408
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "輸入新世界的名稱。"
