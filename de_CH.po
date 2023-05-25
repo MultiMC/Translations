@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: German, Switzerland\n"
 "Language: de_CH\n"
-"PO-Revision-Date: 2023-05-12 19:46\n"
+"PO-Revision-Date: 2023-05-25 15:54\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -490,7 +490,7 @@ msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
 msgstr "Anonyme Nutzungsdaten senden"
 
-#: src/launcher/Application.cpp:769
+#: src/launcher/Application.cpp:797
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Einstellungen"
@@ -575,12 +575,12 @@ msgstr "Alle abwählen"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.cpp:149
 msgctxt "AtlOptionalModListModel|"
 msgid "Are you sure that you want to enable this mod?"
-msgstr ""
+msgstr "Bist du sicher, dass du diese Mod aktivieren willst?"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.cpp:152
 msgctxt "AtlOptionalModListModel|"
 msgid "Warning"
-msgstr ""
+msgstr "Warnung"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:42
 msgctxt "AtlPage|"
@@ -616,7 +616,7 @@ msgstr "Konnte die Versionsliste nicht herunterladen!"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:194
 msgctxt "AtlPage|"
 msgid "Installing"
-msgstr ""
+msgstr "Installiere"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
@@ -719,47 +719,57 @@ msgstr "Konnte den Hauptordner des Spiels nicht erstellen"
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:25
 msgctxt "CreateShortcutDialog|"
 msgid "Create Shortcut"
-msgstr ""
+msgstr "Verknüpfung erstellen"
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:36
 msgctxt "CreateShortcutDialog|"
-msgid "Launch in offline mode"
-msgstr ""
+msgid "Shortcut path:"
+msgstr "Verknüpfungspfad:"
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:43
 msgctxt "CreateShortcutDialog|"
-msgid "Shortcut path:"
-msgstr ""
+msgid "Use specific profile:"
+msgstr "Spezielles Profil verwenden:"
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:50
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:57
 msgctxt "CreateShortcutDialog|"
-msgid "Browse"
+msgid "Launch in offline mode"
+msgstr "Im Offline-Modus starten"
+
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:71
+msgctxt "CreateShortcutDialog|"
+msgid "Join world on launch:"
 msgstr ""
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:66
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:98
 msgctxt "CreateShortcutDialog|"
 msgid "Set offline mode username:"
-msgstr ""
+msgstr "Benutzernamen für den Offline-Modus festlegen:"
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:73
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:108
 msgctxt "CreateShortcutDialog|"
-msgid "Join server on launch:"
+msgid "Singleplayer world:"
 msgstr ""
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:80
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:115
 msgctxt "CreateShortcutDialog|"
-msgid "Use specific profile:"
+msgid "Browse"
+msgstr "Durchsuchen"
+
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:125
+msgctxt "CreateShortcutDialog|"
+msgid "Server address:"
 msgstr ""
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:110
+#: src/launcher/ui/dialogs/CreateShortcutDialog.ui:152
 msgctxt "CreateShortcutDialog|"
 msgid "Create script instead of shortcut"
-msgstr ""
+msgstr "Skript anstelle einer Verknüpfung erstellen"
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:72
+#: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:101
 msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
-msgstr ""
+msgstr "Verknüpfungspfad auswählen"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -1301,7 +1311,7 @@ msgstr "Konnte den \"overrides\"-Ordner nicht umbenennen:\n"
 #: src/launcher/InstanceImportTask.cpp:428
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
-msgstr ""
+msgstr "Der Überschreibungsordner konnte nicht zusammengeführt werden:\n"
 
 #: src/launcher/InstanceImportTask.cpp:456
 msgctxt "InstanceImportTask|"
@@ -1497,25 +1507,30 @@ msgstr "Speichere die Spielzeit dieser Instanz"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
-msgid "Set a server to join on launch"
-msgstr "Trete diesem Server nach dem Start automatisch bei"
+msgid "Set a world to join on launch"
+msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:479
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:473
 msgctxt "InstanceSettingsPage|"
 msgid "Server address:"
 msgstr "Server-Adresse:"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:42
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:483
+msgctxt "InstanceSettingsPage|"
+msgid "Singleplayer world:"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:283
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:335
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr "Wähle eine Java-Version"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:301
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:353
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Java-Programm finden"
@@ -1841,7 +1856,7 @@ msgstr "Offline spielen"
 #: src/launcher/LaunchController.cpp:228
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually. Press OK to log in again."
-msgstr ""
+msgstr "Das Konto ist abgelaufen und muss manuell angemeldet werden. Zum erneuten Anmelden OK drücken."
 
 #: src/launcher/LaunchController.cpp:231
 msgctxt "LaunchController|"
@@ -1851,28 +1866,29 @@ msgstr "Konto Aktualisierung fehlgeschlagen"
 #: src/launcher/LaunchController.cpp:246
 msgctxt "LaunchController|"
 msgid "Microsoft Accounts not available"
-msgstr ""
+msgstr "Microsoft-Konten sind nicht verfügbar"
 
 #: src/launcher/LaunchController.cpp:247
 msgctxt "LaunchController|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
-msgstr ""
+msgstr "Microsoft-Konten sind nur unter macOS 10.13 oder neuer und mit vollständig aktualisiertem MultiMC nutzbar.\n\n"
+"Aktualisiere bitte sowohl dein Betriebssystem als auch MultiMC."
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Attempted to re-login to a Microsoft account on an unsupported platform"
-msgstr ""
+msgstr "Es wurde versucht, sich erneut bei einem Microsoft-Konto auf einer nicht unterstützten Plattform anzumelden"
 
 #: src/launcher/LaunchController.cpp:258 src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr ""
+msgstr "Bitte gib die E-Mail-Adresse und das Passwort deines Mojang-Kontos ein, um dieses hinzuzufügen."
 
 #: src/launcher/LaunchController.cpp:275
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
-msgstr ""
+msgstr "Konto ist abgelaufen und ein erneuter Anmeldeversuch ist fehlgeschlagen"
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2562,19 +2578,19 @@ msgstr "Minecraft Protokoll"
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
-msgstr ""
+msgstr "Hochladen einer Logdatei"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:245
 msgctxt "LogPage|"
-msgid "Are you sure you want to upload a log file?"
+msgid "Are you sure you want to upload this log file?"
 msgstr ""
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
 #, qt-format
 msgctxt "LoggedProcess|"
-msgid "Process exited with code %1 (0x%2)."
-msgstr "Prozess endete mit dem Status %1 (0x%2)."
+msgid "Process exited with exit code %1 (0x%2)."
+msgstr ""
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2585,8 +2601,8 @@ msgstr "Das Programm ist abgestürzt."
 #: src/launcher/LoggedProcess.cpp:79
 #, qt-format
 msgctxt "LoggedProcess|"
-msgid "Process crashed with exitcode %1 (0x%2)."
-msgstr "Prozess ist mit dem Exit-Code %1 (0x%2) abgestürzt."
+msgid "Process crashed with exit code %1 (0x%2)."
+msgstr ""
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -2649,7 +2665,7 @@ msgstr "Microsoft-Konto hinzufügen"
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:56
 msgctxt "MSALoginDialog|"
 msgid "Copy Code"
-msgstr ""
+msgstr "Code kopieren"
 
 #: src/launcher/ui/dialogs/MSALoginDialog.cpp:87
 #, qt-format
@@ -3000,12 +3016,12 @@ msgstr "Das Hauptverzeichnis der aktuellen Instanz im Dateimanager öffnen."
 #: src/launcher/ui/MainWindow.cpp:602
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
-msgstr ""
+msgstr "Verknüpfung erstellen"
 
 #: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
-msgstr ""
+msgstr "Eine Verknüpfung erstellen, mit der die ausgewählte Instanz gestartet wird"
 
 #: src/launcher/ui/MainWindow.cpp:609
 msgctxt "MainWindow|"
@@ -3078,12 +3094,12 @@ msgstr "Gruppe '%1' löschen"
 #: src/launcher/ui/MainWindow.cpp:989
 msgctxt "MainWindow|"
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: src/launcher/ui/MainWindow.cpp:992
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr ""
+msgstr "Modrinth (WIP)"
 
 #: src/launcher/ui/MainWindow.cpp:1047
 msgctxt "MainWindow|"
@@ -3143,62 +3159,62 @@ msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
 msgstr "Migrations Merkmale erhalten"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:713
+#: src/launcher/minecraft/MinecraftInstance.cpp:726
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SITZUNGS ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:715
+#: src/launcher/minecraft/MinecraftInstance.cpp:728
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ZUGANGS TOKEN>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:717
+#: src/launcher/minecraft/MinecraftInstance.cpp:730
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:719
+#: src/launcher/minecraft/MinecraftInstance.cpp:732
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFIL ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:791
+#: src/launcher/minecraft/MinecraftInstance.cpp:804
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "kaputt"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:795
+#: src/launcher/minecraft/MinecraftInstance.cpp:808
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:800
+#: src/launcher/minecraft/MinecraftInstance.cpp:813
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
-msgstr ""
+msgstr ", zuletzt %1 Stunde(n) gespielt"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:802
+#: src/launcher/minecraft/MinecraftInstance.cpp:815
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
 msgstr ", Zuletzt gespielt für %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:808
+#: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
-msgstr ""
+msgstr ", insgesamt %1 Stunde(n) gespielt"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:810
+#: src/launcher/minecraft/MinecraftInstance.cpp:823
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
 msgstr ", gesamt gespielt für %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:816
+#: src/launcher/minecraft/MinecraftInstance.cpp:829
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", ist abgestürtzt."
@@ -3261,7 +3277,7 @@ msgstr "Speichere die Spielzeit aller Instanzen"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:167
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing in hours only"
-msgstr ""
+msgstr "Spielzeit nur in Stunden anzeigen"
 
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3438,161 +3454,168 @@ msgstr "Fehler bei der Erstellung der benutzerdefinierten Minecraft-Jar Datei."
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
-msgstr ""
+msgstr "Dateien zum Nachschlagen auf Modrinth finden..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:78
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr ""
+msgstr "Export von Modrinth-Paketen"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:113
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
-msgstr ""
+msgstr "Suche nach Dateien auf Modrinth..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:118
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
-msgstr ""
+msgstr "Erstelle Modpack-Metadaten..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:197
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:219
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
-msgstr ""
+msgstr "Kopiere Dateien ins Modpack..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:211
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:233
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
-msgstr ""
+msgstr "Datei %1 konnte nicht überschrieben werden"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:228
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:250
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
-msgstr ""
+msgstr "Modpack zusammenpacken..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:230
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:252
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
-msgstr ""
+msgstr "Zip-Datei konnte nicht erstellt werden"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:234
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create temporary directory"
-msgstr ""
+msgstr "Temporäres Verzeichnis konnte nicht erstellt werden"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
-msgctxt "ModrinthExportDialog|"
-msgid "ModrinthExportDialog"
-msgstr ""
-
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:41
 msgctxt "ModrinthExportDialog|"
 msgid "Export Modrinth modpack"
-msgstr ""
+msgstr "Modrinth Modpack exportieren"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:54
 msgctxt "ModrinthExportDialog|"
 msgid "Metadata"
-msgstr ""
+msgstr "Metadaten"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:71
 msgctxt "ModrinthExportDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:81
 msgctxt "ModrinthExportDialog|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:88
 msgctxt "ModrinthExportDialog|"
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:107
 msgctxt "ModrinthExportDialog|"
 msgid "Export Options"
-msgstr ""
+msgstr "Export Optionen"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:127
 msgctxt "ModrinthExportDialog|"
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:137
-#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:195
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:205
 msgctxt "ModrinthExportDialog|"
 msgid "Browse..."
-msgstr ""
+msgstr "Durchsuchen..."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:146
 msgctxt "ModrinthExportDialog|"
 msgid "Include Minecraft config"
-msgstr ""
+msgstr "Minecraft-Konfiguration einbeziehen"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:156
 msgctxt "ModrinthExportDialog|"
 msgid "Include mod configs"
-msgstr ""
+msgstr "Mod-Konfiguration einbeziehen"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:166
 msgctxt "ModrinthExportDialog|"
 msgid "Include resource packs"
-msgstr ""
+msgstr "Ressourcenpakete einbeziehen"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:173
 msgctxt "ModrinthExportDialog|"
 msgid "Include shader packs"
+msgstr "Shader-Pakete einbeziehen"
+
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:180
+msgctxt "ModrinthExportDialog|"
+msgid "If enabled, all mods, shaders and resource packs that are available on Modrinth will be treated as optional on both client and server. Files that are unavailable on Modrinth will simply retain the \".disabled\" extension as Modrinth packs don't support optional overrides."
 msgstr ""
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:182
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:183
+msgctxt "ModrinthExportDialog|"
+msgid "Treat disabled mods, shaders and resource packs as optional"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:192
 msgctxt "ModrinthExportDialog|"
 msgid "Use this if your modpack contains a mod which adds global datapacks."
-msgstr ""
+msgstr "Verwende dies, wenn dein Modpack eine Mod enthält, die globale Datapacks hinzufügt."
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:185
+#: src/launcher/ui/dialogs/ModrinthExportDialog.ui:195
 msgctxt "ModrinthExportDialog|"
 msgid "Include global datapacks folder:"
-msgstr ""
+msgstr "Globalen Datapacks-Ordner einbeziehen:"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:45
 msgctxt "ModrinthExportDialog|"
 msgid "Select modpack file"
-msgstr ""
+msgstr "Modpack-Datei auswählen"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:61
 msgctxt "ModrinthExportDialog|"
 msgid "Select global datapacks folder"
-msgstr ""
-
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:97
-msgctxt "ModrinthExportDialog|"
-msgid "Warning"
-msgstr ""
+msgstr "Wähle den Ordner für globale Datenpakete"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:98
+msgctxt "ModrinthExportDialog|"
+msgid "Warning"
+msgstr "Warnung"
+
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:99
 #, qt-format
 msgctxt "ModrinthExportDialog|"
 msgid "Instance contains a custom component: %1\n"
 "This cannot be exported to a Modrinth pack; the exported pack may not work correctly!"
-msgstr ""
+msgstr "Die Instanz enthält eine benutzerdefinierte Komponente: %1\n"
+"Diese kann nicht in ein Modrinth-Pack exportiert werden; das exportierte Pack könnte nicht korrekt funktionieren!"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:122
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:123
 msgctxt "ModrinthExportDialog|"
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:129
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:130
 msgctxt "ModrinthExportDialog|"
 msgid "Warnings"
-msgstr ""
+msgstr "Warnungen"
 
-#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:133
+#: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:134
 msgctxt "ModrinthExportDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "Abbrechen"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
@@ -3691,7 +3714,7 @@ msgstr "&Gruppe:"
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:72
 msgctxt "NewInstanceDialog|"
 msgid "Reset"
-msgstr ""
+msgstr "Zurücksetzen"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
@@ -3828,11 +3851,11 @@ msgstr "Die Datei (%1) ist nicht lesbar."
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:185
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
-msgstr ""
+msgstr "Hochladen einer Logdatei"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
 msgctxt "OtherLogsPage|"
-msgid "Are you sure you want to upload a log file?"
+msgid "Are you sure you want to upload this log file?"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:211
@@ -4142,7 +4165,7 @@ msgstr "Hell"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
 msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr ""
+msgstr "<p>Es gibt keine Code-Änderungen zwischen der Version, die du benutzt, und der neusten.</p>"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:115
 msgctxt "QObject|"
@@ -4164,12 +4187,12 @@ msgstr "<p>Du kannst <a href=\"%1\">diese Änderungen auf GitHub betrachten</a>.
 #: src/launcher/ui/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
 msgid "Original Author"
-msgstr ""
+msgstr "Ursprünglicher Autor"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:39
 msgctxt "QObject|About Credits"
 msgid "Maintainer"
-msgstr ""
+msgstr "Betreuer"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:57
 msgctxt "QObject|About Credits"
@@ -4604,18 +4627,18 @@ msgstr "Kontextmenü"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:317
 msgctxt "ScreenshotsPage|"
 msgid "Upload screenshot to imgur.com?"
-msgstr ""
+msgstr "Screenshot auf imgur.com hochladen?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:319
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "Upload %1 screenshots to imgur.com?"
-msgstr ""
+msgstr "%1 Screenshots auf imgur.com hochladen?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:323
 msgctxt "ScreenshotsPage|"
 msgid "Upload?"
-msgstr ""
+msgstr "Hochladen?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:345
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:385
@@ -4907,7 +4930,7 @@ msgstr "Modpack wird heruntergeladen"
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:79
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Es war nicht möglich, das Manifest des Pakets zu interpretieren:\n"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:115
 msgctxt "Technic::SolderPackInstallTask|"
@@ -4981,7 +5004,7 @@ msgstr "Konnte \"version.json\" nicht verstehen:\n"
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:22
 msgctxt "TechnicPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Ausgewählte Version:"
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:70
 msgctxt "TechnicPage|"
@@ -5089,12 +5112,12 @@ msgstr "Noch nicht aktualisieren"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:16
 msgctxt "UpdateDialog|"
 msgid "A new update is available!"
-msgstr ""
+msgstr "Eine neue Version ist verfügbar!"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:20
 msgctxt "UpdateDialog|"
 msgid "No updates found. You are running the latest version."
-msgstr ""
+msgstr "Keine Updates gefunden. Du verwendest bereits die neueste Version."
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:22
 msgctxt "UpdateDialog|"
@@ -5682,62 +5705,82 @@ msgctxt "WorldListPage|"
 msgid "Actions"
 msgstr "Aktionen"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:97
+#: src/launcher/ui/pages/instance/WorldListPage.ui:99
 msgctxt "WorldListPage|"
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:102
+#: src/launcher/ui/pages/instance/WorldListPage.ui:104
+msgctxt "WorldListPage|"
+msgid "Join"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.ui:107
+msgctxt "WorldListPage|"
+msgid "Launch the instance directly into the selected world"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.ui:112
+msgctxt "WorldListPage|"
+msgid "Join offline"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.ui:115
+msgctxt "WorldListPage|"
+msgid "Launch the instance in offline mode directly into the selected world"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.ui:120
 msgctxt "WorldListPage|"
 msgid "Rename"
 msgstr "Umbenennen"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:107
+#: src/launcher/ui/pages/instance/WorldListPage.ui:125
 msgctxt "WorldListPage|"
 msgid "Copy"
 msgstr "Kopieren"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:112
+#: src/launcher/ui/pages/instance/WorldListPage.ui:130
 msgctxt "WorldListPage|"
 msgid "Remove"
 msgstr "Entfernen"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:117
+#: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
 msgstr "Bearbeiten"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:122
+#: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
 msgstr "Seed kopieren"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:127
+#: src/launcher/ui/pages/instance/WorldListPage.ui:145
 msgctxt "WorldListPage|"
 msgid "Refresh"
 msgstr "Aktualisieren"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:132
+#: src/launcher/ui/pages/instance/WorldListPage.ui:150
 msgctxt "WorldListPage|"
 msgid "View Folder"
 msgstr "&Ordner öffnen"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:137
+#: src/launcher/ui/pages/instance/WorldListPage.ui:155
 msgctxt "WorldListPage|"
 msgid "Reset Icon"
 msgstr "Icon zurücksetzen"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:140
+#: src/launcher/ui/pages/instance/WorldListPage.ui:158
 msgctxt "WorldListPage|"
 msgid "Remove world icon to make the game re-generate it on next load."
 msgstr "Entferne das Weltsymbol um es beim nächsten Laden neu zu generieren."
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:145
+#: src/launcher/ui/pages/instance/WorldListPage.ui:163
 msgctxt "WorldListPage|"
 msgid "Datapacks"
 msgstr "Datenpakete"
 
-#: src/launcher/ui/pages/instance/WorldListPage.ui:148
+#: src/launcher/ui/pages/instance/WorldListPage.ui:166
 msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Verwalten von Datapacks innerhalb der Welt."
@@ -5747,17 +5790,17 @@ msgctxt "WorldListPage|"
 msgid "Worlds"
 msgstr "Welten"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:108
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
 msgstr "Kontextmenü"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:158
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:160
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "Bist du sicher?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:159
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:161
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
@@ -5766,64 +5809,64 @@ msgstr "Dies wird die ausgewählte Welt für immer löschen.\n"
 "Die Welt wird für immer weg sein (EINE LANGE ZEIT)\n\n"
 "Willst du fortfahren?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:270
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "Kein MCEdit gefunden oder aufgesetzt!"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:271
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:273
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "Du hast kein MCEdit aufgesetzt oder es wurde verschoben.\n"
 "Du kannst es in den globalen Einstellungen aufsetzen."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:280
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:282
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "Fehler beim Starten von MCEdit!"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:281
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:283
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr "MCEdit konnte nicht gestartet werden.\n"
 "Es muss vielleicht neu installiert werden."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:330
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:339
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "Wähle eine Minecraft Welt zip"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:331
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:340
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Minecraft Welt Zip Datei (*.zip)"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:352
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:361
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "Kopiere Welt"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:352
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:361
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr "Eine Welt zu verändern, während Minecraft läuft, ist möglicherweise unsicher.\n"
 "Willst du weitermachen?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:376
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:399
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:385
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:408
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "Welt-Name"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:376
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:385
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "Neuen Instanznamen eingeben."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:399
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:408
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Neuen Weltnamen eingeben."
