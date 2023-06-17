@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2023-06-17 10:25\n"
+"PO-Revision-Date: 2023-06-17 11:31\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -764,12 +764,12 @@ msgstr "Palvelimen osoite:"
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:152
 msgctxt "CreateShortcutDialog|"
 msgid "Create script instead of shortcut"
-msgstr ""
+msgstr "Luo skripti pikakuvakkeen sijaan"
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:101
 msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
-msgstr ""
+msgstr "Valitse pikakuvakkeen polku"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -1193,7 +1193,7 @@ msgstr "Kuvakkeet %1"
 #: src/launcher/ui/pages/modplatform/import_ftb/FTBAPage.h:41
 msgctxt "ImportFTB::FTBAPage|"
 msgid "FTB App Import"
-msgstr ""
+msgstr "FTB Sovelluksen Tuonti"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
@@ -1311,7 +1311,7 @@ msgstr "Ei voitu uudelleennimetä ohituskansiota:\n"
 #: src/launcher/InstanceImportTask.cpp:428
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
-msgstr ""
+msgstr "Ei voitu yhdistää ohituskansiota:\n"
 
 #: src/launcher/InstanceImportTask.cpp:456
 msgctxt "InstanceImportTask|"
@@ -1508,7 +1508,7 @@ msgstr "Tallenna tätä instanssia pelattu aika"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
 msgid "Set a world to join on launch"
-msgstr ""
+msgstr "Aseta maailma, johon liitytään käynnistettäessä"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:473
 msgctxt "InstanceSettingsPage|"
@@ -1518,7 +1518,7 @@ msgstr "Palvelimen osoite:"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:483
 msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
-msgstr ""
+msgstr "Yksinpeli maailma:"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
 msgctxt "InstanceSettingsPage|"
@@ -1856,7 +1856,7 @@ msgstr "Pelaa offline-tilassa"
 #: src/launcher/LaunchController.cpp:228
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually. Press OK to log in again."
-msgstr ""
+msgstr "Tili on vanhentunut ja sinun täytyy kirjautua manuaalisesti uudelleen. Kirjaudu sisään uudelleen painamalla OK."
 
 #: src/launcher/LaunchController.cpp:231
 msgctxt "LaunchController|"
@@ -1866,28 +1866,29 @@ msgstr "Tilin päivitys epäonnistui"
 #: src/launcher/LaunchController.cpp:246
 msgctxt "LaunchController|"
 msgid "Microsoft Accounts not available"
-msgstr ""
+msgstr "Microsoft-tilit eivät ole käytettävissä"
 
 #: src/launcher/LaunchController.cpp:247
 msgctxt "LaunchController|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
-msgstr ""
+msgstr "Microsoft tilit ovat käytettävissä macOS versiossa 10.13 tai uudemmassa, täysin päivitettyllä MultiMC:llä.\n\n"
+"Päivitä sekä käyttöjärjestelmä että MultiMC."
 
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Attempted to re-login to a Microsoft account on an unsupported platform"
-msgstr ""
+msgstr "Yritettiin kirjautua uudelleen Microsoft-tilille alustalla, jota ei tueta"
 
 #: src/launcher/LaunchController.cpp:258 src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr ""
+msgstr "Syötä Mojang-tilisi sähköposti ja salasana lisätäksesi tilisi."
 
 #: src/launcher/LaunchController.cpp:275
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
-msgstr ""
+msgstr "Tili vanhentunut ja uudelleenkirjautumisyritys epäonnistui"
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2151,12 +2152,12 @@ msgstr "Historian rajoitus"
 #: src/launcher/ui/pages/global/LauncherPage.ui:370
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
-msgstr ""
+msgstr "Lopeta lokikirjaus kun loki ylittää rajoituksen"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:383
 msgctxt "LauncherPage|"
 msgid " lines"
-msgstr ""
+msgstr " rivit"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:411
 msgctxt "LauncherPage|"
@@ -2578,19 +2579,19 @@ msgstr "Minecraft-loki"
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
-msgstr ""
+msgstr "Lokin Lähetys"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:245
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
-msgstr ""
+msgstr "Oletko varma, että haluat lähettää tämän lokitiedoston?"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with exit code %1 (0x%2)."
-msgstr ""
+msgstr "Prosessi sulkeutui poistumiskoodilla %1 (0x%2)."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2602,7 +2603,7 @@ msgstr "Prosessi kaatui."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exit code %1 (0x%2)."
-msgstr ""
+msgstr "Prosessi kaatui poistumiskoodilla %1 (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -2665,7 +2666,7 @@ msgstr "Lisää Microsoft-tili"
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:56
 msgctxt "MSALoginDialog|"
 msgid "Copy Code"
-msgstr ""
+msgstr "Kopioi Koodi"
 
 #: src/launcher/ui/dialogs/MSALoginDialog.cpp:87
 #, qt-format
@@ -3016,12 +3017,12 @@ msgstr "Avaa valitun pelipaketin juurikansio tiedostoselaimessa."
 #: src/launcher/ui/MainWindow.cpp:602
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
-msgstr ""
+msgstr "Luo Pikakuvake"
 
 #: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
-msgstr ""
+msgstr "Luo pikakuvake, joka käynnistää valitun instanssin"
 
 #: src/launcher/ui/MainWindow.cpp:609
 msgctxt "MainWindow|"
@@ -3094,12 +3095,12 @@ msgstr "Poista ryhmä '%1'"
 #: src/launcher/ui/MainWindow.cpp:989
 msgctxt "MainWindow|"
 msgid "Format"
-msgstr ""
+msgstr "Formaatti"
 
 #: src/launcher/ui/MainWindow.cpp:992
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr ""
+msgstr "Modrinth (Keskeneräinen)"
 
 #: src/launcher/ui/MainWindow.cpp:1047
 msgctxt "MainWindow|"
@@ -3194,7 +3195,7 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
-msgstr ""
+msgstr ", viimeksi pelattu %1 tuntia"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:815
 #, qt-format
@@ -3206,7 +3207,7 @@ msgstr ", viimeksi pelattu %1"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
-msgstr ""
+msgstr ", pelattu yhteensä %1 tuntia"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:823
 #, qt-format
@@ -3277,7 +3278,7 @@ msgstr "Tallenna pelattu aika"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:167
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing in hours only"
-msgstr ""
+msgstr "Näytä pelattu aika vain tunteina"
 
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3454,167 +3455,168 @@ msgstr "Mukautetun Minecraft jar-tiedoston luonti epäonnistui."
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
-msgstr ""
+msgstr "Etsitään tiedostoja katsoaksesi Modrinthissa..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr ""
+msgstr "Modrinth paketin vienti"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
-msgstr ""
+msgstr "Etsitään tiedostoja Modrinthissa..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
-msgstr ""
+msgstr "Luodaan modpaketti metatietoja..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:219
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
-msgstr ""
+msgstr "Kopioidaan tiedostoja modpakettiin..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:233
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
-msgstr ""
+msgstr "Tiedoston %1 kopiointi ylikirjoituksiin epäonnistui"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:250
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
-msgstr ""
+msgstr "Pakataan modpakettia..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:252
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
-msgstr ""
+msgstr "Virhe luotaessa zip-tiedostoa"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create temporary directory"
-msgstr ""
+msgstr "Väliaikaisen hakemiston luonti epäonnistui"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:41
 msgctxt "ModrinthExportDialog|"
 msgid "Export Modrinth modpack"
-msgstr ""
+msgstr "Vie Modrinth-modpaketti"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:54
 msgctxt "ModrinthExportDialog|"
 msgid "Metadata"
-msgstr ""
+msgstr "Metatiedot"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:71
 msgctxt "ModrinthExportDialog|"
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:81
 msgctxt "ModrinthExportDialog|"
 msgid "Version"
-msgstr ""
+msgstr "Versio"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:88
 msgctxt "ModrinthExportDialog|"
 msgid "Description"
-msgstr ""
+msgstr "Kuvaus"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:107
 msgctxt "ModrinthExportDialog|"
 msgid "Export Options"
-msgstr ""
+msgstr "Vientiasetukset"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:127
 msgctxt "ModrinthExportDialog|"
 msgid "File"
-msgstr ""
+msgstr "Tiedosto"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:137
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:205
 msgctxt "ModrinthExportDialog|"
 msgid "Browse..."
-msgstr ""
+msgstr "Selaa..."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:146
 msgctxt "ModrinthExportDialog|"
 msgid "Include Minecraft config"
-msgstr ""
+msgstr "Sisällytä Minecraftin asetukset"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:156
 msgctxt "ModrinthExportDialog|"
 msgid "Include mod configs"
-msgstr ""
+msgstr "Sisällytä modin asetukset"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:166
 msgctxt "ModrinthExportDialog|"
 msgid "Include resource packs"
-msgstr ""
+msgstr "Sisällytä resurssipaketit"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:173
 msgctxt "ModrinthExportDialog|"
 msgid "Include shader packs"
-msgstr ""
+msgstr "Sisällytä shader-paketit"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:180
 msgctxt "ModrinthExportDialog|"
 msgid "If enabled, all mods, shaders and resource packs that are available on Modrinth will be treated as optional on both client and server. Files that are unavailable on Modrinth will simply retain the \".disabled\" extension as Modrinth packs don't support optional overrides."
-msgstr ""
+msgstr "Jos käytössä, kaikki Modrinthissa saatavilla olevat modit, shaderit, ja resurssipaketit käsitellään valinnaisina sekä asiakas- että palvelimella. Tiedostoille, jotka eivät ole saatavilla Modrinth tulee säilyttämään \".disabled\" ekstension, sillä Modrinth paketit eivät tue valinnaisia ylikirjoituksia."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:183
 msgctxt "ModrinthExportDialog|"
 msgid "Treat disabled mods, shaders and resource packs as optional"
-msgstr ""
+msgstr "Käsittele pois päältä olevat modit, shaderit ja resurssipaketit valinnaisina"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:192
 msgctxt "ModrinthExportDialog|"
 msgid "Use this if your modpack contains a mod which adds global datapacks."
-msgstr ""
+msgstr "Käytä tätä, jos modpaketti sisältää modin, joka lisää globaaleja datapaketteja."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:195
 msgctxt "ModrinthExportDialog|"
 msgid "Include global datapacks folder:"
-msgstr ""
+msgstr "Sisällytä globaalit datapaketit kansio:"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:45
 msgctxt "ModrinthExportDialog|"
 msgid "Select modpack file"
-msgstr ""
+msgstr "Valitse modpaketti tiedosto"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:61
 msgctxt "ModrinthExportDialog|"
 msgid "Select global datapacks folder"
-msgstr ""
+msgstr "Valitse globaalit datapaketit kansio"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:98
 msgctxt "ModrinthExportDialog|"
 msgid "Warning"
-msgstr ""
+msgstr "Varoitus"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:99
 #, qt-format
 msgctxt "ModrinthExportDialog|"
 msgid "Instance contains a custom component: %1\n"
 "This cannot be exported to a Modrinth pack; the exported pack may not work correctly!"
-msgstr ""
+msgstr "Instanssi sisältää mukautetun komponentin: %1\n"
+"Tätä ei voi viedä Modrinth-pakettiin; viety paketti ei välttämättä toimi oikein!"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:123
 msgctxt "ModrinthExportDialog|"
 msgid "Error"
-msgstr ""
+msgstr "Virhe"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:130
 msgctxt "ModrinthExportDialog|"
 msgid "Warnings"
-msgstr ""
+msgstr "Varoitukset"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:134
 msgctxt "ModrinthExportDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "Keskeytä"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
@@ -3713,7 +3715,7 @@ msgstr "&Ryhmä:"
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:72
 msgctxt "NewInstanceDialog|"
 msgid "Reset"
-msgstr ""
+msgstr "Nollaa"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
@@ -3850,12 +3852,12 @@ msgstr "Tiedosto (%1) ei ole luettavissa."
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:185
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
-msgstr ""
+msgstr "Lokin lähetys"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
 msgctxt "OtherLogsPage|"
 msgid "Are you sure you want to upload this log file?"
-msgstr ""
+msgstr "Oletko varma, että haluat lähettää tämän lokitiedoston?"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:211
 #, qt-format
@@ -4164,7 +4166,7 @@ msgstr "Vaalea"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
 msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr ""
+msgstr "<p>Nykyisen version ja uusimman version välillä ei ole muutoksia koodissa.</p>"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:115
 msgctxt "QObject|"
@@ -4186,12 +4188,12 @@ msgstr "<p>Voit <a href=\"%1\">tarkastella muutoksia GitHubissa</a>.</p>"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
 msgid "Original Author"
-msgstr ""
+msgstr "Alkuperäinen Tekijä"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:39
 msgctxt "QObject|About Credits"
 msgid "Maintainer"
-msgstr ""
+msgstr "Ylläpitäjä"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:57
 msgctxt "QObject|About Credits"
@@ -4283,7 +4285,7 @@ msgstr "processArguments:lle on asetettu tuntematon arvo '%1'"
 #, qt-format
 msgctxt "QObject|"
 msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
+msgstr "Tämän version 'minimumLauncherVersion'-arvo (%1) on korkeampi kuin mitä %3 tukee (%2). Se ei välttämättä toimi!"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:299
 #, qt-format
@@ -4625,18 +4627,18 @@ msgstr "Pikavalikko"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:317
 msgctxt "ScreenshotsPage|"
 msgid "Upload screenshot to imgur.com?"
-msgstr ""
+msgstr "Lähetä kuvakaappaus imgur.com-sivustoon?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:319
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "Upload %1 screenshots to imgur.com?"
-msgstr ""
+msgstr "Lähetä %1 kuvakaappausta imgur.com-sivustoon?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:323
 msgctxt "ScreenshotsPage|"
 msgid "Upload?"
-msgstr ""
+msgstr "Lähetä?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:345
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:385
@@ -4928,7 +4930,7 @@ msgstr "Ladataan modipakettia"
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:79
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Ei pystytty käsittelemään paketin luetteloa:\n"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:115
 msgctxt "Technic::SolderPackInstallTask|"
@@ -5002,7 +5004,7 @@ msgstr "Ei voitu ymmärtää \"version.json\" tiedostoa:\n"
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:22
 msgctxt "TechnicPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Valittu versio:"
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:70
 msgctxt "TechnicPage|"
@@ -5110,12 +5112,12 @@ msgstr "Älä päivitä vielä"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:16
 msgctxt "UpdateDialog|"
 msgid "A new update is available!"
-msgstr ""
+msgstr "Uusi päivitys on saatavilla!"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:20
 msgctxt "UpdateDialog|"
 msgid "No updates found. You are running the latest version."
-msgstr ""
+msgstr "Päivityksiä ei löytynyt. Sinulla on uusin versio."
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:22
 msgctxt "UpdateDialog|"
@@ -5711,22 +5713,22 @@ msgstr "Lisää"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:104
 msgctxt "WorldListPage|"
 msgid "Join"
-msgstr ""
+msgstr "Liity"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:107
 msgctxt "WorldListPage|"
 msgid "Launch the instance directly into the selected world"
-msgstr ""
+msgstr "Käynnistä instanssi suoraan valittuun maailmaan"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:112
 msgctxt "WorldListPage|"
 msgid "Join offline"
-msgstr ""
+msgstr "Liity offline-tilassa"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:115
 msgctxt "WorldListPage|"
 msgid "Launch the instance in offline mode directly into the selected world"
-msgstr ""
+msgstr "Käynnistä instanssi offline-tilassa suoraan valittuun maailmaan"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:120
 msgctxt "WorldListPage|"
@@ -5872,19 +5874,19 @@ msgstr "Anna pelimaailmalle uusi nimi."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Getting authorization to access %1 services."
-msgstr ""
+msgstr "Haetaan lupaa %1 palvelun käyttämiseen."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:68
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %2."
-msgstr ""
+msgstr "Luvan hakeminen %1 palvelulle epäonnistui. Virhe %2."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "Lupavastausta ei voitu jäsentää %1 palvelun käyttöoikeudelle."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
