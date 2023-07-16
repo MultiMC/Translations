@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2023-05-25 15:54\n"
+"PO-Revision-Date: 2023-06-15 18:57\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2588,7 +2588,7 @@ msgstr "Sistem kayıt dosyasını yüklemek istediğinizden emin misiniz?"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with exit code %1 (0x%2)."
-msgstr ""
+msgstr "İşlem, %1 kodu ile sonlandı (0x%2)."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2600,7 +2600,7 @@ msgstr "İşlem çöktü."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exit code %1 (0x%2)."
-msgstr ""
+msgstr "İşlem, %1 çıkış koduyla çöktü (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -3555,7 +3555,7 @@ msgstr "Kaynak paketlerini dahil et"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:173
 msgctxt "ModrinthExportDialog|"
 msgid "Include shader packs"
-msgstr ""
+msgstr "Shader paketlerini dahil et"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:180
 msgctxt "ModrinthExportDialog|"
@@ -3570,49 +3570,50 @@ msgstr "Devre dışı modları, shaderları ve kaynak paketlerini seçmeli olara
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:192
 msgctxt "ModrinthExportDialog|"
 msgid "Use this if your modpack contains a mod which adds global datapacks."
-msgstr ""
+msgstr "Kullanılan mod paketi genel veri paketleri ekleyen bir mod içeriyorsa bunu kullanın."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:195
 msgctxt "ModrinthExportDialog|"
 msgid "Include global datapacks folder:"
-msgstr ""
+msgstr "Genel veri paket dosyasını dahil et:"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:45
 msgctxt "ModrinthExportDialog|"
 msgid "Select modpack file"
-msgstr ""
+msgstr "Mod paketi dosyası seçin"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:61
 msgctxt "ModrinthExportDialog|"
 msgid "Select global datapacks folder"
-msgstr ""
+msgstr "Genel veri paketleri klasörünü seçin"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:98
 msgctxt "ModrinthExportDialog|"
 msgid "Warning"
-msgstr ""
+msgstr "Uyarı"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:99
 #, qt-format
 msgctxt "ModrinthExportDialog|"
 msgid "Instance contains a custom component: %1\n"
 "This cannot be exported to a Modrinth pack; the exported pack may not work correctly!"
-msgstr ""
+msgstr "Işlem özel parça içerır: %1\n"
+"Bu bir Modrinth paketine aktarılamaz; aktarılan paket düzgün çalışmayabilir!"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:123
 msgctxt "ModrinthExportDialog|"
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:130
 msgctxt "ModrinthExportDialog|"
 msgid "Warnings"
-msgstr ""
+msgstr "Uyarılar"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:134
 msgctxt "ModrinthExportDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "İptal"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
@@ -3711,7 +3712,7 @@ msgstr "&Grup:"
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:72
 msgctxt "NewInstanceDialog|"
 msgid "Reset"
-msgstr ""
+msgstr "Sıfırla"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
@@ -3848,7 +3849,7 @@ msgstr "%1 dosyası okunmuyor."
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:185
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
-msgstr ""
+msgstr "Sistem kaydı yüklemesi"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
 msgctxt "OtherLogsPage|"
@@ -4162,7 +4163,7 @@ msgstr "Açık"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
 msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr ""
+msgstr "<p>Mevcut sürüm ile en son arasında kod değişikliği yok.</p>"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:115
 msgctxt "QObject|"
@@ -4184,12 +4185,12 @@ msgstr "<p>Değişikliklere <a href=\"%1\">GitHub'tan</a> bakabilirsiniz..</p>"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
 msgid "Original Author"
-msgstr ""
+msgstr "Orijinal Yazar"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:39
 msgctxt "QObject|About Credits"
 msgid "Maintainer"
-msgstr ""
+msgstr "Bakım Görevlisi"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:57
 msgctxt "QObject|About Credits"
@@ -4623,18 +4624,18 @@ msgstr "İçerik menüsü"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:317
 msgctxt "ScreenshotsPage|"
 msgid "Upload screenshot to imgur.com?"
-msgstr ""
+msgstr "Ekran görüntüsünü imgur.com'a yükleyin?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:319
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "Upload %1 screenshots to imgur.com?"
-msgstr ""
+msgstr "%1 Ekran görüntüsünü imgur.com'a yükleyin?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:323
 msgctxt "ScreenshotsPage|"
 msgid "Upload?"
-msgstr ""
+msgstr "Yükle?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:345
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:385
@@ -4926,7 +4927,7 @@ msgstr "Mod paketi indiriliyor"
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:79
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Paket manifesti anlaşılamadı:\n"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:115
 msgctxt "Technic::SolderPackInstallTask|"
@@ -5000,7 +5001,7 @@ msgstr "\"version.json\" anlaşılamadı:\n"
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:22
 msgctxt "TechnicPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "Seçili sürüm:"
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:70
 msgctxt "TechnicPage|"
@@ -5108,12 +5109,12 @@ msgstr "Şimdilik güncelleme"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:16
 msgctxt "UpdateDialog|"
 msgid "A new update is available!"
-msgstr ""
+msgstr "Yeni güncelleme var!"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:20
 msgctxt "UpdateDialog|"
 msgid "No updates found. You are running the latest version."
-msgstr ""
+msgstr "Güncelleme bulunamamıştır. En son versiyonu çalıştırıyorsunuz."
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:22
 msgctxt "UpdateDialog|"
