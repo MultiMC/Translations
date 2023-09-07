@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Georgian\n"
 "Language: ka_GE\n"
-"PO-Revision-Date: 2023-09-07 11:02\n"
+"PO-Revision-Date: 2023-09-07 12:40\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -362,17 +362,17 @@ msgstr "სკინის წაშლა"
 #: src/launcher/ui/pages/global/AccountListPage.ui:98
 msgctxt "AccountListPage|"
 msgid "Delete the currently active skin and go back to the default one"
-msgstr ""
+msgstr "მიმდინარე აქტიური სკინის წაშლა და დაუბრუნდი ნაგულისხმევს"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:103
 msgctxt "AccountListPage|"
 msgid "Add Microsoft"
-msgstr ""
+msgstr "Microsoft-ის დაკატება"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:108
 msgctxt "AccountListPage|"
 msgid "Refresh"
-msgstr ""
+msgstr "განახლება"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:111
 msgctxt "AccountListPage|"
@@ -400,63 +400,64 @@ msgstr "კონტექსტური მენიუ"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:146
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr ""
+msgstr "გთხოვთ შეიყვანეთ თქვენი Mojang-ის ანგარიშის ემაილი და პაროლი რომ დაამატოთ თქვენი ანგარიში."
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:135
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
-msgstr ""
+msgstr "Microsoft-ის ანგარიშები არ არის ხელმისაწვდომი"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:136
 msgctxt "AccountListPage|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
-msgstr ""
+msgstr "Microsoft-ის ანგარიშები მარტო გამოსაყენებელი არის macOS 10.13 ან უფრო ახალზე, მთლიანად განახლებული MultiMC-ით.\n\n"
+"გთხოვთ გაანახლეთ თქვენი ოპერატიული სისტემაც და MultiMC-ც."
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
-msgstr ""
+msgstr "სკინის წაშლა"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:245
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
-msgstr ""
+msgstr "მიმდინარე სკინის წაშლა ვერ მოხერხდა!"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
 msgid "Sending request to auth servers..."
-msgstr ""
+msgstr "მოთხოვნა იგზავნება ავტორიზაციის სერვერებთან..."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:43
 msgctxt "AccountTask|"
 msgid "Authentication task succeeded."
-msgstr ""
+msgstr "ავტორიზაცია წარმატებით შესრულდა."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:45
 msgctxt "AccountTask|"
 msgid "Failed to contact the authentication server."
-msgstr ""
+msgstr "ავტორიზაციის სერვერთან დაკავშირება ვერ მოხერხდა."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr ""
+msgstr "ავტორიზაციისას მოხდა შეცდომა."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr ""
+msgstr "ავტორიზაცია ვერ მოხერხდა. ანგარიში უნდა იყვეს Microsoft-ის ანგარიშზე მიგრანტირებული რომ იყვეს გამოყენებადი."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr ""
+msgstr "ავტორიზაცია ვერ მოხერხდა. სესიას ვადა გაუვიდა."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:53
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account no longer exists."
-msgstr ""
+msgstr "ავტორიზაცია ვერ მოხერხდა. ანგარიში აღარ არსებობს."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:55
 msgctxt "AccountTask|"
@@ -467,7 +468,7 @@ msgstr "..."
 #, qt-format
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
-msgstr ""
+msgstr "უცნობი ანგარიშის დავალების მდგომარეობა: %1"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
@@ -482,7 +483,7 @@ msgstr "ჩვენ ვინახავთ პატარა ინფორ
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
 msgid "<html><body><p>The launcher sends anonymous usage statistics on every start of the application. This helps us decide what platforms and issues to focus on.</p><p>The data is processed by Google Analytics, see their <a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">article on the matter</a>.</p><p>The following data is collected:</p><ul><li>A random unique ID of the installation.<br />It is stored in the application settings file.</li><li>Anonymized (partial) IP address.</li><li>Launcher version.</li><li>Operating system name, version and architecture.</li><li>CPU architecture (kernel architecture on linux).</li><li>Size of system memory.</li><li>Java version, architecture and memory settings.</li></ul><p>If we change the tracked information, you will see this page again.</p></body></html>"
-msgstr ""
+msgstr "<html><body><p>ლაუნჩერი გზავნის ანონიმურ გამოყენების სტატისტიკას ყოველ აპლიკაციის ჩართვისას. ეს ჩვენ გვეხმარება გადავწყვიტოთ თუ რა პრატფორმებზე და პრობლემებზე გავამახვილოთ თვალი.</p><p> მოაცემები მუშავდება Google Analytics-ს მიერ, ნახეთ მათი<a href=\"https://support.google.com/analytics/answer/6004245?hl=en\">სტატია ამ საკითხზე</a>.</p><p>გროვდება შემდეგი მონაცემები:</p><ul><li>ინსტალაციის შემთხვევითი უნიკალური ID.<br />იგი ინახება აპლიკაციის პარამეტრების ფაილში.</li><li>ანონიმური (ნახევრად) IP მისამართი.</li><li>ლაუნჩერის ვერსია.</li><li>ოპერატიული სისტემის სახელი, ვერსია და არქიტექტურა.</li><li> პროცესორის არქიტექტურა (ბირთვული არქიტექტურა Linux-ზე).</li><li>სისტემის მეხსიერების ზომა.</li><li>Java ვერსია, არქიტექტურა და მეხსიერების პარამეტრები.</li></ul><p>თუ ჩვენ შევცვალეთ კვლევის იფორმაცია, ამ გვერდს თავიდან დაინახავ.</p></body></html>"
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
@@ -547,22 +548,22 @@ msgstr "თამაშის ვერსიით სორტირება"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:14
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Mods To Install"
-msgstr ""
+msgstr "აირჩიე გადმოსაწერი მოდები"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:20
 msgctxt "AtlOptionalModDialog|"
 msgid "Install"
-msgstr ""
+msgstr "ინსტალაცია"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:30
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Recommended"
-msgstr ""
+msgstr "აირჩიე რეკომენდირებული"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:40
 msgctxt "AtlOptionalModDialog|"
 msgid "Use Share Code"
-msgstr ""
+msgstr "გაზიარების კოდის გამოყენება"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:47
 msgctxt "AtlOptionalModDialog|"
@@ -572,17 +573,17 @@ msgstr "ყველაფრის წაშლა"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.cpp:149
 msgctxt "AtlOptionalModListModel|"
 msgid "Are you sure that you want to enable this mod?"
-msgstr ""
+msgstr "დარწმუნებული ხართ რომ ამ მოდის ჩართვა გსურთ?"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.cpp:152
 msgctxt "AtlOptionalModListModel|"
 msgid "Warning"
-msgstr ""
+msgstr "გაფრთხილება"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:42
 msgctxt "AtlPage|"
 msgid "Warning: This is still a work in progress. If you run into issues with the imported modpack, it may be a bug."
-msgstr ""
+msgstr "გაფრთხილება: ეს კიდევ დასამუშავებელია. თუ რამე პრობლემას შეაწყდები იმპორტირებულ მოდპაკით, შეიძლება ბაგი იყოს."
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:59
 msgctxt "AtlPage|"
@@ -592,28 +593,28 @@ msgstr "შერჩეული ვერსია:"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:74
 msgctxt "AtlPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "ძებნა და ფილტრი..."
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
 msgid "No versions are currently available for Minecraft %1"
-msgstr ""
+msgstr "ამჟამად არცერთი ვერსიაა ხელმისაწვდომი Minecraft %1-ისთვის"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:163
 msgctxt "AtlPage|"
 msgid "No versions are currently available"
-msgstr ""
+msgstr "ამჟამად არცერთი ვერსიაა ხელმისაწვდომი"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:165
 msgctxt "AtlPage|"
 msgid "Couldn't load or download the version lists!"
-msgstr ""
+msgstr "ვერსიების სიების ჩატვირთვა ან ჩამოტვირთვა ვერ მოხერხდა!"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:194
 msgctxt "AtlPage|"
 msgid "Installing"
-msgstr ""
+msgstr "ინსტალირდება"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
@@ -623,12 +624,12 @@ msgstr "ATLauncher'ი"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr ""
+msgstr "ავტორიზაციის ყველა ნაბიჯი შესრულებულია"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:28
 msgctxt "AuthFlow|"
 msgid "Initializing"
-msgstr ""
+msgstr "ინიციალიზაცია"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:58
 msgctxt "AuthFlow|"
@@ -643,12 +644,12 @@ msgstr "პროფაილერი შეწყვეტილია"
 #: src/launcher/minecraft/services/CapeChange.cpp:19
 msgctxt "CapeChange|"
 msgid "Equipping cape"
-msgstr ""
+msgstr "ლაბადის აღჭურვა"
 
 #: src/launcher/minecraft/services/CapeChange.cpp:33
 msgctxt "CapeChange|"
 msgid "Removing cape"
-msgstr ""
+msgstr "ლაბადის მოხსნა"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:270
 msgctxt "ComponentUpdateTask|"
