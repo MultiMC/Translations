@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2023-12-12 02:25\n"
+"PO-Revision-Date: 2023-12-12 03:43\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1876,17 +1876,17 @@ msgstr "Microsoftアカウントは最新版のMultiMCかつ、macOS 10.13以降
 #: src/launcher/LaunchController.cpp:253
 msgctxt "LaunchController|"
 msgid "Attempted to re-login to a Microsoft account on an unsupported platform"
-msgstr ""
+msgstr "サポートされていないプラットフォームでMicrosoftアカウントに再ログインしようとしています。"
 
 #: src/launcher/LaunchController.cpp:258 src/launcher/LaunchController.cpp:263
 msgctxt "LaunchController|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr ""
+msgstr "Mojangのアカウントを使用するにはメールアドレスとパスワードを入力してください。"
 
 #: src/launcher/LaunchController.cpp:275
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
-msgstr ""
+msgstr "アカウントの有効期限が切れ、再ログインに失敗しました。"
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2569,19 +2569,19 @@ msgstr "Minecraftのログ"
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
-msgstr ""
+msgstr "ログをアップロード"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:245
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
-msgstr ""
+msgstr "このログファイルをアップロードしても良いですか？"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with exit code %1 (0x%2)."
-msgstr ""
+msgstr "Minecraftのプロセスが終了しました。終了コード：%1 (0x%2)"
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2593,7 +2593,7 @@ msgstr "プロセスがクラッシュしました。"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exit code %1 (0x%2)."
-msgstr ""
+msgstr "Minecraftのプロセスがクラッシュしました。終了コード：%1 (0x%2)"
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -2656,7 +2656,7 @@ msgstr "Microsoft アカウントを追加"
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:56
 msgctxt "MSALoginDialog|"
 msgid "Copy Code"
-msgstr ""
+msgstr "コードをコピー"
 
 #: src/launcher/ui/dialogs/MSALoginDialog.cpp:87
 #, qt-format
@@ -3007,12 +3007,12 @@ msgstr "ファイルブラウザで選択した起動構成のルートフォル
 #: src/launcher/ui/MainWindow.cpp:602
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
-msgstr ""
+msgstr "ショートカットを作成"
 
 #: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
-msgstr ""
+msgstr "選択した起動構成を起動するショートカットを作成します"
 
 #: src/launcher/ui/MainWindow.cpp:609
 msgctxt "MainWindow|"
@@ -3085,12 +3085,12 @@ msgstr "グループ '%1' を削除"
 #: src/launcher/ui/MainWindow.cpp:989
 msgctxt "MainWindow|"
 msgid "Format"
-msgstr ""
+msgstr "フォーマット"
 
 #: src/launcher/ui/MainWindow.cpp:992
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr ""
+msgstr "Modrinth (開発中)"
 
 #: src/launcher/ui/MainWindow.cpp:1047
 msgctxt "MainWindow|"
@@ -3185,7 +3185,7 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
-msgstr ""
+msgstr ", 最後のプレイ：%1 時間前"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:815
 #, qt-format
@@ -3197,7 +3197,7 @@ msgstr ", 最後のプレイ時間: %1"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
-msgstr ""
+msgstr ", 総プレイ：%1 時間"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:823
 #, qt-format
@@ -3268,7 +3268,7 @@ msgstr "起動構成のプレイ時間を記録する"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:167
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing in hours only"
-msgstr ""
+msgstr "プレイ時間を時間単位で表示"
 
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3445,90 +3445,90 @@ msgstr "カスタム Minecraft jar ファイルの作成に失敗しました。
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
-msgstr ""
+msgstr "Modrinthで検索するファイルを探索中..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr ""
+msgstr "Modrinth パックのエクスポート"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
-msgstr ""
+msgstr "Modrinthでファイルを検索中..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
-msgstr ""
+msgstr "Modパックのメタデータを作成中..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:219
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
-msgstr ""
+msgstr "Modパックにファイルをコピー中..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:233
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
-msgstr ""
+msgstr "ファイル：%1 の上書きコピーに失敗しました"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:250
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
-msgstr ""
+msgstr "Modパックを圧縮中..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:252
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
-msgstr ""
+msgstr "zipファイルの作成に失敗しました"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create temporary directory"
-msgstr ""
+msgstr "一時フォルダーの作成に失敗しました"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:41
 msgctxt "ModrinthExportDialog|"
 msgid "Export Modrinth modpack"
-msgstr ""
+msgstr "Modrinth Modパックをエクスポート"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:54
 msgctxt "ModrinthExportDialog|"
 msgid "Metadata"
-msgstr ""
+msgstr "メタデータ"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:71
 msgctxt "ModrinthExportDialog|"
 msgid "Name"
-msgstr ""
+msgstr "名前"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:81
 msgctxt "ModrinthExportDialog|"
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:88
 msgctxt "ModrinthExportDialog|"
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:107
 msgctxt "ModrinthExportDialog|"
 msgid "Export Options"
-msgstr ""
+msgstr "エクスポートのオプション"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:127
 msgctxt "ModrinthExportDialog|"
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:137
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:205
 msgctxt "ModrinthExportDialog|"
 msgid "Browse..."
-msgstr ""
+msgstr "参照..."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:146
 msgctxt "ModrinthExportDialog|"
@@ -5979,7 +5979,7 @@ msgstr "認証操作がキャンセルされました。"
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:234
 msgctxt "Yggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSLの接続に失敗しました。</b><br/>いくつかの原因が考えられます：<br/><ul><li>Windowsを使用していて、SSL証明書を更新する必要がある場合は、未適用の更新をインストールしてください。</li><li>ネットワーク上の何かしらのデバイスが SSLの通信に干渉している可能性がある場合、Minecraftが起動しないことよりも大きな問題かもしれません。</li><li>接続失敗の原因はこれらではない可能性もあります。詳細はログファイルを確認してください。</li></ul>"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:252
 msgctxt "Yggdrasil|"
