@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
-"PO-Revision-Date: 2023-12-12 16:48\n"
+"PO-Revision-Date: 2024-01-31 20:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -596,6 +596,11 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Paieška ir filtravimas..."
 
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr "ATLauncher"
+
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -616,11 +621,6 @@ msgstr "Nepavyko įkelti arba atsisiųsti versijų sąrašų!"
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "Diegiama"
-
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr "ATLauncher"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -891,11 +891,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Teksto redaktorius:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Išoriniai įrankiai"
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -988,6 +983,11 @@ msgstr "Neteisingas"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "Pasirinktas failas nėra vykdomoji programa"
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Išoriniai įrankiai"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
@@ -1203,11 +1203,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Vietinis failas arba tiesioginis atsiuntimas:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Importuoti iš zip"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1217,6 +1212,11 @@ msgstr "Pasirinkti modpack"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr "Zip (*.zip *.mrpack)"
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Importuoti iš zip"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -2351,11 +2351,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Pasirinkta versija:"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "FTB Legacy"
-
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2390,6 +2385,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Ar tikrai norite ištrinti %1?"
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "FTB Legacy"
+
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
 msgid "Legacy"
@@ -2410,6 +2410,11 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "Atnaujinti knygyną"
 
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "Atnaujinti"
+
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2425,11 +2430,6 @@ msgstr "Nutraukti"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (Migruota)"
-
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "Atnaujinti"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -3605,11 +3605,6 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Pasirinkta versija:"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr "Modrinth"
-
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -3644,6 +3639,11 @@ msgstr ""
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Kraunama..."
+
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr "Modrinth"
 
 #: src/launcher/net/NetJob.cpp:128
 #, qt-format
@@ -4115,131 +4115,10 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Tamsi"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Sistema"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Šviesi"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Originalus kūrėjas"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Prižiūrėtojas"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Rėmėjai"
-
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (naudojama)"
-
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Nepavyko įkelti"
-
-#: src/launcher/ui/GuiUtil.cpp:30
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr ""
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr ""
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft serveris"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr ""
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
+msgid "Assets for %1"
 msgstr ""
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:154
@@ -4258,6 +4137,42 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr ""
+
+#: src/launcher/minecraft/auth/AccountData.cpp:422
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr ""
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
 msgstr ""
 
 #: src/launcher/minecraft/PackProfile.cpp:191
@@ -4301,43 +4216,6 @@ msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr ""
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr ""
-
-#: src/launcher/minecraft/auth/AccountData.cpp:422
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr ""
-
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
 msgid "Update failed!"
@@ -4376,6 +4254,140 @@ msgid "The rollback failed too.\n"
 "Please let us know why and how this happened."
 msgstr ""
 
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr ""
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr ""
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Tamsi"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Šviesi"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistema"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Originalus kūrėjas"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Prižiūrėtojas"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Rėmėjai"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (naudojama)"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Nepavyko įkelti"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Minecraft serveris"
+
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
@@ -4392,6 +4404,36 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
+msgstr ""
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr ""
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr ""
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
 msgstr ""
 
 #: src/launcher/JavaCommon.cpp:10
@@ -4432,48 +4474,6 @@ msgstr ""
 #: src/launcher/JavaCommon.cpp:62
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr ""
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr ""
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr ""
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr ""
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr ""
-
-#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr ""
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr ""
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr ""
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
 msgstr ""
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
@@ -4574,11 +4574,6 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "Ekrano nuotraukos"
-
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -4639,6 +4634,11 @@ msgstr "Ar esate įsitikinę?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr ""
+
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "Ekrano nuotraukos"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
