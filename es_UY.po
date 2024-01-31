@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2023-05-25 15:54\n"
+"PO-Revision-Date: 2024-01-31 20:38\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -597,6 +597,11 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Buscar y filtrar ..."
 
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr "ATLauncher"
+
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -616,12 +621,7 @@ msgstr "¡No se pudo descargar las listas de versiones!"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:194
 msgctxt "AtlPage|"
 msgid "Installing"
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr "ATLauncher"
+msgstr "Instalando"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -739,7 +739,7 @@ msgstr "Iniciar en modo sin conexión"
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:71
 msgctxt "CreateShortcutDialog|"
 msgid "Join world on launch:"
-msgstr ""
+msgstr "Unirse a un mundo al iniciar:"
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:98
 msgctxt "CreateShortcutDialog|"
@@ -749,7 +749,7 @@ msgstr "Nombre de usuario en modo sin conexión:"
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:108
 msgctxt "CreateShortcutDialog|"
 msgid "Singleplayer world:"
-msgstr ""
+msgstr "Mundo de un jugador:"
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:115
 msgctxt "CreateShortcutDialog|"
@@ -759,7 +759,7 @@ msgstr "Explorar"
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:125
 msgctxt "CreateShortcutDialog|"
 msgid "Server address:"
-msgstr ""
+msgstr "Dirección del servidor:"
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:152
 msgctxt "CreateShortcutDialog|"
@@ -892,11 +892,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Editor de texto:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Herramientas externas"
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -990,6 +985,11 @@ msgstr "Inválido"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "El archivo elegido no parece ser un ejecutable"
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Herramientas externas"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
@@ -1205,11 +1205,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Archivo local o enlace de descarga directa:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Importar desde zip"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1219,6 +1214,11 @@ msgstr "Elegir modpack"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr "Zip (*.zip *.mrpack)"
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Importar desde zip"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1311,7 +1311,7 @@ msgstr "No se pudo renombrar la carpeta de anulaciones:\n"
 #: src/launcher/InstanceImportTask.cpp:428
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
-msgstr ""
+msgstr "No se pudo unir la carpeta de overrides:\n"
 
 #: src/launcher/InstanceImportTask.cpp:456
 msgctxt "InstanceImportTask|"
@@ -1508,7 +1508,7 @@ msgstr "Grabar el tiempo de juego de esta instancia"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
 msgid "Set a world to join on launch"
-msgstr ""
+msgstr "Establecer un mundo para unirse al iniciar"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:473
 msgctxt "InstanceSettingsPage|"
@@ -1518,7 +1518,7 @@ msgstr "Dirección del server:"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:483
 msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
-msgstr ""
+msgstr "Mundo de un jugador:"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
 msgctxt "InstanceSettingsPage|"
@@ -2372,11 +2372,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Versión seleccionada:"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "FTB Legacy"
-
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2411,6 +2406,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "¿Realmente quieres borrar el modpack %1?"
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "FTB Legacy"
+
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
 msgid "Legacy"
@@ -2431,6 +2431,11 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "Actualizar instancia"
 
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "Actualizar"
+
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2446,11 +2451,6 @@ msgstr "Abortar"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (Migrado)"
-
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "Actualizar"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -2584,14 +2584,14 @@ msgstr "Subida de registro"
 #: src/launcher/ui/pages/instance/LogPage.cpp:245
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
-msgstr ""
+msgstr "¿Seguro que quieres subir este registro?"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with exit code %1 (0x%2)."
-msgstr ""
+msgstr "Proceso cerrado con código de cierre %1 (0x%2)."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2603,7 +2603,7 @@ msgstr "El proceso terminó de forma inesperada."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exit code %1 (0x%2)."
-msgstr ""
+msgstr "El proceso se ha finalizado de manera inesperada, código %1 (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -3022,7 +3022,7 @@ msgstr "Crear acceso directo"
 #: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
-msgstr ""
+msgstr "Crea un acceso directo que inicia la instancia seleccionada"
 
 #: src/launcher/ui/MainWindow.cpp:609
 msgctxt "MainWindow|"
@@ -3100,7 +3100,7 @@ msgstr "Formato"
 #: src/launcher/ui/MainWindow.cpp:992
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr ""
+msgstr "Modrinth (WIP)"
 
 #: src/launcher/ui/MainWindow.cpp:1047
 msgctxt "MainWindow|"
@@ -3278,7 +3278,7 @@ msgstr "Grabar el tiempo de juego de instancias"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:167
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing in hours only"
-msgstr ""
+msgstr "Mostrar el tiempo jugado en horas"
 
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
@@ -3455,17 +3455,17 @@ msgstr "Error al crear el archivo jar personalizado de Minecraft."
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
-msgstr ""
+msgstr "Buscando archivos para buscar en Modrinth..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr ""
+msgstr "Exportar paquete Modrinth"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
-msgstr ""
+msgstr "Buscando archivos en Modrinth..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
 msgctxt "Modrinth::InstanceExportTask|"
@@ -3481,7 +3481,7 @@ msgstr "Copiando archivos al modpack..."
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
-msgstr ""
+msgstr "Error al copiar el archivo %1 a overrides"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:250
 msgctxt "Modrinth::InstanceExportTask|"
@@ -3563,7 +3563,7 @@ msgstr "Incluir paquetes de shaders"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:180
 msgctxt "ModrinthExportDialog|"
 msgid "If enabled, all mods, shaders and resource packs that are available on Modrinth will be treated as optional on both client and server. Files that are unavailable on Modrinth will simply retain the \".disabled\" extension as Modrinth packs don't support optional overrides."
-msgstr ""
+msgstr "Si activado, todos los mods, shaders, y paquetes de texturas que están disponibles en Modrinth serán tratados como opcional en ambos cliente, y servidor. Archivos que no estén disponibles en Modrinth, simplemente tendrán la extensión \".disabled\" ya que los paquetes de Modrinth no soportan overrides opcionales."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:183
 msgctxt "ModrinthExportDialog|"
@@ -3633,11 +3633,6 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Versión seleccionada:"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr "Modrinth"
-
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -3672,6 +3667,11 @@ msgstr "Error al obtener los detalles del modpack de Modrinth..."
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Cargando..."
+
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr "Modrinth"
 
 #: src/launcher/net/NetJob.cpp:128
 #, qt-format
@@ -3857,7 +3857,7 @@ msgstr "Subida de registro"
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
 msgctxt "OtherLogsPage|"
 msgid "Are you sure you want to upload this log file?"
-msgstr ""
+msgstr "¿Seguro que quieres subir este registro?"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:211
 #, qt-format
@@ -4147,132 +4147,11 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Oscuro"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Sistema"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Claro"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>No hay cambios de código entre la versión actual y la más reciente.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Se agregaron los siguientes commits desde la última actualización:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>La actualización elimina %1 commits y agrega %2:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Podés <a href=\"%1\">ver los cambios en GitHub</a>.</p>"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Autor original"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Donadores"
-
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (en uso)"
-
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Error al subir"
-
-#: src/launcher/ui/GuiUtil.cpp:30
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "El archivo de registro es demasiado grande. Debes subirlo manualmente."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Subida finalizada"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "El <a href=\"%1\">enlace para el registro subido</a> se colocó en el portapapeles."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "El archivo especificado no existe o no es un ejecutable apropiado."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "El binario de Java especificado no se inició correctamente.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "El binario de Java especificado devolvió resultados inesperados:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "¡Prueba de Java realizada con éxito!<br />Plataforma reportada: %1<br />Versión de Java reportada: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Prueba de Java fracasada"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Prueba de Java exitosa"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Server de Minecraft"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Falta la descripción en la instancia de la aplicación de FTB."
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "El parche no se cargó todavía."
+msgid "Assets for %1"
+msgstr "Recursos para %1"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
@@ -4291,6 +4170,42 @@ msgstr "El valor 'minimumLauncherVersion' de esta versión (%1) es mayor que el 
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
 msgstr "El nombre de la librería %1 está roto y no se puede procesar."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Orden de versión de archivo no válida, esperado %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "No se pudo abrir el archivo de versión %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "No se pudo procesar el archivo de versión %1: %2 en línea %3 columna %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "No pudo procesarse el archivo de versión %1."
+
+#: src/launcher/minecraft/auth/AccountData.cpp:422
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Sin perfil (%1)"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "El parche no se cargó todavía."
 
 #: src/launcher/minecraft/PackProfile.cpp:191
 #, qt-format
@@ -4332,43 +4247,6 @@ msgstr "El archivo de versión contiene un elemento no soportado '-minecraftArgu
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "El archivo de versión contiene un elemento no soportado '+minecraftArguments'"
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Recursos para %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Orden de versión de archivo no válida, esperado %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "No se pudo abrir el archivo de versión %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "No se pudo procesar el archivo de versión %1: %2 en línea %3 columna %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "No pudo procesarse el archivo de versión %1."
-
-#: src/launcher/minecraft/auth/AccountData.cpp:422
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Sin perfil (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4413,6 +4291,140 @@ msgstr "La reversión también falló.\n"
 "Tendrás que reparar %1 manualmente.\n"
 "Por favor, haznos saber por qué y cómo sucedió esto."
 
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "¡Versión de formato desconocida!"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Descarga del archivo meta %1"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "El archivo especificado no existe o no es un ejecutable apropiado."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "El binario de Java especificado no se inició correctamente.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "El binario de Java especificado devolvió resultados inesperados:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "¡Prueba de Java realizada con éxito!<br />Plataforma reportada: %1<br />Versión de Java reportada: %2<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Prueba de Java fracasada"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Prueba de Java exitosa"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Oscuro"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Claro"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistema"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Autor original"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Desarrollador"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Donadores"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>No hay cambios de código entre la versión actual y la más reciente.</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Se agregaron los siguientes commits desde la última actualización:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>La actualización elimina %1 commits y agrega %2:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Podés <a href=\"%1\">ver los cambios en GitHub</a>.</p>"
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (en uso)"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Error al subir"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "El archivo de registro es demasiado grande. Debes subirlo manualmente."
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Subida finalizada"
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "El <a href=\"%1\">enlace para el registro subido</a> se colocó en el portapapeles."
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Falta la descripción en la instancia de la aplicación de FTB."
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Server de Minecraft"
+
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
@@ -4430,6 +4442,36 @@ msgstr "%1h %2m"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1d %2h %3m"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Ruta vacía"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Ruta no válida para JVisualVM"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Ruta vacía"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "La ruta no existe"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "La ruta no parece ser una ruta de MCEdit"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Instalación no válida de JProfiler"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4473,48 +4515,6 @@ msgstr "El ejecutable de Java especificado no funcionó con los argumentos propo
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "El binario de Java especificado no funcionó.<br />Debes usar la función de detección automática o establecer la ruta de acceso al ejecutable de Java.<br />"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Descarga del archivo meta %1"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "¡Versión de formato desconocida!"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Ruta vacía"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Ruta no válida para JVisualVM"
-
-#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "La ruta no existe"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Instalación no válida de JProfiler"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Ruta vacía"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "La ruta no parece ser una ruta de MCEdit"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
@@ -4614,11 +4614,6 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "Copiar archivo(s)"
 
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "Capturas de pantalla"
-
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -4679,6 +4674,11 @@ msgstr "¿Estás seguro/a/x?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Esto va a eliminar todas las capturas de pantalla seleccionadas."
+
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "Capturas de pantalla"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -5713,22 +5713,22 @@ msgstr "Agregar"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:104
 msgctxt "WorldListPage|"
 msgid "Join"
-msgstr ""
+msgstr "Unirse"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:107
 msgctxt "WorldListPage|"
 msgid "Launch the instance directly into the selected world"
-msgstr ""
+msgstr "Iniciar la instancia directamente dentro del mundo seleccionado"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:112
 msgctxt "WorldListPage|"
 msgid "Join offline"
-msgstr ""
+msgstr "Unirse sin conexión"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:115
 msgctxt "WorldListPage|"
 msgid "Launch the instance in offline mode directly into the selected world"
-msgstr ""
+msgstr "Iniciar la instancia en modo sin conexión directamente dentro del mundo seleccionado"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:120
 msgctxt "WorldListPage|"
