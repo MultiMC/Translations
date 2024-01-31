@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
-"PO-Revision-Date: 2023-06-30 21:12\n"
+"PO-Revision-Date: 2024-01-31 20:38\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -597,6 +597,11 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Tìm kiếm và lọc..."
 
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr "ATLauncher"
+
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -617,11 +622,6 @@ msgstr "Không thể tải hoặc tải xuống danh sách phiên bản!"
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "Đang cài đặt"
-
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr "ATLauncher"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -891,11 +891,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Trình chỉnh sửa văn bản:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Các công cụ khác"
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -989,6 +984,11 @@ msgstr "Không hợp lệ"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "Tập tin được chọn này dường như không phải là tệp để thực thi"
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Các công cụ khác"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
@@ -1204,11 +1204,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Vị trí tệp hoặc đường dẫn để trực tiếp tải xuống:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Nhập từ tập tin zip"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1218,6 +1213,11 @@ msgstr "Chọn modpack"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr "Zip (*.zip *.mrpack)"
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Nhập từ tập tin zip"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -2370,11 +2370,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Phiên bản đã chọn:"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "FTB Legacy"
-
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2409,6 +2404,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Bạn có chắc muốn xóa gói pack %1 không?"
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "FTB Legacy"
+
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
 msgid "Legacy"
@@ -2429,6 +2429,11 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "Nâng cấp phiên bản"
 
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "Nâng cấp"
+
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2444,11 +2449,6 @@ msgstr "Hủy bỏ"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1(Di Chuyển)"
-
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "Nâng cấp"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -3631,11 +3631,6 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Phiên bản đã chọn:"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr "Modrinth"
-
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -3670,6 +3665,11 @@ msgstr "Không thể lấy thông tin modpack Modrinth..."
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Đang tải..."
+
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr "Modrinth"
 
 #: src/launcher/net/NetJob.cpp:128
 #, qt-format
@@ -4146,132 +4146,11 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Tối"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Hệ thống"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Sáng"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>Không có sự thay đổi mã nào giữa phiên bản hiện tại của bạn và phiên bản mới nhất.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Các commit sau đã được thêm vào kể từ lần cập nhật cuối cùng:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Bản cập nhật loại bỏ %1 commit và thêm phần sau %2:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Bạn có thể <a href=\"%1\">xem các thay đổi trên github</a>.</p>"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Tác giả gốc"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Đội ngũ vận hành"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Patrons"
-
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (đang sử dụng)"
-
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Tải lên thất bại"
-
-#: src/launcher/ui/GuiUtil.cpp:30
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Tệp nhật kí quá lớn. Bạn phải tải nó lên bằng tay."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Tải lên hoàn tất"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Đường liên kết đến nhật kí được tải lên</a> đã được đặt trong khay nhớ tạm của bạn."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Tệp được chỉ định không tồn tại hoặc không phải là tệp thực thi thích hợp."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Hệ nhị phân java được chỉ định không bắt đầu đúng cách.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Hệ nhị phân java được chỉ định trả về kết quả không mong muốn:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Thử nghiệm Java thành công!<br />Nền tảng được báo cáo: %1<br />Phiên bản Java được báo cáo: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Thử nghiệm Java thất bại"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Thử nghiệm Java thành công"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Máy chủ Minecraft"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Thiếu mô tả trong phiên bản FTB App."
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Bản vá chưa được tải."
+msgid "Assets for %1"
+msgstr "Tài nguyên cho %1"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
@@ -4290,6 +4169,42 @@ msgstr "Giá trị 'minimumLauncherVersion' của phiên bản này (%1) cao hơ
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
 msgstr "Thư viện %1 bị hỏng và không thể xử lý được."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Phiên bản tệp sắp xếp không hợp lệ, dự kiến %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Không thể mở tệp phiên bản %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Không thể xử lý tệp phiên bản %1: %2 tại hàng %3 cột %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Không thể xử lý tệp phiên bản %1."
+
+#: src/launcher/minecraft/auth/AccountData.cpp:422
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Không có hồ sơ (%1)"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Bản vá chưa được tải."
 
 #: src/launcher/minecraft/PackProfile.cpp:191
 #, qt-format
@@ -4331,43 +4246,6 @@ msgstr "Tệp phiên bản chứa phần tử không được hỗ trợ '-minec
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "Tệp phiên bản chứa phần tử không được hỗ trợ '+minecraftArguments'"
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Tài nguyên cho %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Phiên bản tệp sắp xếp không hợp lệ, dự kiến %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Không thể mở tệp phiên bản %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Không thể xử lý tệp phiên bản %1: %2 tại hàng %3 cột %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Không thể xử lý tệp phiên bản %1."
-
-#: src/launcher/minecraft/auth/AccountData.cpp:422
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Không có hồ sơ (%1)"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4412,6 +4290,140 @@ msgstr "Quá trình khôi phục cũng thất bại.\n"
 "Bạn sẽ phải sửa chữa %1 theo cách thủ công.\n"
 "Vui lòng cho chúng tôi biết tại sao và làm thế nào mà điều này xảy ra."
 
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Phiên bản định dạng không xác định!"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Tải xuống tệp meta %1"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Tệp được chỉ định không tồn tại hoặc không phải là tệp thực thi thích hợp."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Hệ nhị phân java được chỉ định không bắt đầu đúng cách.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Hệ nhị phân java được chỉ định trả về kết quả không mong muốn:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Thử nghiệm Java thành công!<br />Nền tảng được báo cáo: %1<br />Phiên bản Java được báo cáo: %2<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Thử nghiệm Java thất bại"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Thử nghiệm Java thành công"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Tối"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Sáng"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Hệ thống"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Tác giả gốc"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Đội ngũ vận hành"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patrons"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>Không có sự thay đổi mã nào giữa phiên bản hiện tại của bạn và phiên bản mới nhất.</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Các commit sau đã được thêm vào kể từ lần cập nhật cuối cùng:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>Bản cập nhật loại bỏ %1 commit và thêm phần sau %2:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Bạn có thể <a href=\"%1\">xem các thay đổi trên github</a>.</p>"
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (đang sử dụng)"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Tải lên thất bại"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Tệp nhật kí quá lớn. Bạn phải tải nó lên bằng tay."
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Tải lên hoàn tất"
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">Đường liên kết đến nhật kí được tải lên</a> đã được đặt trong khay nhớ tạm của bạn."
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Thiếu mô tả trong phiên bản FTB App."
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Máy chủ Minecraft"
+
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
@@ -4429,6 +4441,36 @@ msgstr "%1 giờ %2 phút"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1 ngày %2 giờ %3 phút"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Đường dẫn trống"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Đường dẫn đến JVisualVM không hợp lệ"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Đường dẫn trống"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "Đường dẫn không tồn tại"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Đường dẫn dường như không phải là đường dẫn đến MCEdit"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Cài đặt JProfiler không hợp lệ"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4471,48 +4513,6 @@ msgstr "Hệ nhị phân Java được chỉ định không hoạt động với
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Hệ nhị phân java được chỉ định không hoạt động.<br />Bạn nên sử dụng tính năng tự động phát hiện hoặc đặt đường dẫn đến tệp thực thi java<br />"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Tải xuống tệp meta %1"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Phiên bản định dạng không xác định!"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Đường dẫn trống"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Đường dẫn đến JVisualVM không hợp lệ"
-
-#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Đường dẫn không tồn tại"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Cài đặt JProfiler không hợp lệ"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Đường dẫn trống"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Đường dẫn dường như không phải là đường dẫn đến MCEdit"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
@@ -4612,11 +4612,6 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "Sao Chép Tập Tin"
 
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "Ảnh chụp màn hình"
-
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -4677,6 +4672,11 @@ msgstr "Bạn có chắc không?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Điều này sẽ xoá tất cả ảnh chụp màn hình đã chọn."
+
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "Ảnh chụp màn hình"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
