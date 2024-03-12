@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Belarusian\n"
 "Language: be_BY\n"
-"PO-Revision-Date: 2024-03-12 18:40\n"
+"PO-Revision-Date: 2024-03-12 19:52\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -452,7 +452,7 @@ msgstr "Не атрымалася ўвайсці. Трэба мігрырава�
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr "Не ўдалося здзейсніць аўтэнтыфікацыю. Час дзеяння сесіі скончыўся."
+msgstr "Памылка аўтэнтыфікацыі. Сеанс скончыўся."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:53
 msgctxt "AccountTask|"
@@ -842,7 +842,7 @@ msgstr "Вызначэнне валодання гульнёй."
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:52
 msgctxt "EntitlementsStep|"
 msgid "Got entitlements"
-msgstr "Спалучэнне праў"
+msgstr "Атрыманыя правы"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.ui:14
 msgctxt "ExportInstanceDialog|"
@@ -885,7 +885,7 @@ msgstr "Праверыць"
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
 msgid "External Editors (leave empty for system default)"
-msgstr "Знешнія рэдактары (пакінуць пустымі для сістэмных значэнняў)"
+msgstr "Знешні рэдактар ​​(пакіньце пустым, каб выкарыстоўваць сістэмны рэдактар)"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:159
 msgctxt "ExternalToolsPage|"
@@ -913,7 +913,8 @@ msgstr "Памылка"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr "Памылка пры праверцы ўстаноўкі JProfiler %1"
+msgstr "Памылка пры праверцы ўстаноукі JProfiler:\n"
+"%1"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154
@@ -925,12 +926,12 @@ msgstr "OK"
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr "Ваша версія JProfiler працуе спраўна"
+msgstr "Наладжванне JProfiler паспяхова завершана"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
-msgstr "JVisualVM выкананы файл"
+msgstr "Выканальніцкі файл JVisualVM"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:135
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:150
@@ -4171,26 +4172,26 @@ msgstr "Назва бібліятэкі %1 пашкоджана і не можа
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid order file version, expected %1"
-msgstr "Няправільны парадак файла версій, чакаецца %1"
+msgstr "Няправільны парадак файла версіі, чакалася %1"
 
 #: src/launcher/minecraft/ProfileUtils.cpp:96
 #: src/launcher/minecraft/ProfileUtils.cpp:149
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to open the version file %1: %2."
-msgstr "Немагчыма адкрыць файл версій %1: %2."
+msgstr "Немагчыма адкрыць файл версіі %1: %2."
 
 #: src/launcher/minecraft/ProfileUtils.cpp:117
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Немагчыма апрацаваць файл версій %1: %2 радок %3, слупок %4."
+msgstr "Немагчыма апрацаваць файл версіі %1: %2 радок %3, слупок %4."
 
 #: src/launcher/minecraft/ProfileUtils.cpp:157
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1."
-msgstr "Немагчыма апрацаваць файл версій %1."
+msgstr "Немагчыма апрацаваць файл версіі %1."
 
 #: src/launcher/minecraft/auth/AccountData.cpp:422
 #, qt-format
@@ -4207,42 +4208,42 @@ msgstr "Патч яшчэ не загружаны."
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr ""
+msgstr "Няправільны кампанент файла версіі, чакалася %1"
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr ""
+msgstr "Файл версіі мае як \"+libraries\", так і \"libraries\". Гэта больш не падтрымліваецца."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:202
 msgctxt "QObject|"
 msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr ""
+msgstr "Не ўдалося вызначыць спасылку для асноўнага jar файла - Mojang выдаліў сервер, які мы выкарыстоўвалі ў якасці рэзервовага."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:235
 msgctxt "QObject|"
 msgid "Version file contains unsupported element 'tweakers'"
-msgstr ""
+msgstr "Файл версіі змяшчае непадтрымліваемы элемент \"tweakers\""
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:239
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
+msgstr "Файл версіі змяшчае непадтрымліваемы элемент \"-libraries\""
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:243
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
+msgstr "Файл версіі змяшчае непадтрымліваемы элемент \"-tweakers\""
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:247
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr ""
+msgstr "Файл версіі змяшчае непадтрымліваемы элемент \"-minecraftArguments\""
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:251
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr ""
+msgstr "Файл версіі змяшчае непадтрымліваемы элемент \"+minecraftArguments\""
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4259,20 +4260,23 @@ msgstr "Не атрымался адкаціць!"
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Не ўдалося замяніць файл %1. Змены будуць адменены.\n"
+"Больш падрабязна ў лог файле %2."
 
 #: src/launcher/UpdateController.cpp:382
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "Не ўдалося выдаліць файл %1. Змены будуць адменены.\n"
+"Больш падрабязна ў лог файле %2."
 
 #: src/launcher/UpdateController.cpp:392
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
-msgstr ""
+msgstr "Новая версія не запусцілася, або састарэла і не рэагуе на кантроль запуску.\n\n"
+"Вярнуцца да папярэдняй версіі?"
 
 #: src/launcher/UpdateController.cpp:414
 #, qt-format
@@ -4280,7 +4284,9 @@ msgctxt "QObject|"
 msgid "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
-msgstr ""
+msgstr "Не атрымалася вярнуцца да папярэдняй версіі.\n"
+"Вам трэба будзе абнавіць %1 уручную.\n"
+"Калі ласка, раскажыце нам як і чаму гэта адбылося."
 
 #: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
 #: src/launcher/meta/JsonFormat.cpp:166
@@ -4297,23 +4303,23 @@ msgstr "Спамоўка метафайла %1"
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr ""
+msgstr "Указаны файл не існуе, альбо не з'яўляецца выканальным."
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
 msgctxt "QObject|"
 msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
+msgstr "Указаны файл java не запусціўся належным чынам.<br />"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
 msgctxt "QObject|"
 msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
+msgstr "Указаны файл java даў нечаканыя вынікі:<br />"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr ""
+msgstr "Тэставанне Java паспяхова завершана!<br />Паведамлена аб платформе: %1<br />Паведамлена аб версіі Java: %2 <br />"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
 #: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
@@ -4365,19 +4371,19 @@ msgstr "<p>Няма змяненняў кода паміж бягучай і а�
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:115
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
+msgstr "<p>Пасля апошняга абнаўлення былі дададзены наступныя здзяйсненні:</p>"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:122
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr ""
+msgstr "<p>Гэта абнаўленне выдаляе здзяйсненні %1 і дадае наступныя %2:</p>"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:125
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
+msgstr "<p> Вы можаце <a href=\"%1\"> праглядзець змены на github </a>. </p>"
 
 #: src/launcher/ui/MainWindow.cpp:103
 #, qt-format
@@ -4404,7 +4410,7 @@ msgstr "Загрузка завершана"
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">Спасылка на загружаны лог файл</a> была дададзена ў буфер абмену."
 
 #: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:264
 msgctxt "QObject|"
@@ -4442,7 +4448,7 @@ msgstr "Пусты шлях"
 #: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
 msgid "Invalid path to JVisualVM"
-msgstr ""
+msgstr "Няправільны шлях да JVisualVM"
 
 #: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
@@ -4457,88 +4463,91 @@ msgstr "Шлях не існуе"
 #: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
-msgstr ""
+msgstr "Шлях не з'яўляецца шляхам MCEdit"
 
 #: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
 msgid "Invalid JProfiler install"
-msgstr ""
+msgstr "Няправільная ўстаноўка JProfiler"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
 "There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
 "This message will be displayed until you remove them from the JVM arguments."
-msgstr ""
+msgstr "Вы спрабавалі ўручную ўсталяваць параметры памяці JVM (з дапамогай «-XX:PermSize», «-XX-MaxHeapSize», «-XX:InitialHeapSize», «-Xmx» або «-Xms»).\n"
+"У верхняй частцы старонкі ёсць спецыяльныя палі для гэтых налад (укладка \"Java\", у групе \"Памяць\" наверсе).\n"
+"Гэта паведамленне будзе адлюстроўвацца, пакуль вы не выдаліце гэтыя параметры з аргументаў JVM."
 
 #: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
 msgctxt "QObject|"
 msgid "JVM arguments warning"
-msgstr ""
+msgstr "Папярэджанне аб аргументах JVM"
 
 #: src/launcher/JavaCommon.cpp:22
 msgctxt "QObject|"
 msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
 "This message will be displayed until you remove this from the JVM arguments."
-msgstr ""
+msgstr "Вы спрабавалі перадаць JVM аргумент неабходнай версіі Java (з дапамогай \"-version=xxx\"). Гэта небяспечна і забаронена.\n"
+"Гэта паведамленне будзе адлюстроўвацца, пакуль вы не выдаліце гэты параметр з аргументаў JVM."
 
 #: src/launcher/JavaCommon.cpp:37
 #, qt-format
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr ""
+msgstr "Тэставанне Java паспяхова завершана!<br />Паведамлена аб платформе: %1<br />Паведамлена аб версіі Java: %2<br />Паведамлена аб пастаўшчыку Java: %3<br />"
 
 #: src/launcher/JavaCommon.cpp:44
 #, qt-format
 msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr ""
+msgstr "<br />Папярэджанні:<br /><font color=\"orange\">%1</font>"
 
 #: src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr ""
+msgstr "Указаны файл java не працуе з дадзенымі аргументамі:<br />"
 
 #: src/launcher/JavaCommon.cpp:62
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr ""
+msgstr "Указаны файл Java не працуе. <br /> Выкарыстоўвайце функцыю аўтавызначэння, або ўстаўце шлях да выканальнага файла Java. <br />"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append не падтрымліваецца для GZIP"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:66
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "Адкрыццё gzip для чытання і запісу адначасова не падтрымліваецца"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:74
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "Вы можаце адкрыць gzip для чытання, або запісу. Якое выбраць?"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:80
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "Не ўдалося выканаць gzopen() у файле"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:147
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append не падтрымліваецца для QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quaziodevice.cpp:152
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite не падтрымліваецца для QuaZIODevice"
 
 #: src/libraries/quazip/quazip/quazipfile.cpp:247
 #, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "Памылка ZIP/UNZIP API %1"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -4645,13 +4654,13 @@ msgstr "Загрузка завершана"
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded screenshot</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">Спасылка на загружаны скрыншот</a> была дададзена ў буфер абмену."
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:398
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "The <a href=\"%1\">link  to the uploaded album</a> has been placed in your clipboard."
-msgstr ""
+msgstr "<a href=\"%1\">Спасылка на загружаны альбом</a> была дададзена ў буфер абмену."
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:444
 msgctxt "ScreenshotsPage|"
@@ -4661,7 +4670,7 @@ msgstr "Вы ўпэўнены?"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:444
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
-msgstr ""
+msgstr "Усе выбраныя скрыншоты будуць выдалены."
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
 msgctxt "ScreenshotsPage|"
@@ -4777,7 +4786,7 @@ msgstr "&Абнавiць"
 #, qt-format
 msgctxt "SetupWizard|"
 msgid "%1 Quick Setup"
-msgstr ""
+msgstr "%1 Хуткая ўстаноўка"
 
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
@@ -4832,12 +4841,12 @@ msgstr "Плашч"
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:44
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
-msgstr ""
+msgstr "Выкарыстанне аддаленых URL-адрасоў для канфігурацыі скіноў яшчэ не рэалізавана."
 
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:56
 msgctxt "SkinUploadDialog|"
 msgid "You cannot use an invalid URL for uploading skins."
-msgstr ""
+msgstr "Вы не можаце выкарыстоўваць несапраўдны URL-адрас для загрузкі скіноў."
 
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:71
 msgctxt "SkinUploadDialog|"
@@ -4896,12 +4905,12 @@ msgstr "Не атрымалася распакаваць модпак"
 #, qt-format
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Could not fix permissions for %1"
-msgstr ""
+msgstr "Немагчыма вырашыць дазволы для %1"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:141
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Імпарт зборкі быў адменены."
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:49
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:51
@@ -4934,12 +4943,12 @@ msgstr "Не атрымалася распакаваць модпак"
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not fix permissions for %1"
-msgstr ""
+msgstr "Немагчыма вырашыць дазволы для %1"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:200
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Instance import has been aborted."
-msgstr ""
+msgstr "Імпарт зборкі быў адменены."
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:58
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4949,13 +4958,13 @@ msgstr "Немагчыма адкрыць файл \"bin/modpack.jar\"!"
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:70
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"fmlversion.properties\"!"
-msgstr ""
+msgstr "Немагчыма адкрыць \"fmlversion.properties\"!"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:84
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:139
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"version.json\"!"
-msgstr ""
+msgstr "Немагчыма адкрыць \"version.json\"!"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:93
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4965,28 +4974,29 @@ msgstr "Не атрымалася знайсці \"version.json\" у \"bin/modpa
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:107
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to open \"forgeversion.properties\""
-msgstr ""
+msgstr "Немагчыма адкрыць \"forgeversion.properties\""
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:122
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Invalid \"forgeversion.properties\"!"
-msgstr ""
+msgstr "Няправільны \"forgeversion.properties\"!"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:148
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Unable to find a \"version.json\"!"
-msgstr ""
+msgstr "Не ўдалося знайсці \"version.json\"!"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:161
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
 "inheritsFrom is missing"
-msgstr ""
+msgstr "Не ўдалося распазнаць \"version.json\":\n"
+" адсутнічае inheritsFrom"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:206
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not understand \"version.json\":\n"
-msgstr ""
+msgstr "Не ўдалося распазнаць \"version.json\":\n"
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:22
 msgctxt "TechnicPage|"
@@ -5079,7 +5089,7 @@ msgstr "Задача спынена."
 #, qt-format
 msgctxt "Update|"
 msgid "Instance update failed because: %1\n\n"
-msgstr ""
+msgstr "Не ўдалося абнавіць зборку, таму што: %1\n\n"
 
 #: src/launcher/ui/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
@@ -5114,13 +5124,13 @@ msgstr "Закрыць"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:24
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
-msgstr ""
+msgstr "<center><h1>Загрузка журнала змяненняў...</h1></center>"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:154
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
-msgstr ""
+msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">Не ўдалося атрымаць журнал змен... Памылка: %1</span></p>"
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
@@ -5205,7 +5215,7 @@ msgstr "Змяніць версію"
 #: src/launcher/ui/pages/instance/VersionPage.ui:129
 msgctxt "VersionPage|"
 msgid "Change version of the selected package."
-msgstr ""
+msgstr "Змяніць версію абранага пакета."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:134
 msgctxt "VersionPage|"
@@ -5215,7 +5225,7 @@ msgstr "Перамясціць вышэй"
 #: src/launcher/ui/pages/instance/VersionPage.ui:137
 msgctxt "VersionPage|"
 msgid "Make the selected package apply sooner."
-msgstr ""
+msgstr "Зрабіць так, каб абраны пакет быў прыменены раней."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:142
 msgctxt "VersionPage|"
@@ -5225,7 +5235,7 @@ msgstr "Перамясціць ніжэй"
 #: src/launcher/ui/pages/instance/VersionPage.ui:145
 msgctxt "VersionPage|"
 msgid "Make the selected package apply later."
-msgstr ""
+msgstr "Зрабіць так, каб абраны пакет быў прыменены пазней."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:150
 msgctxt "VersionPage|"
@@ -5235,7 +5245,7 @@ msgstr "Выдаліць"
 #: src/launcher/ui/pages/instance/VersionPage.ui:153
 msgctxt "VersionPage|"
 msgid "Remove selected package from the instance."
-msgstr ""
+msgstr "Выдаліць ​​абраны пакет са зборкі."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:158
 msgctxt "VersionPage|"
@@ -5245,7 +5255,7 @@ msgstr "Наладзіць"
 #: src/launcher/ui/pages/instance/VersionPage.ui:161
 msgctxt "VersionPage|"
 msgid "Customize selected package."
-msgstr ""
+msgstr "Наладзіць абраны пакет."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:166
 msgctxt "VersionPage|"
@@ -5255,7 +5265,7 @@ msgstr "Рэдагаваць"
 #: src/launcher/ui/pages/instance/VersionPage.ui:169
 msgctxt "VersionPage|"
 msgid "Edit selected package."
-msgstr ""
+msgstr "Рэдагаваць абраны пакет."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:174
 msgctxt "VersionPage|"
@@ -5265,7 +5275,7 @@ msgstr "Скінуць"
 #: src/launcher/ui/pages/instance/VersionPage.ui:177
 msgctxt "VersionPage|"
 msgid "Revert the selected package to default."
-msgstr ""
+msgstr "Вярнуць абраны пакет на стан па змаўчанні."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:182
 msgctxt "VersionPage|"
@@ -5422,7 +5432,7 @@ msgstr "Памылка"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:261
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
-msgstr ""
+msgstr "Не атрымалася загрузіць профіль зборкі."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:279
 msgctxt "VersionPage|"
@@ -5458,7 +5468,7 @@ msgstr "Змяніць версію %1"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:370
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
-msgstr ""
+msgstr "На дадзены момант няма даступных вэрсій intermediary mappings."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:371
 msgctxt "VersionPage|"
@@ -5704,7 +5714,7 @@ msgstr "Далучыцца"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:107
 msgctxt "WorldListPage|"
 msgid "Launch the instance directly into the selected world"
-msgstr ""
+msgstr "Запусціць зборку напрамую ў абраны свет"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:112
 msgctxt "WorldListPage|"
@@ -5714,7 +5724,7 @@ msgstr "Далучыцца па-за сеткай"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:115
 msgctxt "WorldListPage|"
 msgid "Launch the instance in offline mode directly into the selected world"
-msgstr ""
+msgstr "Запусціць зборку ў аўтаномным рэжыме напрамую ў абраны свет"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:120
 msgctxt "WorldListPage|"
@@ -5838,7 +5848,8 @@ msgstr "Капіраваць свет"
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
-msgstr ""
+msgstr "Змяняць свет падчас працы Minecraft патэнцыйна небяспечна.\n"
+"Вы жадаеце працягнуць?"
 
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:385
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:408
@@ -5866,19 +5877,19 @@ msgstr "Атрымана аўтарызацыя для доступу к сер�
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Failed to get authorization for %1 services. Error %2."
-msgstr ""
+msgstr "Немагчыма атрымаць аўтарызацыю для сэрвісу %1. Памылка %2."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:78
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr ""
+msgstr "Немагчыма разабраць адказ аўтарызацыі для доступу да сэрвісу %1."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:86
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr ""
+msgstr "Сервер змяніў хэш аўтарызацыі карыстальніка %1 у адказе. Нешта пайшло не так."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:93
 #, qt-format
@@ -5963,22 +5974,22 @@ msgstr "Атрыманы токен карыстальніка Xbox"
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:188
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "Сервер аўтэнтыфікацыі не адправіў токен кліента."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:195
 msgctxt "Yggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "Сервер аўтэнтыфікацыі спрабаваў змяніць токен кліента. Гэта не падтрымліваецца."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:204
 msgctxt "Yggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "Сервер аўтэнтыфікацыі не адправіў токен доступу."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:226
 msgctxt "Yggdrasil|"
 msgid "Authentication operation timed out."
-msgstr ""
+msgstr "Час чакання аўтэнтыфікацыі скончыўся."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:229
 msgctxt "Yggdrasil|"
@@ -5999,13 +6010,13 @@ msgstr "Уліковы запіс Mojang больш не існуе. Вераг�
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr ""
+msgstr "Аўтэнтыфікацыя не атрымалася з-за памылкі сеткі: %1 (%2)"
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:283
 #, qt-format
 msgctxt "Yggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "Не ўдалося разабраць адказ JSON ад сервера аўтэнтыфікацыі: %1 пры зрушэнні %2."
 
 #: src/launcher/minecraft/auth/Yggdrasil.cpp:307
 #, qt-format
