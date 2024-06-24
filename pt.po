@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
-"PO-Revision-Date: 2024-06-23 23:11\n"
+"PO-Revision-Date: 2024-06-24 00:11\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2590,7 +2590,7 @@ msgstr "Tens certeza que queres enviar este ficheiro de registo?"
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process exited with exit code %1 (0x%2)."
-msgstr "O processo parou de funcionar com o código de saída %1 (0x%2)."
+msgstr "O processo saiu com o código de saída %1 (0x%2)."
 
 #. Message displayed on instance crashed
 #: src/launcher/LoggedProcess.cpp:77
@@ -2602,7 +2602,7 @@ msgstr "O processo parou de funcionar."
 #, qt-format
 msgctxt "LoggedProcess|"
 msgid "Process crashed with exit code %1 (0x%2)."
-msgstr "O processo parou de funcionar com o código de saída %1 (0x%2)."
+msgstr "O processo parou com o código de saída %1 (0x%2)."
 
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
@@ -2665,7 +2665,7 @@ msgstr "Adicionar conta Microsoft"
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:56
 msgctxt "MSALoginDialog|"
 msgid "Copy Code"
-msgstr "Copiar Código"
+msgstr "Copiar código"
 
 #: src/launcher/ui/dialogs/MSALoginDialog.cpp:87
 #, qt-format
@@ -3016,12 +3016,12 @@ msgstr "Abrir a pasta da instância selecionada no explorador de ficheiros."
 #: src/launcher/ui/MainWindow.cpp:602
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
-msgstr " Criar Atalho"
+msgstr "Criar um atalho"
 
 #: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
-msgstr "Criar um atalho que arranca a instância selecionada"
+msgstr "Criar atalho que arranca a instância selecionada"
 
 #: src/launcher/ui/MainWindow.cpp:609
 msgctxt "MainWindow|"
@@ -3094,12 +3094,12 @@ msgstr "Eliminar grupo '%1'"
 #: src/launcher/ui/MainWindow.cpp:989
 msgctxt "MainWindow|"
 msgid "Format"
-msgstr "Formato"
+msgstr "Modelo"
 
 #: src/launcher/ui/MainWindow.cpp:992
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr "Modrinth (WIP)"
+msgstr "Modrinth (TEP)"
 
 #: src/launcher/ui/MainWindow.cpp:1047
 msgctxt "MainWindow|"
@@ -3194,7 +3194,7 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
-msgstr ", jogado pela última vez por %1 horas"
+msgstr ", jogado ultimamente por %1 horas"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:815
 #, qt-format
@@ -3206,7 +3206,7 @@ msgstr ", jogada pela última vez durante %1"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
-msgstr ", jogada pelo total de %1"
+msgstr ", jogado no total de %1 horas"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:823
 #, qt-format
@@ -3454,38 +3454,38 @@ msgstr "Falha ao criar a minecraft.jar personalizada."
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
-msgstr "A encontrar ficheiros para procurar no Modrinth..."
+msgstr "A encontrar ficheiros para buscar no Modrinth..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr "Exportação do pacote Modrinth"
+msgstr "Exportar pacote Modrinth"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
-msgstr "A procurar ficheiros no Modrinth..."
+msgstr "A procura de ficheiros no Modrinth..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
-msgstr "A criar metadados do modpack..."
+msgstr "A criar metadado do pacote..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:219
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
-msgstr "A copiar ficheiros para o modpack..."
+msgstr "A copiar ficheiros para o mod..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:233
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
-msgstr "Falha ao copiar ficheiro %1 para overrides"
+msgstr "Falhou ao copiar ficheiro %1 para overrides"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:250
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
-msgstr "A comprimir modpack..."
+msgstr "Comprimindo modpack..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:252
 msgctxt "Modrinth::InstanceExportTask|"
@@ -3495,18 +3495,18 @@ msgstr "Falha ao criar ficheiro zip"
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create temporary directory"
-msgstr "Não foi possível criar pasta temporária"
+msgstr "Falhou ao criar um diretório temporário"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:41
 msgctxt "ModrinthExportDialog|"
 msgid "Export Modrinth modpack"
-msgstr "Exportar modpack Modrinth"
+msgstr "A exportar o modpack Modrinth"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:54
 msgctxt "ModrinthExportDialog|"
 msgid "Metadata"
-msgstr "Metadados"
+msgstr "Metadado"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:71
 msgctxt "ModrinthExportDialog|"
@@ -3526,7 +3526,7 @@ msgstr "Descrição"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:107
 msgctxt "ModrinthExportDialog|"
 msgid "Export Options"
-msgstr "Exportar Opções"
+msgstr "Definições de exportação"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:127
 msgctxt "ModrinthExportDialog|"
@@ -3537,17 +3537,17 @@ msgstr "Ficheiro"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:205
 msgctxt "ModrinthExportDialog|"
 msgid "Browse..."
-msgstr "Procurar..."
+msgstr "Buscar..."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:146
 msgctxt "ModrinthExportDialog|"
 msgid "Include Minecraft config"
-msgstr "Incluir config do Minecraft"
+msgstr "Incluir definições do Minecraft"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:156
 msgctxt "ModrinthExportDialog|"
 msgid "Include mod configs"
-msgstr "Incluir configs dos mods"
+msgstr "Incluir definições dos mods"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:166
 msgctxt "ModrinthExportDialog|"
@@ -3557,7 +3557,7 @@ msgstr "Incluir pacotes de recursos"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:173
 msgctxt "ModrinthExportDialog|"
 msgid "Include shader packs"
-msgstr "Incluir pacotes de shaders"
+msgstr "Incluir shaders"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:180
 msgctxt "ModrinthExportDialog|"
@@ -3567,40 +3567,40 @@ msgstr "Se ativado, todos os mods, shaders e pacotes de recursos que estão disp
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:183
 msgctxt "ModrinthExportDialog|"
 msgid "Treat disabled mods, shaders and resource packs as optional"
-msgstr "Tratar mods, shaders e pacotes de recursos desativados como opcionais"
+msgstr "Tratar que mods, shaders ou pacotes de textura desativados como opcionais"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:192
 msgctxt "ModrinthExportDialog|"
 msgid "Use this if your modpack contains a mod which adds global datapacks."
-msgstr "Usa isto se o teu modpack contém um mod que adiciona datapacks globais."
+msgstr "Use isto se o teu modpack conter um mod que adiciona datapacks globais."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:195
 msgctxt "ModrinthExportDialog|"
 msgid "Include global datapacks folder:"
-msgstr "Incluir pasta datapacks globais:"
+msgstr "Incluir ficheiros de datapacks globais:"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:45
 msgctxt "ModrinthExportDialog|"
 msgid "Select modpack file"
-msgstr "Selecionar ficheiro modpack"
+msgstr "Selecionar ficheiro de modpack"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:61
 msgctxt "ModrinthExportDialog|"
 msgid "Select global datapacks folder"
-msgstr "Selecionar pasta de datapacks global"
+msgstr "Selecionar ficheiro de datapacks globais"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:98
 msgctxt "ModrinthExportDialog|"
 msgid "Warning"
-msgstr "Aviso"
+msgstr "Atenção"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:99
 #, qt-format
 msgctxt "ModrinthExportDialog|"
 msgid "Instance contains a custom component: %1\n"
 "This cannot be exported to a Modrinth pack; the exported pack may not work correctly!"
-msgstr "A instância contém um componente personalizado: %1\n"
-"Isto não pode ser exportado para um pacote Modrinth; o pacote exportado pode não funcionar corretamente!"
+msgstr "A instância contém um componente customizado: %1\n"
+"Isto não pode ser exportado para um pacote Modrinth; O pacote exportado pode não funcionar como o esperado!"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:123
 msgctxt "ModrinthExportDialog|"
@@ -3610,12 +3610,12 @@ msgstr "Erro"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:130
 msgctxt "ModrinthExportDialog|"
 msgid "Warnings"
-msgstr "Avisos"
+msgstr "Advertências"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:134
 msgctxt "ModrinthExportDialog|"
 msgid "Abort"
-msgstr "Abortar"
+msgstr "Anular"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
@@ -3714,7 +3714,7 @@ msgstr "&Grupo:"
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:72
 msgctxt "NewInstanceDialog|"
 msgid "Reset"
-msgstr "Repor"
+msgstr "Redefinir"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
@@ -3851,12 +3851,12 @@ msgstr "O ficheiro (%1) não pode ser lido."
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:185
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
-msgstr "Envio de registo"
+msgstr "Envio do registo"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
 msgctxt "OtherLogsPage|"
 msgid "Are you sure you want to upload this log file?"
-msgstr "Tens a certeza que queres enviar este ficheiro de registo?"
+msgstr "Tens certeza que queres enviar este ficheiro de registo?"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:211
 #, qt-format
@@ -4354,12 +4354,12 @@ msgstr "Sistema"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
 msgid "Original Author"
-msgstr "Autor Original"
+msgstr "Autor original"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:39
 msgctxt "QObject|About Credits"
 msgid "Maintainer"
-msgstr "Mantido por"
+msgstr "Contido por"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:57
 msgctxt "QObject|About Credits"
@@ -4628,12 +4628,12 @@ msgstr "Enviar captura de ecrã para imgur.com?"
 #, qt-format
 msgctxt "ScreenshotsPage|"
 msgid "Upload %1 screenshots to imgur.com?"
-msgstr "Enviar %1 capturas de ecrã para imgur.com?"
+msgstr "Compartilhar %1 capturas de ecrã para o imgur.com?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:323
 msgctxt "ScreenshotsPage|"
 msgid "Upload?"
-msgstr "Enviar?"
+msgstr "Compartilhar?"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:345
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:385
@@ -4930,7 +4930,7 @@ msgstr "A transferir modpack"
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:79
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Não foi possível entender o manifesto do pacote:\n"
+msgstr "Falhou ao intentar entender o manifesto do pacote:\n"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:115
 msgctxt "Technic::SolderPackInstallTask|"
@@ -5004,7 +5004,7 @@ msgstr "Não foi possível entender \"version.json\":\n"
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:22
 msgctxt "TechnicPage|"
 msgid "Version selected:"
-msgstr "Versão selecionada:"
+msgstr "Versão em seleção:"
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:70
 msgctxt "TechnicPage|"
@@ -5112,7 +5112,7 @@ msgstr "Não atualizar ainda"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:16
 msgctxt "UpdateDialog|"
 msgid "A new update is available!"
-msgstr "Uma nova atualização está disponível!"
+msgstr "Uma nova versão já está disponível!"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:20
 msgctxt "UpdateDialog|"
@@ -5713,22 +5713,22 @@ msgstr "Adicionar"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:104
 msgctxt "WorldListPage|"
 msgid "Join"
-msgstr "Entrar"
+msgstr "Aderir"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:107
 msgctxt "WorldListPage|"
 msgid "Launch the instance directly into the selected world"
-msgstr "Iniciar a instância diretamente no mundo selecionado"
+msgstr "Iniciar a instância diretamente no mundo em seleção"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:112
 msgctxt "WorldListPage|"
 msgid "Join offline"
-msgstr "Entrar offline"
+msgstr "Aderir offline"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:115
 msgctxt "WorldListPage|"
 msgid "Launch the instance in offline mode directly into the selected world"
-msgstr "Iniciar a instância diretamente no mundo selecionado em modo offline"
+msgstr "Iniciar instância diretamente no mundo em seleção no modo offline"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:120
 msgctxt "WorldListPage|"
