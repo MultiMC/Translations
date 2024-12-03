@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2024-02-01 00:15\n"
+"PO-Revision-Date: 2024-10-05 11:47\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -779,7 +779,7 @@ msgstr "Öze&l Komutlar"
 #: src/launcher/ui/widgets/CustomCommands.ui:44
 msgctxt "CustomCommands|"
 msgid "Post-exit command:"
-msgstr "Çıkış komutu:"
+msgstr "Çıkış sonrası komutu:"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:54
 msgctxt "CustomCommands|"
@@ -794,7 +794,7 @@ msgstr "Wrapper komutu:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Başlangıç komutları profil çalıştırılmadan önce, çıkış komutları ise oyun kapatıldıktan sonra çalıştırılacaktır.</p><p>Her ikisi de başlatıcının kaynak dosyalarında ekstra olarak yer alacaktır.:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top: 12px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-block-indent: 0; text-indent: 0px;\">$INST_NAME - Profilin adı</li><li style=\" margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-block-indent: 0; text-indent: 0px;\">$INST_ID - Profilin ID'si (klasörünün ismi)</li><li style=\" margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-block-indent: 0; text-indent: 0px;\">$INST_DIR - Profilin mutlak konumu</li><li style=\" margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-block-indent: 0; text-indent: 0px;\">$INST_MC_DIR - Minecraft'ın konumu</li><li style=\" margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-block-indent: 0; text-indent: 0px;\">$INST_JAVA - Çalıştırmak için kullanılan Java konumu</li><li style=\" margin-top: 0px; margin-bottom: 12px; margin-left: 0px; margin-right: 0px; -qt-block-indent: 0; text-indent: 0px;\">$INST_JAVA_ARGS - Komut satırı paremetreleri</li></ul><p>Wrapper komutları ekstra ara programlar (Linux üzerindeki 'optirun' gibi) kullanmanıza olanak sağlar.</p></body></html>"
+msgstr "<html><head/><body><p>Başlatma öncesi komutu profil çalıştırılmadan önce, çıkış sonrası komutu ise profil kapatıldıktan sonra çalışır</p><p>Her ikisi de başlatıcının çalıştığı klasörde ek ortam değişkenleri ile çalışacaktır:</p><ul><li>$INST_NAME - Profil adı</li><li>$INST_ID - Profil ID'si (klasör adı)</li><li>$INST_DIR - Profilin tam yolu</li><li>$INST_MC_DIR - Minecraft'ın tam yolu</li><li>$INST_JAVA - Başlatma için kullanılan Java ikili dosyası</li><li>$INST_JAVA_ARGS - Başlatma için kullanılan komut satırı parametreleri</li></ul><p>Wrapper komutları, ek wrapper programları (Linux'daki \"optirun\" gibi) kullanarak başlatmaya izin verir</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -4427,7 +4427,7 @@ msgstr "Minecraft Sunucusu"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr "%1d %2sn"
+msgstr "%1dk %2sn"
 
 #: src/launcher/MMCTime.cpp:35
 #, qt-format
@@ -4439,7 +4439,7 @@ msgstr "%1s %2d"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
-msgstr "%1g %2s %d"
+msgstr "%1gün %2sa %3dk"
 
 #: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
