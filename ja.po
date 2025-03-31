@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2025-03-17 09:53\n"
+"PO-Revision-Date: 2025-03-31 16:59\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -5702,69 +5702,72 @@ msgstr "JSONとして %1 承認エラー応答を解析できません：%2"
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XErr element is missing from %1 authorization error response."
-msgstr ""
+msgstr "%1認証エラー　応答からXrr要素が見つかりません。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:123
 msgctxt "XboxAuthorizationStep|"
 msgid "Your XBox Live account has been banned by Microsoft for violating the XBox Community Standards.\n"
 "This may happen if your account was shared or resold."
-msgstr ""
+msgstr "あなたのXbox LiveアカウントはXbox Community Standardsに違反したため、マイクロソフトによって利用が禁止されています。\n\n"
+"これは、アカウントが共有されたり、アカウントが転売された場合に起こる可能性があります。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:130
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is linked to a family and your parent or guardian has not given you permission to play online."
-msgstr ""
+msgstr "このマイクロソフトアカウントはファミリーリンクでおうちのかたに管理されており、おうちのかたからオンラインでプレイする許可が与えられていません。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:137
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account does not have an XBox Live profile. Buy the game on %1 first."
-msgstr ""
+msgstr "このマイクロソフトアカウントにはXbox Liveプロファイルがありません。まずは%1でゲームを購入する必要があります。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:145
 msgctxt "XboxAuthorizationStep|"
 msgid "This account has not accepted the XBox Terms of Service. Please log in online and accept them."
-msgstr ""
+msgstr "このアカウントではXbox利用規約に同意していません。Webサイトでログインし、同意してください。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:153
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr ""
+msgstr "Xbox Liveは、お住いの国・地域ではご利用いただけません。アクセスがブロックされています。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:160
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account requires proof of age to play. Please login to %1 to provide proof of age."
-msgstr ""
+msgstr "このマイクロソフトアカウントでは、年齢確認が必要です。年齢証明を%1で完了させてください。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:168
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account has reached its playtime limit and has been blocked from logging in."
-msgstr ""
+msgstr "このマイクロソフトアカウントは、ログインの試行回数の制限に達しており、現在ログインが制限されています。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:175
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is underaged and is not linked to a family.\n\n"
 "Please set up your account according to %1."
-msgstr ""
+msgstr "このマイクロソフトアカウントは家族のメンバー、管理者にリンクされていません。\n\n"
+"%1でアカウント設定を完了させてください。"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:183
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "XSTS authentication ended with unrecognized error(s):\n\n"
 "%1"
-msgstr ""
+msgstr "XSTS認証は不明なエラーで終了しました：\n\n"
+"%1"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:17
 msgctxt "XboxProfileStep|"
 msgid "Fetching Xbox profile."
-msgstr ""
+msgstr "Xboxプロファイルを取得中です。"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:59
 msgctxt "XboxProfileStep|"
 msgid "Failed to retrieve the Xbox profile."
-msgstr ""
+msgstr "Xboxプロファイルの取得に失敗しました。"
 
 #: src/launcher/minecraft/auth/steps/XboxProfileStep.cpp:68
 msgctxt "XboxProfileStep|"
@@ -5784,10 +5787,10 @@ msgstr "Xbox のユーザー認証に失敗しました。"
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:59
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr ""
+msgstr "サーバーのXboxユーザー認証の応答を解析できませんでした。"
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
 msgid "Got Xbox user token"
-msgstr ""
+msgstr "Xboxユーザートークンを取得"
 
