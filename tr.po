@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2025-05-18 20:38\n"
+"PO-Revision-Date: 2025-05-18 21:40\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -553,7 +553,7 @@ msgstr "Hiçbir sürüm şu an mevcut değil"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:165
 msgctxt "AtlPage|"
 msgid "Couldn't load or download the version lists!"
-msgstr "Sürüm listeleri yüklenemedi veya indirilemedi!"
+msgstr "Sürüm listesi yüklenemedi veya indirilemedi!"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:194
 msgctxt "AtlPage|"
@@ -2971,7 +2971,7 @@ msgstr "Hata"
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
-msgstr "Güncelleme indirmeleri için dosya yaratılamadı:\n"
+msgstr "Güncelleme indirmeleri için dosya oluşturulamadı:\n"
 "%1"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:69
@@ -3178,7 +3178,7 @@ msgstr "Minecraft Java profili edinildi."
 #: src/launcher/minecraft/MinecraftUpdate.cpp:54
 msgctxt "MinecraftUpdate|"
 msgid "Failed to load version components - mmc-pack.json is probably corrupted."
-msgstr "Versiyon bileşenleri yüklenemedi - mmc-pack.json dosyası bozuk olabilir."
+msgstr "Sürüm bileşenleri yüklenemedi - mmc-pack.json dosyası bozuk olabilir."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:91
 msgctxt "MinecraftUpdate|"
@@ -4892,7 +4892,7 @@ msgstr "Yeni güncelleme var!"
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:20
 msgctxt "UpdateDialog|"
 msgid "No updates found. You are running the latest version."
-msgstr "Güncelleme bulunamamıştır. En son versiyonu çalıştırıyorsunuz."
+msgstr "Güncelleme bulunamadı. En son sürümü çalıştırıyorsunuz."
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:22
 msgctxt "UpdateDialog|"
@@ -4958,22 +4958,22 @@ msgstr "Vanilla"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 24w14a and above require the use of Java 21"
-msgstr "Minecraft 24w14a ve üzeri versiyonlar Java 21 gerektirir"
+msgstr "Minecraft 24w14a ve üzeri sürümler Java 21 gerektirir"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr "Minecraft 1.18 Pre Release 2 ve üzeri versiyonlar Java 17 gerektirir"
+msgstr "Minecraft 1.18 Pre Release 2 ve üzeri sürümler Java 17 gerektirir"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr "Minecraft 21w19a ve üzeri versiyonlar Java 16 gerektirir"
+msgstr "Minecraft 21w19a ve üzeri sürümler Java 16 gerektirir"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a and above require the use of Java 8"
-msgstr "Minecraft 17w13a ve üzeri versiyonlar Java 8 gerektirir"
+msgstr "Minecraft 17w13a ve üzeri sürümler Java 8 gerektirir"
 
 #: src/launcher/ui/widgets/VersionListView.cpp:26
 msgctxt "VersionListView|"
@@ -5093,12 +5093,12 @@ msgstr "Quilt Loader paketini yükleyin."
 #: src/launcher/ui/pages/instance/VersionPage.ui:207
 msgctxt "VersionPage|"
 msgid "Install LiteLoader"
-msgstr "LiteLoader Kur"
+msgstr "LiteLoader yükleyin"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:210
 msgctxt "VersionPage|"
 msgid "Install the LiteLoader package."
-msgstr "LiteLoader paketini kur."
+msgstr "LiteLoader paketini yükleyin."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:215
 msgctxt "VersionPage|"
@@ -5278,17 +5278,17 @@ msgstr "En az bir hesap ekli olmadıkça MultiMC, Minecraft'ı indiremez veya pr
 #: src/launcher/ui/pages/instance/VersionPage.cpp:440
 msgctxt "VersionPage|"
 msgid "Select Forge version"
-msgstr "Forge sürümünü seç"
+msgstr "Bir Forge sürümü seçin"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:442
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
-msgstr "Şu anda Minecraft için hiçbir mevcut Forge sürümü yok"
+msgstr "Bu Minecraft sürümü için bir Forge sürümü mevcut değil: "
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:443
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
-msgstr "Forge sürüm listesi yüklenemedi ya da indirilemedi!"
+msgstr "Forge sürüm listesi yüklenemedi veya indirilemedi!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:469
 msgctxt "VersionPage|"
@@ -5298,7 +5298,7 @@ msgstr "Bir NeoForge sürümü seçin"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:471
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
-msgstr "Şu anda Minecraft için hiçbir NeoForge sürümü mevcut değil "
+msgstr "Bu Minecraft sürümü için bir NeoForge sürümü mevcut değil: "
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:472
 msgctxt "VersionPage|"
@@ -5308,22 +5308,22 @@ msgstr "NeoForge sürüm listesi yüklenemedi veya indirilemedi!"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:498
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
-msgstr "Fabric Loader sürümü seç"
+msgstr "Bir Fabric Loader sürümü seçin"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:499
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
-msgstr "Şu anda hiçbir mevcut Fabric Loader sürümü yok."
+msgstr "Şu anda hiçbir Fabric Loader sürümü mevcut değil."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:500
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
-msgstr "Fabric Loader sürüm listesi yüklenemedi ya da indirilemedi!"
+msgstr "Fabric Loader sürüm listesi yüklenemedi veya indirilemedi!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:525
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
-msgstr "Quilt Loader sürümünü seç"
+msgstr "Bir Quilt Loader sürümü seçin"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
@@ -5333,22 +5333,22 @@ msgstr "Şu an Quilt Loader sürümü mevcut değil."
 #: src/launcher/ui/pages/instance/VersionPage.cpp:527
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
-msgstr "Quilt Loader sürüm listesi yüklenilemiyor veya indirilemiyor."
+msgstr "Quilt Loader sürüm listesi yüklenemedi veya indirilemedi!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:570
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
-msgstr "LiteLoader sürümü seç"
+msgstr "Bir LiteLoader sürümü seçin"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:572
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
-msgstr "Bu Minecraft sürümü için LiteLoader sürümü yok "
+msgstr "Bu Minecraft sürümü için bir LiteLoader sürümü mevcut değil: "
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:573
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
-msgstr "LiteLoader sürüm listesi yüklenemedi ya da indirilemedi!"
+msgstr "LiteLoader sürüm listesi yüklenemedi veya indirilemedi!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:629
 msgctxt "VersionPage|"
@@ -5739,7 +5739,7 @@ msgstr "Bu Microsoft hesabı bir XBox Live profili içermiyor. İlk önce %1 üs
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:145
 msgctxt "XboxAuthorizationStep|"
 msgid "This account has not accepted the XBox Terms of Service. Please log in online and accept them."
-msgstr ""
+msgstr "XBox Kullanım Koşulları bu hesapta onaylanmamış. Lütfen giriş yapıp onaylayın."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:153
 msgctxt "XboxAuthorizationStep|"
@@ -5750,12 +5750,12 @@ msgstr "XBox Live ülkenizde mevcut değil. Engellendiniz."
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account requires proof of age to play. Please login to %1 to provide proof of age."
-msgstr ""
+msgstr "Bu Microsoft hesabı ile oynayabilmek için yaş doğrulaması gerekiyor. Lütfen %1 hesabına giriş yapın ve yaş bilginizi girin."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:168
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account has reached its playtime limit and has been blocked from logging in."
-msgstr ""
+msgstr "Bu Microsoft hesabı ile oyun süresi sınırına ulaşıldı ve oturum açılması engellendi."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:175
 #, qt-format
