@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2026-08-25 17:39\n"
+"PO-Revision-Date: 2026-08-25 18:57\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -732,7 +732,7 @@ msgstr "Paketoijakomento:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Käynnistystä edeltävä komento ajetaan ennen peliversion käynnistämistä ja sulkemista seuraava komento ajetaan peliversion sulkeuduttua.</p><p>Molemmat ajetaan MultiMC: n toimintokansiossa erityisillä ympäristömuuttujilla:</p><ul><li>$INST_NAME - Peliversion nimi</li><li>$INST_ID - Peliversion tunniste (kansion nimi)</li><li>$INST_DIR - Peliversion kokonainen hakemistopolku</li><li>$INST_MC_DIR - Minecraftin kokonainen hakemistopolku</li><li>$INST_JAVA - Käynnistyksessä käytettävä Java-asennus</li><li>$INST_JAVA_ARGS - Käynnistyksessä käytettävät komentoriviargumentit</li></ul><p>Paketoijakomento mahdollistaa käynnistämisen käyttäen erityistä paketoijaohjelmaa (kuten 'optirun' Linuxilla)</p></body></html>"
+msgstr "<html><head/><body><p>Käynnistystä edeltävä komento ajetaan ennen pelipaketin käynnistämistä ja sulkemista seuraava komento ajetaan pelipaketin sulkeuduttua.</p><p>Molemmat ajetaan käynnistyssovelluksen työhakemistossa erityisillä ympäristömuuttujilla:</p><ul><li>$INST_NAME - pelipaketin nimi</li><li>$INST_ID - pelipaketin tunniste (kansion nimi)</li><li>$INST_DIR - pelipaketin koko hakemistopolku</li><li>$INST_MC_DIR - Minecraftin koko hakemistopolku</li><li>$INST_JAVA - käynnistyksessä käytettävä Java-ohjelmisto</li><li>$INST_JAVA_ARGS - käynnistyksessä käytettävät komentorivimuuttujat</li></ul><p>Paketoijakomento mahdollistaa käynnistämisen käyttäen erityistä paketoijaohjelmaa (kuten 'optirun' Linuxilla)</p></body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -1813,7 +1813,7 @@ msgstr "Ei voitu ladata pelipaketin profiilia."
 #: src/launcher/LaunchController.cpp:298
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
-msgstr "Ei voitu luoda käynnistimen ilmentymää."
+msgstr "Käynnistyssovelluksen ilmentymää ei saatu luotua."
 
 #: src/launcher/LaunchController.cpp:362
 #, qt-format
@@ -5756,7 +5756,7 @@ msgstr "Tämä Microsoft-käyttäjätili vaatii iän todistamisen, jotta sillä 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:168
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account has reached its playtime limit and has been blocked from logging in."
-msgstr ""
+msgstr "Tämän Microsoft-käyttäjätilin peliaikaraja on täyttynyt ja kirjautuminen on estetty."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:175
 #, qt-format
