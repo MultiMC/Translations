@@ -13,42 +13,42 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2025-04-25 14:47\n"
+"PO-Revision-Date: 2026-03-22 15:56\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Nem sikerült megérteni a csomag manifesztet:\n"
+msgstr "Nem sikerült értelmezni a csomag leírófájlját:\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:107
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:188
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr "Nem sikerült betölteni helyi metadata indexét %1-hez/hoz"
+msgstr "Nem sikerült lekérni a helyi metaadat-indexet a(z) %1-hez/hoz"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:113
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "Nem sikerült betölteni helyi metdatát az index '%1' v%2"
+msgstr "Nem sikerült lekérni a helyi metaadat-indexet a(z) '%1' v%2-hez/hoz"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:175
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown mod type: %1"
-msgstr "Ismeretlen mod típús: %1"
+msgstr "Ismeretlen mod típus: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:220
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr "Nem sikerült verziót találni a %1 loaderhez"
+msgstr "Nem sikerült megtalálni a verziót a(z) %1 modbetöltőhöz"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:234
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "Nincs mod töltő verzió beállítva ehhez a modpackhez!"
+msgstr "A modcsomaghoz nincs beállítva modbetöltő verzió!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:338
 #, qt-format
@@ -75,7 +75,7 @@ msgstr "Konfigurációk kicsomagolása..."
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to open pack configs %1!"
-msgstr "A(z) %1 csomag konfigurációk megnyitása sikertelen!"
+msgstr "Nem sikerült megnyitni a csomag konfigurációit: %1!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:533
 msgctxt "ATLauncher::PackInstallTask|"
@@ -102,7 +102,7 @@ msgstr "Nem támogatott letöltési típus: %1"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown download type: %1"
-msgstr "Ismeretlen letöltési típús: %1"
+msgstr "Ismeretlen letöltési típus: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:674
 msgctxt "ATLauncher::PackInstallTask|"
@@ -117,17 +117,17 @@ msgstr "Modok kicsomagolása..."
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:758
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Modpack telepítése"
+msgstr "Modcsomag telepítése"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:772
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
-msgstr "Nem sikerült létrehozni könyvtár összetevőt"
+msgstr "Nem sikerült létrehozni a könyvtárak komponenst"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:796
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr "Ismeretlen betöltő típus: "
+msgstr "Ismeretlen modbetöltő típus: "
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:810
 msgctxt "ATLauncher::PackInstallTask|"
@@ -142,7 +142,7 @@ msgstr "Névjegy"
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>Egy egyéni launcher ami könnyebbé teszi a minecraft kezelését úgy, hogy különböző minecraft típúsokat, verziókat tárolhatsz egyszerre.</p></body></html>"
+msgstr "<html><head/><body><p>Egy egyedi indító, amely megkönnyíti a Minecraft kezelését, mivel egyszerre több Minecraft példányt is használhatsz.</p></body></html>"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
@@ -177,7 +177,7 @@ msgstr "Licensz"
 #: src/launcher/ui/dialogs/AboutDialog.ui:256
 msgctxt "AboutDialog|"
 msgid "Forking/Redistribution"
-msgstr "Fork-olás/Újraelosztás"
+msgstr "Forkolás / Újraelosztás"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:278
 msgctxt "AboutDialog|"
@@ -290,7 +290,7 @@ msgstr "Fiók / Profil Neve Ide"
 #: src/launcher/ui/dialogs/AccountsDialog.ui:880
 msgctxt "AccountsDialog|"
 msgid "Refresh Account"
-msgstr "Fiók Újratöltése"
+msgstr "Fiók frissítése"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:145
 #: src/launcher/ui/dialogs/AccountsDialog.ui:580
@@ -356,8 +356,8 @@ msgstr "Fiók Neve Ide"
 msgctxt "AccountsDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr "Már csak egy lépést kell megtenned, hogy játszhass Mnecraft-ot ezzel a profillal.\n\n"
-"Gondosan válassza meg a nevét:"
+msgstr "Még egy lépésre van szükséged ahhoz, hogy ezzel a fiókkal játszhass a Minecrafttal.\n\n"
+"Gondosan válaszd ki a neved:"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:657
 msgctxt "AccountsDialog|"
@@ -367,7 +367,7 @@ msgstr "Profil létrehozása"
 #: src/launcher/ui/dialogs/AccountsDialog.ui:779
 msgctxt "AccountsDialog|"
 msgid "This account's authentication tokens have expired and it needs to be signed in into again."
-msgstr "E profil hitelesítési tokenjei érvénytelenné váltak, ezért újjboli bejelentkezés szükséges."
+msgstr "Ennek a fióknak az azonosító tokenjei lejártak, újra be kell jelentkezni."
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:792
 msgctxt "AccountsDialog|"
@@ -377,7 +377,7 @@ msgstr "Eltávolítás és újboli bejelentkezés"
 #: src/launcher/ui/dialogs/AccountsDialog.ui:921
 msgctxt "AccountsDialog|"
 msgid "This account doesn't own Minecraft yet. Without purchasing the game, you can only play the demo."
-msgstr "Mivel ez a profil nem tulajdonolja a Minecraftot, csak a demo játszható."
+msgstr "Ez a fiók még nem rendelkezik Minecraft-licenccel. A játék megvásárlása nélkül csak a demót tudod játszani."
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:934
 msgctxt "AccountsDialog|"
@@ -387,34 +387,34 @@ msgstr "Minecraft beszerzése"
 #: src/launcher/ui/dialogs/AccountsDialog.cpp:52
 msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
-msgstr "Minecraft profilok"
+msgstr "Minecraft Fiókok"
 
 #: src/launcher/ui/dialogs/AccountsDialog.cpp:203
 msgctxt "AccountsDialog|"
 msgid "Failed to apply skin"
-msgstr "Megjelenés beállítása sikertelen"
+msgstr "A kinézet beállítása sikertelen volt"
 
 #: src/launcher/ui/dialogs/AccountsDialog.cpp:581
 msgctxt "AccountsDialog|"
 msgid "You can scan the QR code and complete the login process on a separate device, or you can open the link and login on this machine."
-msgstr "A QR-kód beszkennelésével egy másik ezközön tudja befejezni a bejelentkezést."
+msgstr "Beolvashatod a QR-kódot, és egy másik eszközön fejezheted be a bejelentkezést, vagy megnyithatod a linket, és ezen a gépen jelentkezhetsz be."
 
 #: src/launcher/ui/dialogs/AccountsDialog.cpp:708
 msgctxt "AccountsDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
-msgstr "A név túl rövid - 3 és 16 karakter között kell lennie."
+msgstr "A név túl rövid. A névnek 3 és 16 karakter hosszúnak kell lennie."
 
 #: src/launcher/ui/dialogs/AccountsDialog.cpp:767
 #, qt-format
 msgctxt "AccountsDialog|"
 msgid "Minecraft profile with name %1 already exists."
-msgstr "Egy Minecraft profil már létezik \"%1\" névvel."
+msgstr "Egy Minecraft profil már létezik a %1 névvel."
 
 #: src/launcher/ui/dialogs/AccountsDialog.cpp:770
 #, qt-format
 msgctxt "AccountsDialog|"
 msgid "The name %1 is not allowed."
-msgstr "A név \"%1\" nem megengedett."
+msgstr "A %1 név nem megengedett."
 
 #: src/launcher/ui/dialogs/AccountsDialog.cpp:773
 #, qt-format
@@ -589,7 +589,7 @@ msgstr "Semmi"
 #, qt-format
 msgctxt "ClaimAccount|"
 msgid "Failed to claim account by profile: %1 was not found."
-msgstr ""
+msgstr "Nem sikerült a fiók hozzárendelése: a(z) %1 profil nem található."
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:270
 msgctxt "ComponentUpdateTask|"
@@ -732,7 +732,19 @@ msgstr "Wrapper parancs:"
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
 msgid "<html><head/><body><p>Pre-launch command runs before the instance launches and post-exit command runs after it exits.</p><p>Both will be run in the launcher's working folder with extra environment variables:</p><ul><li>$INST_NAME - Name of the instance</li><li>$INST_ID - ID of the instance (its folder name)</li><li>$INST_DIR - absolute path of the instance</li><li>$INST_MC_DIR - absolute path of minecraft</li><li>$INST_JAVA - java binary used for launch</li><li>$INST_JAVA_ARGS - command-line parameters used for launch</li></ul><p>Wrapper command allows launching using an extra wrapper program (like 'optirun' on Linux)</p></body></html>"
-msgstr "<html><head/><body><p>Az indítás előtti parancs a példány futása előtt a kilépés utáni parancs a példány kilépése után fut le</p><p>Mindkért parancs az indító könyvtárában fut le kiegészítő környezeti változókkal</p><ul><li>$INST_NAME - Példány neve</li><li>$INST_ID - Példány azonosítója (példány könyvtárának neve)</li><li>$INST_DIR - példány abszolút elérési útvonala</li><li>$INST_MC_DIR - Minecraft abszolút elérési útvonala</li><li>$INST_JAVA - Indításhoz használt Java bináris állomány</li><li>$INST_JAVA_ARGS - Indításhoz használt parancssori paraméterek</li></ul><p>Awrapper parancs lehetővé teszi további wrapper programok (pl. 'optirun' Linuxon) használatát</p></body></html>"
+msgstr "<html><head/><body>\n"
+"<p>Az előindítási parancs a játékpéldány elindítása előtt fut le, a kilépés utáni parancs pedig az instance bezárása után.</p>\n"
+"<p>Mindkettő az indító munkakönyvtárában fut le, kiegészítő környezeti változókkal:</p>\n"
+"<ul>\n"
+"<li>$INST_NAME – A játékpéldány neve</li>\n"
+"<li>$INST_ID – A játékpéldány azonosítója (a mappa neve)</li>\n"
+"<li>$INST_DIR – A játékpéldány teljes elérési útja</li>\n"
+"<li>$INST_MC_DIR – A Minecraft teljes elérési útja</li>\n"
+"<li>$INST_JAVA – A Java bináris fájl, amit az indításhoz használ</li>\n"
+"<li>$INST_JAVA_ARGS – Az indításhoz használt parancssori paraméterek</li>\n"
+"</ul>\n"
+"<p>A Wrapper parancs lehetővé teszi az indítást egy extra wrapper programmal (például 'optirun' Linuxon).</p>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
@@ -781,7 +793,7 @@ msgstr "%1 exportálása"
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:393
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
-msgstr "Felülírja?"
+msgstr "Felülírod?"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:394
 msgctxt "ExportInstanceDialog|"
@@ -1012,12 +1024,12 @@ msgstr "Nem definiált"
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr "Skin beszerzése."
+msgstr "Kinézet beszerzése."
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:38
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr "Skin beszerezve"
+msgstr "Kinézet beszerezve"
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
@@ -1116,7 +1128,7 @@ msgstr "Helyi fájl vagy link közvetlen letöltésre:"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
-msgstr "Modpack választása"
+msgstr "Modcsomag választása"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
@@ -1131,7 +1143,7 @@ msgstr "Importálás zipből"
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1176,28 +1188,28 @@ msgstr "Modpack letöltése:\n"
 #: src/launcher/InstanceImportTask.cpp:61
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr "Modpack letöltés"
+msgstr "Modcsomag letöltés"
 
 #: src/launcher/InstanceImportTask.cpp:91
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr "Modpack kicsomagolása"
+msgstr "Modcsomag kicsomagolása"
 
 #: src/launcher/InstanceImportTask.cpp:99
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr "Nem lehet megnyitni a mellékelt modulcsomagfájlt."
+msgstr "A mellékelt modcsomag fájl nem nyitható meg."
 
 #: src/launcher/InstanceImportTask.cpp:132
 #: src/launcher/InstanceImportTask.cpp:196
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
-msgstr "Az archívum nem tartalmaz felismert modulcsomagot."
+msgstr "Az archívum nem tartalmaz felismert modcsomagot."
 
 #: src/launcher/InstanceImportTask.cpp:148
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr "Nem sikerült kicsomagolni a modpackot"
+msgstr "Nem sikerült kicsomagolni a modcsomagot"
 
 #: src/launcher/InstanceImportTask.cpp:175
 #, qt-format
@@ -1276,7 +1288,7 @@ msgstr "Java &telepítés"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
 msgid "Auto-detect..."
-msgstr "Auto felismerés..."
+msgstr "Automatikus felismerés..."
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:77
 msgctxt "InstanceSettingsPage|"
@@ -1564,12 +1576,12 @@ msgstr "Java útvonal:"
 #: src/launcher/ui/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
 msgid "JVM arguments:"
-msgstr "JVM argumentumok:"
+msgstr "JVM paraméterek:"
 
 #: src/launcher/ui/pages/global/JavaPage.ui:208
 msgctxt "JavaPage|"
 msgid "Auto-detect..."
-msgstr "Auto felismerés..."
+msgstr "Automatikus felismerés..."
 
 #: src/launcher/ui/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
@@ -1584,12 +1596,12 @@ msgstr "Java"
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
-msgstr "Java verzió választása"
+msgstr "Java verzió kiválasztása"
 
 #: src/launcher/ui/pages/global/JavaPage.cpp:120
 msgctxt "JavaPage|"
 msgid "Find Java executable"
-msgstr "Java futtatható keresése"
+msgstr "Java keresése"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -1603,15 +1615,15 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "%1 will not be able to start Minecraft.\n"
 "Do you wish to proceed without any Java?\n\n"
 "You can change the Java version in the settings later.\n"
-msgstr "Nem választottál Java verziót, vagy olyat választottál, ami nem működik\n"
-"%1 nem tudja elindítani a Minecraft-ot.\n"
-"Szeretnéd folytatni Java nélkül?\n\n"
-"A továbbiakban meg tudod változtatni a Java verziót a beállításokban.\n"
+msgstr "Nem választottál Java-verziót, vagy olyat választottál, ami nem működik.\n"
+"A(z) %1 nem fogja tudni elindítani a Minecraftot.\n"
+"Szeretnél Java nélkül folytatni?\n\n"
+"Később a beállításokban megváltoztathatod a Java-verziót.\n"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
 msgctxt "JavaSettingsWidget|"
 msgid "Find Java executable"
-msgstr "Java futtatható keresése"
+msgstr "Java keresése"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:425
 msgctxt "JavaSettingsWidget|"
@@ -1657,8 +1669,8 @@ msgstr "Java"
 msgctxt "JavaWizardPage|"
 msgid "You do not have a working Java set up yet or it went missing.\n"
 "Please select one of the following or browse for a java executable."
-msgstr "Még nincs működő Java beállítása, vagy eltűnt.\n"
-"Kérjük, válasszon egyet a következők közül, vagy keressen egy java futtatható fájlt."
+msgstr "Még nincs beállítva működő Java, vagy eltűnt a rendszerből.\n"
+"Kérjük, válassz az alábbiak közül, vagy tallózd ki a Java futtatható fájlt."
 
 #: src/launcher/ui/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
@@ -1669,7 +1681,7 @@ msgstr "Nyelv"
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr "Nem látod a nyelved vagy gyenge minőségű?<br/><a href=\"%1\">Segíts nekünk fordítani!</a>"
+msgstr "Nem találod a nyelved, vagy gyenge a minőség?<br/><a href=\"%1\">Segíts a fordításokban!</a>"
 
 #: src/launcher/ui/setupwizard/LanguageWizardPage.cpp:46
 msgctxt "LanguageWizardPage|"
@@ -1680,7 +1692,7 @@ msgstr "Nyelv"
 #, qt-format
 msgctxt "LanguageWizardPage|"
 msgid "Select the language to use in %1"
-msgstr "Válaszd ki a nyelvet a használathoz a következőben: %1"
+msgstr "Válaszd ki a %1-ben használandó nyelvet"
 
 #: src/launcher/LaunchController.cpp:36
 msgctxt "LaunchController|"
@@ -1690,7 +1702,7 @@ msgstr "Nincs megadva példány!"
 #: src/launcher/LaunchController.cpp:41
 msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
-msgstr "Érvénytelen Java argumentumok lettek megadva. Kérjük, először ezt javítsa ki."
+msgstr "Érvénytelen Java paraméterek lettek megadva. Kérjük, először ezt javítsd ki."
 
 #: src/launcher/LaunchController.cpp:61
 msgctxt "LaunchController|"
@@ -1715,19 +1727,21 @@ msgstr "Nincs kiválasztott fiók az indításhoz."
 #: src/launcher/LaunchController.cpp:165
 msgctxt "LaunchController|"
 msgid "Account doesn't have a Minecraft profile"
-msgstr ""
+msgstr "A fióknak nincs Minecraft profilja"
 
 #: src/launcher/LaunchController.cpp:166
 msgctxt "LaunchController|"
 msgid "The account doesn't have a Minecraft profile yet.\n"
 "You need to create a profile first to play.\n\n"
 "Do you want to open the Accounts dialog?"
-msgstr ""
+msgstr "Ehhez a fiókhoz még nincs Minecraft profil.\n"
+"A játékhoz előbb létre kell hoznod egyet.\n\n"
+"Megnyitod a Fiókok ablakot?"
 
 #: src/launcher/LaunchController.cpp:168
 msgctxt "LaunchController|"
 msgid "Open Accounts"
-msgstr ""
+msgstr "Fiókok megnyitása"
 
 #: src/launcher/LaunchController.cpp:169 src/launcher/LaunchController.cpp:195
 msgctxt "LaunchController|"
@@ -1761,12 +1775,12 @@ msgstr "Demóverzió indítása"
 #: src/launcher/LaunchController.cpp:221
 msgctxt "LaunchController|"
 msgid "Play Offline"
-msgstr "Játszás offline"
+msgstr "Játék offline"
 
 #: src/launcher/LaunchController.cpp:234
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually. Press OK to open the accounts window."
-msgstr ""
+msgstr "A fiók lejárt, és manuálisan kell bejelentkezni. Nyomj OK-t a fiókok ablak megnyitásához."
 
 #: src/launcher/LaunchController.cpp:237
 msgctxt "LaunchController|"
@@ -1791,12 +1805,12 @@ msgstr "A fiókot át kell helyezni egy Microsoft-fiókra."
 #: src/launcher/LaunchController.cpp:270
 msgctxt "LaunchController|"
 msgid "Account requires migration"
-msgstr "A fiók migrációt igényel"
+msgstr "A fiók költöztetést igényel"
 
 #: src/launcher/LaunchController.cpp:280
 msgctxt "LaunchController|"
 msgid "Failed to launch."
-msgstr "Indítás sikertelen."
+msgstr "Az indítás sikertelen volt."
 
 #: src/launcher/LaunchController.cpp:290 src/launcher/LaunchController.cpp:362
 msgctxt "LaunchController|"
@@ -1824,7 +1838,7 @@ msgstr "Nem sikerült elindítani a profilert: %1"
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
-msgstr "A játék elindítása késtetve, amíg meg nem nyomja a gombot. Ez a helyes idő a profiler beállításához, mivel a profiler szerver most fut.\n\n"
+msgstr "A játék indítása késleltetve van, amíg meg nem nyomod a gombot. Ez a megfelelő idő a profiler beállítására, mivel a profiler szerver most fut.\n\n"
 "%1"
 
 #: src/launcher/LaunchController.cpp:374
@@ -1856,20 +1870,20 @@ msgstr "Megszakítás"
 #: src/launcher/LaunchController.cpp:429
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
-msgstr "Minecarft kilövése?"
+msgstr "Minecraft kilövése?"
 
 #: src/launcher/LaunchController.cpp:430
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr "Ez okozhatja a példány sérülését, és csak akkor használható fel, ha a Minecraft valamilyen okból megfagyott"
+msgstr "Ez a példány sérülését okozhatja, ezért csak akkor használd, ha valamiért a Minecraft lefagyott"
 
 #: src/launcher/launch/LaunchTask.cpp:215
 #, qt-format
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr "A MultiMC megállt a játéknapló nézésében, mert a napló hossza meghaladta a %1 sort.\n"
-"Lehet, hogy meg kell javítania a modokat, mert a játék még mindig naplózza a fájlokat, és valószínűleg riasztó sebességgel pazarolja a merevlemez-területet!"
+msgstr "A MultiMC leállította a játéknapló figyelését, mert a napló hossza meghaladta a %1 sort.\n"
+"Lehet, hogy javítanod kell a modjaidat, mert a játék továbbra is fájlokba naplóz, és valószínűleg ijesztő ütemben foglalja a merevlemezedet!"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:18
 msgctxt "LauncherLoginStep|"
@@ -1880,17 +1894,17 @@ msgstr "Mojang szolgáltatásainak elérése."
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr "Nem sikerült Minecraft hozzáférés token megszerzése: %1"
+msgstr "Nem sikerült lekérni a Minecraft hozzáférési tokent: %1"
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:70
 msgctxt "LauncherLoginStep|"
 msgid "Failed to parse the Minecraft access token response."
-msgstr "Nem sikerült értelmezni a Minecraft hozzáférés token választ."
+msgstr "Nem sikerült feldolgozni a Minecraft hozzáférési token válaszát."
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:45
 msgctxt "LauncherPage|"
 msgid "Features"
-msgstr "Jellemzők"
+msgstr "Funkciók"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
@@ -1910,7 +1924,7 @@ msgstr "Mappák"
 #: src/launcher/ui/pages/global/LauncherPage.ui:107
 msgctxt "LauncherPage|"
 msgid "&Skins:"
-msgstr ""
+msgstr "&Kinézetek:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:117
 msgctxt "LauncherPage|"
@@ -1933,12 +1947,12 @@ msgstr "&Ikonok:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:174
 msgctxt "LauncherPage|"
 msgid "Open"
-msgstr ""
+msgstr "Nyitott"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:184
 msgctxt "LauncherPage|"
 msgid "Move the data to new location (will restart the launcher)"
-msgstr "Vigye át az adatot az új helyre (az indítót újra kell indítani)"
+msgstr "Vidd át az adatot az új helyre (az indítót újra kell indítani)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:205
 msgctxt "LauncherPage|"
@@ -2043,7 +2057,7 @@ msgstr "Mutassa a konzolt amikor a játék összeomlik?"
 #: src/launcher/ui/pages/global/LauncherPage.ui:412
 msgctxt "LauncherPage|"
 msgid "History limit"
-msgstr "Történelem limit"
+msgstr "Előzmények korlátja"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:418
 msgctxt "LauncherPage|"
@@ -2073,7 +2087,7 @@ msgstr "Olyan példánymappát próbál meg megadni, amelyik legalább egy \"!\"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:105
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
-msgstr "Tényleg ezt az utat szeretné használni? A \"Nem\" kiválasztása ezt bezárja, és nem változtatja meg a példányútvonalát."
+msgstr "Tényleg ezt az utat szeretnéd használni? A \"Nem\" kiválasztása ezt bezárja, és nem változtatja meg a példányútvonalát."
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:128
 msgctxt "LauncherPage|"
@@ -2088,7 +2102,7 @@ msgstr "Modok mappája"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:160
 msgctxt "LauncherPage|"
 msgid "Skins Folder"
-msgstr ""
+msgstr "Kinézetek mappájának megnyitása"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:377
 msgctxt "LauncherPage|"
@@ -2136,17 +2150,17 @@ msgstr "Rendezés verzió szerint"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:81
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr "Nyilvános Modpack"
+msgstr "Nyilvános modcsomag"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:83
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr "Harmadik Fél Modpack"
+msgstr "Harmadik fél modcsomagja"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:85
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr "Privát modpack"
+msgstr "Privát modcsomag"
 
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
@@ -2179,18 +2193,18 @@ msgstr "%1 zip letöltése (%2%)"
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr "Modpack kicsomagolása"
+msgstr "Modcsomag kibontása"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr "A(z) %1 modpack fájl megnyitása sikertelen!"
+msgstr "Nem sikerült megnyitni a modcsomag fájlt: %1!"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Modpack telepítése"
+msgstr "Modcsomag telepítése"
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
@@ -2235,7 +2249,7 @@ msgstr "Kiválasztott verzió:"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr "FTB privát pack-ek"
+msgstr "FTB privát csomagok"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:195
 #, qt-format
@@ -2284,12 +2298,18 @@ msgstr "Példány a korábbi verziókból."
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
 msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr "<html><body><h1>Frissítésre van szükség</h1><p>A MultiMC most már támogatja a régi Minecraft verziókat és az új (OneSix) példányformátum minden szükséges funkcióját. Ennek következtében a régi (Legacy) formátum teljesen le van tiltva, és a régi példányokat frissíteni kell.</p><p>A frissítés egy új példányt hoz létre, amelynek tartalma ugyanaz, mint az aktuális formátumban, csak az új formátumban. Az eredeti példány érintetlen marad, abban az esetben, ha a folyamat során bármi baj történik.</p><p>Kérjük, jelentse be a<a href=\"https://github.com/MultiMC/Launcher/issues\"> github oldalon</a> a problémáit. </p><p>Továbbá van a <a href=\"https://discord.gg/GtPmv93\">Discord csatorna a teszteléshez </a>. </p></body></html>"
+msgstr "<html><body>\n"
+"<h1>Frissítés szükséges</h1>\n"
+"<p>A MultiMC mostantól támogatja a régi Minecraft verziókat, valamint az összes szükséges funkciót az új (OneSix) instance formátumban. Ennek következtében a régi (Legacy) formátum teljesen le van tiltva, és a régi instance-okat frissíteni kell.</p>\n"
+"<p>A frissítés létrehoz egy új instance-t ugyanazokkal a tartalmakkal, mint a jelenlegi, az új formátumban. Az eredeti instance érintetlen marad, arra az esetre, ha valami probléma merülne fel a folyamat során.</p>\n"
+"<p>Kérjük, jelezd az esetleges problémákat a <a href=\"https://github.com/MultiMC/Launcher/issues\">GitHub issues oldalon</a>.</p>\n"
+"<p>Van egy <a href=\"https://discord.gg/GtPmv93\">Discord csatorna is tesztelésre</a>.</p>\n"
+"</body></html>"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
-msgstr "Frissítse a példányt"
+msgstr "Példány frissítése"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
@@ -2356,10 +2376,10 @@ msgid "Some artifacts marked as 'local' are missing their files:\n"
 "%1\n\n"
 "You need to either add the files, or removed the packages that require them.\n"
 "You'll have to correct this problem manually."
-msgstr "Néhány „helyi” jelzésű műtárgy hiányzik a fájljairól:\n"
+msgstr "Néhány, 'helyi'-ként megjelölt fájl hiányzik:\n"
 "%1\n\n"
-"Meg kell adnia a fájlokat, vagy el kell távolítania azokat a csomagokat amiknek szüksége van rájuk.\n"
-"Ezt a problémát kézzel kell javítania."
+"Vagy hozzá kell adnod a fájlokat, vagy el kell távolítanod a hozzájuk tartozó csomagokat.\n"
+"Ezt a problémát manuálisan kell kijavítanod."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:78
 #, qt-format
@@ -2394,7 +2414,7 @@ msgstr "&Másolás"
 #: src/launcher/ui/pages/instance/LogPage.ui:103
 msgctxt "LogPage|"
 msgid "Upload the log to paste.ee - it will stay online for a month"
-msgstr "Töltsd fel a naplót a paste.ee-ra - online marad egy hónapig"
+msgstr "Töltsd fel a naplót a paste.ee oldalra – egy hónapig lesz elérhető online"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:106
 msgctxt "LogPage|"
@@ -2404,12 +2424,12 @@ msgstr "Feltöltés"
 #: src/launcher/ui/pages/instance/LogPage.ui:113
 msgctxt "LogPage|"
 msgid "Clear the log"
-msgstr "Törölje a naplót"
+msgstr "Napló törlése"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:116
 msgctxt "LogPage|"
 msgid "Clear"
-msgstr "Tisztítás"
+msgstr "Törlés"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:125
 msgctxt "LogPage|"
@@ -2468,7 +2488,7 @@ msgstr "A folyamat összeomlott %1 kilépési kóddal (0x%2)."
 #: src/launcher/LoggedProcess.cpp:95
 msgctxt "LoggedProcess|"
 msgid "Below is an analysis of the exit code. THIS MAY BE INCORRECT AND SHOULD BE TAKEN WITH A GRAIN OF SALT!"
-msgstr "Az alábbiakban a kilépési kód elemzése következik. EZ LEHET, HOGY HELYTELEN, ÉS FENNTARTÁSSAL FOGADD!"
+msgstr "Az alábbiakban az kilépési kód elemzése látható. EZ HIBÁS IS LEHET, ÉS KÉRLEK, KEZELD ÓVATOSAN!"
 
 #: src/launcher/LoggedProcess.cpp:99
 #, qt-format
@@ -2485,12 +2505,12 @@ msgstr "Rendszer kilépési kód leírása: %1"
 #: src/launcher/LoggedProcess.cpp:109
 msgctxt "LoggedProcess|"
 msgid "Please note that usually neither the exit code, nor its description are enough to diagnose issues!"
-msgstr "Kérjük, vegye figyelembe, hogy általában sem a kilépési kód, sem annak leírása nem elegendő a problémák diagnosztizálásához!"
+msgstr "Kérjük, vedd figyelembe, hogy általában sem a kilépési kód, sem annak leírása nem elegendő a problémák diagnosztizálásához!"
 
 #: src/launcher/LoggedProcess.cpp:110
 msgctxt "LoggedProcess|"
 msgid "Always upload the entire log and not just the exit code."
-msgstr "Mindig töltse fel a teljes naplót, ne csak a kilépési kódot."
+msgstr "Mindig töltsd fel a teljes naplót, ne csak a kilépési kódot."
 
 #. Message displayed after the instance exits due to kill request
 #: src/launcher/LoggedProcess.cpp:115
@@ -2581,12 +2601,12 @@ msgstr "Példánymappa megnyitása fájlkezelőben."
 #: src/launcher/ui/MainWindow.cpp:316
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
-msgstr "Közép Modok mappájának megnézése"
+msgstr "Központi modok mappa megtekintése"
 
 #: src/launcher/ui/MainWindow.cpp:317
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
-msgstr "Közép modok mappájának megnyitása fájlkezelőben."
+msgstr "Központi modok mappájának megnyitása fájlkezelőben."
 
 #: src/launcher/ui/MainWindow.cpp:322 src/launcher/ui/MainWindow.cpp:696
 msgctxt "MainWindow|"
@@ -2606,7 +2626,7 @@ msgstr "Beállítások"
 #: src/launcher/ui/MainWindow.cpp:339
 msgctxt "MainWindow|"
 msgid "Change settings."
-msgstr "Beállítások változtatása."
+msgstr "Beállítások módosítása."
 
 #: src/launcher/ui/MainWindow.cpp:350
 msgctxt "MainWindow|"
@@ -2628,7 +2648,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr "Nyissa meg a(z) %1 discord élőhangos csevegést."
+msgstr "Nyisd meg a %1 Discord hangcsatornát."
 
 #: src/launcher/ui/MainWindow.cpp:370
 msgctxt "MainWindow|"
@@ -2796,7 +2816,7 @@ msgstr "Tekintse meg ennek a példánynak a modjait."
 #: src/launcher/ui/MainWindow.cpp:562
 msgctxt "MainWindow|"
 msgid "View Worlds"
-msgstr "Világok megnézése"
+msgstr "Világok megtekintése"
 
 #: src/launcher/ui/MainWindow.cpp:563
 msgctxt "MainWindow|"
@@ -2908,7 +2928,7 @@ msgstr "Teljes játékidő: 0 mp"
 #: src/launcher/ui/MainWindow.cpp:874 src/launcher/ui/MainWindow.cpp:1183
 msgctxt "MainWindow|"
 msgid "Accounts"
-msgstr ""
+msgstr "Fiókok"
 
 #: src/launcher/ui/MainWindow.cpp:933
 msgctxt "MainWindow|"
@@ -2977,47 +2997,47 @@ msgstr "Nem sikerült mappát létrehozni a frissítések letöltéséhez:\n"
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:69
 msgctxt "MinecraftAccount|Account status"
 msgid "Unchecked"
-msgstr ""
+msgstr "Nem ellenőrzött"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:72
 msgctxt "MinecraftAccount|Account status"
 msgid "Offline"
-msgstr ""
+msgstr "Offline"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:75
 msgctxt "MinecraftAccount|Account status"
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:78
 msgctxt "MinecraftAccount|Account status"
 msgid "Working"
-msgstr ""
+msgstr "Működő"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:81
 msgctxt "MinecraftAccount|Account status"
 msgid "Errored"
-msgstr ""
+msgstr "Hiba"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:84
 msgctxt "MinecraftAccount|Account status"
 msgid "Expired"
-msgstr ""
+msgstr "Lejárt"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:87
 msgctxt "MinecraftAccount|Account status"
 msgid "Gone"
-msgstr ""
+msgstr "Eltűnt"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:90
 msgctxt "MinecraftAccount|Account status"
 msgid "Must Migrate"
-msgstr ""
+msgstr "Migrálás szükséges"
 
 #: src/launcher/minecraft/auth/MinecraftAccount.cpp:93
 msgctxt "MinecraftAccount|Account status"
 msgid "Unknown"
-msgstr ""
+msgstr "Ismeretlen"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:730
 msgctxt "MinecraftInstance|"
@@ -3042,7 +3062,7 @@ msgstr "<PROFILE ID>"
 #: src/launcher/minecraft/MinecraftInstance.cpp:808
 msgctxt "MinecraftInstance|"
 msgid "broken"
-msgstr "törött"
+msgstr "hibás"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:812
 #, qt-format
@@ -3054,25 +3074,25 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
-msgstr ", legutóbb játszott ennyit: %1"
+msgstr ", utoljára %1 órát játszottál vele"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:819
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
-msgstr ", legutóbb játszott ennyit: %1"
+msgstr ", utoljára játszva: %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:825
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
-msgstr ", összesen játszott ennyit: %1"
+msgstr ", összesen játszva: %1 óra"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:827
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr ", összesen játszva ennyi ideig: %1"
+msgstr ", összesen játszva: %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:833
 msgctxt "MinecraftInstance|"
@@ -3082,7 +3102,7 @@ msgstr ", összeomlott."
 #: src/launcher/ui/pages/global/MinecraftPage.ui:48
 msgctxt "MinecraftPage|"
 msgid "Window Size"
-msgstr "Ablak méret"
+msgstr "Ablak mérete"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:54
 msgctxt "MinecraftPage|"
@@ -3148,7 +3168,7 @@ msgstr "Minecraft"
 #, qt-format
 msgctxt "MinecraftProfileCreateStep|"
 msgid "Creating the Minecraft profile '%1'."
-msgstr ""
+msgstr "A Minecraft profil lekérése."
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:17
 msgctxt "MinecraftProfileStep|"
@@ -3178,7 +3198,7 @@ msgstr "A Minecraft Java profil beszerzése sikerült."
 #: src/launcher/minecraft/MinecraftUpdate.cpp:54
 msgctxt "MinecraftUpdate|"
 msgid "Failed to load version components - mmc-pack.json is probably corrupted."
-msgstr ""
+msgstr "Nem sikerült betölteni a verziókomponenseket – az mmc-pack.json valószínűleg sérült."
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:91
 msgctxt "MinecraftUpdate|"
@@ -3208,7 +3228,7 @@ msgstr "Verzió"
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
 msgid "Last changed"
-msgstr "Utoljára változtatva"
+msgstr "Utoljára módosítva"
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:477
 msgctxt "ModFolderModel|"
@@ -3238,7 +3258,7 @@ msgstr "Szűrés:"
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
 msgid "Actions"
-msgstr "Kiválasztás"
+msgstr "Műveletek"
 
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:96
 msgctxt "ModFolderPage|"
@@ -3330,7 +3350,7 @@ msgstr "Fájlok keresése a megtaláláshoz Modrinth-en"
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr "Modrinth pack kivétel"
+msgstr "Modrinth pack exportálás"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
@@ -3356,7 +3376,7 @@ msgstr "Sikertelen másolás a %1 kicseréléséhez"
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:254
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
-msgstr "Modpack összecsomagolása..."
+msgstr "Modcsomag összecsomagolása..."
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
 msgctxt "Modrinth::InstanceExportTask|"
@@ -3413,27 +3433,27 @@ msgstr "Tallózás..."
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:146
 msgctxt "ModrinthExportDialog|"
 msgid "Include Minecraft config"
-msgstr "Minecraft konfiguráció beletartozása"
+msgstr "Minecraft konfiguráció tartalmazása"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:156
 msgctxt "ModrinthExportDialog|"
 msgid "Include mod configs"
-msgstr "Tartalmazza a mód konfigurációját"
+msgstr "Tartalmazza a mod konfigurációkat"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:166
 msgctxt "ModrinthExportDialog|"
 msgid "Include resource packs"
-msgstr "Tartalmazza a részlet csomagokat"
+msgstr "Tartalmazza a forráscsomagokat"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:173
 msgctxt "ModrinthExportDialog|"
 msgid "Include shader packs"
-msgstr "Tartalmazza a shader csomagokat"
+msgstr "Tartalmazza a shadereket"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:180
 msgctxt "ModrinthExportDialog|"
 msgid "If enabled, all mods, shaders and resource packs that are available on Modrinth will be treated as optional on both client and server. Files that are unavailable on Modrinth will simply retain the \".disabled\" extension as Modrinth packs don't support optional overrides."
-msgstr "Engedélyezéskor a kliens és a szerver minden, a Modrinthen elérhető modot, shadert és forráscsomagot opcionálisként fog kezelni. A Modrinthen nem elérhető fájlok megtartják a „.disabled” kiterjesztést, mivel a Modrinth-csomagok nem támogatják a feltételes felülbírálást."
+msgstr "Engedélyezéskor a kliens és a szerver minden, a Modrinth-en elérhető modot, shadert és forráscsomagot opcionálisként fog kezelni. A Modrinth-en nem elérhető fájlok megtartják a „.disabled” kiterjesztést, mivel a Modrinth-csomagok nem támogatják a feltételes felülbírálást."
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:183
 msgctxt "ModrinthExportDialog|"
@@ -3645,12 +3665,12 @@ msgstr "Ismeretlen példánytípus"
 #: src/launcher/ui/dialogs/OfflineNameDialog.cpp:18
 msgctxt "OfflineNameDialog|"
 msgid "Player name"
-msgstr ""
+msgstr "Játékos név"
 
 #: src/launcher/ui/dialogs/OfflineNameDialog.cpp:24
 msgctxt "OfflineNameDialog|"
 msgid "Choose your offline mode player name."
-msgstr ""
+msgstr "Válaszd ki az offline módos játékos nevedet."
 
 #: src/launcher/ui/dialogs/OfflineNameDialog.cpp:29
 msgctxt "OfflineNameDialog|"
@@ -3926,7 +3946,7 @@ msgstr "Átugrás"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher."
-msgstr ""
+msgstr "Ez csak az indítóra vonatkozik."
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -3992,7 +4012,7 @@ msgstr "Proxy"
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
-msgstr "Assetek a követlezőhöz: %1"
+msgstr "Források a követlezőhöz: %1"
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
@@ -4396,27 +4416,27 @@ msgstr "ZIP/UNZIP API hiba %1"
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
 msgid "Is the resource pack enabled?"
-msgstr "Az erőforrás csomag engedélyezve van?"
+msgstr "A forráscsomag engedélyezve van?"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:12
 msgctxt "ResourcePackFolderModel|"
 msgid "The name of the resource pack."
-msgstr "Az erőforrás csomag neve."
+msgstr "A forráscsomag neve."
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:14
 msgctxt "ResourcePackFolderModel|"
 msgid "The version of the resource pack."
-msgstr "Az erőforrás csomag verziója."
+msgstr "A forráscsomag verziója."
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:16
 msgctxt "ResourcePackFolderModel|"
 msgid "The date and time this resource pack was last changed (or added)."
-msgstr "A dátum és az idő, amikor ez az erőforrás csomag utoljára módosult (vagy amikor hozzá lett adva)."
+msgstr "A dátum és az idő, amikor ez a forráscsomag utoljára módosult (vagy amikor hozzá lett adva)."
 
 #: src/launcher/ui/pages/instance/ResourcePackPage.h:12
 msgctxt "ResourcePackPage|"
 msgid "Resource packs"
-msgstr "Erőforrás csomagok"
+msgstr "Forráscsomagok"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:41
 msgctxt "ScreenshotsPage|"
@@ -4609,17 +4629,17 @@ msgstr "Menü"
 #: src/launcher/minecraft/auth/steps/SetCapeStep.cpp:23
 msgctxt "SetCapeStep|"
 msgid "Setting cape."
-msgstr ""
+msgstr "Köpeny beállítása."
 
 #: src/launcher/minecraft/auth/steps/SetSkinStep.cpp:39
 msgctxt "SetSkinStep|"
 msgid "Clearing skin"
-msgstr ""
+msgstr "Skin törlése"
 
 #: src/launcher/minecraft/auth/steps/SetSkinStep.cpp:43
 msgctxt "SetSkinStep|"
 msgid "Uploading skin"
-msgstr ""
+msgstr "Skin feltöltése"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:28
 msgctxt "SetupWizard|"
@@ -4650,35 +4670,34 @@ msgstr "%1 Gyors beállítás"
 #: src/launcher/ui/pages/instance/ShaderPackPage.h:12
 msgctxt "ShaderPackPage|"
 msgid "Shader packs"
-msgstr "Árnyékoló csomagok"
+msgstr "Shaderek"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:42
 #, qt-format
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Downloading modpack:\n"
 "%1"
-msgstr "Modpack letöltődik:\n"
-"%1"
+msgstr "%1 modcsomag letöltése"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:47
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Modpack download"
-msgstr "Modpack letöltés"
+msgstr "Modcsomag letöltés"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:61
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Extracting modpack"
-msgstr "Modpack kicsomagolása"
+msgstr "Modcsomag kibontása"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:69
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Unable to open supplied modpack zip file."
-msgstr "Nem lehet megnyitni a mellékelt modulcsomagfájlt."
+msgstr "Nem lehet megnyitni a mellékelt modcsomag zip fájlját."
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:97
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Failed to extract modpack"
-msgstr "Nem sikerült kicsomagolni a modpackot"
+msgstr "Nem sikerült kicsomagolni a modcsomagot"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:124
 #, qt-format
@@ -4695,28 +4714,28 @@ msgstr "A példány importálása megszakadt."
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:51
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Resolving modpack files"
-msgstr "Modpack fájlok megoldása"
+msgstr "Modcsomag fájljainak feloldása"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:63
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:87
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Downloading modpack"
-msgstr "Modpack letöltődik"
+msgstr "Modcsomag letöltése"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:79
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Nem sikerült megérteni a csomag manifesztet:\n"
+msgstr "Nem sikerült megérteni a csomag leírófájljait:\n"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:115
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Extracting modpack"
-msgstr "Modpack kicsomagolása"
+msgstr "Modcsomag kibontása"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:156
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Failed to extract modpack"
-msgstr "Nem sikerült kicsomagolni a modpackot"
+msgstr "Nem sikerült kibontani a modcsomagot"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:183
 #, qt-format
@@ -4748,7 +4767,7 @@ msgstr "Nem sikerült \"version.json\" fájl megnyitása!"
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:93
 msgctxt "Technic::TechnicPackProcessor|"
 msgid "Could not find \"version.json\" inside \"bin/modpack.jar\", but minecraft version is unknown"
-msgstr "Nem sikerült \"version.json\" találása \"bin/modpack.jar\" fájlban, de minecraft verziója ismeretlen"
+msgstr "Nem sikerült \"version.json\" találása \"bin/modpack.jar\" fájlban, de Minecraft ismeretlen"
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:107
 msgctxt "Technic::TechnicPackProcessor|"
@@ -4805,17 +4824,17 @@ msgstr "Technic"
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
 msgid "Is the texture pack enabled?"
-msgstr "Az textúra csomag engedélyezve van?"
+msgstr "A textúracsomag engedélyezve van?"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:12
 msgctxt "TexturePackFolderModel|"
 msgid "The name of the texture pack."
-msgstr "Az textúra csomag neve."
+msgstr "A textúracsomag csomag neve."
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:14
 msgctxt "TexturePackFolderModel|"
 msgid "The version of the texture pack."
-msgstr "Az textúra csomag verziója."
+msgstr "A textúracsomag verziója."
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:16
 msgctxt "TexturePackFolderModel|"
@@ -4959,7 +4978,7 @@ msgstr "Vanilla"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 24w14a and above require the use of Java 21"
-msgstr ""
+msgstr "A Minecraft 24w14a és újabb verzióihoz Java 21 használata szükséges"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
@@ -5144,12 +5163,12 @@ msgstr "Újratöltés"
 #: src/launcher/ui/pages/instance/VersionPage.ui:247
 msgctxt "VersionPage|"
 msgid "Reload all packages."
-msgstr "Az összes csomag újratöltése."
+msgstr "Összes csomag újratöltése."
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:252
 msgctxt "VersionPage|"
 msgid "Download All"
-msgstr "Mind letöltése"
+msgstr "Összes letöltése"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:255
 msgctxt "VersionPage|"
@@ -5159,7 +5178,7 @@ msgstr "Töltse le a példány indításához szükséges fájlokat most."
 #: src/launcher/ui/pages/instance/VersionPage.ui:260
 msgctxt "VersionPage|"
 msgid "Open .minecraft"
-msgstr ".minecraft megnyitása"
+msgstr ".minecraft mappa megnyitása"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:263
 msgctxt "VersionPage|"
@@ -5179,12 +5198,12 @@ msgstr "Példány helyi könyvtárának megnyitása."
 #: src/launcher/ui/pages/instance/VersionPage.ui:276
 msgctxt "VersionPage|"
 msgid "Install NeoForge"
-msgstr ""
+msgstr "NeoForge Telepítése"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:279
 msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
-msgstr ""
+msgstr "Telepítsd a NeoForge csomagot."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:156
 msgctxt "VersionPage|"
@@ -5294,17 +5313,17 @@ msgstr "Nem sikerült betölteni vagy letölteni a Forge verziólistákat!"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:469
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
-msgstr ""
+msgstr "Válassz NeoForge verziót"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:471
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
-msgstr ""
+msgstr "Jelenleg nincs elérhető NeoForge a Minecrafthoz "
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:472
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
-msgstr ""
+msgstr "A NeoForge verziólisták betöltése vagy letöltése sikertelen!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:498
 msgctxt "VersionPage|"
@@ -5324,7 +5343,7 @@ msgstr "Nem lehet betölteni vagy letölteni a Fabric Loader verziólistákat!"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:525
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
-msgstr "Válassza ki a Quilt verziót"
+msgstr "Válaszd ki a Quilt verziótját"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
@@ -5693,13 +5712,13 @@ msgstr "Nem sikerült jogosultságot szerezni a %1 szolgáltatásokhoz. Hiba %2.
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Could not parse authorization response for access to %1 services."
-msgstr "Could not parse authorization response for access to %1 services."
+msgstr "Nem sikerült feldolgozni az engedélyezési választ a(z) %1 szolgáltatásokhoz való hozzáféréshez."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:81
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Server has changed %1 authorization user hash in the reply. Something is wrong."
-msgstr "Server has changed %1 authorization user hash in the reply. Something is wrong."
+msgstr "A szerver megváltoztatta a(z) %1 engedélyezési felhasználói hash-t a válaszban. Valami nincs rendben."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:88
 #, qt-format
@@ -5711,7 +5730,7 @@ msgstr "Engedélyt kapott a %1 eléréséhez"
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "Cannot parse %1 authorization error response as JSON: %2"
-msgstr "Cannot parse %1 authorization error response as JSON: %2"
+msgstr "Nem sikerült feldolgozni a(z) %1 engedélyezési hibaválaszt JSON-ként: %2"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:114
 #, qt-format
@@ -5723,12 +5742,13 @@ msgstr "Az XErr elem hiányzik a %1 engedélyezési hibaválaszból."
 msgctxt "XboxAuthorizationStep|"
 msgid "Your XBox Live account has been banned by Microsoft for violating the XBox Community Standards.\n"
 "This may happen if your account was shared or resold."
-msgstr ""
+msgstr "Az Xbox Live fiókodat a Microsoft tiltotta az Xbox közösségi szabályainak megsértése miatt.\n"
+"Ez megtörténhet, ha a fiókodat megosztották vagy eladták."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:130
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is linked to a family and your parent or guardian has not given you permission to play online."
-msgstr ""
+msgstr "Ez a Microsoft-fiók egy családhoz van kötve, és a szülőd vagy gondviselőd még nem adott engedélyt az online játékhoz."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:137
 #, qt-format
@@ -5739,23 +5759,23 @@ msgstr "Ez a Microsoft-fiók nem rendelkezik XBox Live profillal. Először vás
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:145
 msgctxt "XboxAuthorizationStep|"
 msgid "This account has not accepted the XBox Terms of Service. Please log in online and accept them."
-msgstr ""
+msgstr "Ez a fiók nem fogadta el az Xbox Felhasználási feltételeit. Kérjük, jelentkezz be online, és fogadd el őket."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:153
 msgctxt "XboxAuthorizationStep|"
 msgid "XBox Live is not available in your country. You've been blocked."
-msgstr "Az XBox Live nem érhető el az Ön országában. Letiltották."
+msgstr "Az Xbox Live nem érhető el az Ön országában. Letiltottak téged."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:160
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account requires proof of age to play. Please login to %1 to provide proof of age."
-msgstr ""
+msgstr "Ez a Microsoft-fiók életkorigazolást igényel a játékhoz. Jelentkezz be a(z) %1 oldalon, és erősítsd meg az életkorodat."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:168
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account has reached its playtime limit and has been blocked from logging in."
-msgstr ""
+msgstr "A Microsoft-fiók elérte a játékidőkorlátot, a bejelentkezés letiltva."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:175
 #, qt-format
@@ -5796,12 +5816,12 @@ msgstr "Bejelentkezés Xbox felhasználóként."
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:52
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication failed."
-msgstr "Az XBox felhasználó hitelesítése nem sikerült."
+msgstr "Az Xbox felhasználó hitelesítése nem sikerült."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:59
 msgctxt "XboxUserStep|"
 msgid "XBox user authentication response could not be understood."
-msgstr "Az XBox felhasználói hitelesítési válasza nem értelmezhető."
+msgstr "Az Xbox felhasználói hitelesítési válasza nem értelmezhető."
 
 #: src/launcher/minecraft/auth/steps/XboxUserStep.cpp:63
 msgctxt "XboxUserStep|"
