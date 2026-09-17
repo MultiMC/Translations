@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2025-02-21 16:11\n"
+"PO-Revision-Date: 2025-11-22 21:28\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -25,13 +25,13 @@ msgstr "无法解析整合包清单：\n"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr "获取 %1 的本地元数据索引失败"
+msgstr "无法获取 %1 的本地元数据索引"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:113
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "获取 '%1' v%2 的本地元数据索引失败"
+msgstr "无法获取 '%1' v%2 的本地元数据索引"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:175
 #, qt-format
@@ -107,17 +107,17 @@ msgstr "未知的下载类型: %1"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:674
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr "提取模组失败…"
+msgstr "解压模组失败……"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:685
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr "正在解压缩模组...…"
+msgstr "正在解压模组……"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:758
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "正在安装整合包......"
+msgstr "正在安装整合包"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:772
 msgctxt "ATLauncher::PackInstallTask|"
@@ -127,7 +127,7 @@ msgstr "创建库组件失败"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:796
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr "未知的加载器类型： "
+msgstr "未知加载器类型： "
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:810
 msgctxt "ATLauncher::PackInstallTask|"
@@ -172,7 +172,7 @@ msgstr "制作人员"
 #: src/launcher/ui/dialogs/AboutDialog.ui:228
 msgctxt "AboutDialog|"
 msgid "License"
-msgstr "开源许可"
+msgstr "许可"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:256
 msgctxt "AboutDialog|"
@@ -609,7 +609,7 @@ msgstr "实例包含冲突的依赖项。"
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:552
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr "实例在运行时执行的加载/检查中发现了未解析的依赖项。"
+msgstr "实例在运行时执行的加载/检查中发现未解析的依赖项。"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:702
 #, qt-format
@@ -973,7 +973,7 @@ msgstr "下载以下文件时出错：\n"
 #: src/launcher/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr "为 Minecraft 文件创建文件夹时出错。"
+msgstr "为 Minecraft 二进制文件创建文件夹时出错。"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1918,7 +1918,7 @@ msgstr "打开启动器时检查更新"
 #: src/launcher/ui/pages/global/LauncherPage.ui:67
 msgctxt "LauncherPage|"
 msgid "Folders"
-msgstr "公共文件夹"
+msgstr "文件夹"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:107
 msgctxt "LauncherPage|"
@@ -2036,7 +2036,7 @@ msgstr "控制台"
 #: src/launcher/ui/pages/global/LauncherPage.ui:382
 msgctxt "LauncherPage|"
 msgid "Console Settings"
-msgstr "控制台设置（&L）"
+msgstr "控制台设置"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:388
 msgctxt "LauncherPage|"
@@ -2081,7 +2081,7 @@ msgstr "实例文件夹"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:100
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr "你试图指定的实例文件夹路径包含至少一个“!”字符。Java在这种情况下会出现问题，你的实例(可能) 无法正常运行！"
+msgstr "你试图指定的实例文件夹路径包含至少一个“!”字符。Java 在这种情况下会出现问题，你的实例（可能）无法运行！"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:105
 msgctxt "LauncherPage|"
@@ -2111,7 +2111,7 @@ msgstr "[Something/ERROR] 一个错误！"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:386
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr "[Test/INFO] 一条无害的信息……"
+msgstr "[测试/信息] 一条无害的信息……"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:395
 msgctxt "LauncherPage|"
@@ -2149,7 +2149,7 @@ msgstr "按游戏版本排序"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:81
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr "公开整合包"
+msgstr "公共整合包"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:83
 msgctxt "LegacyFTB::ListModel|"
@@ -2164,7 +2164,7 @@ msgstr "私有整合包"
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr "公开整合包"
+msgstr "公共整合包"
 
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
@@ -2442,12 +2442,12 @@ msgstr "滚动到底部"
 #: src/launcher/ui/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr "尾部"
+msgstr "底部"
 
 #: src/launcher/ui/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr "运行日志"
+msgstr "Minecraft 日志"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
@@ -2470,7 +2470,7 @@ msgstr "程序退出。结束代码：%1 (0x%2)。"
 #: src/launcher/LoggedProcess.cpp:77
 msgctxt "LoggedProcess|"
 msgid "Process crashed."
-msgstr "进程崩溃了。"
+msgstr "程序崩溃了。"
 
 #: src/launcher/LoggedProcess.cpp:79
 #, qt-format
@@ -2509,12 +2509,12 @@ msgstr "总是上传完整日志而非只有退出代码。"
 #: src/launcher/LoggedProcess.cpp:115
 msgctxt "LoggedProcess|"
 msgid "Process was killed by user."
-msgstr "游戏被用户强行关闭。"
+msgstr "程序被用户强行关闭。"
 
 #: src/launcher/LoggedProcess.cpp:126
 msgctxt "LoggedProcess|"
 msgid "The process failed to start."
-msgstr "进程启动失败。"
+msgstr "程序启动失败。"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
@@ -2549,7 +2549,7 @@ msgstr "微软用户身份验证已完成，但结果无法识别。"
 #: src/launcher/ui/MainWindow.cpp:266
 msgctxt "MainWindow|"
 msgid "Kill"
-msgstr "结束"
+msgstr "强制关闭"
 
 #: src/launcher/ui/MainWindow.cpp:267
 msgctxt "MainWindow|"
@@ -2564,7 +2564,7 @@ msgstr "启动"
 #: src/launcher/ui/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
-msgstr "运行选择的实例。"
+msgstr "运行所选的实例。"
 
 #: src/launcher/ui/MainWindow.cpp:290
 msgctxt "MainWindow|"
@@ -2641,7 +2641,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr "打开 %1 Discord 语音聊天室。"
+msgstr "打开 %1 的Discord 语音聊天室。"
 
 #: src/launcher/ui/MainWindow.cpp:370
 msgctxt "MainWindow|"
@@ -2703,7 +2703,7 @@ msgstr "打开 %1 的 Patreon 页面。"
 #: src/launcher/ui/MainWindow.cpp:426
 msgctxt "MainWindow|"
 msgid "Meow"
-msgstr "喵~"
+msgstr "喵"
 
 #: src/launcher/ui/MainWindow.cpp:427
 msgctxt "MainWindow|"
@@ -2754,7 +2754,7 @@ msgstr "重命名"
 #: src/launcher/ui/MainWindow.cpp:506
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
-msgstr "重命名选择的实例。"
+msgstr "重命名所选的实例。"
 
 #: src/launcher/ui/MainWindow.cpp:518
 msgctxt "MainWindow|"
@@ -2789,7 +2789,7 @@ msgstr "修改实例的设置、模组和版本。"
 #: src/launcher/ui/MainWindow.cpp:548
 msgctxt "MainWindow|"
 msgid "Edit Notes"
-msgstr "更改备注"
+msgstr "编辑备注"
 
 #: src/launcher/ui/MainWindow.cpp:549
 msgctxt "MainWindow|"
@@ -3067,25 +3067,25 @@ msgstr "Minecraft %1 (%2)"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
-msgstr ", 上次游玩时长: %1 小时"
+msgstr ", 上次已游玩: %1 小时"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:819
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
-msgstr "，最后一次游玩时长: %1"
+msgstr "，上次已游玩: %1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:825
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
-msgstr ", 总游玩时长: %1 小时"
+msgstr ", 总游玩: %1 小时"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:827
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr "，此实例总游玩时长：%1"
+msgstr "，总游玩：%1"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:833
 msgctxt "MinecraftInstance|"
@@ -3120,12 +3120,12 @@ msgstr "系统中的运行库"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:123
 msgctxt "MinecraftPage|"
 msgid "Use system installation of GLFW"
-msgstr "使用系统中的 GLFW"
+msgstr "使用系统安装的 GLFW"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:130
 msgctxt "MinecraftPage|"
 msgid "Use system installation of OpenAL"
-msgstr "使用系统中的 OpenAL"
+msgstr "使用系统安装的 OpenAL"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:140
 msgctxt "MinecraftPage|"
@@ -3135,17 +3135,17 @@ msgstr "游戏时长"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:146
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing instances"
-msgstr "显示单实例的游玩时间"
+msgstr "显示单实例的游玩时长"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr "显示游玩所有实例的总时长"
+msgstr "显示所有实例的游玩时长"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
 msgid "Record time spent playing instances"
-msgstr "记录单实例的游玩时间"
+msgstr "记录单实例的游玩时长"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:167
 msgctxt "MinecraftPage|"
@@ -3161,7 +3161,7 @@ msgstr "Minecraft"
 #, qt-format
 msgctxt "MinecraftProfileCreateStep|"
 msgid "Creating the Minecraft profile '%1'."
-msgstr "正在创建 Minecraft 配置文件‘%1’。"
+msgstr "正在创建 Minecraft 配置文件 ‘%1’。"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:17
 msgctxt "MinecraftProfileStep|"
@@ -3271,7 +3271,7 @@ msgstr "删除（&R）"
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "Remove selected mods"
-msgstr "删除选定的模组"
+msgstr "移除选定的模组"
 
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
@@ -3328,7 +3328,7 @@ msgstr "为 Minecraft.jar 创建 bin 文件夹时出错"
 #, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
-msgstr "无法删除旧的jar文件：%1"
+msgstr "无法移除旧的 jar 文件：%1"
 
 #: src/launcher/minecraft/launch/ModMinecraftJar.cpp:57
 msgctxt "ModMinecraftJar|"
@@ -3338,17 +3338,17 @@ msgstr "无法创建自定义 Minecraft jar 文件。"
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
-msgstr "在Modrinth上查找所需文件…"
+msgstr "在 Modrinth 上查找所需文件…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr "导出Modrinth包"
+msgstr "导出 Modrinth 包"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
-msgstr "在Modrinth上查找文件…"
+msgstr "在 Modrinth 上查找文件…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
 msgctxt "Modrinth::InstanceExportTask|"
@@ -3358,7 +3358,7 @@ msgstr "创建整合包元数据…"
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:222
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
-msgstr "拷贝文件到整合包…"
+msgstr "复制文件到整合包…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:237
 #, qt-format
@@ -3750,7 +3750,7 @@ msgstr "文件（%1）不可读。"
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:185
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
-msgstr "日志上传"
+msgstr "上传日志"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
 msgctxt "OtherLogsPage|"
