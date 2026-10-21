@@ -5,6 +5,7 @@ set -e
 ROOT=$PWD
 OUTPUT=$ROOT/build
 # Sanitized copies of the .po files: broken entries blanked, unusable languages left out.
+# Qt's built-in strings (qt/<lang>.po, see qt_strings.py) go to $VALIDATED/qt.
 VALIDATED=$ROOT/.validated
 
 LCONVERT_BIN=${LCONVERT_BIN:-lconvert}
@@ -50,6 +51,11 @@ echo "    \"languages\" : {" >> $OUTPUT/index_v2.json
 echo "Validating translations..."
 rm -rf "$VALIDATED"
 python3 "$ROOT/validate_po.py" --fix "$VALIDATED" *.po
+if ls qt/*.po > /dev/null 2>&1
+then
+    echo "Validating Qt string translations..."
+    python3 "$ROOT/validate_po.py" --fix "$VALIDATED/qt" qt/*.po
+fi
 
 echo "Creating .qm files..."
 
@@ -61,8 +67,14 @@ do
     echo "Considering ${po_file}"
 
     lang=$(lang_for_po "$po_file")
+    # Qt's built-in strings for this language, if there are any, go into the same .qm.
+    # A broken qt/<lang>.po is skipped by the validator; the language then ships without them.
+    QT_INPUT=""
+    if [ -f "$VALIDATED/qt/$po_file" ]; then
+        QT_INPUT="-i $VALIDATED/qt/$po_file"
+    fi
     echo "    Converting $po_file to $lang.ts"
-    $LCONVERT_BIN -locations relative "$po_path" -o $lang.ts
+    $LCONVERT_BIN -locations relative -i "$po_path" $QT_INPUT -o $lang.ts
     echo "    Create $lang.qm"
     $LRELEASE_BIN $lang.ts -qm $OUTPUT/$lang.qm
 
@@ -71,6 +83,7 @@ do
     cp "$OUTPUT/$lang.qm" "$OUTPUT/$FILENAME"
 
     # Create an index file with info about the amount of strings translated and expected hashes of the files (for local caching purposes)
+    # The counts are for MultiMC's own strings only; Qt's don't change how complete a language looks.
     PO_STATS=`msgfmt --statistics --output=/dev/null "$po_path" 2>&1`
     UNTRANSLATED=$(grep_count "$PO_STATS" '[0-9]\+ untranslated messages\?')
     FUZZY=$(grep_count "$PO_STATS" '[0-9]\+ fuzzy translations\?')

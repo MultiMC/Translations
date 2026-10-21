@@ -7,6 +7,7 @@ on:
   pull_request:
     paths:
       - '*.po'
+      - 'qt/*.po'
       - 'validate_po.py'
 
 jobs:
@@ -17,4 +18,4 @@ jobs:
       - name: Install gettext
         run: sudo apt-get update && sudo apt-get install -y --no-install-recommends gettext
       - name: Validate .po files
-        run: python3 validate_po.py *.po
+        run: python3 validate_po.py *.po qt/*.po
