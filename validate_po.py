@@ -90,6 +90,15 @@ def blank_entry(lines, first, last):
     return len(out) - (last - first + 1)
 
 
+def annotate(name, line, msg):
+    """On GitHub Actions, also report the problem as an annotation on that line.
+    Annotations show on the run summary and the PR diff without signing in to read logs."""
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return
+    msg = msg.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+    print("::error file=%s,line=%d,title=Translation dropped::%s" % (name, line, msg))
+
+
 def process(path, outdir):
     """Validate one file; with outdir, write a repaired copy. Returns (ok_to_ship, report lines)."""
     report = []
@@ -99,6 +108,7 @@ def process(path, outdir):
 
     if QT_CONTEXTS_HEADER not in "".join(lines):
         report.append("%s: missing X-Qt-Contexts header, language skipped" % name)
+        annotate(name, 1, "Missing X-Qt-Contexts header: the whole language keeps its previous release")
         return False, report
 
     errors, unexplained, raw = msgfmt_errors(path)
@@ -120,6 +130,8 @@ def process(path, outdir):
                     report.append("%s:%d: %s (in the header, can't drop)" % (name, line_no, msg))
                 else:
                     report.append("%s:%d: %s -- %s" % (name, line_no, msg, describe(lines, first, last)))
+                    annotate(name, line_no, "%s. This entry will be shown in English until fixed in Crowdin: %s"
+                             % (msg, describe(lines, first, last)))
                     if (first, last) not in bad:
                         bad.append((first, last))
                 break
