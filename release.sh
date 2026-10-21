@@ -1,7 +1,6 @@
 #!/bin/sh
 
 set -e
-set -x
 
 ROOT=$PWD
 OUTPUT=$ROOT/build
