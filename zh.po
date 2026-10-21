@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2025-02-21 16:11\n"
+"PO-Revision-Date: 2026-10-21 11:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -25,13 +25,13 @@ msgstr "无法解析整合包清单：\n"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr "获取 %1 的本地元数据索引失败"
+msgstr "无法获取 %1 的本地元数据索引"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:113
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "获取 '%1' v%2 的本地元数据索引失败"
+msgstr "无法获取 '%1' v%2 的本地元数据索引"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:175
 #, qt-format
@@ -107,29 +107,29 @@ msgstr "未知的下载类型: %1"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:674
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr "提取模组失败…"
+msgstr "解压模组失败……"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:685
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr "正在解压缩模组...…"
+msgstr "正在解压模组……"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:758
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "正在安装整合包......"
+msgstr "正在安装整合包"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:772
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
 msgstr "创建库组件失败"
 
-#: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:796
+#: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:803
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr "未知的加载器类型： "
+msgstr "未知加载器类型： "
 
-#: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:810
+#: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:817
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
 msgstr "未能创建包组件"
@@ -172,7 +172,7 @@ msgstr "制作人员"
 #: src/launcher/ui/dialogs/AboutDialog.ui:228
 msgctxt "AboutDialog|"
 msgid "License"
-msgstr "开源许可"
+msgstr "许可"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:256
 msgctxt "AboutDialog|"
@@ -252,7 +252,7 @@ msgstr "在身份验证过程中出现错误。"
 #: src/launcher/minecraft/auth/AccountTask.cpp:50
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr "认证失败，必须将帐户迁移至微软账户才可继续使用。"
+msgstr "认证失败，必须将帐户迁移至微软帐户才可继续使用。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:52
 msgctxt "AccountTask|"
@@ -356,7 +356,7 @@ msgstr "此处为账户名称"
 msgctxt "AccountsDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr "您只需再迈出一步即可在此帐户上玩 Minecraft。\n\n"
+msgstr "您只需再完成一个步骤即可在此帐户上玩 Minecraft。\n\n"
 "请慎重选择你的游戏名称："
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:657
@@ -377,7 +377,7 @@ msgstr "删除并重新登录"
 #: src/launcher/ui/dialogs/AccountsDialog.ui:921
 msgctxt "AccountsDialog|"
 msgid "This account doesn't own Minecraft yet. Without purchasing the game, you can only play the demo."
-msgstr "此帐户尚未拥有Minecraft。没有购买游戏，您只能玩demo。"
+msgstr "此帐户尚未拥有Minecraft。没有购买游戏，您只能游玩演示版本（demo）。"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:934
 msgctxt "AccountsDialog|"
@@ -389,40 +389,40 @@ msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
 msgstr "Minecraft 帐户"
 
-#: src/launcher/ui/dialogs/AccountsDialog.cpp:203
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:215
 msgctxt "AccountsDialog|"
 msgid "Failed to apply skin"
 msgstr "无法应用皮肤"
 
-#: src/launcher/ui/dialogs/AccountsDialog.cpp:581
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:593
 msgctxt "AccountsDialog|"
 msgid "You can scan the QR code and complete the login process on a separate device, or you can open the link and login on this machine."
 msgstr "您可以扫描二维码并在单独的设备上完成登录过程， 或者您可以在此机器上打开链接并登录。"
 
-#: src/launcher/ui/dialogs/AccountsDialog.cpp:708
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:720
 msgctxt "AccountsDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
 msgstr "名称太短 - 长度必须介于 3 到 16 个字符之间。"
 
-#: src/launcher/ui/dialogs/AccountsDialog.cpp:767
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:779
 #, qt-format
 msgctxt "AccountsDialog|"
 msgid "Minecraft profile with name %1 already exists."
 msgstr "名为 %1 的 Minecraft 个人资料已存在。"
 
-#: src/launcher/ui/dialogs/AccountsDialog.cpp:770
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:782
 #, qt-format
 msgctxt "AccountsDialog|"
 msgid "The name %1 is not allowed."
 msgstr "不允许使用名称 %1。"
 
-#: src/launcher/ui/dialogs/AccountsDialog.cpp:773
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:785
 #, qt-format
 msgctxt "AccountsDialog|"
 msgid "Unhandled profile name status: %1"
 msgstr "未处理的配置文件名称状态：%1"
 
-#: src/launcher/ui/dialogs/AccountsDialog.cpp:777
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:789
 msgctxt "AccountsDialog|"
 msgid "Failed to check name availability."
 msgstr "检查名称可用性失败。"
@@ -563,7 +563,7 @@ msgstr "安装中"
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:26
 msgctxt "AuthFlow|"
 msgid "Finished all authentication steps"
-msgstr "已完成所有身份认证步骤"
+msgstr "身份认证已完成"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:34
 msgctxt "AuthFlow|"
@@ -609,7 +609,7 @@ msgstr "实例包含冲突的依赖项。"
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:552
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
-msgstr "实例在运行时执行的加载/检查中发现了未解析的依赖项。"
+msgstr "实例在运行时执行的加载/检查中发现未解析的依赖项。"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:702
 #, qt-format
@@ -973,7 +973,7 @@ msgstr "下载以下文件时出错：\n"
 #: src/launcher/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr "为 Minecraft 文件创建文件夹时出错。"
+msgstr "为 Minecraft 二进制文件创建文件夹时出错。"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1200,50 +1200,50 @@ msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "无法打开提供的整合包 zip 压缩文件。"
 
-#: src/launcher/InstanceImportTask.cpp:132
-#: src/launcher/InstanceImportTask.cpp:196
+#: src/launcher/InstanceImportTask.cpp:139
+#: src/launcher/InstanceImportTask.cpp:203
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "压缩包未包含可识别的整合包类型。"
 
-#: src/launcher/InstanceImportTask.cpp:148
+#: src/launcher/InstanceImportTask.cpp:155
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "解压整合包时失败"
 
-#: src/launcher/InstanceImportTask.cpp:175
+#: src/launcher/InstanceImportTask.cpp:182
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "无法修复 %1 的权限"
 
-#: src/launcher/InstanceImportTask.cpp:203
+#: src/launcher/InstanceImportTask.cpp:210
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "实例导入操作被中断。"
 
-#: src/launcher/InstanceImportTask.cpp:415
+#: src/launcher/InstanceImportTask.cpp:422
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "无法解析包索引：\n"
 
-#: src/launcher/InstanceImportTask.cpp:422
+#: src/launcher/InstanceImportTask.cpp:429
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "无法重命名覆盖的目录：\n"
 
-#: src/launcher/InstanceImportTask.cpp:429
-#: src/launcher/InstanceImportTask.cpp:434
+#: src/launcher/InstanceImportTask.cpp:436
+#: src/launcher/InstanceImportTask.cpp:441
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "无法合并覆盖的文件夹：\n"
 
-#: src/launcher/InstanceImportTask.cpp:464
+#: src/launcher/InstanceImportTask.cpp:471
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod下载"
 
-#: src/launcher/InstanceImportTask.cpp:487
+#: src/launcher/InstanceImportTask.cpp:494
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "下载Mod中..."
@@ -1704,32 +1704,32 @@ msgctxt "LaunchController|"
 msgid "Invalid Java arguments specified. Please fix this first."
 msgstr "错误的 Java 命令行参数已被指定。请优先修复此问题。"
 
-#: src/launcher/LaunchController.cpp:61
+#: src/launcher/LaunchController.cpp:70
 msgctxt "LaunchController|"
 msgid "No Accounts"
 msgstr "无账户"
 
-#: src/launcher/LaunchController.cpp:62
+#: src/launcher/LaunchController.cpp:71
 msgctxt "LaunchController|"
-msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr "要游玩 Minecraft，您必须要登录至少一个 Minecraft 账户（包括微软帐户和 Mojang 账户），您想现在打开账户界面来添加一个帐户吗？"
+msgid "In order to play Minecraft, you must have at least one Minecraft account logged in. Would you like to open the account manager to add an account now?"
+msgstr ""
 
-#: src/launcher/LaunchController.cpp:81
+#: src/launcher/LaunchController.cpp:90
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
 msgstr "你想使用哪个账户？"
 
-#: src/launcher/LaunchController.cpp:105
+#: src/launcher/LaunchController.cpp:114
 msgctxt "LaunchController|"
 msgid "No account selected for launch."
 msgstr "没有选中用于启动游戏的账户。"
 
-#: src/launcher/LaunchController.cpp:165
+#: src/launcher/LaunchController.cpp:174
 msgctxt "LaunchController|"
 msgid "Account doesn't have a Minecraft profile"
 msgstr "账户没有 Minecraft 配置文件"
 
-#: src/launcher/LaunchController.cpp:166
+#: src/launcher/LaunchController.cpp:175
 msgctxt "LaunchController|"
 msgid "The account doesn't have a Minecraft profile yet.\n"
 "You need to create a profile first to play.\n\n"
@@ -1738,27 +1738,27 @@ msgstr "该账户尚未拥有 Minecraft 配置文件。\n"
 "您需要先创建一个配置文件才能进行游戏。\n\n"
 "您要打开账户对话框吗？"
 
-#: src/launcher/LaunchController.cpp:168
+#: src/launcher/LaunchController.cpp:177
 msgctxt "LaunchController|"
 msgid "Open Accounts"
 msgstr "打开账户"
 
-#: src/launcher/LaunchController.cpp:169 src/launcher/LaunchController.cpp:195
+#: src/launcher/LaunchController.cpp:178 src/launcher/LaunchController.cpp:204
 msgctxt "LaunchController|"
 msgid "Cancel"
 msgstr "取消"
 
-#: src/launcher/LaunchController.cpp:180 src/launcher/LaunchController.cpp:205
+#: src/launcher/LaunchController.cpp:189 src/launcher/LaunchController.cpp:214
 msgctxt "LaunchController|"
 msgid "Launch cancelled - account does not own Minecraft."
 msgstr "启动已取消 - 此账户没有购买 Minecraft。"
 
-#: src/launcher/LaunchController.cpp:191
+#: src/launcher/LaunchController.cpp:200
 msgctxt "LaunchController|"
 msgid "Play demo?"
 msgstr "要开始试玩吗？"
 
-#: src/launcher/LaunchController.cpp:192
+#: src/launcher/LaunchController.cpp:201
 msgctxt "LaunchController|"
 msgid "This account does not own Minecraft.\n"
 "You need to purchase the game first to play it.\n\n"
@@ -1766,73 +1766,73 @@ msgid "This account does not own Minecraft.\n"
 msgstr "此账户尚未拥有 Minecraft。您需要先购买游戏才能进行游玩。\n\n"
 "您想先体验一下试玩版吗？"
 
-#: src/launcher/LaunchController.cpp:194
+#: src/launcher/LaunchController.cpp:203
 msgctxt "LaunchController|"
 msgid "Play Demo"
 msgstr "开始试玩"
 
-#: src/launcher/LaunchController.cpp:221
+#: src/launcher/LaunchController.cpp:230
 msgctxt "LaunchController|"
 msgid "Play Offline"
 msgstr "离线游戏"
 
-#: src/launcher/LaunchController.cpp:234
+#: src/launcher/LaunchController.cpp:243
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually. Press OK to open the accounts window."
 msgstr "该账户已过期，需要手动登录。按“确定”打开账户窗口。"
 
-#: src/launcher/LaunchController.cpp:237
+#: src/launcher/LaunchController.cpp:246
 msgctxt "LaunchController|"
 msgid "Account refresh failed"
 msgstr "账户刷新失败"
 
-#: src/launcher/LaunchController.cpp:255
+#: src/launcher/LaunchController.cpp:264
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
 msgstr "服务器上不再存在该账户。它可能已迁移，在这种情况下，请添加您迁移到的新账户。"
 
-#: src/launcher/LaunchController.cpp:258
+#: src/launcher/LaunchController.cpp:267
 msgctxt "LaunchController|"
 msgid "Account gone"
 msgstr "账户遗失了"
 
-#: src/launcher/LaunchController.cpp:267
+#: src/launcher/LaunchController.cpp:276
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
 msgstr "必须将此账户迁移至另一个微软账户。"
 
-#: src/launcher/LaunchController.cpp:270
+#: src/launcher/LaunchController.cpp:279
 msgctxt "LaunchController|"
 msgid "Account requires migration"
 msgstr "账户需要迁移"
 
-#: src/launcher/LaunchController.cpp:280
+#: src/launcher/LaunchController.cpp:289
 msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "启动失败。"
 
-#: src/launcher/LaunchController.cpp:290 src/launcher/LaunchController.cpp:362
+#: src/launcher/LaunchController.cpp:299 src/launcher/LaunchController.cpp:371
 msgctxt "LaunchController|"
 msgid "Error!"
 msgstr "错误！"
 
-#: src/launcher/LaunchController.cpp:290 src/launcher/LaunchController.cpp:291
+#: src/launcher/LaunchController.cpp:299 src/launcher/LaunchController.cpp:300
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "无法加载实例配置文件。"
 
-#: src/launcher/LaunchController.cpp:298
+#: src/launcher/LaunchController.cpp:307
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "无法实例化一个启动器。"
 
-#: src/launcher/LaunchController.cpp:362
+#: src/launcher/LaunchController.cpp:371
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "无法启动 Profiler：%1"
 
-#: src/launcher/LaunchController.cpp:371
+#: src/launcher/LaunchController.cpp:380
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
@@ -1840,38 +1840,38 @@ msgid "The game launch is delayed until you press the button. This is the right 
 msgstr "游戏启动会延迟，直到你按下按钮。现在 Profiler 服务器正在运行，你应该在此时设置 Profiler。\n\n"
 "%1"
 
-#: src/launcher/LaunchController.cpp:374
+#: src/launcher/LaunchController.cpp:383
 msgctxt "LaunchController|"
 msgid "Waiting."
 msgstr "等待中..."
 
-#: src/launcher/LaunchController.cpp:376
+#: src/launcher/LaunchController.cpp:385
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "运行"
 
-#: src/launcher/LaunchController.cpp:384
+#: src/launcher/LaunchController.cpp:393
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "无法启动 Profiler：%1"
 
-#: src/launcher/LaunchController.cpp:385
+#: src/launcher/LaunchController.cpp:394
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "错误"
 
-#: src/launcher/LaunchController.cpp:413
+#: src/launcher/LaunchController.cpp:422
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "中断"
 
-#: src/launcher/LaunchController.cpp:429
+#: src/launcher/LaunchController.cpp:438
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "强行退出 Minecraft？"
 
-#: src/launcher/LaunchController.cpp:430
+#: src/launcher/LaunchController.cpp:439
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
 msgstr "这可能导致实例出现错误，这应该只在 Minecraft 由于一些原因冻结的时候使用"
@@ -1918,7 +1918,7 @@ msgstr "打开启动器时检查更新"
 #: src/launcher/ui/pages/global/LauncherPage.ui:67
 msgctxt "LauncherPage|"
 msgid "Folders"
-msgstr "公共文件夹"
+msgstr "文件夹"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:107
 msgctxt "LauncherPage|"
@@ -2036,7 +2036,7 @@ msgstr "控制台"
 #: src/launcher/ui/pages/global/LauncherPage.ui:382
 msgctxt "LauncherPage|"
 msgid "Console Settings"
-msgstr "控制台设置（&L）"
+msgstr "控制台设置"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:388
 msgctxt "LauncherPage|"
@@ -2081,7 +2081,7 @@ msgstr "实例文件夹"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:100
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
-msgstr "你试图指定的实例文件夹路径包含至少一个“!”字符。Java在这种情况下会出现问题，你的实例(可能) 无法正常运行！"
+msgstr "你试图指定的实例文件夹路径包含至少一个“!”字符。Java 在这种情况下会出现问题，你的实例（可能）无法运行！"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:105
 msgctxt "LauncherPage|"
@@ -2111,7 +2111,7 @@ msgstr "[Something/ERROR] 一个错误！"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:386
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
-msgstr "[Test/INFO] 一条无害的信息……"
+msgstr "[测试/信息] 一条无害的信息……"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:395
 msgctxt "LauncherPage|"
@@ -2149,7 +2149,7 @@ msgstr "按游戏版本排序"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:81
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr "公开整合包"
+msgstr "公共整合包"
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:83
 msgctxt "LegacyFTB::ListModel|"
@@ -2164,7 +2164,7 @@ msgstr "私有整合包"
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr "公开整合包"
+msgstr "公共整合包"
 
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
@@ -2442,12 +2442,12 @@ msgstr "滚动到底部"
 #: src/launcher/ui/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr "尾部"
+msgstr "底部"
 
 #: src/launcher/ui/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
-msgstr "运行日志"
+msgstr "Minecraft 日志"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
@@ -2470,7 +2470,7 @@ msgstr "程序退出。结束代码：%1 (0x%2)。"
 #: src/launcher/LoggedProcess.cpp:77
 msgctxt "LoggedProcess|"
 msgid "Process crashed."
-msgstr "进程崩溃了。"
+msgstr "程序崩溃了。"
 
 #: src/launcher/LoggedProcess.cpp:79
 #, qt-format
@@ -2509,12 +2509,12 @@ msgstr "总是上传完整日志而非只有退出代码。"
 #: src/launcher/LoggedProcess.cpp:115
 msgctxt "LoggedProcess|"
 msgid "Process was killed by user."
-msgstr "游戏被用户强行关闭。"
+msgstr "程序被用户强行关闭。"
 
 #: src/launcher/LoggedProcess.cpp:126
 msgctxt "LoggedProcess|"
 msgid "The process failed to start."
-msgstr "进程启动失败。"
+msgstr "程序启动失败。"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
@@ -2549,7 +2549,7 @@ msgstr "微软用户身份验证已完成，但结果无法识别。"
 #: src/launcher/ui/MainWindow.cpp:266
 msgctxt "MainWindow|"
 msgid "Kill"
-msgstr "结束"
+msgstr "强制关闭"
 
 #: src/launcher/ui/MainWindow.cpp:267
 msgctxt "MainWindow|"
@@ -2564,7 +2564,7 @@ msgstr "启动"
 #: src/launcher/ui/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
-msgstr "运行选择的实例。"
+msgstr "运行所选的实例。"
 
 #: src/launcher/ui/MainWindow.cpp:290
 msgctxt "MainWindow|"
@@ -2641,7 +2641,7 @@ msgstr "Discord"
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
-msgstr "打开 %1 Discord 语音聊天室。"
+msgstr "打开 %1 的Discord 语音聊天室。"
 
 #: src/launcher/ui/MainWindow.cpp:370
 msgctxt "MainWindow|"
@@ -2703,7 +2703,7 @@ msgstr "打开 %1 的 Patreon 页面。"
 #: src/launcher/ui/MainWindow.cpp:426
 msgctxt "MainWindow|"
 msgid "Meow"
-msgstr "喵~"
+msgstr "喵"
 
 #: src/launcher/ui/MainWindow.cpp:427
 msgctxt "MainWindow|"
@@ -2754,7 +2754,7 @@ msgstr "重命名"
 #: src/launcher/ui/MainWindow.cpp:506
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
-msgstr "重命名选择的实例。"
+msgstr "重命名所选的实例。"
 
 #: src/launcher/ui/MainWindow.cpp:518
 msgctxt "MainWindow|"
@@ -2789,7 +2789,7 @@ msgstr "修改实例的设置、模组和版本。"
 #: src/launcher/ui/MainWindow.cpp:548
 msgctxt "MainWindow|"
 msgid "Edit Notes"
-msgstr "更改备注"
+msgstr "编辑备注"
 
 #: src/launcher/ui/MainWindow.cpp:549
 msgctxt "MainWindow|"
@@ -2975,6 +2975,8 @@ msgid "No news available."
 msgstr "没有可用的新闻。"
 
 #: src/launcher/ui/MainWindow.cpp:1331 src/launcher/ui/MainWindow.cpp:1348
+#: src/launcher/ui/MainWindow.cpp:1406 src/launcher/ui/MainWindow.cpp:1455
+#: src/launcher/ui/MainWindow.cpp:1467
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "错误"
@@ -2987,107 +2989,201 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "无法为升级下载创建文件夹：\n"
 "%1"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:69
+#: src/launcher/ui/MainWindow.cpp:1413
+msgctxt "MainWindow|"
+msgid "Warnings"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1417 src/launcher/ui/MainWindow.cpp:1459
+msgctxt "MainWindow|"
+msgid "Abort"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1468
+msgctxt "MainWindow|"
+msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
+"Please add your Mojang or Minecraft account."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1602
+msgctxt "MainWindow|"
+msgid "Group name"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1602
+msgctxt "MainWindow|"
+msgid "Enter a new group name."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1624
+msgctxt "MainWindow|"
+msgid "Delete group"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1624
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Are you sure you want to delete the group %1"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1764
+msgctxt "MainWindow|"
+msgid "CAREFUL!"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1765
+#, qt-format
+msgctxt "MainWindow|"
+msgid "About to delete: %1\n"
+"This is permanent and will completely delete the instance.\n\n"
+"Are you sure?"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1977
+msgctxt "MainWindow|"
+msgid "Rename Instance"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1990
+msgctxt "MainWindow|"
+msgid "Your instance folder contains '!' and this is known to cause Java problems!"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1992
+#, qt-format
+msgctxt "MainWindow|"
+msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:2001
+msgctxt "MainWindow|"
+msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:2008
+msgctxt "MainWindow|"
+msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:2016
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Your instance folder is in a temporary folder: '%1'!"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:2030
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Total playtime: %1 hours"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:2032
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Total playtime: %1"
+msgstr ""
+
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:72
 msgctxt "MinecraftAccount|Account status"
 msgid "Unchecked"
 msgstr "未检查"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:72
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:75
 msgctxt "MinecraftAccount|Account status"
 msgid "Offline"
 msgstr "离线"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:75
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:78
 msgctxt "MinecraftAccount|Account status"
 msgid "Online"
 msgstr "在线"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:78
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:81
 msgctxt "MinecraftAccount|Account status"
 msgid "Working"
 msgstr "处理中"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:81
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:84
 msgctxt "MinecraftAccount|Account status"
 msgid "Errored"
 msgstr "错误"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:84
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:87
 msgctxt "MinecraftAccount|Account status"
 msgid "Expired"
 msgstr "已失效"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:87
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:90
 msgctxt "MinecraftAccount|Account status"
 msgid "Gone"
 msgstr "无"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:90
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:93
 msgctxt "MinecraftAccount|Account status"
 msgid "Must Migrate"
 msgstr "必须迁移"
 
-#: src/launcher/minecraft/auth/MinecraftAccount.cpp:93
+#: src/launcher/minecraft/auth/MinecraftAccount.cpp:96
 msgctxt "MinecraftAccount|Account status"
 msgid "Unknown"
 msgstr "未知"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:730
+#: src/launcher/minecraft/MinecraftInstance.cpp:769
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SESSION ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:732
+#: src/launcher/minecraft/MinecraftInstance.cpp:771
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ACCESS TOKEN>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:734
+#: src/launcher/minecraft/MinecraftInstance.cpp:773
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:736
+#: src/launcher/minecraft/MinecraftInstance.cpp:775
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:808
+#: src/launcher/minecraft/MinecraftInstance.cpp:847
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "损坏"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:812
+#: src/launcher/minecraft/MinecraftInstance.cpp:851
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:817
+#: src/launcher/minecraft/MinecraftInstance.cpp:856
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
-msgstr ", 上次游玩时长: %1 小时"
+msgstr ", 上次已游玩: %1 小时"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:819
+#: src/launcher/minecraft/MinecraftInstance.cpp:858
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
-msgstr "，最后一次游玩时长: %1"
+msgstr "，上次已游玩: %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:825
+#: src/launcher/minecraft/MinecraftInstance.cpp:864
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
-msgstr ", 总游玩时长: %1 小时"
+msgstr ", 总游玩: %1 小时"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:827
+#: src/launcher/minecraft/MinecraftInstance.cpp:866
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
-msgstr "，此实例总游玩时长：%1"
+msgstr "，总游玩：%1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:833
+#: src/launcher/minecraft/MinecraftInstance.cpp:872
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr "，最后一次运行发生崩溃。"
@@ -3120,12 +3216,12 @@ msgstr "系统中的运行库"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:123
 msgctxt "MinecraftPage|"
 msgid "Use system installation of GLFW"
-msgstr "使用系统中的 GLFW"
+msgstr "使用系统安装的 GLFW"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:130
 msgctxt "MinecraftPage|"
 msgid "Use system installation of OpenAL"
-msgstr "使用系统中的 OpenAL"
+msgstr "使用系统安装的 OpenAL"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:140
 msgctxt "MinecraftPage|"
@@ -3135,17 +3231,17 @@ msgstr "游戏时长"
 #: src/launcher/ui/pages/global/MinecraftPage.ui:146
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing instances"
-msgstr "显示单实例的游玩时间"
+msgstr "显示单实例的游玩时长"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:153
 msgctxt "MinecraftPage|"
 msgid "Show time spent playing across all instances"
-msgstr "显示游玩所有实例的总时长"
+msgstr "显示所有实例的游玩时长"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:160
 msgctxt "MinecraftPage|"
 msgid "Record time spent playing instances"
-msgstr "记录单实例的游玩时间"
+msgstr "记录单实例的游玩时长"
 
 #: src/launcher/ui/pages/global/MinecraftPage.ui:167
 msgctxt "MinecraftPage|"
@@ -3161,7 +3257,7 @@ msgstr "Minecraft"
 #, qt-format
 msgctxt "MinecraftProfileCreateStep|"
 msgid "Creating the Minecraft profile '%1'."
-msgstr "正在创建 Minecraft 配置文件‘%1’。"
+msgstr "正在创建 Minecraft 配置文件 ‘%1’。"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:17
 msgctxt "MinecraftProfileStep|"
@@ -3271,7 +3367,7 @@ msgstr "删除（&R）"
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:107
 msgctxt "ModFolderPage|"
 msgid "Remove selected mods"
-msgstr "删除选定的模组"
+msgstr "移除选定的模组"
 
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:112
 msgctxt "ModFolderPage|"
@@ -3328,7 +3424,7 @@ msgstr "为 Minecraft.jar 创建 bin 文件夹时出错"
 #, qt-format
 msgctxt "ModMinecraftJar|"
 msgid "Couldn't remove stale jar file: %1"
-msgstr "无法删除旧的jar文件：%1"
+msgstr "无法移除旧的 jar 文件：%1"
 
 #: src/launcher/minecraft/launch/ModMinecraftJar.cpp:57
 msgctxt "ModMinecraftJar|"
@@ -3338,17 +3434,17 @@ msgstr "无法创建自定义 Minecraft jar 文件。"
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
-msgstr "在Modrinth上查找所需文件…"
+msgstr "在 Modrinth 上查找所需文件…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
-msgstr "导出Modrinth包"
+msgstr "导出 Modrinth 包"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
-msgstr "在Modrinth上查找文件…"
+msgstr "在 Modrinth 上查找文件…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
 msgctxt "Modrinth::InstanceExportTask|"
@@ -3358,7 +3454,7 @@ msgstr "创建整合包元数据…"
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:222
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
-msgstr "拷贝文件到整合包…"
+msgstr "复制文件到整合包…"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:237
 #, qt-format
@@ -3750,7 +3846,7 @@ msgstr "文件（%1）不可读。"
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:185
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
-msgstr "日志上传"
+msgstr "上传日志"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
 msgctxt "OtherLogsPage|"
@@ -4970,23 +5066,28 @@ msgstr "原版"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
-msgid "Minecraft 24w14a and above require the use of Java 21"
-msgstr "Minecraft 24w14a 及以上版本需要使用 Java21"
+msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
+msgstr ""
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
-msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr "Minecraft 1.18-pre2（1.18 预发布版 2） 及以上版本需要使用 Java 17"
+msgid "Minecraft 24w14a and above require the use of Java 21"
+msgstr "Minecraft 24w14a 及以上版本需要使用 Java21"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
-msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr "Minecraft 21w19a 及以上版本需要使用 Java16"
+msgid "Minecraft 1.18 Pre Release 2 up to 24w13a require the use of Java 17"
+msgstr ""
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
 msgctxt "VerifyJavaInstall|"
-msgid "Minecraft 17w13a and above require the use of Java 8"
-msgstr "Minecraft 17w13a 及以上版本需要使用 Java8"
+msgid "Minecraft 21w19a up to 1.18 Pre Release 1 require the use of Java 16"
+msgstr ""
+
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:78
+msgctxt "VerifyJavaInstall|"
+msgid "Minecraft 17w13a up to 21w18a require the use of Java 8"
+msgstr ""
 
 #: src/launcher/ui/widgets/VersionListView.cpp:26
 msgctxt "VersionListView|"
