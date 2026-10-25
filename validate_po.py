@@ -13,7 +13,7 @@ With --fix OUTDIR: write a copy of every usable file to OUTDIR with the broken e
 blanked (an empty msgstr falls back to the English text at runtime), report what was
 dropped, and exit 0. A file that can't be repaired (no X-Qt-Contexts header, or still
 failing after the broken entries are blanked) is reported, left out, and listed in
-OUTDIR/skipped.txt, so release.sh can keep that language at its previous release
+OUTDIR/skipped.txt, so release.py can keep that language at its previous release
 instead of stopping the release of all the others.
 """
 
