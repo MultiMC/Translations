@@ -1,7 +1,5 @@
-MultiMC5-translate
-==================
-
-Translations for MultiMC5
+Translations for MultiMC
+========================
 
 To participate in the translation effort, go to [the MultiMC crowdin site](https://translate.multimc.org) and join the project and get in touch on [discord](https://discord.gg/rjpzCxvAPQ).
 (If you don't have a Crowdin account, you can create one using your Facebook, Google, Twitter, Github, GitLab or any other email.)
