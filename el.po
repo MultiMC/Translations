@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2026-10-21 11:52\n"
+"PO-Revision-Date: 2026-10-30 00:13\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -533,11 +533,6 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Αναζήτηση και φιλτράρισμα..."
 
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr "ATLauncher"
-
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -558,6 +553,11 @@ msgstr "Αδυναμία λήψης ή φόρτωσης της λίστας εκ
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr "ATLauncher"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:26
 msgctxt "AuthFlow|"
@@ -1431,11 +1431,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Ρυθμίσεις"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1445,6 +1440,11 @@ msgstr "Επιλέξτε έκδοση Java"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Εύρεση εκτελέσιμου Java"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
 
 #: src/launcher/InstanceList.cpp:832
 msgctxt "InstanceStaging|"
@@ -1574,11 +1574,6 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "Δοκιμή"
 
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr "Java"
-
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1588,6 +1583,11 @@ msgstr "Επιλέξτε έκδοση Java"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Εύρεση εκτελέσιμου Java"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr "Java"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2289,11 +2289,6 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "Αναβάθμιση εγκατάστασης"
 
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "Αναβάθμιση"
-
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2309,6 +2304,11 @@ msgstr "Ματαίωση"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (Μεταφέρθηκε)"
+
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -2429,11 +2429,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Κάτω"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Αρχείο καταγραφής Minecraft"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2443,6 +2438,11 @@ msgstr "Μεταφόρτωση αρχείου καταγραφής"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Είστε βέβαιοι ότι θέλετε να ανεβάσετε αυτό το αρχείο καταγραφής;"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Αρχείο καταγραφής Minecraft"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -4081,100 +4081,78 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Διαμεσολαβητής"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
+#: src/launcher/JavaCommon.cpp:10
+msgctxt "QObject|"
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "Προσπαθήσατε να ορίσετε χειροκίνητα μια επιλογή μνήμης JVM (χρησιμοποιώντας \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\", \"-Xmx\" ή \"-Xms\").\n"
+"Υπάρχουν ειδικά πεδία για αυτά στις ρυθμίσεις (καρτέλα Java, στην ομάδα επιλογών \"Μνήμη\" στην κορυφή).\n"
+"Αυτό το μήνυμα θα εμφανιστεί μέχρι να αφαιρέσετε την επιλογή μνήμης από τις επιλογές JVM."
+
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+msgctxt "QObject|"
+msgid "JVM arguments warning"
+msgstr "Προειδοποίηση παραμέτρων JVM"
+
+#: src/launcher/JavaCommon.cpp:22
+msgctxt "QObject|"
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "Προσπαθήσατε να περάσετε την απαιτούμενη έκδοση Java στο JVM (χρησιμοποιώντας \"-version=xxx\"). Αυτό δεν είναι ασφαλές και δεν επιτρέπεται.\n"
+"Αυτό το μήνυμα θα εμφανίζεται μέχρι να το αφαιρέσετε από τα ορίσματα JVM."
+
+#: src/launcher/JavaCommon.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Στοιχεία για %1"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "Εξέταση Java πέτυχε!<br />Αναφέρθηκε η πλατφόρμα: %1<br />Αναφέρθηκε η έκδοση Java: %2<br />Αναφέρθηκε ο προμηθευτής Java: %3<br />"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#: src/launcher/JavaCommon.cpp:44
 #, qt-format
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments έχει οριστεί σε άγνωστη τιμή '%1'"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />Προειδοποιήσεις:<br /><font color=\"orange\">%1</font>"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Δοκιμή Java επιτυχής"
+
+#: src/launcher/JavaCommon.cpp:54
+msgctxt "QObject|"
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "Το συγκεκριμένο εκτελέσιμο java δεν λειτούργησε με τις παραμέτρους που έχετε δώσει:<br />"
+
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Σφάλμα δοκιμής Java"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "Το εκτελέσιμο αρχείο java δεν δούλεψε.<br />Θα πρέπει να χρησιμοποιήσετε τη λειτουργία αυτόματης ανίχνευσης, ή να ορίσετε τη διαδρομή προς το εκτελέσιμο αρχείο Java.<br />"
+
+#: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Η τιμή 'minimumLauncherVersion' αυτής της έκδοσης (%1) είναι υψηλότερη της υποστηριζόμενης από %3 (%2). Ενδέχεται να μη λειτουργήσει σωστά!"
+msgid "%1m %2s"
+msgstr "%1λ %2δευτ"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Όνομα βιβλιοθήκης %1 είναι χαλασμένο και δεν μπορεί να επεξεργαστεί."
+msgid "%1h %2m"
+msgstr "%1ω %2λ"
 
-#: src/launcher/minecraft/ProfileUtils.cpp:51
+#: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Μη έγκυρη έκδοση αρχείου σειράς, αναμενόταν %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Αδυναμία ανοίγματος αρχείου έκδοσης %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Αδυναμία επεξεργασίας του αρχείου έκδοσης %1: %2 στη γραμμή %3, στήλη %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Αδυναμία επεξεργασίας αρχείου έκδοσης %1."
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Το patch δεν έχει φορτωθεί ακόμα."
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Μη έγκυρη έκδοση αρχείου στοιχείου, αναμενόταν %1"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Αρχείο έκδοσης περιέχει και '+libraries' και 'libraries'. Αυτό δεν υποστηρίζεται πλέον."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "Η URL για το κύριο jar δεν ήταν δυνατό να καθοριστεί - η Mojang αφαίρεσε τον διακομιστή που χρησιμοποιούσαμε ως εφεδρικό."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο '-libraries'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο '-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο '-minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο '+minecraftArguments'"
+msgid "%1d %2h %3m"
+msgstr "%1μ %2ω %3λ"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4219,65 +4197,175 @@ msgstr "Επίσης, απέτυχε η επαναφορά.\n"
 "Θα πρέπει να διορθώσετε το %1 χειροκίνητα.\n"
 "Παρακαλούμε ενημερώστε μας με το πως και γιατί αυτό συνέβη."
 
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Άγνωστη έκδοση μορφής!"
-
 #: src/launcher/meta/BaseEntity.cpp:120
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "Λήψη του μετα-αρχείου %1"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
 msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Το καθορισμένο εκτελέσιμο είτε δεν υπάρχει είτε δεν είναι κατάλληλα εκτελέσιμο."
+msgid "Unknown format version!"
+msgstr "Άγνωστη έκδοση μορφής!"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Το συγκεκριμένο εκτελέσιμο java δεν λειτούργησε με τις παραμέτρους που έχετε δώσει:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Το συγκεκριμένο εκτελέσιμο java επέστρεψε απροσδόκητα αποτελέσματα:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Εξέταση Java πέτυχε!<br />Αναφέρθηκε η πλατφόρμα: %1<br />Αναφέρθηκε η έκδοση Java: %2<br />"
+msgid "Assets for %1"
+msgstr "Στοιχεία για %1"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Σφάλμα δοκιμής Java"
+msgid "Patch is not loaded yet."
+msgstr "Το patch δεν έχει φορτωθεί ακόμα."
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
 msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Δοκιμή Java επιτυχής"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments έχει οριστεί σε άγνωστη τιμή '%1'"
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
 msgctxt "QObject|"
-msgid "Dark"
-msgstr "Σκούρο"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Η τιμή 'minimumLauncherVersion' αυτής της έκδοσης (%1) είναι υψηλότερη της υποστηριζόμενης από %3 (%2). Ενδέχεται να μη λειτουργήσει σωστά!"
 
-#: src/launcher/ui/themes/BrightTheme.cpp:10
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
 msgctxt "QObject|"
-msgid "Bright"
-msgstr "Ανοιχτόχρωμο"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Όνομα βιβλιοθήκης %1 είναι χαλασμένο και δεν μπορεί να επεξεργαστεί."
 
-#: src/launcher/ui/themes/SystemTheme.cpp:47
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
-msgid "System"
-msgstr "Προεπιλογή συστήματος"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Αρχείο έκδοσης περιέχει και '+libraries' και 'libraries'. Αυτό δεν υποστηρίζεται πλέον."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "Η URL για το κύριο jar δεν ήταν δυνατό να καθοριστεί - η Mojang αφαίρεσε τον διακομιστή που χρησιμοποιούσαμε ως εφεδρικό."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο '-libraries'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο '-minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Αρχείο έκδοσης περιέχει μη υποστηριζόμενο στοιχείο '+minecraftArguments'"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Μη έγκυρη έκδοση αρχείου στοιχείου, αναμενόταν %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Μη έγκυρη έκδοση αρχείου σειράς, αναμενόταν %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Αδυναμία ανοίγματος αρχείου έκδοσης %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Αδυναμία επεξεργασίας του αρχείου έκδοσης %1: %2 στη γραμμή %3, στήλη %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Αδυναμία επεξεργασίας αρχείου έκδοσης %1."
+
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Κενή διαδρομή"
+
+#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "Η διαδρομή δεν υπάρχει"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Μη έγκυρη εγκατάσταση JProfiler"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Μή έγκυρη διαδρομή για JVisualVM"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Η διαδρομή είναι κενή"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Η διαδρομή δεν φαίνεται να είναι διαδρομή MCEdit"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Αποτυχία μεταφόρτωσης"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Το αρχείο καταγραφής είναι πολύ μεγάλο. Θα πρέπει να το μεταφορτώσετε χειροκίνητα."
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Η μεταφόρτωση ολοκληρώθηκε"
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "Ο <a href=\"%1\">σύνδεσμος για το αρχείο καταγραφής που μεταφορτώσατε</a> έχει τοποθετηθεί στο πρόχειρο."
+
+#: src/launcher/ui/MainWindow.cpp:101
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Χωρίς προφίλ (%1)"
+
+#: src/launcher/ui/MainWindow.cpp:108
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (σε χρήση)"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
@@ -4316,139 +4404,51 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Μπορείτε <a href=\"%1\">να δείτε τις αλλαγές στο GitHub</a>.</p>"
 
-#: src/launcher/ui/MainWindow.cpp:101
-#, qt-format
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Χωρίς προφίλ (%1)"
-
-#: src/launcher/ui/MainWindow.cpp:108
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (σε χρήση)"
-
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Αποτυχία μεταφόρτωσης"
-
-#: src/launcher/ui/GuiUtil.cpp:30
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Το αρχείο καταγραφής είναι πολύ μεγάλο. Θα πρέπει να το μεταφορτώσετε χειροκίνητα."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Η μεταφόρτωση ολοκληρώθηκε"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "Ο <a href=\"%1\">σύνδεσμος για το αρχείο καταγραφής που μεταφορτώσατε</a> έχει τοποθετηθεί στο πρόχειρο."
+msgid "Minecraft Server"
+msgstr "Διακομιστής Minecraft"
 
 #: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr "Η περιγραφή λείπει από το FTB App."
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+#: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Διακομιστής Minecraft"
+msgid "Bright"
+msgstr "Ανοιχτόχρωμο"
 
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
+#: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1λ %2δευτ"
+msgid "Dark"
+msgstr "Σκούρο"
 
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
+#: src/launcher/ui/themes/SystemTheme.cpp:47
 msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1ω %2λ"
+msgid "System"
+msgstr "Προεπιλογή συστήματος"
 
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1μ %2ω %3λ"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Το καθορισμένο εκτελέσιμο είτε δεν υπάρχει είτε δεν είναι κατάλληλα εκτελέσιμο."
 
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
 msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Κενή διαδρομή"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Μή έγκυρη διαδρομή για JVisualVM"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Η διαδρομή είναι κενή"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Η διαδρομή δεν υπάρχει"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Η διαδρομή δεν φαίνεται να είναι διαδρομή MCEdit"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Μη έγκυρη εγκατάσταση JProfiler"
-
-#: src/launcher/JavaCommon.cpp:10
-msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "Προσπαθήσατε να ορίσετε χειροκίνητα μια επιλογή μνήμης JVM (χρησιμοποιώντας \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\", \"-Xmx\" ή \"-Xms\").\n"
-"Υπάρχουν ειδικά πεδία για αυτά στις ρυθμίσεις (καρτέλα Java, στην ομάδα επιλογών \"Μνήμη\" στην κορυφή).\n"
-"Αυτό το μήνυμα θα εμφανιστεί μέχρι να αφαιρέσετε την επιλογή μνήμης από τις επιλογές JVM."
-
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
-msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "Προειδοποίηση παραμέτρων JVM"
-
-#: src/launcher/JavaCommon.cpp:22
-msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "Προσπαθήσατε να περάσετε την απαιτούμενη έκδοση Java στο JVM (χρησιμοποιώντας \"-version=xxx\"). Αυτό δεν είναι ασφαλές και δεν επιτρέπεται.\n"
-"Αυτό το μήνυμα θα εμφανίζεται μέχρι να το αφαιρέσετε από τα ορίσματα JVM."
-
-#: src/launcher/JavaCommon.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "Εξέταση Java πέτυχε!<br />Αναφέρθηκε η πλατφόρμα: %1<br />Αναφέρθηκε η έκδοση Java: %2<br />Αναφέρθηκε ο προμηθευτής Java: %3<br />"
-
-#: src/launcher/JavaCommon.cpp:44
-#, qt-format
-msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />Προειδοποιήσεις:<br /><font color=\"orange\">%1</font>"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgid "The specified java binary didn't start properly.<br />"
 msgstr "Το συγκεκριμένο εκτελέσιμο java δεν λειτούργησε με τις παραμέτρους που έχετε δώσει:<br />"
 
-#: src/launcher/JavaCommon.cpp:62
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
 msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "Το εκτελέσιμο αρχείο java δεν δούλεψε.<br />Θα πρέπει να χρησιμοποιήσετε τη λειτουργία αυτόματης ανίχνευσης, ή να ορίσετε τη διαδρομή προς το εκτελέσιμο αρχείο Java.<br />"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Το συγκεκριμένο εκτελέσιμο java επέστρεψε απροσδόκητα αποτελέσματα:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Εξέταση Java πέτυχε!<br />Αναφέρθηκε η πλατφόρμα: %1<br />Αναφέρθηκε η έκδοση Java: %2<br />"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
@@ -4689,15 +4689,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Συμμετοχή"
 
-#: src/launcher/ui/pages/instance/ServersPage.h:46
-msgctxt "ServersPage|"
-msgid "Servers"
-msgstr "Διακομιστές"
-
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
 msgstr "Μενού περιβάλλοντος"
+
+#: src/launcher/ui/pages/instance/ServersPage.h:46
+msgctxt "ServersPage|"
+msgid "Servers"
+msgstr "Διακομιστές"
 
 #: src/launcher/minecraft/auth/steps/SetCapeStep.cpp:23
 msgctxt "SetCapeStep|"
@@ -5689,11 +5689,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Διαχείριση datapacks μέσα στον κόσμο."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Κόσμοι"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -5774,6 +5769,11 @@ msgstr "Εισάγετε ένα νέο όνομα για την αντιγραφ
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Εισάγετε ένα νεό όνομα κόσμου."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Κόσμοι"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
