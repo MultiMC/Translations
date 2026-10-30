@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2026-10-21 11:52\n"
+"PO-Revision-Date: 2026-10-30 00:13\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -534,11 +534,6 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "חפש וסנן..."
 
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr "ATLauncher"
-
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -559,6 +554,11 @@ msgstr "לא ניתן לטעון או להוריד את רשימות הגרסא�
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "מתקין"
+
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr "ATLauncher"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:26
 msgctxt "AuthFlow|"
@@ -1431,11 +1431,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "עולם חד שחקני:"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "הגדרות"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1445,6 +1440,11 @@ msgstr "בחר גרסת Java"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "מצא את קובץ ההרצה של Java"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "הגדרות"
 
 #: src/launcher/InstanceList.cpp:832
 msgctxt "InstanceStaging|"
@@ -1574,11 +1574,6 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "בדוק"
 
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr "Java"
-
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1588,6 +1583,11 @@ msgstr "בחר גרסת Java"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "מצא את קובץ ההרצה של Java"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr "Java"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2291,11 +2291,6 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "שדרג את המופע"
 
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "עדכון"
-
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2311,6 +2306,11 @@ msgstr "בטל"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (נדד)"
+
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "עדכון"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -2431,11 +2431,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "תחתית"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "יומן Minecraft"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2445,6 +2440,11 @@ msgstr "העלאת יומן"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "האם אתה בטוח שברצונך להעלות את קובץ הדיווח?"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "יומן Minecraft"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -4083,100 +4083,78 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
+#: src/launcher/JavaCommon.cpp:10
+msgctxt "QObject|"
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "ניסית להגדיר ידנית אפשרויות זיכרון עבור JVM (בעזרת \"‎-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"‎-Xmx\" ‏או \"‎-Xms\").\n"
+"‏קיימות הגדרות מיוחדות עבור האפשרויות האלה בהגדרות (בלשונית \"Java\", בקבוצת \"זיכרון\" למעלה).\n"
+"ההודעה הזו תוצג עד שתסיר את האפשרויות הללו מהפרמטרים של JVM."
+
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+msgctxt "QObject|"
+msgid "JVM arguments warning"
+msgstr "אזהרת פרמטרים של JVM"
+
+#: src/launcher/JavaCommon.cpp:22
+msgctxt "QObject|"
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "ניסית להעביר ארגומנט גרסה נדרש ל-JVM (בעזרת \"-version=xxx\"). זה לא בטוח ולא מאופשר.\n"
+"ההודעה הזו תוצג עד שתמחק את הארגומנט מרשימת הארגומנטים ל-JVM."
+
+#: src/launcher/JavaCommon.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "נכסים עבור %1"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "בדיקת Java הושלמה בהצלחה!<br /> הפלטפורמה שזוהתה: %1<br /> גרסת ה-Java שזוהתה: %2<br />ספק ה-Java שזוהה: %3<br />"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#: src/launcher/JavaCommon.cpp:44
 #, qt-format
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments מוגדר לערך לא ידוע '%1'"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />אזהרות:<br /><font color=\"orange\">%1</font>"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "הצלחה בבדיקת Java"
+
+#: src/launcher/JavaCommon.cpp:54
+msgctxt "QObject|"
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "קוב. ה-Java שהוגדר לא עבד עם הארגומנטים שסיפקת:<br />"
+
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "כישלון בבדיקת Java"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "קובץ ה-Java שהוגדר לא עבד.<br />אתה צריך להשתמש בתכונת הזיהוי האוטומטי, או להגדיר את הנתיב לקובץ ההרצה של java.<br />"
+
+#: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "הערך של 'minimumLauncherVersion' של הגרסה הזו (%1) גבוה יותר מזה שנתמך על ידי %3 (%2). יתכן שזה לא יעבוד כראוי!"
+msgid "%1m %2s"
+msgstr "%1 דקות ו-%2 שניות"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "שם הספרייה %1 אינו תקין ולא ניתן לעבד אותה."
+msgid "%1h %2m"
+msgstr "%1 שעות ו-%2 דקות"
 
-#: src/launcher/minecraft/ProfileUtils.cpp:51
+#: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "גרסת קובץ הסידור לא תקינה, ציפינו ל-%1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "לא ניתן היה לפתוח את קובץ הגרסה %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "לא ניתן היה לפתוח את קובץ הגרסה %1: %2 בשורה %3 עמודה %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "לא ניתן היה לעבד את קובץ הגרסה %1."
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "הטלאי עוד לא נטען."
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "גרסת קובץ הרכיב לא תקינה, ציפינו ל-%1"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "קובץ הגרסה מכיל גם '+libraries' וגם 'libraries'. זה כבר לא נתמך."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "לא ניתן היה לאתר את כתובת ה-jar הראשי - Mojang הסירו את השרת בו השתמשנו לגיבוי."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-libraries'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-minecrafArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '+minecrafArguments'"
+msgid "%1d %2h %3m"
+msgstr "%1 ימים, %2 שעות ו-%3 דקות"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4221,67 +4199,175 @@ msgstr "גם השחזור נכשל.\n"
 "תאלץ לתקן את %1 ידנית.\n"
 "נא ידע אותנו למה ואיך זה קרה."
 
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "גרסת הפורמט לא ידועה!"
-
 #: src/launcher/meta/BaseEntity.cpp:120
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "הורדת קובץ מטא %1"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
 msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "הקובץ שהוגדר לא קיים או שאינו קובץ הרצה תקין."
+msgid "Unknown format version!"
+msgstr "גרסת הפורמט לא ידועה!"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "קובץ ה-Java שהוגדר לא רץ כראוי.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "קובץ ה-Java שהוגדר החזיר תוצאות לא־צפויות:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "בדיקת Java הושלמה בהצלחה!<br />\n"
-"הפלטפורמה שזוהתה: %1<br />\n"
-"גרסת ה-Java שזוהתה: %2<br />"
+msgid "Assets for %1"
+msgstr "נכסים עבור %1"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "כישלון בבדיקת Java"
+msgid "Patch is not loaded yet."
+msgstr "הטלאי עוד לא נטען."
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
 msgctxt "QObject|"
-msgid "Java test success"
-msgstr "הצלחה בבדיקת Java"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments מוגדר לערך לא ידוע '%1'"
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
 msgctxt "QObject|"
-msgid "Dark"
-msgstr "כהה"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "הערך של 'minimumLauncherVersion' של הגרסה הזו (%1) גבוה יותר מזה שנתמך על ידי %3 (%2). יתכן שזה לא יעבוד כראוי!"
 
-#: src/launcher/ui/themes/BrightTheme.cpp:10
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
 msgctxt "QObject|"
-msgid "Bright"
-msgstr "בהיר"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "שם הספרייה %1 אינו תקין ולא ניתן לעבד אותה."
 
-#: src/launcher/ui/themes/SystemTheme.cpp:47
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
-msgid "System"
-msgstr "מערכת"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "קובץ הגרסה מכיל גם '+libraries' וגם 'libraries'. זה כבר לא נתמך."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "לא ניתן היה לאתר את כתובת ה-jar הראשי - Mojang הסירו את השרת בו השתמשנו לגיבוי."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-libraries'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-minecrafArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '+minecrafArguments'"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "גרסת קובץ הרכיב לא תקינה, ציפינו ל-%1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "גרסת קובץ הסידור לא תקינה, ציפינו ל-%1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "לא ניתן היה לפתוח את קובץ הגרסה %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "לא ניתן היה לפתוח את קובץ הגרסה %1: %2 בשורה %3 עמודה %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "לא ניתן היה לעבד את קובץ הגרסה %1."
+
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "הנתיב ריק"
+
+#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "הנתיב לא קיים"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "ההתקנה של JProfiler אינה תקינה"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "נתיב לא תקין אל JVisualVM"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "הנתיב ריק"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "הנתיב לא נראה כמו נתיב של MCEdit"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "ההעלאה נכשלה"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "קובץ היומן גדול מדי. תיאלץ להעלותו ידנית."
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "ההעלה הסתיימה"
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">הקישור ליומן שהועלה</a> הועתק ללוח ההעתקה שלך."
+
+#: src/launcher/ui/MainWindow.cpp:101
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "אין פרופיל (%1)"
+
+#: src/launcher/ui/MainWindow.cpp:108
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (בשימוש)"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
@@ -4320,139 +4406,53 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>אתה יכול <a href=\"%1\">לראות את השינויים בגיטהאב</a>.</p>"
 
-#: src/launcher/ui/MainWindow.cpp:101
-#, qt-format
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "אין פרופיל (%1)"
-
-#: src/launcher/ui/MainWindow.cpp:108
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (בשימוש)"
-
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "ההעלאה נכשלה"
-
-#: src/launcher/ui/GuiUtil.cpp:30
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "קובץ היומן גדול מדי. תיאלץ להעלותו ידנית."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "ההעלה הסתיימה"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">הקישור ליומן שהועלה</a> הועתק ללוח ההעתקה שלך."
+msgid "Minecraft Server"
+msgstr "שרת מיינקראפט"
 
 #: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr "התיאור חסר ממופע ה-FTB App."
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+#: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "שרת מיינקראפט"
+msgid "Bright"
+msgstr "בהיר"
 
-#: src/launcher/MMCTime.cpp:31
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "כהה"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "מערכת"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "הקובץ שהוגדר לא קיים או שאינו קובץ הרצה תקין."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "קובץ ה-Java שהוגדר לא רץ כראוי.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "קובץ ה-Java שהוגדר החזיר תוצאות לא־צפויות:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
 #, qt-format
 msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1 דקות ו-%2 שניות"
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1 שעות ו-%2 דקות"
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1 ימים, %2 שעות ו-%3 דקות"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "הנתיב ריק"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "נתיב לא תקין אל JVisualVM"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "הנתיב ריק"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "הנתיב לא קיים"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "הנתיב לא נראה כמו נתיב של MCEdit"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "ההתקנה של JProfiler אינה תקינה"
-
-#: src/launcher/JavaCommon.cpp:10
-msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "ניסית להגדיר ידנית אפשרויות זיכרון עבור JVM (בעזרת \"‎-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"‎-Xmx\" ‏או \"‎-Xms\").\n"
-"‏קיימות הגדרות מיוחדות עבור האפשרויות האלה בהגדרות (בלשונית \"Java\", בקבוצת \"זיכרון\" למעלה).\n"
-"ההודעה הזו תוצג עד שתסיר את האפשרויות הללו מהפרמטרים של JVM."
-
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
-msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "אזהרת פרמטרים של JVM"
-
-#: src/launcher/JavaCommon.cpp:22
-msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "ניסית להעביר ארגומנט גרסה נדרש ל-JVM (בעזרת \"-version=xxx\"). זה לא בטוח ולא מאופשר.\n"
-"ההודעה הזו תוצג עד שתמחק את הארגומנט מרשימת הארגומנטים ל-JVM."
-
-#: src/launcher/JavaCommon.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "בדיקת Java הושלמה בהצלחה!<br /> הפלטפורמה שזוהתה: %1<br /> גרסת ה-Java שזוהתה: %2<br />ספק ה-Java שזוהה: %3<br />"
-
-#: src/launcher/JavaCommon.cpp:44
-#, qt-format
-msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />אזהרות:<br /><font color=\"orange\">%1</font>"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "קוב. ה-Java שהוגדר לא עבד עם הארגומנטים שסיפקת:<br />"
-
-#: src/launcher/JavaCommon.cpp:62
-msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "קובץ ה-Java שהוגדר לא עבד.<br />אתה צריך להשתמש בתכונת הזיהוי האוטומטי, או להגדיר את הנתיב לקובץ ההרצה של java.<br />"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "בדיקת Java הושלמה בהצלחה!<br />\n"
+"הפלטפורמה שזוהתה: %1<br />\n"
+"גרסת ה-Java שזוהתה: %2<br />"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
@@ -4693,15 +4693,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "הצטרף"
 
-#: src/launcher/ui/pages/instance/ServersPage.h:46
-msgctxt "ServersPage|"
-msgid "Servers"
-msgstr "שרתים"
-
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
 msgstr "תפריט לחיצה ימנית"
+
+#: src/launcher/ui/pages/instance/ServersPage.h:46
+msgctxt "ServersPage|"
+msgid "Servers"
+msgstr "שרתים"
 
 #: src/launcher/minecraft/auth/steps/SetCapeStep.cpp:23
 msgctxt "SetCapeStep|"
@@ -5693,11 +5693,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "נהל חבילות מידע בתוך העולם."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "עולמות"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -5778,6 +5773,11 @@ msgstr "הכנס שם חדש להעתק."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "הכנס שם עולם חדש."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "עולמות"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
