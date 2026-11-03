@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2026-11-01 21:15\n"
+"PO-Revision-Date: 2026-11-03 20:57\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -432,28 +432,28 @@ msgctxt "Application|"
 msgid "Settings"
 msgstr "إعدادات"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:22
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
 msgstr "جار تحديث فهرس الموارد..."
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:28
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:29
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
 msgstr "فهرس الموارد لـ %1"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:73
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:78
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
 msgstr "فشل في قراءة فهرس الموارد!"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:79
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:84
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
 msgstr "جار الحصول على ملفات الموارد من موجانغ..."
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:93
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:98
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
@@ -461,7 +461,7 @@ msgid "Failed to download the assets index:\n"
 msgstr "فشل في تنزيل فهرس الموارد:\n"
 "%1"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:98
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:103
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
@@ -591,27 +591,33 @@ msgctxt "ClaimAccount|"
 msgid "Failed to claim account by profile: %1 was not found."
 msgstr "فشل في المطالبة بحساب عن طريق الملف الشخصي: لم يتم العثور على %1."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:270
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:262
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
 msgstr "عملية تحميل المعلومات الوصفية الخاصة بعنصرٍ ما باءت بالفشل."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:526
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:518
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
 msgstr "تم اكتشاف تضارب متطلبات أثناء التحقق من الاعتماديات!"
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:545
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:530
+#, qt-format
+msgctxt "ComponentUpdateTask|"
+msgid "Could not remove obsolete component %1."
+msgstr ""
+
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:541
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
 msgstr "النموذج يحتوي اعتماديات متضاربة."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:552
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:548
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "النموذج يحتوي اعتماديات لم يتم تسويتها أثناء التحميل/التحقق للتشغيل."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:702
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:698
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
@@ -1128,7 +1134,7 @@ msgctxt "ImportPage|"
 msgid "Import from zip"
 msgstr "الاستيراد من ملف مضغوط (zip)‫"
 
-#: src/launcher/meta/Index.cpp:71
+#: src/launcher/meta/Index.cpp:72
 msgctxt "Index|"
 msgid "Name"
 msgstr "الإسم"
@@ -1165,7 +1171,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "جار إنشاء نموذج عن الإصدار %1"
 
-#: src/launcher/InstanceImportTask.cpp:55
+#: src/launcher/InstanceImportTask.cpp:56
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -1173,65 +1179,65 @@ msgid "Downloading modpack:\n"
 msgstr "جار تنزيل حزمة الإضافات:\n"
 "%1"
 
-#: src/launcher/InstanceImportTask.cpp:61
+#: src/launcher/InstanceImportTask.cpp:62
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "تنزيل حزمة إضافات"
 
-#: src/launcher/InstanceImportTask.cpp:91
+#: src/launcher/InstanceImportTask.cpp:92
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "جار استخراج حزمة الإضافات"
 
-#: src/launcher/InstanceImportTask.cpp:99
+#: src/launcher/InstanceImportTask.cpp:100
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "لا يمكن فتح الملف المحدد لحزمة الإضافات المضغوطة."
 
-#: src/launcher/InstanceImportTask.cpp:139
-#: src/launcher/InstanceImportTask.cpp:203
+#: src/launcher/InstanceImportTask.cpp:140
+#: src/launcher/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "الأرشيف لا يحتوي على أي نوع من حزم الإضافات المدعومة."
 
-#: src/launcher/InstanceImportTask.cpp:155
+#: src/launcher/InstanceImportTask.cpp:156
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "فشل في استخراج حزمة الإضافات"
 
-#: src/launcher/InstanceImportTask.cpp:182
+#: src/launcher/InstanceImportTask.cpp:183
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "تعذر إصلاح الأذونات لـ %1"
 
-#: src/launcher/InstanceImportTask.cpp:210
+#: src/launcher/InstanceImportTask.cpp:211
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "تم الانتهاء من استيراد النموذج."
 
-#: src/launcher/InstanceImportTask.cpp:422
+#: src/launcher/InstanceImportTask.cpp:427
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "تعذرت معالجة فهرس الحزمة:\n"
 
-#: src/launcher/InstanceImportTask.cpp:429
+#: src/launcher/InstanceImportTask.cpp:434
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "تعذرت إعادة تسمية مجلد \"overrides\":\n"
 
-#: src/launcher/InstanceImportTask.cpp:436
 #: src/launcher/InstanceImportTask.cpp:441
+#: src/launcher/InstanceImportTask.cpp:446
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "فشل دمج مجلد التجاوزات:\n"
 
-#: src/launcher/InstanceImportTask.cpp:471
+#: src/launcher/InstanceImportTask.cpp:476
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "تنزيل إضافة"
 
-#: src/launcher/InstanceImportTask.cpp:494
+#: src/launcher/InstanceImportTask.cpp:503
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "جار تنزيل الإضافات..."
@@ -3894,12 +3900,12 @@ msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "تقارير أخرى"
 
-#: src/launcher/minecraft/PackProfile.cpp:857
+#: src/launcher/minecraft/PackProfile.cpp:881
 msgctxt "PackProfile|"
 msgid "Name"
 msgstr "الاسم"
 
-#: src/launcher/minecraft/PackProfile.cpp:859
+#: src/launcher/minecraft/PackProfile.cpp:883
 msgctxt "PackProfile|"
 msgid "Version"
 msgstr "الإصدار"
@@ -4206,19 +4212,19 @@ msgstr "فشل التراجع أيضًا.\n"
 "يجب عليك إصلاح %1 يدوياً.\n"
 "الرجاء إخبارنا لماذا وكيف حدث هذا."
 
-#: src/launcher/meta/BaseEntity.cpp:120
+#: src/launcher/meta/BaseEntity.cpp:166
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "التنزيل لملف التعريف %1"
 
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
+#: src/launcher/meta/JsonFormat.cpp:142 src/launcher/meta/JsonFormat.cpp:155
+#: src/launcher/meta/JsonFormat.cpp:168
 msgctxt "QObject|"
 msgid "Unknown format version!"
 msgstr "إصدار الصيغة غير معروف!"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
+#: src/launcher/minecraft/AssetsUtils.cpp:328
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
@@ -4975,7 +4981,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "حزم الرسوميات"
 
-#: src/launcher/translations/TranslationsModel.cpp:367
+#: src/launcher/translations/TranslationsModel.cpp:368
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -4987,22 +4993,22 @@ msgstr "%1:\n"
 "%3 كلمة مبهمة\n"
 "مجموع الكلمات %4"
 
-#: src/launcher/translations/TranslationsModel.cpp:385
+#: src/launcher/translations/TranslationsModel.cpp:386
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "اللغة"
 
-#: src/launcher/translations/TranslationsModel.cpp:389
+#: src/launcher/translations/TranslationsModel.cpp:390
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "الإكتمال"
 
-#: src/launcher/translations/TranslationsModel.cpp:399
+#: src/launcher/translations/TranslationsModel.cpp:400
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "اسم اللغة."
 
-#: src/launcher/translations/TranslationsModel.cpp:403
+#: src/launcher/translations/TranslationsModel.cpp:404
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "نسبة الإكتمال هي النسبة المئوية للنصوص المترجمة بالكامل، دون حساب الترجمات الآلية."
