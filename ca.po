@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
-"PO-Revision-Date: 2026-11-01 21:15\n"
+"PO-Revision-Date: 2026-11-03 20:57\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -431,35 +431,35 @@ msgctxt "Application|"
 msgid "Settings"
 msgstr "Configuració"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:22
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
 msgstr "Actualitzant l'índex d'actius..."
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:28
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:29
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
 msgstr "Índex d'actiu de %1"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:73
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:78
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
 msgstr "Error en llegir l'índex d'actius!"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:79
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:84
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
 msgstr "Obtenint els fitxers d'actius de Mojang..."
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:93
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:98
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
 "%1"
 msgstr "Error en descarregar l'índex d'actius %1"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:98
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:103
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
@@ -588,27 +588,33 @@ msgctxt "ClaimAccount|"
 msgid "Failed to claim account by profile: %1 was not found."
 msgstr ""
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:270
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:262
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
 msgstr "La càrrega de tasques de metadades d'alguns components ha fallat."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:526
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:518
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
 msgstr "S'han detectat requisits conflictius durant la comprovació de dependències!"
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:545
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:530
+#, qt-format
+msgctxt "ComponentUpdateTask|"
+msgid "Could not remove obsolete component %1."
+msgstr ""
+
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:541
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
 msgstr "La instància té dependències conflictives."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:552
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:548
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "La instància no ha resolt dependències mentre es carreguen/comproven per l'execució."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:702
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:698
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
@@ -1124,7 +1130,7 @@ msgctxt "ImportPage|"
 msgid "Import from zip"
 msgstr "Importa des d'un fitxer .zip"
 
-#: src/launcher/meta/Index.cpp:71
+#: src/launcher/meta/Index.cpp:72
 msgctxt "Index|"
 msgid "Name"
 msgstr ""
@@ -1161,7 +1167,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "Creant una instància des de la versió %1"
 
-#: src/launcher/InstanceImportTask.cpp:55
+#: src/launcher/InstanceImportTask.cpp:56
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -1169,65 +1175,65 @@ msgid "Downloading modpack:\n"
 msgstr "Descarregant el paquet de mods:\n"
 "%1"
 
-#: src/launcher/InstanceImportTask.cpp:61
+#: src/launcher/InstanceImportTask.cpp:62
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Descàrrega del paquet de mods"
 
-#: src/launcher/InstanceImportTask.cpp:91
+#: src/launcher/InstanceImportTask.cpp:92
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Extraent els paquets de mods"
 
-#: src/launcher/InstanceImportTask.cpp:99
+#: src/launcher/InstanceImportTask.cpp:100
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "No hem estat capaços d'obrir l'arxiu zip del paquet de mods."
 
-#: src/launcher/InstanceImportTask.cpp:139
-#: src/launcher/InstanceImportTask.cpp:203
+#: src/launcher/InstanceImportTask.cpp:140
+#: src/launcher/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "L'arxiu no hi conté un tipus de paquet de mods reconegut."
 
-#: src/launcher/InstanceImportTask.cpp:155
+#: src/launcher/InstanceImportTask.cpp:156
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Error a l'extraure el paquet de mods"
 
-#: src/launcher/InstanceImportTask.cpp:182
+#: src/launcher/InstanceImportTask.cpp:183
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "No hem pogut solucionar els permissos per a %1"
 
-#: src/launcher/InstanceImportTask.cpp:210
+#: src/launcher/InstanceImportTask.cpp:211
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "La importació de la instància ha estat avortada."
 
-#: src/launcher/InstanceImportTask.cpp:422
+#: src/launcher/InstanceImportTask.cpp:427
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "No s'ha pogut entendre l'índex del paquet:\n"
 
-#: src/launcher/InstanceImportTask.cpp:429
+#: src/launcher/InstanceImportTask.cpp:434
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "No hem pogut canviar el nom de la carpeta de substitucions:\n"
 
-#: src/launcher/InstanceImportTask.cpp:436
 #: src/launcher/InstanceImportTask.cpp:441
+#: src/launcher/InstanceImportTask.cpp:446
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "No s'ha pogut combinar la carpeta de substitucions:\n"
 
-#: src/launcher/InstanceImportTask.cpp:471
+#: src/launcher/InstanceImportTask.cpp:476
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Descàrrega de modpack"
 
-#: src/launcher/InstanceImportTask.cpp:494
+#: src/launcher/InstanceImportTask.cpp:503
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Descarregant mods..."
@@ -3886,12 +3892,12 @@ msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "Altres registres"
 
-#: src/launcher/minecraft/PackProfile.cpp:857
+#: src/launcher/minecraft/PackProfile.cpp:881
 msgctxt "PackProfile|"
 msgid "Name"
 msgstr "Nom"
 
-#: src/launcher/minecraft/PackProfile.cpp:859
+#: src/launcher/minecraft/PackProfile.cpp:883
 msgctxt "PackProfile|"
 msgid "Version"
 msgstr "Versió"
@@ -4198,19 +4204,19 @@ msgstr "El retrocés també ha fallat.\n"
 "Haureu de reparar %1 manualment.\n"
 "Si us plau, feu-nos saber com i perquè això ha passat."
 
-#: src/launcher/meta/BaseEntity.cpp:120
+#: src/launcher/meta/BaseEntity.cpp:166
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "Descàrrega del fitxer meta %1"
 
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
+#: src/launcher/meta/JsonFormat.cpp:142 src/launcher/meta/JsonFormat.cpp:155
+#: src/launcher/meta/JsonFormat.cpp:168
 msgctxt "QObject|"
 msgid "Unknown format version!"
 msgstr "Versió del format desconeguda!"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
+#: src/launcher/minecraft/AssetsUtils.cpp:328
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
@@ -4968,7 +4974,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "Paquets de textures"
 
-#: src/launcher/translations/TranslationsModel.cpp:367
+#: src/launcher/translations/TranslationsModel.cpp:368
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -4980,22 +4986,22 @@ msgstr "%1:\n"
 "%3 borroses\n"
 "%4 en total"
 
-#: src/launcher/translations/TranslationsModel.cpp:385
+#: src/launcher/translations/TranslationsModel.cpp:386
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "Llengua"
 
-#: src/launcher/translations/TranslationsModel.cpp:389
+#: src/launcher/translations/TranslationsModel.cpp:390
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "Compleció"
 
-#: src/launcher/translations/TranslationsModel.cpp:399
+#: src/launcher/translations/TranslationsModel.cpp:400
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "El nom natiu de la llengua."
 
-#: src/launcher/translations/TranslationsModel.cpp:403
+#: src/launcher/translations/TranslationsModel.cpp:404
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "La compleció és el percentatge de cadenes completament traduïdes, sense comptar aquelles que s'hagin generat automàticament."
