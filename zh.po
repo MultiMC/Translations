@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2026-11-01 21:16\n"
+"PO-Revision-Date: 2026-11-03 20:58\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -432,28 +432,28 @@ msgctxt "Application|"
 msgid "Settings"
 msgstr "设置"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:22
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
 msgstr "正在更新 assets 资源文件索引……"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:28
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:29
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
 msgstr "%1 的 asset 资源索引"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:73
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:78
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
 msgstr "读取资源索引错误！"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:79
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:84
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
 msgstr "正在从Mojang获取assets资源文件..."
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:93
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:98
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
@@ -461,7 +461,7 @@ msgid "Failed to download the assets index:\n"
 msgstr "下载 assets 资源索引时出错：\n"
 "%1"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:98
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:103
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
@@ -591,27 +591,33 @@ msgctxt "ClaimAccount|"
 msgid "Failed to claim account by profile: %1 was not found."
 msgstr "通过配置文件声明账户失败：未找到 %1。"
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:270
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:262
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
 msgstr "部分组件元数据加载失败。"
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:526
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:518
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
 msgstr "在依赖检测过程中检测到冲突的必要依赖项！"
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:545
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:530
+#, qt-format
+msgctxt "ComponentUpdateTask|"
+msgid "Could not remove obsolete component %1."
+msgstr ""
+
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:541
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
 msgstr "实例包含冲突的依赖项。"
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:552
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:548
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "实例在运行时执行的加载/检查中发现未解析的依赖项。"
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:702
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:698
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
@@ -1140,7 +1146,7 @@ msgctxt "ImportPage|"
 msgid "Import from zip"
 msgstr "导入 Zip 压缩包"
 
-#: src/launcher/meta/Index.cpp:71
+#: src/launcher/meta/Index.cpp:72
 msgctxt "Index|"
 msgid "Name"
 msgstr "名称"
@@ -1177,7 +1183,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "正在从版本 %1 创建实例版本列表"
 
-#: src/launcher/InstanceImportTask.cpp:55
+#: src/launcher/InstanceImportTask.cpp:56
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -1185,65 +1191,65 @@ msgid "Downloading modpack:\n"
 msgstr "正在下载整合包：\n"
 "%1"
 
-#: src/launcher/InstanceImportTask.cpp:61
+#: src/launcher/InstanceImportTask.cpp:62
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "下载整合包"
 
-#: src/launcher/InstanceImportTask.cpp:91
+#: src/launcher/InstanceImportTask.cpp:92
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "正在解压整合包"
 
-#: src/launcher/InstanceImportTask.cpp:99
+#: src/launcher/InstanceImportTask.cpp:100
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "无法打开提供的整合包 zip 压缩文件。"
 
-#: src/launcher/InstanceImportTask.cpp:139
-#: src/launcher/InstanceImportTask.cpp:203
+#: src/launcher/InstanceImportTask.cpp:140
+#: src/launcher/InstanceImportTask.cpp:204
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "压缩包未包含可识别的整合包类型。"
 
-#: src/launcher/InstanceImportTask.cpp:155
+#: src/launcher/InstanceImportTask.cpp:156
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "解压整合包时失败"
 
-#: src/launcher/InstanceImportTask.cpp:182
+#: src/launcher/InstanceImportTask.cpp:183
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "无法修复 %1 的权限"
 
-#: src/launcher/InstanceImportTask.cpp:210
+#: src/launcher/InstanceImportTask.cpp:211
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "实例导入操作被中断。"
 
-#: src/launcher/InstanceImportTask.cpp:422
+#: src/launcher/InstanceImportTask.cpp:427
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "无法解析包索引：\n"
 
-#: src/launcher/InstanceImportTask.cpp:429
+#: src/launcher/InstanceImportTask.cpp:434
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "无法重命名覆盖的目录：\n"
 
-#: src/launcher/InstanceImportTask.cpp:436
 #: src/launcher/InstanceImportTask.cpp:441
+#: src/launcher/InstanceImportTask.cpp:446
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "无法合并覆盖的文件夹：\n"
 
-#: src/launcher/InstanceImportTask.cpp:471
+#: src/launcher/InstanceImportTask.cpp:476
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod下载"
 
-#: src/launcher/InstanceImportTask.cpp:494
+#: src/launcher/InstanceImportTask.cpp:503
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "下载Mod中..."
@@ -3906,12 +3912,12 @@ msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "其他日志"
 
-#: src/launcher/minecraft/PackProfile.cpp:857
+#: src/launcher/minecraft/PackProfile.cpp:881
 msgctxt "PackProfile|"
 msgid "Name"
 msgstr "名称"
 
-#: src/launcher/minecraft/PackProfile.cpp:859
+#: src/launcher/minecraft/PackProfile.cpp:883
 msgctxt "PackProfile|"
 msgid "Version"
 msgstr "版本"
@@ -4217,19 +4223,19 @@ msgstr "更新失败了，并且回滚也失败了。\n"
 "你需要手动修复 %1 了。\n"
 "请给我们反馈，让我们知悉这种情况为何、如何发生的。"
 
-#: src/launcher/meta/BaseEntity.cpp:120
+#: src/launcher/meta/BaseEntity.cpp:166
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "下载元数据文件 %1"
 
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
+#: src/launcher/meta/JsonFormat.cpp:142 src/launcher/meta/JsonFormat.cpp:155
+#: src/launcher/meta/JsonFormat.cpp:168
 msgctxt "QObject|"
 msgid "Unknown format version!"
 msgstr "未知格式版本！"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
+#: src/launcher/minecraft/AssetsUtils.cpp:328
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
@@ -4987,7 +4993,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "材质包"
 
-#: src/launcher/translations/TranslationsModel.cpp:367
+#: src/launcher/translations/TranslationsModel.cpp:368
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -4999,22 +5005,22 @@ msgstr "%1：\n"
 "%3 模糊\n"
 "%4 总计"
 
-#: src/launcher/translations/TranslationsModel.cpp:385
+#: src/launcher/translations/TranslationsModel.cpp:386
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "语言"
 
-#: src/launcher/translations/TranslationsModel.cpp:389
+#: src/launcher/translations/TranslationsModel.cpp:390
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "完整性"
 
-#: src/launcher/translations/TranslationsModel.cpp:399
+#: src/launcher/translations/TranslationsModel.cpp:400
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "母语名称。"
 
-#: src/launcher/translations/TranslationsModel.cpp:403
+#: src/launcher/translations/TranslationsModel.cpp:404
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "完整性是完全翻译字符串所占的百分比，不包括自动猜测的字符串。"
