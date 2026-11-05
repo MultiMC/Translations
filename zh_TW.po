@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2026-11-05 07:15\n"
+"PO-Revision-Date: 2026-11-05 08:58\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2045,7 +2045,7 @@ msgstr "測試版本：測試中期望成為穩定版本的建置版本"
 #: src/launcher/ui/pages/global/LauncherPage.cpp:69
 msgctxt "LauncherPage|"
 msgid "Latest: the newest build, with every change"
-msgstr ""
+msgstr "最新版本：擁有所有修正功能的最新建置版本"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:108
 msgctxt "LauncherPage|"
@@ -2966,7 +2966,7 @@ msgstr "無法為下載的更新建立資料夾：%1"
 #: src/launcher/ui/MainWindow.cpp:1401
 msgctxt "MainWindow|"
 msgid "Older build"
-msgstr ""
+msgstr "舊版"
 
 #: src/launcher/ui/MainWindow.cpp:1402
 #, qt-format
@@ -2974,39 +2974,41 @@ msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
 "Going back is not always safe: newer builds may have changed how your data is stored, and an older build may not be able to read it. Make a backup of your instances first.\n\n"
 "Install build %2 anyway?"
-msgstr ""
+msgstr "等級 %1 位於版本 %2，比當前版本（%3）還舊。\n\n"
+"退回舊版並不總是安全：新版本可能修改了儲存資料的方式，舊版本不一定可以讀取它們。請先備份你的實例。\n\n"
+"繼續安裝版本 %2 嗎？"
 
 #: src/launcher/ui/MainWindow.cpp:1427 src/launcher/ui/MainWindow.cpp:1436
 msgctxt "MainWindow|"
 msgid "No updates"
-msgstr ""
+msgstr "沒有更新"
 
 #: src/launcher/ui/MainWindow.cpp:1437
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3). This build stays until there is a newer one."
-msgstr ""
+msgstr "等級 %1 位於版本 %2，比當前版本（%3）還舊。此版本將會維持直到擁有更新的版本。"
 
 #: src/launcher/ui/MainWindow.cpp:1443
 msgctxt "MainWindow|"
 msgid "Update not possible"
-msgstr ""
+msgstr "無法更新"
 
 #: src/launcher/ui/MainWindow.cpp:1444
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Build %1 is available, but it can't be installed here:"
-msgstr ""
+msgstr "版本 %1 可供使用，但無法在此處安裝："
 
 #: src/launcher/ui/MainWindow.cpp:1448
 msgctxt "MainWindow|"
 msgid "Update check failed"
-msgstr ""
+msgstr "更新檢查失敗。"
 
 #: src/launcher/ui/MainWindow.cpp:1448
 msgctxt "MainWindow|"
 msgid "Could not check for updates:"
-msgstr ""
+msgstr "無法檢查更新："
 
 #: src/launcher/ui/MainWindow.cpp:1544
 msgctxt "MainWindow|"
@@ -4495,57 +4497,59 @@ msgstr "還原程序也失敗了。\n"
 #: src/launcher/updater/v2/Checker.cpp:71
 msgctxt "QObject|"
 msgid "not found"
-msgstr ""
+msgstr "找不到"
 
 #: src/launcher/updater/v2/Checker.cpp:75
 #, qt-format
 msgctxt "QObject|"
 msgid "HTTP status %1"
-msgstr ""
+msgstr "HTTP 狀態碼 %1"
 
 #: src/launcher/updater/v2/Checker.cpp:77
 #, qt-format
 msgctxt "QObject|"
 msgid "network error %1"
-msgstr ""
+msgstr "網路錯誤 %1"
 
 #: src/launcher/updater/v2/InstallController.cpp:54
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove the backup of the previous update:\n"
 "%1"
-msgstr ""
+msgstr "無法刪除上次更新時的備份檔案：\n"
+"%1"
 
 #: src/launcher/updater/v2/InstallController.cpp:88
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't update %1. Changes will be reverted.\n"
 "See the %2 log file for details."
-msgstr ""
+msgstr "無法更新 %1。變更將會被復原。\n"
+"檢視 %2 記錄檔以取得詳細資訊。"
 
 #: src/launcher/updater/v2/Plan.cpp:122
 #, qt-format
 msgctxt "QObject|"
 msgid "Build %1 has no version for this installation (%2)."
-msgstr ""
+msgstr "版本 %1 沒有這個版本的安裝檔（%2）。"
 
 #: src/launcher/updater/v2/SystemRequirements.cpp:327
 #, qt-format
 msgctxt "QObject|"
 msgid "The build's requirements are incomplete or not understood (%1)."
-msgstr ""
+msgstr "版本需求不完整或不清楚（%1）。"
 
 #: src/launcher/updater/v2/SystemRequirements.cpp:337
 #, qt-format
 msgctxt "QObject|"
 msgid "The build is for %1, this computer runs %2."
-msgstr ""
+msgstr "這個版本是給 %1，但您的電腦執行的是 %2。"
 
 #: src/launcher/updater/v2/SystemRequirements.cpp:348
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs a %1 processor, this computer has %2."
-msgstr ""
+msgstr "這個版本需要 %1 處理器，但您的電腦則是 %2。"
 
 #: src/launcher/updater/v2/SystemRequirements.cpp:348
 msgctxt "QObject|"
@@ -4556,25 +4560,25 @@ msgstr "未知的"
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs %1 or newer, and the version on this computer could not be found out."
-msgstr ""
+msgstr "這個版本需要 %1 或更新版本，但無法在您的電腦中取得所需版本。"
 
 #: src/launcher/updater/v2/SystemRequirements.cpp:364
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs %1 or newer, this computer has %2."
-msgstr ""
+msgstr "這個版本需要 %1 或更新版本，但您的電腦只有 %2。"
 
 #: src/launcher/updater/v2/SystemRequirements.cpp:394
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs Qt %1 or a newer Qt %2, and the version on this computer could not be found out."
-msgstr ""
+msgstr "這個版本需要 Qt %1 或更新版本 Qt %2，但無法在您的電腦中取得所需版本。"
 
 #: src/launcher/updater/v2/SystemRequirements.cpp:398
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs Qt %1 or a newer Qt %2, this computer has Qt %3."
-msgstr ""
+msgstr "這個版本需要 Qt %1 或更新版本 Qt %2，但您的電腦只有 Qt %3。"
 
 #: src/libraries/quazip/quazip/quagzipfile.cpp:60
 msgctxt "QuaGzipFile|"
@@ -5133,91 +5137,92 @@ msgstr "<p align=\"center\"><span style=\"font-size:22pt;\">無法取得更新�
 #: src/launcher/updater/v1/DownloadTask.cpp:48
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Loading version information..."
-msgstr ""
+msgstr "正在載入版本資訊..."
 
 #: src/launcher/updater/v1/DownloadTask.cpp:85
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr ""
+msgstr "無法下載版本資訊檔案。"
 
 #: src/launcher/updater/v1/DownloadTask.cpp:93
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Reading file list for new version..."
-msgstr ""
+msgstr "正在讀取新版本的檔案清單..."
 
 #: src/launcher/updater/v1/DownloadTask.cpp:106
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Reading file list for current version..."
-msgstr ""
+msgstr "正在讀取當前版本的檔案清單..."
 
 #: src/launcher/updater/v1/DownloadTask.cpp:121
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr ""
+msgstr "處理檔案清單中 - 正在確定安裝方法..."
 
 #: src/launcher/updater/v1/DownloadTask.cpp:129
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Failed to process update lists..."
-msgstr ""
+msgstr "無法處理更新清單..."
 
 #: src/launcher/updater/v1/DownloadTask.cpp:140
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Downloading one update file."
-msgstr ""
+msgstr "正在下載 1 個更新檔。"
 
 #: src/launcher/updater/v1/DownloadTask.cpp:144
 #, qt-format
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr ""
+msgstr "正在下載 %1 個更新檔。"
 
 #: src/launcher/updater/v1/DownloadTask.cpp:159
 #, qt-format
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr ""
+msgstr "無法載更新檔案：%1"
 
 #: src/launcher/updater/v2/Checker.cpp:256
 #, qt-format
 msgctxt "UpdaterV2::Checker|"
 msgid "The newest keys document (version %1) expired at %2, so updates can't be trusted."
-msgstr ""
+msgstr "最新版本的金鑰檔案（版本 %1）已於 %2 過期，因此更新內容無法被信任。"
 
 #: src/launcher/updater/v2/Checker.cpp:312
 #, qt-format
 msgctxt "UpdaterV2::Checker|"
 msgid "This build (%1) was withdrawn from the servers."
-msgstr ""
+msgstr "這項更新（%1）已被伺服器撤銷。"
 
 #: src/launcher/updater/v2/DownloadTask.cpp:38
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Couldn't create a folder for the update's files."
-msgstr ""
+msgstr "無法為更新檔建立資料夾。"
 
 #: src/launcher/updater/v2/DownloadTask.cpp:41
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Comparing the installed files with build %1..."
-msgstr ""
+msgstr "正在比對版本 %1 已安裝的檔案..."
 
 #: src/launcher/updater/v2/DownloadTask.cpp:58
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Downloading build %1..."
-msgstr ""
+msgstr "正在下載版本 %1..."
 
 #: src/launcher/updater/v2/DownloadTask.cpp:59
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Update to build %1"
-msgstr ""
+msgstr "更新至版本 %1"
 
 #: src/launcher/updater/v2/DownloadTask.cpp:78
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Failed to download the update:\n"
 "%1"
-msgstr ""
+msgstr "無法下載更新：\n"
+"%1"
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
