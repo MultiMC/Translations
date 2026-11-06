@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2026-11-05 08:58\n"
+"PO-Revision-Date: 2026-11-05 22:12\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -427,7 +427,7 @@ msgctxt "AccountsDialog|"
 msgid "Failed to check name availability."
 msgstr "無法檢查名稱是否可用。"
 
-#: src/launcher/Application.cpp:800
+#: src/launcher/Application.cpp:803
 msgctxt "Application|"
 msgid "Settings"
 msgstr "設定"
@@ -2027,67 +2027,47 @@ msgctxt "LauncherPage|"
 msgid "Console font"
 msgstr "控制台字型"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:65
-msgctxt "LauncherPage|"
-msgid "Update tier:"
-msgstr "更新等級："
-
-#: src/launcher/ui/pages/global/LauncherPage.cpp:67
-msgctxt "LauncherPage|"
-msgid "Stable: builds tested for a long time"
-msgstr "穩定版本：經過長時間測試後的建置版本"
-
-#: src/launcher/ui/pages/global/LauncherPage.cpp:68
-msgctxt "LauncherPage|"
-msgid "Testing: builds being tested for Stable"
-msgstr "測試版本：測試中期望成為穩定版本的建置版本"
-
-#: src/launcher/ui/pages/global/LauncherPage.cpp:69
-msgctxt "LauncherPage|"
-msgid "Latest: the newest build, with every change"
-msgstr "最新版本：擁有所有修正功能的最新建置版本"
-
-#: src/launcher/ui/pages/global/LauncherPage.cpp:108
+#: src/launcher/ui/pages/global/LauncherPage.cpp:91
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr "實例資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:117
+#: src/launcher/ui/pages/global/LauncherPage.cpp:100
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
 msgstr "在您指定的實例路徑中，包含了至少一個「!」字元。已知 Java 會在這種情況下發生問題，實例（可能會）無法啟動！"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:122
+#: src/launcher/ui/pages/global/LauncherPage.cpp:105
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
 msgstr "您確定要使用此路徑？選擇「否」會關閉此對話方塊，且不會修改實例路徑。"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:145
+#: src/launcher/ui/pages/global/LauncherPage.cpp:128
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr "圖示資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:161
+#: src/launcher/ui/pages/global/LauncherPage.cpp:144
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "模組資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:177
+#: src/launcher/ui/pages/global/LauncherPage.cpp:160
 msgctxt "LauncherPage|"
 msgid "Skins Folder"
 msgstr "外觀資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:414
+#: src/launcher/ui/pages/global/LauncherPage.cpp:380
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[有個/錯誤] 一個不好的錯誤！"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:423
+#: src/launcher/ui/pages/global/LauncherPage.cpp:389
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[測試/資訊] 一個無害的訊息…"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:432
+#: src/launcher/ui/pages/global/LauncherPage.cpp:398
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[有個/警告] 一個不嚴重的警告。"
@@ -5134,6 +5114,68 @@ msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
 msgstr "<p align=\"center\"><span style=\"font-size:22pt;\">無法取得更新日誌…錯誤：%1</span></p>"
 
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:186
+#, qt-format
+msgctxt "UpdateTierWidget|"
+msgid "build %1 (installed)"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:190
+#, qt-format
+msgctxt "UpdateTierWidget|"
+msgid "build %1"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:197
+msgctxt "UpdateTierWidget|"
+msgid "Update tier"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:198
+msgctxt "UpdateTierWidget|"
+msgid "Latest"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:199
+msgctxt "UpdateTierWidget|"
+msgid "Every build, as soon as it is made."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:200
+msgctxt "UpdateTierWidget|"
+msgid "Testing"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:201
+msgctxt "UpdateTierWidget|"
+msgid "Builds being tested to become Stable."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:202
+msgctxt "UpdateTierWidget|"
+msgid "Stable"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:203
+msgctxt "UpdateTierWidget|"
+msgid "Builds that were tested for a long time."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:207
+msgctxt "UpdateTierWidget|"
+msgid "<b>Latest</b> gets every change first, including ones that haven't been tested much yet. Updates come often, sometimes several in a day.<br/><br/>Pick this if you want the newest things and don't mind running into a problem now and then."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:213
+msgctxt "UpdateTierWidget|"
+msgid "<b>Testing</b> gets the builds that are picked to become the next Stable, while they are tested. Updates come every now and then.<br/><br/>Problems are rare, and what happens on Testing decides what reaches Stable."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:219
+msgctxt "UpdateTierWidget|"
+msgid "<b>Stable</b> gets builds only after they were on Testing long enough to be trusted. Updates come rarely.<br/><br/>Recommended for most people."
+msgstr ""
+
 #: src/launcher/updater/v1/DownloadTask.cpp:48
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Loading version information..."
@@ -5187,7 +5229,7 @@ msgctxt "UpdaterV2::Checker|"
 msgid "The newest keys document (version %1) expired at %2, so updates can't be trusted."
 msgstr "最新版本的金鑰檔案（版本 %1）已於 %2 過期，因此更新內容無法被信任。"
 
-#: src/launcher/updater/v2/Checker.cpp:312
+#: src/launcher/updater/v2/Checker.cpp:324
 #, qt-format
 msgctxt "UpdaterV2::Checker|"
 msgid "This build (%1) was withdrawn from the servers."
@@ -5223,6 +5265,32 @@ msgid "Failed to download the update:\n"
 "%1"
 msgstr "無法下載更新：\n"
 "%1"
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:81
+msgctxt "UpdatesPage|"
+msgid "Check for updates on start"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:82
+msgctxt "UpdatesPage|"
+msgid "Update tier"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.h:27
+msgctxt "UpdatesPage|"
+msgid "Updates"
+msgstr ""
+
+#: src/launcher/ui/setupwizard/UpdatesWizardPage.cpp:29
+msgctxt "UpdatesWizardPage|"
+msgid "Updates"
+msgstr ""
+
+#: src/launcher/ui/setupwizard/UpdatesWizardPage.cpp:30
+#, qt-format
+msgctxt "UpdatesWizardPage|"
+msgid "Choose how often %1 updates. You can change it later in the settings."
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
