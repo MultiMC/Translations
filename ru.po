@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2026-11-12 07:15\n"
+"PO-Revision-Date: 2026-11-12 21:14\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -4736,13 +4736,13 @@ msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reporte
 msgstr "Проверка Java прошла успешно!<br />Платформа: %1<br />Версия Java: %2<br />"
 
 #: src/launcher/updater/v1/UpdateController.cpp:331
-#: src/launcher/updater/v2/InstallController.cpp:192
+#: src/launcher/updater/v2/InstallController.cpp:187
 msgctxt "QObject|"
 msgid "Update failed!"
 msgstr "Не удалось обновить!"
 
 #: src/launcher/updater/v1/UpdateController.cpp:332
-#: src/launcher/updater/v2/InstallController.cpp:213
+#: src/launcher/updater/v2/InstallController.cpp:209
 msgctxt "QObject|"
 msgid "Rollback failed!"
 msgstr "Не удалось откатить!"
@@ -4764,7 +4764,7 @@ msgstr "Не удалось удалить файл %1. Изменения бу�
 "Смотрите лог файл %2 для подробностей."
 
 #: src/launcher/updater/v1/UpdateController.cpp:357
-#: src/launcher/updater/v2/InstallController.cpp:180
+#: src/launcher/updater/v2/InstallController.cpp:175
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
@@ -4772,7 +4772,7 @@ msgstr "Новая версия не запускается или слишко�
 "Откатить к предыдущей версии?"
 
 #: src/launcher/updater/v1/UpdateController.cpp:379
-#: src/launcher/updater/v2/InstallController.cpp:210
+#: src/launcher/updater/v2/InstallController.cpp:206
 #, qt-format
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
@@ -4799,14 +4799,14 @@ msgctxt "QObject|"
 msgid "network error %1"
 msgstr ""
 
-#: src/launcher/updater/v2/InstallController.cpp:49
+#: src/launcher/updater/v2/InstallController.cpp:43
 #, qt-format
 msgctxt "QObject|"
-msgid "Couldn't remove the backup of the previous update:\n"
+msgid "Couldn't make a folder for the backup of this update in:\n"
 "%1"
 msgstr ""
 
-#: src/launcher/updater/v2/InstallController.cpp:83
+#: src/launcher/updater/v2/InstallController.cpp:78
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't update %1. Changes will be reverted.\n"
@@ -4825,48 +4825,48 @@ msgctxt "QObject|"
 msgid "Build %1 has no version for this installation (%2)."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:327
+#: src/launcher/updater/v2/SystemRequirements.cpp:448
 #, qt-format
 msgctxt "QObject|"
 msgid "The build's requirements are incomplete or not understood (%1)."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:337
+#: src/launcher/updater/v2/SystemRequirements.cpp:458
 #, qt-format
 msgctxt "QObject|"
 msgid "The build is for %1, this computer runs %2."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:348
+#: src/launcher/updater/v2/SystemRequirements.cpp:469
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs a %1 processor, this computer has %2."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:348
+#: src/launcher/updater/v2/SystemRequirements.cpp:469
 msgctxt "QObject|"
 msgid "an unknown one"
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:364
+#: src/launcher/updater/v2/SystemRequirements.cpp:485
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs %1 or newer, and the version on this computer could not be found out."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:368
+#: src/launcher/updater/v2/SystemRequirements.cpp:489
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs %1 or newer, this computer has %2."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:398
+#: src/launcher/updater/v2/SystemRequirements.cpp:519
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs Qt %1 or a newer Qt %2, and the version on this computer could not be found out."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:402
+#: src/launcher/updater/v2/SystemRequirements.cpp:523
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs Qt %1 or a newer Qt %2, this computer has Qt %3."
@@ -5846,30 +5846,30 @@ msgctxt "UpdaterV2::Checker|"
 msgid "This build (%1) was withdrawn from the servers."
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:38
+#: src/launcher/updater/v2/DownloadTask.cpp:39
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Couldn't create a folder for the update's files."
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:41
+#: src/launcher/updater/v2/DownloadTask.cpp:43
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Comparing the installed files with build %1..."
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:58
+#: src/launcher/updater/v2/DownloadTask.cpp:60
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Downloading build %1..."
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:59
+#: src/launcher/updater/v2/DownloadTask.cpp:61
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Update to build %1"
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:78
+#: src/launcher/updater/v2/DownloadTask.cpp:80
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Failed to download the update:\n"
