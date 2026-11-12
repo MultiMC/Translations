@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2026-11-12 21:15\n"
+"PO-Revision-Date: 2026-11-12 23:21\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -649,7 +649,7 @@ msgctxt "AppearancePage|"
 msgid "Appearance"
 msgstr "外觀"
 
-#: src/launcher/Application.cpp:823
+#: src/launcher/Application.cpp:830
 msgctxt "Application|"
 msgid "Settings"
 msgstr "設定"
@@ -4747,13 +4747,13 @@ msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reporte
 msgstr "Java 測試成功！<br />平台報告：%1<br />Java 版本報告：%2<br />"
 
 #: src/launcher/updater/v1/UpdateController.cpp:331
-#: src/launcher/updater/v2/InstallController.cpp:187
+#: src/launcher/updater/v2/InstallController.cpp:200
 msgctxt "QObject|"
 msgid "Update failed!"
 msgstr "更新失敗！"
 
 #: src/launcher/updater/v1/UpdateController.cpp:332
-#: src/launcher/updater/v2/InstallController.cpp:209
+#: src/launcher/updater/v2/InstallController.cpp:223
 msgctxt "QObject|"
 msgid "Rollback failed!"
 msgstr "還原失敗！"
@@ -4775,7 +4775,6 @@ msgstr "無法移除檔案 %1。變更將會被復原。\n"
 "檢視 %2 記錄檔以取得詳細資訊。"
 
 #: src/launcher/updater/v1/UpdateController.cpp:357
-#: src/launcher/updater/v2/InstallController.cpp:175
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
@@ -4783,7 +4782,7 @@ msgstr "新的版本沒有啟動，或是其版本過舊以至於未回應啟動
 "還原到上個版本？"
 
 #: src/launcher/updater/v1/UpdateController.cpp:379
-#: src/launcher/updater/v2/InstallController.cpp:206
+#: src/launcher/updater/v2/InstallController.cpp:220
 #, qt-format
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
@@ -4810,20 +4809,30 @@ msgctxt "QObject|"
 msgid "network error %1"
 msgstr "網路錯誤 %1"
 
-#: src/launcher/updater/v2/InstallController.cpp:43
+#: src/launcher/updater/v2/InstallController.cpp:44
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't make a folder for the backup of this update in:\n"
 "%1"
 msgstr ""
 
-#: src/launcher/updater/v2/InstallController.cpp:78
+#: src/launcher/updater/v2/InstallController.cpp:79
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't update %1. Changes will be reverted.\n"
 "See the %2 log file for details."
 msgstr "無法更新 %1。變更將會被復原。\n"
 "檢視 %2 記錄檔以取得詳細資訊。"
+
+#: src/launcher/updater/v2/InstallController.cpp:176
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks."
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:204
+msgctxt "QObject|"
+msgid "Roll back to previous version?"
+msgstr ""
 
 #: src/launcher/updater/v2/Plan.cpp:135
 #, qt-format
