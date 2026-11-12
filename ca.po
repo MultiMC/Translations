@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
-"PO-Revision-Date: 2026-11-12 21:14\n"
+"PO-Revision-Date: 2026-11-12 23:20\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -646,7 +646,7 @@ msgctxt "AppearancePage|"
 msgid "Appearance"
 msgstr ""
 
-#: src/launcher/Application.cpp:823
+#: src/launcher/Application.cpp:830
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Configuració"
@@ -4730,13 +4730,13 @@ msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reporte
 msgstr "Java comprovat amb èxit!<br />Plataforma informada: %1<br />Versió de Java informada: %2<br />"
 
 #: src/launcher/updater/v1/UpdateController.cpp:331
-#: src/launcher/updater/v2/InstallController.cpp:187
+#: src/launcher/updater/v2/InstallController.cpp:200
 msgctxt "QObject|"
 msgid "Update failed!"
 msgstr "Actualització fallida!"
 
 #: src/launcher/updater/v1/UpdateController.cpp:332
-#: src/launcher/updater/v2/InstallController.cpp:209
+#: src/launcher/updater/v2/InstallController.cpp:223
 msgctxt "QObject|"
 msgid "Rollback failed!"
 msgstr "Retrocés fallit!"
@@ -4758,7 +4758,6 @@ msgstr "No es pot eliminar l'arxiu %1. Els canvis es revertiran.\n"
 "Consulteu l'arxiu de registre de %2 per a més detalls."
 
 #: src/launcher/updater/v1/UpdateController.cpp:357
-#: src/launcher/updater/v2/InstallController.cpp:175
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
@@ -4766,7 +4765,7 @@ msgstr "La nova versió no ha començat, o es massa vella, o no respón a les co
 "Restaurar una versió anterior?"
 
 #: src/launcher/updater/v1/UpdateController.cpp:379
-#: src/launcher/updater/v2/InstallController.cpp:206
+#: src/launcher/updater/v2/InstallController.cpp:220
 #, qt-format
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
@@ -4793,18 +4792,28 @@ msgctxt "QObject|"
 msgid "network error %1"
 msgstr ""
 
-#: src/launcher/updater/v2/InstallController.cpp:43
+#: src/launcher/updater/v2/InstallController.cpp:44
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't make a folder for the backup of this update in:\n"
 "%1"
 msgstr ""
 
-#: src/launcher/updater/v2/InstallController.cpp:78
+#: src/launcher/updater/v2/InstallController.cpp:79
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't update %1. Changes will be reverted.\n"
 "See the %2 log file for details."
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:176
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks."
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:204
+msgctxt "QObject|"
+msgid "Roll back to previous version?"
 msgstr ""
 
 #: src/launcher/updater/v2/Plan.cpp:135
