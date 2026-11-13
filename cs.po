@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2026-11-08 14:34\n"
+"PO-Revision-Date: 2026-11-12 23:21\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -647,7 +647,7 @@ msgctxt "AppearancePage|"
 msgid "Appearance"
 msgstr ""
 
-#: src/launcher/Application.cpp:808
+#: src/launcher/Application.cpp:830
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Nastavení"
@@ -1703,7 +1703,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Nastavení"
 
-#: src/launcher/InstanceList.cpp:832
+#: src/launcher/InstanceList.cpp:845
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr "Nepodařilo se commitnout instanci, i po několika pokusech. Něčím je blokováno."
@@ -2465,11 +2465,6 @@ msgstr "FTB Legacy"
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
-msgid "Legacy"
-msgstr "Starší verze"
-
-#: src/launcher/minecraft/legacy/LegacyInstance.cpp:225
-msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
 msgstr "Instance z minulých verzí."
 
@@ -2599,6 +2594,7 @@ msgid "Clear the log"
 msgstr "Smazat log"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:116
+#: src/launcher/ui/pages/instance/LogPage.cpp:306
 msgctxt "LogPage|"
 msgid "Clear"
 msgstr "Smazat"
@@ -2623,15 +2619,25 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Konec logu"
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:252
+#: src/launcher/ui/pages/instance/LogPage.cpp:253
 msgctxt "LogPage|"
 msgid "Log upload"
 msgstr "Nahrání protokolu"
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:253
+#: src/launcher/ui/pages/instance/LogPage.cpp:254
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Jste si jistí, že chcete nahrát tento log soubor?"
+
+#: src/launcher/ui/pages/instance/LogPage.cpp:307
+msgctxt "LogPage|"
+msgid "Do you really want to clear the log? What it shows now can't be brought back."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/LogPage.cpp:310
+msgctxt "LogPage|"
+msgid "Don't ask again"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
@@ -2725,443 +2731,431 @@ msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
 msgstr "Ověření uživatele u microsoftu bylo dokončeno s nerozpoznatelným výsledkem."
 
-#: src/launcher/ui/MainWindow.cpp:269
+#: src/launcher/ui/MainWindow.cpp:287
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr "Vynuceně usmrtit"
 
-#: src/launcher/ui/MainWindow.cpp:270
+#: src/launcher/ui/MainWindow.cpp:288
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "Usmrtit instanci která zrovna běží"
 
-#: src/launcher/ui/MainWindow.cpp:274 src/launcher/ui/MainWindow.cpp:1053
+#: src/launcher/ui/MainWindow.cpp:292 src/launcher/ui/MainWindow.cpp:1093
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Spustit"
 
-#: src/launcher/ui/MainWindow.cpp:275
+#: src/launcher/ui/MainWindow.cpp:293
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "Spustit vybranou instanci."
 
-#: src/launcher/ui/MainWindow.cpp:293
+#: src/launcher/ui/MainWindow.cpp:311
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "Hlavní panel nástrojů"
 
-#: src/launcher/ui/MainWindow.cpp:298
+#: src/launcher/ui/MainWindow.cpp:316
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr "Přidat instanci"
 
-#: src/launcher/ui/MainWindow.cpp:299
+#: src/launcher/ui/MainWindow.cpp:317
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr "Vytvořit novou instanci."
 
-#: src/launcher/ui/MainWindow.cpp:311
+#: src/launcher/ui/MainWindow.cpp:329
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr "Zobrazit složku s instancemi"
 
-#: src/launcher/ui/MainWindow.cpp:312
+#: src/launcher/ui/MainWindow.cpp:330
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr "Otevřít složku instance v souborovém prohlížeči."
 
-#: src/launcher/ui/MainWindow.cpp:319
+#: src/launcher/ui/MainWindow.cpp:337
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr "Zobrazit společnou složku s módy"
 
-#: src/launcher/ui/MainWindow.cpp:320
+#: src/launcher/ui/MainWindow.cpp:338
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Otevře centrální složku s módy v souborovém prohlížeči."
 
-#: src/launcher/ui/MainWindow.cpp:326 src/launcher/ui/MainWindow.cpp:701
+#: src/launcher/ui/MainWindow.cpp:344 src/launcher/ui/MainWindow.cpp:713
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Složky"
 
-#: src/launcher/ui/MainWindow.cpp:327
+#: src/launcher/ui/MainWindow.cpp:345
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "Otevřít jednu ze složek sdílených mezi instancemi."
 
-#: src/launcher/ui/MainWindow.cpp:342
+#: src/launcher/ui/MainWindow.cpp:360
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "Nastavení"
 
-#: src/launcher/ui/MainWindow.cpp:343
+#: src/launcher/ui/MainWindow.cpp:361
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "Změna nastavení."
 
-#: src/launcher/ui/MainWindow.cpp:354
+#: src/launcher/ui/MainWindow.cpp:372
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "Oznámit chybu"
 
-#: src/launcher/ui/MainWindow.cpp:355
+#: src/launcher/ui/MainWindow.cpp:373
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr "Otevřít bug tracker pro nahlášení chyby s %1."
 
-#: src/launcher/ui/MainWindow.cpp:364
+#: src/launcher/ui/MainWindow.cpp:382
 msgctxt "MainWindow|"
 msgid "Discord"
 msgstr "Discord"
 
-#: src/launcher/ui/MainWindow.cpp:365
+#: src/launcher/ui/MainWindow.cpp:383
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
 msgstr "Otevřít hlasový kanál Discordu %1."
 
-#: src/launcher/ui/MainWindow.cpp:374
+#: src/launcher/ui/MainWindow.cpp:392
 msgctxt "MainWindow|"
 msgid "Reddit"
 msgstr "Reddit"
 
-#: src/launcher/ui/MainWindow.cpp:375
+#: src/launcher/ui/MainWindow.cpp:393
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
 msgstr "Otevřít subreddit %1."
 
-#: src/launcher/ui/MainWindow.cpp:384
+#: src/launcher/ui/MainWindow.cpp:402
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
 msgstr "O aplikaci %1"
 
-#: src/launcher/ui/MainWindow.cpp:385
+#: src/launcher/ui/MainWindow.cpp:403
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
 msgstr "Zobrazit informace o %1."
 
-#: src/launcher/ui/MainWindow.cpp:391 src/launcher/ui/MainWindow.cpp:702
+#: src/launcher/ui/MainWindow.cpp:409 src/launcher/ui/MainWindow.cpp:714
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Nápověda"
 
-#: src/launcher/ui/MainWindow.cpp:392
+#: src/launcher/ui/MainWindow.cpp:410
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
 msgstr "Získat pomoc s %1 nebo s Minecraftem."
 
-#: src/launcher/ui/MainWindow.cpp:408
+#: src/launcher/ui/MainWindow.cpp:426
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "Aktualizovat"
 
-#: src/launcher/ui/MainWindow.cpp:409
+#: src/launcher/ui/MainWindow.cpp:427
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
 msgstr "Vyhledat aktualizace pro %1."
 
-#: src/launcher/ui/MainWindow.cpp:421
+#: src/launcher/ui/MainWindow.cpp:439
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
 msgstr "Podpořit %1"
 
-#: src/launcher/ui/MainWindow.cpp:422
+#: src/launcher/ui/MainWindow.cpp:440
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
 msgstr "Otevřít Patreon stránku %1."
 
-#: src/launcher/ui/MainWindow.cpp:431
+#: src/launcher/ui/MainWindow.cpp:449
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "Mňau"
 
-#: src/launcher/ui/MainWindow.cpp:432
+#: src/launcher/ui/MainWindow.cpp:450
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "Jedna načechraná kočička :3"
 
-#: src/launcher/ui/MainWindow.cpp:440
+#: src/launcher/ui/MainWindow.cpp:458
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "Správa účtů"
 
-#: src/launcher/ui/MainWindow.cpp:466
+#: src/launcher/ui/MainWindow.cpp:484
 msgctxt "MainWindow|"
 msgid "News Toolbar"
 msgstr "Panel s novinkami"
 
-#: src/launcher/ui/MainWindow.cpp:471
+#: src/launcher/ui/MainWindow.cpp:489
 msgctxt "MainWindow|"
 msgid "More news..."
 msgstr "Další novinky…"
 
-#: src/launcher/ui/MainWindow.cpp:472
+#: src/launcher/ui/MainWindow.cpp:490
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
 msgstr "Otevřít vývojářský blog pro dočtení se více novinek o %1."
 
-#: src/launcher/ui/MainWindow.cpp:489
+#: src/launcher/ui/MainWindow.cpp:507
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "Panel Instancí"
 
-#: src/launcher/ui/MainWindow.cpp:496
+#: src/launcher/ui/MainWindow.cpp:514
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "Změnit ikonu"
 
-#: src/launcher/ui/MainWindow.cpp:497
+#: src/launcher/ui/MainWindow.cpp:515
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr ".Změnit ikonu vybrané instance."
 
-#: src/launcher/ui/MainWindow.cpp:510
+#: src/launcher/ui/MainWindow.cpp:528
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "Přejmenovat"
 
-#: src/launcher/ui/MainWindow.cpp:511
+#: src/launcher/ui/MainWindow.cpp:529
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Přejmenovat vybranou instanci."
 
-#: src/launcher/ui/MainWindow.cpp:523
+#: src/launcher/ui/MainWindow.cpp:541
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "Změnit skupinu"
 
-#: src/launcher/ui/MainWindow.cpp:524
+#: src/launcher/ui/MainWindow.cpp:542
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "Změní skupinu vybrané instance."
 
-#: src/launcher/ui/MainWindow.cpp:537 src/launcher/ui/MainWindow.cpp:1054
+#: src/launcher/ui/MainWindow.cpp:555 src/launcher/ui/MainWindow.cpp:1094
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Hrát offline"
 
-#: src/launcher/ui/MainWindow.cpp:538
+#: src/launcher/ui/MainWindow.cpp:556
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "Spustí vybranou instanci v offline modu."
 
-#: src/launcher/ui/MainWindow.cpp:546
+#: src/launcher/ui/MainWindow.cpp:564
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "Upravit instanci"
 
-#: src/launcher/ui/MainWindow.cpp:547
+#: src/launcher/ui/MainWindow.cpp:565
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "Změnit nastavení, módy a verzi instance."
 
-#: src/launcher/ui/MainWindow.cpp:553
+#: src/launcher/ui/MainWindow.cpp:571
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "Upravit poznámky"
 
-#: src/launcher/ui/MainWindow.cpp:554
+#: src/launcher/ui/MainWindow.cpp:572
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "Upravuje poznámky vybrané instance."
 
-#: src/launcher/ui/MainWindow.cpp:560
+#: src/launcher/ui/MainWindow.cpp:578
 msgctxt "MainWindow|"
 msgid "View Mods"
 msgstr "Zobrazit módy"
 
-#: src/launcher/ui/MainWindow.cpp:561
+#: src/launcher/ui/MainWindow.cpp:579
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
 msgstr "Zobrazit módy této instance."
 
-#: src/launcher/ui/MainWindow.cpp:567
+#: src/launcher/ui/MainWindow.cpp:585
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "Zobrazit světy"
 
-#: src/launcher/ui/MainWindow.cpp:568
+#: src/launcher/ui/MainWindow.cpp:586
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "Prohlížet světy této instance."
 
-#: src/launcher/ui/MainWindow.cpp:574
+#: src/launcher/ui/MainWindow.cpp:592
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "Správa screenshotů"
 
-#: src/launcher/ui/MainWindow.cpp:575
+#: src/launcher/ui/MainWindow.cpp:593
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "Zobrazit a nahrát screenshoty v této instanci."
 
-#: src/launcher/ui/MainWindow.cpp:583
+#: src/launcher/ui/MainWindow.cpp:601
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Složka Minecraftu"
 
-#: src/launcher/ui/MainWindow.cpp:584
+#: src/launcher/ui/MainWindow.cpp:602
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "Otevře vybranou minecraft složku instance v souborovém prohlížeči."
 
-#: src/launcher/ui/MainWindow.cpp:599
+#: src/launcher/ui/MainWindow.cpp:617
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "Složka konfigurace"
 
-#: src/launcher/ui/MainWindow.cpp:600
+#: src/launcher/ui/MainWindow.cpp:618
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "Otevřít složku konfigurace."
 
-#: src/launcher/ui/MainWindow.cpp:606
+#: src/launcher/ui/MainWindow.cpp:624
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "Složka instance"
 
-#: src/launcher/ui/MainWindow.cpp:607
+#: src/launcher/ui/MainWindow.cpp:625
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "Otevře vybranou kořenovou složku instance v souborovém prohlížeči."
 
-#: src/launcher/ui/MainWindow.cpp:615
+#: src/launcher/ui/MainWindow.cpp:633
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
 msgstr "Vytvořit zástupce"
 
-#: src/launcher/ui/MainWindow.cpp:616
+#: src/launcher/ui/MainWindow.cpp:634
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
 msgstr "Vytvořit zástupce, který spustí vybranou instanci"
 
-#: src/launcher/ui/MainWindow.cpp:622
+#: src/launcher/ui/MainWindow.cpp:640
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "Exportovat instanci"
 
-#: src/launcher/ui/MainWindow.cpp:623
+#: src/launcher/ui/MainWindow.cpp:641
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
 msgstr "Exportovat vybranou instanci jako zip soubor."
 
-#: src/launcher/ui/MainWindow.cpp:629
+#: src/launcher/ui/MainWindow.cpp:647
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "Smazat"
 
-#: src/launcher/ui/MainWindow.cpp:630
+#: src/launcher/ui/MainWindow.cpp:648
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "Smaže vybranou instanci."
 
-#: src/launcher/ui/MainWindow.cpp:637
+#: src/launcher/ui/MainWindow.cpp:655
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "Kopírovat instanci"
 
-#: src/launcher/ui/MainWindow.cpp:638
+#: src/launcher/ui/MainWindow.cpp:656
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Kopíruje vybranou instanci."
 
-#: src/launcher/ui/MainWindow.cpp:681
-#, qt-format
-msgctxt "MainWindow|Launcher - Version X"
-msgid "%1 - Version %2"
-msgstr "%1 - Verze %2"
-
-#: src/launcher/ui/MainWindow.cpp:684
-#, qt-format
-msgctxt "MainWindow|on platform, as in operating system"
-msgid " on %1"
-msgstr " na %1"
-
-#: src/launcher/ui/MainWindow.cpp:796 src/launcher/ui/MainWindow.cpp:906
+#: src/launcher/ui/MainWindow.cpp:808 src/launcher/ui/MainWindow.cpp:931
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "Nebyla vybrána žádná instance"
 
-#: src/launcher/ui/MainWindow.cpp:798
+#: src/launcher/ui/MainWindow.cpp:810
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
 msgstr "Celkem odehráno: 0s"
 
-#: src/launcher/ui/MainWindow.cpp:900 src/launcher/ui/MainWindow.cpp:1209
+#: src/launcher/ui/MainWindow.cpp:925 src/launcher/ui/MainWindow.cpp:1249
 msgctxt "MainWindow|"
 msgid "Accounts"
 msgstr "Účty"
 
-#: src/launcher/ui/MainWindow.cpp:959
+#: src/launcher/ui/MainWindow.cpp:984
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Vytvořit instanci"
 
-#: src/launcher/ui/MainWindow.cpp:975
+#: src/launcher/ui/MainWindow.cpp:1000
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "Vymazat skupinu '%1'"
 
-#: src/launcher/ui/MainWindow.cpp:1005
+#: src/launcher/ui/MainWindow.cpp:1045
 msgctxt "MainWindow|"
 msgid "Format"
 msgstr "Formátovat"
 
-#: src/launcher/ui/MainWindow.cpp:1008
+#: src/launcher/ui/MainWindow.cpp:1048
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
 msgstr "Modrinth (WIP)"
 
-#: src/launcher/ui/MainWindow.cpp:1063
+#: src/launcher/ui/MainWindow.cpp:1103
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Profilery"
 
-#: src/launcher/ui/MainWindow.cpp:1075
+#: src/launcher/ui/MainWindow.cpp:1115
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "Profiler nebyl nastaven správně. Jdi do nastavení, \"Externí nástroje\"."
 
-#: src/launcher/ui/MainWindow.cpp:1115
+#: src/launcher/ui/MainWindow.cpp:1155
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Nebyly přidány žádné účty!"
 
-#: src/launcher/ui/MainWindow.cpp:1154
+#: src/launcher/ui/MainWindow.cpp:1194
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Žádný výchozí učet"
 
-#: src/launcher/ui/MainWindow.cpp:1261
+#: src/launcher/ui/MainWindow.cpp:1301
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Načítání novinek..."
 
-#: src/launcher/ui/MainWindow.cpp:1274
+#: src/launcher/ui/MainWindow.cpp:1314
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Žádné novinky k dispozici."
 
-#: src/launcher/ui/MainWindow.cpp:1357 src/launcher/ui/MainWindow.cpp:1374
-#: src/launcher/ui/MainWindow.cpp:1476 src/launcher/ui/MainWindow.cpp:1490
-#: src/launcher/ui/MainWindow.cpp:1548 src/launcher/ui/MainWindow.cpp:1597
-#: src/launcher/ui/MainWindow.cpp:1609
+#: src/launcher/ui/MainWindow.cpp:1397 src/launcher/ui/MainWindow.cpp:1414
+#: src/launcher/ui/MainWindow.cpp:1643 src/launcher/ui/MainWindow.cpp:1657
+#: src/launcher/ui/MainWindow.cpp:1707 src/launcher/ui/MainWindow.cpp:1756
+#: src/launcher/ui/MainWindow.cpp:1768
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Chyba"
 
-#: src/launcher/ui/MainWindow.cpp:1357 src/launcher/ui/MainWindow.cpp:1476
+#: src/launcher/ui/MainWindow.cpp:1397 src/launcher/ui/MainWindow.cpp:1643
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -3169,12 +3163,58 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "Nelze vytvořit složku pro stažení aktualizací:\n"
 "%1"
 
-#: src/launcher/ui/MainWindow.cpp:1412
+#: src/launcher/ui/MainWindow.cpp:1467
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Switch to %1, which replaces %2"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1471
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 isn't made for this computer any more, so this update switches to %2."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1506 src/launcher/ui/MainWindow.cpp:1527
+msgctxt "MainWindow|"
+msgid "Switch version"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1507
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 is available for this computer. It replaces %2, which this installation runs now.\n\n"
+"Switch now? If you keep %2, you can switch later in Settings, Updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1510
+msgctxt "MainWindow|"
+msgid "Switch now"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1511
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Keep %1"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1512
+msgctxt "MainWindow|"
+msgid "Ask me later"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1527
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Switch this installation from %1 to %2 now?"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1542
 msgctxt "MainWindow|"
 msgid "Older build"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1413
+#: src/launcher/ui/MainWindow.cpp:1543
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
@@ -3182,81 +3222,125 @@ msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
 "Install build %2 anyway?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1438 src/launcher/ui/MainWindow.cpp:1447
+#: src/launcher/ui/MainWindow.cpp:1574 src/launcher/ui/MainWindow.cpp:1583
 msgctxt "MainWindow|"
 msgid "No updates"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1448
+#: src/launcher/ui/MainWindow.cpp:1584
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3). This build stays until there is a newer one."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1454
-msgctxt "MainWindow|"
-msgid "Update not possible"
-msgstr ""
-
-#: src/launcher/ui/MainWindow.cpp:1455
+#: src/launcher/ui/MainWindow.cpp:1590
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Build %1 is available, but it can't be installed here:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1459
+#: src/launcher/ui/MainWindow.cpp:1593
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Builds are no longer made of %1, the version this installation runs."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1595
+msgctxt "MainWindow|"
+msgid "Update not possible"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1602
 msgctxt "MainWindow|"
 msgid "Update check failed"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1459
+#: src/launcher/ui/MainWindow.cpp:1602
 msgctxt "MainWindow|"
 msgid "Could not check for updates:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1555
+#: src/launcher/ui/MainWindow.cpp:1610
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 has not been able to check for updates since %2."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1611
+#, qt-format
+msgctxt "MainWindow|"
+msgid "The last check that worked was on %1."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1612
+msgctxt "MainWindow|"
+msgid "No check has worked on this installation yet."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1613
+msgctxt "MainWindow|"
+msgid "The last attempt failed with:"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1614
+#, qt-format
+msgctxt "MainWindow|"
+msgid "If this goes on, this installation may not be able to update itself any more. You can get the current version from %1."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1616
+msgctxt "MainWindow|"
+msgid "Updates are not working"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1618
+msgctxt "MainWindow|"
+msgid "Open the website"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1714
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1559 src/launcher/ui/MainWindow.cpp:1601
+#: src/launcher/ui/MainWindow.cpp:1718 src/launcher/ui/MainWindow.cpp:1760
 msgctxt "MainWindow|"
 msgid "Abort"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1610
+#: src/launcher/ui/MainWindow.cpp:1769
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1744
+#: src/launcher/ui/MainWindow.cpp:1903
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1744
+#: src/launcher/ui/MainWindow.cpp:1903
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1766
+#: src/launcher/ui/MainWindow.cpp:1925
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1766
+#: src/launcher/ui/MainWindow.cpp:1925
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1910
+#: src/launcher/ui/MainWindow.cpp:2069
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1911
+#: src/launcher/ui/MainWindow.cpp:2070
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3264,45 +3348,45 @@ msgid "About to delete: %1\n"
 "Are you sure?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2123
+#: src/launcher/ui/MainWindow.cpp:2282
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2159
+#: src/launcher/ui/MainWindow.cpp:2318
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2161
+#: src/launcher/ui/MainWindow.cpp:2320
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2170
+#: src/launcher/ui/MainWindow.cpp:2329
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2178
+#: src/launcher/ui/MainWindow.cpp:2337
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2187
+#: src/launcher/ui/MainWindow.cpp:2346
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2201
+#: src/launcher/ui/MainWindow.cpp:2360
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2203
+#: src/launcher/ui/MainWindow.cpp:2362
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -3353,62 +3437,62 @@ msgctxt "MinecraftAccount|Account status"
 msgid "Unknown"
 msgstr "Neznámé"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:769
+#: src/launcher/minecraft/MinecraftInstance.cpp:764
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<SESSION ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:771
+#: src/launcher/minecraft/MinecraftInstance.cpp:766
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<ACCESS TOKEN>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:773
+#: src/launcher/minecraft/MinecraftInstance.cpp:768
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<CLIENT TOKEN>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:775
+#: src/launcher/minecraft/MinecraftInstance.cpp:770
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<PROFILE ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:847
+#: src/launcher/minecraft/MinecraftInstance.cpp:842
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "rozbitý"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:851
+#: src/launcher/minecraft/MinecraftInstance.cpp:846
 #, qt-format
 msgctxt "MinecraftInstance|"
-msgid "Minecraft %1 (%2)"
-msgstr "Minecraft %1 (%2)"
+msgid "Minecraft %1"
+msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:856
+#: src/launcher/minecraft/MinecraftInstance.cpp:851
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1 hours"
 msgstr ", naposledy hráno po dobu %1 hodin"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:858
+#: src/launcher/minecraft/MinecraftInstance.cpp:853
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
 msgstr ", naposledy hráno %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:864
+#: src/launcher/minecraft/MinecraftInstance.cpp:859
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1 hours"
 msgstr ", celkem odehráno %1 hodin"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:866
+#: src/launcher/minecraft/MinecraftInstance.cpp:861
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
 msgstr ", celkem odehráno %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:872
+#: src/launcher/minecraft/MinecraftInstance.cpp:867
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", spadla."
@@ -4554,13 +4638,13 @@ msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr "<a href=\"%1\"> Odkaz na nahraný LOG</a> byl uložen do tvé schránky."
 
-#: src/launcher/ui/MainWindow.cpp:104
+#: src/launcher/ui/MainWindow.cpp:122
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
 msgstr "Žádný profil (%1)"
 
-#: src/launcher/ui/MainWindow.cpp:111
+#: src/launcher/ui/MainWindow.cpp:129
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
@@ -4581,23 +4665,23 @@ msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr "Patroni"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:116
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:134
 msgctxt "QObject|"
 msgid "<p>There are no code changes between your current version and the latest.</p>"
 msgstr "<p>Neexistují žádné změny kódu mezi vaší současnou verzí a nejnovější.</p>"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:120
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:138
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
 msgstr "<p>Následující revize byly přidány od poslední aktualizace:</p>"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:127
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:145
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>The update removes %1 commits and adds the following %2:</p>"
 msgstr "<p>Aktualizace odstraní %1 revizí a přidává následující %2:</p>"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:130
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:148
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
@@ -4655,19 +4739,19 @@ msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Test Javy byl úspěšný!<br />Nahlášená platforma: %1<br />Nahlášená verze Javy: %2<br />"
 
-#: src/launcher/updater/v1/UpdateController.cpp:369
-#: src/launcher/updater/v2/InstallController.cpp:233
+#: src/launcher/updater/v1/UpdateController.cpp:331
+#: src/launcher/updater/v2/InstallController.cpp:200
 msgctxt "QObject|"
 msgid "Update failed!"
 msgstr "Nahrávání selhalo!"
 
-#: src/launcher/updater/v1/UpdateController.cpp:370
-#: src/launcher/updater/v2/InstallController.cpp:254
+#: src/launcher/updater/v1/UpdateController.cpp:332
+#: src/launcher/updater/v2/InstallController.cpp:223
 msgctxt "QObject|"
 msgid "Rollback failed!"
 msgstr "Nahrávání selhalo!"
 
-#: src/launcher/updater/v1/UpdateController.cpp:375
+#: src/launcher/updater/v1/UpdateController.cpp:337
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't replace file %1. Changes will be reverted.\n"
@@ -4675,7 +4759,7 @@ msgid "Couldn't replace file %1. Changes will be reverted.\n"
 msgstr "Nemůžu nahradit soubor %1. Provedené změny budou zrušeny.\n"
 "Podvejte se do logového souboru %2 pro další detaily."
 
-#: src/launcher/updater/v1/UpdateController.cpp:385
+#: src/launcher/updater/v1/UpdateController.cpp:347
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1. Changes will be reverted.\n"
@@ -4683,16 +4767,15 @@ msgid "Couldn't remove file %1. Changes will be reverted.\n"
 msgstr "Nepodařilo se smazat soubor %1. Provedené změny budou zrušeny.\n"
 "Podvejte se do logového souboru %2 pro další detaily."
 
-#: src/launcher/updater/v1/UpdateController.cpp:395
-#: src/launcher/updater/v2/InstallController.cpp:221
+#: src/launcher/updater/v1/UpdateController.cpp:357
 msgctxt "QObject|"
 msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
 "Roll back to previous version?"
 msgstr "Nová verze nebyla spuštěna nebo je příliš stará a nereaguje na kontrolu spuštění.\n\n"
 "Vrátit zpět do předchozí verze?"
 
-#: src/launcher/updater/v1/UpdateController.cpp:417
-#: src/launcher/updater/v2/InstallController.cpp:251
+#: src/launcher/updater/v1/UpdateController.cpp:379
+#: src/launcher/updater/v2/InstallController.cpp:220
 #, qt-format
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
@@ -4719,68 +4802,84 @@ msgctxt "QObject|"
 msgid "network error %1"
 msgstr ""
 
-#: src/launcher/updater/v2/InstallController.cpp:54
+#: src/launcher/updater/v2/InstallController.cpp:44
 #, qt-format
 msgctxt "QObject|"
-msgid "Couldn't remove the backup of the previous update:\n"
+msgid "Couldn't make a folder for the backup of this update in:\n"
 "%1"
 msgstr ""
 
-#: src/launcher/updater/v2/InstallController.cpp:88
+#: src/launcher/updater/v2/InstallController.cpp:79
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't update %1. Changes will be reverted.\n"
 "See the %2 log file for details."
 msgstr ""
 
-#: src/launcher/updater/v2/Plan.cpp:122
+#: src/launcher/updater/v2/InstallController.cpp:176
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks."
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:204
+msgctxt "QObject|"
+msgid "Roll back to previous version?"
+msgstr ""
+
+#: src/launcher/updater/v2/Plan.cpp:135
+#, qt-format
+msgctxt "QObject|"
+msgid "Build %1 describes the version for this installation (%2) in a way this version can't read."
+msgstr ""
+
+#: src/launcher/updater/v2/Plan.cpp:139
 #, qt-format
 msgctxt "QObject|"
 msgid "Build %1 has no version for this installation (%2)."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:327
+#: src/launcher/updater/v2/SystemRequirements.cpp:448
 #, qt-format
 msgctxt "QObject|"
 msgid "The build's requirements are incomplete or not understood (%1)."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:337
+#: src/launcher/updater/v2/SystemRequirements.cpp:458
 #, qt-format
 msgctxt "QObject|"
 msgid "The build is for %1, this computer runs %2."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:348
+#: src/launcher/updater/v2/SystemRequirements.cpp:469
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs a %1 processor, this computer has %2."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:348
+#: src/launcher/updater/v2/SystemRequirements.cpp:469
 msgctxt "QObject|"
 msgid "an unknown one"
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:360
+#: src/launcher/updater/v2/SystemRequirements.cpp:485
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs %1 or newer, and the version on this computer could not be found out."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:364
+#: src/launcher/updater/v2/SystemRequirements.cpp:489
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs %1 or newer, this computer has %2."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:394
+#: src/launcher/updater/v2/SystemRequirements.cpp:519
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs Qt %1 or a newer Qt %2, and the version on this computer could not be found out."
 msgstr ""
 
-#: src/launcher/updater/v2/SystemRequirements.cpp:398
+#: src/launcher/updater/v2/SystemRequirements.cpp:523
 #, qt-format
 msgctxt "QObject|"
 msgid "The build needs Qt %1 or a newer Qt %2, this computer has Qt %3."
@@ -5602,12 +5701,12 @@ msgctxt "UpdateDialog|"
 msgid "MultiMC Update"
 msgstr "Aktualizace MultiMC"
 
-#: src/launcher/ui/dialogs/UpdateDialog.ui:61
+#: src/launcher/ui/dialogs/UpdateDialog.ui:81
 msgctxt "UpdateDialog|"
 msgid "Update now"
 msgstr "Aktualizovat nyní"
 
-#: src/launcher/ui/dialogs/UpdateDialog.ui:74
+#: src/launcher/ui/dialogs/UpdateDialog.ui:94
 msgctxt "UpdateDialog|"
 msgid "Don't update yet"
 msgstr "Zatím ještě neaktualizovat"
@@ -5632,7 +5731,7 @@ msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
 msgstr "<center><h1>Načítám seznam změn...</h1></center>"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:159
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:177
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
@@ -5753,53 +5852,82 @@ msgctxt "UpdaterV2::Checker|"
 msgid "The newest keys document (version %1) expired at %2, so updates can't be trusted."
 msgstr ""
 
-#: src/launcher/updater/v2/Checker.cpp:324
+#: src/launcher/updater/v2/Checker.cpp:339
 #, qt-format
 msgctxt "UpdaterV2::Checker|"
 msgid "This build (%1) was withdrawn from the servers."
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:38
+#: src/launcher/updater/v2/DownloadTask.cpp:39
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Couldn't create a folder for the update's files."
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:41
+#: src/launcher/updater/v2/DownloadTask.cpp:43
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Comparing the installed files with build %1..."
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:58
+#: src/launcher/updater/v2/DownloadTask.cpp:60
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Downloading build %1..."
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:59
+#: src/launcher/updater/v2/DownloadTask.cpp:61
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Update to build %1"
 msgstr ""
 
-#: src/launcher/updater/v2/DownloadTask.cpp:78
+#: src/launcher/updater/v2/DownloadTask.cpp:80
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Failed to download the update:\n"
 "%1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:81
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:86
+msgctxt "UpdatesPage|"
+msgid "Recommended"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:86
+#, qt-format
+msgctxt "UpdatesPage|"
+msgid "Recommended: %1"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:89
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:94
+#, qt-format
+msgctxt "UpdatesPage|"
+msgid "%1 (this installation)"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:147
 msgctxt "UpdatesPage|"
 msgid "Check for updates on start"
 msgstr ""
 
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:82
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:148
 msgctxt "UpdatesPage|"
 msgid "Update tier"
 msgstr ""
 
-#: src/launcher/ui/pages/global/UpdatesPage.h:27
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:149
+msgctxt "UpdatesPage|"
+msgid "Version for this computer"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:150
+#, qt-format
+msgctxt "UpdatesPage|"
+msgid "This computer can run more than one version of %1. The recommended one is the newest that runs here; when there is a newer one, %1 switches to it unless you choose another here."
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.h:30
 msgctxt "UpdatesPage|"
 msgid "Updates"
 msgstr ""
