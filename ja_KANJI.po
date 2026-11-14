@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Japanese (kanji)\n"
 "Language: jpn_KANJI\n"
-"PO-Revision-Date: 2026-11-14 12:53\n"
+"PO-Revision-Date: 2026-11-14 15:40\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1422,60 +1422,66 @@ msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Mod 整合包の受信"
 
-#: src/launcher/InstanceImportTask.cpp:92
+#: src/launcher/InstanceImportTask.cpp:91
+#: src/launcher/InstanceImportTask.cpp:507
+msgctxt "InstanceImportTask|"
+msgid "Instance import was stopped."
+msgstr ""
+
+#: src/launcher/InstanceImportTask.cpp:102
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Mod 整合包を展開中"
 
-#: src/launcher/InstanceImportTask.cpp:100
+#: src/launcher/InstanceImportTask.cpp:110
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "指定した Mod 整合包の zip 圧縮文件を開けません。"
 
-#: src/launcher/InstanceImportTask.cpp:140
-#: src/launcher/InstanceImportTask.cpp:204
+#: src/launcher/InstanceImportTask.cpp:150
+#: src/launcher/InstanceImportTask.cpp:214
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "圧縮包には型識別不能な Mod 整合包が含まれていようです。"
 
-#: src/launcher/InstanceImportTask.cpp:156
+#: src/launcher/InstanceImportTask.cpp:166
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Mod 整合包の展開に失敗しました"
 
-#: src/launcher/InstanceImportTask.cpp:183
+#: src/launcher/InstanceImportTask.cpp:193
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "%1 の権限の修正に失敗しました"
 
-#: src/launcher/InstanceImportTask.cpp:211
+#: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been stopped."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:427
+#: src/launcher/InstanceImportTask.cpp:437
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "整合包の索引の解析に失敗しました: \n"
 
-#: src/launcher/InstanceImportTask.cpp:434
+#: src/launcher/InstanceImportTask.cpp:444
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "上書き文件集の名前変更に失敗しました:\n"
 
-#: src/launcher/InstanceImportTask.cpp:441
-#: src/launcher/InstanceImportTask.cpp:446
+#: src/launcher/InstanceImportTask.cpp:451
+#: src/launcher/InstanceImportTask.cpp:456
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "上書きフォルダをマージできませんでした：\n"
 
-#: src/launcher/InstanceImportTask.cpp:476
+#: src/launcher/InstanceImportTask.cpp:486
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod 受信"
 
-#: src/launcher/InstanceImportTask.cpp:503
+#: src/launcher/InstanceImportTask.cpp:513
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Mod を受信中..."
