@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-11-13 18:01\n"
+"PO-Revision-Date: 2026-11-14 12:52\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -626,7 +626,7 @@ msgctxt "AppearancePage|"
 msgid "Appearance"
 msgstr ""
 
-#: src/launcher/Application.cpp:830
+#: src/launcher/Application.cpp:832
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Налаштування"
@@ -1390,8 +1390,8 @@ msgstr "Не вдалося скопіювати теку збірки."
 
 #: src/launcher/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
-msgid "Instance folder copy has been aborted."
-msgstr "Копіювання теки збірки було скасовано."
+msgid "Instance folder copy has been stopped."
+msgstr ""
 
 #: src/launcher/InstanceCreationTask.cpp:16
 #, qt-format
@@ -1441,8 +1441,8 @@ msgstr "Не вдалося вирішити дозволи для %1"
 
 #: src/launcher/InstanceImportTask.cpp:211
 msgctxt "InstanceImportTask|"
-msgid "Instance import has been aborted."
-msgstr "Імпорт збірки було скасовано."
+msgid "Instance import has been stopped."
+msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:427
 msgctxt "InstanceImportTask|"
@@ -2091,8 +2091,8 @@ msgstr "Помилка"
 
 #: src/launcher/LaunchController.cpp:422
 msgctxt "LaunchController|"
-msgid "Abort"
-msgstr "Перервати"
+msgid "Stop"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:438
 msgctxt "LaunchController|"
@@ -2469,8 +2469,8 @@ msgstr "Помилка"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:30
 msgctxt "LegacyUpgradePage|"
-msgid "Abort"
-msgstr "Скасувати"
+msgid "Stop"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:39
 #, qt-format
@@ -2501,8 +2501,8 @@ msgstr "Не вдалося вибрати версію Minecraft."
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
-msgid "Instance folder copy has been aborted."
-msgstr "Копіювання теки збірки було скасовано."
+msgid "Instance folder copy has been stopped."
+msgstr ""
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:15
 msgctxt "LibrariesTask|"
@@ -3131,14 +3131,14 @@ msgid "No news available."
 msgstr "Немає доступних новин."
 
 #: src/launcher/ui/MainWindow.cpp:1397 src/launcher/ui/MainWindow.cpp:1414
-#: src/launcher/ui/MainWindow.cpp:1643 src/launcher/ui/MainWindow.cpp:1657
-#: src/launcher/ui/MainWindow.cpp:1707 src/launcher/ui/MainWindow.cpp:1756
-#: src/launcher/ui/MainWindow.cpp:1768
+#: src/launcher/ui/MainWindow.cpp:1665 src/launcher/ui/MainWindow.cpp:1679
+#: src/launcher/ui/MainWindow.cpp:1729 src/launcher/ui/MainWindow.cpp:1778
+#: src/launcher/ui/MainWindow.cpp:1790
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Помилка"
 
-#: src/launcher/ui/MainWindow.cpp:1397 src/launcher/ui/MainWindow.cpp:1643
+#: src/launcher/ui/MainWindow.cpp:1397 src/launcher/ui/MainWindow.cpp:1665
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -3146,58 +3146,75 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "Не вдалося створити теку для завантаження оновлень:\n"
 "%1"
 
-#: src/launcher/ui/MainWindow.cpp:1467
+#: src/launcher/ui/MainWindow.cpp:1455
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Builds of %1, the version this installation runs, are made until %2. After that, it keeps working, but gets no more updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1460
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 runs on this computer and keeps getting updates. You can switch to it in Settings, Updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1463
+msgctxt "MainWindow|"
+msgid "Updates ending"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1489
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch to %1, which replaces %2"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1471
+#: src/launcher/ui/MainWindow.cpp:1493
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 isn't made for this computer any more, so this update switches to %2."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1506 src/launcher/ui/MainWindow.cpp:1527
+#: src/launcher/ui/MainWindow.cpp:1528 src/launcher/ui/MainWindow.cpp:1549
 msgctxt "MainWindow|"
 msgid "Switch version"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1507
+#: src/launcher/ui/MainWindow.cpp:1529
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 is available for this computer. It replaces %2, which this installation runs now.\n\n"
 "Switch now? If you keep %2, you can switch later in Settings, Updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1510
+#: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "Switch now"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1511
+#: src/launcher/ui/MainWindow.cpp:1533
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Keep %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1512
+#: src/launcher/ui/MainWindow.cpp:1534
 msgctxt "MainWindow|"
 msgid "Ask me later"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1527
+#: src/launcher/ui/MainWindow.cpp:1549
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch this installation from %1 to %2 now?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1542
+#: src/launcher/ui/MainWindow.cpp:1564
 msgctxt "MainWindow|"
 msgid "Older build"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1543
+#: src/launcher/ui/MainWindow.cpp:1565
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
@@ -3205,125 +3222,125 @@ msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
 "Install build %2 anyway?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1574 src/launcher/ui/MainWindow.cpp:1583
+#: src/launcher/ui/MainWindow.cpp:1596 src/launcher/ui/MainWindow.cpp:1605
 msgctxt "MainWindow|"
 msgid "No updates"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1584
+#: src/launcher/ui/MainWindow.cpp:1606
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3). This build stays until there is a newer one."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1590
+#: src/launcher/ui/MainWindow.cpp:1612
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Build %1 is available, but it can't be installed here:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1593
+#: src/launcher/ui/MainWindow.cpp:1615
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Builds are no longer made of %1, the version this installation runs."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1595
+#: src/launcher/ui/MainWindow.cpp:1617
 msgctxt "MainWindow|"
 msgid "Update not possible"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1602
+#: src/launcher/ui/MainWindow.cpp:1624
 msgctxt "MainWindow|"
 msgid "Update check failed"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1602
+#: src/launcher/ui/MainWindow.cpp:1624
 msgctxt "MainWindow|"
 msgid "Could not check for updates:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1610
+#: src/launcher/ui/MainWindow.cpp:1632
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 has not been able to check for updates since %2."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1611
+#: src/launcher/ui/MainWindow.cpp:1633
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The last check that worked was on %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1612
+#: src/launcher/ui/MainWindow.cpp:1634
 msgctxt "MainWindow|"
 msgid "No check has worked on this installation yet."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1613
+#: src/launcher/ui/MainWindow.cpp:1635
 msgctxt "MainWindow|"
 msgid "The last attempt failed with:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1614
+#: src/launcher/ui/MainWindow.cpp:1636
 #, qt-format
 msgctxt "MainWindow|"
 msgid "If this goes on, this installation may not be able to update itself any more. You can get the current version from %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1616
+#: src/launcher/ui/MainWindow.cpp:1638
 msgctxt "MainWindow|"
 msgid "Updates are not working"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1618
+#: src/launcher/ui/MainWindow.cpp:1640
 msgctxt "MainWindow|"
 msgid "Open the website"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1714
+#: src/launcher/ui/MainWindow.cpp:1736
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1718 src/launcher/ui/MainWindow.cpp:1760
+#: src/launcher/ui/MainWindow.cpp:1740 src/launcher/ui/MainWindow.cpp:1782
 msgctxt "MainWindow|"
-msgid "Abort"
+msgid "Stop"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1769
+#: src/launcher/ui/MainWindow.cpp:1791
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1903
+#: src/launcher/ui/MainWindow.cpp:1925
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1903
+#: src/launcher/ui/MainWindow.cpp:1925
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1925
+#: src/launcher/ui/MainWindow.cpp:1947
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1925
+#: src/launcher/ui/MainWindow.cpp:1947
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2069
+#: src/launcher/ui/MainWindow.cpp:2091
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2070
+#: src/launcher/ui/MainWindow.cpp:2092
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3331,45 +3348,45 @@ msgid "About to delete: %1\n"
 "Are you sure?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2282
+#: src/launcher/ui/MainWindow.cpp:2304
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2318
+#: src/launcher/ui/MainWindow.cpp:2340
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2320
+#: src/launcher/ui/MainWindow.cpp:2342
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2329
+#: src/launcher/ui/MainWindow.cpp:2351
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2337
+#: src/launcher/ui/MainWindow.cpp:2359
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2346
+#: src/launcher/ui/MainWindow.cpp:2368
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2360
+#: src/launcher/ui/MainWindow.cpp:2382
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2362
+#: src/launcher/ui/MainWindow.cpp:2384
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -3583,8 +3600,8 @@ msgstr "Не вдалося завантажити компоненти верс
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:91
 msgctxt "MinecraftUpdate|"
-msgid "Aborted by user."
-msgstr "Зупинено користувачем."
+msgid "Stopped."
+msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:368
 msgctxt "ModFolderModel|"
@@ -3886,8 +3903,8 @@ msgstr "Попередження"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:135
 msgctxt "ModrinthExportDialog|"
-msgid "Abort"
-msgstr "Перервати"
+msgid "Stop"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
@@ -5197,8 +5214,8 @@ msgstr "Не вдалося вирішити дозволи для %1"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:141
 msgctxt "Technic::SingleZipPackInstallTask|"
-msgid "Instance import has been aborted."
-msgstr "Імпорт збірки було скасовано."
+msgid "Instance import has been stopped."
+msgstr ""
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:49
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:51
@@ -5235,8 +5252,8 @@ msgstr "Не вдалося вирішити дозволи для %1"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:200
 msgctxt "Technic::SolderPackInstallTask|"
-msgid "Instance import has been aborted."
-msgstr "Імпорт збірки було скасовано."
+msgid "Instance import has been stopped."
+msgstr ""
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:58
 msgctxt "Technic::TechnicPackProcessor|"
