@@ -647,7 +647,7 @@ msgctxt "AppearancePage|"
 msgid "Appearance"
 msgstr ""
 
-#: src/launcher/Application.cpp:799
+#: src/launcher/Application.cpp:804
 msgctxt "Application|"
 msgid "Settings"
 msgstr ""
@@ -2256,52 +2256,67 @@ msgctxt "LauncherPage|"
 msgid "By &name"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:260
+#: src/launcher/ui/pages/global/LauncherPage.ui:246
+msgctxt "LauncherPage|"
+msgid "Applications menu"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.ui:252
+msgctxt "LauncherPage|"
+msgid "Show MultiMC in the applications menu"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.ui:269
+msgctxt "LauncherPage|"
+msgid "Use this copy"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.ui:293
 msgctxt "LauncherPage|"
 msgid "Console"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:266
+#: src/launcher/ui/pages/global/LauncherPage.ui:299
 msgctxt "LauncherPage|"
 msgid "Console Settings"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:272
+#: src/launcher/ui/pages/global/LauncherPage.ui:305
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:279
+#: src/launcher/ui/pages/global/LauncherPage.ui:312
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:286
+#: src/launcher/ui/pages/global/LauncherPage.ui:319
 msgctxt "LauncherPage|"
 msgid "Show console when the game crashes?"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:296
+#: src/launcher/ui/pages/global/LauncherPage.ui:329
 msgctxt "LauncherPage|"
 msgid "History limit"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:302
+#: src/launcher/ui/pages/global/LauncherPage.ui:335
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:315
+#: src/launcher/ui/pages/global/LauncherPage.ui:348
 msgctxt "LauncherPage|"
 msgid " lines"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:71
+#: src/launcher/ui/pages/global/LauncherPage.cpp:72
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:80
+#: src/launcher/ui/pages/global/LauncherPage.cpp:81
 msgctxt "LauncherPage|"
 msgid ""
 "You're trying to specify an instance folder which's path contains at least "
@@ -2309,26 +2324,58 @@ msgid ""
 "(probably) won't start!"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:85
+#: src/launcher/ui/pages/global/LauncherPage.cpp:86
 msgctxt "LauncherPage|"
 msgid ""
 "Do you really want to use this path? Selecting \"No\" will close this and "
 "not alter your instance path."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:108
+#: src/launcher/ui/pages/global/LauncherPage.cpp:109
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:124
+#: src/launcher/ui/pages/global/LauncherPage.cpp:125
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:140
+#: src/launcher/ui/pages/global/LauncherPage.cpp:141
 msgctxt "LauncherPage|"
 msgid "Skins Folder"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:248
+msgctxt "LauncherPage|"
+msgid ""
+"MultiMC is installed as a package here: the package provides its "
+"applications menu entry."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:252
+msgctxt "LauncherPage|"
+msgid "The applications menu starts this copy of MultiMC."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:253
+msgctxt "LauncherPage|"
+msgid ""
+"MultiMC is hidden from the applications menu. Its entry stays, to give "
+"MultiMC's windows their icon."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:257
+msgctxt "LauncherPage|"
+msgid ""
+"The applications menu has an entry for MultiMC that MultiMC didn't make. It "
+"is left as it is."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:258
+#, qt-format
+msgctxt "LauncherPage|"
+msgid "The applications menu starts another copy of MultiMC, in %1."
 msgstr ""
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
@@ -4534,6 +4581,17 @@ msgstr ""
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
+msgstr ""
+
+#: src/launcher/DesktopIntegration_linux.cpp:54
+msgctxt "QObject|"
+msgid "This copy of MultiMC is in a temporary folder."
+msgstr ""
+
+#: src/launcher/DesktopIntegration_linux.cpp:56
+#, qt-format
+msgctxt "QObject|"
+msgid "This copy of MultiMC has no start script (%1)."
 msgstr ""
 
 #: src/launcher/JavaCommon.cpp:10
