@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2026-11-13 18:58\n"
+"PO-Revision-Date: 2026-11-14 17:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -627,7 +627,7 @@ msgctxt "AppearancePage|"
 msgid "Appearance"
 msgstr "Vzhled"
 
-#: src/launcher/Application.cpp:830
+#: src/launcher/Application.cpp:832
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Nastavení"
@@ -1391,8 +1391,8 @@ msgstr "Kopírování složky instance neúspěšné."
 
 #: src/launcher/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
-msgid "Instance folder copy has been aborted."
-msgstr "Kopírovaní složky instance bylo zrušeno."
+msgid "Instance folder copy has been stopped."
+msgstr "Kopie složky instance byla zastavena."
 
 #: src/launcher/InstanceCreationTask.cpp:16
 #, qt-format
@@ -1413,60 +1413,66 @@ msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Stáhnout Modpack"
 
-#: src/launcher/InstanceImportTask.cpp:92
+#: src/launcher/InstanceImportTask.cpp:91
+#: src/launcher/InstanceImportTask.cpp:507
+msgctxt "InstanceImportTask|"
+msgid "Instance import was stopped."
+msgstr "Import instance byl zastaven."
+
+#: src/launcher/InstanceImportTask.cpp:102
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Rozbalování modpacku"
 
-#: src/launcher/InstanceImportTask.cpp:100
+#: src/launcher/InstanceImportTask.cpp:110
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Nebylo možné otevřít poskytnutý archiv modpacku."
 
-#: src/launcher/InstanceImportTask.cpp:140
-#: src/launcher/InstanceImportTask.cpp:204
+#: src/launcher/InstanceImportTask.cpp:150
+#: src/launcher/InstanceImportTask.cpp:214
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "Archiv neobsahuje uznávaný typ modpacku."
 
-#: src/launcher/InstanceImportTask.cpp:156
+#: src/launcher/InstanceImportTask.cpp:166
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Extrahování modpacku selhalo"
 
-#: src/launcher/InstanceImportTask.cpp:183
+#: src/launcher/InstanceImportTask.cpp:193
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Nepodařilo se opravit povolení pro %1"
 
-#: src/launcher/InstanceImportTask.cpp:211
+#: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
-msgid "Instance import has been aborted."
-msgstr "Importování instance bylo přerušeno."
+msgid "Instance import has been stopped."
+msgstr "Import instance byl zastaven."
 
-#: src/launcher/InstanceImportTask.cpp:427
+#: src/launcher/InstanceImportTask.cpp:437
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Nelze pochopit index balíčku:\n"
 
-#: src/launcher/InstanceImportTask.cpp:434
+#: src/launcher/InstanceImportTask.cpp:444
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Nemohl jsem přejmenovat přepisovací složku:\n"
 
-#: src/launcher/InstanceImportTask.cpp:441
-#: src/launcher/InstanceImportTask.cpp:446
+#: src/launcher/InstanceImportTask.cpp:451
+#: src/launcher/InstanceImportTask.cpp:456
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "Nebylo možné sloučit přepisovací složku:\n"
 
-#: src/launcher/InstanceImportTask.cpp:476
+#: src/launcher/InstanceImportTask.cpp:486
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Stáhnout mód"
 
-#: src/launcher/InstanceImportTask.cpp:503
+#: src/launcher/InstanceImportTask.cpp:513
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Stahování módů…"
@@ -1561,7 +1567,7 @@ msgstr "Java argumenty"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:235
 msgctxt "InstanceSettingsPage|"
 msgid "Test Java with the settings this instance would use, including the global ones it doesn't override."
-msgstr ""
+msgstr "Otestovat Javu se nastavením, která by tato instance používala, i s těmi globálními, které nepřepisuje."
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:238
 msgctxt "InstanceSettingsPage|"
@@ -2092,8 +2098,8 @@ msgstr "Chyba"
 
 #: src/launcher/LaunchController.cpp:422
 msgctxt "LaunchController|"
-msgid "Abort"
-msgstr "Přerušit"
+msgid "Stop"
+msgstr "Zastavit"
 
 #: src/launcher/LaunchController.cpp:438
 msgctxt "LaunchController|"
@@ -2470,8 +2476,8 @@ msgstr "Chyba"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:30
 msgctxt "LegacyUpgradePage|"
-msgid "Abort"
-msgstr "Přerušit"
+msgid "Stop"
+msgstr "Zastavit"
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:39
 #, qt-format
@@ -2502,8 +2508,8 @@ msgstr "Nelze se rozhodnout o Minecraft verzi."
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
-msgid "Instance folder copy has been aborted."
-msgstr "Kopírování složky instance bylo zrušeno."
+msgid "Instance folder copy has been stopped."
+msgstr "Kopie složky instance byla zastavena."
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:15
 msgctxt "LibrariesTask|"
@@ -3133,14 +3139,14 @@ msgid "No news available."
 msgstr "Žádné novinky k dispozici."
 
 #: src/launcher/ui/MainWindow.cpp:1397 src/launcher/ui/MainWindow.cpp:1414
-#: src/launcher/ui/MainWindow.cpp:1643 src/launcher/ui/MainWindow.cpp:1657
-#: src/launcher/ui/MainWindow.cpp:1707 src/launcher/ui/MainWindow.cpp:1756
-#: src/launcher/ui/MainWindow.cpp:1768
+#: src/launcher/ui/MainWindow.cpp:1665 src/launcher/ui/MainWindow.cpp:1679
+#: src/launcher/ui/MainWindow.cpp:1729 src/launcher/ui/MainWindow.cpp:1778
+#: src/launcher/ui/MainWindow.cpp:1790
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Chyba"
 
-#: src/launcher/ui/MainWindow.cpp:1397 src/launcher/ui/MainWindow.cpp:1643
+#: src/launcher/ui/MainWindow.cpp:1397 src/launcher/ui/MainWindow.cpp:1665
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -3148,58 +3154,75 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "Nelze vytvořit složku pro stažení aktualizací:\n"
 "%1"
 
-#: src/launcher/ui/MainWindow.cpp:1467
+#: src/launcher/ui/MainWindow.cpp:1455
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Builds of %1, the version this installation runs, are made until %2. After that, it keeps working, but gets no more updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1460
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 runs on this computer and keeps getting updates. You can switch to it in Settings, Updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1463
+msgctxt "MainWindow|"
+msgid "Updates ending"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1489
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch to %1, which replaces %2"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1471
+#: src/launcher/ui/MainWindow.cpp:1493
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 isn't made for this computer any more, so this update switches to %2."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1506 src/launcher/ui/MainWindow.cpp:1527
+#: src/launcher/ui/MainWindow.cpp:1528 src/launcher/ui/MainWindow.cpp:1549
 msgctxt "MainWindow|"
 msgid "Switch version"
 msgstr "Změnit verzi"
 
-#: src/launcher/ui/MainWindow.cpp:1507
+#: src/launcher/ui/MainWindow.cpp:1529
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 is available for this computer. It replaces %2, which this installation runs now.\n\n"
 "Switch now? If you keep %2, you can switch later in Settings, Updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1510
+#: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "Switch now"
 msgstr "Změnit teď"
 
-#: src/launcher/ui/MainWindow.cpp:1511
+#: src/launcher/ui/MainWindow.cpp:1533
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Keep %1"
 msgstr "Ponechat %1"
 
-#: src/launcher/ui/MainWindow.cpp:1512
+#: src/launcher/ui/MainWindow.cpp:1534
 msgctxt "MainWindow|"
 msgid "Ask me later"
 msgstr "Zeptat se později"
 
-#: src/launcher/ui/MainWindow.cpp:1527
+#: src/launcher/ui/MainWindow.cpp:1549
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch this installation from %1 to %2 now?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1542
+#: src/launcher/ui/MainWindow.cpp:1564
 msgctxt "MainWindow|"
 msgid "Older build"
 msgstr "Starší build"
 
-#: src/launcher/ui/MainWindow.cpp:1543
+#: src/launcher/ui/MainWindow.cpp:1565
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
@@ -3207,125 +3230,125 @@ msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
 "Install build %2 anyway?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1574 src/launcher/ui/MainWindow.cpp:1583
+#: src/launcher/ui/MainWindow.cpp:1596 src/launcher/ui/MainWindow.cpp:1605
 msgctxt "MainWindow|"
 msgid "No updates"
 msgstr "Žádné aktualizace"
 
-#: src/launcher/ui/MainWindow.cpp:1584
+#: src/launcher/ui/MainWindow.cpp:1606
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3). This build stays until there is a newer one."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1590
+#: src/launcher/ui/MainWindow.cpp:1612
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Build %1 is available, but it can't be installed here:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1593
+#: src/launcher/ui/MainWindow.cpp:1615
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Builds are no longer made of %1, the version this installation runs."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1595
+#: src/launcher/ui/MainWindow.cpp:1617
 msgctxt "MainWindow|"
 msgid "Update not possible"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1602
+#: src/launcher/ui/MainWindow.cpp:1624
 msgctxt "MainWindow|"
 msgid "Update check failed"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1602
+#: src/launcher/ui/MainWindow.cpp:1624
 msgctxt "MainWindow|"
 msgid "Could not check for updates:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1610
+#: src/launcher/ui/MainWindow.cpp:1632
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 has not been able to check for updates since %2."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1611
+#: src/launcher/ui/MainWindow.cpp:1633
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The last check that worked was on %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1612
+#: src/launcher/ui/MainWindow.cpp:1634
 msgctxt "MainWindow|"
 msgid "No check has worked on this installation yet."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1613
+#: src/launcher/ui/MainWindow.cpp:1635
 msgctxt "MainWindow|"
 msgid "The last attempt failed with:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1614
+#: src/launcher/ui/MainWindow.cpp:1636
 #, qt-format
 msgctxt "MainWindow|"
 msgid "If this goes on, this installation may not be able to update itself any more. You can get the current version from %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1616
+#: src/launcher/ui/MainWindow.cpp:1638
 msgctxt "MainWindow|"
 msgid "Updates are not working"
-msgstr ""
+msgstr "Aktualizace nefungují"
 
-#: src/launcher/ui/MainWindow.cpp:1618
+#: src/launcher/ui/MainWindow.cpp:1640
 msgctxt "MainWindow|"
 msgid "Open the website"
 msgstr "Otevřít web"
 
-#: src/launcher/ui/MainWindow.cpp:1714
+#: src/launcher/ui/MainWindow.cpp:1736
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "Varování"
 
-#: src/launcher/ui/MainWindow.cpp:1718 src/launcher/ui/MainWindow.cpp:1760
+#: src/launcher/ui/MainWindow.cpp:1740 src/launcher/ui/MainWindow.cpp:1782
 msgctxt "MainWindow|"
-msgid "Abort"
-msgstr ""
+msgid "Stop"
+msgstr "Zastavit"
 
-#: src/launcher/ui/MainWindow.cpp:1769
+#: src/launcher/ui/MainWindow.cpp:1791
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1903
+#: src/launcher/ui/MainWindow.cpp:1925
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "Název skupiny"
 
-#: src/launcher/ui/MainWindow.cpp:1903
+#: src/launcher/ui/MainWindow.cpp:1925
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "Zadejte nový název skupiny."
 
-#: src/launcher/ui/MainWindow.cpp:1925
+#: src/launcher/ui/MainWindow.cpp:1947
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "Smazat skupinu"
 
-#: src/launcher/ui/MainWindow.cpp:1925
+#: src/launcher/ui/MainWindow.cpp:1947
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "Opravdu chcete smazat skupinu %1"
 
-#: src/launcher/ui/MainWindow.cpp:2069
+#: src/launcher/ui/MainWindow.cpp:2091
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "OPATRNĚ!"
 
-#: src/launcher/ui/MainWindow.cpp:2070
+#: src/launcher/ui/MainWindow.cpp:2092
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3335,45 +3358,45 @@ msgstr "Chystáte se smazat: %1\n"
 "Toto je trvalé a kompletně vymaže instanci.\n\n"
 "Jste si jistý?"
 
-#: src/launcher/ui/MainWindow.cpp:2282
+#: src/launcher/ui/MainWindow.cpp:2304
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "Přejmenovat Instanci"
 
-#: src/launcher/ui/MainWindow.cpp:2318
+#: src/launcher/ui/MainWindow.cpp:2340
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2320
+#: src/launcher/ui/MainWindow.cpp:2342
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2329
+#: src/launcher/ui/MainWindow.cpp:2351
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2337
+#: src/launcher/ui/MainWindow.cpp:2359
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2346
+#: src/launcher/ui/MainWindow.cpp:2368
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
-msgstr ""
+msgstr "Vaše složka instance je v dočasné složce: '%1'!"
 
-#: src/launcher/ui/MainWindow.cpp:2360
+#: src/launcher/ui/MainWindow.cpp:2382
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "Celkem odehráno: %1 hodin"
 
-#: src/launcher/ui/MainWindow.cpp:2362
+#: src/launcher/ui/MainWindow.cpp:2384
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -3587,8 +3610,8 @@ msgstr "Nepodařilo se načíst komponenty verze - mmc-pack.json je pravděpodob
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:91
 msgctxt "MinecraftUpdate|"
-msgid "Aborted by user."
-msgstr "Přerušeno uživatelem."
+msgid "Stopped."
+msgstr "Zastaveno."
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:368
 msgctxt "ModFolderModel|"
@@ -3891,8 +3914,8 @@ msgstr "Varování"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:135
 msgctxt "ModrinthExportDialog|"
-msgid "Abort"
-msgstr "Přerušit"
+msgid "Stop"
+msgstr "Zastavit"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
 msgctxt "ModrinthPage|"
@@ -4693,7 +4716,7 @@ msgstr "Světlé"
 #, qt-format
 msgctxt "QObject|"
 msgid "Its stylesheet (%1) is outside of its folder."
-msgstr ""
+msgstr "Její styly (%1) jsou mimo její složku."
 
 #: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
@@ -4787,7 +4810,7 @@ msgstr "HTTP status %1"
 #, qt-format
 msgctxt "QObject|"
 msgid "network error %1"
-msgstr ""
+msgstr "chyba sítě %1"
 
 #: src/launcher/updater/v2/InstallController.cpp:44
 #, qt-format
@@ -4811,7 +4834,7 @@ msgstr ""
 #: src/launcher/updater/v2/InstallController.cpp:204
 msgctxt "QObject|"
 msgid "Roll back to previous version?"
-msgstr ""
+msgstr "Vrátit zpátky na předchozí verzi?"
 
 #: src/launcher/updater/v2/Plan.cpp:135
 #, qt-format
@@ -4846,7 +4869,7 @@ msgstr ""
 #: src/launcher/updater/v2/SystemRequirements.cpp:469
 msgctxt "QObject|"
 msgid "an unknown one"
-msgstr ""
+msgstr "neznámý"
 
 #: src/launcher/updater/v2/SystemRequirements.cpp:485
 #, qt-format
@@ -5202,8 +5225,8 @@ msgstr "Nepodařilo se opravit povolení pro %1"
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:141
 msgctxt "Technic::SingleZipPackInstallTask|"
-msgid "Instance import has been aborted."
-msgstr "Importování instance bylo přerušeno."
+msgid "Instance import has been stopped."
+msgstr ""
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:49
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:51
@@ -5240,8 +5263,8 @@ msgstr "Nepodařilo se opravit povolení pro %1"
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:200
 msgctxt "Technic::SolderPackInstallTask|"
-msgid "Instance import has been aborted."
-msgstr "Importování instance bylo přerušeno."
+msgid "Instance import has been stopped."
+msgstr ""
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:58
 msgctxt "Technic::TechnicPackProcessor|"
@@ -5466,61 +5489,61 @@ msgstr "Uložit &jako..."
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:232
 msgctxt "ThemeEditorDialog|"
 msgid "Save as a new theme of your own"
-msgstr ""
+msgstr "Uložit jako nový vlastní motiv"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:234
 msgctxt "ThemeEditorDialog|"
 msgid "&Close"
-msgstr ""
+msgstr "&Zavřít"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:266
 msgctxt "ThemeEditorDialog|"
 msgid "&Quick setup..."
-msgstr ""
+msgstr "&Rychlé nastavení..."
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:267
 msgctxt "ThemeEditorDialog|"
 msgid "Set every color from a background, a text and an accent color"
-msgstr ""
+msgstr "Nastavit každou barvu z pozadí, textu a barvy zvýraznění"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:316
 msgctxt "ThemeEditorDialog|"
 msgid "Default"
-msgstr ""
+msgstr "Výchozí"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:318
 msgctxt "ThemeEditorDialog|"
 msgid "Reset"
-msgstr ""
+msgstr "Resetovat"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:319
 msgctxt "ThemeEditorDialog|"
 msgid "Use the console's own color"
-msgstr ""
+msgstr "Použít barvu konzole"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:328
 #, qt-format
 msgctxt "ThemeEditorDialog|"
 msgid "Reset %1"
-msgstr ""
+msgstr "Resetovat %1"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:441
 #, qt-format
 msgctxt "ThemeEditorDialog|"
 msgid "Undo: %1"
-msgstr ""
+msgstr "Vrátit: %1"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:442
 #, qt-format
 msgctxt "ThemeEditorDialog|"
 msgid "Redo: %1"
-msgstr ""
+msgstr "Opakovat: %1"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:504
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:564
 msgctxt "ThemeEditorDialog|"
 msgid "Quick setup"
-msgstr ""
+msgstr "Rychlé nastavení"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:506
 msgctxt "ThemeEditorDialog|"
@@ -5530,168 +5553,168 @@ msgstr ""
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:514
 msgctxt "ThemeEditorDialog|"
 msgid "Background:"
-msgstr ""
+msgstr "Pozadí:"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:515
 msgctxt "ThemeEditorDialog|"
 msgid "Text:"
-msgstr ""
+msgstr "Text:"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:516
 msgctxt "ThemeEditorDialog|"
 msgid "Accent:"
-msgstr ""
+msgstr "Zvýraznění:"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:555
 msgctxt "ThemeEditorDialog|"
 msgid "Background"
-msgstr ""
+msgstr "Pozadí"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:556
 msgctxt "ThemeEditorDialog|"
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:557
 msgctxt "ThemeEditorDialog|"
 msgid "Accent"
-msgstr ""
+msgstr "Zvýraznění"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:660
 #, qt-format
 msgctxt "ThemeEditorDialog|"
 msgid "%1 (copy)"
-msgstr ""
+msgstr "%1 (kopie)"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:662
 msgctxt "ThemeEditorDialog|"
 msgid "Save as"
-msgstr ""
+msgstr "Uložit jako"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:662
 msgctxt "ThemeEditorDialog|"
 msgid "Name of the new theme:"
-msgstr ""
+msgstr "Název nového motivu:"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:684
 msgctxt "ThemeEditorDialog|"
 msgid "Theme not saved"
-msgstr ""
+msgstr "Motiv neuložen"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:702
 msgctxt "ThemeEditorDialog|"
 msgid "Discard changes?"
-msgstr ""
+msgstr "Zahodit změny?"
 
 #: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:702
 msgctxt "ThemeEditorDialog|"
 msgid "The theme has changes that aren't saved. Discard them?"
-msgstr ""
+msgstr "Motiv má neuložené změny. Chcete je zahodit?"
 
 #: src/launcher/ui/themes/ThemeList.cpp:65
 #, qt-format
 msgctxt "ThemeList|"
 msgid "This theme can't be used: %1"
-msgstr ""
+msgstr "Tento motiv nemůže být použit: %1"
 
 #: src/launcher/ui/themes/ThemeList.cpp:75
 msgctxt "ThemeList|"
 msgid "Built in"
-msgstr ""
+msgstr "Vestavěné"
 
 #: src/launcher/ui/themes/ThemeList.cpp:80
 #, qt-format
 msgctxt "ThemeList|"
 msgid "In the themes folder, \"%1\""
-msgstr ""
+msgstr "Ve složce s motivy, \"%1\""
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:61
 msgctxt "ThemeSampleWidget|"
 msgid "Instances"
-msgstr ""
+msgstr "Instance"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:62
 msgctxt "ThemeSampleWidget|"
 msgid "Settings"
-msgstr ""
+msgstr "Nastavení"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:70
 msgctxt "ThemeSampleWidget|"
 msgid "Survival world"
-msgstr ""
+msgstr "Svět přežití"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:70
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:80
 msgctxt "ThemeSampleWidget|"
 msgid "Modded adventure"
-msgstr ""
+msgstr "Módované dobrodružství"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:70
 msgctxt "ThemeSampleWidget|"
 msgid "Creative builds"
-msgstr ""
+msgstr "Tvořivé stavby"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:70
 msgctxt "ThemeSampleWidget|"
 msgid "Snapshot testing"
-msgstr ""
+msgstr "Testování snapshotů"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:82
 msgctxt "ThemeSampleWidget|"
 msgid "Name:"
-msgstr ""
+msgstr "Název:"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:86
 msgctxt "ThemeSampleWidget|"
 msgid "Version:"
-msgstr ""
+msgstr "Verze:"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:92
 msgctxt "ThemeSampleWidget|"
 msgid "Memory:"
-msgstr ""
+msgstr "Paměť:"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:98
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:138
 msgctxt "ThemeSampleWidget|"
 msgid "Check box"
-msgstr ""
+msgstr "Zaškrtávací pole"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:100
 msgctxt "ThemeSampleWidget|"
 msgid "Radio button"
-msgstr ""
+msgstr "Přepínač"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:119
 msgctxt "ThemeSampleWidget|"
 msgid "A tooltip"
-msgstr ""
+msgstr "Nápověda"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:124
 msgctxt "ThemeSampleWidget|"
 msgid "Launch"
-msgstr ""
+msgstr "Spustit"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:127
 msgctxt "ThemeSampleWidget|"
 msgid "Edit"
-msgstr ""
+msgstr "Upravit"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:128
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:135
 msgctxt "ThemeSampleWidget|"
 msgid "Disabled"
-msgstr ""
+msgstr "Neaktivní"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:137
 msgctxt "ThemeSampleWidget|"
 msgid "Some text"
-msgstr ""
+msgstr "Nějaký text"
 
 #: src/launcher/ui/widgets/ThemeSampleWidget.cpp:161
 msgctxt "ThemeSampleWidget|"
 msgid "A link"
-msgstr ""
+msgstr "Odkaz"
 
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:218
 #, qt-format
@@ -5702,7 +5725,7 @@ msgstr ""
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:227
 msgctxt "ThemeSelectionWidget|"
 msgid "Choose a color of your own"
-msgstr ""
+msgstr "Vyberte vlastní barvu"
 
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:228
 #, qt-format
@@ -5719,7 +5742,7 @@ msgstr ""
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:246
 msgctxt "ThemeSelectionWidget|"
 msgid "Style:"
-msgstr ""
+msgstr "Styl:"
 
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:247
 msgctxt "ThemeSelectionWidget|"
@@ -5735,7 +5758,7 @@ msgstr ""
 #, qt-format
 msgctxt "ThemeSelectionWidget|"
 msgid "Native (%1)"
-msgstr ""
+msgstr "Místní (%1)"
 
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:250
 msgctxt "ThemeSelectionWidget|"
@@ -5745,37 +5768,37 @@ msgstr ""
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:251
 msgctxt "ThemeSelectionWidget|"
 msgid "Accent color:"
-msgstr ""
+msgstr "Barva zvýraznění:"
 
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:252
 msgctxt "ThemeSelectionWidget|"
 msgid "Theme's own"
-msgstr ""
+msgstr "Motivu"
 
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:253
 msgctxt "ThemeSelectionWidget|"
 msgid "System"
-msgstr ""
+msgstr "Systém"
 
 #: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:254
 msgctxt "ThemeSelectionWidget|"
 msgid "Custom..."
-msgstr ""
+msgstr "Vlastní..."
 
 #: src/launcher/ui/setupwizard/ThemeWizardPage.cpp:48
 msgctxt "ThemeWizardPage|"
 msgid "Appearance"
-msgstr ""
+msgstr "Vzhled"
 
 #: src/launcher/ui/setupwizard/ThemeWizardPage.cpp:49
 msgctxt "ThemeWizardPage|"
 msgid "Theme"
-msgstr ""
+msgstr "Motiv"
 
 #: src/launcher/ui/setupwizard/ThemeWizardPage.cpp:50
 msgctxt "ThemeWizardPage|"
 msgid "Icons"
-msgstr ""
+msgstr "Ikony"
 
 #: src/launcher/ui/setupwizard/ThemeWizardPage.cpp:51
 #, qt-format
@@ -5901,13 +5924,13 @@ msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">Nepodařilo se nač�
 #, qt-format
 msgctxt "UpdateTierWidget|"
 msgid "build %1 (installed)"
-msgstr ""
+msgstr "build %1 (instalovaný)"
 
 #: src/launcher/ui/widgets/UpdateTierWidget.cpp:210
 #, qt-format
 msgctxt "UpdateTierWidget|"
 msgid "build %1"
-msgstr ""
+msgstr "build %1"
 
 #: src/launcher/ui/widgets/UpdateTierWidget.cpp:217
 msgctxt "UpdateTierWidget|"
@@ -5917,7 +5940,7 @@ msgstr ""
 #: src/launcher/ui/widgets/UpdateTierWidget.cpp:218
 msgctxt "UpdateTierWidget|"
 msgid "Latest"
-msgstr ""
+msgstr "Nejnovější"
 
 #: src/launcher/ui/widgets/UpdateTierWidget.cpp:219
 msgctxt "UpdateTierWidget|"
@@ -5927,7 +5950,7 @@ msgstr ""
 #: src/launcher/ui/widgets/UpdateTierWidget.cpp:220
 msgctxt "UpdateTierWidget|"
 msgid "Testing"
-msgstr ""
+msgstr "Testovací"
 
 #: src/launcher/ui/widgets/UpdateTierWidget.cpp:221
 msgctxt "UpdateTierWidget|"
@@ -5937,7 +5960,7 @@ msgstr ""
 #: src/launcher/ui/widgets/UpdateTierWidget.cpp:222
 msgctxt "UpdateTierWidget|"
 msgid "Stable"
-msgstr ""
+msgstr "Stabilní"
 
 #: src/launcher/ui/widgets/UpdateTierWidget.cpp:223
 msgctxt "UpdateTierWidget|"
@@ -5962,7 +5985,7 @@ msgstr ""
 #: src/launcher/updater/v1/DownloadTask.cpp:48
 msgctxt "UpdaterV1::DownloadTask|"
 msgid "Loading version information..."
-msgstr ""
+msgstr "Načítaní informací o verzi..."
 
 #: src/launcher/updater/v1/DownloadTask.cpp:85
 msgctxt "UpdaterV1::DownloadTask|"
@@ -6033,75 +6056,75 @@ msgstr ""
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Downloading build %1..."
-msgstr ""
+msgstr "Instaluje se build %1..."
 
 #: src/launcher/updater/v2/DownloadTask.cpp:61
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Update to build %1"
-msgstr ""
+msgstr "Aktualizovat na build %1"
 
 #: src/launcher/updater/v2/DownloadTask.cpp:80
 #, qt-format
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Failed to download the update:\n"
 "%1"
-msgstr ""
+msgstr "Nepodařilo se nainstalovat aktualizaci: %1"
 
 #: src/launcher/ui/pages/global/UpdatesPage.cpp:86
 msgctxt "UpdatesPage|"
 msgid "Recommended"
-msgstr ""
+msgstr "Doporučené"
 
 #: src/launcher/ui/pages/global/UpdatesPage.cpp:86
 #, qt-format
 msgctxt "UpdatesPage|"
 msgid "Recommended: %1"
-msgstr ""
+msgstr "Doporučené: %1"
 
 #: src/launcher/ui/pages/global/UpdatesPage.cpp:89
 #: src/launcher/ui/pages/global/UpdatesPage.cpp:94
 #, qt-format
 msgctxt "UpdatesPage|"
 msgid "%1 (this installation)"
-msgstr ""
+msgstr "%1 (tato instalace)"
 
 #: src/launcher/ui/pages/global/UpdatesPage.cpp:147
 msgctxt "UpdatesPage|"
 msgid "Check for updates on start"
-msgstr ""
+msgstr "Vyhledat aktualizace při spuštění"
 
 #: src/launcher/ui/pages/global/UpdatesPage.cpp:148
 msgctxt "UpdatesPage|"
 msgid "Update tier"
-msgstr ""
+msgstr "Úroveň aktualizace"
 
 #: src/launcher/ui/pages/global/UpdatesPage.cpp:149
 msgctxt "UpdatesPage|"
 msgid "Version for this computer"
-msgstr ""
+msgstr "Verze pro tento počítač"
 
 #: src/launcher/ui/pages/global/UpdatesPage.cpp:150
 #, qt-format
 msgctxt "UpdatesPage|"
 msgid "This computer can run more than one version of %1. The recommended one is the newest that runs here; when there is a newer one, %1 switches to it unless you choose another here."
-msgstr ""
+msgstr "Tento počítač může spustit více než jednu verzi %1. Doporučení verze je ta nejnovější, co tu jde spustit; jakmile bude novější, %1 se na ní přepne, pokud zde nevyberete jinou."
 
 #: src/launcher/ui/pages/global/UpdatesPage.h:30
 msgctxt "UpdatesPage|"
 msgid "Updates"
-msgstr ""
+msgstr "Aktualizace"
 
 #: src/launcher/ui/setupwizard/UpdatesWizardPage.cpp:29
 msgctxt "UpdatesWizardPage|"
 msgid "Updates"
-msgstr ""
+msgstr "Aktualizace"
 
 #: src/launcher/ui/setupwizard/UpdatesWizardPage.cpp:30
 #, qt-format
 msgctxt "UpdatesWizardPage|"
 msgid "Choose how often %1 updates. You can change it later in the settings."
-msgstr ""
+msgstr "Vyberte, jak často se %1 bude aktualizovat. Toto můžete změnit v nastavení."
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:41
 msgctxt "VanillaPage|"
@@ -6151,7 +6174,7 @@ msgstr "Vanilla"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
-msgstr ""
+msgstr "Minecraft 26.1 Snapshot 1 a vyšší vyžadují Java 25"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
@@ -6161,17 +6184,17 @@ msgstr "Minecraft 24w14a a vyšší vyžadují použití Java 21"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 up to 24w13a require the use of Java 17"
-msgstr ""
+msgstr "Minecraft 1.18 Pre Release 2 až 24w13a vyžadují Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a up to 1.18 Pre Release 1 require the use of Java 16"
-msgstr ""
+msgstr "Minecraft 21w19a až 1.18 Pre Release 1 vyžadují Java 16"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:78
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a up to 21w18a require the use of Java 8"
-msgstr ""
+msgstr "Minecraft 17w13a až 21w18a vyžadují Java 8"
 
 #: src/launcher/ui/widgets/VersionListView.cpp:26
 msgctxt "VersionListView|"
