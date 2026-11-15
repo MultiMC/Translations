@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2026-11-15 17:07\n"
+"PO-Revision-Date: 2026-11-15 20:06\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -628,7 +628,7 @@ msgctxt "AppearancePage|"
 msgid "Appearance"
 msgstr "外觀"
 
-#: src/launcher/Application.cpp:799
+#: src/launcher/Application.cpp:804
 msgctxt "Application|"
 msgid "Settings"
 msgstr "設定"
@@ -2210,75 +2210,116 @@ msgctxt "LauncherPage|"
 msgid "By &name"
 msgstr "依名稱(&N)"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:260
+#: src/launcher/ui/pages/global/LauncherPage.ui:246
+msgctxt "LauncherPage|"
+msgid "Applications menu"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.ui:252
+msgctxt "LauncherPage|"
+msgid "Show MultiMC in the applications menu"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.ui:269
+msgctxt "LauncherPage|"
+msgid "Use this copy"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.ui:293
 msgctxt "LauncherPage|"
 msgid "Console"
 msgstr "控制台"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:266
+#: src/launcher/ui/pages/global/LauncherPage.ui:299
 msgctxt "LauncherPage|"
 msgid "Console Settings"
 msgstr "控制台設定"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:272
+#: src/launcher/ui/pages/global/LauncherPage.ui:305
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
 msgstr "遊戲執行時顯示控制台"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:279
+#: src/launcher/ui/pages/global/LauncherPage.ui:312
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "離開遊戲時自動關閉控制台"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:286
+#: src/launcher/ui/pages/global/LauncherPage.ui:319
 msgctxt "LauncherPage|"
 msgid "Show console when the game crashes?"
 msgstr "遊戲崩潰時顯示控制台"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:296
+#: src/launcher/ui/pages/global/LauncherPage.ui:329
 msgctxt "LauncherPage|"
 msgid "History limit"
 msgstr "歷史紀錄限制"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:302
+#: src/launcher/ui/pages/global/LauncherPage.ui:335
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
 msgstr "當紀錄過多時停止記錄"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:315
+#: src/launcher/ui/pages/global/LauncherPage.ui:348
 msgctxt "LauncherPage|"
 msgid " lines"
 msgstr " 行"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:71
+#: src/launcher/ui/pages/global/LauncherPage.cpp:72
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr "實例資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:80
+#: src/launcher/ui/pages/global/LauncherPage.cpp:81
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
 msgstr "在您指定的實例路徑中，包含了至少一個「!」字元。已知 Java 會在這種情況下發生問題，實例（可能會）無法啟動！"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:85
+#: src/launcher/ui/pages/global/LauncherPage.cpp:86
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
 msgstr "您確定要使用此路徑？選擇「否」會關閉此對話方塊，且不會修改實例路徑。"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:108
+#: src/launcher/ui/pages/global/LauncherPage.cpp:109
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr "圖示資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:124
+#: src/launcher/ui/pages/global/LauncherPage.cpp:125
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "模組資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:140
+#: src/launcher/ui/pages/global/LauncherPage.cpp:141
 msgctxt "LauncherPage|"
 msgid "Skins Folder"
 msgstr "外觀資料夾"
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:248
+msgctxt "LauncherPage|"
+msgid "MultiMC is installed as a package here: the package provides its applications menu entry."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:252
+msgctxt "LauncherPage|"
+msgid "The applications menu starts this copy of MultiMC."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:253
+msgctxt "LauncherPage|"
+msgid "MultiMC is hidden from the applications menu. Its entry stays, to give MultiMC's windows their icon."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:257
+msgctxt "LauncherPage|"
+msgid "The applications menu has an entry for MultiMC that MultiMC didn't make. It is left as it is."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:258
+#, qt-format
+msgctxt "LauncherPage|"
+msgid "The applications menu starts another copy of MultiMC, in %1."
+msgstr ""
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
 #, qt-format
@@ -2714,468 +2755,468 @@ msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
 msgstr "已完成 Microsoft 使用者身份驗證，但無法識別結果。"
 
-#: src/launcher/ui/MainWindow.cpp:292
+#: src/launcher/ui/MainWindow.cpp:293
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr "強制終止"
 
-#: src/launcher/ui/MainWindow.cpp:293
+#: src/launcher/ui/MainWindow.cpp:294
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "強制終止執行中的實例"
 
-#: src/launcher/ui/MainWindow.cpp:297 src/launcher/ui/MainWindow.cpp:1121
+#: src/launcher/ui/MainWindow.cpp:298 src/launcher/ui/MainWindow.cpp:1122
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "啟動"
 
-#: src/launcher/ui/MainWindow.cpp:298
+#: src/launcher/ui/MainWindow.cpp:299
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "啟動所選的實例。"
 
-#: src/launcher/ui/MainWindow.cpp:316
+#: src/launcher/ui/MainWindow.cpp:317
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "主工具列"
 
-#: src/launcher/ui/MainWindow.cpp:321
+#: src/launcher/ui/MainWindow.cpp:322
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr "新增實例"
 
-#: src/launcher/ui/MainWindow.cpp:322
+#: src/launcher/ui/MainWindow.cpp:323
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr "新增一個新的實例。"
 
-#: src/launcher/ui/MainWindow.cpp:334
+#: src/launcher/ui/MainWindow.cpp:335
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr "檢視實例資料夾"
 
-#: src/launcher/ui/MainWindow.cpp:335
+#: src/launcher/ui/MainWindow.cpp:336
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr "在檔案總管中開啟實例資料夾。"
 
-#: src/launcher/ui/MainWindow.cpp:342
+#: src/launcher/ui/MainWindow.cpp:343
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr "檢視共用模組資料夾"
 
-#: src/launcher/ui/MainWindow.cpp:343
+#: src/launcher/ui/MainWindow.cpp:344
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "在檔案總管中開啟共用模組資料夾。"
 
-#: src/launcher/ui/MainWindow.cpp:349 src/launcher/ui/MainWindow.cpp:718
+#: src/launcher/ui/MainWindow.cpp:350 src/launcher/ui/MainWindow.cpp:719
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "資料夾"
 
-#: src/launcher/ui/MainWindow.cpp:350
+#: src/launcher/ui/MainWindow.cpp:351
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "開啟實例間共用的資料夾。"
 
-#: src/launcher/ui/MainWindow.cpp:365
+#: src/launcher/ui/MainWindow.cpp:366
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "設定"
 
-#: src/launcher/ui/MainWindow.cpp:366
+#: src/launcher/ui/MainWindow.cpp:367
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "更改設定。"
 
-#: src/launcher/ui/MainWindow.cpp:377
+#: src/launcher/ui/MainWindow.cpp:378
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "回報錯誤"
 
-#: src/launcher/ui/MainWindow.cpp:378
+#: src/launcher/ui/MainWindow.cpp:379
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr "開啟錯誤追蹤器以回報 %1 的錯誤。"
 
-#: src/launcher/ui/MainWindow.cpp:387
+#: src/launcher/ui/MainWindow.cpp:388
 msgctxt "MainWindow|"
 msgid "Discord"
 msgstr "Discord"
 
-#: src/launcher/ui/MainWindow.cpp:388
+#: src/launcher/ui/MainWindow.cpp:389
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
 msgstr "開啟 %1 的 Discord 語音群。"
 
-#: src/launcher/ui/MainWindow.cpp:397
+#: src/launcher/ui/MainWindow.cpp:398
 msgctxt "MainWindow|"
 msgid "Reddit"
 msgstr "Reddit"
 
-#: src/launcher/ui/MainWindow.cpp:398
+#: src/launcher/ui/MainWindow.cpp:399
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
 msgstr "開啟 %1 的 Subreddit。"
 
-#: src/launcher/ui/MainWindow.cpp:407
+#: src/launcher/ui/MainWindow.cpp:408
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
 msgstr "關於 %1"
 
-#: src/launcher/ui/MainWindow.cpp:408
+#: src/launcher/ui/MainWindow.cpp:409
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
 msgstr "顯示 %1 的相關資訊。"
 
-#: src/launcher/ui/MainWindow.cpp:414 src/launcher/ui/MainWindow.cpp:719
+#: src/launcher/ui/MainWindow.cpp:415 src/launcher/ui/MainWindow.cpp:720
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "幫助"
 
-#: src/launcher/ui/MainWindow.cpp:415
+#: src/launcher/ui/MainWindow.cpp:416
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
 msgstr "取得關於 %1 或 Minecraft 的幫助。"
 
-#: src/launcher/ui/MainWindow.cpp:431
+#: src/launcher/ui/MainWindow.cpp:432
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "更新"
 
-#: src/launcher/ui/MainWindow.cpp:432
+#: src/launcher/ui/MainWindow.cpp:433
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
 msgstr "檢查 %1 是否有更新。"
 
-#: src/launcher/ui/MainWindow.cpp:444
+#: src/launcher/ui/MainWindow.cpp:445
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
 msgstr "支持 %1"
 
-#: src/launcher/ui/MainWindow.cpp:445
+#: src/launcher/ui/MainWindow.cpp:446
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
 msgstr "開啟 %1 的 Patreon 頁面。"
 
-#: src/launcher/ui/MainWindow.cpp:454
+#: src/launcher/ui/MainWindow.cpp:455
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "喵"
 
-#: src/launcher/ui/MainWindow.cpp:455
+#: src/launcher/ui/MainWindow.cpp:456
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "牠是一隻毛茸茸的小貓 :3"
 
-#: src/launcher/ui/MainWindow.cpp:463
+#: src/launcher/ui/MainWindow.cpp:464
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "管理帳號"
 
-#: src/launcher/ui/MainWindow.cpp:489
+#: src/launcher/ui/MainWindow.cpp:490
 msgctxt "MainWindow|"
 msgid "News Toolbar"
 msgstr "新聞資訊列"
 
-#: src/launcher/ui/MainWindow.cpp:494
+#: src/launcher/ui/MainWindow.cpp:495
 msgctxt "MainWindow|"
 msgid "More news..."
 msgstr "更多資訊…"
 
-#: src/launcher/ui/MainWindow.cpp:495
+#: src/launcher/ui/MainWindow.cpp:496
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
 msgstr "開啟開發部落格以閱讀更多關於 %1 的最新資訊。"
 
-#: src/launcher/ui/MainWindow.cpp:512
+#: src/launcher/ui/MainWindow.cpp:513
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "實例工具列"
 
-#: src/launcher/ui/MainWindow.cpp:519
+#: src/launcher/ui/MainWindow.cpp:520
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "變更圖示"
 
-#: src/launcher/ui/MainWindow.cpp:520
+#: src/launcher/ui/MainWindow.cpp:521
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "變更所選實例的圖示。"
 
-#: src/launcher/ui/MainWindow.cpp:533
+#: src/launcher/ui/MainWindow.cpp:534
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "重新命名"
 
-#: src/launcher/ui/MainWindow.cpp:534
+#: src/launcher/ui/MainWindow.cpp:535
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "重新命名所選的實例。"
 
-#: src/launcher/ui/MainWindow.cpp:546
+#: src/launcher/ui/MainWindow.cpp:547
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "變更群組"
 
-#: src/launcher/ui/MainWindow.cpp:547
+#: src/launcher/ui/MainWindow.cpp:548
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "變更所選實例的群組。"
 
-#: src/launcher/ui/MainWindow.cpp:560 src/launcher/ui/MainWindow.cpp:1122
+#: src/launcher/ui/MainWindow.cpp:561 src/launcher/ui/MainWindow.cpp:1123
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "離線啟動"
 
-#: src/launcher/ui/MainWindow.cpp:561
+#: src/launcher/ui/MainWindow.cpp:562
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "在離線模式下啟動所選的實例。"
 
-#: src/launcher/ui/MainWindow.cpp:569
+#: src/launcher/ui/MainWindow.cpp:570
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "編輯實例"
 
-#: src/launcher/ui/MainWindow.cpp:570
+#: src/launcher/ui/MainWindow.cpp:571
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "更改實例的設定、模組與版本。"
 
-#: src/launcher/ui/MainWindow.cpp:576
+#: src/launcher/ui/MainWindow.cpp:577
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "編輯備註"
 
-#: src/launcher/ui/MainWindow.cpp:577
+#: src/launcher/ui/MainWindow.cpp:578
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "編輯所選實例的備註。"
 
-#: src/launcher/ui/MainWindow.cpp:583
+#: src/launcher/ui/MainWindow.cpp:584
 msgctxt "MainWindow|"
 msgid "View Mods"
 msgstr "檢視模組"
 
-#: src/launcher/ui/MainWindow.cpp:584
+#: src/launcher/ui/MainWindow.cpp:585
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
 msgstr "檢視這個實例中的模組。"
 
-#: src/launcher/ui/MainWindow.cpp:590
+#: src/launcher/ui/MainWindow.cpp:591
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "檢視世界"
 
-#: src/launcher/ui/MainWindow.cpp:591
+#: src/launcher/ui/MainWindow.cpp:592
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "檢視這個實例中的世界。"
 
-#: src/launcher/ui/MainWindow.cpp:597
+#: src/launcher/ui/MainWindow.cpp:598
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "管理螢幕擷圖"
 
-#: src/launcher/ui/MainWindow.cpp:598
+#: src/launcher/ui/MainWindow.cpp:599
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "檢視及上傳這個實例的螢幕擷圖。"
 
-#: src/launcher/ui/MainWindow.cpp:606
+#: src/launcher/ui/MainWindow.cpp:607
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Minecraft 資料夾"
 
-#: src/launcher/ui/MainWindow.cpp:607
+#: src/launcher/ui/MainWindow.cpp:608
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "在檔案總管中開啟所選實例的 Minecraft 資料夾。"
 
-#: src/launcher/ui/MainWindow.cpp:622
+#: src/launcher/ui/MainWindow.cpp:623
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "組態資料夾"
 
-#: src/launcher/ui/MainWindow.cpp:623
+#: src/launcher/ui/MainWindow.cpp:624
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "在檔案總管中開啟所選實例的組態資料夾。"
 
-#: src/launcher/ui/MainWindow.cpp:629
+#: src/launcher/ui/MainWindow.cpp:630
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "實例資料夾"
 
-#: src/launcher/ui/MainWindow.cpp:630
+#: src/launcher/ui/MainWindow.cpp:631
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "在檔案總管中開啟所選實例的根資料夾。"
 
-#: src/launcher/ui/MainWindow.cpp:638
+#: src/launcher/ui/MainWindow.cpp:639
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
 msgstr "建立捷徑"
 
-#: src/launcher/ui/MainWindow.cpp:639
+#: src/launcher/ui/MainWindow.cpp:640
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
 msgstr "建立一個啟動所選實例的捷徑"
 
-#: src/launcher/ui/MainWindow.cpp:645
+#: src/launcher/ui/MainWindow.cpp:646
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "匯出實例"
 
-#: src/launcher/ui/MainWindow.cpp:646
+#: src/launcher/ui/MainWindow.cpp:647
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
 msgstr "將所選的實例以 .zip 檔匯出。"
 
-#: src/launcher/ui/MainWindow.cpp:652
+#: src/launcher/ui/MainWindow.cpp:653
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "刪除"
 
-#: src/launcher/ui/MainWindow.cpp:653
+#: src/launcher/ui/MainWindow.cpp:654
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "刪除所選的實例。"
 
-#: src/launcher/ui/MainWindow.cpp:660
+#: src/launcher/ui/MainWindow.cpp:661
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "複製實例"
 
-#: src/launcher/ui/MainWindow.cpp:661
+#: src/launcher/ui/MainWindow.cpp:662
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "複製所選的實例。"
 
-#: src/launcher/ui/MainWindow.cpp:797
+#: src/launcher/ui/MainWindow.cpp:798
 msgctxt "MainWindow|"
 msgid "Zoom:"
 msgstr "縮放："
 
-#: src/launcher/ui/MainWindow.cpp:840 src/launcher/ui/MainWindow.cpp:959
+#: src/launcher/ui/MainWindow.cpp:841 src/launcher/ui/MainWindow.cpp:960
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "沒有選擇實例"
 
-#: src/launcher/ui/MainWindow.cpp:842
+#: src/launcher/ui/MainWindow.cpp:843
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
 msgstr "總遊戲時間：0 秒"
 
-#: src/launcher/ui/MainWindow.cpp:953 src/launcher/ui/MainWindow.cpp:1277
+#: src/launcher/ui/MainWindow.cpp:954 src/launcher/ui/MainWindow.cpp:1278
 msgctxt "MainWindow|"
 msgid "Accounts"
 msgstr "帳號"
 
-#: src/launcher/ui/MainWindow.cpp:1012
+#: src/launcher/ui/MainWindow.cpp:1013
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "建立實例"
 
-#: src/launcher/ui/MainWindow.cpp:1028
+#: src/launcher/ui/MainWindow.cpp:1029
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "刪除「%1」群組"
 
-#: src/launcher/ui/MainWindow.cpp:1073
+#: src/launcher/ui/MainWindow.cpp:1074
 msgctxt "MainWindow|"
 msgid "Format"
 msgstr "格式"
 
-#: src/launcher/ui/MainWindow.cpp:1076
+#: src/launcher/ui/MainWindow.cpp:1077
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
 msgstr "Modrinth（開發中）"
 
-#: src/launcher/ui/MainWindow.cpp:1131
+#: src/launcher/ui/MainWindow.cpp:1132
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "分析器"
 
-#: src/launcher/ui/MainWindow.cpp:1143
+#: src/launcher/ui/MainWindow.cpp:1144
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "分析器並未被正確設定。請開啟設定 > 外部工具。"
 
-#: src/launcher/ui/MainWindow.cpp:1183
+#: src/launcher/ui/MainWindow.cpp:1184
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "未新增任何帳號！"
 
-#: src/launcher/ui/MainWindow.cpp:1222
+#: src/launcher/ui/MainWindow.cpp:1223
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "沒有預設帳號"
 
-#: src/launcher/ui/MainWindow.cpp:1297
+#: src/launcher/ui/MainWindow.cpp:1298
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Size: %1 pixels"
 msgstr "大小：%1 像素"
 
-#: src/launcher/ui/MainWindow.cpp:1337
+#: src/launcher/ui/MainWindow.cpp:1338
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "正在載入資訊…"
 
-#: src/launcher/ui/MainWindow.cpp:1350
+#: src/launcher/ui/MainWindow.cpp:1351
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "無法取得資訊。"
 
-#: src/launcher/ui/MainWindow.cpp:1437
+#: src/launcher/ui/MainWindow.cpp:1438
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Builds of %1, the version this installation runs, are made until %2. After that, it keeps working, but gets no more updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1442
+#: src/launcher/ui/MainWindow.cpp:1443
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 runs on this computer and keeps getting updates. You can switch to it in Settings, Updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1445
+#: src/launcher/ui/MainWindow.cpp:1446
 msgctxt "MainWindow|"
 msgid "Updates ending"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1471
+#: src/launcher/ui/MainWindow.cpp:1472
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch to %1, which replaces %2"
 msgstr "切換至 %1，以取代 %2"
 
-#: src/launcher/ui/MainWindow.cpp:1475
+#: src/launcher/ui/MainWindow.cpp:1476
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 isn't made for this computer any more, so this update switches to %2."
 msgstr "%1 不再為這台電腦製作，所以這項更新將切換至 %2。"
 
-#: src/launcher/ui/MainWindow.cpp:1510 src/launcher/ui/MainWindow.cpp:1531
+#: src/launcher/ui/MainWindow.cpp:1511 src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "Switch version"
 msgstr "切換版本"
 
-#: src/launcher/ui/MainWindow.cpp:1511
+#: src/launcher/ui/MainWindow.cpp:1512
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 is available for this computer. It replaces %2, which this installation runs now.\n\n"
@@ -3183,34 +3224,34 @@ msgid "%1 is available for this computer. It replaces %2, which this installatio
 msgstr "%1 在這台電腦上可用。它將取代 %2，也就是目前執行的版本。\n\n"
 "立刻切換版本嗎？如果您繼續使用 %2，您稍後仍能在設定 > 更新中切換。"
 
-#: src/launcher/ui/MainWindow.cpp:1514
+#: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
 msgid "Switch now"
 msgstr "立即切換"
 
-#: src/launcher/ui/MainWindow.cpp:1515
+#: src/launcher/ui/MainWindow.cpp:1516
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Keep %1"
 msgstr "保留 %1"
 
-#: src/launcher/ui/MainWindow.cpp:1516
+#: src/launcher/ui/MainWindow.cpp:1517
 msgctxt "MainWindow|"
 msgid "Ask me later"
 msgstr "稍後再詢問我"
 
-#: src/launcher/ui/MainWindow.cpp:1531
+#: src/launcher/ui/MainWindow.cpp:1532
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch this installation from %1 to %2 now?"
 msgstr "立刻切換 %1 安裝版本至 %2 嗎？"
 
-#: src/launcher/ui/MainWindow.cpp:1546
+#: src/launcher/ui/MainWindow.cpp:1547
 msgctxt "MainWindow|"
 msgid "Older build"
 msgstr "舊版"
 
-#: src/launcher/ui/MainWindow.cpp:1547
+#: src/launcher/ui/MainWindow.cpp:1548
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
@@ -3220,140 +3261,140 @@ msgstr "等級 %1 位於版本 %2，比當前版本（%3）還舊。\n\n"
 "退回舊版並不總是安全：新版本可能修改了儲存資料的方式，舊版本不一定可以讀取它們。請先備份你的實例。\n\n"
 "繼續安裝版本 %2 嗎？"
 
-#: src/launcher/ui/MainWindow.cpp:1578 src/launcher/ui/MainWindow.cpp:1587
+#: src/launcher/ui/MainWindow.cpp:1579 src/launcher/ui/MainWindow.cpp:1588
 msgctxt "MainWindow|"
 msgid "No updates"
 msgstr "沒有更新"
 
-#: src/launcher/ui/MainWindow.cpp:1588
+#: src/launcher/ui/MainWindow.cpp:1589
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3). This build stays until there is a newer one."
 msgstr "等級 %1 位於版本 %2，比當前版本（%3）還舊。此版本將會維持直到擁有更新的版本。"
 
-#: src/launcher/ui/MainWindow.cpp:1594
+#: src/launcher/ui/MainWindow.cpp:1595
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Build %1 is available, but it can't be installed here:"
 msgstr "版本 %1 可供使用，但無法在此處安裝："
 
-#: src/launcher/ui/MainWindow.cpp:1597
+#: src/launcher/ui/MainWindow.cpp:1598
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Builds are no longer made of %1, the version this installation runs."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1599
+#: src/launcher/ui/MainWindow.cpp:1600
 msgctxt "MainWindow|"
 msgid "Update not possible"
 msgstr "無法更新"
 
-#: src/launcher/ui/MainWindow.cpp:1606
+#: src/launcher/ui/MainWindow.cpp:1607
 msgctxt "MainWindow|"
 msgid "Update check failed"
 msgstr "更新檢查失敗。"
 
-#: src/launcher/ui/MainWindow.cpp:1606
+#: src/launcher/ui/MainWindow.cpp:1607
 msgctxt "MainWindow|"
 msgid "Could not check for updates:"
 msgstr "無法檢查更新："
 
-#: src/launcher/ui/MainWindow.cpp:1614
+#: src/launcher/ui/MainWindow.cpp:1615
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 has not been able to check for updates since %2."
 msgstr "自從 %2 後，%1 就無法檢查是否有更新了。"
 
-#: src/launcher/ui/MainWindow.cpp:1615
+#: src/launcher/ui/MainWindow.cpp:1616
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The last check that worked was on %1."
 msgstr "最近一次檢查通過在 %1。"
 
-#: src/launcher/ui/MainWindow.cpp:1616
+#: src/launcher/ui/MainWindow.cpp:1617
 msgctxt "MainWindow|"
 msgid "No check has worked on this installation yet."
 msgstr "在這個安裝上還沒有通過任何檢查。"
 
-#: src/launcher/ui/MainWindow.cpp:1617
+#: src/launcher/ui/MainWindow.cpp:1618
 msgctxt "MainWindow|"
 msgid "The last attempt failed with:"
 msgstr "最後一次嘗試失敗於："
 
-#: src/launcher/ui/MainWindow.cpp:1618
+#: src/launcher/ui/MainWindow.cpp:1619
 #, qt-format
 msgctxt "MainWindow|"
 msgid "If this goes on, this installation may not be able to update itself any more. You can get the current version from %1."
 msgstr "若此情形持續發生，這個安裝檔有可能不再能自我更新。您可以從 %1 取得當前版本。"
 
-#: src/launcher/ui/MainWindow.cpp:1620
+#: src/launcher/ui/MainWindow.cpp:1621
 msgctxt "MainWindow|"
 msgid "Updates are not working"
 msgstr "更新沒有正常運作"
 
-#: src/launcher/ui/MainWindow.cpp:1622
+#: src/launcher/ui/MainWindow.cpp:1623
 msgctxt "MainWindow|"
 msgid "Open the website"
 msgstr "開啟網頁"
 
-#: src/launcher/ui/MainWindow.cpp:1647 src/launcher/ui/MainWindow.cpp:1661
-#: src/launcher/ui/MainWindow.cpp:1711 src/launcher/ui/MainWindow.cpp:1760
-#: src/launcher/ui/MainWindow.cpp:1772
+#: src/launcher/ui/MainWindow.cpp:1648 src/launcher/ui/MainWindow.cpp:1662
+#: src/launcher/ui/MainWindow.cpp:1712 src/launcher/ui/MainWindow.cpp:1761
+#: src/launcher/ui/MainWindow.cpp:1773
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/launcher/ui/MainWindow.cpp:1647
+#: src/launcher/ui/MainWindow.cpp:1648
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
 msgstr "無法為下載的更新建立資料夾：%1"
 
-#: src/launcher/ui/MainWindow.cpp:1718
+#: src/launcher/ui/MainWindow.cpp:1719
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "警告"
 
-#: src/launcher/ui/MainWindow.cpp:1722 src/launcher/ui/MainWindow.cpp:1764
+#: src/launcher/ui/MainWindow.cpp:1723 src/launcher/ui/MainWindow.cpp:1765
 msgctxt "MainWindow|"
 msgid "Stop"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1773
+#: src/launcher/ui/MainWindow.cpp:1774
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "啟動器需要至少一個帳號才能下載 Minecraft 或更新實例。\n"
 "請新增您的 Mojang 或 Minecraft 帳號。"
 
-#: src/launcher/ui/MainWindow.cpp:1907
+#: src/launcher/ui/MainWindow.cpp:1908
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "群組名稱"
 
-#: src/launcher/ui/MainWindow.cpp:1907
+#: src/launcher/ui/MainWindow.cpp:1908
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "輸入新的群組名稱。"
 
-#: src/launcher/ui/MainWindow.cpp:1929
+#: src/launcher/ui/MainWindow.cpp:1930
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "刪除群組"
 
-#: src/launcher/ui/MainWindow.cpp:1929
+#: src/launcher/ui/MainWindow.cpp:1930
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "您確定要刪除群組「%1」嗎？"
 
-#: src/launcher/ui/MainWindow.cpp:2068
+#: src/launcher/ui/MainWindow.cpp:2069
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "當心！"
 
-#: src/launcher/ui/MainWindow.cpp:2069
+#: src/launcher/ui/MainWindow.cpp:2070
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3363,45 +3404,45 @@ msgstr "即將刪除：%1\n"
 "這是永久的，會完全刪除該實例。\n\n"
 "您確定嗎？"
 
-#: src/launcher/ui/MainWindow.cpp:2281
+#: src/launcher/ui/MainWindow.cpp:2282
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "重新命名實例"
 
-#: src/launcher/ui/MainWindow.cpp:2311
+#: src/launcher/ui/MainWindow.cpp:2312
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr "您的實例資料夾含有「!」，已知這會導致 Java 發生問題！"
 
-#: src/launcher/ui/MainWindow.cpp:2313
+#: src/launcher/ui/MainWindow.cpp:2314
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr "您現在有兩個選項：<br/> - 在設定中修改實例的資料夾 <br/> - 將這份安裝檔「%1」移動至另一個資料夾"
 
-#: src/launcher/ui/MainWindow.cpp:2322
+#: src/launcher/ui/MainWindow.cpp:2323
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr "這是個問題：<br/> - 作業系統可能會在不顯示警告的情形下，將啟動器刪除 <br/> - 立即關閉啟動器，並將啟動器解壓縮至一個實體位置，而非暫存資料夾中"
 
-#: src/launcher/ui/MainWindow.cpp:2330
+#: src/launcher/ui/MainWindow.cpp:2331
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr "您的實例資料夾含有「Rar$」，這代表您尚未解壓縮含有起動器的壓縮檔！"
 
-#: src/launcher/ui/MainWindow.cpp:2339
+#: src/launcher/ui/MainWindow.cpp:2340
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "您的實例資料夾位於暫存資料夾中：「%1」！"
 
-#: src/launcher/ui/MainWindow.cpp:2353
+#: src/launcher/ui/MainWindow.cpp:2354
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "總遊戲時間：%1 小時"
 
-#: src/launcher/ui/MainWindow.cpp:2355
+#: src/launcher/ui/MainWindow.cpp:2356
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -4421,6 +4462,17 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proxy"
 
+#: src/launcher/DesktopIntegration_linux.cpp:54
+msgctxt "QObject|"
+msgid "This copy of MultiMC is in a temporary folder."
+msgstr ""
+
+#: src/launcher/DesktopIntegration_linux.cpp:56
+#, qt-format
+msgctxt "QObject|"
+msgid "This copy of MultiMC has no start script (%1)."
+msgstr ""
+
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
@@ -4652,13 +4704,13 @@ msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr "<a href=\"%1\">上傳的記錄檔連結</a>已經在您的剪貼簿中。"
 
-#: src/launcher/ui/MainWindow.cpp:127
+#: src/launcher/ui/MainWindow.cpp:128
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
 msgstr "沒有個人檔案（%1）"
 
-#: src/launcher/ui/MainWindow.cpp:134
+#: src/launcher/ui/MainWindow.cpp:135
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
