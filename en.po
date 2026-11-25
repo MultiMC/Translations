@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: multimc\n"
 "Language-Team: English, United Kingdom\n"
 "Language: en_GB\n"
-"PO-Revision-Date: 2026-11-20 23:12\n"
+"PO-Revision-Date: 2026-11-25 00:17\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -174,17 +174,12 @@ msgctxt "AboutDialog|"
 msgid "License"
 msgstr "Licence"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:268
-msgctxt "AboutDialog|"
-msgid "Forking/Redistribution"
-msgstr "Forking/Redistribution"
-
-#: src/launcher/ui/dialogs/AboutDialog.ui:290
+#: src/launcher/ui/dialogs/AboutDialog.ui:276
 msgctxt "AboutDialog|"
 msgid "About Qt"
 msgstr "About Qt"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:310
+#: src/launcher/ui/dialogs/AboutDialog.ui:296
 msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "Close"
@@ -214,15 +209,6 @@ msgstr "Build Number"
 msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "Channel"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:108
-msgctxt "AboutDialog|"
-msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
-"<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
-"<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
-"<p>Part of the reason for using the Apache licence is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
-"<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialogue and the licence is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 
 #: src/launcher/ui/dialogs/AccentColorDialog.cpp:309
 msgctxt "AccentColorDialog|"
@@ -626,7 +612,7 @@ msgctxt "AppearancePage|"
 msgid "Appearance"
 msgstr ""
 
-#: src/launcher/Application.cpp:804
+#: src/launcher/Application.cpp:806
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Settings"
@@ -884,7 +870,7 @@ msgctxt "CopyInstanceDialog|"
 msgid "Keep play time"
 msgstr "Keep play time"
 
-#: src/launcher/ui/dialogs/CopyInstanceDialog.cpp:54
+#: src/launcher/ui/dialogs/CopyInstanceDialog.cpp:55
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
 msgstr "No group"
@@ -944,7 +930,7 @@ msgctxt "CreateShortcutDialog|"
 msgid "Create script instead of shortcut"
 msgstr "Create script instead of shortcut"
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:106
+#: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:107
 msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr "Select shortcut path"
@@ -1259,33 +1245,87 @@ msgctxt "GetSkinStep|"
 msgid "Got skin"
 msgstr "Got skin"
 
+#: src/launcher/icons/IconList.cpp:489
+msgctxt "IconList|"
+msgid "Only icons from the icons folder can be renamed."
+msgstr ""
+
+#: src/launcher/icons/IconList.cpp:493
+msgctxt "IconList|"
+msgid "An icon needs a name."
+msgstr ""
+
+#: src/launcher/icons/IconList.cpp:500
+#, qt-format
+msgctxt "IconList|"
+msgid "An icon's name can't contain any of these: %1"
+msgstr ""
+
+#: src/launcher/icons/IconList.cpp:503
+#, qt-format
+msgctxt "IconList|"
+msgid "There already is an icon called \"%1\"."
+msgstr ""
+
+#: src/launcher/icons/IconList.cpp:508
+#, qt-format
+msgctxt "IconList|"
+msgid "There already is a file called \"%1\" in the icons folder."
+msgstr ""
+
+#: src/launcher/icons/IconList.cpp:510
+#, qt-format
+msgctxt "IconList|"
+msgid "The file \"%1\" couldn't be renamed."
+msgstr ""
+
 #: src/launcher/ui/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
 msgid "Pick icon"
 msgstr "Pick an icon"
 
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:65
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:71
+msgctxt "IconPickerDialog|"
+msgid "Can't rename the icon"
+msgstr ""
+
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:82
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
 msgstr "Add icon"
 
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:66
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:83
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
 msgstr "Remove icon"
 
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:77
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:84
+msgctxt "IconPickerDialog|"
+msgid "Rename Icon"
+msgstr ""
+
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:85
+msgctxt "IconPickerDialog|"
+msgid "Set as Default"
+msgstr ""
+
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:86
+msgctxt "IconPickerDialog|"
+msgid "Show this icon for new instances, and for instances without an icon of their own."
+msgstr ""
+
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:100
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
 msgstr "Open Folder"
 
 #. The title of the select icons open file dialog
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:107
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:130
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
 msgstr "Select icons"
 
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:110
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:133
 #, qt-format
 msgctxt "IconPickerDialog|"
 msgid "Icons %1"
@@ -1698,44 +1738,44 @@ msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr "Failed to commit instance, even after multiple retries. It is being blocked by something."
 
-#: src/launcher/ui/InstanceWindow.cpp:40
+#: src/launcher/ui/InstanceWindow.cpp:41
 msgctxt "InstanceWindow|"
 msgid "Console window for "
 msgstr "Console window for "
 
-#: src/launcher/ui/InstanceWindow.cpp:64
+#: src/launcher/ui/InstanceWindow.cpp:65
 msgctxt "InstanceWindow|"
 msgid "Help"
 msgstr "Help"
 
-#: src/launcher/ui/InstanceWindow.cpp:77
+#: src/launcher/ui/InstanceWindow.cpp:78
 msgctxt "InstanceWindow|"
 msgid "Launch Offline"
 msgstr "Launch Offline"
 
-#: src/launcher/ui/InstanceWindow.cpp:82
+#: src/launcher/ui/InstanceWindow.cpp:83
 msgctxt "InstanceWindow|"
 msgid "Close"
 msgstr "Close"
 
-#: src/launcher/ui/InstanceWindow.cpp:126
+#: src/launcher/ui/InstanceWindow.cpp:127
 msgctxt "InstanceWindow|"
 msgid "Kill"
 msgstr "Kill"
 
-#: src/launcher/ui/InstanceWindow.cpp:128
+#: src/launcher/ui/InstanceWindow.cpp:129
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
 msgstr "Kill the running instance"
 
-#: src/launcher/ui/InstanceWindow.cpp:133
-#: src/launcher/ui/InstanceWindow.cpp:141
+#: src/launcher/ui/InstanceWindow.cpp:134
+#: src/launcher/ui/InstanceWindow.cpp:142
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr "Launch"
 
-#: src/launcher/ui/InstanceWindow.cpp:135
-#: src/launcher/ui/InstanceWindow.cpp:143
+#: src/launcher/ui/InstanceWindow.cpp:136
+#: src/launcher/ui/InstanceWindow.cpp:144
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
 msgstr "Launch the instance"
@@ -2752,502 +2792,502 @@ msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
 msgstr "Microsoft user authentication completed with an unrecognised result."
 
-#: src/launcher/ui/MainWindow.cpp:293
+#: src/launcher/ui/MainWindow.cpp:294
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr "Kill"
 
-#: src/launcher/ui/MainWindow.cpp:294
+#: src/launcher/ui/MainWindow.cpp:295
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "Kill the running instance"
 
-#: src/launcher/ui/MainWindow.cpp:298 src/launcher/ui/MainWindow.cpp:1122
+#: src/launcher/ui/MainWindow.cpp:299 src/launcher/ui/MainWindow.cpp:1123
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Launch"
 
-#: src/launcher/ui/MainWindow.cpp:299
+#: src/launcher/ui/MainWindow.cpp:300
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "Launch the selected instance."
 
-#: src/launcher/ui/MainWindow.cpp:317
+#: src/launcher/ui/MainWindow.cpp:318
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "Main Toolbar"
 
-#: src/launcher/ui/MainWindow.cpp:322
+#: src/launcher/ui/MainWindow.cpp:323
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr "Add Instance"
 
-#: src/launcher/ui/MainWindow.cpp:323
+#: src/launcher/ui/MainWindow.cpp:324
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr "Add a new instance."
 
-#: src/launcher/ui/MainWindow.cpp:335
+#: src/launcher/ui/MainWindow.cpp:336
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr "View Instance Folder"
 
-#: src/launcher/ui/MainWindow.cpp:336
+#: src/launcher/ui/MainWindow.cpp:337
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr "Open the instance folder in a file browser."
 
-#: src/launcher/ui/MainWindow.cpp:343
+#: src/launcher/ui/MainWindow.cpp:344
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr "View Central Mods Folder"
 
-#: src/launcher/ui/MainWindow.cpp:344
+#: src/launcher/ui/MainWindow.cpp:345
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Open the central mods folder in a file browser."
 
-#: src/launcher/ui/MainWindow.cpp:350 src/launcher/ui/MainWindow.cpp:719
+#: src/launcher/ui/MainWindow.cpp:351 src/launcher/ui/MainWindow.cpp:720
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Folders"
 
-#: src/launcher/ui/MainWindow.cpp:351
+#: src/launcher/ui/MainWindow.cpp:352
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "Open one of the folders shared between instances."
 
-#: src/launcher/ui/MainWindow.cpp:366
+#: src/launcher/ui/MainWindow.cpp:367
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "Settings"
 
-#: src/launcher/ui/MainWindow.cpp:367
+#: src/launcher/ui/MainWindow.cpp:368
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "Change settings."
 
-#: src/launcher/ui/MainWindow.cpp:378
+#: src/launcher/ui/MainWindow.cpp:379
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "Report a Bug"
 
-#: src/launcher/ui/MainWindow.cpp:379
+#: src/launcher/ui/MainWindow.cpp:380
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr "Open the bug tracker to report a bug with %1."
 
-#: src/launcher/ui/MainWindow.cpp:388
+#: src/launcher/ui/MainWindow.cpp:389
 msgctxt "MainWindow|"
 msgid "Discord"
 msgstr "Discord"
 
-#: src/launcher/ui/MainWindow.cpp:389
+#: src/launcher/ui/MainWindow.cpp:390
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 discord voice chat."
 msgstr "Open %1 discord voice chat."
 
-#: src/launcher/ui/MainWindow.cpp:398
+#: src/launcher/ui/MainWindow.cpp:399
 msgctxt "MainWindow|"
 msgid "Reddit"
 msgstr "Reddit"
 
-#: src/launcher/ui/MainWindow.cpp:399
+#: src/launcher/ui/MainWindow.cpp:400
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
 msgstr "Open %1 subreddit."
 
-#: src/launcher/ui/MainWindow.cpp:408
+#: src/launcher/ui/MainWindow.cpp:409
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
 msgstr "About %1"
 
-#: src/launcher/ui/MainWindow.cpp:409
+#: src/launcher/ui/MainWindow.cpp:410
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
 msgstr "View information about %1."
 
-#: src/launcher/ui/MainWindow.cpp:415 src/launcher/ui/MainWindow.cpp:720
+#: src/launcher/ui/MainWindow.cpp:416 src/launcher/ui/MainWindow.cpp:721
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Help"
 
-#: src/launcher/ui/MainWindow.cpp:416
+#: src/launcher/ui/MainWindow.cpp:417
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
 msgstr "Get help with %1 or Minecraft."
 
-#: src/launcher/ui/MainWindow.cpp:432
+#: src/launcher/ui/MainWindow.cpp:433
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "Update"
 
-#: src/launcher/ui/MainWindow.cpp:433
+#: src/launcher/ui/MainWindow.cpp:434
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
 msgstr "Check for new updates for %1."
 
-#: src/launcher/ui/MainWindow.cpp:445
+#: src/launcher/ui/MainWindow.cpp:446
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Support %1"
 msgstr "Support %1"
 
-#: src/launcher/ui/MainWindow.cpp:446
+#: src/launcher/ui/MainWindow.cpp:447
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the %1 Patreon page."
 msgstr "Open the %1 Patreon page."
 
-#: src/launcher/ui/MainWindow.cpp:455
+#: src/launcher/ui/MainWindow.cpp:456
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "Meow"
 
-#: src/launcher/ui/MainWindow.cpp:456
+#: src/launcher/ui/MainWindow.cpp:457
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "It's a fluffy kitty :3"
 
-#: src/launcher/ui/MainWindow.cpp:464
+#: src/launcher/ui/MainWindow.cpp:465
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "Manage Accounts"
 
-#: src/launcher/ui/MainWindow.cpp:490
+#: src/launcher/ui/MainWindow.cpp:491
 msgctxt "MainWindow|"
 msgid "News Toolbar"
 msgstr "News Toolbar"
 
-#: src/launcher/ui/MainWindow.cpp:495
+#: src/launcher/ui/MainWindow.cpp:496
 msgctxt "MainWindow|"
 msgid "More news..."
 msgstr "More news..."
 
-#: src/launcher/ui/MainWindow.cpp:496
+#: src/launcher/ui/MainWindow.cpp:497
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the development blog to read more news about %1."
 msgstr "Open the development blog to read more news about %1."
 
-#: src/launcher/ui/MainWindow.cpp:513
+#: src/launcher/ui/MainWindow.cpp:514
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "Instance Toolbar"
 
-#: src/launcher/ui/MainWindow.cpp:520
+#: src/launcher/ui/MainWindow.cpp:521
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "Change Icon"
 
-#: src/launcher/ui/MainWindow.cpp:521
+#: src/launcher/ui/MainWindow.cpp:522
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "Change the selected instance's icon."
 
-#: src/launcher/ui/MainWindow.cpp:534
+#: src/launcher/ui/MainWindow.cpp:535
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "Rename"
 
-#: src/launcher/ui/MainWindow.cpp:535
+#: src/launcher/ui/MainWindow.cpp:536
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Rename the selected instance."
 
-#: src/launcher/ui/MainWindow.cpp:547
+#: src/launcher/ui/MainWindow.cpp:548
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "Change Group"
 
-#: src/launcher/ui/MainWindow.cpp:548
+#: src/launcher/ui/MainWindow.cpp:549
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "Change the selected instance's group."
 
-#: src/launcher/ui/MainWindow.cpp:561 src/launcher/ui/MainWindow.cpp:1123
+#: src/launcher/ui/MainWindow.cpp:562 src/launcher/ui/MainWindow.cpp:1124
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Launch Offline"
 
-#: src/launcher/ui/MainWindow.cpp:562
+#: src/launcher/ui/MainWindow.cpp:563
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "Launch the selected instance in offline mode."
 
-#: src/launcher/ui/MainWindow.cpp:570
+#: src/launcher/ui/MainWindow.cpp:571
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "Edit Instance"
 
-#: src/launcher/ui/MainWindow.cpp:571
+#: src/launcher/ui/MainWindow.cpp:572
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "Change the instance settings, mods and versions."
 
-#: src/launcher/ui/MainWindow.cpp:577
+#: src/launcher/ui/MainWindow.cpp:578
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "Edit Notes"
 
-#: src/launcher/ui/MainWindow.cpp:578
+#: src/launcher/ui/MainWindow.cpp:579
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "Edit the notes for the selected instance."
 
-#: src/launcher/ui/MainWindow.cpp:584
+#: src/launcher/ui/MainWindow.cpp:585
 msgctxt "MainWindow|"
 msgid "View Mods"
 msgstr "View Mods"
 
-#: src/launcher/ui/MainWindow.cpp:585
+#: src/launcher/ui/MainWindow.cpp:586
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
 msgstr "View the mods of this instance."
 
-#: src/launcher/ui/MainWindow.cpp:591
+#: src/launcher/ui/MainWindow.cpp:592
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "View Worlds"
 
-#: src/launcher/ui/MainWindow.cpp:592
+#: src/launcher/ui/MainWindow.cpp:593
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "View the worlds of this instance."
 
-#: src/launcher/ui/MainWindow.cpp:598
+#: src/launcher/ui/MainWindow.cpp:599
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "Manage Screenshots"
 
-#: src/launcher/ui/MainWindow.cpp:599
+#: src/launcher/ui/MainWindow.cpp:600
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "View and upload screenshots for this instance."
 
-#: src/launcher/ui/MainWindow.cpp:607
+#: src/launcher/ui/MainWindow.cpp:608
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Minecraft Folder"
 
-#: src/launcher/ui/MainWindow.cpp:608
+#: src/launcher/ui/MainWindow.cpp:609
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "Open the selected instance's minecraft folder in a file browser."
 
-#: src/launcher/ui/MainWindow.cpp:623
+#: src/launcher/ui/MainWindow.cpp:624
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "Config Folder"
 
-#: src/launcher/ui/MainWindow.cpp:624
+#: src/launcher/ui/MainWindow.cpp:625
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "Open the instance's config folder."
 
-#: src/launcher/ui/MainWindow.cpp:630
+#: src/launcher/ui/MainWindow.cpp:631
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "Instance Folder"
 
-#: src/launcher/ui/MainWindow.cpp:631
+#: src/launcher/ui/MainWindow.cpp:632
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "Open the selected instance's root folder in a file browser."
 
-#: src/launcher/ui/MainWindow.cpp:639
+#: src/launcher/ui/MainWindow.cpp:640
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
 msgstr "Create Shortcut"
 
-#: src/launcher/ui/MainWindow.cpp:640
+#: src/launcher/ui/MainWindow.cpp:641
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
 msgstr "Create a shortcut that launches the selected instance"
 
-#: src/launcher/ui/MainWindow.cpp:646
+#: src/launcher/ui/MainWindow.cpp:647
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "Export Instance"
 
-#: src/launcher/ui/MainWindow.cpp:647
+#: src/launcher/ui/MainWindow.cpp:648
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
 msgstr "Export the selected instance as a zip file."
 
-#: src/launcher/ui/MainWindow.cpp:653
+#: src/launcher/ui/MainWindow.cpp:654
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "Delete"
 
-#: src/launcher/ui/MainWindow.cpp:654
+#: src/launcher/ui/MainWindow.cpp:655
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "Delete the selected instance."
 
-#: src/launcher/ui/MainWindow.cpp:661
+#: src/launcher/ui/MainWindow.cpp:662
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "Copy Instance"
 
-#: src/launcher/ui/MainWindow.cpp:662
+#: src/launcher/ui/MainWindow.cpp:663
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Copy the selected instance."
 
-#: src/launcher/ui/MainWindow.cpp:798
+#: src/launcher/ui/MainWindow.cpp:799
 msgctxt "MainWindow|"
 msgid "Zoom:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:841 src/launcher/ui/MainWindow.cpp:960
+#: src/launcher/ui/MainWindow.cpp:842 src/launcher/ui/MainWindow.cpp:961
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "No instance selected"
 
-#: src/launcher/ui/MainWindow.cpp:843
+#: src/launcher/ui/MainWindow.cpp:844
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
 msgstr "Total playtime: 0s"
 
-#: src/launcher/ui/MainWindow.cpp:954 src/launcher/ui/MainWindow.cpp:1278
+#: src/launcher/ui/MainWindow.cpp:955 src/launcher/ui/MainWindow.cpp:1279
 msgctxt "MainWindow|"
 msgid "Accounts"
 msgstr "Accounts"
 
-#: src/launcher/ui/MainWindow.cpp:1013
+#: src/launcher/ui/MainWindow.cpp:1014
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Create instance"
 
-#: src/launcher/ui/MainWindow.cpp:1029
+#: src/launcher/ui/MainWindow.cpp:1030
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "Delete group '%1'"
 
-#: src/launcher/ui/MainWindow.cpp:1074
+#: src/launcher/ui/MainWindow.cpp:1075
 msgctxt "MainWindow|"
 msgid "Format"
 msgstr "Format"
 
-#: src/launcher/ui/MainWindow.cpp:1077
+#: src/launcher/ui/MainWindow.cpp:1078
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
 msgstr "Modrinth (WIP)"
 
-#: src/launcher/ui/MainWindow.cpp:1132
+#: src/launcher/ui/MainWindow.cpp:1133
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Profilers"
 
-#: src/launcher/ui/MainWindow.cpp:1144
+#: src/launcher/ui/MainWindow.cpp:1145
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "Profiler not setup correctly. Go into settings, \"External Tools\"."
 
-#: src/launcher/ui/MainWindow.cpp:1184
+#: src/launcher/ui/MainWindow.cpp:1185
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "No accounts added!"
 
-#: src/launcher/ui/MainWindow.cpp:1223
+#: src/launcher/ui/MainWindow.cpp:1224
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "No Default Account"
 
-#: src/launcher/ui/MainWindow.cpp:1298
+#: src/launcher/ui/MainWindow.cpp:1299
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Size: %1 pixels"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1338
+#: src/launcher/ui/MainWindow.cpp:1339
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Loading news..."
 
-#: src/launcher/ui/MainWindow.cpp:1351
+#: src/launcher/ui/MainWindow.cpp:1352
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "No news available."
 
-#: src/launcher/ui/MainWindow.cpp:1438
+#: src/launcher/ui/MainWindow.cpp:1439
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Builds of %1, the version this installation runs, are made until %2. After that, it keeps working, but gets no more updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1443
+#: src/launcher/ui/MainWindow.cpp:1444
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 runs on this computer and keeps getting updates. You can switch to it in Settings, Updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1446
+#: src/launcher/ui/MainWindow.cpp:1447
 msgctxt "MainWindow|"
 msgid "Updates ending"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1472
+#: src/launcher/ui/MainWindow.cpp:1473
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch to %1, which replaces %2"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1476
+#: src/launcher/ui/MainWindow.cpp:1477
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 isn't made for this computer any more, so this update switches to %2."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1511 src/launcher/ui/MainWindow.cpp:1532
+#: src/launcher/ui/MainWindow.cpp:1512 src/launcher/ui/MainWindow.cpp:1533
 msgctxt "MainWindow|"
 msgid "Switch version"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1512
+#: src/launcher/ui/MainWindow.cpp:1513
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 is available for this computer. It replaces %2, which this installation runs now.\n\n"
 "Switch now? If you keep %2, you can switch later in Settings, Updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1515
+#: src/launcher/ui/MainWindow.cpp:1516
 msgctxt "MainWindow|"
 msgid "Switch now"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1516
+#: src/launcher/ui/MainWindow.cpp:1517
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Keep %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1517
+#: src/launcher/ui/MainWindow.cpp:1518
 msgctxt "MainWindow|"
 msgid "Ask me later"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1532
+#: src/launcher/ui/MainWindow.cpp:1533
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch this installation from %1 to %2 now?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1547
+#: src/launcher/ui/MainWindow.cpp:1548
 msgctxt "MainWindow|"
 msgid "Older build"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1548
+#: src/launcher/ui/MainWindow.cpp:1549
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
@@ -3255,90 +3295,90 @@ msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
 "Install build %2 anyway?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1579 src/launcher/ui/MainWindow.cpp:1588
+#: src/launcher/ui/MainWindow.cpp:1580 src/launcher/ui/MainWindow.cpp:1589
 msgctxt "MainWindow|"
 msgid "No updates"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1589
+#: src/launcher/ui/MainWindow.cpp:1590
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3). This build stays until there is a newer one."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1595
+#: src/launcher/ui/MainWindow.cpp:1596
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Build %1 is available, but it can't be installed here:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1598
+#: src/launcher/ui/MainWindow.cpp:1599
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Builds are no longer made of %1, the version this installation runs."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1600
+#: src/launcher/ui/MainWindow.cpp:1601
 msgctxt "MainWindow|"
 msgid "Update not possible"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1607
+#: src/launcher/ui/MainWindow.cpp:1608
 msgctxt "MainWindow|"
 msgid "Update check failed"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1607
+#: src/launcher/ui/MainWindow.cpp:1608
 msgctxt "MainWindow|"
 msgid "Could not check for updates:"
-msgstr ""
-
-#: src/launcher/ui/MainWindow.cpp:1615
-#, qt-format
-msgctxt "MainWindow|"
-msgid "%1 has not been able to check for updates since %2."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1616
 #, qt-format
 msgctxt "MainWindow|"
-msgid "The last check that worked was on %1."
+msgid "%1 has not been able to check for updates since %2."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1617
+#, qt-format
 msgctxt "MainWindow|"
-msgid "No check has worked on this installation yet."
+msgid "The last check that worked was on %1."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1618
 msgctxt "MainWindow|"
-msgid "The last attempt failed with:"
+msgid "No check has worked on this installation yet."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1619
+msgctxt "MainWindow|"
+msgid "The last attempt failed with:"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1620
 #, qt-format
 msgctxt "MainWindow|"
 msgid "If this goes on, this installation may not be able to update itself any more. You can get the current version from %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1621
+#: src/launcher/ui/MainWindow.cpp:1622
 msgctxt "MainWindow|"
 msgid "Updates are not working"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1623
+#: src/launcher/ui/MainWindow.cpp:1624
 msgctxt "MainWindow|"
 msgid "Open the website"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1648 src/launcher/ui/MainWindow.cpp:1662
-#: src/launcher/ui/MainWindow.cpp:1712 src/launcher/ui/MainWindow.cpp:1761
-#: src/launcher/ui/MainWindow.cpp:1773
+#: src/launcher/ui/MainWindow.cpp:1649 src/launcher/ui/MainWindow.cpp:1663
+#: src/launcher/ui/MainWindow.cpp:1713 src/launcher/ui/MainWindow.cpp:1762
+#: src/launcher/ui/MainWindow.cpp:1774
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Error"
 
-#: src/launcher/ui/MainWindow.cpp:1648
+#: src/launcher/ui/MainWindow.cpp:1649
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -3346,49 +3386,49 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "Couldn't create folder for update downloads:\n"
 "%1"
 
-#: src/launcher/ui/MainWindow.cpp:1719
+#: src/launcher/ui/MainWindow.cpp:1720
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1723 src/launcher/ui/MainWindow.cpp:1765
+#: src/launcher/ui/MainWindow.cpp:1724 src/launcher/ui/MainWindow.cpp:1766
 msgctxt "MainWindow|"
 msgid "Stop"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1774
+#: src/launcher/ui/MainWindow.cpp:1775
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1908
+#: src/launcher/ui/MainWindow.cpp:1911
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1908
+#: src/launcher/ui/MainWindow.cpp:1911
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1930
+#: src/launcher/ui/MainWindow.cpp:1933
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1930
+#: src/launcher/ui/MainWindow.cpp:1933
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2069
+#: src/launcher/ui/MainWindow.cpp:2072
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2070
+#: src/launcher/ui/MainWindow.cpp:2073
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3396,45 +3436,45 @@ msgid "About to delete: %1\n"
 "Are you sure?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2282
+#: src/launcher/ui/MainWindow.cpp:2285
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2312
+#: src/launcher/ui/MainWindow.cpp:2315
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2314
+#: src/launcher/ui/MainWindow.cpp:2317
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2323
+#: src/launcher/ui/MainWindow.cpp:2326
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2331
+#: src/launcher/ui/MainWindow.cpp:2334
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2340
+#: src/launcher/ui/MainWindow.cpp:2343
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2354
+#: src/launcher/ui/MainWindow.cpp:2357
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "Total playtime: %1 hours"
 
-#: src/launcher/ui/MainWindow.cpp:2356
+#: src/launcher/ui/MainWindow.cpp:2359
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -4033,7 +4073,7 @@ msgid "uid"
 msgstr "uid"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
-#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:145
+#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:146
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "New Instance"
@@ -4053,7 +4093,7 @@ msgctxt "NewInstanceDialog|"
 msgid "Reset"
 msgstr "Reset"
 
-#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:70
+#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:71
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "No group"
@@ -4696,13 +4736,13 @@ msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 
-#: src/launcher/ui/MainWindow.cpp:128
+#: src/launcher/ui/MainWindow.cpp:129
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
 msgstr "No profile (%1)"
 
-#: src/launcher/ui/MainWindow.cpp:135
+#: src/launcher/ui/MainWindow.cpp:136
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
@@ -6382,172 +6422,172 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "Install the NeoForge package."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:156
+#: src/launcher/ui/pages/instance/VersionPage.cpp:157
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "Context menu"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:174
+#: src/launcher/ui/pages/instance/VersionPage.cpp:175
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1 possibly has issues."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:177
+#: src/launcher/ui/pages/instance/VersionPage.cpp:178
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1 has issues!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:191
+#: src/launcher/ui/pages/instance/VersionPage.cpp:192
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Error: "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:195
+#: src/launcher/ui/pages/instance/VersionPage.cpp:196
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Warning: "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:264
-#: src/launcher/ui/pages/instance/VersionPage.cpp:270
-#: src/launcher/ui/pages/instance/VersionPage.cpp:289
-#: src/launcher/ui/pages/instance/VersionPage.cpp:333
-#: src/launcher/ui/pages/instance/VersionPage.cpp:346
-#: src/launcher/ui/pages/instance/VersionPage.cpp:413
+#: src/launcher/ui/pages/instance/VersionPage.cpp:265
+#: src/launcher/ui/pages/instance/VersionPage.cpp:271
+#: src/launcher/ui/pages/instance/VersionPage.cpp:290
+#: src/launcher/ui/pages/instance/VersionPage.cpp:334
+#: src/launcher/ui/pages/instance/VersionPage.cpp:347
+#: src/launcher/ui/pages/instance/VersionPage.cpp:414
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Error"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:271
+#: src/launcher/ui/pages/instance/VersionPage.cpp:272
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "Couldn't load the instance profile."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:289
+#: src/launcher/ui/pages/instance/VersionPage.cpp:290
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "Couldn't remove file"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:307
+#: src/launcher/ui/pages/instance/VersionPage.cpp:308
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Select jar mods"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:307
+#: src/launcher/ui/pages/instance/VersionPage.cpp:308
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft.jar mods (*.zip *.jar)"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:317
+#: src/launcher/ui/pages/instance/VersionPage.cpp:318
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Select jar"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:317
+#: src/launcher/ui/pages/instance/VersionPage.cpp:318
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Minecraft.jar replacement (*.jar)"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:382
+#: src/launcher/ui/pages/instance/VersionPage.cpp:383
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "Change %1 version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:385
+#: src/launcher/ui/pages/instance/VersionPage.cpp:386
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
 msgstr "No intermediary mappings versions are currently available."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:386
+#: src/launcher/ui/pages/instance/VersionPage.cpp:387
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
 msgstr "Couldn't load or download the intermediary mappings version lists!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:414
+#: src/launcher/ui/pages/instance/VersionPage.cpp:415
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:440
+#: src/launcher/ui/pages/instance/VersionPage.cpp:441
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Select Forge version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:442
+#: src/launcher/ui/pages/instance/VersionPage.cpp:443
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "No Forge versions are currently available for Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:443
+#: src/launcher/ui/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Couldn't load or download the Forge version lists!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:469
+#: src/launcher/ui/pages/instance/VersionPage.cpp:470
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
 msgstr "Select NeoForge version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:471
+#: src/launcher/ui/pages/instance/VersionPage.cpp:472
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
 msgstr "No NeoForge versions are currently available for Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:472
+#: src/launcher/ui/pages/instance/VersionPage.cpp:473
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
 msgstr "Couldn't load or download the NeoForge version lists!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:498
+#: src/launcher/ui/pages/instance/VersionPage.cpp:499
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Select Fabric Loader version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:499
+#: src/launcher/ui/pages/instance/VersionPage.cpp:500
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "No Fabric Loader versions are currently available."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:500
+#: src/launcher/ui/pages/instance/VersionPage.cpp:501
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "Couldn't load or download the Fabric Loader version lists!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:525
+#: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
 msgstr "Select Quilt Loader version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:526
+#: src/launcher/ui/pages/instance/VersionPage.cpp:527
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
 msgstr "No Quilt Loader versions are currently available."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:527
+#: src/launcher/ui/pages/instance/VersionPage.cpp:528
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
 msgstr "Couldn't load or download the Quilt Loader version lists!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:570
+#: src/launcher/ui/pages/instance/VersionPage.cpp:571
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Select LiteLoader version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:572
+#: src/launcher/ui/pages/instance/VersionPage.cpp:573
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "No LiteLoader versions are currently available for Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:573
+#: src/launcher/ui/pages/instance/VersionPage.cpp:574
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Couldn't load or download the LiteLoader version lists!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:629
+#: src/launcher/ui/pages/instance/VersionPage.cpp:630
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Error updating instance"
